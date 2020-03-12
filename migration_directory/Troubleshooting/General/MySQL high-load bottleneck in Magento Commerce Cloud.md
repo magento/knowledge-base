@@ -1,0 +1,56 @@
+This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Magento Commerce Cloud.
+
+### Affected products and versions
+
+*   Magento Commerce Cloud 2.x.x
+
+### Prerequisites
+
+*   ECE Tools version 2002.0.16 and higher
+*   New Relic APM service (__Your Magento Commerce Cloud account includes the software for the New Relic APM service__ along with a license key.)
+
+<p class="info">For more information about the New Relic APM service and its setup with your Magento Commerce Cloud account, go to <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html" target="_self">New Relic Services</a> and <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-new-relic-apm" target="_self">Introduction to New Relic APM</a>.</p>
+
+## Issue
+
+<span class="wysiwyg-underline">Steps To See If The Issue Affects You</span>
+
+1.   In your New Relic APM Overview Chart, check for the first indication that MySQL has become a bottleneck. See the sample picture below where MySQL has become a bottleneck and takes most of the web transactions time:&nbsp;![KB-372_image002.png](https://support.magento.com/hc/article_attachments/360045530451/KB-372_image002.png)  
+     Notice how the red dashed line in the image shows a discernible upward trend in the MySQL web transactions time and then peaks at even higher levels.
+&nbsp;2.   From here you can then go to your __Database__ screen where you can see the second indication of high throughput or slow <code class="sql">SELECT</code> queries in MySQL, and in the below sample image you can see when sorting by __Most time consuming__, your store, in this example, is slow on <code class="sql">SELECT</code> MySQL queries.![KB-372_image003_BlurredExtension.png](https://support.magento.com/hc/article_attachments/360045824271/KB-372_image003_BlurredExtension.png)  
+       
+     Analyze the slow transactions in New Relic APM.  
+     If you see a high volume of queries or high pressure on a MySQL database, you can spread out the load across different nodes by enabling `` SLAVE `` connections.
+
+## Cause
+
+Your Magento Commerce Cloud store has high throughput or is slow on <code class="sql">SELECT</code> MySQL queries.
+
+## Solution
+
+If experiencing these 2 indications, enabling `` SLAVE `` connections for the MySQL database and Redis can help to spread out the load across different nodes.
+
+Magento can read multiple databases or Redis asynchronously. Updating the <code class="php">.magento.env.yaml</code> file by setting to <code class="php">true</code> the values <code class="php">MYSQL\_USE\_SLAVE\_CONNECTION</code> and <code class="php">REDIS\_USE\_SLAVE\_CONNECTION</code> to use a __read-only__ connection to the database to receive read-only traffic on a non-master node. This improves performance through load balancing, because only one node needs to handle read-write traffic. Set to <code class="php">false</code> to remove any existing read-only connection array from the <code class="php">env.php</code> file.
+
+### Steps
+
+1.   Edit your <code class="php">.magento.env.yaml</code> file, and add the following content:![KB-372_image004.png](https://support.magento.com/hc/article_attachments/360045783571/KB-372_image004.png) You can find more details in <a href="https://devdocs.magento.com/cloud/env/variables-deploy.html#mysql_use_slave_connection" target="_self">Deploy Variables in DevDocs</a>.
+&nbsp;2.   Commit your changes, and push your changes.
+&nbsp;3.   Pushing changes will initiate a new deploy process. Once deployment is successfully completed, you should have your Magento Commerce Cloud instance now configured to use slave connections.
+
+## Common Questions
+
+Below are the common questions you may ask when you consider to use the Slave Connections functionality for your Magento Commerce Cloud Store.
+
+<ul><li>Is there any known issues or limitation to use Slave Connections?<br/> <em>We do not have any known issues from using Slave Connections.<br/>Just make sure you are using the most recently updated ece-tools package.<br/>Instructions are here on <a href="https://devdocs.magento.com/cloud/project/ece-tools-update.html">how to update your ece-tools package</a>.</em>
+</li>&nbsp;<li>Is there any extra latency by using Slave Connections?<br/> <em><em>Yes, cross-AZ (cross-Availability Zones) latency is higher and reduces performance of a Magento Commerce Cloud instance in the case if the instance is not overloaded and can carry the whole load.<br/>But clearly if the instance is overloaded – master-slave will help with performance by spreading out the load on the MySQL Database or Redis across different nodes.<br/></em></em>
+<p class="info"><em><strong>On not-overloaded clusters</strong> – Slave Connections <strong>will slow down performance by 10-15%</strong>, which is one of the reasons it’s not default.</em></p>
+<em>But on overloaded clusters, there is a performance boost because these 10-15% are mitigated by reducing load by traffic.</em>
+</li>&nbsp;<li>Should I enable these settings for my store?<br/> <em>If you have high load or expect high load on the MySQL Database or Redis, you definitely need to enable Slave Connections.<br/>For a regular customer with average traffic, this is <strong>not</strong> an optimal setting to be enabled.</em>
+</li></ul>
+
+## Related reading
+
+*   [Deploy variables](https://devdocs.magento.com/cloud/env/variables-deploy.html)
+*   [Set up optional database replication](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html)
+*   <a href="https://devdocs.magento.com/cloud/reference/ece-tools-reference.html" target="_self">ece-tools package</a>

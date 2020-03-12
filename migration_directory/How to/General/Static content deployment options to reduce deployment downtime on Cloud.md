@@ -1,0 +1,1 @@
+Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/deploy/static-content-deployment.html" target="_self">Static content deployment strategies</a>&nbsp;DevDocs articles for details about the Static Content Deployment (SCD) options that help to speed up the deployment process and decrease the maintenance downtime on Magento Commerce Cloud.

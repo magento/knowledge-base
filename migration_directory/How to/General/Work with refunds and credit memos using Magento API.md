@@ -1,0 +1,1 @@
+Please refer to the&nbsp;<a href="https://devdocs.magento.com/guides/v2.2/rest/modules/sales/refunds.html" target="_self">Refunds</a> article on the Magento DevDocs.&nbsp;

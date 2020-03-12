@@ -1,0 +1,1 @@
+Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches" target="_self">Custom patches section of the Applying patches article</a> on Magento Devdocs.

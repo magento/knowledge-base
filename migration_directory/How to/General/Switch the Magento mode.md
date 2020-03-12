@@ -1,0 +1,1 @@
+Please refer to the <a href="https://devdocs.magento.com/guides/v2.2/config-guide/cli/config-cli-subcommands-mode.html" target="_self">Set the Magento</a> mode article on Magento Devdocs.&nbsp;

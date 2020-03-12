@@ -1,0 +1,21 @@
+<p class="p1">This article explains how customers with sufficient license/subscription authorization can access select New Relic services:</p>
+
+*   <span class="TextRun SCXW242045150 BCX4" data-contrast="none" lang="EN-US"><span class="NormalTextRun SCXW242045150 BCX4">New Relic Infrastructure can be used to monitor infrastructure performance.</span></span>
+*   <span class="TextRun SCXW242045150 BCX4" data-contrast="none" lang="EN-US"><span class="NormalTextRun SCXW242045150 BCX4"><span class="s2">New Relic APM, an application performance monitoring tool which provides insights into application performance trends.</span></span></span>
+
+__Customers&nbsp;using Magento Commerce Pro hosted on cloud infrastructure who wish to use New Relic Infrastructure:&nbsp;___  
+  
+_<span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Customers&nbsp;using Magento Commerce Pro hosted on cloud infrastructure will get the New Relic Infrastructure service with subscription auto installed.&nbsp;</span>These&nbsp;customers should have received an email containing an activation link from New Relic when their Magento project was created. <span class="TextRun BCX4 SCXW85920279" data-contrast="none" lang="EN-US"><span class="NormalTextRun BCX4 SCXW85920279">After following</span></span><span class="TextRun BCX4 SCXW85920279" data-contrast="none" lang="EN-US"><span class="NormalTextRun BCX4 SCXW85920279"> the email’s instructions </span></span><span class="TextRun BCX4 SCXW85920279" data-contrast="none" lang="EN-US"><span class="NormalTextRun BCX4 SCXW85920279">to</span></span> <span class="TextRun BCX4 SCXW85920279" data-contrast="none" lang="EN-US"><span class="NormalTextRun BCX4 SCXW85920279">register </span></span><span class="TextRun BCX4 SCXW85920279" data-contrast="none" lang="EN-US"><span class="NormalTextRun BCX4 SCXW85920279">their New Relic account</span></span><span class="TextRun BCX4 SCXW85920279" data-contrast="none" lang="EN-US"><span class="NormalTextRun BCX4 SCXW85920279">, users</span></span><span class="TextRun BCX4 SCXW85920279" data-contrast="none" lang="EN-US"><span class="NormalTextRun BCX4 SCXW85920279"> should be able to log in on </span></span>the<a href="https://login.newrelic.com/login" rel="noopener" target="_blank"> New Relic login</a> page with the username and password they created at the time.&nbsp;  
+<span class="s2">__Note__:&nbsp;<span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Customers&nbsp;using Magento Commerce Pro, hosted on cloud infrastructure,&nbsp;</span>will have New Relic Application Performance Monitoring&nbsp;(APM), in addition to the New Relic Infrastructure service.&nbsp;</span>
+
+__Customers&nbsp;using Magento Commerce Pro, hosted on cloud infrastructure, who forgot their password or did not activate their New Relic Infrastructure account:__  
+   
+ If some customers received the email containing an activation link from New Relic and registered their New Relic account BUT subsequently forgot their user credentials they need to click on the<span class="s2"><a href="https://login.newrelic.com/login" rel="noopener" target="_blank">&nbsp;New Relic login</a> page </span><span class="s2">and click "Forgot your password?". The username is their email address. They need to reset their password to log back into New Relic. Customers who do not remember receiving the email and want to use New Relic Infrastructure should also follow these steps.&nbsp;  
+  
+__Magento Commerce&nbsp;Cloud&nbsp;Starter&nbsp;customers who want to use New Relic:__  
+  
+Starter customers are not provided with the New Relic Infrastructure service as part of their subscription. However, Starter customers can use New Relic Application Performance Monitoring&nbsp;(APM) if they add a license by following the steps in DevDocs <a href="https://devdocs.magento.com/cloud/project/new-relic.html#connect-to-new-relic" rel="noopener" target="_blank">Connect to New Relic</a>.</span>
+
+## Related Reading
+
+To learn about New Relic services see DevDocs <a href="https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance" rel="noopener" target="_blank">Investigate Performance</a>.

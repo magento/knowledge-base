@@ -1,0 +1,1 @@
+Please refer to the&nbsp;<a href="https://devdocs.magento.com/guides/v2.2/rest/tutorials/grouped-product/create-and-manage-grouped-products.html" target="_self">Create and manage grouped products tutorial</a> article on Magento Devdocs.
