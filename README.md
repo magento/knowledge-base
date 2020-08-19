@@ -1,17 +1,17 @@
-## Contribute to Magento DevDocs
+## Contribute to Magento Knowledge Base
 
-Share your knowledge with the community by contributing to Magento DevDocs!
-You can contribute by creating an issue or pull request (PR) on our [DevDocs](https://github.com/magento/devdocs) GitHub repository.
+Share your knowledge with the community by contributing to Magento Knowledge Base!
+You can contribute by creating an issue or pull request (PR) on our [Knowledge Base](https://github.com/magento/knowledge-base) GitHub repository.
 We welcome all types of contributions; from minor typo fixes to new topics.
 
-DevDocs staff members and [Community Maintainers](https://devdocs.magento.com/contributor-guide/contributors.html#/community-maintainers) review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
+Knowledge Base staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
 
 ## Rewards for contributions
 
-DevDocs works with Magento Community Engineering teams and projects.
+Knowledge Base works with Magento Community Engineering teams and projects.
 As you contribute PRs, you gain [Contribution Points](https://devdocs.magento.com/contributor-guide/contributing.html#points).
 
-If you write and contribute a full topic, we will add your name (or your company's name) at the top of the DevDocs page and link it to your blog or website!
+If you write and contribute a full topic, we will add your name (or your company's name) at the top of the Knowledge Base page and link it to your blog or website!
 
 ## Get started
 
@@ -21,8 +21,8 @@ If you write and contribute a full topic, we will add your name (or your company
 
     **Note for partners:** Add [2FA](https://devdocs.magento.com/contributor-guide/contributing.html#two-factor) protection when contributing to Magento repositories.
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) the [DevDocs repository](https://github.com/magento/devdocs). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
-1. Review the [DevDocs guidelines](#contribution-guidelines).
+1. [Fork](https://help.github.com/articles/fork-a-repo/) the [Knowledge Base repository](https://github.com/magento/knowledge-base). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
+1. Review the [Knowledge Base guidelines](#contribution-guidelines).
 
 **Note:** If you use a fork instead of a branch, please set permissions to allow maintainers to edit and update the PR. See [Allowing changes to a pull request branch created from a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork) in the _GitHub documentation_.
 
@@ -32,7 +32,7 @@ The following diagram shows the contribution workflow:
 
 ![Contributing workflow](https://devdocs.magento.com/common/images/contribute-write-submit-pr.png)
 
-**Tip!** If you are not sure where to start contributing, search for issues with the [`help wanted`](https://github.com/magento/devdocs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), [`good first issue`](https://github.com/magento/devdocs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), and [`groomed`](https://github.com/magento/devdocs/issues?q=is:issue+is:open+label:%22groomed%22) labels. These issues receive higher priority for processing.
+**Tip!** If you are not sure where to start contributing, search for issues with the [`help wanted`](https://github.com/magento/knowledge-base/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), [`good first issue`](https://github.com/magento/knowledge-base/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), and [`groomed`](https://github.com/magento/knowledge-base/issues?q=is:issue+is:open+label:%22groomed%22) labels. These issues receive higher priority for processing.
 
 ### Create a branch
 
@@ -42,7 +42,7 @@ The following diagram shows the contribution workflow:
 
 ### Create a pull request
 
-1. Create a pull request to the [magento/devdocs](https://github.com/magento/devdocs) repository.
+1. Create a pull request to the [magento/knowledge-base](https://github.com/magento/knowledge-bse) repository.
 
    In general, you should use `master` as the base branch when creating a PR. If your contribution is related to a release that is in progress, use a version-specific integration branch, such as `develop`.
 
@@ -50,7 +50,7 @@ The following diagram shows the contribution workflow:
 
     **We will close your pull request if you do not complete the template.**
 
-1. After creating a pull request, a DevDocs staff member or maintainer will review it and may ask you to make revisions.
+1. After creating a pull request, a Knowledge Base staff member or maintainer will review it and may ask you to make revisions.
 
     **We will close your pull request if you do not respond to feedback in two weeks.**
 
@@ -61,21 +61,21 @@ The following diagram shows the contribution workflow:
 The following guidelines may answer most of your questions and help you get started:
 
 -  Write content using Markdown. See the [Templates](#templates) section for examples.
--  Review existing [pull requests](https://github.com/magento/devdocs/pulls) and [issues](https://github.com/magento/devdocs/issues) to avoid duplicating work.
+-  Review existing [pull requests](https://github.com/magento/knowledge-base/pulls) and [issues](https://github.com/magento/knowledge-base/issues) to avoid duplicating work.
 -  For large contributions, or changes that include multiple files, [open an issue](#report-an-issue) and discuss it with us first. This helps prevent duplicate or unnecessary work.
 -  Do not make global find-and-replace changes without first creating an issue and discussing it with us. Global changes can have unintended consequences.
--  Do not make changes to content in the [`_data/codebase`](https://github.com/magento/devdocs/tree/master/src/_data/codebase) directory, which contains auto-generated data from Magento source code. Any manual changes will be lost when the file regenerates.
+-  Do not make changes to content in the [`_data/codebase`](https://github.com/magento/knowledge-base/tree/master/src/_data/codebase) directory, which contains auto-generated data from Magento source code. Any manual changes will be lost when the file regenerates.
 -  Combine multiple small changes (such as minor editorial and technical changes) into a single pull request. This helps us efficiently and effectively facilitate your contribution.
 -  Familiarize yourself with the organization and conventions of our existing documentation before creating a pull request. Changes that are consistent with our style and conventions have a higher acceptance rate.
 
-   -  If you need to update the site navigation, ask for help in Slack ([#devdocs](https://magentocommeng.slack.com/messages/CAN932A3H)).
+   -  If you need to update the site navigation, ask for help in Slack ([#Knowledge Base](https://magentocommeng.slack.com/messages/CAN932A3H)).
 
 -  Ensure that you update the correct version(s) of documentation (v2.3). If you are not sure what directory to put your content in, just do your best. We can help re-locate it (if necessary) during the review process.
 -  Review your work for basic typos, formatting errors, or ambiguous sentences before opening a pull request.
 -  Revise pull requests according to review feedback. We will close pull requests that require an inordinate amount of time to review and process (especially for minor changes) if you fail to make revisions according to review feedback.
--  Do not directly contact DevDocs team members or maintainers on Slack to review your pull request unless it has been open for more than five days. We have a process and queue for pull requests that everyone must follow.
--  Get recognized on the DevDocs web site for writing new topics! Add your name and a link to your company website or GitHub profile to the file metadata so that we can display it on the page. See [Edit metadata](#edit-metadata).
--  We no longer recognize individual community members who contribute features to the Magento 2 codebase in the corresponding feature topic(s) on the DevDocs website. Magento recognizes these contributions in more appropriate channels (for example, the [Magento DevBlog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)).
+-  Do not directly contact Knowledge Base team members or maintainers on Slack to review your pull request unless it has been open for more than five days. We have a process and queue for pull requests that everyone must follow.
+-  Get recognized on the Knowledge Base web site for writing new topics! Add your name and a link to your company website or GitHub profile to the file metadata so that we can display it on the page. See [Edit metadata](#edit-metadata).
+-  We no longer recognize individual community members who contribute features to the Magento 2 codebase in the corresponding feature topic(s) on the Knowledge Base website. Magento recognizes these contributions in more appropriate channels (for example, the [Magento DevBlog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)).
 
 ## Tips for writing content
 
@@ -93,17 +93,17 @@ Use the following guidelines to help you with the writing process:
 
 ### Review changes locally
 
-_(Optional)_ To review your changes in HTML output, follow the instructions in the [README](https://github.com/magento/devdocs/blob/master/README.md) to build the devdocs site locally using Jekyll.
+_(Optional)_ To review your changes in HTML output, follow the instructions in the [README](https://github.com/magento/knowledge-base/blob/master/README.md) to build the Knowledge Base site locally using Jekyll.
 
 ### Templates
 
 We provide templates to help you get started writing new content and understanding Markdown formatting:
 
--  **General topic template** - [Markdown](https://github.com/magento/devdocs/blob/master/contributor-guide/templates/basic_template.md) | [HTML](https://devdocs.magento.com/contributor-guide/templates/basic_template.html): This is a template for writing any topic with example formats and styles.
+-  **General topic template** - [Markdown](https://github.com/magento/knowledge-base/blob/master/contributor-guide/templates/basic_template.md) | [HTML](https://devdocs.magento.com/contributor-guide/templates/basic_template.html): This is a template for writing any topic with example formats and styles.
 -  **Tutorial templates**: These templates provide example formats and styles for step-by-step instructions (like how-tos). Each file adds navigation buttons when content is generated. Templates include:
-   -  First introduction topic - [Markdown](https://github.com/magento/devdocs/blob/master/contributor-guide/templates/tutorial-template-first.md) | [HTML](https://devdocs.magento.com/contributor-guide/templates/tutorial-template-first.html): Introduction to a tutorial for prerequisites and listing steps
-   -  Middle topic - [Markdown](https://github.com/magento/devdocs/blob/master/contributor-guide/templates/tutorial-template-middle.md) |  [HTML](https://devdocs.magento.com/contributor-guide/templates/tutorial-template-middle.html): Use for each step in a tutorial.
-   -  Final step topic - [Markdown](https://github.com/magento/devdocs/blob/master/contributor-guide/templates/tutorial-template-last.md) | [HTML](https://devdocs.magento.com/contributor-guide/templates/tutorial-template-last.html): Use for the last step of the tutorial.
+   -  First introduction topic - [Markdown](https://github.com/magento/knowledge-base/blob/master/contributor-guide/templates/tutorial-template-first.md) | [HTML](https://devdocs.magento.com/contributor-guide/templates/tutorial-template-first.html): Introduction to a tutorial for prerequisites and listing steps
+   -  Middle topic - [Markdown](https://github.com/magento/knowledge-base/blob/master/contributor-guide/templates/tutorial-template-middle.md) |  [HTML](https://devdocs.magento.com/contributor-guide/templates/tutorial-template-middle.html): Use for each step in a tutorial.
+   -  Final step topic - [Markdown](https://github.com/magento/knowledge-base/blob/master/contributor-guide/templates/tutorial-template-last.md) | [HTML](https://devdocs.magento.com/contributor-guide/templates/tutorial-template-last.html): Use for the last step of the tutorial.
 
 ### Edit metadata
 
@@ -130,27 +130,27 @@ contributor_link:
 
 ## Report an issue
 
-If you find a typo or errors in Magento DevDocs, you can either fix it with a pull request (as described above) or you can report it by creating an issue in the DevDocs GitHub repository.
+If you find a typo or errors in Magento Knowledge Base, you can either fix it with a pull request (as described above) or you can report it by creating an issue in the Knowledge Base GitHub repository.
 
 You must complete the issue template. We will close your issue if you fail to complete the template. Enter as much information as you can, including content corrections, steps to reproduce, command or code updates, or questions for clarifications.
 
-**Note:** Check the existing [issues](https://github.com/magento/devdocs/issues) on GitHub to see if someone has already reported the issue.
+**Note:** Check the existing [issues](https://github.com/magento/knowledge-base/issues) on GitHub to see if someone has already reported the issue.
 
 You can provide feedback using the following options:
 
--  Have general feedback? Create an issue on [GitHub DevDocs](https://github.com/magento/devdocs/issues/new/choose).
--  Have feedback on a specific DevDocs page? Click the **Give us feedback** link at the top right of the page to report on the currently open topic.
+-  Have general feedback? Create an issue on [GitHub Knowledge Base](https://github.com/magento/knowledge-base/issues/new/choose).
+-  Have feedback on a specific Knowledge Base page? Click the **Give us feedback** link at the top right of the page to report on the currently open topic.
 
    ![Report an issue](https://devdocs.magento.com/common/images/contribute-feedback-link.png)
 
--  Have a Community code contribution that needs documentation? Create an issue to [request DevDocs content](https://github.com/magento/devdocs/issues/new?template=COMMUNITY_ISSUE_TEMPLATE.md).
+-  Have a Community code contribution that needs documentation? Create an issue to [request Knowledge Base content](https://github.com/magento/knowledge-base/issues/new?template=COMMUNITY_ISSUE_TEMPLATE.md).
 
-## Contact DevDocs
+## Contact Knowledge Base
 
-Have a question? Need help? Magento DevDocs, Maintainers, and other Contributors are available through:
+Have a question? Need help? Magento Knowledge Base, Maintainers, and other Contributors are available through:
 
 -  [Slack](https://magentocommeng.slack.com/messages/CAN932A3H) ([Join us](http://tinyurl.com/engcom-slack))
--  [Twitter @MagentoDevDocs](https://twitter.com/MagentoDevDocs)
+-  [Twitter @MagentoKnowledge Base](https://twitter.com/MagentoKnowledgeBase)
 -  [E-mail](mailto:DL-Magento-Doc-Feedback@magento.com)
 
-Thank you for contributing your brilliance to Magento DevDocs!!
+Thank you for contributing your brilliance to Magento Knowledge Base!!
