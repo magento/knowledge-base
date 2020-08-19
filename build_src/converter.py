@@ -1,6 +1,5 @@
 import json
 import requests 
-import datetime
 import html2markdown
 import os
 from dotenv import load_dotenv
