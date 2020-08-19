@@ -4,20 +4,10 @@ import datetime
 import html2markdown
 import os
 from dotenv import load_dotenv
-from config import base_path,user,articles
 
 load_dotenv()
 
 ###################### Don't Touch! ######################
-
-password_prod = os.getenv('PWD_PROD')
-headers = {'content-type': 'application/json'}
-date = str(datetime.datetime.now())
-
-article_url_list = list(map(lambda x: f'https://magento.zendesk.com/api/v2/help_center/articles/{x}.json?include=categories,sections',articles))
-
-
-articles_json = []
 
 def check_directory(json, type, path):
     raw = json[type][0]
@@ -32,9 +22,14 @@ def save_article(save_path, article, id):
             f.write(article)
     print(f'\n Successfully wrote article # {id}')
 
-def get_published_articles(list):
-    for url in list:
-        id = list.index(url) + 1
+def get_published_articles(user, base_path, articles):
+    password_prod = os.getenv('PWD_PROD')
+    headers = {'content-type': 'application/json'}
+    
+    article_url_list = list(map(lambda x: f'https://magento.zendesk.com/api/v2/help_center/articles/{x}.json?include=categories,sections',articles))
+
+    for url in article_url_list:
+        id = article_url_list.index(url) + 1
         response = requests.get(url, auth=(user, password_prod), headers=headers)
         json = response.json()
 
@@ -58,7 +53,7 @@ def get_published_articles(list):
 
         
 
-get_published_articles(article_url_list)
+
 
 
 
