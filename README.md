@@ -3,27 +3,6 @@
 A site for answering common questions, providing best practices, helpful troubleshooting guides, and announcements for your Magento products. 
 
 
-### Installation
-
-Instructions for how to download/install the code onto your machine.
-
-Example:
-```
-npm install myProject --save
-```
-
-### Usage
-
-Usage instructions for your code.
-
-Example:
-
-```
-var myMod = require('mymodule');
-
-myMod.foo('hi');
-```
-
 ## Contribute to Magento Knowledge Base
 
 Share your knowledge with the community by contributing to Magento Knowledge Base!
