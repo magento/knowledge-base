@@ -1,7 +1,34 @@
+## Magento Knowledge Base
+
+A site for answering common questions, providing best practices, helpful troubleshooting guides, and announcements for your Magento products. 
+
+
+### Installation
+
+Instructions for how to download/install the code onto your machine.
+
+Example:
+```
+npm install myProject --save
+```
+
+### Usage
+
+Usage instructions for your code.
+
+Example:
+
+```
+var myMod = require('mymodule');
+
+myMod.foo('hi');
+```
+
 ## Contribute to Magento Knowledge Base
 
 Share your knowledge with the community by contributing to Magento Knowledge Base!
-You can contribute by creating an issue or pull request (PR) on our [Knowledge Base](https://github.com/magento/knowledge-base) GitHub repository.
+You can contribute by creating an issue or pull request (PR) on our [Knowledge Base](https://github.com/magento/knowledge-base) GitHub repository. Read the [Contributing Guide](./.github/CONTRIBUTING.md) for more information.
+
 We welcome all types of contributions; from minor typo fixes to new topics.
 
 Knowledge Base staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
@@ -154,3 +181,7 @@ Have a question? Need help? Magento Knowledge Base, Maintainers, and other Contr
 -  [E-mail](mailto:DL-Magento-Doc-Feedback@magento.com)
 
 Thank you for contributing your brilliance to Magento Knowledge Base!!
+
+### Licensing
+
+This project is licensed under the Apache V2 License. See [LICENSE](LICENSE) for more information.
