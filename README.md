@@ -184,4 +184,4 @@ Thank you for contributing your brilliance to Magento Knowledge Base!!
 
 ### Licensing
 
-This project is licensed under the Apache V2 License. See [LICENSE](LICENSE) for more information.
+This project is licensed under the Open Software License ("OSL") v. 3.0. See [LICENSE](LICENSE) for more information.
