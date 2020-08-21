@@ -1,3 +1,10 @@
+# Copyright 2020 Adobe
+# All Rights Reserved.
+
+# NOTICE: Adobe permits you to use, modify, and distribute this file in
+# accordance with the terms of the Adobe license agreement accompanying
+# it.
+
 import json
 import requests 
 import html2markdown
@@ -51,12 +58,9 @@ def get_published_articles(user, base_path, articles):
             save_article(save_path, body, id)
 
         
-# Copyright 2020 Adobe
-# All Rights Reserved.
 
-# NOTICE: Adobe permits you to use, modify, and distribute this file in
-# accordance with the terms of the Adobe license agreement accompanying
-# it.
+
+
 
 
 

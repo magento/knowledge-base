@@ -1,3 +1,10 @@
+# Copyright 2020 Adobe
+# All Rights Reserved.
+
+# NOTICE: Adobe permits you to use, modify, and distribute this file in
+# accordance with the terms of the Adobe license agreement accompanying
+# it.
+
 import json
 import requests 
 import datetime
@@ -91,9 +98,3 @@ for category in raw_cats:
 print(len(articles_json))
 
 
-# Copyright 2020 Adobe
-# All Rights Reserved.
-
-# NOTICE: Adobe permits you to use, modify, and distribute this file in
-# accordance with the terms of the Adobe license agreement accompanying
-# it.
