@@ -1,0 +1,1 @@
+Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html" target="_self">Profile database queries</a> article on Magento Devdocs.

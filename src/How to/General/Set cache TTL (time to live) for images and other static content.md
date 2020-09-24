@@ -1,0 +1,1 @@
+Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/set-cache.html" target="_self">Set cache for static files</a> article on Magento Devdocs.

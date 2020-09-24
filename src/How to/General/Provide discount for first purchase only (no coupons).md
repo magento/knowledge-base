@@ -1,0 +1,1 @@
+Please refer to the&nbsp;<a href="https://docs.magento.com/m2/ee/user_guide/marketing/price-rule-discount-first-purchase.html" target="_self">Discount with First Purchase</a> article on Magento User Guides.&nbsp;

@@ -1,0 +1,1 @@
+Please refer to the&nbsp;<a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials" target="_self">Fastly service account and credentials</a> section of the Fastly documentation on Magento DevDocs.&nbsp;

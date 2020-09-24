@@ -1,0 +1,1 @@
+Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html" target="_self">Set up Fastly</a> article on Magento Devdocs.

@@ -1,0 +1,1 @@
+Please refer to the&nbsp;<a href="https://devdocs.magento.com/guides/v2.2/cloud/project/log-locations.html" target="_self">Log locations</a> article on Magento Devdocs for information about logs location for Magento Commerce Cloud.

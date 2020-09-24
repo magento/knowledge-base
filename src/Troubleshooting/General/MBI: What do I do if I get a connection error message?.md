@@ -1,0 +1,3 @@
+If you receive a [reauthentication message,](https://support.magento.com/hc/en-us/articles/360016733151) you may have to re-enter your account or API credentials. Check out the connection instructions for the problem integration for a refresher on how to re-enter or, in some cases, generate new credentials.
+
+If the problem persists, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
