@@ -1,7 +1,7 @@
 import json
 import requests 
 import datetime
-import markdown
+import html2markdown
 import os
 from dotenv import load_dotenv
 from config import base_path,user,articles
@@ -51,7 +51,7 @@ def get_published_articles(list):
         if draft == False:
             title = raw_article['title']
             title = title.replace('/', 'or')
-            body = markdown.markdown(raw_article['body'])
+            body = html2markdown.convert(raw_article['body'])
 
             save_path = f'{sect_directory}/{title}.md'
             save_article(save_path, body, id)

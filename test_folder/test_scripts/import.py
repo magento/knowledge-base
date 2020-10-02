@@ -7,10 +7,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-user=os.getenv('USER')+"@adobe.com/token"
+
+base_path="/Users/cediuser=os.getenv('USER')+"@adobe.com/token"
 password_prod=os.getenv('PWD_PROD')
-headers={'content-type': 'application/json'}
-base_path="/Users/cedilloj/Desktop/All_Python_Scripts/kb_to_zd/migration_directory"
+headers={'content-type': 'application/json'}lloj/Desktop/All_Python_Scripts/kb_to_zd/migration_directory"
 date = str(datetime.datetime.now())
 articles_json = []
 
