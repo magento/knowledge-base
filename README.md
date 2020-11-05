@@ -44,7 +44,7 @@ myMod.foo('hi');
 
 Contributions are welcomed! Read the [Contributing Guide](./.github/CONTRIBUTING.md) for more information.
 
-Community
+UCJ's basic notes on community contribution flow
 
 1. Fork repo
 2. Make edits on forked repo
