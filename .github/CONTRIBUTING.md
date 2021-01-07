@@ -1,4 +1,4 @@
-## Contribute to Magento DevDocs
+## Contribute to Magento Support Knowledge Base
 
 Share your knowledge with the community by contributing to Magento DevDocs!
 You can contribute by creating an issue or pull request (PR) on our [DevDocs](https://github.com/magento/devdocs) GitHub repository.
