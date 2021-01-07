@@ -3,7 +3,7 @@ exclude_rule 'MD002'
 rule 'MD003', :style => :atx # Header style
 rule 'MD004' # Unordered list style; default "consistent"
 rule 'MD005' # Inconsistent indentation for list items at the same level
-rule 'MD006' # Consider starting bulleted lists at the beginning of the line
+exclude_rule 'MD006' # Consider starting bulleted lists at the beginning of the line
 rule 'MD007', :indent => 3 # Unordered list indentation
 rule 'MD009' # Trailing spaces; default: 0
 rule 'MD010' # Hard tabs
