@@ -1,16 +1,26 @@
-Using the shared access&nbsp;functionality, you may provide a limited access to your Magento Account for other people to let them work with your support tickets.
+---
+title: What is shared access to Magento Account?
+link: https://support.magento.com/hc/en-us/articles/360020385252-What-is-shared-access-to-Magento-Account-
+labels: shared access
+---
 
-You can provide and manage shared access using your Magento Account page at&nbsp;<a class="external-link" href="https://account.magento.com/" rel="nofollow">https://account.magento.com</a>. See the&nbsp;<a href="https://support.magento.com/hc/en-us/articles/360020694351-Provide-shared-access-to-Magento-Account" target="_self">Provide shared access to Magento Account</a> article for details.
+Using the shared access functionality, you may provide a limited access to your Magento Account for other people to let them work with your support tickets.
 
-## Who might need shared access?
+ You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/). See the [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360020694351-Provide-shared-access-to-Magento-Account) article for details.
 
-Below are the examples (not a complete list!) of people who might require shared access to your Magento Account:
+ Who might need shared access?
+-----------------------------
 
-*   Trusted employees and managers
-*   Partners
-*   System integrators
-*   Service providers
+ Below are the examples (not a complete list!) of people who might require shared access to your Magento Account:
 
-## Recommended Reading:
+ 
+ * Trusted employees and managers
+ * Partners
+ * System integrators
+ * Service providers
+ 
+ Recommended Reading:
+--------------------
 
-<a href="https://support.magento.com/hc/en-us/articles/360020694351-Provide-shared-access-to-Magento-Account" target="_self">Provide shared access to Magento Account</a>
+ [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360020694351-Provide-shared-access-to-Magento-Account)
+

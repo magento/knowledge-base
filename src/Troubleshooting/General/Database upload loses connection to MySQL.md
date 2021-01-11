@@ -1,42 +1,45 @@
-This article covers the issue when the database upload loses connection to MySQL.
+---
+title: Database upload loses connection to MySQL
+link: https://support.magento.com/hc/en-us/articles/360037591172-Database-upload-loses-connection-to-MySQL
+labels: Magento Commerce Cloud,database,disk space,lost connection,Lost connection to MySQL server,2.3.x,2.2.x,how to
+---
 
-## AFFECTED VERSIONS AND PRODUCTS
+This article provides a solution for when the database upload loses connection to MySQL.
 
-Magento Commerce Cloud 2.2.x., 2.3.x
+ AFFECTED VERSIONS AND PRODUCTS
+------------------------------
 
-## Issue
+ Magento Commerce Cloud 2.2.x., 2.3.x
 
-The database does not upload to master/integration branches on Pro, or any branch on Starter with the symptom being the inability to connect. You see this error in the CLI.&nbsp;<span class="wysiwyg-color-red90">&nbsp;&nbsp;</span>
+ Issue
+-----
 
-<pre class="line-numbers"><code class="language-clike">web@ddc35c264bd89a72042f1f3e5a:~$ mysql -h database.internal -u user -p main
-Enter password:
-ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)"
-</code></pre>
+ The database does not upload to primary/integration branches on Pro, or any branch on Starter with the symptom being the inability to connect. You see this error in the CLI.  
 
-## Cause
+ web@ddc35c264bd89a72042f1f3e5a:~$ mysql -h database.internal -u user -p main Enter password: ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)"  Cause
+-----
 
-This is usually due to a lack of disk space for importing the database.
+ This is usually due to a lack of disk space for importing the database.
 
-## Solution
+ Solution
+--------
 
-First, check if there is a lack of disk space. To do so run the&nbsp;`` netcat ``&nbsp;command in the CLI against the database port 3306, there will be a disk full message if it is full:&nbsp;
+ First, check if there is a lack of disk space. To do so run the netcat command in the CLI against the database port 3306, there will be a disk full message if it is full: 
 
-<pre class="line-numbers"><code class="language-clike">web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306 <br/>
-Database out of space</code></pre>
+ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306   
+ Database out of space You will need to allocate more space for the database in your services.yaml and deploy, if you have some space unused. For steps see [Service Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
 
-You will need to allocate more space for the database in your `` services.yaml `` and deploy, if you have some space unused. For steps see <a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space" rel="noopener" target="_blank">Service Disk Space</a>.
+ Note: On the Pro plan, you can check the allocated space on your partition by running the following command:  
+ df -h
 
-Note: On the Pro plan, you can check the allocated space on your partition by running the following command:  
- <code class="c-mrkdwn__code" data-stringify-type="code">df -h</code>
+ Expect output similar to the following output. In this example, 10GB of the 25GB allocated is used, with 15GB of MySQL space not being used.
 
-Expect output similar to the following output. In this example, 10GB of the 25GB allocated is used, with 15GB of MySQL space not being used.
+ f240jestone3wt@i-087r2a25fdac80726:~$ df -h|grep 'File\|xvd'  
+ Filesystem Size Used Avail Use% Mounted on  
+ /dev/xvda1 59G 15G 42G 26% /  
+ /dev/xvdj 25G 10G 15G 41% /data/mysql  
+ /dev/xvdi 25G 22G 2.6G 90% /data/exports Related reading
+---------------
 
-<pre class="line-numbers"><code class="language-clike">f240jestone3wt@i-087r2a25fdac80726:~$ df -h|grep 'File\|xvd'<br/>
-Filesystem                                         Size  Used Avail Use% Mounted on<br/>
-/dev/xvda1                                          59G   15G   42G  26% /<br/>
-/dev/xvdj                                           25G   10G   15G  41% /data/mysql<br/>
-/dev/xvdi                                           25G   22G  2.6G  90% /data/exports</code></pre>
+ DevDocs [Manage Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
 
-## Related reading
-
-DevDocs <a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html" rel="noopener" target="_blank">Manage Disk Space</a>

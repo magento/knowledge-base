@@ -1,35 +1,48 @@
+---
+title: Bundle options order is not updated by import
+link: https://support.magento.com/hc/en-us/articles/360036212671-Bundle-options-order-is-not-updated-by-import
+labels: Magento Commerce Cloud,Magento Commerce,order,import,bundle options,2.3.x,2.2.x,how to
+---
+
 This article provides a solution for the issue when after importing products from a .csv file, the bundle product options appear in a different order than they are listed in the import file.
 
-### Affected products and versions
+ ### Affected products and versions
 
-*   Magento Commerce Cloud&nbsp;2.2.x, 2.3.x
-*   Magento Commerce&nbsp;2.2.x, 2.3.x
-*   Magento Open Source
+ 
+ * Magento Commerce Cloud 2.2.x, 2.3.x
+ * Magento Commerce 2.2.x, 2.3.x
+ * Magento Open Source
+ 
+ Issue
+-----
 
-## Issue
+ Steps to reproduce:
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+ Prerequisites: you have a valid .csv file containing bundle products.
 
-Prerequisites: you have a valid .csv file containing bundle products.
+ 
+ 2. Import the file using the [Import functionality](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
+ 4. Open the bundle product page.
+ 
+ Expected result:
 
-1.   Import the file using the <a href="https://docs.magento.com/m2/ee/user_guide/system/data-import.html" target="_self">Import functionality</a>.
-2.   Open the bundle product page.
+ The options order is the same as in the .csv file.
 
-<span class="wysiwyg-underline">Expected result:</span>
+ Actual result:
 
-The options order is the same as in the .csv file.
+ The options order is different from that in the .csv file.
 
-<span class="wysiwyg-underline">Actual result:</span>
+ Cause
+-----
 
-The options order is different from that in the .csv file.
+ The options position was not declared explicitly.
 
-## Cause
+ Solution
+--------
 
-The options position was not declared explicitly.
+ 
+ 2. Declare a position explicitly for each option in the position parameter of the bundle\_values column in the .csv file. For detailed instructions see [Edit the Product Data](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data).
+ 4. Repeat the import operation.
+ 
+ For general information on Import, see the [Importing Bundle Product](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html) article in Magento User Guide.
 
-## Solution
-
-1.   Declare a position&nbsp;explicitly for each option in the `` position `` parameter of the `` bundle_values `` column in the .csv file.&nbsp;For detailed instructions see <a href="https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data" target="_self">Edit the Product Data</a>.
-2.   Repeat the import operation.
-
-For general information on Import, see the <a href="https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html" target="_self">Importing Bundle Product</a> article in Magento User Guide.

@@ -1,49 +1,65 @@
-This article provides a patch for the known Magento Commerce (Cloud) 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers.
+---
+title: Checkout pages not loading when ad blocker is enabled
+link: https://support.magento.com/hc/en-us/articles/360025397571-Checkout-pages-not-loading-when-ad-blocker-is-enabled
+labels: Magento Commerce Cloud,patch,troubleshooting,checkout,adblock,known issues,2.2.2
+---
 
-## Issue
+This article provides a patch for the known Magento Commerce Cloud 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers.
 
-If Google Analytics is enabled for the store, when a customer with installed uBlock or other ad blocker proceeds to checkout, the&nbsp;`` trackingCode.js `` file is blocked from loading and&nbsp;RequireJS breaks the JS execution flow. This&nbsp;causes problems with loading the checkout page.
+ Issue
+-----
 
-<span class="wysiwyg-underline">Steps to reproduce</span>:
+ If Google Analytics is enabled for the store, when a customer with installed uBlock or other ad blocker proceeds to checkout, the trackingCode.js file is blocked from loading and RequireJS breaks the JS execution flow. This causes problems with loading the checkout page.
 
-Prerequisites: An ad blocker must be installed and active in browser.
+ Steps to reproduce:
 
-1.   In the Magento Admin, enable and configure the Google Analytics functionality.
-2.   Open a product page on the store front.
-3.   Add products to cart.
-4.   Click the __Go to Checkout__&nbsp;link.
+ Prerequisites: An ad blocker must be installed and active in browser.
 
-<span class="wysiwyg-underline">Expected result</span>:  
+ 
+ 2. In the Magento Admin, enable and configure the Google Analytics functionality.
+ 4. Open a product page on the store front.
+ 6. Add products to cart.
+ 8. Click the **Go to Checkout** link.
+ 
+ Expected result:  
  Checkout page loads and a customer can complete checkout.
 
-<span class="wysiwyg-underline">Actual result</span>:  
+ Actual result:  
  Checkout page does not load, the loading spinner never disappears.
 
-## Patch
+ Patch
+-----
 
-The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+ The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-<a href="https://support.magento.com/hc/en-us/article_attachments/360023954791/MDVA-9353_EE_2.2.2_v1.composer.patch" rel="noopener" target="_blank">Download MDVA-9353\_EE\_2.2.2\_v1.composer.patch</a>
+ [Download MDVA-9353\_EE\_2.2.2\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023954791/MDVA-9353_EE_2.2.2_v1.composer.patch)
 
-### Compatible Magento versions:
+ ### Compatible Magento versions:
 
-The patch was created for:
+ The patch was created for:
 
-*   Magento Commerce (Cloud) 2.2.2
+ 
+ * Magento Commerce (Cloud) 2.2.2
+ 
+ The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
 
-The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+ 
+ * Magento Commerce (Cloud) from 2.1.0 to 2.1.14
+ * Magento Commerce (Cloud) from 2.2.0 to 2.2.1, and from 2.2.3 to 2.2.5
+ * Magento Commerce from 2.1.0 to 2.1.14
+ * Magento Commerce from 2.2.0 to 2.2.5
+ 
+ How to apply the patch
+----------------------
 
-*   Magento Commerce (Cloud) from 2.1.0 to 2.1.14
-*   Magento Commerce (Cloud) from 2.2.0 to 2.2.1, and from 2.2.3 to 2.2.5
-*   Magento Commerce from 2.1.0 to 2.1.14
-*   Magento Commerce from 2.2.0 to 2.2.5
+ See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
-## How to apply the patch
+ Useful links
+------------
 
-See <a href="https://support.magento.com/hc/en-us/articles/360028367731" target="_self">How to apply a composer patch provided by Magento</a> for instructions.
+ 
+ * [The issue discussed on GitHub](https://github.com/magento/magento2/pull/13061)
+ 
+ Attached Files
+--------------
 
-## Useful links
-
-*   <a href="https://github.com/magento/magento2/pull/13061" target="_self">The issue discussed on GitHub</a>
-
-## Attached Files

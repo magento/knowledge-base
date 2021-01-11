@@ -1,21 +1,35 @@
-This article lists the official documentation resources that discuss how Magento complies with the GDPR (European Union's General Data Protection Regulation).&nbsp;
+---
+title: Magento GDPR resources
+link: https://support.magento.com/hc/en-us/articles/360003885754-Magento-GDPR-resources
+labels: devdocs,Magento,data,FAQ,2.x.x,1.x,GDPR
+---
 
-## Magento is Ready for GDPR
+This article lists the official documentation resources that discuss how Magento complies with the GDPR (European Union's General Data Protection Regulation). 
 
-The [official homepage](https://magento.com/gdpr) for all Magento GDPR resources.
+ Magento is Ready for GDPR
+-------------------------
 
-## Official Magento statements
+ The [official homepage](https://magento.com/gdpr) for all Magento GDPR resources.
 
-*   GDPR and Magento: New Steps to Protect Privacy in 2018 ([PDF](https://magento.com/sites/default/files/Magento-GDPR-Overview.pdf))
-*   Magento GDPR Frequently Asked Questions ([PDF](https://magento.com/sites/default/files/Magento-GDPR-FAQs.pdf))
+ Official Magento statements
+---------------------------
 
-## GDPR compliance on DevDocs: Magento 2.X and 1.X
+ 
+ * GDPR and Magento: New Steps to Protect Privacy in 2018 ([PDF](https://magento.com/sites/default/files/Magento-GDPR-Overview.pdf))
+ * Magento GDPR Frequently Asked Questions ([PDF](https://magento.com/sites/default/files/Magento-GDPR-FAQs.pdf))
+ 
+ GDPR compliance on DevDocs: Magento 2.X and 1.X
+-----------------------------------------------
 
-<ul><li class="page-heading"><a href="https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-2x.html" target="_self">Magento 2.x GDPR compliance</a></li><li class="page-heading">
-<p class="page-heading"><a href="https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-1x.html" target="_self">Magento 1.x GDPR compliance</a></p>
-</li></ul>
+ 
+ * [Magento 2.x GDPR compliance](https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-2x.html)
+ *  [Magento 1.x GDPR compliance](https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-1x.html)
 
-These DevDocs topics provide data flow diagrams and database information that helps Merchants and System Integrators to resolve use cases similar to the following:
+ 
+ 
+ These DevDocs topics provide data flow diagrams and database information that helps Merchants and System Integrators to resolve use cases similar to the following:
 
-*   A shopper asks for a copy of the data the merchant has stored about her
-*   A shopper requests that all information about him be deleted
+ 
+ * A shopper asks for a copy of the data the merchant has stored about her
+ * A shopper requests that all information about him be deleted
+ 

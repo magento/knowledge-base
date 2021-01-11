@@ -1,57 +1,68 @@
-This article talks about the issues you might have deploying Magento Cloud caused by access key ownership conflict.
+---
+title: Deployment issues relating to account permissions and access keys
+link: https://support.magento.com/hc/en-us/articles/360031380671-Deployment-issues-relating-to-account-permissions-and-access-keys
+labels: Magento Commerce Cloud,deployment,troubleshooting,access key
+---
 
-### Affected products and versions
+This article provides a solution for issues with deploying Magento Cloud caused by access key ownership conflict.
 
-*   Magento Commerce Cloud, all supported versions
+ ### Affected products and versions
 
-## Issue
+ 
+ * Magento Commerce Cloud, all supported versions
+ 
+ Issue
+-----
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+ Steps to reproduce
 
-Prerequisites: The Cloud license is associated with Contact A (email address: _<u>first@e.mail</u>_)
+ Prerequisites: The Cloud license is associated with Contact A (email address: *first@e.mail*)
 
-1.   Contact A created Magento Commerce access keys on their account (Key X) and installs it on the Cloud.
-2.   Contact B (email address:&nbsp;_<u>second@e.mail</u>_) purchased an extension using his account and created the access keys for installing the extension (Key Y).
-3.   Contact A then left the company, and the license (ownership) was then transferred to Contact B.
-4.   System integrator tries to install the extension on the Cloud environment using Key X.
+ 
+ 2. Contact A created Magento Commerce access keys on their account (Key X) and installs it on the Cloud.
+ 4. Contact B (email address: *second@e.mail*) purchased an extension using his account and created the access keys for installing the extension (Key Y).
+ 6. Contact A then left the company, and the license (ownership) was then transferred to Contact B.
+ 8. System integrator tries to install the extension on the Cloud environment using Key X.
+ 
+ Expected result
 
-<span class="wysiwyg-underline">Expected result</span>
+ Extension is successfully installed.
 
-Extension is successfully installed.
+ Actual result
 
-<span class="wysiwyg-underline">Actual result</span>
+ Extension is not installed, because deployment fails.
 
-Extension is not installed, because deployment fails.
+ Cause
+-----
 
-## Cause
+ Both keys were are seen to be assigned to the contact role, which causes a conflict.
 
-Both keys were are seen to be assigned to the contact role, which causes a conflict.
+ Solution
+--------
 
-## Solution
+ If a deployment failed after a change was made to the Primary Contact on the account (with both the original account and the new account each having their own access keys), and the keys have been transferred from the original account to the new account, you need to disable the keys from the original account. In the terms of the example above, the key X should be disabled.
 
-If a deployment failed after a change was made to the Primary Contact&nbsp;on the account (with both the original account and the new account each having their own access keys), and the keys have been transferred from the original account to the new account, you need to disable the keys from the original account. In the terms of the example above, the key X should be disabled.
+ ### How to disable the access key
 
-### How to disable the access key
+ If you do not have access to the [Magento Marketplace](https://marketplace.magento.com/) account associated with the old key, [contact Magento Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to have the key disabled.
 
-If you do not have access to the <a href="https://marketplace.magento.com/" target="_self">Magento Marketplace</a> account associated with the old key, <a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket" target="_self">contact Magento Support</a> to have the key disabled.
+ If you have access to the Marketplace account associated with the old key, take the following steps to disable the key: 
 
-If you have access to the Marketplace account associated with the old key, take the following steps to disable the key:&nbsp;
+ 
+ 2. Log in to the [Magento Marketplace](https://marketplace.magento.com/) using the credentials from the old account.
+ 4.  Click the account name in the top-right of the page and select **My Profile**.
 
-1.   Log in to the <a href="https://marketplace.magento.com/" rel="noopener" target="_blank">Magento Marketplace</a> using the credentials from the old account.
-2.   
-    
-    Click the account name in the top-right of the page and select __My Profile__.
-    
-    
-3.   
-    
-    Click __Access Keys__ in the Marketplace tab.
-    
-    
-4.   Click __Disable__ next to the access key.&nbsp;
+ 
+ 6.  Click **Access Keys** in the Marketplace tab.
 
-## Related reading
+ 
+ 8. Click **Disable** next to the access key. 
+ 
+ Related reading
+---------------
 
-*   <a href="https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html" target="_self">Get your authentication keys</a>
+ 
+ * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
+ 
+  
 
-&nbsp;

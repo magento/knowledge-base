@@ -1,1 +1,0 @@
-<iframe allowfullscreen="" frameborder="0" height="315" src="//fast.wistia.com/embed/iframe/diej9m04t2" width="560"></iframe>

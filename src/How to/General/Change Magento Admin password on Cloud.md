@@ -1,23 +1,33 @@
-## Method 1: Forgot Your Password (reset via email)
+---
+title: Change Magento Admin password on Cloud
+link: https://support.magento.com/hc/en-us/articles/115005021914-Change-Magento-Admin-password-on-Cloud
+labels: Magento Commerce Cloud,user,ADMIN_PASSWORD,admin password,how to
+---
 
-<img alt="login_panel_s.png" src="https://support.magento.com/hc/article_attachments/115005807073/login_panel_s.png" style="width: 451px; height: 482px;"/>
+Method 1: Forgot Your Password (reset via email)
+------------------------------------------------
 
-Read the steps in the <a href="https://docs.magento.com/m2/ee/user_guide/stores/admin-signin.html#reset-your-password" target="_self">Reset your password section of Admin Sign In</a> in the Magento User Guide.
+ ![login_panel_s.png](https://support.magento.com/hc/article_attachments/115005807073/login_panel_s.png)
 
-Below are the critical usage notes.
+ Read the steps in the [Reset your password section of Admin Sign In](https://docs.magento.com/m2/ee/user_guide/stores/admin-signin.html#reset-your-password) in the Magento User Guide.
 
-### Enable outgoing emails
+ Below are the critical usage notes.
 
-Before using the __Forgot your password__ form, [enable outgoing emails](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#email) using your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
+ ### Enable outgoing emails
 
-### Check your Junk Email folder
+ Before using the **Forgot your password** form, [enable outgoing emails](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#email) using your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
 
-If you cannot find the message with a Reset Password link, check your _Junk Email_ folder. The name of the email is _Password Reset Confirmation for Admin Username_.
+ ### Check your Junk Email folder
 
-## Method 2: Add a New Admin User
+ If you cannot find the message with a Reset Password link, check your *Junk Email* folder. The name of the email is *Password Reset Confirmation for Admin Username*.
 
-If you cannot restore or reset the password for the existing user, you can create a new Admin user and set a password for this user. To do so, take the following steps:
+ Method 2: Add a New Admin User
+------------------------------
 
-1.   <a href="https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh" target="_self">SSH to your environment.</a>
-2.   Run the following command:   
-    `` bin/magento admin:user:create   --admin-user=%user_name% --admin-password=%your_password% --admin-email=%your_email% --admin-firstname=%admin_user_first_name% --admin-lastname=%admin_user_last_name% ``
+ If you cannot restore or reset the password for the existing user, you can create a new Admin user and set a password for this user. To do so, take the following steps:
+
+ 
+ 2. [SSH to your environment.](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh)
+ 4. Run the following command:   
+bin/magento admin:user:create --admin-user=%user\_name% --admin-password=%your\_password% --admin-email=%your\_email% --admin-firstname=%admin\_user\_first\_name% --admin-lastname=%admin\_user\_last\_name% 
+ 

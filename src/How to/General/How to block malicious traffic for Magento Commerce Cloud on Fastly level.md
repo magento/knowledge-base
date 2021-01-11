@@ -1,44 +1,77 @@
-This article provides the steps you could take to block malicious traffic, when you suspect that your Magento Commerce Cloud store is experiencing a DDoS attack.&nbsp;
+---
+title: How to block malicious traffic for Magento Commerce Cloud on Fastly level
+link: https://support.magento.com/hc/en-us/articles/360039447892-How-to-block-malicious-traffic-for-Magento-Commerce-Cloud-on-Fastly-level
+labels: Magento Commerce Cloud,Fastly,security,robots.txt,block traffic,ACL,2.3.x,how to
+---
 
-Affected products and versions:
+This article provides the steps you could take to block malicious traffic, when you suspect that your Magento Commerce Cloud store is experiencing a DDoS attack. 
 
-*   Magento Commerce Cloud 2.2.x, 2.3.x
+ Affected products and versions:
+-------------------------------
 
-In this article we assume that you already have the malicious IPs and/or their country and userAgents. Magento Commerce Cloud users would typically get this information from Magento Support. The following sections provide steps for blocking traffic based on this information. All the changes should be done in the Production environment.
+ 
+ * Magento Commerce Cloud 2.3.x
+ 
+ In this article we assume that you already have the malicious IPs and/or their country and userAgents. Magento Commerce Cloud users would typically get this information from Magento Support. The following sections provide steps for blocking traffic based on this information. All the changes should be done in the Production environment.
 
-## Block traffic by IP
+ Block traffic by IP
+-------------------
 
-For the Magento Commerce Cloud store, the most effective way to block traffic by specific IP addresses and subnets is adding an ACL for Fastly in the Magento Admin. Following are the steps with links to more detailed instructions:&nbsp;
+ For the Magento Commerce Cloud store, the most effective way to block traffic by specific IP addresses and subnets is adding an ACL for Fastly in the Magento Admin. Following are the steps with links to more detailed instructions: 
 
-1.   In the Magento Admin, navigate to __Stores__ &gt; __Configuration__ &gt; __Advanced__ &gt; __System__ &gt; __Full Page Cache__ &gt;__ Fastly Configuration__.
-2.   <a href="https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/ACL.md" target="_self">Create a new ACL</a> with a list of IP addresses or subnets you're going to block.
-3.   Add it to the ACL list and block as described in the <a href="https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md" target="_self">Blocking</a> guide for the Fastly\_Cdn Magento module.&nbsp;
+ 
+ 2. In the Magento Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System** > **Full Page Cache** > **Fastly Configuration**.
+ 4.  [Create a new ACL](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/ACL.md) with a list of IP addresses or subnets you're going to block.
+ 6. Add it to the ACL list and block as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn Magento module. 
+ 
+ Block traffic by country
+------------------------
 
-## Block traffic by country&nbsp;
+ For the Magento Commerce Cloud store, the most effective way to block traffic by country(s) is adding an ACL for Fastly in the Magento Admin. 
 
-For the Magento Commerce Cloud store, the most effective way to block traffic by country(s) is adding an ACL for Fastly in the Magento Admin. &nbsp;
+ 
+ 2. In the Magento Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System** > **Full Page Cache** > **Fastly Configuration**.
+ 4. Select the countries and configure blocking using ACL as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn Magento module. 
+ 
+ Block traffic by user agent
+---------------------------
 
-1.   In the Magento Admin, navigate to __Stores__ &gt; __Configuration__ &gt; __Advanced__ &gt; __System__ &gt; __Full Page Cache__ &gt;__ Fastly Configuration__.
-2.   Select the countries and configure blocking using ACL as described&nbsp;in the <a href="https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md" target="_self">Blocking</a> guide for the Fastly\_Cdn Magento module.&nbsp;
+ To establish blocking based on user agent, you need to add a custom VCL snippet to your Fastly configuration. To do this, take the following steps:
 
-## Block traffic by user agent
+ 
+ 2. In the Magento Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System** > **Full Page Cache** > **Fastly Configuration** > **Custom VCL Snippets**.
+ 4. Create the new custom snippet as described in the [Custom VCL snippets](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) guide for the Fastly\_Cdn module. You can use the following code sample as an example. This sample disallows traffic for the AhrefsBot and SemrushBot user agents.
+ 
+ name: block\_bad\_useragents type: recv priority: 5 VCL: ``` if ( req.http.User-Agent ~ "(AhrefsBot|SemrushBot)" ) { error 405 "Not allowed";  
+ } ``` Rate Limiting (experimental Fastly functionality)
+-------------------------------------------------
 
-To establish blocking based on user agent, you need add a custom VCL snippet to your Fastly configuration. To do this, take the following steps:
+ There is an experimental Fastly functionality for Magento Commerce Cloud which allows you to specify the rate limit for particular paths and crawlers. Please reference the [Fastly module documentation](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md) for details.
 
-1.   In the Magento Admin, navigate to __Stores__ &gt; __Configuration__ &gt; __Advanced__ &gt; __System__ &gt; __Full Page Cache__ &gt;__ Fastly Configuration&nbsp;__&gt; __Custom VCL Snippets__.
-2.   Create the new custom snippet as described in the <a href="https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md" target="_self">Custom VCL snippets</a>&nbsp;guide for the Fastly\_Cdn module. You can using the following code sample as an example. This sample disallows traffic for the `` AhrefsBot `` and `` SemrushBot `` user agents.
+ The functionality must be extensively tested on staging, before being used on production, because it might block legitimate traffic. 
 
-<pre><code class="language-json">name: block_bad_useragents
-  type: recv
-  priority: 5
-  VCL:
-  ```
-  if ( req.http.User-Agent ~ "(AhrefsBot|SemrushBot)" ) {
-  &nbsp;&nbsp;&nbsp; error 405 "Not allowed";<br/>
-  }
-  ```</code></pre>
+ Recommended: consider updating robot.txt
+----------------------------------------
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+ Updating your robots.txt file could help to keep certain search engines, crawlers, and robots from crawling certain pages. Examples of pages that should not be crawled are search result pages, checkout, customer information and so on. Keeping robots from crawling these pages could help to decrease the number of requests generated by those robots.
+
+  There are two important considerations when using robots.txt:
+
+ 
+ * Robots can ignore your robots.txt. Especially malware robots, that scan the web for security vulnerabilities, and email address harvesters used by spammers will pay no attention.
+ * The robots.txt file is a publicly available file. Anyone can see what sections of your server you don't want robots to use.
+ 
+ The basic information and default Magento robots.txt configuration can be found in the [Search Engine Robots](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) DevDocs article. 
+
+ For general information and recommendations about robots.txt, see:
+
+ 
+ *  [Create a robots.txt](https://support.google.com/webmasters/answer/6062596?hl=en) file by Google Support
+ *  [About /robots.txt](https://www.robotstxt.org/robotstxt.html) by robotstxt.org
+ 
+ Work with your developer and/or SEO expert to determine what User Agents you want to allow, or those you want to disallow.
+
+  
+
+  
+
