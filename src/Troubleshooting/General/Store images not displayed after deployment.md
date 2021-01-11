@@ -1,35 +1,39 @@
+---
+title: Store images not displayed after deployment
+link: https://support.magento.com/hc/en-us/articles/360034358571-Store-images-not-displayed-after-deployment
+labels: Magento Commerce Cloud,cache,images not displayed,2.3.x,2.2.x,how to,SSH
+---
+
 This article provides a solution for when images are not being displayed correctly after deployment.
 
-### Affected products and versions
+ ### Affected products and versions
 
-*   Magento Commerce Cloud 2.2.x, 2.3.x
+ 
+ * Magento Commerce Cloud 2.2.x, 2.3.x
+ 
+ Issue
+-----
 
-<h2 id="lost-images-on-deployment-images-">Issue</h2>
+ When you use a storefront theme with image resizing, the images do not display or disappear from catalog pages when deployed.
 
-When you use a storefront theme with image resizing, the images do not display or disappear from catalog pages when deployed.
+ Cause
+-----
 
-## Cause
+ This may occur due to loading the images from the cache. 
 
-This may occur due to loading the images from the cache.&nbsp;
+ Solution
+--------
 
-## Solution
+ If this happens, you can use Magento command to regenerate the image cache and properly display the images.
 
-If this happens, you can use Magento command to regenerate the image cache and properly display the images.
+ To perform this, you need the SSH information and the store URL available through the [Project Web Interface](https://devdocs.magento.com/cloud/project/projects.html).
 
-To perform this, you need the SSH information and the store URL available through the <a href="https://devdocs.magento.com/cloud/project/projects.html" target="_self">Project Web Interface</a>.
+ 
+ 2. SSH to your project that was a source for the database dump, as described in [SSH to environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh).
+ 4.  Regenerate the image cache by running:
 
-1.   SSH to your project that was a source for the database dump, as described in <a class="external-link" href="https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh" rel="nofollow">SSH to environment</a>.
-2.   
-    
-    Regenerate the image cache by running:
-    
-    
-    
-    <pre><code class="language-bash">php bin/magento catalog:images:resize</code></pre>
-    
-    
-3.   
-    
-    Test the category pages through the store URL.
-    
-    
+ php bin/magento catalog:images:resize 
+ 6.  Test the category pages through the store URL.
+
+ 
+ 

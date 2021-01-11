@@ -1,158 +1,80 @@
-This article describes how to fix the issue where the way you specified dependencies prevents classes to be auto-generated on the fly, and you get the&nbsp;_"Class cannot be saved in the&nbsp;generated/code directory"_ error message.
+---
+title: "Class cannot be saved in the generatedorcode directory" error
+link: https://support.magento.com/hc/en-us/articles/360032133671--Class-cannot-be-saved-in-the-generated-code-directory-error
+labels: Cloud,generated
+---
 
-### Affected products and versions
+This article describes how to fix the issue where the way you specified dependencies prevents classes to be auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
 
-*   Magento Commerce Cloud 2.2.0 or later
+ ### Affected products and versions
 
-## <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Issue</span>
+ 
+ * Magento Commerce Cloud 2.2.0 or later
+ 
+ Issue
+-----
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+ Steps to reproduce
 
-1.   In your local environment, write a custom class with a dependency on the auto-generated class.
-2.   Run the scenario, where your custom class is triggered, and see it working correctly.
-3.   Commit and push your changes to the integration environment. This would trigger the deployment process. Deployment is successful.
-4.   In the integration environment, run the scenario where your custom class is triggered.
+ 
+ 2. In your local environment, write a custom class with a dependency on the auto-generated class.
+ 4. Run the scenario, where your custom class is triggered, and see it working correctly.
+ 6. Commit and push your changes to the integration environment. This would trigger the deployment process. Deployment is successful.
+ 8. In the integration environment, run the scenario where your custom class is triggered.
+ 
+ Expected result
 
-<span class="wysiwyg-underline">Expected result</span>
+ Everything works correctly, the same way as in your local environment.
 
-Everything works correctly, the same way as in your local environment.
+ Actual result
 
-<span class="wysiwyg-underline">Actual result</span>
+ Failure with the error message saying that your class cannot be saved in the generated/code directory.
 
-Failure with the error message&nbsp;saying that your class&nbsp;cannot be saved in the&nbsp;`` generated/code ``&nbsp;directory.
+ Cause
+-----
 
-## Cause
+ The cause of the problem is that the class on which you have dependency, does not get generated during the deployment, and cannot be generated later on the fly when the class is triggered, because the generated/code directory is unavailable for writing after deployment is completed.
 
-The cause of the problem is that the class on which you have&nbsp;dependency, does not get generated during the deployment, and cannot be generated later on the fly when the class is triggered, because the&nbsp;`` generated/code  ``directory is unavailable for writing after deployment is completed.
+ There are two main reasons why this could happen: 
 
-There are two main reasons why this could happen:&nbsp;
+ 
+ * Case 1: The class with dependencies on auto-generated classes is located in the entry point (like index.php), which is not scanned for dependencies during deployment.
+ * Case 2: The dependency to the auto-generated class is specified directly (compare to the recommended usage of constructor to declare dependency).
+ 
+ Solution
+--------
 
-*   Case 1: The class with dependencies on auto-generated classes is located in the entry point (like `` index.php ``), which is not scanned for dependencies during deployment.
-*   Case 2: The dependency to the auto-generated class is specified directly (compare to the recommended usage of constructor to declare dependency).
+ One common solution for both cases would be creating a real factory instead of the auto-generated class.
 
-## Solution
+ Or there is a particular solution for each case.
 
-One common solution for both cases would be creating a real factory instead of the auto-generated class.
+ ### Case 1 specific solution
 
-Or there is a particular solution for each case.
+ Move your class code from the entry point to a separate module and then use it in the entry point.
 
-### Case 1 specific solution
+ Example
 
-Move your class code from the entry point to a separate module and then use it in the entry point.
+ Original code in, for example, index2.php:
 
-<span class="wysiwyg-underline">Example</span>
+ <?php use YourVendor\SomeModule\Model\GeneratedFactory; require realpath(\_\_DIR\_\_) . '/../app/bootstrap.php'; $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $\_SERVER); class SomeClass { private $generatedFactory; public function \_\_construct(GeneratedFactory $generatedFactory) { $this->generatedFactory = $generatedFactory; } // Some code here... } $someObject = $bootstrap->getObjectManager()->create(SomeClass::class); // There is some code that uses $someObject You need to take the following steps:
 
-Original code in, for example, `` index2.php ``:
+ 
+ 2. Move the class definition to app/code/YourVendor/YourModule: <?php namespace YourVendor\YourModule; use YourVendor\YourModule\Model\GeneratedFactory; class YourClass { private $generatedFactory; public function \_\_construct(GeneratedFactory $generatedFactory) { $this->generatedFactory = $generatedFactory; } // Some code here... } 
+ 4. Edit the entry point my\_api/index.php so that it looks like following: <?php use YourVendor\YourModule\YourClass; require realpath(\_\_DIR\_\_) . '/../app/bootstrap.php'; $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $\_SERVER); $someObject = $bootstrap->getObjectManager()->create(YourClass::class); // Some code using $someObject 
+ 
+ ### Case 2 specific solution
 
-<pre><code class="language-php">&lt;?php
-use YourVendor\SomeModule\Model\GeneratedFactory;
+ Move dependency declaration to the constructor.
 
-require realpath(__DIR__) . '/../app/bootstrap.php';
-$bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
+ Example
 
-class SomeClass
-{
-    private $generatedFactory;
+ Original class declaration:
 
-    public function __construct(GeneratedFactory $generatedFactory)
-    {
-        $this-&gt;generatedFactory = $generatedFactory;
-    }
+ <?php namespace YourVendor\YourModule; use YourVendor\SomeModule\Model\GeneratedFactory; use Magento\Framework\App\ObjectManager; class YourClass { private $generatedFactory; private $someParam; public function \_\_construct($someParam) { $this--->someParam = $someParam; $this->generatedFactory = ObjectManager::getInstance()->get(GeneratedFactory::class); } // Some code here... } You need to change its constructor as following:
 
-    // Some code here...
-}
+ <?php namespace YourVendor\YourModule; use YourVendor\YourModule\Model\GeneratedFactory; use Magento\Framework\App\ObjectManager; class YourClass { private $generatedFactory; private $someParam; public function \_\_construct($someParam, GeneratedFactory $generatedFactory = null) { $this->someParam = $someParam; $this->generatedFactory = $generatedFactory ?: ObjectManager::getInstance()->get(GeneratedFactory::class); } // Some code here... } Related reading
+---------------
 
-$someObject = $bootstrap-&gt;getObjectManager()-&gt;create(SomeClass::class);
-
-// There is some code that uses $someObject</code></pre>
-
-You need to take the following steps:
-
-1.   Move the class definition to&nbsp;`` app/code/YourVendor/YourModule ``:
-    
-    <pre><code class="language-php">&lt;?php
-namespace YourVendor\YourModule;
-
-use YourVendor\YourModule\Model\GeneratedFactory;
-
-class YourClass
-{
-    private $generatedFactory;
-
-    public function __construct(GeneratedFactory $generatedFactory)
-    {
-        $this-&gt;generatedFactory = $generatedFactory;
-    }
-
-    // Some code here...
-}</code></pre>
-    
-    
-2.   Edit the entry point `` my_api/index.php `` so that it looks like following:
-    
-    <pre><code class="language-php">&lt;?php
-
-use YourVendor\YourModule\YourClass;
-
-require realpath(__DIR__) . '/../app/bootstrap.php';
-$bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
-
-$someObject = $bootstrap-&gt;getObjectManager()-&gt;create(YourClass::class);
-
-// Some code using $someObject</code></pre>
-    
-    
-
-### Case 2 specific solution
-
-Move dependency declaration to the constructor.
-
-<span class="wysiwyg-underline">Example</span>
-
-Original class declaration:
-
-<pre><code class="language-php">&lt;?php
-namespace YourVendor\YourModule;
-
-use YourVendor\SomeModule\Model\GeneratedFactory;
-use Magento\Framework\App\ObjectManager;
-
-class YourClass
-{
-    private $generatedFactory;
-    private $someParam;
-
-    public function __construct($someParam)
-    {
-        $this---&gt;someParam = $someParam;
-        $this-&gt;generatedFactory = ObjectManager::getInstance()-&gt;get(GeneratedFactory::class);
-    }
-
-    // Some code here...
-}</code></pre>
-
-You need to change its constructor as following:
-
-<pre><code class="language-php">&lt;?php
-namespace YourVendor\YourModule;
-
-use YourVendor\YourModule\Model\GeneratedFactory;
-use Magento\Framework\App\ObjectManager;
-
-class YourClass
-{
-    private $generatedFactory;
-    private $someParam;
-
-    public function __construct($someParam, GeneratedFactory $generatedFactory = null)
-    {
-        $this-&gt;someParam = $someParam;
-        $this-&gt;generatedFactory = $generatedFactory ?: ObjectManager::getInstance()-&gt;get(GeneratedFactory::class);
-    }
-
-    // Some code here...
-}</code></pre>
-
-## Related reading
-
-*   <a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html" target="_self">Code generation</a> on Devdocs
+ 
+ *  [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) on Devdocs
+ 

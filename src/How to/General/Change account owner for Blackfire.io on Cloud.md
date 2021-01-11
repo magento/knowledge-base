@@ -1,1 +1,0 @@
-Please refer to the<a href="https://devdocs.magento.com/guides/v2.3/cloud/project/project-integrate-blackfire.html#change-account-owner" target="_self"> Change account owner section of the Blackfire.io for Magento Cloud</a> article on Devdocs.

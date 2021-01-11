@@ -1,479 +1,608 @@
-__Update:__ January 15, 2019
-
-Dear Readers,
-
-You are viewing the older version of the Help Center Guide that will soon be deprecated. We have worked hard and now we're glad to present the __[latest, improved Help Center Guide](https://support.magento.com/hc/en-us/categories/360000382574)__. We hope you find it useful!
-
-Please accept our apologies for possible inconveniences.
-
-Magento Support Team
-
-\*\*\*
-
-__[WHAT IS MAGENTO HELP CENTER?](#what-is)__&nbsp;
-
-__[LOG IN TO HELP CENTER](#login)__
-
-__[KNOWLEDGE BASE](#kb)__
-
-*   [What is Knowledge Base?](#what-is-kb)
-*   [Knowledge Base does not replace DevDocs or User Guide](#kb-devdocs-user-guide)
-*   [Search for articles](#search-for-articles)
-*   [Navigate articles using Categories](#navigate-articles)
-*   [Rate articles](#rate-articles)
-
-__[SUPPORT TICKETS](#support-tickets)__
-
-*   [Track your tickets](#track-tickets)
-*   [Submit a support ticket](#submit-ticket)
-    
-    *   [Help Center start page](#submit-ticket-help-center-start-page)
-    *   [Magento Account page](#submit-ticket-magento-account-page)
-    *   [Magento Cloud Account page](#submit-ticket-magento-cloud-account-page)
-    *   [Information in your support ticket](#info-in-support-ticket)
-    
-    
-    
-*   [Ticket fields explained](#ticket-fields-explained)
-*   [Ticket status: How your requests are processed](#ticket-status)
-*   [Conversation in your ticket](#conversation-in-ticket)
-*   [Resolve your ticket](#resolve-ticket)
-
-__[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)__
-
-*   [Who can provide shared access](#who-can-provide-shared-access)
-*   [Find out who is your Account Owner (Cloud)](#find-account-owner-cloud)
-*   [Provide shared access](#provide-shared-access)
-*   [Revoke (delete) shared access](#revoke-shared-access)
-*   [Access shared account (switch accounts)](#switch-accounts)
-*   [Shared access troubleshooting](#troubleshooting-shared-access)
-
-<h2 id="what-is">WHAT IS MAGENTO HELP CENTER?</h2>
-
-Welcome to Magento Help Center! We are here to help solving your Magento issues, and we are doing the best we can.
-
-Magento Help Center is the [Knowledge Base](#kb) and the [Ticketing System](#support-tickets). This document shows how to use both of them.
-
-<h2 id="login">LOG IN TO HELP CENTER</h2>
-
-Click __Log&nbsp;in__&nbsp;in the upper-right corner.
-
-<img alt="hc_log-in.png" height="223" src="https://support.magento.com/hc/article_attachments/360001404034/hc_log-in.png" width="351"/>
-
-Use your __Magento Account__ info to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) (Magento User Guide).
-
-Logging in allows you to work with [support tickets](#support-tickets). You can access all articles in the Magento Knowledge Base without logging in.
-
-<h2 id="kb">KNOWLEDGE BASE</h2>
-
-When you access the Help Center, you first get to the Magento Knowledge Base.
-
-<h3 id="what-is-kb">What is Knowledge Base?</h3>
-
-The Magento Support Knowledge Base is a collection of articles based on the support tickets that Magento Customers or Partners submit.
-
-Every Knowledge Base article covers a real-life issue or question and may be viewed as a reply to a submitted support ticket helping others to solve a similar problem.
-
-<h3 id="kb-devdocs-user-guide">Knowledge Base does not replace DevDocs or User Guide</h3>
-
-The information in the Knowledge Base is designed as complementary to [DevDocs](http://devdocs.magento.com/), the [User Guide](http://docs.magento.com/m2/ee/user_guide/getting-started.html), and [other Magento publications](https://magento.com/resources/technical), and only covers troubleshooting, answers FAQ's or highlights specific scenarios that have not been mentioned (for any reason)&nbsp;in the official documentation.
-
-<h3 id="search-for-articles">Search for articles</h3>
-
-<ol><li>In the <strong>Search</strong> field, start entering the keywords that an article should have. <br/>For example, <em>Redis</em>, <em>error</em>, <em>configuration management</em>, etc.<br/><br/><img alt="hc_search.png" src="https://support.magento.com/hc/article_attachments/360001299274/hc_search.png"/><br/><br/>
-</li><li>The top article suggestions are displayed below the <strong>Search</strong> field.</li><li>Select an article from the list and click it.<br/><br/><img alt="hc_top-article-suggestions.png" height="192" src="https://support.magento.com/hc/article_attachments/360001301254/hc_top-article-suggestions.png" width="192"/>
-</li><li>If you want the results of your search to be displayed on a new page:
-<ul>
-<li>Do not select an article from the suggestion list</li>
-<li>After typing your search query, press Enter on your keyboard.</li>
-</ul>
-</li></ol>
-
-The search&nbsp;is not limited to the article title but&nbsp;also includes the article text; the most relevant matches are displayed first.
-
-You can find the __Search__ field on any page of the Knowledge Base. However, the suggestions are only displayed if you search from the Help Center's start page.
-
-<h3 id="navigate-articles">Navigate articles using Categories</h3>
-
-All articles in the Knowledge Base are grouped into Categories. They are:
-
-*   __Troubleshooting:__ articles that show how to solve a particular issue.   
-    For example, if you cannot perform an operation because of an error message, this is where you might find the solution.  
-      
-    
-*   __How to:__ articles with detailed steps on how to perform a particular operation.  
-      
-    
-*   __FAQ:__ answers to the most common, frequently asked questions.
-
-To find articles through navigating the categories, follow these steps:
-
-<ol><li>On the Help Center starting page, select an article category and click it.<br/><br/><img alt="hc_select-category.png" height="119" src="https://support.magento.com/hc/article_attachments/360001284433/hc_select-category.png" width="506"/>
-</li><li>The list of all articles in that category is displayed. Browse through the articles, find the one you need, then click it.<br/><br/><img alt="hc_troubleshooting.png" height="178" src="https://support.magento.com/hc/article_attachments/360001301614/hc_troubleshooting.png" width="423"/>
-</li></ol>
-
-<h3 id="rate-articles">Rate articles</h3>
-
-You may help us improve our articles let us know your opinion. At the bottom of every article, click __Yes__ or __No__ to answer the question __Was this article helpful?__
-
-<img alt="hc_rate-article.png" height="97" src="https://support.magento.com/hc/article_attachments/360001285353/hc_rate-article.png" width="182"/>
-
-Please vote, your opinion matters!
-
-<h2 id="support-tickets">SUPPORT TICKETS</h2>
-
-Magento Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Magento — both Magento Commerce and Magento Commerce (Cloud).
-
-<h3 id="track-tickets">Track your tickets</h3>
-
-Your tickets are those that you:
-
-*   have submitted personally
-*   have been added to as a watcher through a CC (carbon copy)
-
-#### <span class="wysiwyg-color-orange120">View your tickets</span>
-
-To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select __My tickets__.
-
-<img alt="hc_my-tickets.png" height="286" src="https://support.magento.com/hc/article_attachments/360001286193/hc_my-tickets.png" width="500"/>
-
-To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
-
-*   __My tickets__
-*   __Tickets I'm CC'd on__
-*   __Organization tickets__ (available if your account is associated with several organizations)
-
-<img alt="hc_my-tickets_tabs.png" height="118" src="https://support.magento.com/hc/article_attachments/360001286273/hc_my-tickets_tabs.png" width="351"/>
-
-To sort tickets, click __Created__ or __Last Activity__ column headers.
-
-#### <span class="wysiwyg-color-orange120">Search for tickets</span>
-
-To find tickets, type your search query in the __Search tickets__ field and press _Enter_ on your keyboard. Select [a status](#ticket-status) for additional filtering.
-
-<img alt="hc_search-tickets.png" height="134" src="https://support.magento.com/hc/article_attachments/360001303554/hc_search-tickets.png" width="588"/>
-
-#### <span class="wysiwyg-color-orange120">Follow organization tickets</span>
-
-You may follow the support tickets submitted by the members of your organization.
-
-When you follow your organization tickets, you:
-
-*   may view tickets within the&nbsp;__Organization tickets__ tab
-*   receive email notifications when the new tickets are submitted, or the existing tickets are changed
-
-To follow/unfollow tickets for an organization:
-
-1.   Go to&nbsp;__My tickets__ &gt;&nbsp;__Organization tickets__ tab.
-2.   Select an organization in the menu and click __Follow/Unfollow__.
-
-<img alt="hc_follow-org-tickets.png" height="171" src="https://support.magento.com/hc/article_attachments/360001304094/hc_follow-org-tickets.png" width="706"/>
-
-<h3 id="submit-ticket"><span class="wysiwyg-color-green120"><strong>Submit a support ticket</strong></span></h3>
-
-You may submit a support ticket using the Help Center start page, your Magento Account page, and your Magento Cloud Account page.
-
-<h4 id="submit-ticket-help-center-start-page"><span class="wysiwyg-color-green130">Help Center start page</span></h4>
-
-To submit a new support ticket using the starting page of Magento Help Center, follow these steps:
-
-<ol><li>Go to <a href="https://support.magento.com/hc/en-us">Magento Help Center</a>.</li><li>Click <strong>Submit a ticket</strong>&nbsp;in the upper-right corner.<br/><img alt="hc_submit-a-support-ticket.png" height="305" src="https://support.magento.com/hc/article_attachments/360001640634/hc_submit-a-support-ticket.png" width="401"/>
-</li><li>Fill in the fields.</li><li>Click <strong>Submit</strong>.</li></ol>
-
-You must log in to the Help Center using your Magento Account to submit a support ticket. Until you are logged in, the __Submit a ticket__ link is not displayed.
-
-<h4 id="submit-ticket-magento-account-page"><span class="wysiwyg-color-green130">Magento Account page</span></h4>
-
-To submit a new support ticket using your Magento Account page, follow these steps:
-
-<ol><li>Log in to your Magento Account (see <a href="http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html">detailed instructions</a>).</li><li>Click the <strong>Support</strong> tab.<br/><img alt="magento_account_support_tab.png" height="407" src="https://support.magento.com/hc/article_attachments/360003769734/magento_account_support_tab.png" width="500"/>
-</li><li>The Help Center start page loads for you.</li><li>Click <strong>Submit a ticket</strong>&nbsp;in the upper-right corner.<br/><img alt="hc_submit-a-support-ticket.png" height="228" src="https://support.magento.com/hc/article_attachments/360001640634/hc_submit-a-support-ticket.png" width="300"/>
-</li><li>Fill in the fields.</li><li>Click <strong>Submit</strong>.</li></ol>
-
-<h4 id="submit-ticket-magento-cloud-account-page"><span class="wysiwyg-color-green130">Magento Cloud Account page</span></h4>
-
-To submit a new support ticket using your Magento Cloud Account page, follow these steps:
-
-1.   Log in to your Magento Cloud Account.
-2.   Click the __Support__ link at the page top.
-3.   The Help Center start page loads for you.
-4.   Click __Submit a ticket__&nbsp;in the upper-right corner.
-5.   Fill in the fields.
-6.   Click __Submit__.
-
-<h4 id="info-in-support-ticket"><span class="wysiwyg-color-green130">Information in your support ticket</span></h4>
-
-The fields, marked with a red asterisk (<span class="wysiwyg-color-red">__\*__</span>), are required and must be filled in. If you leave any of those fields empty, you will not be able to submit your ticket.
-
-See [Ticket fields explained](#ticket-fields-explained) below for more detailed information.
-
-<h3 id="ticket-fields-explained">Ticket fields explained</h3>
-
-When you submit a support ticket, you must fill in the fields to provide information. This section lists the fields, explains them, and gives recommendations on filling them effectively.
-
-#### <span class="wysiwyg-color-orange120">__CC__</span>
-
-Emails of the persons whom you want to follow your ticket (for example,&nbsp;_first@e.mail_).
-
-You may add emails of the persons who do not have a Magento or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
-
-To add several emails to CC:
-
-1.   Enter the email.
-2.   Press _Space_ on your keyboard to save the entered email. The email appears in a grey frame.  
-    ![zendesk_cc_emails.png](https://support.magento.com/hc/article_attachments/360001153534/zendesk_cc_emails.png)
-3.   Start typing the next email.
-4.   Save all other emails by pressing _Space_.
-
-To delete emails from CC: click __x__ in a framed email.
-
-![zendesk_cc_emails_remove.png](https://support.magento.com/hc/article_attachments/360001137413/zendesk_cc_emails_remove.png)
-
-#### <span class="wysiwyg-color-orange120">__Organization__</span>
-
-The organization you would like your ticket to be associated with — in case you work with several organizations.
-
-This field appears when your account is associated with more than one organization.
-
-#### <span class="wysiwyg-color-orange120">__Subject__</span>
-
-A short overview of your problem (for example, _Error 404 on all pages_).
-
-__Suggested articles:__ when you start writing the subject, you see a list of Knowledge Base articles that might be related to your problem; they are being offered to you basing on the keywords you are typing in. Click the article in the list to open it in the Knowledge Base.
-
-<img alt="hc_subject-suggested-articles.png" height="209" src="https://support.magento.com/hc/article_attachments/360001352694/hc_subject-suggested-articles.png" width="667"/>
-
-<span class="wysiwyg-color-green120">_Recommendation:_</span> Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Magento Support Team.
-
-#### <span class="wysiwyg-color-orange120">__Description__</span>
-
-An in-depth overview of your problem with as many details as you find reasonably possible.
-
-Do not mention the steps to reproduce your problem in this field; specify them in the&nbsp;__Steps to Reproduce__ field below.
-
-#### <span class="wysiwyg-color-orange120">__Product__</span>
-
-The type of Magento product you are working with:&nbsp;
-
-*   Magento Commerce (Cloud)
-*   Magento Commerce (OnPremise)
-*   Magento Order Management
-*   Magento Shipping
-
-#### __<span class="wysiwyg-color-orange120">Issue category</span>__
-
-The type of problem you are experiencing.
-
-*   Access Issues
-*   Billing / Sales
-*   Infrastructure Configuration Change
-*   Application Configuration Change
-*   General Question / How to
-*   Report an Outage
-*   Report a bug
-
-#### <span class="wysiwyg-color-orange120">__Priority__</span>
-
-Your estimation of the impact and the urgency of your problem. The detailed explanation of priorities and Magento Support's response time is documented in the [Magento Commerce Service-Level Agreement document](https://magento.com/legal/terms/cloud-sla).
-
-A short guide to priorities in below; a priority should be applied __when your site:__
-
-*   _P1_ — cannot operate or process orders
-*   _P2_&nbsp;— is experiencing severe failures, but is still able to minimally function
-*   _P3_&nbsp;— is unable to perform only certain non-critical functions
-*   _P4_&nbsp;— faces other non-critical problems
-
-#### <span class="wysiwyg-color-orange120">__Environment__</span>
-
-Type of environment on which you face the problem:
-
-*   Development
-*   Staging
-*   Production
-
-Read more about Magento Commerce (Cloud) environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article on DevDocs.
-
-#### <span class="wysiwyg-color-orange120">__Version__</span>
-
-Your Magento version. All available versions are listed in a menu that opens when you click the field.
-
-To find the version of your Magento Commerce (Cloud), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
-
-#### <span class="wysiwyg-color-orange120">__Partner name__&nbsp;__(Merchant name)__</span>
-
-For Merchants: __Partner Name__ is the name of the Development Organization (Magento [Technology Partner](https://partners.magento.com/portal/directory/?&amp;partner_type=6) or [Solution Partner](https://partners.magento.com/portal/directory/?&amp;partner_type=1)) that participate in developing your Magento store.
-
-For Partners: __Merchant Name__ is the name of your Customer.&nbsp;
-
-#### <span class="wysiwyg-color-orange120">__Best contact__</span>
-
-The person who works on the problem on your side. Select _Me_ if you are going to continue the conversation in this ticket.
-
-#### <span class="wysiwyg-color-orange120">__Best contact method__</span>
-
-How the Magento Support Team contacts the person who works on the problem on your side — via&nbsp;_Email_ or _Phone_.
-
-#### <span class="wysiwyg-color-orange120">__Closest Time Zone to Business Hours__</span>
-
-From which time zone should a Magento Support Engineer contact you to catch up with your working hours:
-
-*   PST (Pacific Standard Time)
-*   CST (Central Standard Time)
-*   EEST (Eastern European Summer Time)
-
-#### <span class="wysiwyg-color-orange120">__Best Contact Phone__</span>
-
-Phone number of the person who works on the problem on your side. Although any format is suitable, make sure you provide the complete international extension for your number.
-
-#### <span class="wysiwyg-color-orange120">__Best Contact Email__</span>
-
-Email of the person to work on the problem on your side.
-
-#### <span class="wysiwyg-color-orange120">__Steps to reproduce__</span>
-
-Exact step-by-step instructions to reproduce your problem, including:
-
-*   Steps to replicate
-*   Expected result
-*   Actual result
-
-<span class="wysiwyg-color-green120">_Recommendation:_</span> Assume that you are writing these steps for someone who knows <span class="wysiwyg-color-red">nothing</span> about Magento:
-
-*   mention every step, even if it seems simple and obvious
-*   do not rely on the assumption that your reader knows what you mean
-
-Write in simple language, with short sentences. Use bullet points, numbered lists, and text formatting to make your instructions clear.
-
-#### <span class="wysiwyg-color-orange120">__Affected URL__</span>
-
-Link to the environment where the Magento Support Team would be able to see your problem. Make sure to start the URL with \`http://\` or \`https://\`.
-
-#### <span class="wysiwyg-color-orange120">__Project URL__</span>
-
-Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) (Magento Commerce (Cloud) only)
-
-#### <span class="wysiwyg-color-orange120">__Attachments__</span>
-
-Logs, screenshots, video recordings, or any other media that may better illustrate your problem.
-
-<h3 id="ticket-status">Ticket status: How your tickets are processed</h3>
-
-Your ticket may have either of these three statuses.
-
-#### <span class="wysiwyg-color-red">__1. Open__</span>
-
-Your ticket is not solved and is being processed by the Magento Support Team.   
+---
+title: Magento Help Center User Guide
+link: https://support.magento.com/hc/en-us/articles/360000913794-Magento-Help-Center-User-Guide
+labels: user guide,Magento,shared access,help center,support ticket,shared account,how to
+---
+
+**Major Update:** July 17, 2020
+
+ **[WHAT IS MAGENTO HELP CENTER?](#what-is)** 
+
+ **[KNOWLEDGE BASE](#kb)**
+
+ 
+ * [What is Knowledge Base?](#what-is-kb)
+ * [Knowledge Base does not replace DevDocs or User Guide](#kb-devdocs-user-guide)
+ * [Search for articles](#search-for-articles)
+ * [Navigate articles using Categories](#navigate-articles)
+ * [Rate articles](#rate-articles)
+ 
+ **[SUPPORT TICKETS](#support-tickets)**
+
+ 
+ * [Log In To Help Center](#login)
+ *  [Submit a support ticket](#submit-ticket) 
+	 + [Help Center start page](#submit-ticket-help-center-start-page)
+	 + [Magento Account page](#submit-ticket-magento-account-page)
+	 + [Magento Cloud Account page](#submit-ticket-magento-cloud-account-page)
+	 + [Information in your support ticket](#info-in-support-ticket)
+	 + ["Submit a ticket" link not displayed on Magento Help Center start page](#no-submit-link)
+	 + [*"Please verify your email address"* error on Magento Account page](#verify-email-address)
+	 + [Ticket submission form: merchant is not displayed in Organization drop-down](#merchant-not-displayed) 
+ * [Track your tickets](#track-tickets)
+ * [Magento P1 hotline (Login Required)](#P1-hotline)
+ * [Support ticket fields explained](#ticket-fields-explained)
+ * [Ticket status: How your requests are processed](#ticket-status)
+ * [Conversation in your ticket](#conversation-in-ticket)
+ * [Resolve your ticket](#resolve-ticket)
+ * [Open a follow-up ticket](#follow-up)
+ 
+ **[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)**
+
+ 
+ * [Who can provide shared access](#who-can-provide-shared-access)
+ * [Find out who is your Account Owner (Cloud)](#find-account-owner-cloud)
+ * [Provide shared access](#provide-shared-access)
+ * [Revoke (delete) shared access](#revoke-shared-access)
+ * [Access shared account (switch accounts)](#switch-accounts)
+ * [Shared access troubleshooting](#troubleshooting-shared-access)
+ 
+ WHAT IS MAGENTO HELP CENTER?
+----------------------------
+
+ Welcome to Magento Help Center! We are here to help solve your Magento issues quickly and efficiently.
+
+ Magento Help Center is the [Knowledge Base](#kb) and the [Ticketing System](#support-tickets). This document shows how to use both of them.
+
+ KNOWLEDGE BASE
+--------------
+
+ When you access the Help Center, you first get to the Magento Knowledge Base.
+
+ ### What is Knowledge Base?
+
+ The Magento Support Knowledge Base is a collection of articles based on the support tickets that Magento Customers or Partners submit.
+
+ Every Knowledge Base article covers a real-life issue or question and may be viewed as a reply to a submitted support ticket helping others to solve a similar problem.
+
+ ### Knowledge Base does not replace DevDocs or User Guide
+
+ The information in the Knowledge Base is designed as complementary to [DevDocs](http://devdocs.magento.com/), the [User Guide](http://docs.magento.com/m2/ee/user_guide/getting-started.html), and [other Magento publications](https://magento.com/resources/technical), and only covers troubleshooting, best practices, hosts announcements, answers FAQ's, or highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
+
+ ### Search for articles
+
+ You don't need to be logged in to the Magento Help Center to search for articles in the Magento Knowledge Base.
+
+ To search for articles, follow these steps:
+
+ 
+ 2. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
+ 4. In the **Search** field, start entering the keywords that an article should have.  
+For example, *Redis*, *error*, *configuration management*, etc.  
   
-When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Magento Support — your ticket has the __Open__ status.
-
-#### <span class="wysiwyg-color-orange">__2. Awaiting for your reply__</span>
-
-Magento Support is expecting info from you.  
+![Search_Field_New_Inset_Image_1.jpg](https://support.magento.com/hc/article_attachments/360064079291/Search_Field_New_Inset_Image_1.jpg) 
+ 6. The top article suggestions are displayed below the **Search** field.
+ 8. Select an article from the list and click it.  
   
-In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue.   
-Make sure you provide your replies soon since Magento Support cannot proceed with processing your ticket while it is in the&nbsp;__Awaiting for your reply__ status.
+![Select_An_Article_Image_1.jpg](https://support.magento.com/hc/article_attachments/360064079431/Select_An_Article_Image_1.jpg) 
+ 10. If you want the results of your search to be displayed on a new page: 
+	 * Do not select an article from the suggestion list
+	 * After typing your search query, press Enter on your keyboard 
+ 
+ ![Search_Results_Image.png](https://support.magento.com/hc/article_attachments/360063930192/Search_Results_Image.png)
 
-#### <span class="wysiwyg-color-green120">__3. Solved__</span>
+ The search is not limited to the article title but also includes the article text; the most relevant matches are displayed first.
 
-Magento Support has provided a solution for your issue, and you have agreed it has been helpful.  
+ You can also select the article **Tags** on the bottom-left of the Search results page to select articles with those specific word tags that you are searching for.
+
+ You can search for articles using the **Search** field on any page of the Knowledge Base.
+
+ ### Navigate articles using Categories
+
+ All articles in the Knowledge Base are grouped into Categories. They are:
+
+ 
+ *  **Announcements:** articles with timely news and helpful information.
+ *  **Best Practices:** articles with recommended techniques and procedures that are prescribed as most effective.
+ *  **Troubleshooting:** articles that show how to solve a particular issue.  
+For example, if you cannot perform an operation because of an error message, this is where you might find the solution.
+ *  **How To:** articles with detailed steps on how to perform a particular operation.
+ *  **FAQ:** answers to the most common, frequently asked questions.
+ 
+ To find articles through navigating the categories, follow these steps:
+
+ 
+ 2. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
+ 4. Click a category.
+ 6. The list of all articles in that category is displayed. Browse through the articles, find the one you need, then click it.
+ 
+ ### Rate articles
+
+ You may help us improve our articles let us know your opinion. At the bottom of every article, click **Yes** or **No** to answer the question **Was this article helpful?**
+
+ Please vote, your opinion matters!
+
+ SUPPORT TICKETS
+---------------
+
+ Magento Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Magento — for all Magento products.
+
+ LOG IN TO HELP CENTER
+---------------------
+
+ Logging in allows you to work with support tickets. You can still access all articles in the Magento Knowledge Base without logging in.
+
+ To log in to the Magento Help Center, follow these steps:
+
+ 
+ 2. Access the Help Center at <https://support.magento.com>.
+ 4. Click **Log In** in the upper-right corner. 
+ 
+ Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) (Magento User Guide). 
+
+ ### **Submit a support ticket**
+
+ Once successfully logged in, you may submit a support ticket using the Help Center start page, your Magento Account page, and your Magento Cloud Account page.
+
+ #### Help Center start page
+
+ To submit a new support ticket using the starting page of Magento Help Center, follow these steps:
+
+ 
+ 2. Go to [Magento Help Center](https://support.magento.com/hc/en-us).
+ 4. Click **Submit a ticket** in the upper-right corner.  
   
-It is you who marks the ticket as __Solved__. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to&nbsp;__Open__.
+![View_Submit_Ticket_Button_JPG_Final.jpg](https://support.magento.com/hc/article_attachments/360063930472/View_Submit_Ticket_Button_JPG_Final.jpg) 
+ 6. Fill in the fields.
+ 8. Click **Submit**.
+ 
+ You **must log in** to the Help Center using your Magento Account in order to submit a support ticket.  
+Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link).
 
-<h3 id="conversation-in-ticket">Conversation in your ticket</h3>
+ #### Magento Account page
 
-Conversation in your ticket unites all comments written by you or the Magento Support Team. Comments are displayed from latest (on top) to earliest (bottom).
+ To submit a new support ticket using your Magento Account page, follow these steps:
 
-To add a comment to the conversation, follow these steps:
+ 
+ 2. Log in to your Magento Account (see [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html)).
+ 4. Click the **Support** tab.  
+![magento_account_support_tab.png](https://support.magento.com/hc/article_attachments/360003769734/magento_account_support_tab.png) 
+ 6. The Help Center start page loads for you.
+ 8. Click **Submit a ticket** in the upper-right corner.
+ 10. Fill in the fields.
+ 12. Click **Submit**.
+ 
+ #### Magento Cloud Account page
 
-<ol><li>Scroll to the bottom of your ticket.</li><li>Click the <strong>Add to conversation</strong> field to start writing.<br/><br/><img alt="hc_add-to-conversation.png" height="72" src="https://support.magento.com/hc/article_attachments/360001297913/hc_add-to-conversation.png" width="303"/>
-</li><li>To add a person to your comment, specify the email in the <strong>CC</strong> field of the comment field.<br/><br/><img alt="hc_conversation-write.png" height="121" src="https://support.magento.com/hc/article_attachments/360001298013/hc_conversation-write.png" width="403"/><br/><br/>
-</li><li>Once you are through with your comment, click <strong>Submit</strong>.</li></ol>
+ To submit a new support ticket using your Magento Cloud Account page, follow these steps:
 
-<h3 id="resolve-ticket">Resolve your ticket</h3>
+ 
+ 2. Log in to your Magento Cloud Account.
+ 4. Click the **Support** link at the page top.
+ 6. The Help Center start page loads for you.
+ 8. Click **Submit a ticket** in the upper-right corner.
+ 10. Fill in the fields.
+ 12. Click **Submit**.
+ 
+ #### Information in your support ticket
 
-To resolve your ticket, click __Mark as solved__ at the bottom of your ticket.
+ The fields, marked with a red asterisk (*****), are required and must be filled in. If you leave any of those fields empty, you will not be able to submit your ticket.
 
-<h2 id="shared-access">SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</h2>
+ See [Ticket fields explained](#ticket-fields-explained) below for more detailed information.
 
-You may grant limited access to your account for other Magento account holders. In particular, using the __shared access__&nbsp;functionality, you may provide privileges for trusted employees and service providers to use your Help Center account&nbsp;so that they could work with your support tickets.
+ ### "Submit a ticket" link not displayed on Magento Help Center start page
 
-You can provide and manage shared access using your Magento Account page at&nbsp;<a class="external-link" href="https://account.magento.com/" rel="nofollow">https://account.magento.com</a>.
+ #### Issue
 
-<h3 id="who-can-provide-shared-access">Who can provide shared access</h3>
+ You access the Magento Help Center and want to submit a support request, but the **Submit a ticket** link is not displayed on the Help Center start page.
 
-Only the Account Owner (Primary Account Holder) with the according privileges can provide shared access for other users.
+ #### Cause
 
-Managing users and their access is the customer's responsibility, especially in the shared access perspective.&nbsp;Thus, the Magento Support Team cannot provide shared access to a Magento account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the&nbsp;[Magento Account page](https://account.magento.com/).
+ One of the following might be the cause:
 
-Users who have been provided with shared access cannot transfer or grant such access to other users.
+ 
+ * You have not logged in to the Help Center.
+ * If using shared access, you have not performed steps required to ensure that Magento Help Center is configured properly via the SSO call from Magento.com.
+ * Your account is not entitled for Magento Support (for example, you are not a paying Commerce customer or you are an Open Source customer).
+ 
+ #### Solution
 
-<h3 id="find-account-owner-cloud">Get to know Account Owner (Cloud)</h3>
+ [Log in to Help Center](https://support.magento.com/hc/en-us/articles/360019086851).
 
-To find out who is the Owner of your Magento Commerce (Cloud) Account, follow these steps:
+ The **Submit a ticket** link will only be displayed for customers with an email linked to a valid support agreement.
 
-1.   Access your Magento Commerce (Cloud) [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html).
-2.   Click the gear icon (Configure Project) next to your Project Name (upper-left corner).
-3.   Go to the __Users__ tab.
-4.   Find the user who is mentioned as the __Account owner__.
+ #### Using shared access account
 
-<img alt="magento_cloud_account_owner.png" height="369" src="https://support.magento.com/hc/article_attachments/360003941654/magento_cloud_account_owner.png" width="851"/>
+ To be able to use shared access account to submit support tickets, you need to perform the following (this needs to be done only once):
 
-&nbsp;
+ 
+ 2. After receiving [shared access](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access), log in to your [Magento account on the magento.com website](https://account.magento.com/).
+ 4. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
+ 6. Click on the **Support** tab in the left panel. Doing this will ensure that the Magento Help Center is configured properly via the SSO call from Magento.com to Magento Help Center.
+ 
+ #### Still don't see the **Submit a ticket** link
 
-If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Magento Customer Success Manager (CSM).
+ If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has a Magento license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360020694351).
 
-<h3 id="provide-shared-access">Provide shared access</h3>
+ If you are a Magento license owner, please verify that you don’t have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 
-See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Magento User Guide for detailed steps on setting up a shared account.
+ How To Check Your Payment Status:
 
-After providing shared access for a new user, the related information is available in __Shared Access__ &gt; __Manage Permissions__ of your Magento Account page.
+ 
+ 2. Login to [magento.com](http://support.magento.com/).
+ 4. Click on **Billing History** on the left.
+ 6. If you **do** have an invoice with **Pending Payment** status, **please contact your Customer Success Manager** to have the payment issue resolved.
+ 
+ We provide support only to Magento license owners and accounts which have Shared Access to an account with a Magento license. If you need support for the Magento Open Source edition, please utilize these self-help technical resources:
 
-<img alt="magento-account-shared-manage-permissions.png" height="486" src="https://support.magento.com/hc/article_attachments/360003178213/magento-account-shared-manage-permissions.png" width="600"/>
+ 
+ * [Magento Help Center](https://support.magento.com/)
+ * [Magento Developer Docs](http://devdocs.magento.com/)
+ * [Magento Tech Resources](https://magento.com/resources/technical)
+ * [Magento Forums](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
+ 
+ If you are having issues logging in to your account or believe Shared Access was setup correctly, but you still cannot see **Submit a ticket** button, please email [helpcenterloginissues@magento.com![](https://jira.corp.magento.com/images/icons/mail_small.gif)](mailto:helpcenterloginissues@magento.com "Follow link"), and we will gladly review your account settings and support entitlements.
 
-&nbsp;
+  
 
-<h3 id="revoke-shared-access">Revoke (delete) shared access</h3>
+ ###  *"Please verify your email address"* error on the Magento account page
 
-<ol><li>Log in to your Magento account at&nbsp;<a class="external-link" href="https://account.magento.com/" rel="nofollow">https://account.magento.com</a>.</li><li>In the panel on the left, under Shared Access, choose <strong>Manage Permissions.</strong>
-</li><li>Find the user to revoke shared access from and click <img alt="remove_icon.png" height="15" src="https://support.magento.com/hc/article_attachments/360003171954/remove_icon.png" width="15"/>&nbsp;in the user's row (<strong>Actions</strong> column).</li><li>Click <strong>Delete User</strong> to revoke access or X in the top corner to cancel revoking.</li></ol>
+  
 
-<img alt="revoke_shared_access.png" height="472" src="https://support.magento.com/hc/article_attachments/360003179153/revoke_shared_access.png" width="500"/>
+ You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento account page](https://account.magento.com/).  
+  
+![Verify_Email_Address_Error.png](https://support.magento.com/hc/article_attachments/360063930612/Verify_Email_Address_Error.png)
 
-You may also revoke shared access using the __Edit__ menu:
+  
 
-1.   Log in to your Magento account at&nbsp;<a class="external-link" href="https://account.magento.com/" rel="nofollow">https://account.magento.com</a>.
-2.   In the panel on the left, under Shared Access, choose __Manage Permissions.__
-3.   Find the user to revoke shared access from and click __Edit__&nbsp;in the user's row (__Actions__ column).
-4.   Click __Delete This User__ at the bottom of the page.
-5.   In the confirmation popup, click __Delete User__ to revoke access or X in the top corner to cancel revoking.
+ The solution is to validate your email address:
 
-<h3 id="switch-accounts">Access shared account (switch accounts)</h3>
+ 
+ 2. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below. ![Validate_Email_Solution.png](https://support.magento.com/hc/article_attachments/360063931752/Validate_Email_Solution.png) 
+ 4. Clicking the **Validate Email** button will send an email to the email address registered for this Magento account with a link to validate the email address.
+ 6. Click on the email validation link to validate your email and resolve this issue.
+ 8. If you do not receive an email with an email validation link, please email [helpcenterloginissues@magento.com![](https://jira.corp.magento.com/images/icons/mail_small.gif)](mailto:helpcenterloginissues@magento.com "Follow link") and indicate that you cannot validate your email address. 
+ 
+  
 
-To use the shared access provided for you, follow these steps:
+ ### Ticket submission form: merchant is not displayed in Organization drop-down
 
-1.   Log in to your Magento account at&nbsp;<a class="external-link" href="https://account.magento.com/" rel="nofollow">https://account.magento.com</a>.
-2.   Click the __Switch Accounts__ menu and select an account.
+ #### Issue
 
-<img alt="magento-account-shared-switch.png" height="267" src="https://support.magento.com/hc/article_attachments/360003173214/magento-account-shared-switch.png" width="500"/>
+ Prerequisites: you have a shared access account granted by a merchant.
 
-To know which account you are currently using (your own native account or shared access), see the __Switch Accounts__ menu: it displays the active account.
+ Steps to reproduce:
 
-<h3 id="troubleshooting-shared-access">Shared access troubleshooting</h3>
+ 
+ 2. Log in to the Help Center using your shared account. 
+ 4. Click the **Submit a ticket** link. The ticket submission form opens.
+ 6. Expand the **Organization** drop-down field to select the merchant. 
+ 
+ Expected result:
 
-#### <span class="wysiwyg-color-orange120">I do not see the Shared Access tab on my Magento Account page</span>
+ The merchant corresponding to the shared account is listed in **Organization** options. 
 
-<span class="wysiwyg-color-red">__Problem:__</span> You want to provide shared access to your trusted colleague but you cannot locate the __Shared Access__ tab on your Magento Account page.
+ Actual result:
 
-<span class="wysiwyg-color-orange120">__Possible cause:__</span> Permissions, necessary to grant shared access, have not been associated with your Magento Account.
+ The merchant corresponding to the used shared account is not available in the **Organization** options. 
 
-<span class="wysiwyg-color-green120">__Solution:__</span> Contact your Magento Customer Success Manager. Please specify your name and the email, associated with your Magento Account.
+ #### Solution
 
-#### <span class="wysiwyg-color-orange120">I use shared access but still see my tickets instead of the shared ones</span>
+ After having been granted shared access from the merchant, you need to take the following steps (only once):
 
-<span class="wysiwyg-color-red">__Problem:__</span> I'm accessing Help Center using shared access but still see only the tickets belonging to my own account (organization). The Magento Account page shows I'm using the account of the organization that has provided shared access for me, but the organization tickets are still not showing.
+ 
+ 2. Log in to your [Magento account on the magento.com website](https://account.magento.com/).
+ 4. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
+ 6. Click on the **Support** tab in the left panel. Doing this will ensure that the Magento Help Center is configured properly via the SSO call from Magento.com to Magento Help Center.
+ 
+  
 
-<span class="wysiwyg-color-orange120">__Possible cause:__</span> Your browser is using the cached content from the Help Center.
+ ### Track your tickets
 
-<span class="wysiwyg-color-green120">__Solution:__</span> Clear your browser cache and access the Help Center again (make sure you have switched to shared access on your Magento Account page).
+ Your tickets are those that you:
 
-&nbsp;
+ 
+ * have submitted personally
+ * have been added to as a watcher through a CC (carbon copy)
+ 
+ #### View your tickets
+
+ To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
+
+ ![View_Your_Tickets_JPG_Final.jpg](https://support.magento.com/hc/article_attachments/360063930692/View_Your_Tickets_JPG_Final.jpg)
+
+ To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
+
+ 
+ * **My tickets**
+ * **Tickets I'm CC'd on**
+ *  **Organization tickets** (available if your account is associated with several organizations)
+ 
+ ![hc_my-tickets_tabs.png](https://support.magento.com/hc/article_attachments/360001286273/hc_my-tickets_tabs.png)
+
+ To sort tickets, click **Created** or **Last Activity** column headers.
+
+ #### Search for tickets
+
+ To find tickets, type your search query in the **Search tickets** field and press *Enter* on your keyboard. Select [a status](#ticket-status) for additional filtering.
+
+ ![hc_search-tickets.png](https://support.magento.com/hc/article_attachments/360001303554/hc_search-tickets.png)
+
+ #### Follow organization tickets
+
+ You may follow the support tickets submitted by the members of your organization.
+
+ When you follow your organization tickets, you:
+
+ 
+ * may view tickets within the **Organization tickets** tab
+ * receive email notifications when the new tickets are submitted, or the existing tickets are changed
+ 
+ To follow/unfollow tickets for an organization:
+
+ 
+ 2. Go to **My tickets** > **Organization tickets** tab.
+ 4. Select an organization in the menu and click **Follow/Unfollow**.
+ 
+ ![hc_follow-org-tickets.png](https://support.magento.com/hc/article_attachments/360001304094/hc_follow-org-tickets.png)
+
+  
+
+ ### Magento P1 hotline
+
+ **Login is required** to access the [Magento P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Magento when seeking help during a P1 incident and explains what information to provide.
+
+  
+
+ ### Support ticket fields explained
+
+ #### Affected URL
+
+ Link to the environment where the Magento Support Team would be able to see your problem. Make sure to start the URL with "http://" or "https://".
+
+ #### Attachments
+
+ Attach logs, screenshots, video recordings, or any other media that may better illustrate your problem.
+
+ #### Backoffice URL (MOM only)
+
+ URL must begin with “https://”**.** It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
+
+ You can also put the direct link related to your issue.
+
+ #### CC
+
+ Emails of the persons whom you want to follow your ticket (for example, *first@e.mail*).
+
+ You may add emails of the persons who do not have a Magento or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
+
+ To add several emails to CC:
+
+ 
+ 2. Enter the email.
+ 4. Press *Space* on your keyboard to save the entered email. The email appears in a grey frame.  
+![hc_cc_emails.png](https://support.magento.com/hc/article_attachments/360016489192/hc_cc_emails.png) 
+ 6. Start typing the next email.
+ 8. Save all other emails by pressing *Space*.
+ 
+ To delete emails from CC: click **x** in a framed email.
+
+ ![hc_cc_emails_remove.png](https://support.magento.com/hc/article_attachments/360016540451/hc_cc_emails_remove.png)
+
+ #### Contact reason
+
+ Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing.
+
+ #### (Data) Integration type (MBI only)
+
+ Select the type of integration you have within MBI. This will help our engineers to more efficiently solve your issue.
+
+ #### Description
+
+ Include an overview of your problem with as many details as you find reasonably possible.
+
+ Please provide precise details, steps to reproduce (except for Magento Commerce and Cloud, where there is a separate [Steps to Reproduce](#steps) field), and symptoms of your issue or request. Be sure to include any affected SKUs, relevant data points, and any other relevant links.
+
+ #### Environment (Commerce Cloud, Commerce on-Premise, MBI and Shipping only)
+
+ Select the environment type on which you face the problem:
+
+ 
+ * Development
+ * Staging
+ * Production
+ 
+ Read more about Magento Commerce Cloud environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article on DevDocs.
+
+ #### Number of orders affected (MOM only)
+
+ Select the range of orders that are affected.
+
+ This is a drop-down and only applicable for Order Management product.
+
+ #### Organization
+
+ Indicate the organization you would like your ticket to be associated with — in case you work with several organizations.
+
+ This field appears when your account is associated with more than one organization.
+
+ #### Product
+
+ Select the type of Magento product you are working with: 
+
+ 
+ * Magento Commerce Cloud
+ * Magento Commerce OnPremise
+ * Magento Order Management
+ * Magento Shipping
+ 
+ #### Partner name (Merchant name)
+
+ For Merchants: **Partner Name** is the name of the Development Organization (Magento [Technology Partner](https://partners.magento.com/portal/directory/?&partner_type=6) or [Solution Partner](https://partners.magento.com/portal/directory/?&partner_type=1)) that participate in developing your Magento store.
+
+ For Partners: **Merchant Name** is the name of your Customer.
+
+ #### Project URL (Commerce Cloud only)
+
+ Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
+
+ #### Steps to reproduce (Commerce on-Premise and Commerce Cloud only)
+
+ Give exact step-by-step instructions to reproduce your problem, including:
+
+ 
+ * Steps to replicate
+ * Expected result
+ * Actual result
+ 
+ *Recommendation:* Assume that you are writing these steps for someone who knows **nothing** about Magento:
+
+ 
+ * Mention every step, even if it seems simple and obvious
+ * Do not rely on the assumption that your reader knows what you mean
+ 
+ Write in simple language, with short sentences.
+
+ #### Subject
+
+ Include a short overview of your problem (for example, *Error 404 on all pages*).
+
+ **Suggested articles:** When you start writing the subject, you see a list of Knowledge Base articles that might be related to your problem; they are being offered to you basing on the keywords you are typing in. Click the article in the list to open it in the Knowledge Base.
+
+ ![hc_subject-suggested-articles.png](https://support.magento.com/hc/article_attachments/360016489692/hc_subject-suggested-articles.png)
+
+ *Recommendation:* Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Magento Support Team.
+
+ #### Version (Commerce on-Premise, Commerce Cloud and Shipping only)
+
+ Please select the Magento version you are requesting help with. All supported versions of Magento Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
+
+ To find the version of your Magento Commerce (Cloud), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
+
+  
+
+ ### Ticket status: How your tickets are processed
+
+ Your ticket may have either of these three statuses.
+
+ #### **1. Open**
+
+ Your ticket is not solved and is being processed by the Magento Support Team.  
+  
+When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Magento Support — your ticket has the **Open** status.
+
+ #### **2. Awaiting your reply**
+
+ Magento Support is expecting information from you.
+
+ In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue.  
+Make sure you provide your replies as soon as you can since Magento Support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
+
+ Reference the [Magento Support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy. 
+
+ #### **3. Solved**
+
+ Magento Support has provided a solution for your issue, and you have agreed it has been helpful.  
+  
+It is you who marks the ticket as **Solved**. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to **Open**.
+
+ ### Conversation in your ticket
+
+ Conversation in your ticket unites all comments written by you or the Magento Support Team. Comments are displayed from latest (on top) to earliest (bottom).
+
+ To add a comment to the conversation, follow these steps:
+
+ 
+ 2. Scroll to the bottom of your ticket.
+ 4. Click the **Add to conversation** field to start writing.  
+  
+![hc_add-to-conversation.png](https://support.magento.com/hc/article_attachments/360001297913/hc_add-to-conversation.png) 
+ 6. To add a person to your comment, specify the email in the **CC** field of the comment field.  
+  
+![hc_conversation-write.png](https://support.magento.com/hc/article_attachments/360001298013/hc_conversation-write.png) 
+ 8. Once you are finished with your comment, click **Submit**.
+ 
+ ### Resolve your ticket
+
+ To resolve your ticket, click **Mark as solved** at the bottom of your ticket.
+
+ ### Open a follow-up ticket
+
+ Opening a follow-up ticket will ensure that the original issue is linked to the follow-up ticket for continuity.
+
+ To open a follow-up ticket, click the "*create a follow-up*" link at the bottom of the ticket you wish to create a follow up to.
+
+ SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT
+----------------------------------------------------------------------
+
+ You may grant limited access to your account for other Magento account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
+
+ You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/).
+
+ ### Who can provide shared access
+
+ Only the Account Owner (Primary Account Holder) with the according privileges can provide shared access for other users.
+
+ Managing users and their access is the customer's responsibility, especially in the shared access perspective. Thus, the Magento Support Team cannot provide shared access to a Magento account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the [Magento Account page](https://account.magento.com/).
+
+ Users who have been provided with shared access cannot transfer or grant such access to other users.
+
+ ### Get to know Account Owner (Cloud)
+
+ To find out who is the Owner of your Magento Commerce (Cloud) Account, follow these steps:
+
+ 
+ 2. Access your Magento Commerce (Cloud) [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html).
+ 4. Click the gear icon (Configure Project) next to your Project Name (upper-left corner).
+ 6. Go to the **Users** tab.
+ 8. Find the user who is mentioned as the **Account owner**.
+ 
+ ![magento_cloud_account_owner.png](https://support.magento.com/hc/article_attachments/360003941654/magento_cloud_account_owner.png) 
+
+ If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Magento Customer Success Manager (CSM).
+
+ ### Provide shared access
+
+ See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Magento User Guide for detailed steps on setting up a shared account.
+
+ After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
+
+ ![magento-account-shared-manage-permissions.png](https://support.magento.com/hc/article_attachments/360003178213/magento-account-shared-manage-permissions.png) 
+
+ ### Revoke (delete) shared access
+
+ 
+ 2. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+ 4. In the panel on the left, under Shared Access, choose **Manage Permissions.** 
+ 6. Find the user to revoke shared access from and click ![remove_icon.png](https://support.magento.com/hc/article_attachments/360003171954/remove_icon.png) in the user's row (**Actions** column).
+ 8. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
+ 
+ ![revoke_shared_access.png](https://support.magento.com/hc/article_attachments/360003179153/revoke_shared_access.png)
+
+ You may also revoke shared access using the **Edit** menu:
+
+ 
+ 2. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+ 4. In the panel on the left, under Shared Access, choose **Manage Permissions.** 
+ 6. Find the user to revoke shared access from and click **Edit** in the user's row (**Actions** column).
+ 8. Click **Delete This User** at the bottom of the page.
+ 10. In the confirmation popup, click **Delete User** to revoke access or X in the top corner to cancel revoking.
+ 
+ ### Access shared account (switch accounts)
+
+ To use the shared access provided for you, follow these steps:
+
+ 
+ 2. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+ 4. Click the **Switch Accounts** menu and select an account.
+ 
+ ![magento-account-shared-switch.png](https://support.magento.com/hc/article_attachments/360003173214/magento-account-shared-switch.png)
+
+ To know which account you are currently using (your own native account or shared access), see the **Switch Accounts** menu: it displays the active account.
+
+ ### Shared access troubleshooting
+
+ Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012).
+
+  
+

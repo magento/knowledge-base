@@ -1,6 +1,14 @@
+---
+title: What is Magento Help Center?
+link: https://support.magento.com/hc/en-us/articles/360020587771-What-is-Magento-Help-Center-
+labels: 
+---
+
 Magento Help Center is a support system that helps to resolve issues with your Magento products.
 
-Help Center consists of:
+ Help Center consists of:
 
-*   __[Knowledge Base](https://support.magento.com/hc/en-us/sections/360002666912)__, a collection of articles to help you resolve issues without submitting support tickets
-*   [__Ticketing System__](https://support.magento.com/hc/en-us/sections/360002678551)&nbsp;to manage your support tickets
+ 
+ *  **[Knowledge Base](https://support.magento.com/hc/en-us/sections/360002666912)**, a collection of articles to help you resolve issues without submitting support tickets
+ *  [**Ticketing System**](https://support.magento.com/hc/en-us/sections/360002678551) to manage your support tickets
+ 

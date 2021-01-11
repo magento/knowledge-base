@@ -1,1 +1,0 @@
-Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility" rel="noopener" target="_blank">Set up Elasticsearch Service</a> article on Magento Devdocs for information about setting up Elasticsearch for Magento Commerce Cloud.
