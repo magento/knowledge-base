@@ -1,53 +1,67 @@
-This article provides a patch for a known Magento Commerce 2.2.3 issue related to a shopping cart being empty after customers click __Go to Checkout__ multiple times in the mini shopping cart.
+---
+title: Empty shopping cart issue when multiple click on checkout from mini cart
+link: https://support.magento.com/hc/en-us/articles/360024915931-Empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart
+labels: Magento Commerce,patch,troubleshooting,minicart,empty cart,checkout,known issues,2.2.3,2.2.5
+---
 
-## Issue:
+This article provides a patch for a known Magento Commerce 2.2.3 issue related to a shopping cart being empty after customers click **Go to Checkout** multiple times in the mini shopping cart.
 
-Customers add products to the cart, try to checkout by clicking the __Go to__&nbsp;__Checkout__ button several times, but when they go to the cart, the cart is empty. The mini-cart might still show products.
+ Issue
+-----
 
-<span class="wysiwyg-underline">Steps to reproduce</span>:
+ Customers add products to the cart, try to checkout by clicking the **Go to** **Checkout** button several times, but when they go to the cart, the cart is empty. The mini-cart might still show products.
 
-1. Open a product page on the store front.
+ Steps to reproduce:
 
-2. Add products to cart.
+ 1. Open a product page on the store front.
 
-3. In the mini shopping cart, click __Go to Checkout__&nbsp;several times.
+ 2. Add products to cart.
 
-<span class="wysiwyg-underline">Expected result</span>:
+ 3. In the mini shopping cart, click **Go to Checkout** several times.
 
-The cart contains all products you have added.
+ Expected result:
 
-<span class="wysiwyg-underline">Actual result</span>:
+ The cart contains all products you have added.
 
-You have no items in your shopping cart.
+ Actual result:
 
-## Patch
+ You have no items in your shopping cart.
 
-The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
+ Patch
+-----
 
-<a href="https://support.magento.com/hc/en-us/article_attachments/360023267032/MDVA-10441_EE_2.2.3_v3.composer.patch" target="_self">Download MDVA-10441\_EE\_2.2.3\_v3.composer.patch</a>
+ The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
 
-<a href="https://support.magento.com/hc/en-us/article_attachments/360023768751/MDVA-17078_EE_2.2.5_COMPOSER_v1.patch" target="_self">Download MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch</a>
+ [Download MDVA-10441\_EE\_2.2.3\_v3.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023267032/MDVA-10441_EE_2.2.3_v3.composer.patch)
 
-### Compatible Magento versions
+ [Download MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360023768751/MDVA-17078_EE_2.2.5_COMPOSER_v1.patch)
 
-The patches were created for:
+ ### Compatible Magento versions
 
-*   Magento Commerce 2.2.3 (the `` MDVA-10441_EE_2.2.3_v3.composer.patch ``&nbsp;file)
-*   Magento Commerce (Cloud) 2.2.5 (`` MDVA-17078_EE_2.2.5_COMPOSER_v1.patch ``&nbsp;file)
+ The patches were created for:
 
-The `` MDVA-10441_EE_2.2.3_v3.composer.patch ``&nbsp;patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+ 
+ * Magento Commerce 2.2.3 (the MDVA-10441\_EE\_2.2.3\_v3.composer.patch file)
+ * Magento Commerce (Cloud) 2.2.5 (MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch file)
+ 
+ The MDVA-10441\_EE\_2.2.3\_v3.composer.patch patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
 
-*   Magento Commerce (Cloud) versions from 2.2.1 to to 2.2.5
-*   Magento Commerce versions from 2.2.1 to to 2.2.5
+ 
+ * Magento Commerce (Cloud) versions from 2.2.1 to to 2.2.5
+ * Magento Commerce versions from 2.2.1 to to 2.2.5
+ 
+ The MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
 
-The `` MDVA-17078_EE_2.2.5_COMPOSER_v1.patch ``&nbsp;patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+ 
+ * Magento Commerce 2.2.5
+ 
+ How to apply a patch
+--------------------
 
-*   Magento Commerce 2.2.5
+ See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
-## How to apply a patch
+ Attached Files
+--------------
 
-See <a href="https://support.magento.com/hc/en-us/articles/360028367731" target="_self">How to apply a composer patch provided by Magento</a> for instructions.
+  
 
-## Attached Files
-
-&nbsp;

@@ -1,97 +1,118 @@
+---
+title: Work with your support tickets
+link: https://support.magento.com/hc/en-us/articles/360020328972-Work-with-your-support-tickets
+labels: 
+---
+
 In this article:
 
-*   [View your tickets](#view-your-tickets)
-*   [Search for tickets](#search-for-tickets)
-*   [Follow organization tickets](#follow-organization-tickets)
-*   [Ticket status: how your tickets are processed](#ticket-status)
-*   [Conversation in your ticket](#conversation-in-your-ticket)
-*   [Resolve your ticket](#resolve-your-ticket)
+ 
+ * [View your tickets](#view-your-tickets)
+ * [Search for tickets](#search-for-tickets)
+ * [Follow organization tickets](#follow-organization-tickets)
+ * [Ticket status: how your tickets are processed](#ticket-status)
+ * [Conversation in your ticket](#conversation-in-your-ticket)
+ * [Resolve your ticket](#resolve-your-ticket)
+ 
+ Your tickets are those that you:
 
-Your tickets are those that you:
+ 
+ * have submitted personally
+ * have been added to — as a watcher through a CC (carbon copy)
+ 
+ View your tickets
+-----------------
 
-*   have submitted personally
-*   have been added to — as a watcher through a CC (carbon copy)
+ To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
-<h2 id="view-your-tickets">View your tickets</h2>
+ ![hc_my-tickets.png](https://support.magento.com/hc/article_attachments/360016487112/hc_my-tickets.png)
 
-To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select __My tickets__.
+ To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
 
-<img alt="hc_my-tickets.png" height="343" src="https://support.magento.com/hc/article_attachments/360016487112/hc_my-tickets.png" width="600"/>
+ 
+ * **My tickets**
+ * **Tickets I'm CC'd on**
+ *  **Organization tickets** (available if your account is associated with several organizations)
+ 
+ ![hc_my-tickets_tabs.png](https://support.magento.com/hc/article_attachments/360016487332/hc_my-tickets_tabs.png)
 
-To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
+ To sort tickets, click **Created** or **Last Activity** column headers.
 
-*   __My tickets__
-*   __Tickets I'm CC'd on__
-*   __Organization tickets__ (available if your account is associated with several organizations)
+ Search for tickets
+------------------
 
-<img alt="hc_my-tickets_tabs.png" height="168" src="https://support.magento.com/hc/article_attachments/360016487332/hc_my-tickets_tabs.png" width="499"/>
+ To find tickets, type your search query in the **Search tickets** field and press *Enter* on your keyboard. Select [a status](#ticket-status) for additional filtering.
 
-To sort tickets, click __Created__ or __Last Activity__ column headers.
+ ![hc_search-tickets.png](https://support.magento.com/hc/article_attachments/360016539111/hc_search-tickets.png)
 
-<h2 id="search-for-tickets">Search for tickets</h2>
+ Follow organization tickets
+---------------------------
 
-To find tickets, type your search query in the __Search tickets__ field and press _Enter_ on your keyboard. Select [a status](#ticket-status) for additional filtering.
+ You may follow the support tickets submitted by the members of your organization.
 
-<img alt="hc_search-tickets.png" height="160" src="https://support.magento.com/hc/article_attachments/360016539111/hc_search-tickets.png" width="702"/>
+ When you follow your organization tickets, you:
 
-<h2 id="follow-organization-tickets">Follow organization tickets</h2>
+ 
+ * may view tickets within the **Organization tickets** tab
+ * receive email notifications when the new tickets are submitted, or the existing tickets are changed
+ 
+ To follow or unfollow tickets for an organization, follow these steps:
 
-You may follow the support tickets submitted by the members of your organization.
+ 
+ 2. Go to **My tickets** > **Organization tickets** tab.
+ 4. Select an organization in the menu and click **Follow** or **Unfollow**.
+ 
+ ![hc_follow-org-tickets.png](https://support.magento.com/hc/article_attachments/360016487592/hc_follow-org-tickets.png)
 
-When you follow your organization tickets, you:
+ Ticket status: how your tickets are processed
+---------------------------------------------
 
-*   may view tickets within the&nbsp;__Organization tickets__ tab
-*   receive email notifications when the new tickets are submitted, or the existing tickets are changed
+ Your ticket may have either of these three statuses.
 
-To follow or unfollow tickets for an organization, follow these steps:
+ ### 1. Open
 
-1.   Go to&nbsp;__My tickets__ &gt;&nbsp;__Organization tickets__ tab.
-2.   Select an organization in the menu and click __Follow__ or __Unfollow__.
+ Your ticket is not solved and is being processed by the Magento Support Team.
 
-<img alt="hc_follow-org-tickets.png" height="194" src="https://support.magento.com/hc/article_attachments/360016487592/hc_follow-org-tickets.png" width="801"/>
+ When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Magento Support — your ticket has the **Open** status.
 
-<h2 id="ticket-status">Ticket status: how your tickets are processed</h2>
+ ### 2. Awaiting your reply
 
-Your ticket may have either of these three statuses.
+ Magento Support is expecting info from you.
 
-### <span class="wysiwyg-color-red">1. Open</span>
+ In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue.   
+Make sure you provide your replies soon since Magento Support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
 
-Your ticket is not solved and is being processed by the Magento Support Team.
+ Reference to the [Magento Support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy. 
 
-When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Magento Support — your ticket has the __Open__ status.
+ ### 3. Solved
 
-### <span class="wysiwyg-color-orange">2. Awaiting for your reply</span>
+ Magento Support has provided a solution for your issue, and you have agreed it has been helpful.
 
-Magento Support is expecting info from you.
+ It is you who marks the ticket as **Solved**. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to **Open**.
 
-In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue.   
-Make sure you provide your replies soon since Magento Support cannot proceed with processing your ticket while it is in the&nbsp;__Awaiting for your reply__ status.
+ Conversation in your ticket
+---------------------------
 
-### <span class="wysiwyg-color-green120">3. Solved</span>
+ Conversation in your ticket unites all comments written by you or the Magento Support Team. Comments are displayed from latest (top) to earliest (bottom).
 
-Magento Support has provided a solution for your issue, and you have agreed it has been helpful.
+ To add a comment to the conversation, follow these steps:
 
-It is you who marks the ticket as __Solved__. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to&nbsp;__Open__.
+ 
+ 2. Scroll to the bottom of your ticket.
+ 4. Click the **Add to conversation** field to start writing.  
+  
+![hc_add-to-conversation.png](https://support.magento.com/hc/article_attachments/360016544612/hc_add-to-conversation.png)  
+  
+ 
+ 6. To add a person to your comment, specify the email in the **CC** field of the comment field.  
+  
+![hc_conversation-write.png](https://support.magento.com/hc/article_attachments/360016596291/hc_conversation-write.png)  
+  
+ 
+ 8. Once you are through with your comment, click **Submit**.
+ 
+ Resolve your ticket
+-------------------
 
-<h2 id="conversation-in-your-ticket">Conversation in your ticket</h2>
+ To resolve your ticket, click **Mark as solved** at the bottom of your ticket.
 
-Conversation in your ticket unites all comments written by you or the Magento Support Team. Comments are displayed from latest (top) to earliest (bottom).
-
-To add a comment to the conversation, follow these steps:
-
-1.   Scroll to the bottom of your ticket.
-2.   Click the __Add to conversation__ field to start writing.  
-      
-    ![hc_add-to-conversation.png](https://support.magento.com/hc/article_attachments/360016544612/hc_add-to-conversation.png)  
-      
-    
-3.   To add a person to your comment, specify the email in the __CC__ field of the comment field.  
-      
-    ![hc_conversation-write.png](https://support.magento.com/hc/article_attachments/360016596291/hc_conversation-write.png)  
-      
-    
-4.   Once you are through with your comment, click __Submit__.
-
-<h2 id="resolve-your-ticket">Resolve your ticket</h2>
-
-To resolve your ticket, click __Mark as solved__ at the bottom of your ticket.

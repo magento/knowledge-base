@@ -1,1 +1,0 @@
-Please refer to&nbsp;<a href="https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices" target="_self">Deployment process:&nbsp;Best practices for builds and deployment</a> on Magento DevDocs.

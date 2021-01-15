@@ -1,16 +1,34 @@
+---
+title: Navigate articles using categories and sections
+link: https://support.magento.com/hc/en-us/articles/360020590991-Navigate-articles-using-categories-and-sections
+labels: help-center-guide
+---
+
 All articles in the Knowledge Base are grouped into categories and sections. They are:
 
-*   __Troubleshooting:__ articles that show how to solve a particular issue.   
-    For example, if you cannot perform an operation because of an error message, this is where you might find the solution.  
-      
-    
-*   __How to:__ articles with detailed steps on how to perform a particular operation.  
-      
-    
-*   __FAQ:__ answers to the most common, frequently asked questions.
+ 
+ *  **Troubleshooting:** articles that show how to solve a particular issue.   
+For example, if you cannot perform an operation because of an error message, this is where you might find the solution.  
+  
+ 
+ *  **How to:** articles with detailed steps on how to perform a particular operation.  
+  
+ 
+ *  **FAQ:** answers to the most common, frequently asked questions.
+ 
+ To find articles through navigating the categories, follow these steps:
 
-To find articles through navigating the categories, follow these steps:
-
-<ol><li>Go to the Knowledge Base landing page at <a href="https://support.magento.com/hc/en-us">https://support.magento.com/hc/en-us</a>.</li><li>Click a category.<br/><br/><img alt="hc_select-category.png" height="141" src="https://support.magento.com/hc/article_attachments/360016478792/hc_select-category.png" width="600"/><br/><br/>
-</li><li>The list of all articles in that category is displayed. Browse through the articles, find the one you need, then click it.<br/><br/><img alt="hc_troubleshooting.png" height="210" src="https://support.magento.com/hc/article_attachments/360016530131/hc_troubleshooting.png" width="500"/><br/><br/><br/>
-</li></ol>
+ 
+ 2. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
+ 4. Click a category.  
+  
+![hc_select-category.png](https://support.magento.com/hc/article_attachments/360016478792/hc_select-category.png)  
+  
+ 
+ 6. The list of all articles in that category is displayed. Browse through the articles, find the one you need, then click it.  
+  
+![hc_troubleshooting.png](https://support.magento.com/hc/article_attachments/360016530131/hc_troubleshooting.png)  
+  
+  
+ 
+ 

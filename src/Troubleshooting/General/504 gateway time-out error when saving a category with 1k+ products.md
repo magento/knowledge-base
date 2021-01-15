@@ -1,50 +1,65 @@
+---
+title: 504 gateway time-out error when saving a category with 1k+ products
+link: https://support.magento.com/hc/en-us/articles/360034731011-504-gateway-time-out-error-when-saving-a-category-with-1k-products
+labels: Magento Commerce Cloud,Magento Commerce,timeout,time-out,products,2.3.3,how to,504 error,URL rewrites
+---
+
 This article suggests a solution for the timeout issue you might have, when performing operations with large categories (1k+ plus products).
 
-### Affected products and versions:
+ ### Affected products and versions:
 
-*   Magento Commerce Cloud&nbsp;2.3.3
-*   Magento Commerce&nbsp;2.3.3
-*   Magento Open Source 2.3.3
+ 
+ * Magento Commerce Cloud 2.3.3
+ * Magento Commerce 2.3.3
+ * Magento Open Source 2.3.3
+ 
+ Issue
+-----
 
-## Issue
+ Prerequisites: The **Stores** > **Configuration** > **CATALOG** > **Catalog** > **Use Categories Path for Product URLs** option is set to *Yes* for your store view.
 
-Prerequisites: The __Stores__ &gt; __Configuration__ &gt; __CATALOG__ &gt; __Catalog__ &gt;&nbsp;__Use Categories Path for Product URLs__ option is set to _Yes_ for your store view.
+ Steps to reproduce
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+ 
+ 2. In Magento Admin, go to **Catalog** > **Categories**.
+ 4. Open a large category, like more than 1000 assigned products.
+ 6. Add a product to the category.
+ 8. Click **Save Category.** 
+ 
+ Expected result
 
-1.   In Magento Admin, go to &nbsp;__Catalog__ &gt; __Categories__.
-2.   Open a large category, like more than 1000 assigned products.
-3.   Add a product to the category.
-4.   Click __Save Category.__
+ Category is saved successfully.
 
-<span class="wysiwyg-underline">Expected result</span>
+ Actual result
 
-Category is saved successfully.
+ After 5 minutes of saving process, the 504 gateway timeout error page appears.
 
-<span class="wysiwyg-underline">Actual result</span>
+ Cause
+-----
 
-After 5 minutes of saving process, the 504 gateway timeout error page appears.
+ The process takes longer than the server's configured timeout.
 
-## Cause
+ Solution
+--------
 
-The process takes longer than the server's configured timeout.
+ Disabling the **Generate "category/product" URL Rewrites** option will remove all category/product URL rewrites from the database, and significantly decrease the time required for the operations with big categories. 
 
-## Solution
+ Turning this option off will result in permanent removal of category/product URL rewrites without an ability to restore them.
 
-Disabling the __Generate "category/product" URL Rewrites__ option will remove all&nbsp;category/product URL rewrites from the database, and significantly decrease the time required for the operations with big categories.&nbsp;
+ To disable the **Generate "category/product" URL Rewrites** option:
 
-<p class="warning">Turning this option off will result in permanent removal of category/product URL rewrites without an ability to restore them.</p>
+ 
+ 2. In the Magento Admin, navigate to **Stores** > **Configuration** > **CATALOG** > **Catalog**.
+ 4. In the top left corner of the configuration page, in the **Scope** field, set your configuration scope to *Default Config*.
+ 6. Set **Generate "category/product" URL Rewrites** to *No*.
+ 8. Click **Save Config**. 
+ 10. Clean cache by running bin/magento cache:clean or in Magento Admin under **System** > **Tools** > **Cache Management**.
+ 
+ Now you can proceed to adding products to categories, or moving categories with a large number of products, and these operations will take much less time and should not cause timeout.
 
-To disable the&nbsp;__Generate "category/product" URL Rewrites__ option:
+ Related reading
+---------------
 
-1.   In the Magento Admin, navigate to&nbsp;__Stores__ &gt; __Configuration__ &gt; __CATALOG__ &gt; __Catalog__.
-2.   In the top left corner of the configuration page, in the __Scope__ field, set your configuration scope to _Default Config_.
-3.   Set&nbsp;__Generate "category/product" URL Rewrites__ to_ No_.
-4.   Click __Save Config__.&nbsp;
-5.   Clean cache by running <code class="language-bash">bin/magento cache:clean</code> or in Magento Admin under __System__ &gt; __Tools__ &gt; __Cache Management__.
-
-Now you can proceed to adding products to categories, or moving categories with a large number of products, and these operations will take much less time and should not cause timeout.
-
-## Related reading
-
-*   <a href="https://docs.magedevteam.com/244/m2/ce/user_guide/marketing/url-redirect-product-automatic.html" target="_self">Automatic Product Redirects</a>&nbsp;in <a href="https://docs.magedevteam.com/244/m2/ce/user_guide/" target="_self">Magento 2.3 User Guide</a>
+ 
+ *  [Automatic Product Redirects](https://docs.magedevteam.com/244/m2/ce/user_guide/marketing/url-redirect-product-automatic.html) in [Magento 2.3 User Guide](https://docs.magedevteam.com/244/m2/ce/user_guide/) 
+ 

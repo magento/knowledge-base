@@ -1,21 +1,25 @@
-<h2 id="details">Details</h2>
+---
+title: During installation, Reflection Exception error
+link: https://support.magento.com/hc/en-us/articles/360034633551-During-installation-Reflection-Exception-error
+labels: Magento Commerce Cloud,Magento Commerce,installation,Redis,cache,Reflection,Exception,Error,how to
+---
 
-During the installation, a message similar to the following displays:
+This article provides a solution for the Reflection Exception error, during installation.
 
-<pre><code class="language-php">[ERROR] exception 'ReflectionException' with message 'Class Magento\Framework\StoreManagerInterface does not exist' in /&lt;path&gt;/lib/internal/Magento/Framework/Code/Reader/ClassReader.php</code></pre>
+ Details
+-------
 
-<h2 id="solution">Solution</h2>
+ During the installation, a message similar to the following displays:
 
-Clear all directories and files under Magento's `` var `` subdirectory and install the Magento software again.
+ [ERROR] exception 'ReflectionException' with message 'Class Magento\Framework\StoreManagerInterface does not exist' in /<path>/lib/internal/Magento/Framework/Code/Reader/ClassReader.php Solution
+--------
 
-As the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) or as a user with `` root `` privileges, enter the following commands:
+ Clear all directories and files under Magento's var subdirectory and install the Magento software again.
 
-<pre><code class="language-bash">$ cd &lt;your Magento install directory&gt;/var</code></pre>
+ As the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) or as a user with root privileges, enter the following commands:
 
-<pre><code class="language-bash">$ rm -rf var/cache/* di/* generation/* page_cache/*</code></pre>
+ $ cd <your Magento install directory>/var $ rm -rf var/cache/* di/* generation/* page\_cache/* ### Redis
 
-<h3 id="redis">Redis</h3>
+ If you use Redis and still get an error, clear the Redis cache as follows:
 
-If you use Redis and still get an error, clear the Redis cache as follows:
-
-<pre><code class="language-bash">$ redis-cli FLUSHALL</code></pre>
+ $ redis-cli FLUSHALL

@@ -1,49 +1,59 @@
-<p class="warning">On any Magento version, because some extensions only work with flat tables there is a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you may need to take that into consideration when setting those values to "<em>No</em>".</p>
+---
+title: Slow performance, slow and long running crons
+link: https://support.magento.com/hc/en-us/articles/360034631192-Slow-performance-slow-and-long-running-crons
+labels: Magento Commerce Cloud,Magento Commerce,performance,flat tables,slow performance,long running crons,flat catalog indexers,how to
+---
 
-This article describes how to solve site performance issues and slow running and stuck crons caused by <a href="https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html" rel="noopener" target="_blank">flat tables and indexers</a> having been enabled.&nbsp;
+On any Magento version, because some extensions only work with flat tables there is a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you may need to take that into consideration when setting those values to "*No*".
 
-AFFECTED PRODUCTS AND VERSIONS
+ This article describes how to solve site performance issues and slow running and stuck crons caused by [flat tables and indexers](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html) having been enabled. 
 
-*   Magento Commerce Cloud&nbsp;2.1.x and above
-*   Magento Commerce (On-Premise) 2.1.x and above
-*   Magento Open Source 2.1.x and above
+ AFFECTED PRODUCTS AND VERSIONS
 
-## Issue
+ 
+ * Magento Commerce Cloud 2.1.x and above
+ * Magento Commerce (On-Premise) 2.1.x and above
+ * Magento Open Source 2.1.x and above
+ 
+ Issue
+-----
 
-Flat indexers can cause:
+ Flat indexers can cause:
 
-*   Heavy SQL load and site performance issues.
-*   Long running and stuck crons.
+ 
+ * Heavy SQL load and site performance issues.
+ * Long running and stuck crons.
+ 
+ Cause
+-----
 
-## Cause
+ Flat tables and indexers enabled.
 
-Flat tables and indexers enabled.
+ Solution
+--------
 
-<h2 id="solution">Solution</h2>
+ Starting with Magento 2.1.x and above, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. To disable the flat catalog:
 
-Starting with Magento 2.1.x and above, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. To disable the flat catalog:
+ 
+ 2. In the Magento Admin, navigate to **Stores** > **Settings** > **Configuration**.
+ 4. In the panel on the left under **Catalog**, choose **Catalog**.
+ 6. Expand the **Storefront** section, and do the following: 
+	 * Set **Use Flat Catalog Category** to *No*.
+	 * Set **Use Flat Catalog Product** to *No*. 
+ 8. When complete, click **Save Config**. Then when prompted, refresh the cache.
+ 10. Flush cache by running php bin/magento cache:flush 
+ 
+ If you can't change the **Use Flat Catalog Category** and **Use Flat Catalog Product** to *No* because the options are greyed out disable flat indexers in app/etc/config.php:
 
-1.   In the Magento&nbsp;Admin, navigate&nbsp;to&nbsp;__Stores__&nbsp;&gt;&nbsp;__Settings__&nbsp;&gt;&nbsp;__Configuration__.
-2.   In the panel on the left under&nbsp;__Catalog__, choose&nbsp;__Catalog__.
-3.   Expand the&nbsp;__Storefront&nbsp;__section, and do the following:
-    
-    *   Set&nbsp;__Use Flat Catalog Category__&nbsp;to _No_.
-    *   Set&nbsp;__Use Flat Catalog Product__&nbsp;to&nbsp;_No_.
-    
-    
-    
-4.   When complete, click __Save Config__. Then when prompted, refresh the cache.
-5.   Flush cache by running `` php bin/magento cache:flush ``
+ 
+ 2. Run this command to make sure all indexers are set to Update by schedule: php bin/magento indexer:set-mode schedule 
+ 4. Edit app/etc/config.php and locate the lines with flat\_catalog\_product and flat\_catalog\_category - change them from 1 to 0 to disable them.
+ 6. Run the command php bin/magento app:config:import 
+ 8. Run this command to confirm that the flat indexers are disabled: php bin/magento indexer:status 
+ 10. Flush cache by running php bin/magento cache:flush 
+ 
+ Related Information
+-------------------
 
-If you can't change the __Use Flat Catalog Category__ and __Use Flat Catalog Product__ to _No_ because the options are greyed out disable flat indexers in `` app/etc/config.php ``:
+ DevDocs:[Reset stuck Magento cron jobs manually on Cloud](https://support.magento.com/hc/en-us/articles/360000097713-Reset-stuck-Magento-cron-jobs-manually-on-Cloud)
 
-1.   Run this command to make sure all indexers are set to Update by schedule: `` php bin/magento indexer:set-mode schedule ``
-2.   Edit `` app/etc/config.php `` and locate the lines with `` flat_catalog_product `` and `` flat_catalog_category `` - change them from 1 to 0 to disable them.
-3.   Run the command&nbsp;`` php bin/magento app:config:import ``
-4.   Run this command to confirm that the flat indexers are disabled:&nbsp;`` php
-        bin/magento indexer:status ``
-5.   Flush cache by running `` php bin/magento cache:flush ``&nbsp;
-
-## Related Information
-
-DevDocs:__&nbsp;__<a href="https://support.magento.com/hc/en-us/articles/360000097713-Reset-stuck-Magento-cron-jobs-manually-on-Cloud" rel="noopener" target="_blank">Reset stuck Magento cron jobs manually on Cloud</a>

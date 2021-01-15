@@ -1,31 +1,73 @@
-Need to find extensive Magento documentation but lost? We provide a list of all end user and technical documentation here. We also recommend searching this Knowledge Base for helpful troubleshooting, tutorials, and FAQs.
+---
+title: How to find Magento product documentation
+link: https://support.magento.com/hc/en-us/articles/115001871273-How-to-find-Magento-product-documentation
+labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2B,MBI,PWA,product,Magento Order Management,marketplace,Magento Business Intelligence,how to
+---
 
-## Environment and technologies
+Magento Support Documentation
+-----------------------------
 
-*   Magento Commerce
-*   Magento Commerce (Cloud)
-*   Magento Open Source
+ The Magento Support Knowledge Base provides troubleshooting solutions for fixing and avoiding known Magento products issues, supplied by the Magento Support Team.
 
-## Documentation Links
+ There are also separate troubleshooting resources for:
 
-We provide documentation for all supported versions. From the links below, you can select a specific version, or switch versions, through the page. [Documentation and Resources](https://magento.com/resources/technical) provides links to all versions and documentation, your one stop shop!
+ 
+ * Magento U: [https://magento-u-support.magento.com/](https://magento-u-support.magento.com/hc/en-us) 
+ * Magento Marketplace: <https://marketplacesupport.magento.com/> 
+ * Magento Partners Portal: <https://partnersupport.magento.com> 
+ 
+ If you are looking for technical or end-user documentation, please use one of the following links:
 
-All end-user content including Release Notes, technical content, installation, and more:
+ End-user and technical documentation
+------------------------------------
 
-*   [Documentation and Resources ](https://magento.com/resources/technical)
+    Product Website   Magento Commerce and Magento Commerce Cloud  Developer (technical) documentation:
 
-Magento Open Source, formerly Magento Community Edition:
+ [https://devdocs.magento.com/](https://devdocs.magento.com) 
 
-*   All guides: [Open Source](http://docs.magento.com/m2/ce/user_guide/magento/magento-community-edition-2.1-user-guide.html)
+     Merchant (end-user) documentation:
 
-Magento Commerce, formerly Magento Enterprise Edition:
+ <https://docs.magento.com/m2/ee/user_guide/>
 
-*   All user guides: <a href="http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html" rel="noopener noreferrer" target="_blank">Magento Commerce</a>
-*   All developer and SI content: [DevDocs](http://devdocs.magento.com)
+     Magento Open Source
 
-Magento Commerce (Cloud), formerly Magento Enterprise Cloud Edition:
+  
 
-*   All user guides:<a href="http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html" rel="noopener noreferrer" target="_blank"> Magento Commerce</a>
-*   All developer and SI content: [DevDocs](http://devdocs.magento.com/guides/v2.2/cloud/bk-cloud.html) for Cloud
+   Merchant (end-user) documentation:
 
-&nbsp;
+ <https://docs.magento.com/m2/ce/user_guide/>
+
+     Magento B2B 
+
+  
+
+   Merchant (end-user) documentation:
+
+ <https://docs.magento.com/m2/b2b/user_guide/getting-started.html>
+
+    Magento Order Management System (OMS)  Merchant (end-user) and developer (technical) documentation:
+
+ <https://omsdocs.magento.com/en/>
+
+    Progressive Web App (PWA Studio)  Developer (technical) documentation:
+
+ <https://magento.github.io/pwa-studio/>
+
+    Magento Business Intelligence (MBI)  Merchant (end-user) documentation:
+
+ <https://docs.magento.com/mbi/>
+
+    Magento Marketplace   Merchant (end-user) and developer (technical) documentation:
+
+ <https://docs.magento.com/marketplace/user_guide/getting-started.html>
+
+      
+
+ Blogs and communications
+------------------------
+
+ 
+ * Magento security center (security updates and patches): <https://magento.com/security/news> 
+ * Magento Community Developer Blog (how to's, best practices and Magento technical news from Magento community): <https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog> 
+ * Magento Blog (high level e-commerce): <https://magento.com/blog> 
+ 

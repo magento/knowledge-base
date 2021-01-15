@@ -1,33 +1,33 @@
-<h2 id="details">Details</h2>
+---
+title: Unknown module Magento_BundleSampleData
+link: https://support.magento.com/hc/en-us/articles/360034276152-Unknown-module-Magento-BundleSampleData
+labels: Magento Commerce Cloud,Magento Commerce,error,module,Magento_BundleSampleData,unknown,LogicException,how to
+---
 
-During the installation, a message similar to the following displays:
+This article provides a fix for the Unknown module error during installation.
 
-<pre><code class="language-text">[ERROR] exception 'LogicException' with message 'Unknown module in the requested list: 'Magento_BundleSampleData''</code></pre>
+ Issue
+-----
 
-<h2 id="solution">Solution</h2>
+ During the installation, a message similar to the following displays:
 
-Try each of the following one at a time, then try your installation again.
+ [ERROR] exception 'LogicException' with message 'Unknown module in the requested list: 'Magento\_BundleSampleData'' Solution
+--------
 
-1.   
-    
-    Run the [Web Setup Wizard](https://devdocs.magento.com/guides/v2.3/install-gde/install/web/install-web.html).
-    
-    
-    
-    On Step 4: Customize Your Store, expand __Advanced Modules Configurations__ and clear the __Magento\_BundleSampleData__ checkbox as the following figure shows.
-    
-    
-    
-    ![tshoot_bundlesampledata.png](https://support.magento.com/hc/article_attachments/360039762491/tshoot_bundlesampledata.png)
-    
-    
-2.   Clear all browser history and data from your web browser.
-3.   
-    
-    If you have Chrome, clear all browser data related to your site.
-    
-    
-    
-    Go to __Settings__ &gt; __Advanced options__ &gt; __Privacy__ &gt; __Content Settings__ &gt; __All cookies and site data__. In the Site column, click the address of your Magento server and click __Remove All__.
-    
-    
+ Try each of the following one at a time, then try your installation again.
+
+ 
+ 2.  Run the [Web Setup Wizard](https://devdocs.magento.com/guides/v2.3/install-gde/install/web/install-web.html).
+
+ On Step 4: Customize Your Store, expand **Advanced Modules Configurations** and clear the **Magento\_BundleSampleData** checkbox as the following figure shows.
+
+ ![tshoot_bundlesampledata.png](https://support.magento.com/hc/article_attachments/360039762491/tshoot_bundlesampledata.png)
+
+ 
+ 4. Clear all browser history and data from your web browser.
+ 6.  If you have Chrome, clear all browser data related to your site.
+
+ Go to **Settings** > **Advanced options** > **Privacy** > **Content Settings** > **All cookies and site data**. In the Site column, click the address of your Magento server and click **Remove All**.
+
+ 
+ 

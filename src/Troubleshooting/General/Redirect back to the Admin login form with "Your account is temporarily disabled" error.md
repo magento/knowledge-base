@@ -1,34 +1,44 @@
-This article provides the possible solutions for the Magento Admin login issue, where you are redirected back to the login form&nbsp;with the following error message: _"Your account is temporarily disabled"_. The suggested solution is checking and correcting the admin user database settings.
+---
+title: Redirect back to the Admin login form with "Your account is temporarily disabled" error
+link: https://support.magento.com/hc/en-us/articles/360028606831-Redirect-back-to-the-Admin-login-form-with-Your-account-is-temporarily-disabled-error
+labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,admin login
+---
 
-### Affected editions and versions:&nbsp;
+This article provides the possible solutions for the Magento Admin login issue, where you are redirected back to the login form with the following error message: *"Your account is temporarily disabled"*. The suggested solution is checking and correcting the admin user database settings.
 
-All Magento versions and editions.
+ ### Affected editions and versions:
 
-## Issue
+ All Magento versions and editions.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+ Issue
+-----
 
-1.   Go to your Magento Admin page.
-2.   Enter your credentials and click Sign in.
+ Steps to reproduce:
 
-<span class="wysiwyg-underline">Expected result:</span>
+ 
+ 2. Go to your Magento Admin page.
+ 4. Enter your credentials and click Sign in.
+ 
+ Expected result:
 
-You get logged in to the Magento Admin.
+ You get logged in to the Magento Admin.
 
-<span class="wysiwyg-underline">Actual result:</span>
+ Actual result:
 
-You are redirected back to the login form, with the following error message displayed: _"Your account is temporarily disabled. Please try again later". _
+ You are redirected back to the login form, with the following error message displayed: *"Your account is temporarily disabled. Please try again later".* 
 
-## Solution
+ Solution
+--------
 
-1.   Create a database backup.
-2.   Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), or access the DB manually from the command line. In the `` admin_user `` database table, for your admin user record, check if `` is_active `` is set to "1" and `` lock_expires ``&nbsp;is `` NULL ``. Reset these values if required.
+ 
+ 2. Create a database backup.
+ 4. Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), or access the DB manually from the command line. In the admin\_user database table, for your admin user record, check if is\_active is set to "1" and lock\_expires is NULL. Reset these values if required.
+ 
+ Related reading
+---------------
 
-## <span class="wysiwyg-color-black70">Related reading</span>
+ 
+ *  [Login redirect when trying to login to Magento Admin](https://support.magento.com/hc/en-us/articles/360028606711)
 
-<ul><li>
-<p class="article-title" title="Redirect back to the login form with no error, when trying to login to Magento Admin"><a href="https://support.magento.com/hc/en-us/articles/360028606711" target="_self">Redirect back to the login form with no error, when trying to login to Magento Admin</a></p>
-</li><li>
-<p class="article-title" title="Redirect back to the login form with no error, when trying to login to Magento Admin"><a href="https://support.magento.com/hc/en-us/articles/360028606711" target="_self">Redirect back to the login form with no error, when trying to login to Magento Admin</a></p>
-</li></ul>
-&nbsp;
+ 
+ 
