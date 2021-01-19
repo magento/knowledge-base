@@ -5,7 +5,7 @@ rule 'MD004'
 rule 'MD005'
 rule 'MD006'
 rule 'MD007', :indent => 3
-rule 'MD009'
+exclude_rule 'MD009'
 rule 'MD010'
 rule 'MD011'
 rule 'MD012'
