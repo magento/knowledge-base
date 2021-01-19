@@ -6,35 +6,32 @@ labels: Magento Commerce Cloud,Magento Commerce,Redis,low memory,Redis crashed,2
 
 The article recommends how to fix Redis.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce Cloud 2.2.x., 2.3.x
- * Magento Commerce 2.2.x., 2.3x
- * All versions of Redis.
- 
- Issue
------
+* Magento Commerce Cloud 2.2.x., 2.3.x
 
- Website slowness or outage due to memory overflow in Redis.
+* Magento Commerce 2.2.x., 2.3x
 
- Cause
------
+* All versions of Redis.
 
- Memory overflow can cause the Redis service to crash. During peak time, the Redis service may require more memory than what is currently allocated.
+## Issue
 
- Solution
---------
+Website slowness or outage due to memory overflow in Redis.
 
- To check current configuration and used memory, run the following command in the CLI. It checks for used memory, maxmemory, evicted keys, and Redis up time in days:
+## Cause
 
- redis-cli -p REDIS\_PORT -h REDIS\_HOST info | egrep --color "(role|used\_memory\_peak|maxmemory|evicted\_keys|uptime\_in\_days)" The *REDIS\_PORT* and *REDIS\_HOST* variables can be retrieved from app/etc/env.php.
+Memory overflow can cause the Redis service to crash. During peak time, the Redis service may require more memory than what is currently allocated.
 
- If the output from running the above query shows that the percentage of free memory is less than 40%, [submit a ticket to Magento Support](https://support.magento.com/hc/en-us/articles/360019088251) requesting an increase of the maxmemory setting in Redis Server. If the evicted keys value is not "0" or the Redis up time in days equals 0 (indicating Redis has crashed today), you should also [submit a ticket to Magento Support](https://support.magento.com/hc/en-us/articles/360019088251) requesting an investigation and a fix for this issue.
+## Solution
 
- Related Reading
----------------
+To check current configuration and used memory, run the following command in the CLI. It checks for used memory, maxmemory, evicted keys, and Redis up time in days:
 
- To learn more about Redis memory refer to [Redis Memory Optimization](https://redis.io/topics/memory-optimization).
+redis-cli -p REDIS\_PORT -h REDIS\_HOST info | egrep --color "(role|used\_memory\_peak|maxmemory|evicted\_keys|uptime\_in\_days)"
+The *REDIS\_PORT* and *REDIS\_HOST*variables can be retrieved from app/etc/env.php.
+
+If the output from running the above query shows that the percentage of free memory is less than 40%, [submit a ticket to Magento Support](https://support.magento.com/hc/en-us/articles/360019088251) requesting an increase of the maxmemory setting in Redis Server. If the evicted keys value is not "0" or the Redis up time in days equals 0 (indicating Redis has crashed today), you should also [submit a ticket to Magento Support](https://support.magento.com/hc/en-us/articles/360019088251) requesting an investigation and a fix for this issue.
+
+## Related Reading
+
+To learn more about Redis memory refer to [Redis Memory Optimization](https://redis.io/topics/memory-optimization).
 

@@ -4,44 +4,43 @@ link: https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-k
 labels: Magento Commerce Cloud,Magento Commerce,known issues,product,button,“Add selections to my cart”,2.4.0
 ---
 
-This article provides a workaround for a broken button known issue in Magento Admin when managing a customer's shopping cart. When trying to add selected products to a customer's shopping cart, the **Add selections to my cart** button located on the bottom of the section does not work. This issue occurs on any Admin panel page that contains two **Add selections to my cart** buttons. A permanent fix will be available in Magento 2.4.1.
+This article provides a workaround for a broken button known issue in Magento Admin when managing a customer's shopping cart. When trying to add selected products to a customer's shopping cart, the **Add selections to my cart** button located on the bottom of the section does not work. This issue occurs on any Admin panel page that contains two **Add selections to my cart** buttons. A permanent fix will be available in Magento 2.4.1.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce version 2.4.0
- * Magento Commerce Cloud version 2.4.0
- 
- Issue
------
+* Magento Commerce version 2.4.0
 
- Steps to reproduce
+* Magento Commerce Cloud version 2.4.0
 
- 
- 2. Navigate to any Admin panel page that contains two **Add selections to my cart** buttons.
- 4. Select items to add to **my cart**. 
- 6. Click the **Add selections to my cart** button located on the bottom of the section. 
- 
- Expected result
+## Issue
 
- All selections are added to **my cart** as expected.
+Steps to reproduce
 
- Actual result 
+1. Navigate to any Admin panel page that contains two **Add selections to my cart** buttons.
 
- Magento does not add your selections to **my cart**.
+1. Select items to add to **my cart**.
 
- Solution
---------
+1. Click the **Add selections to my cart** button located on the bottom of the section.
 
- The **Add selections to my cart** button located on the top of the page is still working. The issue is expected to be fixed in Magento version 2.4.1, which is scheduled for release in Q4 2020.
+Expected result
 
- Related reading
----------------
+All selections are added to **my cart** as expected.
 
- 
- * [MerchDocs' Managing a Shopping Cart](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html)
- * [Magento 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332)
- * [Magento 2.4.0 known issue: Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032)
- * [Magento 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout](https://support.magento.com/hc/en-us/articles/360046354992)
- 
+Actual result
+
+Magento does not add your selections to **my cart**.
+
+## Solution
+
+The **Add selections to my cart** button located on the top of the page is still working. The issue is expected to be fixed in Magento version 2.4.1, which is scheduled for release in Q4 2020.
+
+## Related reading
+
+* [MerchDocs' Managing a Shopping Cart](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html)
+
+* [Magento 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332)
+
+* [Magento 2.4.0 known issue: Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032)
+
+* [Magento 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout](https://support.magento.com/hc/en-us/articles/360046354992)
+

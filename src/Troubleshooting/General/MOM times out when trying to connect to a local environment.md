@@ -6,44 +6,43 @@ labels: troubleshooting,timeout,Magento Order Management
 
 This article provides a solution for the Magento Order Management (MOM) issue where you cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback.
 
- ### Affected products and versions
+### Affected products and versions
 
- 
- * Magento Commerce 2.3.1
- * Magento Order Management
- * ngrok
- 
- Disclaimer: Magento does not recommend or endorse any particular tool for establishing tunnels. The preceding are suggestions only. For more information, consult the [ngrok documentation](https://ngrok.com/docs "mailto:https://ngrok.com/docs").
+* Magento Commerce 2.3.1
 
- Issue
------
+* Magento Order Management
 
- Steps to reproduce
+* ngrok
 
- 
- 2. Install Magento Commerce on your local environment. 
- 4. Setup ngrok to create a tunnel to expose your local server.
- 6. Try [connecting to MOM](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
- 
- Expected result
+Disclaimer: Magento does not recommend or endorse any particular tool for establishing tunnels. The preceding are suggestions only. For more information, consult the [ngrok documentation](https://ngrok.com/docs "mailto:https://ngrok.com/docs").
 
- Connection established successfully.
+## Issue
 
- Actual result
+Steps to reproduce
 
- MCOM seems to timeout when trying to callback to the ngrok URL.
+1. Install Magento Commerce on your local environment.
 
- Cause
------
+1. Setup ngrok to create a tunnel to expose your local server.
 
- One of the possible reasons for the timeout is that servers are located geographically too far away, and connection takes too much time. 
+1. Try [connecting to MOM](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
 
- Solution
---------
+Expected result
 
- Add a parameter specifying your region when starting ngrok. Like the following:
+Connection established successfully.
 
-  ./ngrok http 80 -region eu
+Actual result
 
- The default region is US. See [all possible values](https://ngrok.com/docs#config_region).
+MCOM seems to timeout when trying to callback to the ngrok URL.
+
+## Cause
+
+One of the possible reasons for the timeout is that servers are located geographically too far away, and connection takes too much time.
+
+## Solution
+
+Add a parameter specifying your region when starting ngrok. Like the following:
+
+./ngrok http 80 -region eu
+
+The default region is US. See [all possible values](https://ngrok.com/docs#config_region).
 

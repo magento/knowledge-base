@@ -4,47 +4,46 @@ link: https://support.magento.com/hc/en-us/articles/360025481892-New-customers-n
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,import,customers,2.3.x,2.2.x,2.4.x
 ---
 
-This article provides a fix for the issue when you cannot see new customers under **Customers** > **All customers** after an import from a .csv file. The solution is to set the customer\_grid indexer to "Update on Save" mode and manually reindex the customer grid.
+This article provides a fix for the issue when you cannot see new customers under **Customers** > **All customers** after an import from a .csv file. The solution is to set the customer\_grid indexer to "Update on Save" mode and manually reindex the customer grid.
 
- Affected versions
------------------
+## Affected versions
 
- 
- * Magento Commerce 2.2.0 and later
- * Magento Commerce Cloud 2.2.0 and later
- 
- Issue
-=====
+* Magento Commerce 2.2.0 and later
 
- After importing new customers from a .csv file using the native Magento import functionality, you might not be able to see the new customer records under **Customers** > **All customers** in the Admin until you manually reindex the customer\_grid indexer.
+* Magento Commerce Cloud 2.2.0 and later
 
- Cause
-=====
+# Issue
 
- The"Update on Schedule" indexing mode in Magento Commerce 2.2.0 and later does not support the customer\_grid indexer due to performance issues.
+After importing new customers from a .csv file using the native Magento import functionality, you might not be able to see the new customer records under **Customers** > **All customers** in the Admin until you manually reindex the customer\_grid indexer.
 
- Solution
-========
+# Cause
 
- Configure the customer\_grid indexer to be reindexed using the "Update on Save" mode. To do this, take the following steps:
+The"Update on Schedule" indexing mode in Magento Commerce 2.2.0 and later does not support the customer\_grid indexer due to performance issues.
 
- 
- 2. Log in to Magento Admin.
- 4. Click **System >** Tools **> Index Management**.
- 6. Select the checkbox next to Customer Grid indexer.
- 8. In the **Actions** drop-down list, select *Update on Save*.
- 10. Click **Submit**.
- 
- We also recommend manually reindexing the customer\_grid indexer after configuring the indexing mode to ensure that index is up to date and can work with cron. To manually reindex, use the following command:
+# Solution
 
- bin/magento indexer:reindex customer\_grid  More information
-================
+Configure the customer\_grid indexer to be reindexed using the "Update on Save" mode. To do this, take the following steps:
 
- Links to related documentation: 
+1. Log in to Magento Admin.
 
- 
- * [Indexing overview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
- * [Manage the indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
- 
-  
+1. Click **System >** Tools **> Index Management**.
+
+1. Select the checkbox next to Customer Grid indexer.
+
+1. In the **Actions**  drop-down list, select *Update on Save*.
+
+10. Click **Submit**.
+
+We also recommend manually reindexing the customer\_grid indexer after configuring the indexing mode to ensure that index is up to date and can work with cron. To manually reindex, use the following command:
+
+bin/magento indexer:reindex customer\_grid 
+# More information
+
+Links to related documentation:
+
+* [Indexing overview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
+
+* [Manage the indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
+
+
 

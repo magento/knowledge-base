@@ -4,68 +4,77 @@ link: https://support.magento.com/hc/en-us/articles/360000448493-Redis-issue-del
 labels: Magento Commerce Cloud,Magento Commerce,Redis,2.1.11,2.2.1,troubleshooting,timeout
 ---
 
-This article provides a fix for the issue when logging in to Magento Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage.
+This article provides a fix for the issue when logging in to Magento Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage.
 
- **Cause:** [Github issue #12385](https://github.com/magento/magento2/issues/12385). 
+**Cause:** [Github issue #12385](https://github.com/magento/magento2/issues/12385).
 
- **Solution:** update to the latest Magento patch to fix these issues for all versions of Redis and specific versions of Magento Commerce.
+**Solution:** update to the latest Magento patch to fix these issues for all versions of Redis and specific versions of Magento Commerce.
 
- Affected versions and technologies
-----------------------------------
+## Affected versions and technologies
 
- 
- * Magento Commerce / Magento Commerce Cloud **2.1.11-2.1.13** 
- * Magento Commerce / Magento Commerce (Cloud) **2.2.1** 
- * Redis, all versions
- 
- If you use Magento Commerce (Cloud) [2.2.0](#h_64593789291526919876198), a workaround is available. 
+* Magento Commerce / Magento Commerce Cloud **2.1.11-2.1.13**
 
- Issue
------
+* Magento Commerce / Magento Commerce (Cloud) **2.2.1**
 
- Logging in to Magento Admin or proceeding to the checkout page takes over 30 seconds.
+* Redis, all versions
 
- This only occurs when user sessions are stored in Redis.
+If you use Magento Commerce (Cloud) [2.2.0](#h_64593789291526919876198), a workaround is available.
 
- Cause
------
+## Issue
 
- Magento had an issue with the session locking mechanism that added a 30-seconds timeout to some operations when Redis was used for session storage. For details, see the [Github issue #12385](https://github.com/magento/magento2/issues/12385).
+Logging in to Magento Admin or proceeding to the checkout page takes over 30 seconds.
 
- This issue has been fixed in Magento 2.1.14 and 2.2.2 (see [Release Notes](http://devdocs.magento.com/guides/v2.2/release-notes/ReleaseNotes2.2.2CE.html#session-framework)).
+This only occurs when user sessions are stored in Redis.
 
- Solutions: patch or upgrade
----------------------------
+## Cause
 
- ### Solution 1: Apply the patch with a fix
+Magento had an issue with the session locking mechanism that added a 30-seconds timeout to some operations when Redis was used for session storage. For details, see the [Github issue #12385](https://github.com/magento/magento2/issues/12385).
 
- To receive a patch, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting the patch. In your ticket, specify your Magento version and the corresponding reference number for the patch:
+This issue has been fixed in Magento 2.1.14 and 2.2.2 (see [Release Notes](http://devdocs.magento.com/guides/v2.2/release-notes/ReleaseNotes2.2.2CE.html#session-framework)).
 
- 
- *  **2.1.11 and later:** MDVA-7835
- *  **2.2.1:** MDVA-8128
- 
- The general (version-agnostic) reference number is MAGETWO-84289.
+## Solutions: patch or upgrade
 
- ### Solution 2: Upgrade to 2.1.14/2.2.2 or later
+### Solution 1: Apply the patch with a fix
 
- If you have previously considered upgrading to Magento 2.2.2 or later, you may use this update opportunity to fix the issue.
+To receive a patch, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting the patch. In your ticket, specify your Magento version and the corresponding reference number for the patch:
 
- Workaround: disable session locking
------------------------------------
+* 
+**2.1.11 and later:** MDVA-7835
 
- To disable session locking, set disable\_locking to 1 in the Redis configuration section of the env.php file:
+* 
+**2.2.1:** MDVA-8128
 
- 'session' => array ( 'save' => 'redis', 'redis' => array ( 'host' => 'redis.internal', 'port' => 6379, 'database' => '0', 'disable\_locking' => '1' ), ),  This solution does not affect any other Magento functionality.
+The general (version-agnostic) reference number is MAGETWO-84289.
 
- ### Revert workaround after applying the patch
+### Solution 2: Upgrade to 2.1.14/2.2.2 or later
 
- After applying the patch with the fix, the workaround is not required anymore, so you may revert it (set disable\_locking to 0).
+If you have previously considered upgrading to Magento 2.2.2 or later, you may use this update opportunity to fix the issue.
 
- Magento (Cloud) 2.2.0: use ECE-Tools v2002.0.8 or later
--------------------------------------------------------
+## Workaround: disable session locking
 
- The [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) deployment script package with versions 2002.0.3-2002.0.7 [applies](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html#v200203) the workaround automatically, setting disable\_locking to 1. This disables the session locking mechanism for Magento 2.2.0, on which the original issue does not occur.
+To disable session locking, set disable\_locking to 1 in the Redis configuration section of the env.php file:
 
- If you are running Magento Commerce (Cloud) 2.2.0, upgrade ECE-Tools to v2002.0.8 of later. You may also consider upgrading your Magento Commerce (Cloud) to 2.2.2 or later.
+'session' =>
+ array (
+ 'save' => 'redis',
+ 'redis' =>
+ array (
+ 'host' => 'redis.internal',
+ 'port' => 6379,
+ 'database' => '0',
+ 'disable\_locking' => '1'
+ ),
+ ),
+
+This solution does not affect any other Magento functionality.
+
+### Revert workaround after applying the patch
+
+After applying the patch with the fix, the workaround is not required anymore, so you may revert it (set disable\_locking to 0).
+
+## Magento (Cloud) 2.2.0: use ECE-Tools v2002.0.8 or later
+
+The [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) deployment script package with versions 2002.0.3-2002.0.7 [applies](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html#v200203) the workaround automatically, setting disable\_locking to 1. This disables the session locking mechanism for Magento 2.2.0, on which the original issue does not occur.
+
+If you are running Magento Commerce (Cloud) 2.2.0, upgrade ECE-Tools to v2002.0.8 of later. You may also consider upgrading your Magento Commerce (Cloud) to 2.2.2 or later.
 

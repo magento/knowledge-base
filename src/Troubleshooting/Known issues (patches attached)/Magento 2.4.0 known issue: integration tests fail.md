@@ -4,55 +4,49 @@ link: https://support.magento.com/hc/en-us/articles/360046906191-Magento-2-4-0-k
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,2.4.0,integration tests,dotdigital
 ---
 
-This article provides a patch for the Magento 2.4.0 issue where integration tests are failing because the declaration of Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp() is not compatible with PHPUnit 9 which is used for 2.4.0. 
+This article provides a patch for the Magento 2.4.0 issue where integration tests are failing because the declaration of Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp() is not compatible with PHPUnit 9 which is used for 2.4.0.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce Cloud 2.4.0
- * Magento Commerce 2.4.0
- 
- Issue
------
+* Magento Commerce Cloud 2.4.0
 
- Steps to reproduce
+* Magento Commerce 2.4.0
 
- Run 2.4.0 integration tests.
+## Issue
 
- Expected result 
+Steps to reproduce
 
- Tests pass.
+Run 2.4.0 integration tests.
 
- Actual result
+Expected result
 
- *PHP Fatal error: Declaration of Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp() must be compatible with PHPUnit\Framework\TestCase::setUp(): void in /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php on line 36*
+Tests pass.
 
- Solution
---------
+Actual result
 
- Apply the patch provided in this article.
+*PHP Fatal error: Declaration of Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp() must be compatible with PHPUnit\Framework\TestCase::setUp(): void in /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php on line 36*
 
- Patch
------
+## Solution
 
- The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+Apply the patch provided in this article.
 
- [BUNDLE-2684-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063994752/BUNDLE-2684-composer.patch)
+## Patch
 
- ### Compatible Magento versions:
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- The patch was created for:
+[BUNDLE-2684-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063994752/BUNDLE-2684-composer.patch)
 
- 
- * Magento Commerce Cloud 2.4.0
- * Magento Commerce 2.4.0
- 
- How to apply the patch
-----------------------
+### Compatible Magento versions:
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+The patch was created for:
 
- Attached Files
---------------
+* Magento Commerce Cloud 2.4.0
+
+* Magento Commerce 2.4.0
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+## Attached Files
 

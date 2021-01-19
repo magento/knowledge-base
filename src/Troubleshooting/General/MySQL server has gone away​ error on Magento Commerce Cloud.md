@@ -6,49 +6,46 @@ labels: Magento Commerce Cloud,error,log,cron,2.3,MySQL,time-out,deployment fail
 
 This article talks about the solution for the issue where you receive an "*SQL server has gone away*" error message in the cron.log file. A range of symptoms including image file importing issues or deployment failure may be experienced.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
- 
- Issue
------
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
- You receive an "*SQL server has gone away*" error message in the cron.log file.
+## Issue
 
- Steps to reproduce
+You receive an "*SQL server has gone away*" error message in the cron.log file.
 
- Import files and trigger a deployment. 
+Steps to reproduce
 
- Expected result
+Import files and trigger a deployment.
 
-  Successful deployment.
+Expected result
 
- Actual result
+ Successful deployment.
 
- Error message in cron.log:  
+Actual result
+
+Error message in cron.log:  
 "*SQLSTATE[HY000] [2006] MySQL server has gone away at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144"*
 
- Cause
------
+## Cause
 
- The default\_socket\_timeout value is set too low. This is caused by the setting default\_socket\_timeout. If php doesn't receive anything from the MySQL database within this period, it assumes it is disconnected and throws the error. 
+The default\_socket\_timeout value is set too low. This is caused by the setting default\_socket\_timeout. If php doesn't receive anything from the MySQL database within this period, it assumes it is disconnected and throws the error.
 
- Solution
---------
+## Solution
 
- 
- 2. Check the current timeout period for default\_socket\_timeout by running in the CLI:  
-  php -i |grep default\_socket\_timeout 
- 4. Depending on the timeout setting increase, the default\_socket\_timeout variable to the expected longest possible run time in the /etc/platform/<project\_name>/php.ini file. It is suggested that you set between 10-15 mins. 
- 6. Commit it to GIT and redeploy.
- 
- Related reading
----------------
+1. Check the current timeout period for default\_socket\_timeout by running in the CLI: 
 
- 
- * [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172)
- * [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312)
- * [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651)
- 
+ php -i |grep default\_socket\_timeout
+
+1. Depending on the timeout setting increase, the default\_socket\_timeout variable to the expected longest possible run time in the /etc/platform/<project\_name>/php.ini file. It is suggested that you set between 10-15 mins.
+
+1. Commit it to GIT and redeploy.
+
+## Related reading
+
+* [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172)
+
+* [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312)
+
+* [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651)
+

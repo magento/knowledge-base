@@ -4,6 +4,5 @@ link: https://support.magento.com/hc/en-us/articles/360016729591-MBI-Essentials-
 labels: MBI,analysis,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
 ---
 
-Learn about Magento Business Intelligence Essentials in the MBI: Essentials video overview. 
+Learn about Magento Business Intelligence Essentials in the MBI: Essentials video overview.
 
- 

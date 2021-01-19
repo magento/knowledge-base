@@ -6,58 +6,71 @@ labels: error,PHP,settings,xdebug,memory,how to,large forms
 
 This article provides solutions for PHP settings errors.
 
- PHP memory limit error
-----------------------
+## PHP memory limit error
 
- The readiness checks makes sure you have at least 1GB of memory set aside for PHP processes. This setting should be sufficient for most installations, including installing optional sample data. However, we recommend at least 2GB for debugging.
+The readiness checks makes sure you have at least 1GB of memory set aside for PHP processes. This setting should be sufficient for most installations, including installing optional sample data. However, we recommend at least 2GB for debugging.
 
- To increase your PHP memory limit:
+To increase your PHP memory limit:
 
- 
- 2. Log in to your Magento server.
- 4.  Locate your php.ini file using the following command:
+1. Log in to your Magento server.
 
- $ php --ini 
- 6.  As a user with root privileges, use a text editor to open the php.ini specified by Loaded Configuration File.
+1. 
+Locate your php.ini file using the following command:
 
- 
- 8. Locate memory\_limit.
- 10. Change it to a value of 2GB for normal use and debugging.
- 12. Save your changes to php.ini and exit the text editor.
- 14.  Restart your web server.
+$ php --ini
 
- Examples follow:
+1. 
+As a user with root privileges, use a text editor to open the php.ini specified by Loaded Configuration File.
 
- 
-	 * CentOS: service httpd restart 
-	 * Ubuntu: service apache2 restart 
-	 * nginx (both CentOS and Ubuntu): service nginx restart 
- 16.  Try the installation again.
+1. Locate memory\_limit.
 
- 
- 
- max-input-vars error due to large forms
----------------------------------------
+10. Change it to a value of 2GB for normal use and debugging.
 
- Configurations with a high number of storeviews, products, attributes, or options can generate forms that exceed the preset PHP limit. If the number of values sent surpasses the max-input-vars limit set within php.ini (default is 1000), the remaining data is not transferred and those database values do not get updated. When this occurs, a warning appears in the PHP log:
+12. Save your changes to php.ini and exit the text editor.
 
- PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max\_input\_vars in php.ini. There is no 'proper' value for max-input-vars; it depends on the size and complexity of your configuration. Modify the value in the php.ini file as needed. See [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+14. 
+Restart your web server.
 
- xdebug maximum function nesting level error
--------------------------------------------
+Examples follow:
 
- See [During installation, xdebug maximum function nesting level error](https://support.magento.com/hc/en-us/articles/360034238512).
+	
+	* CentOS: service httpd restart
+	
+	
+	* Ubuntu: service apache2 restart
+	
+	
+	* nginx (both CentOS and Ubuntu): service nginx restart
 
- Errors display when you access a PHTML template
------------------------------------------------
+16. 
+Try the installation again.
 
- Error text is typically:
+## max-input-vars error due to large forms
 
- Parse error: syntax error, unexpected 'data' (T\_STRING) ### Solution: Set asp\_tags = off in php.ini
+Configurations with a high number of storeviews, products, attributes, or options can generate forms that exceed the preset PHP limit. If the number of values sent surpasses the max-input-vars limit set within php.ini (default is 1000), the remaining data is not transferred and those database values do not get updated. When this occurs, a warning appears in the PHP log:
 
- Multiple templates have syntax for support abstract level on templates (use different templates engines like Twig) wrapped in <% %> tags, like this [template](https://github.com/magento/magento2/blob/2.0/app/code/Magento/Catalog/view/adminhtml/templates/product/edit/base_image.phtml) for displaying a product image:
+PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max\_input\_vars in php.ini.
+There is no 'proper' value for max-input-vars; it depends on the size and complexity of your configuration. Modify the value in the php.ini file as needed. See [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
 
- <img class="product-image" src="<%- data.url %>" data-position="<%- data.position %>" alt="<%- data.label %>" /> More information about [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
+## xdebug maximum function nesting level error
 
- Edit php.ini and set asp\_tags = off. For more information, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+See [During installation, xdebug maximum function nesting level error](https://support.magento.com/hc/en-us/articles/360034238512).
+
+## Errors display when you access a PHTML template
+
+Error text is typically:
+
+Parse error: syntax error, unexpected 'data' (T\_STRING)
+### Solution: Set asp\_tags = off in php.ini
+
+Multiple templates have syntax for support abstract level on templates (use different templates engines like Twig) wrapped in <% %> tags, like this [template](https://github.com/magento/magento2/blob/2.0/app/code/Magento/Catalog/view/adminhtml/templates/product/edit/base_image.phtml) for displaying a product image:
+
+<img
+ class="product-image"
+ src="<%- data.url %>"
+ data-position="<%- data.position %>"
+ alt="<%- data.label %>" />
+More information about [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
+
+Edit php.ini and set asp\_tags = off. For more information, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
 

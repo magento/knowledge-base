@@ -6,47 +6,42 @@ labels: Magento Commerce Cloud,deploy,deployment,troubleshooting,php.ini,deploym
 
 This article provides a solution for the issue where changes in  .magento.env.yaml file are not reflected in app/etc/env.php after deployment.
 
- ### Affected products and versions
+### Affected products and versions
 
- 
- * Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
- 
- Issue
------
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
- Changes made in the.magento.env.yaml file do not affect the app/etc/env.php generated.
+## Issue
 
- Steps to reproduce  
+Changes made in the.magento.env.yaml file do not affect the app/etc/env.php generated.
+
+Steps to reproduce  
   
 Change any value in .magento.env.yaml and push to the server, where it should define the configuration (and deployment settings) for the currently checked-out environment. For steps, refer to Magento DevDocs [Environment Variables > Deploy Variables](https://devdocs.magento.com/cloud/env/variables-deploy.html).
 
- Expected result
+Expected result
 
- Changes made in the .magento.env.yaml file affect the app/etc/env.php generated.
+Changes made in the .magento.env.yaml file affect the app/etc/env.php generated.
 
- Actual result
+Actual result
 
- The changes have no effect on the app/etc/env.php variables after deployment.
+The changes have no effect on the app/etc/env.php variables after deployment.
 
- Cause
------
+## Cause
 
- The issue could be caused by the incorrect value of the opcache.enable\_cli parameter in the php.ini file.
+The issue could be caused by the incorrect value of the opcache.enable\_cli parameter in the php.ini file.
 
- Solution
---------
+## Solution
 
- 
- 2. Check that the system is configured according to [Magento Performance Best Practices > Software recommendations](https://devdocs.magento.com/guides/v2.4/performance-best-practices/software.html).
- 4. Check if opcache.enable\_cli directive in php.ini is set to 0 by executing:  
-php -i | grep opcache.enable\_cli  
- 
- 6. If the output looks like opcache.enable\_cli=1, edit the php.ini file in the project root directory and change opcache.enable\_cli=1 to opcache.enable\_cli=0 
- 8. Redeploy the project.
- 
- Related reading
----------------
+1. Check that the system is configured according to [Magento Performance Best Practices > Software recommendations](https://devdocs.magento.com/guides/v2.4/performance-best-practices/software.html).
 
- 
- * DevDocs [Magento Commerce Cloud > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html).
- 
+1. Check if opcache.enable\_cli directive in php.ini is set to 0 by executing:  
+php -i | grep opcache.enable\_cli 
+
+1. If the output looks like opcache.enable\_cli=1, edit the php.ini file in the project root directory and change opcache.enable\_cli=1 to opcache.enable\_cli=0
+
+1. Redeploy the project.
+
+## Related reading
+
+* DevDocs [Magento Commerce Cloud  > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html).
+

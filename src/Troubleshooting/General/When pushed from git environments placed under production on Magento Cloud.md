@@ -6,58 +6,52 @@ labels: staging,production,Magento Commerce Cloud,troubleshooting,2.3,git,develo
 
 This article provides a solution for the issue where new environments are placed under the production environment on Magento Commerce Cloud when pushed from the git version-control system.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
- 
- Issue
------
+* Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
- Steps to reproduce:
+## Issue
 
- Prerequisites: Have a local git controlled clone of the project.
+Steps to reproduce:
 
- You need to create an integration branch from the staging branch:
+Prerequisites: Have a local git controlled clone of the project.
 
- 
- 2. Switch to the staging branch by running the following command in the local shell:  
-git checkout staging 
- 4. Create an integration branch from the staging branch by running the following command in the local shell:  
-git checkout -b <branch>  
- 6. Push the branch to the remote repository and set up an upstream branch by running the following command in the local shell:  
-git push --set-upstream origin <branch> 
- 
- Actual result:
+You need to create an integration branch from the staging branch:
 
- The new branch was created under the production branch.
+1. Switch to the staging branch by running the following command in the local shell:  
+git checkout staging
 
- Expected result:
+1. Create an integration branch from the staging branch by running the following command in the local shell:  
+git checkout -b <branch>
 
- The new branch is created under the staging branch.
+1. Push the branch to the remote repository and set up an upstream branch by running the following command in the local shell:  
+git push --set-upstream origin <branch>
 
- Cause
------
+Actual result:
 
- This is not a bug. For setting a parent branch for another branch the merchant should use the magento-cloud CLI.
+The new branch was created under the production branch.
 
- Solution
---------
+Expected result:
 
- A parent branch can only be set after the merchant has pushed a newly created branch and activated it. Refer to DevDocs [Magento Commerce Cloud > Bitbucket integration](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch). 
+The new branch is created under the staging branch.
 
- To update a parent for the existing branch on the server, please use the magento-cloud environment:info command in the magento-cloud CLI.
+## Cause
 
- Example of usage:
+This is not a bug. For setting a parent branch for another branch the merchant should use the magento-cloud CLI.
 
- magento-cloud environment:info parent Staging
+## Solution
 
- This will set the parent branch to "Staging" for the currently checked out branch.
+A parent branch can only be set after the merchant has pushed a newly created branch and activated it. Refer to DevDocs [Magento Commerce Cloud > Bitbucket integration](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch).
 
- Related reading
----------------
+To update a parent for the existing branch on the server, please use the magento-cloud environment:info command in the magento-cloud CLI.
 
- 
- * DevDocs [Magento Commerce Cloud > Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html).
- 
+Example of usage:
+
+magento-cloud environment:info parent Staging
+
+This will set the parent branch to "Staging" for the currently checked out branch.
+
+## Related reading
+
+* DevDocs [Magento Commerce Cloud > Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html).
+

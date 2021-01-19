@@ -6,56 +6,58 @@ labels: Magento Commerce Cloud,cron,disk space,2.3.x,2.2.x,how to
 
 This article suggests solutions for the situation when you run out of space on a certain environment of Magento Commerce Cloud.
 
- ### Affected products and versions
+### Affected products and versions
 
- 
- * Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
- 
- Issue
------
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
- You are running out of disk space on the disk with writable directories. One symptom can be [stuck deployment](https://support.magento.com/hc/en-us/articles/360030662992). 
+## Issue
 
- To check the disk usage, run the following command:
+You are running out of disk space on the disk with writable directories. One symptom can be [stuck deployment](https://support.magento.com/hc/en-us/articles/360030662992).
 
- df -h var/  Cause
------
+To check the disk usage, run the following command:
 
- The var directory is usually the one that could take a lot of space and can be cleaned easily. 
+df -h var/
 
- Magento stores all log files in the var directory. New log files are created and old ones are archived daily. But if the number of generated errors keeps growing, log files take more and more space. 
+## Cause
 
- Custom import/export files are also stored in the var directory, and take space if their numbers increase. 
+The var directory is usually the one that could take a lot of space and can be cleaned easily.
 
- Solution
---------
+Magento stores all log files in the var directory. New log files are created and old ones are archived daily. But if the number of generated errors keeps growing, log files take more and more space. 
 
- Solution options:
+Custom import/export files are also stored in the var directory, and take space if their numbers increase.
 
- 
- * Check if you have large log files and investigate why they are big, fix the issue generating a big amount of log output.
- *  Clean the var directory.
+## Solution
 
- 
- * Set up a cron job to track the size of the var directory and clean it.
- * Allocate more disk space, if you have some unused. (See the section below for information on how to check what is your space limit.) 
-	 + For Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused, as described in [Manage disk space: Allocating disk space](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html#application-disk-space). 
-	 + For Pro plan Staging and Production environments, contact support to allocate more disk space if you have some unused. 
- * If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Customer Success Manager (CSM) for details.
- 
- ### Check disk space limit
+Solution options:
 
- To check how much space you have for each environment:
+* Check if you have large log files and investigate why they are big, fix the issue generating a big amount of log output.
 
- 
- 2.  As the Magento Commerce Cloud Account Owner, log in to your project.
+* 
+Clean the var directory.
 
- 
- 4.  In the upper right corner, click **<your name>** > **Account Settings**.
+* Set up a cron job to track the size of the var directory and clean it.
 
- 
- 6. On the project tab, see the amount specified, for example:  
-![project_space.png](https://support.magento.com/hc/article_attachments/360045010711/project_space.png) 
- 
-  
+* Allocate more disk space, if you have some unused. (See the section below for information on how to check what is your space limit.)
+
+	
+	* For Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused, as described in [Manage disk space: Allocating disk space](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html#application-disk-space). 
+	
+	* For Pro plan Staging and Production environments, contact support to allocate more disk space if you have some unused.
+
+* If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Customer Success Manager (CSM) for details.
+
+### Check disk space limit
+
+To check how much space you have for each environment:
+
+1. 
+As the Magento Commerce Cloud Account Owner, log in to your project.
+
+1. 
+In the upper right corner, click **<your name>** > **Account Settings**.
+
+1. On the project tab, see the amount specified, for example:  
+![project_space.png](https://support.magento.com/hc/article_attachments/360045010711/project_space.png)
+
+
 

@@ -4,62 +4,71 @@ link: https://support.magento.com/hc/en-us/articles/360028757791-Top-navigation-
 labels: Magento Commerce,troubleshooting,varnish,2.x.x,Edge Side
 ---
 
-This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the store front, if Varnish is used for caching.
+This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the store front, if Varnish is used for caching.
 
- ### Affected products and versions
+### Affected products and versions
 
- 
- * Magento 2.X.X Commerce 
- * All Varnish versions
- 
- Issue
------
+* Magento 2.X.X Commerce
 
- Steps to reproduce
+* All Varnish versions
 
- Prerequisites: Install and configure Varnish for your Magento store.
+## Issue
 
- 
- 2. Go to the store front.
- 4. Browse through the store pages.
- 
- Actual result:
+Steps to reproduce
 
- Observe that some content blocks, like the top navigation panel with categories, are not loading. Blank space is displayed instead.
+Prerequisites: Install and configure Varnish for your Magento store.
 
- Expected result:
+1. Go to the store front.
 
- All content and all page blocks load successfully. 
+1. Browse through the store pages.
 
- Cause
------
+Actual result:
 
- The possible reasons for the issue are the following:
+Observe that some content blocks, like the top navigation panel with categories, are not loading. Blank space is displayed instead.
 
- 
- * ESI include tags are generated with HTTPS access protocol, while Varnish only works with HTTP.
- * Varnish does not process ESI inside JSON. 
- * Response headers are too big for Varnish; it cannot process them.
- 
- Solution
---------
+Expected result:
 
- To resolve the issues, you need to perform additional Varnish configuration and restart Varnish.
+All content and all page blocks load successfully.
 
- 
- 2. As a user with root privileges, open your Vanish configuration file in a text editor. See the [Modify the Varnish system configuration](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) section for info on where this file might be located for different operating systems.
- 4. In the DAEMON\_OPTS variable, add -p feature=+esi\_ignore\_https, -p feature=+esi\_ignore\_other\_elements, -p feature=+esi\_disable\_xml\_check. This would look like: DAEMON\_OPTS="-a :6081 \ -p feature=+esi\_ignore\_other\_elements \ -p feature=+esi\_disable\_xml\_check \ -p feature=+esi\_ignore\_https \ -T localhost:6082 \ -f /etc/varnish/default.vcl \ -S /etc/varnish/secret \ -s malloc,256m"  
- 6. Save your changes and exit the text editor.
- 8. In the VCL configuration file, increase the response headers by increasing the values of the these parameters: http\_resp\_hdr\_len, http\_resp\_size, workspace\_backend.  
+## Cause
+
+The possible reasons for the issue are the following:
+
+* ESI include tags are generated with HTTPS access protocol, while Varnish only works with HTTP.
+
+* Varnish does not process ESI inside JSON.
+
+* Response headers are too big for Varnish; it cannot process them.
+
+## Solution
+
+To resolve the issues, you need to perform additional Varnish configuration and restart Varnish.
+
+1. As a user with root privileges, open your Vanish configuration file in a text editor. See the [Modify the Varnish system configuration](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) section for info on where this file might be located for different operating systems.
+
+1. In the DAEMON\_OPTS variable, add -p feature=+esi\_ignore\_https,  -p  feature=+esi\_ignore\_other\_elements, -p feature=+esi\_disable\_xml\_check. This would look like:
+DAEMON\_OPTS="-a :6081 \
+-p feature=+esi\_ignore\_other\_elements \
+-p feature=+esi\_disable\_xml\_check \
+-p feature=+esi\_ignore\_https \
+-T localhost:6082 \
+-f /etc/varnish/default.vcl \
+-S /etc/varnish/secret \
+-s malloc,256m"
+
+1. Save your changes and exit the text editor.
+
+1. In the VCL configuration file, increase the response headers by increasing the values of the these parameters: http\_resp\_hdr\_len, http\_resp\_size, workspace\_backend.  
  Make sure that the last two of them have similar values.
- 10. When you change this, you need to run service varnish restart for the changes to take effect.
- 
- Related reading
----------------
 
- 
- *  [Configure Varnish and your web server](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) on Magento Devdocs
- * [Varnish documentation](https://varnish-cache.org/docs/5.1/reference/index.html)
- 
-  
+10. When you change this, you need to run service varnish restart for the changes to take effect.
+
+## Related reading
+
+* 
+[Configure Varnish and your web server](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) on Magento Devdocs
+
+* [Varnish documentation](https://varnish-cache.org/docs/5.1/reference/index.html)
+
+
 

@@ -4,5 +4,5 @@ link: https://support.magento.com/hc/en-us/articles/360006935271-Change-account-
 labels: Magento Commerce Cloud,Fastly,credentials,API,devdocs,account,how to
 ---
 
-Please refer to the [Fastly service account and credentials](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials) section of the Fastly documentation on Magento DevDocs. 
+Please refer to the [Fastly service account and credentials](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials) section of the Fastly documentation on Magento DevDocs.
 

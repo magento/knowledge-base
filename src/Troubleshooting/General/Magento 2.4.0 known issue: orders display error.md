@@ -4,52 +4,53 @@ link: https://support.magento.com/hc/en-us/articles/360046802271-Magento-2-4-0-k
 labels: Magento Commerce Cloud,Magento Commerce,error,orders,known issues,2.4.0,display
 ---
 
-This article provides a workaround for a known issue in Magento for an orders display error. When logged-in customers review their orders in the **My Account** menu (**My Account > My Orders**), the orders grid is unable to switch the number of orders per page to 20 from page 2 when there are 11 orders. Also, if there are more orders than is configured to be shown per page, when navigating to the last page with orders, changing the number of orders shown per page produces the error message, "*You have placed no orders***.**" This issue will be resolved in Magento 2.4.1.
+This article provides a workaround for a known issue in Magento for an orders display error. When logged-in customers review their orders in the **My Account** menu (**My Account > My Orders**), the orders grid is unable to switch the number of orders per page to 20 from page 2 when there are 11 orders. Also, if there are more orders than is configured to be shown per page, when navigating to the last page with orders, changing the number of orders shown per page produces the error message, "*You have placed no orders***.**" This issue will be resolved in Magento 2.4.1.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce version 2.4.0
- * Magento Commerce Cloud version 2.4.0
- 
- Issue
------
+* Magento Commerce version 2.4.0
 
- Preconditions
+* Magento Commerce Cloud version 2.4.0
 
- 
- * Magento 2.4.0 is installed.
- * Create at least 1 category and 1 simple product.
- 
- Steps to reproduce
+## Issue
 
- 
- 2. Create 11 orders with products. 
- 4. Go to **My Account**. 
- 6. Go to **My Orders**.
- 8. Click the second page to display the 11th order on the orders grid.
- 10. Select **Show = 20 per page** from the drop-down menu. 
- 
- Expected result
+Preconditions
 
- All 11 orders are displayed on the first page, as expected.
+* Magento 2.4.0 is installed.
 
- Actual result
+* Create at least 1 category and 1 simple product.
 
- The "*You have placed no orders"* error message is displayed.
+Steps to reproduce
 
- Workaround
-----------
+1. Create 11 orders with products.
 
- The workaround is to have the buyer reopen **My Orders** page, and then the orders list will be displayed correctly. The issue will be fixed in the next release, Magento version 2.4.1, which is scheduled for release in Q4 2020.
+1. Go to **My Account**.
 
- Related reading
----------------
+1. Go to **My Orders**.
 
- 
- * [Magento 2.4.0 known issue - refresh on Customer's Activities does not work](https://support.magento.com/hc/en-us/articles/360046091332)
- * [Magento 2.4.0 Known Issue: Raw message data display on Storefront](https://support.magento.com/hc/en-us/articles/360045804332)
- * [Magento 2.4.0 Known Issue: Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032)
- * [Magento 2.4.0 B2B Admin can't add configurable product to quote](https://support.magento.com/hc/en-us/articles/360046801971)
- 
+1. Click the second page to display the 11th order on the orders grid.
+
+10. Select **Show = 20 per page** from the drop-down menu.
+
+Expected result
+
+All 11 orders are displayed on the first page, as expected.
+
+Actual result
+
+The "*You have placed no orders"* error message is displayed.
+
+## Workaround
+
+The workaround is to have the buyer reopen **My Orders** page, and then the orders list will be displayed correctly. The issue will be fixed in the next release, Magento version 2.4.1, which is scheduled for release in Q4 2020.
+
+## Related reading
+
+* [Magento 2.4.0 known issue - refresh on Customer's Activities does not work](https://support.magento.com/hc/en-us/articles/360046091332)
+
+* [Magento 2.4.0 Known Issue: Raw message data display on Storefront](https://support.magento.com/hc/en-us/articles/360045804332)
+
+* [Magento 2.4.0 Known Issue: Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032)
+
+* [Magento 2.4.0 B2B Admin can't add configurable product to quote](https://support.magento.com/hc/en-us/articles/360046801971)
+

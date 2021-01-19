@@ -6,66 +6,84 @@ labels: Magento Commerce Cloud,Magento Commerce,2.2.4,Elasticsearch version,Elas
 
 This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration.
 
- On Magento Cloud please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
+On Magento Cloud please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
- Elasticsearch version compatibility with Magento
-------------------------------------------------
+## Elasticsearch version compatibility with Magento
 
- 
- * Magento Commerce and Magento Commerce Cloud: 
-	 + v2.2.3+ supports ES 5.x
-	 + v2.2.8+ and v2.3.1+ support ES 6.x
-	 + ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Magento v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html). 
- * Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
- 
- Issue
------
+* Magento Commerce and Magento Commerce Cloud:
 
- The following symptoms indicate Elasticsearch is not configured correctly:
+	
+	* v2.2.3+ supports ES 5.x
+	
+	* v2.2.8+ and v2.3.1+ support ES 6.x
+	
+	* ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Magento v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
 
- 
- *  Error: No alive nodes in your cluster - this error can appear in Magento logs: 
-	 + var/log/system.log
-	 + var/log/support\_report.log
-	 + var/log/cron.log
-	 + var/log/exception.log
-	 + or in the prompt (when you run a reindex, for example) 
- * Errors indicating that the Elasticsearch version is not compatible with your current version of Magento (this is a Magento Commerce Cloud specific error): [YYYY-MM-DD HH:MM:SS] CRITICAL: Fix configuration with given suggestions: - Elasticsearch version *#<version>* is not compatible with current version of magento Upgrade elasticsearch version to ~5.0  *version* is the Elasticsearch Service running on the Cloud environment.
+* Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
 
- 
- 
- Cause
------
+## Issue
 
- Elasticsearch is not installed properly. This could be due to:
+The following symptoms indicate Elasticsearch is not configured correctly:
 
- 
- * A typo in the configuration file.
- * A version in the configuration file that does not match any version of Elasticsearch that is installed for the environment.
- * A version that is correctly installed in the environment, correctly configured in the configuration file, but is not a supported version for the currently installed version of Magento.
- 
- Solution
---------
+* 
+Error: No alive nodes in your cluster - this error can appear in Magento logs:
 
- To correctly set up Elasticsearch:
+	
+	* var/log/system.log
+	
+	* var/log/support\_report.log
+	
+	* var/log/cron.log
+	
+	* var/log/exception.log
+	
+	* or in the prompt (when you run a reindex, for example)
 
- 
- * Merchants on Magento Commerce Cloud can follow the steps in DevDocs [Set up Elasticsearch service](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html).
- * Merchants on Magento Commerce and Magento Open Source can follow the steps in DevDocs [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
- 
- After you have set up Elasticsearch, check that it's configured correctly:
+* Errors indicating that the Elasticsearch version is not compatible with your current version of Magento (this is a Magento Commerce Cloud specific error):
+[YYYY-MM-DD HH:MM:SS] CRITICAL: Fix configuration with given suggestions:
+- Elasticsearch version *#<version>* is not compatible with current version of magento
+Upgrade elasticsearch version to ~5.0
 
- 
- 2. Log in to your server.
- 4. Check the version number of Elasticsearch (2.x, 5.x, or 6.x) in the output of running the command:  
+*version* is the Elasticsearch Service running on the Cloud environment.
+
+## Cause
+
+Elasticsearch is not installed properly. This could be due to:
+
+* A typo in the configuration file.
+
+* A version in the configuration file that does not match any version of Elasticsearch that is installed for the environment.
+
+* A version that is correctly installed in the environment, correctly configured in the configuration file, but is not a supported version for the currently installed version of Magento.
+
+## Solution
+
+To correctly set up Elasticsearch:
+
+* Merchants on Magento Commerce Cloud can follow the steps in DevDocs [Set up Elasticsearch service](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html).
+
+* Merchants on Magento Commerce and Magento Open Source can follow the steps in DevDocs [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+
+After you have set up Elasticsearch, check that it's configured correctly:
+
+1. Log in to your server.
+
+1. Check the version number of Elasticsearch (2.x, 5.x, or 6.x) in the output of running the command:  
  curl -XGET <Elasticsearch hostname>:<Elasticsearch server port>  
  For example, in Magento Cloud Commerce:  
- curl -XGET localhost:9200 
- 6. Check what is configured in Magento Configuration by running the command:  
-  php bin/magento config:show catalog/search 
- 8. Check  catalog/search/engine and ensure it matches with the Elasticsearch version number. For example, in Magento Cloud Commerce: 
-	 * ElasticSearch 5.X - elasticsearch5
-	 * ElasticSearch 6.X - elasticsearch6
-	 * ElasticSearch 2.X - elasticsearch 
- 10. Check index\_prefix. If you have several environments, make sure you have different index\_prefix values for them.
- 
+ curl -XGET localhost:9200
+
+1. Check what is configured in Magento Configuration by running the command:  
+  php bin/magento config:show catalog/search
+
+1. Check  catalog/search/engine and ensure it matches with the Elasticsearch version number. For example, in Magento Cloud Commerce:
+
+	
+	* ElasticSearch 5.X - elasticsearch5
+	
+	* ElasticSearch 6.X - elasticsearch6
+	
+	* ElasticSearch 2.X - elasticsearch
+
+10. Check index\_prefix. If you have several environments, make sure you have different index\_prefix values for them.
+

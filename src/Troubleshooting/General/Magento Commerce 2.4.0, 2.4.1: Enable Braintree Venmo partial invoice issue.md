@@ -4,40 +4,39 @@ link: https://support.magento.com/hc/en-us/articles/360046845932-Magento-Commerc
 labels: Magento Commerce Cloud,Magento Commerce,orders,known issues,2.4.0,Braintree,Venmo,partial invoice,2.4.1
 ---
 
-This article describes a known Magento Commerce 2.4.0 and 2.4.1 issue, where partial invoice is not available for orders placed using Braintree through Venmo. 
+This article describes a known Magento Commerce 2.4.0 and 2.4.1 issue, where partial invoice is not available for orders placed using Braintree through Venmo.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce 2.4.0 and 2.4.1.
- * Magento Commerce Cloud 2.4.0 and 2.4.1.
- 
- Issue
------
+* Magento Commerce 2.4.0 and 2.4.1.
 
- Preconditions:
+* Magento Commerce Cloud 2.4.0 and 2.4.1.
 
- In the Braintree payment method configuration, set **Enable Venmo through Braintree** = *Yes* with **Payment Action** = *Authorization*; **Enable Vault for Card Payments** = *No*. 
+## Issue
 
- Steps to reproduce:
+Preconditions:
 
- 
- 2. Create an order for two or more products, using Venmo (Braintree) as a payment method.
- 4. Open the order in Magento Admin. 
- 6. Create an invoice for one of the ordered products.
- 8. Try to create invoice for the rest ordered products.
- 
- Expected result:
+In the Braintree payment method configuration, set **Enable Venmo through Braintree** = *Yes* with **Payment Action** = *Authorization*; **Enable Vault for Card Payments** = *No*.
 
- Invoice created.
+Steps to reproduce:
 
- Actual result:
+1. Create an order for two or more products, using Venmo (Braintree) as a payment method.
 
- The following error message is displayed: *The "vault\_capture" command doesn't exist. Verify the command and try again.*
+1. Open the order in Magento Admin.
 
- Workaround
-----------
+1. Create an invoice for one of the ordered products.
 
- Capture the whole amount when creating invoices for orders placed using Braintree through Venmo.
+1. Try to create invoice for the rest ordered products.
+
+Expected result:
+
+Invoice created.
+
+Actual result:
+
+The following error message is displayed: *The "vault\_capture" command doesn't exist. Verify the command and try again.*
+
+## Workaround
+
+Capture the whole amount when creating invoices for orders placed using Braintree through Venmo.
 

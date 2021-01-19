@@ -6,80 +6,77 @@ labels: Magento Commerce Cloud,Magento Commerce,patch,known issues,2.4.0,shippin
 
 This article provides a patch for a known Magento 2.4.0 issue, where a shipping label cannot be created.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce 2.4.0
- * Magento Commerce Cloud 2.4.0
- 
- Issue
------
+* Magento Commerce 2.4.0
 
- Prerequisites: create an order using FedEx, DHL, UPS, or USPS shipping method.
+* Magento Commerce Cloud 2.4.0
 
- ### Scenario 1: Create a label when adding a shipment
+## Issue
 
- Steps to reproduce:
+Prerequisites: create an order using FedEx, DHL, UPS, or USPS shipping method.
 
- 
- 2. Open the placed order in Magento Admin, under **Sales** > **Orders**.
- 4. Click the **Ship** button. The **New Shipment** page opens. 
- 
- Expected result:
+### Scenario 1: Create a label when adding a shipment
 
- The **Create Shipping Label** checkbox is displayed in the bottom of the page. 
+Steps to reproduce:
 
- Actual result:
+1. Open the placed order in Magento Admin, under **Sales** > **Orders**.
 
- The **Create Shipping Label** checkbox is not displayed.
+1. Click the **Ship** button. The **New Shipment** page opens.
 
- ### Scenario 2: Create a label for existing shipment
+Expected result:
 
- Steps to reproduce:
+The **Create Shipping Label** checkbox is displayed in the bottom of the page.
 
- 
- 2. Open the placed order in Magento Admin, under **Sales** > **Orders**.
- 4. Click the **Ship** button. The **New Shipment** page opens. 
- 6. Click the Submit Shipment button. A shipment is created.
- 8. Open the newly created shipment.
- 10. Click the **Create Shipping Label** button. The C**reate Packages** dialog opens.
- 
- Expected result:
+Actual result:
 
- The **Add Products to Package** button on the **Create Packages** modal window displays fields with order items.
+The **Create Shipping Label** checkbox is not displayed.
 
- Actual result:
+### Scenario 2: Create a label for existing shipment
 
- The **Create Packages** modal window is not displayed properly, it is not possible to add order items to the shipment.
+Steps to reproduce:
 
- Solution
---------
+1. Open the placed order in Magento Admin, under **Sales** > **Orders**.
 
- Apply the patch provided in this article.
+1. Click the **Ship** button. The **New Shipment** page opens.
 
- Patch
------
+1. Click the Submit Shipment button. A shipment is created.
 
- The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+1. Open the newly created shipment.
 
- [MC-35514-2.4.0-CE-composer-2.patch](https://support.magento.com/hc/en-us/article_attachments/360063419631/MC-35514-2.4.0-CE-composer-2.patch)
+10. Click the **Create Shipping Label** button. The C**reate Packages** dialog opens.
 
- The patch is also available for download in both, .git and .composer, formats on [Magento Commerce Downloads](https://magento.com/tech-resources/download) page, under **Patches** in the left column navigation. Search for MC-35514 patch. 
+Expected result:
 
- ### Compatible Magento versions:
+The **Add Products to Package** button on the **Create Packages** modal window displays fields with order items.
 
- The patch was created for:
+Actual result:
 
- 
- * Magento Commerce Cloud version 2.4.0
- * Magento Commerce version 2.4.0
- 
- How to apply the patch
-----------------------
+The **Create Packages** modal window is not displayed properly, it is not possible to add order items to the shipment.
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+## Solution
 
- Attached Files
---------------
+Apply the patch provided in this article.
+
+## Patch
+
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+
+[MC-35514-2.4.0-CE-composer-2.patch](https://support.magento.com/hc/en-us/article_attachments/360063419631/MC-35514-2.4.0-CE-composer-2.patch)
+
+The patch is also available for download in both, .git and .composer, formats on [Magento Commerce Downloads](https://magento.com/tech-resources/download) page, under **Patches** in the left column navigation. Search for MC-35514 patch.
+
+### Compatible Magento versions:
+
+The patch was created for:
+
+* Magento Commerce Cloud version 2.4.0
+
+* Magento Commerce version 2.4.0
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+## Attached Files
 

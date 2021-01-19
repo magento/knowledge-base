@@ -6,61 +6,57 @@ labels: Magento Commerce Cloud,Fastly,Magento Commerce,cms,troubleshooting,Varni
 
 This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html)) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.
 
- **Cause:** the non-permitted / character (slash) in the *URL Key* parameter of the page (Search Engine Optimization settings). The character is usually added when *URL Path* (with entire page location) is mistakenly specified instead of *URL Key*: for example, *blog/page\_name* instead of just *page\_name*.
+**Cause:** the non-permitted / character (slash) in the *URL Key* parameter of the page (Search Engine Optimization settings). The character is usually added when *URL Path* (with entire page location) is mistakenly specified instead of *URL Key*: for example, *blog/page\_name* instead of just *page\_name*.
 
- **Solution:** remove the / character (slash); for the *URL Key* parameter, specify only the page name.
+**Solution:** remove the / character (slash); for the *URL Key* parameter, specify only the page name.
 
- Affected versions
------------------
+## Affected versions
 
- 
- * Magento Commerce 2.X.X
- * Magento Commerce Cloud 2.X.X
- * Fastly or Varnish
- 
- Issue
------
+* Magento Commerce 2.X.X
 
- The Main Menu (also referred to as the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html)) is not displayed on storefront for subpages when Fastly or other Varnish-based services are enabled.
+* Magento Commerce Cloud 2.X.X
 
- Cause
------
+* Fastly or Varnish
 
- The issue is caused by the non-permitted / character (slash), added to the *URL Key* parameter (Search Engine Optimization settings).
+## Issue
 
- The character is usually added when *URL Path* (with entire page location, including the parent resource/directory of the page) is mistakenly specified instead of *URL Key*: for example, *blog/page\_name* instead of just *page\_name*.
+The Main Menu (also referred to as the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html)) is not displayed on storefront for subpages when Fastly or other Varnish-based services are enabled.
 
- ![URL Key parameter for SEO settings](https://support.magento.com/hc/article_attachments/115004301374/seo_url_key.png)
+## Cause
 
- Solution
---------
+The issue is caused by the non-permitted / character (slash), added to the *URL Key* parameter (Search Engine Optimization settings).
 
- Remove the / character (slash) from the *URL Key* parameter for all pages of your store.
+The character is usually added when *URL Path* (with entire page location, including the parent resource/directory of the page) is mistakenly specified instead of *URL Key*: for example, *blog/page\_name* instead of just *page\_name*.
 
- In other words, use *URL Key* instead of *URL Path*: mention just the page name with no parent resource/directory.
+![URL Key parameter for SEO settings](https://support.magento.com/hc/article_attachments/115004301374/seo_url_key.png)
 
- ### Recommendations on page hierarchy and SEO
+## Solution
 
- To set the page hierarchy, use the **Hierarchy** section of the Edit Page menu.
+Remove the / character (slash) from the *URL Key* parameter for all pages of your store.
 
- ![Hierarchy settings](https://support.magento.com/hc/article_attachments/115004308814/hierarchy_hr.png)
+In other words, use *URL Key* instead of *URL Path*: mention just the page name with no parent resource/directory.
 
- You may also use the **Content** > **Elements** > **Hierarchy** menu — for more complex hierarchy solutions.
+### Recommendations on page hierarchy and SEO
 
- For SEO purposes on product pages, use URL Rewrites (**Marketing** > **SEO & Search** > **URL Rewrites**).
+To set the page hierarchy, use the **Hierarchy** section of the Edit Page menu.
 
- More information in Magento User Guide
---------------------------------------
+![Hierarchy settings](https://support.magento.com/hc/article_attachments/115004308814/hierarchy_hr.png)
 
- The *URL Key* parameter for SEO:
+You may also use the **Content** > **Elements** > **Hierarchy** menu — for more complex hierarchy solutions.
 
- 
- * [Search Engine Optimization](http://docs.magento.com/m2/ee/user_guide/catalog/categories-search-engine-optimization.html?Highlight=%22url%20key%22)
- * [Adding a New Page](http://docs.magento.com/m2/ee/user_guide/cms/page-add.html)
- 
- Page Hierarchy:
+For SEO purposes on product pages, use URL Rewrites (**Marketing** > **SEO & Search** > **URL Rewrites**).
 
- 
- * [Overview](http://docs.magento.com/m2/ee/user_guide/cms/page-hierarchy.html?Highlight=hierarchy)
- * [Adding a Node](http://docs.magento.com/m2/ee/user_guide/cms/page-hierarchy-node-add.html?Highlight=hierarchy)
- 
+## More information in Magento User Guide
+
+The *URL Key* parameter for SEO:
+
+* [Search Engine Optimization](http://docs.magento.com/m2/ee/user_guide/catalog/categories-search-engine-optimization.html?Highlight=%22url%20key%22)
+
+* [Adding a New Page](http://docs.magento.com/m2/ee/user_guide/cms/page-add.html)
+
+Page Hierarchy:
+
+* [Overview](http://docs.magento.com/m2/ee/user_guide/cms/page-hierarchy.html?Highlight=hierarchy)
+
+* [Adding a Node](http://docs.magento.com/m2/ee/user_guide/cms/page-hierarchy-node-add.html?Highlight=hierarchy)
+

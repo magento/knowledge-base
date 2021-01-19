@@ -6,33 +6,31 @@ labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,Inventory,2.3.x,
 
 This article provides a fix for when you can not completely remove a source and/or change its code.
 
- Issue
------
+## Issue
 
- Sources can not be deleted regardless of product assignment.
+Sources can not be deleted regardless of product assignment.
 
- ### Affected products and versions
+### Affected products and versions
 
- 
- * Magento Commerce Cloud all versions, with Magento Inventory installed 
- * Magento Commerce 2.3.0 and later, with Magento Inventory installed 
- * Magento Open Source 2.3.0 and later, with Magento Inventory installed 
- 
- Cause
------
+* Magento Commerce Cloud all versions, with Magento Inventory installed
 
- By design, it is not possible to completely remove a source and/or change its code.
+* Magento Commerce 2.3.0 and later, with Magento Inventory installed
 
- Removing a source entirely would cause order data issues, because sources are part of product inventories, orders, shipment data, and much more. 
+* Magento Open Source 2.3.0 and later, with Magento Inventory installed
 
- The code is vital for connecting the source to orders. This is a unique ID for the source and is disabled from editing.
+## Cause
 
- Solution
---------
+By design, it is not possible to completely remove a source and/or change its code.
 
- You can remove a source from a product by transferring the inventory or dropping the product from all shipments at a location.
+Removing a source entirely would cause order data issues, because sources are part of product inventories, orders, shipment data, and much more. 
 
- If you need to remove a source from [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) calculations and Magento Inventory order processing, you can disable the source. Disabled sources retain all data, assigned products, and inventory quantities, and may be re-enabled any time to begin shipping again.
+The code is vital for connecting the source to orders. This is a unique ID for the source and is disabled from editing.
 
- See the [Create Sources guide](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) on details how to disable a source. 
+## Solution
+
+You can remove a source from a product by transferring the inventory or dropping the product from all shipments at a location.
+
+If you need to remove a source from [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) calculations and Magento Inventory order processing, you can disable the source. Disabled sources retain all data, assigned products, and inventory quantities, and may be re-enabled any time to begin shipping again.
+
+See the [Create Sources guide](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) on details how to disable a source.
 

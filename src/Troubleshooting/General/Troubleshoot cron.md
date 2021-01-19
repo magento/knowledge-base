@@ -6,88 +6,90 @@ labels: Magento Commerce,cron,troubleshooting,2.3.x,2.2.x
 
 This article describes troubleshooting solutions for issues with cron in Magento on-premise products.
 
- Affected products and versions
+Affected products and versions
 
- 
- * Magento Commerce 2.2.x, 2.3.x
- * Magento Open Source 2.2.x, 2.3.x 
- 
- Issues
-------
+* Magento Commerce 2.2.x, 2.3.x
 
- Following are symptoms of cron issues:
---------------------------------------
+* Magento Open Source 2.2.x, 2.3.x
 
- 
- * Your update or upgrade never runs; it stays in a pending state.
- * An error message about the [PHP](https://glossary.magento.com/php) setting $HTTP\_RAW\_POST\_DATA displays even though it's set properly.
- *  The cron readiness check fails. Possible errors include non-writable paths and cron not set up. An example follows:
+## Issues
 
- ![upgr-tshoot-no-cron2.png](https://support.magento.com/hc/article_attachments/360037665751/upgr-tshoot-no-cron2.png)
+## Following are symptoms of cron issues:
 
- 
- *  The PHP readiness check doesn't display the PHP version as the following figure shows.
+* Your update or upgrade never runs; it stays in a pending state.
 
- ![Screen_Shot_2019-08-29_at_1.36.08_PM.png](https://support.magento.com/hc/article_attachments/360037675012/Screen_Shot_2019-08-29_at_1.36.08_PM.png)
+* An error message about the [PHP](https://glossary.magento.com/php) setting $HTTP\_RAW\_POST\_DATA displays even though it's set properly.
 
- 
- *  The following error displays in the Magento Admin:
+* 
+The cron readiness check fails. Possible errors include non-writable paths and cron not set up. An example follows:
 
- ![compman-cron-not-running.png](https://support.magento.com/hc/article_attachments/360037666411/compman-cron-not-running.png)
+![upgr-tshoot-no-cron2.png](https://support.magento.com/hc/article_attachments/360037665751/upgr-tshoot-no-cron2.png)
 
- To see the error, you might need to click **System Messages** at the top of the window as follows:
+* 
+The PHP readiness check doesn't display the PHP version as the following figure shows.
 
- ![compman_sys-messages.png](https://support.magento.com/hc/article_attachments/360037666851/compman_sys-messages.png)
+![Screen_Shot_2019-08-29_at_1.36.08_PM.png](https://support.magento.com/hc/article_attachments/360037675012/Screen_Shot_2019-08-29_at_1.36.08_PM.png)
 
- 
- 
- Investigate to find the cause
------------------------------
+* 
+The following error displays in the Magento Admin:
 
- This section discusses how to see if cron is currently running and to verify whether it's set up properly.
+![compman-cron-not-running.png](https://support.magento.com/hc/article_attachments/360037666411/compman-cron-not-running.png)
 
- To verify whether or not your crontab is set up:
+To see the error, you might need to click **System Messages** at the top of the window as follows:
 
- 
- 2. Log in to your Magento server as, or switch to, the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
- 4.  See if the following file exists:
+![compman_sys-messages.png](https://support.magento.com/hc/article_attachments/360037666851/compman_sys-messages.png)
 
- ls -al <magento\_root>/var/.setup\_cronjob\_status If the file exists, cron has run successfully in the past. If the file *does not* exist, either you haven't yet installed Magento or cron isn't running. In either case, continue with the next step.
+## Investigate to find the cause
 
- 
- 6.  Get more detail about cron.
+This section discusses how to see if cron is currently running and to verify whether it's set up properly.
 
- As a user with root privileges, enter the following command:
+To verify whether or not your crontab is set up:
 
- crontab -u <Magento file system owner name> -l For example, on CentOS
+1. Log in to your Magento server as, or switch to, the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
 
- crontab -u magento\_user -l If no crontab has been set up for the user, the following message displays:
+1. 
+See if the following file exists:
 
- no crontab for magento\_user Your crontab tells you the following:
+ls -al <magento\_root>/var/.setup\_cronjob\_status
+If the file exists, cron has run successfully in the past. If the file *does not* exist, either you haven't yet installed Magento or cron isn't running. In either case, continue with the next step.
 
- 
-	 * What PHP binary you're using (in some cases, you have more than one)
-	 * What Magento cron scripts you're running (in particular, the paths to those scripts)
-	 * Where your cron logs are located See one of the following sections for a solution to your issue.
+1. 
+Get more detail about cron.
 
- 
- 
- Solutions
----------
+As a user with root privileges, enter the following command:
 
- ### Solution for crontab not being set up
+crontab -u <Magento file system owner name> -l
+For example, on CentOS
 
- To verify your cron jobs are set up properly, see [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
+crontab -u magento\_user -l
+If no crontab has been set up for the user, the following message displays:
 
- ### Solution for cron running from incorrect PHP binary
+no crontab for magento\_user
+Your crontab tells you the following:
 
- If your cron job uses a PHP binary different from the web server plug-in, PHP settings errors might display. To resolve the issue, set identical PHP settings for both the PHP command line and the PHP web server plug-in.
+	
+	* What PHP binary you're using (in some cases, you have more than one)
+	
+	* What Magento cron scripts you're running (in particular, the paths to those scripts)
+	
+	* Where your cron logs are located
+See one of the following sections for a solution to your issue.
 
- For more information about PHP settings, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+## Solutions
 
- ### Solution for cron running with errors
+### Solution for crontab not being set up
 
- Try running each command manually because the command might display helpful error messages. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
+To verify your cron jobs are set up properly, see [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 
- You must run cron at least *twice* for the job to execute; the first time to queue jobs, the second time to execute the jobs.
+### Solution for cron running from incorrect PHP binary
+
+If your cron job uses a PHP binary different from the web server plug-in, PHP settings errors might display. To resolve the issue, set identical PHP settings for both the PHP command line and the PHP web server plug-in.
+
+For more information about PHP settings, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+
+### Solution for cron running with errors
+
+Try running each command manually because the command might display helpful error messages. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
+
+You must run cron at least *twice* for the job to execute; the first time to queue jobs, the second time to execute the jobs.
 

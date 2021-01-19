@@ -6,18 +6,17 @@ labels:
 
 Logging in allows you to work with support tickets. You can still access all articles in the Magento Knowledge Base without logging in.
 
- To log in to the Magento Help Center, follow these steps:
+To log in to the Magento Help Center, follow these steps:
 
- 
- 2. Access the Help Center at <https://support.magento.com>.
- 4. Click **Log In** in the upper-right corner. 
- 
- ![magento-help-center-log-in.png](https://support.magento.com/hc/article_attachments/360014757152/magento-help-center-log-in.png) 
+1. Access the Help Center at <https://support.magento.com>.
 
- Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) (Magento User Guide). 
+1. Click **Log In** in the upper-right corner.
 
- Problems logging in?
---------------------
+![magento-help-center-log-in.png](https://support.magento.com/hc/article_attachments/360014757152/magento-help-center-log-in.png)
 
- If you are having problems logging into the Help Center, please submit a help request [to helpcenterloginissues@magento.com.![](https://jira.corp.magento.com/images/icons/mail_small.gif)](mailto:helpcenterloginissues@magento.com. "Follow link")
+Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) (Magento User Guide).
+
+## Problems logging in?
+
+If you are having problems logging into the Help Center, please submit a help request [to helpcenterloginissues@magento.com.![](https://jira.corp.magento.com/images/icons/mail_small.gif)](mailto:helpcenterloginissues@magento.com. "Follow link")
 

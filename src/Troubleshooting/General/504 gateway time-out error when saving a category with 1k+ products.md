@@ -6,60 +6,62 @@ labels: Magento Commerce Cloud,Magento Commerce,timeout,time-out,products,2.3.3,
 
 This article suggests a solution for the timeout issue you might have, when performing operations with large categories (1k+ plus products).
 
- ### Affected products and versions:
+### Affected products and versions:
 
- 
- * Magento Commerce Cloud 2.3.3
- * Magento Commerce 2.3.3
- * Magento Open Source 2.3.3
- 
- Issue
------
+* Magento Commerce Cloud 2.3.3
 
- Prerequisites: The **Stores** > **Configuration** > **CATALOG** > **Catalog** > **Use Categories Path for Product URLs** option is set to *Yes* for your store view.
+* Magento Commerce 2.3.3
 
- Steps to reproduce
+* Magento Open Source 2.3.3
 
- 
- 2. In Magento Admin, go to **Catalog** > **Categories**.
- 4. Open a large category, like more than 1000 assigned products.
- 6. Add a product to the category.
- 8. Click **Save Category.** 
- 
- Expected result
+## Issue
 
- Category is saved successfully.
+Prerequisites: The **Stores** > **Configuration** > **CATALOG** > **Catalog** > **Use Categories Path for Product URLs** option is set to *Yes* for your store view.
 
- Actual result
+Steps to reproduce
 
- After 5 minutes of saving process, the 504 gateway timeout error page appears.
+1. In Magento Admin, go to  **Catalog** > **Categories**.
 
- Cause
------
+1. Open a large category, like more than 1000 assigned products.
 
- The process takes longer than the server's configured timeout.
+1. Add a product to the category.
 
- Solution
---------
+1. Click **Save Category.**
 
- Disabling the **Generate "category/product" URL Rewrites** option will remove all category/product URL rewrites from the database, and significantly decrease the time required for the operations with big categories. 
+Expected result
 
- Turning this option off will result in permanent removal of category/product URL rewrites without an ability to restore them.
+Category is saved successfully.
 
- To disable the **Generate "category/product" URL Rewrites** option:
+Actual result
 
- 
- 2. In the Magento Admin, navigate to **Stores** > **Configuration** > **CATALOG** > **Catalog**.
- 4. In the top left corner of the configuration page, in the **Scope** field, set your configuration scope to *Default Config*.
- 6. Set **Generate "category/product" URL Rewrites** to *No*.
- 8. Click **Save Config**. 
- 10. Clean cache by running bin/magento cache:clean or in Magento Admin under **System** > **Tools** > **Cache Management**.
- 
- Now you can proceed to adding products to categories, or moving categories with a large number of products, and these operations will take much less time and should not cause timeout.
+After 5 minutes of saving process, the 504 gateway timeout error page appears.
 
- Related reading
----------------
+## Cause
 
- 
- *  [Automatic Product Redirects](https://docs.magedevteam.com/244/m2/ce/user_guide/marketing/url-redirect-product-automatic.html) in [Magento 2.3 User Guide](https://docs.magedevteam.com/244/m2/ce/user_guide/) 
- 
+The process takes longer than the server's configured timeout.
+
+## Solution
+
+Disabling the **Generate "category/product" URL Rewrites** option will remove all category/product URL rewrites from the database, and significantly decrease the time required for the operations with big categories.
+
+Turning this option off will result in permanent removal of category/product URL rewrites without an ability to restore them.
+
+To disable the **Generate "category/product" URL Rewrites** option:
+
+1. In the Magento Admin, navigate to **Stores** > **Configuration** > **CATALOG** > **Catalog**.
+
+1. In the top left corner of the configuration page, in the **Scope** field, set your configuration scope to *Default Config*.
+
+1. Set **Generate "category/product" URL Rewrites** to *No*.
+
+1. Click **Save Config**.
+
+10. Clean cache by running bin/magento cache:clean or in Magento Admin under **System** > **Tools** > **Cache Management**.
+
+Now you can proceed to adding products to categories, or moving categories with a large number of products, and these operations will take much less time and should not cause timeout.
+
+## Related reading
+
+* 
+[Automatic Product Redirects](https://docs.magedevteam.com/244/m2/ce/user_guide/marketing/url-redirect-product-automatic.html) in [Magento 2.3 User Guide](https://docs.magedevteam.com/244/m2/ce/user_guide/)
+
