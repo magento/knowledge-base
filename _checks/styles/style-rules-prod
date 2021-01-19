@@ -23,7 +23,7 @@ rule 'MD026'
 exclude_rule 'MD027'
 exclude_rule 'MD028'
 rule 'MD029' # Ordered list item prefix
-rule 'MD030'
+rule 'MD030' # Spaces after list markers
 exclude_rule 'MD031'
 rule 'MD032' # Lists should be surrounded by blank lines
 exclude_rule 'MD033'
