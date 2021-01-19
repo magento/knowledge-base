@@ -4,91 +4,114 @@ link: https://support.magento.com/hc/en-us/articles/360031098011-Deployment-fail
 labels: Magento Commerce Cloud,build,deployment,troubleshooting,error building
 ---
 
-This article talks about the causes and solutions for the Magento Commerce Cloud issue, where the build phase of the deployment process fails and the error message is summarized with : *"Error building project: The build hook failed with status code 1"*.
+This article talks about the causes and solutions for the Magento Commerce Cloud issue, where the build phase of the deployment process fails and the error message is summarized with : *"Error building project: The build hook failed with status code 1"*.
 
- ### Affected products and versions
+### Affected products and versions
 
- 
- * Magento Commerce Cloud, all versions
- 
- Issue
------
+* Magento Commerce Cloud, all versions
 
- Steps to reproduce
+## Issue
 
- 
- 2. Trigger the deployment manually or by performing a merge, push, or synchronization of your environment.
- 
- Actual result
+Steps to reproduce
 
- 
- 2. The building phase fails, and the whole deployment process gets stuck.
- 4. In the deployment error log, the error message ends with: *"Error building project: The build hook failed with status code 1. Aborted build".* 
- 
- Expected result
+1. Trigger the deployment manually or by performing a merge, push, or synchronization of your environment.
 
- Deployment is completed successfully.
+Actual result
 
- Cause
------
+1. The building phase fails, and the whole deployment process gets stuck.
 
- There are multiple reasons why environment building fails. Usually, in the deployment log you will see a long error message, where the first part would be more specific regarding the reason, and the conclusion would be *Error building project: The build hook failed with status code 1. Aborted build".* 
+1. In the deployment error log, the error message ends with: *"Error building project: The build hook failed with status code 1. Aborted build".*
 
- Looking closer at the first, problem-specific, part will help you to identify the issue. Here are the most common ones, and the next section provides solutions for them:
+Expected result
 
- 
- * There is no available storage space.
- * Incorrect ECE-Tools configuration. 
- * Patch you trying to apply is incompatible with your Magento version, or has conflicts with other patches applied, or your customizations.
- * Problems with custom modules code are preventing from building successfully.
- 
-  Solution
----------
+Deployment is completed successfully.
 
- 
- * Check to ensure that there is enough storage. For information on how to check available space, see the [Check disk space on Cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713) article. You can consider cleaning the log directories and/or increasing disk space.
- * Ensure ECE-Tools are configured correctly.
- * Check if it is the patch that is causing the problem. Resolve the conflict, or contact Magento Support. See below for details.
- * Check if it is the custom extension that is causing the problem. Resolve the conflict, or contact the extension developers for solution.
- 
- The following paragraphs provide some more details.
+## Cause
 
- ### Clean logs and/or increase space
+There are multiple reasons why environment building fails. Usually, in the deployment log you will see a long error message, where the first part would be more specific regarding the reason, and the conclusion would be *Error building project: The build hook failed with status code 1. Aborted build".*
 
- Directories that be considered for clean up:
+Looking closer at the first, problem-specific, part will help you to identify the issue. Here are the most common ones, and the next section provides solutions for them:
 
- 
- * var/log
- * var/report
- * var/debug/
- * var
- 
- For details on how increase disk space if you on the Starter plan, see the [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Pro plan Integration environment.  
- For Pro Production/Staging, you need to file a ticket to Magento Support and request increase disk space. But it is monitored by Platform. But typically, you will not have to deal with this on Staging/Production of Pro plan, cause Magento monitors these parameters for you, and alerts you and/or takes actions, according to the contract.
+* There is no available storage space.
 
- ### Ensure ECE-tools are configured correctly
+* Incorrect ECE-Tools configuration.
 
- 
- 2. Ensure that build hooks are defined properly in the magento.app.yaml file. If you are on Magento Commerce 2.2.X, building hooks should be defined as follows:  # We run build hooks before your application has been packaged. build: | php ./vendor/bin/ece-tools build # We run deploy hook after your application has been deployed and started. deploy: | php ./vendor/bin/ece-tools deploy  
- Use the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
- 4. Ensure that ECE-tools package is present in the composer.lock file by running the following command: grep '"name": "magento/ece-tools"' composer.lock If they are specified, the response would look like the following example: "name": "magento/ece-tools", "version": "2002.0.20", 
- 
- See the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
+* Patch you trying to apply is incompatible with your Magento version, or has conflicts with other patches applied, or your customizations.
 
- ### Is patch causing the issue?
+* Problems with custom modules code are preventing from building successfully.
 
- If it is the applied patch that is preventing the environment to build successfully, you see something similar to the following in the deploy log:
+##  Solution
 
- %patch\_name%.composer.patch [2019-02-19 18:12:59] CRITICAL: .... [2019-02-19 18:12:59] CRITICAL: Command git apply --check --reverse /app/m2-hotfixes/%patch\_name%.composer.patch returned code 1 ... W: W: Command git apply --check --reverse /app/m2-hotfixes/%patch\_name%.composer.patch returned code 1 W: W: W: build ... E: Error building project: The build hook failed with status code 1. Aborted build. These error messages mean that the patch you are trying to apply either was created for a different Magento version, or has conflicts with your customizations or previously applied patches. Try to resolve the conflict, or contact Magento Support.
+* Check to ensure that there is enough storage. For information on how to check available space, see the [Check disk space on Cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713) article. You can consider cleaning the log directories and/or increasing disk space.
 
- ### Is extension causing the issue?
+* Ensure ECE-Tools are configured correctly.
 
- If it is the custom extension that is preventing the environment to build successfully, you will see the custom module(s) name(s) mentioned in the deployment log, along with the particular conflict caused by this module. Resolve the conflict, or contact the extension developers for solution.
+* Check if it is the patch that is causing the problem. Resolve the conflict, or contact Magento Support. See below for details.
 
- ### Make sure changes are applied
+* Check if it is the custom extension that is causing the problem. Resolve the conflict, or contact the extension developers for solution.
 
- Commit and push your changes. This will trigger the deployment automatically.
+The following paragraphs provide some more details.
 
-  
+### Clean logs and/or increase space
 
- 
+Directories that be considered for clean up:
+
+* var/log
+
+* var/report
+
+* var/debug/
+
+* var
+
+For details on how increase disk space if you on the Starter plan, see the [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Pro plan Integration environment.  
+ For Pro Production/Staging, you need to file a ticket to Magento Support and request increase disk space. But it is monitored by Platform. But typically, you will not have to deal with this on Staging/Production of Pro plan, cause Magento monitors these parameters for you, and alerts you and/or takes actions, according to the contract.
+
+### Ensure ECE-tools are configured correctly
+
+1. Ensure that build hooks are defined properly in the magento.app.yaml file. If you are on Magento Commerce 2.2.X, building hooks should be defined as follows:
+ # We run build hooks before your application has been packaged.
+ build: |
+ php ./vendor/bin/ece-tools build
+ # We run deploy hook after your application has been deployed and started.
+ deploy: |
+ php ./vendor/bin/ece-tools deploy 
+
+Use the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
+
+1. Ensure that ECE-tools package is present in the composer.lock file by running the following command:
+grep '"name": "magento/ece-tools"' composer.lock
+If they are specified, the response would look like the following example:
+"name": "magento/ece-tools",
+"version": "2002.0.20",
+
+See the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
+
+### Is patch causing the issue?
+
+If it is the applied patch that is preventing the environment to build successfully, you see something similar to the following in the deploy log:
+
+%patch\_name%.composer.patch 
+[2019-02-19 18:12:59] CRITICAL: 
+....
+[2019-02-19 18:12:59] CRITICAL: Command git apply --check --reverse /app/m2-hotfixes/%patch\_name%.composer.patch returned code 1 
+...
+W: 
+W: Command git apply --check --reverse /app/m2-hotfixes/%patch\_name%.composer.patch returned code 1 
+W: 
+W: 
+W: build 
+...
+E: Error building project: The build hook failed with status code 1. Aborted build.
+These error messages mean that the patch you are trying to apply either was created for a different Magento version, or has conflicts with your customizations or previously applied patches. Try to resolve the conflict, or contact Magento Support.
+
+### Is extension causing the issue?
+
+If it is the custom extension that is preventing the environment to build successfully, you will see the custom module(s) name(s) mentioned in the deployment log, along with the particular conflict caused by this module. Resolve the conflict, or contact the extension developers for solution.
+
+### Make sure changes are applied
+
+Commit and push your changes. This will trigger the deployment automatically.
+
+
+

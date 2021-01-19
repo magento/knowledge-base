@@ -4,56 +4,53 @@ link: https://support.magento.com/hc/en-us/articles/360047251111-Magento-2-4-0-B
 labels: Magento Commerce Cloud,Magento Commerce,patch,B2B,troubleshooting,known issues,2.4.0,purchase order
 ---
 
-This article provides a patch for the known issue of a purchase order (PO) discount not being applied in Magento 2.4.0 B2B. If the PO was placed with a discount code that expired while the PO was in the approval process, the approved order does not reflect the discount. 
+This article provides a patch for the known issue of a purchase order (PO) discount not being applied in Magento 2.4.0 B2B. If the PO was placed with a discount code that expired while the PO was in the approval process, the approved order does not reflect the discount.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce Cloud 2.4.0
- * Magento Commerce 2.4.0
- 
- Issue
------
+* Magento Commerce Cloud 2.4.0
 
- Prerequisites: a discount coupon is created, and approval rules preventing POs from being processed automatically exist. 
+* Magento Commerce 2.4.0
 
- Steps to reproduce:
+## Issue
 
- 
- 2. Place a PO with a discount applied.
- 4. Deactivate the discount coupon. 
- 6. Approve PO as a manager. 
- 8. Check the order created as a result.
- 
- Expected result:
+Prerequisites: a discount coupon is created, and approval rules preventing POs from being processed automatically exist.
 
- Order is created with a discounted total. 
+Steps to reproduce:
 
- Actual result:
+1. Place a PO with a discount applied.
 
- Order is created for the full amount.
+1. Deactivate the discount coupon.
 
- Solution
---------
+1. Approve PO as a manager.
 
- Apply the patch provided in this article.
+1. Check the order created as a result.
 
- Patch
------
+Expected result:
 
- The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+Order is created with a discounted total.
 
- [B2B-709-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063988371/B2B-709-composer.patch)
+Actual result:
 
- The patch is also available for download in both, .git and .composer, formats on [Magento Commerce Downloads](https://magento.com/tech-resources/download) page, under **Patches** in the left column navigation. Search for XXX patch. 
+Order is created for the full amount.
 
- How to apply the patch
-----------------------
+## Solution
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+Apply the patch provided in this article.
 
-  
+## Patch
 
-  
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+
+[B2B-709-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063988371/B2B-709-composer.patch)
+
+The patch is also available for download in both, .git and .composer, formats on [Magento Commerce Downloads](https://magento.com/tech-resources/download) page, under **Patches** in the left column navigation. Search for XXX patch.
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+
+
+
 

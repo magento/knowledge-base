@@ -6,80 +6,67 @@ labels: staging,production,Magento Commerce Cloud,Pro,snapshot,backup,FAQ,2.3.x,
 
 This article covers the essentials of backing up your environments with snapshots on Magento Commerce Cloud.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- 
- + Magento Commerce Cloud 2.2.x, 2.3.x
- + Plans: Starter, Pro Legacy, Pro
- 
- 
- Environment snapshot, Pro plan
-------------------------------
+* Magento Commerce Cloud 2.2.x, 2.3.x
 
- ### Staging and Production environments
+* Plans:  Starter, Pro Legacy, Pro
 
- 
- 
- 
- - Your Staging and Production environments are automatically backed up with snapshots **every** **hour**.
- - Automatic snapshots are created **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
- - Environment snapshots include your full system (file system and the database).
- - Manual snapshots are not available for Staging and Production environments on Pro plan.
- - The backups are created using the **encrypted Amazon Web Services Elastic Block Store (AWS EBS) snapshots**.
- - Retention time for automatic snapshots **is different** and follows [the schedule](https://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery).
- 
- 
- 
- ### Integration (Development) environment
+## Environment snapshot, Pro plan
 
- 
- 
- 
- - Your Integration environment is **not being backed up automatically**, but you may create snapshots **manually**.
- - You can create manual snapshots for Integration environments on non-live stores.
- - You may have **multiple snapshots** that have been triggered manually.
- - A manually triggered snapshot is stored for **7 days**.
- 
- 
- 
- **Related documentation on DevDocs:** 
+### Staging and Production environments
 
- 
- 
- 
- - [Backup and disaster recovery](https://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
- - [Create a snapshot](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#create-snapshot)
- 
- 
- 
- Environment snapshot, Starter plan
-----------------------------------
+* Your Staging and Production environments are automatically backed up with snapshots **every** **hour**.
 
- 
- 
- 
- - All types of environments (Integration, Staging, Production) **are not being backed up automatically**, but you may create snapshots manually.
- - You may create manual snapshots **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
- - A manually triggered snapshot is stored for **7 days**.
- 
- 
- 
- Restore an environment snapshot
--------------------------------
+* Automatic snapshots are created **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
 
- To restore an existing snapshot, follow the steps in DevDocs' [Snapshots and backup management: Restore a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot).
+* Environment snapshots include your full system (file system and the database).
 
- Database (DB) backup
---------------------
+* Manual snapshots are not available for Staging and Production environments on Pro plan.
 
- DB backup is a part of a Cloud snapshot:
+* The backups are created using the **encrypted Amazon Web Services Elastic Block Store (AWS EBS) snapshots**.
 
- 
->  A snapshot is a complete backup of an environment that includes all persistent data from all running services (for example, **your MySQL database**, Redis, and so on) and any files stored on the mounted volumes.
+* Retention time for automatic snapshots **is different** and follows [the schedule](https://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery).
+
+### Integration (Development) environment
+
+* Your Integration environment is **not being backed up automatically**, but you may create snapshots **manually**.
+
+* You can create manual snapshots for Integration environments on non-live stores.
+
+* You may have **multiple snapshots** that have been triggered manually.
+
+* A manually triggered snapshot is stored for **7 days**.
+
+**Related documentation on DevDocs:**
+
+* [Backup and disaster recovery](https://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
+
+* [Create a snapshot](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#create-snapshot)
+
+## Environment snapshot, Starter plan
+
+* All types of environments (Integration, Staging, Production) **are not being backed up automatically**, but you may create snapshots manually.
+
+* You may create manual snapshots **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
+
+* A manually triggered snapshot is stored for **7 days**.
+
+## Restore an environment snapshot
+
+To restore an existing snapshot, follow the steps in DevDocs' [Snapshots and backup management: Restore a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot).
+
+## Database (DB) backup
+
+DB backup is a part of a Cloud snapshot:
+
 > 
->  [Snapshots and backup management](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html) (DevDocs)
+> A snapshot is a complete backup of an environment that includes all persistent data from all running services (for example, **your MySQL database**, Redis, and so on) and any files stored on the mounted volumes.
 > 
->   If, for any reason, you need to backup your DB only (on any environment), see the Knowledge Base article: [Generate database dumps on Cloud](https://support.magento.com/hc/en-us/articles/360003254334).
+> 
+> [Snapshots and backup management](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html) (DevDocs)
+> 
+> 
+> 
+If, for any reason, you need to backup your DB only (on any environment), see the Knowledge Base article: [Generate database dumps on Cloud](https://support.magento.com/hc/en-us/articles/360003254334).
 

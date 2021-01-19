@@ -6,29 +6,27 @@ labels: Magento Commerce Cloud,Magento Commerce,2.3,PHP,php.ini,2.3.4-p1,best pr
 
 It is recommended that you set realpath cache size to 10 MB for Magento Commerce 2.3.x and Commerce Cloud 2.3.x users.Realpath cache caches the real file system paths of filenames referenced instead of looking them up each time. Every time various file functions are performed or require a file and use a relative path, PHP has to look up where that file really exists.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce Cloud all versions v.2.3.x and above
- * Magento Commerce all versions v.2.3.x and above
- 
- Best Practice
--------------
+* Magento Commerce Cloud all versions v.2.3.x and above
 
- If realpath cache size is too low or high it adds additional overhead during cache generation. Increase realpath\_cache\_size php setting in php.ini file. Magento best practice states that the allocated memory for realpath cache needs to be **10 MB**. Refer to [Configure PHP Options](https://devdocs.magento.com/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings).
+* Magento Commerce all versions v.2.3.x and above
 
- Related reading
----------------
+## Best Practice
 
- Refer to DevDocs [PHP settings](https://devdocs.magento.com/guides/v2.3/performance-best-practices/software.html#php-settings).
+If realpath cache size is too low or high it adds additional overhead during cache generation. Increase realpath\_cache\_size php setting in php.ini file. Magento best practice states that the allocated memory for realpath cache needs to be **10 MB**. Refer to [Configure PHP Options](https://devdocs.magento.com/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings).
 
- Best practices to improve Magento Commerce Cloud site performance: 
+## Related reading
 
- 
- * [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud)
- * [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651-Most-common-database-issues-in-Magento-Commerce-Cloud)
- * [Indexers "Update On Schedule" optimizes Magento performance](https://support.magento.com/hc/en-us/articles/360040227191-Indexers-Update-On-Schedule-optimizes-Magento-performance-)
- 
-  
+Refer to DevDocs [PHP settings](https://devdocs.magento.com/guides/v2.3/performance-best-practices/software.html#php-settings).
+
+Best practices to improve Magento Commerce Cloud site performance:
+
+* [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud)
+
+* [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651-Most-common-database-issues-in-Magento-Commerce-Cloud)
+
+* [Indexers "Update On Schedule" optimizes Magento performance](https://support.magento.com/hc/en-us/articles/360040227191-Indexers-Update-On-Schedule-optimizes-Magento-performance-)
+
+
 

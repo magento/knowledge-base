@@ -6,49 +6,55 @@ labels: Magento Commerce Cloud,Magento Commerce,deployment,troubleshooting,mysql
 
 This article provides a solution for Magento Commerce and Cloud issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors.
 
- ###  Affected products and versions
+###  Affected products and versions
 
- 
- * Magento Commerce, Magento Cloud
- * all versions
- 
- Issue
------
+* Magento Commerce, Magento Cloud
 
- 
- * Deploy process fails with the following error in the deploy log (command line and UI log):  Re-deploying environment abcdefghijklm-master-7rqtwti E: Environment redeployment failed 
- *  Magento responds with 503 error, and the following error message is displayed in application logs:
+* all versions
 
- SQLSTATE[HY000] [2006] MySQL server has gone away  and the following error appears when you connect to a MySQL server:
+## Issue
 
- ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)"   
- 
- Cause
------
+* Deploy process fails with the following error in the deploy log (command line and UI log):
+ Re-deploying environment abcdefghijklm-master-7rqtwti  
+ E: Environment redeployment failed
 
- The most probable cause of the issues is the MySQL database allocated space being too low. To make sure this is the case, check the space available for MySQL as described further.
+* 
+Magento responds with 503 error, and the following error message is displayed in application logs:
 
- ### Check if there's enough space for MySQL
+SQLSTATE[HY000] [2006] MySQL server has gone away 
+and the following error appears when you connect to a MySQL server:
 
- For the all Starter plan environments, and Integration environment of the Pro plan, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) and run the magento-cloud db:size command.
+ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)" 
 
- For Staging or Production environment of the Pro plan, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh), and run the df -h  | grep mysql.The result will look similar to the following:
+## Cause
 
- sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql /dev/xvdj 40G 7.4G 32G 19% /data/mysql Solution
---------
+The most probable cause of the issues is the MySQL database allocated space being too low. To make sure this is the case, check the space available for MySQL as described further.
 
- To solve the issue, you need to allocate more space for MySQL.
---------------------------------------------------------------
+### Check if there's enough space for MySQL
 
- For all Starter plan environments and Pro plan Integration environment, this is done in the .magento/services.yaml file, by increasing the mysql: disk: parameter. For example:
+For the all Starter plan environments, and Integration environment of the Pro plan, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) and run the magento-cloud db:size command.
 
- mysql: type: mysql:10.0 disk: 2048  See the [Set up MySQL service](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) article for reference.
+For Staging or Production environment of the Pro plan, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh),  and run the df -h  | grep mysql.The result will look similar to the following:
 
- To make these changes for the Staging or Production environment of the Pro plan, you must create a [Support ticket](http://support.magento.com/). But typically, you will not have to deal with this on Staging/Production of the Pro plan, cause Magento monitors these parameters for you, and alerts you and/or takes actions, according to the contract.
+sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
+/dev/xvdj 40G 7.4G 32G 19% /data/mysql
+## Solution
 
- ### Applying the changes
+## To solve the issue, you need to allocate more space for MySQL.
 
- Once you change the .magento/services.yaml file, you need to commit and push your changes, for them to be applied. The push will trigger the deployment process.
+For all Starter plan environments and Pro plan Integration environment, this is done in the .magento/services.yaml file, by increasing the mysql: disk: parameter. For example:
 
-   
+mysql:
+ type: mysql:10.0
+ disk: 2048
+
+See the  [Set up MySQL service](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) article for reference.
+
+To make these changes for the Staging or Production environment of the Pro plan, you must create a [Support ticket](http://support.magento.com/). But typically, you will not have to deal with this on Staging/Production of the Pro plan, cause Magento monitors these parameters for you, and alerts you and/or takes actions, according to the contract.
+
+### Applying the changes
+
+Once you change the .magento/services.yaml file, you need to commit and push your changes, for them to be applied. The push will trigger the deployment process.
+
+
 

@@ -6,69 +6,63 @@ labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issu
 
 This article provides a patch for the known Magento 2.4.0 issue, where the Braintree Virtual Terminal page does not load the proper UI elements or a proper error message if Braintree is not configured.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce 2.4.0
- * Magento Commerce Cloud 2.4.0
- 
- Issue
------
+* Magento Commerce 2.4.0
 
- ### Scenario 1: Braintree payment method is configured
+* Magento Commerce Cloud 2.4.0
 
- Steps to reproduce:
+## Issue
 
- In Magento Admin, go to **Sales** > **Braintree Virtual Terminal**.
+### Scenario 1: Braintree payment method is configured
 
- Expected result:
+Steps to reproduce:
 
- The **Braintree Virtual Terminal** page loads with proper UI.
+In Magento Admin, go to **Sales** > **Braintree Virtual Terminal**.
 
- Actual result:
+Expected result:
 
- The UI of the **Braintree Virtual Terminal** page is broken.
+The **Braintree Virtual Terminal** page loads with proper UI.
 
- ### Scenario 2: Braintree payment method is configured
+Actual result:
 
- Steps to reproduce:
+The UI of the **Braintree Virtual Terminal** page is broken.
 
- In Magento Admin, go to **Sales** > **Braintree Virtual Terminal**.
+### Scenario 2: Braintree payment method is configured
 
- Expected result:
+Steps to reproduce:
 
- The **Braintree Virtual Terminal** page loads with proper UI and a warning is displayed informing that Braintree is not yet configured.
+In Magento Admin, go to **Sales** >  **Braintree Virtual Terminal**.
 
- Actual result:
+Expected result:
 
- The UI of the **Braintree Virtual Terminal** page is broken and no warning is displayed.
+The **Braintree Virtual Terminal** page loads with proper UI and a warning is displayed informing that Braintree is not yet configured.
 
- Solution
---------
+Actual result:
 
- Apply the patch provided in this article.
+The UI of the **Braintree Virtual Terminal** page is broken and no warning is displayed.
 
- Patch
------
+## Solution
 
- The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+Apply the patch provided in this article.
 
- [BUNDLE-2670-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063914412/BUNDLE-2670-composer.patch)
+## Patch
 
- ### Compatible Magento versions:
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- The patch was created for:
+[BUNDLE-2670-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063914412/BUNDLE-2670-composer.patch)
 
- 
- * Magento Commerce Cloud 2.4.0
- * Magento Commerce 2.4.0
- 
- How to apply the patch
-----------------------
+### Compatible Magento versions:
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+The patch was created for:
 
- Attached Files
---------------
+* Magento Commerce Cloud 2.4.0
+
+* Magento Commerce 2.4.0
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+## Attached Files
 

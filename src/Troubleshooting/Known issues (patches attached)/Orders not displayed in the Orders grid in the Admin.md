@@ -6,55 +6,56 @@ labels: patch,known issue,2.2.1,orders
 
 This article provides a patch for the known Magento Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in Magento Admin.
 
- Issue
------
+## Issue
 
- In the Magento Commerce 2.2.1 with B2B extension installed, orders created on the storefront by a registered customer, are not displayed in the list of orders in the customer's account in the Admin. In the debug log (./var/log/debug.log) the following error is logged:
+In the Magento Commerce 2.2.1 with B2B extension installed, orders created on the storefront by a registered customer, are not displayed in the list of orders in the customer's account in the Admin. In the debug log (./var/log/debug.log) the following error is logged:
 
-   report.CRITICAL: You cannot define a correlation name ‘company\_order’ more than once   Steps to reproduce:
+report.CRITICAL: You cannot define a correlation name ‘company\_order’ more than once
 
- Prerequisites: Your store catalog contains products, not Magento sample data, and the B2B extension is installed.
+Steps to reproduce:
 
- 
- 2. Navigate to the store front and create a customer account. 
- 4. Add a product to the shopping cart, complete checkout and submit an order.
- 6. Log in to the Admin.
- 8. Navigate to **Customers,** then choose **All Customers**.
- 10. For the newly created customer click **Edit**.
- 12. Click **Orders** in the panel on the left.
- 
- Expected result:  
+Prerequisites: Your store catalog contains products, not Magento sample data, and the B2B extension is installed.
+
+1. Navigate to the store front and create a customer account.
+
+1. Add a product to the shopping cart, complete checkout and submit an order.
+
+1. Log in to the Admin.
+
+1. Navigate to **Customers,** then choose **All Customers**.
+
+10. For the newly created customer click **Edit**.
+
+12. Click **Orders** in the panel on the left.
+
+Expected result:  
  The recently submitter order is listed in the grid.
 
- Actual result:
+Actual result:
 
- The Orders grid does not display. A blank page displays instead.
+The Orders grid does not display. A blank page displays instead.
 
- Patch
------
+## Patch
 
- The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-7868\_EE\_2.2.1\_v1\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360024291991/MDVA-7868_EE_2.2.1_v1_composer.patch)
+[Download MDVA-7868\_EE\_2.2.1\_v1\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360024291991/MDVA-7868_EE_2.2.1_v1_composer.patch)
 
- ### Compatible Magento versions:
+### Compatible Magento versions:
 
- The patch was created for:
+The patch was created for:
 
- 
- * Magento Commerce 2.2.1
- 
- The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+* Magento Commerce 2.2.1
 
- 
- * Magento Commerce (Cloud) from 2.2.0 to 2.2.3
- * Magento Commerce 2.2.0, and from 2.2.2 to 2.2.3
- 
- How to apply the patch
-----------------------
+The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+* Magento Commerce (Cloud) from 2.2.0 to 2.2.3
 
- Attached Files
---------------
+* Magento Commerce 2.2.0, and from 2.2.2 to 2.2.3
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+## Attached Files
 

@@ -6,37 +6,41 @@ labels: Magento Commerce Cloud,Magento Commerce,readiness,check,dependency,confl
 
 This article provides solutions for component dependency conflicts.
 
- Resolve component dependency conflicts
---------------------------------------
+## Resolve component dependency conflicts
 
- We suggest you try the following solutions in the order shown:
+We suggest you try the following solutions in the order shown:
 
- 
- 2. [Conflicting dependencies](#trouble-depend-conflict)
- 4. [File system permissions issues](#trouble-depend-permission)
- 6. [The Component Dependency Check status never changes](#trouble-depend-state)
- 
- ### Conflicting dependencies
+1. [Conflicting dependencies](#trouble-depend-conflict)
 
- The message We found conflicting component dependencies displays if Composer cannot determine which components to install or update. To resolve component dependency issues, you should be a technical person who thoroughly understands how Composer works.
+1. [File system permissions issues](#trouble-depend-permission)
 
- Following is a sample failure message:
+1. [The Component Dependency Check status never changes](#trouble-depend-state)
 
-  We found conflicting component dependencies. You are trying to update package(s) magento/module-sample-data to 1.0.0-beta We've detected conflicts with the following packages: - magento/sample-data version 0.74.0-beta15. Please try to update it to one of the following package versions: 0.74.0-beta16, 0.74.0-beta14, 0.74.0-beta13, 0.74.0-beta12, 0.74.0-beta11, 0.74.0-beta10, 0.74.0-beta9, 0.74.0-beta8, 0.74.0-beta7 The message you see will likely be different.
+### Conflicting dependencies
 
- Refer to [Conflicting component dependencies for a solution](https://support.magento.com/hc/en-us/articles/360033204651).
+The message We found conflicting component dependencies displays if Composer cannot determine which components to install or update. To resolve component dependency issues, you should be a technical person who thoroughly understands how Composer works.
 
- File system permissions issues
-------------------------------
+Following is a sample failure message:
 
- If the Magento file system owner doesn't have permissions to write to directories on the Magento file system, a message similar to the following displays:
+ We found conflicting component dependencies.
+ You are trying to update package(s) magento/module-sample-data to 1.0.0-beta
+ We've detected conflicts with the following packages:
+ - magento/sample-data version 0.74.0-beta15. Please try to update it to one of the following package versions: 0.74.0-beta16, 0.74.0-beta14, 0.74.0-beta13, 0.74.0-beta12, 0.74.0-beta11, 0.74.0-beta10, 0.74.0-beta9, 0.74.0-beta8, 0.74.0-beta7
+The message you see will likely be different.
 
- file\_put\_contents(/var/www/html/magento2/var/composer\_home/cache/repo/https--- packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied Make sure you set file system permissions as discussed in DevDocs' [Overview of ownership and permissions](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
+Refer to [Conflicting component dependencies for a solution](https://support.magento.com/hc/en-us/articles/360033204651).
 
- The Component Dependency Check status never changes
----------------------------------------------------
+## File system permissions issues
 
- In some cases, the status of the Component Dependency Check doesn't change, even after you try to correct issues. In that case, you can either delete or rename files named <magento\_root>/var/.update\_cronjob\_status and <magento\_root>/var/.setup\_cronjob\_status and try running the Component Manager again.
+If the Magento file system owner doesn't have permissions to write to directories on the Magento file system, a message similar to the following displays:
 
- Renaming or removing these files forces the Component Manager to run the checks again.
+file\_put\_contents(/var/www/html/magento2/var/composer\_home/cache/repo/https---
+packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
+Make sure you set file system permissions as discussed in DevDocs' [Overview of ownership and permissions](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
+
+## The Component Dependency Check status never changes
+
+In some cases, the status of the Component Dependency Check doesn't change, even after you try to correct issues. In that case, you can either delete or rename files named <magento\_root>/var/.update\_cronjob\_status and <magento\_root>/var/.setup\_cronjob\_status and try running the Component Manager again.
+
+Renaming or removing these files forces the Component Manager to run the checks again.
 

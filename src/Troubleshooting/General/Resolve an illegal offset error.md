@@ -6,60 +6,71 @@ labels: Magento Commerce Cloud,Magento Commerce,error,PHP,illegal,offset,OPcache
 
 This article provides a solution for when in Magento 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Magento Admin.
 
- In Magento 2.1 or later, when creating a new product in the Magento Admin, the following error might display:
+In Magento 2.1 or later, when creating a new product in the Magento Admin, the following error might display:
 
- Warning: Illegal string offset 'is\_in\_stock' in [...]/vendor/ magento/module-catalog-inventory/Ui/DataProvider/Product/Form/ Modifier/AdvancedInventory.php on line 87 Detail
-------
+Warning: Illegal string offset 'is\_in\_stock' in [...]/vendor/
+magento/module-catalog-inventory/Ui/DataProvider/Product/Form/
+Modifier/AdvancedInventory.php on line 87
+## Detail
 
- Magento 2.1 and later use PHP code comments in the getDocComment validation call in the [getExtensionAttributes](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) method in Magento\Framework\Api\ExtensionAttributesFactory.php.
+Magento 2.1 and later use PHP code comments in the getDocComment validation call in the [getExtensionAttributes](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) method in Magento\Framework\Api\ExtensionAttributesFactory.php.
 
- If you enabled the PHP OPcache (which we recommend), this error displays because by default, the OPcache setting [opcache.save\_comments](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments) is disabled.
+If you enabled the PHP OPcache (which we recommend), this error displays because by default, the OPcache setting [opcache.save\_comments](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments) is disabled.
 
- Workaround
-----------
+## Workaround
 
- To solve the issue, locate your OPcache configuration settings and enable opcache.save\_comments as follows:
+To solve the issue, locate your OPcache configuration settings and enable opcache.save\_comments as follows:
 
- #### Step 1: Locate your OPcache configuration
+#### Step 1: Locate your OPcache configuration
 
- #### To find OPcache configuration settings:
+#### To find OPcache configuration settings:
 
- PHP OPcache settings are typically located either in php.ini or opcache.ini. The location might depend on your operating system and PHP version. The OPcache configuration file might have an [opcache] section or settings like opcache.enable.
+PHP OPcache settings are typically located either in php.ini or opcache.ini. The location might depend on your operating system and PHP version. The OPcache configuration file might have an [opcache] section or settings like opcache.enable.
 
- Use the following guidelines to find it:
+Use the following guidelines to find it:
 
- 
- *  Apache web server:
+* 
+Apache web server:
 
- For Ubuntu with Apache, OPcache settings are typically located in php.ini.
+For Ubuntu with Apache, OPcache settings are typically located in php.ini.
 
- For CentOS with Apache or nginx, OPcache settings are typically located in /etc/php.d/opcache.ini.
+For CentOS with Apache or nginx, OPcache settings are typically located in /etc/php.d/opcache.ini.
 
- If not, use the following command to locate it:
+If not, use the following command to locate it:
 
- $ sudo find / -name 'opcache.ini' 
- *  nginx web server with PHP-FPM: /etc/php5/fpm/php.ini.
+$ sudo find / -name 'opcache.ini'
 
- 
- 
- If you have more than one opcache.ini, modify all of them.
+* 
+nginx web server with PHP-FPM: /etc/php5/fpm/php.ini.
 
-  
+If you have more than one opcache.ini, modify all of them.
 
- #### Step 2: Enable opcache.save\_comments
 
- 
- 2. Open your OPcache configuration file in a text editor.
- 4. Locate opcache.save\_comments and uncomment it if necessary.
- 6. Make sure its value is set to 1.
- 8. Save your changes and exit the text editor.
- 10.  Restart your web server:
 
- 
-	 * Apache, Ubuntu: service apache2 restart 
-	 * Apache, CentOS: service httpd restart 
-	 * nginx, Ubuntu and CentOS: service nginx restart 
- 12.  Regenerate DI configuration and all missing classes that can be auto-generated:
+#### Step 2: Enable opcache.save\_comments
 
- $ bin/magento setup:di:compile` 
- 
+1. Open your OPcache configuration file in a text editor.
+
+1. Locate opcache.save\_comments and uncomment it if necessary.
+
+1. Make sure its value is set to 1.
+
+1. Save your changes and exit the text editor.
+
+10. 
+Restart your web server:
+
+	
+	* Apache, Ubuntu: service apache2 restart
+	
+	
+	* Apache, CentOS: service httpd restart
+	
+	
+	* nginx, Ubuntu and CentOS: service nginx restart
+
+12. 
+Regenerate DI configuration and all missing classes that can be auto-generated:
+
+$ bin/magento setup:di:compile`
+

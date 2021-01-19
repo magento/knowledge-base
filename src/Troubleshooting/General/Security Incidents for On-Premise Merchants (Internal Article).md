@@ -6,59 +6,66 @@ labels: security,incident,on-premise
 
 ***INTERNAL ARTICLE***
 
- This internal article provides a solution for the Magento Commerce (on-premise) issue, where a merchant experiences a security issue. 
+This internal article provides a solution for the Magento Commerce (on-premise) issue, where a merchant experiences a security issue.
 
- Affected versions
------------------
+## Affected versions
 
- 
- * Magento Commerce (on-premise), all versions
- 
- Issue
------
+* Magento Commerce (on-premise), all versions
 
- Merchant experiences a security issue and contacts Magento support.
+## Issue
 
- Cause
------
+Merchant experiences a security issue and contacts Magento support.
 
- Security incident - Magento will provide direction to merchants regarding responsibilities and next steps ([Wiki link for Security Breach Protocol](https://wiki.corp.magento.com/pages/viewpage.action?spaceKey=SUP&title=Security+Breach+Protocol)) and L1s will collect specific information detailed in Solution below.
+## Cause
 
- Solution
---------
+Security incident - Magento will provide direction to merchants regarding responsibilities and next steps ([Wiki link for Security Breach Protocol](https://wiki.corp.magento.com/pages/viewpage.action?spaceKey=SUP&title=Security+Breach+Protocol)) and L1s will collect specific information detailed in Solution below.
 
- To resolve the security incident, please collect this specific information:
+## Solution
 
- 
- * Affected URL(s)
- * 100 days of https (apache/nginx) logs
- * SO ticket number
- * How the problem was detected
- * Proof of concepts/examples of problem snapshots of the affected environment
- * Current output of dmesg command
- * Standard Code backup, which should contain:
- 
+To resolve the security incident, please collect this specific information:
 
- 2.  composer.lock file
- 4. mage/root/app/etc/config.php
- 6. Manual gzip of var/log directory
- 
- - Two database snapshots (manual db dumps): mysqldump --routines --single-transaction -h <host> -p<password> -u <user> <database> | gzip > var/support/database.sql.gz 
- 
- 2. Snapshot containing the skimmer
- 4. Most recent backup of the database without skimmer (list of backups to determine which ones to pull)
- 
- - Last 100 days of:
- 
- * service/CDN logs (Cloudflare/Incapsula/Akamai, etc.)
- * Messages
- * Syslog
- * Kern log
- *  dmesg command (if logged and rotated)
- 
- Related reading
----------------
+* Affected URL(s)
 
- 
- * [Wiki link for Security Breach Protocol](https://wiki.corp.magento.com/pages/viewpage.action?spaceKey=SUP&title=Security+Breach+Protocol)
- 
+* 100 days of https (apache/nginx) logs
+
+* SO ticket number
+
+* How the problem was detected
+
+* Proof of concepts/examples of problem snapshots of the affected environment
+
+* Current output of dmesg command
+
+* Standard Code backup, which should contain:
+
+1. 
+composer.lock file
+
+1. mage/root/app/etc/config.php
+
+1. Manual gzip of var/log directory
+
+* Two database snapshots (manual db dumps):
+mysqldump --routines --single-transaction -h <host> -p<password> -u <user> <database> | gzip > var/support/database.sql.gz
+
+1. Snapshot containing the skimmer
+
+1. Most recent backup of the database without skimmer (list of backups to determine which ones to pull)
+
+* Last 100 days of:
+
+* service/CDN logs (Cloudflare/Incapsula/Akamai, etc.)
+
+* Messages
+
+* Syslog
+
+* Kern log
+
+* 
+dmesg command (if logged and rotated)
+
+## Related reading
+
+* [Wiki link for Security Breach Protocol](https://wiki.corp.magento.com/pages/viewpage.action?spaceKey=SUP&title=Security+Breach+Protocol)
+
