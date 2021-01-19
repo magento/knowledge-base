@@ -5,7 +5,7 @@ rule 'MD004' # Unordered list style; default "consistent"
 rule 'MD005' # Inconsistent indentation for list items at the same level
 exclude_rule 'MD006' # Consider starting bulleted lists at the beginning of the line
 rule 'MD007', :indent => 3 # Unordered list indentation
-rule 'MD009' # Trailing spaces; default: 0
+exclude_rule 'MD009' # Trailing spaces; default: 0
 rule 'MD010' # Hard tabs
 exclude_rule 'MD011'
 rule 'MD012' # Multiple consecutive blank lines
