@@ -6,61 +6,65 @@ labels: Magento Commerce Cloud,troubleshooting,redirect,base_url,2.x.x
 
 This article provides troubleshooting instructions for the Magento Cloud issue where trying to access the newly created Integration environment takes you to the parent environment instead.
 
- To fix this, you need to correct the base\_url value in the database and make sure that the UPDATE\_URLS variable value is set to true. Find more details in the sections below.
+To fix this, you need to correct the base\_url value in the database and make sure that the UPDATE\_URLS variable value is set to true. Find more details in the sections below.
 
- Affected versions and editions:
+Affected versions and editions:
 
- 
- * Magento Commerce Cloud 2.X.X
- 
- Issue
------
+* Magento Commerce Cloud 2.X.X
 
- Steps to reproduce:
+## Issue
 
- 
- 2. Clone the existing Integration branch.
- 4. Click the URL for accessing the new environment.
- 
- Expected result:
+Steps to reproduce:
 
- You get to the newly created environment.
+1. Clone the existing Integration branch.
 
- Actual result:
+1. Click the URL for accessing the new environment.
 
- You get redirected to the environment on the parent branch.
+Expected result:
 
- Solution
---------
+You get to the newly created environment.
 
- To fix the issue, you need to correct the base\_url values (secure and unsecure) in the custom environment database and set the UPDATE\_URL variable in the .magento.env.yaml file.
+Actual result:
 
- ### Correct base\_url values in database
+You get redirected to the environment on the parent branch.
 
- Changes in the database can be done either manually or using the Magento CLI, if you are on version 2.2.0 and later.
+## Solution
 
- #### Correct the values in the DB manually
+To fix the issue, you need to correct the base\_url values (secure and unsecure) in the custom environment database and set the UPDATE\_URL variable in the .magento.env.yaml file.
 
- 
- 2. Connect to the database 
- 4. Run the following commands UPDATE core\_config\_data SET value = %your\_new\_environment\_unsecure\_url% WHERE path="web/unsecure/base\_url" update core\_config\_data set value = %your\_new\_environment\_secure\_url% where path="web/secure/base\_url" 
- 
- #### Correct the database using Magento CLI (available for versions 2.2.X)
+### Correct base\_url values in database
 
- 
- 2. Log in as, or switch to, the [Magento file system owner.](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/apache-user.html) 
- 4. Run the following commands: php <your\_magento\_install\_dir>/bin/magento config:set web/unsecure/base\_url http://example.com php <your\_magento\_install\_dir>/bin/magento config:set web/secure/base\_url https://example.com 
- 
- ### Set the UPDATE\_URLS variable
+Changes in the database can be done either manually or using the Magento CLI, if you are on version 2.2.0 and later.
 
- In your local codebase, in the .magento.env.yaml file set:
+#### Correct the values in the DB manually
 
- stage: deploy: UPDATE\_URLS: true ###  Clear configuration cache
+1. Connect to the database
 
- For the changes to be applied, clean the configuration cache by running the following command:
+1. Run the following commands
+UPDATE core\_config\_data SET value = %your\_new\_environment\_unsecure\_url% WHERE path="web/unsecure/base\_url"
+update core\_config\_data set value = %your\_new\_environment\_secure\_url% where path="web/secure/base\_url"
 
- php <your\_magento\_install\_dir>/bin/magento cache:clean config Related documentation:
-----------------------
+#### Correct the database using Magento CLI (available for versions 2.2.X)
 
- [Deploy variables](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#update_urls)
+1. Log in as, or switch to, the [Magento file system owner.](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/apache-user.html)
+
+1. Run the following commands:
+php <your\_magento\_install\_dir>/bin/magento config:set web/unsecure/base\_url http://example.com
+php <your\_magento\_install\_dir>/bin/magento config:set web/secure/base\_url https://example.com
+
+### Set the UPDATE\_URLS variable
+
+In your local codebase, in the .magento.env.yaml file set:
+
+stage:
+ deploy:
+ UPDATE\_URLS: true
+###  Clear configuration cache
+
+For the changes to be applied, clean the configuration cache by running the following command:
+
+php <your\_magento\_install\_dir>/bin/magento cache:clean config
+## Related documentation:
+
+[Deploy variables](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#update_urls)
 

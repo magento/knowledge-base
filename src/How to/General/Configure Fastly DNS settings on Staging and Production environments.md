@@ -4,5 +4,5 @@ link: https://support.magento.com/hc/en-us/articles/115004685913-Configure-Fastl
 labels: production,Magento Commerce Cloud,Fastly,devdocs,configuration,DNS,setup,Staging,how to
 ---
 
-Please refer to the [Setup Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) article in Magento Developers documentation for the latest information. 
+Please refer to the [Setup Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) article in Magento Developers documentation for the latest information.
 

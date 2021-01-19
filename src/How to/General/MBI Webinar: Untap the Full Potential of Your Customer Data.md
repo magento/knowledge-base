@@ -4,5 +4,5 @@ link: https://support.magento.com/hc/en-us/articles/360016731771-MBI-Webinar-Unt
 labels: MBI,database,data,Magento Business Intelligence,how to,reports
 ---
 
-Please check the [Webinar Archives](https://support.magento.com/hc/en-us/articles/360005407093) for this exciting Professional Services topic.
+Please check the [Webinar Archives](https://support.magento.com/hc/en-us/articles/360005407093) for this exciting Professional Services topic.
 

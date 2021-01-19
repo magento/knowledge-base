@@ -4,5 +4,5 @@ link: https://support.magento.com/hc/en-us/articles/360005156133-Create-and-mana
 labels: API,devdocs,Magento,product,how to
 ---
 
-Please refer to the [Create and manage grouped products tutorial](https://devdocs.magento.com/guides/v2.2/rest/tutorials/grouped-product/create-and-manage-grouped-products.html) article on Magento Devdocs.
+Please refer to the [Create and manage grouped products tutorial](https://devdocs.magento.com/guides/v2.2/rest/tutorials/grouped-product/create-and-manage-grouped-products.html) article on Magento Devdocs.
 

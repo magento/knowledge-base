@@ -6,34 +6,35 @@ labels: Magento Commerce Cloud,category,performance,2.3,index,products,best prac
 
 This article provides best practices for number of categories limit. The maximum recommended number of categories is 300.
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
- * Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
- 
- Best practices
---------------
+* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
- The potential site impact of exceeding the limit is:
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
- 
- * Tangible increase in response time on non-cached catalog pages
- * Long execution/timeouts during managing categories in the Admin Panel
- * Increase in size of corresponding DB tables
- * Growth of indexation time [category/product relation index]
- * Heavier operations on categories tree building, menu retrieval, and category rules management operations.
- 
- Recommendations to reduce the number of categories are:
+## Best practices
 
- 
- * Managing unique product features through attributes and custom options
- * Removing inactive categories
- * Optimizing catalog depth
- 
- Related reading
----------------
+The potential site impact of exceeding the limit is:
 
- Refer to [Magento User Guide > Configuring Product Options](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html).
+* Tangible increase in response time on non-cached catalog pages
+
+* Long execution/timeouts during managing categories in the Admin Panel
+
+* Increase in size of corresponding DB tables
+
+* Growth of indexation time [category/product relation index]
+
+* Heavier operations on categories tree building, menu retrieval, and category rules management operations.
+
+Recommendations to reduce the number of categories are:
+
+* Managing unique product features through attributes and custom options
+
+* Removing inactive categories
+
+* Optimizing catalog depth
+
+## Related reading
+
+Refer to [Magento User Guide > Configuring Product Options](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html).
 

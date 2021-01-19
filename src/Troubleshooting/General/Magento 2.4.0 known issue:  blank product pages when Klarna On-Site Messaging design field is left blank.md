@@ -6,37 +6,37 @@ labels: Magento Commerce Cloud,Magento Commerce,payment,design,troubleshooting,k
 
 This article describes a known Magento 2.4.0 issue with Klarna payment method, where enabling Klarna on-site messaging without specifying a design theme, results in not displaying product pages on the storefront correctly (product pages appear blank).
 
- Affected products and versions
-------------------------------
+## Affected products and versions
 
- 
- * Magento Commerce 2.4.0
- * Magento Commerce Cloud 2.4.0
- 
- Issue
------
+* Magento Commerce 2.4.0
 
- Prerequisites: Klarna payment method is enabled.
+* Magento Commerce Cloud 2.4.0
 
- Steps to reproduce:
+## Issue
 
- 
- 2. In the Magento Admin, go to **Stores** > **Configuration** > **Sales** > **Payment Methods** > **Klarna** > **Klarna On-Site Messaging**.
- 4. Set **Enable** to *Yes*.
- 6. Leave the **Design theme** field blank.
- 8. Save configuration by clicking **Save Config**.
- 10. Go to storefront and navigate to any product page.
- 
- Expected result:
+Prerequisites: Klarna payment method is enabled.
 
- The page loads successfully with default design theme applied for Klarna on-site messaging.
+Steps to reproduce:
 
- Actual result:
+1. In the Magento Admin, go to **Stores** > **Configuration** > **Sales** > **Payment Methods** > **Klarna** > **Klarna On-Site Messaging**.
 
- A blank page is displayed.
+1. Set **Enable** to *Yes*.
 
- Solution
---------
+1. Leave the **Design theme** field blank.
 
- If enabling the Klarna on-site messaging, always ensure that the **Design theme** field is not blank. 
+1. Save configuration by clicking **Save Config**.
+
+10. Go to storefront and navigate to any product page.
+
+Expected result:
+
+The page loads successfully with default design theme applied for Klarna on-site messaging.
+
+Actual result:
+
+A blank page is displayed.
+
+## Solution
+
+If enabling the Klarna on-site messaging, always ensure that the **Design theme** field is not blank.
 

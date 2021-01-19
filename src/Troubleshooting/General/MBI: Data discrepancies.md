@@ -6,30 +6,35 @@ labels: troubleshooting,Magento Business Intelligence,data discrepancies
 
 Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn’t seem quite right, we recommend using these resources to help you troubleshoot:
 
- 
- * [Data discrepancy diagnostic checklist](https://support.magento.com/hc/en-us/articles/360016731271)
- * [Using exports to pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631)
- 
- We also recommend that you ensure the correct [replication methods](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) and [rechecks](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) have been set for the tables and columns involved in the discrepancy. Note that you need Admin permissions to access replication method and recheck information.
+* [Data discrepancy diagnostic checklist](https://support.magento.com/hc/en-us/articles/360016731271)
 
- #### I still need help!
+* [Using exports to pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631)
 
- If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://support.magento.com/hc/en-us/articles/360019088251) with the following information:
+We also recommend that you ensure the correct [replication methods](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) and [rechecks](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) have been set for the tables and columns involved in the discrepancy. Note that you need Admin permissions to access replication method and recheck information.
 
- 
- * What’s the name of the report where you see the discrepancy?
- * Which values on the report are incorrect?
- * What values do you expect to see?
- * Any SQL queries or other logic you may be using
- 
- Related reading
----------------
+#### I still need help!
 
- 
- * [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
- * [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
- * [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
- * [Conducting new analyses](https://support.magento.com/hc/en-us/articles/360016505992)
- * [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
- * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
- 
+If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://support.magento.com/hc/en-us/articles/360019088251) with the following information:
+
+* What’s the name of the report where you see the discrepancy?
+
+* Which values on the report are incorrect?
+
+* What values do you expect to see?
+
+* Any SQL queries or other logic you may be using
+
+## Related reading
+
+* [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
+
+* [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
+
+* [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
+
+* [Conducting new analyses](https://support.magento.com/hc/en-us/articles/360016505992)
+
+* [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
+
+* [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
+

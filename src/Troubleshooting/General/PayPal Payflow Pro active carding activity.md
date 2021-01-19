@@ -6,120 +6,147 @@ labels: Magento Commerce Cloud,Magento Commerce,PayPal,payflow,troubleshooting,2
 
 UPDATED 2 April 2019
 
- The PayPal Payflow Pro integration in Magento is being actively targeted by carding activity, where attackers attempt hundreds of $0 transactions with stolen credit cards to check the card’s validity.
+The PayPal Payflow Pro integration in Magento is being actively targeted by carding activity, where attackers attempt hundreds of $0 transactions with stolen credit cards to check the card’s validity.
 
- The activity currently targets versions of this Payflow Pro integration that were included in Magento 2.1.x, 2.2.x, 2.3.x for Open Source and Commerce (on prem and cloud). The carding activity is inherent to the way Payflow Pro is integrated into shopping carts.
+The activity currently targets versions of this Payflow Pro integration that were included in Magento 2.1.x, 2.2.x, 2.3.x for Open Source and Commerce (on prem and cloud). The carding activity is inherent to the way Payflow Pro is integrated into shopping carts.
 
- To help resolve these issues, we have provided new Composer packages to add Google reCAPTCHA or CAPTCHA to the Payflow Pro checkout form. We recommend installing these packages on all Magento 2 versions and editions.
+To help resolve these issues, we have provided new Composer packages to add Google reCAPTCHA or CAPTCHA to the Payflow Pro checkout form. We recommend installing these packages on all Magento 2 versions and editions.
 
- The issue affects the following Magento versions:
+The issue affects the following Magento versions:
 
- 
- * Magento Commerce v2.1.x, 2.2.x, 2.3.x
- * Magento Commerce Cloud v2.1.x, 2.2.x, 2.3.x
- 
- Issue
------
+* Magento Commerce v2.1.x, 2.2.x, 2.3.x
 
- Symptoms of these attacks include:
+* Magento Commerce Cloud v2.1.x, 2.2.x, 2.3.x
 
- 
- * Your PayPal Payflow Pro account shows hundreds of fraudulent transactions identified
- * PayPal may suspend a Payflow Pro account due to incoming fraud transactions and charge substantial fees
- 
- Solution
---------
+## Issue
 
- To help protect from these attacks, we advise adding Google reCAPTCHA (recommended) or CAPTCHA to the Payflow Pro checkout form. This includes installing the Composer packages and configuring Google reCAPTCHA or CAPTCHA in the Magento Admin.
+Symptoms of these attacks include:
 
- ### Install Packages
+* Your PayPal Payflow Pro account shows hundreds of fraudulent transactions identified
 
- Magento created two package options to add Google reCAPTCHA and/or CAPTCHA to the Payflow Pro checkout form. Installing one of these packages will update current installations and add an option that can help enhance this security to the Payflow Pro checkout form.
+* PayPal may suspend a Payflow Pro account due to incoming fraud transactions and charge substantial fees
 
- These packages are compatible with the following Magento editions and versions:
+## Solution
 
- 
- * Magento versions: 2.1.x, 2.2.x, 2.3.x 
- * Magento editions: Open Source and Commerce (on prem and cloud) and Commerce Cloud
- 
- Installation requires CLI commands to your Magento instance. Developer assistance may be required.
+To help protect from these attacks, we advise adding Google reCAPTCHA (recommended) or CAPTCHA to the Payflow Pro checkout form. This includes installing the Composer packages and configuring Google reCAPTCHA or CAPTCHA in the Magento Admin.
 
- We recommend installing and configuring Google reCAPTCHA in addition to installing any relevant Payflow Pro checkout form updates. This option provides an invisible check and multiple configuration options. 
+### Install Packages
 
- #### Install Google reCAPTCHA and checkout form updates
+Magento created two package options to add Google reCAPTCHA and/or CAPTCHA to the Payflow Pro checkout form. Installing one of these packages will update current installations and add an option that can help enhance this security to the Payflow Pro checkout form.
 
- The magento/module-paypal-recaptcha package contains integration with Google reCAPTCHA and Payflow Pro payment form updates. Even if you have the reCAPTCHA module installed and configured, we recommend you install this package.
+These packages are compatible with the following Magento editions and versions:
 
- Run the following commands to install it.
+* Magento versions: 2.1.x, 2.2.x, 2.3.x
 
- **For Magento Commerce:**
+* Magento editions: Open Source and Commerce (on prem and cloud) and Commerce Cloud
 
- composer require magento/module-paypal-recaptcha bin/magento module:enable Magento\_PaypalReCaptcha bin/magento setup:upgrade bin/magento cache:clean  
- **For Magento Commerce Cloud:**
+Installation requires CLI commands to your Magento instance. Developer assistance may be required.
 
- 
- 2. Run the following command: composer require magento/module-paypal-recaptcha 
- 4. Commit and push changes: git add -A && git commit -m "Install Google reCAPTCHA" git push origin %branch\_name% 
- 6. Wait for deployment to complete.
- 
- #### Install checkout form updates for CAPTCHA
+We recommend installing and configuring Google reCAPTCHA in addition to installing any relevant Payflow Pro checkout form updates. This option provides an invisible check and multiple configuration options.
 
- The magento/module-paypal-captcha package contains integration with the native Magento CAPTCHA module.
+#### Install Google reCAPTCHA and checkout form updates
 
- Run the following commands to install it:
+The magento/module-paypal-recaptcha package contains integration with Google reCAPTCHA and Payflow Pro payment form updates. Even if you have the reCAPTCHA module installed and configured, we recommend you install this package.
 
- **For Magento Commerce:**
+Run the following commands to install it.
 
- composer require magento/module-paypal-captcha bin/magento module:enable Magento\_PaypalCaptcha bin/magento setup:upgrade bin/magento cache:clean  
- **For Magento Commerce Cloud:**
+**For Magento Commerce:**
 
- 
- 2. Run the following command: composer require magento/module-paypal-captcha 
- 4. Commit and push changes: git add -A && git commit -m "Install CAPTCHA" git push origin %branch\_name% 
- 6. Wait for deployment to complete.
- 
- ### Configure Google reCAPTCHA or CAPTCHA
+composer require magento/module-paypal-recaptcha
+bin/magento module:enable Magento\_PaypalReCaptcha
+bin/magento setup:upgrade
+bin/magento cache:clean 
 
- Having installed the package, configure Google reCAPTCHA (recommended) or CAPTCHA as described in the following docs:
+**For Magento Commerce Cloud:**
 
- 
- * Google reCAPTCHA links: 
-	 + version 2.3.x: [Commerce](https://docs.magento.com/m2/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/ce/user_guide/stores/security-google-recaptcha.html) 
-	 + version 2.2.x: [Commerce](https://docs.magento.com/m2/2.2/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-google-recaptcha.html) 
-	 + version 2.1.x: [Commerce](https://docs.magento.com/m2/2.1/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-google-recaptcha.html) 
- * CAPTCHA links: 
-	 + version 2.3.x: [Commerce](https://docs.magento.com/m2/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/ce/user_guide/stores/security-captcha.html) 
-	 + version 2.2.x: [Commerce](https://docs.magento.com/m2/2.2/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-captcha.html) 
-	 + version 2.1.x: [Commerce](https://docs.magento.com/m2/2.1/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-captcha.html) 
- 
- The new checkout form option is:
+1. Run the following command:
+composer require magento/module-paypal-recaptcha
 
- 
- * Google reCAPTCHA: Use in PayPal PayflowPro payment form 
- * CAPTCHA: Payflow Pro
- 
- PayPal support and contacts
----------------------------
+1. Commit and push changes:
+git add -A && git commit -m "Install Google reCAPTCHA"
+git push origin %branch\_name%
 
- Please contact PayPal Payflow Merchant Support to learn more about Fraud Protection Services. You can request the PayPal Support team to enable [Basic Fraud Protection Services](https://developer.paypal.com/docs/classic/payflow/fraud-protection/#how-fraud-protection-services-protect-you) filters to provide the tightest control possible over payments so that you can automatically deny payments that are likely to result in fraudulent transactions and accept payments that are not typically a problem. Please note, that once you turn on PayPal Fraud Protection Services filters, transactions can take up to 2 hours to settle.
+1. Wait for deployment to complete.
 
- For additional information, see PayPal’s KB [“Magento has contacted me about my Payflow Pro integration. What do I need to do?”](https://www.paypal.com/us/smarthelp/article/ts2242).
+#### Install checkout form updates for CAPTCHA
 
- **PayPal Payflow Merchant Support Details**
+The magento/module-paypal-captcha package contains integration with the native Magento CAPTCHA module.
 
- Payflow Merchant Support’s business hours are Monday through Friday from 7:00am-8:00pm CST. You can contact Payflow Merchant Support for account assistance by phone or email:
+Run the following commands to install it:
 
- 
- * Phone: 1-888-883-9770 (Select prompt 2) 
- * International customers: 1-408-967-0191
- * Email:[payflow-support@paypal.com](mailto:payflow-support@paypal.com) 
- 
- Australian Support
+**For Magento Commerce:**
 
- 
- * Monday-Friday 8:00 AM - 7:00 PM (AU time)
- * Phone: +61 2 8288 0198
- * Email:[gateway-ausupport@paypal.com](mailto:gateway-ausupport@paypal.com) 
- 
-  
+composer require magento/module-paypal-captcha
+bin/magento module:enable Magento\_PaypalCaptcha
+bin/magento setup:upgrade
+bin/magento cache:clean 
+
+**For Magento Commerce Cloud:**
+
+1. Run the following command:
+composer require magento/module-paypal-captcha
+
+1. Commit and push changes:
+git add -A && git commit -m "Install CAPTCHA"
+git push origin %branch\_name%
+
+1. Wait for deployment to complete.
+
+### Configure Google reCAPTCHA or CAPTCHA
+
+Having installed the package, configure Google reCAPTCHA (recommended) or CAPTCHA as described in the following docs:
+
+* Google reCAPTCHA links:
+
+	
+	* version 2.3.x: [Commerce](https://docs.magento.com/m2/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/ce/user_guide/stores/security-google-recaptcha.html)
+	
+	
+	* version 2.2.x: [Commerce](https://docs.magento.com/m2/2.2/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-google-recaptcha.html)
+	
+	
+	* version 2.1.x: [Commerce](https://docs.magento.com/m2/2.1/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-google-recaptcha.html)
+
+* CAPTCHA links:
+
+	
+	* version 2.3.x: [Commerce](https://docs.magento.com/m2/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/ce/user_guide/stores/security-captcha.html)
+	
+	
+	* version 2.2.x: [Commerce](https://docs.magento.com/m2/2.2/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-captcha.html)
+	
+	
+	* version 2.1.x: [Commerce](https://docs.magento.com/m2/2.1/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-captcha.html)
+
+The new checkout form option is:
+
+* Google reCAPTCHA: Use in PayPal PayflowPro payment form
+
+* CAPTCHA: Payflow Pro
+
+## PayPal support and contacts
+
+Please contact PayPal Payflow Merchant Support to learn more about Fraud Protection Services. You can request the PayPal Support team to enable [Basic Fraud Protection Services](https://developer.paypal.com/docs/classic/payflow/fraud-protection/#how-fraud-protection-services-protect-you) filters to provide the tightest control possible over payments so that you can automatically deny payments that are likely to result in fraudulent transactions and accept payments that are not typically a problem. Please note, that once you turn on PayPal Fraud Protection Services filters, transactions can take up to 2 hours to settle.
+
+For additional information, see PayPal’s KB [“Magento has contacted me about my Payflow Pro integration. What do I need to do?”](https://www.paypal.com/us/smarthelp/article/ts2242).
+
+**PayPal Payflow Merchant Support Details**
+
+Payflow Merchant Support’s business hours are Monday through Friday from 7:00am-8:00pm CST. You can contact Payflow Merchant Support for account assistance by phone or email:
+
+* Phone: 1-888-883-9770 (Select prompt 2)
+
+* International customers: 1-408-967-0191
+
+* Email:[payflow-support@paypal.com](mailto:payflow-support@paypal.com)
+
+Australian Support
+
+* Monday-Friday 8:00 AM - 7:00 PM (AU time)
+
+* Phone: +61 2 8288 0198
+
+* Email:[gateway-ausupport@paypal.com](mailto:gateway-ausupport@paypal.com)
+
+
 

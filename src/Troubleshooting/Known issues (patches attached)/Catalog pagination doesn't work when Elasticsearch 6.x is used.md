@@ -6,57 +6,56 @@ labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issu
 
 This article provides a patch for the Magento 2 issue where catalog pagination doesn't work on Elasticsearch 6.x.
 
- The patch below resolves issues that users of Magento 2.3.3 experience in deployments where Elasticsearch 6.x is used as the catalog search engine. Users see an error message when they attempt to navigate past the first page of search results. 
+The patch below resolves issues that users of Magento 2.3.3 experience in deployments where Elasticsearch 6.x is used as the catalog search engine. Users see an error message when they attempt to navigate past the first page of search results.
 
- After this patch is installed, users will be able to page through all search results.
+After this patch is installed, users will be able to page through all search results.
 
- ### Affected versions:
+### Affected versions:
 
- 
- * Magento Commerce Cloud 2.3.3
- * Magento Commerce 2.3.3
- * Magento Open Source 2.3.3
- * Elasticsearch 6.x
- 
- Issue
------
+* Magento Commerce Cloud 2.3.3
 
- An issue has been discovered in Magento Open Source, Magento Commerce, and Magento Commerce Cloud where Search result page pagination doesn't work if you switch the page. 
+* Magento Commerce 2.3.3
 
- Steps to reproduce:
+* Magento Open Source 2.3.3
 
- 
- 2. Install Magento.
- 4. Enable Elasticseach 6 as a catalog search engine.
- 6.  Add a number of products to Category that goes past the 1-page limit set in Admin.
+* Elasticsearch 6.x
 
- **Note**: 12 is the default number of products displayed per page in Magento 2.3.3.
+## Issue
 
- 
- 8. Open Category on storefront (either search results or category page) and go to page 2.
- 
- Expected result:
+An issue has been discovered in Magento Open Source, Magento Commerce, and Magento Commerce Cloud where Search result page pagination doesn't work if you switch the page.
 
- Products should be displayed on the second page.
+Steps to reproduce:
 
- Actual result:
+1. Install Magento.
 
- **"***We can't find products matching the selection***"** message on the second page.
+1. Enable Elasticseach 6 as a catalog search engine.
 
- Solution
---------
+1. 
+Add a number of products to Category that goes past the 1-page limit set in Admin.
 
- To fix the issue, please apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+**Note**: 12 is the default number of products displayed per page in Magento 2.3.3.
 
- [Download Catalog pagination issue on Elasticsearch 6.x patch](https://support.magento.com/hc/en-us/article_attachments/360040653971/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch) - The patch is compatible with all affected versions and editions.
+1. Open Category on storefront (either search results or category page) and go to page 2.
 
- Magento strongly recommends applying the patch as soon as possible, even if you have not experienced any symptoms.
+Expected result:
 
- How to apply the patch
-----------------------
+Products should be displayed on the second page.
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+Actual result:
 
- Attached files
---------------
+**"***We can't find products matching the selection***"** message on the second page.
+
+## Solution
+
+To fix the issue, please apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+
+[Download Catalog pagination issue on Elasticsearch 6.x patch](https://support.magento.com/hc/en-us/article_attachments/360040653971/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch) - The patch is compatible with all affected versions and editions.
+
+Magento strongly recommends applying the patch as soon as possible, even if you have not experienced any symptoms.
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+## Attached files
 

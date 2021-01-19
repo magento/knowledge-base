@@ -4,50 +4,48 @@ link: https://support.magento.com/hc/en-us/articles/360030844171-Checkout-is-stu
 labels: Magento Commerce,Authorize.net,troubleshooting,checkout,2.3.x
 ---
 
-This article provides an explanation and fix for the Magento Commerce 2.3.X issue where the checkout gets stuck if Authorize.net is used, with the *'Cannot read property 'length' of null'* error message in the browser console log.
+This article provides an explanation and fix for the Magento Commerce 2.3.X issue where the checkout gets stuck if Authorize.net is used, with the *'Cannot read property 'length' of null'* error message in the browser console log.
 
- ### Affected products and versions
+### Affected products and versions
 
- 
- * Magento Commerce 2.3.X
- 
- The core Magento Authorize.Net payment integration is deprecated since 2.3.4 and will be completely removed in 2.4.0. Use the [official extension](https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html) from marketplace instead.
+* Magento Commerce 2.3.X
 
- Issue
------
+The core Magento Authorize.Net payment integration is deprecated since 2.3.4 and will be completely removed in 2.4.0. Use the [official extension](https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html) from marketplace instead.
 
- Steps to reproduce
+## Issue
 
- 
- 2. Configure the Authorize.net payment method in the Magento Admin.
- 4. Go to the storefront.
- 6. Add a product to the cart and proceed to checkout.
- 8. Choose Authorize.net as a payment method.
- 10. Click **Place Order**.
- 
- Expected result
+Steps to reproduce
 
- The Authorize.net iframe is loaded.
+1. Configure the Authorize.net payment method in the Magento Admin.
 
-  Actual result 
+1. Go to the storefront.
 
- Ajax spinner is displayed, and the page never loads. The following JS error is displayed in the browser console log: *'Uncaught TypeError: Cannot read property 'length' of null at b (jstest.authorize.net/v1/AcceptCore.js:1)'*
+1. Add a product to the cart and proceed to checkout.
 
- Cause
------
+1. Choose Authorize.net as a payment method.
 
- One of the most common reasons of this issue is the Public Client Key not being specified in the Authorize.Net configuration in the Magento Admin.
+10. Click **Place Order**.
 
- Solution
---------
+Expected result
 
- Under **Stores** > **Settings** > **Configuration** > **Sales** > **Payment Methods**, in the **Authorize.net** section, check if the value is specified in the **Public Client Key** field. If it is empty, enter the key value from your Authorize.Net merchant account.
+The Authorize.net iframe is loaded.
 
- For the changes to be applied, clean the cache by running bin/magento cache:clean.
+ Actual result
 
- Related reading
----------------
+Ajax spinner is displayed, and the page never loads.  The following JS error is displayed in the browser console log: *'Uncaught TypeError: Cannot read property 'length' of null at b (jstest.authorize.net/v1/AcceptCore.js:1)'*
 
- 
- *  [Authorize.net](https://docs.magento.com/m2/ee/user_guide/payment/authorize-net.html) in Magento User Guide.
- 
+## Cause
+
+One of the most common reasons of this issue is the Public Client Key not being specified in the Authorize.Net configuration in the Magento Admin.
+
+## Solution
+
+Under **Stores** > **Settings** > **Configuration** > **Sales** > **Payment Methods**, in the **Authorize.net** section, check if the value is specified in the **Public Client Key** field. If it is empty, enter the key value from your Authorize.Net merchant account.
+
+For the changes to be applied, clean the cache by running bin/magento cache:clean.
+
+## Related reading
+
+* 
+[Authorize.net](https://docs.magento.com/m2/ee/user_guide/payment/authorize-net.html) in Magento User Guide.
+

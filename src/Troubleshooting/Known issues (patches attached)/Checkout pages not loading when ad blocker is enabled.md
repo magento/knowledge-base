@@ -6,60 +6,57 @@ labels: Magento Commerce Cloud,patch,troubleshooting,checkout,adblock,known issu
 
 This article provides a patch for the known Magento Commerce Cloud 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers.
 
- Issue
------
+## Issue
 
- If Google Analytics is enabled for the store, when a customer with installed uBlock or other ad blocker proceeds to checkout, the trackingCode.js file is blocked from loading and RequireJS breaks the JS execution flow. This causes problems with loading the checkout page.
+If Google Analytics is enabled for the store, when a customer with installed uBlock or other ad blocker proceeds to checkout, the trackingCode.js file is blocked from loading and RequireJS breaks the JS execution flow. This causes problems with loading the checkout page.
 
- Steps to reproduce:
+Steps to reproduce:
 
- Prerequisites: An ad blocker must be installed and active in browser.
+Prerequisites: An ad blocker must be installed and active in browser.
 
- 
- 2. In the Magento Admin, enable and configure the Google Analytics functionality.
- 4. Open a product page on the store front.
- 6. Add products to cart.
- 8. Click the **Go to Checkout** link.
- 
- Expected result:  
+1. In the Magento Admin, enable and configure the Google Analytics functionality.
+
+1. Open a product page on the store front.
+
+1. Add products to cart.
+
+1. Click the **Go to Checkout** link.
+
+Expected result:  
  Checkout page loads and a customer can complete checkout.
 
- Actual result:  
+Actual result:  
  Checkout page does not load, the loading spinner never disappears.
 
- Patch
------
+## Patch
 
- The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-9353\_EE\_2.2.2\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023954791/MDVA-9353_EE_2.2.2_v1.composer.patch)
+[Download MDVA-9353\_EE\_2.2.2\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023954791/MDVA-9353_EE_2.2.2_v1.composer.patch)
 
- ### Compatible Magento versions:
+### Compatible Magento versions:
 
- The patch was created for:
+The patch was created for:
 
- 
- * Magento Commerce (Cloud) 2.2.2
- 
- The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+* Magento Commerce (Cloud) 2.2.2
 
- 
- * Magento Commerce (Cloud) from 2.1.0 to 2.1.14
- * Magento Commerce (Cloud) from 2.2.0 to 2.2.1, and from 2.2.3 to 2.2.5
- * Magento Commerce from 2.1.0 to 2.1.14
- * Magento Commerce from 2.2.0 to 2.2.5
- 
- How to apply the patch
-----------------------
+The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+* Magento Commerce (Cloud) from 2.1.0 to 2.1.14
 
- Useful links
-------------
+* Magento Commerce (Cloud) from 2.2.0 to 2.2.1, and from 2.2.3 to 2.2.5
 
- 
- * [The issue discussed on GitHub](https://github.com/magento/magento2/pull/13061)
- 
- Attached Files
---------------
+* Magento Commerce from 2.1.0 to 2.1.14
+
+* Magento Commerce from 2.2.0 to 2.2.5
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+## Useful links
+
+* [The issue discussed on GitHub](https://github.com/magento/magento2/pull/13061)
+
+## Attached Files
 

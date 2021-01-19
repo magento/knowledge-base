@@ -6,38 +6,33 @@ labels: Magento Commerce Cloud,patch,troubleshooting,known issues,2.2.3,setup:up
 
 This article provides a patch for the known Magento Commerce Cloud 2.2.3 issue related to getting the *"Area code is not set"* error when running the setup:upgrade command.
 
- The issue was fixed in Magento Commerce 2.2.4.
+The issue was fixed in Magento Commerce 2.2.4.
 
- Issue
------
+## Issue
 
- When running the bin/magento setup:upgrade command, you get the following error message: *"Module 'Magento\_AdvancedSalesRule': Installing data...Area code not set: Area code must be set before starting a session"* and the command execution is interrupted. The issue appears because area configuration is requested before it is actually set. The patch allows catching the error and not interrupting the upgrade process.
+When running the bin/magento setup:upgrade command, you get the following error message: *"Module 'Magento\_AdvancedSalesRule': Installing data...Area code not set: Area code must be set before starting a session"* and the command execution is interrupted. The issue appears because area configuration is requested before it is actually set. The patch allows catching the error and not interrupting the upgrade process.
 
- Patch
------
+## Patch
 
- The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-10439\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025885651/MDVA-10439_EE_2.2.3_COMPOSER_v1.patch)
+[Download MDVA-10439\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025885651/MDVA-10439_EE_2.2.3_COMPOSER_v1.patch)
 
- ### Compatible Magento versions:
+### Compatible Magento versions:
 
- The patch was created for:
+The patch was created for:
 
- 
- * Magento Commerce Cloud 2.2.3
- 
- The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+* Magento Commerce Cloud 2.2.3
 
- 
- * Magento Commerce Cloud, Magento Commerce
- * 2.2.0-2.2.3
- 
- How to apply the patch
-----------------------
+The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
 
- See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+* Magento Commerce Cloud, Magento Commerce
 
- Attached Files
---------------
+* 2.2.0-2.2.3
+
+## How to apply the patch
+
+See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+
+## Attached Files
 
