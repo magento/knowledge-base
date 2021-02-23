@@ -4,18 +4,16 @@ link: https://support.magento.com/hc/en-us/articles/360038374052-Check-disk-spac
 labels: Magento Commerce Cloud,disk space,disk,how to
 ---
 
-To check how much space you have for each Magento Commerce Cloud environment:
-
-1. 
-As the Magento Commerce Cloud Account Owner, log in to your project.
-
-1. 
-In the upper right corner, click **<your name>** > **Account Settings**.
-
-1. On the project tab, see the amount specified, for example:  
- ![project_space.png](https://support.magento.com/hc/article_attachments/360045010711/project_space.png)
-
-## Related reading
-
-[Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html).
-
+<p>To check how much space you have for each Magento Commerce Cloud environment:</p>
+<ol>
+<li>
+<p>As the Magento Commerce Cloud Account Owner, log in to your project.</p>
+</li>
+<li>
+<p>In the upper right corner, click &lt;your name&gt; &gt; Account Settings.</p>
+</li>
+<li>On the project tab, see the amount specified, for example:<br/> <img alt="project_space.png" src="https://support.magento.com/hc/article_attachments/360045010711/project_space.png"/>
+</li>
+</ol>
+<h2>Related reading</h2>
+<p><a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html">Manage disk space</a>.</p>

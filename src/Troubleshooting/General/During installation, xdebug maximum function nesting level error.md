@@ -4,20 +4,12 @@ link: https://support.magento.com/hc/en-us/articles/360034238512-During-installa
 labels: Magento Commerce Cloud,Magento Commerce,PHP Fatal Error,xdebug,nesting,level,how to
 ---
 
-This article provides a fix for the xdebug maximum function nesting level error, during installation.
-
-## Details
-
-During Magento installation, a message similar to the following displays:
-
-PHP Fatal error: Maximum function nesting level of '100' reached, aborting! in <path>/ClassLoader.php
-
-
-It is strongly recommended that you DO NOT USE xdebug on a Production environment!
-
-## Solution
-
-There is a known issue with xdebug that can affect Magento installations or access to the storefront or Magento Admin after installation.
-
-For details, see [Known issue with xdebug](https://support.magento.com/hc/en-us/articles/360034242212).
-
+<p>This article provides a fix for the xdebug maximum function nesting level error, during installation.</p>
+<h2>Details</h2>
+<p>During Magento installation, a message similar to the following displays:</p>
+<pre><code class="language-text">PHP Fatal error: Maximum function nesting level of '100' reached, aborting! in &lt;path&gt;/ClassLoader.php</code></pre>
+<p> </p>
+<p class="warning">It is strongly recommended that you DO NOT USE <code>xdebug</code> on a Production environment!</p>
+<h2>Solution</h2>
+<p>There is a known issue with <code>xdebug</code> that can affect Magento installations or access to the storefront or Magento Admin after installation.</p>
+<p>For details, see <a href="https://support.magento.com/hc/en-us/articles/360034242212">Known issue with xdebug</a>.</p>

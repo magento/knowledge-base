@@ -4,5 +4,7 @@ link: https://support.magento.com/hc/en-us/articles/360031107111-Site-down-troub
 labels: Magento Commerce,troubleshooting,Magento Commerce C,site down
 ---
 
-
-![Updated_Site_Down__6_.jpeg](https://support.magento.com/hc/article_attachments/360035528931/Updated_Site_Down__6_.jpeg) 
+<p>This Magento site down troubleshooting diagram can be used to identify and resolve causes of a site down.</p>
+<div>
+<img alt="Updated_Site_Down__6_.jpeg" src="https://support.magento.com/hc/article_attachments/360035528931/Updated_Site_Down__6_.jpeg"/> <iframe></iframe>
+</div>

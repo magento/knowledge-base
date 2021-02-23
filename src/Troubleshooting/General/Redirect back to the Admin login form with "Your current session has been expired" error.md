@@ -4,67 +4,44 @@ link: https://support.magento.com/hc/en-us/articles/360028441671-Redirect-back-t
 labels: Magento Commerce Cloud,Magento Commerce,admin,troubleshooting,login
 ---
 
-This article gives the possible solutions for the Magento Admin login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"*. Solutions include checking for server time setting issues and changing session storage settings.
-
-### Affected editions and versions:
-
-All Magento versions and editions.
-
-## Issue
-
-Steps to reproduce:
-
-1. Go to your Magento Admin page.
-
-1. Enter your credentials and click Sign in.
-
-Expected result:
-
-You get logged in to the Magento Admin.
-
-Actual result:
-
-You are redirected back to the login form, with the following error message displayed: *"Your current session has been expired"*.
-
-## Cause
-
-There could be two possible reasons for the issue:
-
-* an issue with server time settings
-
-* an issue with session storage
-
-Check the following section for solutions.
-
-## Solution
-
-### Check for server time settings issues
-
-Check the session record created in the admin\_user\_session table. If the values of created\_at and/or updated\_at are incorrect, it might be caused by the issue with server time settings. Ask your server system administrator to check that. Note, that time in DB is set to UTC by default.
-
-### Change the session storage
-
-Try changing the session storage. Use the info from the [How to locate your session files](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) doc to find out where your session is stored, and change it by editing the app/etc/env.php file.
-
-For example, to start storing session in the file system, change the 'session' section as following:
-
-....
-'session' => 
- array (
- 'save' => 'files',
+<p>This article gives the possible solutions for the Magento Admin login issue, where you are redirected back to the login form with the following error message: <em>"Your current session has been expired"</em>. Solutions include checking for server time setting issues and changing session storage settings.</p>
+<h3>Affected editions and versions: </h3>
+<p>All Magento versions and editions.</p>
+<h2>Issue</h2>
+<p>Steps to reproduce:</p>
+<ol>
+<li>Go to your Magento Admin page.</li>
+<li>Enter your credentials and click Sign in.</li>
+</ol>
+<p>Expected result:</p>
+<p>You get logged in to the Magento Admin.</p>
+<p>Actual result:</p>
+<p>You are redirected back to the login form, with the following error message displayed: <em>"Your current session has been expired"</em>.</p>
+<h2>Cause</h2>
+<p>There could be two possible reasons for the issue:</p>
+<ul>
+<li>an issue with server time settings</li>
+<li>an issue with session storage</li>
+</ul>
+<p>Check the following section for solutions.</p>
+<h2>Solution</h2>
+<h3>Check for server time settings issues</h3>
+<p>Check the session record created in the <code>admin_user_session</code> table. If the values of <code>created_at</code> and/or <code>updated_at</code> are incorrect, it might be caused by the issue with server time settings. Ask your server system administrator to check that. Note, that time in DB is set to UTC by default.</p>
+<h3>Change the session storage</h3>
+<p>Try changing the session storage. Use the info from the <a href="https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html">How to locate your session files</a> doc to find out where your session is stored, and change it by editing the <code>app/etc/env.php</code> file.</p>
+<p>For example, to start storing session in the file system, change the <code>'session'</code> section as following:</p>
+<pre><code class="language-php">....
+'session' =&gt; 
+    array (
+      'save' =&gt; 'files',
 ),
-....
-Run the bin/magento app:config:import command to import configuration data.
-
-
-
-## Related reading
-
-* [Import data from configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html)
-
-* [Configure Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
-
-* [Redirect back to the Admin login form with "Your account is temporarily disabled" error](https://support.magento.com/hc/en-us/articles/360028606831)
-
-* [Redirect back to the login form with no error, when trying to login to Magento Admin](https://support.magento.com/hc/en-us/articles/360028606711)
-
+....</code></pre>
+<p>Run the <code>bin/magento app:config:import</code> command to import configuration data.</p>
+<p> </p>
+<h2>Related reading</h2>
+<ul>
+<li><a href="https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html">Import data from configuration files</a></li>
+<li><a href="https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html">Configure Redis </a></li>
+<li><a href="https://support.magento.com/hc/en-us/articles/360028606831">Redirect back to the Admin login form with "Your account is temporarily disabled" error</a></li>
+<li><a href="https://support.magento.com/hc/en-us/articles/360028606711">Redirect back to the login form with no error, when trying to login to Magento Admin</a></li>
+</ul>
