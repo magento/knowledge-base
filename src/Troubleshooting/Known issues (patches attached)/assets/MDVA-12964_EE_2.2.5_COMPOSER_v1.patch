@@ -1,0 +1,784 @@
+diff --git a/vendor/magento/module-cybersource/Controller/Adminhtml/SilentOrder/TokenRequest.php b/vendor/magento/module-cybersource/Controller/Adminhtml/SilentOrder/TokenRequest.php
+index 39f210f919e..b78e5d638d0 100644
+--- a/vendor/magento/module-cybersource/Controller/Adminhtml/SilentOrder/TokenRequest.php
++++ b/vendor/magento/module-cybersource/Controller/Adminhtml/SilentOrder/TokenRequest.php
+@@ -5,7 +5,46 @@
+  */
+ namespace Magento\Cybersource\Controller\Adminhtml\SilentOrder;
+ 
++use Magento\Cybersource\Gateway\Command\SilentOrder\Token\CreateCommand;
++use Magento\Framework\App\Action\Context;
++use Magento\Framework\Controller\Result\JsonFactory;
++use Magento\Framework\Session\SessionManager;
++use Magento\Payment\Gateway\Command\CommandPoolInterface;
++use Magento\Cybersource\Model\Config;
++use Magento\Payment\Gateway\Data\PaymentDataObjectFactory;
++use Magento\Quote\Api\PaymentMethodManagementInterface;
++
+ class TokenRequest extends \Magento\Cybersource\Controller\SilentOrder\TokenRequest
+ {
++    /**
++     * @param Context $context
++     * @param CommandPoolInterface $commandPool
++     * @param PaymentDataObjectFactory $paymentDataObjectFactory
++     * @param Config $config
++     * @param SessionManager $checkoutSession
++     * @param JsonFactory $jsonFactory
++     * @param PaymentMethodManagementInterface $paymentMethodManagement
++     */
++    public function __construct(
++        Context $context,
++        CommandPoolInterface $commandPool,
++        PaymentDataObjectFactory $paymentDataObjectFactory,
++        Config $config,
++        SessionManager $checkoutSession,
++        JsonFactory $jsonFactory,
++        PaymentMethodManagementInterface $paymentMethodManagement
++    ) {
++        $config->setIsAdminArea(true);
++        $config->setStoreId($checkoutSession->getStoreId());
+ 
++        parent::__construct(
++            $context,
++            $commandPool,
++            $paymentDataObjectFactory,
++            $config,
++            $checkoutSession,
++            $jsonFactory,
++            $paymentMethodManagement
++        );
++    }
+ }
+diff --git a/vendor/magento/module-cybersource/Controller/Adminhtml/SilentOrder/TokenResponse.php b/vendor/magento/module-cybersource/Controller/Adminhtml/SilentOrder/TokenResponse.php
+new file mode 100644
+index 00000000000..3aa463a2b63
+--- /dev/null
++++ b/vendor/magento/module-cybersource/Controller/Adminhtml/SilentOrder/TokenResponse.php
+@@ -0,0 +1,71 @@
++<?php
++/**
++ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
++ * See COPYING.txt for license details.
++ */
++namespace Magento\Cybersource\Controller\Adminhtml\SilentOrder;
++
++use Magento\Framework\App\Action\Context;
++use Magento\Framework\Registry;
++use Magento\Framework\View\Result\LayoutFactory;
++use Magento\Cybersource\Model\Config;
++use Magento\Payment\Gateway\Command\CommandPoolInterface;
++use Magento\Payment\Gateway\Data\PaymentDataObjectFactory;
++use Magento\Quote\Api\CartRepositoryInterface;
++use Magento\Quote\Api\PaymentMethodManagementInterface;
++
++/**
++ * Class TokenResponse
++ * @package Magento\Cybersource\Controller\SilentOrder
++ * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
++ */
++class TokenResponse extends \Magento\Cybersource\Controller\SilentOrder\TokenResponse
++{
++    /**
++     * @param Context $context
++     * @param CommandPoolInterface $commandPool
++     * @param PaymentDataObjectFactory $paymentDataObjectFactory
++     * @param LayoutFactory $layoutFactory
++     * @param Registry $registry
++     * @param PaymentMethodManagementInterface $paymentMethodManagement
++     * @param CartRepositoryInterface $cartRepository
++     * @param Config $config
++     */
++    public function __construct(
++        Context $context,
++        CommandPoolInterface $commandPool,
++        PaymentDataObjectFactory $paymentDataObjectFactory,
++        LayoutFactory $layoutFactory,
++        Registry $registry,
++        PaymentMethodManagementInterface $paymentMethodManagement,
++        CartRepositoryInterface $cartRepository,
++        Config $config
++    ) {
++        parent::__construct(
++            $context,
++            $commandPool,
++            $paymentDataObjectFactory,
++            $layoutFactory,
++            $registry,
++            $paymentMethodManagement,
++            $cartRepository,
++            $config
++        );
++
++        $this->getConfig()->setIsAdminArea(true);
++    }
++
++    /**
++     * {@inheritdoc}
++     */
++    protected function prepareResult($layoutFactory)
++    {
++        $resultLayout = $layoutFactory->create();
++        $resultLayout
++            ->getLayout()
++            ->getUpdate()
++            ->load(['cybersource_silentorder_tokenresponse']);
++
++        return $resultLayout;
++    }
++}
+diff --git a/vendor/magento/module-cybersource/Controller/SilentOrder/TokenResponse.php b/vendor/magento/module-cybersource/Controller/SilentOrder/TokenResponse.php
+index f994bcc8fb6..5a10c05df9e 100644
+--- a/vendor/magento/module-cybersource/Controller/SilentOrder/TokenResponse.php
++++ b/vendor/magento/module-cybersource/Controller/SilentOrder/TokenResponse.php
+@@ -17,6 +17,7 @@ use Magento\Payment\Gateway\Command\CommandPoolInterface;
+ use Magento\Payment\Gateway\Data\PaymentDataObjectFactory;
+ use Magento\Quote\Api\CartRepositoryInterface;
+ use Magento\Quote\Api\PaymentMethodManagementInterface;
++use Magento\Cybersource\Model\Config;
+ 
+ /**
+  * Class TokenResponse
+@@ -57,6 +58,11 @@ class TokenResponse extends \Magento\Framework\App\Action\Action
+      */
+     private $cartRepository;
+ 
++    /**
++     * @var null|Config
++     */
++    private $config = null;
++
+     /**
+      * @param Context $context
+      * @param CommandPoolInterface $commandPool
+@@ -65,6 +71,7 @@ class TokenResponse extends \Magento\Framework\App\Action\Action
+      * @param Registry $registry
+      * @param PaymentMethodManagementInterface $paymentMethodManagement
+      * @param CartRepositoryInterface $cartRepository
++     * @param Config|null $config
+      */
+     public function __construct(
+         Context $context,
+@@ -73,7 +80,8 @@ class TokenResponse extends \Magento\Framework\App\Action\Action
+         LayoutFactory $layoutFactory,
+         Registry $registry,
+         PaymentMethodManagementInterface $paymentMethodManagement,
+-        CartRepositoryInterface $cartRepository
++        CartRepositoryInterface $cartRepository,
++        Config $config = null
+     ) {
+         parent::__construct($context);
+         $this->commandPool = $commandPool;
+@@ -82,6 +90,7 @@ class TokenResponse extends \Magento\Framework\App\Action\Action
+         $this->registry = $registry;
+         $this->paymentMethodManagement = $paymentMethodManagement;
+         $this->cartRepository = $cartRepository;
++        $this->config = $config;
+     }
+ 
+     /**
+@@ -102,8 +111,13 @@ class TokenResponse extends \Magento\Framework\App\Action\Action
+                 throw new \Exception;
+             }
+ 
++            $storeId = (int)$this->getRequestField(MerchantSecureDataBuilder::MERCHANT_SECURE_DATA2);
++
++            $this->getConfig()->setStoreId($storeId);
++
+             $activeCart = $this->cartRepository->get(
+-                (int)$this->getRequestField(MerchantSecureDataBuilder::MERCHANT_SECURE_DATA1)
++                (int)$this->getRequestField(MerchantSecureDataBuilder::MERCHANT_SECURE_DATA1),
++                [$storeId]
+             );
+ 
+             $payment = $this->paymentMethodManagement->get($activeCart->getId());
+@@ -126,8 +140,19 @@ class TokenResponse extends \Magento\Framework\App\Action\Action
+ 
+         $this->registry->register(Iframe::REGISTRY_KEY, $result);
+ 
+-        $resultLayout = $this->layoutFactory->create();
+-        $resultLayout->addDefaultHandle();
++        return $this->prepareResult($this->layoutFactory);
++    }
++
++    /**
++     * Prepare result layout
++     *
++     * @param \Magento\Framework\View\Result\LayoutFactory $layoutFactory
++     * @return \Magento\Framework\View\Result\Layout
++     */
++    protected function prepareResult($layoutFactory)
++    {
++        $resultLayout = $layoutFactory->create();
++
+         switch ($this->getRequestField(MerchantSecureDataBuilder::MERCHANT_SECURE_DATA3)) {
+             case 'adminhtml':
+                 $resultLayout
+@@ -146,6 +171,20 @@ class TokenResponse extends \Magento\Framework\App\Action\Action
+         return $resultLayout;
+     }
+ 
++    /**
++     * Get resource instance
++     *
++     * @return Config
++     */
++    protected function getConfig()
++    {
++        if (!isset($this->config)) {
++            $this->config = \Magento\Framework\App\ObjectManager::getInstance()->get(Config::class);
++        }
++
++        return $this->config;
++    }
++
+     /**
+      * Returns Cybersource-related request field
+      *
+diff --git a/vendor/magento/module-cybersource/Gateway/Command/CaptureStrategyCommand.php b/vendor/magento/module-cybersource/Gateway/Command/CaptureStrategyCommand.php
+index 964c383cc46..3e2962f155c 100644
+--- a/vendor/magento/module-cybersource/Gateway/Command/CaptureStrategyCommand.php
++++ b/vendor/magento/module-cybersource/Gateway/Command/CaptureStrategyCommand.php
+@@ -12,6 +12,8 @@ use Magento\Payment\Gateway\CommandInterface;
+ use Magento\Payment\Gateway\Data\PaymentDataObjectInterface;
+ use Magento\Payment\Gateway\Helper\SubjectReader;
+ use Magento\Sales\Model\Order;
++use Magento\Cybersource\Model\Config;
++
+ 
+ /**
+  * Makes capture or sale transaction.
+@@ -44,12 +46,18 @@ class CaptureStrategyCommand implements CommandInterface
+      */
+     private $commandPool;
+ 
++    /**
++     * @var Config|null
++     */
++    private $config = null;
++
+     /**
+      * @param CommandPoolInterface $commandPool
+      */
+-    public function __construct(CommandPoolInterface $commandPool)
++    public function __construct(CommandPoolInterface $commandPool, Config $config = null)
+     {
+         $this->commandPool = $commandPool;
++        $this->config = $config;
+     }
+ 
+     /**
+@@ -64,6 +72,10 @@ class CaptureStrategyCommand implements CommandInterface
+      */
+     public function execute(array $commandSubject)
+     {
++        if (isset($commandSubject['payment'])) {
++            $this->getConfig()->setStoreId($commandSubject['payment']->getOrder()->getStoreId());
++        }
++
+         /** @var PaymentDataObjectInterface $paymentDO */
+         $paymentDO = SubjectReader::readPayment($commandSubject);
+ 
+@@ -80,4 +92,18 @@ class CaptureStrategyCommand implements CommandInterface
+         return $this->commandPool->get(self::SECURE_ACCEPTANCE_SALE)
+             ->execute($commandSubject);
+     }
++
++    /**
++     * Get config
++     *
++     * @return Config
++     */
++    protected function getConfig()
++    {
++        if (!isset($this->config)) {
++            $this->config = \Magento\Framework\App\ObjectManager::getInstance()->get(Config::class);
++        }
++
++        return $this->config;
++    }
+ }
+diff --git a/vendor/magento/module-cybersource/Gateway/Response/SilentOrder/TokenHandler.php b/vendor/magento/module-cybersource/Gateway/Response/SilentOrder/TokenHandler.php
+index d5c5feba2f3..68d3fe3800c 100644
+--- a/vendor/magento/module-cybersource/Gateway/Response/SilentOrder/TokenHandler.php
++++ b/vendor/magento/module-cybersource/Gateway/Response/SilentOrder/TokenHandler.php
+@@ -12,6 +12,11 @@ use Magento\Payment\Gateway\Data\PaymentDataObjectInterface;
+ 
+ class TokenHandler implements HandlerInterface
+ {
++    /**
++     * Request token constant
++     */
++    const REQUEST_TOKEN = 'request_token';
++
+     /**
+      * Handles response
+      *
+@@ -42,5 +47,13 @@ class TokenHandler implements HandlerInterface
+                     $response[TransactionIdHandler::TRANSACTION_ID]
+                 );
+         }
++
++        if (isset($response[self::REQUEST_TOKEN])) {
++            $paymentDO->getPayment()
++                ->setAdditionalInformation(
++                    self::REQUEST_TOKEN,
++                    $response[self::REQUEST_TOKEN]
++                );
++        }
+     }
+ }
+diff --git a/vendor/magento/module-cybersource/Gateway/Validator/DecisionValidator.php b/vendor/magento/module-cybersource/Gateway/Validator/DecisionValidator.php
+index 41a05692ec6..6d7e6ea7b1d 100644
+--- a/vendor/magento/module-cybersource/Gateway/Validator/DecisionValidator.php
++++ b/vendor/magento/module-cybersource/Gateway/Validator/DecisionValidator.php
+@@ -14,7 +14,7 @@ class DecisionValidator extends AbstractValidator
+ {
+     const DECISION = 'decision';
+ 
+-    const REASON_CODE = 'reasonCode';
++    const REASON_CODE = 'reason_code';
+ 
+     /**
+      *  Successful transaction.
+diff --git a/vendor/magento/module-cybersource/Gateway/Validator/SilentOrder/SignValidator.php b/vendor/magento/module-cybersource/Gateway/Validator/SilentOrder/SignValidator.php
+index 46d7303e482..29aa3424f30 100644
+--- a/vendor/magento/module-cybersource/Gateway/Validator/SilentOrder/SignValidator.php
++++ b/vendor/magento/module-cybersource/Gateway/Validator/SilentOrder/SignValidator.php
+@@ -62,6 +62,11 @@ class SignValidator extends AbstractValidator
+             return $this->createResult(false, [__('Gateway validation error')]);
+         }
+ 
++	$storeId = $paymentDO->getOrder()->getStoreId();
++	if (isset($response['req_merchant_secure_data2'])) {
++	    $storeId = $response['req_merchant_secure_data2'];
++	}
++
+         try {
+             return $this->createResult(
+                 SilentOrderHelper::signFields(
+@@ -71,7 +76,7 @@ class SignValidator extends AbstractValidator
+                     ),
+                     $this->config->getValue(
+                         'secret_key',
+-                        $paymentDO->getOrder()->getStoreId()
++                        $storeId
+                     )
+                 ) === $response[static::SIGNATURE]
+             );
+diff --git a/vendor/magento/module-cybersource/Model/Config.php b/vendor/magento/module-cybersource/Model/Config.php
+new file mode 100644
+index 00000000000..e3d39f82e63
+--- /dev/null
++++ b/vendor/magento/module-cybersource/Model/Config.php
+@@ -0,0 +1,151 @@
++<?php
++/**
++ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
++ * See COPYING.txt for license details.
++ */
++
++namespace Magento\Cybersource\Model;
++
++use Magento\Payment\Gateway\ConfigInterface;
++
++class Config implements ConfigInterface
++{
++    const ADMIN_PREFIX = 'admin_';
++
++    /**
++     * Current payment method code
++     *
++     * @var string
++     */
++    private $methodCode = 'cybersource';
++
++    /**
++     * Scope config
++     *
++     * @var \Magento\Framework\App\Config\ScopeConfigInterface
++     */
++    private $scopeConfig;
++
++    /**
++     * Path pattern
++     *
++     * @var string
++     */
++    private $pathPattern;
++
++    /**
++     * Is Admin Area
++     *
++     * @var bool
++     */
++    private $isAdminArea = false;
++
++    /**
++     * Current store id
++     *
++     * @var null|int
++     */
++    private $storeId = null;
++
++    /**
++     * @param \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig
++     */
++    public function __construct(
++        \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig
++    ) {
++        $this->scopeConfig = $scopeConfig;
++    }
++
++    /**
++     * Set Is Admin Area
++     *
++     * @param boolean $value
++     * @return void
++     */
++    public function setIsAdminArea($value)
++    {
++        $this->isAdminArea = (boolean) $value;
++    }
++
++    /**
++     * Get Is Admin Area
++     *
++     * @return boolean
++     */
++    public function getIsAdminArea()
++    {
++        return $this->isAdminArea;
++    }
++
++    /**
++     * @inheritdoc
++     */
++    public function getValue($field, $storeId = null)
++    {
++        $path = $this->_getSpecificConfigPath($field);
++        if ($path !== null) {
++            $value = $this->scopeConfig->getValue(
++                $path,
++                \Magento\Store\Model\ScopeInterface::SCOPE_STORE,
++                isset($storeId) ? $storeId : $this->storeId
++            );
++            return $value;
++        }
++
++        return null;
++    }
++
++    /**
++     * @inheritdoc
++     */
++    public function setMethodCode($methodCode)
++    {
++        $this->methodCode = $methodCode;
++    }
++
++    /**
++     * @inheritdoc
++     */
++    public function setPathPattern($pathPattern)
++    {
++        $this->pathPattern = $pathPattern;
++    }
++
++    /**
++     * Map any supported payment method into a config path by specified field name
++     *
++     * @param string $fieldName
++     * @return string|null
++     */
++    private function _getSpecificConfigPath($fieldName)
++    {
++        switch ($fieldName) {
++            case 'merchant_id':
++            case 'transaction_key':
++            case 'profile_id':
++            case 'access_key':
++            case 'secret_key':
++            case 'place_order_url':
++                if ($this->getIsAdminArea() && $this->getValue('is_multidomain')) {
++                    $fieldName = self::ADMIN_PREFIX . $fieldName;
++                }
++                break;
++        }
++
++        if ($this->pathPattern) {
++            return sprintf($this->pathPattern, $this->methodCode, $fieldName);
++        }
++
++        return "payment/{$this->methodCode}/{$fieldName}";
++    }
++
++    /**
++     * Set store id
++     *
++     * @param null|int $storeId
++     */
++    public function setStoreId($storeId)
++    {
++        $this->storeId = $storeId;
++    }
++}
+diff --git a/vendor/magento/module-cybersource/etc/adminhtml/system.xml b/vendor/magento/module-cybersource/etc/adminhtml/system.xml
+index 97e9c7150a1..75c85cf23a7 100644
+--- a/vendor/magento/module-cybersource/etc/adminhtml/system.xml
++++ b/vendor/magento/module-cybersource/etc/adminhtml/system.xml
+@@ -41,6 +41,46 @@
+                     <label>Secret Key</label>
+                     <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+                 </field>
++                <field id="is_multidomain" translate="label" type="select" sortOrder="61" showInDefault="1" showInWebsite="1" showInStore="0">
++                    <label>Is multi-domain mode?</label>
++                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
++                    <comment>Use this option when an admin panel works on the different domain</comment>
++                </field>
++                <field id="admin_merchant_id" translate="label" type="obscure" sortOrder="62" showInDefault="1" showInWebsite="1" showInStore="0">
++                    <label>Admin Merchant ID</label>
++                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
++                    <depends>
++                        <field id="is_multidomain">1</field>
++                    </depends>
++                </field>
++                <field id="admin_transaction_key" translate="label" type="obscure" sortOrder="63" showInDefault="1" showInWebsite="1" showInStore="0">
++                    <label>Admin Transaction Key</label>
++                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
++                    <depends>
++                        <field id="is_multidomain">1</field>
++                    </depends>
++                </field>
++                <field id="admin_profile_id" translate="label" type="obscure" sortOrder="64" showInDefault="1" showInWebsite="1" showInStore="0">
++                    <label>Admin Profile ID</label>
++                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
++                    <depends>
++                        <field id="is_multidomain">1</field>
++                    </depends>
++                </field>
++                <field id="admin_access_key" translate="label" type="obscure" sortOrder="65" showInDefault="1" showInWebsite="1" showInStore="0">
++                    <label>Admin Access Key</label>
++                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
++                    <depends>
++                        <field id="is_multidomain">1</field>
++                    </depends>
++                </field>
++                <field id="admin_secret_key" translate="label" type="obscure" sortOrder="66" showInDefault="1" showInWebsite="1" showInStore="0">
++                    <label>Admin Secret Key</label>
++                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
++                    <depends>
++                        <field id="is_multidomain">1</field>
++                    </depends>
++                </field>
+                 <field id="order_status" translate="label" type="select" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="0">
+                     <label>New Order Status</label>
+                     <source_model>Magento\Sales\Model\Config\Source\Order\Status\Processing</source_model>
+diff --git a/vendor/magento/module-cybersource/etc/config.xml b/vendor/magento/module-cybersource/etc/config.xml
+index 0fb9b14c46a..2d71e152187 100644
+--- a/vendor/magento/module-cybersource/etc/config.xml
++++ b/vendor/magento/module-cybersource/etc/config.xml
+@@ -23,6 +23,12 @@
+                 <secret_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                 <merchant_id backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                 <transaction_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
++                <is_multidomain>0</is_multidomain>
++                <admin_access_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
++                <admin_profile_id backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
++                <admin_secret_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
++                <admin_merchant_id backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
++                <admin_transaction_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                 <allowspecific>0</allowspecific>
+                 <currency>USD</currency>
+                 <date_delim>-</date_delim>
+@@ -35,6 +41,7 @@
+                 <wsdl_test_mode>https://ics2wstest.ic3.com/commerce/1.x/transactionProcessor/CyberSourceTransaction_1.109.wsdl</wsdl_test_mode>
+                 <wsdl>https://ics2ws.ic3.com/commerce/1.x/transactionProcessor/CyberSourceTransaction_1.109.wsdl</wsdl>
+                 <place_order_url>cybersource/SilentOrder/TokenRequest</place_order_url>
++                <admin_place_order_url>admin/cybersource/SilentOrder/TokenRequest</admin_place_order_url>
+                 <payment_method>card</payment_method>
+                 <can_authorize>1</can_authorize>
+                 <can_capture>1</can_capture>
+diff --git a/vendor/magento/module-cybersource/etc/di.xml b/vendor/magento/module-cybersource/etc/di.xml
+index 1af81709647..96a4a09f568 100644
+--- a/vendor/magento/module-cybersource/etc/di.xml
++++ b/vendor/magento/module-cybersource/etc/di.xml
+@@ -45,7 +45,7 @@
+ 
+     <type name="Magento\Cybersource\Controller\SilentOrder\TokenRequest">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+             <argument name="commandPool" xsi:type="object">CybersourceCommandPool</argument>
+         </arguments>
+     </type>
+@@ -183,23 +183,17 @@
+ 
+     <type name="Magento\Cybersource\Gateway\Request\SilentOrder\SignCompositeDecorator">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <type name="Magento\Cybersource\Gateway\Request\SilentOrder\MerchantDataBuilder">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+-
+-    <virtualType name="CybersourceConfig" type="Magento\Payment\Gateway\Config\Config">
+-        <arguments>
+-            <argument name="methodCode" xsi:type="string">cybersource</argument>
+-        </arguments>
+-    </virtualType>
+     <virtualType name="CybersourceDefaultValueHandler" type="Magento\Payment\Gateway\Config\ConfigValueHandler">
+         <arguments>
+-            <argument name="configInterface" xsi:type="object">CybersourceConfig</argument>
++            <argument name="configInterface" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </virtualType>
+     <virtualType name="CybersourceValueHandlerPool" type="Magento\Payment\Gateway\Config\ValueHandlerPool">
+@@ -214,7 +208,7 @@
+ 
+     <virtualType name="CybersourceCountryValidator" type="Magento\Payment\Gateway\Validator\CountryValidator">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </virtualType>
+     <virtualType name="CybersourceValidatorPool" type="Magento\Payment\Gateway\Validator\ValidatorPool">
+@@ -226,12 +220,12 @@
+     </virtualType>
+     <type name="Magento\Cybersource\Gateway\Validator\SilentOrder\SignValidator">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <type name="Magento\Cybersource\Gateway\Http\SilentOrder\TransferFactory">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <virtualType name="HtmlConverterZendClient" type="Magento\Payment\Gateway\Http\Client\Zend">
+@@ -262,27 +256,27 @@
+     </virtualType>
+     <type name="Magento\Cybersource\Gateway\Response\SilentOrder\TransactionInfoHandler">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <virtualType name="CybersourceLogger" type="Magento\Payment\Model\Method\Logger">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </virtualType>
+     <type name="Magento\Cybersource\Block\Info">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <type name="Magento\Cybersource\Gateway\Request\Soap\MerchantDataBuilder">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <type name="Magento\Cybersource\Gateway\Http\Soap\TransferFactory">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <virtualType name="CybersourceSoapClient" type="Magento\Payment\Gateway\Http\Client\Soap">
+@@ -350,7 +344,7 @@
+ 
+     <type name="\Magento\Cybersource\Gateway\Vault\PaymentTokenManagement">
+         <arguments>
+-            <argument name="config" xsi:type="object">CybersourceConfig</argument>
++            <argument name="config" xsi:type="object">Magento\Cybersource\Model\Config</argument>
+         </arguments>
+     </type>
+     <type name="Magento\Cybersource\Gateway\Vault\PaymentTokenService">
+diff --git a/vendor/magento/module-cybersource/etc/frontend/page_types.xml b/vendor/magento/module-cybersource/etc/frontend/page_types.xml
+index 0bea12667db..ff29185a8c9 100644
+--- a/vendor/magento/module-cybersource/etc/frontend/page_types.xml
++++ b/vendor/magento/module-cybersource/etc/frontend/page_types.xml
+@@ -8,4 +8,5 @@
+ <page_types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_types.xsd">
+     <type id="cybersource_silentorder_tokenrequest" label="Cybersource Token request"/>
+     <type id="cybersource_silentorder_tokenresponse" label="Cybersource Token response"/>
++    <type id="cybersource_adminhtml_silentorder_tokenresponse" label="Cybersource token response for adminhtml"/>
+ </page_types>
+diff --git a/vendor/magento/module-cybersource/view/adminhtml/layout/cybersource_silentorder_tokenresponse.xml b/vendor/magento/module-cybersource/view/adminhtml/layout/cybersource_silentorder_tokenresponse.xml
+new file mode 100644
+index 00000000000..53e53879657
+--- /dev/null
++++ b/vendor/magento/module-cybersource/view/adminhtml/layout/cybersource_silentorder_tokenresponse.xml
+@@ -0,0 +1,12 @@
++<?xml version="1.0"?>
++<!--
++/**
++ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
++ * See COPYING.txt for license details.
++ */
++-->
++<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd">
++    <container name="root" label="Root">
++        <block class="Magento\Payment\Block\Transparent\Iframe" name="cybersource_iframe" template="Magento_Cybersource::transparent/iframe.phtml"/>
++    </container>
++</layout>
+diff --git a/vendor/magento/module-cybersource/view/adminhtml/templates/transparent/iframe.phtml b/vendor/magento/module-cybersource/view/adminhtml/templates/transparent/iframe.phtml
+new file mode 100644
+index 00000000000..b6af0aded26
+--- /dev/null
++++ b/vendor/magento/module-cybersource/view/adminhtml/templates/transparent/iframe.phtml
+@@ -0,0 +1,44 @@
++<?php
++/**
++ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
++ * See COPYING.txt for license details.
++ */
++
++// @codingStandardsIgnoreFile
++
++/** @var \Magento\Payment\Block\Transparent\Iframe $block */
++$params = $block->getParams();
++?>
++<html>
++    <head>
++        <script>
++        <?php if (isset($params['redirect'])): ?>
++            window.location="<?php echo $block->escapeXssInUrl($params['redirect']); ?>";
++        <?php elseif (isset($params['redirect_parent'])): ?>
++            window.top.location="<?php echo $block->escapeXssInUrl($params['redirect_parent']); ?>";
++        <?php elseif (isset($params['error_msg'])): ?>
++            window.top.alert(<?php /* @noEscape */ echo $this->helper('Magento\Framework\Json\Helper\Data')->jsonEncode($params['error_msg']); ?>);
++            var require = window.top.require;
++            require(['jquery'], function($) {
++                $('#edit_form').trigger('processStop');
++            });
++        <?php elseif (isset($params['order_success'])): ?>
++            window.top.location = "<?php echo $block->escapeXssInUrl($params['order_success']); ?>";
++        <?php else: ?>
++            var require = window.top.require;
++            require(['jquery'], function($) {
++                $('#edit_form').trigger('processStop');
++
++                $("input[name='payment[cc_number]']").prop('disabled', true);
++                $("select[name='payment[cc_type]']").prop('disabled', true);
++                $("select[name='payment[cc_exp_month]']").prop('disabled', true);
++                $("select[name='payment[cc_exp_year]']").prop('disabled', true);
++                $("input[name='payment[cc_cid]']").prop('disabled', true);
++
++                $('#edit_form').trigger('realOrder');
++            });
++        <?php endif; ?>
++        </script>
++    </head>
++    <body></body>
++</html>
