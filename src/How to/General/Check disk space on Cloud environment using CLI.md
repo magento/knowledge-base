@@ -4,4 +4,5 @@ link: https://support.magento.com/hc/en-us/articles/360005932713-Check-disk-spac
 labels: Magento Commerce Cloud,devdocs,Cloud,space,disk space,how to
 ---
 
-<p>Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html">Manage disk space</a> article on Magento DevDocs. <br/> </p>
+Please refer to the [Manage disk space](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html) article on Magento DevDocs.   
+ 

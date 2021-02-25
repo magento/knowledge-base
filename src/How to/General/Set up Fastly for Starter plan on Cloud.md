@@ -4,4 +4,4 @@ link: https://support.magento.com/hc/en-us/articles/360002491773-Set-up-Fastly-f
 labels: Magento Commerce Cloud,Fastly,devdocs,setup,how to,Starter
 ---
 
-<p>Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html">Set up Fastly</a> article on Magento Devdocs.</p>
+Please refer to the [Set up Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) article on Magento Devdocs.

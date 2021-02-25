@@ -4,4 +4,4 @@ link: https://support.magento.com/hc/en-us/articles/360005484154-Create-a-patch-
 labels: devdocs,Magento,patch,composer,github,2.x.x,how to
 ---
 
-<p>Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches">Custom patches section of the Applying patches article</a> on Magento Devdocs.</p>
+Please refer to the [Custom patches section of the Applying patches article](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) on Magento Devdocs.

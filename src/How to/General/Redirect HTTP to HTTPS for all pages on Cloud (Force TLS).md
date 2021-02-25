@@ -4,58 +4,68 @@ link: https://support.magento.com/hc/en-us/articles/360006296953-Redirect-HTTP-t
 labels: Magento Commerce Cloud,Fastly,security,cloud,TLS,Pro,redirect,2.1,routes.yaml,2.1.4,how to,Starter,1.2.4
 ---
 
-<p>Activate the Fastly's Force TLS functionality in Magento Admin to enable the global HTTP to HTTPS redirect for all pages of your Magento Commerce (Cloud) store.</p>
-<p>This article provides detailed <a href="#steps">steps</a>, a quick overview of the Force TLS feature, affected versions, and links to related documentation.</p>
-<h2>Steps</h2>
-<h3>Step 1: Configure Secure URLs</h3>
-<p>In this step, we define the secure URLs for the store. If that's already done, go to <a href="#step-2-enable-force-tls">Step 2: Enable Force TLS</a>.</p>
-<ol>
-<li>Log in to Magento Admin.</li>
-<li>Navigate to Stores &gt; Configuration &gt; General &gt; Web.</li>
-<li>Expand the Base URLs (Secure) section.<br/><img alt="magento-admin_base-urls-secure.png" src="https://support.magento.com/hc/article_attachments/360008033893/magento-admin_base-urls-secure.png"/>
-</li>
-<li>In the Secure Base URL field, specify the HTTPS URL of your store.</li>
-<li>Set the Use Secure URLs on Storefront and the Use Secure URLs on Admin settings to Yes.<br/><img alt="magento-admin_base-urls-secure-settings.png" src="https://support.magento.com/hc/article_attachments/360007995494/magento-admin_base-urls-secure-settings.png"/>
-</li>
-<li>Click Save config in the upper-right corner to apply changes.</li>
-</ol>
-<p>Related documentation in Magento User Guide: <a href="https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html">Store URLs</a>.</p>
-<h3>Step 2: Enable Force TLS</h3>
-<ol>
-<li>In Magento Admin, navigate to Stores &gt; Configuration &gt; Advanced &gt; System.</li>
-<li>Expand the Full Page Cache section, then Fastly Configuration, then Advanced Configuration.</li>
-<li>Click the Force TLS button.<br/><img alt="magento-admin_force-tls-button.png" src="https://support.magento.com/hc/article_attachments/360007999074/magento-admin_force-tls-button.png"/>
-</li>
-<li>In the dialog that appears, click Upload.<br/><img alt="magento-admin_force-tls-confirmation-dialog.png" src="https://support.magento.com/hc/article_attachments/360008041153/magento-admin_force-tls-confirmation-dialog.png"/>
-</li>
-<li>After the dialog closes, make sure the current state of Force TLS is displayed as enabled.<br/><img alt="magento-admin_force-tls-enabled.png" src="https://support.magento.com/hc/article_attachments/360008041293/magento-admin_force-tls-enabled.png"/>
-</li>
-</ol>
-<p>Related Fastly documentation: <a href="https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md">Force TLS guide</a> for Magento 2.</p>
-<h2>About Force TLS</h2>
-<p>TLS (Transport Layer Security) is a protocol for secure HTTP connections that replaces its less secure predecessor—the SSL (Secure Socket Layer) protocol.</p>
-<p>The Fastly's Force TLS functionality allows you to force all incoming unencrypted requests for your site pages to TLS.</p>
-<blockquote>
-<p>It works by returning a <em>301 Moved Permanently</em> response to any unencrypted request, which redirects to the TLS equivalent. <br/>For instance, making a request for <em>http://www.example.com/foo.jpeg</em> would redirect to <em>https://www.example.com/foo.jpeg</em>.</p>
-<p><a href="https://docs.fastly.com/guides/securing-communications/">Securing communications</a> (Fastly documentation)</p>
-</blockquote>
-<h2>Affected versions</h2>
-<ul>
-<li>
-Magento Commerce (Cloud):
-<ul>
-<li>version: 2.1.4 and later</li>
-<li>plan: Starter and Pro (including Pro Legacy)</li>
-</ul>
-</li>
-<li>
-Fastly: 1.2.4</li>
-</ul>
-<h2>No changes needed in routes.yaml</h2>
-<p>To enable HTTP to HTTPS redirect on all pages of your store, you do not have to add the pages to the <code>routes.yaml</code> configuration file—enabling Force TLS globally for your entire store (using Magento Admin) is enough.</p>
-<h2>Related Fastly documentation</h2>
-<ul>
-<li><a href="https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md">Force TLS guide for Magento 2</a></li>
-<li><a href="https://docs.fastly.com/guides/securing-communications/forcing-a-tls-redirect">Forcing a TLS redirect</a></li>
-<li><a href="https://docs.fastly.com/guides/securing-communications/">Securing communications</a></li>
-</ul>
+Activate the Fastly's Force TLS functionality in Magento Admin to enable the global HTTP to HTTPS redirect for all pages of your Magento Commerce (Cloud) store.
+
+This article provides detailed [steps](#steps), a quick overview of the Force TLS feature, affected versions, and links to related documentation.
+
+## Steps
+
+### Step 1: Configure Secure URLs
+
+In this step, we define the secure URLs for the store. If that's already done, go to [Step 2: Enable Force TLS](#step-2-enable-force-tls).
+
+1. Log in to Magento Admin.
+1. Navigate to Stores > Configuration > General > Web.
+1. Expand the Base URLs (Secure) section.  
+    ![magento-admin_base-urls-secure.png](https://support.magento.com/hc/article_attachments/360008033893/magento-admin_base-urls-secure.png)
+1. In the Secure Base URL field, specify the HTTPS URL of your store.
+1. Set the Use Secure URLs on Storefront and the Use Secure URLs on Admin settings to Yes.  
+    ![magento-admin_base-urls-secure-settings.png](https://support.magento.com/hc/article_attachments/360007995494/magento-admin_base-urls-secure-settings.png)
+1. Click Save config in the upper-right corner to apply changes.
+
+Related documentation in Magento User Guide: [Store URLs](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
+
+### Step 2: Enable Force TLS
+
+1. In Magento Admin, navigate to Stores > Configuration > Advanced > System.
+1. Expand the Full Page Cache section, then Fastly Configuration, then Advanced Configuration.
+1. Click the Force TLS button.  
+    ![magento-admin_force-tls-button.png](https://support.magento.com/hc/article_attachments/360007999074/magento-admin_force-tls-button.png)
+1. In the dialog that appears, click Upload.  
+    ![magento-admin_force-tls-confirmation-dialog.png](https://support.magento.com/hc/article_attachments/360008041153/magento-admin_force-tls-confirmation-dialog.png)
+1. After the dialog closes, make sure the current state of Force TLS is displayed as enabled.  
+    ![magento-admin_force-tls-enabled.png](https://support.magento.com/hc/article_attachments/360008041293/magento-admin_force-tls-enabled.png)
+
+Related Fastly documentation: [Force TLS guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md) for Magento 1. ## About Force TLS
+
+TLS (Transport Layer Security) is a protocol for secure HTTP connections that replaces its less secure predecessor—the SSL (Secure Socket Layer) protocol.
+
+The Fastly's Force TLS functionality allows you to force all incoming unencrypted requests for your site pages to TLS.
+
+>  
+> It works by returning a _301 Moved Permanently_ response to any unencrypted request, which redirects to the TLS equivalent.   
+> For instance, making a request for _http://www.example.com/foo.jpeg_ would redirect to _https://www.example.com/foo.jpeg_.
+> 
+> [Securing communications](https://docs.fastly.com/guides/securing-communications/) (Fastly documentation)
+> 
+
+## Affected versions
+
+* Magento Commerce (Cloud):
+    
+    * version: 2.1.4 and later
+    * plan: Starter and Pro (including Pro Legacy)
+    
+    
+    
+* Fastly: 1.2.4
+
+## No changes needed in routes.yaml
+
+To enable HTTP to HTTPS redirect on all pages of your store, you do not have to add the pages to the `` routes.yaml `` configuration file—enabling Force TLS globally for your entire store (using Magento Admin) is enough.
+
+## Related Fastly documentation
+
+* [Force TLS guide for Magento 2](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md)
+* [Forcing a TLS redirect](https://docs.fastly.com/guides/securing-communications/forcing-a-tls-redirect)
+* [Securing communications](https://docs.fastly.com/guides/securing-communications/)

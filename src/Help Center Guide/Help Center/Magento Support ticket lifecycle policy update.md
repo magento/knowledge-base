@@ -4,12 +4,14 @@ link: https://support.magento.com/hc/en-us/articles/360044226072-Magento-Support
 labels: Magento Support,about help center,tickets
 ---
 
-<p>This article provides information about Magento Support ticket lifecycle policy update. </p>
-<p>The following table illustrates the updated scenarios. You can find details for each scenario in the section below.</p>
+This article provides information about Magento Support ticket lifecycle policy update. 
+
+The following table illustrates the updated scenarios. You can find details for each scenario in the section below.
+
 <table>
 <tbody>
 <tr>
-<td> </td>
+<td> </td>
 <td>Ticket status</td>
 <td>Days to "Solved"</td>
 <td>Days to "Closed"</td>
@@ -38,28 +40,34 @@ labels: Magento Support,about help center,tickets
 </tr>
 </tbody>
 </table>
-<h2>Scenarios in detail</h2>
-<h3>When an engineer provides a solution</h3>
-<ol>
-<li>Once a solution is provided to a customer, engineer sets the ticket status to "Awaiting your reply".</li>
-<li>If there is no response from the customer for 3 days after the status is changed to "Awaiting your reply" - the ticket is moved to "Solved" and the customer is notified. </li>
-<li>If there is no response from the customer for 6 days after the status is changed to "Awaiting your reply" - the ticket is closed and the customer is notified.</li>
-</ol>
-<h3>When additional information is required from a customer</h3>
-<ol>
-<li>If an update from the customer is required, engineer sets the ticket to "Awaiting your reply".</li>
-<li>Notifications are sent to the customer on day 1 and 3 requesting customer follow up.</li>
-<li>If there is no response from the customer for 6 days after the status is changed to "Awaiting your reply" - the ticket is closed and the customer is notified. </li>
-</ol>
-<h3>Ticket set to "Solved" by a customer</h3>
-<p>When a ticket is set to "Solved" by a customer, it is closed in one day and the customer is notified. </p>
-<h3>Customer directs support to close the ticket</h3>
-<p>When a customer directs Magento Support to close the ticket, it is closed in one day and the customer is notified.</p>
-<h2>Related reading</h2>
-<ul>
-<li><a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Submit a support ticket</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Magento-Help-Center-start-page">"Submit a ticket" link not displayed on Magento Help Center start page</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360043335371-Ticket-submission-form-merchant-is-not-displayed-in-Organization-drop-down">Ticket submission form: merchant is not displayed in Organization drop-down</a></li>
-</ul>
-<p> </p>
-<p> </p>
+
+## Scenarios in detail
+
+### When an engineer provides a solution
+
+1. Once a solution is provided to a customer, engineer sets the ticket status to "Awaiting your reply".
+1. If there is no response from the customer for 3 days after the status is changed to "Awaiting your reply" - the ticket is moved to "Solved" and the customer is notified. 
+1. If there is no response from the customer for 6 days after the status is changed to "Awaiting your reply" - the ticket is closed and the customer is notified.
+
+### When additional information is required from a customer
+
+1. If an update from the customer is required, engineer sets the ticket to "Awaiting your reply".
+1. Notifications are sent to the customer on day 1 and 3 requesting customer follow up.
+1. If there is no response from the customer for 6 days after the status is changed to "Awaiting your reply" - the ticket is closed and the customer is notified. 
+
+### Ticket set to "Solved" by a customer
+
+When a ticket is set to "Solved" by a customer, it is closed in one day and the customer is notified. 
+
+### Customer directs support to close the ticket
+
+When a customer directs Magento Support to close the ticket, it is closed in one day and the customer is notified.
+
+## Related reading
+
+* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket)
+* ["Submit a ticket" link not displayed on Magento Help Center start page](https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Magento-Help-Center-start-page)
+* [Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360043335371-Ticket-submission-form-merchant-is-not-displayed-in-Organization-drop-down)
+
+ 
+ 

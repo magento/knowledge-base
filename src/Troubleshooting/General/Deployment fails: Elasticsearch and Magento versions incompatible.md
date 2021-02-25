@@ -4,4 +4,4 @@ link: https://support.magento.com/hc/en-us/articles/360015758471-Deployment-fail
 labels: Magento Commerce Cloud,troubleshooting,Elasticsearch
 ---
 
-<p>Please refer to the <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility">Set up Elasticsearch Service &gt;Elasticsearch software compatibility</a> documentation.</p>
+Please refer to the [Set up Elasticsearch Service >Elasticsearch software compatibility](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility) documentation.

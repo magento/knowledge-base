@@ -4,22 +4,30 @@ link: https://support.magento.com/hc/en-us/articles/360040208612--isScopePrivate
 labels: Magento Commerce Cloud,Magento Commerce,performance,AJAX requests,isScopePrivate,best practices,2.3.x,2.2.x
 ---
 
-<p>This article provides a potential fix for slow performance by removing <code>_isScopePrivate</code> variables in private content. This reduces AJAX requests due to non-cacheable blocks so that you will have more free resources to handle more critical requests in Magento.</p>
-<h2>Affected products and versions</h2>
-<ul>
-<li>Magento Commerce Cloud 2.2.x, 2.3.x</li>
-<li>Magento Commerce 2.2.x, 2.3.x</li>
-</ul>
-<h2>Issue</h2>
-<p>When private content blocks have the <code>_isScopePrivate</code> variable in them, it makes the block not cacheable.</p>
-<p>As a result, each request to Magento can trigger additional AJAX requests for the non-cacheable blocks.</p>
-<p>Since private content is specific to individual users, it is reasonable to handle it on the client side (i.e., web browser) instead of hitting the server for retrieving the same data on each customer request.</p>
-<p>Reduce AJAX requests due to non-cacheable blocks. This will enable you to have more free resources to handle more business-critical scenarios in your store, such as these examples:</p>
-<ul>
-<li>Add to cart</li>
-<li>Make a payment</li>
-<li>Place order</li>
-<li>Register new customer</li>
-</ul>
-<h2>Solution</h2>
-<p>Use private content instead of the <code>_isScopePrivate</code> variable. Review DevDocs' <a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html">Private content</a> for details.<br/> <br/> Also review <a href="https://support.magento.com/hc/en-us/articles/360039286472">High throughput AJAX requests cause poor performance</a>.</p>
+This article provides a potential fix for slow performance by removing `` _isScopePrivate `` variables in private content. This reduces AJAX requests due to non-cacheable blocks so that you will have more free resources to handle more critical requests in Magento.
+
+## Affected products and versions
+
+* Magento Commerce Cloud 2.2.x, 2.3.x
+* Magento Commerce 2.2.x, 2.3.x
+
+## Issue
+
+When private content blocks have the `` _isScopePrivate `` variable in them, it makes the block not cacheable.
+
+As a result, each request to Magento can trigger additional AJAX requests for the non-cacheable blocks.
+
+Since private content is specific to individual users, it is reasonable to handle it on the client side (i.e., web browser) instead of hitting the server for retrieving the same data on each customer request.
+
+Reduce AJAX requests due to non-cacheable blocks. This will enable you to have more free resources to handle more business-critical scenarios in your store, such as these examples:
+
+* Add to cart
+* Make a payment
+* Place order
+* Register new customer
+
+## Solution
+
+Use private content instead of the `` _isScopePrivate `` variable. Review DevDocs' [Private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) for details.  
+   
+ Also review [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472).
