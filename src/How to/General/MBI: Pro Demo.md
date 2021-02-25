@@ -4,5 +4,6 @@ link: https://support.magento.com/hc/en-us/articles/360016729571-MBI-Pro-Demo
 labels: MBI,analysis,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
 ---
 
-<p>Learn about Magento Business Intelligence Pro in the MBI: Pro video overview. </p>
-<p><iframe></iframe></p>
+Learn about Magento Business Intelligence Pro in the MBI: Pro video overview. 
+
+<iframe></iframe>

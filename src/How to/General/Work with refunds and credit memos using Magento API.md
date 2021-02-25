@@ -4,4 +4,4 @@ link: https://support.magento.com/hc/en-us/articles/115003067873-Work-with-refun
 labels: API,devdocs,Magento,refund,credit memo,how to
 ---
 
-<p>Please refer to the <a href="https://devdocs.magento.com/guides/v2.2/rest/modules/sales/refunds.html">Refunds</a> article on the Magento DevDocs. </p>
+Please refer to the [Refunds](https://devdocs.magento.com/guides/v2.2/rest/modules/sales/refunds.html) article on the Magento DevDocs. 

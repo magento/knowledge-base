@@ -4,33 +4,33 @@ link: https://support.magento.com/hc/en-us/articles/360016504792-MBI-Guidance-on
 labels: MBI,analysis,database,data,Magento Business Intelligence,data discrepancies,how to,reports
 ---
 
-<p>Have a quick question about a Magento BI feature? If so, we’re here to help. To get started, we recommend checking out these helpful articles:</p>
-<ul>
-<li><a href="https://docs.magento.com/mbi/data-user/reports/ess-manage-data-metrics.html">Creating metrics</a></li>
+Have a quick question about a Magento BI feature? If so, we’re here to help. To get started, we recommend checking out these helpful articles:
+
+* [Creating metrics](https://docs.magento.com/mbi/data-user/reports/ess-manage-data-metrics.html)
 <!--<li>
     <a href="https://support.magento.com/hc/en-us/articles/360016505212">Connecting your data sources</a>
-  </li> -->
-<li><a href="https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/tour-dwm.html">A tour of the Data Warehouse Manager</a></li>
-<li><a href="https://docs.magento.com/mbi/tutorials/using-visual-report-builder.html">Using the Visual Report Builder</a></li>
-<li><a href="https://docs.magento.com/mbi/data-analyst/dev-reports/cohort-rpt-bldr.html">Using the Cohort Report Builder</a></li>
-<li><a href="https://docs.magento.com/mbi/data-user/reports/report-builder-options.html">Which Report Builder should I use?</a></li>
-<li><a href="https://support.magento.com/hc/en-us/sections/360003113431-Sharing-Dashboards">Sharing dashboards</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360016730911">Creating automated email summaries</a></li>
-</ul>
-<p>If you’re looking for help with creating calculated columns, please refer to the <a href="https://support.magento.com/hc/en-us/articles/360016505112">Calculated Columns guide.</a></p>
-<h2>I still need help!</h2>
-<p>If you still need help after reviewing the relevant articles, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a> to our team and let us know how we can help. Please include the information below:</p>
-<ul>
-<li>What are you trying to do?</li>
-<li>If you’re working on a report, what is its name?</li>
-<li>Any screenshots that may be useful</li>
-</ul>
-<h2>Related reading</h2>
-<ul>
-<li><a href="https://support.magento.com/hc/en-us/articles/360016505112">Calculated columns</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360016505312">Data discrepancies</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360016505592">Reproducing analyses</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360016505992">Conducting new analyses</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360016732711">Reporting defects</a></li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360016506112">Structural database changes</a></li>
-</ul>
+  </li> -->* [A tour of the Data Warehouse Manager](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/tour-dwm.html)
+* [Using the Visual Report Builder](https://docs.magento.com/mbi/tutorials/using-visual-report-builder.html)
+* [Using the Cohort Report Builder](https://docs.magento.com/mbi/data-analyst/dev-reports/cohort-rpt-bldr.html)
+* [Which Report Builder should I use?](https://docs.magento.com/mbi/data-user/reports/report-builder-options.html)
+* [Sharing dashboards](https://support.magento.com/hc/en-us/sections/360003113431-Sharing-Dashboards)
+* [Creating automated email summaries](https://support.magento.com/hc/en-us/articles/360016730911)
+
+If you’re looking for help with creating calculated columns, please refer to the [Calculated Columns guide.](https://support.magento.com/hc/en-us/articles/360016505112)
+
+## I still need help!
+
+If you still need help after reviewing the relevant articles, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) to our team and let us know how we can help. Please include the information below:
+
+* What are you trying to do?
+* If you’re working on a report, what is its name?
+* Any screenshots that may be useful
+
+## Related reading
+
+* [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
+* [Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
+* [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
+* [Conducting new analyses](https://support.magento.com/hc/en-us/articles/360016505992)
+* [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
+* [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)

@@ -4,30 +4,38 @@ link: https://support.magento.com/hc/en-us/articles/360050092291-Magento-2-3-6-2
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,2.3.6,2.4.1,2.4.0-p1,dotdigital
 ---
 
-<p>This article describes a Magento 2.3.6, 2.4.0-p1, and 2.4.1 known issue where it is impossible to log in to <a href="https://dotdigital.com/">dotdigital</a> via the Admin Panel when the dotdigital account is enabled.</p>
-<h2>Affected products and versions</h2>
-<ul>
-<li>Magento Commerce Cloud and Magento Commerce 2.3.6 (Safari browser only)</li>
-<li>Magento Commerce Cloud and Magento Commerce 2.4.0-p1 (Safari browser only)</li>
-<li>Magento Commerce Cloud and Magento Commerce 2.4.1 (Safari browser only)</li>
-</ul>
-<h2>Issue</h2>
-<p>Prerequisites:</p>
-<ol>
-<li>dotdigital account exists.</li>
-<li>Valid dotdigital API credentials exist in Magento.</li>
-</ol>
-<p>Steps to reproduce:</p>
-<ol>
-<li>Go to Stores &gt; Configuration &gt; DOTDIGITAL &gt; Chat Settings &gt; Enabled is set to <em>Yes.</em>
-</li>
-<li>Click on Configure in Configure Chat Widget or Configure Chat Teams.</li>
-</ol>
-<p>Expected result:</p>
-<p>Chat settings page should open successfully via Admin Panel.</p>
-<p>Actual result:</p>
-<p>Unable to log in to dotdigital.</p>
-<h2>Solution</h2>
-<p>Workaround: use an alternative browser to Safari for this particular situation.</p>
-<h2>Related Reading</h2>
-<p><a href="https://support.magento.com/hc/en-us/articles/360050139631">Magento 2.4.1 Known Issue - Vertex address not validating with different shipping/billing addresses</a></p>
+This article describes a Magento 2.3.6, 2.4.0-p1, and 2.4.1 known issue where it is impossible to log in to [dotdigital](https://dotdigital.com/) via the Admin Panel when the dotdigital account is enabled.
+
+## Affected products and versions
+
+* Magento Commerce Cloud and Magento Commerce 2.3.6 (Safari browser only)
+* Magento Commerce Cloud and Magento Commerce 2.4.0-p1 (Safari browser only)
+* Magento Commerce Cloud and Magento Commerce 2.4.1 (Safari browser only)
+
+## Issue
+
+Prerequisites:
+
+1. dotdigital account exists.
+1. Valid dotdigital API credentials exist in Magento.
+
+Steps to reproduce:
+
+1. Go to Stores > Configuration > DOTDIGITAL > Chat Settings > Enabled is set to _Yes._
+1. Click on Configure in Configure Chat Widget or Configure Chat Teams.
+
+Expected result:
+
+Chat settings page should open successfully via Admin Panel.
+
+Actual result:
+
+Unable to log in to dotdigital.
+
+## Solution
+
+Workaround: use an alternative browser to Safari for this particular situation.
+
+## Related Reading
+
+[Magento 2.4.1 Known Issue - Vertex address not validating with different shipping/billing addresses](https://support.magento.com/hc/en-us/articles/360050139631)

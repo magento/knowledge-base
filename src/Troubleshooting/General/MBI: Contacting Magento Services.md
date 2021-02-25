@@ -5,8 +5,8 @@ labels: troubleshooting,Magento Business Intelligence
 ---
 
 <div>
-<p>Great! You’re looking to enhance and expand your use of Magento BI and are looking for guidance that’s above and beyond our standard support.</p>
-<p>Curious what "<a href="https://magento.com/services">Magento Services</a>" can do for you? Our team can help you with:</p>
+<p>Great! You’re looking to enhance and expand your use of Magento BI and are looking for guidance that’s above and beyond our standard support.</p>
+<p>Curious what "<a href="https://magento.com/services">Magento Services</a>" can do for you? Our team can help you with:</p>
 <ul>
 <!--  <li>
       <a href="https://support.magento.com/hc/en-us/articles/360016503712-Professional-Data-Services">Professional Data Services</a>
@@ -21,7 +21,7 @@ labels: troubleshooting,Magento Business Intelligence
     </li> -->
 </ul>
 <h2>Sounds great! How do I get started?</h2>
-<p>If you aren’t quite sure how to proceed or would like to discuss the next steps needed to engage our Magento Services team, we’d be happy to chat. Simply submit a support request and include the following:</p>
+<p>If you aren’t quite sure how to proceed or would like to discuss the next steps needed to engage our Magento Services team, we’d be happy to chat. Simply submit a support request and include the following:</p>
 <ul>
 <li>What type of service are you interested in?</li>
 <li>If requesting an analysis, include:</li>

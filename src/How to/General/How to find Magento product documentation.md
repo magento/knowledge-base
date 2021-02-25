@@ -4,19 +4,20 @@ link: https://support.magento.com/hc/en-us/articles/115001871273-How-to-find-Mag
 labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2B,MBI,PWA,product,Magento Order Management,marketplace,Magento Business Intelligence,how to
 ---
 
-<h2>Magento Support Documentation</h2>
-<p>The Magento Support Knowledge Base provides troubleshooting solutions for fixing and avoiding known Magento products issues, supplied by the Magento Support Team.</p>
-<p>There are also separate troubleshooting resources for:</p>
-<ul>
-<li>Magento U: <a href="https://magento-u-support.magento.com/hc/en-us">https://magento-u-support.magento.com/</a>
-</li>
-<li>Magento Marketplace: <a href="https://marketplacesupport.magento.com/">https://marketplacesupport.magento.com/ </a>
-</li>
-<li>Magento Partners Portal: <a href="https://partnersupport.magento.com">https://partnersupport.magento.com</a>
-</li>
-</ul>
-<p>If you are looking for technical or end-user documentation, please use one of the following links:</p>
-<h2>End-user and technical documentation</h2>
+## Magento Support Documentation
+
+The Magento Support Knowledge Base provides troubleshooting solutions for fixing and avoiding known Magento products issues, supplied by the Magento Support Team.
+
+There are also separate troubleshooting resources for:
+
+* Magento U: [https://magento-u-support.magento.com/](https://magento-u-support.magento.com/hc/en-us)
+* Magento Marketplace: [https://marketplacesupport.magento.com/ ](https://marketplacesupport.magento.com/)
+* Magento Partners Portal: <https://partnersupport.magento.com>
+
+If you are looking for technical or end-user documentation, please use one of the following links:
+
+## End-user and technical documentation
+
 <table>
 <tbody>
 <tr>
@@ -27,7 +28,7 @@ labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2
 <td>Magento Commerce and Magento Commerce Cloud</td>
 <td>
 <p>Developer (technical) documentation:</p>
-<p><a href="https://devdocs.magento.com">https://devdocs.magento.com/ </a></p>
+<p><a href="https://devdocs.magento.com">https://devdocs.magento.com/ </a></p>
 </td>
 </tr>
 <tr>
@@ -37,9 +38,9 @@ labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2
 </td>
 </tr>
 <tr>
-<td> 
+<td> 
 <p>Magento Open Source</p>
-<p> </p>
+<p> </p>
 </td>
 <td>
 <p>Merchant (end-user) documentation:</p>
@@ -47,9 +48,9 @@ labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2
 </td>
 </tr>
 <tr>
-<td> 
-<p>Magento B2B </p>
-<p> </p>
+<td> 
+<p>Magento B2B </p>
+<p> </p>
 </td>
 <td>
 <p>Merchant (end-user) documentation:</p>
@@ -60,7 +61,7 @@ labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2
 <td>Magento Order Management System (OMS)</td>
 <td>
 <p>Merchant (end-user) and developer (technical) documentation:</p>
-<p><a href="https://omsdocs.magento.com/en/">https://omsdocs.magento.com/en/ </a></p>
+<p><a href="https://omsdocs.magento.com/en/">https://omsdocs.magento.com/en/ </a></p>
 </td>
 </tr>
 <tr>
@@ -78,7 +79,7 @@ labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2
 </td>
 </tr>
 <tr>
-<td>Magento Marketplace </td>
+<td>Magento Marketplace </td>
 <td>
 <p>Merchant (end-user) and developer (technical) documentation:</p>
 <p><a href="https://docs.magento.com/marketplace/user_guide/getting-started.html">https://docs.magento.com/marketplace/user_guide/getting-started.html</a></p>
@@ -86,13 +87,11 @@ labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2
 </tr>
 </tbody>
 </table>
-<p> </p>
-<h2>Blogs and communications</h2>
-<ul>
-<li>Magento security center (security updates and patches): <a href="https://magento.com/security/news">https://magento.com/security/news </a>
-</li>
-<li>Magento Community Developer Blog (how to's, best practices and Magento technical news from Magento community): <a href="https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog">https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog</a>
-</li>
-<li>Magento Blog (high level e-commerce): <a href="https://magento.com/blog">https://magento.com/blog</a>
-</li>
-</ul>
+
+ 
+
+## Blogs and communications
+
+* Magento security center (security updates and patches): [https://magento.com/security/news ](https://magento.com/security/news)
+* Magento Community Developer Blog (how to's, best practices and Magento technical news from Magento community): <https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog>
+* Magento Blog (high level e-commerce): <https://magento.com/blog>

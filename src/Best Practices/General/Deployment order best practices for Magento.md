@@ -4,4 +4,4 @@ link: https://support.magento.com/hc/en-us/articles/115002594793-Deployment-orde
 labels: Magento Commerce Cloud,devdocs,build,deployment,best practices
 ---
 
-<p>Please refer to <a href="https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices">Deployment process: Best practices for builds and deployment</a> on Magento DevDocs.</p>
+Please refer to [Deployment process: Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) on Magento DevDocs.

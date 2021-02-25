@@ -4,8 +4,10 @@ link: https://support.magento.com/hc/en-us/articles/360029351531-Magento-site-do
 labels: Magento Commerce Cloud,Magento Commerce,Troubleshooter,site,down,decision,tree,how to
 ---
 
-<p>Click on each question to reveal the answer details in each step of the troubleshooter.</p>
+Click on each question to reveal the answer details in each step of the troubleshooter.
+
 <!---------This opens the main level that holds everything.--------------->
+
 <div class="zd-accordion">
 <!---------This is one whole accordion panel.--------------->
 <div class="zd-accordion-panel">
@@ -22,16 +24,16 @@ labels: Magento Commerce Cloud,Magento Commerce,Troubleshooter,site,down,decisio
 <!---------This is one whole accordion panel.--------------->
 <div class="zd-accordion-panel">
 <h5>Step 3</h5>
-<div class="zd-accordion-section">Check your website in a web browser. Do you get a 200 (OK) code?  (To check error codes in Firefox: Click the Open Menu icon&gt;&gt;Web Developer&gt;&gt;Toggle Tools&gt;&gt;Network tab&gt;&gt;All filter&gt;&gt;Status column. To check error codes in Chrome: Click the Open Menu icon&gt;&gt;More Tools&gt;&gt;Developer Tools&gt;&gt;Network tab&gt;&gt;All filter&gt;&gt;Status column.)</div>
+<div class="zd-accordion-section">Check your website in a web browser. Do you get a 200 (OK) code?  (To check error codes in Firefox: Click the Open Menu icon>>Web Developer>>Toggle Tools>>Network tab>>All filter>>Status column. To check error codes in Chrome: Click the Open Menu icon>>More Tools>>Developer Tools>>Network tab>>All filter>>Status column.)</div>
 <p class="zd-accordion-text">a. YES – Open a <a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a> for further investigation.<br/> b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-4">Step 4</a>.</p>
 </div>
 <!---------This is one whole accordion panel.--------------->
 <div class="zd-accordion-panel">
 <h5>Step 4</h5>
 <div class="zd-accordion-section">Which website error code did you receive?</div>
-<p class="zd-accordion-text">a. Error Code 500 – Check log of <code>/var/log/platform/&lt;project_id&gt;</code>. If this data does not present the issue to you, you can open a <a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a> and include the troubleshooting information you have so far for further investigation.</p>
+<p class="zd-accordion-text">a. Error Code 500 – Check log of <code>/var/log/platform/&lt;project_id></code>. If this data does not present the issue to you, you can open a <a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a> and include the troubleshooting information you have so far for further investigation.</p>
 <p class="zd-accordion-text">b. Error Code 503 – Check log of <code>var/reports</code>. If this data does not present the issue to you, you can open a <a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a> and include the troubleshooting information you have so far for further investigation.</p>
-<p class="zd-accordion-text">c. Error Code 404 - Run the following query: <code>SELECT f.flag_data-&gt;&gt;'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data-&gt;&gt;'$.current_version' WHERE flag_code = 'staging';</code> If the query returns a table, where <code>update_exists</code> value is "0", refer to the <a href="https://support.magento.com/hc/en-us/articles/360000262174">Error 404 on all pages, storefront and Admin, due to Content Staging issue</a> article. In all other cases proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.</p>
+<p class="zd-accordion-text">c. Error Code 404 - Run the following query: <code>SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';</code> If the query returns a table, where <code>update_exists</code> value is "0", refer to the <a href="https://support.magento.com/hc/en-us/articles/360000262174">Error 404 on all pages, storefront and Admin, due to Content Staging issue</a> article. In all other cases proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.</p>
 <p class="zd-accordion-text">d. Other Error Codes – Proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.</p>
 </div>
 <!---------This is one whole accordion panel.--------------->
@@ -62,13 +64,13 @@ labels: Magento Commerce Cloud,Magento Commerce,Troubleshooter,site,down,decisio
 <div class="zd-accordion-panel">
 <h5>Step 9</h5>
 <div class="zd-accordion-section">Is your static content not available?</div>
-<p class="zd-accordion-text">a. YES – Proceed with consulting the <a href="https://support.magento.com/hc/en-us/articles/360031624091">Checking static content</a> article.<br/> b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-10">Step 10</a>.</p>
+<p class="zd-accordion-text">a. YES – Proceed with consulting the <a href="https://support.magento.com/hc/en-us/articles/360031624091">Checking static content</a> article.<br/> b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-10">Step 10</a>.</p>
 </div>
 <!---------This is one whole accordion panel.--------------->
 <div class="zd-accordion-panel">
 <h5>Step 10</h5>
 <div class="zd-accordion-section">Do you see PHP Fatal Errors in your logs?</div>
-<p class="zd-accordion-text">a. YES – Proceed with consulting <a href="https://support.magento.com/hc/en-us/articles/360030568432">Common PHP Fatal Errors and solutions</a>.<br/> b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-11">Step 11</a>.</p>
+<p class="zd-accordion-text">a. YES – Proceed with consulting <a href="https://support.magento.com/hc/en-us/articles/360030568432">Common PHP Fatal Errors and solutions</a>.<br/> b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-11">Step 11</a>.</p>
 </div>
 <!---------This is one whole accordion panel.--------------->
 <div class="zd-accordion-panel">
@@ -114,7 +116,11 @@ labels: Magento Commerce Cloud,Magento Commerce,Troubleshooter,site,down,decisio
 </div>
 <!---------This closes the main level that holds everything.--------------->
 </div>
-<p> </p>
-<p><a href="#zd-accordion-1">Back to Step 1</a></p>
-<p> </p>
-<p>Click <a href="https://support.magento.com/hc/en-us/articles/360031107111">HERE</a> to see the Site Down Troubleshooting Flowchart.</p>
+
+ 
+
+[Back to Step 1](#zd-accordion-1)
+
+ 
+
+Click [HERE](https://support.magento.com/hc/en-us/articles/360031107111) to see the Site Down Troubleshooting Flowchart.
