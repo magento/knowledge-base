@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - master
+      - uat_test_1
 
 jobs:
   test:
