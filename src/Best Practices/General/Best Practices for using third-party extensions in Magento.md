@@ -28,3 +28,4 @@ Follow the Best Practices described below to avoid performance issues caused by 
 
 * [Magento Commerce Cloud: Technologies and requirements - Development and testing](https://devdocs.magento.com/cloud/requirements/cloud-requirements.html#cloud-req-devtest) 
 * [Magento Commerce Cloud: Go live and launch - Why test fully in Integration and Staging?](https://devdocs.magento.com/cloud/live/live.html#whytest) 
+* test test test
