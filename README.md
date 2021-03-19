@@ -2,7 +2,7 @@
 
 ## Description
 
-A description of what this project does.
+A short description of what this project does.
 
 
 ## Goals
