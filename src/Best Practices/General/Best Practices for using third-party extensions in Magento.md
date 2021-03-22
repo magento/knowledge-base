@@ -18,7 +18,7 @@ Magento third-party extensions have the potential to cause various issues that m
 
 Follow the Best Practices described below to avoid performance issues caused by third-party extensions.
 
-## Best Practices
+## Best Practices Best Practices
 
 1. Keep your third-party extensions up-to-date to their latest versions.
 1. If you cannot keep your third-party extensions up-to-date to their latest versions, consider using different extensions.
