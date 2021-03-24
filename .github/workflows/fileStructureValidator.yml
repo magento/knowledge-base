@@ -1,0 +1,17 @@
+name: File Structure Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checking out
+      uses: actions/checkout@v2
+
+    - name: Run Validator
+      run: sh ./_checks/directoryStructure/validate.sh
