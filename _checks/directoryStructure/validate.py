@@ -4,11 +4,18 @@ import os
 import fnmatch
 
 # Declare global variables
+EXIT_CODE = 0
 ARTICLE_PATH_DEPTH = 4
-EXCLUDE_FILES = [
+EXCLUDE_FILES_MD_STRUCT_TEST = [
     '.git/*',
     './src/TESTING/*.[mM][dD]',
-    './README.md',
+    './README.md'
+]
+EXCLUDE_FILES_ASSETS_STRUCT_TEST = [
+    '*/assets/*',
+    './_checks/*',
+    './COPYING.txt',
+    './LICENSE.txt'
 ]
 
 
@@ -76,11 +83,30 @@ failed_md_depths = validate_path_depth(
     file_list=build_file_list(
         start_dir="./",
         file_mask="**/**.[mM][dD]",
-        exclude_list=EXCLUDE_FILES,
+        exclude_list=EXCLUDE_FILES_MD_STRUCT_TEST,
         recursive=True),
     depth=ARTICLE_PATH_DEPTH)
 
 if len(failed_md_depths):
+    EXIT_CODE = 1
+    print("MD files must be placed according to the following directory structure:")
+    print("./src/[Category Name Directory]/[Section Name Directory]/")
     print("The following MD files did fail the directory structure integrity test:")
     print("\n".join(failed_md_depths))
-    sys.exit(1)
+    print()
+
+failed_assets = build_file_list(
+    start_dir='./',
+    file_mask="**/**.*[!mMdD]",
+    exclude_list=EXCLUDE_FILES_ASSETS_STRUCT_TEST,
+    recursive=True)
+
+if len(failed_assets):
+    EXIT_CODE = 1
+    print("Asset files must be placed according to the following directory structure:")
+    print("./src/[Category Name Directory]/[Section Name Directory]/assets/")
+    print("The following files did fail the assets directory structure integrity test:")
+    print("\n".join(failed_assets))
+    print()
+
+sys.exit(EXIT_CODE)
