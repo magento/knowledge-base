@@ -6,12 +6,17 @@ on:
       - main
 
 jobs:
-  test:
+  validate_integrity:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checking out
       uses: actions/checkout@v2
 
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
     - name: Run Validator
-      run: sh ./_checks/directoryStructure/validate.sh
+      run: python ./_checks/directoryStructure/validate.py
