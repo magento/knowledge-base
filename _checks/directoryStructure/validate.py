@@ -10,7 +10,7 @@ EXCLUDE_FILES = [
 ]
 
 
-def get_file_list(start_dir: str = "./", file_mask: str = "**/**.*", recursive: bool = False) -> list:
+def build_file_list(start_dir: str = "./", file_mask: str = "**/**.*", recursive: bool = False) -> list:
     """
     Build the file list for the given directory by mask
 
@@ -46,11 +46,10 @@ def validate_path_depth(file_paths: list, depth: int) -> list:
     return failed_files
 
 
-failed_md_depths = validate_path_depth(get_file_list("./", "**/**.[mM][dD]", True), ARTICLE_PATH_DEPTH)
+failed_md_depths = validate_path_depth(build_file_list("./", "**/**.[mM][dD]", True), ARTICLE_PATH_DEPTH)
 
 if len(failed_md_depths):
     print("The following MD files did fail the directory structure integrity test:")
     print("\n".join(failed_md_depths))
     sys.exit(1)
 
-sys.exit(0)
