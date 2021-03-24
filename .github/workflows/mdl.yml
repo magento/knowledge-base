@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - uat_test_1
+      - main
 
 jobs:
   test:
