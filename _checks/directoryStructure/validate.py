@@ -75,8 +75,7 @@ def exclude_files_from_list(file_list: list, exclude_list: list) -> list:
             if fnmatch.fnmatch(file, exclude):
                 filtered_list.append(file)
 
-    filtered_list = set(filtered_list)
-    return [item for item in file_list if item not in filtered_list]
+    return [item for item in file_list if item not in set(filtered_list)]
 
 
 failed_md_depths = validate_path_depth(
