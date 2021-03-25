@@ -22,7 +22,7 @@ EXCLUDE_FILES_MD_STRUCT_TEST = [
     './README.md'
 ]
 EXCLUDE_FILES_ASSETS_STRUCT_TEST = [
-    '*/assets/*',
+    './src/*/*/assets/*',
     './_checks/*',
     './COPYING.txt',
     './LICENSE.txt'
@@ -117,5 +117,15 @@ if len(failed_assets):
     print("The following files did fail the assets directory structure integrity test:")
     print("\n".join(failed_assets))
     print()
+
+print("\033[95mAsset files must be placed according to the following directory structure:")
+print("\033[94mAsset files must be placed according to the following directory structure:")
+print("\033[96mAsset files must be placed according to the following directory structure:")
+print("\033[92mAsset files must be placed according to the following directory structure:")
+print("\033[93mAsset files must be placed according to the following directory structure:")
+print("\033[91mAsset files must be placed according to the following directory structure:")
+print("\033[0mAsset files must be placed according to the following directory structure:")
+print("\033[1mAsset files must be placed according to the following directory structure:")
+print("\033[4mAsset files must be placed according to the following directory structure:")
 
 sys.exit(EXIT_CODE)
