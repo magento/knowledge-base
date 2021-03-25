@@ -1,13 +1,14 @@
-name: Markdown linting test
+name: Markdown Linting Test
 
 on:
   pull_request:
     branches:
       - master
       - uat_test_1
+      - main
 
 jobs:
-  test:
+  mdl:
     runs-on: ubuntu-latest
     
     steps:
