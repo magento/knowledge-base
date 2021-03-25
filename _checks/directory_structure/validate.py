@@ -10,22 +10,18 @@
 
 import sys
 import glob
-import os
 import fnmatch
 
 # Declare global variables
 EXIT_CODE = 0
-ARTICLE_PATH_DEPTH = 4
-EXCLUDE_FILES_MD_STRUCT_TEST = [
-    '.git/*',
-    './src/TESTING/*.[mM][dD]',
-    './README.md'
-]
-EXCLUDE_FILES_ASSETS_STRUCT_TEST = [
-    './src/*/*/assets/*',
+EXCLUDE_MASK = [
+    './src/**/**/*.md',
+    './src/**/**/assets/*.*',
     './_checks/*',
     './COPYING.txt',
-    './LICENSE.txt'
+    './LICENSE.txt',
+    './src/TESTING/*.*',
+    './README.md'
 ]
 TERM_COLORS = {
     'purple': '\033[95m',
@@ -63,25 +59,6 @@ def build_file_list(start_dir: str = "./",
     return exclude_files_from_list(filenames, exclude_list)
 
 
-def validate_path_depth(file_list: list, depth: int) -> list:
-    """
-    Walks through the list of files and validate each record directory depth
-
-    :param file_list: The list of file paths to validate
-    :param depth: Acceptable directory depth
-    :return: The list of files that didn't pass the validation
-    :rtype: list
-    """
-
-    failed_files = []
-    for file in file_list:
-        path_elements = os.path.split(file)
-        if len(path_elements[0].split(os.sep)) is not depth:
-            failed_files.append(file)
-
-    return failed_files
-
-
 def exclude_files_from_list(file_list: list, exclude_list: list) -> list:
     """
     Apply exclude list to the list of files
@@ -99,52 +76,30 @@ def exclude_files_from_list(file_list: list, exclude_list: list) -> list:
     return [item for item in file_list if item not in set(filtered_list)]
 
 
-failed_md_depths = validate_path_depth(
-    file_list=build_file_list(
-        start_dir="./",
-        file_mask="**/**.[mM][dD]",
-        exclude_list=EXCLUDE_FILES_MD_STRUCT_TEST,
-        recursive=True),
-    depth=ARTICLE_PATH_DEPTH)
-
-if len(failed_md_depths):
-    EXIT_CODE = 1
-
-    print(f"{TERM_COLORS['red']}"
-          f"The following MD files did fail the directory structure integrity test:"
-          f"{TERM_COLORS['reset']}")
-    print(f"\n".join(failed_md_depths))
-    print(f"\n{TERM_COLORS['purple']}"
-          f"MD files must be placed according to the following directory structure:\n"
-          f"{TERM_COLORS['reset']}"
-          f"./src/[Category Name Directory]/[Section Name Directory]/\n"
-          f"\n")
-
-failed_assets = build_file_list(
+failed_files = build_file_list(
     start_dir='./',
-    file_mask="**/**.*[!mMdD]",
-    exclude_list=EXCLUDE_FILES_ASSETS_STRUCT_TEST,
+    file_mask="**/**.*",
+    exclude_list=EXCLUDE_MASK,
     recursive=True)
 
-if len(failed_assets):
+if len(failed_files):
     EXIT_CODE = 1
     print(f"{TERM_COLORS['red']}"
-          f"The following files did fail the assets directory structure integrity test:"
+          f"The following files did fail the directory structure integrity test:"
           f"{TERM_COLORS['reset']}")
-    print(f"\n".join(failed_assets))
-    print(f"\n{TERM_COLORS['purple']}"
+    print(f"\n".join(failed_files))
+    print(f"\n")
+    print(f"{TERM_COLORS['purple']}"
+          f"MD files must be placed according to the following directory structure:\n"
+          f"{TERM_COLORS['reset']}"
+          f"./src/[Category Name Directory]/[Section Name Directory]/\n")
+    print(f"{TERM_COLORS['purple']}"
           f"Asset files must be placed according to the following directory structure:\n"
           f"{TERM_COLORS['reset']}"
-          f"./src/[Category Name Directory]/[Section Name Directory]/assets/\n"
-          f"\n")
-
-if not EXIT_CODE:
+          f"./src/[Category Name Directory]/[Section Name Directory]/assets/\n")
+else:
     print(f"{TERM_COLORS['green']}"
           f"File Structure test has been passed."
-          f"{TERM_COLORS['reset']}")
-else:
-    print(f"{TERM_COLORS['red']}"
-          f"File Structure test has been failed."
           f"{TERM_COLORS['reset']}")
 
 sys.exit(EXIT_CODE)
