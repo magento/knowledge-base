@@ -27,6 +27,17 @@ EXCLUDE_FILES_ASSETS_STRUCT_TEST = [
     './COPYING.txt',
     './LICENSE.txt'
 ]
+TERM_COLORS = {
+    'purple': '\033[95m',
+    'blue': '\033[94m',
+    'cyan': '\033[96m',
+    'green': '\033[92m',
+    'yellow': '\033[93m',
+    'red': '\033[91m',
+    'bold': '\033[1m',
+    'underscore': '\033[4m',
+    'reset': '\033[0m'
+}
 
 
 def build_file_list(start_dir: str = "./",
@@ -98,11 +109,16 @@ failed_md_depths = validate_path_depth(
 
 if len(failed_md_depths):
     EXIT_CODE = 1
-    print("MD files must be placed according to the following directory structure:")
-    print("./src/[Category Name Directory]/[Section Name Directory]/")
-    print("The following MD files did fail the directory structure integrity test:")
-    print("\n".join(failed_md_depths))
-    print()
+
+    print(f"{TERM_COLORS['red']}"
+          f"The following MD files did fail the directory structure integrity test:"
+          f"{TERM_COLORS['reset']}")
+    print(f"\n".join(failed_md_depths))
+    print(f"\n{TERM_COLORS['purple']}"
+          f"MD files must be placed according to the following directory structure:\n"
+          f"{TERM_COLORS['reset']}"
+          f"./src/[Category Name Directory]/[Section Name Directory]/\n"
+          f"\n")
 
 failed_assets = build_file_list(
     start_dir='./',
@@ -112,20 +128,23 @@ failed_assets = build_file_list(
 
 if len(failed_assets):
     EXIT_CODE = 1
-    print("Asset files must be placed according to the following directory structure:")
-    print("./src/[Category Name Directory]/[Section Name Directory]/assets/")
-    print("The following files did fail the assets directory structure integrity test:")
-    print("\n".join(failed_assets))
-    print()
+    print(f"{TERM_COLORS['red']}"
+          f"The following files did fail the assets directory structure integrity test:"
+          f"{TERM_COLORS['reset']}")
+    print(f"\n".join(failed_assets))
+    print(f"\n{TERM_COLORS['purple']}"
+          f"Asset files must be placed according to the following directory structure:\n"
+          f"{TERM_COLORS['reset']}"
+          f"./src/[Category Name Directory]/[Section Name Directory]/assets/\n"
+          f"\n")
 
-print("\033[95mAsset files must be placed according to the following directory structure:")
-print("\033[94mAsset files must be placed according to the following directory structure:")
-print("\033[96mAsset files must be placed according to the following directory structure:")
-print("\033[92mAsset files must be placed according to the following directory structure:")
-print("\033[93mAsset files must be placed according to the following directory structure:")
-print("\033[91mAsset files must be placed according to the following directory structure:")
-print("\033[0mAsset files must be placed according to the following directory structure:")
-print("\033[1mAsset files must be placed according to the following directory structure:")
-print("\033[4mAsset files must be placed according to the following directory structure:")
+if not EXIT_CODE:
+    print(f"{TERM_COLORS['green']}"
+          f"File Structure test has been passed."
+          f"{TERM_COLORS['reset']}")
+else:
+    print(f"{TERM_COLORS['red']}"
+          f"File Structure test has been failed."
+          f"{TERM_COLORS['reset']}")
 
 sys.exit(EXIT_CODE)
