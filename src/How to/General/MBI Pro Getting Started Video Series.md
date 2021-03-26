@@ -14,7 +14,7 @@ Before you can start analyzing your data, you need to connect all of your dispar
 
 Additional information:
 
-* [Connecting your data sources](https://support.magento.com/hc/en-us/articles/360005150814#connect_your_data)
+* [Connecting your data sources](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/connecting-data.html)
 * [Using the File Uploader](https://support.magento.com/hc/en-us/articles/360016730951-Using-the-File-Uploader)
 * [Using the Import API](https://support.magento.com/hc/en-us/articles/360016731331-Using-the-CloudBI-Import-API)
 
@@ -67,12 +67,4 @@ Additional information:
 * [Dashboard sharing best practices](https://support.magento.com/hc/en-us/articles/360016730851-Dashboard-sharing-best-practices)
 * [Deleting dashboards](https://support.magento.com/hc/en-us/articles/360016731531-Deleting-Dashboards)
 
-## And that’s a quick look at getting started.
-
-If you want to dig a little deeper into anything we covered in this series, check out the [Getting Started Guide](https://support.magento.com/hc/en-us/articles/360016504432). You can also head over to our training video sections:
-
-* [Training Videos: The Basics](https://support.magento.com/hc/en-us/sections/360003077911-Training-Videos-The-Basics)
-* [Training Videos: Data Warehouse Manager](https://support.magento.com/hc/en-us/sections/360003074232-Training-Videos-Data-Warehouse-Manager)
-* [Training Videos: Report Builders](https://support.magento.com/hc/en-us/sections/360003074252-Training-Videos-Report-Builders)
-
-Explore the rest of the help center for more information and tips on getting the most out of Magento BI and if you have any questions, we’re here to help.
+Explore [MBI User Guide](https://docs.magento.com/mbi/) for more information and tips on getting the most out of Magento BI and if you have any questions, we’re here to help.

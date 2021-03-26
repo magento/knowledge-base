@@ -12,7 +12,7 @@ When you change the end date or time of an existing catalog price rule schedule 
 
 Steps to reproduce:
 
-Prerequisites: The `` catalogrule_rule `` indexer is set to "Update on Schedule" mode.
+Prerequisites: The `` catalogrule_rule `` indexer is set to "[Update on Schedule](https://support.magento.com/hc/en-us/articles/360040227191-Indexers-Update-On-Schedule-optimizes-Magento-performance-)" mode.
 
 1. In the Magento Admin, create a new Catalog Price Rule under Marketing > Promotions > Catalog Price Rule.
 1. In the Catalog Price Rule grid, click Edit, schedule a new Update and set Status to _Active._
@@ -21,10 +21,10 @@ Prerequisites: The `` catalogrule_rule `` indexer is set to "Update on Schedule"
 1. Run the reindex command for the `` catalogrule_rule `` indexer.
 
 Expected result:  
- The `` catalogrule_rule `` indexer is reindexed successfully. No duplicate entries in the `` catalogrule `` table.
+The `` catalogrule_rule `` indexer is reindexed successfully. No duplicate entries in the `` catalogrule `` table.
 
 Actual result:  
- Reindex fails with the following error: "_Item with the same ID already exists"_, because there are duplicate entries in the `` catalogrule `` table.
+Reindex fails with the following error: "_Item with the same ID already exists"_, because there are duplicate entries in the `` catalogrule `` table.
 
 ## Solution
 
@@ -80,16 +80,16 @@ UNION
 SELECT block_id as entity_id, "cms_block" AS entity_table FROM cms_block GROUP BY entity_id, updated_in HAVING COUNT(*) > 1;</code></pre>
     
     If there are no duplicate entries, the response will be empty and you do not have to anything else. If the duplicated entries exist, you will get the table name and `` entity_id `` of the duplicated entity, like in the following example:  
-     ![table_results1.png](https://support.magento.com/hc/article_attachments/360026034852/table_results1.png)  
-     Please consider, that in certain tables the name of the field with entity id will be different from `` entity_id ``. For example, in the `` cms_page `` table, it would be `` page_id `` instead of `` entity_id ``.
+    ![table_results1.png](https://support.magento.com/hc/article_attachments/360026034852/table_results1.png)  
+    Please consider, that in certain tables the name of the field with entity id will be different from `` entity_id ``. For example, in the `` cms_page `` table, it would be `` page_id `` instead of `` entity_id ``.
 1. Next you need to take a closer look on the duplicates and to understand which should be removed. Use a query similar to the following to see the duplicates. Replace the table name, entity id name and value according to the results received on the previous step.
     
     <pre><code class="language-sql">SELECT * FROM catalog_product_entity WHERE entity_id = 483 ORDER BY created_in;</code></pre>
     
     You will receive a list of records with multiple columns. You would need to look at the following four: `` row_id ``, `` entity_id ``, `` created_in ``, `` updated_in ``. Example:  
-     ![table_results2.png](https://support.magento.com/hc/article_attachments/360026034332/table_results2.png)  
-     The `` created_in `` and `` updated_in `` values should follow this pattern: the `` created_in `` value of the current row is equal to the `` updated_in `` value in the previous row.  
-     The row(s) for which this pattern is broken, should be deleted. In our example it would be the row with `` row_id ``=1. 1. Delete the duplicate using a query similar to the following. Replace the table name, entity id name and value according to the results received on the previous steps:
+    ![table_results2.png](https://support.magento.com/hc/article_attachments/360026034332/table_results2.png)  
+    The `` created_in `` and `` updated_in `` values should follow this pattern: the `` created_in `` value of the current row is equal to the `` updated_in `` value in the previous row.  
+    The row(s) for which this pattern is broken, should be deleted. In our example it would be the row with `` row_id ``=1. 1. Delete the duplicate using a query similar to the following. Replace the table name, entity id name and value according to the results received on the previous steps:
     
     <pre><code class="language-sql">DELETE FROM catalog_product_entity WHERE entity_id = 483 AND row_id = 2052;</code></pre>
     

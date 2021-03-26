@@ -17,15 +17,15 @@ Steps to reproduce:
 1. Install and configure ElasticSearch. 
 1. On the storefront, select one of the filters.
 1. Make note of the number of matching products.
-1. Configure the default MySQL search.
+1. Configure the default [MySQL search](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0).
 1. On the storefront, select one of the filters.
 1. Make note of the number of matching products.
 
 Expected result:  
- The number of matching products is the same.
+The number of matching products is the same.
 
 Actual result:  
- The number of matching products is different.
+The number of matching products is different.
 
 ## Patch
 

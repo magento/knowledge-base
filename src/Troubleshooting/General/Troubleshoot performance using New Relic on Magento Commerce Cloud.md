@@ -27,7 +27,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <p>Your New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex score</a> measures users' satisfaction with the response time of your web applications and services. </p>
 </td>
 <td>
-<p>You log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. On the right side of the Overview page you see the Apdex score graph. An Apdex score of 0.5 or less is a point of concern and warrants investigation:<br/> <br/> Web-transaction times (server requests):</p>
+<p>You log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. On the right side of the Overview page you see the Apdex score graph. An Apdex score of 0.5 or less is a point of concern and warrants investigation:<br/><br/>Web-transaction times (server requests):</p>
 <ol>
 <ol>
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic </a>> APM > (Select an app) > Overview. Make sure the filter is set to Web transactions time on the main chart drop-down filter. Below in the Transactions table look for App server time. Verify if you have any long running or suspicious transactions.</li>
@@ -55,7 +55,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </ol>
 </td>
 <td>
-<p>To learn more about New Relic Apdex score refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. </p>
+<p>To learn more about New Relic Apdex score refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. <br/>You may also refer to <a href="https://support.magento.com/hc/en-us/articles/360046422091-Managed-alerts-for-Magento-Commerce-Apdex-warning-alert">Managed alerts for Magento Commerce: Apdex warning alert</a>.</p>
 </td>
 </tr>
 <tr>
@@ -95,10 +95,10 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </tr>
 <tr>
 <td>
-<p>Outage:<br/> <br/> New Relic determines outages by Apdex. You will see a red line on the Apdex score graph which indicates Apdex &lt; 0.4, which is considered an outage.</p>
+<p>Outage:<br/><br/>New Relic determines outages by Apdex. You will see a red line on the Apdex score graph which indicates Apdex &lt; 0.4, which is considered an outage.</p>
 </td>
 <td>
-<p>Investigating an outage may take several steps, examining web and non-web transactions, databases and third-party transactions.<br/> <br/> Web Transactions:</p>
+<p>Investigating an outage may take several steps, examining web and non-web transactions, databases and third-party transactions.<br/><br/>Web Transactions:</p>
 <ol>
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic </a>> APM > Overview. Make sure the filter is set to Web transactions time on the drop-down graph filter. </li>
 <li>Manually narrow the time window.</li>

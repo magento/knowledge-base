@@ -12,6 +12,12 @@ This article provides the steps you could take to block malicious traffic, when 
 
 In this article we assume that you already have the malicious IPs and/or their country and userAgents. Magento Commerce Cloud users would typically get this information from Magento Support. The following sections provide steps for blocking traffic based on this information. All the changes should be done in the Production environment.
 
+## Get access to Admin Panel
+
+If your website is overloaded by DDoS, you might not be able to log in to your Magento Admin (and perform all the steps described further in this article).
+
+To get access to Admin, put your website into maintenance mode as described in [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html#instgde-cli-maint) and whitelist your IP address. Disable the maintenance mode after this is done.
+
 ## Block traffic by IP
 
 For the Magento Commerce Cloud store, the most effective way to block traffic by specific IP addresses and subnets is adding an ACL for Fastly in the Magento Admin. Following are the steps with links to more detailed instructions: 

@@ -12,7 +12,7 @@ This article talks about how to fix the issues caused by the encryption key not 
 
 ## Issue
 
-After importing a database dump from Production to Staging/Integration environments, saved credit card numbers appear wrong and/or payments fail for payment integrations requiring usage of merchant credentials. 
+After importing a [database dump](https://support.magento.com/hc/en-us/articles/360003254334-Create-database-dump-on-Cloud) from Production to Staging/Integration environments, saved credit card numbers appear wrong and/or payments fail for payment integrations requiring usage of merchant credentials. 
 
 ## Cause
 

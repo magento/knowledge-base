@@ -1,15 +1,16 @@
 ---
 title: Best practice Magento number of categories limits
 link: https://support.magento.com/hc/en-us/articles/360048176832-Best-practice-Magento-number-of-categories-limits
-labels: Magento Commerce Cloud,category,performance,2.3,index,products,best practices,2.3.x,2.4,2.4.x
+labels: Magento Commerce Cloud,Magento Commerce,category,performance,2.3,index,products,best practices,2.3.x,2.4,2.4.x
 ---
 
-This article provides best practices for number of categories limit. The maximum recommended number of categories is 1. ## Affected products and versions
-
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+This article provides best practices for number of categories limit for Magento Commerce and Magento Commerce Cloud.
 
 ## Best practices
+
+The maximum recommended number of categories varies depending on Magento version:
+
+* Starting with Magento 2.4.2, the maximum recommended number of categories is 1. * For Magento 2.3.x, and 2.4.0-2.4.1-p1, the maximum recommended number of categories is 1. <p class="info">Note: This article only addresses best practices for <a href="https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf">supported versions</a> of Magento Commerce and Magento Commerce Cloud.</p>
 
 The potential site impact of exceeding the limit is:
 

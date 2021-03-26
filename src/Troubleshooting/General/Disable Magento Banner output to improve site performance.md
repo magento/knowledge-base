@@ -41,7 +41,7 @@ When the Magento Banner module is enabled, Magento sends Ajax requests from the 
 
 ## Solution
 
-<p class="warning">We strongly recommend testing changes on Staging/Integration environment first, before applying it to Production. We also recommend having a recent backup before any manipulations.</p>
+<p class="warning">We strongly recommend testing changes on <a href="https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter">Staging/Integration environment</a> first, before applying it to Production. We also recommend having a recent backup before any manipulations.</p>
 
 1. Disable the Magento Banner module output, as described in [Disable module output](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html). The module name you need to use is `` Magento_Banner ``.
 1. Deploy your code. For Magento Commerce Cloud, deploy as described in the [Deploy your store](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) article.

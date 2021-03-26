@@ -55,13 +55,13 @@ To resolve this issue, you must reset the cron job(s) using the `` cron:unlock `
     <pre><code class="language-shell">SELECT * FROM cron_schedule WHERE status = 'running';</code></pre>
     
     
-1. Copy the `` schedule_id `` of any job running longer than usual.
+1. Copy the `` job_code `` of any job running longer than usual.
     
     
 1. Use the schedule IDs from the previous step to unlock specific cron jobs:
     
     
     
-    <pre><code class="language-shell">./vendor/bin/ece-tools cron:unlock --job-code=&lt;schedule_id> --job-code=&lt;schedule_id></code></pre>
+    <pre><code class="language-shell">./vendor/bin/ece-tools cron:unlock --job-code=&lt;job_code_1> [... --job-code=&lt;job_code_x>]</code></pre>
     
     

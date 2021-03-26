@@ -27,7 +27,7 @@ Previously, in Magento Cloud Environment, the Jenkins server was used to run cro
 
 ## Solution
 
-1. Contact Magento support to have self-managed crons enabled.
+1. Contact [Magento support](https://support.magento.com/hc/en-us/articles/360019088251) to have self-managed crons enabled.
 1. Edit the `` .magento.app.yaml `` file in the root directory of the Magento code in the Git branch. Add the following:
     
     <pre><code class="language-yaml"> crons:

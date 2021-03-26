@@ -4,7 +4,7 @@ link: https://support.magento.com/hc/en-us/articles/360038761511-Allocate-more-s
 labels: Magento Commerce Cloud,Pro,MySQL,space,mysql disk space,Magento Pro,Magento Starter,how to,Starter
 ---
 
-For all Starter plan environments and Pro plan Integration environment, you can allocate more space for MySQL in the <code style="font-size: 15px;">.magento/services.yaml</code> file, by increasing the `` mysql: disk: `` parameter. For example:
+For all Starter plan environments and Pro plan [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter), you can allocate more space for MySQL in the <code style="font-size: 15px;">.magento/services.yaml</code> file, by increasing the `` mysql: disk: `` parameter. For example:
 
 <pre><code class="language-yaml">mysql:
     type: mysql:10.0

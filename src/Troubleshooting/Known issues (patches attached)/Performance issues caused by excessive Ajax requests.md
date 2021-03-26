@@ -8,7 +8,7 @@ This article provides a patch for the known Magento Commerce performance issue c
 
 The issue was fixed in Magento Commerce 2.3.1. ## Issue
 
-Magento might be sending redundant Ajax requests from the storefront to the server, to get the banner information and customer information. These Ajax requests have a performance impact, especially in high-load (high-volume and high-traffic) conditions. So if the Banner functionality is not used, it is recommended that you completely [disable the Magento Banner module output](https://support.magento.com/hc/en-us/articles/360035285852) and apply the patch to improve retrieving customer information.
+Magento might be sending redundant [Ajax requests](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) from the storefront to the server, to get the banner information and customer information. These Ajax requests have a performance impact, especially in high-load (high-volume and high-traffic) conditions. So if the Banner functionality is not used, it is recommended that you completely [disable the Magento Banner module output](https://support.magento.com/hc/en-us/articles/360035285852) and apply the patch to improve retrieving customer information.
 
 ## Patch
 

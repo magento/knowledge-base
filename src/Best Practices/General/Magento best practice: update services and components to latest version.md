@@ -16,7 +16,7 @@ Upgrade the services and components used by Magento before they reach or are clo
 
 Customers with Starter plan can self-service with services upgrades. Refer to [Configure services > Change service version](https://devdocs.magento.com/cloud/project/services.html#change-service-version) for details on how to do this.  
 
-Customers with Pro plan, can only self-serve the services upgrades on their Integration environment. For services upgrades on Production, they need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794-Magento-Help-Center-User-Guide#submit-ticket) requesting this upgrade. 
+Customers with Pro plan, can only self-serve the services upgrades on their [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter). For services upgrades on Production, they need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794-Magento-Help-Center-User-Guide#submit-ticket) requesting this upgrade. 
 
 <p class="warning">Please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. </p>
 
