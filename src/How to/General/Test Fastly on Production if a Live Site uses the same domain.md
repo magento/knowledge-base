@@ -32,7 +32,7 @@ Follow these steps to process the subdomain within your Magento Cloud project:
 After performing the steps for subdomain configuration, you must also take these steps to validate your production domain for the SSL certificate:
 
 * Upload the DNS TXT record for SSL validation of your production domain.
-* Submit a support ticket requesting to validate the production domain for the SSL certificate.
+* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting to validate the production domain for the SSL certificate.
 
 Using the subdomain allows you to perform a "soft launch" of your store in future — since such launch only requires updating the corresponding DNS settings.
 

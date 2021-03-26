@@ -55,13 +55,13 @@ To download a patch, scroll down to the end of the article and click the file na
 
 For Magento Commerce/Magento Commerce Cloud/Magento Open Source 2.3.6:
 
-* [Composer patch MC-38033\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](https://support.magento.com/hc/en-us/article_attachments/360074568351/MC-38033___2_3_x-p1__CAPTCHA_COMPOSER.patch)
-* [Git patch MC-38033\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](https://support.magento.com/hc/en-us/article_attachments/360074377532/MC-38033___2_3_x-p1__CAPTCHA_GIT.patch)
+* [Composer patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](https://support.magento.com/hc/en-us/article_attachments/360088788131/MDVA-33093____2_3_x-p1__CAPTCHA_COMPOSER.patch)
+* [Git patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](https://support.magento.com/hc/en-us/article_attachments/360088723432/MDVA-33093____2_3_x-p1__CAPTCHA_GIT.patch)
 
 For Magento Commerce/Magento Commerce Cloud/Magento Open Source 2.4.1:
 
-* [Composer patch MC-38072\_\_\_2\_4\_x-p1\_\_CAPTCHA\_COMPOSER.patch](https://support.magento.com/hc/en-us/article_attachments/360074377552/MC-38072___2_4_x-p1__CAPTCHA_COMPOSER.patch)
-* [Git patch MC-38072\_\_\_2\_4\_x-p1\_\_CAPTCHA\_GIT.patch](https://support.magento.com/hc/en-us/article_attachments/360074568371/MC-38072___2_4_x-p1__CAPTCHA_GIT.patch)
+* [Composer patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_COMPOSER.patch](https://support.magento.com/hc/en-us/article_attachments/360088788151/MDVA-33093____2_4_x-p1__CAPTCHA_COMPOSER.patch)
+* [Git patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_GIT.patch](https://support.magento.com/hc/en-us/article_attachments/360088723452/MDVA-33093____2_4_x-p1__CAPTCHA_GIT.patch)
 
 These patches are not compatible with any other Magento versions and editions.
 

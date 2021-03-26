@@ -1,11 +1,8 @@
-Index: vendor/magento/module-checkout/Api/Exception/PaymentProcessingRateLimitExceededException.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Api/Exception/PaymentProcessingRateLimitExceededException.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/Api/Exception/PaymentProcessingRateLimitExceededException.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -11,7 +11,7 @@
+diff --git a/vendor/magento/module-checkout/Api/Exception/PaymentProcessingRateLimitExceededException.php b/vendor/magento/module-checkout/Api/Exception/PaymentProcessingRateLimitExceededException.php
+index e398bf40039..018c18112a7 100644
+--- a/vendor/magento/module-checkout/Api/Exception/PaymentProcessingRateLimitExceededException.php
++++ b/vendor/magento/module-checkout/Api/Exception/PaymentProcessingRateLimitExceededException.php
+@@ -11,7 +11,7 @@ namespace Magento\Checkout\Api\Exception;
  use Magento\Framework\Exception\LocalizedException;
  
  /**
@@ -14,13 +11,11 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
   */
  class PaymentProcessingRateLimitExceededException extends LocalizedException
  {
-Index: vendor/magento/module-checkout/Api/PaymentSavingRateLimiterInterface.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Api/PaymentSavingRateLimiterInterface.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-+++ vendor/magento/module-checkout/Api/PaymentSavingRateLimiterInterface.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
+diff --git a/vendor/magento/module-checkout/Api/PaymentSavingRateLimiterInterface.php b/vendor/magento/module-checkout/Api/PaymentSavingRateLimiterInterface.php
+new file mode 100644
+index 00000000000..c964029ff8b
+--- /dev/null
++++ b/vendor/magento/module-checkout/Api/PaymentSavingRateLimiterInterface.php
 @@ -0,0 +1,25 @@
 +<?php
 +/**
@@ -47,14 +42,11 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +     */
 +    public function limit(): void;
 +}
-Index: vendor/magento/module-checkout/Model/CaptchaPaymentProcessingRateLimiter.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Model/CaptchaPaymentProcessingRateLimiter.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/Model/CaptchaPaymentProcessingRateLimiter.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -12,42 +12,23 @@
+diff --git a/vendor/magento/module-checkout/Model/CaptchaPaymentProcessingRateLimiter.php b/vendor/magento/module-checkout/Model/CaptchaPaymentProcessingRateLimiter.php
+index 6f71423acbc..68860b629c2 100644
+--- a/vendor/magento/module-checkout/Model/CaptchaPaymentProcessingRateLimiter.php
++++ b/vendor/magento/module-checkout/Model/CaptchaPaymentProcessingRateLimiter.php
+@@ -12,42 +12,23 @@ use Magento\Authorization\Model\UserContextInterface;
  use Magento\Checkout\Api\Exception\PaymentProcessingRateLimitExceededException;
  use Magento\Checkout\Api\PaymentProcessingRateLimiterInterface;
  use Magento\Customer\Api\CustomerRepositoryInterface;
@@ -75,7 +67,8 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  
      /**
 -     * @var UserContextInterface
--     */
++     * @var CaptchaRateLimiter
+      */
 -    private $userContext;
 -
 -    /**
@@ -90,8 +83,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 -
 -    /**
 -     * @var RequestInterface
-+     * @var CaptchaRateLimiter
-      */
+-     */
 -    private $request;
 -
 -    /**
@@ -102,7 +94,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  
      /**
       * CaptchaPaymentProcessingRateLimiter constructor.
-@@ -57,19 +38,25 @@
+@@ -57,19 +38,25 @@ class CaptchaPaymentProcessingRateLimiter implements PaymentProcessingRateLimite
       * @param CaptchaHelper $captchaHelper
       * @param RequestInterface $request
       * @param CaptchaResolver $captchaResolver
@@ -134,7 +126,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
      }
  
      /**
-@@ -77,47 +64,10 @@
+@@ -77,47 +64,10 @@ class CaptchaPaymentProcessingRateLimiter implements PaymentProcessingRateLimite
       */
      public function limit(): void
      {
@@ -169,7 +161,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 -        if ($exception) {
 -            throw $exception;
 -        }
-     }
+-    }
 -
 -    /**
 -     * Retrieve current user login.
@@ -184,15 +176,13 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 -        }
 -
 -        return $login;
--    }
+     }
  }
-Index: vendor/magento/module-checkout/Model/CaptchaPaymentSavingRateLimiter.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Model/CaptchaPaymentSavingRateLimiter.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-+++ vendor/magento/module-checkout/Model/CaptchaPaymentSavingRateLimiter.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
+diff --git a/vendor/magento/module-checkout/Model/CaptchaPaymentSavingRateLimiter.php b/vendor/magento/module-checkout/Model/CaptchaPaymentSavingRateLimiter.php
+new file mode 100644
+index 00000000000..7d52a1a0e19
+--- /dev/null
++++ b/vendor/magento/module-checkout/Model/CaptchaPaymentSavingRateLimiter.php
 @@ -0,0 +1,55 @@
 +<?php
 +/**
@@ -249,13 +239,11 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +        }
 +    }
 +}
-Index: vendor/magento/module-checkout/Model/CaptchaRateLimiter.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Model/CaptchaRateLimiter.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-+++ vendor/magento/module-checkout/Model/CaptchaRateLimiter.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
+diff --git a/vendor/magento/module-checkout/Model/CaptchaRateLimiter.php b/vendor/magento/module-checkout/Model/CaptchaRateLimiter.php
+new file mode 100644
+index 00000000000..e643d61e82b
+--- /dev/null
++++ b/vendor/magento/module-checkout/Model/CaptchaRateLimiter.php
 @@ -0,0 +1,129 @@
 +<?php
 +/**
@@ -386,14 +374,11 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +        return $login;
 +    }
 +}
-Index: vendor/magento/module-checkout/Model/GuestPaymentInformationManagement.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Model/GuestPaymentInformationManagement.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/Model/GuestPaymentInformationManagement.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -7,7 +7,9 @@
+diff --git a/vendor/magento/module-checkout/Model/GuestPaymentInformationManagement.php b/vendor/magento/module-checkout/Model/GuestPaymentInformationManagement.php
+index 2b2824213df..0ca398b73a0 100644
+--- a/vendor/magento/module-checkout/Model/GuestPaymentInformationManagement.php
++++ b/vendor/magento/module-checkout/Model/GuestPaymentInformationManagement.php
+@@ -7,7 +7,9 @@ declare(strict_types=1);
  
  namespace Magento\Checkout\Model;
  
@@ -403,11 +388,10 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  use Magento\Framework\App\ObjectManager;
  use Magento\Quote\Api\CartRepositoryInterface;
  use Magento\Framework\Exception\CouldNotSaveException;
-@@ -61,6 +63,16 @@
-      */
+@@ -62,6 +64,16 @@ class GuestPaymentInformationManagement implements \Magento\Checkout\Api\GuestPa
      private $paymentsRateLimiter;
  
-+    /**
+     /**
 +     * @var PaymentSavingRateLimiterInterface
 +     */
 +    private $savingRateLimiter;
@@ -417,10 +401,11 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +     */
 +    private $saveRateLimitDisabled = false;
 +
-     /**
++    /**
       * @param \Magento\Quote\Api\GuestBillingAddressManagementInterface $billingAddressManagement
       * @param \Magento\Quote\Api\GuestPaymentMethodManagementInterface $paymentMethodManagement
-@@ -69,6 +81,7 @@
+      * @param \Magento\Quote\Api\GuestCartManagementInterface $cartManagement
+@@ -69,6 +81,7 @@ class GuestPaymentInformationManagement implements \Magento\Checkout\Api\GuestPa
       * @param \Magento\Quote\Model\QuoteIdMaskFactory $quoteIdMaskFactory
       * @param CartRepositoryInterface $cartRepository
       * @param PaymentProcessingRateLimiterInterface|null $paymentsRateLimiter
@@ -428,7 +413,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
       * @codeCoverageIgnore
       */
      public function __construct(
-@@ -78,7 +91,8 @@
+@@ -78,7 +91,8 @@ class GuestPaymentInformationManagement implements \Magento\Checkout\Api\GuestPa
          \Magento\Checkout\Api\PaymentInformationManagementInterface $paymentInformationManagement,
          \Magento\Quote\Model\QuoteIdMaskFactory $quoteIdMaskFactory,
          CartRepositoryInterface $cartRepository,
@@ -438,7 +423,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
      ) {
          $this->billingAddressManagement = $billingAddressManagement;
          $this->paymentMethodManagement = $paymentMethodManagement;
-@@ -88,6 +102,8 @@
+@@ -88,6 +102,8 @@ class GuestPaymentInformationManagement implements \Magento\Checkout\Api\GuestPa
          $this->cartRepository = $cartRepository;
          $this->paymentsRateLimiter = $paymentsRateLimiter
              ?? ObjectManager::getInstance()->get(PaymentProcessingRateLimiterInterface::class);
@@ -447,7 +432,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
      }
  
      /**
-@@ -99,7 +115,14 @@
+@@ -99,7 +115,14 @@ class GuestPaymentInformationManagement implements \Magento\Checkout\Api\GuestPa
          \Magento\Quote\Api\Data\PaymentInterface $paymentMethod,
          \Magento\Quote\Api\Data\AddressInterface $billingAddress = null
      ) {
@@ -463,7 +448,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
          try {
              $orderId = $this->cartManagement->placeOrder($cartId);
          } catch (\Magento\Framework\Exception\LocalizedException $e) {
-@@ -130,7 +153,14 @@
+@@ -130,7 +153,14 @@ class GuestPaymentInformationManagement implements \Magento\Checkout\Api\GuestPa
          \Magento\Quote\Api\Data\PaymentInterface $paymentMethod,
          \Magento\Quote\Api\Data\AddressInterface $billingAddress = null
      ) {
@@ -479,13 +464,10 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  
          $quoteIdMask = $this->quoteIdMaskFactory->create()->load($cartId, 'masked_id');
          /** @var Quote $quote */
-Index: vendor/magento/module-checkout/Model/PaymentInformationManagement.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Model/PaymentInformationManagement.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/Model/PaymentInformationManagement.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
+diff --git a/vendor/magento/module-checkout/Model/PaymentInformationManagement.php b/vendor/magento/module-checkout/Model/PaymentInformationManagement.php
+index a6e448ecdb8..3b36391530c 100644
+--- a/vendor/magento/module-checkout/Model/PaymentInformationManagement.php
++++ b/vendor/magento/module-checkout/Model/PaymentInformationManagement.php
 @@ -6,7 +6,9 @@
  
  namespace Magento\Checkout\Model;
@@ -496,11 +478,10 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  use Magento\Framework\App\ObjectManager;
  use Magento\Framework\Exception\CouldNotSaveException;
  
-@@ -58,6 +60,16 @@
-      */
+@@ -59,12 +61,23 @@ class PaymentInformationManagement implements \Magento\Checkout\Api\PaymentInfor
      private $paymentRateLimiter;
  
-+    /**
+     /**
 +     * @var PaymentSavingRateLimiterInterface
 +     */
 +    private $saveRateLimiter;
@@ -510,10 +491,10 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +     */
 +    private $saveRateLimiterDisabled = false;
 +
-     /**
++    /**
       * @param \Magento\Quote\Api\BillingAddressManagementInterface $billingAddressManagement
       * @param \Magento\Quote\Api\PaymentMethodManagementInterface $paymentMethodManagement
-@@ -65,6 +77,7 @@
+      * @param \Magento\Quote\Api\CartManagementInterface $cartManagement
       * @param PaymentDetailsFactory $paymentDetailsFactory
       * @param \Magento\Quote\Api\CartTotalRepositoryInterface $cartTotalsRepository
       * @param PaymentProcessingRateLimiterInterface|null $paymentRateLimiter
@@ -521,7 +502,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
       * @codeCoverageIgnore
       */
      public function __construct(
-@@ -73,7 +86,8 @@
+@@ -73,7 +86,8 @@ class PaymentInformationManagement implements \Magento\Checkout\Api\PaymentInfor
          \Magento\Quote\Api\CartManagementInterface $cartManagement,
          \Magento\Checkout\Model\PaymentDetailsFactory $paymentDetailsFactory,
          \Magento\Quote\Api\CartTotalRepositoryInterface $cartTotalsRepository,
@@ -531,7 +512,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
      ) {
          $this->billingAddressManagement = $billingAddressManagement;
          $this->paymentMethodManagement = $paymentMethodManagement;
-@@ -82,6 +96,8 @@
+@@ -82,6 +96,8 @@ class PaymentInformationManagement implements \Magento\Checkout\Api\PaymentInfor
          $this->cartTotalsRepository = $cartTotalsRepository;
          $this->paymentRateLimiter = $paymentRateLimiter
              ?? ObjectManager::getInstance()->get(PaymentProcessingRateLimiterInterface::class);
@@ -540,7 +521,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
      }
  
      /**
-@@ -92,7 +108,14 @@
+@@ -92,7 +108,14 @@ class PaymentInformationManagement implements \Magento\Checkout\Api\PaymentInfor
          \Magento\Quote\Api\Data\PaymentInterface $paymentMethod,
          \Magento\Quote\Api\Data\AddressInterface $billingAddress = null
      ) {
@@ -556,7 +537,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
          try {
              $orderId = $this->cartManagement->placeOrder($cartId);
          } catch (\Magento\Framework\Exception\LocalizedException $e) {
-@@ -121,7 +144,14 @@
+@@ -121,7 +144,14 @@ class PaymentInformationManagement implements \Magento\Checkout\Api\PaymentInfor
          \Magento\Quote\Api\Data\PaymentInterface $paymentMethod,
          \Magento\Quote\Api\Data\AddressInterface $billingAddress = null
      ) {
@@ -572,125 +553,10 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  
          if ($billingAddress) {
              /** @var \Magento\Quote\Api\CartRepositoryInterface $quoteRepository */
-Index: vendor/magento/module-checkout/Test/Unit/Model/GuestPaymentInformationManagementTest.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Test/Unit/Model/GuestPaymentInformationManagementTest.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/Test/Unit/Model/GuestPaymentInformationManagementTest.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -9,6 +9,7 @@
- 
- use Magento\Checkout\Api\Exception\PaymentProcessingRateLimitExceededException;
- use Magento\Checkout\Api\PaymentProcessingRateLimiterInterface;
-+use Magento\Checkout\Api\PaymentSavingRateLimiterInterface;
- use Magento\Checkout\Model\GuestPaymentInformationManagement;
- use Magento\Framework\Exception\CouldNotSaveException;
- use Magento\Framework\Exception\LocalizedException;
-@@ -73,6 +74,11 @@
-      */
-     private $limiterMock;
- 
-+    /**
-+     * @var PaymentSavingRateLimiterInterface|\PHPUnit_Framework_MockObject_MockObject
-+     */
-+    private $saveLimiterMock;
-+
-     protected function setUp()
-     {
-         $objectManager = new ObjectManager($this);
-@@ -91,6 +97,7 @@
-         );
-         $this->loggerMock = $this->getMockForAbstractClass(LoggerInterface::class);
-         $this->limiterMock = $this->getMockForAbstractClass(PaymentProcessingRateLimiterInterface::class);
-+        $this->saveLimiterMock = $this->getMockForAbstractClass(PaymentSavingRateLimiterInterface::class);
-         $this->model = $objectManager->getObject(
-             GuestPaymentInformationManagement::class,
-             [
-@@ -99,7 +106,8 @@
-                 'cartManagement' => $this->cartManagementMock,
-                 'cartRepository' => $this->cartRepositoryMock,
-                 'quoteIdMaskFactory' => $this->quoteIdMaskFactoryMock,
--                'paymentsRateLimiter' => $this->limiterMock
-+                'paymentsRateLimiter' => $this->limiterMock,
-+                'savingRateLimiter' => $this->saveLimiterMock
-             ]
-         );
-         $objectManager->setBackwardCompatibleProperty($this->model, 'logger', $this->loggerMock);
-@@ -161,7 +169,7 @@
-     public function testSavePaymentInformationLimited(): void
-     {
-         $this->expectException(PaymentProcessingRateLimitExceededException::class);
--        $this->limiterMock->method('limit')
-+        $this->saveLimiterMock->method('limit')
-             ->willThrowException(new PaymentProcessingRateLimitExceededException(__('Error')));
- 
-         $this->savePayment();
-Index: vendor/magento/module-checkout/Test/Unit/Model/PaymentInformationManagementTest.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/Test/Unit/Model/PaymentInformationManagementTest.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/Test/Unit/Model/PaymentInformationManagementTest.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -9,6 +9,7 @@
- 
- use Magento\Checkout\Api\Exception\PaymentProcessingRateLimitExceededException;
- use Magento\Checkout\Api\PaymentProcessingRateLimiterInterface;
-+use Magento\Checkout\Api\PaymentSavingRateLimiterInterface;
- use Magento\Checkout\Model\PaymentInformationManagement;
- use Magento\Framework\Exception\LocalizedException;
- use Magento\Framework\Phrase;
-@@ -61,10 +62,15 @@
-     private $cartRepositoryMock;
- 
-     /**
--     * @var PaymentProcessingRateLimiterInterface|MockObject
-+     * @var PaymentProcessingRateLimiterInterface|\PHPUnit_Framework_MockObject_MockObject
-      */
-     private $rateLimiterMock;
- 
-+    /**
-+     * @var PaymentSavingRateLimiterInterface|\PHPUnit_Framework_MockObject_MockObject
-+     */
-+    private $saveLimiterMock;
-+
-     protected function setUp()
-     {
-         $objectManager = new ObjectManager($this);
-@@ -80,13 +86,15 @@
-         $this->cartRepositoryMock = $this->getMockBuilder(CartRepositoryInterface::class)
-             ->getMock();
-         $this->rateLimiterMock = $this->getMockForAbstractClass(PaymentProcessingRateLimiterInterface::class);
-+        $this->saveLimiterMock = $this->getMockForAbstractClass(PaymentSavingRateLimiterInterface::class);
-         $this->model = $objectManager->getObject(
-             PaymentInformationManagement::class,
-             [
-                 'billingAddressManagement' => $this->billingAddressManagementMock,
-                 'paymentMethodManagement' => $this->paymentMethodManagementMock,
-                 'cartManagement' => $this->cartManagementMock,
--                'paymentRateLimiter' => $this->rateLimiterMock
-+                'paymentRateLimiter' => $this->rateLimiterMock,
-+                'saveRateLimiter' => $this->saveLimiterMock
-             ]
-         );
-         $objectManager->setBackwardCompatibleProperty($this->model, 'logger', $this->loggerMock);
-@@ -165,7 +173,7 @@
-      */
-     public function testSavePaymentInformationLimited(): void
-     {
--        $this->rateLimiterMock->method('limit')
-+        $this->saveLimiterMock->method('limit')
-             ->willThrowException(new PaymentProcessingRateLimitExceededException(__('Error')));
-         $this->expectException(PaymentProcessingRateLimitExceededException::class);
- 
-Index: vendor/magento/module-checkout/etc/di.xml
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/etc/di.xml	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/etc/di.xml	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
+diff --git a/vendor/magento/module-checkout/etc/di.xml b/vendor/magento/module-checkout/etc/di.xml
+index 0c1d866dfc2..1af46c87869 100644
+--- a/vendor/magento/module-checkout/etc/di.xml
++++ b/vendor/magento/module-checkout/etc/di.xml
 @@ -51,4 +51,6 @@
      </type>
      <preference for="Magento\Checkout\Api\PaymentProcessingRateLimiterInterface"
@@ -698,14 +564,11 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +    <preference for="Magento\Checkout\Api\PaymentSavingRateLimiterInterface"
 +                type="Magento\Checkout\Model\CaptchaPaymentSavingRateLimiter" />
  </config>
-Index: vendor/magento/module-checkout/view/frontend/web/js/action/set-payment-information-extended.js
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/view/frontend/web/js/action/set-payment-information-extended.js	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/view/frontend/web/js/action/set-payment-information-extended.js	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -15,7 +15,7 @@
+diff --git a/vendor/magento/module-checkout/view/frontend/web/js/action/set-payment-information-extended.js b/vendor/magento/module-checkout/view/frontend/web/js/action/set-payment-information-extended.js
+index ae5b0914e83..46b2756f0f2 100644
+--- a/vendor/magento/module-checkout/view/frontend/web/js/action/set-payment-information-extended.js
++++ b/vendor/magento/module-checkout/view/frontend/web/js/action/set-payment-information-extended.js
+@@ -15,7 +15,7 @@ define([
      'Magento_Checkout/js/action/get-totals',
      'Magento_Checkout/js/model/full-screen-loader',
      'underscore',
@@ -714,10 +577,10 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  ], function (quote, urlBuilder, storage, errorProcessor, customer, getTotalsAction, fullScreenLoader, _, hooks) {
      'use strict';
  
-Index: vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-payment-hooks.js
-===================================================================
---- vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-payment-hooks.js	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-payment-hooks.js	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
+diff --git a/vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-payment-hooks.js b/vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-payment-hooks.js
+index 5cd31d85c9a..e69de29bb2d 100644
+--- a/vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-payment-hooks.js
++++ b/vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-payment-hooks.js
 @@ -1,13 +0,0 @@
 -/**
 - * Copyright © Magento, Inc. All rights reserved.
@@ -732,14 +595,11 @@ Index: vendor/magento/module-checkout/view/frontend/web/js/model/payment/set-pay
 -        afterRequestListeners: []
 -    };
 -});
-Index: vendor/magento/module-checkout/view/frontend/web/js/view/checkout/placeOrderCaptcha.js
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-checkout/view/frontend/web/js/view/checkout/placeOrderCaptcha.js	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/view/frontend/web/js/view/checkout/placeOrderCaptcha.js	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -30,7 +30,7 @@
+diff --git a/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/placeOrderCaptcha.js b/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/placeOrderCaptcha.js
+index d0e27ad8e0a..fcbf3e27c93 100644
+--- a/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/placeOrderCaptcha.js
++++ b/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/placeOrderCaptcha.js
+@@ -30,7 +30,7 @@ function (defaultCaptcha, captchaList, _, placeOrderHooks) {
                      }
                  });
                  placeOrderHooks.afterRequestListeners.push(function () {
@@ -748,10 +608,10 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
                  });
              }
          }
-Index: vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaymentCaptcha.js
-===================================================================
---- vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaymentCaptcha.js	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaymentCaptcha.js	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
+diff --git a/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaymentCaptcha.js b/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaymentCaptcha.js
+index 93f3bb8b2a4..e69de29bb2d 100644
+--- a/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaymentCaptcha.js
++++ b/vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaymentCaptcha.js
 @@ -1,38 +0,0 @@
 -/**
 - * Copyright © Magento, Inc. All rights reserved.
@@ -791,13 +651,10 @@ Index: vendor/magento/module-checkout/view/frontend/web/js/view/checkout/setPaym
 -        }
 -    });
 -});
-Index: vendor/magento/module-multishipping/Controller/Checkout/OverviewPost.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-multishipping/Controller/Checkout/OverviewPost.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-multishipping/Controller/Checkout/OverviewPost.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
+diff --git a/vendor/magento/module-multishipping/Controller/Checkout/OverviewPost.php b/vendor/magento/module-multishipping/Controller/Checkout/OverviewPost.php
+index b3333d828a0..0b85f710e5c 100644
+--- a/vendor/magento/module-multishipping/Controller/Checkout/OverviewPost.php
++++ b/vendor/magento/module-multishipping/Controller/Checkout/OverviewPost.php
 @@ -5,6 +5,7 @@
   */
  namespace Magento\Multishipping\Controller\Checkout;
@@ -806,7 +663,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  use Magento\Checkout\Api\PaymentProcessingRateLimiterInterface;
  use Magento\Framework\App\Action\HttpPostActionInterface;
  use Magento\Framework\App\ObjectManager;
-@@ -126,6 +127,9 @@
+@@ -126,6 +127,9 @@ class OverviewPost extends \Magento\Multishipping\Controller\Checkout implements
                  $this->_getCheckout()->getCheckoutSession()->setDisplaySuccess(true);
                  $this->_redirect('*/*/success');
              }
@@ -816,14 +673,11 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
          } catch (PaymentException $e) {
              $message = $e->getMessage();
              if (!empty($message)) {
-Index: vendor/magento/module-quote-graph-ql/Model/Cart/SetPaymentMethodOnCart.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-quote-graph-ql/Model/Cart/SetPaymentMethodOnCart.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-quote-graph-ql/Model/Cart/SetPaymentMethodOnCart.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -9,6 +9,7 @@
+diff --git a/vendor/magento/module-quote-graph-ql/Model/Cart/SetPaymentMethodOnCart.php b/vendor/magento/module-quote-graph-ql/Model/Cart/SetPaymentMethodOnCart.php
+index 44a33ee2fdd..56ff0a4edb0 100644
+--- a/vendor/magento/module-quote-graph-ql/Model/Cart/SetPaymentMethodOnCart.php
++++ b/vendor/magento/module-quote-graph-ql/Model/Cart/SetPaymentMethodOnCart.php
+@@ -9,6 +9,7 @@ namespace Magento\QuoteGraphQl\Model\Cart;
  
  use Magento\Checkout\Api\Exception\PaymentProcessingRateLimitExceededException;
  use Magento\Checkout\Api\PaymentProcessingRateLimiterInterface;
@@ -831,7 +685,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
  use Magento\Framework\App\ObjectManager;
  use Magento\Framework\Exception\LocalizedException;
  use Magento\Framework\Exception\NoSuchEntityException;
-@@ -43,7 +44,7 @@
+@@ -43,7 +44,7 @@ class SetPaymentMethodOnCart
      private $additionalDataProviderPool;
  
      /**
@@ -840,7 +694,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
       */
      private $paymentRateLimiter;
  
-@@ -52,18 +53,22 @@
+@@ -52,18 +53,22 @@ class SetPaymentMethodOnCart
       * @param PaymentInterfaceFactory $paymentFactory
       * @param AdditionalDataProviderPool $additionalDataProviderPool
       * @param PaymentProcessingRateLimiterInterface|null $paymentRateLimiter
@@ -866,7 +720,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
      }
  
      /**
-@@ -77,7 +82,12 @@
+@@ -77,7 +82,12 @@ class SetPaymentMethodOnCart
      public function execute(Quote $cart, array $paymentData): void
      {
          try {
@@ -880,117 +734,3 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
          } catch (PaymentProcessingRateLimitExceededException $exception) {
              throw new GraphQlInputException(__($exception->getMessage()), $exception);
          }
-Index: vendor/magento/module-quote-graph-ql/Test/Unit/Model/Cart/SetPaymentMethodOnCartTest.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- vendor/magento/module-quote-graph-ql/Test/Unit/Model/Cart/SetPaymentMethodOnCartTest.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ vendor/magento/module-quote-graph-ql/Test/Unit/Model/Cart/SetPaymentMethodOnCartTest.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -9,7 +9,7 @@
- namespace Magento\QuoteGraphQl\Test\Unit\Model\Cart;
- 
- use Magento\Checkout\Api\Exception\PaymentProcessingRateLimitExceededException;
--use Magento\Checkout\Api\PaymentProcessingRateLimiterInterface;
-+use Magento\Checkout\Api\PaymentSavingRateLimiterInterface;
- use Magento\Framework\GraphQl\Exception\GraphQlInputException;
- use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
- use Magento\Quote\Model\Quote;
-@@ -25,7 +25,7 @@
-     private $model;
- 
-     /**
--     * @var PaymentProcessingRateLimiterInterface|MockObject
-+     * @var PaymentSavingRateLimiterInterface|MockObject
-      */
-     private $rateLimiterMock;
- 
-@@ -37,10 +37,10 @@
-         parent::setUp();
- 
-         $objectManager = new ObjectManager($this);
--        $this->rateLimiterMock = $this->getMockForAbstractClass(PaymentProcessingRateLimiterInterface::class);
-+        $this->rateLimiterMock = $this->getMockForAbstractClass(PaymentSavingRateLimiterInterface::class);
-         $this->model = $objectManager->getObject(
-             SetPaymentMethodOnCart::class,
--            ['paymentRateLimiter' => $this->rateLimiterMock]
-+            ['savingRateLimiter' => $this->rateLimiterMock]
-         );
-     }
- 
-Index: dev/tests/integration/testsuite/Magento/Checkout/Model/CaptchaPaymentProcessingRateLimiterTest.php
-===================================================================
---- dev/tests/integration/testsuite/Magento/Checkout/Model/CaptchaPaymentProcessingRateLimiterTest.php	(revision 632267c2a685f5bdb8830bbbe8e04b77dba14edd)
-+++ dev/tests/integration/testsuite/Magento/Checkout/Model/CaptchaRateLimiterTest.php	(revision 0b149c5d8b183cc1458d0872f85b1735cc80ec65)
-@@ -9,9 +9,9 @@
- namespace Magento\Checkout\Model;
- 
- use Magento\Captcha\Model\DefaultModel;
--use Magento\Checkout\Api\Exception\PaymentProcessingRateLimitExceededException;
- use Magento\Customer\Api\CustomerRepositoryInterface;
- use Magento\Framework\App\RequestInterface;
-+use Magento\Framework\Exception\LocalizedException;
- use Magento\Framework\HTTP\PhpEnvironment\RemoteAddress;
- use Magento\TestFramework\Helper\Bootstrap;
- use PHPUnit\Framework\TestCase;
-@@ -27,10 +27,10 @@
-  * @magentoAppIsolation enabled
-  * @magentoAppArea frontend
-  */
--class CaptchaPaymentProcessingRateLimiterTest extends TestCase
-+class CaptchaRateLimiterTest extends TestCase
- {
-     /**
--     * @var CaptchaPaymentProcessingRateLimiter
-+     * @var CaptchaRateLimiter
-      */
-     private $model;
- 
-@@ -69,7 +69,10 @@
-         $this->captchaHelper = $objectManager->get(CaptchaHelper::class);
-         $this->customerSession = $objectManager->get(CustomerSession::class);
-         $this->customerRepo = $objectManager->get(CustomerRepositoryInterface::class);
--        $this->model = $objectManager->get(CaptchaPaymentProcessingRateLimiter::class);
-+        $this->model = $objectManager->create(
-+            CaptchaRateLimiter::class,
-+            ['captchaId' => 'payment_processing_request']
-+        );
-     }
- 
-     /**
-@@ -95,7 +98,7 @@
-         try {
-             $this->model->limit();
-             $limited = false;
--        } catch (PaymentProcessingRateLimitExceededException $exception) {
-+        } catch (LocalizedException $exception) {
-             $limited = true;
-         }
-         $this->assertTrue($limited);
-@@ -118,7 +121,7 @@
-         try {
-             $this->model->limit();
-             $limited = false;
--        } catch (PaymentProcessingRateLimitExceededException $exception) {
-+        } catch (LocalizedException $exception) {
-             $limited = true;
-         }
-         $this->assertTrue($limited);
-@@ -141,7 +144,7 @@
-         try {
-             $this->model->limit();
-             $limited = false;
--        } catch (PaymentProcessingRateLimitExceededException $exception) {
-+        } catch (LocalizedException $exception) {
-             $limited = true;
-         }
-         //CAPTCHA is required
-@@ -176,7 +179,7 @@
-         try {
-             $this->model->limit();
-             $limited = false;
--        } catch (PaymentProcessingRateLimitExceededException $exception) {
-+        } catch (LocalizedException $exception) {
-             $limited = true;
-         }
-         //CAPTCHA was validated

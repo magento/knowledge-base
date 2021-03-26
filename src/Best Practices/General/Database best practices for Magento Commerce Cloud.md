@@ -45,7 +45,7 @@ Related reading:
 
 ## Use ElasticSearch instead of native MySQL search
 
-Magento recommends replacing the default MySQL search engine in Magento Commerce Cloud with Elasticsearch, because Elasticsearch is a better performing search engine than the MySQL search engine.
+Magento recommends replacing the default [MySQL search engine](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0) in Magento Commerce Cloud with Elasticsearch, because Elasticsearch is a better performing search engine than the MySQL search engine.
 
 To determine which search engine is currently in use, run the following command:
 

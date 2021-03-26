@@ -4,7 +4,7 @@ link: https://support.magento.com/hc/en-us/articles/360032980432-Out-of-memory-e
 labels: Magento Commerce,troubleshooting,PHP,out of memory,web setup wizard,2.3.x,how to
 ---
 
-This article talks about solutions for the out of memory error during installing/upgrading Magento on-premis products. 
+This article talks about solutions for the out of memory error during installing/upgrading Magento on-premise products. 
 
 ### Affected products and versions
 

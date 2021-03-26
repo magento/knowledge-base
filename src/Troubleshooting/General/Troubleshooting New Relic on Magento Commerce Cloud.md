@@ -19,7 +19,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 <tr>
 <td>
 <p>Can't see projects in New Relic.</p>
-<p>You log in to New Relic but can't see projects you should be entitled to view/access. </p>
+<p>You log in to <em>New Relic</em> but can't see projects you should be entitled to view/access. </p>
 </td>
 <td>
 <p>In those cases, an admin user needs to add you to the project.</p>
@@ -99,7 +99,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 <p>The number of instances can increase depending on back end processes and throughput. Differences between server values can be due to processes running on one server, but not the other server. </p>
 </td>
 <td>
-<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count">New Relic Documentation > Troubleshoot the PHP agent instance count</a><br/>  </p>
+<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count">New Relic Documentation > Troubleshoot the PHP agent instance count</a><br/> </p>
 </td>
 </tr>
 </tbody>

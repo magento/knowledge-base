@@ -4,7 +4,7 @@ link: https://support.magento.com/hc/en-us/articles/360040208612--isScopePrivate
 labels: Magento Commerce Cloud,Magento Commerce,performance,AJAX requests,isScopePrivate,best practices,2.3.x,2.2.x
 ---
 
-This article provides a potential fix for slow performance by removing `` _isScopePrivate `` variables in private content. This reduces AJAX requests due to non-cacheable blocks so that you will have more free resources to handle more critical requests in Magento.
+This article provides a potential fix for slow performance by removing `` _isScopePrivate `` variables in private content. This reduces [AJAX requests](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) due to non-cacheable blocks so that you will have more free resources to handle more critical requests in Magento.
 
 ## Affected products and versions
 
@@ -29,5 +29,5 @@ Reduce AJAX requests due to non-cacheable blocks. This will enable you to have m
 ## Solution
 
 Use private content instead of the `` _isScopePrivate `` variable. Review DevDocs' [Private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) for details.  
-   
- Also review [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472).
+  
+Also review [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472).

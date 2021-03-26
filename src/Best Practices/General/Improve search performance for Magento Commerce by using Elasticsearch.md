@@ -6,7 +6,7 @@ labels: Magento Commerce,performance,search,MySQL,Elasticsearch,bottleneck,memor
 
 <p class="warning"><a href="https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0">MySQL catalog search engine will be removed in Magento 2.4.0</a>. You must have Elasticsearch host setup and configured prior to installing version 2.4.1. Refer to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Install and configure Elasticsearch</a>.</p>
 
-This article discusses that it is a recommended best practice to replace the default MySQL search engine in Magento Commerce with Elasticsearch, because Elasticsearch is a better performing search engine.
+This article discusses that it is a recommended best practice to replace the default [MySQL search engine](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0) in Magento Commerce with Elasticsearch, because Elasticsearch is a better performing search engine.
 
 ## Affected Products and Versions:
 

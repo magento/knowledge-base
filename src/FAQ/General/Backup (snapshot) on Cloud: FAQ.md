@@ -24,7 +24,7 @@ This article covers the essentials of backing up your environments with snapshot
 
 ### Integration (Development) environment
 
-* Your Integration environment is not being backed up automatically, but you may create snapshots manually.
+* Your [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) is not being backed up automatically, but you may create snapshots manually.
 * You can create manual snapshots for Integration environments on non-live stores.
 * You may have multiple snapshots that have been triggered manually.
 * A manually triggered snapshot is stored for 7 days.

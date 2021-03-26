@@ -17,7 +17,7 @@ This topic discusses a solution when high load from MySQL causes a performance b
 * ECE Tools version 2002.0.16 and higher
 * New Relic APM service (Your Magento Commerce Cloud account includes the software for the New Relic APM service along with a license key.)
 
-<p class="info">For more information about the New Relic APM service and its setup with your Magento Commerce Cloud account, go to <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html">New Relic Services</a> and <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-new-relic-apm">Introduction to New Relic APM</a>.</p>
+For more information about the New Relic APM service and its setup with your Magento Commerce Cloud account, go to [New Relic Services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) and [Introduction to New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-new-relic-apm).
 
 ## Issue
 
@@ -39,6 +39,10 @@ Your Magento Commerce Cloud store has high throughput or is slow on <code class=
 If experiencing these 2 indications, enabling `` SLAVE `` connections for the MySQL database and Redis can help to spread out the load across different nodes.
 
 Magento can read multiple databases or Redis asynchronously. Updating the <code class="php">.magento.env.yaml</code> file by setting to <code class="php">true</code> the values <code class="php">MYSQL\_USE\_SLAVE\_CONNECTION</code> and <code class="php">REDIS\_USE\_SLAVE\_CONNECTION</code> to use a read-only connection to the database to receive read-only traffic on a non-master node. This improves performance through load balancing, because only one node needs to handle read-write traffic. Set to <code class="php">false</code> to remove any existing read-only connection array from the <code class="php">env.php</code> file.
+
+<p class="info">It is a best practice recommendation to always have MySQL slave connection enabled.</p>
+
+ 
 
 ### Steps
 
@@ -63,4 +67,4 @@ Below are the common questions you may ask when you consider using the Slave Con
 * [Set up optional database replication](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html)
 * [ece-tools package](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html)
 
-<p class="info">We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.</p>
+<p class="info">We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive, and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.</p>

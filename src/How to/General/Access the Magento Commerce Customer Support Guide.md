@@ -4,8 +4,6 @@ link: https://support.magento.com/hc/en-us/articles/360052006432-Access-the-Mage
 labels: Magento Commerce Cloud,Magento Commerce,account,support,support ticket,how to,magento commerce customer support guide
 ---
 
-IT'S A TEST!!!!!!!!
-
 The Magento Commerce Customer Support Guide explains customer support offerings and how to utilize them. This includes best practices for the support relationship, collecting information needed for diagnosis, customer support priority, submitting a support request, and links to resources. This guide is accessible from the downloads section on your Magento account page. To access:
 
 1. Go to the Magento [account login page.](https://account.magento.com/customer/account/login)

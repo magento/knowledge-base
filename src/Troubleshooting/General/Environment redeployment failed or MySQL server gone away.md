@@ -41,7 +41,7 @@ The most probable cause of the issues is the MySQL database allocated space bein
 
 ### Check if there's enough space for MySQL
 
-For the all Starter plan environments, and Integration environment of the Pro plan, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) and run the <code class="language-bash">magento-cloud db:size</code> command.
+For the all Starter plan environments, and [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) of the Pro plan, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) and run the <code class="language-bash">magento-cloud db:size</code> command.
 
 For Staging or Production environment of the Pro plan, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh),  and run the `` df -h `` ``  | grep mysql. ``The result will look similar to the following:
 

@@ -40,7 +40,7 @@ Looking closer at the first, problem-specific, part will help you to identify th
 
 * Check to ensure that there is enough storage. For information on how to check available space, see the [Check disk space on Cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713) article. You can consider cleaning the log directories and/or increasing disk space.
 * Ensure ECE-Tools are configured correctly.
-* Check if it is the patch that is causing the problem. Resolve the conflict, or contact Magento Support. See below for details.
+* Check if it is the patch that is causing the problem. Resolve the conflict, or contact [Magento Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket). See below for details.
 * Check if it is the custom extension that is causing the problem. Resolve the conflict, or contact the extension developers for solution.
 
 The following paragraphs provide some more details.
@@ -55,7 +55,7 @@ Directories that be considered for clean up:
 * `` var ``
 
 For details on how increase disk space if you on the Starter plan, see the [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Pro plan Integration environment.  
- For Pro Production/Staging, you need to file a ticket to Magento Support and request increase disk space. But it is monitored by Platform. But typically, you will not have to deal with this on Staging/Production of Pro plan, cause Magento monitors these parameters for you, and alerts you and/or takes actions, according to the contract.
+For Pro Production/Staging, you need to file a ticket to [Magento Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and request increase disk space. But it is monitored by Platform. But typically, you will not have to deal with this on Staging/Production of Pro plan, cause Magento monitors these parameters for you, and alerts you and/or takes actions, according to the contract.
 
 ### Ensure ECE-tools are configured correctly
 
@@ -99,7 +99,7 @@ W: build
 ...
 E: Error building project: The build hook failed with status code 1. Aborted build.</code></pre>
 
-These error messages mean that the patch you are trying to apply either was created for a different Magento version, or has conflicts with your customizations or previously applied patches. Try to resolve the conflict, or contact Magento Support.
+These error messages mean that the patch you are trying to apply either was created for a different Magento version, or has conflicts with your customizations or previously applied patches. Try to resolve the conflict, or contact [Magento Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
 ### Is extension causing the issue?
 

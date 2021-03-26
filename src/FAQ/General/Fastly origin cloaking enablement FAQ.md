@@ -8,7 +8,7 @@ This FAQ discusses common questions about Fastly origin cloaking enablement in M
 
 ## What is Fastly origin cloaking?
 
-Origin cloaking is a security feature that allows Magento Commerce to block any non-Fastly traffic (to prevent DDoS attacks, going to the Cloud infrastructure (origin).
+Origin cloaking is a security feature that allows Magento Commerce Cloud to block any non-Fastly traffic (to prevent DDoS attacks, going to the Cloud infrastructure (origin).
 
 ## What are origin cloaking’s benefits?
 
@@ -16,7 +16,7 @@ Origin cloaking is designed to prevent traffic from bypassing the Fastly Web App
 
 ## Why is this origin cloaking enablement happening now?
 
-This feature was newly created to benefit Magento Commerce. 
+This feature was newly created to benefit Magento Commerce Cloud. 
 
 ## Does origin cloaking change the outgoing IP address?
 
@@ -45,4 +45,8 @@ Yes, if the project has multiple stagings, the change will be applied to all sta
 
 ## When will Fastly origin cloaking be enabled?
 
-These changes will be implemented on the date indicated in your ticket between 22:00 and 1:00 UTC. In general, we perform these changes on these days of the week: Monday, Tuesday, Wednesday, and Thursday.
+These changes will be implemented on the date indicated in your ticket between 08:00 and 17:00 UTC.
+
+A smaller timeframe change window cannot be provided, due to the application of the change to multiple Magento Commerce Cloud customers during the window.
+
+Please contact us at least 48 hours prior to the change window in order to re-schedule, if needed.
