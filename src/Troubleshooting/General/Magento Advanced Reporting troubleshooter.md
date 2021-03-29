@@ -1,6 +1,5 @@
 ---
 title: Magento Advanced Reporting troubleshooter
-link: https://support.magento.com/hc/en-us/articles/360041456192-Magento-Advanced-Reporting-troubleshooter
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,404 error,Advanced Reporting,2.3.x,2.4
 ---
 

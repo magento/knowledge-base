@@ -1,6 +1,5 @@
 ---
 title: Redirect back to the Admin login form with "Your current session has been expired" error
-link: https://support.magento.com/hc/en-us/articles/360028441671-Redirect-back-to-the-Admin-login-form-with-Your-current-session-has-been-expired-error
 labels: Magento Commerce Cloud,Magento Commerce,admin,troubleshooting,login
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Errors installing optional sample data
-link: https://support.magento.com/hc/en-us/articles/360033824571-Errors-installing-optional-sample-data
 labels: Magento Commerce Cloud,Magento Commerce,error,PHP,wizard,setup,sample,data,how to
 ---
 

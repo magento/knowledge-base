@@ -1,6 +1,5 @@
 ---
 title: Scheduled Content Staging updates not displayed with stale Fastly cache
-link: https://support.magento.com/hc/en-us/articles/360000548734-Scheduled-Content-Staging-updates-not-displayed-with-stale-Fastly-cache
 labels: staging,Fastly,Magento Commerce,content,troubleshooting
 ---
 

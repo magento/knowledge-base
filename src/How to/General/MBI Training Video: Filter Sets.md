@@ -1,6 +1,5 @@
 ---
 title: MBI Training Video: Filter Sets
-link: https://support.magento.com/hc/en-us/articles/360016730151-MBI-Training-Video-Filter-Sets
 labels: MBI,analysis,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
 ---
 

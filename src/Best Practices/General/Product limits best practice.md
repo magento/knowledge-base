@@ -1,6 +1,5 @@
 ---
 title: Product limits best practice
-link: https://support.magento.com/hc/en-us/articles/360045066791-Product-limits-best-practice
 labels: catalog,performance,2.3,product,best practices,2.3.x,SKU,2.4,stores,2.4.x
 ---
 

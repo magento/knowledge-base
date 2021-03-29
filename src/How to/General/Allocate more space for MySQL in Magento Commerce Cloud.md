@@ -1,6 +1,5 @@
 ---
 title: Allocate more space for MySQL in Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360038761511-Allocate-more-space-for-MySQL-in-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,Pro,MySQL,space,mysql disk space,Magento Pro,Magento Starter,how to,Starter
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: PWA Studio: Validation errors when running developer mode
-link: https://support.magento.com/hc/en-us/articles/360036928811-PWA-Studio-Validation-errors-when-running-developer-mode
 labels: validation,errors,PWA Studio,Venia,how to,environment variables
 ---
 

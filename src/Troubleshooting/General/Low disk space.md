@@ -1,6 +1,5 @@
 ---
 title: Low disk space
-link: https://support.magento.com/hc/en-us/articles/360037072592-Low-disk-space
 labels: Magento Commerce Cloud,cron,disk space,2.3.x,2.2.x,how to
 ---
 

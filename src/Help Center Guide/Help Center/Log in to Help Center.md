@@ -1,6 +1,5 @@
 ---
 title: Log in to Help Center
-link: https://support.magento.com/hc/en-us/articles/360019086851-Log-in-to-Help-Center
 labels: 
 ---
 

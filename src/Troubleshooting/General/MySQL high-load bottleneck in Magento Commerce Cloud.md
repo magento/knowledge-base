@@ -1,6 +1,5 @@
 ---
 title: MySQL high-load bottleneck in Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360037391972-MySQL-high-load-bottleneck-in-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,Cloud,Redis,performance,queries,MySQL,high,load,bottleneck,slave,slave connection,cluster,2.x.x,how to
 ---
 

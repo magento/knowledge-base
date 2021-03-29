@@ -1,6 +1,5 @@
 ---
 title: Cannot access Magento Commerce Cloud UI
-link: https://support.magento.com/hc/en-us/articles/360054143932-Cannot-access-Magento-Commerce-Cloud-UI
 labels: Magento Commerce Cloud,troubleshooting,Cloud UI,403 error,user access
 ---
 

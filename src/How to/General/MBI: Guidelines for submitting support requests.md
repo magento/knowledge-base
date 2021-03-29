@@ -1,6 +1,5 @@
 ---
 title: MBI: Guidelines for submitting support requests
-link: https://support.magento.com/hc/en-us/articles/360016730351-MBI-Guidelines-for-submitting-support-requests
 labels: MBI,analysis,database,data,support,Magento Business Intelligence,data discrepancies,how to,reports,troubleshoot
 ---
 

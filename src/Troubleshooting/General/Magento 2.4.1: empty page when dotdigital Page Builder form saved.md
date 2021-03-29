@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.1: empty page when dotdigital Page Builder form saved
-link: https://support.magento.com/hc/en-us/articles/360049819092-Magento-2-4-1-empty-page-when-dotdigital-Page-Builder-form-saved
 labels: Magento Commerce Cloud,Magento Commerce,form,known issues,blank,2.4.1,Safari,page builder,dotdigital
 ---
 

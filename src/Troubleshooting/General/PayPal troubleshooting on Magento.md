@@ -1,6 +1,5 @@
 ---
 title: PayPal troubleshooting on Magento
-link: https://support.magento.com/hc/en-us/articles/115003846053-PayPal-troubleshooting-on-Magento
 labels: Magento Commerce Cloud,credentials,Magento Commerce,log,PayPal,payment,payflow,crypt,license,advanced,troubleshooting
 ---
 

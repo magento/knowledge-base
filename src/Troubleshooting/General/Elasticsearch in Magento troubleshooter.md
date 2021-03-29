@@ -1,6 +1,5 @@
 ---
 title: Elasticsearch in Magento troubleshooter
-link: https://support.magento.com/hc/en-us/articles/360040757112-Elasticsearch-in-Magento-troubleshooter
 labels: Magento Commerce Cloud,Magento Commerce,Troubleshooter,elasticsuite,Elasticsearch problems,missing products,Elastic,how to,crash
 ---
 

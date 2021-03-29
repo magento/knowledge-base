@@ -1,6 +1,5 @@
 ---
 title: How to profile database queries on Cloud
-link: https://support.magento.com/hc/en-us/articles/115003775033-How-to-profile-database-queries-on-Cloud
 labels: Magento Commerce Cloud,devdocs,queries,database,profile,how to
 ---
 

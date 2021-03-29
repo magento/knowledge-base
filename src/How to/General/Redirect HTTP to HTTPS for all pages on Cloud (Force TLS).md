@@ -1,6 +1,5 @@
 ---
 title: Redirect HTTP to HTTPS for all pages on Cloud (Force TLS)
-link: https://support.magento.com/hc/en-us/articles/360006296953-Redirect-HTTP-to-HTTPS-for-all-pages-on-Cloud-Force-TLS-
 labels: Magento Commerce Cloud,Fastly,security,cloud,TLS,Pro,redirect,2.1,routes.yaml,2.1.4,how to,Starter,1.2.4
 ---
 

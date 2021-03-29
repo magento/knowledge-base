@@ -1,6 +1,5 @@
 ---
 title: During installation, exception SessionHandler::read()
-link: https://support.magento.com/hc/en-us/articles/360033427272-During-installation-exception-SessionHandler-read-
 labels: Magento Commerce Cloud,Magento Commerce,PHP,SessionHandler,exception,2.x.x,how to
 ---
 

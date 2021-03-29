@@ -1,6 +1,5 @@
 ---
 title: Enable Elasticsearch on Cloud
-link: https://support.magento.com/hc/en-us/articles/115004905874-Enable-Elasticsearch-on-Cloud
 labels: Magento Commerce Cloud,devdocs,Cloud,elasticsearch,setup,how to
 ---
 

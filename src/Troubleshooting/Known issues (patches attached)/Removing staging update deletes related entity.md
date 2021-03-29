@@ -1,6 +1,5 @@
 ---
 title: Removing staging update deletes related entity
-link: https://support.magento.com/hc/en-us/articles/360025963952-Removing-staging-update-deletes-related-entity
 labels: Magento Commerce,patch,troubleshooting,staging update,known issues,2.2.3
 ---
 

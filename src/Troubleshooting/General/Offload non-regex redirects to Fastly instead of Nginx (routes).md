@@ -1,6 +1,5 @@
 ---
 title: Offload non-regex redirects to Fastly instead of Nginx (routes)
-link: https://support.magento.com/hc/en-us/articles/360035192891-Offload-non-regex-redirects-to-Fastly-instead-of-Nginx-routes-
 labels: fastly,Magento Commerce Cloud,VCL snippets,performance,regex,redirects,offload,routes,Nginx,how to
 ---
 

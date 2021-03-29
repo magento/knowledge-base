@@ -1,6 +1,5 @@
 ---
 title: Troubleshooting New Relic on Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360041937912-Troubleshooting-New-Relic-on-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,PHP,New Relic,GraphQL,New Relic problem,New Relic troubleshooting,accessing New Relic,how to,troubleshoot,display
 ---
 

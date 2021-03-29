@@ -1,6 +1,5 @@
 ---
 title: Redis issue delay Magento Admin login or checkout 
-link: https://support.magento.com/hc/en-us/articles/360000448493-Redis-issue-delay-Magento-Admin-login-or-checkout-
 labels: Magento Commerce Cloud,Magento Commerce,Redis,2.1.11,2.2.1,troubleshooting,timeout
 ---
 

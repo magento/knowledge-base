@@ -1,6 +1,5 @@
 ---
 title: Products per page limit Magento
-link: https://support.magento.com/hc/en-us/articles/360048176472-Products-per-page-limit-Magento
 labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,best practices,2.3.x,2.4,products per page,allow all products,2.4.x
 ---
 

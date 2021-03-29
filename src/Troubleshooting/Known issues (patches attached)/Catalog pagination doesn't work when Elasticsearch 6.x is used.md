@@ -1,6 +1,5 @@
 ---
 title: Catalog pagination doesn't work when Elasticsearch 6.x is used
-link: https://support.magento.com/hc/en-us/articles/360035142371-Catalog-pagination-doesn-t-work-when-Elasticsearch-6-x-is-used
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,pagination,2.3.3,Elasticsearch 6.x
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Store images not displayed after deployment
-link: https://support.magento.com/hc/en-us/articles/360034358571-Store-images-not-displayed-after-deployment
 labels: Magento Commerce Cloud,cache,images not displayed,2.3.x,2.2.x,how to,SSH
 ---
 

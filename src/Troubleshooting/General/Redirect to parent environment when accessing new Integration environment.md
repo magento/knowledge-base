@@ -1,6 +1,5 @@
 ---
 title: Redirect to parent environment when accessing new Integration environment 
-link: https://support.magento.com/hc/en-us/articles/360018610112-Redirect-to-parent-environment-when-accessing-new-Integration-environment-
 labels: Magento Commerce Cloud,troubleshooting,redirect,base_url,2.x.x
 ---
 

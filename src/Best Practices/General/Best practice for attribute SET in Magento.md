@@ -1,6 +1,5 @@
 ---
 title: Best practice for attribute SET in Magento
-link: https://support.magento.com/hc/en-us/articles/360045041092-Best-practice-for-attribute-SET-in-Magento
 labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,product,MySQL,best practices,2.3.x,2.4,attribute,2.4.x,set
 ---
 

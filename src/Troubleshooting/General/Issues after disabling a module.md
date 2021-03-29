@@ -1,6 +1,5 @@
 ---
 title: Issues after disabling a module
-link: https://support.magento.com/hc/en-us/articles/360028721172-Issues-after-disabling-a-module
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,module disable,2.1.x
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Submit a support ticket
-link: https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket
 labels: help-center-guide
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Diagnosing a data discrepancy
-link: https://support.magento.com/hc/en-us/articles/360016731271-Diagnosing-a-data-discrepancy
 labels: troubleshooting,Magento Business Intelligence,data discrepancies
 ---
 

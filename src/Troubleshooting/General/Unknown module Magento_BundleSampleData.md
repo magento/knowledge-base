@@ -1,6 +1,5 @@
 ---
 title: Unknown module Magento_BundleSampleData
-link: https://support.magento.com/hc/en-us/articles/360034276152-Unknown-module-Magento-BundleSampleData
 labels: Magento Commerce Cloud,Magento Commerce,error,module,Magento_BundleSampleData,unknown,LogicException,how to
 ---
 

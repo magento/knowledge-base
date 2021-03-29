@@ -1,6 +1,5 @@
 ---
 title: 503 error accessing Magento in web browser
-link: https://support.magento.com/hc/en-us/articles/360033432371-503-error-accessing-Magento-in-web-browser
 labels: Magento Commerce,troubleshooting,2.3.5-p1,2.3.1,2.3.4-p2,2.3.4,2.3.0,2.3.3,2.3.2,2.3.6,2.3.5-p2,2.3.3-p1,Apache,2.3.2-p2,503 error
 ---
 

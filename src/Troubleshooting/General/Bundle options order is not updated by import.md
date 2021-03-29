@@ -1,6 +1,5 @@
 ---
 title: Bundle options order is not updated by import
-link: https://support.magento.com/hc/en-us/articles/360036212671-Bundle-options-order-is-not-updated-by-import
 labels: Magento Commerce Cloud,Magento Commerce,order,import,bundle options,2.3.x,2.2.x,how to
 ---
 

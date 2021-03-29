@@ -1,6 +1,5 @@
 ---
 title: Elasticsearch issues after Magento Commerce Cloud 2.3.1+ upgrade
-link: https://support.magento.com/hc/en-us/articles/360042538511-Elasticsearch-issues-after-Magento-Commerce-Cloud-2-3-1-upgrade
 labels: upgrade,Magento Commerce Cloud,Elasticsearch problems,Elasticsearch,End of Life,Elasticsearch service version not compatible,Elasticsearch 6.x,how to,Elasticsearch 2.x,Elasticsearch 5.x
 ---
 

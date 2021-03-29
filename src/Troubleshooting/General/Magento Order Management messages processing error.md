@@ -1,6 +1,5 @@
 ---
 title: Magento Order Management messages processing error
-link: https://support.magento.com/hc/en-us/articles/360037745212-Magento-Order-Management-messages-processing-error
 labels: oms error,Magento Order Management,getMode,MCOM,connector,getMode(),how to,3.1.1,3.2.0,3.3.0
 ---
 

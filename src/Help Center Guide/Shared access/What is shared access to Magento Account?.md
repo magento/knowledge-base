@@ -1,6 +1,5 @@
 ---
 title: What is shared access to Magento Account?
-link: https://support.magento.com/hc/en-us/articles/360020385252-What-is-shared-access-to-Magento-Account-
 labels: shared access
 ---
 

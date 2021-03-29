@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 known issue: Amazon pay, no payment methods 
-link: https://support.magento.com/hc/en-us/articles/360046680632-Magento-2-4-0-known-issue-Amazon-pay-no-payment-methods-
 labels: Magento Commerce Cloud,Magento Commerce,payments,troubleshooting,checkout,known issues,Amazon Pay,2.3.5-p1,payment method,2.4.0
 ---
 

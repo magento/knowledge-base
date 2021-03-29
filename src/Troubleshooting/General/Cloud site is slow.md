@@ -1,6 +1,5 @@
 ---
 title: Cloud site is slow
-link: https://support.magento.com/hc/en-us/articles/360029728932-Cloud-site-is-slow
 labels: Magento Commerce Cloud,Fastly,Cloud,cache,troubleshooting,slow performance
 ---
 

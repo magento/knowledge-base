@@ -1,6 +1,5 @@
 ---
 title: Known issues that affect installation
-link: https://support.magento.com/hc/en-us/articles/360034242212-Known-issues-that-affect-installation
 labels: PHP,exception,fatal error,xdebug,extension,how to,Apache
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Change account owner for New Relic on Cloud
-link: https://support.magento.com/hc/en-us/articles/360006643192-Change-account-owner-for-New-Relic-on-Cloud
 labels: Magento Commerce Cloud,admin,New Relic,account,how to
 ---
 

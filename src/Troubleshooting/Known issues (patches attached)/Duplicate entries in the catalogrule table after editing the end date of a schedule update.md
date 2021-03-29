@@ -1,6 +1,5 @@
 ---
 title: Duplicate entries in the catalogrule table after editing the end date of a schedule update
-link: https://support.magento.com/hc/en-us/articles/360025470392-Duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update
 labels: Magento Commerce,patch,troubleshooting,duplicate entry,known issues,2.2.3
 ---
 

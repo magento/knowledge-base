@@ -1,6 +1,5 @@
 ---
 title: Environment redeployment failed or MySQL server gone away
-link: https://support.magento.com/hc/en-us/articles/360031096931-Environment-redeployment-failed-or-MySQL-server-gone-away
 labels: Magento Commerce Cloud,Magento Commerce,deployment,troubleshooting,mysql
 ---
 

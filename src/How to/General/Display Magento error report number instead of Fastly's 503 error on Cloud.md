@@ -1,6 +1,5 @@
 ---
 title: Display Magento error report number instead of Fastly's 503 error on Cloud
-link: https://support.magento.com/hc/en-us/articles/360018126211-Display-Magento-error-report-number-instead-of-Fastly-s-503-error-on-Cloud
 labels: staging,production,Magento Commerce Cloud,Fastly,error,Pro,debug,503,how to,reports
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Download fails because of changes in Composer
-link: https://support.magento.com/hc/en-us/articles/360033818091-Download-fails-because-of-changes-in-Composer
 labels: Magento Commerce Cloud,Magento Commerce,composer,download,self-update,2.x.x,how to
 ---
 

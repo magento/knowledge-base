@@ -1,6 +1,5 @@
 ---
 title: Magento upgrade: compact to dynamic tables 2.2.x, 2.3.x to 2.4.x 
-link: https://support.magento.com/hc/en-us/articles/360048389631-Magento-upgrade-compact-to-dynamic-tables-2-2-x-2-3-x-to-2-4-x-
 labels: upgrade,Magento Commerce Cloud,2.2,Pro,troubleshooting,2.3,known issues,MySQL,database,2.3.x,2.2.x,2.4,Starter,2.4.x
 ---
 

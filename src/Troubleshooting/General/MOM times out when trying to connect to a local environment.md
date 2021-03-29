@@ -1,6 +1,5 @@
 ---
 title: MOM times out when trying to connect to a local environment
-link: https://support.magento.com/hc/en-us/articles/360032279432-MOM-times-out-when-trying-to-connect-to-a-local-environment
 labels: troubleshooting,timeout,Magento Order Management
 ---
 

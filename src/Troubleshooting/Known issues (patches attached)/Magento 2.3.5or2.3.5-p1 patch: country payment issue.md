@@ -1,6 +1,5 @@
 ---
 title: Magento 2.3.5or2.3.5-p1 patch: country payment issue
-link: https://support.magento.com/hc/en-us/articles/360043955991-Magento-2-3-5-2-3-5-p1-patch-country-payment-issue
 labels: Magento Commerce Cloud,Magento Commerce,patch,payments,troubleshooting,known issues,2.3.5,2.3.5-p1
 ---
 

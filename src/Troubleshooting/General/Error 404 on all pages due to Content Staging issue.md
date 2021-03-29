@@ -1,6 +1,5 @@
 ---
 title: Error 404 on all pages due to Content Staging issue
-link: https://support.magento.com/hc/en-us/articles/360000262174-Error-404-on-all-pages-due-to-Content-Staging-issue
 labels: staging,Magento Commerce Cloud,Magento Commerce,content,log,404,troubleshooting
 ---
 

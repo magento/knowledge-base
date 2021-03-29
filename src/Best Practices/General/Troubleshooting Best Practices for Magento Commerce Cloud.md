@@ -1,6 +1,5 @@
 ---
 title: Troubleshooting Best Practices for Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360034340372-Troubleshooting-Best-Practices-for-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,configuration,deploy,deployment,search,query,index,database,extension,storage,Elasticsearch,deployment error,best practices,site down
 ---
 

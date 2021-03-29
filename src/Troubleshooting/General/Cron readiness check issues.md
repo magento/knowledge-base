@@ -1,6 +1,5 @@
 ---
 title: Cron readiness check issues
-link: https://support.magento.com/hc/en-us/articles/360033856251-Cron-readiness-check-issues
 labels: Magento Commerce Cloud,Magento Commerce,cron,PHP,readiness,check,crontab,how to
 ---
 

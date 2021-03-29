@@ -1,6 +1,5 @@
 ---
 title: Index is locked by another process
-link: https://support.magento.com/hc/en-us/articles/360030683752-Index-is-locked-by-another-process
 labels: Magento Commerce,troubleshooting,index,2.x.x
 ---
 

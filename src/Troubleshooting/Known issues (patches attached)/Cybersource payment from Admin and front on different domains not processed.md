@@ -1,6 +1,5 @@
 ---
 title: Cybersource payment from Admin and front on different domains not processed
-link: https://support.magento.com/hc/en-us/articles/360026460831-Cybersource-payment-from-Admin-and-front-on-different-domains-not-processed
 labels: Magento Commerce,patch,troubleshooting,Cybersource,known issues,2.3.0
 ---
 

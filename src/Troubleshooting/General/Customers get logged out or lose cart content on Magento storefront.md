@@ -1,6 +1,5 @@
 ---
 title: Customers get logged out or lose cart content on Magento storefront
-link: https://support.magento.com/hc/en-us/articles/360049032952-Customers-get-logged-out-or-lose-cart-content-on-Magento-storefront
 labels: Magento Commerce Cloud,Magento Commerce,how to,SameSite,session,cookies,cart,logged out
 ---
 

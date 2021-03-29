@@ -1,6 +1,5 @@
 ---
 title: Create database dump on Cloud
-link: https://support.magento.com/hc/en-us/articles/360003254334-Create-database-dump-on-Cloud
 labels: production,Magento Commerce Cloud,ece-tools,Pro,MySQL,database,how to,Starter
 ---
 

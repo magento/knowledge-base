@@ -1,6 +1,5 @@
 ---
 title: Static content deployment options to reduce deployment downtime on Cloud
-link: https://support.magento.com/hc/en-us/articles/360004861194-Static-content-deployment-options-to-reduce-deployment-downtime-on-Cloud
 labels: Magento Commerce Cloud,devdocs,content,deploy,deployment,downtime,static,ece-tools,how to
 ---
 

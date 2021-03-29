@@ -1,6 +1,5 @@
 ---
 title: How many coupons can a Customer use in Magento 2?
-link: https://support.magento.com/hc/en-us/articles/115004348454-How-many-coupons-can-a-Customer-use-in-Magento-2-
 labels: Magento,coupon,FAQ,2.x.x,cart
 ---
 

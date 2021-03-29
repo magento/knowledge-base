@@ -1,6 +1,5 @@
 ---
 title: Product images do not  display despite Product Edit image roles 
-link: https://support.magento.com/hc/en-us/articles/115002446014-Product-images-do-not-display-despite-Product-Edit-image-roles-
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,product image
 ---
 

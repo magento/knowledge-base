@@ -1,6 +1,5 @@
 ---
 title: Upgrade plan checklist for Magento Commerce
-link: https://support.magento.com/hc/en-us/articles/360057968951-Upgrade-plan-checklist-for-Magento-Commerce
 labels: upgrade,Magento Commerce Cloud,Magento Commerce,security,deployment,update,extensions,best practices,third-party extensions,Certification program,Site-Wide Analysis Tool,Upgrade Compatibility Tool
 ---
 

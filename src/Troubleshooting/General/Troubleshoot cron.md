@@ -1,6 +1,5 @@
 ---
 title: Troubleshoot cron
-link: https://support.magento.com/hc/en-us/articles/360032952852-Troubleshoot-cron
 labels: Magento Commerce,cron,troubleshooting,2.3.x,2.2.x
 ---
 

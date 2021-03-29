@@ -1,6 +1,5 @@
 ---
 title: Exceptions during installation
-link: https://support.magento.com/hc/en-us/articles/360033432231-Exceptions-during-installation
 labels: Magento Commerce,installation,var,generated,install,web setup wizard,exception,2.3.x,2.2.x,how to
 ---
 

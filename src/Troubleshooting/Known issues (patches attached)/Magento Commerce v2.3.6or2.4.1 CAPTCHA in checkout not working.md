@@ -1,6 +1,5 @@
 ---
 title: Magento Commerce v2.3.6or2.4.1 CAPTCHA in checkout not working
-link: https://support.magento.com/hc/en-us/articles/360051235772-Magento-Commerce-v2-3-6-2-4-1-CAPTCHA-in-checkout-not-working
 labels: Magento Commerce Cloud,Magento Commerce,Magento Open Source,patch,order,PayPal Express Checkout,2.3.6,2.4.1,CyberSource,PayFlow Pro,CAPTCHA
 ---
 

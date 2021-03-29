@@ -1,6 +1,5 @@
 ---
 title: Out of memory error during installorupgrade
-link: https://support.magento.com/hc/en-us/articles/360032980432-Out-of-memory-error-during-install-upgrade
 labels: Magento Commerce,troubleshooting,PHP,out of memory,web setup wizard,2.3.x,how to
 ---
 

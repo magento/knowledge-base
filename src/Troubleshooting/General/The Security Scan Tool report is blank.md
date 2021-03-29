@@ -1,6 +1,5 @@
 ---
 title: The Security Scan Tool report is blank
-link: https://support.magento.com/hc/en-us/articles/360029224131-The-Security-Scan-Tool-report-is-blank
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,security scan
 ---
 

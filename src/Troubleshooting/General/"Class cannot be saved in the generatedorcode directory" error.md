@@ -1,6 +1,5 @@
 ---
 title: "Class cannot be saved in the generatedorcode directory" error
-link: https://support.magento.com/hc/en-us/articles/360032133671--Class-cannot-be-saved-in-the-generated-code-directory-error
 labels: Cloud,generated
 ---
 

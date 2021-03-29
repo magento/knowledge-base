@@ -1,6 +1,5 @@
 ---
 title: When pushed from git environments placed under production on Magento Cloud
-link: https://support.magento.com/hc/en-us/articles/360050455792-When-pushed-from-git-environments-placed-under-production-on-Magento-Cloud
 labels: staging,production,Magento Commerce Cloud,troubleshooting,2.3,git,develop,2.3.x,2.4,2.4.x,command line,Magento Cloud CLI
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: 503 error on store front catalog pages with "Integrity constraint violation" in logs
-link: https://support.magento.com/hc/en-us/articles/360025762211-503-error-on-store-front-catalog-pages-with-Integrity-constraint-violation-in-logs
 labels: Magento Commerce Cloud,patch,troubleshooting,503,2.2.4,known issues,2.2.0,integrity constraint violation
 ---
 

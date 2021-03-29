@@ -1,6 +1,5 @@
 ---
 title: Order email sent from the server email address
-link: https://support.magento.com/hc/en-us/articles/360024855431-Order-email-sent-from-the-server-email-address
 labels: Magento Commerce Cloud,patch,troubleshooting,2.2.4,order email,known issues
 ---
 

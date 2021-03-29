@@ -1,6 +1,5 @@
 ---
 title: Work with your support tickets
-link: https://support.magento.com/hc/en-us/articles/360020328972-Work-with-your-support-tickets
 labels: 
 ---
 

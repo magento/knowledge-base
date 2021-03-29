@@ -1,6 +1,5 @@
 ---
 title: MySQL disk space is low
-link: https://support.magento.com/hc/en-us/articles/360037591972-MySQL-disk-space-is-low
 labels: Magento Commerce Cloud,MySQL,mysql disk space,large tables,2.3.x,2.2.x,how to
 ---
 

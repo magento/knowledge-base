@@ -1,6 +1,5 @@
 ---
 title: File storage loworexhausted, specific page loads are slow
-link: https://support.magento.com/hc/en-us/articles/360034626052-File-storage-low-exhausted-specific-page-loads-are-slow
 labels: Magento Commerce Cloud,Fastly,Magento Commerce,image optimization,page loads slow,disk space,storage,how to
 ---
 

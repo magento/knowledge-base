@@ -1,6 +1,5 @@
 ---
 title: Product status incorrect when created programmatically
-link: https://support.magento.com/hc/en-us/articles/360028995932-Product-status-incorrect-when-created-programmatically
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,create product,2.x.x,product status
 ---
 

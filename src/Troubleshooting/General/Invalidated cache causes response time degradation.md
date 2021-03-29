@@ -1,6 +1,5 @@
 ---
 title: Invalidated cache causes response time degradation
-link: https://support.magento.com/hc/en-us/articles/360039658851-Invalidated-cache-causes-response-time-degradation
 labels: Magento Commerce Cloud,Magento Commerce,cache,invalidated cache,slow response,response time,2.3.x,2.2.x,how to
 ---
 

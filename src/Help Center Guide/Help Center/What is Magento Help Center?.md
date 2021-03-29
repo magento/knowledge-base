@@ -1,6 +1,5 @@
 ---
 title: What is Magento Help Center?
-link: https://support.magento.com/hc/en-us/articles/360020587771-What-is-Magento-Help-Center-
 labels: 
 ---
 

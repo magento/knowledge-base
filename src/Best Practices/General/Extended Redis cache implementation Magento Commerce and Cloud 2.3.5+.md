@@ -1,6 +1,5 @@
 ---
 title: Extended Redis cache implementation Magento Commerce and Cloud 2.3.5+
-link: https://support.magento.com/hc/en-us/articles/360049292532-Extended-Redis-cache-implementation-Magento-Commerce-and-Cloud-2-3-5-
 labels: Magento Commerce Cloud,Magento Commerce,configuration,Redis,cache,2.3.5,best practices
 ---
 

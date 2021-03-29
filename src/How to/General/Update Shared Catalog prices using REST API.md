@@ -1,6 +1,5 @@
 ---
 title: Update Shared Catalog prices using REST API
-link: https://support.magento.com/hc/en-us/articles/360000815673-Update-Shared-Catalog-prices-using-REST-API
 labels: API,devdocs,Magento,shared_catalog,B2B,price,how to
 ---
 

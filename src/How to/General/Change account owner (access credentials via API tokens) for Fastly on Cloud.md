@@ -1,6 +1,5 @@
 ---
 title: Change account owner (access credentials via API tokens) for Fastly on Cloud
-link: https://support.magento.com/hc/en-us/articles/360006935271-Change-account-owner-access-credentials-via-API-tokens-for-Fastly-on-Cloud
 labels: Magento Commerce Cloud,Fastly,credentials,API,devdocs,account,how to
 ---
 

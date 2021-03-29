@@ -1,6 +1,5 @@
 ---
 title: Cron tasks lock tasks from other groups
-link: https://support.magento.com/hc/en-us/articles/360029219812-Cron-tasks-lock-tasks-from-other-groups
 labels: Magento Commerce Cloud,cron,Pro,troubleshooting,lock
 ---
 

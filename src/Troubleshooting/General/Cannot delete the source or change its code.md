@@ -1,6 +1,5 @@
 ---
 title: Cannot delete the source or change its code
-link: https://support.magento.com/hc/en-us/articles/360032441632-Cannot-delete-the-source-or-change-its-code
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,Inventory,2.3.x,inventory source
 ---
 

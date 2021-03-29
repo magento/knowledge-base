@@ -1,6 +1,5 @@
 ---
 title: Replace depreciated Google Image Charts with Image-Charts
-link: https://support.magento.com/hc/en-us/articles/360024850172-Replace-depreciated-Google-Image-Charts-with-Image-Charts
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,Google Image Charts
 ---
 

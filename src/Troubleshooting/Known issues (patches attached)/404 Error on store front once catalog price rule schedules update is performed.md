@@ -1,6 +1,5 @@
 ---
 title: 404 Error on store front once catalog price rule schedules update is performed
-link: https://support.magento.com/hc/en-us/articles/360025522891-404-Error-on-store-front-once-catalog-price-rule-schedules-update-is-performed
 labels: Magento Commerce,patch,2.2.1,troubleshooting,schedule update,known issues,404 error
 ---
 

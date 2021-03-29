@@ -1,6 +1,5 @@
 ---
 title: Installation stops at about 70%
-link: https://support.magento.com/hc/en-us/articles/360033773871-Installation-stops-at-about-70-
 labels: Magento Commerce,installation,PHP,php.ini,wizard,how to,Varnish
 ---
 

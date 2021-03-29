@@ -1,6 +1,5 @@
 ---
 title: Error (read-only file system) when accessing the read-only directory 'varorgeneration'
-link: https://support.magento.com/hc/en-us/articles/115002541893-Error-read-only-file-system-when-accessing-the-read-only-directory-var-generation-
 labels: Magento Commerce Cloud,deploy,generated_code_symlink,var,troubleshooting,var/generation
 ---
 

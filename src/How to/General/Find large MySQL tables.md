@@ -1,6 +1,5 @@
 ---
 title: Find large MySQL tables
-link: https://support.magento.com/hc/en-us/articles/360038957591-Find-large-MySQL-tables
 labels: Magento Commerce Cloud,Magento,MySQL,database,how to,tables
 ---
 

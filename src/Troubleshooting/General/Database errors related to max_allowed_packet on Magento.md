@@ -1,6 +1,5 @@
 ---
 title: Database errors related to max_allowed_packet on Magento
-link: https://support.magento.com/hc/en-us/articles/360051598831-Database-errors-related-to-max-allowed-packet-on-Magento
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,2.3,queries,MySQL,database,data,errors,2.4,tables,max_allowed_packets,connection
 ---
 

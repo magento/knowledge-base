@@ -1,6 +1,5 @@
 ---
 title: Redirect back to the Admin login form with "Your account is temporarily disabled" error
-link: https://support.magento.com/hc/en-us/articles/360028606831-Redirect-back-to-the-Admin-login-form-with-Your-account-is-temporarily-disabled-error
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,admin login
 ---
 

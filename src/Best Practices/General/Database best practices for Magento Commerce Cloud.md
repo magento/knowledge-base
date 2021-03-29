@@ -1,6 +1,5 @@
 ---
 title: Database best practices for Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,performance,ece-tools,Pro,MySQL,database,triggers,best practices,Starter,lock
 ---
 

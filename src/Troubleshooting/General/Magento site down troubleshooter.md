@@ -1,6 +1,5 @@
 ---
 title: Magento site down troubleshooter
-link: https://support.magento.com/hc/en-us/articles/360029351531-Magento-site-down-troubleshooter
 labels: Magento Commerce Cloud,Magento Commerce,Troubleshooter,site,down,decision,tree,how to
 ---
 

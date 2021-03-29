@@ -1,6 +1,5 @@
 ---
 title: Magento GDPR resources
-link: https://support.magento.com/hc/en-us/articles/360003885754-Magento-GDPR-resources
 labels: devdocs,Magento,data,FAQ,2.x.x,1.x,GDPR
 ---
 

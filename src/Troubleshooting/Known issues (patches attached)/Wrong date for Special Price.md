@@ -1,6 +1,5 @@
 ---
 title: Wrong date for Special Price
-link: https://support.magento.com/hc/en-us/articles/360026174032-Wrong-date-for-Special-Price
 labels: Magento Commerce,patch,troubleshooting,special price,known issues,2.2.2
 ---
 

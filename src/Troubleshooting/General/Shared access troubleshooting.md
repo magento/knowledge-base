@@ -1,6 +1,5 @@
 ---
 title: Shared access troubleshooting
-link: https://support.magento.com/hc/en-us/articles/360020434012-Shared-access-troubleshooting
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,shared access
 ---
 

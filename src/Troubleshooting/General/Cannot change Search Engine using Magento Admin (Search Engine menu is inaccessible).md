@@ -1,6 +1,5 @@
 ---
 title: Cannot change Search Engine using Magento Admin (Search Engine menu is inaccessible)
-link: https://support.magento.com/hc/en-us/articles/360003689913-Cannot-change-Search-Engine-using-Magento-Admin-Search-Engine-menu-is-inaccessible-
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,change search engine
 ---
 

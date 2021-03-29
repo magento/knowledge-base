@@ -1,6 +1,5 @@
 ---
 title: MySQL server has gone away​ error on Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360050825112-MySQL-server-has-gone-away-error-on-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,error,log,cron,2.3,MySQL,time-out,deployment fails,2.3.x,2.4,2.4.x
 ---
 

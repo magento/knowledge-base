@@ -1,6 +1,5 @@
 ---
 title: Terminate (revoke) shared access to Magento Account
-link: https://support.magento.com/hc/en-us/articles/360020430212-Terminate-revoke-shared-access-to-Magento-Account
 labels: help-center-guide
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Advanced Reporting cron job errors Magento Commerce
-link: https://support.magento.com/hc/en-us/articles/360044350992-Advanced-Reporting-cron-job-errors-Magento-Commerce
 labels: Magento Commerce Cloud,Magento Commerce,patch,known issue,404,troubleshooting,advanced reporting,2.3.x,2.3.1,2.3.4-p2
 ---
 

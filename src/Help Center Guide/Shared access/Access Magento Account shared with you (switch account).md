@@ -1,6 +1,5 @@
 ---
 title: Access Magento Account shared with you (switch account)
-link: https://support.magento.com/hc/en-us/articles/360020431732-Access-Magento-Account-shared-with-you-switch-account-
 labels: help-center-guide
 ---
 

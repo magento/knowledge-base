@@ -1,6 +1,5 @@
 ---
 title: Magento Security Scan Tool FAQ
-link: https://support.magento.com/hc/en-us/articles/360058131972-Magento-Security-Scan-Tool-FAQ
 labels: Magento Commerce Cloud,Magento Commerce,Magento Open Source,security,FAQ,store,Magento Security Scan Tool,malware,threats
 ---
 

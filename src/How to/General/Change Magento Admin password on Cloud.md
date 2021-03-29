@@ -1,6 +1,5 @@
 ---
 title: Change Magento Admin password on Cloud
-link: https://support.magento.com/hc/en-us/articles/115005021914-Change-Magento-Admin-password-on-Cloud
 labels: Magento Commerce Cloud,user,ADMIN_PASSWORD,admin password,how to
 ---
 

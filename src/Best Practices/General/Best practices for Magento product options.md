@@ -1,6 +1,5 @@
 ---
 title: Best practices for Magento product options 
-link: https://support.magento.com/hc/en-us/articles/360048723372-Best-practices-for-Magento-product-options-
 labels: Magento Commerce Cloud,Magento Commerce,2.3,products,best practices,2.3.x,2.4,attribute,2.4.x
 ---
 

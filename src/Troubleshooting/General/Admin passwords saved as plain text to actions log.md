@@ -1,6 +1,5 @@
 ---
 title: Admin passwords saved as plain text to actions log 
-link: https://support.magento.com/hc/en-us/articles/115002406394-Admin-passwords-saved-as-plain-text-to-actions-log-
 labels: Magento Commerce Cloud,Magento Commerce,security,troubleshooting,admin password
 ---
 

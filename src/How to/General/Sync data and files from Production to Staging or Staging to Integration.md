@@ -1,6 +1,5 @@
 ---
 title: Sync data and files from Production to Staging or Staging to Integration
-link: https://support.magento.com/hc/en-us/articles/360057150072-Sync-data-and-files-from-Production-to-Staging-or-Staging-to-Integration
 labels: staging,production,Magento Commerce Cloud,sync,data,how to
 ---
 

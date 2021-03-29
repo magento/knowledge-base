@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 B2B Admin can't add configurable product to quote
-link: https://support.magento.com/hc/en-us/articles/360046801971-Magento-2-4-0-B2B-Admin-can-t-add-configurable-product-to-quote
 labels: Magento Commerce Cloud,Magento Commerce,B2B,quote,known issues,products,SKU,2.4.0,shopping cart,add product
 ---
 

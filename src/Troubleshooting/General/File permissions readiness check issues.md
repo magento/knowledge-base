@@ -1,6 +1,5 @@
 ---
 title: File permissions readiness check issues
-link: https://support.magento.com/hc/en-us/articles/360034224232-File-permissions-readiness-check-issues
 labels: Magento Commerce Cloud,Magento Commerce,permissions,web setup wizard,readiness,check,File,how to
 ---
 

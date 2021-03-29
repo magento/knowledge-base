@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 known issue - Export Tax Rates does not work 
-link: https://support.magento.com/hc/en-us/articles/360045850032-Magento-2-4-0-known-issue-Export-Tax-Rates-does-not-work-
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,button,export tax rates,2.4.0
 ---
 

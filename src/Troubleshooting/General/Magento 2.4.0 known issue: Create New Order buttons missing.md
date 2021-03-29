@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 known issue: Create New Order buttons missing
-link: https://support.magento.com/hc/en-us/articles/360047481431-Magento-2-4-0-known-issue-Create-New-Order-buttons-missing
 labels: Magento Commerce Cloud,Magento Commerce,order,known issues,products,SKU,button,2.4.0
 ---
 

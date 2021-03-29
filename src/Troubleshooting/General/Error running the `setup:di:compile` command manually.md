@@ -1,6 +1,5 @@
 ---
 title: Error running the `setup:di:compile` command manually
-link: https://support.magento.com/hc/en-us/articles/115002663433-Error-running-the-setup-di-compile-command-manually
 labels: Magento Commerce Cloud,generated_code_symlink,setup:di:compile,troubleshooting
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Redis unserialize error `setup:static-content:deploy` 
-link: https://support.magento.com/hc/en-us/articles/115002729613-Redis-unserialize-error-setup-static-content-deploy-
 labels: Magento Commerce Cloud,Magento Commerce,Redis,troubleshooting,unserialize error
 ---
 

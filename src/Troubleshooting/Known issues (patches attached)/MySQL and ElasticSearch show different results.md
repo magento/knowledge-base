@@ -1,6 +1,5 @@
 ---
 title: MySQL and ElasticSearch show different results 
-link: https://support.magento.com/hc/en-us/articles/360025244171-MySQL-and-ElasticSearch-show-different-results-
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,search,known issues,2.2.6,2.2.3
 ---
 

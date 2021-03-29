@@ -1,6 +1,5 @@
 ---
 title: Change Magento Admin URL on Cloud
-link: https://support.magento.com/hc/en-us/articles/115005084874-Change-Magento-Admin-URL-on-Cloud
 labels: production,Magento Commerce Cloud,magento_admin,ADMIN_URL,URL,Staging,how to
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Magento 2.3.6: spinner displayed indefinitely when saving address
-link: https://support.magento.com/hc/en-us/articles/360051790231-Magento-2-3-6-spinner-displayed-indefinitely-when-saving-address
 labels: Magento Commerce,troubleshooting,known issues,Vertex,2.3.6,spinner
 ---
 

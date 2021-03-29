@@ -1,6 +1,5 @@
 ---
 title: MBI Service Policies
-link: https://support.magento.com/hc/en-us/articles/360016730811-MBI-Service-Policies
 labels: troubleshooting,support,Magento Business Intelligence
 ---
 

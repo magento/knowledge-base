@@ -1,6 +1,5 @@
 ---
 title: Navigate articles using categories and sections
-link: https://support.magento.com/hc/en-us/articles/360020590991-Navigate-articles-using-categories-and-sections
 labels: help-center-guide
 ---
 

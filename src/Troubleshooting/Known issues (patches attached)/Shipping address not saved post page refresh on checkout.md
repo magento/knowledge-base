@@ -1,6 +1,5 @@
 ---
 title: Shipping address not saved post page refresh on checkout 
-link: https://support.magento.com/hc/en-us/articles/360025843552-Shipping-address-not-saved-post-page-refresh-on-checkout-
 labels: Magento Commerce,patch,troubleshooting,shipping address not saved,known issues,2.2.3
 ---
 

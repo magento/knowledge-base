@@ -1,6 +1,5 @@
 ---
 title: Magento Admin URL location disclosed
-link: https://support.magento.com/hc/en-us/articles/360027916892-Magento-Admin-URL-location-disclosed
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,2.x.x,Admin URL disclosed
 ---
 

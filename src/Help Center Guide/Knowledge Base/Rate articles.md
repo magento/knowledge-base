@@ -1,6 +1,5 @@
 ---
 title: Rate articles
-link: https://support.magento.com/hc/en-us/articles/360020591171-Rate-articles
 labels: help-center-guide
 ---
 

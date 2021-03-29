@@ -1,6 +1,5 @@
 ---
 title: Redis troubleshooter
-link: https://support.magento.com/hc/en-us/articles/360046673932-Redis-troubleshooter
 labels: caching,Magento Commerce Cloud,Magento Commerce,Redis,cache,ece-tools,troubleshooting,database,patches
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 B2B: wrong purchase order logic when discount expired 
-link: https://support.magento.com/hc/en-us/articles/360047251111-Magento-2-4-0-B2B-wrong-purchase-order-logic-when-discount-expired-
 labels: Magento Commerce Cloud,Magento Commerce,patch,B2B,troubleshooting,known issues,2.4.0,purchase order
 ---
 

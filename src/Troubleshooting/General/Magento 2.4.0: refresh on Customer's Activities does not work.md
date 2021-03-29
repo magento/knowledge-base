@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0: refresh on Customer's Activities does not work
-link: https://support.magento.com/hc/en-us/articles/360046091332-Magento-2-4-0-refresh-on-Customer-s-Activities-does-not-work
 labels: Magento Commerce Cloud,Magento Commerce,order,troubleshooting,known issues,product,button,2.4.0,refresh
 ---
 

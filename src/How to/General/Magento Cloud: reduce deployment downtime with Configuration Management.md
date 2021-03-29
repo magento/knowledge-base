@@ -1,6 +1,5 @@
 ---
 title: Magento Cloud: reduce deployment downtime with Configuration Management
-link: https://support.magento.com/hc/en-us/articles/115003169574-Magento-Cloud-reduce-deployment-downtime-with-Configuration-Management
 labels: Magento Commerce Cloud,configuration,cloud,pipeline,deployment,management,2.2,downtime,2.1.4,2.2.x,how to
 ---
 

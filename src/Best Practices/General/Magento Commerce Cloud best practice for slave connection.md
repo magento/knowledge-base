@@ -1,6 +1,5 @@
 ---
 title: Magento Commerce Cloud best practice for slave connection 
-link: https://support.magento.com/hc/en-us/articles/360049045351-Magento-Commerce-Cloud-best-practice-for-slave-connection-
 labels: Magento Commerce Cloud,Redis,MySQL,database,slave connection,best practices
 ---
 

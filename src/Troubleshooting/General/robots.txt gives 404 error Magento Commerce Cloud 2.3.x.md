@@ -1,6 +1,5 @@
 ---
 title: robots.txt gives 404 error Magento Commerce Cloud 2.3.x  
-link: https://support.magento.com/hc/en-us/articles/360040594911-robots-txt-gives-404-error-Magento-Commerce-Cloud-2-3-x-
 labels: Magento Commerce Cloud,robots.txt,nginx,404 error,2.3.x,search engine robots,how to
 ---
 

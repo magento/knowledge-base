@@ -1,6 +1,5 @@
 ---
 title: Changes in the database are not reflected on the storefront
-link: https://support.magento.com/hc/en-us/articles/360039418091-Changes-in-the-database-are-not-reflected-on-the-storefront
 labels: Magento Commerce Cloud,Magento Commerce,change log tables,large tables,slow updates,indexer mode,2.3.x,2.2.x,how to
 ---
 

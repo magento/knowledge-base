@@ -1,6 +1,5 @@
 ---
 title: Remove failed login attempts from the database
-link: https://support.magento.com/hc/en-us/articles/360040209352-Remove-failed-login-attempts-from-the-database
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,database,2.3.x,2.2.x,failed login
 ---
 

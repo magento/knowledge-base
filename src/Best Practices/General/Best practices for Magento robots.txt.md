@@ -1,6 +1,5 @@
 ---
 title: Best practices for Magento robots.txt 
-link: https://support.magento.com/hc/en-us/articles/360048754931-Best-practices-for-Magento-robots-txt-
 labels: Magento Commerce Cloud,Magento Commerce,security,robots.txt,2.3,best practices,2.3.x,search engine robots,2.4,2.4.x,seo
 ---
 

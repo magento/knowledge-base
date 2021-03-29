@@ -1,6 +1,5 @@
 ---
 title: Error when enabling Image Optimization in Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360036557771-Error-when-enabling-Image-Optimization-in-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,Fastly,image optimization,2.3.x,2.2.x,how to
 ---
 

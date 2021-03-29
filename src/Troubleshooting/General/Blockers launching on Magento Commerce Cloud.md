@@ -1,6 +1,5 @@
 ---
 title: Blockers launching on Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/115002517274-Blockers-launching-on-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,Fastly,SSL,VCL,TLS,performance,UAT,troubleshooting
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Roll back environment without Cloud snapshot
-link: https://support.magento.com/hc/en-us/articles/360031627051-Roll-back-environment-without-Cloud-snapshot
 labels: Magento Commerce Cloud,Cloud,2.2,2.1,snapshot,uninstall,roll back,commit,2.2.x,2.1.x,how to
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Site down troubleshooting diagram
-link: https://support.magento.com/hc/en-us/articles/360031107111-Site-down-troubleshooting-diagram
 labels: Magento Commerce,troubleshooting,Magento Commerce C,site down
 ---
 

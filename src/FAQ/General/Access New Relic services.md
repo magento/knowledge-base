@@ -1,6 +1,5 @@
 ---
 title: Access New Relic services
-link: https://support.magento.com/hc/en-us/articles/360039127712-Access-New-Relic-services
 labels: Magento Commerce Cloud,Magento Commerce,performance,Pro,New Relic,blackfire,New Relic Infrastructure,New Relic APM,accessing New Relic,Starter
 ---
 

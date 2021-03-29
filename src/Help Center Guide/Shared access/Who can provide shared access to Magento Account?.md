@@ -1,6 +1,5 @@
 ---
 title: Who can provide shared access to Magento Account?
-link: https://support.magento.com/hc/en-us/articles/360020652651-Who-can-provide-shared-access-to-Magento-Account-
 labels: help-center-guide
 ---
 

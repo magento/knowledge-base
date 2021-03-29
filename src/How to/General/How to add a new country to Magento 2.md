@@ -1,6 +1,5 @@
 ---
 title: How to add a new country to Magento 2 
-link: https://support.magento.com/hc/en-us/articles/360057988152-How-to-add-a-new-country-to-Magento-2-
 labels: upgrade,Magento Commerce Cloud,configuration,installation,module,data,add country
 ---
 

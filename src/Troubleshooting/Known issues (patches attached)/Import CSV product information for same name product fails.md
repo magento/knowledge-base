@@ -1,6 +1,5 @@
 ---
 title: Import CSV product information for same name product fails
-link: https://support.magento.com/hc/en-us/articles/360025389752-Import-CSV-product-information-for-same-name-product-fails
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,import,known issues,2.2.3
 ---
 

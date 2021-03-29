@@ -1,6 +1,5 @@
 ---
 title: During installation, fatal PDO error displays
-link: https://support.magento.com/hc/en-us/articles/360033426412-During-installation-fatal-PDO-error-displays
 labels: Magento Commerce Cloud,Magento Commerce,installation,PHP,PDO,fatal error,extensions,how to
 ---
 

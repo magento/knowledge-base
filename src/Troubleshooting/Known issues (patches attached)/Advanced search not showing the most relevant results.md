@@ -1,6 +1,5 @@
 ---
 title: Advanced search not showing the most relevant results
-link: https://support.magento.com/hc/en-us/articles/360027707452-Advanced-search-not-showing-the-most-relevant-results
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,2.x.x,Advanced search,not relevant results
 ---
 

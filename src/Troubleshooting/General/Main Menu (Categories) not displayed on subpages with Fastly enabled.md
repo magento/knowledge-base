@@ -1,6 +1,5 @@
 ---
 title: Main Menu (Categories) not displayed on subpages with Fastly enabled
-link: https://support.magento.com/hc/en-us/articles/115003567594-Main-Menu-Categories-not-displayed-on-subpages-with-Fastly-enabled
 labels: Magento Commerce Cloud,Fastly,Magento Commerce,cms,troubleshooting,Varnish,storefront menu
 ---
 

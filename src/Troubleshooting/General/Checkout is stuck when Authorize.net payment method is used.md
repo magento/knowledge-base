@@ -1,6 +1,5 @@
 ---
 title: Checkout is stuck when Authorize.net payment method is used
-link: https://support.magento.com/hc/en-us/articles/360030844171-Checkout-is-stuck-when-Authorize-net-payment-method-is-used
 labels: Magento Commerce,Authorize.net,troubleshooting,checkout,2.3.x
 ---
 

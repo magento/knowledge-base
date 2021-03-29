@@ -1,6 +1,5 @@
 ---
 title: Backup issues
-link: https://support.magento.com/hc/en-us/articles/360032990672-Backup-issues
 labels: Magento Commerce,permissions,backup,disk space,2.3.x,2.2.x,how to
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: MBI: Data discrepancies
-link: https://support.magento.com/hc/en-us/articles/360016505312-MBI-Data-discrepancies
 labels: troubleshooting,Magento Business Intelligence,data discrepancies
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Cannot access the latest Beta version
-link: https://support.magento.com/hc/en-us/articles/360048169471-Cannot-access-the-latest-Beta-version
 labels: Magento Commerce,composer,download,early access,how to,Beta
 ---
 

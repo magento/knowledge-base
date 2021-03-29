@@ -1,6 +1,5 @@
 ---
 title: General custom module troubleshooting help
-link: https://support.magento.com/hc/en-us/articles/360031030751-General-custom-module-troubleshooting-help
 labels: Magento Commerce Cloud,Magento Commerce,log,custom,troubleshooting
 ---
 

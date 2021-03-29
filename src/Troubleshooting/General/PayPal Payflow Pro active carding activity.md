@@ -1,6 +1,5 @@
 ---
 title: PayPal Payflow Pro active carding activity
-link: https://support.magento.com/hc/en-us/articles/360025515991-PayPal-Payflow-Pro-active-carding-activity
 labels: Magento Commerce Cloud,Magento Commerce,PayPal,payflow,troubleshooting,2.3.x,2.2.x,2.1.x,carding
 ---
 

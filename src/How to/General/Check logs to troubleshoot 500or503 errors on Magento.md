@@ -1,6 +1,5 @@
 ---
 title: Check logs to troubleshoot 500or503 errors on Magento
-link: https://support.magento.com/hc/en-us/articles/360056354232-Check-logs-to-troubleshoot-500-503-errors-on-Magento
 labels: Magento Commerce Cloud,error,log,site not loading,500 error,site down,how to,503 error
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.1 known issue: error popping up on Checkout with PayPal Braintree  
-link: https://support.magento.com/hc/en-us/articles/360050253211-Magento-2-4-1-known-issue-error-popping-up-on-Checkout-with-PayPal-Braintree-
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,2.4.1,PayPal Braintree
 ---
 

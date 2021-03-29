@@ -1,6 +1,5 @@
 ---
 title: Get to know Account Owner for Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360020654451-Get-to-know-Account-Owner-for-Magento-Commerce-Cloud
 labels: help-center-guide
 ---
 

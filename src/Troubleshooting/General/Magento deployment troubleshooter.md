@@ -1,6 +1,5 @@
 ---
 title: Magento deployment troubleshooter
-link: https://support.magento.com/hc/en-us/articles/360040986912-Magento-deployment-troubleshooter
 labels: deploy,deployment,Troubleshooter,deployment error,deployment fails,stuck deployment
 ---
 

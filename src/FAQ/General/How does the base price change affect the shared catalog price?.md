@@ -1,6 +1,5 @@
 ---
 title: How does the base price change affect the shared catalog price?
-link: https://support.magento.com/hc/en-us/articles/360001571314-How-does-the-base-price-change-affect-the-shared-catalog-price-
 labels: Magento,shared_catalog,price,shared,custom,FAQ
 ---
 
