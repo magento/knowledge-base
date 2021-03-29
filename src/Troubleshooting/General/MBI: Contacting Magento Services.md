@@ -1,6 +1,5 @@
 ---
 title: MBI: Contacting Magento Services
-link: https://support.magento.com/hc/en-us/articles/360016503692-MBI-Contacting-Magento-Services
 labels: troubleshooting,Magento Business Intelligence
 ---
 

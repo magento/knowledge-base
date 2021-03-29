@@ -1,6 +1,5 @@
 ---
 title: MBI: Reporting a defect
-link: https://support.magento.com/hc/en-us/articles/360016732711-MBI-Reporting-a-defect
 labels: troubleshooting,support,Magento Business Intelligence
 ---
 

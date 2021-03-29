@@ -1,6 +1,5 @@
 ---
 title: Google Shopping ads Channel FAQs
-link: https://support.magento.com/hc/en-us/articles/360026412412-Google-Shopping-ads-Channel-FAQs
 labels: Magento Commerce,shopping,ads,FAQ,channel,2.3.4-p1,2.3.5,2.3.3,Google
 ---
 

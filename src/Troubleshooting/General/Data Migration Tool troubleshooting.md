@@ -1,6 +1,5 @@
 ---
 title: Data Migration Tool troubleshooting
-link: https://support.magento.com/hc/en-us/articles/360033020451-Data-Migration-Tool-troubleshooting
 labels: troubleshooting,Data Migration Tool
 ---
 

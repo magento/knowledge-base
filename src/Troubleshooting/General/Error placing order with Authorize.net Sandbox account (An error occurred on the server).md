@@ -1,6 +1,5 @@
 ---
 title: Error placing order with Authorize.net Sandbox account (An error occurred on the server)
-link: https://support.magento.com/hc/en-us/articles/360000570793-Error-placing-order-with-Authorize-net-Sandbox-account-An-error-occurred-on-the-server-
 labels: Magento Commerce,payments,Authorize.net,troubleshooting,sandbox
 ---
 

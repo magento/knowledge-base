@@ -1,6 +1,5 @@
 ---
 title: Checking for DDoS attack from CLI
-link: https://support.magento.com/hc/en-us/articles/360030941932-Checking-for-DDoS-attack-from-CLI
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,DDOS,attack,netstat,grep
 ---
 

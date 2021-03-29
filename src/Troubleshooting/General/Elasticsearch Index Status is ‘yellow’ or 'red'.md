@@ -1,6 +1,5 @@
 ---
 title: Elasticsearch Index Status is ‘yellow’ or 'red'
-link: https://support.magento.com/hc/en-us/articles/360039837952-Elasticsearch-Index-Status-is-yellow-or-red-
 labels: Magento Commerce Cloud,Magento Commerce,Elasticsearch,Elasticsearch Index Status,yellow,red,2.3.x,2.2.x,how to
 ---
 

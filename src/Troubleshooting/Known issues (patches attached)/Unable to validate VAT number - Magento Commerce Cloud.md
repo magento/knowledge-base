@@ -1,6 +1,5 @@
 ---
 title: Unable to validate VAT number - Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360043471592-Unable-to-validate-VAT-number-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,patch,troubleshooting,known issues,vat error,2.3.x
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Cannot access the latest Magento Commerce pre-release
-link: https://support.magento.com/hc/en-us/articles/360034120932-Cannot-access-the-latest-Magento-Commerce-pre-release
 labels: Magento Commerce,troubleshooting,early access,pre-release,how to,MageID
 ---
 

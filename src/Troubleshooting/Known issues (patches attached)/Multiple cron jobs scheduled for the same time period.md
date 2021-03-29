@@ -1,6 +1,5 @@
 ---
 title:  Multiple cron jobs scheduled for the same time period
-link: https://support.magento.com/hc/en-us/articles/360026133971--Multiple-cron-jobs-scheduled-for-the-same-time-period
 labels: Magento Commerce,patch,cron,troubleshooting,2.2.4,known issues,2.2.2,2.1.4,2.1.5,2.1.13,2.1.14,2.2.0
 ---
 

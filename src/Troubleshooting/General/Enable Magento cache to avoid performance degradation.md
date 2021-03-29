@@ -1,6 +1,5 @@
 ---
 title: Enable Magento cache to avoid performance degradation
-link: https://support.magento.com/hc/en-us/articles/360039248971-Enable-Magento-cache-to-avoid-performance-degradation
 labels: Magento Commerce Cloud,Magento Commerce,cache,slow performance,New Relic,2.3.x,2.2.x,Apdex,how to
 ---
 

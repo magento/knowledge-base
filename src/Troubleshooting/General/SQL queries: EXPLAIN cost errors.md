@@ -1,6 +1,5 @@
 ---
 title: SQL queries: EXPLAIN cost errors
-link: https://support.magento.com/hc/en-us/articles/360016730391-SQL-queries-EXPLAIN-cost-errors
 labels: troubleshooting,Magento Business Intelligence,EXPLAIN cost
 ---
 

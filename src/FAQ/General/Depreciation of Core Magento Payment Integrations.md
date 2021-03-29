@@ -1,6 +1,5 @@
 ---
 title: Depreciation of Core Magento Payment Integrations
-link: https://support.magento.com/hc/en-us/articles/360041129351-Depreciation-of-Core-Magento-Payment-Integrations
 labels: Magento Commerce,security,payment,integrations,FAQ,Depreciation of Core Magento Payment Integrations,PSD2,worldpay,eway,marketplace,2.3.5,extensions,2.3.1,2.x.x,2.3.4,2.3.3,Authorize.Net,CyberSource
 ---
 

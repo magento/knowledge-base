@@ -1,6 +1,5 @@
 ---
 title: Test Fastly on Production if a Live Site uses the same domain
-link: https://support.magento.com/hc/en-us/articles/360003581393-Test-Fastly-on-Production-if-a-Live-Site-uses-the-same-domain
 labels: test,production,Magento Commerce Cloud,Fastly,domain,DNS,how to
 ---
 

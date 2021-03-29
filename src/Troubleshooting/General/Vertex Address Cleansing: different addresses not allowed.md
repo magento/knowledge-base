@@ -1,6 +1,5 @@
 ---
 title: Vertex Address Cleansing: different addresses not allowed
-link: https://support.magento.com/hc/en-us/articles/360046998952-Vertex-Address-Cleansing-different-addresses-not-allowed
 labels: Magento Commerce Cloud,Magento Commerce,checkout,known issues,2.3.5-p1,2.4.0,shipping,Vertex,how to,billing,address
 ---
 

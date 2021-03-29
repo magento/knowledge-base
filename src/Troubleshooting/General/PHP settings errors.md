@@ -1,6 +1,5 @@
 ---
 title: PHP settings errors
-link: https://support.magento.com/hc/en-us/articles/360034599631-PHP-settings-errors
 labels: error,PHP,settings,xdebug,memory,how to,large forms
 ---
 

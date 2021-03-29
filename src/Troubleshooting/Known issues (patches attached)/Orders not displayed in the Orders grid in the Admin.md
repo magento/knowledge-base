@@ -1,6 +1,5 @@
 ---
 title: Orders not displayed in the Orders grid in the Admin
-link: https://support.magento.com/hc/en-us/articles/360025277272-Orders-not-displayed-in-the-Orders-grid-in-the-Admin
 labels: patch,known issue,2.2.1,orders
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Deployment fails Fastly module incompatible Magento version 
-link: https://support.magento.com/hc/en-us/articles/360022391811-Deployment-fails-Fastly-module-incompatible-Magento-version-
 labels: Fastly,deploy,deployment
 ---
 

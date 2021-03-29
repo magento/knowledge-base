@@ -1,6 +1,5 @@
 ---
 title: Bulk action product count known issue in Magento 2.3.5
-link: https://support.magento.com/hc/en-us/articles/360044839691-Bulk-action-product-count-known-issue-in-Magento-2-3-5
 labels: Magento Commerce Cloud,Magento Commerce,import,known issues,product,export,2.3.5,mass update,bulk
 ---
 

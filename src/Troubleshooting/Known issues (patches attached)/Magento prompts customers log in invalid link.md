@@ -1,6 +1,5 @@
 ---
 title: Magento prompts customers log in invalid link
-link: https://support.magento.com/hc/en-us/articles/360043857372-Magento-prompts-customers-log-in-invalid-link
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,2.3.5,confirmation link
 ---
 

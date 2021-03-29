@@ -1,6 +1,5 @@
 ---
 title: Provide shared access to Magento Account
-link: https://support.magento.com/hc/en-us/articles/360020694351-Provide-shared-access-to-Magento-Account
 labels: shared access
 ---
 

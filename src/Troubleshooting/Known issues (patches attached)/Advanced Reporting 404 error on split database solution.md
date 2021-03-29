@@ -1,6 +1,5 @@
 ---
 title: Advanced Reporting 404 error on split database solution
-link: https://support.magento.com/hc/en-us/articles/360044725072-Advanced-Reporting-404-error-on-split-database-solution
 labels: Magento Commerce,patch,troubleshooting,known issues,404 error,Advanced Reporting,2.3.x
 ---
 

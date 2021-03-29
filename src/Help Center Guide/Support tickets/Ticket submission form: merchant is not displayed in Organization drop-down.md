@@ -1,6 +1,5 @@
 ---
 title: Ticket submission form: merchant is not displayed in Organization drop-down
-link: https://support.magento.com/hc/en-us/articles/360043335371-Ticket-submission-form-merchant-is-not-displayed-in-Organization-drop-down
 labels: form,shared access,organization,submit a ticket
 ---
 

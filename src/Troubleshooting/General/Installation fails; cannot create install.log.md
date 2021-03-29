@@ -1,6 +1,5 @@
 ---
 title: Installation fails; cannot create install.log
-link: https://support.magento.com/hc/en-us/articles/360033461912-Installation-fails-cannot-create-install-log
 labels: Magento Commerce Cloud,Magento Commerce,installation,php.ini,wizard,install.log,setup,open_basedir,phpinfo.php,how to
 ---
 

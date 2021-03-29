@@ -1,6 +1,5 @@
 ---
 title: git pull origin develop fails when updating the Magento software
-link: https://support.magento.com/hc/en-us/articles/360034229872-git-pull-origin-develop-fails-when-updating-the-Magento-software
 labels: origin,Magento Commerce Cloud,Magento Commerce,fail,git,pull,develop,github,2.x.x,how to
 ---
 

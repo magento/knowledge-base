@@ -1,6 +1,5 @@
 ---
 title: Update Authorize.Net Direct Post from MD5 to SHA-512
-link: https://support.magento.com/hc/en-us/articles/360024368392-Update-Authorize-Net-Direct-Post-from-MD5-to-SHA-512
 labels: Magento Commerce Cloud,Magento Commerce,patch,Authorize.net,troubleshooting,Direct Post,SHA,MDA,deprecated,known issues,2.2.x,2.1.x
 ---
 

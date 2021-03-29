@@ -1,6 +1,5 @@
 ---
 title: MBI Essentials Quick Start Video Series
-link: https://support.magento.com/hc/en-us/articles/360005305614-MBI-Essentials-Quick-Start-Video-Series
 labels: MBI,analysis,mbi-api-migration,data,Magento Business Intelligence,how to,reports
 ---
 

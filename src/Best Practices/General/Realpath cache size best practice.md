@@ -1,6 +1,5 @@
 ---
 title: Realpath cache size best practice
-link: https://support.magento.com/hc/en-us/articles/360045176771-Realpath-cache-size-best-practice
 labels: Magento Commerce Cloud,Magento Commerce,2.3,PHP,php.ini,2.3.4-p1,best practices,2.3.5-p1,2.3.x,realpath cache,2.3.1,2.3.4-p2,2.3.4,2.3.0,2.3.3,2.4,2.4.0,2.4.x,2.3.2,2.3.6,2.3.5-p2,2.3.3-p1,2.4.1,2.3.2-p2
 ---
 

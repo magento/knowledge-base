@@ -1,6 +1,5 @@
 ---
 title: What is Magento Knowledge Base?
-link: https://support.magento.com/hc/en-us/articles/360020326412-What-is-Magento-Knowledge-Base-
 labels: help-center-guide
 ---
 

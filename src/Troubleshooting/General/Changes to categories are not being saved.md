@@ -1,6 +1,5 @@
 ---
 title: Changes to categories are not being saved
-link: https://support.magento.com/hc/en-us/articles/115004383453-Changes-to-categories-are-not-being-saved
 labels: Magento Commerce Cloud,Magento Commerce,category,catalog,troubleshooting
 ---
 

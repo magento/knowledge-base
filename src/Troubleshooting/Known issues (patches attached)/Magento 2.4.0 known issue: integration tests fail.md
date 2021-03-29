@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 known issue: integration tests fail
-link: https://support.magento.com/hc/en-us/articles/360046906191-Magento-2-4-0-known-issue-integration-tests-fail
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,2.4.0,integration tests,dotdigital
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Fastly caching is not working on Magento Cloud
-link: https://support.magento.com/hc/en-us/articles/115001853074-Fastly-caching-is-not-working-on-Magento-Cloud
 labels: headers,caching,x-cache,Magento Commerce Cloud,Fastly,troubleshooting
 ---
 

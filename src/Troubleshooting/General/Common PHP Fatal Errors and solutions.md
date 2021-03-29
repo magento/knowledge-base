@@ -1,6 +1,5 @@
 ---
 title: Common PHP Fatal Errors and solutions
-link: https://support.magento.com/hc/en-us/articles/360030568432-Common-PHP-Fatal-Errors-and-solutions
 labels: Magento Commerce,troubleshooting,PHP Fatal Error
 ---
 

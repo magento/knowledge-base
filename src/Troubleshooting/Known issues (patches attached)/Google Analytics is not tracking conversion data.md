@@ -1,6 +1,5 @@
 ---
 title: Google Analytics is not tracking conversion data
-link: https://support.magento.com/hc/en-us/articles/360026402831-Google-Analytics-is-not-tracking-conversion-data
 labels: Magento Commerce,patch,troubleshooting,known issues,2.2.6,Google Analytics
 ---
 

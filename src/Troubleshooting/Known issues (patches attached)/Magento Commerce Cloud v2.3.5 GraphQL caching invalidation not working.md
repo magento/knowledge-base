@@ -1,6 +1,5 @@
 ---
 title: Magento Commerce Cloud v2.3.5 GraphQL caching invalidation not working
-link: https://support.magento.com/hc/en-us/articles/360048463931-Magento-Commerce-Cloud-v2-3-5-GraphQL-caching-invalidation-not-working
 labels: Magento Commerce Cloud,patch,troubleshooting,GraphQL,cache invalidation
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: _isScopePrivate in private content blocks slows Magento performance
-link: https://support.magento.com/hc/en-us/articles/360040208612--isScopePrivate-in-private-content-blocks-slows-Magento-performance
 labels: Magento Commerce Cloud,Magento Commerce,performance,AJAX requests,isScopePrivate,best practices,2.3.x,2.2.x
 ---
 

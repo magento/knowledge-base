@@ -1,6 +1,5 @@
 ---
 title: Low site and API performance
-link: https://support.magento.com/hc/en-us/articles/360026142471-Low-site-and-API-performance
 labels: Magento Commerce Cloud,API,patch,performance,2.2.1,troubleshooting,known issues
 ---
 

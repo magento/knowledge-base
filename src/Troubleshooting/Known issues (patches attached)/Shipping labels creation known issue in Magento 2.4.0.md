@@ -1,6 +1,5 @@
 ---
 title: Shipping labels creation known issue in Magento 2.4.0
-link: https://support.magento.com/hc/en-us/articles/360046750171-Shipping-labels-creation-known-issue-in-Magento-2-4-0
 labels: Magento Commerce Cloud,Magento Commerce,patch,known issues,2.4.0,shipping label
 ---
 

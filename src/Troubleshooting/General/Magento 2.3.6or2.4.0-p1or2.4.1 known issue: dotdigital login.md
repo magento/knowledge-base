@@ -1,6 +1,5 @@
 ---
 title: Magento 2.3.6or2.4.0-p1or2.4.1 known issue: dotdigital login
-link: https://support.magento.com/hc/en-us/articles/360050092291-Magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,2.3.6,2.4.1,2.4.0-p1,dotdigital
 ---
 

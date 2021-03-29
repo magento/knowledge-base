@@ -1,6 +1,5 @@
 ---
 title: Turn off hourly Amazon emails when using Magento
-link: https://support.magento.com/hc/en-us/articles/360028620492-Turn-off-hourly-Amazon-emails-when-using-Magento
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,email,Amazon
 ---
 

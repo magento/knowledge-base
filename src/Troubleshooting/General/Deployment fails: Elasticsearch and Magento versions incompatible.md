@@ -1,6 +1,5 @@
 ---
 title: Deployment fails: Elasticsearch and Magento versions incompatible 
-link: https://support.magento.com/hc/en-us/articles/360015758471-Deployment-fails-Elasticsearch-and-Magento-versions-incompatible-
 labels: Magento Commerce Cloud,troubleshooting,Elasticsearch
 ---
 

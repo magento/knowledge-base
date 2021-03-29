@@ -1,6 +1,5 @@
 ---
 title: Reset environment on Cloud
-link: https://support.magento.com/hc/en-us/articles/360000852534-Reset-environment-on-Cloud
 labels: Magento Commerce Cloud,snapshot,restore,uninstall,database,roll back,git,2.2.x,2.1.x,how to
 ---
 

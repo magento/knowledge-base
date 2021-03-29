@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.2 B2B: discount remains pay method change
-link: https://support.magento.com/hc/en-us/articles/360054667312-Magento-2-4-2-B2B-discount-remains-pay-method-change
 labels: Magento Commerce Cloud,Magento Commerce,known issue,discount,B2B,payment method,2.4.2
 ---
 

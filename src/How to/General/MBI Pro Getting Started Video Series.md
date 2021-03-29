@@ -1,6 +1,5 @@
 ---
 title: MBI Pro Getting Started Video Series
-link: https://support.magento.com/hc/en-us/articles/360005373453-MBI-Pro-Getting-Started-Video-Series
 labels: MBI,analysis,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
 ---
 

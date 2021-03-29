@@ -1,6 +1,5 @@
 ---
 title: Cannot install using nginx
-link: https://support.magento.com/hc/en-us/articles/360033782051-Cannot-install-using-nginx
 labels: Magento Commerce Cloud,Magento Commerce,install,nginx,fail,how to
 ---
 

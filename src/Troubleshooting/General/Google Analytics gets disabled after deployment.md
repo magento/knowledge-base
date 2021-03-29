@@ -1,6 +1,5 @@
 ---
 title: Google Analytics gets disabled after deployment
-link: https://support.magento.com/hc/en-us/articles/360033743772-Google-Analytics-gets-disabled-after-deployment
 labels: Magento Commerce Cloud,google analytics,how to
 ---
 

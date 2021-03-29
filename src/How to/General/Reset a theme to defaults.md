@@ -1,6 +1,5 @@
 ---
 title: Reset a theme to defaults
-link: https://support.magento.com/hc/en-us/articles/360005034034-Reset-a-theme-to-defaults
 labels: Magento Commerce Cloud,Magento Commerce,reset,theme,default,luma,database,store,how to,SQL
 ---
 

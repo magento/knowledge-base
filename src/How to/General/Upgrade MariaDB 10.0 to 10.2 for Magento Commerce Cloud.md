@@ -1,6 +1,5 @@
 ---
 title: Upgrade MariaDB 10.0 to 10.2 for Magento Commerce Cloud 
-link: https://support.magento.com/hc/en-us/articles/360052191791-Upgrade-MariaDB-10-0-to-10-2-for-Magento-Commerce-Cloud-
 labels: upgrade,Magento Commerce Cloud,ece-tools,database,update,End of Life,2.3.x,how to,tables,2.4.x,MariaDB,MariaDB 10.2,MariaDB 10.3,MariaDB 10.4,MariaDB 10.0,MariaDB 10.1
 ---
 

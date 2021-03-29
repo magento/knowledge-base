@@ -1,6 +1,5 @@
 ---
 title: Improve search performance for Magento Commerce by using Elasticsearch
-link: https://support.magento.com/hc/en-us/articles/360039207432-Improve-search-performance-for-Magento-Commerce-by-using-Elasticsearch
 labels: Magento Commerce,performance,search,MySQL,Elasticsearch,bottleneck,memory,best practices,2.x.x
 ---
 

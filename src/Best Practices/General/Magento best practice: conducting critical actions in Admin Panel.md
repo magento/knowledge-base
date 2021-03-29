@@ -1,6 +1,5 @@
 ---
 title: Magento best practice: conducting critical actions in Admin Panel
-link: https://support.magento.com/hc/en-us/articles/360050107831-Magento-best-practice-conducting-critical-actions-in-Admin-Panel
 labels: Magento Commerce Cloud,Magento Commerce,log,event,2.3,cache invalidation,2.3.x,2.4,critical,2.4.x,actions,save,flush,move
 ---
 

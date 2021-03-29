@@ -1,6 +1,5 @@
 ---
 title: B2B: Companies cannot access profile pages on store front
-link: https://support.magento.com/hc/en-us/articles/360025796972-B2B-Companies-cannot-access-profile-pages-on-store-front
 labels: Magento Commerce,patch,B2B,troubleshooting,known issues,2.2.2,profile
 ---
 

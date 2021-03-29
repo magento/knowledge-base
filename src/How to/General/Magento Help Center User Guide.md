@@ -1,6 +1,5 @@
 ---
 title: Magento Help Center User Guide
-link: https://support.magento.com/hc/en-us/articles/360000913794-Magento-Help-Center-User-Guide
 labels: user guide,Magento,shared access,help center,support ticket,shared account,how to
 ---
 

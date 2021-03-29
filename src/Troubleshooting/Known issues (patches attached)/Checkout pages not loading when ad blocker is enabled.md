@@ -1,6 +1,5 @@
 ---
 title: Checkout pages not loading when ad blocker is enabled
-link: https://support.magento.com/hc/en-us/articles/360025397571-Checkout-pages-not-loading-when-ad-blocker-is-enabled
 labels: Magento Commerce Cloud,patch,troubleshooting,checkout,adblock,known issues,2.2.2
 ---
 

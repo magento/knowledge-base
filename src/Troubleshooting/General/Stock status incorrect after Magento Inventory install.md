@@ -1,6 +1,5 @@
 ---
 title: Stock status incorrect after Magento Inventory install
-link: https://support.magento.com/hc/en-us/articles/360032440152-Stock-status-incorrect-after-Magento-Inventory-install
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,Inventory,2.3.x,stock status
 ---
 

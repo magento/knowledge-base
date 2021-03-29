@@ -1,6 +1,5 @@
 ---
 title: MBI Training Video: Show ToporBottom and Independent Group By Features
-link: https://support.magento.com/hc/en-us/articles/360016730091-MBI-Training-Video-Show-Top-Bottom-and-Independent-Group-By-Features
 labels: MBI,analysis,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
 ---
 

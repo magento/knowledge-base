@@ -1,6 +1,5 @@
 ---
 title: Support ticket fields explained
-link: https://support.magento.com/hc/en-us/articles/360020333832-Support-ticket-fields-explained
 labels: ticket
 ---
 

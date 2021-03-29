@@ -1,6 +1,5 @@
 ---
 title: PWA Studio: Browser displays “Cannot proxy to“ error
-link: https://support.magento.com/hc/en-us/articles/360036581232-PWA-Studio-Browser-displays-Cannot-proxy-to-error
 labels: ENOTFOUND,proxy,NodeJS,browser,hostfile,PWA Studio,how to,hostname
 ---
 

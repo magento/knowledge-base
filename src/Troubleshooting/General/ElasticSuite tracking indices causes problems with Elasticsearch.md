@@ -1,6 +1,5 @@
 ---
 title: ElasticSuite tracking indices causes problems with Elasticsearch
-link: https://support.magento.com/hc/en-us/articles/360034921492-ElasticSuite-tracking-indices-causes-problems-with-Elasticsearch
 labels: Elasticsearch problem,Elasticsuite tracking indices,how to,ElasticSuite 2.8.0,tracking indices
 ---
 

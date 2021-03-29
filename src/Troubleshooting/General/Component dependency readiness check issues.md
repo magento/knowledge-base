@@ -1,6 +1,5 @@
 ---
 title: Component dependency readiness check issues
-link: https://support.magento.com/hc/en-us/articles/360033469652-Component-dependency-readiness-check-issues
 labels: Magento Commerce Cloud,Magento Commerce,readiness,check,dependency,conflict,how to
 ---
 

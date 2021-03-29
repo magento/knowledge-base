@@ -1,6 +1,5 @@
 ---
 title: Resolve an illegal offset error
-link: https://support.magento.com/hc/en-us/articles/360034597391-Resolve-an-illegal-offset-error
 labels: Magento Commerce Cloud,Magento Commerce,error,PHP,illegal,offset,OPcache,how to,Apache
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Site fails to load due to maintenance mode left enabled
-link: https://support.magento.com/hc/en-us/articles/360039781551-Site-fails-to-load-due-to-maintenance-mode-left-enabled
 labels: Magento Commerce Cloud,Magento Commerce,The server is temporarily unable to service your request due to maintenance downtime or capacity problems.,maintenance mode,site not loading,2.3.x,2.2.x,how to
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Redis deployment error on Cloud (Already in pipeline mode)
-link: https://support.magento.com/hc/en-us/articles/115002451014-Redis-deployment-error-on-Cloud-Already-in-pipeline-mode-
 labels: Magento Commerce Cloud,deploy,Redis,pipeline,mode,troubleshooting
 ---
 

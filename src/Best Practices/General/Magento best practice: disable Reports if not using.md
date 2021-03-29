@@ -1,6 +1,5 @@
 ---
 title: Magento best practice: disable Reports if not using
-link: https://support.magento.com/hc/en-us/articles/360048862272-Magento-best-practice-disable-Reports-if-not-using
 labels: Magento Commerce Cloud,Magento Commerce,performance,best practices,2.3.x,2.4.0,2.4.x,reports
 ---
 

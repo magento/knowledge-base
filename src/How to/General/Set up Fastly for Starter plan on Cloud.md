@@ -1,6 +1,5 @@
 ---
 title: Set up Fastly for Starter plan on Cloud
-link: https://support.magento.com/hc/en-us/articles/360002491773-Set-up-Fastly-for-Starter-plan-on-Cloud
 labels: Magento Commerce Cloud,Fastly,devdocs,setup,how to,Starter
 ---
 

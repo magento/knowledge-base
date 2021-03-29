@@ -1,6 +1,5 @@
 ---
 title: Best practice Magento product variations 
-link: https://support.magento.com/hc/en-us/articles/360048727271-Best-practice-Magento-product-variations-
 labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,products,best practices,2.3.x,2.4,attribute,2.4.x
 ---
 

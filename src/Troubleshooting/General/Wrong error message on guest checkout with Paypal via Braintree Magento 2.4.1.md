@@ -1,6 +1,5 @@
 ---
 title: Wrong error message on guest checkout with Paypal via Braintree Magento 2.4.1
-link: https://support.magento.com/hc/en-us/articles/360050368111-Wrong-error-message-on-guest-checkout-with-Paypal-via-Braintree-Magento-2-4-1
 labels: Magento Commerce Cloud,Magento Commerce,PayPal,known issues,2.4.0,Braintree,Magento Quality Patches,2.4.1,guest checkout,cart
 ---
 

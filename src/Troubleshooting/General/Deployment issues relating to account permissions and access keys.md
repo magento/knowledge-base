@@ -1,6 +1,5 @@
 ---
 title: Deployment issues relating to account permissions and access keys
-link: https://support.magento.com/hc/en-us/articles/360031380671-Deployment-issues-relating-to-account-permissions-and-access-keys
 labels: Magento Commerce Cloud,deployment,troubleshooting,access key
 ---
 

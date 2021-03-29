@@ -1,6 +1,5 @@
 ---
 title: During installation, PHP date warning
-link: https://support.magento.com/hc/en-us/articles/360034610051-During-installation-PHP-date-warning
 labels: PHP,date,warning,how to,timezone
 ---
 

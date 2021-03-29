@@ -1,6 +1,5 @@
 ---
 title: Best practice for OPcache memory size Magento Commerce Cloud Pro plan
-link: https://support.magento.com/hc/en-us/articles/360044740812-Best-practice-for-OPcache-memory-size-Magento-Commerce-Cloud-Pro-plan
 labels: Magento Commerce Cloud,performance,Pro,php.ini,OPcache,memory,best practices,2.3.x,PHP 7.0
 ---
 

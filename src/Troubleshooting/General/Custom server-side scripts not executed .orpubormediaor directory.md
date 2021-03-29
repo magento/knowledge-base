@@ -1,6 +1,5 @@
 ---
 title: Custom server-side scripts not executed .orpubormediaor directory
-link: https://support.magento.com/hc/en-us/articles/360017549092-Custom-server-side-scripts-not-executed-pub-media-directory
 labels: Magento Commerce Cloud,troubleshooting,executable,scripts,2.3.x,2.2.x,2.1.x,2.4.x
 ---
 

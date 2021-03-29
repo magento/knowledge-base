@@ -1,6 +1,5 @@
 ---
 title: Bootstrap Magento 2 in a sandbox script
-link: https://support.magento.com/hc/en-us/articles/360024593011-Bootstrap-Magento-2-in-a-sandbox-script
 labels: Magento Commerce Cloud,Magento Commerce,Magento,bootstrap,2.x.x,how to,sandbox
 ---
 

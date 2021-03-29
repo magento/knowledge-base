@@ -1,6 +1,5 @@
 ---
 title: Elasticsearch service not running 
-link: https://support.magento.com/hc/en-us/articles/360035960491-Elasticsearch-service-not-running-
 labels: Magento Commerce Cloud,Magento Commerce,2.2.4,PHP,exception,Elasticsearch,Elasticsearch errors,2.2.6,2.2.3,2.2.5,End of Life,2.3.1,2.3.0,Elasticsearch 6.x,how to,Elasticsearch 2.x,Elasticsearch 5.x,2.2.7,2.2.8,2.2.9
 ---
 

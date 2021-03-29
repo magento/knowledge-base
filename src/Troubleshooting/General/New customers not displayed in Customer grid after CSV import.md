@@ -1,6 +1,5 @@
 ---
 title: New customers not displayed in Customer grid after CSV import
-link: https://support.magento.com/hc/en-us/articles/360025481892-New-customers-not-displayed-in-Customer-grid-after-CSV-import
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,import,customers,2.3.x,2.2.x,2.4.x
 ---
 

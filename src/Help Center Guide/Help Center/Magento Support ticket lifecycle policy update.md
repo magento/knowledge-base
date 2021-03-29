@@ -1,6 +1,5 @@
 ---
 title: Magento Support ticket lifecycle policy update
-link: https://support.magento.com/hc/en-us/articles/360044226072-Magento-Support-ticket-lifecycle-policy-update
 labels: Magento Support,about help center,tickets
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Using Data Exports to pinpoint discrepancies
-link: https://support.magento.com/hc/en-us/articles/360016730631-Using-Data-Exports-to-pinpoint-discrepancies
 labels: troubleshooting,Magento Business Intelligence,data discrepancies
 ---
 

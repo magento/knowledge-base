@@ -1,6 +1,5 @@
 ---
 title: Resolving UTF-8 errors for CSV file uploads
-link: https://support.magento.com/hc/en-us/articles/360016730591-Resolving-UTF-8-errors-for-CSV-file-uploads
 labels: troubleshooting,Magento Business Intelligence,UTF-8 errors
 ---
 

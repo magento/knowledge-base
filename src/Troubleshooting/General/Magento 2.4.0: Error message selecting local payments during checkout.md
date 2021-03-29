@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0: Error message selecting local payments during checkout
-link: https://support.magento.com/hc/en-us/articles/360047139331-Magento-2-4-0-Error-message-selecting-local-payments-during-checkout
 labels: Magento Commerce Cloud,Magento Commerce,checkout,known issues,payment method,2.4.0,Braintree,billing address
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: PHP version error or 404 error when accessing Magento in browser
-link: https://support.magento.com/hc/en-us/articles/360033117152-PHP-version-error-or-404-error-when-accessing-Magento-in-browser
 labels: Magento Commerce,troubleshooting,2.3.5-p1,2.3.1,2.3.4-p2,2.3.4,2.3.0,2.3.3,2.3.2,2.3.6,2.3.5-p2,2.3.3-p1,2.3.2-p2
 ---
 

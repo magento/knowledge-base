@@ -1,6 +1,5 @@
 ---
 title: During installation, Reflection Exception error
-link: https://support.magento.com/hc/en-us/articles/360034633551-During-installation-Reflection-Exception-error
 labels: Magento Commerce Cloud,Magento Commerce,installation,Redis,cache,Reflection,Exception,Error,how to
 ---
 

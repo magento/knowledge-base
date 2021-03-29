@@ -1,6 +1,5 @@
 ---
 title: Best practice Magento product attributes
-link: https://support.magento.com/hc/en-us/articles/360048256612-Best-practice-Magento-product-attributes
 labels: Magento Commerce Cloud,Magento Commerce,2.3,product,best practices,2.3.x,2.4,attribute,2.4.x
 ---
 

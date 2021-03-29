@@ -1,6 +1,5 @@
 ---
 title: Deadlocks in MySQL
-link: https://support.magento.com/hc/en-us/articles/360031622211-Deadlocks-in-MySQL
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,import,MySQL,database,deadlock,2.3.x,2.2.x
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Google Shopping ads Channel Troubleshooting
-link: https://support.magento.com/hc/en-us/articles/360026926371-Google-Shopping-ads-Channel-Troubleshooting
 labels: troubleshooting,Google Shopping
 ---
 

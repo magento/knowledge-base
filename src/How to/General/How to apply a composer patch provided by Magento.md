@@ -1,6 +1,5 @@
 ---
 title: How to apply a composer patch provided by Magento
-link: https://support.magento.com/hc/en-us/articles/360028367731-How-to-apply-a-composer-patch-provided-by-Magento
 labels: Magento Commerce Cloud,Magento Commerce,patch,apply patch,composer,git,how to
 ---
 

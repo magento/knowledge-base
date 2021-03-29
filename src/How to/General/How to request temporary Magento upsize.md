@@ -1,6 +1,5 @@
 ---
 title: How to request temporary Magento upsize
-link: https://support.magento.com/hc/en-us/articles/360041138511-How-to-request-temporary-Magento-upsize
 labels: Magento Commerce Cloud,Magento Commerce,cloud,New Relic,temporary,capacity,request,baseline,alert,2.3.x,2.2.x,how to,Magento Upsize
 ---
 

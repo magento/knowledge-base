@@ -1,6 +1,5 @@
 ---
 title: EU customers cannot complete payments
-link: https://support.magento.com/hc/en-us/articles/360033691871-EU-customers-cannot-complete-payments
 labels: Magento Commerce Cloud,Magento Commerce,payments,declined,2.3.x,2.2.x,how to,EU
 ---
 

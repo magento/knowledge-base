@@ -1,6 +1,5 @@
 ---
 title: Deployment fails with "Error building project: The build hook failed with status code 1"
-link: https://support.magento.com/hc/en-us/articles/360031098011-Deployment-fails-with-Error-building-project-The-build-hook-failed-with-status-code-1-
 labels: Magento Commerce Cloud,build,deployment,troubleshooting,error building
 ---
 

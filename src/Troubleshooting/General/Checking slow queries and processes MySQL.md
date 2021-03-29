@@ -1,6 +1,5 @@
 ---
 title: Checking slow queries and processes MySQL 
-link: https://support.magento.com/hc/en-us/articles/360030903091-Checking-slow-queries-and-processes-MySQL-
 labels: Magento Commerce Cloud,Magento Commerce,log,troubleshooting,slow,queries,MySQL
 ---
 

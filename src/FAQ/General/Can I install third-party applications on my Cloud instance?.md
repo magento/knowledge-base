@@ -1,6 +1,5 @@
 ---
 title: Can I install third-party applications on my Cloud instance?
-link: https://support.magento.com/hc/en-us/articles/360002172293-Can-I-install-third-party-applications-on-my-Cloud-instance-
 labels: Magento Commerce Cloud,security,PCI,third-party_applications,data,FAQ
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Do I need Fastly for a Headless Magento site?
-link: https://support.magento.com/hc/en-us/articles/115005130374-Do-I-need-Fastly-for-a-Headless-Magento-site-
 labels: staging,production,Magento Commerce Cloud,Fastly,SSL,Magento,headless,Pro,DDOS,WAF,FAQ,Starter
 ---
 

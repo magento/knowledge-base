@@ -1,6 +1,5 @@
 ---
 title: Linking Magento.com and accounts.magento.cloud account logins
-link: https://support.magento.com/hc/en-us/articles/360040954871-Linking-Magento-com-and-accounts-magento-cloud-account-logins
 labels: Magento Commerce Cloud,Magento,security,login,accounts.magento.cloud,account,logins,linking,accounts
 ---
 

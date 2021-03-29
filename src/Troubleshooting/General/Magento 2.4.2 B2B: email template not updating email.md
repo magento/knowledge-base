@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.2 B2B: email template not updating email
-link: https://support.magento.com/hc/en-us/articles/360056589311-Magento-2-4-2-B2B-email-template-not-updating-email
 labels: Magento Commerce Cloud,Magento Commerce,known issue,B2B,update,2.4.2,workaround,run cron,email content change,email template,consumer,auto-approved email
 ---
 

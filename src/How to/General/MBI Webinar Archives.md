@@ -1,6 +1,5 @@
 ---
 title: MBI Webinar Archives
-link: https://support.magento.com/hc/en-us/articles/360005407093-MBI-Webinar-Archives
 labels: MBI,analysis,Essentials,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
 ---
 

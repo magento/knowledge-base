@@ -1,6 +1,5 @@
 ---
 title: Static content deploy best practices in Magento
-link: https://support.magento.com/hc/en-us/articles/360031624091-Static-content-deploy-best-practices-in-Magento
 labels: Magento Commerce Cloud,Magento Commerce,configuration,content,deploy,deployment,static,ece-tools,best practices
 ---
 

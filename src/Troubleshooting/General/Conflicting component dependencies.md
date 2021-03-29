@@ -1,6 +1,5 @@
 ---
 title: Conflicting component dependencies 
-link: https://support.magento.com/hc/en-us/articles/360033204651-Conflicting-component-dependencies-
 labels: Magento Commerce Cloud,troubleshooting,web setup wizard,2.3.x,conflicting component dependencies,2.2.x
 ---
 

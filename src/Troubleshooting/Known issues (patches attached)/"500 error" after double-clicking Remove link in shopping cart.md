@@ -1,6 +1,5 @@
 ---
 title: "500 error" after double-clicking Remove link in shopping cart 
-link: https://support.magento.com/hc/en-us/articles/360025045492--500-error-after-double-clicking-Remove-link-in-shopping-cart-
 labels: Magento Commerce Cloud,patch,troubleshooting,known issues,2.2.0,500 error,shopping cart
 ---
 

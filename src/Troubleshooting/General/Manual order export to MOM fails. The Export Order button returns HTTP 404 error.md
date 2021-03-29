@@ -1,6 +1,5 @@
 ---
 title: Manual order export to MOM fails. The Export Order button returns HTTP 404 error
-link: https://support.magento.com/hc/en-us/articles/360041354911-Manual-order-export-to-MOM-fails-The-Export-Order-button-returns-HTTP-404-error
 labels: Magento Commerce,MOM,404 error,connector,export order,2.3.x,2.2.x,button,how to
 ---
 

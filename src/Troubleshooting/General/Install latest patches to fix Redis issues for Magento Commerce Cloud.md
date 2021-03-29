@@ -1,6 +1,5 @@
 ---
 title: Install latest patches to fix Redis issues for Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360046678631-Install-latest-patches-to-fix-Redis-issues-for-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,patch,Redis,performance,troubleshooting,memory,2.3.4,2.3.3,CPU,Redis 5
 ---
 

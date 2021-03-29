@@ -1,6 +1,5 @@
 ---
 title: Provide discount for first purchase only (no coupons)
-link: https://support.magento.com/hc/en-us/articles/115003513453-Provide-discount-for-first-purchase-only-no-coupons-
 labels: user guide,Magento,discount,customer_segments,cart_rules,how to
 ---
 

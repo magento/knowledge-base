@@ -1,6 +1,5 @@
 ---
 title: Slow performance due to non-cacheable pages
-link: https://support.magento.com/hc/en-us/articles/360039145192-Slow-performance-due-to-non-cacheable-pages
 labels: Magento Commerce Cloud,Magento Commerce,slow performance,uncacheable page,cacheable page,2.x.x,how to
 ---
 

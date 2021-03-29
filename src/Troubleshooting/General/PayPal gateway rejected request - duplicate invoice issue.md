@@ -1,6 +1,5 @@
 ---
 title: PayPal gateway rejected request - duplicate invoice issue
-link: https://support.magento.com/hc/en-us/articles/115002457473-PayPal-gateway-rejected-request-duplicate-invoice-issue
 labels: Magento Commerce Cloud,Magento Commerce,PayPal,payments,duplicate,invoice,troubleshooting
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Performance issues caused by excessive Ajax requests 
-link: https://support.magento.com/hc/en-us/articles/360041095391-Performance-issues-caused-by-excessive-Ajax-requests-
 labels: Magento Commerce Cloud,Magento Commerce,patch,performance,troubleshooting,known issues,banner,2.3.x,2.2.x
 ---
 

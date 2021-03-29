@@ -1,6 +1,5 @@
 ---
 title: Advanced Reporting 404 error on Magento Commerce
-link: https://support.magento.com/hc/en-us/articles/360038183911-Advanced-Reporting-404-error-on-Magento-Commerce
 labels: Magento Commerce,patch,troubleshooting,known issues,404 error,2.2.6,Advanced Reporting
 ---
 

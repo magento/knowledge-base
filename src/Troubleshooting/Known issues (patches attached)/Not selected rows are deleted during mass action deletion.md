@@ -1,6 +1,5 @@
 ---
 title: Not selected rows are deleted during mass action deletion 
-link: https://support.magento.com/hc/en-us/articles/360025901132-Not-selected-rows-are-deleted-during-mass-action-deletion-
 labels: Magento Commerce Cloud,patch,troubleshooting,deleted products,deleted customers,known issues,2.2.3,mass update
 ---
 

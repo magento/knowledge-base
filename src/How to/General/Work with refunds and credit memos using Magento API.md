@@ -1,6 +1,5 @@
 ---
 title: Work with refunds and credit memos using Magento API
-link: https://support.magento.com/hc/en-us/articles/115003067873-Work-with-refunds-and-credit-memos-using-Magento-API
 labels: API,devdocs,Magento,refund,credit memo,how to
 ---
 

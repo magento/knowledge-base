@@ -1,6 +1,5 @@
 ---
 title: Empty shopping cart issue when multiple click on checkout from mini cart
-link: https://support.magento.com/hc/en-us/articles/360024915931-Empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart
 labels: Magento Commerce,patch,troubleshooting,minicart,empty cart,checkout,known issues,2.2.3,2.2.5
 ---
 

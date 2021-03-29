@@ -1,6 +1,5 @@
 ---
 title: Configure NPM to be able to use PWA Studio
-link: https://support.magento.com/hc/en-us/articles/360022507012-Configure-NPM-to-be-able-to-use-PWA-Studio
 labels: Magento Commerce Cloud,configuration,PWA,npm,2.3.x,how to
 ---
 

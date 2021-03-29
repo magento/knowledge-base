@@ -1,6 +1,5 @@
 ---
 title: Error after logging in to the Magento Admin
-link: https://support.magento.com/hc/en-us/articles/360033771391-Error-after-logging-in-to-the-Magento-Admin
 labels: Magento Commerce Cloud,Magento Commerce,error,admin,base_url,slash,2.x.x,how to,base URL
 ---
 

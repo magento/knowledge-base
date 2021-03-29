@@ -1,6 +1,5 @@
 ---
 title: Exception on category page with Elasticsearch 5.0: Limit of total fields [1000] in index has been exceeded
-link: https://support.magento.com/hc/en-us/articles/360003290654-Exception-on-category-page-with-Elasticsearch-5-0-Limit-of-total-fields-1000-in-index-has-been-exceeded
 labels: Magento Commerce Cloud,2.2.4,exception,Elasticsearch,2.2.6,2.2.3,2.2.5
 ---
 

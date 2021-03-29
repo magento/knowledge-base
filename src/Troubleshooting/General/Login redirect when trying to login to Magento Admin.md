@@ -1,6 +1,5 @@
 ---
 title: Login redirect when trying to login to Magento Admin
-link: https://support.magento.com/hc/en-us/articles/360028606711-Login-redirect-when-trying-to-login-to-Magento-Admin
 labels: Magento Commerce Cloud,Magento Commerce,admin,troubleshooting,login
 ---
 

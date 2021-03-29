@@ -1,6 +1,5 @@
 ---
 title: Optimize CSS and JS files Magento Commerce Cloud and Magento Commerce
-link: https://support.magento.com/hc/en-us/articles/360044482152-Optimize-CSS-and-JS-files-Magento-Commerce-Cloud-and-Magento-Commerce
 labels: Magento Commerce Cloud,Magento Commerce,configuration,performance,2.3,best practices,CSS,Javascript,file optimization
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: PHP version readiness check issues
-link: https://support.magento.com/hc/en-us/articles/360033546411-PHP-version-readiness-check-issues
 labels: Magento Commerce Cloud,Magento Commerce,PHP version,web setup wizard,2.3.x,2.2.x,how to
 ---
 

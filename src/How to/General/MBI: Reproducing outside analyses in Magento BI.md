@@ -1,6 +1,5 @@
 ---
 title: MBI: Reproducing outside analyses in Magento BI
-link: https://support.magento.com/hc/en-us/articles/360016505592-MBI-Reproducing-outside-analyses-in-Magento-BI
 labels: MBI,database,data,Magento Business Intelligence,how to,reproduce analyses,reports,SQL
 ---
 

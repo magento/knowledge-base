@@ -1,6 +1,5 @@
 ---
 title: Best practices of sitesorstoresorstore view numbers in Cloud Pro
-link: https://support.magento.com/hc/en-us/articles/360044674792-Best-practices-of-sites-stores-store-view-numbers-in-Cloud-Pro
 labels: Magento Commerce Cloud,performance,Pro,best practices,stores,views
 ---
 

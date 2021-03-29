@@ -1,6 +1,5 @@
 ---
 title: Slow performance due to full reindexing
-link: https://support.magento.com/hc/en-us/articles/360039207872-Slow-performance-due-to-full-reindexing
 labels: Magento Commerce Cloud,Magento Commerce,slow performance,full reindexing,cache invalidation,2.x.x,how to
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Site in maintenance mode but available to customers
-link: https://support.magento.com/hc/en-us/articles/360031680851-Site-in-maintenance-mode-but-available-to-customers
 labels: Magento Commerce Cloud,troubleshooting,maintenance mode
 ---
 

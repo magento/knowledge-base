@@ -1,6 +1,5 @@
 ---
 title: Most common database issues in Magento Commerce Cloud
-link: https://support.magento.com/hc/en-us/articles/360041739651-Most-common-database-issues-in-Magento-Commerce-Cloud
 labels: Magento Commerce Cloud,performance,duplicate,logs,queries,MySQL,database,best practices,Percona Toolkit
 ---
 

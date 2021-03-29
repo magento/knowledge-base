@@ -1,6 +1,5 @@
 ---
 title: Search for articles in Knowledge Base
-link: https://support.magento.com/hc/en-us/articles/360020589251-Search-for-articles-in-Knowledge-Base
 labels: 
 ---
 

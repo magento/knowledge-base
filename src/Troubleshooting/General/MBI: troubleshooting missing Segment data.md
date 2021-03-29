@@ -1,6 +1,5 @@
 ---
 title: MBI: troubleshooting missing Segment data
-link: https://support.magento.com/hc/en-us/articles/360016730231-MBI-troubleshooting-missing-Segment-data
 labels: troubleshooting,Magento Business Intelligence,missing Segment data
 ---
 

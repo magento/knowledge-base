@@ -1,6 +1,5 @@
 ---
 title: "Submit a ticket" link not displayed on Magento Help Center start page
-link: https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Magento-Help-Center-start-page
 labels: help-center-guide
 ---
 

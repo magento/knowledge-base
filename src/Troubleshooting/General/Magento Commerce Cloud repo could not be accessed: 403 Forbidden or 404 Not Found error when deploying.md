@@ -1,6 +1,5 @@
 ---
 title: Magento Commerce Cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying
-link: https://support.magento.com/hc/en-us/articles/360040296392-Magento-Commerce-Cloud-repo-could-not-be-accessed-403-Forbidden-or-404-Not-Found-error-when-deploying
 labels: Magento Commerce Cloud,authentication,update,access key,deployment error,URL could not be accessed: HTTP/1.1 403 Forbidden,2.3.x,2.2.x,how to
 ---
 

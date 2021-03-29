@@ -1,6 +1,5 @@
 ---
 title: Payment methods not displayed on checkout with multiple addresses
-link: https://support.magento.com/hc/en-us/articles/360029360451-Payment-methods-not-displayed-on-checkout-with-multiple-addresses
 labels: Magento Commerce Cloud,Magento Commerce,payments,troubleshooting,Cybersource,multishipping,2.x.x
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: run `setup:static-content:deploy` deployed_version.txt issue
-link: https://support.magento.com/hc/en-us/articles/360000338413-run-setup-static-content-deploy-deployed-version-txt-issue
 labels: Magento Commerce Cloud,deploy,troubleshooting,not writable
 ---
 

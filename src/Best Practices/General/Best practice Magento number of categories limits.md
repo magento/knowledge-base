@@ -1,6 +1,5 @@
 ---
 title: Best practice Magento number of categories limits
-link: https://support.magento.com/hc/en-us/articles/360048176832-Best-practice-Magento-number-of-categories-limits
 labels: Magento Commerce Cloud,Magento Commerce,category,performance,2.3,index,products,best practices,2.3.x,2.4,2.4.x
 ---
 

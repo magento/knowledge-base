@@ -1,6 +1,5 @@
 ---
 title: Database auto_increment_ increment variable set to "3" Magento Cloud Pro
-link: https://support.magento.com/hc/en-us/articles/360026909791-Database-auto-increment-increment-variable-set-to-3-Magento-Cloud-Pro
 labels: Magento Commerce Cloud,Pro,auto_increment_increment,MySQL,database,FAQ,Galera
 ---
 

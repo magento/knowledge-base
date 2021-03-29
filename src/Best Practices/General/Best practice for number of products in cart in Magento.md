@@ -1,6 +1,5 @@
 ---
 title: Best practice for number of products in cart in Magento
-link: https://support.magento.com/hc/en-us/articles/360048550332-Best-practice-for-number-of-products-in-cart-in-Magento
 labels: Magento Commerce Cloud,Magento Commerce,2.3,minicart,products,best practices,2.3.x,2.4,2.4.x,cart
 ---
 

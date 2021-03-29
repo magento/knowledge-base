@@ -1,6 +1,5 @@
 ---
 title: Troubleshooting MBI account lockout
-link: https://support.magento.com/hc/en-us/articles/360016503952-Troubleshooting-MBI-account-lockout
 labels: troubleshooting,account,Magento Business Intelligence
 ---
 

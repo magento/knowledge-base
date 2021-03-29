@@ -1,6 +1,5 @@
 ---
 title: Store credit issue during checkout in Magento 2.3.5
-link: https://support.magento.com/hc/en-us/articles/360044427031-Store-credit-issue-during-checkout-in-Magento-2-3-5
 labels: Magento Commerce Cloud,Magento Commerce,credit,troubleshooting,checkout,known issues,2.3.5,Order Summary
 ---
 

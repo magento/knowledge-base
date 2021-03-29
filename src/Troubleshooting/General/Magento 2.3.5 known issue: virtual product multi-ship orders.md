@@ -1,6 +1,5 @@
 ---
 title: Magento 2.3.5 known issue: virtual product multi-ship orders
-link: https://support.magento.com/hc/en-us/articles/360044461831-Magento-2-3-5-known-issue-virtual-product-multi-ship-orders
 labels: Magento Commerce Cloud,Magento Commerce,order,troubleshooting,known issues,product,multishipping,2.3.5,address
 ---
 

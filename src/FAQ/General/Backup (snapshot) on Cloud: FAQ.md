@@ -1,6 +1,5 @@
 ---
 title: Backup (snapshot) on Cloud: FAQ
-link: https://support.magento.com/hc/en-us/articles/360003244074-Backup-snapshot-on-Cloud-FAQ
 labels: staging,production,Magento Commerce Cloud,Pro,snapshot,backup,FAQ,2.3.x,2.2.x,Starter,Pro Legacy
 ---
 

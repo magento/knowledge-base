@@ -1,6 +1,5 @@
 ---
 title: Product comparison known issue in Magento 2.3.5
-link: https://support.magento.com/hc/en-us/articles/360043970452-Product-comparison-known-issue-in-Magento-2-3-5
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,product,2.3.5,Compare Products
 ---
 

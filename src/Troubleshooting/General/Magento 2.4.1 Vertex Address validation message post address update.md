@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.1 Vertex Address validation message post address update
-link: https://support.magento.com/hc/en-us/articles/360050139631-Magento-2-4-1-Vertex-Address-validation-message-post-address-update
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,shipping,Vertex,2.4.1,billing
 ---
 

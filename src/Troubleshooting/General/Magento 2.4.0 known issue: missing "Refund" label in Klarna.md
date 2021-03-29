@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 known issue: missing "Refund" label in Klarna
-link: https://support.magento.com/hc/en-us/articles/360047598311-Magento-2-4-0-known-issue-missing-Refund-label-in-Klarna
 labels: Magento Commerce Cloud,Magento Commerce,refund,known issues,2.4.0,Klarna,label
 ---
 

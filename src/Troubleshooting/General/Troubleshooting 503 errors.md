@@ -1,6 +1,5 @@
 ---
 title: Troubleshooting 503 errors
-link: https://support.magento.com/hc/en-us/articles/360034631211-Troubleshooting-503-errors
 labels: Magento Commerce,error,cache,503,backend,fetch,how to,Varnish
 ---
 

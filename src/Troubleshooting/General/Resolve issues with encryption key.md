@@ -1,6 +1,5 @@
 ---
 title: Resolve issues with encryption key
-link: https://support.magento.com/hc/en-us/articles/360033978652-Resolve-issues-with-encryption-key
 labels: Magento Commerce Cloud,database,encryption,crypt_key,2.3.x,2.2.x,how to
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.1 known issue: unable to change Amazon account in Google Chrome
-link: https://support.magento.com/hc/en-us/articles/360049814152-Magento-2-4-1-known-issue-unable-to-change-Amazon-account-in-Google-Chrome
 labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,browser,Amazon Pay,Javascript,cookies,2.4.1
 ---
 

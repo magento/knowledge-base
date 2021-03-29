@@ -1,6 +1,5 @@
 ---
 title: Update Advanced Reporting to run on its own cron group
-link: https://support.magento.com/hc/en-us/articles/360037681092-Update-Advanced-Reporting-to-run-on-its-own-cron-group
 labels: Magento Commerce Cloud,patch,troubleshooting,known issues,Advanced Reporting,2.3.0,no data
 ---
 

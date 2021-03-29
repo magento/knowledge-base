@@ -1,6 +1,5 @@
 ---
 title: Best practice for triggers usage 
-link: https://support.magento.com/hc/en-us/articles/360048050352-Best-practice-for-triggers-usage-
 labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,MySQL,database,triggers,best practices,2.3.x,2.4,2.4.x
 ---
 

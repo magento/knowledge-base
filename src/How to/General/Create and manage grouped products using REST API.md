@@ -1,6 +1,5 @@
 ---
 title: Create and manage grouped products using REST API
-link: https://support.magento.com/hc/en-us/articles/360005156133-Create-and-manage-grouped-products-using-REST-API
 labels: API,devdocs,Magento,product,how to
 ---
 

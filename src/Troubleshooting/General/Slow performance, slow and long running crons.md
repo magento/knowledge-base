@@ -1,6 +1,5 @@
 ---
 title: Slow performance, slow and long running crons
-link: https://support.magento.com/hc/en-us/articles/360034631192-Slow-performance-slow-and-long-running-crons
 labels: Magento Commerce Cloud,Magento Commerce,performance,flat tables,slow performance,long running crons,flat catalog indexers,how to
 ---
 

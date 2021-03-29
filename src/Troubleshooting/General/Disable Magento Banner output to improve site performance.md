@@ -1,6 +1,5 @@
 ---
 title: Disable Magento Banner output to improve site performance    
-link: https://support.magento.com/hc/en-us/articles/360035285852-Disable-Magento-Banner-output-to-improve-site-performance-
 labels: Magento Commerce Cloud,Magento Commerce,performance,disable,banner,AJAX requests,2.3.x,2.2.x,2.x.x,how to
 ---
 

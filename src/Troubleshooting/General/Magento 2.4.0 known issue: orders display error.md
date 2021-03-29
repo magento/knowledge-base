@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 known issue: orders display error
-link: https://support.magento.com/hc/en-us/articles/360046802271-Magento-2-4-0-known-issue-orders-display-error
 labels: Magento Commerce Cloud,Magento Commerce,error,orders,known issues,2.4.0,display
 ---
 

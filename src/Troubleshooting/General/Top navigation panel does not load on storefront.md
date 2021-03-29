@@ -1,6 +1,5 @@
 ---
 title: Top navigation panel does not load on storefront
-link: https://support.magento.com/hc/en-us/articles/360028757791-Top-navigation-panel-does-not-load-on-storefront
 labels: Magento Commerce,troubleshooting,varnish,2.x.x,Edge Side
 ---
 

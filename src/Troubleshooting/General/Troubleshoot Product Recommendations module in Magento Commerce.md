@@ -1,6 +1,5 @@
 ---
 title: Troubleshoot Product Recommendations module in Magento Commerce
-link: https://support.magento.com/hc/en-us/articles/360042224851-Troubleshoot-Product-Recommendations-module-in-Magento-Commerce
 labels: Magento Commerce,commerce,product,module,product-recommendations,recommendations,saas-export,magento/product-recommendations,2.3.x,how to,2.4.x
 ---
 

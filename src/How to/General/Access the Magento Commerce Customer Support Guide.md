@@ -1,6 +1,5 @@
 ---
 title: Access the Magento Commerce Customer Support Guide
-link: https://support.magento.com/hc/en-us/articles/360052006432-Access-the-Magento-Commerce-Customer-Support-Guide
 labels: Magento Commerce Cloud,Magento Commerce,account,support,support ticket,how to,magento commerce customer support guide
 ---
 

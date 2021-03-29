@@ -1,6 +1,5 @@
 ---
 title: Configurable product swatches not displayed as crossed out when out of stock 
-link: https://support.magento.com/hc/en-us/articles/360026168492-Configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock-
 labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,configurable,known issues,2.2.2
 ---
 

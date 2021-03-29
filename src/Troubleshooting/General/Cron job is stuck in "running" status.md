@@ -1,6 +1,5 @@
 ---
 title: Cron job is stuck in "running" status
-link: https://support.magento.com/hc/en-us/articles/360033099451-Cron-job-is-stuck-in-running-status
 labels: Magento Commerce Cloud,troubleshooting,stuck cron
 ---
 

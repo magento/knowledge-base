@@ -1,6 +1,5 @@
 ---
 title: Magento 2.4.0 known issue: 2.4.0 installation fails with outdated stores cache
-link: https://support.magento.com/hc/en-us/articles/360046949731-Magento-2-4-0-known-issue-2-4-0-installation-fails-with-outdated-stores-cache
 labels: Magento Commerce Cloud,Magento Commerce,installation,cache,troubleshooting,known issues,fail,extensions,2.4.0,stores
 ---
 

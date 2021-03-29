@@ -1,6 +1,5 @@
 ---
 title: Max sales rules best practice in Magento
-link: https://support.magento.com/hc/en-us/articles/360045957511-Max-sales-rules-best-practice-in-Magento
 labels: Magento Commerce Cloud,Magento Commerce,cart_rules,performance,price,2.3,best practices,2.3.x,2.4,2.4.x,cart
 ---
 

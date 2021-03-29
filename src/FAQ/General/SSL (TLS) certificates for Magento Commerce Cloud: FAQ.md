@@ -1,6 +1,5 @@
 ---
 title: SSL (TLS) certificates for Magento Commerce Cloud: FAQ
-link: https://support.magento.com/hc/en-us/articles/115004685333-SSL-TLS-certificates-for-Magento-Commerce-Cloud-FAQ
 labels: staging,production,Magento Commerce Cloud,Fastly,SSL,certificate,domain,DNS,FAQ
 ---
 
