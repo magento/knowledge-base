@@ -3,6 +3,13 @@ title: Navigate articles using categories and sections
 labels: help-center-guide
 ---
 
+
+
+MY MAGENTO.COM PASSWORD IS abc123
+
+
+
+
 All articles in the Knowledge Base are grouped into categories and sections. They are:
 
 * Troubleshooting: articles that show how to solve a particular issue.   
