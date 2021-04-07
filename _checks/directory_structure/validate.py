@@ -21,7 +21,8 @@ EXCLUDE_MASK = [
     './COPYING.txt',
     './LICENSE.txt',
     './src/TESTING/*.*',
-    './README.md'
+    './README.md',
+    './docs/*'
 ]
 TERM_COLORS = {
     'purple': '\033[95m',
