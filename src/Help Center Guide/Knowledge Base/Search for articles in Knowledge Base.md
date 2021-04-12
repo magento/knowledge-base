@@ -5,7 +5,7 @@ labels:
 
 You may, or may not, be logged in to the Magento Help Center to search for articles in the Magento Knowledge Base.
 
-To search for articles, follow these steps:
+<p id="search-for-articles">To search for articles, follow these steps:</p>
 
 1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
 1. In the Search field, start entering the keywords that an article should have.   

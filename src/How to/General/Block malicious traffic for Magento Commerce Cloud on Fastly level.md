@@ -36,11 +36,7 @@ For the Magento Commerce Cloud store, the most effective way to block traffic by
 
 To establish blocking based on user agent, you need to add a custom VCL snippet to your Fastly configuration. To do this, take the following steps:
 
-1. In the Magento Admin, navigate to Stores > Configuration > Advanced > System > Full Page Cache.  
-      
-    ![magento_full_page_cache_2.4.1.png](https://support.magento.com/hc/article_attachments/360086270771/magento_full_page_cache_2.4.1.png)  
-      
-    
+1. In the Magento Admin, navigate to Stores > Configuration > Advanced > System > Full Page Cache.
 1. Then Fastly Configuration > Custom VCL Snippets.
 1. Create the new custom snippet as described in the [Custom VCL snippets](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) guide for the Fastly\_Cdn module. You can use the following code sample as an example. This sample disallows traffic for the `` AhrefsBot `` and `` SemrushBot `` user agents.
 
@@ -54,7 +50,7 @@ To establish blocking based on user agent, you need to add a custom VCL snippet 
   }
   ```</code></pre>
 
-## Rate Limiting (experimental Fastly functionality)
+<h2 id="rate_limit">Rate Limiting (experimental Fastly functionality)</h2>
 
 There is an experimental Fastly functionality for Magento Commerce Cloud which allows you to specify the rate limit for particular paths and crawlers. Please reference the [Fastly module documentation](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md) for details.
 

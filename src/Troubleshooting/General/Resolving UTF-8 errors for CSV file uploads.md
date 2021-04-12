@@ -12,9 +12,5 @@ We recommend using [Sublime Text](http://www.sublimetext.com/2) to save and enco
 1. Open your file in Microsoft Excel, Google Docs, Apple Numbers, or your program of choice.
 1. Click ​​File > Save as​​ and choose the ​​Comma separated values (.csv) format to save the file.
 1. Open the CSV file in Sublime Text.
-1. In Sublime Text, navigate to ​​File > Save with Encoding > UTF-8\*​. This will save the CSV file with UTF-8 encoding.  
-      
-    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](https://support.magento.com/hc/article_attachments/360086187532/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)  
-      
-    
+1. In Sublime Text, navigate to ​​File > Save with Encoding > UTF-8\*​. This will save the CSV file with UTF-8 encoding.
 1. [Upload the data](https://support.magento.com/hc/en-us/articles/360016730951-Upload-additional-data-to-RJMetrics-with-File-Uploads-CSV) to a new table in Magento BI.

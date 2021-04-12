@@ -15,11 +15,7 @@ Steps to reproduce
 
 Prerequisites: The Add Secret Key to URLs option is set to _Yes_. The option is configured in the Magento Admin under Stores > Configuration > Advanced > Admin > Security.
 
-1. In the Magento Admin, navigate to System >Data Transfer >Export.   
-      
-    ![magento_export_products_2.3.4.png](https://support.magento.com/hc/article_attachments/360085657731/magento_export_products_2.3.4.png)  
-      
-    
+1. In the Magento Admin, navigate to System > Data Transfer > Export. 
 1. Select
     
     * Entity Type: _Products_

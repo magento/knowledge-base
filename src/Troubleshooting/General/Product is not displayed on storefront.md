@@ -15,11 +15,7 @@ This article provides solutions for when products are not displayed on storefron
 Steps to reproduce
 
 1. Login to the Magento Admin.
-1. Go to Catalog > Products.  
-      
-    ![open_product_page_magento_2.4.1.png](https://support.magento.com/hc/article_attachments/360086269991/open_product_page_magento_2.4.1.png)  
-      
-    
+1. Go to Catalog > Products.
 1. Click Add Product and go through the product creation process.
 
 Or import products from a CSV file.

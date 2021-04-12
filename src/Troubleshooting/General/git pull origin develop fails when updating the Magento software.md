@@ -5,7 +5,7 @@ labels: origin,Magento Commerce Cloud,Magento Commerce,fail,git,pull,develop,git
 
 This article provides a fix for when you can't update Magento 2 software when running `` git pull origin develop ``.
 
-## Details
+<h2 id="details">Details</h2>
 
 One of the steps to updating the Magento 2 software is to update your local repository by running:
 
@@ -24,15 +24,15 @@ git status</code></pre>
 
 The next section discusses suggested solutions.
 
-### Suggested solutions
+<h3 id="suggested-solutions">Suggested solutions</h3>
 
 Your solution depends on whether or not you intentionally modified files in the Magento 2 file system. See one of the following sections for more information.
 
-#### You intentionally modified files
+<h4 id="you-intentionally-modified-files">You intentionally modified files</h4>
 
 Manually resolve the conflicts in the usual way. If you're not sure what to do, consult [GitHub help](https://help.github.com/).
 
-#### You didn't intentionally modify any files
+<h4 id="you-didn-t-intentionally-modify-any-files">You didn't intentionally modify any files</h4>
 
 Try any of the following:
 

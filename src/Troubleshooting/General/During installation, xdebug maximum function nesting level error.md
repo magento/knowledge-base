@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,Magento Commerce,PHP Fatal Error,xdebug,nesting,l
 
 This article provides a fix for the xdebug maximum function nesting level error, during installation.
 
-## Details
+<h2 id="details">Details</h2>
 
 During Magento installation, a message similar to the following displays:
 
@@ -15,7 +15,7 @@ During Magento installation, a message similar to the following displays:
 
 <p class="warning">It is strongly recommended that you DO NOT USE <code>xdebug</code> on a Production environment!</p>
 
-## Solution
+<h2 id="solution">Solution</h2>
 
 There is a known issue with `` xdebug `` that can affect Magento installations or access to the storefront or Magento Admin after installation.
 

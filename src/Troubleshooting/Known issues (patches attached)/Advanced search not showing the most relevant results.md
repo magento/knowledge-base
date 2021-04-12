@@ -5,13 +5,13 @@ labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issu
 
 This article provides a patch for the known Magento issue, where the Advanced search does not show most relevant results first.
 
-### Affected versions
+<h3 id="Advancedsearchnotshowingmostrelevantresults-Affectedversions">Affected versions</h3>
 
 * Magento Commerce 2.X.X
 * Magento Commerce Cloud 2.X.X
 * Magento Open Source 2.X.X
 
-## Issue
+<h2 id="Advancedsearchnotshowingmostrelevantresults-Description">Issue</h2>
 
 The advanced search function is not returning the most relevant results first, like the quick search is doing. The issue does not depend on the selected search engine type.
 
@@ -29,7 +29,7 @@ Actual result:
 
 The "Orion Two-Tone Fitted Jacket" is not the first result, though it is the most relevant.
 
-## Solution
+<h2 id="Advancedsearchnotshowingmostrelevantresults-Solution">Solution</h2>
 
 To solve the issue, apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 

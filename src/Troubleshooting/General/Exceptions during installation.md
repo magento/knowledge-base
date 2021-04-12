@@ -29,7 +29,7 @@ Object(Magento\Indexer\Model\Resource\Indexer\State\Collection), 'indexer_config
 
 ... more ...</code></pre>
 
-## Solution
+<h2 id="solution">Solution</h2>
 
 Clear the `` &lt;magento_root>/generated/code `` and other directories under `` var `` and `` generated `` as follows:
 

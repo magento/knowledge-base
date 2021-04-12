@@ -16,11 +16,11 @@ Common causes for this issue include:
 * The PHP setting for [`` max_execution_time ``](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
 * Timeout values for nginx and Varnish
 
-### Solution:
+<h3 id="solution-">Solution:</h3>
 
 Set all of the following as appropriate.
 
-#### All web servers and Varnish
+<h4 id="all-web-servers-and-varnish">All web servers and Varnish</h4>
 
 1. Locate your `` php.ini `` using a [`` phpinfo.php ``](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) file.
 1. As a user with `` root `` privileges, open `` php.ini `` in a text editor.
@@ -41,7 +41,7 @@ Set all of the following as appropriate.
     
     
 
-#### nginx only
+<h4 id="nginx-only">nginx only</h4>
 
 If you use nginx, use our included `` nginx.conf.sample `` or add a timeout settings in the nginx host configuration file to the `` location ~ ^/setup/index.php `` section as follows:
 
@@ -53,7 +53,7 @@ If you use nginx, use our included `` nginx.conf.sample `` or add a timeout sett
 
 Restart nginx: `` service nginx restart ``
 
-#### Varnish only
+<h4 id="varnish-only">Varnish only</h4>
 
 If you use Varnish, edit `` default.vcl `` and add a timeout limit value to the `` backend `` stanza as follows:
 

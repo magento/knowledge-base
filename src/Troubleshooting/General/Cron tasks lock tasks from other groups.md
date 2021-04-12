@@ -10,7 +10,7 @@ This article provides a solution for the Magento Commerce Cloud issue related to
 * Magento Cloud, Pro Architecture
 * Onboard earlier than May 2019
 
-## Issue
+<h2 id="Crontaskslocktasksfromdifferentgroups-Issueoverview">Issue</h2>
 
 On Magento Cloud, when you have complex cron tasks (long-run tasks) they might lock other tasks for execution. For example, the indexers task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default cron jobs like: sending emails, generating sitemaps, customer notifications, other custom tasks.
 
@@ -20,7 +20,7 @@ The processes, executed by cron jobs, are not performed. For example, product up
 
 When you open the `` cron_schedule `` database table, you see the jobs with `` missed `` status.
 
-## Cause
+<h2 id="Crontaskslocktasksfromdifferentgroups-Cause">Cause</h2>
 
 Previously, in Magento Cloud Environment, the Jenkins server was used to run cron jobs. Jenkins will only run one instance of a job at a time; consequently, there will only be one `` bin/magento cron:run `` process running at a time.
 

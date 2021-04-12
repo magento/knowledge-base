@@ -24,7 +24,8 @@ This happens when your `` session.save_handler `` PHP parameter is set to some a
 * [Upgrade your Magento 2 code](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall.html#instgde-install-magento-update)
 * Use the following workaround with existing code.
 
-## Locate `` php.ini ``
+<h2 id="locate-php-ini">Locate <code>php.ini</code>
+</h2>
 
 Locate `` php.ini `` by entering the following command:
 
@@ -35,7 +36,7 @@ Typical locations follow:
 * Ubuntu: `` /etc/php5/cli/php.ini ``
 * CentOS: `` /etc/php.ini ``
 
-## Workaround
+<h2 id="workaround">Workaround</h2>
 
 1. As a user with `` root `` privileges, open `` php.ini `` in a text editor.
 1. Locate `` session.save_handler ``

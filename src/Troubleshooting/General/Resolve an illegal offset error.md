@@ -11,17 +11,17 @@ In Magento 2.1 or later, when creating a new product in the Magento Admin, the f
 magento/module-catalog-inventory/Ui/DataProvider/Product/Form/
 Modifier/AdvancedInventory.php on line 87</code></pre>
 
-## Detail
+<h2 id="detail">Detail</h2>
 
 Magento 2.1 and later use PHP code comments in the `` getDocComment `` validation call in the [`` getExtensionAttributes ``](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) method in `` Magento\Framework\Api\ExtensionAttributesFactory.php ``.
 
 If you enabled the PHP OPcache (which we recommend), this error displays because by default, the OPcache setting [`` opcache.save_comments ``](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments) is disabled.
 
-## Workaround
+<h2 id="workaround">Workaround</h2>
 
 To solve the issue, locate your OPcache configuration settings and enable `` opcache.save_comments `` as follows:
 
-#### Step 1: Locate your OPcache configuration
+<h4 id="step-1-locate-your-opcache-configuration">Step 1: Locate your OPcache configuration</h4>
 
 #### To find OPcache configuration settings:
 
@@ -56,7 +56,8 @@ If you have more than one `` opcache.ini ``, modify all of them.
 
  
 
-#### Step 2: Enable `` opcache.save_comments ``
+<h4 id="step-2-enable-opcache-save_comments">Step 2: Enable <code>opcache.save_comments</code>
+</h4>
 
 1. Open your OPcache configuration file in a text editor.
 1. Locate `` opcache.save_comments `` and uncomment it if necessary.

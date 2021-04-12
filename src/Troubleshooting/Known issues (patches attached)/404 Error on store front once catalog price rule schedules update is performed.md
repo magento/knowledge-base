@@ -37,7 +37,7 @@ Following is the detailed description of the required steps:
 1. Clear the browser cache under System > Cache Management.
 1. Make sure the cron jobs are configured properly and may be executed successfully.
 
-## Patch
+<h2 id="patch">Patch</h2>
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
@@ -60,7 +60,7 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
-## Fix the invalid links to staging in DB
+<h2 id="fix_links">Fix the invalid links to staging in DB</h2>
 
 <p class="warning">We strongly recommend creating a database backup before any database manipulations. We also recommend testing queries on development environment first.</p>
 

@@ -55,7 +55,7 @@ To increase the admin session lifetime, take the following steps:
     
     
 
-### Incorrect cookies settings
+<h3 id="Adminloginissuetroubleshooting-Cookiessettings">Incorrect cookies settings</h3>
 
 To check the cookies settings values and clear them, take the following steps:
 

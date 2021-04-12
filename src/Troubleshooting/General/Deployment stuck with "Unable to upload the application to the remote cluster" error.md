@@ -28,7 +28,7 @@ Deployment is completed successfully.
 
 The problem is caused by the outage of available storage. 
 
-## Solution
+<h2 id="solution">Solution</h2>
 
 You can consider cleaning the log directories and/or increasing disk space.
 

@@ -3,7 +3,7 @@ title: After installing, images and stylesheets do not load; only text displays,
 labels: Magento Commerce,images,nginx,2.3.x,2.2.x,how to,Apache,stylesheets
 ---
 
-This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Magento. 
+<p id="details">This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Magento. </p>
 
 ### Affected products and versions
 

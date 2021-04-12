@@ -22,7 +22,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </tr>
 <tr>
 <td>
-<p>Low Apdex score:</p>
+<p id="low_user_satisfaction">Low Apdex score:</p>
 <p>Your New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex score</a> measures users' satisfaction with the response time of your web applications and services. </p>
 </td>
 <td>
@@ -60,7 +60,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <tr>
 <td>
 <p>High CPU usage:<br/></p>
-<p>High CPU usage can indicate there is a particularly busy service, like MySQL, Redis, etc.</p>
+<p id="high_cpu_usage">High CPU usage can indicate there is a particularly busy service, like MySQL, Redis, etc.</p>
 </td>
 <td>
 <ol>
@@ -70,13 +70,13 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </td>
 <td>
 <p>To learn more about performance metrics, particularly CPU percentage, I/O bytes, and memory usage for individual or groups of processes, refer to <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page#processes-tab">New Relic Documentation > Infrastructure UI page > Infrastructure Host page > Processes tab</a>.</p>
-<h1> </h1>
+<h1 id="page-title"> </h1>
 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/cpu-usage-mismatch-or-usage-over-100#cause"><br/><br/></a>
 </td>
 </tr>
 <tr>
 <td>
-<p>High I/O operations:<br/><br/>For each customer this number would be individual, but will be significantly different from average.</p>
+<p id="i_o_operations">High I/O operations:<br/><br/>For each customer this number would be individual, but will be significantly different from average.</p>
 </td>
 <td>
 <p>Look for an unusual spike compared to previous average I/O operations:</p>
@@ -94,7 +94,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </tr>
 <tr>
 <td>
-<p>Outage:<br/><br/>New Relic determines outages by Apdex. You will see a red line on the Apdex score graph which indicates Apdex &lt; 0.4, which is considered an outage.</p>
+<p id="outage">Outage:<br/><br/>New Relic determines outages by Apdex. You will see a red line on the Apdex score graph which indicates Apdex &lt; 0.4, which is considered an outage.</p>
 </td>
 <td>
 <p>Investigating an outage may take several steps, examining web and non-web transactions, databases and third-party transactions.<br/><br/>Web Transactions:</p>

@@ -9,7 +9,7 @@ This article provides a solution for when images are not being displayed correct
 
 * Magento Commerce Cloud 2.2.x, 2.3.x
 
-## Issue
+<h2 id="lost-images-on-deployment-images-">Issue</h2>
 
 When you use a storefront theme with image resizing, the images do not display or disappear from catalog pages when deployed.
 

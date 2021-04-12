@@ -7,13 +7,13 @@ When you access the Magento Help Center, you first get to the Magento Knowledge 
 
 ![magento-knowledge-base-landing.png](https://support.magento.com/hc/article_attachments/360016527971/magento-knowledge-base-landing.png)
 
-## What is Knowledge Base?
+<h2 id="what-is-kb">What is Knowledge Base?</h2>
 
 The Magento Support Knowledge Base is a collection of articles based on the support tickets that Magento customers or partners submit.
 
 Every Knowledge Base article covers a real-life issue or question and may be viewed as a reply to a submitted support ticket helping others to solve a similar problem.
 
-## Does Knowledge Base replace DevDocs or User Guide?
+<h2 id="kb-devdocs-user-guide">Does Knowledge Base replace DevDocs or User Guide?</h2>
 
 No.
 

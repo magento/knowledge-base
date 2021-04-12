@@ -14,7 +14,7 @@ In this article:
 * [Issues with Magento Commerce (On-Premise)](#magento-commerce-on-premise)
 * [Magento Commerce (Cloud)](#magento-commerce-cloud)
 
-## Affected versions
+<h2 id="affected-versions">Affected versions</h2>
 
 * Magento Commerce (On-Premise): 2.X.X
 * Magento Commerce (Cloud):
@@ -26,7 +26,7 @@ In this article:
     
 * MySQL, Elasticsearch: all supported versions
 
-## Change Search Engine using Magento Admin (steps)
+<h2 id="change-search-engine-using-magento-admin-steps">Change Search Engine using Magento Admin (steps)</h2>
 
 1. Log in to Magento Admin as an Administrator.
 1. On the left-side Admin sidebar, click Stores. Then, under Settings, choose Configuration.
@@ -38,7 +38,7 @@ In this article:
     ![search_engine_menu.png](https://support.magento.com/hc/article_attachments/360004634314/search_engine_menu.png)
 1. Click Save Config in the top-right corner of the page.
 
-## Issues with Magento Commerce (On-Premise)
+<h2 id="magento-commerce-on-premise">Issues with Magento Commerce (On-Premise)</h2>
 
 ### Issue 1: Search Engine field is not displayed
 
@@ -96,7 +96,7 @@ Remove the section with default search engine configuration from the `` app/etc/
 
 [Magento configuration files](https://devdocs.magento.com/guides/v2.2/config-guide/config/config-magento.html) (Magento Configuration Guide)
 
-## Magento Commerce (Cloud)
+<h2 id="magento-commerce-cloud">Magento Commerce (Cloud)</h2>
 
 Switching search engines using Magento Admin is not available in Magento Commerce (Cloud) due to the way the Cloud infrastructure has been organized.
 

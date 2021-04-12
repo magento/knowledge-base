@@ -11,7 +11,7 @@ Take this analysis, for example:
 
 There’s a suspicious dip in November 1. $500,780.94 in revenue? That doesn't sound right. You've confirmed that there’s more revenue showing for the month of November 2014 in your source database, and you've double-checked that the Revenue metric used in this report is correctly defined. It seems that the data in the Magento BI data warehouse is incomplete which can be confirmed using a Data Export.
 
-## Exporting the data
+<h2 id="export">Exporting the data</h2>
 
 To get started, click the gear in top right corner of the chart and then the Raw Export option in the dropdown menu. This will give you a raw export of the data behind the chart.
 
@@ -31,7 +31,7 @@ When the Download button appears on the Raw Data Exports window, click it to dow
 
 At this point, we need to get all the data into one sheet to find the problem. We'll import the CSV file (the export from Magento BI) into a different sheet of the Excel file containing our source data.
 
-## Pinpointing the problem
+<h2 id="pinpoint">Pinpointing the problem</h2>
 
 Now that all the data is in one place, we can look for the source of the discrepancy. Comparing the number of rows in each sheet will help us pinpoint the problem. Let's take a closer look at each situation.
 
@@ -45,7 +45,7 @@ To confirm this, take a look at whether or not the order\_total column is being 
 
 If the recheck frequency is already set correctly, then something else is wrong. Refer to the [Contacting Support section](#support) at the end of this article for next steps.
 
-## The source database has MORE rows than Magento BI
+<h2 id="morerows">The source database has MORE rows than Magento BI</h2>
 
 If the source database has more rows than Magento BI and the gap is greater than the number of orders that you can expect to come in during the length of an update cycle, there may be a connection issue. This means that Magento BI isn’t able to pull in new data from the source database, which can happen for several reasons.
 
@@ -59,7 +59,7 @@ Navigate to the Connections page and take a look at the status of the data sourc
      If the connection continues to fail, refer to the [Contacting Support section](#support) at the end of this article for next steps.
 1. If the status is Successful, then the connection isn’t the problem and RJ support needs to get involved. Refer to the [Contacting Support section](#support) at the end of this article for next steps.
 
-## The source database has FEWER rows than Magento BI
+<h2 id="lessrows">The source database has FEWER rows than Magento BI</h2>
 
 If the source database has fewer rows than Magento BI, then it’s possible that rows are being deleted from the source database and Magento BI isn’t picking up these deletions. [Deleting data](https://support.magento.com/hc/en-us/articles/360016731631-Optimizing-your-database-for-analysis#delete) can lead to discrepancies, lengthier update times, and a slew of logistical headaches, so we strongly recommend you don’t ever delete data unless it’s really necessary.
 
@@ -71,7 +71,7 @@ In the Data Warehouse Manager, primary key columns are marked with a key symbol.
 
 If the primary key is already set to be rechecked or rows are never deleted from this table, then you’ll need RJ support to pinpoint the problem. Refer to the following section for next steps.
 
-## Contacting Support
+<h2 id="support">Contacting Support</h2>
 
 If you aren't able to pinpoint the source of the problem, you'll need to loop in RJ Support. Before you submit a ticket, please do the following:
 
