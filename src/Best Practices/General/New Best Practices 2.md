@@ -1,5 +1,5 @@
 ---
-title: New Best Practices
+title: New Best Practices Article
 labels: demo, demo_file
 ---
 
