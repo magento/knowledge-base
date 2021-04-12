@@ -1,48 +1,35 @@
-# Magento Knowledge Base
-
-## Description
-
-A short description of what this project does.
-
+# Magento Support Knowledge Base
+This repository contains Markdown source for articles, published in [Magento Support Knowledge Base](https://support.magento.com/hc/en-us).
 
 ## Goals
 
-It is a good idea to provide a mission statement for your project, enshrining
-what the project wants to accomplish so that as more people join your project
-everyone can work in alignment.
-
-### Usage
-
-Usage instructions for your code.
-
-Example:
-
-```javascript
-var myMod = require('mymodule');
-
-myMod.foo('hi');
-```
+Our goal is to provide the Magento community with comprehensive and quality documentation on resolving Magento issues, Magento best practices, and sharing answers to questions our Support typically gets. We believe to accomplish that goal, we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Magento Support documentation.
 
 ### Contributing
 
-About contributions...
+We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Magento code and Magento Developer Documentation. See [Contribution reward points](docs/contribution-points.md) for details.
 
-#### UCJ's basic notes on community contribution flow
 
-1. Fork repo
-1. Make edits on forked repo
-1. Submit PR
-1. PR Approvals Flow
-   1. KB writers to review PR
-   1. Approve/Deny
-   1. Test Suite
-      1. Adobe CLA
-      1. Markdown Linting
-   1. KB writer imports to magento-commerce repo
-      1. PR imports as new branch in format: imported-magento-knowledge-base-{{pull request #}}
-   1. KB writer submits PR to merge import branch and main branch
-   1. magento-commerce repo and magento repos syncronize in 20 minutes
-1. PR closed once repos sync'd
+#### General contribution flow
+
+1. Fork this repo.
+1. Make edits on forked repo.
+1. Submit a Pull Request (PR) to this repo.
+1. Tests are run:
+    * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
+    * Markdown Linting test - making sure markdown syntax is correct.
+    * File structure validation test - making sure the commit is done according to the [required file structure](.github/CONTRIBUTING,md#file_structure).
+1. PR approvals flow:
+   1. Knowledge Base (KB) writers reviews the PR within several days' time frame and adds label.
+   1. KB writer can approve/deny/request changes.
+   2. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
+   3. SME can approve/deny/request changes.
+1. Once all corrections are done (if any requested), and both KB and SME approve the PR, the KB writer imports content to the internal repo and merges it internally.
+1. The  magento/knowledge-base repo synchronizes with the internal one in 20 minutes.
+1. Once repos are synced, your PR gets closed and you get reward points.
+
+For details on contribution flow, please refer to the [Contributor's Guide](.github/CONTRIBUTING.md).
+For templates, style guide, and formatting guidelines, please refer to [Documentation](docs/index.md).
 
 ### Licensing
 
