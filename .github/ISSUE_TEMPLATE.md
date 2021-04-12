@@ -1,14 +1,14 @@
 # General issue
 
-## Description:
+## Description
 
 <!-- (REQUIRED) What is the issue/current behavior? -->
 
-## Possible solutions:
+## Possible solutions
 
 <!-- (OPTIONAL) What would a solution for this issue look like? -->
 
-## Additional information:
+## Additional information
 
 <!-- (OPTIONAL) What other information can you provide about this issue? -->
 
