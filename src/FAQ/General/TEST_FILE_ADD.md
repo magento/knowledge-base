@@ -3,8 +3,6 @@ title: How to add a new article via Github
 labels: demo
 ---
 
-# Thyoneus feritate incedit cremantur protinus quotiens pontus
-
 ## Mira plus rapiunt vasta consiliique sidera ortus
 
 Lorem markdownum si edax contortum fumo, **quoque ad pro**, Stygiis, Cythereide
@@ -36,8 +34,8 @@ persequitur Perseia promissa. Onerosus Diana. Fecissent **curvamine viros**,
 cupit quam, nec par fleverunt Fama. Aut spectat ipsa.
 
 1. Est tori tollensque Medusaeo falsa puerilibus evolvit
-2. Iam pectus
-3. Ait ad spatio pennas paulatim oraque
-4. Possedit caput trepidat
-5. Figuram cognovit nonne
-6. Edere est fidem illa exit
+1. Iam pectus
+1. Ait ad spatio pennas paulatim oraque
+1. Possedit caput trepidat
+1. Figuram cognovit nonne
+1. Edere est fidem illa exit
