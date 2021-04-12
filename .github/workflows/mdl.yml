@@ -6,6 +6,8 @@ on:
       - master
       - uat_test_1
       - main
+    paths:
+      - 'src/**.md'
 
 jobs:
   mdl:
