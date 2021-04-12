@@ -7,7 +7,7 @@ on:
       - uat_test_1
       - main
     paths:
-      - 'src/**.md'
+      - '**.md'
 
 jobs:
   mdl:
@@ -22,4 +22,4 @@ jobs:
     - name: Install mdl gem
       run: gem install mdl
     - name: Run mdl
-      run: mdl src --style=_checks/styles/style-rules-prod --ignore-front-matter --git-recurse -- .
+      run: mdl --style=_checks/styles/style-rules-prod --ignore-front-matter --git-recurse -- .
