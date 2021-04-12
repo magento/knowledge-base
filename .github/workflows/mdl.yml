@@ -22,4 +22,4 @@ jobs:
     - name: Install mdl gem
       run: gem install mdl
     - name: Run mdl
-      run: mdl src/ --style=_checks/styles/style-rules-prod --ignore-front-matter --git-recurse -- .
+      run: mdl src --style=_checks/styles/style-rules-prod --ignore-front-matter --git-recurse -- .
