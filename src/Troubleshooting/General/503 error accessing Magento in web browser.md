@@ -9,7 +9,7 @@ This article provides a possible solution for the issue where you get 503 error 
 
 * Magento Commerce 2.3.x
 
-## Issue
+<h2 id="symptoms">Issue</h2>
 
 Steps to reproduce
 
@@ -27,11 +27,11 @@ You get the HTTP 503 (Service Unavailable) error. The Apache `` error.log `` inc
 
 _Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration._
 
-## Cause
+<h2 id="details">Cause</h2>
 
 Apache 2.4 compatibility module `` mod_access_compat `` is disabled, which results in Magento URL rewrites not working properly.
 
-## Solution
+<h2 id="suggested-solution">Solution</h2>
 
 Enable the `` mod_access_compat `` Apache module and restart Apache, by running the following as a user with 'root' privileges: 
 
@@ -40,7 +40,7 @@ service &lt;name> restart</code></pre>
 
 On CentOS, <code class="language-bash">&lt;name></code> is <code class="language-bash">httpd</code>. On Ubuntu, <code class="language-bash">&lt;name></code> is <code class="language-bash">apache2</code>.
 
-## Related reading
+<h2 id="additional-resources">Related reading</h2>
 
 * [Apache documentation about mod\_access\_compat](http://httpd.apache.org/docs/current/mod/mod_access_compat.html)
 * [Apache documentation about mod\_authz\_host](http://httpd.apache.org/docs/current/mod/mod_authz_host.html)

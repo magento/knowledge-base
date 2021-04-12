@@ -5,14 +5,11 @@ labels: troubleshooting,support,Magento Business Intelligence
 
 If you observe a feature behaving unexpectedly and think you have found an issue or bug, consider [submitting a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) and include the following:
 
-* Instructions to recreate the defect.
-* Screenshots showing the unexpected behavior.
-    
-    * Include [errors displayed in your browser's console](https://support.magento.com/hc/en-us/articles/360016732711#browser_console).
-    
-    
-    
-* If you found a broken link, include how you got to the page it is on. Screenshots of where the broken link is on the page are also helpful.
+<ul><li>Instructions to recreate the defect.</li><li>Screenshots showing the unexpected behavior.
+<ul>
+<li id="browser_console">Include <a href="https://support.magento.com/hc/en-us/articles/360016732711#browser_console">errors displayed in your browser's console</a>.</li>
+</ul>
+</li><li>If you found a broken link, include how you got to the page it is on. Screenshots of where the broken link is on the page are also helpful.</li></ul>
 
 ## Document errors in your browser's console
 

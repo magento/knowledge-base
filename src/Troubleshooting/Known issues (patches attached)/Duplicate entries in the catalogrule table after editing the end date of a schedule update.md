@@ -50,7 +50,7 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
-## Remove duplicated entries
+<h2 id="remove">Remove duplicated entries</h2>
 
 <p class="info">Please make sure to have a recent backup before any manipulations.</p>
 

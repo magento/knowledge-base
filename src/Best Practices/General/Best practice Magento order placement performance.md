@@ -18,9 +18,7 @@ To enable this feature:
 
 1. Go to Magento Admin Panel.
 1. Click on STORES > Settings > Configuration.
-1. Then go to Sales > Sales Emails > General Settings > Asynchronous sending.  
-      
-    ![asynchronous_sales_emails_magento_2.4.1.png](https://support.magento.com/hc/article_attachments/360086270551/asynchronous_sales_emails_magento_2.4.1.png)
+1. Then go to Sales > Sales Emails > General Settings > Asynchronous sending.
 
 ## Related reading
 

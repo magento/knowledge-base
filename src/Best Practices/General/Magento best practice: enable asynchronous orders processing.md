@@ -17,9 +17,6 @@ If the number of simultaneously placed orders in your store is large enough and 
 To enable the setting:
 
 1. Run `` php bin/magento config:set dev/grid/async_indexing 1 `` or enable the Asynchronous indexing option in Magento Admin under Stores > Settings > Configuration > Advanced > Developer > Grid Settings > Asynchronous indexing.  
-      
-    ![asynchronous_orders_magento_2.4.1.png](https://support.magento.com/hc/article_attachments/360085549312/asynchronous_orders_magento_2.4.1.png)  
-      
     
 1. Flush cache by running `` php bin/magento cache:flush `` or go to Magento Admin under  System > Tools > Cache Management.
 

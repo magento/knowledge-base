@@ -39,7 +39,7 @@ Magento Commerce and Magento Open Source versions 2.3.3 and above/2.2.10 &amp; a
 
 Please refer to the [How to run the script](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section for instructions.
 
-How to run the script
+<p id="run_script">How to run the script</p>
 
 Please follow the below instructions to run the script:
 

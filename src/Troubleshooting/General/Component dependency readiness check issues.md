@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,Magento Commerce,readiness,check,dependency,confl
 
 This article provides solutions for component dependency conflicts.
 
-## Resolve component dependency conflicts
+<h2 id="resolve-component-dependency-conflicts">Resolve component dependency conflicts</h2>
 
 We suggest you try the following solutions in the order shown:
 
@@ -13,7 +13,7 @@ We suggest you try the following solutions in the order shown:
 1. [File system permissions issues](#trouble-depend-permission)
 1. [The Component Dependency Check status never changes](#trouble-depend-state)
 
-### Conflicting dependencies
+<h3 id="trouble-depend-conflict">Conflicting dependencies</h3>
 
 The message `` We found conflicting component dependencies `` displays if Composer cannot determine which components to install or update. To resolve component dependency issues, you should be a technical person who thoroughly understands how Composer works.
 
@@ -28,7 +28,7 @@ Following is a sample failure message:
 
 Refer to [Conflicting component dependencies for a solution](https://support.magento.com/hc/en-us/articles/360033204651).
 
-## File system permissions issues
+<h2 id="trouble-depend-permission">File system permissions issues</h2>
 
 If the Magento file system owner doesn't have permissions to write to directories on the Magento file system, a message similar to the following displays:
 
@@ -37,7 +37,7 @@ packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permi
 
 Make sure you set file system permissions as discussed in DevDocs' [Overview of ownership and permissions](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
 
-## The Component Dependency Check status never changes
+<h2 id="trouble-depend-state">The Component Dependency Check status never changes</h2>
 
 In some cases, the status of the Component Dependency Check doesn't change, even after you try to correct issues. In that case, you can either delete or rename files named `` &lt;magento_root>/var/.update_cronjob_status `` and `` &lt;magento_root>/var/.setup_cronjob_status `` and try running the Component Manager again.
 

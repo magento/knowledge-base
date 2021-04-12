@@ -9,7 +9,7 @@ This topic suggests a solution to a typical redirects performance issue you migh
 
 * Magento Commerce Cloud, all versions, `` Master/Production/Staging `` environments leveraging Fastly
 
-## Issue
+<h2 id="google-analytics-disables-when-deployed">Issue</h2>
 
 In Magento Commerce Cloud, large numbers of non-regex redirects/rewrites cannot be done at the Nginx layer, and as a result can cause performance issues.
 

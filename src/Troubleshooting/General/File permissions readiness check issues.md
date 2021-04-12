@@ -12,7 +12,7 @@ The way you resolve the issue depends on whether you have a one-user or two-user
 * _One user_ means you log in to the Magento server as the same user that also runs the web server. This type of setup is common in shared hosting environments.
 * _Two users_ means you typically _cannot_ log in as, or switch to, the web server user. You typically log in as one user and run the web server as a different user. This is typical in private hosting or if you have your own server.
 
-### One-user resolution
+<h3 id="one-user-resolution">One-user resolution</h3>
 
 If you have command-line access, enter the following command assuming Magento is installed in `` /var/www/html/magento2 ``:
 
@@ -20,7 +20,7 @@ If you have command-line access, enter the following command assuming Magento is
 
 If you do not have command-line access, use an FTP client or a file manager application provided by your hosting provider to set permissions.
 
-### Two-user resolution
+<h3 id="two-user-resolution">Two-user resolution</h3>
 
 To optionally enter all commands on one line, enter the following assuming Magento is installed in `` /var/www/html/magento2 `` and the web server group name is `` apache ``:
 

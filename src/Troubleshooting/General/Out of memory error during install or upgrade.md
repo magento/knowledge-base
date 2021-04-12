@@ -20,7 +20,7 @@ When installing or updating the Magento application or components like extension
 
 The error <code class="language-bash">proc\_open(): fork failed - Cannot allocate memory</code> can also display on the command line.
 
-## Solution
+<h2 id="solution">Solution</h2>
 
 We recommend you [allocate 2GB of memory to PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) to make sure your installation or upgrade succeeds.
 
@@ -28,7 +28,7 @@ If you've already done that, create a swap file on your machine. A Linux machine
 
 The following are suggestions only; other options might be available. Consult a network administrator or another knowledgeable resource before you continue. You must run the commands to create a swap file as a user with `` root `` privileges.
 
-#### Swap file on Ubuntu
+<h4 id="swap-file-on-ubuntu">Swap file on Ubuntu</h4>
 
 Use the `` fallocate `` command as discussed in these references:
 
@@ -36,7 +36,7 @@ Use the `` fallocate `` command as discussed in these references:
 * [How To Add Swap Space on Ubuntu 16.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
 * [SwapFaq (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
 
-#### Swap file on CentOS
+<h4 id="swap-file-on-centos">Swap file on CentOS</h4>
 
 Use the `` mkswap `` command as discussed in these references:
 

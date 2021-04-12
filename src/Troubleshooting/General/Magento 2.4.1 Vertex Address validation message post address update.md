@@ -16,12 +16,8 @@ Enable Vertex Address Cleansing. For steps, refer to Magento User Guide [Configu
 
 Steps to reproduce:
 
-1. Create an account and log in.
-1. Add an item to cart by clicking Add to Cart. Click on the Cart icon and then click Proceed to Checkout. 
-1. Enter a valid address in the Shipping Address field.
-1. Check one of the options under Shipping Methods. Then click Next.
-1. If the Address Validation suggests different address information, click Update address and click Next.
-1. Uncheck the My billing and shipping address are the same checkbox.
+<ol><li id="first_sixth">Create an account and log in.</li><li>Add an item to cart by clicking Add to Cart. Click on the Cart icon and then click Proceed to Checkout. 
+</li><li>Enter a valid address in the Shipping Address field.</li><li>Check one of the options under Shipping Methods. Then click Next.</li><li>If the Address Validation suggests different address information, click Update address and click Next.</li><li>Uncheck the My billing and shipping address are the same checkbox.</li></ol>
 
 First scenario:  
 

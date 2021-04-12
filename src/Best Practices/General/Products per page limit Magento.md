@@ -16,9 +16,7 @@ You can configure Magento to allow shoppers to view all category products on a s
 
 The recommendation is to set the Allow All Products per page configuration to _No_, if you have more than 48 products in any category. 
 
-To change this configuration, in the Magento Admin Panel go to Stores > Configuration > Catalog > Catalog > Storefront > Allow All Products per page = _No_.  
-  
-![magento_allow_all_products_per_page_2.4.1.png](https://support.magento.com/hc/article_attachments/360086186352/magento_allow_all_products_per_page_2.4.1.png)
+To change this configuration, in the Magento Admin Panel go to Stores > Configuration > Catalog > Catalog > Storefront > Allow All Products per page = _No_.
 
 ## Related reading
 

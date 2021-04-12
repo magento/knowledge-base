@@ -24,7 +24,7 @@ Flat indexers can cause:
 
 Flat tables and indexers enabled.
 
-## Solution
+<h2 id="solution">Solution</h2>
 
 Starting with Magento 2.1.x and above, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. To disable the flat catalog:
 

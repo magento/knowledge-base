@@ -11,11 +11,11 @@ This article provides solutions for the issues where you cannot access your Mage
 
 ## Issue: not supported PHP version
 
-The following message displays when you try to access Magento storefront or Admin:
+<p id="symptom-the-following-message-displays-when-you-try-to-access-the-magento-storefront-or-admin-">The following message displays when you try to access Magento storefront or Admin:</p>
 
 <code class="bash">Magento supports PHP 7.1.3 or later. Please read Magento System Requirements.</code>
 
-### Solution
+<h3 id="solution">Solution</h3>
 
 Try the following:
 
@@ -34,9 +34,9 @@ Try the following:
 
 ## Issue: error 404
 
-A 404 (Not Found) error displays when you try to access Magento storefront or Admin.
+<p id="symptom-a-404-not-found-error-displays-">A 404 (Not Found) error displays when you try to access Magento storefront or Admin.</p>
 
-### Solution
+<h3 id="solution">Solution</h3>
 
 Try the following:
 

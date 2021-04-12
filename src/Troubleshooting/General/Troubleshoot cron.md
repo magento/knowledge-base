@@ -46,7 +46,7 @@ Affected products and versions
     
     
 
-## Investigate to find the cause
+<h2 id="check-your-existing-crontab">Investigate to find the cause</h2>
 
 This section discusses how to see if cron is currently running and to verify whether it's set up properly.
 
@@ -109,17 +109,17 @@ To verify whether or not your crontab is set up:
 
 ## Solutions
 
-### Solution for crontab not being set up
+<h3 id="solution-crontab-not-set-up">Solution for crontab not being set up</h3>
 
 To verify your cron jobs are set up properly, see [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 
-### Solution for cron running from incorrect PHP binary
+<h3 id="solution-cron-running-from-incorrect-php-binary">Solution for cron running from incorrect PHP binary</h3>
 
 If your cron job uses a PHP binary different from the web server plug-in, PHP settings errors might display. To resolve the issue, set identical PHP settings for both the PHP command line and the PHP web server plug-in.
 
 For more information about PHP settings, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
 
-### Solution for cron running with errors
+<h3 id="solution-cron-running-with-errors">Solution for cron running with errors</h3>
 
 Try running each command manually because the command might display helpful error messages. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 

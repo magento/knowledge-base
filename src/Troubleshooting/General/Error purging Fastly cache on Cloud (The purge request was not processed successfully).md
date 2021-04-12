@@ -27,11 +27,7 @@ You may have incorrect credentials set in your environment or need to upload VCL
 Verify if you have the correct Fastly Service ID and API token in your environment. If you have Staging credentials in Production, the purges may not process or process incorrectly.
 
 1. Log in to your local Magento Admin as an administrator.
-1. Click Stores > Settings > Configuration > Advanced > System and expand Full Page Cache.  
-      
-    ![magento_full_page_cache_2.4.1.png](https://support.magento.com/hc/article_attachments/360086186652/magento_full_page_cache_2.4.1.png)  
-      
-    
+1. Click Stores > Settings > Configuration > Advanced > System and expand Full Page Cache.
 1. Expand Fastly Configuration and verify the Fastly Service ID and API token for your environment.
 1. If you modify the values, click Test Credentials.
 

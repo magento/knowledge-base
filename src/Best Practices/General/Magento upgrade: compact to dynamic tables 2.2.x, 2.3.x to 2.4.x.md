@@ -25,7 +25,7 @@ export MYSQL_HOST=$(grep [\']db[\'] -A 20 app/etc/env.php | grep host | head -n1
 export DB_USER=$(grep [\']db[\'] -A 20 app/etc/env.php | grep username | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
 export MYSQL_PWD=$(grep [\']db[\'] -A 20 app/etc/env.php | grep password | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/[']$//" | sed "s/['][,]//");</code></pre>
 </li><li>Get a count of tables to be altered and their names by running the following command in the CLI/Terminal:<br/><br/>
-<div>
+<div id="1600192646.015900">
 <div>
 <div>
 <div>

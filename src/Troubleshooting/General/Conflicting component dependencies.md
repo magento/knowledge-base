@@ -5,13 +5,13 @@ labels: Magento Commerce Cloud,troubleshooting,web setup wizard,2.3.x,conflictin
 
 This article provides a solution for conflicting component dependencies. When trying to setup or update Magento Commerce using the Web Setup Wizard, you see the _"We found conflicting component dependencies"_ Composer error message. 
 
-### Affected products and versions
+<h3 id="conflicting-dependencies-trouble-depend-conflict-">Affected products and versions</h3>
 
 * Magento Commerce v.2.2.x, v.2.3.x
 * Magento Commerce Cloud v.2.2.x, v.2.3.x
 * Magento Open Source 2.2.x, 2.3.x
 
-## Issue
+<h2 id="example">Issue</h2>
 
 A conflicting component dependencies error message similar to the following (actual package names and versions will vary): 
 
@@ -37,13 +37,13 @@ Two main scenarios can lead to conflicting component dependencies. Click on your
     
     
 
-## Upgrading Magento
+<h2 id="upgrading_magento">Upgrading Magento</h2>
 
 If you are upgrading Magento Commerce Cloud, try the following to resolve conflicting component dependencies:  
  • Check the keys being used to upgrade. Are the keys being generated from the correct email account?  
  • Check permissions and make sure that they match the Magento upgrade requirements. Review DevDocs' [Magento Upgrade Overview > Update and Upgrade Checklist > File System Permissions](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms).
 
-## Incompatibility with third-party modules:
+<h2 id="incompatibility_third_party_modules">Incompatibility with third-party modules:</h2>
 
 Conflicting component dependencies can also be caused by third-party modules that depend on earlier Magento components than the ones you have installed. Try the following:
 
@@ -51,11 +51,11 @@ Conflicting component dependencies can also be caused by third-party modules tha
 1. Now try the readiness check. Review DevDocs' [Magento Upgrade Overview > Run the Module Manager > Step 1 Readiness Check](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html).
 1. If the readiness check fails with another Component dependency check failure message, click on the following links depending on whether you are using [Magento Commerce and Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360044010932#magento_commerce_magento_commerce_cloud) or [Magento Open Source,](https://support.magento.com/hc/en-us/articles/360044010932#opensource) to get further troubleshooting steps.
 
-## Magento Commerce and Magento Commerce Cloud
+<h2 id="magento_commerce_magento_commerce_cloud">Magento Commerce and Magento Commerce Cloud</h2>
 
 1. Reach out to the developer of the extension so they can assist you. You can find their contact information on the page you purchased the extension from on the Magento Marketplace. Look for the Contact Seller button shown on the right panel. All Magento developers are required to provide a user's and installation guide when they publish an extension on Marketplace. You can find both on the right side of their landing page.  
  1. If you do not receive a response from the Seller in a reasonable amount of time, please [let Magento Marketplace know](https://marketplacesupport.magento.com/) so that we can remind them of their customer support commitments.
 
-## Magento Open Source
+<h2 id="opensource">Magento Open Source</h2>
 
 Request assistance at [our main forum](https://community.magento.com/) or [contact a Magento Partner](https://magento.com/find-a-partner) that assists in Open Source issues.
