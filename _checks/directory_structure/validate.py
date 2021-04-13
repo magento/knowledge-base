@@ -17,12 +17,15 @@ EXIT_CODE = 0
 EXCLUDE_MASK = [
     './src/**/**/*.md',
     './src/**/**/assets/*.*',
+    './src/**/__group__.json',
+    './src/**/**/__group__.json',
     './_checks/*',
     './COPYING.txt',
     './LICENSE.txt',
     './src/TESTING/*.*',
     './README.md',
-    './docs/*'
+    './docs/*',
+    './venv/*'
 ]
 TERM_COLORS = {
     'purple': '\033[95m',
@@ -51,7 +54,7 @@ def build_file_list(start_dir: str = "./",
     :return: The list of files from the given directory
     :rtype: list
     """
-    if exclude_list is None:
+    if not exclude_list:
         exclude_list = []
     filenames = []
     for filename in glob.iglob(start_dir + file_mask, recursive=recursive):
