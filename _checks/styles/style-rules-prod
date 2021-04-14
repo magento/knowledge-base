@@ -19,7 +19,7 @@ exclude_rule 'MD022'
 rule 'MD023' # Headers must start at the beginning of the line
 rule 'MD024'
 rule 'MD025' # Multiple top level headers in the same document
-rule 'MD026'
+exclude_rule 'MD026'
 exclude_rule 'MD027'
 exclude_rule 'MD028'
 rule 'MD029' # Ordered list item prefix
