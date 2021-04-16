@@ -1,6 +1,6 @@
 ---
 title: Reset stuck Magento cron jobs manually on Cloud
-labels: Magento Commerce Cloud,Cloud,cron,reset,ece-tools,stuck cron,how to
+labels: Cloud,Magento Commerce Cloud,cron,ece-tools,how to,reset,stuck cron
 ---
 
 Magento cron jobs may don't finish executing, get stuck, and prevent other cron jobs from running. This article shows how to reset the stuck cron jobs manually.

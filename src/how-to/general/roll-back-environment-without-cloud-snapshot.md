@@ -1,6 +1,6 @@
 ---
 title: Roll back environment without Cloud snapshot
-labels: Magento Commerce Cloud,Cloud,2.2,2.1,snapshot,uninstall,roll back,commit,2.2.x,2.1.x,how to
+labels: 2.1,2.1.x,2.2,2.2.x,Cloud,Magento Commerce Cloud,commit,how to,roll back,snapshot,uninstall
 ---
 
 This article shows two solutions to roll back an environment without having a snapshot of your environment on Magento Commerce Cloud.
@@ -14,7 +14,7 @@ Choose the most appropriate for your case:
 * If you have a stable build, but no valid snapshot - [Scenario 1: No snapshot, build stable (SSH connection available)](scen2).
 * If the build is broken and you have no valid snapshot - [Scenario 2: No snapshot; build broken (no SSH connection)](scen3).
 
-<h2 id="scen2">Scenario 1: No snapshot, build stable (SSH connection available)</h2>
+## Scenario 1: No snapshot, build stable (SSH connection available)
 
 This section shows how to roll back an environment when you have not created a snapshot but can access the environment via SSH.
 
@@ -31,7 +31,7 @@ After performing these steps:
 
 Read the detailed steps below.
 
-<h3 id="disable_config_management">Step 0 (Prerequisite): Remove config.php to disable Configuration Management</h3>
+### Step 0 (Prerequisite): Remove config.php to disable Configuration Management
 
 We need to disable Configuration Management so that it does not automatically apply the previous configuration settings during deployment.
 
@@ -63,7 +63,7 @@ Read more about Configuration Management:
 * [Knowledge Base](https://support.magento.com/hc/en-us/articles/115003169574)
 * [DevDocs](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-over.html)
 
-<h3 id="setup-uninstall">Step 1: Uninstall the Magento software with setup:uninstall command</h3>
+### Step 1: Uninstall the Magento software with setup:uninstall command
 
 >  
 > Uninstalling the Magento software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
@@ -88,7 +88,7 @@ The following message displays to confirm a successful uninstallation:
 
 This means we have reverted our Magento installation (including DB) to its authentic (Vanilla) state.
 
-<h3 id="reset-git-branch">Step 2: Reset the git branch</h3>
+### Step 2: Reset the git branch
 
 With git reset, we revert the code to the desired state in the past.
 
@@ -117,7 +117,7 @@ With git reset, we revert the code to the desired state in the past.
 
 After performing these steps, our git branch gets reset and the entire git changelog is clear. The last git push triggers the redeploy to apply all changes and re-install Magento.
 
-<h2 id="scen3">Scenario 2: No snapshot; build broken (no SSH connection)</h2>
+## Scenario 2: No snapshot; build broken (no SSH connection)
 
 This section shows how to roll back an environment when it is in a critical state: the deployment procedure cannot succeed in building a working application, thus making the SSH connection unavailable.
 

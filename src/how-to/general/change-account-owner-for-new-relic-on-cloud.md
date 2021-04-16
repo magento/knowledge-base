@@ -1,6 +1,6 @@
 ---
 title: Change account owner for New Relic on Cloud
-labels: Magento Commerce Cloud,admin,New Relic,account,how to
+labels: Magento Commerce Cloud,New Relic,account,admin,how to
 ---
 
 For your Magento Commerce Cloud project, you may change the New Relic account owner on the New Relic UI page. For detailed steps, see [Change the account Owner](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) (New Relic documentation).

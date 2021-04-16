@@ -1,6 +1,6 @@
 ---
 title: Magento upgrade: compact to dynamic tables 2.2.x, 2.3.x to 2.4.x 
-labels: upgrade,Magento Commerce Cloud,2.2,Pro,troubleshooting,2.3,known issues,MySQL,database,2.3.x,2.2.x,2.4,Starter,2.4.x
+labels: 2.2,2.2.x,2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,MySQL,Pro,Starter,database,known issues,troubleshooting,upgrade
 ---
 
 This article provides a solution for the issue when you cannot upgrade Magento from 2.2x and 2.3.x to 2.4.x due to `` COMPACT `` MySQL tables not having been converted to ``   DYNAMIC `` tables in your database.
@@ -25,7 +25,7 @@ export MYSQL_HOST=$(grep [\']db[\'] -A 20 app/etc/env.php | grep host | head -n1
 export DB_USER=$(grep [\']db[\'] -A 20 app/etc/env.php | grep username | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
 export MYSQL_PWD=$(grep [\']db[\'] -A 20 app/etc/env.php | grep password | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/[']$//" | sed "s/['][,]//");</code></pre>
 </li><li>Get a count of tables to be altered and their names by running the following command in the CLI/Terminal:<br/><br/>
-<div id="1600192646.015900">
+<div>
 <div>
 <div>
 <div>

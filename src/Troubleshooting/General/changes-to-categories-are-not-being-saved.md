@@ -1,6 +1,6 @@
 ---
 title: Changes to categories are not being saved
-labels: Magento Commerce Cloud,Magento Commerce,category,catalog,troubleshooting
+labels: Magento Commerce,Magento Commerce Cloud,catalog,category,troubleshooting
 ---
 
 This article provides a fix for when updating product categories via Magento Admin, the changes are not displayed on Magento Admin and storefront. The problem is caused by the corrupted data in the `` catalog_category_entity `` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using Magento Admin.

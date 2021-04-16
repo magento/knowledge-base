@@ -1,17 +1,17 @@
 ---
 title: Error after logging in to the Magento Admin
-labels: Magento Commerce Cloud,Magento Commerce,error,admin,base_url,slash,2.x.x,how to,base URL
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,admin,base URL,base_url,error,how to,slash
 ---
 
 This article provides a solution for the issue where you receive an error message saying that the requested URL was not found on this server.
 
-<h3 id="details">Details</h3>
+### Details
 
 The requested URL /magento2index.php/admin/admin/dashboard/index/key/0c81957145a968b697c32a846598dc2e/ was not found on this server.
 
 Note the lack of a slash character between `` magento2 `` and `` index.php `` in the URL.
 
-<h3 id="solution">Solution</h3>
+### Solution
 
 The base URL is not correct. The base URL must:
 

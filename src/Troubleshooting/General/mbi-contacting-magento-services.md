@@ -1,6 +1,6 @@
 ---
 title: MBI: Contacting Magento Services
-labels: troubleshooting,Magento Business Intelligence
+labels: Magento Business Intelligence,troubleshooting
 ---
 
 <div>

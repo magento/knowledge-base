@@ -1,6 +1,6 @@
 ---
 title: Magento Help Center User Guide
-labels: user guide,Magento,shared access,help center,support ticket,shared account,how to
+labels: Magento,help center,how to,shared access,shared account,support ticket,user guide
 ---
 
 Learn how to submit a support ticket to the Magento Help Center, provide shared access to accounts, and navigate the Magento Knowledge Base.
@@ -49,31 +49,31 @@ Major Update: July 17, 2020
 * [Access shared account (switch accounts)](#switch-accounts)
 * [Shared access troubleshooting](#troubleshooting-shared-access)
 
-<h2 id="what-is">WHAT IS MAGENTO HELP CENTER?</h2>
+## WHAT IS MAGENTO HELP CENTER?
 
 Welcome to Magento Help Center! We are here to help solve your Magento issues quickly and efficiently.
 
 Magento Help Center is the [Knowledge Base](#kb) and the [Ticketing System](#support-tickets). This document shows how to use both of them.
 
-<h2 id="kb">KNOWLEDGE BASE</h2>
+## KNOWLEDGE BASE
 
 When you access the Help Center, you first get to the Magento Knowledge Base.
 
-<h3 id="what-is-kb">What is Knowledge Base?</h3>
+### What is Knowledge Base?
 
 The Magento Support Knowledge Base is a collection of articles based on the support tickets that Magento Customers or Partners submit.
 
 Every Knowledge Base article covers a real-life issue or question and may be viewed as a reply to a submitted support ticket helping others to solve a similar problem.
 
-<h3 id="kb-devdocs-user-guide">Knowledge Base does not replace DevDocs or User Guide</h3>
+### Knowledge Base does not replace DevDocs or User Guide
 
 The information in the Knowledge Base is designed as complementary to [DevDocs](http://devdocs.magento.com/), the [User Guide](http://docs.magento.com/m2/ee/user_guide/getting-started.html), and [other Magento publications](https://magento.com/resources/technical), and only covers troubleshooting, best practices, hosts announcements, answers FAQ's, or highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
 
-<h3 id="search-for-articles">Search for articles</h3>
+### Search for articles
 
 You don't need to be logged in to the Magento Help Center to search for articles in the Magento Knowledge Base.
 
-<p id="search-for-articles">To search for articles, follow these steps:</p>
+To search for articles, follow these steps:
 
 1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
 1. In the Search field, start entering the keywords that an article should have.  
@@ -100,7 +100,7 @@ You can also select the article Tags on the bottom-left of the Search results pa
 
 You can search for articles using the Search field on any page of the Knowledge Base.
 
-<h3 id="navigate-articles">Navigate articles using Categories</h3>
+### Navigate articles using Categories
 
 All articles in the Knowledge Base are grouped into Categories. They are:
 
@@ -117,17 +117,17 @@ To find articles through navigating the categories, follow these steps:
 1. Click a category.
 1. The list of all articles in that category is displayed. Browse through the articles, find the one you need, then click it.
 
-<h3 id="rate-articles">Rate articles</h3>
+### Rate articles
 
 You may help us improve our articles let us know your opinion. At the bottom of every article, click Yes or No to answer the question Was this article helpful?
 
 Please vote, your opinion matters!
 
-<h2 id="support-tickets">SUPPORT TICKETS</h2>
+## SUPPORT TICKETS
 
 Magento Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Magento — for all Magento products.
 
-<h2 id="login">LOG IN TO HELP CENTER</h2>
+## LOG IN TO HELP CENTER
 
 Logging in allows you to work with support tickets. You can still access all articles in the Magento Knowledge Base without logging in.
 
@@ -138,11 +138,11 @@ To log in to the Magento Help Center, follow these steps:
 
 Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) (Magento User Guide). 
 
-<h3 id="submit-ticket">Submit a support ticket</h3>
+### Submit a support ticket
 
 Once successfully logged in, you may submit a support ticket using the Help Center start page, your Magento Account page, and your Magento Cloud Account page.
 
-<h4 id="submit-ticket-help-center-start-page">Help Center start page</h4>
+#### Help Center start page
 
 To submit a new support ticket using the starting page of Magento Help Center, follow these steps:
 
@@ -156,7 +156,7 @@ To submit a new support ticket using the starting page of Magento Help Center, f
 You must log in to the Help Center using your Magento Account in order to submit a support ticket.  
 Until you are logged in, [the Submit a ticket button will not be displayed](#no-submit-link).
 
-<h4 id="submit-ticket-magento-account-page">Magento Account page</h4>
+#### Magento Account page
 
 To submit a new support ticket using your Magento Account page, follow these steps:
 
@@ -168,7 +168,7 @@ To submit a new support ticket using your Magento Account page, follow these ste
 1. Fill in the fields.
 1. Click Submit.
 
-<h4 id="submit-ticket-magento-cloud-account-page">Magento Cloud Account page</h4>
+#### Magento Cloud Account page
 
 To submit a new support ticket using your Magento Cloud Account page, follow these steps:
 
@@ -179,13 +179,13 @@ To submit a new support ticket using your Magento Cloud Account page, follow the
 1. Fill in the fields.
 1. Click Submit.
 
-<h4 id="info-in-support-ticket">Information in your support ticket</h4>
+#### Information in your support ticket
 
 The fields, marked with a red asterisk (\*), are required and must be filled in. If you leave any of those fields empty, you will not be able to submit your ticket.
 
 See [Ticket fields explained](#ticket-fields-explained) below for more detailed information.
 
-<h3 id="no-submit-link">"Submit a ticket" link not displayed on Magento Help Center start page</h3>
+### "Submit a ticket" link not displayed on Magento Help Center start page
 
 #### Issue
 
@@ -236,8 +236,7 @@ If you are having issues logging in to your account or believe Shared Access was
 
  
 
-<h3 id="verify-email-address">
-<em>"Please verify your email address"</em> error on the Magento account page</h3>
+### _"Please verify your email address"_ error on the Magento account page
 
  
 
@@ -256,7 +255,7 @@ The solution is to validate your email address:
 
  
 
-<h3 id="merchant-not-displayed">Ticket submission form: merchant is not displayed in Organization drop-down</h3>
+### Ticket submission form: merchant is not displayed in Organization drop-down
 
 #### Issue
 
@@ -286,7 +285,7 @@ After having been granted shared access from the merchant, you need to take the 
 
  
 
-<h3 id="track-tickets">Track your tickets</h3>
+### Track your tickets
 
 Your tickets are those that you:
 
@@ -333,13 +332,13 @@ To follow/unfollow tickets for an organization:
 
  
 
-<h3 id="P1-hotline">Magento P1 hotline</h3>
+### Magento P1 hotline
 
 Login is required to access the [Magento P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Magento when seeking help during a P1 incident and explains what information to provide.
 
  
 
-<h3 id="ticket-fields-explained">Support ticket fields explained</h3>
+### Support ticket fields explained
 
 #### Affected URL
 
@@ -461,7 +460,7 @@ To find the version of your Magento Commerce (Cloud), scroll down your [Project 
 
  
 
-<h3 id="ticket-status">Ticket status: How your tickets are processed</h3>
+### Ticket status: How your tickets are processed
 
 Your ticket may have either of these three statuses.
 
@@ -486,7 +485,7 @@ Magento Support has provided a solution for your issue, and you have agreed it h
   
 It is you who marks the ticket as Solved. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to Open.
 
-<h3 id="conversation-in-ticket">Conversation in your ticket</h3>
+### Conversation in your ticket
 
 Conversation in your ticket unites all comments written by you or the Magento Support Team. Comments are displayed from latest (on top) to earliest (bottom).
 
@@ -501,23 +500,23 @@ To add a comment to the conversation, follow these steps:
     ![hc_conversation-write.png](https://support.magento.com/hc/article_attachments/360001298013/hc_conversation-write.png)
 1. Once you are finished with your comment, click Submit.
 
-<h3 id="resolve-ticket">Resolve your ticket</h3>
+### Resolve your ticket
 
 To resolve your ticket, click Mark as solved at the bottom of your ticket.
 
-<h3 id="follow-up">Open a follow-up ticket</h3>
+### Open a follow-up ticket
 
 Opening a follow-up ticket will ensure that the original issue is linked to the follow-up ticket for continuity.
 
 To open a follow-up ticket, click the "_create a follow-up_" link at the bottom of the ticket you wish to create a follow up to.
 
-<h2 id="shared-access">SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</h2>
+## SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT
 
 You may grant limited access to your account for other Magento account holders. In particular, using the shared access functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
 
 You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/).
 
-<h3 id="who-can-provide-shared-access">Who can provide shared access</h3>
+### Who can provide shared access
 
 Only the Account Owner (Primary Account Holder) with the according privileges can provide shared access for other users.
 
@@ -525,7 +524,7 @@ Managing users and their access is the customer's responsibility, especially in 
 
 Users who have been provided with shared access cannot transfer or grant such access to other users.
 
-<h3 id="find-account-owner-cloud">Get to know Account Owner (Cloud)</h3>
+### Get to know Account Owner (Cloud)
 
 To find out who is the Owner of your Magento Commerce (Cloud) Account, follow these steps:
 
@@ -538,7 +537,7 @@ To find out who is the Owner of your Magento Commerce (Cloud) Account, follow th
 
 If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Magento Customer Success Manager (CSM).
 
-<h3 id="provide-shared-access">Provide shared access</h3>
+### Provide shared access
 
 See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Magento User Guide for detailed steps on setting up a shared account.
 
@@ -546,7 +545,7 @@ After providing shared access for a new user, the related information is availab
 
 ![magento-account-shared-manage-permissions.png](https://support.magento.com/hc/article_attachments/360003178213/magento-account-shared-manage-permissions.png) 
 
-<h3 id="revoke-shared-access">Revoke (delete) shared access</h3>
+### Revoke (delete) shared access
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose Manage Permissions.
@@ -563,7 +562,7 @@ You may also revoke shared access using the Edit menu:
 1. Click Delete This User at the bottom of the page.
 1. In the confirmation popup, click Delete User to revoke access or X in the top corner to cancel revoking.
 
-<h3 id="switch-accounts">Access shared account (switch accounts)</h3>
+### Access shared account (switch accounts)
 
 To use the shared access provided for you, follow these steps:
 
@@ -574,7 +573,7 @@ To use the shared access provided for you, follow these steps:
 
 To know which account you are currently using (your own native account or shared access), see the Switch Accounts menu: it displays the active account.
 
-<h3 id="troubleshooting-shared-access">Shared access troubleshooting</h3>
+### Shared access troubleshooting
 
 Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012).
 

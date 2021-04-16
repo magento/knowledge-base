@@ -1,6 +1,6 @@
 ---
 title: MySQL and ElasticSearch show different results 
-labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,search,known issues,2.2.6,2.2.3
+labels: 2.2.3,2.2.6,Magento Commerce,Magento Commerce Cloud,known issues,patch,search,troubleshooting
 ---
 
 <p class="warning"><a href="https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0">MySQL catalog search engine will be removed in Magento 2.4.0</a>. You must have Elasticsearch host setup and configured prior to installing version 2.4.1. Refer to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Install and configure Elasticsearch</a>.</p>
@@ -30,9 +30,9 @@ The number of matching products is different.
 
 The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
 
-[Download MDVA-12312\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360023683791/MDVA-12312_EE_2.2.3_COMPOSER_v1.patch)
+[Download MDVA-12312\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-12312_EE_2.2.3_COMPOSER_v1.patch)
 
-[Download MDVA-14172\_EE\_2.2.6\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360023949911/MDVA-14172_EE_2.2.6_COMPOSER_v1.patch)
+[Download MDVA-14172\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-14172_EE_2.2.6_COMPOSER_v1.patch)
 
 ### Compatible Magento versions:
 

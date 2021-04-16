@@ -1,6 +1,6 @@
 ---
 title: Checkout is stuck when Authorize.net payment method is used
-labels: Magento Commerce,Authorize.net,troubleshooting,checkout,2.3.x
+labels: 2.3.x,Authorize.net,Magento Commerce,checkout,troubleshooting
 ---
 
 This article provides an explanation and fix for the Magento Commerce 2.3.X issue where the checkout gets stuck if Authorize.net is used, with the _'Cannot read property 'length' of null'_ error message in the browser console log.

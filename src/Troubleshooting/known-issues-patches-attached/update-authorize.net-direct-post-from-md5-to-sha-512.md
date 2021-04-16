@@ -1,6 +1,6 @@
 ---
 title: Update Authorize.Net Direct Post from MD5 to SHA-512
-labels: Magento Commerce Cloud,Magento Commerce,patch,Authorize.net,troubleshooting,Direct Post,SHA,MDA,deprecated,known issues,2.2.x,2.1.x
+labels: 2.1.x,2.2.x,Authorize.net,Direct Post,MDA,Magento Commerce,Magento Commerce Cloud,SHA,deprecated,known issues,patch,troubleshooting
 ---
 
 UPDATED on April 12th, 2019
@@ -38,13 +38,13 @@ Alternatively, you can upgrade to version 2.2.8 or 2.3.1 and get all updates and
 
 Patches are attached to this article. To download a patch, scroll down to the end of the article and click the file name, or click one the following links:
 
-* For versions 2.2.0-2.2.7 and 2.3.0 - [Download Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch](https://support.magento.com/hc/en-us/article_attachments/360026121671/Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch)
+* For versions 2.2.0-2.2.7 and 2.3.0 - [Download Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch](assets/Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch)
 * For versions 2.0.0-2.0.18 and 2.1.0-2.1.16 - [Download MDVA-17212\_EE\_2.1.0\_v1.composer-2019-03-05-12-05-22.patch  
-    ](https://support.magento.com/hc/en-us/article_attachments/360026127972/MDVA-17212_EE_2.1.0_v1.composer-2019-03-05-12-05-22.patch)
+    ](assets/MDVA-17212_EE_2.1.0_v1.composer-2019-03-05-12-05-22.patch)
 
 #### Magento Commerce
 
-* For versions 1.10.1.0-1.14.4.1 - [Download PATCH\_SUPEE-11085\_EE\_1.14.4.0\_v1-2019-02-28-04-59-38.sh](https://support.magento.com/hc/en-us/article_attachments/360026121651/PATCH_SUPEE-11085_EE_1.14.4.0_v1-2019-02-28-04-59-38.sh)
+* For versions 1.10.1.0-1.14.4.1 - [Download PATCH\_SUPEE-11085\_EE\_1.14.4.0\_v1-2019-02-28-04-59-38.sh](assets/PATCH_SUPEE-11085_EE_1.14.4.0_v1-2019-02-28-04-59-38.sh)
 
 #### Magento Open Source
 

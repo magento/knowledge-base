@@ -1,6 +1,6 @@
 ---
 title: MBI: Guidelines for submitting support requests
-labels: MBI,analysis,database,data,support,Magento Business Intelligence,data discrepancies,how to,reports,troubleshoot
+labels: MBI,Magento Business Intelligence,analysis,data,data discrepancies,database,how to,reports,support,troubleshoot
 ---
 
 Magento BI is designed to be easy to use and to give you control over your data. If you can’t figure out how to troubleshoot a problem or complete a task in Magento BI, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).

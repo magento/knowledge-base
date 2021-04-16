@@ -1,6 +1,6 @@
 ---
 title: Realpath cache size best practice
-labels: Magento Commerce Cloud,Magento Commerce,2.3,PHP,php.ini,2.3.4-p1,best practices,2.3.5-p1,2.3.x,realpath cache,2.3.1,2.3.4-p2,2.3.4,2.3.0,2.3.3,2.4,2.4.0,2.4.x,2.3.2,2.3.6,2.3.5-p2,2.3.3-p1,2.4.1,2.3.2-p2
+labels: 2.3,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.x,2.4,2.4.0,2.4.1,2.4.x,Magento Commerce,Magento Commerce Cloud,PHP,best practices,php.ini,realpath cache
 ---
 
 It is recommended that you set realpath cache size to 10 MB for Magento Commerce 2.3.x and Commerce Cloud 2.3.x users. Realpath cache caches the real file system paths of filenames referenced instead of looking them up each time. Every time various file functions are performed or require a file and use a relative path, PHP has to look up where that file really exists.

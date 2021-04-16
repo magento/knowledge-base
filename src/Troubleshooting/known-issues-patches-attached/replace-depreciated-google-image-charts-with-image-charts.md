@@ -1,6 +1,6 @@
 ---
 title: Replace depreciated Google Image Charts with Image-Charts
-labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,Google Image Charts
+labels: Google Image Charts,Magento Commerce,Magento Commerce Cloud,patch,troubleshooting
 ---
 
 Updated April 16th
@@ -24,7 +24,7 @@ To be able to view static charts in Magento Admin, download and apply the patch 
 
 ### Magento 2 Commerce 
 
-1. Save the [attached MAGETWO-98833\_composer\_patch-2019-04-15-04-38-57.patch](https://support.magento.com/hc/en-us/article_attachments/360026447212/MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch) patch and upload it to your Magento root directory.
+1. Save the [attached MAGETWO-98833\_composer\_patch-2019-04-15-04-38-57.patch](assets/MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch) patch and upload it to your Magento root directory.
 1. Run the following SSH command, having replaced the patch name with actual one:
     
     <pre><code class="language-git">patch -p1 &lt; MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch</code></pre>
@@ -52,7 +52,7 @@ For Cloud merchants, the patch will be included to the nearest ECE-tools update.
 
 Follow these steps to download and apply the patch:
 
-1. Save the [attached MPERF-10509-EE-2019-03-13-06-32-19.diff](https://support.magento.com/hc/en-us/article_attachments/360026461371/MPERF-10509-EE-2019-03-13-06-32-19.diff) patch and upload it to your Magento root directory.
+1. Save the [attached MPERF-10509-EE-2019-03-13-06-32-19.diff](assets/MPERF-10509-EE-2019-03-13-06-32-19.diff) patch and upload it to your Magento root directory.
 1. Run the following SSH command:
     
     <pre><code class="language-git">patch -p1 &lt; MPERF-10509-EE-2019-03-13-06-32-19.diff</code></pre>

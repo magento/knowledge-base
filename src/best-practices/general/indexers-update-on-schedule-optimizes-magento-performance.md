@@ -1,6 +1,6 @@
 ---
 title: Indexers "Update On Schedule" optimizes Magento performance  
-labels: Magento Commerce Cloud,Magento Commerce,performance,indexers,update on save,update on schedule,best practices,2.3.x,2.2.x
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,best practices,indexers,performance,update on save,update on schedule
 ---
 
 This article provides a fix for poor performance due to indexers being set on _Update on Save_ mode, and how it is a best practice to set indexers to _Update on Schedule_ mode to optimize performance in Magento.

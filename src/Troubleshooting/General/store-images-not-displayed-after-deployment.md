@@ -1,6 +1,6 @@
 ---
 title: Store images not displayed after deployment
-labels: Magento Commerce Cloud,cache,images not displayed,2.3.x,2.2.x,how to,SSH
+labels: 2.2.x,2.3.x,Magento Commerce Cloud,SSH,cache,how to,images not displayed
 ---
 
 This article provides a solution for when images are not being displayed correctly after deployment.
@@ -9,7 +9,7 @@ This article provides a solution for when images are not being displayed correct
 
 * Magento Commerce Cloud 2.2.x, 2.3.x
 
-<h2 id="lost-images-on-deployment-images-">Issue</h2>
+## Issue
 
 When you use a storefront theme with image resizing, the images do not display or disappear from catalog pages when deployed.
 

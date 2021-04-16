@@ -1,6 +1,6 @@
 ---
 title: Wrong date for Special Price
-labels: Magento Commerce,patch,troubleshooting,special price,known issues,2.2.2
+labels: 2.2.2,Magento Commerce,known issues,patch,special price,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce 2.2.2 issue related to the product special price "from" date being incorrect if its value is changed by the admin whose interface locale is different.

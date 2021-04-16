@@ -1,6 +1,6 @@
 ---
 title: Disable Magento Banner output to improve site performance    
-labels: Magento Commerce Cloud,Magento Commerce,performance,disable,banner,AJAX requests,2.3.x,2.2.x,2.x.x,how to
+labels: 2.2.x,2.3.x,2.x.x,AJAX requests,Magento Commerce,Magento Commerce Cloud,banner,disable,how to,performance
 ---
 
 This article provides a fix for low site performance. Low site performance can be caused by the Magento Banner module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps.

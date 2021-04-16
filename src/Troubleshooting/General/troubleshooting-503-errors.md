@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting 503 errors
-labels: Magento Commerce,error,cache,503,backend,fetch,how to,Varnish
+labels: 503,Magento Commerce,Varnish,backend,cache,error,fetch,how to
 ---
 
 This article provides solutions for troubleshooting 503 errors.
 
-<h2 id="backend-fetch-failed-errors">Backend Fetch Failed errors</h2>
+## Backend Fetch Failed errors
 
 If the length of cache tags used by Magento exceed Varnish's default of 8192 bytes, you can see HTTP 503 (Backend Fetch Failed) errors in the browser. The errors might display similar to the following:
 
@@ -76,7 +76,7 @@ DAEMON_OPTS="-a ${VARNISH_LISTEN_ADDRESS}:${VARNISH_LISTEN_PORT} \
     
     
 
-<h2 id="health-check-timeouts">Health check timeouts</h2>
+## Health check timeouts
 
 If you disable the cache while Varnish is configured as the caching application and while Magento is in developer mode, it might become impossible to log in to the Admin.
 

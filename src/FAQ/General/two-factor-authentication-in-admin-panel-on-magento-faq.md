@@ -1,6 +1,6 @@
 ---
 title: Two-Factor Authentication in Admin Panel on Magento FAQ
-labels: Magento Commerce Cloud,Magento Commerce,configuration,security,admin,authentication,attack,FAQ,browser,ACL,2.3.0,2.4.0,2.3.6,2.4.1,2.4.0-p1,2.4.1-p1,two factor authentication
+labels: 2.3.0,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,ACL,FAQ,Magento Commerce,Magento Commerce Cloud,admin,attack,authentication,browser,configuration,security,two factor authentication
 ---
 
 1. What’s Two-Factor Authentication on the Admin Panel? What’s changed?  

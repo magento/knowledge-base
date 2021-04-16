@@ -1,6 +1,6 @@
 ---
 title: Deadlocks in MySQL
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,import,MySQL,database,deadlock,2.3.x,2.2.x
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,MySQL,database,deadlock,import,troubleshooting
 ---
 
 This article talks about deadlocks in MySQL to help identify and resolve them, if they cause a site down, stuck database import, or other Magento issues.

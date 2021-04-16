@@ -1,6 +1,6 @@
 ---
 title: Best practice for attribute SET in Magento
-labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,product,MySQL,best practices,2.3.x,2.4,attribute,2.4.x,set
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,MySQL,attribute,best practices,performance,product,set
 ---
 
 It is best practice to remove non-used attribute sets. Exceeding the maximum attribute sets causes performance degradation and potential outages. 

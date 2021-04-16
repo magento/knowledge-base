@@ -1,6 +1,6 @@
 ---
 title: PHP version error or 404 error when accessing Magento in browser
-labels: Magento Commerce,troubleshooting,2.3.5-p1,2.3.1,2.3.4-p2,2.3.4,2.3.0,2.3.3,2.3.2,2.3.6,2.3.5-p2,2.3.3-p1,2.3.2-p2
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,Magento Commerce,troubleshooting
 ---
 
 This article provides solutions for the issues where you cannot access your Magento instance in a web browser and get 404 error or "unsupported PHP version" error.
@@ -11,11 +11,11 @@ This article provides solutions for the issues where you cannot access your Mage
 
 ## Issue: not supported PHP version
 
-<p id="symptom-the-following-message-displays-when-you-try-to-access-the-magento-storefront-or-admin-">The following message displays when you try to access Magento storefront or Admin:</p>
+The following message displays when you try to access Magento storefront or Admin:
 
 <code class="bash">Magento supports PHP 7.1.3 or later. Please read Magento System Requirements.</code>
 
-<h3 id="solution">Solution</h3>
+### Solution
 
 Try the following:
 
@@ -34,9 +34,9 @@ Try the following:
 
 ## Issue: error 404
 
-<p id="symptom-a-404-not-found-error-displays-">A 404 (Not Found) error displays when you try to access Magento storefront or Admin.</p>
+A 404 (Not Found) error displays when you try to access Magento storefront or Admin.
 
-<h3 id="solution">Solution</h3>
+### Solution
 
 Try the following:
 

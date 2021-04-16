@@ -1,6 +1,6 @@
 ---
 title: Import CSV product information for same name product fails
-labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,import,known issues,2.2.3
+labels: 2.2.3,Magento Commerce,Magento Commerce Cloud,import,known issues,patch,troubleshooting
 ---
 
 This article provides a patch for the known Magento 2.2.3 issue related to getting errors when trying to import a `` .csv `` file with products information, if there are products with same name.
@@ -27,7 +27,7 @@ Actual result:
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-12899\_EE\_2.2.3\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360024448232/MDVA-12899_EE_2.2.3_COMPOSER_v2.patch)
+[Download MDVA-12899\_EE\_2.2.3\_COMPOSER\_v2.patch](assets/MDVA-12899_EE_2.2.3_COMPOSER_v2.patch)
 
 ### Compatible Magento versions:
 

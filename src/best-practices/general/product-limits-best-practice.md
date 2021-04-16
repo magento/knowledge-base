@@ -1,6 +1,6 @@
 ---
 title: Product limits best practice
-labels: catalog,performance,2.3,product,best practices,2.3.x,SKU,2.4,stores,2.4.x
+labels: 2.3,2.3.x,2.4,2.4.x,SKU,best practices,catalog,performance,product,stores
 ---
 
 It is best practice to minimize the number of product Stocking Keeping Units (SKUs) to avoid performance degradation. The recommended effective product max is 10M.

@@ -1,6 +1,6 @@
 ---
 title: Cached images are not loaded after 2.2.X to 2.3.X upgrade
-labels: Magento Commerce Cloud,404,cache,Pro,troubleshooting,images,2.3.x,2.2.x
+labels: 2.2.x,2.3.x,404,Magento Commerce Cloud,Pro,cache,images,troubleshooting
 ---
 
 This article provides the solution for the issue with cached images not being displayed after upgrading from Magento Commerce Cloud 2.2.X to 2.3.X.

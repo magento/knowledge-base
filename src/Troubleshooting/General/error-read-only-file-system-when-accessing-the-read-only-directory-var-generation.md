@@ -1,6 +1,6 @@
 ---
 title: Error (read-only file system) when accessing the read-only directory var generation
-labels: Magento Commerce Cloud,deploy,generated_code_symlink,var,troubleshooting,var/generation
+labels: Magento Commerce Cloud,deploy,generated_code_symlink,troubleshooting,var,var/generation
 ---
 
 This article provides a fix when on Magento Commerce (Cloud) you receive an error when the application accesses the `` var/generation `` directory. This might occur die to a missing constructor dependency injection. As an immediate workaround, you may turn off the symlink generation via this deployment variable:

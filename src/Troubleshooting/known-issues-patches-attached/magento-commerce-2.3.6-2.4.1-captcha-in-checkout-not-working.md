@@ -1,6 +1,6 @@
 ---
 title: Magento Commerce 2.3.6, 2.4.1 CAPTCHA in checkout not working
-labels: Magento Commerce Cloud,Magento Commerce,Magento Open Source,patch,order,PayPal Express Checkout,2.3.6,2.4.1,CyberSource,PayFlow Pro,CAPTCHA
+labels: 2.3.6,2.4.1,CAPTCHA,CyberSource,Magento Commerce,Magento Commerce Cloud,Magento Open Source,PayFlow Pro,PayPal Express Checkout,order,patch
 ---
 
 This article provides a patch for the issue where the CAPTCHA feature for checkout does not work as expected on the Place Order page when using third-party payment providers like Paypal Express, Payflow Pro, or CyberSource in Magento.
@@ -54,13 +54,13 @@ To download a patch, scroll down to the end of the article and click the file na
 
 For Magento Commerce/Magento Commerce Cloud/Magento Open Source 2.3.6:
 
-* [Composer patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](https://support.magento.com/hc/en-us/article_attachments/360088788131/MDVA-33093____2_3_x-p1__CAPTCHA_COMPOSER.patch)
-* [Git patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](https://support.magento.com/hc/en-us/article_attachments/360088723432/MDVA-33093____2_3_x-p1__CAPTCHA_GIT.patch)
+* [Composer patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_COMPOSER.patch)
+* [Git patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_GIT.patch)
 
 For Magento Commerce/Magento Commerce Cloud/Magento Open Source 2.4.1:
 
-* [Composer patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_COMPOSER.patch](https://support.magento.com/hc/en-us/article_attachments/360088788151/MDVA-33093____2_4_x-p1__CAPTCHA_COMPOSER.patch)
-* [Git patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_GIT.patch](https://support.magento.com/hc/en-us/article_attachments/360088723452/MDVA-33093____2_4_x-p1__CAPTCHA_GIT.patch)
+* [Composer patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_COMPOSER.patch)
+* [Git patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_GIT.patch)
 
 These patches are not compatible with any other Magento versions and editions.
 

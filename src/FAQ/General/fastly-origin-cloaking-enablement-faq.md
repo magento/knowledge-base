@@ -1,6 +1,6 @@
 ---
 title: Fastly origin cloaking enablement FAQ
-labels: staging,Magento Commerce Cloud,Fastly,Magento Commerce,security,FAQ,origin cloaking,REST API,DDoS
+labels: DDoS,FAQ,Fastly,Magento Commerce,Magento Commerce Cloud,REST API,origin cloaking,security,staging
 ---
 
 This FAQ discusses common questions about Fastly origin cloaking enablement in Magento.

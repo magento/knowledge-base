@@ -1,6 +1,6 @@
 ---
 title: PWA Studio: Venia GraphQL queries to Magento produce validation errors
-labels: Magento Commerce Cloud,Magento Commerce,PWA,validation,errors,PWA Studio,Venia,2.3.x,GraphQL queries,2.2.x,how to,compatibility report
+labels: 2.2.x,2.3.x,GraphQL queries,Magento Commerce,Magento Commerce Cloud,PWA,PWA Studio,Venia,compatibility report,errors,how to,validation
 ---
 
 This article provides recommendations on how to solve the issue where Venia storefront GraphQL queries to Magento instance produce validation errors. 

@@ -1,6 +1,6 @@
 ---
 title: Magento prompts customers log in invalid link
-labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,2.3.5,confirmation link
+labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,confirmation link,known issues,patch,troubleshooting
 ---
 
 The article provides a link to the patch for a known Magento 2.3.5 issue, where customers are prompted to log in, but the link to resend a confirmation email does not work.

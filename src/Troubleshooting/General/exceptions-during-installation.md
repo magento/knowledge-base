@@ -1,6 +1,6 @@
 ---
 title: Exceptions during installation
-labels: Magento Commerce,installation,var,generated,install,web setup wizard,exception,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Magento Commerce,exception,generated,how to,install,installation,var,web setup wizard
 ---
 
 This article provide a possible solution for the issues with installing Magento using Web Setup Wizard.
@@ -29,7 +29,7 @@ Object(Magento\Indexer\Model\Resource\Indexer\State\Collection), 'indexer_config
 
 ... more ...</code></pre>
 
-<h2 id="solution">Solution</h2>
+## Solution
 
 Clear the `` &lt;magento_root>/generated/code `` and other directories under `` var `` and `` generated `` as follows:
 

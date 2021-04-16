@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0 known issue: Klarna On-Site Messaging blank pages
-labels: Magento Commerce Cloud,Magento Commerce,payment,design,troubleshooting,known issues,2.4.0,Klarna,on-site messaging
+labels: 2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,design,known issues,on-site messaging,payment,troubleshooting
 ---
 
 This article describes a known Magento 2.4.0 issue with Klarna payment method, where enabling Klarna on-site messaging without specifying a design theme, results in not displaying product pages on the storefront correctly (product pages appear blank).

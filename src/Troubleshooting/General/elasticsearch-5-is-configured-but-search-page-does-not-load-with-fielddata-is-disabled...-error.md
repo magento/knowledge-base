@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error
-labels: Magento Commerce,elasticsearch,troubleshooting,search,2.2.x
+labels: 2.2.x,Magento Commerce,elasticsearch,search,troubleshooting
 ---
 
 This topic describes how to fix the issue with Elasticsearch 5, where the search page does not load, and the exception similar to the following is thrown:

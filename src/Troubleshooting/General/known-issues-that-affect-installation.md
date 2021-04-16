@@ -1,6 +1,6 @@
 ---
 title: Known issues that affect installation
-labels: PHP,exception,fatal error,xdebug,extension,how to,Apache
+labels: Apache,PHP,exception,extension,fatal error,how to,xdebug
 ---
 
 This article provides a solution for when you experience an exception error when you use the optional PHP extension `` xdebug ``.

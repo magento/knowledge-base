@@ -1,6 +1,6 @@
 ---
 title: When pushed from git environments placed under production on Magento Cloud
-labels: staging,production,Magento Commerce Cloud,troubleshooting,2.3,git,develop,2.3.x,2.4,2.4.x,command line,Magento Cloud CLI
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Cloud CLI,Magento Commerce Cloud,command line,develop,git,production,staging,troubleshooting
 ---
 
 This article provides a solution for the issue where new environments are placed under the production environment on Magento Commerce Cloud when pushed from the git version-control system.

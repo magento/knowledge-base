@@ -1,6 +1,6 @@
 ---
 title: The popup for uploading the Fastly VCL snippets does not show up
-labels: fastly,VCL
+labels: VCL,fastly
 ---
 
 This article talks about the issue where the popup window for uploading Fastly VCL snippets does not show up. The issue might be caused by the Fastly\_Cdn module output being disabled.

@@ -1,6 +1,6 @@
 ---
 title: How to add a new country to Magento 2 
-labels: upgrade,Magento Commerce Cloud,configuration,installation,module,data,add country
+labels: Magento Commerce Cloud,add country,configuration,data,installation,module,upgrade
 ---
 
 This article explains how to add a country that is not present in Magento and the Zend Locale Library. This requires code and database changes which constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided "AS IS" without warranty of any kind. Neither Magento nor any affiliated entity is obligated to maintain, correct, update, change, modify or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this.

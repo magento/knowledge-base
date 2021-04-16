@@ -1,6 +1,6 @@
 ---
 title: How many coupons can a Customer use in Magento 2?
-labels: Magento,coupon,FAQ,2.x.x,cart
+labels: 2.x.x,FAQ,Magento,cart,coupon
 ---
 
 Although Magento 2 allows configuring multiple coupon codes, a Customer can use only one coupon code in the cart.

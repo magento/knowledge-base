@@ -1,6 +1,6 @@
 ---
 title: Deployment issues relating to account permissions and access keys
-labels: Magento Commerce Cloud,deployment,troubleshooting,access key
+labels: Magento Commerce Cloud,access key,deployment,troubleshooting
 ---
 
 This article provides a solution for issues with deploying Magento Cloud caused by access key ownership conflict.

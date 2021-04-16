@@ -1,6 +1,6 @@
 ---
 title: Wishlist error during upgrade to Magento versions 2.3.4-p1 or 2.3.5 
-labels: upgrade,Magento Commerce Cloud,Magento Commerce,error,known issues,wishlist,Magento_Wishlist,2.3.4-p1,2.3.5,2.3.5-p1,2.3.4-p2
+labels: 2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,Magento_Wishlist,error,known issues,upgrade,wishlist
 ---
 
 This article provides a fix for the known issue when upgrading to Magento versions 2.3.4-p1 and 2.3.5 related to a wishlist error during the upgrade to these versions.

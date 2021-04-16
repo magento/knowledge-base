@@ -1,6 +1,6 @@
 ---
 title: MBI Training Video: Time Options in the Visual Report Builder
-labels: MBI,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
+labels: MBI,Magento Business Intelligence,data,database,how to,mbi-api-migration,reports
 ---
 
 <iframe></iframe>

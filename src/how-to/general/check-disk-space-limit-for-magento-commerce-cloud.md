@@ -1,6 +1,6 @@
 ---
 title: Check disk space limit for Magento Commerce Cloud
-labels: Magento Commerce Cloud,disk space,disk,how to
+labels: Magento Commerce Cloud,disk,disk space,how to
 ---
 
 To check how much space you have for each Magento Commerce Cloud environment:

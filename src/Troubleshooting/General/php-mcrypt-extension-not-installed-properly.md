@@ -1,11 +1,11 @@
 ---
 title: PHP mcrypt extension not installed properly 
-labels: Magento Commerce Cloud,Magento Commerce,deprecated,PHP,extension,mcrypt,how to
+labels: Magento Commerce,Magento Commerce Cloud,PHP,deprecated,extension,how to,mcrypt
 ---
 
 <p class="warning">PLEASE NOTE: The mcrypt library feature was <a href="https://www.php.net/manual/en/intro.mcrypt.php">deprecated from PHP 7.1 and was removed from PHP 7.2</a>.</p>
 
-<h2 id="detail">Detail</h2>
+## Detail
 
 Errors can include the following:
 
@@ -23,13 +23,13 @@ Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' 
  Command returned non-zero exit code:
 `/usr/bin/php5 -f '/var/www/magento2/dev/shell/run_data_fixtures.php' -- --bootstrap='MAGE_DIRS[base][path]=/var/www/magento2' 2>&amp;1`</code></pre>
 
-<h2 id="description">Description</h2>
+## Description
 
 Particularly on developer systems that include a Linux/Apache/MySQL/PHP (LAMP) "stack" that is separate from the operating system, it's possible that mcrypt is either not installed at all or it's installed in the LAMP stack's path but not the operating system's path.
 
 As a result, the Magento installer cannot locate the extension and the installation fails.
 
-<h2 id="suggestion">Suggestion</h2>
+## Suggestion
 
 Determine if the mcrypt extension is loaded in any of the following ways:
 

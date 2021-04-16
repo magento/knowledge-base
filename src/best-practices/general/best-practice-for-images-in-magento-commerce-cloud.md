@@ -1,6 +1,6 @@
 ---
 title: Best practice for images in Magento Commerce Cloud
-labels: Magento Commerce Cloud,performance,images,space,best practices,2.3.x
+labels: 2.3.x,Magento Commerce Cloud,best practices,images,performance,space
 ---
 
 This article provides best practices for managing images in Magento Commerce Cloud to save space.  

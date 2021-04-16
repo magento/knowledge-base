@@ -1,6 +1,6 @@
 ---
 title: Cache warming up and site unavailable on Magento
-labels: Magento Commerce Cloud,cache,troubleshooting,2.3,site,stuck deployment,2.3.x,2.4,site down,2.4.x
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,cache,site,site down,stuck deployment,troubleshooting
 ---
 
 This article provides a solution for when the page cache is warming up and there is a stuck deployment or site down.

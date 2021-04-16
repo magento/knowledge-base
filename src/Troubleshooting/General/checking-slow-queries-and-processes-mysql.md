@@ -1,6 +1,6 @@
 ---
 title: Checking slow queries and processes MySQL 
-labels: Magento Commerce Cloud,Magento Commerce,log,troubleshooting,slow,queries,MySQL
+labels: Magento Commerce,Magento Commerce Cloud,MySQL,log,queries,slow,troubleshooting
 ---
 
 This article talks about a couple common MySQL issues (Slow queries, Processes taking too long) that can adversely affect a merchant's site, and the solutions they indicate.

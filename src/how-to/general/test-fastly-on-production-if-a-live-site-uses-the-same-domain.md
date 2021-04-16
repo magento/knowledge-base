@@ -1,6 +1,6 @@
 ---
 title: Test Fastly on Production if a Live Site uses the same domain
-labels: test,production,Magento Commerce Cloud,Fastly,domain,DNS,how to
+labels: DNS,Fastly,Magento Commerce Cloud,domain,how to,production,test
 ---
 
 If you have a live site up-and-running on your production domain (`` example.com ``) and you need to test your new store on Magento Cloud's Production environment with Fastly CDN enabled, we recommend using the subdomain (like `` prod.example.com ``), having previously added it to Fastly, for any pre-launch testing activities. This article discusses the details and provides useful links to the related Magento documentation resources. 

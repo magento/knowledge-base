@@ -1,6 +1,6 @@
 ---
 title: Bulk action product count known issue in Magento 2.3.5
-labels: Magento Commerce Cloud,Magento Commerce,import,known issues,product,export,2.3.5,mass update,bulk
+labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,bulk,export,import,known issues,mass update,product
 ---
 
 This article describes a known Magento 2.3.5 issue, where the notification a merchant gets after a bulk action in Admin, contains a wrong number of affected items. 

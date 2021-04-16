@@ -1,6 +1,6 @@
 ---
 title: Cannot access the latest Beta version
-labels: Magento Commerce,composer,download,early access,how to,Beta
+labels: Beta,Magento Commerce,composer,download,early access,how to
 ---
 
 This article provides solutions for issues when trying to utilize the latest Beta versions of Magento Commerce code. Beta code is only available for official Adobe partners that have followed the process described in [Magento Beta Program](https://github.com/magento/magento2/wiki/Magento-Beta-Program).

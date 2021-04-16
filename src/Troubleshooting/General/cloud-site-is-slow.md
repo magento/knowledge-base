@@ -1,6 +1,6 @@
 ---
 title: Cloud site is slow
-labels: Magento Commerce Cloud,Fastly,Cloud,cache,troubleshooting,slow performance
+labels: Cloud,Fastly,Magento Commerce Cloud,cache,slow performance,troubleshooting
 ---
 
 This article provides recommendations how to make your Magento Commerce Cloud site better performing under heavy traffic loads, and how to cut this load.

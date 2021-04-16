@@ -1,6 +1,6 @@
 ---
 title: High throughput AJAX requests cause poor performance
-labels: Magento Commerce Cloud,Magento Commerce,slow performance,AJAX requests,high throughput,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,AJAX requests,Magento Commerce,Magento Commerce Cloud,high throughput,how to,slow performance
 ---
 
 This article provides a solution for performance issues with a Magento Commerce or Magento Commerce Cloud site due to some high throughput requests causing significant server load and traffic. 

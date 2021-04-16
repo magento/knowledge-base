@@ -1,6 +1,6 @@
 ---
 title: Magento Commerce Cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying
-labels: Magento Commerce Cloud,authentication,update,access key,deployment error,URL could not be accessed: HTTP/1.1 403 Forbidden,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Magento Commerce Cloud,URL could not be accessed: HTTP/1.1 403 Forbidden,access key,authentication,deployment error,how to,update
 ---
 
 This article discusses how to resolve Magento Commerce Cloud failed deployment with an error similar to the following:  
@@ -60,18 +60,28 @@ If your license was previously revoked due to payment issues, and you have resol
 
 See the instructions and related information in [Prepare your existing Magento Commerce install > ](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json)
 
-<p id="auth-json"><a href="https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json">Add Magento authentication keys</a> in Magento Developer Documentation.</p>
+[Add Magento authentication keys](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) in Magento Developer Documentation.
 
 ### 1. Update or delete auth.json
 
 Following is a step by step description of how to update your authorization keys: 
 
-<ol><li>Log in to the machine that has your Magento Commerce Cloud SSH keys.</li><li>Log in to your project:
-<pre><code>magento-cloud login</code></pre>
-</li><li>Create a branch to update the code (in the following example the branch name is <code>auth</code> is created from the primary branch):
-<pre><code>magento-cloud environment:branch auth master</code></pre>
-</li><li>Change to the project root directory.</li><li>Optional: Delete the <code>auth.json</code> if you prefer and continue to <a href="#step9">step 9</a>.</li><li>Open <code>auth.json</code> in a text editor.
-<pre><code class="language-json"> {
+1. Log in to the machine that has your Magento Commerce Cloud SSH keys.
+1. Log in to your project:
+    
+        magento-cloud login
+    
+    
+1. Create a branch to update the code (in the following example the branch name is `` auth `` is created from the primary branch):
+    
+        magento-cloud environment:branch auth master
+    
+    
+1. Change to the project root directory.
+1. Optional: Delete the `` auth.json `` if you prefer and continue to [step 9](#step9).
+1. Open `` auth.json `` in a text editor.
+    
+    <pre><code class="language-json"> {
    "http-basic": {
       "repo.magento.com": {
          "username": "&lt;public_key>",
@@ -79,9 +89,22 @@ Following is a step by step description of how to update your authorization keys
       }
    }
 }</code></pre>
-</li><li>Add the correct authentication keys.</li><li>Save your changes and exit the text editor.</li><li id="step9">Commit and merge your changes.</li><li>
-<pre><code>git add -A</code></pre>
-<pre><code>git commit -m "&lt;message>"</code></pre>
-<pre><code>git push origin master</code></pre>
-</li><li>Wait for the project to deploy.</li></ol>
+    
+    
+1. Add the correct authentication keys.
+1. Save your changes and exit the text editor.
+1. Commit and merge your changes.
+1. git add -A
+    
+    
+    
+        git commit -m "&lt;message>"
+    
+    
+    
+        git push origin master
+    
+    
+1. Wait for the project to deploy.
+
  

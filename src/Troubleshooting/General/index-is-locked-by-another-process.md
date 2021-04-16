@@ -1,6 +1,6 @@
 ---
 title: Index is locked by another process
-labels: Magento Commerce,troubleshooting,index,2.x.x
+labels: 2.x.x,Magento Commerce,index,troubleshooting
 ---
 
 This article talks about a common indexing issue in Magento where the index is locked by another process and skipped.

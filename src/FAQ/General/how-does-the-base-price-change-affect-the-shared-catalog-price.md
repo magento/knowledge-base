@@ -1,6 +1,6 @@
 ---
 title: How does the base price change affect the shared catalog price?
-labels: Magento,shared_catalog,price,shared,custom,FAQ
+labels: FAQ,Magento,custom,price,shared,shared_catalog
 ---
 
 This article answers the question: if a product in a shared catalog has a custom price and the base price of the product changes (for example after a scheduled update), which price applies in the shared catalog?

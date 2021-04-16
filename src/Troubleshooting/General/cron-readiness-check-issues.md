@@ -1,6 +1,6 @@
 ---
 title: Cron readiness check issues
-labels: Magento Commerce Cloud,Magento Commerce,cron,PHP,readiness,check,crontab,how to
+labels: Magento Commerce,Magento Commerce Cloud,PHP,check,cron,crontab,how to,readiness
 ---
 
 This article provides solutions for cron readiness issues. The following are symptoms of cron issues:
@@ -31,7 +31,7 @@ This article provides solutions for cron readiness issues. The following are sym
 
  
 
-<h2 id="check-your-existing-crontab">Check your existing crontab</h2>
+## Check your existing crontab
 
 This section discusses how to see if cron is currently running and to verify whether it's set up properly.
 
@@ -92,17 +92,17 @@ To verify whether or not your crontab is set up:
     
     
 
-<h2 id="solution-crontab-not-set-up">Solution: crontab not set up</h2>
+## Solution: crontab not set up
 
 To verify your cron jobs are set up properly, see [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 
-<h2 id="solution-cron-running-from-incorrect-php-binary">Solution: cron running from incorrect PHP binary</h2>
+## Solution: cron running from incorrect PHP binary
 
 If your cron job uses a PHP binary different from the web server plug-in, PHP settings errors might display. To resolve the issue, set identical PHP settings for both the PHP command line and the PHP web server plug-in.
 
 For more information about PHP settings, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
 
-<h2 id="solution-cron-running-with-errors">Solution: cron running with errors</h2>
+## Solution: cron running with errors
 
 Try running each command manually because the command might display helpful error messages. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 

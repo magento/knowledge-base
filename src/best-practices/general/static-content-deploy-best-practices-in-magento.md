@@ -1,6 +1,6 @@
 ---
 title: Static content deploy best practices in Magento
-labels: Magento Commerce Cloud,Magento Commerce,configuration,content,deploy,deployment,static,ece-tools,best practices
+labels: Magento Commerce,Magento Commerce Cloud,best practices,configuration,content,deploy,deployment,ece-tools,static
 ---
 
 This article talks about static content deploy (SCD) best practices in Magento to help avoid issues where the static content would not be available on your website.

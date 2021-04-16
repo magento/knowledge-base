@@ -17,7 +17,7 @@ Your tickets are those that you:
 * have submitted personally
 * have been added to — as a watcher through a CC (carbon copy)
 
-<h2 id="view-your-tickets">View your tickets</h2>
+## View your tickets
 
 To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select My tickets.
 
@@ -33,13 +33,13 @@ To switch between your tickets and the tickets you have been CC'd on, click the 
 
 To sort tickets, click Created or Last Activity column headers.
 
-<h2 id="search-for-tickets">Search for tickets</h2>
+## Search for tickets
 
 To find tickets, type your search query in the Search tickets field and press _Enter_ on your keyboard. Select [a status](#ticket-status) for additional filtering.
 
 ![hc_search-tickets.png](https://support.magento.com/hc/article_attachments/360016539111/hc_search-tickets.png)
 
-<h2 id="follow-organization-tickets">Follow organization tickets</h2>
+## Follow organization tickets
 
 You may follow the support tickets submitted by the members of your organization.
 
@@ -55,7 +55,7 @@ To follow or unfollow tickets for an organization, follow these steps:
 
 ![hc_follow-org-tickets.png](https://support.magento.com/hc/article_attachments/360016487592/hc_follow-org-tickets.png)
 
-<h2 id="ticket-status">Ticket status: how your tickets are processed</h2>
+## Ticket status: how your tickets are processed
 
 Your ticket may have either of these three statuses.
 
@@ -80,7 +80,7 @@ Magento Support has provided a solution for your issue, and you have agreed it h
 
 It is you who marks the ticket as Solved. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to Open.
 
-<h2 id="conversation-in-your-ticket">Conversation in your ticket</h2>
+## Conversation in your ticket
 
 Conversation in your ticket unites all comments written by you or the Magento Support Team. Comments are displayed from latest (top) to earliest (bottom).
 
@@ -99,6 +99,6 @@ To add a comment to the conversation, follow these steps:
     
 1. Once you are through with your comment, click Submit.
 
-<h2 id="resolve-your-ticket">Resolve your ticket</h2>
+## Resolve your ticket
 
 To resolve your ticket, click Mark as solved at the bottom of your ticket.

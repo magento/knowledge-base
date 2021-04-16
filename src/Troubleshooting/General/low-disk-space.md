@@ -1,6 +1,6 @@
 ---
 title: Low disk space
-labels: Magento Commerce Cloud,cron,disk space,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Magento Commerce Cloud,cron,disk space,how to
 ---
 
 This article suggests solutions for the situation when you run out of space on a certain environment of Magento Commerce Cloud.

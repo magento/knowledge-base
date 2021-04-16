@@ -1,6 +1,6 @@
 ---
 title: Products per page limit Magento
-labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,best practices,2.3.x,2.4,products per page,allow all products,2.4.x
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,allow all products,best practices,performance,products per page
 ---
 
 This article provides a best practice for using the Allow All Products per Page setting, depending on your catalog size, to optimize Magento storefront performance.

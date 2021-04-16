@@ -1,6 +1,6 @@
 ---
 title: Wrong error message on guest checkout with Paypal via Braintree Magento 2.4.1
-labels: Magento Commerce Cloud,Magento Commerce,PayPal,known issues,2.4.0,Braintree,Magento Quality Patches,2.4.1,guest checkout,cart
+labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PayPal,cart,guest checkout,known issues
 ---
 
 This article describes a known Magento 2.4.1 issue where if guest checkout is disabled, a guest customer trying to place an order with PayPal through Braintree gets a non-informative error message. 
@@ -22,7 +22,7 @@ Prerequisites:
 
 Steps to reproduce:
 
-1. <ins></ins>Add product to cart as a guest.
+1. Add product to cart as a guest.
 1. Select Minicart and click Pay with PayPal.
 1. Complete the Paypal checkout, and then you will land on the Order Review page.
 1. Select shipping method.

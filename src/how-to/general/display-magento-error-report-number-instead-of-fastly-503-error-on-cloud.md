@@ -1,6 +1,6 @@
 ---
 title: Display Magento error report number instead of Fastly's 503 error on Cloud
-labels: staging,production,Magento Commerce Cloud,Fastly,error,Pro,debug,503,how to,reports
+labels: 503,Fastly,Magento Commerce Cloud,Pro,debug,error,how to,production,reports,staging
 ---
 
 By default, Fastly hides all Magento errors behind the 503 Service Unavailable error. To display the Magento error log report number (to be able to find it in logs and see the error details), open the website omitting Fastly using these steps:

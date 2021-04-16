@@ -1,6 +1,6 @@
 ---
 title: Google Shopping ads Channel FAQs
-labels: Magento Commerce,shopping,ads,FAQ,channel,2.3.4-p1,2.3.5,2.3.3,Google
+labels: 2.3.3,2.3.4-p1,2.3.5,FAQ,Google,Magento Commerce,ads,channel,shopping
 ---
 
 <p class="info">The Google Shopping ads Channel bundled extension has reached end-of-life and has been deprecated in Magento core code in Magento Commerce 2.3.5 and 2.3.4-p1. It will not be supported and work anymore.</p>

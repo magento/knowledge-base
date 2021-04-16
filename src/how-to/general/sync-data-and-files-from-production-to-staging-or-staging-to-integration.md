@@ -1,6 +1,6 @@
 ---
 title: Sync data and files from Production to Staging or Staging to Integration
-labels: staging,production,Magento Commerce Cloud,sync,data,how to
+labels: Magento Commerce Cloud,data,how to,production,staging,sync
 ---
 
 This article explains how to synchronize your Production environment down to Staging on Magento Commerce Cloud, this is possible via user interface. 

@@ -1,6 +1,6 @@
 ---
 title: Error placing order with Authorize.net Sandbox account (An error occurred on the server)
-labels: Magento Commerce,payments,Authorize.net,troubleshooting,sandbox
+labels: Authorize.net,Magento Commerce,payments,sandbox,troubleshooting
 ---
 
 This article provides a fix for "_An error occurred on the server_" error message when placing an order using Authorize.Net Direct Post.

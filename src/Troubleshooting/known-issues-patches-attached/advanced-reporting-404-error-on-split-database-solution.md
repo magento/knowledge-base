@@ -1,6 +1,6 @@
 ---
 title: Advanced Reporting 404 error on split database solution
-labels: Magento Commerce,patch,troubleshooting,known issues,404 error,Advanced Reporting,2.3.x
+labels: 2.3.x,404 error,Advanced Reporting,Magento Commerce,known issues,patch,troubleshooting
 ---
 
 This article provides a patch for Magento Commerce 2.3.x users with the [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) that experience a 404 error when trying to use Advanced Reporting. 
@@ -15,13 +15,13 @@ The patch fixes the issue where the wrong connection name is used to collect quo
 
 ## Solution
 
-Apply the [patch](https://support.magento.com/hc/en-us/article_attachments/360059846152/MDVA-26831_EE_2.3.4_v1.composer.patch) provided in this article.
+Apply the [patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch) provided in this article.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[MDVA-26831\_EE\_2.3.4\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360059846152/MDVA-26831_EE_2.3.4_v1.composer.patch)
+[MDVA-26831\_EE\_2.3.4\_v1.composer.patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch)
 
 ## How to apply the patch
 

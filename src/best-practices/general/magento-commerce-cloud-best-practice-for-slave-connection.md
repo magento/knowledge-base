@@ -1,6 +1,6 @@
 ---
 title: Magento Commerce Cloud best practice for slave connection 
-labels: Magento Commerce Cloud,Redis,MySQL,database,slave connection,best practices
+labels: Magento Commerce Cloud,MySQL,Redis,best practices,database,slave connection
 ---
 
 For Magento Commerce Cloud Pro plan users, Magento recommends enabling slave connections for the MySQL database and Redis by default, to spread out the load across different nodes.

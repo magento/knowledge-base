@@ -1,6 +1,6 @@
 ---
 title: MBI: Essentials Demo
-labels: MBI,analysis,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
+labels: MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
 ---
 
 Learn about Magento Business Intelligence Essentials in the MBI: Essentials video overview. 

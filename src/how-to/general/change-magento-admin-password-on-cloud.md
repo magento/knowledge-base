@@ -1,6 +1,6 @@
 ---
 title: Change Magento Admin password on Cloud
-labels: Magento Commerce Cloud,user,ADMIN_PASSWORD,admin password,how to
+labels: ADMIN_PASSWORD,Magento Commerce Cloud,admin password,how to,user
 ---
 
 ## Method 1: Forgot Your Password (reset via email)

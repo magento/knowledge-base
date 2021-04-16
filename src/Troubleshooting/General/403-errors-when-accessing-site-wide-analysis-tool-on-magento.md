@@ -1,6 +1,6 @@
 ---
 title: 403 errors when accessing Site-Wide Analysis Tool on Magento
-labels: Magento Commerce Cloud,error,admin,troubleshooting,permissions,2.4.1,Site-Wide Analysis Tool,2.4.1+
+labels: 2.4.1,2.4.1+,Magento Commerce Cloud,Site-Wide Analysis Tool,admin,error,permissions,troubleshooting
 ---
 
 This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Magento.

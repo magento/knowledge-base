@@ -1,6 +1,6 @@
 ---
 title: Login redirect when trying to login to Magento Admin
-labels: Magento Commerce Cloud,Magento Commerce,admin,troubleshooting,login
+labels: Magento Commerce,Magento Commerce Cloud,admin,login,troubleshooting
 ---
 
 This article gives the possible solutions for the Magento Admin login issue, where you are redirected back to the login form when trying to log in to the Magento Admin, and no error message is displayed. These include correcting the server timezone settings and clearing the cookies settings in Magento.
@@ -55,7 +55,7 @@ To increase the admin session lifetime, take the following steps:
     
     
 
-<h3 id="Adminloginissuetroubleshooting-Cookiessettings">Incorrect cookies settings</h3>
+### Incorrect cookies settings
 
 To check the cookies settings values and clear them, take the following steps:
 

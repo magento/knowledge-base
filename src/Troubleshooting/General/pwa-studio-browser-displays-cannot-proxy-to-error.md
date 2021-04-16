@@ -1,6 +1,6 @@
 ---
 title: PWA Studio: Browser displays “Cannot proxy to“ error
-labels: ENOTFOUND,proxy,NodeJS,browser,hostfile,PWA Studio,how to,hostname
+labels: ENOTFOUND,NodeJS,PWA Studio,browser,hostfile,hostname,how to,proxy
 ---
 
 This topic discusses a solution when your web browser displays a "_Cannot proxy to_" and the console displays an _<code class="language-clike">ENOTFOUND</code>_ error when using Magento Progressive Web App (PWA) Studio.

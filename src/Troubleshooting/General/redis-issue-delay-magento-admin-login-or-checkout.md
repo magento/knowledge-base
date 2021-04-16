@@ -1,6 +1,6 @@
 ---
 title: Redis issue delay Magento Admin login or checkout 
-labels: Magento Commerce Cloud,Magento Commerce,Redis,2.1.11,2.2.1,troubleshooting,timeout
+labels: 2.1.11,2.2.1,Magento Commerce,Magento Commerce Cloud,Redis,timeout,troubleshooting
 ---
 
 This article provides a fix for the issue when logging in to Magento Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage.
@@ -65,7 +65,7 @@ This solution does not affect any other Magento functionality.
 
 After applying the patch with the fix, the workaround is not required anymore, so you may revert it (set `` disable_locking `` to `` 0 ``).
 
-<h2 id="h_64593789291526919876198">Magento (Cloud) 2.2.0: use ECE-Tools v2002.0.8 or later</h2>
+## Magento (Cloud) 2.2.0: use ECE-Tools v2002.0.8 or later
 
 The [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) deployment script package with versions 2002.0.3-2002.0.7 [applies](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html#v200203) the workaround automatically, setting `` disable_locking `` to `` 1 ``. This disables the session locking mechanism for Magento 2.2.0, on which the original issue does not occur.
 

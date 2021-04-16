@@ -1,6 +1,6 @@
 ---
 title: Error when enabling Image Optimization in Magento Commerce Cloud
-labels: Magento Commerce Cloud,Fastly,image optimization,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Fastly,Magento Commerce Cloud,how to,image optimization
 ---
 
 This article provides a solution for the issue when Fastly Image Optimization (IO) is disabled by default with a notification to contact Fastly to enable image optimization. (The Fastly Cloud Image Optimizer is a real-time image manipulation and optimization service that speeds up image delivery by serving bandwidth-efficient images.)

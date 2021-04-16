@@ -1,6 +1,6 @@
 ---
 title: New orders are sent to archive
-labels: Magento Commerce,patch,troubleshooting,orders,known issues,2.2.0
+labels: 2.2.0,Magento Commerce,known issues,orders,patch,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in Magento Admin.

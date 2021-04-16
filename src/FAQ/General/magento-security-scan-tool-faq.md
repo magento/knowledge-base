@@ -1,6 +1,6 @@
 ---
 title: Magento Security Scan Tool FAQ
-labels: Magento Commerce Cloud,Magento Commerce,Magento Open Source,security,FAQ,store,Magento Security Scan Tool,malware,threats
+labels: FAQ,Magento Commerce,Magento Commerce Cloud,Magento Open Source,Magento Security Scan Tool,malware,security,store,threats
 ---
 
 This article answers some Frequently Asked Questions (FAQ) about the Magento Security Scan Tool.

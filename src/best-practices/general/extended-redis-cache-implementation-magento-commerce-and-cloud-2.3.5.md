@@ -1,6 +1,6 @@
 ---
 title: Extended Redis cache implementation Magento Commerce and Cloud 2.3.5+
-labels: Magento Commerce Cloud,Magento Commerce,configuration,Redis,cache,2.3.5,best practices
+labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,Redis,best practices,cache,configuration
 ---
 
 As of Magento Commerce Cloud and Magento Commerce 2.3.5 or higher, it is recommended that you use the extended Redis cache implementation.

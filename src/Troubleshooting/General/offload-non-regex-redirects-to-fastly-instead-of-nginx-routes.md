@@ -1,6 +1,6 @@
 ---
 title: Offload non-regex redirects to Fastly instead of Nginx (routes)
-labels: fastly,Magento Commerce Cloud,VCL snippets,performance,regex,redirects,offload,routes,Nginx,how to
+labels: Magento Commerce Cloud,Nginx,VCL snippets,fastly,how to,offload,performance,redirects,regex,routes
 ---
 
 This topic suggests a solution to a typical redirects performance issue you might have where you offload non-regex redirects to Fastly instead of Nginx in Magento Commerce Cloud.
@@ -9,7 +9,7 @@ This topic suggests a solution to a typical redirects performance issue you migh
 
 * Magento Commerce Cloud, all versions, `` Master/Production/Staging `` environments leveraging Fastly
 
-<h2 id="google-analytics-disables-when-deployed">Issue</h2>
+## Issue
 
 In Magento Commerce Cloud, large numbers of non-regex redirects/rewrites cannot be done at the Nginx layer, and as a result can cause performance issues.
 

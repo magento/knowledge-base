@@ -1,6 +1,6 @@
 ---
 title: Redis deployment error on Cloud (Already in pipeline mode)
-labels: Magento Commerce Cloud,deploy,Redis,pipeline,mode,troubleshooting
+labels: Magento Commerce Cloud,Redis,deploy,mode,pipeline,troubleshooting
 ---
 
 This article provides a solution for the `` Redis::pipeline(): Already in pipeline mode... `` error which you might encounter during deployment.

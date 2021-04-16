@@ -1,6 +1,6 @@
 ---
 title: Duplicate entries in the catalogrule table after editing the end date of a schedule update
-labels: Magento Commerce,patch,troubleshooting,duplicate entry,known issues,2.2.3
+labels: 2.2.3,Magento Commerce,duplicate entry,known issues,patch,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `` catalogrule `` table and errors in the `` catalogrule_rule `` (Catalog rule product) indexer reindex.
@@ -33,7 +33,7 @@ To solve the issue you need to apply the attached patch and remove the existing 
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-10974\_EE\_2.2.3\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360024568111/MDVA-10974_EE_2.2.3_COMPOSER_v2.patch)
+[Download MDVA-10974\_EE\_2.2.3\_COMPOSER\_v2.patch](assets/MDVA-10974_EE_2.2.3_COMPOSER_v2.patch)
 
 ### Compatible Magento versions:
 
@@ -50,7 +50,7 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
-<h2 id="remove">Remove duplicated entries</h2>
+## Remove duplicated entries
 
 <p class="info">Please make sure to have a recent backup before any manipulations.</p>
 

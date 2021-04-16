@@ -1,6 +1,6 @@
 ---
 title: Check logs to troubleshoot 500 and 503 errors on Magento
-labels: Magento Commerce Cloud,error,log,site not loading,500 error,site down,how to,503 error
+labels: 500 error,503 error,Magento Commerce Cloud,error,how to,log,site down,site not loading
 ---
 
 This article explains how to check the `` access.log `` and related logs to troubleshoot 503 and 500 errors, which can be caused by traffic or insufficient server resources. Viewing the `` access.log `` and related logs can provide information on what may be causing problems related to Magento Commerce Cloud.

@@ -1,6 +1,6 @@
 ---
 title: Changes in .magento.env.yaml not reflected in env.php after deployment
-labels: Magento Commerce Cloud,deploy,deployment,troubleshooting,php.ini,deployment error,environment variables,app/etc/env.php,.magento.env.yaml,env.php
+labels: .magento.env.yaml,Magento Commerce Cloud,app/etc/env.php,deploy,deployment,deployment error,env.php,environment variables,php.ini,troubleshooting
 ---
 
 This article provides a solution for the issue where changes in ``  .magento.env.yaml `` file are not reflected in `` app/etc/env.php `` after deployment.

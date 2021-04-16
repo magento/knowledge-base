@@ -1,6 +1,6 @@
 ---
 title: Fastly caching is not working on Magento Cloud
-labels: headers,caching,x-cache,Magento Commerce Cloud,Fastly,troubleshooting
+labels: Fastly,Magento Commerce Cloud,caching,headers,troubleshooting,x-cache
 ---
 
 This article provides a fix for Fastly caching not working on your site. Fastly is a CDN and caching service included with Magento Commerce (Cloud) plans and implementations. To verify the Fastly extension is working or to debug the Fastly extension, you can use the curl command to display certain response headers. The values of these response headers indicate whether or not Fastly is enabled and functioning properly. You can further investigate issues based on the values of headers and caching behavior.

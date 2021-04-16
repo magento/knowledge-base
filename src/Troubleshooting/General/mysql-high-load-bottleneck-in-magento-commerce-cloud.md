@@ -1,6 +1,6 @@
 ---
 title: MySQL high-load bottleneck in Magento Commerce Cloud
-labels: Magento Commerce Cloud,Cloud,Redis,performance,queries,MySQL,high,load,bottleneck,slave,slave connection,cluster,2.x.x,how to
+labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,how to,load,performance,queries,slave,slave connection
 ---
 
 <p class="warning">For scaled architecture (split architecture), Redis slave connections SHOULD NOT be enabled. If you enable Redis Slave Reads on scaled architecture the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Magento 2.3.5 or later and implement new Redis back end configuration and implement L2 caching for Redis.</p>

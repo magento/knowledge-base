@@ -1,6 +1,6 @@
 ---
 title: Best practice Magento order placement performance 
-labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,email,orders,best practices,2.3.x,2.4,2.4.x,asynchronous sending
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,asynchronous sending,best practices,email,orders,performance
 ---
 
 This article provides best practices for order processing and checkout performance. It is recommended that you enable the Async Email Notification feature. It is disabled by default in the Magento configuration. With this feature disabled, there is a degradation of checkout and order processes as email notifications are not handled in the background.

@@ -1,6 +1,6 @@
 ---
 title: How to find Magento product documentation
-labels: Magento Commerce Cloud,documentation,Magento Commerce,devdocs,Magento,B2B,MBI,PWA,product,Magento Order Management,marketplace,Magento Business Intelligence,how to
+labels: B2B,MBI,Magento,Magento Business Intelligence,Magento Commerce,Magento Commerce Cloud,Magento Order Management,PWA,devdocs,documentation,how to,marketplace,product
 ---
 
 ## Magento Support Documentation

@@ -1,6 +1,6 @@
 ---
 title: PWA Studio: Webpack hangs before beginning compilation 
-labels: PWA,hangs,stalls,webpack,PWA studio,pwa-buildpack,javascript,how to
+labels: PWA,PWA studio,hangs,how to,javascript,pwa-buildpack,stalls,webpack
 ---
 
 This article talks about a suggested solution to when a javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) hangs for a long time before beginning compilation in Magento Progressive Web App Studio (PWA Studio).

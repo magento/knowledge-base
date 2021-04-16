@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0 patch: returns shipping label creation issue
-labels: Magento Commerce Cloud,Magento Commerce,patch,known issues,2.4.0,shipping label,return
+labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,known issues,patch,return,shipping label
 ---
 
 This article provides a patch for the Magento 2.4.0 known issue when there is a problem with printing a shipping label for customers’ returns.
@@ -30,13 +30,13 @@ The Return Information page is broken and you see an error message on the Return
 
 ## Solution
 
-Apply [patch](https://support.magento.com/hc/en-us/article_attachments/360063124151/MC-35984-2.4.0-CE-composer.patch) provided in this article.
+Apply [patch](assets/MC-35984-2.4.0-CE-composer.patch) provided in this article.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[MC-35984-2.4.0-CE-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063124151/MC-35984-2.4.0-CE-composer.patch)
+[MC-35984-2.4.0-CE-composer.patch](assets/MC-35984-2.4.0-CE-composer.patch)
 
 The patch is also available for download in both, `` .git `` and `` .composer ``, formats on [Magento Commerce Downloads](https://magento.com/tech-resources/download) page, under Patches in the left column navigation. Search for MC-35984 patch. 
 

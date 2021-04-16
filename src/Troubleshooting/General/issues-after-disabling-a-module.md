@@ -1,6 +1,6 @@
 ---
 title: Issues after disabling a module
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,module disable,2.1.x
+labels: 2.1.x,Magento Commerce,Magento Commerce Cloud,module disable,troubleshooting
 ---
 
 This article provides a solution for module functionality issues after having disabled module output in the Magento Admin.

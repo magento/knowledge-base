@@ -1,6 +1,6 @@
 ---
 title: E: Error verifying routes.yaml error during Staging or Production deploy
-labels: Magento Commerce Cloud,deployment,troubleshooting,routes.yaml
+labels: Magento Commerce Cloud,deployment,routes.yaml,troubleshooting
 ---
 
 This article provides a solution for the Magento Commerce Cloud issue, where you get the _"E: Error while verifying routes.yaml"_ error message when trying to deploy the project to the Staging or Production environment. 

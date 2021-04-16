@@ -1,6 +1,6 @@
 ---
 title: Most common database issues in Magento Commerce Cloud
-labels: Magento Commerce Cloud,performance,duplicate,logs,queries,MySQL,database,best practices,Percona Toolkit
+labels: Magento Commerce Cloud,MySQL,Percona Toolkit,best practices,database,duplicate,logs,performance,queries
 ---
 
 This article discusses the most common database issues causing performance degradation for Magento Commerce Cloud sites. 
@@ -11,7 +11,7 @@ Click on each issue description to see the details:
 * [Primary keys are not defined.](#Primary_keys_not_defined)
 * [Duplicate indexes.](#Duplicate_indexes)
 
-<h2 id="Long_running_queries">Long running queries</h2>
+## Long running queries
 
 Investigate if you have slow running MySQL queries. Depending on your Magento Cloud plan and therefore tools availability, you can do the following. 
 
@@ -32,7 +32,7 @@ Investigate if you have slow running MySQL queries. Depending on your Magento Cl
     
 1. Take resolution steps depending on issues found.
 
-<h2 id="Primary_keys_not_defined">Primary keys are not defined</h2>
+## Primary keys are not defined
 
 Defining primary keys (PK) is a requirement for a good database and table design. They provide a way to uniquely identify a single row in any table. When using InnoDB engine, which is the default in Magento, in tables where no PK is defined the first unique not null key is the primary key. If none is available, InnoDB creates a hidden primary key (6 bytes). The problem with such a key is that you do not have control over it and this value is global for all tables without primary keys. This might cause contention problems if you perform simultaneous writes on these tables. This might lead to performance issues, as they will all share that global hidden PK index increment. 
 
@@ -67,7 +67,7 @@ Take the following steps to identify missing primary keys and add them:
     
     
 
-<h2 id="Duplicate_indexes">Duplicate indexes </h2>
+## Duplicate indexes 
 
 ### Check if there are duplicate indexes in your DB
 

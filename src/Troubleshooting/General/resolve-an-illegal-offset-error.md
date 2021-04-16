@@ -1,6 +1,6 @@
 ---
 title: Resolve an illegal offset error
-labels: Magento Commerce Cloud,Magento Commerce,error,PHP,illegal,offset,OPcache,how to,Apache
+labels: Apache,Magento Commerce,Magento Commerce Cloud,OPcache,PHP,error,how to,illegal,offset
 ---
 
 This article provides a solution for when in Magento 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Magento Admin.
@@ -11,17 +11,17 @@ In Magento 2.1 or later, when creating a new product in the Magento Admin, the f
 magento/module-catalog-inventory/Ui/DataProvider/Product/Form/
 Modifier/AdvancedInventory.php on line 87</code></pre>
 
-<h2 id="detail">Detail</h2>
+## Detail
 
 Magento 2.1 and later use PHP code comments in the `` getDocComment `` validation call in the [`` getExtensionAttributes ``](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) method in `` Magento\Framework\Api\ExtensionAttributesFactory.php ``.
 
 If you enabled the PHP OPcache (which we recommend), this error displays because by default, the OPcache setting [`` opcache.save_comments ``](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments) is disabled.
 
-<h2 id="workaround">Workaround</h2>
+## Workaround
 
 To solve the issue, locate your OPcache configuration settings and enable `` opcache.save_comments `` as follows:
 
-<h4 id="step-1-locate-your-opcache-configuration">Step 1: Locate your OPcache configuration</h4>
+#### Step 1: Locate your OPcache configuration
 
 #### To find OPcache configuration settings:
 
@@ -56,8 +56,7 @@ If you have more than one `` opcache.ini ``, modify all of them.
 
  
 
-<h4 id="step-2-enable-opcache-save_comments">Step 2: Enable <code>opcache.save_comments</code>
-</h4>
+#### Step 2: Enable `` opcache.save_comments ``
 
 1. Open your OPcache configuration file in a text editor.
 1. Locate `` opcache.save_comments `` and uncomment it if necessary.

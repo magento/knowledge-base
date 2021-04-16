@@ -1,6 +1,6 @@
 ---
 title: Exported products .csv file does not appear 
-labels: Magento Commerce Cloud,export,exported,products,exportProcessor,how to,2.3.2,csv file
+labels: 2.3.2,Magento Commerce Cloud,csv file,export,exportProcessor,exported,how to,products
 ---
 
 This article provides a fix for the issue where you try to export products to a .csv file in Magento Admin, but the file does not appear.

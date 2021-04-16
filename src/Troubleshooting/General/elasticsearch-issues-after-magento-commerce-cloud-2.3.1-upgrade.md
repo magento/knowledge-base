@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch issues after Magento Commerce Cloud 2.3.1+ upgrade
-labels: upgrade,Magento Commerce Cloud,Elasticsearch problems,Elasticsearch,End of Life,Elasticsearch service version not compatible,Elasticsearch 6.x,how to,Elasticsearch 2.x,Elasticsearch 5.x
+labels: Elasticsearch,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch problems,Elasticsearch service version not compatible,End of Life,Magento Commerce Cloud,how to,upgrade
 ---
 
 <p class="warning"><a href="https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0">MySQL catalog search engine will be removed in Magento 2.4.0</a>. You must have Elasticsearch host setup and configured prior to installing version 2.4.1. Refer to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Install and configure Elasticsearch</a>.</p>

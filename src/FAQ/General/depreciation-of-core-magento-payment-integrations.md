@@ -1,6 +1,6 @@
 ---
 title: Depreciation of Core Magento Payment Integrations
-labels: Magento Commerce,security,payment,integrations,FAQ,Depreciation of Core Magento Payment Integrations,PSD2,worldpay,eway,marketplace,2.3.5,extensions,2.3.1,2.x.x,2.3.4,2.3.3,Authorize.Net,CyberSource
+labels: 2.3.1,2.3.3,2.3.4,2.3.5,2.x.x,Authorize.Net,CyberSource,Depreciation of Core Magento Payment Integrations,FAQ,Magento Commerce,PSD2,eway,extensions,integrations,marketplace,payment,security,worldpay
 ---
 
 Due to the Payment Service Directive PSD2 (see details on [Magento DevDocs](https://docs.magento.com/m2/ee/user_guide/stores/compliance-payment-services-directive.html?utm_source=marketo&amp;utm_medium=email&amp;utm_campaign=191107-PR-DM-233-Customer-Launch-Support&amp;mkt_tok=eyJpIjoiTWpVNE1HSTNORGhoTlRZMCIsInQiOiJjZSs2SG5Ic1Y1K0tIZ2MzZEl3T1hRamdGbXplOUFIUlErUGZlSlhzbWk5WE9RVGdrU3h2QTVRNnBvaE83Vjl4V2VLM0lCMzVcL1FlYVJuVlJTRzBLTENQU2x2UXJRZEpPQ0pNSHRmMFlYb1IxVk91ZWg2czNiUHRNeXM5MStTbGsifQ%3D%3D)) and the continued evolution of many APIs, a number of Magento core payment integrations risk becoming outdated and no longer security compliant in the future. To that end, many core payment integrations have been or will soon be deprecated, and we are recommending a transition to their corresponding marketplace extensions. Please read the rest of the article below to review recent deprecations of payment integrations. The below integrations will all be removed from Magento’s 2.4.0 release and have been deprecated from versions of 2.1. <table>

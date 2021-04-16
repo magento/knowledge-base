@@ -1,11 +1,11 @@
 ---
 title: MBI Service Policies
-labels: troubleshooting,support,Magento Business Intelligence
+labels: Magento Business Intelligence,support,troubleshooting
 ---
 
 At Magento BI, our goal is to provide stellar customer service, safeguard your data, and give you the know-how you need to make data-driven decisions.
 
-<h2 id="support">What <u>can</u> your Support team do?</h2>
+## What <u>can</u> your Support team do?
 
 Our support team can help you with the following:
 
@@ -18,7 +18,7 @@ Our support team can help you with the following:
 * Conducting a new analysis
 * Migrating a database/assisting with structural changes
 
-<h2 id="support">What <u>doesn't</u> your Support team do?</h2>
+## What <u>doesn't</u> your Support team do?
 
 Because we want to ensure that only the people you authorize can access your data, there are few tasks our Support team won't perform.
 

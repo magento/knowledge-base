@@ -1,6 +1,6 @@
 ---
 title: Ticket submission form: merchant is not displayed in Organization drop-down
-labels: form,shared access,organization,submit a ticket
+labels: form,organization,shared access,submit a ticket
 ---
 
 This article provides a solution for a support ticket submission issue, where the merchant corresponding to the shared account is not displayed in the Organization options.
