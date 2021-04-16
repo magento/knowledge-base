@@ -1,6 +1,6 @@
 ---
 title: Extension Manager shows no extensions in Magento Commerce 2.3.x
-labels: Magento Commerce,known issues,marketplace,extensions,extension manager,2.3.x,command line
+labels: 2.3.x,Magento Commerce,command line,extension manager,extensions,known issues,marketplace
 ---
 
 This article provides a workaround for missing extensions in the Admin Extension Manager in Magento Commerce 2.3.x after you purchase extensions via the Magento Marketplace.

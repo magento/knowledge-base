@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0 known issue: integration tests fail
-labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,2.4.0,integration tests,dotdigital
+labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,dotdigital,integration tests,known issues,patch,troubleshooting
 ---
 
 This article provides a patch for the Magento 2.4.0 issue where integration tests are failing because the declaration of `` Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp() `` is not compatible with PHPUnit 9 which is used for 2.4.1. ## Affected products and versions
@@ -30,7 +30,7 @@ Apply the patch provided in this article.
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[BUNDLE-2684-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063994752/BUNDLE-2684-composer.patch)
+[BUNDLE-2684-composer.patch](assets/BUNDLE-2684-composer.patch)
 
 ### Compatible Magento versions:
 

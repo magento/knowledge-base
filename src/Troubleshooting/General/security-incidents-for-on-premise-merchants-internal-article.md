@@ -1,6 +1,6 @@
 ---
 title: Security Incidents for On-Premise Merchants (Internal Article)
-labels: security,incident,on-premise
+labels: incident,on-premise,security
 ---
 
 \*INTERNAL ARTICLE\* This internal article provides a solution for the Magento Commerce (on-premise) issue, where a merchant experiences a security issue. 

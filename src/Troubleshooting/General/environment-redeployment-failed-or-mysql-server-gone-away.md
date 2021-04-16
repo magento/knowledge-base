@@ -1,6 +1,6 @@
 ---
 title: Environment redeployment failed or MySQL server gone away
-labels: Magento Commerce Cloud,Magento Commerce,deployment,troubleshooting,mysql
+labels: Magento Commerce,Magento Commerce Cloud,deployment,mysql,troubleshooting
 ---
 
 This article provides a solution for Magento Commerce and Cloud issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors.

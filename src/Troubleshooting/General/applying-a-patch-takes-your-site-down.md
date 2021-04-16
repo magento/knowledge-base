@@ -1,6 +1,6 @@
 ---
 title: Applying a patch takes your site down 
-labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,remove patch
+labels: Magento Commerce,Magento Commerce Cloud,patch,remove patch,troubleshooting
 ---
 
 This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch.

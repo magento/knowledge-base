@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.2 B2B: discount remains pay method change
-labels: Magento Commerce Cloud,Magento Commerce,known issue,discount,B2B,payment method,2.4.2
+labels: 2.4.2,B2B,Magento Commerce,Magento Commerce Cloud,discount,known issue,payment method
 ---
 
 This article describes a known Magento Commerce 2.4.2 B2B issue where a payment method-tied discount persists after a payment method change at checkout. There is no resolution available at this time.

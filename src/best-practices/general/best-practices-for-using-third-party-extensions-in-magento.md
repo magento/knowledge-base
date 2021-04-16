@@ -1,6 +1,6 @@
 ---
 title: Best Practices for using third-party extensions in Magento
-labels: Magento Commerce Cloud,Magento Commerce,performance,extensions,3rd-party extensions,best practices,2.3.x,third-party extensions,2.2.x
+labels: 2.2.x,2.3.x,3rd-party extensions,Magento Commerce,Magento Commerce Cloud,best practices,extensions,performance,third-party extensions
 ---
 
 This article provides some best practices for potential issues with third-party extensions (modules) used in Magento. 

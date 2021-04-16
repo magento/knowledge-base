@@ -1,6 +1,6 @@
 ---
 title: 503 error on store front catalog pages with "Integrity constraint violation" in logs
-labels: Magento Commerce Cloud,patch,troubleshooting,503,2.2.4,known issues,2.2.0,integrity constraint violation
+labels: 2.2.0,2.2.4,503,Magento Commerce Cloud,integrity constraint violation,known issues,patch,troubleshooting
 ---
 
 <p class="info">This article provides a patch as a workaround, but the issue was permanently fixed in Magento Commerce Cloud v2.3.3 release, and it is recommended that you upgrade to v2.3.1. Follow the steps in <a href="https://devdocs.magento.com/cloud/project/project-upgrade.html">Upgrade Magento Version</a>.</p>
@@ -33,9 +33,9 @@ Example:
 
 The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
 
-[Download MDVA-9590\_EE\_2.2.0\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360024553632/MDVA-9590_EE_2.2.0_COMPOSER_v2.patch)
+[Download MDVA-9590\_EE\_2.2.0\_COMPOSER\_v2.patch](assets/MDVA-9590_EE_2.2.0_COMPOSER_v2.patch)
 
-[Download MDVA-13203\_EE\_2.2.4\_V1\_COMPOSER.patch](https://support.magento.com/hc/en-us/article_attachments/360024929111/MDVA-13203_EE_2.2.4_V1_COMPOSER.patch)
+[Download MDVA-13203\_EE\_2.2.4\_V1\_COMPOSER.patch](assets/MDVA-13203_EE_2.2.4_V1_COMPOSER.patch)
 
 ### Compatible Magento versions
 

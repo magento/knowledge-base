@@ -1,6 +1,6 @@
 ---
 title: Production site not accessible due to origin cloaking
-labels: origin,production,Magento Commerce Cloud,Fastly,security,DNS,troubleshooting,2.3.5-p1,2.3.1,2.3.4-p2,2.3.0,2.3.3,2.4.0,2.3.2,2.3.6,2.3.5-p2,2.3.3-p1,2.4.1,2.4.0-p1,2.4.2,2.3.2-p2,2.4.1-p1,origin cloaking,2.3.6-p1
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,DNS,Fastly,Magento Commerce Cloud,origin,origin cloaking,production,security,troubleshooting
 ---
 
 This article provides a solution for when your Magento Commerce Cloud production site store front and/or Admin is not accessible.

@@ -1,6 +1,6 @@
 ---
 title: Magento 2.3.5, 2.3.5-p1 patch: country payment issue
-labels: Magento Commerce Cloud,Magento Commerce,patch,payments,troubleshooting,known issues,2.3.5,2.3.5-p1
+labels: 2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,known issues,patch,payments,troubleshooting
 ---
 
 This patch resolves an issue in Magento where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
@@ -16,7 +16,7 @@ When a store has Amazon Pay and another payment assigned to different countries,
 
 A web page refresh is a workaround for the issue.
 
-To resolve this issue and remove the error, we have created a [patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch). 
+To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch). 
 
 Prerequisites:
 
@@ -64,13 +64,13 @@ The Payment step opens.
 
 ## Solution
 
-[Apply the patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch) below.
+[Apply the patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch) below.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch)
+[Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch)
 
 ### Compatible Magento versions:
 

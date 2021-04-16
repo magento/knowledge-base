@@ -9,7 +9,7 @@ This topic discusses solution to a typical issue you might experience with Googl
 
 * Magento Commerce Cloud, all versions
 
-<h2 id="google-analytics-disables-when-deployed">Issue</h2>
+## Issue
 
 When deploying your code across environments, the build and deploy scripts verify the `` master/production/staging  ``branch is deployed to keep Google Analytics enabled. When deploying develop (or child) branches of master to developer environments (Integration), the deploy script disables Google Analytics.
 

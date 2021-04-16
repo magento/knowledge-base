@@ -1,6 +1,6 @@
 ---
 title: Product is not displayed on storefront
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,product,not displayed
+labels: Magento Commerce,Magento Commerce Cloud,not displayed,product,troubleshooting
 ---
 
 This article provides solutions for when products are not displayed on storefront.

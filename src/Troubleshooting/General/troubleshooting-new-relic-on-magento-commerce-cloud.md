@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting New Relic on Magento Commerce Cloud
-labels: Magento Commerce Cloud,PHP,New Relic,GraphQL,New Relic problem,New Relic troubleshooting,accessing New Relic,how to,troubleshoot,display
+labels: GraphQL,Magento Commerce Cloud,New Relic,New Relic problem,New Relic troubleshooting,PHP,accessing New Relic,display,how to,troubleshoot
 ---
 
 This article provides resources for troubleshooting New Relic on Magento Commerce Cloud.
@@ -17,7 +17,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p id="access">Can't see projects in New Relic.</p>
+<p>Can't see projects in New Relic.</p>
 <p>You log in to <em>New Relic</em> but can't see projects you should be entitled to view/access. </p>
 </td>
 <td>
@@ -32,7 +32,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p id="missing_data">Missing data after installation.</p>
+<p>Missing data after installation.</p>
 <p>Use the <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic Diagnostics utility</a> to try to identify the cause. If this does not help, look at agent specific solutions. Links to articles containing these solutions are in the right-hand column.</p>
 </td>
 <td>
@@ -56,7 +56,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p id="time_stamp">Transactions timestamp discrepancy.<br/><br/>You may struggle to find long transactions (more than 5 mins) using the New Relic UI. You may also find transactions displayed outside of the expected time frame. </p>
+<p>Transactions timestamp discrepancy.<br/><br/>You may struggle to find long transactions (more than 5 mins) using the New Relic UI. You may also find transactions displayed outside of the expected time frame. </p>
 </td>
 <td>
 <p>The New Relic UI displays the time of the transaction's end, not the time when the transaction began. </p>
@@ -67,7 +67,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p id="character"> NerdGraph GraphQL <code>curl</code> queries using special characters such as <code>|</code> and <code>%</code> do not work.</p>
+<p> NerdGraph GraphQL <code>curl</code> queries using special characters such as <code>|</code> and <code>%</code> do not work.</p>
 </td>
 <td>
 <p>New Relic "copy to curl" feature within NerdGraph does not currently provide a way to handle special characters such as<code>|</code>and <code>%</code>.</p>
@@ -78,7 +78,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p id="chart_issues">Chart and dashboard display issues. </p>
+<p>Chart and dashboard display issues. </p>
 </td>
 <td>
 <p>Resolve missing charts by adding New Relic domains to the allow list or uninstall the browser extension causing the issues. </p>
@@ -92,7 +92,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p id="php_agent_count">PHP agent does not show the correct instance count.</p>
+<p>PHP agent does not show the correct instance count.</p>
 </td>
 <td>
 <p>The number of instances can increase depending on back end processes and throughput. Differences between server values can be due to processes running on one server, but not the other server. </p>

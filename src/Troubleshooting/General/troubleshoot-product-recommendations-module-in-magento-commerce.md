@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot Product Recommendations module in Magento Commerce
-labels: Magento Commerce,commerce,product,module,product-recommendations,recommendations,saas-export,magento/product-recommendations,2.3.x,how to,2.4.x
+labels: 2.3.x,2.4.x,Magento Commerce,commerce,how to,magento/product-recommendations,module,product,product-recommendations,recommendations,saas-export
 ---
 
 This article talks about troubleshooting suggestions for the <code class="language-php">magento/product-recommendations</code> module and its dependency <code class="language-php">saas-export</code> module since you need both modules operating in order to use the Product Recommendations tool in Magento Commerce.

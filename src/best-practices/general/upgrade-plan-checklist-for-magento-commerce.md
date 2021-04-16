@@ -1,6 +1,6 @@
 ---
 title: Upgrade plan checklist for Magento Commerce
-labels: upgrade,Magento Commerce Cloud,Magento Commerce,security,deployment,update,extensions,best practices,third-party extensions,Certification program,Site-Wide Analysis Tool,Upgrade Compatibility Tool
+labels: Certification program,Magento Commerce,Magento Commerce Cloud,Site-Wide Analysis Tool,Upgrade Compatibility Tool,best practices,deployment,extensions,security,third-party extensions,update,upgrade
 ---
 
 Use this checklist during your annual and quarterly conversations with your ecommerce team. Many companies work from annual budgets and roadmaps. It is imperative, during these annual discussions, that you talk about your platform’s health, direction, and upgrade strategy for the year, along with how it fits into the overall goals and KPIs of the business. During quarterly conversations, make sure the annual plan you created is still aligned with your current situation or pivot if not. The goal of this Upgrade Plan Checklist is to help you plan and schedule Magento upgrades, to ensure a successful upgrade process during the year. This checklist is meant to be used on annual planning and reviewed quarterly. This checklist is intended for:

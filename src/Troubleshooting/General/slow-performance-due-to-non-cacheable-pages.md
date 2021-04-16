@@ -1,6 +1,6 @@
 ---
 title: Slow performance due to non-cacheable pages
-labels: Magento Commerce Cloud,Magento Commerce,slow performance,uncacheable page,cacheable page,2.x.x,how to
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,cacheable page,how to,slow performance,uncacheable page
 ---
 
 This article provides solutions for increased website load times or outages due to full page cache (for example Fastly) having been disabled for any block on any page(s) that need to be cached. 

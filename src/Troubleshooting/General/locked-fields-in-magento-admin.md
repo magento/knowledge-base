@@ -1,6 +1,6 @@
 ---
 title: Locked fields in Magento Admin
-labels: Magento Commerce Cloud,Magento Commerce,Magento,configuration,admin,ece-tools,troubleshooting,2.3.x,lock,admin login,2.4.x,fields
+labels: 2.3.x,2.4.x,Magento,Magento Commerce,Magento Commerce Cloud,admin,admin login,configuration,ece-tools,fields,lock,troubleshooting
 ---
 
 This article provides a solution for when you cannot modify fields in Magento Admin.  

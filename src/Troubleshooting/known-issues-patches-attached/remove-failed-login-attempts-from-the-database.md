@@ -1,6 +1,6 @@
 ---
 title: Remove failed login attempts from the database
-labels: Magento Commerce Cloud,Magento Commerce,patch,troubleshooting,known issues,database,2.3.x,2.2.x,failed login
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,database,failed login,known issues,patch,troubleshooting
 ---
 
 <p class="info">This article has been updated on April 13 2020 with a new script called DB_CLEANUP_SCRIPT_v1. Please use the attached DB_CLEANUP_SCRIPT_v2 script to clear pre-existing failed login data in additional tables. You need to use DB_CLEANUP_SCRIPT_v2, even if you have run DB_CLEANUP_SCRIPT_v1 previously to help ensure additional tables are cleaned up.</p>
@@ -27,19 +27,19 @@ Magento Commerce and Magento Open Source versions 2.3.0-2.3.2-p2
 
 For these versions you must apply the patch and run the attached database clean-up script to end continued logging and eliminate logs.
 
-1. Run the composer patch to stop logging. This patch is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](https://support.magento.com/hc/en-us/article_attachments/360052587472/CLEANUP_PATCH_COMPOSER_2.3.2.patch). For instructions on how to apply the patch, see [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731).
+1. Run the composer patch to stop logging. This patch is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch). For instructions on how to apply the patch, see [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731).
 
-1. Now run the script to clean the database of the pre-existing failed login attempts. This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](https://support.magento.com/hc/en-us/article_attachments/360054669971/DB_CLEANUP_SCRIPT_v2.php).
+1. Now run the script to clean the database of the pre-existing failed login attempts. This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php).
 
 Please refer to the [How to run the script](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section for instructions.
 
 Magento Commerce and Magento Open Source versions 2.3.3 and above/2.2.10 &amp; above  
    
- For these versions only run the below script to clear old logs (logging was ended previously for these versions through a fix released in Oct 2019). This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](https://support.magento.com/hc/en-us/article_attachments/360054669971/DB_CLEANUP_SCRIPT_v2.php).
+ For these versions only run the below script to clear old logs (logging was ended previously for these versions through a fix released in Oct 2019). This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php).
 
 Please refer to the [How to run the script](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section for instructions.
 
-<p id="run_script">How to run the script</p>
+How to run the script
 
 Please follow the below instructions to run the script:
 

@@ -1,6 +1,6 @@
 ---
 title: Magento frontend performance best practices
-labels: Magento Commerce Cloud,Magento Commerce,2.3,best practices,2.3.x,store,2.4,frontend performance tool,Google Lightspeed,Pagespeed Insights,2.4.x,seo
+labels: 2.3,2.3.x,2.4,2.4.x,Google Lightspeed,Magento Commerce,Magento Commerce Cloud,Pagespeed Insights,best practices,frontend performance tool,seo,store
 ---
 
 It is a best practice to use web performance tools to check the frontend performance of your Magento store.

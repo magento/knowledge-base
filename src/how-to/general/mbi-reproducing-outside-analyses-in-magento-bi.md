@@ -1,6 +1,6 @@
 ---
 title: MBI: Reproducing outside analyses in Magento BI
-labels: MBI,database,data,Magento Business Intelligence,how to,reproduce analyses,reports,SQL
+labels: MBI,Magento Business Intelligence,SQL,data,database,how to,reports,reproduce analyses
 ---
 
 Here are the resources we recommend using to get started if you want to reproduce an outside report - either from a SQL query, an Excel spreadsheet, or another document - in Magento BI:

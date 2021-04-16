@@ -1,6 +1,6 @@
 ---
 title: 404 Error on store front once catalog price rule schedules update is performed
-labels: Magento Commerce,patch,2.2.1,troubleshooting,schedule update,known issues,404 error
+labels: 2.2.1,404 error,Magento Commerce,known issues,patch,schedule update,troubleshooting
 ---
 
 This article provides a patch and required steps to fix the known Magento Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
@@ -37,11 +37,11 @@ Following is the detailed description of the required steps:
 1. Clear the browser cache under System > Cache Management.
 1. Make sure the cron jobs are configured properly and may be executed successfully.
 
-<h2 id="patch">Patch</h2>
+## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-7392\_EE\_2.2.1\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360024181571/MDVA-7392_EE_2.2.1_COMPOSER_v2.patch)
+[Download MDVA-7392\_EE\_2.2.1\_COMPOSER\_v2.patch](assets/MDVA-7392_EE_2.2.1_COMPOSER_v2.patch)
 
 ### Compatible Magento versions:
 
@@ -60,7 +60,7 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
-<h2 id="fix_links">Fix the invalid links to staging in DB</h2>
+## Fix the invalid links to staging in DB
 
 <p class="warning">We strongly recommend creating a database backup before any database manipulations. We also recommend testing queries on development environment first.</p>
 

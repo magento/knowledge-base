@@ -1,6 +1,6 @@
 ---
 title: Best practice Magento product variations 
-labels: Magento Commerce Cloud,Magento Commerce,performance,2.3,products,best practices,2.3.x,2.4,attribute,2.4.x
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,performance,products
 ---
 
 This article provides best practices for product variations. Our recommendation is to have not more than 50 variations per product, as performance can be affected.

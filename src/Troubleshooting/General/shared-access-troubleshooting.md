@@ -1,6 +1,6 @@
 ---
 title: Shared access troubleshooting
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,shared access
+labels: Magento Commerce,Magento Commerce Cloud,shared access,troubleshooting
 ---
 
 ## I do not see the Shared Access tab on my Magento Account page

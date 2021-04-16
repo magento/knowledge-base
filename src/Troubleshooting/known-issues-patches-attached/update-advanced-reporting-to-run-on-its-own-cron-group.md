@@ -1,6 +1,6 @@
 ---
 title: Update Advanced Reporting to run on its own cron group
-labels: Magento Commerce Cloud,patch,troubleshooting,known issues,Advanced Reporting,2.3.0,no data
+labels: 2.3.0,Advanced Reporting,Magento Commerce Cloud,known issues,no data,patch,troubleshooting
 ---
 
 This article provides a patch for the known issue for Magento Commerce Cloud 2.3.0 where Advanced Reporting is not showing any data. This is because Advanced Reporting job `` analytics_collect_data `` is not executed according to schedule. This article provides a patch that will create an Advanced Reporting cron group `` analytics ``.
@@ -15,7 +15,7 @@ The patch is attached to this article. The patch moves the `` analytics `` cron 
 
 To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[MDVA-19640\_EE\_2.3.0\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360046452172/MDVA-19640_EE_2.3.0_COMPOSER_v1.patch)
+[MDVA-19640\_EE\_2.3.0\_COMPOSER\_v1.patch](assets/MDVA-19640_EE_2.3.0_COMPOSER_v1.patch)
 
 After applying the patch run the following SQL query. The query has to be run to change records in `` cron_schedule `` table. 
 

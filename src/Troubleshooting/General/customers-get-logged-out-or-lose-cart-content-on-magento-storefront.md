@@ -1,6 +1,6 @@
 ---
 title: Customers get logged out or lose cart content on Magento storefront
-labels: Magento Commerce Cloud,Magento Commerce,how to,SameSite,session,cookies,cart,logged out
+labels: Magento Commerce,Magento Commerce Cloud,SameSite,cart,cookies,how to,logged out,session
 ---
 
 This article provides a solution and workaround for the issue, where customers get logged out or lose items from the shopping cart on the storefront, after being re-directed back to Magento store from payment or other third-party services (session cookie "gets lost").

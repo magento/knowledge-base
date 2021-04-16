@@ -1,6 +1,6 @@
 ---
 title: Low site and API performance
-labels: Magento Commerce Cloud,API,patch,performance,2.2.1,troubleshooting,known issues
+labels: 2.2.1,API,Magento Commerce Cloud,known issues,patch,performance,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce Cloud 2.2.1 issue related to having low site and API performance caused by a long time required to write `` debug.log ``.
@@ -17,7 +17,7 @@ To solve the issue, apply the patch. The patch splits and writes the log, paymen
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-8371\_EE\_2.2.1\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360025304332/MDVA-8371_EE_2.2.1_COMPOSER_v2.patch)
+[Download MDVA-8371\_EE\_2.2.1\_COMPOSER\_v2.patch](assets/MDVA-8371_EE_2.2.1_COMPOSER_v2.patch)
 
 ### Compatible Magento versions
 

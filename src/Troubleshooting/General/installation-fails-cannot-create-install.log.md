@@ -1,11 +1,11 @@
 ---
 title: Installation fails; cannot create install.log
-labels: Magento Commerce Cloud,Magento Commerce,installation,php.ini,wizard,install.log,setup,open_basedir,phpinfo.php,how to
+labels: Magento Commerce,Magento Commerce Cloud,how to,install.log,installation,open_basedir,php.ini,phpinfo.php,setup,wizard
 ---
 
 This article provides a fix for a failed installation due to the Setup Wizard not creating the `` install.log `` during the installation.
 
-<h3 id="details">Issue</h3>
+### Issue
 
 Running Magento processes at the same time might result in problems creating the installation log. (For example, two different installations in separate tab pages.)
 
@@ -13,7 +13,7 @@ Running Magento processes at the same time might result in problems creating the
 
 Review your setting for `` open_basedir `` in `` php.ini ``. The Setup Wizard uses the [sys\_get\_temp\_dir ( void )](http://php.net/manual/en/function.sys-get-temp-dir.php) PHP call to get the value of the temporary directory. If [open\_basedir](http://php.net/manual/en/ini.core.php#ini.open-basedir) is set to refuse connections to a directory specified by `` sys_get_temp_dir ``, the installation fails.
 
-<h3 id="solution">Solution</h3>
+### Solution
 
 To resolve the issue, change the value of `` open_basedir `` and restart the web server.
 

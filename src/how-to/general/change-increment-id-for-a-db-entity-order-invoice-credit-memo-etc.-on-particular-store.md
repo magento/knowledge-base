@@ -1,6 +1,6 @@
 ---
 title: Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store
-labels: Magento Commerce Cloud,Magento Commerce,order,invoice,increment,id,credit,memo,MySQL,database,2.x.x,store,how to,sql
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,MySQL,credit,database,how to,id,increment,invoice,memo,order,sql,store
 ---
 
 This article discusses how to change the increment ID for a Magento database (DB) entity (order, invoice, credit memo, etc.) on a particular Magento store using the `` ALTER TABLE `` SQL statement.

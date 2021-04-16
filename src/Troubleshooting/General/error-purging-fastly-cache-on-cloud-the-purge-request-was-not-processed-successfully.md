@@ -1,6 +1,6 @@
 ---
 title: Error purging Fastly cache on Cloud (The purge request was not processed successfully)
-labels: Magento Commerce Cloud,Fastly,purge,API,VCL,troubleshooting
+labels: API,Fastly,Magento Commerce Cloud,VCL,purge,troubleshooting
 ---
 
 This article provides a fix for when you use a Fastly purge option, and you receive the error: _The purge request was not processed successfully_. Fastly is a CDN and caching service included with Magento Commerce (Cloud) plans and implementations. If you attempt to use a Fastly purge option, and it does not process, you may have incorrect Fastly credentials in your environment or may have encountered an issue. 

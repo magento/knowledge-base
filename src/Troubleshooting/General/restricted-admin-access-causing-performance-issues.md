@@ -1,6 +1,6 @@
 ---
 title: Restricted admin access causing performance issues
-labels: Magento Commerce Cloud,Magento Commerce,user,admin,permissions,2.3.x,2.2.x,how to,restricted access
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,admin,how to,permissions,restricted access,user
 ---
 
 This article provides solutions for when performance is negatively impacted by using [Admin roles with role scope restricted by website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources).

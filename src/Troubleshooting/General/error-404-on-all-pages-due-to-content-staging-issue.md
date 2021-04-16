@@ -1,6 +1,6 @@
 ---
 title: Error 404 on all pages due to Content Staging issue
-labels: staging,Magento Commerce Cloud,Magento Commerce,content,log,404,troubleshooting
+labels: 404,Magento Commerce,Magento Commerce Cloud,content,log,staging,troubleshooting
 ---
 
 This article provides a fix for the Magento Commerce and Commerce Cloud issue, where you get 404 error when accessing any storefront page or Magento Admin.
@@ -58,7 +58,7 @@ If the query returns a table where `` update_exists `` value is "1" or an empty 
 
 In this case you might refer to [Site Down Troubleshooter](https://support.magento.com/hc/en-us/articles/360029351531) for troubleshooting ideas.
 
-<h2 id="solution">Solution</h2>
+## Solution
 
 1. Run the following query to delete the invalid link to the `` staging_update `` table:   
     <code class="language-sql" style="white-space: pre;">  DELETE FROM flag WHERE flag\_code = 'staging';</code>

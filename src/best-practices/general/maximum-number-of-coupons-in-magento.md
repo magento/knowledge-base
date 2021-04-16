@@ -1,6 +1,6 @@
 ---
 title: Maximum number of coupons in Magento
-labels: Magento Commerce Cloud,Magento Commerce,coupon,performance,2.3,database,best practices,2.3.x,2.4,2.4.x
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,coupon,database,performance
 ---
 
 This article provides recommendations on using coupons functionality in Magento Commerce and Magento Commerce Cloud, aimed at avoiding performance issues.

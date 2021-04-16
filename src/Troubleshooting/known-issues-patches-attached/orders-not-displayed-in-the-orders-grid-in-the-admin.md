@@ -1,6 +1,6 @@
 ---
 title: Orders not displayed in the Orders grid in the Admin
-labels: patch,known issue,2.2.1,orders
+labels: 2.2.1,known issue,orders,patch
 ---
 
 This article provides a patch for the known Magento Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in Magento Admin.
@@ -37,7 +37,7 @@ The Orders grid does not display. A blank page displays instead.
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-7868\_EE\_2.2.1\_v1\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360024291991/MDVA-7868_EE_2.2.1_v1_composer.patch)
+[Download MDVA-7868\_EE\_2.2.1\_v1\_composer.patch](assets/MDVA-7868_EE_2.2.1_v1_composer.patch)
 
 ### Compatible Magento versions:
 

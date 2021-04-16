@@ -1,6 +1,6 @@
 ---
 title: Installation stops at about 70%
-labels: Magento Commerce,installation,PHP,php.ini,wizard,how to,Varnish
+labels: Magento Commerce,PHP,Varnish,how to,installation,php.ini,wizard
 ---
 
 This article provides a fix for when installation stops at about 70%.
@@ -16,11 +16,11 @@ Common causes for this issue include:
 * The PHP setting for [`` max_execution_time ``](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
 * Timeout values for nginx and Varnish
 
-<h3 id="solution-">Solution:</h3>
+### Solution:
 
 Set all of the following as appropriate.
 
-<h4 id="all-web-servers-and-varnish">All web servers and Varnish</h4>
+#### All web servers and Varnish
 
 1. Locate your `` php.ini `` using a [`` phpinfo.php ``](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) file.
 1. As a user with `` root `` privileges, open `` php.ini `` in a text editor.
@@ -41,7 +41,7 @@ Set all of the following as appropriate.
     
     
 
-<h4 id="nginx-only">nginx only</h4>
+#### nginx only
 
 If you use nginx, use our included `` nginx.conf.sample `` or add a timeout settings in the nginx host configuration file to the `` location ~ ^/setup/index.php `` section as follows:
 
@@ -53,7 +53,7 @@ If you use nginx, use our included `` nginx.conf.sample `` or add a timeout sett
 
 Restart nginx: `` service nginx restart ``
 
-<h4 id="varnish-only">Varnish only</h4>
+#### Varnish only
 
 If you use Varnish, edit `` default.vcl `` and add a timeout limit value to the `` backend `` stanza as follows:
 

@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0: 404 error removing rewards points on multi-shipping checkout
-labels: Magento Commerce Cloud,Magento Commerce,checkout,known issues,multishipping,404 error,2.4.0,shopping cart,rewards points
+labels: 2.4.0,404 error,Magento Commerce,Magento Commerce Cloud,checkout,known issues,multishipping,rewards points,shopping cart
 ---
 
 This article provides a workaround for a known issue in Magento 2.4.0 for a "_404 Not Found_" web page error when removing rewards points on a multi-shipping checkout page. Currently, on the multi-shipping checkout page, when trying to remove reward points which were used to pay for an order,  a "_404 Not Found_" page is displayed instead of successful reward points cancellation. This issue will be resolved in with a Magento 2.4.1 patch release.

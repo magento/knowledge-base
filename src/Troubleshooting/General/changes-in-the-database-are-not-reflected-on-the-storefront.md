@@ -1,6 +1,6 @@
 ---
 title: Changes in the database are not reflected on the storefront
-labels: Magento Commerce Cloud,Magento Commerce,change log tables,large tables,slow updates,indexer mode,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,change log tables,how to,indexer mode,large tables,slow updates
 ---
 
 This article provides solutions to avoid delays or interruptions in entity updates being applied. This includes how to avoid change log tables from getting oversized and how to set up MySQL table triggers.

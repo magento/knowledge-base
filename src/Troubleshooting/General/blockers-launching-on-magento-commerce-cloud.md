@@ -1,6 +1,6 @@
 ---
 title: Blockers launching on Magento Commerce Cloud
-labels: Magento Commerce Cloud,Fastly,SSL,VCL,TLS,performance,UAT,troubleshooting
+labels: Fastly,Magento Commerce Cloud,SSL,TLS,UAT,VCL,performance,troubleshooting
 ---
 
 This article provides a fix for blockers to launching on Magento Commerce (Cloud) including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance.

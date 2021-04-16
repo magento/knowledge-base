@@ -1,6 +1,6 @@
 ---
 title: How to request temporary Magento upsize
-labels: Magento Commerce Cloud,Magento Commerce,cloud,New Relic,temporary,capacity,request,baseline,alert,2.3.x,2.2.x,how to,Magento Upsize
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,Magento Upsize,New Relic,alert,baseline,capacity,cloud,how to,request,temporary
 ---
 
 If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to request temporary additional cloud capacity for your Magento Commerce Cloud store.

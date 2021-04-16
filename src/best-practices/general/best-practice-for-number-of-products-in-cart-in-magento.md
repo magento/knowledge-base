@@ -1,6 +1,6 @@
 ---
 title: Best practice for number of products in cart in Magento
-labels: Magento Commerce Cloud,Magento Commerce,2.3,minicart,products,best practices,2.3.x,2.4,2.4.x,cart
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,cart,minicart,products
 ---
 
 This article provides best practices for the number of products in a cart in Magento. The maximum recommended number of products is 1. The potential site impact of exceeding the limit is:

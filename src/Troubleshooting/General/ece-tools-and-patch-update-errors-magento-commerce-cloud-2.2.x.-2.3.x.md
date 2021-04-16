@@ -1,6 +1,6 @@
 ---
 title: ECE-Tools and patch update errors Magento Commerce Cloud 2.2.x., 2.3.x
-labels: Magento Commerce Cloud,failed to open stream:,No such file or directory,updates to ECE-Tools,patches,2.3.x,2.2.x,how to,error message,composer.json
+labels: 2.2.x,2.3.x,Magento Commerce Cloud,No such file or directory,composer.json,error message,failed to open stream:,how to,patches,updates to ECE-Tools
 ---
 
 This article provides a solution for the issue where you see error messages including "_failed to open stream:_" or "_No such file or directory", _when trying to deploy updates to ECE-Tools, patches or other changes.

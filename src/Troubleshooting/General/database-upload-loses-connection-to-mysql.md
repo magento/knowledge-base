@@ -1,6 +1,6 @@
 ---
 title: Database upload loses connection to MySQL
-labels: Magento Commerce Cloud,database,disk space,lost connection,Lost connection to MySQL server,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Lost connection to MySQL server,Magento Commerce Cloud,database,disk space,how to,lost connection
 ---
 
 This article provides a solution for when the database upload loses connection to MySQL.

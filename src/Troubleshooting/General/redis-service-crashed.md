@@ -1,6 +1,6 @@
 ---
 title: Redis service crashed
-labels: Magento Commerce Cloud,Magento Commerce,Redis,low memory,Redis crashed,2.3.x,2.2.x,how to,overflow
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,Redis,Redis crashed,how to,low memory,overflow
 ---
 
 The article recommends how to fix Redis.

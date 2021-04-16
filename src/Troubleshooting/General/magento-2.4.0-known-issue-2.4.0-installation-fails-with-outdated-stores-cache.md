@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0 known issue: 2.4.0 installation fails with outdated stores cache
-labels: Magento Commerce Cloud,Magento Commerce,installation,cache,troubleshooting,known issues,fail,extensions,2.4.0,stores
+labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,cache,extensions,fail,installation,known issues,stores,troubleshooting
 ---
 
 This article provides a solution for the issue where your Magento 2.4.0 installation fails with the error message "_The default website isn't defined. Set the website and try again._" displayed in the console. 

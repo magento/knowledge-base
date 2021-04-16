@@ -1,6 +1,6 @@
 ---
 title: Linking Magento.com and accounts.magento.cloud account logins
-labels: Magento Commerce Cloud,Magento,security,login,accounts.magento.cloud,account,logins,linking,accounts
+labels: Magento,Magento Commerce Cloud,account,accounts,accounts.magento.cloud,linking,login,logins,security
 ---
 
 As of April 1, 2020, Magento will require that users who have an account at [accounts.magento.cloud](https://accounts.magento.cloud/) to link this account with their [Magento.com](https://account.magento.com/customer/account/login/) account. This will make the [Magento.com](https://account.magento.com/customer/account/login/) account login the primary login method for both accounts and improve security for users.

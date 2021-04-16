@@ -1,6 +1,6 @@
 ---
 title: MOM times out when trying to connect to a local environment
-labels: troubleshooting,timeout,Magento Order Management
+labels: Magento Order Management,timeout,troubleshooting
 ---
 
 This article provides a solution for the Magento Order Management (MOM) issue where you cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback.

@@ -1,6 +1,6 @@
 ---
 title: Magento GDPR resources
-labels: devdocs,Magento,data,FAQ,2.x.x,1.x,GDPR
+labels: 1.x,2.x.x,FAQ,GDPR,Magento,data,devdocs
 ---
 
 This article lists the official documentation resources that discuss how Magento complies with the GDPR (European Union's General Data Protection Regulation). 

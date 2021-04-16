@@ -1,6 +1,6 @@
 ---
 title: Blank page or redirect loop error when accessing storefront or Magento Admin
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,redirect,blank,Magento Admin
+labels: Magento Admin,Magento Commerce,Magento Commerce Cloud,blank,redirect,troubleshooting
 ---
 
 This article provides a solution for the issue when you access Magento store front or backend and you get a blank page or redirect loop.

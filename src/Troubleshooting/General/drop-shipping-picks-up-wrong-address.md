@@ -1,6 +1,6 @@
 ---
 title: Drop shipping picks up wrong address 
-labels: Magento Commerce Cloud,Magento Commerce,Inventory,2.3.x,shipping
+labels: 2.3.x,Inventory,Magento Commerce,Magento Commerce Cloud,shipping
 ---
 
 ## Issue

@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch with ElasticSuite crashes or out of memory
-labels: Magento Commerce Cloud,Magento Commerce,out of memory,elasticsuite,elasticsearch crashes,elasticsuite tracking indices,plugin,2.3.x,2.2.x,2.1.x,how to,ElasticSuite 2.8.0
+labels: 2.1.x,2.2.x,2.3.x,ElasticSuite 2.8.0,Magento Commerce,Magento Commerce Cloud,elasticsearch crashes,elasticsuite,elasticsuite tracking indices,how to,out of memory,plugin
 ---
 
 <p class="info">NOTE: ElasticSuite and its affiliated applications are third-party tools not currently supported by Magento. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.</p>

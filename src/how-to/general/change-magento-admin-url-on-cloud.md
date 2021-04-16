@@ -1,6 +1,6 @@
 ---
 title: Change Magento Admin URL on Cloud
-labels: production,Magento Commerce Cloud,magento_admin,ADMIN_URL,URL,Staging,how to
+labels: ADMIN_URL,Magento Commerce Cloud,Staging,URL,how to,magento_admin,production
 ---
 
 By default, [Magento Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to _&lt;domain\_name>/admin_. This article shows how to change the URL.

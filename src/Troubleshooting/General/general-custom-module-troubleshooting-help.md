@@ -1,6 +1,6 @@
 ---
 title: General custom module troubleshooting help
-labels: Magento Commerce Cloud,Magento Commerce,log,custom,troubleshooting
+labels: Magento Commerce,Magento Commerce Cloud,custom,log,troubleshooting
 ---
 
 This article talks about general tools to help in troubleshooting custom modules in Magento.

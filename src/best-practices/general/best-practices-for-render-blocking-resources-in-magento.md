@@ -1,6 +1,6 @@
 ---
 title: Best practices for render-blocking resources in Magento 
-labels: Magento Commerce Cloud,Magento Commerce,2.3,best practices,2.3.x,CSS,Javascript,2.4,2.4.x
+labels: 2.3,2.3.x,2.4,2.4.x,CSS,Javascript,Magento Commerce,Magento Commerce Cloud,best practices
 ---
 
 This article provides guidance on preventing resources blocking page rendering in Magento, which can lead to a significant increase in page rendering time and cause performance degradation.

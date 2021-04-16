@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot cron
-labels: Magento Commerce,cron,troubleshooting,2.3.x,2.2.x
+labels: 2.2.x,2.3.x,Magento Commerce,cron,troubleshooting
 ---
 
 This article describes troubleshooting solutions for issues with cron in Magento on-premise products.
@@ -46,7 +46,7 @@ Affected products and versions
     
     
 
-<h2 id="check-your-existing-crontab">Investigate to find the cause</h2>
+## Investigate to find the cause
 
 This section discusses how to see if cron is currently running and to verify whether it's set up properly.
 
@@ -109,17 +109,17 @@ To verify whether or not your crontab is set up:
 
 ## Solutions
 
-<h3 id="solution-crontab-not-set-up">Solution for crontab not being set up</h3>
+### Solution for crontab not being set up
 
 To verify your cron jobs are set up properly, see [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 
-<h3 id="solution-cron-running-from-incorrect-php-binary">Solution for cron running from incorrect PHP binary</h3>
+### Solution for cron running from incorrect PHP binary
 
 If your cron job uses a PHP binary different from the web server plug-in, PHP settings errors might display. To resolve the issue, set identical PHP settings for both the PHP command line and the PHP web server plug-in.
 
 For more information about PHP settings, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
 
-<h3 id="solution-cron-running-with-errors">Solution for cron running with errors</h3>
+### Solution for cron running with errors
 
 Try running each command manually because the command might display helpful error messages. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 

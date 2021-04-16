@@ -1,6 +1,6 @@
 ---
 title: Store credit issue during checkout in Magento 2.3.5
-labels: Magento Commerce Cloud,Magento Commerce,credit,troubleshooting,checkout,known issues,2.3.5,Order Summary
+labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,Order Summary,checkout,credit,known issues,troubleshooting
 ---
 
 This article provides a workaround for the known store credit related issue during checkout in Magento 2.3.5, where shoppers get errors during checkout, after selecting and later removing store credit usage. A permanent fix will be available in Magento 2.3.1. ## Affected products and versions

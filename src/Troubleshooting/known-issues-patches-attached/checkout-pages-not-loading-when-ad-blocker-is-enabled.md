@@ -1,6 +1,6 @@
 ---
 title: Checkout pages not loading when ad blocker is enabled
-labels: Magento Commerce Cloud,patch,troubleshooting,checkout,adblock,known issues,2.2.2
+labels: 2.2.2,Magento Commerce Cloud,adblock,checkout,known issues,patch,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce Cloud 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers.
@@ -28,7 +28,7 @@ Actual result:
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-9353\_EE\_2.2.2\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023954791/MDVA-9353_EE_2.2.2_v1.composer.patch)
+[Download MDVA-9353\_EE\_2.2.2\_v1.composer.patch](assets/MDVA-9353_EE_2.2.2_v1.composer.patch)
 
 ### Compatible Magento versions:
 

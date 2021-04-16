@@ -1,6 +1,6 @@
 ---
 title: Best practice for OPcache memory size Magento Commerce Cloud Pro plan
-labels: Magento Commerce Cloud,performance,Pro,php.ini,OPcache,memory,best practices,2.3.x,PHP 7.0
+labels: 2.3.x,Magento Commerce Cloud,OPcache,PHP 7.0,Pro,best practices,memory,performance,php.ini
 ---
 
 For Pro environments of Magento Commerce Cloud 2.3.x it is recommended to set `` opcache.memory_consumption `` to at least 2GB, to avoid performance degradation. 

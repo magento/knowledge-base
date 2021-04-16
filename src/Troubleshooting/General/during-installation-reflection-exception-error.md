@@ -1,17 +1,17 @@
 ---
 title: During installation, Reflection Exception error
-labels: Magento Commerce Cloud,Magento Commerce,installation,Redis,cache,Reflection,Exception,Error,how to
+labels: Error,Exception,Magento Commerce,Magento Commerce Cloud,Redis,Reflection,cache,how to,installation
 ---
 
 This article provides a solution for the Reflection Exception error, during installation.
 
-<h2 id="details">Details</h2>
+## Details
 
 During the installation, a message similar to the following displays:
 
 <pre><code class="language-php">[ERROR] exception 'ReflectionException' with message 'Class Magento\Framework\StoreManagerInterface does not exist' in /&lt;path>/lib/internal/Magento/Framework/Code/Reader/ClassReader.php</code></pre>
 
-<h2 id="solution">Solution</h2>
+## Solution
 
 Clear all directories and files under Magento's `` var `` subdirectory and install the Magento software again.
 
@@ -21,7 +21,7 @@ As the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/insta
 
 <pre><code class="language-bash">$ rm -rf var/cache/* di/* generation/* page_cache/*</code></pre>
 
-<h3 id="redis">Redis</h3>
+### Redis
 
 If you use Redis and still get an error, clear the Redis cache as follows:
 

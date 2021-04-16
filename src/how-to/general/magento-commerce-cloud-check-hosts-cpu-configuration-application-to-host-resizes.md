@@ -1,6 +1,6 @@
 ---
 title: Magento Commerce Cloud: Check host’s CPU configuration - application to host resizes
-labels: Magento Commerce Cloud,Magento,configuration,queries,data,New Relic,New Relic One,CPU,how to
+labels: CPU,Magento,Magento Commerce Cloud,New Relic,New Relic One,configuration,data,how to,queries
 ---
 
 The attached article provides detailed guidelines on the steps and queries a user can follow, to check a host’s CPU configuration. The user may apply these steps to identify a resize, pinpoint the time of change, and view all hardware configuration changes that occurred, if any, at any point in time before or after the resize.

@@ -1,18 +1,18 @@
 ---
 title: Download fails because of changes in Composer
-labels: Magento Commerce Cloud,Magento Commerce,composer,download,self-update,2.x.x,how to
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,composer,download,how to,self-update
 ---
 
 This article provides a fix for a failed Magento download and exception error.
 
-<h3 id="symptom">Issue</h3>
+### Issue
 
 During download, the following error displays:
 
 <pre><code class="language-php">[ErrorException]
   file_get_contents(app/etc/NonComposerComponentRegistration.php): failed to open stream: No such file or directory</code></pre>
 
-<h3 id="symptom">Cause</h3>
+### Cause
 
 This happens because of changes in certain versions of Composer. The workaround is to downgrade Composer to an earlier version and try your Magento download again.
 

@@ -1,6 +1,6 @@
 ---
 title: Can I install third-party applications on my Cloud instance?
-labels: Magento Commerce Cloud,security,PCI,third-party_applications,data,FAQ
+labels: FAQ,Magento Commerce Cloud,PCI,data,security,third-party_applications
 ---
 
 No. Installing third-party apps (like WordPress or Drupal) on the Magento Commerce (Cloud) servers is not allowed. You must host such applications on external servers.

@@ -1,6 +1,6 @@
 ---
 title: Top navigation panel does not load on storefront
-labels: Magento Commerce,troubleshooting,varnish,2.x.x,Edge Side
+labels: 2.x.x,Edge Side,Magento Commerce,troubleshooting,varnish
 ---
 
 This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the store front, if Varnish is used for caching.

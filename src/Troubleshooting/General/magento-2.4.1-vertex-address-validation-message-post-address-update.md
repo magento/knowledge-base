@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.1 Vertex Address validation message post address update
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,shipping,Vertex,2.4.1,billing
+labels: 2.4.1,Magento Commerce,Magento Commerce Cloud,Vertex,billing,shipping,troubleshooting
 ---
 
 This article describes a Magento 2.4.1 known issue where Vertex address validation is not working during Payment step when a shipping address is used that is different to the billing address. The issue is scheduled to be fixed in Magento 2.4.1. ## Affected products and versions
@@ -16,8 +16,12 @@ Enable Vertex Address Cleansing. For steps, refer to Magento User Guide [Configu
 
 Steps to reproduce:
 
-<ol><li id="first_sixth">Create an account and log in.</li><li>Add an item to cart by clicking Add to Cart. Click on the Cart icon and then click Proceed to Checkout. 
-</li><li>Enter a valid address in the Shipping Address field.</li><li>Check one of the options under Shipping Methods. Then click Next.</li><li>If the Address Validation suggests different address information, click Update address and click Next.</li><li>Uncheck the My billing and shipping address are the same checkbox.</li></ol>
+1. Create an account and log in.
+1. Add an item to cart by clicking Add to Cart. Click on the Cart icon and then click Proceed to Checkout. 
+1. Enter a valid address in the Shipping Address field.
+1. Check one of the options under Shipping Methods. Then click Next.
+1. If the Address Validation suggests different address information, click Update address and click Next.
+1. Uncheck the My billing and shipping address are the same checkbox.
 
 First scenario:  
 

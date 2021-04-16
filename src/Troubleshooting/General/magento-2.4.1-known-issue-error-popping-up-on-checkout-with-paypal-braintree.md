@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.1 known issue: error popping up on Checkout with PayPal Braintree  
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,2.4.1,PayPal Braintree
+labels: 2.4.1,Magento Commerce,Magento Commerce Cloud,PayPal Braintree,known issues,troubleshooting
 ---
 
 This article describes a known Magento 2.4.1 issue, where an error message pops-up and disappears on the Billing step of Checkout, if PayPal Braintree payment is used and multiple addresses shipment selected. 

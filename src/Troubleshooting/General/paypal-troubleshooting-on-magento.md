@@ -1,6 +1,6 @@
 ---
 title: PayPal troubleshooting on Magento
-labels: Magento Commerce Cloud,credentials,Magento Commerce,log,PayPal,payment,payflow,crypt,license,advanced,troubleshooting
+labels: Magento Commerce,Magento Commerce Cloud,PayPal,advanced,credentials,crypt,license,log,payflow,payment,troubleshooting
 ---
 
 This article provides solutions for issues with processing payments via PayPal, especially the PayFlow Pro solution. Some recommendations in this article may seem obvious. We ask you attempt the troubleshooting options listed in this knowledge base and include all information in any tickets you enter. Magento or PayPal Support Engineers will ask you to perform these steps when diagnosing your issues.

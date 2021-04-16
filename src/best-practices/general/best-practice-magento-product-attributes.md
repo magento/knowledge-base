@@ -1,6 +1,6 @@
 ---
 title: Best practice Magento product attributes
-labels: Magento Commerce Cloud,Magento Commerce,2.3,product,best practices,2.3.x,2.4,attribute,2.4.x
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,product
 ---
 
 This article provides best practices for the maximum recommended number of product attributes in Magento. There is a limit of 1. If you exceed the maximum recommended limit, performance can be affected.

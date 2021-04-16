@@ -1,6 +1,6 @@
 ---
 title: Slow performance, slow and long running crons
-labels: Magento Commerce Cloud,Magento Commerce,performance,flat tables,slow performance,long running crons,flat catalog indexers,how to
+labels: Magento Commerce,Magento Commerce Cloud,flat catalog indexers,flat tables,how to,long running crons,performance,slow performance
 ---
 
 <p class="warning">On any Magento version, because some extensions only work with flat tables there is a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you may need to take that into consideration when setting those values to "<em>No</em>".</p>
@@ -24,7 +24,7 @@ Flat indexers can cause:
 
 Flat tables and indexers enabled.
 
-<h2 id="solution">Solution</h2>
+## Solution
 
 Starting with Magento 2.1.x and above, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. To disable the flat catalog:
 

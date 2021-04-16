@@ -1,6 +1,6 @@
 ---
 title: Cannot access Magento Commerce Cloud UI
-labels: Magento Commerce Cloud,troubleshooting,Cloud UI,403 error,user access
+labels: 403 error,Cloud UI,Magento Commerce Cloud,troubleshooting,user access
 ---
 
 This article provides solutions for the issue where you cannot log in to your Magento Commerce Cloud UI and get the "403 error".

@@ -1,6 +1,6 @@
 ---
 title: Deployment stuck with "Unable to upload the application to the remote cluster" error
-labels: Magento Commerce Cloud,error,deployment,troubleshooting
+labels: Magento Commerce Cloud,deployment,error,troubleshooting
 ---
 
 This article provides a solution for the Magento Commerce issue, where deployment gets stuck, and the following error message can be found in the deploy log: _"Error: Unable to upload the application to the remote cluster"_.
@@ -28,7 +28,7 @@ Deployment is completed successfully.
 
 The problem is caused by the outage of available storage. 
 
-<h2 id="solution">Solution</h2>
+## Solution
 
 You can consider cleaning the log directories and/or increasing disk space.
 

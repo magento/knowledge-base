@@ -1,6 +1,6 @@
 ---
 title: Resolve issues with encryption key
-labels: Magento Commerce Cloud,database,encryption,crypt_key,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Magento Commerce Cloud,crypt_key,database,encryption,how to
 ---
 
 This article talks about how to fix the issues caused by the encryption key not being moved together with DB dump to the other environment. 

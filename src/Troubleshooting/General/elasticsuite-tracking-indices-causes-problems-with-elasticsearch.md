@@ -1,6 +1,6 @@
 ---
 title: ElasticSuite tracking indices causes problems with Elasticsearch
-labels: Elasticsearch problem,Elasticsuite tracking indices,how to,ElasticSuite 2.8.0,tracking indices
+labels: ElasticSuite 2.8.0,Elasticsearch problem,Elasticsuite tracking indices,how to,tracking indices
 ---
 
 <p class="info">NOTE: ElasticSuite and its affiliated applications are third-party tools not currently supported by Magento. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.</p>

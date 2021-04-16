@@ -1,6 +1,6 @@
 ---
 title: Magento Commerce Cloud v2.3.5 GraphQL caching invalidation not working
-labels: Magento Commerce Cloud,patch,troubleshooting,GraphQL,cache invalidation
+labels: GraphQL,Magento Commerce Cloud,cache invalidation,patch,troubleshooting
 ---
 
 This article provides a patch for the issue where GraphQL `` GET `` request returns outdated information, if the customer changes product information.
@@ -38,7 +38,7 @@ The patch is attached to this article. To download it, scroll down to the end of
 
 [MDVA-28559\_EE\_2.3.5-p1\_COMPOSER\_v1.patch  
   
-](https://support.magento.com/hc/en-us/article_attachments/360065269852/MDVA-28559_EE_2.3.5-p1_v1.composer.patch)
+](assets/MDVA-28559_EE_2.3.5-p1_v1.composer.patch)
 
 ### Compatible Magento versions:
 

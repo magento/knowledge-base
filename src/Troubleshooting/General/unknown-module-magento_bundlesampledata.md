@@ -1,17 +1,17 @@
 ---
 title: Unknown module Magento_BundleSampleData
-labels: Magento Commerce Cloud,Magento Commerce,error,module,Magento_BundleSampleData,unknown,LogicException,how to
+labels: LogicException,Magento Commerce,Magento Commerce Cloud,Magento_BundleSampleData,error,how to,module,unknown
 ---
 
 This article provides a fix for the Unknown module error during installation.
 
-<h2 id="details">Issue</h2>
+## Issue
 
 During the installation, a message similar to the following displays:
 
 <pre><code class="language-text">[ERROR] exception 'LogicException' with message 'Unknown module in the requested list: 'Magento_BundleSampleData''</code></pre>
 
-<h2 id="solution">Solution</h2>
+## Solution
 
 Try each of the following one at a time, then try your installation again.
 

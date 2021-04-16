@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0 known issue: raw message data display on storefront
-labels: Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,store,2.4.0,PHP 7.4.2,cookies,error message
+labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,PHP 7.4.2,cookies,error message,known issues,store,troubleshooting
 ---
 
 This article provides a solution for the issue when all error messages on the storefront display with a "+" sign instead of a space. This solution helps error messages remain readable.

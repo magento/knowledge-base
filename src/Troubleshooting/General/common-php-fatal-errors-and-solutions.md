@@ -1,6 +1,6 @@
 ---
 title: Common PHP Fatal Errors and solutions
-labels: Magento Commerce,troubleshooting,PHP Fatal Error
+labels: Magento Commerce,PHP Fatal Error,troubleshooting
 ---
 
 This article lists some common PHP Fatal Error quick examples that you could find when looking through your Magento logs and the solutions for problems they indicate.

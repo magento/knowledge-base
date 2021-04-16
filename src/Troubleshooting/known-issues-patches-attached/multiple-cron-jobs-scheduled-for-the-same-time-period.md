@@ -1,6 +1,6 @@
 ---
 title:  Multiple cron jobs scheduled for the same time period
-labels: Magento Commerce,patch,cron,troubleshooting,2.2.4,known issues,2.2.2,2.1.4,2.1.5,2.1.13,2.1.14,2.2.0
+labels: 2.1.13,2.1.14,2.1.4,2.1.5,2.2.0,2.2.2,2.2.4,Magento Commerce,cron,known issues,patch,troubleshooting
 ---
 
 This article provides a patch for a known Magento Commerce 2.2.2 issue related to having multiple cron jobs scheduled to run at the same time after the time variables for certain tasks were edited in the Magento Admin.
@@ -43,13 +43,13 @@ Magento Commerce customers should apply one of the attached patches to solve the
 
 The patches are attached to this article. To download, scroll down to the end of the article and click the file name, or click one the following link:
 
-* [Download MDVA-11304\_EE\_2.1.4\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025797991/MDVA-11304_EE_2.1.4_COMPOSER_v1.patch)
-* [Download MDVA-11304\_EE\_2.1.5\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025798031/MDVA-11304_EE_2.1.5_COMPOSER_v1.patch)
-* [Download MDVA-11304\_EE\_2.1.13\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786332/MDVA-11304_EE_2.1.13_COMPOSER_v1.patch)
-* [Download MDVA-11304\_EE\_2.1.14\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025798071/MDVA-11304_EE_2.1.14_COMPOSER_v1.patch)
-* [Download MDVA-11304\_EE\_2.2.0\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786392/MDVA-11304_EE_2.2.0_COMPOSER_v1.patch)
-* [Download MDVA-11304\_EE\_2.2.2\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786432/MDVA-11304_EE_2.2.2_COMPOSER_v1.patch)
-* [Download MDVA-11304\_EE\_2.2.4\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786472/MDVA-11304_EE_2.2.4_COMPOSER_v1.patch)
+* [Download MDVA-11304\_EE\_2.1.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.4_COMPOSER_v1.patch)
+* [Download MDVA-11304\_EE\_2.1.5\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.5_COMPOSER_v1.patch)
+* [Download MDVA-11304\_EE\_2.1.13\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.13_COMPOSER_v1.patch)
+* [Download MDVA-11304\_EE\_2.1.14\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.14_COMPOSER_v1.patch)
+* [Download MDVA-11304\_EE\_2.2.0\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.0_COMPOSER_v1.patch)
+* [Download MDVA-11304\_EE\_2.2.2\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.2_COMPOSER_v1.patch)
+* [Download MDVA-11304\_EE\_2.2.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.4_COMPOSER_v1.patch)
 
 ### Compatible Magento versions
 
@@ -58,7 +58,7 @@ The patches were created for particular version noted in the patch file name. Fo
 The patches are also compatible with the following versions:
 
 * For Magento Commerce 2.1.0-2.1.4:  
-     [Download MDVA-11304\_EE\_2.1.4\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025797991/MDVA-11304_EE_2.1.4_COMPOSER_v1.patch)
+     [Download MDVA-11304\_EE\_2.1.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.4_COMPOSER_v1.patch)
     
     The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
     
@@ -69,7 +69,7 @@ The patches are also compatible with the following versions:
     
     
 * For Magento Commerce 2.1.5-2.1.12:  
-     [Download MDVA-11304\_EE\_2.1.5\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025798031/MDVA-11304_EE_2.1.5_COMPOSER_v1.patch)
+     [Download MDVA-11304\_EE\_2.1.5\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.5_COMPOSER_v1.patch)
     
     The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
     
@@ -80,9 +80,9 @@ The patches are also compatible with the following versions:
     
     
 * For Magento Commerce (Cloud) 2.1.13:  
-     [Download MDVA-11304\_EE\_2.1.13\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786332/MDVA-11304_EE_2.1.13_COMPOSER_v1.patch)
+     [Download MDVA-11304\_EE\_2.1.13\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.13_COMPOSER_v1.patch)
 * For Magento Commerce 2.1.14-2.1.17:  
-     [Download MDVA-11304\_EE\_2.1.14\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025798071/MDVA-11304_EE_2.1.14_COMPOSER_v1.patch)
+     [Download MDVA-11304\_EE\_2.1.14\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.14_COMPOSER_v1.patch)
     
     The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
     
@@ -94,7 +94,7 @@ The patches are also compatible with the following versions:
     
     
 * For Magento Commerce 2.2.0-2.2.1:  
-     [Download MDVA-11304\_EE\_2.2.0\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786392/MDVA-11304_EE_2.2.0_COMPOSER_v1.patch)
+     [Download MDVA-11304\_EE\_2.2.0\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.0_COMPOSER_v1.patch)
     
     The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
     
@@ -105,7 +105,7 @@ The patches are also compatible with the following versions:
     
     
 * For Magento Commerce 2.2.0-2.2.3:  
-     [Download MDVA-11304\_EE\_2.2.2\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786432/MDVA-11304_EE_2.2.2_COMPOSER_v1.patch)
+     [Download MDVA-11304\_EE\_2.2.2\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.2_COMPOSER_v1.patch)
     
     The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
     
@@ -116,7 +116,7 @@ The patches are also compatible with the following versions:
     
     
 * For Magento Commerce 2.2.4:  
-     [Download MDVA-11304\_EE\_2.2.4\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025786472/MDVA-11304_EE_2.2.4_COMPOSER_v1.patch)
+     [Download MDVA-11304\_EE\_2.2.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.4_COMPOSER_v1.patch)
     
     The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
     

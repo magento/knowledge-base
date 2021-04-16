@@ -1,6 +1,6 @@
 ---
 title: 504 gateway time-out error when saving a category with 1k+ products
-labels: Magento Commerce Cloud,Magento Commerce,timeout,time-out,products,2.3.3,how to,504 error,URL rewrites
+labels: 2.3.3,504 error,Magento Commerce,Magento Commerce Cloud,URL rewrites,how to,products,time-out,timeout
 ---
 
 This article suggests a solution for the timeout issue you might have, when performing operations with large categories (1k+ plus products).

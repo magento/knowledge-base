@@ -1,6 +1,6 @@
 ---
 title: "Updater application is not available" error
-labels: Magento Commerce,update,install,web setup wizard,updater,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Magento Commerce,how to,install,update,updater,web setup wizard
 ---
 
 This article talks about the solution for the "updater application is not available" issue you might face when trying to update/install Magento using the Web Setup Wizard.

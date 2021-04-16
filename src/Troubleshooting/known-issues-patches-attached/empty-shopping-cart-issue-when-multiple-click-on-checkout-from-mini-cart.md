@@ -1,6 +1,6 @@
 ---
 title: Empty shopping cart issue when multiple click on checkout from mini cart
-labels: Magento Commerce,patch,troubleshooting,minicart,empty cart,checkout,known issues,2.2.3,2.2.5
+labels: 2.2.3,2.2.5,Magento Commerce,checkout,empty cart,known issues,minicart,patch,troubleshooting
 ---
 
 This article provides a patch for a known Magento Commerce 2.2.3 issue related to a shopping cart being empty after customers click Go to Checkout multiple times in the mini shopping cart.
@@ -29,9 +29,9 @@ You have no items in your shopping cart.
 
 The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
 
-[Download MDVA-10441\_EE\_2.2.3\_v3.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023267032/MDVA-10441_EE_2.2.3_v3.composer.patch)
+[Download MDVA-10441\_EE\_2.2.3\_v3.composer.patch](assets/MDVA-10441_EE_2.2.3_v3.composer.patch)
 
-[Download MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360023768751/MDVA-17078_EE_2.2.5_COMPOSER_v1.patch)
+[Download MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch](assets/MDVA-17078_EE_2.2.5_COMPOSER_v1.patch)
 
 ### Compatible Magento versions
 

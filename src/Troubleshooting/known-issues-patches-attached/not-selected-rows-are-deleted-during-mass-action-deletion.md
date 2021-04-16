@@ -1,6 +1,6 @@
 ---
 title: Not selected rows are deleted during mass action deletion 
-labels: Magento Commerce Cloud,patch,troubleshooting,deleted products,deleted customers,known issues,2.2.3,mass update
+labels: 2.2.3,Magento Commerce Cloud,deleted customers,deleted products,known issues,mass update,patch,troubleshooting
 ---
 
 This article provides a patch for the known Magento Сommerce Cloud 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in Magento Admin.
@@ -25,7 +25,7 @@ Actual result:
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-10600\_EE\_2.2.3\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360025343891/MDVA-10600_EE_2.2.3_v1.composer.patch)
+[Download MDVA-10600\_EE\_2.2.3\_v1.composer.patch](assets/MDVA-10600_EE_2.2.3_v1.composer.patch)
 
 ### Compatible Magento versions:
 

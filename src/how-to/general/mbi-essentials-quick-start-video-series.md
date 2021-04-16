@@ -1,6 +1,6 @@
 ---
 title: MBI Essentials Quick Start Video Series
-labels: MBI,analysis,mbi-api-migration,data,Magento Business Intelligence,how to,reports
+labels: MBI,Magento Business Intelligence,analysis,data,how to,mbi-api-migration,reports
 ---
 
 This training series will teach you the basics you need to start analyzing data in Magento BI Essentials. Watch these videos to learn how to create metrics to track your KPIs, build and save visualizations, and share analyses across your team.

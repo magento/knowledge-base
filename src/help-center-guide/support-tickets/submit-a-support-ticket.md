@@ -15,7 +15,7 @@ In this article:
     
 * [Information in your support ticket](#info-in-support-ticket)
 
-<h2 id="submit-ticket-help-center-start-page">Submit a ticket from Help Center start page</h2>
+## Submit a ticket from Help Center start page
 
 To submit a new support ticket using the starting page of Magento Help Center, follow these steps:
 
@@ -28,7 +28,7 @@ To submit a new support ticket using the starting page of Magento Help Center, f
 
 <p class="info">If you are logged in and still not seeing the link, please refer to the <a href="https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Help-Center-start-page">"Submit a ticket" link not displayed on Magento Help Center start page</a> article. </p>
 
-<h2 id="submit-ticket-magento-account-page">Submit a ticket from Magento Account page</h2>
+## Submit a ticket from Magento Account page
 
 To submit a new support ticket using your Magento Account page, follow these steps:
 
@@ -42,7 +42,7 @@ To submit a new support ticket using your Magento Account page, follow these ste
 1. Fill in the fields.
 1. Click Submit.
 
-<h2 id="submit-ticket-magento-cloud-account-page">Submit a ticket from Magento Cloud Account page</h2>
+## Submit a ticket from Magento Cloud Account page
 
 To submit a new support ticket using your Magento Cloud Account page, follow these steps:
 
@@ -54,7 +54,7 @@ To submit a new support ticket using your Magento Cloud Account page, follow the
 1. Fill in the fields.
 1. Click Submit.
 
-<h2 id="info-in-support-ticket">Information in your support ticket</h2>
+## Information in your support ticket
 
 The fields, marked with a red asterisk (\*), are required and must be filled in. If you leave any of those fields empty, you will not be able to submit your ticket.
 

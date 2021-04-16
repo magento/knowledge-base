@@ -1,6 +1,6 @@
 ---
 title: Shipping address not saved post page refresh on checkout 
-labels: Magento Commerce,patch,troubleshooting,shipping address not saved,known issues,2.2.3
+labels: 2.2.3,Magento Commerce,known issues,patch,shipping address not saved,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce 2.2.3 issue where the customer's already populated shipping address form was blank again after refreshing the browser page on guest checkout. The issue was experienced when the persistent shopping cart was enabled.
@@ -31,7 +31,7 @@ Actual result:
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-9718\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025238631/MDVA-9718_EE_2.2.3_COMPOSER_v1.patch)
+[Download MDVA-9718\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-9718_EE_2.2.3_COMPOSER_v1.patch)
 
 ### Compatible Magento versions
 

@@ -1,6 +1,6 @@
 ---
 title: Database best practices for Magento Commerce Cloud
-labels: Magento Commerce Cloud,performance,ece-tools,Pro,MySQL,database,triggers,best practices,Starter,lock
+labels: Magento Commerce Cloud,MySQL,Pro,Starter,best practices,database,ece-tools,lock,performance,triggers
 ---
 
 <p class="warning"><a href="https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0">MySQL catalog search engine will be removed in Magento 2.4.0</a>. You must have Elasticsearch host setup and configured prior to installing version 2.4.1. Refer to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Install and configure Elasticsearch</a>.</p>
@@ -16,7 +16,7 @@ Click on the links below to see recommendations:
 * [ Switch indexer mode safely ](#indexer)
 * [ Avoid running DDL (Data Definition Language) statements ](#DDL_statements)
 
-<h2 id="convert">Convert all MyISAM tables to InnoDb</h2>
+## Convert all MyISAM tables to InnoDb
 
 Magento recommends using the InnoDb database engine, and in the out-of-the-box Magento installation all tables in the database are stored using the InnoDb engine. However, some third-party modules (extensions) can introduce tables in the MyISAM format. After you install a third-party module, you should check the database to identify any tables in MyISAM format and convert them to InnoDb.
 
@@ -32,7 +32,7 @@ If you have already installed an extension, run the following query to determine
     NOT IN ('mysql', 'information\_schema', 'performance\_schema', 'sys');
   </code>
 
-<h3 id="change_innodb">Change the storage engine to InnoDb </h3>
+### Change the storage engine to InnoDb 
 
 In the `` db_schema.xml `` file declaring the table, set the `` engine `` attribute value for the corresponding `` table `` node to `` innodb ``. For reference, see [Configure declarative schema>table node](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/db-schema.html#table-node).
 
@@ -42,7 +42,7 @@ Related reading:
 
 * [What are the main differences between INNODB and MYISAM](http://www.expertphp.in/article/what-are-the-main-differences-between-innodb-and-myisam)
 
-<h2 id="ElasticSearch">Use ElasticSearch instead of native MySQL search</h2>
+## Use ElasticSearch instead of native MySQL search
 
 Magento recommends replacing the default [MySQL search engine](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0) in Magento Commerce Cloud with Elasticsearch, because Elasticsearch is a better performing search engine than the MySQL search engine.
 
@@ -52,7 +52,7 @@ To determine which search engine is currently in use, run the following command:
 
 To enable and configure the Elasticsearch engine, see the [Configure Magento to use Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html) instructions in Magento Developer documentation.
 
-<h2 id="Triggers">Avoid custom triggers  </h2>
+## Avoid custom triggers  
 
 Avoid using custom triggers if possible. 
 
@@ -63,11 +63,11 @@ Triggers are used to log changes into audit tables. Magento recommends configuri
 
 To learn about alternatives to using custom triggers, refer to KB [Best Practice triggers usage](https://support.magento.com/hc/en-us/articles/360048050352).
 
-<h2 id="ECE-Tools">Upgrade ECE-Tools to version 2002.0.21 or higher </h2>
+## Upgrade ECE-Tools to version 2002.0.21 or higher 
 
 To avoid potential issues with cron deadlocks, upgrade ECE-Tools to version 2002.0.21 or higher. For instructions, see [Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in the Magento Developer documentation.
 
-<h2 id="indexer">Switch indexer mode safely </h2>
+## Switch indexer mode safely 
 
 Switching indexers generates DDL statements to create triggers and can cause database locks. 
 
@@ -79,7 +79,7 @@ Follow the process below to switch an indexer mode in a way that prevents creati
 1. Enable cron.
 1. Disable maintenance mode.
 
-<h2 id="DDL_statements">Avoid running DDL statements</h2>
+## Avoid running DDL statements
 
 Avoid running DDL (Data Definition Language) statements on Production environments, to ensure you do not create conflicts (like table modifications, creations). The `` setup:upgrade `` process is an exception.
 

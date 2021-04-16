@@ -1,9 +1,9 @@
 ---
 title: Max sales rules best practice in Magento
-labels: Magento Commerce Cloud,Magento Commerce,cart_rules,performance,price,2.3,best practices,2.3.x,2.4,2.4.x,cart
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,cart,cart_rules,performance,price
 ---
 
-The maximum recommended total number of sales rules (cart price rules) for <ins>all</ins> websites is 1000 in Magento. Having many sales rules can have a negative impact on performance. The limitation is due to needing to validate cart contents against all rules registered in the system to apply the necessary rules.
+The maximum recommended total number of sales rules (cart price rules) for all websites is 1000 in Magento. Having many sales rules can have a negative impact on performance. The limitation is due to needing to validate cart contents against all rules registered in the system to apply the necessary rules.
 
 ## Affected products and versions
 

@@ -1,6 +1,6 @@
 ---
 title: MySQL tables are too large
-labels: Magento Commerce Cloud,Magento Commerce,performance,MySQL,large tables,2.x.x,how to
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,MySQL,how to,large tables,performance
 ---
 
 This article discusses why is it an issue, when any MySQL table gets larger than 1 GB, and how to prevent this.

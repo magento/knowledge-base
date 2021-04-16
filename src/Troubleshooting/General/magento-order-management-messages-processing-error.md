@@ -1,6 +1,6 @@
 ---
 title: Magento Order Management messages processing error
-labels: oms error,Magento Order Management,getMode,MCOM,connector,getMode(),how to,3.1.1,3.2.0,3.3.0
+labels: 3.1.1,3.2.0,3.3.0,MCOM,Magento Order Management,connector,getMode,getMode(),how to,oms error
 ---
 
 This article provides a solution for the issue when you get a `` getMode() `` error in the CLI running `` bin/magento oms:messages:process `` in the Magento Order Management System (OMS).

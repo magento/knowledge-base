@@ -1,6 +1,6 @@
 ---
 title: Magento best practice: conducting critical actions in Admin Panel
-labels: Magento Commerce Cloud,Magento Commerce,log,event,2.3,cache invalidation,2.3.x,2.4,critical,2.4.x,actions,save,flush,move
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,actions,cache invalidation,critical,event,flush,log,move,save
 ---
 
 It is best practice to not conduct critical actions in the Magento Admin Panel during business hours to avoid performance degradation.

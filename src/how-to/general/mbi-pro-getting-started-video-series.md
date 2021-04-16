@@ -1,6 +1,6 @@
 ---
 title: MBI Pro Getting Started Video Series
-labels: MBI,analysis,mbi-api-migration,database,data,Magento Business Intelligence,how to,reports
+labels: MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
 ---
 
 This 5-part training series will teach you the basics you need to start analyzing data in Magento BI. Watch these videos to learn how to connect your data sources, set up your data warehouse, create metrics to track your KPIs, and build and save visualizations to share across your team.

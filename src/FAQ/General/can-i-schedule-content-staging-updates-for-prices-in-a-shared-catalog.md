@@ -1,6 +1,6 @@
 ---
 title: Can I schedule Content Staging updates for prices in a shared catalog?
-labels: staging,Magento,content,catalog,price,shared,FAQ
+labels: FAQ,Magento,catalog,content,price,shared,staging
 ---
 
 Magento does not offer the functionality of scheduling a price update ([Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html)) for one or more products in a shared catalog.

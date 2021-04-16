@@ -1,6 +1,6 @@
 ---
 title: Best practices for Magento robots.txt 
-labels: Magento Commerce Cloud,Magento Commerce,security,robots.txt,2.3,best practices,2.3.x,search engine robots,2.4,2.4.x,seo
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,robots.txt,search engine robots,security,seo
 ---
 
 This article provides best practices for using `` robots.txt `` in Magento. This includes configuration and security. The `` robots.txt `` file is a text file that instructs web robots (typically search engine robots) how to crawl pages on their website.

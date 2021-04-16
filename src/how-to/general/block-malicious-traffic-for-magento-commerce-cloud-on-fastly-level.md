@@ -1,6 +1,6 @@
 ---
 title: Block malicious traffic for Magento Commerce Cloud on Fastly level
-labels: Magento Commerce Cloud,Fastly,security,robots.txt,block traffic,ACL,2.3.x,how to
+labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security
 ---
 
 This article provides the steps you could take to block malicious traffic, when you suspect that your Magento Commerce Cloud store is experiencing a DDoS attack. 
@@ -50,7 +50,7 @@ To establish blocking based on user agent, you need to add a custom VCL snippet 
   }
   ```</code></pre>
 
-<h2 id="rate_limit">Rate Limiting (experimental Fastly functionality)</h2>
+## Rate Limiting (experimental Fastly functionality)
 
 There is an experimental Fastly functionality for Magento Commerce Cloud which allows you to specify the rate limit for particular paths and crawlers. Please reference the [Fastly module documentation](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md) for details.
 

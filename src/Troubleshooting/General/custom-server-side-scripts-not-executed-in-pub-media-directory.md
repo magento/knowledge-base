@@ -1,6 +1,6 @@
 ---
 title: Custom server-side scripts not executed in pub media directory
-labels: Magento Commerce Cloud,troubleshooting,executable,scripts,2.3.x,2.2.x,2.1.x,2.4.x
+labels: 2.1.x,2.2.x,2.3.x,2.4.x,Magento Commerce Cloud,executable,scripts,troubleshooting
 ---
 
 This article provides a fix for when custom server-side scripts are not executed if placed in the `` ./pub/media/ `` directory of your Magento Commerce Cloud application. This is an expected security limitation, since the `` ./pub/media/ `` directory is writable. To make scripts executable, place them in non-writable directories of your Magento Cloud app, such as `` ./app/code/ `` or `` ./pub/ ``.

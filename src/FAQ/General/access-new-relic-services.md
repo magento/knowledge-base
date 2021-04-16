@@ -1,6 +1,6 @@
 ---
 title: Access New Relic services
-labels: Magento Commerce Cloud,Magento Commerce,performance,Pro,New Relic,blackfire,New Relic Infrastructure,New Relic APM,accessing New Relic,Starter
+labels: Magento Commerce,Magento Commerce Cloud,New Relic,New Relic APM,New Relic Infrastructure,Pro,Starter,accessing New Relic,blackfire,performance
 ---
 
 This article explains how customers with sufficient license/subscription authorization can access select New Relic services:

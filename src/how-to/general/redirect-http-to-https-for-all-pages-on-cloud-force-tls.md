@@ -1,15 +1,15 @@
 ---
 title: Redirect HTTP to HTTPS for all pages on Cloud (Force TLS)
-labels: Magento Commerce Cloud,Fastly,security,cloud,TLS,Pro,redirect,2.1,routes.yaml,2.1.4,how to,Starter,1.2.4
+labels: 1.2.4,2.1,2.1.4,Fastly,Magento Commerce Cloud,Pro,Starter,TLS,cloud,how to,redirect,routes.yaml,security
 ---
 
 Activate the Fastly's Force TLS functionality in Magento Admin to enable the global HTTP to HTTPS redirect for all pages of your Magento Commerce (Cloud) store.
 
 This article provides detailed [steps](#steps), a quick overview of the Force TLS feature, affected versions, and links to related documentation.
 
-<h2 id="steps">Steps</h2>
+## Steps
 
-<h3 id="step-1-configure-secure-urls">Step 1: Configure Secure URLs</h3>
+### Step 1: Configure Secure URLs
 
 In this step, we define the secure URLs for the store. If that's already done, go to [Step 2: Enable Force TLS](#step-2-enable-force-tls).
 
@@ -24,7 +24,7 @@ In this step, we define the secure URLs for the store. If that's already done, g
 
 Related documentation in Magento User Guide: [Store URLs](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
 
-<h3 id="step-2-enable-force-tls">Step 2: Enable Force TLS</h3>
+### Step 2: Enable Force TLS
 
 1. In Magento Admin, navigate to Stores > Configuration > Advanced > System.
 1. Expand the Full Page Cache section, then Fastly Configuration, then Advanced Configuration.

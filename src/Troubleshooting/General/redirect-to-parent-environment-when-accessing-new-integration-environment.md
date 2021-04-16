@@ -1,6 +1,6 @@
 ---
 title: Redirect to parent environment when accessing new Integration environment 
-labels: Magento Commerce Cloud,troubleshooting,redirect,base_url,2.x.x
+labels: 2.x.x,Magento Commerce Cloud,base_url,redirect,troubleshooting
 ---
 
 This article provides troubleshooting instructions for the Magento Cloud issue where trying to access the newly created Integration environment takes you to the parent environment instead.

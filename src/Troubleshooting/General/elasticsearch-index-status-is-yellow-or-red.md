@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch Index Status is ‘yellow’ or 'red'
-labels: Magento Commerce Cloud,Magento Commerce,Elasticsearch,Elasticsearch Index Status,yellow,red,2.3.x,2.2.x,how to
+labels: 2.2.x,2.3.x,Elasticsearch,Elasticsearch Index Status,Magento Commerce,Magento Commerce Cloud,how to,red,yellow
 ---
 
 <p class="warning"><a href="https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0">MySQL catalog search engine will be removed in Magento 2.4.0</a>. You must have Elasticsearch host setup and configured prior to installing version 2.4.1. Refer to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Install and configure Elasticsearch</a>.</p>

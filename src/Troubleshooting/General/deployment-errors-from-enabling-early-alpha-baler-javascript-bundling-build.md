@@ -1,6 +1,6 @@
 ---
 title: Deployment errors from enabling early-alpha Baler Javascript bundling build 
-labels: Magento Commerce Cloud,Magento Commerce,deploy,deployment,troubleshooting,github,deployment error,deployment fails,2.3.x,Javascript,2.4.x,Baler
+labels: 2.3.x,2.4.x,Baler,Javascript,Magento Commerce,Magento Commerce Cloud,deploy,deployment,deployment error,deployment fails,github,troubleshooting
 ---
 
 The merchant experiences deployment errors when using the Baler module on a production environment, as the feature is currently in the early alpha development stage.

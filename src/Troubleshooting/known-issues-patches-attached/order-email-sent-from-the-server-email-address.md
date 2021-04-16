@@ -1,6 +1,6 @@
 ---
 title: Order email sent from the server email address
-labels: Magento Commerce Cloud,patch,troubleshooting,2.2.4,order email,known issues
+labels: 2.2.4,Magento Commerce Cloud,known issues,order email,patch,troubleshooting
 ---
 
 This articles provides a patch for the known Magento Commerce Cloud 2.2.4 issue related to order emails being sent from the server email address.
@@ -24,7 +24,7 @@ Actual result:
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-10993\_EE\_2.2.4\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023209891/MDVA-10993_EE_2.2.4_v1.composer.patch)
+[Download MDVA-10993\_EE\_2.2.4\_v1.composer.patch](assets/MDVA-10993_EE_2.2.4_v1.composer.patch)
 
 ### Compatible Magento versions:
 

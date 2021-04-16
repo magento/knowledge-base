@@ -1,6 +1,6 @@
 ---
 title: Cannot upgrade using Web Setup Wizard to Magento 2.3.5 from 2.3.3 and earlier
-labels: upgrade,Magento Commerce Cloud,Magento Commerce,troubleshooting,known issues,web setup wizard,2.3.5,2.3.1,2.3.0,2.3.3,2.3.2,PHP 7.3
+labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.5,Magento Commerce,Magento Commerce Cloud,PHP 7.3,known issues,troubleshooting,upgrade,web setup wizard
 ---
 
 This article provides the steps you need to take to upgrade from Magento version 2.3.5 to versions 2.3.3 and earlier using Web Setup Wizard. Not being able to upgrade without those steps is a known Magento 2.3.5 issue. 

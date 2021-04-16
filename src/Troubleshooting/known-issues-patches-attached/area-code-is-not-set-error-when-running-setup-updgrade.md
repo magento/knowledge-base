@@ -1,6 +1,6 @@
 ---
 title: 'Area code is not set' error when running setup:updgrade
-labels: Magento Commerce Cloud,patch,troubleshooting,known issues,2.2.3,setup:upgrade
+labels: 2.2.3,Magento Commerce Cloud,known issues,patch,setup:upgrade,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce Cloud 2.2.3 issue related to getting the _"Area code is not set"_ error when running the <code class="language-bash">setup:upgrade</code> command.
@@ -15,7 +15,7 @@ When running the <code class="language-bash">bin/magento setup:upgrade</code> co
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-10439\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025885651/MDVA-10439_EE_2.2.3_COMPOSER_v1.patch)
+[Download MDVA-10439\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-10439_EE_2.2.3_COMPOSER_v1.patch)
 
 ### Compatible Magento versions:
 

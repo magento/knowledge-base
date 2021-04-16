@@ -1,6 +1,6 @@
 ---
 title: Database auto_increment_ increment variable set to "3" Magento Cloud Pro
-labels: Magento Commerce Cloud,Pro,auto_increment_increment,MySQL,database,FAQ,Galera
+labels: FAQ,Galera,Magento Commerce Cloud,MySQL,Pro,auto_increment_increment,database
 ---
 
 This is the expected behavior for Magento Cloud Pro plan solutions due to the 3-node architecture and cannot be modified.
