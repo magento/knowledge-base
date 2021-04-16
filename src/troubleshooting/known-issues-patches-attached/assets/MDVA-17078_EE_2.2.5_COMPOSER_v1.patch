@@ -1,0 +1,187 @@
+diff --git a/vendor/magento/module-checkout/Controller/Index/Index.php b/vendor/magento/module-checkout/Controller/Index/Index.php
+index 0a5b7f190e3..9fe760d3fa7 100644
+--- a/vendor/magento/module-checkout/Controller/Index/Index.php
++++ b/vendor/magento/module-checkout/Controller/Index/Index.php
+@@ -32,11 +32,37 @@ class Index extends \Magento\Checkout\Controller\Onepage
+             return $this->resultRedirectFactory->create()->setPath('checkout/cart');
+         }
+ 
+-        $this->_customerSession->regenerateId();
++        // generate session ID only if connection is unsecure according to issues in session_regenerate_id function.
++        // @see http://php.net/manual/en/function.session-regenerate-id.php
++        if (!$this->isSecureRequest()) {
++            $this->_customerSession->regenerateId();
++        }
+         $this->_objectManager->get(\Magento\Checkout\Model\Session::class)->setCartWasUpdated(false);
+         $this->getOnepage()->initCheckout();
+         $resultPage = $this->resultPageFactory->create();
+         $resultPage->getConfig()->getTitle()->set(__('Checkout'));
+         return $resultPage;
+     }
++
++    /**
++     * Checks if current request uses SSL and referer also is secure.
++     *
++     * @return bool
++     */
++    private function isSecureRequest(): bool
++    {
++        $secure = false;
++        $request = $this->getRequest();
++
++        if ($request->isSecure()) {
++            $secure = true;
++        }
++
++        if ($request->getHeader('referer')) {
++            $scheme = parse_url($request->getHeader('referer'), PHP_URL_SCHEME);
++            $secure = $scheme === 'https';
++        }
++
++        return $secure;
++    }
+ }
+diff --git a/vendor/magento/module-checkout/view/frontend/web/js/proceed-to-checkout.js b/vendor/magento/module-checkout/view/frontend/web/js/proceed-to-checkout.js
+index f0679c657ab..0bb0a53ce0a 100644
+--- a/vendor/magento/module-checkout/view/frontend/web/js/proceed-to-checkout.js
++++ b/vendor/magento/module-checkout/view/frontend/web/js/proceed-to-checkout.js
+@@ -22,6 +22,7 @@ define([
+ 
+                 return false;
+             }
++            $(element).attr('disabled', true);
+             location.href = config.checkoutUrl;
+         });
+ 
+diff --git a/vendor/magento/module-checkout/view/frontend/web/js/sidebar.js b/vendor/magento/module-checkout/view/frontend/web/js/sidebar.js
+index 13a2b524e51..93a78e7d34c 100644
+--- a/vendor/magento/module-checkout/view/frontend/web/js/sidebar.js
++++ b/vendor/magento/module-checkout/view/frontend/web/js/sidebar.js
+@@ -60,13 +60,15 @@ define([
+             };
+             events['click ' + this.options.button.checkout] = $.proxy(function () {
+                 var cart = customerData.get('cart'),
+-                    customer = customerData.get('customer');
++                    customer = customerData.get('customer'),
++                    element = $(this.options.button.checkout);
+ 
+                 if (!customer().firstname && cart().isGuestCheckoutAllowed === false) {
+                     // set URL for redirect on successful login/registration. It's postprocessed on backend.
+                     $.cookie('login_redirect', this.options.url.checkout);
+ 
+                     if (this.options.url.isRedirectRequired) {
++                        element.prop('disabled', true);
+                         location.href = this.options.url.loginUrl;
+                     } else {
+                         authenticationPopup.showModal();
+@@ -74,6 +76,7 @@ define([
+ 
+                     return false;
+                 }
++                element.prop('disabled', true);
+                 location.href = this.options.url.checkout;
+             }, this);
+ 
+diff --git a/vendor/magento/module-customer/Model/Plugin/CustomerNotification.php b/vendor/magento/module-customer/Model/Plugin/CustomerNotification.php
+index 3f73c8cdaee..2181e5b4578 100644
+--- a/vendor/magento/module-customer/Model/Plugin/CustomerNotification.php
++++ b/vendor/magento/module-customer/Model/Plugin/CustomerNotification.php
+@@ -85,11 +85,36 @@ class CustomerNotification
+                 $customer = $this->customerRepository->getById($customerId);
+                 $this->session->setCustomerData($customer);
+                 $this->session->setCustomerGroupId($customer->getGroupId());
+-                $this->session->regenerateId();
++                if (!$this->isSecureRequest($request)) {
++                    $this->session->regenerateId();
++                }
+                 $this->notificationStorage->remove(NotificationStorage::UPDATE_CUSTOMER_SESSION, $customerId);
+             } catch (NoSuchEntityException $e) {
+                 $this->logger->error($e);
+             }
+         }
+     }
++
++    /**
++     * Checks if current request uses SSL and referer also is secure.
++     *
++     * @param RequestInterface $request
++     *
++     * @return bool
++     */
++    private function isSecureRequest(RequestInterface $request)
++    {
++        $secure = false;
++
++        if ($request->isSecure()) {
++            $secure = true;
++        }
++
++        if ($request->getHeader('referer')) {
++            $scheme = parse_url($request->getHeader('referer'), PHP_URL_SCHEME);
++            $secure = $scheme === 'https';
++        }
++
++        return $secure;
++    }
+ }
+diff --git a/vendor/magento/framework/Session/SessionManager.php b/vendor/magento/framework/Session/SessionManager.php
+index ecf169cb0bc..99bfd869f9c 100644
+--- a/vendor/magento/framework/Session/SessionManager.php
++++ b/vendor/magento/framework/Session/SessionManager.php
+@@ -183,10 +183,21 @@ class SessionManager implements SessionManagerInterface
+             // Need to apply the config options so they can be ready by session_start
+             $this->initIniOptions();
+             $this->registerSaveHandler();
++            if (isset($_SESSION['new_session_id'])) {
++                // Not fully expired yet. Could be lost cookie by unstable network.
++                session_commit();
++                session_id($_SESSION['new_session_id']);
++            }
+             $sid = $this->sidResolver->getSid($this);
+             // potential custom logic for session id (ex. switching between hosts)
+             $this->setSessionId($sid);
+             session_start();
++            if (isset($_SESSION['destroyed'])
++                && $_SESSION['destroyed'] < time() - $this->sessionConfig->getCookieLifetime()
++            ) {
++                $this->destroy(['clear_storage' => true]);
++            }
++
+             $this->validator->validate($this);
+             $this->renewCookie($sid);
+ 
+@@ -501,7 +512,33 @@ class SessionManager implements SessionManagerInterface
+             return $this;
+         }
+ 
+-        $this->isSessionExists() ? session_regenerate_id(true) : session_start();
++        if ($this->isSessionExists()) {
++            // Regenerate the session
++            session_regenerate_id();
++            $newSessionId = session_id();
++            $_SESSION['new_session_id'] = $newSessionId;
++
++            // Set destroy timestamp
++            $_SESSION['destroyed'] = time();
++
++            // Write and close current session;
++            session_commit();
++
++            // Called after destroy()
++            $oldSession = $_SESSION;
++
++            // Start session with new session ID
++            session_id($newSessionId);
++            session_start();
++            $_SESSION = $oldSession;
++
++            // New session does not need them
++            unset($_SESSION['destroyed']);
++            unset($_SESSION['new_session_id']);
++        } else {
++            session_start();
++        }
++
+         $this->storage->init(isset($_SESSION) ? $_SESSION : []);
+ 
+         if ($this->sessionConfig->getUseCookies()) {
