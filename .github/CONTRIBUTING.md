@@ -67,16 +67,17 @@ The following guidelines may answer most of your questions and help you get star
 
 ### Dos:
 
-- Write content using Markdown. See [Support KB formatting](../docs/guides/kb-formatting-guide.md) for details.
-- Please follow the style recommendations described in [Support KB Styleguide](../docs/guides/support-kb-styleguide.md).
-- Use [article templates](../docs/article-templates/) when adding new articles.
-- Follow the recommended file structure and file naming convention described further.
+* Write content using Markdown. See [Support KB formatting](../docs/guides/kb-formatting-guide.md) for details.
+* Please follow the style recommendations described in [Support KB Styleguide](../docs/guides/support-kb-styleguide.md).
+* Use [article templates](../docs/article-templates/) when adding new articles.
+* Follow the recommended file structure and file naming convention described further.
 
 ### Don'ts
-- Do not make changes to content in the Announcements and Support Tools folders.
-- Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
+* Do not make changes to content in the Announcements and Support Tools folders.
+* Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
 
 ## File structure {#file_structure}
+
 All .md files should go to sections folders, nested in category folders under the "src" folder.
 All images and any other attachments should go to "assets" folders inside the section folders.
 
