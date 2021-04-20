@@ -1,5 +1,5 @@
 ---
-title: Rate articles
+title: TEST ARTICLE MOVE + RENAME via modify
 labels: help-center-guide
 ---
 
