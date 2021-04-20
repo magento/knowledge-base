@@ -15,9 +15,9 @@ No, you don't. In this situation, you may skip using Fastly — at least, in the
 
 >  
 > "The only situation you may not want to enable is for a headless deployment."
-> 
+>
 > [Fastly on Magento DevDocs](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html)
-> 
+>
 
 Still, most probably, you will need Fastly for using its SSL certificate.
 
