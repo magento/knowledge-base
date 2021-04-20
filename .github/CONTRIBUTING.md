@@ -54,11 +54,12 @@ The following diagram shows the contribution workflow:
 **Note:** If you have not signed the [Adobe Contributor License Agreement](https://opensource.adobe.com/cla.html), the pull request provides a link. You must sign the CLA before we can accept your contribution.
 
 ## General contribution guidelines
--  Review existing [pull requests](https://github.com/magento/knowledge-base/pulls) and [issues](https://github.com/magento/knowledge-base/issues) to avoid duplicating work.
--  For large contributions, or changes that include multiple files, [open an issue](#report-an-issue) and discuss it with us first. This helps prevent duplicate or unnecessary work.
--  Do not make global find-and-replace changes without first [creating an issue](https://github.com/magento/knowledge-base/issues/new/choose) and discussing it with us. Global changes can have unintended consequences.
--  Combine multiple small changes (such as minor editorial and technical changes) into a single pull request. This helps us efficiently and effectively facilitate your contribution.
--  Review your work for basic typos, formatting errors, or ambiguous sentences before opening a pull request.
+
+* Review existing [pull requests](https://github.com/magento/knowledge-base/pulls) and [issues](https://github.com/magento/knowledge-base/issues) to avoid duplicating work.
+* For large contributions, or changes that include multiple files, [open an issue](#report-an-issue) and discuss it with us first. This helps prevent duplicate or unnecessary work.
+* Do not make global find-and-replace changes without first [creating an issue](https://github.com/magento/knowledge-base/issues/new/choose) and discussing it with us. Global changes can have unintended consequences.
+* Combine multiple small changes (such as minor editorial and technical changes) into a single pull request. This helps us efficiently and effectively facilitate your contribution.
+* Review your work for basic typos, formatting errors, or ambiguous sentences before opening a pull request.
 
 ## Specific contribution guidelines
 
@@ -93,8 +94,6 @@ If you add images to your articles, please follow this convention to name your i
 * Lower case.
 * Words should separated by hyphen "-", not underscore "_".
 * Use existing naming patterns. Check the /assets folders for existing file names.
-
-
 
 ### Metadata
 
