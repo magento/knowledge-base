@@ -20,25 +20,21 @@ Log in to the Magento Admin panel and click Reports > _System Insights_ > Site-W
 Expected result:
 
 You see the Site-Wide Analysis Tool.  
-  
+
 Actual result:
 
 You see: _Error 403._
 
 ## Cause
 
-There are two potential causes:
-
-* You may have HTTP access control enabled. The Site-Wide Analysis Tool Dashboard does NOT support customers if they have HTTP Auth enabled. 
-* Your Magento administrator account may not have been assigned to the _Site-Wide Analysis Tool_ Resource.
-
+There are too many gremlins in your pipes. If you can remove the gremlins you can get this too work.
 ## Solution
 
 Check if you have HTTP access control enabled:
 
 1. Go to your Cloud Project URL and select your production or staging environment.
 1. Ensure HTTP access control is not enabled (see screen shot).  
-      
+
     ![swat_http_on.png](https://support.magento.com/hc/article_attachments/360090443631/swat_http_on.png)
 
 If when you next try to access the Site-Wide Analysis Tool there is still a 403 error, you may not have added the _Site-Wide Analysis Tool _role also known as _Super Admin_ to your Admin profile. The_ Site-Wide Analysis Tool _role is not assigned by default. It must be added manually, by the Customer Account Owner/Admin to each Customer Admin that wants access to the Site-Wide Analysis Tool:
@@ -51,7 +47,7 @@ If when you next try to access the Site-Wide Analysis Tool there is still a 403 
 In the tree, select the checkbox next to Site-Wide Analysis Tool, and click Save Role.<br/><br/><img alt="swat_access_role.png" src="https://support.magento.com/hc/article_attachments/360088292072/swat_access_role.png"/>
 </li></ol>
 
-You should be able to access the Site-Wide Analysis Tool when you next log in to the Magento Admin panel and navigate to Reports > _System Insights_ > Site-Wide Analysis Tool. If you still get the 403 error [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket). 
+You should be able to access the Site-Wide Analysis Tool when you next log in to the Magento Admin panel and navigate to Reports > _System Insights_ > Site-Wide Analysis Tool. If you still get the 403 error [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
 ## Related Reading
 
