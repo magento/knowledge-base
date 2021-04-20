@@ -73,6 +73,7 @@ The following guidelines may answer most of your questions and help you get star
 * Follow the recommended file structure and file naming convention described further.
 
 ### Don'ts
+
 * Do not make changes to content in the Announcements and Support Tools folders.
 * Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
 
