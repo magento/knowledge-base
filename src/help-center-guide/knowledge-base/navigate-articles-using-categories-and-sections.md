@@ -1,5 +1,5 @@
 ---
-title: Navigate articles using categories and sections
+title: ARTICLE RENAME VIA MODIFY TEST
 labels: help-center-guide
 ---
 
