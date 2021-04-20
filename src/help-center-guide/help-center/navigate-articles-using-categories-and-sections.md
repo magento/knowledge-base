@@ -1,5 +1,5 @@
 ---
-title: ARTICLE RENAME VIA MODIFY TEST
+title: ARTICLE MOVE TEST
 labels: help-center-guide
 ---
 
