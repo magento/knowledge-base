@@ -94,8 +94,8 @@ If you add images to your articles, please follow this convention to name your i
 * Specify version of the product which is represented on the screenshot. If it is not Magento Commerce, add name of the product to the file name.
 * Relay what is being captured by the image, for example a screenshot of Magento Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
 * Lower case.
-* Words should separated by hyphen "-", not underscore "_".
-* Use existing naming patterns. Check the /assets folders for existing file names.
+* Words should be separated by hyphen "-", not underscore "_".
+* Use existing naming patterns. Check the existing file names under /assets folders as an example.
 
 ### Metadata
 
@@ -117,7 +117,7 @@ labels:
 
 ## Report an issue
 
-If you find a typo or errors in Magento Support Knowledge Base article, you can either fix it with a pull request (as described above) or you can report it by creating an issue in the Support KB repository.
+If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (as described above) or you can report it by creating an issue in the Support KB repository.
 
 You must complete the issue template. We will close your issue if you fail to provide the information listed template. Enter as much information as you can, including content corrections, steps to reproduce, command or code updates, or questions for clarifications.
 
