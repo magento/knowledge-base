@@ -2,34 +2,34 @@ Please follow these style and formatting recommendations, when contributing to t
 
 ## Titles
 
-*    Titles are in sentence-style capitalization.
-*    Plural for titles; singular for procedure headings. Example: Title - Writing books. Header - Write a book.
-*    Keep titles short, with important words at the beginning. For SEO reasons, it is highly recommended titles are not longer than 70 characters (there is an exception for when a title reduction prevents the true meaning being communicated). 
+* Titles are in sentence-style capitalization.
+* Plural for titles; singular for procedure headings. Example: Title - Writing books. Header - Write a book.
+* Keep titles short, with important words at the beginning. For SEO reasons, it is highly recommended titles are not longer than 70 characters (there is an exception for when a title reduction prevents the true meaning being communicated). 
 
 
 ##    Headers
 
-*   The top-level header is H2. (H1 is by default article title, even if the title is not visibly formatted with H1).
-*   Use infinitive verbs for task headings. For example "How to identify high traffic events".
-*   Use the singular form for task headings. For example, "Module structure".
-*   Avoid double headings (there should be at least one sentence between headers).
-*   Sentence-style capitalization for all headings.
-*   Task titles are in imperative (“Create x”, not “Creating x” or “To create x”).
+* The top-level header is H2. (H1 is by default article title, even if the title is not visibly formatted with H1).
+* Use infinitive verbs for task headings. For example "How to identify high traffic events".
+* Use the singular form for task headings. For example, "Module structure".
+* Avoid double headings (there should be at least one sentence between headers).
+* Sentence-style capitalization for all headings.
+* Task titles are in imperative (“Create x”, not “Creating x” or “To create x”).
 
 ##    Lists
 
-*   Steps in a task: maximum 9
+* Steps in a task: maximum 9
 
-*   Bulleted lists make scanning easy.
+* Bulleted lists make scanning easy.
 
-    *   Use bulleted lists for methods, approaches, options, and nonconsecutive task steps.
-    *   Keep text in bullets short, preferably not more than two sentences.
-    *   Minimize the number of bullets; seven or fewer is ideal.
-    *   Avoid placing a tip or note between bulleted items.
-    *   Use parallel grammar structure in lists but break this rule if it results in excess verbiage or stilted language.
-    *   Capitalize the first word of each item in a bulleted list, even if it is a fragment.
+    * Use bulleted lists for methods, approaches, options, and nonconsecutive task steps.
+    * Keep text in bullets short, preferably not more than two sentences.
+    * Minimize the number of bullets; seven or fewer is ideal.
+    * Avoid placing a tip or note between bulleted items.
+    * Use parallel grammar structure in lists but break this rule if it results in excess verbiage or stilted language.
+    * Capitalize the first word of each item in a bulleted list, even if it is a fragment.
 
-*   Make your lists parallel. For example, each item should be a noun or a phrase that starts with a verb.
+* Make your lists parallel. For example, each item should be a noun or a phrase that starts with a verb.
 
 ## Notes and tips
 
@@ -41,12 +41,12 @@ When in doubt, don't capitalize. In headings, use sentence-style capitalization.
 
 ## UI elements
 
-*    Everything that the user clicks put in **bold**. For example, "Click **Continue**." Option values and error messages are formatted with _italics_.
-*    Wherever possible, avoid mentioning the UI element type in instructions. (Click **Next**. vs Click the **Next** button.)
-*    Use "Choose" and ">"" in command sequences. (Choose **Edit** > **Preferences**. vs Click Edit | Preferences.)
-*    Preposition: "in" for dialog box, window, are a, panel, view, wizard, list, folder, node.
-*    Preposition: "on" for screen, page, toolbar, menu bar, tab, pane, ribbon.
-*    Preposition: Click (Click **Next** vs Click on **Next**).
+* Everything that the user clicks put in **bold**. For example, "Click **Continue**." Option values and error messages are formatted with _italics_.
+* Wherever possible, avoid mentioning the UI element type in instructions. (Click **Next**. vs Click the **Next** button.)
+* Use "Choose" and ">"" in command sequences. (Choose **Edit** > **Preferences**. vs Click Edit | Preferences.)
+* Preposition: "in" for dialog box, window, are a, panel, view, wizard, list, folder, node.
+* Preposition: "on" for screen, page, toolbar, menu bar, tab, pane, ribbon.
+* Preposition: Click (Click **Next** vs Click on **Next**).
 
 ## File names
 
@@ -61,12 +61,12 @@ Spell out a number, like "five" or "nine" when the number is under 10 (numbers o
 
 Write a number as a numeral, like "42" or "11" when:
 
-*   The number is over 9 (numbers ten and above).
-*   You're specifying the number:
-    *   Within a line of code or code snippet.
-    *   Within a file path or directory name.
-    *   When communicating a range, like "between 5 and 25" or "review numbers 8 through 21".
-    *   The numbers have been measured or calculated like "62 picas" or "830 MHz".
+* The number is over 9 (numbers ten and above).
+* You're specifying the number:
+    * Within a line of code or code snippet.
+    * Within a file path or directory name.
+    * When communicating a range, like "between 5 and 25" or "review numbers 8 through 21".
+    * The numbers have been measured or calculated like "62 picas" or "830 MHz".
 
 Use a mix of numbers and numerals when noting a quantity of numbered things, like "a collection of fifteen 1000-trial runs".
 
