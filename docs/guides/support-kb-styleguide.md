@@ -7,7 +7,7 @@ Please follow these style and formatting recommendations, when contributing to t
 * Keep titles short, with important words at the beginning. For SEO reasons, it is highly recommended titles are not longer than 70 characters (there is an exception for when a title reduction prevents the true meaning being communicated). 
 
 
-##    Headers
+## Headers
 
 * The top-level header is H2. (H1 is by default article title, even if the title is not visibly formatted with H1).
 * Use infinitive verbs for task headings. For example "How to identify high traffic events".
@@ -16,7 +16,7 @@ Please follow these style and formatting recommendations, when contributing to t
 * Sentence-style capitalization for all headings.
 * Task titles are in imperative (“Create x”, not “Creating x” or “To create x”).
 
-##    Lists
+## Lists
 
 * Steps in a task: maximum 9
 
@@ -53,7 +53,7 @@ When in doubt, don't capitalize. In headings, use sentence-style capitalization.
 File names and folders are formatted as code. 
 
 
-##  Numbers
+## Numbers
 
 Above all, consistency rules when approaching the written-out numbers vs. numerals issue.
 
@@ -212,9 +212,9 @@ Error message: __Something went wrong.__
 ## Accessibility
 
 
-*   All non-text or graphical elements have textual equivalents or Alt Text.
+* All non-text or graphical elements have textual equivalents or Alt Text.
 
-*   All links describe the destination of the link.
+* All links describe the destination of the link.
 
 <!--
 ## Accessible tables
@@ -230,12 +230,12 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ## Abusive language
 
-*   Avoid abusive language. 
-*   Avoid racist or "might feel like racist" language.
-*   Avoid language with strong negative connotations or strong emotional coloring, like "kill", "terminate".
+* Avoid abusive language. 
+* Avoid racist or "might feel like racist" language.
+* Avoid language with strong negative connotations or strong emotional coloring, like "kill", "terminate".
 
 
-##  Links 
+## Links 
 
 Most links appear in link lists inside the article. Avoid unnecessary inline links.
 
@@ -248,20 +248,20 @@ Best practice is to isolate inline links in a link list with a configurable ti
  Use ordinary URLs rather than goURLs to link to pages outside  [Adobe.com](http://Adobe.com) .
 
 
-##  Commas
+## Commas
 
 In general, follow The Chicago Manual of Style recommendations for open style punctuation, punctuating only where necessary to prevent misreading. For example, you can omit the comma before a conjunction in a compound sentence if there is little or no risk of misreading. Use the comma where needed for clarification.
 
-*   Always use the serial comma (a comma preceding _and_ or _or_ in a list of three or more items): x, y, and z
+* Always use the serial comma (a comma preceding _and_ or _or_ in a list of three or more items): x, y, and z
 
-*   Place a comma before a conjunction introducing an independent clause: “Specify a location, and type a name for the file list.”
+* Place a comma before a conjunction introducing an independent clause: “Specify a location, and type a name for the file list.”
 
-*   Don’t separate platform differences with a comma: “… Ctrl (Windows) or Command (Mac OS)”
+* Don’t separate platform differences with a comma: “… Ctrl (Windows) or Command (Mac OS)”
 
-*   Always use a comma after an introductory phrase or clause: “In Photoshop, import the Illustrator file.”
+* Always use a comma after an introductory phrase or clause: “In Photoshop, import the Illustrator file.”
 
 ## Versions
 
-*   We use "version" for all releases (major/minor/patch). For example "Supported versions: Magento Commerce 2.3.x"
+* We use "version" for all releases (major/minor/patch). For example "Supported versions: Magento Commerce 2.3.x"
 
-*   We use low case "x" when writing about all patch releases within minor release, and all minor with major. For example, Magento Commerce 2.x.x.
+* We use low case "x" when writing about all patch releases within minor release, and all minor with major. For example, Magento Commerce 2.x.x.
