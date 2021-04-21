@@ -99,7 +99,7 @@ If you add images to your articles, please follow this convention to name your i
 
 ### Metadata
 
-The Markdown (.md) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. For more info, see the [Basic Template](https://devdocs.magento.com/contributor-guide/templates/basic_template.html). !!!
+The Markdown (.md) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file.
 
 ```yaml
 ---
