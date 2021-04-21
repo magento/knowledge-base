@@ -50,7 +50,7 @@ When in doubt, don't capitalize. In headings, use sentence-style capitalization.
 
 ## File names
 
-File names and folders are formatted as code. 
+File names and folders are formatted as code. Example: The `/var/log` system directory contains logs for all environments.
 
 
 ## Numbers
@@ -212,9 +212,9 @@ Error message: __Something went wrong.__
 ## Accessibility
 
 
-* All non-text or graphical elements have textual equivalents or Alt Text.
+* All non-text or graphical elements have textual equivalents or Alt Text. Example: ![example_image](/url "alt_text_for_this_image").
 
-* All links describe the destination of the link.
+* All links describe the destination of the link. Example [link](/uri "destination_of_the_link").
 
 <!--
 ## Accessible tables
