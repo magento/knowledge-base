@@ -9,7 +9,7 @@ In certain cases HTML is required, to make sure formatting is correct once artic
 
 Please use the following HTML classes for special paragraphs like info, warning etc.
 
-&lt;p class="success"&gt; Success note.&lt;/p&gt;
+&lt;p class="success"&gt;Success note.&lt;/p&gt;
 
 &lt;p class="warning"&gt;Warning note.&lt;/p&gt;
 
