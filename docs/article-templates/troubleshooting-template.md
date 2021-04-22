@@ -52,7 +52,7 @@ If there is a temporary workaround, specify it as a separate section below this 
 
 Links to related documentation: 
 
-*   User Guides: [Open Source](http://docs.magento.com/m2/ce/user_guide/magento/magento-community-edition-2.1-user-guide.html), [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
+*   User Guides: [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
 *   [DevDocs](devdocs.magento.com)
 *   other Knowledge Base articles
 *   any related resources (blogs, forums, StackOverflow, etc.)
