@@ -10,9 +10,9 @@ labels: troubleshooting,...
 
 ## Affected products and versions
 
-*   Magento Commerce x.x.x
-*   Magento Commerce Cloud x.x.x
-*   Affected extension or technology (e.g. Redis, Fastly): x.x.x
+* Magento Commerce x.x.x
+* Magento Commerce Cloud x.x.x
+* Affected extension or technology (e.g. Redis, Fastly): x.x.x
 
 ## Issue
 
@@ -27,9 +27,9 @@ If the issue occurs in a very specific situation, provide detailed steps to repr
 
 Prerequisites: ... (if any).
 
-1.  First step.
-2.  Second step.
-3.  ....
+1. First step.
+1. Second step.
+1. ....
 
 <u>Expected result</u>:
 Magento does this.
@@ -52,9 +52,9 @@ If there is a temporary workaround, specify it as a separate section below this 
 
 Links to related documentation: 
 
-*   User Guides: [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
-*   [DevDocs](devdocs.magento.com)
-*   other Knowledge Base articles
-*   any related resources (blogs, forums, StackOverflow, etc.)
+* User Guides: [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
+* [DevDocs](devdocs.magento.com)
+* Other Knowledge Base articles
+* Any related resources (blogs, forums, StackOverflow, etc.)
 
 Write the name of the linked content, then link it to the page. Don't just paste a full link.

@@ -12,9 +12,9 @@ Or you can use "This article talks about..." if relevant.
 
 ## Affected products and versions
 
-*   Magento Commerce x.x.x
-*   Magento Commerce Cloud x.x.x
-*   Affected extension or technology (e.g. Redis, Fastly): x.x.x
+* Magento Commerce x.x.x
+* Magento Commerce Cloud x.x.x
+* Affected extension or technology (e.g. Redis, Fastly): x.x.x
 
 ## Best practice
 
@@ -22,9 +22,9 @@ Or you can use "This article talks about..." if relevant.
 
 ## Related reading
 
-*   User Guides: [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
-*   [DevDocs](devdocs.magento.com)
-*   other Knowledge Base articles
-*   any related resources (blogs, forums, StackOverflow, etc.)
+* User Guides: [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
+* [DevDocs](devdocs.magento.com)
+* Other Knowledge Base articles
+* Any related resources (blogs, forums, StackOverflow, etc.)
 
 Write the name of the linked content, then link it to the page. Don't just paste a full link.
