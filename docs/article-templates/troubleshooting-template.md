@@ -3,7 +3,7 @@ title: ...
 labels: troubleshooting,...
 ---
 
-<u>Title</u>: Title should briefly describe the issue, maximum 70 characters is preferred.
+<u>Title</u>: Title should briefly describe the issue, maximum 70 characters is preferred.<br/>
 (Example: "Out of memory error during install or upgrade".)
 
 <u>Intro</u>: Intro paragraph or two paragraphs: a brief overview of issue. The first 140 characters are important for SEO purposes.

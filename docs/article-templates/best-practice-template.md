@@ -3,7 +3,7 @@ title: Best practice for...
 labels: best-practice, ...
 ---
 
-<u>Title</u>: Use "Best practice" in title and keep it short,  maximum 70 characters is preferred.
+<u>Title</u>: Use "Best practice" in title and keep it short,  maximum 70 characters is preferred.<br/>
 (Example: "Best practice for OPcache memory size Magento Commerce Cloud 2.3.x")
 
 <u>Intro</u>: It is a best practice to... Intro should be a paragraph or two. The first 140 characters are important for SEO purposes.
