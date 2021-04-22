@@ -19,9 +19,10 @@ Please use the following HTML classes for special paragraphs like info, warning 
 
 On support.magento.com we use Prism.js to highlight code samples.
 Please use the following formatting:
--  for inline code and code blocks: &lt;code class="language-%language-code%"&gt;%your code here%&lt;/code&gt;
-- for code blocks:
-&lt;pre&gt;&lt;code class="language-%language-code"&gt;%your
+
+* for inline code and code blocks: &lt;code class="language-%language-code%"&gt;%your code here%&lt;/code&gt;
+* for code blocks:
+  &lt;pre&gt;&lt;code class="language-%language-code"&gt;%your
     code
     block
     here &lt;/code&gt;&lt;/pre&gt;
@@ -39,14 +40,14 @@ Code block:
 
 "http://{default}/":
 
-    type: upstream
+&nbsp&nbsp&nbsp&nbstype: upstream
 
-    upstream: "mymagento:http"
+&nbsp&nbsp&nbsp&nbsupstream: "mymagento:http"
 
 "http://{all}/":
 
-    type: upstream
+&nbsp&nbsp&nbsp&nbstype: upstream
 
-    upstream: "mymagento:http"
+&nbsp&nbsp&nbsp&nbsupstream: "mymagento:http"
 
   &lt;/code&gt;&lt;/pre&gt;
