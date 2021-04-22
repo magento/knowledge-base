@@ -40,14 +40,14 @@ Code block:
 
 "http://{default}/":
 
-&nbsp&nbsp&nbsp&nbstype: upstream
+&nbsp;&nbsp;&nbsp;&nbs;type: upstream
 
-&nbsp&nbsp&nbsp&nbsupstream: "mymagento:http"
+&nbsp;&nbsp;&nbsp;&nbs;upstream: "mymagento:http"
 
 "http://{all}/":
 
-&nbsp&nbsp&nbsp&nbstype: upstream
+&nbsp;&nbsp;&nbsp;&nbs;type: upstream
 
-&nbsp&nbsp&nbsp&nbsupstream: "mymagento:http"
+&nbsp;&nbsp;&nbsp;&nbs;upstream: "mymagento:http"
 
   &lt;/code&gt;&lt;/pre&gt;
