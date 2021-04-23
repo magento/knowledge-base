@@ -1,5 +1,5 @@
 ---
-title: Block malicious traffic for Magento Commerce Cloud on Fastly level 2
+title: Block malicious traffic for Magento Commerce Cloud on Fastly level 234
 labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security
 ---
 
