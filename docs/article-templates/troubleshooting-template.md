@@ -50,11 +50,7 @@ If there is a temporary workaround, specify it as a separate section below this 
 
 ## Related reading
 
-Links to related documentation: 
-
-* User Guides: [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
-* [DevDocs](devdocs.magento.com)
+* User Guides: [Commerce](https://docs.magento.com/user-guide/)
+* [DevDocs](https://devdocs.magento.com)
 * Other Knowledge Base articles
 * Any related resources (blogs, forums, StackOverflow, etc.)
-
-Write the name of the linked content, then link it to the page. Don't just paste a full link.
