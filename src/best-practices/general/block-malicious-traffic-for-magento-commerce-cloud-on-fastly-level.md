@@ -1,7 +1,9 @@
 ---
-title: Block malicious traffic for Magento Commerce Cloud on Fastly level
+title: Block bad traffic for Magento Commerce Cloud on Fastly level 234
 labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security
 ---
+
+BVLAH BLAH BLAH
 
 This article provides the steps you could take to block malicious traffic, when you suspect that your Magento Commerce Cloud store is experiencing a DDoS attack.
 
