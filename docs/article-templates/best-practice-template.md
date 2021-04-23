@@ -22,8 +22,8 @@ Or you can use "This article talks about..." if relevant.
 
 ## Related reading
 
-* User Guides: [Commerce](http://docs.magento.com/m2/ee/user_guide/magento/magento-enterprise-edition-2.1-user-guide.html)
-* [DevDocs](devdocs.magento.com)
+* User Guides: [Commerce](https://docs.magento.com/user-guide/)
+* [DevDocs](https://devdocs.magento.com)
 * Other Knowledge Base articles
 * Any related resources (blogs, forums, StackOverflow, etc.)
 
