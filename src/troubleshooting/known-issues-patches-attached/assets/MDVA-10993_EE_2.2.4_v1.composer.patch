@@ -1,0 +1,38 @@
+diff --git a/vendor/magento/module-sales/Model/Order/Email/SenderBuilder.php b/vendor/magento/module-sales/Model/Order/Email/SenderBuilder.php
+index 7ec089b8829..089d350253f 100644
+--- a/vendor/magento/module-sales/Model/Order/Email/SenderBuilder.php
++++ b/vendor/magento/module-sales/Model/Order/Email/SenderBuilder.php
+@@ -110,7 +110,7 @@ class SenderBuilder
+         $this->transportBuilder->setTemplateIdentifier($this->templateContainer->getTemplateId());
+         $this->transportBuilder->setTemplateOptions($this->templateContainer->getTemplateOptions());
+         $this->transportBuilder->setTemplateVars($this->templateContainer->getTemplateVars());
+-        $this->transportBuilderByStore->setFromByStore(
++        $this->transportBuilder->setFromByStore(
+             $this->identityContainer->getEmailIdentity(),
+             $this->identityContainer->getStore()->getId()
+         );
+diff --git a/vendor/magento/framework/Mail/Template/TransportBuilder.php b/vendor/magento/framework/Mail/Template/TransportBuilder.php
+index 18b241d77a4..4f8067a67ae 100644
+--- a/vendor/magento/framework/Mail/Template/TransportBuilder.php
++++ b/vendor/magento/framework/Mail/Template/TransportBuilder.php
+@@ -279,4 +279,20 @@ class TransportBuilder
+ 
+         return $this;
+     }
++
++    /**
++     * Set mail from address by store.
++     *
++     * @param string|array $from
++     * @param string|int $store
++     *
++     * @return $this
++     */
++    public function setFromByStore($from, $store)
++    {
++        $result = $this->_senderResolver->resolve($from, $store);
++        $this->message->setFrom($result['email'], $result['name']);
++
++        return $this;
++    }
+ }

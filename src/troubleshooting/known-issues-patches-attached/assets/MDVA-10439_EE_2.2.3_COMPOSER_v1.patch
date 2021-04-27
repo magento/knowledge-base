@@ -1,0 +1,59 @@
+diff --git a/vendor/magento/module-advanced-sales-rule/Setup/InstallData.php b/vendor/magento/module-advanced-sales-rule/Setup/InstallData.php
+index 163a82ca3ee..6158490ed5d 100644
+--- a/vendor/magento/module-advanced-sales-rule/Setup/InstallData.php
++++ b/vendor/magento/module-advanced-sales-rule/Setup/InstallData.php
+@@ -6,9 +6,12 @@
+ 
+ namespace Magento\AdvancedSalesRule\Setup;
+ 
++use Magento\Framework\App\Area;
+ use Magento\Framework\Setup\InstallDataInterface;
+ use Magento\Framework\Setup\ModuleContextInterface;
+ use Magento\Framework\Setup\ModuleDataSetupInterface;
++use Magento\Framework\App\State;
++use Magento\AdvancedSalesRule\Model\Indexer\SalesRule\Processor;
+ 
+ /**
+  * @codeCoverageIgnore
+@@ -16,17 +19,25 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
+ class InstallData implements InstallDataInterface
+ {
+     /**
+-     * @var \Magento\AdvancedSalesRule\Model\Indexer\SalesRule\Processor
++     * @var Processor
+      */
+     protected $indexerProcessor;
+ 
+     /**
+-     * @param \Magento\AdvancedSalesRule\Model\Indexer\SalesRule\Processor $indexerProcessor
++     * @var State
++     */
++    private $appState;
++
++    /**
++     * @param Processor $indexerProcessor
++     * @param State $appState
+      */
+     public function __construct(
+-        \Magento\AdvancedSalesRule\Model\Indexer\SalesRule\Processor $indexerProcessor
++        Processor $indexerProcessor,
++        State $appState
+     ) {
+         $this->indexerProcessor = $indexerProcessor;
++        $this->appState = $appState;
+     }
+ 
+     /**
+@@ -34,6 +45,11 @@ class InstallData implements InstallDataInterface
+      */
+     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
+     {
+-        $this->indexerProcessor->reindexAll();
++        $this->appState->emulateAreaCode(
++            Area::AREA_GLOBAL,
++            function () {
++                $this->indexerProcessor->reindexAll();
++            }
++        );
+     }
+ }
