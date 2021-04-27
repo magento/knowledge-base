@@ -21,6 +21,7 @@ Please use the following HTML classes for special paragraphs like info, warning 
 
 On support.magento.com we use Prism.js to highlight code samples.
 Please use the following formatting:
+
 - for inline code and code blocks:  
   ```html
   <code class="language-%language-code%">%your code here%</code>
@@ -50,7 +51,7 @@ Code block:
         "http://{default}/":
             type: upstream
             upstream: "mymagento:http"
-        
+
         "http://{all}/":
             type: upstream
             upstream: "mymagento:http"
