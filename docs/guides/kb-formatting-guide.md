@@ -9,13 +9,12 @@ In certain cases HTML is required, to make sure formatting is correct once artic
 
 Please use the following HTML classes for special paragraphs like info, warning etc.
 
-&lt;p class="success"&gt;Success note.&lt;/p&gt;
-
-&lt;p class="warning"&gt;Warning note.&lt;/p&gt;
-
-&lt;p class="info"&gt;Info note.&lt;/p&gt;
-
-&lt;p class="error"&gt;Error note.&lt;/p&gt;
+```html
+<p class="success">Success note.</p>
+<p class="warning">Warning note.</p>
+<p class="info">Info note.</p>
+<p class="error">Error note.</p>
+```
 
 
 ### Code blocks
@@ -23,34 +22,39 @@ Please use the following HTML classes for special paragraphs like info, warning 
 On support.magento.com we use Prism.js to highlight code samples.
 Please use the following formatting:
 
-* for inline code and code blocks: &lt;code class="language-%language-code%"&gt;%your code here%&lt;/code&gt;
-* for code blocks:
-  &lt;pre&gt;&lt;code class="language-%language-code"&gt;%your
-    code
-    block
-    here &lt;/code&gt;&lt;/pre&gt;
-
+- for inline code and code blocks:  
+  ```html
+  <code class="language-%language-code%">%your code here%</code>
+  ```
+- for code blocks:
+  ```html
+    <pre>
+        <code class="language-%language-code">
+            %your code block here
+        </code>
+    </pre>
+  ```
 
 Supported languages and codes are listed on https://prismjs.com/#supported-languages.
 
 *Examples:*
 
-Inline code: &lt;code class="language-bash"&gt;./bin/magento config:show catalog/search/engine&lt;/code&gt;
+Inline code:
+```html
+<code class="language-bash">./bin/magento config:show catalog/search/engine</code>
+```
 
 Code block:
+```html
+<pre>
+    <code class="language-yaml">
+        "http://{default}/":
+            type: upstream
+            upstream: "mymagento:http"
 
-&lt;pre&gt;&lt;code class="language-yaml"&gt;
-
-"http://{default}/":
-
-&nbsp;&nbsp;&nbsp;&nbsp;type: upstream
-
-&nbsp;&nbsp;&nbsp;&nbsp;upstream: "mymagento:http"
-
-"http://{all}/":
-
-&nbsp;&nbsp;&nbsp;&nbsp;type: upstream
-
-&nbsp;&nbsp;&nbsp;&nbsp;upstream: "mymagento:http"
-
-  &lt;/code&gt;&lt;/pre&gt;
+        "http://{all}/":
+            type: upstream
+            upstream: "mymagento:http"
+     </code>
+ </pre>
+```
