@@ -20,7 +20,7 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 These exceptions result from file system permissions settings.
 
-#### Solution
+### Solution
 
 [Set file system ownership and permissions again](https://devdocs.magento.com/guides/v2.3/config-guide/prod/prod_file-sys-perms.html) as a user with `` root `` privileges.
 
@@ -30,7 +30,7 @@ If you're currently set for [production mode](https://devdocs.magento.com/guides
 
 <pre><code class="language-php">PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /&lt;path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /&lt;path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37</code></pre>
 
-#### Solution
+### Solution
 
 Don't install sample data in production mode. Switch to developer mode and clear some `` var `` directories and try again.
 
@@ -46,7 +46,7 @@ During installation of optional sample data, a message similar to the following 
 
 <pre><code class="language-php">PHP Fatal error: Call to undefined method Magento\Catalog\Model\Resource\Product\Interceptor::getWriteConnection() in /var/www/magento2/app/code/Magento/SampleData/Module/Catalog/Setup/Product/Gallery.php on line 144</code></pre>
 
-#### Solution
+### Solution
 
 During sample data installation, disable SELinux using a resource such as:
 
@@ -59,7 +59,7 @@ Other errors display, such as:
 
 <pre><code class="language-php">[Magento\Setup\SampleDataException] Error during sample data installation: Class Magento\Sales\Model\Service\OrderFactory does not exist</code></pre>
 
-#### Solution
+### Solution
 
 There are known issues with using sample data with the Magento 2 develop branch. Use the master branch instead. You can switch to the master branch as follows:
 
@@ -80,7 +80,7 @@ Sample data installation does not finish.
 
 This error occurs when the maximum configured execution time of your PHP scripts is exceeded. Because sample data can take a long time to load, you can increase the value during your installation.
 
-#### Solution
+### Solution
 
 As a user with `` root `` privileges, modify `` php.ini `` to increase the value of `` max_execution_time `` to 600 or more. (600 seconds is 10 minutes. You can increase the value to whatever you want.) You should change `` max_execution_time `` back to its previous value after the installation is successful.
 

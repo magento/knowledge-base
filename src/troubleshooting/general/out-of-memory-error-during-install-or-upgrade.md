@@ -5,7 +5,7 @@ labels: 2.3.x,Magento Commerce,PHP,how to,out of memory,troubleshooting,web setu
 
 This article talks about solutions for the out of memory error during installing/upgrading Magento on-premise products. 
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.3.x
 * Magento Open Source 2.3.x
@@ -28,7 +28,7 @@ If you've already done that, create a swap file on your machine. A Linux machine
 
 The following are suggestions only; other options might be available. Consult a network administrator or another knowledgeable resource before you continue. You must run the commands to create a swap file as a user with `` root `` privileges.
 
-#### Swap file on Ubuntu
+### Swap file on Ubuntu
 
 Use the `` fallocate `` command as discussed in these references:
 
@@ -36,7 +36,7 @@ Use the `` fallocate `` command as discussed in these references:
 * [How To Add Swap Space on Ubuntu 16.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
 * [SwapFaq (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
 
-#### Swap file on CentOS
+### Swap file on CentOS
 
 Use the `` mkswap `` command as discussed in these references:
 

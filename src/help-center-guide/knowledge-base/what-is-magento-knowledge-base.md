@@ -3,8 +3,6 @@ title: What is Magento Knowledge Base?
 labels: help-center-guide
 ---
 
-Testing file rename + modify (without changing title)
-
 When you access the Magento Help Center, you first get to the Magento Knowledge Base.
 
 ![magento-knowledge-base-landing.png](https://support.magento.com/hc/article_attachments/360016527971/magento-knowledge-base-landing.png)

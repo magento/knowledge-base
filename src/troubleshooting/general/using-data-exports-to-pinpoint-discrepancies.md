@@ -53,10 +53,10 @@ Navigate to the Connections page and take a look at the status of the data sourc
 
 1. If the status is Re-auth, the connection isn’t using the correct credentials. Click into the connection, enter the correct credentials, and retry.
 1. If the status is Failed, the connection may not be setup properly on the server side. Failed connections usually arise from an incorrect host name or the target server not accepting connections on the specified port.  
-       
-     Click into the connection and double-check the spelling of the hostname and that the correct port is entered. On the server side, make sure that the port can accept connections and that your firewall has the Magento BI IP address (54.88.76.97/32) as allowed.  
-       
-     If the connection continues to fail, refer to the [Contacting Support section](#support) at the end of this article for next steps.
+      
+    Click into the connection and double-check the spelling of the hostname and that the correct port is entered. On the server side, make sure that the port can accept connections and that your firewall has the Magento BI IP address (54.88.76.97/32) as allowed.  
+      
+    If the connection continues to fail, refer to the [Contacting Support section](#support) at the end of this article for next steps.
 1. If the status is Successful, then the connection isn’t the problem and RJ support needs to get involved. Refer to the [Contacting Support section](#support) at the end of this article for next steps.
 
 ## The source database has FEWER rows than Magento BI
@@ -79,7 +79,7 @@ If you aren't able to pinpoint the source of the problem, you'll need to loop in
 * If your source database has MORE rows than Magento BI and the connection shows as Successful or continues to fail, we'll need to know the name of the connection and the error message you're seeing, if there is one.
 * If your source database has FEWER rows than Magento BI, rows aren't deleted from the table, and recheck frequencies are set correctly, perform a VLOOKUP in your spreadsheet to find which order\_id values are in Magento BI but not in your source database. Include these values when you submit your ticket.
 
-# Related
+## Related
 
 * [Data discrepancy diagnostic checklist](https://support.magento.com/hc/en-us/articles/360016731271-Diagnosing-a-data-discrepancy)
 * [Submitting a data discrepancy ticket](https://support.magento.com/hc/en-us/articles/360016506472-Submitting-a-data-discrepancy-ticket)

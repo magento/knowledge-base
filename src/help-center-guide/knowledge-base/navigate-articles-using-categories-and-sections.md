@@ -1,5 +1,5 @@
 ---
-title: ARTICLE MOVE TEST
+title: Navigate articles using categories and sections
 labels: help-center-guide
 ---
 
