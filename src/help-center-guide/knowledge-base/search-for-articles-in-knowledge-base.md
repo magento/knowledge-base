@@ -1,5 +1,5 @@
 ---
-title: TEST RENAME VIA MODIFY
+title: Search for articles in Knowledge Base
 labels: 
 ---
 

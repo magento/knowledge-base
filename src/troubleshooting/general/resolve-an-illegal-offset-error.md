@@ -21,7 +21,7 @@ If you enabled the PHP OPcache (which we recommend), this error displays because
 
 To solve the issue, locate your OPcache configuration settings and enable `` opcache.save_comments `` as follows:
 
-#### Step 1: Locate your OPcache configuration
+### Step 1: Locate your OPcache configuration
 
 #### To find OPcache configuration settings:
 
@@ -56,7 +56,7 @@ If you have more than one `` opcache.ini ``, modify all of them.
 
  
 
-#### Step 2: Enable `` opcache.save_comments ``
+### Step 2: Enable `` opcache.save_comments ``
 
 1. Open your OPcache configuration file in a text editor.
 1. Locate `` opcache.save_comments `` and uncomment it if necessary.

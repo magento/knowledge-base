@@ -1,11 +1,9 @@
 ---
-title: Block bad traffic for Magento Commerce Cloud on Fastly level 234
+title: Block malicious traffic for Magento Commerce Cloud on Fastly level
 labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security
 ---
 
-BVLAH BLAH BLAH
-
-This article provides the steps you could take to block malicious traffic, when you suspect that your Magento Commerce Cloud store is experiencing a DDoS attack.
+This article provides the steps you could take to block malicious traffic, when you suspect that your Magento Commerce Cloud store is experiencing a DDoS attack. 
 
 ## Affected products and versions:
 
@@ -21,18 +19,18 @@ To get access to Admin, put your website into maintenance mode as described in [
 
 ## Block traffic by IP
 
-For the Magento Commerce Cloud store, the most effective way to block traffic by specific IP addresses and subnets is adding an ACL for Fastly in the Magento Admin. Following are the steps with links to more detailed instructions:
+For the Magento Commerce Cloud store, the most effective way to block traffic by specific IP addresses and subnets is adding an ACL for Fastly in the Magento Admin. Following are the steps with links to more detailed instructions: 
 
 1. In the Magento Admin, navigate to Stores > Configuration > Advanced > System > Full Page Cache > Fastly Configuration.
 1. [Create a new ACL](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/ACL.md) with a list of IP addresses or subnets you're going to block.
-1. Add it to the ACL list and block as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn Magento module.
+1. Add it to the ACL list and block as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn Magento module. 
 
-## Block traffic by country
+## Block traffic by country 
 
 For the Magento Commerce Cloud store, the most effective way to block traffic by country(s) is adding an ACL for Fastly in the Magento Admin.  
 
 1. In the Magento Admin, navigate to Stores > Configuration > Advanced > System > Full Page Cache > Fastly Configuration.
-1. Select the countries and configure blocking using ACL as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn Magento module.
+1. Select the countries and configure blocking using ACL as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn Magento module. 
 
 ## Block traffic by user agent
 
@@ -67,7 +65,7 @@ Updating your `` robots.txt `` file could help to keep certain search engines, c
 * Robots can ignore your `` robots.txt ``. Especially malware robots, that scan the web for security vulnerabilities, and email address harvesters used by spammers will pay no attention.
 * The `` robots.txt `` file is a publicly available file. Anyone can see what sections of your server you don't want robots to use.
 
-The basic information and default Magento `` robots.txt `` configuration can be found in the [Search Engine Robots](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) DevDocs article.
+The basic information and default Magento `` robots.txt `` configuration can be found in the [Search Engine Robots](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) DevDocs article. 
 
 For general information and recommendations about `` robots.txt ``, see:
 
@@ -75,3 +73,6 @@ For general information and recommendations about `` robots.txt ``, see:
 * [About /robots.txt](https://www.robotstxt.org/robotstxt.html) by robotstxt.org
 
 Work with your developer and/or SEO expert to determine what User Agents you want to allow, or those you want to disallow.
+
+ 
+ 
