@@ -1,6 +1,6 @@
 ---
 title: TEMPLATE - Best Practice
-labels: 
+labels: template
 ---
 
 (this is a template for a single Best Practice article)

@@ -1,6 +1,6 @@
 ---
 title: TEMPLATE - formatting
-labels: 
+labels: new label, NEW LABEL, abc
 ---
 
 # Heading H1

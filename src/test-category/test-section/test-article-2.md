@@ -1,6 +1,6 @@
 ---
 title: TEMPLATE - FAQ (group of questions)
-labels: KCTemplate
+labels: 
 ---
 
 How to use this template:
