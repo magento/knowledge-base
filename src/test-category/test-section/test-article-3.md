@@ -34,4 +34,4 @@ When describing an issue which is found in all supported versions of Magento, pu
 
 ...
 
- 
+
