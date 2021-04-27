@@ -112,7 +112,7 @@ labels:
 
 | Property  | Description |
 | ------------- | ---------- |
-| `title`       | Contains the article title, but doesn't define it. |
+| `title`       | Defines the article title |
 | `labels` | Contains labels that will be added to the article in Magento Help Center. Add labels to describe products, issues, products versions, section and category.  If in doubt, don't add labels. |
 
 ## Report an issue
