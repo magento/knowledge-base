@@ -22,8 +22,8 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
 1. PR approvals flow:
    1. Knowledge Base (KB) writers reviews the PR within several days' time frame and adds label.
    1. KB writer can approve/deny/request changes.
-   2. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
-   3. SME can approve/deny/request changes.
+   1. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
+   1. SME can approve/deny/request changes.
 1. Once all corrections are done (if any requested), and both the KB writer and SME approve the PR, the KB writer imports content to the internal repo and merges it internally.
 1. The  magento/knowledge-base repo synchronizes with the internal one in 20 minutes.
 1. Once the repos are synced, your PR gets closed and you get reward points.
