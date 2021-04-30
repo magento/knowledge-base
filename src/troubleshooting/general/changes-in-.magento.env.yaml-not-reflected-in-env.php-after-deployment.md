@@ -1,5 +1,5 @@
 ---
-title: Changes in .magento.env.yaml not reflected in env.php after deployment
+title: .magento.env.yaml changes not shown in env.php after deploy
 labels: .magento.env.yaml,Magento Commerce Cloud,app/etc/env.php,deploy,deployment,deployment error,env.php,environment variables,php.ini,troubleshooting
 ---
 
@@ -14,7 +14,7 @@ This article provides a solution for the issue where changes in ``  .magento.env
 Changes made in the`` .magento.env.yaml `` file do not affect the `` app/etc/env.php `` generated.
 
 Steps to reproduce  
-  
+
 Change any value in `` .magento.env.yaml `` and push to the server, where it should define the configuration (and deployment settings) for the currently checked-out environment. For steps, refer to Magento DevDocs [Environment Variables > Deploy Variables](https://devdocs.magento.com/cloud/env/variables-deploy.html).
 
 Expected result
@@ -34,7 +34,7 @@ The issue could be caused by the incorrect value of the `` opcache.enable_cli ``
 1. Check that the system is configured according to [Magento Performance Best Practices > Software recommendations](https://devdocs.magento.com/guides/v2.4/performance-best-practices/software.html).
 1. Check if <code style="font-size: 15px;">opcache.enable\_cli</code> directive in <code style="font-size: 15px;">php.ini</code> is set to <code style="font-size: 15px;">0</code> by executing:  
     `` php -i | grep opcache.enable_cli ``  
-    
+
 1. If the output looks like `` opcache.enable_cli=1 ``, edit the `` php.ini `` file in the project root directory and change `` opcache.enable_cli=1 `` to `` opcache.enable_cli=0 ``
 1. Redeploy the project.
 
