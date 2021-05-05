@@ -1,5 +1,5 @@
 ---
-title: How does the base price change affect the shared catalog price?
+title: Base price change affect on shared catalog price
 labels: FAQ,Magento,custom,price,shared,shared_catalog
 ---
 
