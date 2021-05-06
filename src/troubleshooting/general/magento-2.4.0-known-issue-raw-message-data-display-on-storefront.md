@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: raw message data display on storefront
+title: Magento 2.4.0 issue: storefront raw message data display
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,PHP 7.4.2,cookies,error message,known issues,store,troubleshooting
 ---
 

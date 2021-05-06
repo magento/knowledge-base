@@ -1,5 +1,5 @@
 ---
-title: Magento upgrade: compact to dynamic tables 2.2.x, 2.3.x to 2.4.x 
+title: Magento upgrade: compact to dynamic tables 2.2.x, 2.3.x-2.4.x 
 labels: 2.2,2.2.x,2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,MySQL,Pro,Starter,database,known issues,troubleshooting,upgrade
 ---
 
@@ -55,7 +55,7 @@ mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELE
 </li><li>Build the <code>ALTER</code> table list file, and make sure it's complete:<br/><br/>For starter use 3306 as there is only one MySQL instance. <br/><br/>For Pro<br/>
 <pre class="line-numbers language-clike"><code class="language-clike">mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt
 
-fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt 
+fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt
 612 /app/fw0ef0jqfdlwdj/var/alter.txt
 
 fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l

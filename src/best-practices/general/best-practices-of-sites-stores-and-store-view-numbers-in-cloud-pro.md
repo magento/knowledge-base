@@ -1,5 +1,5 @@
 ---
-title: Best practices of sites, stores, and store view numbers in Cloud Pro
+title: Best practices of sites, stores, and store view numbers
 labels: Magento Commerce Cloud,Pro,best practices,performance,stores,views
 ---
 
