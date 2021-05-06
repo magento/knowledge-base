@@ -1,5 +1,5 @@
 ---
-title: Magento Commerce Cloud: Check host’s CPU configuration - application to host resizes
+title: Magento Commerce Cloud: Check host’s CPU configuration
 labels: CPU,Magento,Magento Commerce Cloud,New Relic,New Relic One,configuration,data,how to,queries
 ---
 
