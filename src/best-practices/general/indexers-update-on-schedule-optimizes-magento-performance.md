@@ -3,7 +3,7 @@ title: Indexers "Update On Schedule" optimizes Magento performance
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,best practices,indexers,performance,update on save,update on schedule
 ---
 
-This article provides a fix for poor performance due to indexers being set on _Update on Save_ mode, and how it is a best practice to set indexers to _Update on Schedule_ mode to optimize performance in Magento.
+This article provides a fix for low performance due to indexers being set on _Update on Save_ mode, and how it is a best practice to set indexers to _Update on Schedule_ mode to optimize performance in Magento.
 
 ### Affected products and versions
 
@@ -27,36 +27,36 @@ To avoid this issue, set the indexers to _Update on Schedule_.
 ## Solution
 
 1. To view the current indexer configuration, run the following commands from CLI:  
-    
-    
-    <pre><code class="language-xml">bin/magento indexer:show-mode [indexer]</code></pre>
-    
-      
-     Where `` [indexer] `` is a space-separated list of indexers. 
-    
-    <pre><code class="language-xml">bin/magento indexer:show-mode [indexer]</code></pre>
-    
-    
-    
-      
+
+
+    <pre><code class="language-bash">bin/magento indexer:show-mode [indexer]</code></pre>
+
+
+     Where `` [indexer] `` is a space-separated list of indexers.
+
+    <pre><code class="language-bash">bin/magento indexer:show-mode [indexer]</code></pre>
+
+
+
+
      Omit `` [indexer] `` to show the mode of all indexers.
-    
-    
+
+
  1. To specify the indexer mode, run following command from CLI:  
-    
-    
-    <pre><code class="language-xml">bin/magento indexer:set-mode {realtime|schedule} [indexer]</code></pre>
-    
-      
+
+
+    <pre><code class="language-bash">bin/magento indexer:set-mode {realtime|schedule} [indexer]</code></pre>
+
+
      Where:  
-    
-    
+
+
     * `` realtime ``:    Sets the selected indexers to _Update on Save_.
     * `` schedule ``:    Sets the specified indexers to save according to the Cron schedule. Use this setting to set _Update on Schedule_.
     * `` indexer ``:      Is a space-separated list of indexers. Omit `` [indexer] `` to configure all indexers the same way.
-    
-    
-    
+
+
+
 
 ## Related reading
 
