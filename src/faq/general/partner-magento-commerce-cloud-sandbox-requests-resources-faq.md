@@ -1,5 +1,5 @@
 ---
-title: Partner Magento Commerce Cloud sandbox requests: resources FAQ
+title: Partner Magento Commerce Cloud sandbox requests
 labels: FAQ,Magento Commerce Cloud,cloud sandbox,resources,solution partner,stuck deployment,tech partner
 ---
 
