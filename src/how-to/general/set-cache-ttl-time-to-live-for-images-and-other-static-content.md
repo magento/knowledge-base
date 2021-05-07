@@ -1,5 +1,5 @@
 ---
-title: Set cache TTL (time to live) for images and other static content
+title: Set cache TTL for images and other static content
 labels: File,Magento Commerce Cloud,cache,configuration,devdocs,how to,images,static
 ---
 

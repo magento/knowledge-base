@@ -1,5 +1,5 @@
 ---
-title: Magento best practice: conducting critical actions in Admin Panel
+title: Magento best practice: conducting critical actions in Admin
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,actions,cache invalidation,critical,event,flush,log,move,save
 ---
 
@@ -15,7 +15,7 @@ These critical actions lead to cache invalidation (a procedure for 1 or more obj
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 * Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practice

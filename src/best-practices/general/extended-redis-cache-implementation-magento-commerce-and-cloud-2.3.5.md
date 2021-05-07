@@ -1,5 +1,5 @@
 ---
-title: Extended Redis cache implementation Magento Commerce and Cloud 2.3.5+
+title: Extended Redis cache implementation Magento Commerce 2.3.5+
 labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,Redis,best practices,cache,configuration
 ---
 
@@ -7,7 +7,7 @@ As of Magento Commerce Cloud and Magento Commerce 2.3.5 or higher, it is recomme
 
 The enhancements minimize the number of queries to Redis that are performed on each Magento request.
 
-These optimizations include: 
+These optimizations include:
 
 * Diminish the size of network data transfers between Redis and Magento.
 * Lower Redis consumption of CPU cycles by improving the adapter’s ability to automatically determine what needs to be loaded.

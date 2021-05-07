@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot performance using New Relic on Magento Commerce Cloud
+title: Troubleshoot performance using New Relic on Magento Commerce
 labels: Apdex,CPU,Magento Commerce Cloud,New Relic,New Relic APM,New Relic Infrastructure,New Relic Magento,New Relic performance,how to,performance
 ---
 
