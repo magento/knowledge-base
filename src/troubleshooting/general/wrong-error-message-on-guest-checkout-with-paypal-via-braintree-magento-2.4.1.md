@@ -1,9 +1,9 @@
 ---
-title: Wrong error message on guest checkout with Paypal via Braintree Magento 2.4.1
+title: Magento 2.4.1 wrong message on Paypal via Braintree guest checkout
 labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PayPal,cart,guest checkout,known issues
 ---
 
-This article describes a known Magento 2.4.1 issue where if guest checkout is disabled, a guest customer trying to place an order with PayPal through Braintree gets a non-informative error message. 
+This article describes a known Magento 2.4.1 issue where if guest checkout is disabled, a guest customer trying to place an order with PayPal through Braintree gets a non-informative error message.
 
 ## Affected products and versions
 
@@ -13,14 +13,14 @@ This article describes a known Magento 2.4.1 issue where if guest checkout is di
 ## Issue
 
 When guest checkout is disabled from the backend, and the PayPal through Braintree payment option is selected from the minicart or shopping cart, an unspecific error is shown.  
-  
 
-Prerequisites: 
+
+<u>Prerequisites: </u>
 
 1. In Magento Admin, under Stores > Configuration > Sales > Checkout, set Allow Guest Checkout = _No_.
-1. Enable PayPal through Braintree as described in [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) section of Magento User Guide. 
+1. Enable PayPal through Braintree as described in [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) section of Magento User Guide.
 
-Steps to reproduce:
+<u>Steps to reproduce:</u>
 
 1. Add product to cart as a guest.
 1. Select Minicart and click Pay with PayPal.
@@ -28,27 +28,23 @@ Steps to reproduce:
 1. Select shipping method.
 1. Click Place Order.
 
-Expected result  
+<u>Expected result </u>
 When a customer clicks on the PayPal button on mini-cart or on the Shopping Cart page, the following  message should be displayed to the customer:
 
 <pre class="language-bash">To check out, please sign in with your email address.</pre>
 
 If you enable direct Paypal without using Braintree, this scenario behaves differently. It doesn't allow the guest user to continue with the payment process. It will show the following message when the guest user clicks on PayPal button in the minicart:
 
-<div>
-<div>
-<pre class="language-bash">To check out, please sign in with your email address.</pre>
-</div>
-</div>
 
-Actual result  
+<pre class="language-bash">To check out, please sign in with your email address.</pre>
+
+
+<u>Actual result</u>  
 The customer is redirected to the Shopping Cart page and shows the following message:
 
-<div>
-<div>
+
 <pre class="language-bash">The customer email is missing. Enter and try again.</pre>
-</div>
-</div>
+
 
 ## Workaround
 
