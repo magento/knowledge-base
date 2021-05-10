@@ -17,16 +17,16 @@ When guest checkout is disabled from the backend, and the PayPal through Braintr
 
 <u>Prerequisites: </u>
 
-1. In Magento Admin, under Stores > Configuration > Sales > Checkout, set Allow Guest Checkout = _No_.
+1. In Magento Admin, under **Stores** > **Configuration** > **Sales** > **Checkout**, set **Allow Guest Checkout** = _No_.
 1. Enable PayPal through Braintree as described in [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) section of Magento User Guide.
 
 <u>Steps to reproduce:</u>
 
 1. Add product to cart as a guest.
-1. Select Minicart and click Pay with PayPal.
+1. Select Minicart and click **Pay with PayPal**.
 1. Complete the Paypal checkout, and then you will land on the Order Review page.
 1. Select shipping method.
-1. Click Place Order.
+1. Click **Place Order**.
 
 <u>Expected result </u>
 When a customer clicks on the PayPal button on mini-cart or on the Shopping Cart page, the following  message should be displayed to the customer:
