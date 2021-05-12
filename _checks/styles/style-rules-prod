@@ -31,7 +31,7 @@ exclude_rule 'MD034'
 rule 'MD035' # Horizontal rule style; default "consistent"
 exclude_rule 'MD036' # Emphasis used instead of a header
 rule 'MD037' # Spaces inside emphasis markers
-rule 'MD038' # Spaces inside code span elements
+exclude_rule 'MD038' # Spaces inside code span elements
 exclude_rule 'MD039'
 rule 'MD040' # Fenced code blocks should have a language specified
 exclude_rule 'MD041'
