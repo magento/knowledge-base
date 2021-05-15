@@ -1,5 +1,5 @@
 ---
-title: Configurable product swatches not displayed as crossed out when out of stock 
+title: Configurable product swatches not displayed as crossed out when out of stock
 labels: 2.2.2,Magento Commerce,Magento Commerce Cloud,configurable,known issues,patch,troubleshooting
 ---
 
@@ -9,7 +9,7 @@ This article provides a patch for the known Magento Commerce 2.2.2 issue related
 
 When you have a configurable product and for certain combination of options the related simple product is out of stock, the swatch is still available and can be selected on the storefront.
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce</span> :
 
 1. In the Magento Admin, create a configurable product with options for two attributes: color(red, black) and size (S,M,L).
 1. Set Quantity as "1" for each corresponding simple product.
@@ -18,18 +18,17 @@ Steps to reproduce:
 1. Make sure backorders are not allowed.
 1. On the storefront, navigate to the same product page and select the same options: red, M.
 
-Expected result:
+ <span class="wysiwyg-underline">Expected result</span> :
 
 The red, M swatch has a red slash and cannot be selected.
 
-Actual result:  
-The red, M swatch can be selected.
+ <span class="wysiwyg-underline">Actual result</span> :The red, M swatch can be selected.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-8215\_EE\_2.2.2\_v1.composer.patch](https://support.magento.com/hc/article_attachments/360025640692/MDVA-8215_EE_2.2.2_v1.composer.patch)
+ [Download MDVA-8215\_EE\_2.2.2\_v1.composer.patch](assets/MDVA-8215_EE_2.2.2_v1.composer.patch) 
 
 ### Compatible Magento versions:
 

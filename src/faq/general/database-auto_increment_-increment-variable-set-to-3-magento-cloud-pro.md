@@ -11,3 +11,4 @@ The Galera database cluster is used, which is a database cluster with one MariaD
 
 * [Pro Artchitercture](https://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
 * [Install Magento prerequisites: database](https://devdocs.magento.com/guides/v2.1/cloud/before/before-workspace-magento-prereqs.html#database)
+

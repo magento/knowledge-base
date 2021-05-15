@@ -1,5 +1,5 @@
 ---
-title:  Web Application Firewall (WAF) powered by Fastly: the FAQ
+title: Web Application Firewall (WAF) powered by Fastly: the FAQ
 labels: FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security
 ---
 
@@ -7,7 +7,7 @@ labels: FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security
 
 Web Application Firewalls (WAFs) prevent [malicious traffic](https://support.magento.com/hc/en-us/articles/360039447892-How-to-block-malicious-traffic-for-Magento-Commerce-Cloud-on-Fastly-level) from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network.
 
-Magento's Cloud WAF provides a WAF policy with a rule set designed to protect your Magento Commerce web applications from a wide range of attacks. 
+Magento's Cloud WAF provides a WAF policy with a rule set designed to protect your Magento Commerce web applications from a wide range of attacks.
 
 The WAF examines web and admin traffic to identify any suspicious activity. It evaluates the GET and the POST traffic (HTTP API calls) and applies the rule set to determine which traffic to block. The WAF can block a wide variety of attacks including SQL injection attacks, cross-site scripting attacks, data exfiltration attacks, and HTTP protocol violations.
 
@@ -21,7 +21,7 @@ Yes, the Cloud WAF service is included in your Magento Commerce Cloud subscripti
 
 Yes.
 
-## If my Magento Commerce Cloud account manages sites on multiple domains, is the WAF profile tuned for each domain, or collectively for all domains? 
+## If my Magento Commerce Cloud account manages sites on multiple domains, is the WAF profile tuned for each domain, or collectively for all domains?
 
 The WAF is tuned collectively for all domains under a single Cloud Account.
 
@@ -39,7 +39,7 @@ A blocked request returns a 403 page with a request identifier.
 
 You can customize this page as long as the customization includes the request identifier. Contact your technical account manager for details.
 
-## How do we update WAF rule sets?  How quickly can a WAF rule be changed or updated and applied globally in production? 
+## How do we update WAF rule sets?  How quickly can a WAF rule be changed or updated and applied globally in production?
 
 As a part of the Cloud WAF service, Fastly manages rule updates from commercial third parties, Fastly research, and open sources. They update published rules into a policy as needed, or when changes to the rules are available from their respective sources. New rules that match the published classes of rules are also inserted into the WAF instance of any service once it is enabled. This helps ensure immediate coverage for new or evolving exploits. You can review information [about rule updates and maintenance](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) on the Fastly documentation site.
 
@@ -49,33 +49,33 @@ The WAF solution that is sold directly by Fastly is a paid offering that include
 
 ## What types of security threats does WAF protect against?
 
-<table>
+<table class="table-basic" style="width: 649px;">
 <tbody>
 <tr>
-<th>Threat</th>
-<th>WAF protection</th>
+<th style="width: 145.5px; text-align: left;">Threat</th>
+<th style="width: 497.5px; text-align: left;">WAF protection</th>
 </tr>
 <tr>
-<td>SQL injection attacks</td>
-<td>Both the OWASP ModSecurity Core Rule Set and the TrustWave commercial rule set include specific filters for SQL injection attacks and its variants.</td>
+<td style="width: 145.5px; vertical-align: top;">SQL injection attacks</td>
+<td style="width: 497.5px;">Both the OWASP ModSecurity Core Rule Set and the TrustWave commercial rule set include specific filters for SQL injection attacks and its variants.</td>
 </tr>
 <tr>
-<td>
+<td style="width: 145.5px; vertical-align: top;">
 <p>Cross-site injection</p>
 </td>
-<td>The OWASP rule set protects against cross-site injection attacks. Fastly leverages a scoring mechanism for each request looking for cross-site injection and other threats to the origin. We score every request against the entire core rule set and validate that the request score is below a configurable threshold in order for it to pass.</td>
+<td style="width: 497.5px;">The OWASP rule set protects against cross-site injection attacks. Fastly leverages a scoring mechanism for each request looking for cross-site injection and other threats to the origin. We score every request against the entire core rule set and validate that the request score is below a configurable threshold in order for it to pass.</td>
 </tr>
 <tr>
-<td>Brute force attacks</td>
-<td>Covered by the OWASP rule set. Fastly also blocks brute force activity by using VCL code that recognizes specific sources, requests, or attempts to brute force or overwhelm security controls prior to any traffic reaching the origin datacenter.</td>
+<td style="width: 145.5px; vertical-align: top;">Brute force attacks</td>
+<td style="width: 497.5px;">Covered by the OWASP rule set. Fastly also blocks brute force activity by using VCL code that recognizes specific sources, requests, or attempts to brute force or overwhelm security controls prior to any traffic reaching the origin datacenter.</td>
 </tr>
 <tr>
-<td>Network attacks</td>
-<td>Network attacks, or attacks targeting network infrastructure, are managed automatically by Fastly. Fastly does not pass DNS to origin, and traffic that does not match a narrow HTTP, HTTPS or DNS profile is discarded at the edge of the network. Attacks targeting control protocols are defended against through authentication of endpoints throughout the network. Additionally, network protocols used within the Fastly network are hardened to ensure that they cannot be leveraged as a means of amplification or reflection. Customers are responsible for protecting against attacks that bypass the Fastly network by leveraging the Fastly Cache IP address space, published to our customers as a component of our CDN service. It's recommended that origin IP address space not be published in public DNS to ensure bypass attacks cannot use these addresses as targets.</td>
+<td style="width: 145.5px; vertical-align: top;">Network attacks</td>
+<td style="width: 497.5px;">Network attacks, or attacks targeting network infrastructure, are managed automatically by Fastly. Fastly does not pass DNS to origin, and traffic that does not match a narrow HTTP, HTTPS or DNS profile is discarded at the edge of the network. Attacks targeting control protocols are defended against through authentication of endpoints throughout the network. Additionally, network protocols used within the Fastly network are hardened to ensure that they cannot be leveraged as a means of amplification or reflection. Customers are responsible for protecting against attacks that bypass the Fastly network by leveraging the Fastly Cache IP address space, published to our customers as a component of our CDN service. It's recommended that origin IP address space not be published in public DNS to ensure bypass attacks cannot use these addresses as targets.</td>
 </tr>
 <tr>
-<td>JavaScript injection attacks</td>
-<td> WAF rules protect against malicious JavaScript code being inserted into client communications with web services. Common exploit patterns or scores are filtered through the WAF to ensure the integrity of the origin service.</td>
+<td style="width: 145.5px; vertical-align: top;">JavaScript injection attacks</td>
+<td style="width: 497.5px;">WAF rules protect against malicious JavaScript code being inserted into client communications with web services. Common exploit patterns or scores are filtered through the WAF to ensure the integrity of the origin service.</td>
 </tr>
 </tbody>
 </table>
@@ -88,10 +88,6 @@ Magento's WAF offering includes protection against OWASP Top-10 threats as part 
 * rule customizations
 * bot mitigation
 * malware protection
-
- 
- 
-
 ## How is my site performance affected by the WAF?
 
 An estimated 1.5 milliseconds (ms) to 20 ms of latency is introduced to every non-cached request.
@@ -102,7 +98,7 @@ Yes, customers can enable blocking by country and access control list (ACL) from
 
 ## Where can I check the operational status of my WAF service?
 
-Overall WAF service availability is reported on the [Fastly Status page](https://status.fastly.com/). Availability reporting for individual customers' WAF is not provided.
+Overall WAF service availability is reported on the [Fastly Status page](https://status.fastly.com/) . Availability reporting for individual customers' WAF is not provided.
 
 ## Does Magento provide Incident Management for the WAF service?
 
@@ -112,7 +108,7 @@ At this time, Incident Management is not offered.
 
 Although Magento does not have a Security Operations Center, we do have a security operations process that allows us to engage the right resources to respond to security incidents in real-time. We also offer 24/7/365 follow-the-sun support.
 
-You can also get Magento-related security news and updates from the [Security Center](https://magento.com/security).
+You can also get Magento-related security news and updates from the [Security Center](https://magento.com/security) .
 
 ## What Support is available?
 
@@ -126,7 +122,7 @@ See the [Cloud SLA](https://magento.com/sites/default/files/magento-support-serv
 
 ## If the WAF is blocking legitimate traffic or causing other issues, how can I get help?
 
-[Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) at the [Magento Help Center](https://support.magento.com). Please include indicate that the ticket is related to the WAF service and include the blocked request identifier (ID).
+ [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) at the [Magento Help Center](https://support.magento.com) . Please include indicate that the ticket is related to the WAF service and include the blocked request identifier (ID).
 
 The Magento support ticketing system tracks communication between our support engineers and a customer's personnel. This system provides a time-stamped transcript of communications, and sends emails to customer and Magento staff as tickets are updated.
 
@@ -134,7 +130,7 @@ For all Incidents submitted online, Incident receipt will be confirmed via Magen
 
 The following table summarizes support channels and availability for WAF Support:
 
-<table>
+<table class="table-basic">
 <tbody>
 <tr>
 <th>Support offering</th>
@@ -159,7 +155,7 @@ The following table summarizes support channels and availability for WAF Support
 </tbody>
 </table>
 
-_\* Magento's toll-free Support telephone line is reserved for Priority 1 Incidents only. Non-Priority 1 calls will slow down overall response to issues_
+ *\* Magento's toll-free Support telephone line is reserved for Priority 1 Incidents only. Non-Priority 1 calls will slow down overall response to issues* 
 
 ## How are false positives triaged?
 

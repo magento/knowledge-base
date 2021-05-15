@@ -11,20 +11,20 @@ This article provides a solution for issues with deploying Magento Cloud caused 
 
 ## Issue
 
-Steps to reproduce
+ <span class="wysiwyg-underline">Steps to reproduce</span> 
 
-Prerequisites: The Cloud license is associated with Contact A (email address: _<u>first@e.mail</u>_)
+Prerequisites: The Cloud license is associated with Contact A (email address: *<u>first@e.mail</u>* )
 
 1. Contact A created Magento Commerce access keys on their account (Key X) and installs it on the Cloud.
-1. Contact B (email address: _<u>second@e.mail</u>_) purchased an extension using his account and created the access keys for installing the extension (Key Y).
+1. Contact B (email address: *<u>second@e.mail</u>* ) purchased an extension using his account and created the access keys for installing the extension (Key Y).
 1. Contact A then left the company, and the license (ownership) was then transferred to Contact B.
 1. System integrator tries to install the extension on the Cloud environment using Key X.
 
-Expected result
+ <span class="wysiwyg-underline">Expected result</span> 
 
 Extension is successfully installed.
 
-Actual result
+ <span class="wysiwyg-underline">Actual result</span> 
 
 Extension is not installed, because deployment fails.
 
@@ -40,19 +40,14 @@ If a deployment failed after a change was made to the Primary Contact on the acc
 
 If you do not have access to the [Magento Marketplace](https://marketplace.magento.com/) account associated with the old key, [contact Magento Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to have the key disabled.
 
-If you have access to the Marketplace account associated with the old key, take the following steps to disable the key: 
+If you have access to the Marketplace account associated with the old key, take the following steps to disable the key:
 
 1. Log in to the [Magento Marketplace](https://marketplace.magento.com/) using the credentials from the old account.
-1. Click the account name in the top-right of the page and select My Profile.
-    
-    
-1. Click Access Keys in the Marketplace tab.
-    
-    
-1. Click Disable next to the access key. 
+1. Click the account name in the top-right of the page and select **My Profile** .
+1. Click **Access Keys** in the Marketplace tab.    ![magento_products_access_keys_2.4.1.png](assets/magento_products_access_keys_2.4.1.png)    
+1. Click **Disable** next to the access key.
 
 ## Related reading
 
 * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
 
- 

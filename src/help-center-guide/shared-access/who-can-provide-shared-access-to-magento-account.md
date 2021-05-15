@@ -9,7 +9,7 @@ Only the Account Owner (also referred to as the Primary Account Holder) with the
 
 No.
 
-Managing users and their access is the customer's responsibility, especially in the shared access perspective. Customers are encouraged to add users with shared access themselves, using the [Magento Account page](https://account.magento.com/).
+Managing users and their access is the customer's responsibility, especially in the shared access perspective. Customers are encouraged to add users with shared access themselves, using the [Magento Account page](https://account.magento.com/) .
 
 ## Can users with shared access transfer it to others?
 

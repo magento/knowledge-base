@@ -17,31 +17,30 @@ Possible problems: misprints in account details (usernames, passwords), invalid 
 
 Make sure you have applied the same settings and have enabled the same functionalities in both Magento Admin and PayPal account settings.
 
-### Example settings issue  
+### Example settings issue **** 
 
-When applying the PayPal Express Checkout solution, transactions based on AVS/CSC responses must be declined in PayPal Manager (Service Settings > Set Up > Security Options) and in Magento Admin (Stores > Configuration > Sales > Payment methods...).  
-For more info, see the documentation: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm), [Magento](http://docs.magento.com/m2/ee/user_guide/payment/paypal-express-checkout.html).
+When applying the PayPal Express Checkout solution, transactions based on AVS/CSC responses must be declined in **PayPal Manager** (Service Settings > Set Up > Security Options) and in **Magento Admin** ( **Stores** > Configuration > **Sales** > **Payment methods** ...).
+![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
+For more info, see the documentation: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) , [Magento](http://docs.magento.com/m2/ee/user_guide/payment/paypal-express-checkout.html) .
 
 ## Allow reference transactions
 
-If your PayPal payment method involves API with [Billing Agreements and Reference Transactions](https://developer.paypal.com/docs/classic/express-checkout/integration-guide/ECReferenceTxns/), make sure these are enabled and configured correctly in your settings.
+If your PayPal payment method involves API with [Billing Agreements and Reference Transactions](https://developer.paypal.com/docs/classic/express-checkout/integration-guide/ECReferenceTxns/) , make sure these are enabled and configured correctly in your settings.
 
 ### Additional troubleshooting
 
 See the following articles:
 
-* [PayPal gateway rejected request - duplicate invoice issue](https://support.magento.com/hc/en-us/articles/115002457473)
-    
-    
-* [Change increment ID for new store entity](https://support.magento.com/hc/en-us/articles/360004002914)
-    
-    
-
+<ul><li>
+<p title="PayPal gateway rejected request - duplicate invoice issue"><a href="https://support.magento.com/hc/en-us/articles/115002457473">PayPal gateway rejected request - duplicate invoice issue</a></p>
+</li><li>
+<p title="Change increment ID for new store entity"><a href="https://support.magento.com/hc/en-us/articles/360004002914">Change increment ID for new store entity</a></p>
+</li></ul>
 ## Contact Support to collect advanced payment logs
 
 To troubleshoot complicated payment issues, the Magento Support Team may ask you to apply a dedicated patch to enable advanced payment logging. In this case, your steps should be the following:
 
-[Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) with the following details:
+ [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) with the following details:
 
 * Specify your issue with as many details as possible
 * List the steps you attempted from this article, knowledge base, and other resources. Include all results.
@@ -49,6 +48,7 @@ To troubleshoot complicated payment issues, the Magento Support Team may ask you
 
 If you receive the Advanced Payment Logging patch:
 
-* Apply the patch 
-* Collect logs and attach them to your [support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket)
+* Apply the patch
+* Collect logs and attach them to your [support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) 
 * Wait for further recommendations from the Magento Support Team
+

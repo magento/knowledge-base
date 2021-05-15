@@ -16,50 +16,54 @@ Changes you make in the database are not reflected on the storefront, or there i
 
 ## Cause
 
-If your indexers are [configured to update by schedule](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), the issue might be caused by one or more tables with change logs being too large or MySQL triggers being not set up.
+If your indexers are [configured to update by schedule](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) , the issue might be caused by one or more tables with change logs being too large or MySQL triggers being not set up.
 
 ### Oversized change log tables
 
-The change log tables grow that big if the `` indexer_update_all_views `` cron job is not completed successfully multiple times.
+The change log tables grow that big if the `indexer_update_all_views` cron job is not completed successfully multiple times.
 
-Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `` indexer_update_all_views `` cron job. There are multiple change log tables in a Magento database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + ‘\_cl’,  for example `` catalog_category_product_cl ``, `` catalog_product_category_cl ``. You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) article on Magento DevDocs. 
+Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `indexer_update_all_views` cron job. There are multiple change log tables in a Magento database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + ‘\_cl’,  for example `catalog_category_product_cl` , `catalog_product_category_cl` . You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) article on Magento DevDocs.
 
 ### MySQL database triggers not set up
 
-You would suspect database triggers not being set up, if after adding or changing an entity (product, category, target rule, and so on) - no records are added to the corresponding change log table. 
+You would suspect database triggers not being set up, if after adding or changing an entity (product, category, target rule, and so on) - no records are added to the corresponding change log table.
 
 ## Solution
 
-<p class="warning">We strongly recommend creating a database backup before performing any manipulations, and avoiding them during high site load periods.</p>
+>![warning]
+>
+>We strongly recommend creating a database backup before performing any manipulations, and avoiding them during high site load periods.
 
 ### Avoid change log tables being oversized
 
-Ensure that the `` indexer_update_all_views `` cron job is always successfully completed. 
+Ensure that the `indexer_update_all_views` cron job is always successfully completed.
 
-You can use the following SQL query to get all failed instances of the `` indexer_update_all_views ``  cron job:  
+You can use the following SQL query to get all failed instances of the `indexer_update_all_views` cron job:
 
-<pre><code class="language-sql">  select * from cron_schedule where job_code = "indexer_update_all_views" and status
-  &lt;> "success" and status &lt;> "pending";
-</code></pre>
+```sql
+select * from cron_schedule where job_code = "indexer_update_all_views" and status
+  <> "success" and status <> "pending";
+```
 
-Or you can check its status in the logs by searching for the `` indexer_update_all_views `` entries:
+Or you can check its status in the logs by searching for the `indexer_update_all_views` entries:
 
-* `` &lt;install_directory>/var/log/cron.log `` - for versions 2.3.1+ and 2.2.8+
-* `` &lt;install_directory>/var/log/system.log `` - for earlier versions
+* `<install_directory>/var/log/cron.log` - for versions 2.3.1+ and 2.2.8+
+* `<install_directory>/var/log/system.log` - for earlier versions
 
 ### Re-set MySQL table triggers
 
 To set up the missing MySQL table triggers, you need to re-set the indexer mode:
 
-1)     switch to 'On Save'
+1. switch to 'On Save'
 
 2)    switch back to 'On Schedule'.
 
 Use the following command to perform this operation.
 
-<pre><code class="language-bash"> php bin/magento indexer:set-mode {realtime|schedule} [indexerName]</code></pre>
+```bash
+php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
+```
 
 ## Related reading
 
-* [MySQL tables are too large](https://support.magento.com/hc/en-us/articles/360038862691)
-* [Indexer overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview)
+<ul><li title="MySQL tables are too large"><a href="https://support.magento.com/hc/en-us/articles/360038862691">MySQL tables are too large</a></li><li title="MySQL tables are too large"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Indexer overview > Mview</a></li></ul>

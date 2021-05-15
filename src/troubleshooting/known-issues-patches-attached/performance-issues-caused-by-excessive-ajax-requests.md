@@ -1,11 +1,13 @@
 ---
-title: Performance issues caused by excessive Ajax requests 
+title: Performance issues caused by excessive Ajax requests
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,banner,known issues,patch,performance,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce performance issue caused by excessive Ajax requests.
 
-The issue was fixed in Magento Commerce 2.3.1. ## Issue
+The issue was fixed in Magento Commerce 2.3.4.
+
+## Issue
 
 Magento might be sending redundant [Ajax requests](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) from the storefront to the server, to get the banner information and customer information. These Ajax requests have a performance impact, especially in high-load (high-volume and high-traffic) conditions. So if the Banner functionality is not used, it is recommended that you completely [disable the Magento Banner module output](https://support.magento.com/hc/en-us/articles/360035285852) and apply the patch to improve retrieving customer information.
 
@@ -13,7 +15,7 @@ Magento might be sending redundant [Ajax requests](https://support.magento.com/h
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download the MDVA-24597\_EE\_2.2.9\_COMPOSER\_v1.patch](assets/MDVA-24597_EE_2.2.9_COMPOSER_v1.patch)
+ [Download the MDVA-24597\_EE\_2.2.9\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360052613331/MDVA-24597_EE_2.2.9_COMPOSER_v1.patch) 
 
 ### Compatible Magento versions
 

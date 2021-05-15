@@ -1,5 +1,5 @@
 ---
-title: Applying a patch takes your site down 
+title: Applying a patch takes your site down
 labels: Magento Commerce,Magento Commerce Cloud,patch,remove patch,troubleshooting
 ---
 
@@ -24,42 +24,28 @@ Remove the patch. The method of patch removal is different for Magento Commerce 
 
 ### Magento Commerce, Magento Open Source, all 1.X versions
 
-For Magento Commerce and Magento Open Source 1.X versions, 
+For Magento Commerce and Magento Open Source 1.X versions,
 
-* Run the following SSH command:
-    
-    <pre><code class="language-git">sh SUPEE_patch --revert</code></pre>
-    
-    
+* Run the following SSH command:    ```git    sh SUPEE_patch --revert    ```    
 
 ### Magento Commerce, Magento Open Source, all 2.X versions
 
-For Magento Commerce and Magento Open Source 2.X versions, 
+For Magento Commerce and Magento Open Source 2.X versions,
 
-1. Run the following SSH command:
-    
-    <pre><code class="language-git">patch -p1 -R &lt; <code>%patch_name%</code>.composer.patch</code></pre>
-    
-    (If the above command does not work, try using `` -p2 `` instead of `` -p1 ``)
-1. For the changes to be reflected, refresh the cache in the Admin under System > Cache Management.
+1. Run the following SSH command:    <pre><code class="language-git">patch -p1 -R <<code>%patch_name%</code>.composer.patch</code></pre>    (If the above command does not work, try using `-p2` instead of `-p1` )
+1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management** .
 
 ### Magento Commerce Cloud, all versions
 
 For Magento Commerce Cloud, all versions,
 
-1. Remove the `` %patch_name%.composer.patch `` file(s) from the `` m2-hotfixes `` directory.
-1. Commit and push your code changes:
-    
-    
-    
-    <pre><code class="language-git">git commit -m "Remove %patch_name%.composer.patch patch" &amp;&amp; git push origin</code></pre>
-    
-    
+1. Remove the `%patch_name%.composer.patch` file(s) from the `m2-hotfixes` directory.
+1. Commit and push your code changes:    ```git    git commit -m "Remove %patch_name%.composer.patch patch" && git push origin    ```    
 
  
-
 ## Related reading
 
 * [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731)
 * [Apply patches (Magento Commerce Cloud)](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)
 * [How to Apply and Revert \[Magento 1\] Patches](https://devdocs.magento.com/guides/m1x/other/ht_install-patches.html)
+

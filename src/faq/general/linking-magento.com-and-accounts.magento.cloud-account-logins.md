@@ -9,16 +9,16 @@ Users at [accounts.magento.cloud](https://accounts.magento.cloud/) can connect t
 
 ## Method 1
 
-1. Go to Account Settings at <https://accounts.magento.cloud/user> after logging in with your preferred method.
-1. Open the Single Sign-on section of the page.
-1. If the Provider: Magento.com reports “Status Not Connected”, select the Connect with Magento.com button.
-1. You will be redirected to <https://account.magento.com/applications/customer/login/>.
+1. Go to **Account Settings** at [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) after logging in with your preferred method.
+1. Open the **Single Sign-on** section of the page.
+1. If the **Provider: Magento.com** reports “Status Not Connected”, select the **Connect with Magento.com** button.
+1. You will be redirected to [https://account.magento.com/applications/customer/login/](https://account.magento.com/applications/customer/login/) .
 1. From there, you can either create a Magento account, or log in to an existing one.
 
 ## Method 2
 
-1. Log in to [https://account.magento.com](https://account.magento.com/).
-1. Navigate to a separate tab to <https://accounts.magento.cloud/user>.
-1. Click “Connect with [Magento.com](https://account.magento.com/customer/account/login/)”.
+1. Log in to [https://account.magento.com](https://account.magento.com/) .
+1. Navigate to a separate tab to [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) .
+1. Click “Connect with [Magento.com](https://account.magento.com/customer/account/login/) ”.
 
  

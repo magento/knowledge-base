@@ -1,5 +1,5 @@
 ---
-title: Shipping address not saved post page refresh on checkout 
+title: Shipping address not saved post page refresh on checkout
 labels: 2.2.3,Magento Commerce,known issues,patch,shipping address not saved,troubleshooting
 ---
 
@@ -9,9 +9,9 @@ This article provides a patch for the known Magento Commerce 2.2.3 issue where t
 
 Customers go through guest checkout and complete all forms including the shipping address. They get to the Review and payments section and reload the page. The form is empty, and they need to re-enter the shipping address again. Persistent shopping cart functionality is enabled.
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce</span> :
 
-Prerequisites: The persistent shopping cart functionality is enabled. Check if it is enabled in the Admin, under Stores > Configuration > Customers or Stores > Configuration > Sales, depending on your Magento version.
+Prerequisites: The persistent shopping cart functionality is enabled. Check if it is enabled in the Admin, under **Stores** > **Configuration** > **Customers** or **Stores** > **Configuration** > **Sales,** depending on your Magento version.
 
 1. Go to the store front.
 1. Add products to the shopping cart.
@@ -21,17 +21,15 @@ Prerequisites: The persistent shopping cart functionality is enabled. Check if i
 1. Double check that you see the shipping address in the Ship to section.
 1. Refresh the page.
 
-Expected result:  
- You are able to continue checkout and all data is saved.
+ <span class="wysiwyg-underline">Expected result</span> : You are able to continue checkout and all data is saved.
 
-Actual result:  
- Shipping address is empty, you need to-renter it.
+ <span class="wysiwyg-underline">Actual result</span> : Shipping address is empty, you need to-renter it.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-9718\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-9718_EE_2.2.3_COMPOSER_v1.patch)
+ [Download MDVA-9718\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025238631/MDVA-9718_EE_2.2.3_COMPOSER_v1.patch) 
 
 ### Compatible Magento versions
 

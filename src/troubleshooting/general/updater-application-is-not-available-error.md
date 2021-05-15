@@ -9,7 +9,7 @@ This article talks about the solution for the "updater application is not availa
 
 The following message is displayed in the readiness check:
 
-![Screen_Shot_2019-08-29_at_1.39.12_PM.png](https://support.magento.com/hc/article_attachments/360037722712/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
+![Screen_Shot_2019-08-29_at_1.39.12_PM.png](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
 
 ### Affected products/versions
 
@@ -17,7 +17,6 @@ The following message is displayed in the readiness check:
 * Magento Open Source 2.2.x, 2.3.x
 
  
-
 ## Solution
 
-To resolve this issue, see if there is a <code class="highlighter-rouge">&lt;magento\_root>/update</code> directory that contains files and subdirectories. Otherwise, see [Set up the updater](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html).
+To resolve this issue, see if there is a `<magento_root>/update` directory that contains files and subdirectories. Otherwise, see [Set up the updater](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) .

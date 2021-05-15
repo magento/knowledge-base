@@ -27,3 +27,4 @@ If the report is still in inaccurate, don't worry - our support team is happy to
 * [Conducting new analyses](https://support.magento.com/hc/en-us/articles/360016505992)
 * [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
+

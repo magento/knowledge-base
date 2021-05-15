@@ -5,24 +5,32 @@ labels: Error,Exception,Magento Commerce,Magento Commerce Cloud,Redis,Reflection
 
 This article provides a solution for the Reflection Exception error, during installation.
 
-## Details
+<h2 id="details">Details</h2>
 
 During the installation, a message similar to the following displays:
 
-<pre><code class="language-php">[ERROR] exception 'ReflectionException' with message 'Class Magento\Framework\StoreManagerInterface does not exist' in /&lt;path>/lib/internal/Magento/Framework/Code/Reader/ClassReader.php</code></pre>
+```php
+[ERROR] exception 'ReflectionException' with message 'Class Magento\Framework\StoreManagerInterface does not exist' in /<path>/lib/internal/Magento/Framework/Code/Reader/ClassReader.php
+```
 
-## Solution
+<h2 id="solution">Solution</h2>
 
-Clear all directories and files under Magento's `` var `` subdirectory and install the Magento software again.
+Clear all directories and files under Magento's `var` subdirectory and install the Magento software again.
 
-As the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) or as a user with `` root `` privileges, enter the following commands:
+As the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) or as a user with `root` privileges, enter the following commands:
 
-<pre><code class="language-bash">$ cd &lt;your Magento install directory>/var</code></pre>
+```bash
+$ cd <your Magento install directory>/var
+```
 
-<pre><code class="language-bash">$ rm -rf var/cache/* di/* generation/* page_cache/*</code></pre>
+```bash
+$ rm -rf var/cache/* di/* generation/* page_cache/*
+```
 
-### Redis
+<h3 id="redis">Redis</h3>
 
 If you use Redis and still get an error, clear the Redis cache as follows:
 
-<pre><code class="language-bash">$ redis-cli FLUSHALL</code></pre>
+```bash
+$ redis-cli FLUSHALL
+```

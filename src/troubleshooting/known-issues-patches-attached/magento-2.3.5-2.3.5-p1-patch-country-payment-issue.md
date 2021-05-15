@@ -16,61 +16,59 @@ When a store has Amazon Pay and another payment assigned to different countries,
 
 A web page refresh is a workaround for the issue.
 
-To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch). 
+To resolve this issue and remove the error, we have created a [patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch) .
 
-Prerequisites:
+ <span class="wysiwyg-underline">Prerequisites</span> :
 
 * A simple product is created.
-* Check / Money order are enabled only for specific countries (at Store > Configuration; Sales > Payment Methods).
+* **Check / Money order** are enabled only for specific countries (at **Store** > **Configuration** ; **Sales** > **Payment Methods** ).
 
 * Example: Payment from Applicable Countries = Specific Countries
 * Example: Payment from Specific Countries = United Kingdom
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce</span> :
 
 1. Go to the Storefront as a Guest.
 1. Add a simple product to the shopping cart.
 1. Go to Checkout.
 1. Fill the form with valid data.
 
-* Country = _United States_
+* Country = *United States* 
 
-<li>Select shipping rate and go Next.</li>
+1. Select shipping rate and go **Next** .
 
 * Payment step is opened.
 * There are no available payments.
-* Message: No Payment method available.
-* There is no Place Order button.
+* Message: **No Payment method available.** 
+* There is no **Place Order** button.
 
-<li>Go back to the Shipping Step and change the value to:</li>
+1. Go back to the **Shipping Step** and change the value to:
 
-* Country = _United Kingdom_
+* Country = *United Kingdom* 
 
-<li>Select shipping rate and go Next.</li>
+1. Select shipping rate and go **Next** .
 
-Expected result:  
-The Payment step opens.
+ <span class="wysiwyg-underline">Expected result</span> : **The Payment step opens.** 
 
-* Cash On Delivery appears.
-* Check / Money order appears.
-* The Place Order button appears.
+* **Cash On Delivery** appears.
+* **Check / Money order** appears.
+* The **Place Order** button appears **.** 
 
-Actual result:  
-The Payment step opens.
+ <span class="wysiwyg-underline">Actual result</span> : **The Payment step opens.** 
 
 * There are no available payments.
-* Message: No Payment method available.
-* There is no Place Order button.
+* Message: **No Payment method available** .
+* There is no **Place Order** button.
 
 ## Solution
 
-[Apply the patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch) below.
+ [Apply the patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch) below.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch)
+ [Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch) 
 
 ### Compatible Magento versions:
 

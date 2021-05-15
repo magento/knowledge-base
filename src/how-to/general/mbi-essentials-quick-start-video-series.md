@@ -47,7 +47,7 @@ In this video, you'll learn:
 * How to use filter operators
 * How to apply a filter set to a metric
 * How to apply a filter set to a calculated data dimension
-* Written Instructions: [Creating filter sets for metrics](https://support.magento.com/hc/en-us/articles/360016505492)
+* Written Instructions: [Creating filter sets for metrics](https://support.magento.com/hc/en-us/articles/360016505492) 
 
 ## Saving and sharing
 
@@ -72,6 +72,7 @@ You can also head over to the following sections:
 * [Analyses Library: Analyses for Pro](https://support.magento.com/hc/en-us/sections/360003113491-Analyses-Library-Analyses-for-Pro)
 * [Analyses Library: Analyses How-to](https://support.magento.com/hc/en-us/sections/360003107732-Analyses-Library-Analyses-How-to)
 * [Analyses Library: Analyses, Explained](https://support.magento.com/hc/en-us/sections/360003113511-Analyses-Library-Analyses-Explained)
-* [Analyses Library: Marketing Analyses ](https://support.magento.com/hc/en-us/sections/360003113531-Analyses-Library-Marketing-Analyses-)
+* [Analyses Library: Marketing Analyses](https://support.magento.com/hc/en-us/sections/360003113531-Analyses-Library-Marketing-Analyses-)
 * [Analyses Library: Reference](https://support.magento.com/hc/en-us/sections/360003107792-Analyses-Library-Reference)
-* [Webinars](https://support.magento.com/hc/en-us/sections/360003077951-Webinars).
+* [Webinars](https://support.magento.com/hc/en-us/sections/360003077951-Webinars) .
+

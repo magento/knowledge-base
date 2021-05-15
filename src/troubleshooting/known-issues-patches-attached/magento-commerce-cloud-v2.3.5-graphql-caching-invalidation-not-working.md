@@ -3,42 +3,40 @@ title: Magento Commerce Cloud v2.3.5 GraphQL caching invalidation not working
 labels: GraphQL,Magento Commerce Cloud,cache invalidation,patch,troubleshooting
 ---
 
-This article provides a patch for the issue where GraphQL `` GET `` request returns outdated information, if the customer changes product information.
+This article provides a patch for the issue where GraphQL `GET` request returns outdated information, if the customer changes product information.
 
 ## Affected products and versions
 
-Magento Commerce Cloud v2.3.1. ## Issue
+Magento Commerce Cloud v2.3.5.
+
+## Issue
 
 GraphQL requests are cached by Fastly and the cached version is retrieved for each next request from Fastly. When a product is re-saved in the Magento backend, the Fastly cache should invalidate when a product is updated. However, it remains valid.
 
-Steps to reproduce
+ <span class="wysiwyg-underline">Steps to reproduce</span> 
 
-<ol><li>Trigger the following GraphQL request to get products for certain category:<br/> <br/>
-<pre class="line-numbers language-clike"><code class="language-clike">GET http://&lt;magento2-server>/graphql?query={products(currentPage:1,pageSize:6,filter:{web_ready:{eq:"1"},category_id:{eq:"1521"}}){total_count,items{__typename,id,sku,name}}}</code></pre>
-</li></ol>
+1. Trigger the following GraphQL request to get products for certain category:    ```clike    GET http://<magento2-server>/graphql?query={products(currentPage:1,pageSize:6,filter:{web_ready:{eq:"1"},category_id:{eq:"1521"}}){total_count,items{__typename,id,sku,name}}}    ```    
 
 1. Re-save one of the products retrieved by the request above in Magento Admin.
 1. Trigger the request again.
 
-Expected result:
+ <span class="wysiwyg-underline">Expected result:</span> 
 
-The `` X-Cache `` header contains `` MISS ``.
+The `X-Cache` header contains `MISS` .
 
-Actual result:
+ <span class="wysiwyg-underline">Actual result:</span> 
 
-The `` X-Cache `` header contains `` HIT ``, means the response is cached.
+The `X-Cache` header contains `HIT` , means the response is cached.
 
 ## Solution
 
- Disable GraphQL product cache with the patch provided in this article. 
+Disable GraphQL product cache with the patch provided in this article.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[MDVA-28559\_EE\_2.3.5-p1\_COMPOSER\_v1.patch  
-  
-](assets/MDVA-28559_EE_2.3.5-p1_v1.composer.patch)
+ [MDVA-28559\_EE\_2.3.5-p1\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360065269852/MDVA-28559_EE_2.3.5-p1_v1.composer.patch) 
 
 ### Compatible Magento versions:
 

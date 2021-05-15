@@ -3,31 +3,29 @@ title: "Area already set" error when saving theme configuration in Admin
 labels: 2.2.4,Magento Commerce Cloud,area already set,known issues,patch,theme,troubleshooting
 ---
 
-This article provides a patch for the known Magento Commerce Cloud 2.2.4 issue related to getting the _"Area is already set"_ error message when trying to set a theme for the Default Store View in the Magento Admin.
+This article provides a patch for the known Magento Commerce Cloud 2.2.4 issue related to getting the *"Area is already set"* error message when trying to set a theme for the Default Store View in the Magento Admin.
 
 ## Issue
 
-You get the "_Something went wrong while saving this configuration: Area is already set_" error message when trying to set a theme for the Default Store View.
+You get the " *Something went wrong while saving this configuration: Area is already set* " error message when trying to set a theme for the Default Store View.
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce</span> :
 
 1. Log in to Magento Admin.
-1. Navigate to Content>Design>Configuration.
-1. Set the configuration scope to _Default Store View_.
-1. Change the theme in the Applied Theme drop-down. For example, from _Magento Luma_ to _Magento Blank._
-1. Click Save Configuration.
+1. Navigate to **Content** > **Design** > **Configuration** .
+1. Set the configuration scope to *Default Store View* .
+1. Change the theme in the **Applied Theme** drop-down. For example, from *Magento Luma* to *Magento Blank.* 
+1. Click **Save Configuration** .
 
-Expected result:  
- The selected theme is applied for the default store view.
+ <span class="wysiwyg-underline">Expected result</span> : The selected theme is applied for the default store view.
 
-Actual result:  
- Theme is not applied, the _"Something went wrong while saving this configuration: Area is already set"_ error message is displayed.
+ <span class="wysiwyg-underline">Actual result</span> : Theme is not applied, the *"Something went wrong while saving this configuration: Area is already set"* error message is displayed.
 
 ## Patch
 
 The patch is attached to this article. To download it, click the following link or scroll down to the end of the article and click the attached file:
 
-[Download MDVA-11106\_EE\_2.2.4\_v1.composer.patch](assets/MDVA-11106_EE_2.2.4_v1.composer.patch)
+ [Download MDVA-11106\_EE\_2.2.4\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023313871/MDVA-11106_EE_2.2.4_v1.composer.patch) 
 
 ### Compatible Magento versions:
 

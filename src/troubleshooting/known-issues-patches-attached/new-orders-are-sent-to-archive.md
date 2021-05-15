@@ -5,23 +5,23 @@ labels: 2.2.0,Magento Commerce,known issues,orders,patch,troubleshooting
 
 This article provides a patch for the known Magento Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in Magento Admin.
 
-<p class="info">The issue was fixed in 2.2.3 and later. </p>
+>![info]
+>
+>The issue was fixed in 2.2.3 and later.
 
 ## Issue
 
 When customers place orders, they appear in the archived orders grid, instead of the regular orders grid.
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce</span> :
 
 1. Add any product to cart on the storefront and proceed through checkout, and place the order.
-1. In the Magento Admin, navigate to Sales > Operations > Order.  See the order appear in the grid.
-1. Navigate to Sales > Archive > Orders. See the new order in the grid.
+1. In the Magento Admin, navigate to **Sales** > **Operations** > **Order.** See the order appear in the grid.
+1. Navigate to **Sales** > **Archive** > **Orders** . See the new order in the grid.
 
-Expected result:  
-The order is displayed in the Orders grid only.
+ <span class="wysiwyg-underline">Expected result</span> :The order is displayed in the Orders grid only.
 
-Actual result:  
-The order is displayed in the Orders grid and in the order archive grid.
+ <span class="wysiwyg-underline">Actual result</span> :The order is displayed in the Orders grid and in the order archive grid.
 
 ## Solution
 
@@ -31,7 +31,7 @@ After applying the patch, orders will appear in the Order grid as expected. But 
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-8007\_EE\_2.2.0\_v1.composer.patch](https://support.magento.com/hc/article_attachments/360025565431/MDVA-8007_EE_2.2.0_v1.composer.patch)
+ [Download MDVA-8007\_EE\_2.2.0\_v1.composer.patch](assets/MDVA-8007_EE_2.2.0_v1.composer.patch) 
 
 ### Compatible Magento versions:
 

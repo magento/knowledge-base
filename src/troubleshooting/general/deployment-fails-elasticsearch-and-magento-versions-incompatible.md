@@ -1,5 +1,5 @@
 ---
-title: Deployment fails: Elasticsearch and Magento versions incompatible 
+title: Deployment fails: Elasticsearch and Magento versions incompatible
 labels: Elasticsearch,Magento Commerce Cloud,troubleshooting
 ---
 

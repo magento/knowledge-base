@@ -20,8 +20,9 @@ The issue might appear because of ACL restrictions set for the Magento instance 
 
 ## Solution for incorrect product status
 
-Set a dynamic DI preference for the `` Magento\Framework\Authorization\PolicyInterface ``, as described in the [ObjectManager>Programmatic product updates](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) topic.
+Set a dynamic DI preference for the `Magento\Framework\Authorization\PolicyInterface` , as described in the [ObjectManager>Programmatic product updates](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) topic.
 
 ## Related reading
 
 * [Github: Can not change product status which product created with productRepository](https://github.com/magento/magento2/issues/5664)
+

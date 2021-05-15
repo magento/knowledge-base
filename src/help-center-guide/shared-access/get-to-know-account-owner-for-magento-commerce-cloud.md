@@ -13,14 +13,14 @@ For example, let's say you are a system integrator or a technical partner who de
 
 To find out who is the Owner of a Magento Commerce Cloud project, follow these steps:
 
-1. Access the Magento Commerce Cloud [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html).
+1. Access the Magento Commerce Cloud [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html) .
 1. Click the gear icon (Configure Project) next to the Project Name (upper-left corner).
-1. Go to the Users tab.
-1. Find the user who is mentioned as the Account owner.
+1. Go to the **Users** tab.
+1. Find the user who is mentioned as the **Account owner** .
 
  
 
-![magento_cloud_account_owner.png](https://support.magento.com/hc/article_attachments/360016623511/magento_cloud_account_owner.png)
+![magento_cloud_account_owner.png](assets/magento_cloud_account_owner.png)
 
 ## I still cannot find Account Owner
 

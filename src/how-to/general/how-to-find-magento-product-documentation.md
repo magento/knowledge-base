@@ -9,9 +9,9 @@ The Magento Support Knowledge Base provides troubleshooting solutions for fixing
 
 There are also separate troubleshooting resources for:
 
-* Magento U: [https://magento-u-support.magento.com/](https://magento-u-support.magento.com/hc/en-us)
-* Magento Marketplace: [https://marketplacesupport.magento.com/ ](https://marketplacesupport.magento.com/)
-* Magento Partners Portal: <https://partnersupport.magento.com>
+* Magento U: [https://magento-u-support.magento.com/](https://magento-u-support.magento.com/hc/en-us) 
+* Magento Marketplace:<https://marketplacesupport.magento.com/>>>
+* Magento Partners Portal:<<<FLOATING LINK: https://partnersupport.magento.com>
 
 If you are looking for technical or end-user documentation, please use one of the following links:
 
@@ -24,10 +24,10 @@ If you are looking for technical or end-user documentation, please use one of th
 <td>Website</td>
 </tr>
 <tr>
-<td>Magento Commerce and Magento Commerce Cloud</td>
+<td rowspan="2">Magento Commerce and Magento Commerce Cloud</td>
 <td>
 <p>Developer (technical) documentation:</p>
-<p><a href="https://devdocs.magento.com">https://devdocs.magento.com/ </a></p>
+<p><a href="https://devdocs.magento.com">https://devdocs.magento.com/</a></p>
 </td>
 </tr>
 <tr>
@@ -48,7 +48,7 @@ If you are looking for technical or end-user documentation, please use one of th
 </tr>
 <tr>
 <td> 
-<p>Magento B2B </p>
+<p>Magento B2B</p>
 <p> </p>
 </td>
 <td>
@@ -60,7 +60,7 @@ If you are looking for technical or end-user documentation, please use one of th
 <td>Magento Order Management System (OMS)</td>
 <td>
 <p>Merchant (end-user) and developer (technical) documentation:</p>
-<p><a href="https://omsdocs.magento.com/en/">https://omsdocs.magento.com/en/ </a></p>
+<p><a href="https://omsdocs.magento.com/en/">https://omsdocs.magento.com/en/</a></p>
 </td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@ If you are looking for technical or end-user documentation, please use one of th
 </td>
 </tr>
 <tr>
-<td>Magento Marketplace </td>
+<td>Magento Marketplace</td>
 <td>
 <p>Merchant (end-user) and developer (technical) documentation:</p>
 <p><a href="https://docs.magento.com/marketplace/user_guide/getting-started.html">https://docs.magento.com/marketplace/user_guide/getting-started.html</a></p>
@@ -88,9 +88,9 @@ If you are looking for technical or end-user documentation, please use one of th
 </table>
 
  
-
 ## Blogs and communications
 
-* Magento security center (security updates and patches): [https://magento.com/security/news ](https://magento.com/security/news)
-* Magento Community Developer Blog (how to's, best practices and Magento technical news from Magento community): <https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog>
-* Magento Blog (high level e-commerce): <https://magento.com/blog>
+* Magento security center (security updates and patches):<https://magento.com/security/news>>>
+* Magento Community Developer Blog (how to's, best practices and Magento technical news from Magento community):<<<FLOATING LINK: https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog>>>
+* Magento Blog (high level e-commerce):<<<FLOATING LINK: https://magento.com/blog>
+

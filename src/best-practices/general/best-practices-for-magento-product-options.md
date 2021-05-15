@@ -1,5 +1,5 @@
 ---
-title: Best practices for Magento product options 
+title: Best practices for Magento product options
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,products
 ---
 
@@ -7,7 +7,7 @@ This article provides best practices for product options in Magento. Our recomme
 
 Many product options leads to an increase in data retrieved for each product on all read and write operations resulting in:
 
-* Increase in SQL queries traffic and heavier <code class="language-sql">JOIN</code> operations affecting database throughput
+* Increase in SQL queries traffic and heavier    ```sql    JOIN    ```    operations affecting database throughput
 * Increase of Magento indexes size and full-text search index
 
 The increases listed above can cause these potential site impacts:
@@ -18,8 +18,8 @@ The increases listed above can cause these potential site impacts:
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
 
 ## Best practices
 
@@ -32,11 +32,8 @@ Reduce the number of product options by:
 ## Related reading
 
 Refer to:
-
-* Magento User Guide [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
-* Magento User Guide [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
-* [Best practice for attribute SET in Magento](https://support.magento.com/hc/en-us/articles/360045041092)
-* [Best practice Magento product attributes](https://support.magento.com/hc/en-us/articles/360048256612)
-* DevDocs' [Inventory mass actions](https://devdocs.magento.com/guides/v2.4/rest/modules/inventory/bulk-inventory.html)
-
+<ul><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/product-create-configurable.html">Create products > Configurable Product</a>
+</li><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/attribute-best-practices.html">Product Attributes > Best Practices</a>
+</li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360045041092">Best practice for attribute SET in Magento</a></li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360048256612">Best practice Magento product attributes</a></li><li title="File storage low/exhausted, specific page loads are slow">DevDocs'<a href="https://devdocs.magento.com/guides/v2.4/rest/modules/inventory/bulk-inventory.html">Inventory mass actions</a>
+</li></ul>
  

@@ -7,16 +7,12 @@ If you observe a feature behaving unexpectedly and think you have found an issue
 
 * Instructions to recreate the defect.
 * Screenshots showing the unexpected behavior.
-    
-    * Include [errors displayed in your browser's console](https://support.magento.com/hc/en-us/articles/360016732711#browser_console).
-    
-    
-    
+    * Include [errors displayed in your browser's console](https://support.magento.com/hc/en-us/articles/360016732711#browser_console) .
 * If you found a broken link, include how you got to the page it is on. Screenshots of where the broken link is on the page are also helpful.
 
 ## Document errors in your browser's console
 
-Open your browser’s developer tools and take a screenshot of any errors displayed in the console (right click > Inspect). If your browser doesn’t allow this method click the following links to get the steps for the web browser you’re using:
+Open your browser’s developer tools and take a screenshot of any errors displayed in the console (right click > **Inspect** ). If your browser doesn’t allow this method click the following links to get the steps for the web browser you’re using:
 
 * [Safari](http://www.technipages.com/mac-os-x-enable-web-inspector-in-safari)
 * [Firefox](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console)
@@ -33,3 +29,4 @@ In some browsers, opening the developer tools might not automatically display th
 * [MBI Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
 * [MBI Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
 * [MBI User Guide: Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
+

@@ -14,29 +14,27 @@ This article describes a known Magento 2.4.1 issue where customers get signed in
 
 Customers get signed in to the previously used Amazon accounts instead of being suggested to log in, when using Amazon Pay during checkout.
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce:</span> 
 
 1. On storefront, add any item to the shopping cart and proceed to guest checkout.
-1. Click the Amazon Pay button. Amazon.com sign in pop-up appears.
+1. Click the **Amazon Pay** button. Amazon.com sign in pop-up appears.
 1. Log in to the Amazon account.
-1. Select an address and click Next.
+1. Select an address and click **Next** .
 1. Select the payment method.
-1. Click Place order.
+1. Click **Place order** .
 1. Go back to the home page and log in to the store account.
 1. Add any item to the shopping cart again and proceed to checkout.
-1. Click the Amazon Pay button.
+1. Click the **Amazon Pay** button.
 
-Actual result:  
-You get automatically logged into the previously used (Step 3) Amazon account again.
+ <span class="wysiwyg-underline">Actual result:</span> You get automatically logged into the previously used (Step 3) Amazon account again.
 
-Expected result:  
-Amazon.com sign in pop-up appears and you can log in or create a new account for Amazon Pay.
+ <span class="wysiwyg-underline">Expected result:</span> Amazon.com sign in pop-up appears and you can log in or create a new account for Amazon Pay.
 
 ## Cause
 
 The issue might happen in one of the following situations:
 
-* When the `` SameSite `` cookie value is `` LAX ``, the cookie will not be sent as part of any third-party calls. 
+* When the `SameSite` cookie value is `LAX` , the cookie will not be sent as part of any third-party calls.
 * Mozilla Firefox content blocking feature prevents third parties from tracking browser user’s activities by blocking usage of scripts and client-side storage mechanisms. Firefox uses an external vendor Disconnect.me to provide a list of tracking sites to be blocked. Amazon Pay uses an iframe on a third-party website to return an access token after sign-in and render Address and wallet widget. With the content blocking feature, Amazon Pay iframe load requests are considered as third-party tracking requests and get blocked resulting in buyer not able to proceed with checkout.
 * Any situation where third-party cookies or JS are being explicitly blocked by the browser.
 

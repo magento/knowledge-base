@@ -13,6 +13,6 @@ In this video, you'll learn:
 * Why it's important
 * How to build your own cohort analysis in Magento BI
 
-Want to follow along? Check out our [Cohort Report Builder tutorial](https://support.magento.com/hc/en-us/articles/360016504632) for written instructions.
+ **Want to follow along?** Check out our [Cohort Report Builder tutorial](https://support.magento.com/hc/en-us/articles/360016504632) for written instructions.
 
-After you're comfortable using the Cohort Report Builder, why not explore creating a qualitative cohort analysis? Check out the [Creating a qualitative cohort analysis tutorial](https://support.magento.com/hc/en-us/articles/360016731191) for more info!
+After you're comfortable using the Cohort Report Builder, why not explore creating a **qualitative** cohort analysis? Check out the [Creating a qualitative cohort analysis tutorial](https://support.magento.com/hc/en-us/articles/360016731191) for more info!
