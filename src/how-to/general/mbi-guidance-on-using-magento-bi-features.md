@@ -6,16 +6,14 @@ labels: MBI,Magento Business Intelligence,analysis,data,data discrepancies,datab
 Have a quick question about a Magento BI feature? If so, we’re here to help. To get started, we recommend checking out these helpful articles:
 
 * [Creating metrics](https://docs.magento.com/mbi/data-user/reports/ess-manage-data-metrics.html)
-<!--<li>
-    <a href="https://support.magento.com/hc/en-us/articles/360016505212">Connecting your data sources</a>
-  </li> -->* [A tour of the Data Warehouse Manager](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/tour-dwm.html)
+* [A tour of the Data Warehouse Manager](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/tour-dwm.html)
 * [Using the Visual Report Builder](https://docs.magento.com/mbi/tutorials/using-visual-report-builder.html)
 * [Using the Cohort Report Builder](https://docs.magento.com/mbi/data-analyst/dev-reports/cohort-rpt-bldr.html)
 * [Which Report Builder should I use?](https://docs.magento.com/mbi/data-user/reports/report-builder-options.html)
 * [Sharing dashboards](https://support.magento.com/hc/en-us/sections/360003113431-Sharing-Dashboards)
 * [Creating automated email summaries](https://support.magento.com/hc/en-us/articles/360016730911)
 
-If you’re looking for help with creating calculated columns, please refer to the [Calculated Columns guide.](https://support.magento.com/hc/en-us/articles/360016505112)
+If you’re looking for help with creating calculated columns, please refer to the [Calculated Columns guide.](https://support.magento.com/hc/en-us/articles/360016505112) 
 
 ## I still need help!
 
@@ -33,3 +31,4 @@ If you still need help after reviewing the relevant articles, [submit a support 
 * [Conducting new analyses](https://support.magento.com/hc/en-us/articles/360016505992)
 * [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
+

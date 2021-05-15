@@ -11,25 +11,17 @@ This topic discusses a solution for when validation errors occur when running de
 
 ## Issue
 
-Step to reproduce
+ <span class="wysiwyg-underline">Step to reproduce</span> 
 
 * Run developer mode in Magento PWA Studio.
 
-Expected result
+ <span class="wysiwyg-underline">Expected result</span> 
 
 * The PWA Studio server starts normally.
 
-Actual result
+ <span class="wysiwyg-underline">Actual result</span> 
 
-* You see validation errors, which may look similar to:
-    
-    <pre><code class="language-clike">  ⓧ  Missing required environment variables:
-     MAGENTO_BACKEND_URL: Connect to an instance of Magento 2.3 by specifying its public domain name. (eg.
-     "https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/")
-  ⚠  No .env file in ./packages/venia-concept. Autogenerate a .env file by running the command 'buildpack
-     create-env-file ./packages/venia-concept'.<br/></code></pre>
-    
-    
+* You see validation errors, which may look similar to:    ```clike    ⓧ  Missing required environment variables:         MAGENTO_BACKEND_URL: Connect to an instance of Magento 2.3 by specifying its public domain name. (eg.         "https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/")      ⚠  No .env file in ./packages/venia-concept. Autogenerate a .env file by running the command 'buildpack         create-env-file ./packages/venia-concept'.    ```    
 
 ## Cause
 
@@ -39,7 +31,9 @@ The environment variables file for your local development environment is missing
 
 Make sure that you run the command
 
-<pre><code class="language-clike">npx @magento/pwa-buildpack create-env-file packages/venia-concept<br/></code></pre>
+```clike
+npx @magento/pwa-buildpack create-env-file packages/venia-concept
+```
 
 in the root directory in order to generate the file that will hold the variables for your local development environment.
 
@@ -47,3 +41,4 @@ in the root directory in order to generate the file that will hold the variables
 
 * [Magento PWA Studio Documentation](https://magento.github.io/pwa-studio/)
 * [Venia Storefront (Concept)](https://magento.github.io/pwa-studio/venia-pwa-concept/)
+

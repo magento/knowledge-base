@@ -3,7 +3,7 @@ title: MBI Webinar Archives
 labels: Essentials,MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
 ---
 
-Looking for more? [Ask the community!](https://community.magento.com/t5/Magento-Business-Intelligence/ct-p/analytics)
+Looking for more? [Ask the community!](https://community.magento.com/t5/Magento-Business-Intelligence/ct-p/analytics) 
 
 ## Essentials 101
 
@@ -15,7 +15,7 @@ Our Data Analyst team walks you through everything you need to know about gettin
 * Dashboards and basic functionality like sharing and filtering
 * Editing reports and creating new visualizations
 
-[Get the slides](https://support.magento.com/hc/article_attachments/360006768234/Essentials%20101.pptx.zip)
+ [Get the slides](assets/Essentials%20101.pptx.zip) 
 
 ## Expanding your Analysis with Cohorts
 
@@ -27,7 +27,7 @@ In this webinar, we review cohort analysis and how to build cohort reports in MB
 * How to use the Visual Report Builder to construct custom cohorts
 * What is coming next in MBI cohort reporting
 
-[Get the slides](https://support.magento.com/hc/article_attachments/360006826313/Cohorts.pptx)
+ [Get the slides](assets/Cohorts.pptx) 
 
 ## MBI New Architecture Breakdown
 
@@ -39,7 +39,7 @@ In this webinar, our team will review the differences between the MBI 2.0 archit
 * What new features are now exposed to the end user
 * How the Cohort Report Builder has been improved in 3.0
 
-[Get the slides](https://support.magento.com/hc/article_attachments/360006768534/MBI%203.0%20webinar.pptx)
+ [Get the slides](assets/MBI%203.0%20webinar.pptx) 
 
 ## The Nuts and Bolts of Marketing ROI
 
@@ -69,7 +69,7 @@ How much do you rely on manual analyses in Excel? In this webinar, you will lear
 
 We will cover:
 
-* Types of Excel analyses that _should_ be replicated
+* Types of Excel analyses that *should* be replicated
 * Steps to replicate them
 * Easily sharing those reports with your team
 
@@ -85,7 +85,7 @@ What you'll learn:
 * How to use seasonality trends to predict repeat purchasing frequency
 * How our Professional Services team can identify and rank the most valuable customers in your dataset
 
-[Get the slides](https://www.slideshare.net/salcalvo/recency-frequency-monetary-rfm-analysis-in-magento-bi)
+ [Get the slides](https://www.slideshare.net/salcalvo/recency-frequency-monetary-rfm-analysis-in-magento-bi) 
 
 ## Introducing: The Analysis Library
 
@@ -95,7 +95,7 @@ Here at Magento BI, we're excited to announce a new way your online business can
 
 Analysts Jim Roddy and Sal Calvo will introduce the Analysis Library, a set of out-of-the-box analyses available to all clients in our Support Center. Learn how to easily add some of the most important analyses into your account, like how to determine your customer churn rate, expected customer LTV, and how to add goals into your Magento BI account.
 
-[Get the slides](https://www.slideshare.net/salcalvo/introducing-the-rjmetrics-analysis-library)
+ [Get the slides](https://www.slideshare.net/salcalvo/introducing-the-rjmetrics-analysis-library) 
 
 ## Getting Started with Magento BI
 
@@ -117,12 +117,12 @@ The holiday season has come and gone. So, how did you do? What is the best way t
 
 You'll learn:
 
-* A few key takeaways from our [2016 Ecommerce Holiday Customer Benchmark report](https://rjmetrics.com/resources/reports/the-ecommerce-holiday-customer-benchmark/)
+* A few key takeaways from our [2016 Ecommerce Holiday Customer Benchmark report](https://rjmetrics.com/resources/reports/the-ecommerce-holiday-customer-benchmark/) 
 * How to identify your holiday season and determine your business's sensitivity to the holidays
 * How to analyze your holiday customer trends, behavior, and value
 * How to incorporate other measures like marketing cost and coupon usage to identify the true value of a holiday customer
 
-[Get the slides](https://www.slideshare.net/MichaelKreshtool/magento-business-intelligence-postholiday-webinar)
+ [Get the slides](https://www.slideshare.net/MichaelKreshtool/magento-business-intelligence-postholiday-webinar) 
 
 ## Analyzing ROI Using Your Facebook and Adwords Data
 
@@ -138,7 +138,7 @@ You'll learn:
 * How to calculate the “payback period” of your campaigns
 * Special considerations when measuring ROI on product specific campaigns
 
-[Get the slides](https://www.slideshare.net/RJMetrics/analyzing-roi-using-your-facebook-and-adwords-data)
+ [Get the slides](https://www.slideshare.net/RJMetrics/analyzing-roi-using-your-facebook-and-adwords-data) 
 
 ## Optimize Your Holidays
 
@@ -182,7 +182,7 @@ You'll learn:
 * How to build dashboards to answer your questions
 * How to interpret reports to enable a specific action
 
-[Get the slides](https://www.slideshare.net/RJMetrics/from-question-to-action)
+ [Get the slides](https://www.slideshare.net/RJMetrics/from-question-to-action) 
 
 ## Optimizing Customer Support
 
@@ -199,6 +199,6 @@ You'll learn:
 * How to identify at-risk, high LTV customers
 * And more...
 
-[Get the slides](https://www.slideshare.net/RJMetrics/optimizing-customer-support)
+ [Get the slides](https://www.slideshare.net/RJMetrics/optimizing-customer-support) 
 
  

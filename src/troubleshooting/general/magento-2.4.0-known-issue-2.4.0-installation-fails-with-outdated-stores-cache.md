@@ -3,27 +3,28 @@ title: Magento 2.4.0 known issue: 2.4.0 installation fails with outdated stores 
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,cache,extensions,fail,installation,known issues,stores,troubleshooting
 ---
 
-This article provides a solution for the issue where your Magento 2.4.0 installation fails with the error message "_The default website isn't defined. Set the website and try again._" displayed in the console. 
+This article provides a solution for the issue where your Magento 2.4.0 installation fails with the error message " *The default website isn't defined. Set the website and try again.* " displayed in the console.
 
 ## Affected products and versions
 
-* Magento Commerce Cloud 2.4.1. * Magento Commerce 2.4.1. ## Issue
+* Magento Commerce Cloud 2.4.0.
+* Magento Commerce 2.4.0.
 
-Prerequisites  
-  
-A third-party extension with dependencies on APIs for the Store module in CLI commands is configured as required in `` composer.json ``.
+## Issue
 
-During the installation of Magento 2.4.0 this causes the installation to fail with an error message "_The default website isn't defined. Set the website and try again._" displayed in the console. 
+ <span class="wysiwyg-underline">Prerequisites</span> A third-party extension with dependencies on APIs for the Store module in CLI commands is configured as required in `composer.json` .
+
+During the installation of Magento 2.4.0 this causes the installation to fail with an error message " *The default website isn't defined. Set the website and try again.* " displayed in the console.
 
 ## Cause
 
-The issue appears for the third-party extensions which have dependencies on stores in their CLI commands. One is Amazon Sales Channels. 
+The issue appears for the third-party extensions which have dependencies on stores in their CLI commands. One is Amazon Sales Channels.
 
 ## Solution
 
 Before the installation of Magento 2.4.0 merchants have to:
 
-1. Remove these third-party extensions from `` composer.json ``.
+1. Remove these third-party extensions from `composer.json` .
 1. Install Magento without extensions.
 1. Add the extensions after the installation.
 
@@ -45,3 +46,4 @@ The issue will be fixed in the scope of 2.4.1 release.
 * [Magento 2.4.0 known issue - Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032-Magento-2-4-0-known-issue-Export-Tax-Rates-does-not-work-)
 * [Magento 2.4.0 known issue: “Add selections to my cart” button does not work](https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-known-issue-Add-selections-to-my-cart-button-does-not-work)
 * [Magento 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332-Magento-2-4-0-known-issue-raw-message-data-display-on-storefront)
+

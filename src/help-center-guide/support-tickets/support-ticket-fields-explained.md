@@ -15,30 +15,28 @@ Logs, screenshots, video recordings, or any other media that may better illustra
 
 ## Backoffice URL (MOM only)
 
-URL must begin with “https://”. It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
+URL must begin with “https://” **.** It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
 
 You can also put the direct link related to your issue.
 
 ## CC
 
-Emails of the persons whom you want to follow your ticket (for example, _first@e.mail_).
+Emails of the persons whom you want to follow your ticket (for example, *first@e.mail* ).
 
 You may add emails of the persons who do not have a Magento or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
 
 To add several emails to CC:
 
 1. Enter the email.
-1. Press _Space_ on your keyboard to save the entered email. The email appears in a grey frame.  
-     ![hc_cc_emails.png](https://support.magento.com/hc/article_attachments/360016489192/hc_cc_emails.png)
+1. Press *Space* on your keyboard to save the entered email. The email appears in a grey frame.    ![hc_cc_emails.png](assets/hc_cc_emails.png)    
 1. Start typing the next email.
-1. Save all other emails by pressing _Space_.
+1. Save all other emails by pressing *Space* .
 
-To delete emails from CC: click x in a framed email.
+To delete emails from CC: click **x** in a framed email.
 
-![hc_cc_emails_remove.png](https://support.magento.com/hc/article_attachments/360016540451/hc_cc_emails_remove.png)
+![hc_cc_emails_remove.png](assets/hc_cc_emails_remove.png)
 
-<h2><font> Contact reason </font></h2>
-
+<h2><font>Contact reason</font></h2>
 Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing.
 
 ## (Data) Integration type (MBI only)
@@ -75,7 +73,7 @@ This field appears when your account is associated with more than one organizati
 
 ## Product
 
-The type of Magento product you are working with: 
+The type of Magento product you are working with:
 
 * Magento Commerce Cloud
 * Magento Commerce OnPremise
@@ -84,13 +82,13 @@ The type of Magento product you are working with:
 
 ## Partner name (Merchant name)
 
-For Merchants: Partner Name is the name of the Development Organization (Magento [Technology Partner](https://partners.magento.com/portal/directory/?&amp;partner_type=6) or [Solution Partner](https://partners.magento.com/portal/directory/?&amp;partner_type=1)) that participate in developing your Magento store.
+For Merchants: **Partner Name** is the name of the Development Organization (Magento [Technology Partner](https://partners.magento.com/portal/directory/?&partner_type=6) or [Solution Partner](https://partners.magento.com/portal/directory/?&partner_type=1) ) that participate in developing your Magento store.
 
-For Partners: Merchant Name is the name of your Customer.
+For Partners: **Merchant Name** is the name of your Customer.
 
 ## Project URL (Commerce Cloud only)
 
-Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
+Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) .
 
 ## Steps to reproduce (Commerce on-Premise and Commerce Cloud only)
 
@@ -100,7 +98,7 @@ Exact step-by-step instructions to reproduce your problem, including:
 * Expected result
 * Actual result
 
-_Recommendation:_ Assume that you are writing these steps for someone who knows nothing about Magento:
+ *Recommendation:* Assume that you are writing these steps for someone who knows nothing about Magento:
 
 * mention every step, even if it seems simple and obvious
 * do not rely on the assumption that your reader knows what you mean
@@ -109,13 +107,13 @@ Write in simple language, with short sentences.
 
 ## Subject
 
-A short overview of your problem (for example, _Error 404 on all pages_).
+A short overview of your problem (for example, *Error 404 on all pages* ).
 
-Suggested articles: when you start writing the subject, you see a list of Knowledge Base articles that might be related to your problem; they are being offered to you basing on the keywords you are typing in. Click the article in the list to open it in the Knowledge Base.
+ **Suggested articles:** when you start writing the subject, you see a list of Knowledge Base articles that might be related to your problem; they are being offered to you basing on the keywords you are typing in. Click the article in the list to open it in the Knowledge Base.
 
-![hc_subject-suggested-articles.png](https://support.magento.com/hc/article_attachments/360016489692/hc_subject-suggested-articles.png)
+![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
 
-_Recommendation:_ Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Magento Support Team.
+ *Recommendation:* Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Magento Support Team.
 
 ## Version (Commerce on-Premise, Commerce Cloud and Shipping only)
 

@@ -13,7 +13,7 @@ This article provides a solution for the issue of low disk space caused by large
 
 ## Issue
 
-Low disk storage and slow page loads can be caused by large, rich images using high amounts of storage in `` pub/media/catalog/products `` and the sharing of disk space between staging and production, (unless a dedicated staging environment is provisioned).
+Low disk storage and slow page loads can be caused by large, rich images using high amounts of storage in `pub/media/catalog/products` and the sharing of disk space between staging and production, (unless a dedicated staging environment is provisioned).
 
 ## Cause
 
@@ -27,4 +27,4 @@ Use [Fastly image optimization](https://devdocs.magento.com/guides/v2.3/cloud/cd
 
 ## Related reading
 
-To learn about managing your disk space (if you are on Magento Commerce Cloud) see [Manage disk space in Magento Developer Documentation.](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=manage%20disk%20space)
+To learn about managing your disk space (if you are on Magento Commerce Cloud) see [Manage disk space in Magento Developer Documentation.](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=manage%20disk%20space) 

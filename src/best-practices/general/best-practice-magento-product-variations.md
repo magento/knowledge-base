@@ -1,5 +1,5 @@
 ---
-title: Best practice Magento product variations 
+title: Best practice Magento product variations
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,performance,products
 ---
 
@@ -14,8 +14,8 @@ Potential site impacts can include:
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
 
 ## Best practices
 
@@ -28,8 +28,7 @@ Reduce the number of complex products variations by:
 ## Related reading
 
 Refer to:
-
-* Magento User Guide [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
-* Magento User Guide [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
-
+<ul><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/product-create-configurable.html">Create products > Configurable Product</a>
+</li><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/attribute-best-practices.html">Product Attributes > Best Practices</a>
+</li></ul>
  

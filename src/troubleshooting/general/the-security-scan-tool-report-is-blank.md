@@ -12,18 +12,18 @@ This article provides a fix for the issue where the Security Scan Tool shows a b
 
 ## Issue
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce:</span> 
 
-1. Configure the Security Scan Tool to check your website, as described in [https://docs.magento.com/m2/ee/user\_guide/magento/security-scan.html](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html).
-1. In the Actions column, select Run Scan.
+1. Configure the Security Scan Tool to check your website, as described in [https://docs.magento.com/m2/ee/user\_guide/magento/security-scan.html](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) .
+1. In the Actions column, select **Run Scan** .
 
-Expected result:
+ <span class="wysiwyg-underline">Expected result:</span> 
 
 View the report completion notification and ability to open the report.
 
-Actual result:
+ <span class="wysiwyg-underline">Actual result:</span> 
 
-No notification and no report available. 
+No notification and no report available.
 
 ## Cause
 
@@ -33,14 +33,12 @@ This issue might appear because the Security Scan Tool was not able to reach you
 
 Try to open your web site.
 
-* If the page loads successfully, you might need to add the IPs used by the Security Scan Tools to the firewall AllowList. The following IPs are used: 52.72.230.169, 52.87.98.44, 52.86.204.1, at ports 80 and 1. * If the site doesn't load and returns the _"There has been an error processing your request"_ message, check your website for possible errors.
+* If the page loads successfully, you might need to add the IPs used by the Security Scan Tools to the firewall AllowList. The following IPs are used: 52.72.230.169, 52.87.98.44, 52.86.204.1, at ports 80 and 443.
+* If the site doesn't load and returns the *"There has been an error processing your request"* message, check your website for possible errors.
 
-## Related reading 
+## Related reading
 
 * [Go live and launch](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) on Magento DevDocs
 * [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) on Magento Merchant Docs
-
- 
- 
  
  

@@ -12,11 +12,11 @@ This article provides a solution for module functionality issues after having di
 
 ## Issue
 
-Having disabled module output in the Magneto Admin, under Stores > Settings > Configuration > ADVANCED > Advanced, you might start seeing issues related to the module functionality.
+Having disabled module output in the Magneto Admin, under **Stores** > **Settings** > **Configuration** > ADVANCED > **Advanced** , you might start seeing issues related to the module functionality.
 
 ## Cause
 
-Disabling a module output under Stores > Settings > Configuration > ADVANCED > Advanced disables only the output (HTML, JS), but it does not disable the functionality of this module.
+Disabling a module output under **Stores** > **Settings** > **Configuration** > ADVANCED > **Advanced** disables only the output (HTML, JS), but it does not disable the functionality of this module.
 
 ## Solution
 

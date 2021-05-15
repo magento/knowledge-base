@@ -11,20 +11,18 @@ This article provides a solution for when your Magento Commerce Cloud production
 
 ## Issue
 
-https://mydomain.com.c.&lt;projectid>.magento.cloud/ is no longer accessible.
+https://mydomain.com.c.<projectid>.magento.cloud/ is no longer accessible.
 
-Steps to reproduce
+ <span class="wysiwyg-underline">Steps to reproduce</span> 
 
 1. Log in to your project.
-1. Click Access Project for a list of URLs and SSH.
+1. Click **Access Project** for a list of URLs and SSH.
 
-Actual results:  
-Page fails to load with the following error:
+ <span class="wysiwyg-underline">Actual results:</span> Page fails to load with the following error:
 
-_NET::ERR\_CERT\_INVALID_  
-_TLS alert, bad certificate (554):_
+ *NET::ERR\_CERT\_INVALID*  *TLS alert, bad certificate (554):* 
 
-Expected results:
+ <span class="wysiwyg-underline">Expected results:</span> 
 
 Page loads successfully.
 
@@ -37,8 +35,8 @@ Origin cloaking is a security feature that allows Magento Commerce to block any 
 ## Solution
 
 * If your Cloud site is live, switch to https://mydomain.com/.
-* If you have an active site (non-Cloud) using the https://mydomain.com/ domain, set up a subdomain mcprod.mydomain.com  and update your Base URL to _https://mcprod.mydomain.com_ instead, then [point the DNS to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings). 
+* If you have an active site (non-Cloud) using the https://mydomain.com/ domain, set up a subdomain mcprod.mydomain.com  and update your **Base URL** to *https://mcprod.mydomain.com* instead, then [point the DNS to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings) .
 
 ## Related reading
 
-[Fastly origin cloaking enablement FAQ](https://support.magento.com/hc/en-us/articles/360055181631)
+ [Fastly origin cloaking enablement FAQ](https://support.magento.com/hc/en-us/articles/360055181631) 

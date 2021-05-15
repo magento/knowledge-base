@@ -3,18 +3,20 @@ title: run `setup:static-content:deploy` deployed_version.txt issue
 labels: Magento Commerce Cloud,deploy,not writable,troubleshooting
 ---
 
-This article provides a fix for `` deployed_version.txt `` is not writable error when running the setup:static-content:deploy command manually.
+This article provides a fix for `deployed_version.txt` is not writable error when running the setup:static-content:deploy command manually.
 
 ## Issue
 
-If you follow the Magento Commerce Cloud recommendations to use [Configuration Management](https://support.magento.com/hc/en-us/articles/115003169574) (and move static assets generation to the build stage in order to decrease website downtime during deployment), you may face the following error when running the `` setup:static-content:deploy `` command manually:
+If you follow the Magento Commerce Cloud recommendations to use [Configuration Management](https://support.magento.com/hc/en-us/articles/115003169574) (and move static assets generation to the build stage in order to decrease website downtime during deployment), you may face the following error when running the `setup:static-content:deploy` command manually:
 
-<pre><code class="language-clike">{{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
+```clike
+{{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
 Requested languages: en_US
 Requested areas: frontend, adminhtml
 Requested themes: Magento/blank, Magento/luma, Aheadworks/marketplace, Magento/backend
 [Magento\Framework\Exception\FileSystemException]
-The path "deployed_version.txt:///app/{{cloud-project-id}}_stg/pub/static/app/{{cloud-project-id}}_stg/pub/static/" is not writable </code></pre>
+The path "deployed_version.txt:///app/{{cloud-project-id}}_stg/pub/static/app/{{cloud-project-id}}_stg/pub/static/" is not writable
+```
 
 ## Cause
 
@@ -24,6 +26,8 @@ We strongly do not recommend to run static content deploy manually because all a
 
 ## Solution
 
-If you still want to run static content deployment, remove symlinks in the `` pub/static `` directory and run the `` setup:static-content:deploy `` command again:
+If you still want to run static content deployment, remove symlinks in the `pub/static` directory and run the `setup:static-content:deploy` command again:
 
-<pre><code class="language-clike">find pub/static/ -maxdepth 1 -type l -delete</code></pre>
+```clike
+find pub/static/ -maxdepth 1 -type l -delete
+```

@@ -14,7 +14,7 @@ This article talks about deadlocks in MySQL to help identify and resolve them, i
 
 Deadlocks in MySQL occur when two or more transactions mutually hold and request for locks. Deadlocks being present do not always indicate an issue, but often are a symptom of some other MySQL or Magento issue that has occurred.
 
-Often the application, deployment, or MySQL logs will mention a _"deadlock"_ error or the error _"Deadlock found when trying to get lock; try restarting transaction."_
+Often the application, deployment, or MySQL logs will mention a *"deadlock"* error or the error *"Deadlock found when trying to get lock; try restarting transaction."* 
 
 ## Cause
 
@@ -25,19 +25,11 @@ As an example, it is a best practice to avoid a stuck MySQL database import by f
 ## Solution
 
 1. Check your application, deployment, or MySQL logs for deadlock errors:
-    
     * [Magento Commerce and Magento Open Source logs locations](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
     * [Magento Commerce Cloud logs locations](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
-    
-    
-    
-1. Check your MySQL process list for running processes with the command
-    
-    <pre><code class="sql">mysql -e 'show full processlist';</code></pre>
-    
-    
-1. If on Magento Commerce Cloud, check that MySQL slave is enabled. Consult this article: [Deploy variables (MYSQL\_USE\_SLAVE\_CONNECTION)](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#mysql_use_slave_connection).
-1. Depending on the errors involved, the solution may present itself, or you may need to include your helpful log information if you need to open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+1. Check your MySQL process list for running processes with the command     `mysql -e 'show full processlist';`     
+1. If on Magento Commerce Cloud, check that MySQL slave is enabled. Consult this article: [Deploy variables (MYSQL\_USE\_SLAVE\_CONNECTION)](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#mysql_use_slave_connection) .
+1. Depending on the errors involved, the solution may present itself, or you may need to include your helpful log information if you need to open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) .
 
 ## Related reading
 
@@ -45,4 +37,6 @@ As an example, it is a best practice to avoid a stuck MySQL database import by f
 * [Indexer optimization - Indexer Table Switching](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html#indexer-table-switching)
 * [Bulk Operations - Consume Messages](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/message-queues/bulk-operations.html#consume-messages)
 
-<p class="info">We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.</p>
+>![info]
+>
+>We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.

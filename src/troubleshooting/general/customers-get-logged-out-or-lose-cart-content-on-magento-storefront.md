@@ -7,28 +7,28 @@ This article provides a solution and workaround for the issue, where customers g
 
 ## Affected products and versions
 
-* Magento Commerce, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Magento Commerce, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
 
 ## Issue
 
-Steps to reproduce:
+ <span class="wysiwyg-underline">Steps to reproduce:</span> 
 
-1. The customer adds products to cart on storefront and proceeds to checkout. 
+1. The customer adds products to cart on storefront and proceeds to checkout.
 1. The customer is redirected to the third-party site for payment/shipping or other information/service.
 1. The customer is redirected back to Magento.
 
-Actual result: 
+ <span class="wysiwyg-underline">Actual result:</span> 
 
-Customer redirected to the empty shopping cart or a blank page. 
+Customer redirected to the empty shopping cart or a blank page.
 
-Expected result:
+ <span class="wysiwyg-underline">Expected result:</span> 
 
-Customer redirected to a success payment page (or other success page), without losing the checkout data and progress. 
+Customer redirected to a success payment page (or other success page), without losing the checkout data and progress.
 
 ## Cause
 
-The SameSite cookie attribute is set to _Lax_ or not specified (which is treated as set to _Lax_). Having `` SameSite `` = _Lax_ disables transferring a cookie to external URLs via `` POST `` requests.
+The SameSite cookie attribute is set to *Lax* or not specified (which is treated as set to *Lax* ). Having `SameSite` = *Lax* disables transferring a cookie to external URLs via `POST` requests.
 
 ## Solution
 
@@ -36,11 +36,12 @@ To solve the issue, contact the third-party service provider and request their d
 
 ### Temporary workaround
 
-To make your integration work while developers of the third-party service provider resolve the issue, you can set `` SameSite `` value to _None_.   
-This can be done by configuring headers in Nginx or configuring this parameter via HTTP headers. 
+To make your integration work while developers of the third-party service provider resolve the issue, you can set `SameSite` value to *None* . This can be done by configuring headers in Nginx or configuring this parameter via HTTP headers.
 
-<p class="warning">Magento does not recommend such modifications, because it might cause security issues and/or break PCI compliance. Magento recommends contacting the third-party developer who provides your payment platform and requesting changes to cookie settings configuration.</p>
+>![warning]
+>
+>Magento does not recommend such modifications, because it might cause security issues and/or break PCI compliance. Magento recommends contacting the third-party developer who provides your payment platform and requesting changes to cookie settings configuration.
 
 ## Related reading
 
-[Chrome SameSite update](https://www.chromestatus.com/feature/5088147346030592)
+ [Chrome SameSite update](https://www.chromestatus.com/feature/5088147346030592) 

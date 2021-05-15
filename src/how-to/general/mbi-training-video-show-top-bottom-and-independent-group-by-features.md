@@ -12,4 +12,4 @@ In this video, you'll learn:
 * How to sort and order data using the Top/Bottom feature
 * How to compare values using independent Group Bys
 
-Want to follow along? Check out our [Show Top/Bottom tutorial](https://support.magento.com/hc/en-us/articles/360016504932) for written instructions.
+ **Want to follow along?** Check out our [Show Top/Bottom tutorial](https://support.magento.com/hc/en-us/articles/360016504932) for written instructions.

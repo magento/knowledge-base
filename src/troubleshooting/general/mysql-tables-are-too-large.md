@@ -18,8 +18,8 @@ The MySQL tables size does not directly affect the site performance. However, if
 
 Consider the following options to avoid a decrease in performance:
 
-* Create CRON job, that will clean up large tables. See [Find large MySQL tables ](https://support.magento.com/hc/en-us/articles/360038957591) for recommendations on how to identify large tables.
-* For tables larger than 1 GB, use a MySQL engine optimized for logs writing. For example, the Archive engine. 
+* Create CRON job, that will clean up large tables. See [Find large MySQL tables](https://support.magento.com/hc/en-us/articles/360038957591) for recommendations on how to identify large tables.
+* For tables larger than 1 GB, use a MySQL engine optimized for logs writing. For example, the Archive engine.
 * Update functionality to avoid storing logs in DB.
 
 ## Related reading

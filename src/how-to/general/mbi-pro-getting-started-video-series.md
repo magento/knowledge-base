@@ -17,7 +17,7 @@ Additional information:
 * [Using the File Uploader](https://support.magento.com/hc/en-us/articles/360016730951-Using-the-File-Uploader)
 * [Using the Import API](https://support.magento.com/hc/en-us/articles/360016731331-Using-the-CloudBI-Import-API)
 
-## 1. Consolidate and relate
+## 2. Consolidate and relate
 
 <iframe></iframe>
 
@@ -29,7 +29,7 @@ Additional information:
 * [Creating calculated columns](https://support.magento.com/hc/en-us/articles/360016504512-Creating-calculated-columns)
 * [Creating paths for calculated columns](https://support.magento.com/hc/en-us/articles/360016731471-Creating-paths-for-calculated-columns)
 
-## 1. Building metrics
+## 3. Building metrics
 
 <iframe></iframe>
 
@@ -41,7 +41,7 @@ Additional information:
 * [Creating filter sets for metrics](https://support.magento.com/hc/en-us/articles/360016505492-Creating-filter-sets-for-metrics)
 * [Restricting metric access](https://support.magento.com/hc/en-us/articles/360016731211-Restricting-metric-access)
 
-## 1. Creating visualizations
+## 4. Creating visualizations
 
 <iframe></iframe>
 
@@ -53,7 +53,7 @@ Additional information:
 * [Using formulas in the Visual Report Builder](https://support.magento.com/hc/en-us/articles/360016505792-Using-formulas-in-the-Report-Builder)
 * [Using Time Options in the Visual Report Builder](https://support.magento.com/hc/en-us/articles/360016505432-Using-Time-Options-in-the-Report-Builder)
 
-## 1. Saving and sharing
+## 5. Saving and sharing
 
 <iframe></iframe>
 

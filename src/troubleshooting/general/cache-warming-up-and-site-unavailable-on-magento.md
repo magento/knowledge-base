@@ -7,28 +7,28 @@ This article provides a solution for when the page cache is warming up and there
 
 ## Affected products and versions
 
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) .
 
 ## Issue
 
 The cache warm up script, at the end of the post-deploy phase, sends requests at such a high rate that certain instances, like 4-cpu ones, cannot cope. Their nginx exhausts the number of workers.
 
-Steps to reproduce
+ <span class="wysiwyg-underline">Steps to reproduce</span> 
 
 Start cache warm up operations.
 
-Expected result
+ <span class="wysiwyg-underline">Expected result</span> 
 
 Pages or whole site loads.
 
-Actual result
+ <span class="wysiwyg-underline">Actual result</span> 
 
 The site is unavailable or the response time is too high.
 
 ## Solution
 
-Limit the number of concurrent connections during the cache warm up. This requires adding the `` WARM_UP_CONCURRENCY `` post-deploy variable, to specify the number of warm-up requests that the cache warm up script can send concurrently. Setting this option can help manage load on Magento Cloud infrastructure. For steps, refer to Magento [DevDocs > Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency).
+Limit the number of concurrent connections during the cache warm up. This requires adding the `WARM_UP_CONCURRENCY` post-deploy variable, to specify the number of warm-up requests that the cache warm up script can send concurrently. Setting this option can help manage load on Magento Cloud infrastructure. For steps, refer to Magento [DevDocs > Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) .
 
 ## Related reading
 
-[Magento User Guide > Full-Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html)
+ [Magento User Guide > Full-Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html) 

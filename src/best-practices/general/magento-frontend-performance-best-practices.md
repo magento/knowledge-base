@@ -7,18 +7,16 @@ It is a best practice to use web performance tools to check the frontend perform
 
 ## Affected products and versions
 
-Magento Commerce and Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+Magento Commerce and Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
 
 ## Best practices
 
 1. Check the frontend performance of your website store by running frontend audits using web performance tools such as:
 
-* [Google Lighthouse](https://web.dev/measure/) (There are also [additional options to run Lighthouse](https://developers.google.com/web/tools/lighthouse/).)  
-     Lighthouse has audits for performance, accessibility, progressive web apps, SEO, and more.
-* [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)  
-     Pagespeed Insights can quickly give you a detailed report of what is slowing a web page, complete with recommendations on how to fix it.
+* [Google Lighthouse](https://web.dev/measure/) (There are also [additional options to run Lighthouse](https://developers.google.com/web/tools/lighthouse/) .) Lighthouse has audits for performance, accessibility, progressive web apps, SEO, and more.
+* [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) Pagespeed Insights can quickly give you a detailed report of what is slowing a web page, complete with recommendations on how to fix it.
 
-<li>Follow and implement the recommendations given by each of these tools.</li>
+1. Follow and implement the recommendations given by each of these tools.
 
 These web performance tools use a variety of metrics to provide powerful insights for the goal of improving your online store.
 

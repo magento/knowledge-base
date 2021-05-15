@@ -7,13 +7,13 @@ This article provides a patch for the known Magento Commerce 2.2.4 B2B issue rel
 
 ## Issue
 
-Customers (companies) can successfully create a company account on the site, but get the _"No such entity with customerId = "_ and_ "You don't have a company account yet"_ error messages. They may also get the _"500 Internal Server Error"_ when trying to access the Company Profile page.
+Customers (companies) can successfully create a company account on the site, but get the *"No such entity with customerId = "* and *"You don't have a company account yet"* error messages. They may also get the *"500 Internal Server Error"* when trying to access the Company Profile page.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-[Download MDVA-9013\_EE\_2.2.2\_composer.patch](assets/MDVA-9013_EE_2.2.2_composer.patch)
+ [Download MDVA-9013\_EE\_2.2.2\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360025147472/MDVA-9013_EE_2.2.2_composer.patch) 
 
 ### Compatible Magento versions
 

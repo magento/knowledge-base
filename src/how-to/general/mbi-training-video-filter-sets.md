@@ -14,4 +14,4 @@ In this video, you'll learn:
 * How to apply a filter set to a metric
 * How to apply a filter set to a calculated data dimension
 
-Want to follow along? Check out our [Creating filter sets for metrics tutorial](https://support.magento.com/hc/en-us/articles/360016505492) for written instructions.
+ **Want to follow along?** Check out our [Creating filter sets for metrics tutorial](https://support.magento.com/hc/en-us/articles/360016505492) for written instructions.

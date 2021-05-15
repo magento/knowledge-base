@@ -3,7 +3,7 @@ title: Vertex Address Cleansing: different addresses not allowed
 labels: 2.3.5-p1,2.4.0,Magento Commerce,Magento Commerce Cloud,Vertex,address,billing,checkout,how to,known issues,shipping
 ---
 
-This article talks about the solution for the issue when the user tries to enter a different billing and shipping address when Vertex address validation is enabled, the storefront will not let the user enter separate addresses.
+This article talks about the solution for the issue when the user tries to enter a **different** billing and shipping address when Vertex address validation is enabled, the storefront will not let the user enter separate addresses.
 
 ## Affected products and versions
 
@@ -11,23 +11,23 @@ This article talks about the solution for the issue when the user tries to enter
 
 ## Issue
 
-Steps to reproduce
+ <span class="wysiwyg-underline">Steps to reproduce</span> 
 
-1. Go to Admin > Stores > Configuration > Sales > Address Cleansing.
-1. Select _Enabled_ from the Use Vertex Address Cleansing drop-down and Save Config.
+1. Go to Admin > **Stores** > **Configuration** > **Sales** > **Address Cleansing** .
+1. Select *Enabled* from the **Use Vertex Address Cleansing** drop-down and **Save Config** .
 1. Go to the frontend as a guest and add a product to the cart.
-1. Click on the Cart icon and Proceed to Checkout.
+1. Click on the Cart icon and **Proceed to Checkout** .
 1. Fill in the address fields.
-1. Select desired Shipping Method and click Next.
-1. Click on the Next button again.
-1. Uncheck My billing and shipping address are the same and enter a new billing address (different to Address).
-1. Click Update button, then click Update address.
+1. Select desired **Shipping Method** and click **Next** .
+1. Click on the **Next** button again.
+1. Uncheck **My billing and shipping address**   **are the same** and enter a new billing address (different to Address).
+1. Click **Update** button, then click **Update address** .
 
-Expected result
+ <span class="wysiwyg-underline">Expected result</span> 
 
- The user sees different billing and shipping addresses.
+The user sees different billing and shipping addresses.
 
-Actual result
+ <span class="wysiwyg-underline">Actual result</span> 
 
 When the user hits update, the billing and shipping addresses revert to being the same.
 
@@ -37,7 +37,9 @@ Vertex address verification has failed.
 
 ## Solution
 
-Disable Vertex Address verification or upgrade to 2.4.1. ## Related reading
+Disable Vertex Address verification or upgrade to 2.4.0.
+
+## Related reading
 
 * [Magento 2.4.0 known issue: Error message selecting local payment method displayed for some countries during checkout](https://support.magento.com/hc/en-us/articles/360047139331-Magento-2-4-0-known-issue-Error-message-selecting-local-payment-method-displayed-for-some-countries-during-checkout)
 * [Magento 2.4.0 known issue: 404 error when removing rewards points on multi-shipping checkout](https://support.magento.com/hc/en-us/articles/360046920131-Magento-2-4-0-known-issue-404-error-when-removing-rewards-points-on-multi-shipping-checkout)
@@ -55,3 +57,4 @@ Disable Vertex Address verification or upgrade to 2.4.1. ## Related reading
 * [Magento 2.4.0 known issue: Error message selecting local payment method displayed for some countries during checkout](https://support.magento.com/hc/en-us/articles/360047139331-Magento-2-4-0-known-issue-Error-message-selecting-local-payment-method-displayed-for-some-countries-during-checkout)
 * [Magento 2.4.0 known issue: Amazon Pay enabled, payment methods missing when Return to standard checkout used](https://support.magento.com/hc/en-us/articles/360046680632-Magento-2-4-0-known-issue-Amazon-Pay-enabled-payment-methods-missing-when-Return-to-standard-checkout-used)
 * [Magento 2.4.0 known issue: 2.4.0 installation fails with outdated stores cache](https://support.magento.com/hc/en-us/articles/360046949731-Magento-2-4-0-known-issue-2-4-0-installation-fails-with-outdated-stores-cache)
+
