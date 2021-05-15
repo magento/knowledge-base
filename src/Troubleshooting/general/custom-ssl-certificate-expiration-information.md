@@ -3,11 +3,11 @@ title: Custom SSL certificate expiration information
 labels: ssl,certificate,Magento Commerce Cloud,custom,button,troubleshooting,security
 ---
 
-This article provides a solution for when a Custom SSL certificate was updated with a Magento provided SSL certificate.
+This article provides a solution for when a custom SSL certificate was updated with a Magento provided SSL certificate.
 
 ## Affected products and versions
 
-Magento Commerce Cloud, all versions
+Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Issue
 
@@ -39,5 +39,6 @@ If you are in a situation where your custom SSL was replaced by our internal SSL
 
 ## Related reading
 
+* [SSL (TLS) certificates for Magento Commerce Cloud: FAQ](https://support.magento.com/hc/en-us/articles/360048061192)
 * [DevDocs: Command-line tools reference: magento-cloud certiificate:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd)
 * [DevDocs: Launch checklist](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)
