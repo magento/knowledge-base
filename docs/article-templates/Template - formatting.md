@@ -172,15 +172,15 @@ This article talks about the issue where a patch you just applied takes your sit
 
 Use **bold** for UI element names (buttons, tabs, options etc.,) and _italics_ for option values.
 
-       Example: Set **Use Flat Catalog Category** to _No_.
+   Example: Set **Use Flat Catalog Category** to _No_.
 
 Use the backtick mark ``(`)`` for file names.
 
-       Example: `app/etc/config.php`
+   Example: `app/etc/config.php`
 
 Use ``<ins>`` to underline text.
 
-       Example: <ins>Steps to reproduce</ins>:
+   Example: <ins>Steps to reproduce</ins>:
 
 
 ## Depersonalizing text and images
