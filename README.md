@@ -21,14 +21,14 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
 1. Make edits on forked repo.
 1. Submit a Pull Request (PR) to this repo.
 1. Tests are run:
-    * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
-    * Markdown Linting test - making sure markdown syntax is correct.
-    * File structure validation test - making sure the commit is done according to the [required file structure](.github/CONTRIBUTING,md#file_structure).
+     * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
+     * Markdown Linting test - making sure markdown syntax is correct.
+     * File structure validation test - making sure the commit is done according to the [required file structure](.github/CONTRIBUTING,md#file_structure).
 1. PR approvals flow:
-   1. Knowledge Base (KB) writers reviews the PR within several days' time frame and adds label.
-   1. KB writer can approve/deny/request changes.
-   1. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
-   1. SME can approve/deny/request changes.
+     1. Knowledge Base (KB) writers reviews the PR within several days' time frame and adds label.
+     1. KB writer can approve/deny/request changes.
+     1. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
+     1. SME can approve/deny/request changes.
 1. Once all corrections are done (if any requested), and both the KB writer and SME approve the PR, the KB writer imports content to the internal repo and merges it internally.
 1. The  magento/knowledge-base repo synchronizes with the internal one in 20 minutes.
 1. Once the repos are synced, your PR gets closed and you get reward points.
