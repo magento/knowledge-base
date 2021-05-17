@@ -135,7 +135,7 @@ Warning note
 Info note
 {: .alert .alert-info}
 
-Error messages:  *Text of verbatim Error messages are always denoted in italics.*
+Error messages:  _Text of verbatim Error messages are always denoted in italics._
 
 
 ## Code Examples
@@ -147,8 +147,8 @@ Example (use the backtick mark ``(`)`` on each side): `php bin/magento magento-c
 ### Code block
 ```java
 elasticsearch:
-		type: elasticsearch:1.7
-		disk: 1024
+    type: elasticsearch:1.7
+    disk: 1024
 ```
 
 
