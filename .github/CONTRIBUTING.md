@@ -1,6 +1,13 @@
 
 ## Contribute to Magento Support Knowledge base
 
+Warning: We will officially start taking contributions at the end of May. Please do not contribute until official notice in social media or email.
+You can check for the announcement that this repo has become public at:
+
+* [Adobe Commerce Facebook](https://www.facebook.com/adobecommerce)
+* [Adobe Commerce Twitter](https://twitter.com/AdobeCommerce/)
+* [Adobe Commerce LinkedIn](https://www.linkedin.com/company/adobe-commerce/posts)
+
 Share your troubleshooting tips and best practices with the community by contributing to [Magento Support Knowledge Base](https://support.magento.com/hc/en-us) (Support KB)!
 You can contribute by creating an issue or pull request (PR) on our [Support KB](https://github.com/magento/knowledge-base) GitHub repository.
 We welcome all types of contributions; from minor typo fixes to new topics.
