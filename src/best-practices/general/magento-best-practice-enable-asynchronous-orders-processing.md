@@ -27,4 +27,5 @@ To enable the setting:
 >
 >Related reading
 
-<ul><li title="Best practice Magento order placement performance "><a href="https://support.magento.com/hc/en-us/articles/360048170772">Best practice Magento order placement performance</a></li><li title="Best practice Magento order placement performance "><a href="https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-most.html">Configuration paths reference in Magento Developer Documentation</a></li></ul>
+* [Best practice Magento order placement performance](https://support.magento.com/hc/en-us/articles/360048170772)
+* [Configuration paths reference in Magento Developer Documentation](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-most.html)
