@@ -5,6 +5,8 @@ labels: CPU Allocation,calculation,configuration,hardware resources,phCPU,query
 
 This is a TEST, please ignore this article.
 The attached article provides detailed guidelines on what metrics should be used when making decisions about CPU allocation, and how to calculate them.
+This is test image:
+![test_image](assets/access_site_urls.png)
 
 ## Affected products and versions
 
