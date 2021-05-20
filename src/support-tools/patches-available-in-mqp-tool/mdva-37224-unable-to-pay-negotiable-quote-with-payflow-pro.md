@@ -39,13 +39,14 @@ The MDVA-37224 Magento patch fixes the issue when customers are not able to pay 
 
  <ins>Expected results</ins>:
 
- * The order is successfully placed, as expected.
- * PayPal sends email with the correct information to the customer, as expected.
+* The order is successfully placed, as expected.
+* PayPal sends email with the correct information to the customer, as expected.
 
  <ins>Actual results</ins>:
 
- * The webpage hangs, and does not complete the order.
- * PayPal sends confirmation to the customer with zero values, similar to this Example:  
+* The webpage hangs, and does not complete the order.
+* PayPal sends confirmation to the customer with zero values, similar to this Example:  
+
 ```php
 Order ID: A1xxxxxxxxx
 Order Placed: Monday, April 21, 2021 01:12:12 PM PDT
