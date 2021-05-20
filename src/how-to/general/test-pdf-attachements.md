@@ -12,4 +12,4 @@ Magento Commerce Cloud 2.3.x, 2.4.x.
 
 ## Attached files
 
-Click on the ![attached .pdf file](assets/CPU_Allocation.pdf) to download the article.
+Click on the [attached .pdf file](assets/CPU_Allocation.pdf) to download the article.
