@@ -16,7 +16,7 @@ The MDVA-30186 patch solves the issue where attribute options are not sorted in 
 
 ## Issue
 
- <ins>Steps to reproduce:</ins>
+ <ins>Steps to reproduce</ins>:
 
 1. Add any 3 options to the existing color attribute.
 1. Create 6 simple products with options (Example: *Option 1*: 1 product, *Option 2*: 2 products, *Option 3*: 3 products).
@@ -52,11 +52,11 @@ The MDVA-30186 patch solves the issue where attribute options are not sorted in 
 1. Make the above GraphQL request again, and observe the color attribute options.
 
 
- <ins>Expected results:</ins>
+ <ins>Expected results</ins>:
 
 The attribute options are sorted according to the order set from the Admin, as expected.
 
- <ins>Actual results:</ins>
+ <ins>Actual results</ins>:
 
 The attribute options are always sorted according to the associate number of products.
 
