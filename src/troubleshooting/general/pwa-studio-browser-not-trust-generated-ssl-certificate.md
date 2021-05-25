@@ -4,14 +4,15 @@ labels: Magento PWA, troubleshooting, browser, PWA, SSL, certificate
 ---
 
 This article provides a solution for when you see a warning that indicates that your browser does not trust the generated SSL certificate.
+## Affected products and versions
 
-* PWA Studio
+PWA Studio
 
 ## Issue
 The browser does not trust the generated SSL certificate.
 
 ## Cause
-PWA Studio
+Browsing to the dev/staging site.
 
 ## Solution
 
@@ -20,11 +21,11 @@ Generating certificates is handled by [devcert](https://github.com/davewasmer/de
 `openssl version`
 
 
-The version should be 1.0 or above (or LibreSSL 2, in the case of OSX High Sierra.)
+The version should be 1.0 or above (or LibreSSL 2, in the case of OSX High Sierra).
 
 You can install higher versions of OpenSSL with [Homebrew](https://brew.sh/) on OSX, [Chocolatey](https://chocolatey.org/) on Windows, or your Linux distribution’s package manager.
 
-If you’re running Linux, make sure that `libnss3-tools` (or whatever the equivalent is) is installed on your system. Further information provided in this section of the [devcert](https://github.com/davewasmer/devcert#skipcertutil) readme.
+If you’re running Linux, make sure that `libnss3-tools` (or the equivalent) is installed on your system. Further information provided in this section of the [devcert](https://github.com/davewasmer/devcert#skipcertutil) readme.
 
 Some users have suggested deleting the devcert folder to trigger certificate regeneration.
 
