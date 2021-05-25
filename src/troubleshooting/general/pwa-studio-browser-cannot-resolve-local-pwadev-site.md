@@ -6,7 +6,7 @@ labels: Magento PWA, troubleshooting, browser, PWA, hostfile
 This article provides a solution for when another program or process has edited your [host file](https://en.wikipedia.org/wiki/Hosts_(file)) and removed the entry for your project domain.
 ## Affected products and versions
 
-* PWA Studio
+PWA Studio
 
 ## Issue
 When browsing to the dev/staging site you cannot see the `.local.pwadev` site.
