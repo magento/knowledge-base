@@ -20,7 +20,8 @@ The MDVA-37288 patch solves the issue where the wrong tier prices are returned a
 
 1. Add tier pricing to any item (for this example tier prices were added to items with id=1 and id=2).
 1. Run GraphQL query with search that will include the items with tier prices and items without tier prices.
-```{
+```
+{
   products(pageSize: 20, currentPage: 1, search: "24-MB0") {
     items {
       id
@@ -36,9 +37,11 @@ The MDVA-37288 patch solves the issue where the wrong tier prices are returned a
 ```
 
  <ins>Expected results:</ins>
+
 Only items with tier prices should return proper tier prices
-```{
-    "data": {
+```
+{
+  "data": {
         "products": {
             "items": [
                 {
@@ -73,7 +76,8 @@ Only items with tier prices should return proper tier prices
             ]
         }
     }
-}```
+}
+```
 
  <ins>Actual results:</ins>
  * All items coming after an item with tier pricing have tier pricing in the response.
@@ -81,7 +85,8 @@ Only items with tier prices should return proper tier prices
 
  response example:
 
-```{
+```
+{
     "data": {
         "products": {
             "items": [
