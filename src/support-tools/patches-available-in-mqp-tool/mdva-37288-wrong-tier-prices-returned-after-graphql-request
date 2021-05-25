@@ -37,15 +37,10 @@ The MDVA-37288 patch solves the issue where the wrong tier prices are returned a
 
  <ins>Expected results:</ins>
 Only items with tier prices should return proper tier prices
-{
+```{
     "data": {
         "products": {
             "items": [
-                {
-                    "id": 42,
-                    "price_tiers": []
-                },
-				...
                 {
                     "id": 17,
                     "price_tiers": []
@@ -74,12 +69,11 @@ Only items with tier prices should return proper tier prices
                 {
                     "id": 19,
                     "price_tiers": []
-                },
-				...
+                }
             ]
         }
     }
-}
+}```
 
  <ins>Actual results:</ins>
  * All items coming after an item with tier pricing have tier pricing in the response.
@@ -92,42 +86,6 @@ Only items with tier prices should return proper tier prices
         "products": {
             "items": [
                 {
-                    "id": 42,
-                    "price_tiers": []
-                },
-                {
-                    "id": 2046,
-                    "price_tiers": []
-                },
-                {
-                    "id": 11,
-                    "price_tiers": []
-                },
-                {
-                    "id": 12,
-                    "price_tiers": []
-                },
-                {
-                    "id": 6,
-                    "price_tiers": []
-                },
-                {
-                    "id": 3,
-                    "price_tiers": []
-                },
-                {
-                    "id": 41,
-                    "price_tiers": []
-                },
-                {
-                    "id": 18,
-                    "price_tiers": []
-                },
-                {
-                    "id": 39,
-                    "price_tiers": []
-                },
-                {
                     "id": 17,
                     "price_tiers": []
                 },
@@ -167,125 +125,6 @@ Only items with tier prices should return proper tier prices
                 },
                 {
                     "id": 19,
-                    "price_tiers": [
-                        {
-                            "quantity": 1,
-                            "final_price": {
-                                "value": 34
-                            }
-                        },
-                        {
-                            "quantity": 5,
-                            "final_price": {
-                                "value": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 8,
-                    "price_tiers": [
-                        {
-                            "quantity": 1,
-                            "final_price": {
-                                "value": 34
-                            }
-                        },
-                        {
-                            "quantity": 5,
-                            "final_price": {
-                                "value": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 13,
-                    "price_tiers": [
-                        {
-                            "quantity": 1,
-                            "final_price": {
-                                "value": 34
-                            }
-                        },
-                        {
-                            "quantity": 5,
-                            "final_price": {
-                                "value": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 15,
-                    "price_tiers": [
-                        {
-                            "quantity": 1,
-                            "final_price": {
-                                "value": 34
-                            }
-                        },
-                        {
-                            "quantity": 5,
-                            "final_price": {
-                                "value": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 16,
-                    "price_tiers": [
-                        {
-                            "quantity": 1,
-                            "final_price": {
-                                "value": 34
-                            }
-                        },
-                        {
-                            "quantity": 5,
-                            "final_price": {
-                                "value": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 22,
-                    "price_tiers": [
-                        {
-                            "quantity": 1,
-                            "final_price": {
-                                "value": 34
-                            }
-                        },
-                        {
-                            "quantity": 5,
-                            "final_price": {
-                                "value": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 43,
-                    "price_tiers": [
-                        {
-                            "quantity": 1,
-                            "final_price": {
-                                "value": 34
-                            }
-                        },
-                        {
-                            "quantity": 5,
-                            "final_price": {
-                                "value": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 44,
                     "price_tiers": [
                         {
                             "quantity": 1,
@@ -305,6 +144,7 @@ Only items with tier prices should return proper tier prices
         }
     }
 }
+
 ```
 
 
