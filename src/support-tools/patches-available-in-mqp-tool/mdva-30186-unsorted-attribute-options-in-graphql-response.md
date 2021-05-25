@@ -58,7 +58,7 @@ The attribute options are sorted according to the order set from the Admin, as e
 
  <ins>Actual results</ins>:
 
-The attribute options are always sorted according to the associate number of products.
+The attribute options are always sorted according to the associated number of products.
 
 
 ## Apply the patch
