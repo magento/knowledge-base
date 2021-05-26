@@ -29,12 +29,9 @@ If you’re running Linux, make sure that `libnss3-tools` (or the equivalent) is
 
 Some users have suggested deleting the devcert folder to trigger certificate regeneration.
 
-* For MacOS users, this folder is usually found at:
-`{{~/Library/Application Support/devcert }}`
+* For MacOS users, this folder is usually found at: `{{~/Library/Application Support/devcert }}`
+* For Windows users, this folder is usually found at: `${User}\AppData\Local\devcert`
 
-
-* For Windows users, this folder is usually found at:
-`${User}\AppData\Local\devcert`
 ## Related reading
 
 * [PWA Studio: Self-signed certificate trust error](https://support.magento.com/hc/en-us/articles/360038973172)
