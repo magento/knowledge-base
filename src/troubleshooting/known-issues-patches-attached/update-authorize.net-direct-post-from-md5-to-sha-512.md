@@ -110,9 +110,10 @@ Take the following steps to update the Magento Admin configuration:
 1. In the **Signature Key** enter the SHA-512 Signature Key.
 1. Click **Save Config** .
 
-   <ins>Magento 2 Authorize.Net Direct Post configuration screen:</ins>
+   *Magento 2 Authorize.Net Direct Post configuration screen:*
    ![auth-net-signature-key-m2.png](assets/auth-net-signature-key-m2.png)
-   <ins>Magento 1 Authorize.Net Direct Post configuration screen:</ins>
+
+   *Magento 1 Authorize.Net Direct Post configuration screen:*
    ![auth-net-signature-key-m1.png](assets/auth-net-signature-key-m1.png)
 
 
