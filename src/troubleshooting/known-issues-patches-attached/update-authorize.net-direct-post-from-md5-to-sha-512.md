@@ -42,12 +42,12 @@ Alternatively, you can upgrade to version 2.2.8 or 2.3.1 and get all updates and
 
 Patches are attached to this article. To download a patch, scroll down to the end of the article and click the file name, or click one the following links:
 
-* For versions 2.2.0-2.2.7 and 2.3.0 - [Download Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch](https://support.magento.com/hc/en-us/article_attachments/360026121671/Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch) 
-* For versions 2.0.0-2.0.18 and 2.1.0-2.1.16 - [Download MDVA-17212\_EE\_2.1.0\_v1.composer-2019-03-05-12-05-22.patch](https://support.magento.com/hc/en-us/article_attachments/360026127972/MDVA-17212_EE_2.1.0_v1.composer-2019-03-05-12-05-22.patch) 
+* For versions 2.2.0-2.2.7 and 2.3.0 - [Download Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch](https://support.magento.com/hc/en-us/article_attachments/360026121671/Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch)
+* For versions 2.0.0-2.0.18 and 2.1.0-2.1.16 - [Download MDVA-17212\_EE\_2.1.0\_v1.composer-2019-03-05-12-05-22.patch](https://support.magento.com/hc/en-us/article_attachments/360026127972/MDVA-17212_EE_2.1.0_v1.composer-2019-03-05-12-05-22.patch)
 
 #### Magento Commerce
 
-* For versions 1.10.1.0-1.14.4.1 - [Download PATCH\_SUPEE-11085\_EE\_1.14.4.0\_v1-2019-02-28-04-59-38.sh](https://support.magento.com/hc/en-us/article_attachments/360026121651/PATCH_SUPEE-11085_EE_1.14.4.0_v1-2019-02-28-04-59-38.sh) 
+* For versions 1.10.1.0-1.14.4.1 - [Download PATCH\_SUPEE-11085\_EE\_1.14.4.0\_v1-2019-02-28-04-59-38.sh](https://support.magento.com/hc/en-us/article_attachments/360026121651/PATCH_SUPEE-11085_EE_1.14.4.0_v1-2019-02-28-04-59-38.sh)
 
 #### Magento Open Source
 
@@ -88,7 +88,7 @@ For Magento Commerce 1.X and Open Source 1.X, follow these steps to install the 
 
 ### 3. Get a new Signature Key
 
-You need to get a new Signature Key and add it to your Magento Admin configuration. For more information, see [What is a Signature Key?](https://support.authorize.net/s/article/What-is-a-Signature-Key) 
+You need to get a new Signature Key and add it to your Magento Admin configuration. For more information, see [What is a Signature Key?](https://support.authorize.net/s/article/What-is-a-Signature-Key)
 
 1. Log into the Merchant Interface at [https://account.authorize.net](https://account.authorize.net/) .
 1. Click **Account** from the main toolbar.
@@ -110,21 +110,18 @@ Take the following steps to update the Magento Admin configuration:
 1. In the **Signature Key** enter the SHA-512 Signature Key.
 1. Click **Save Config** .
 
-![auth-net-signature-key-m2.png](assets/auth-net-signature-key-m2.png)
+   <ins>Magento 2 Authorize.Net Direct Post configuration screen:</ins>
+   ![auth-net-signature-key-m2.png](assets/auth-net-signature-key-m2.png)
+   <ins>Magento 1 Authorize.Net Direct Post configuration screen:</ins>
+   ![auth-net-signature-key-m1.png](assets/auth-net-signature-key-m1.png)
 
- *Magento 2 Authorize.Net Direct Post configuration screen* 
-
- *
-![auth-net-signature-key-m1.png](assets/auth-net-signature-key-m1.png)
-* *Magento 1 Authorize.Net Direct Post configuration screen* 
 
 The process is successful if the Signature Key updates and payment processing continues. If you have issues, verify the Signature Key with Authorize.Net.
 
 ## More information
 
 * [Tech Resources](https://magento.com/technical-resources) for Magento Open Source and Commerce documentation
-    * Open Source [2.3](https://docs.magento.com/m2/ce/user_guide/payment/authorize-net-direct-post.html) , [2.2](https://docs.magento.com/m2/2.2/ce/user_guide/payment/authorize-net-direct-post.html) , [2.1](https://docs.magento.com/m2/2.1/ce/user_guide/payment/authorize-net-direct-post.html) 
-    * Commerce and Commerce Cloud [2.3](https://docs.magento.com/m2/ee/user_guide/payment/authorize-net-direct-post.html) , [2.2](https://docs.magento.com/m2/2.2/ee/user_guide/payment/authorize-net-direct-post.html) , [2.1](https://docs.magento.com/m2/2.1/ee/user_guide/payment/authorize-net-direct-post.html) 
-    * Magento 1 [Open Source](https://docs.magento.com/m1/ce/user_guide/payment/authorize-net-direct-post.html) and [Commerce](https://docs.magento.com/m1/ee/user_guide/payment/authorize-net-direct-post.html) 
-* Authorize.Net announcement: [MD5 Hash End of Life & Signature Key Replacement](https://support.authorize.net/s/article/MD5-Hash-End-of-Life-Signature-Key-Replacement) 
-
+    * Open Source [2.3](https://docs.magento.com/m2/ce/user_guide/payment/authorize-net-direct-post.html) , [2.2](https://docs.magento.com/m2/2.2/ce/user_guide/payment/authorize-net-direct-post.html) , [2.1](https://docs.magento.com/m2/2.1/ce/user_guide/payment/authorize-net-direct-post.html)
+    * Commerce and Commerce Cloud [2.3](https://docs.magento.com/m2/ee/user_guide/payment/authorize-net-direct-post.html) , [2.2](https://docs.magento.com/m2/2.2/ee/user_guide/payment/authorize-net-direct-post.html) , [2.1](https://docs.magento.com/m2/2.1/ee/user_guide/payment/authorize-net-direct-post.html)
+    * Magento 1 [Open Source](https://docs.magento.com/m1/ce/user_guide/payment/authorize-net-direct-post.html) and [Commerce](https://docs.magento.com/m1/ee/user_guide/payment/authorize-net-direct-post.html)
+* Authorize.Net announcement: [MD5 Hash End of Life & Signature Key Replacement](https://support.authorize.net/s/article/MD5-Hash-End-of-Life-Signature-Key-Replacement)
