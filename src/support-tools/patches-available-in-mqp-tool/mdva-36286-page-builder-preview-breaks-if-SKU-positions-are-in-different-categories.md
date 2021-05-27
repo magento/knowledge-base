@@ -19,17 +19,11 @@ The MDVA-36286 patch solves the issue where the Page Builder products widget pre
 <ins>Steps to reproduce:</ins>
 
 1. Create a category with a few products.
-
         ![products_category.png](assets/products_category.png)  
-
- 1. Create a sub-category with the same products, but with different positions.
-
+1. Create a sub-category with the same products, but with different positions.
         ![products_magento_different_position.png](assets/products_magento_different_position.png).
-
 1. Edit a CMS page content to add a Product widget via Page Builder. (Select the parent category above).
-
         ![cms_page_magento.png](assets/cms_page_magento.png).
-
 1. Save and wait for the content preview.
 
 <ins>Expected results:</ins>
