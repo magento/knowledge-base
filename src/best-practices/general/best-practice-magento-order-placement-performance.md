@@ -19,8 +19,8 @@ It is recommended that you enable the Async email notification and Order archive
 Enable the Async email notification functionality to improve the performance of placing an order. This moves the order processing email notifications to the background.To enable this feature:
 
 1. Go to Magento Admin Panel.
-1. Click on **STORES** > Settings > **Configuration** .
-1. Then go to **Sales** > **Sales Emails** > **General Settings** > **Asynchronous sending** .    ![asynchronous_sales_emails_magento_2.4.1.png](assets/asynchronous_sales_emails_magento_2.4.1.png)    
+1. Click on **STORES** > Settings > **Configuration**.
+1. Then go to **Sales** > **Sales Emails** > **General Settings** > **Asynchronous sending**.    ![asynchronous_sales_emails_magento_2.4.1.png](assets/asynchronous_sales_emails_magento_2.4.1.png)    
 1. Save the config.
 
 ### Enable Order archive
@@ -30,4 +30,5 @@ To enable the feature, follow the instructions in [Archive > To enable archiving
 
 ## Related reading
 
-Refer to [Performance Best Practices > Configuration Best Practices](https://devdocs.magento.com/guides/v2.4/performance-best-practices/configuration.html#asynchronous-email-notifications) .
+Refer to [Performance Best Practices > 
+Best Practices](https://devdocs.magento.com/guides/v2.4/performance-best-practices/configuration.html#asynchronous-email-notifications).
