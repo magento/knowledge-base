@@ -15,6 +15,7 @@ Here’s a short update on what was published and updated in Support Magento KB 
 
 Please click to get familiar with the article and give us feedback on any issues!
 
+1. [Custom SSL certificate expiration information](https://support.magento.com/hc/en-us/articles/360061021732): This article provides a solution for when a custom SSL certificate was updated with a Magento provided SSL certificate.
 1. [PWA Studio: browser not trust generated SSL certificate](https://support.magento.com/hc/en-us/articles/360061406932-PWA-Studio-browser-not-trust-generated-SSL-certificate): This article provides a solution for when you see a warning that indicates that your browser does not trust the generated SSL certificate.
 1. [PWA Studio: browser cannot resolve the .local.pwadev site](https://support.magento.com/hc/en-us/articles/360061406912-PWA-Studio-browser-cannot-resolve-the-local-pwadev-site): This article provides a solution for when another program or process has edited your host file and removed the entry for your project domain.
     **Articles providing details for patches available in MQP 1.0.22**
