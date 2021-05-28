@@ -17,6 +17,7 @@ Click on the links below to see recommendations:
 * [Upgrade ECE-Tools to version 2002.0.21 or higher](#ECE-Tools)
 * [Switch indexer mode safely](#indexer)
 * [Avoid running DDL (Data Definition Language) statements](#DDL_statements)
+* [Enable order archiving](#enable-order-archiving)
 
 <h2 id="convert">Convert all MyISAM tables to InnoDb</h2>
 
@@ -89,8 +90,11 @@ Avoid running DDL (Data Definition Language) statements on Production environmen
 
 If you need to run a DDL statement, put the website to maintenance mode and disable cron (see the instructions for switching indexes safely in the previous section).
 
+### Enable order archiving
+
+Sales tables might take a lot of space overtime, so enabling archiving would save MySQL disk space and improve checkout performance.
+To enable the feature, follow the instructions in [Archive > To enable archiving](https://docs.magento.com/user-guide/sales/order-archive.html#to-enable-archiving) in Magento User Guide.
+
 ## Related reading
 
- [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651) 
-
- 
+ [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651)
