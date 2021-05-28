@@ -3,7 +3,7 @@ title: Bi-weekly Magento Support KB Newsletter: what's new and what's updated
 labels: announcements,help center,newsletter,published,update,what's new
 ---
 
- **NEXT UPDATE** : May 28th 2021.
+ **NEXT UPDATE** : June 11 2021.
 
 Hello there!
 
