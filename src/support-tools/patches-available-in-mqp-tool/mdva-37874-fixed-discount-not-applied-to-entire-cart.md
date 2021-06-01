@@ -1,14 +1,14 @@
 ---
 title: MDVA-37874: Fixed discount not applied to entire cart
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,MQP 1.0.23,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,Payment on account,REST API,order,partial invoice
+labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,2.3.6,2.3.6-p1,2.3.7,MQP 1.0.24,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,fixed discount amount,bundle product,order
 ---
 
-The MDVA-37478 Magento patch fixes the issue when you're unable to create a partial invoice via REST API for an order placed with payment method **Payment on Account**. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37478. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+The MDVA-37874 Magento patch fixes the issue when the **fixed discount amount** for the whole cart is incorrectly applied to a bundle product containing more than one option. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.24 is installed. The patch ID is MDVA-37874. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 
-* The patch was designed for Magento Commerce Cloud 2.3.3-p1
-* The patch is also compatible with Magento Commerce and Magento Commerce Cloud 2.3.0-2.3.7
+* The patch was designed for Magento Commerce Cloud 2.4.2
+* The patch is also compatible with Magento Commerce and Magento Commerce Cloud 2.3.6-2.3.7 and 2.4.1-2.4.2-p1
 
 >![info]
 >
@@ -16,42 +16,21 @@ The MDVA-37478 Magento patch fixes the issue when you're unable to create a part
 
 ## Issue
 
- <ins>Prerequisite</ins>:
-
- Magento with installed B2B module
 
  <ins>Steps to reproduce</ins>:
 
-1. Enable **B2B company**.
-1. Enable **Payment on Account** payment method.
-1. Create 2 simple products.
-1. Create a company account.
-1. Add company credits exceeding the total price of 2 products created.
-1. Login to the frontend using the company account created.
-1. Add the 2 products created to the cart, and checkout using the **Payment on Account** payment method.
-1. Try to create a partial invoice for the order created via REST API:
-    ```php
-    POST /rest/V1/order//invoice
-    {
-      "items": [
-        {
-          "order_item_id": 2,
-          "qty": 1
-        }
-      ]
-    }
-    ```
+1. Create a cart rule with a **fixed discount amount** for the whole cart.
+1. Add a bundle product to the cart (The bundle product should contain several selected options.).
+1. Go to the cart page, and check the discount.
+
 
  <ins>Expected results</ins>:
 
-The partial invoice is created for an order made using the **Payment on Account** payment method, as expected.
+The fixed discount amount is applied to the entire cart, as expected.
 
  <ins>Actual results</ins>:
 
-The following error is returned from the REST API:
-```php
-{"message":"Invoice Document Validation Error(s):\nAn invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity."}
-```
+The fixed discount amount is applied to only part of the cart.
 
 
 ## Apply the patch
