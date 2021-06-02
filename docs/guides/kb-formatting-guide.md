@@ -66,22 +66,51 @@ Where %language-code% are the codes defined by [Prism.js supported languages](ht
 
 ## Lists
 
+Always separate lists from the rest of content by blank lines.
+
 Use the following formatting for ordered lists:
 
 ```
 1. First numbered list item.
 1. Second numbered list item.
+...
+1. Last numbered list item.
 ```
 
-Use the following for unordered  lists:
+To create unordered bulleted list, begin a line with *, or +, or -. But select one method and use it consistently throughout the article.
 
+Example:
 
+```
+* Unordered list item.
+* Unordered list item.
+...
+* Last unordered list item.
+```
+To add content between list items, add 4 spaces in the begining of the line:
+
+```
+* List item.
+* List item.
+    Here's some content between list items.
+* Here we continue the list
+```
+
+You can embed lists this way as well.
 
 ## Links
 
+### Links to images
+
+### Links to attached files 
+
 ### Anchor Links
 
+
+
 ## Tables
+
+
 
 ## Warnings and info blocks
 
