@@ -56,7 +56,7 @@ For the list of supported languages check https://github.com/github/linguist/blo
 
 If the highlighting doesn't work for a certain language in markdown, to make it at least highlighted when published to https://support.magento.com/hc/en-us/, use the following HTML:
 
-```
+```html
 <pre><code class="language-%language-code%"
 your code here
 </pre></code>
@@ -108,20 +108,24 @@ You can embed lists this way as well.
 
 If you need to add an ID to serve as destination anchor for links, use HTML. For example, if you need to reference a header, use the following formatting:
 
-`<h2 id="this_is_anchor">This is header</h2> `
+```html
+<h2 id="this_is_anchor">This is header</h2>
+```
 
 Then you can use either Markdown or HTML to create a link to this anchor:
 
-`[this is link to the anchor in the same article](#this_is_anchor)`
-
+```markdown
+[this is link to the anchor in the same article](#this_is_anchor)`
+```
 or
 
-`<a href="#this_is_anchor">this is link to the anchor in the same article</a>`
-
+```html
+<a href="#this_is_anchor">this is link to the anchor in the same article</a>`
+```
 
 ## Tables
 
-Use HTML formatting for tables.
+Use [HTML formatting for tables](https://www.w3schools.com/html/html_tables.asp).
 
 
 ## Warnings and info blocks
@@ -151,54 +155,4 @@ Error note block:
 >[!ERROR]
 >
 >This is a block with additional info
-```
-
-
-## Exceptions where HTML is required
-
-In certain cases HTML is required, to make sure formatting is correct once articles are published to [support.magento.com](https://support.magento.com/hc/en-us).
-
-
-### Code blocks
-
-For those languages, which are
-
-On support.magento.com we use Prism.js to highlight code samples.
-Please use the following formatting:
-
-- for inline code and code blocks:  
-  ```html
-  <code class="language-%language-code%">%your code here%</code>
-  ```
-- for code blocks:
-  ```html
-    <pre>
-        <code class="language-%language-code">
-            %your code block here
-        </code>
-    </pre>
-  ```
-
-Supported languages and codes are listed on https://prismjs.com/#supported-languages.
-
-*Examples:*
-
-Inline code:
-```html
-<code class="language-bash">./bin/magento config:show catalog/search/engine</code>
-```
-
-Code block:
-```html
-<pre>
-    <code class="language-yaml">
-        "http://{default}/":
-            type: upstream
-            upstream: "mymagento:http"
-
-        "http://{all}/":
-            type: upstream
-            upstream: "mymagento:http"
-     </code>
- </pre>
 ```
