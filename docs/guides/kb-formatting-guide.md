@@ -100,9 +100,27 @@ You can embed lists this way as well.
 
 ## Links
 
+External links are straight-forward and can be rendered as a linked caption or a pure URL.
+```markdown
+[Adobe](https://www.adobe.com)
+```
+
 ### Links to images
 
+To insert an image, place the image to assets sub-folder in the same section folder as the article, and use the following syntax to insert the image to your article:
+
+```markdown
+![alt text](assets/image.png)
+```
+
 ### Links to attached files
+You can upload .pdf and .zip files and add links to them in article, so that users can download the files.
+
+To do so, place the files in the assets sub-folder in the same section folder as the article, and use the following syntax to insert the link to the file in your article:
+
+```
+[asset_title](assets/%file_name%).
+```
 
 ### Anchor Links
 
