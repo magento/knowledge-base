@@ -19,7 +19,9 @@ When an existing Magento Administrator creates a new user with the Administrator
 <h3 id="Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce">Steps to reproduce:</h3>
 
 1. Log in as Administrator and create a new user by navigating to this path: **System** > Permissions > **All Users** .
-![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
+
+    ![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
+
 1. Then click the **Add new user** page. Provide your current Administrator's password when prompted.
 1. Go to the **System** > **Action Log** > **Report** page and find the last log entry.
 1. You can see the current password, neither encrypted nor hashed.
