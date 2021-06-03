@@ -13,19 +13,23 @@ Magento Commerce and Magento Commerce Cloud 2.3.4 - 2.3.5, 2.4.0Note: the patch 
 
 The issue is that the cron job has run out of memory due to the amount of data that the job is trying to process. Symptoms of this issue include slow performance due to high disk usage by MySQL and low web server memory.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> To check if there is a cron job that is not able to remove outdated quotes run the following query:
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
+
+To check if there is a cron job that is not able to remove outdated quotes run the following query:
 
 ```clike
 select * from cron_schedule where job_code like '%sales_clean_quotes%'
 ```
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
-The status of `sales_clean_quotes` cron job should be `success` . <span class="wysiwyg-underline">Actual result:</span> 
+The status of `sales_clean_quotes` cron job should be `success` . <span class="wysiwyg-underline">Actual result:</span>
 
 The status of `sales_clean_quotes` cron job is `running` or `error` .
 
-2. Another way to confirm that there is a cron job that is not able to remove outdated quotes is to map the output from the query from **Step 1** ( `executed_at` ) against the timestamps of any memory errors in `/var/log/cron.log` . If there is a cron job that is not able to process the amount of data you may see a message similar to:
+&nbsp;
+
+Another way to confirm that there is a cron job that is not able to remove outdated quotes is to map the output from the query from **Step 1** ( `executed_at` ) against the timestamps of any memory errors in `/var/log/cron.log` . If there is a cron job that is not able to process the amount of data you may see a message similar to:
 
 ```clike
 PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 4096 bytes) in /app/vendor/magento/framework/DB/Statement/Pdo/Mysql.php on line 91

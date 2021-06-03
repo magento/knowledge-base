@@ -24,6 +24,7 @@ The MDVA-37362 patch solves the issue where configurable product option values a
 1. Reindex.
 1. Make a GraphQL request.
 1. Request:
+
 ```java
 {
   products(filter: { sku: { eq: "test-config-product" } }) {

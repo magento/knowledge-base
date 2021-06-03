@@ -9,7 +9,7 @@ Learn how to submit a support ticket to the Magento Help Center, provide shared 
 
 **[WHAT IS MAGENTO HELP CENTER?](#what-is)**  
 
-**[KNOWLEDGE BASE](#kb)** 
+**[KNOWLEDGE BASE](#kb)**
 
 * [What is Knowledge Base?](#what-is-kb)
 * [Knowledge Base does not replace DevDocs or User Guide](#kb-devdocs-user-guide)
@@ -17,7 +17,7 @@ Learn how to submit a support ticket to the Magento Help Center, provide shared 
 * [Navigate articles using Categories](#navigate-articles)
 * [Rate articles](#rate-articles)
 
-**[SUPPORT TICKETS](#support-tickets)** 
+**[SUPPORT TICKETS](#support-tickets)**
 
 * [Log In To Help Center](#login)
 * [Submit a support ticket](#submit-ticket)
@@ -36,7 +36,7 @@ Learn how to submit a support ticket to the Magento Help Center, provide shared 
 * [Resolve your ticket](#resolve-ticket)
 * [Open a follow-up ticket](#follow-up)
 
-**[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)** 
+**[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)**
 
 * [Who can provide shared access](#who-can-provide-shared-access)
 * [Find out who is your Account Owner (Cloud)](#find-account-owner-cloud)
@@ -78,7 +78,7 @@ To search for articles, follow these steps:
 1. If you want the results of your search to be displayed on a new page:
     * Do not select an article from the suggestion list
     * After typing your search query, press Enter on your keyboard
-![Search_Results_Image.png](assets/Search_Results_Image.png)
+      ![Search_Results_Image.png](assets/Search_Results_Image.png)
 
 The search is not limited to the article title but also includes the article text; the most relevant matches are displayed first.
 
@@ -104,7 +104,7 @@ To find articles through navigating the categories, follow these steps:
 
 <h3 id="rate-articles">Rate articles</h3>
 
-You may help us improve our articles let us know your opinion. At the bottom of every article, click **Yes** or **No** to answer the question **Was this article helpful?** 
+You may help us improve our articles let us know your opinion. At the bottom of every article, click **Yes** or **No** to answer the question **Was this article helpful?**
 
 Please vote, your opinion matters!
 
@@ -215,15 +215,15 @@ We provide support only to Magento license owners and accounts which have Shared
 
 If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [None](mailto:helpcenterloginissues@magento.com) , and we will gladly review your account settings and support entitlements.
 
- 
+
 <h3 id="verify-email-address">
 <em>"Please verify your email address"</em>error on the Magento account page</h3>
 
- 
+
 You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento account page](https://account.magento.com/) .
 ![Verify_Email_Address_Error.png](assets/Verify_Email_Address_Error.png)
 
- 
+
 The solution is to validate your email address:
 
 1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.    ![Validate_Email_Solution.png](assets/Validate_Email_Solution.png)    
@@ -231,7 +231,7 @@ The solution is to validate your email address:
 1. Click on the email validation link to validate your email and resolve this issue.
 1. If you do not receive an email with an email validation link, please email [None](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
 
- 
+
 <h3 id="merchant-not-displayed">Ticket submission form: merchant is not displayed in Organization drop-down</h3>
 
 #### Issue
@@ -260,7 +260,7 @@ After having been granted shared access from the merchant, you need to take the 
 1. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
 1. Click on the **Support** tab in the left panel. Doing this will ensure that the Magento Help Center is configured properly via the SSO call from Magento.com to Magento Help Center.
 
- 
+
 <h3 id="track-tickets">Track your tickets</h3>
 
 Your tickets are those that you:
@@ -276,8 +276,8 @@ To list all your tickets, click your profile menu (upper-right corner) on the He
 
 To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
 
-* **My tickets** 
-* **Tickets I'm CC'd on** 
+* **My tickets**
+* **Tickets I'm CC'd on**
 * **Organization tickets** (available if your account is associated with several organizations)
 
 ![hc_my-tickets_tabs.png](assets/hc_my-tickets_tabs.png)
@@ -306,12 +306,12 @@ To follow/unfollow tickets for an organization:
 
 ![hc_follow-org-tickets.png](assets/hc_follow-org-tickets.png)
 
- 
+
 <h3 id="P1-hotline">Magento P1 hotline</h3>
 
  **Login is required** to access the [Magento P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Magento when seeking help during a P1 incident and explains what information to provide.
 
- 
+
 <h3 id="ticket-fields-explained">Support ticket fields explained</h3>
 
 #### Affected URL
@@ -431,16 +431,16 @@ Please select the Magento version you are requesting help with. All supported ve
 
 To find the version of your Magento Commerce (Cloud), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
 
- 
+
 <h3 id="ticket-status">Ticket status: How your tickets are processed</h3>
 
 Your ticket may have either of these three statuses.
 
-#### **1. Open** 
+#### **1. Open**
 
 Your ticket is not solved and is being processed by the Magento Support Team.When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Magento Support — your ticket has the **Open** status.
 
-#### **2. Awaiting your reply** 
+#### **2. Awaiting your reply**
 
 Magento Support is expecting information from you.
 
@@ -448,7 +448,7 @@ In your reply, you may specify additional technical details of your issue, provi
 
 Reference the [Magento Support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy.
 
-#### **3. Solved** 
+#### **3. Solved**
 
 Magento Support has provided a solution for your issue, and you have agreed it has been helpful.It is you who marks the ticket as **Solved** . If the fixed issue occurs again, you may reopen the ticket, setting its status to back to **Open** .
 
@@ -497,7 +497,7 @@ To find out who is the Owner of your Magento Commerce (Cloud) Account, follow th
 1. Find the user who is mentioned as the **Account owner** .
 
 ![magento_cloud_account_owner.png](assets/magento_cloud_account_owner.png)
- 
+
 
 If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Magento Customer Success Manager (CSM).
 
@@ -508,12 +508,12 @@ See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
 
 ![magento-account-shared-manage-permissions.png](assets/magento-account-shared-manage-permissions.png)
- 
+
 
 <h3 id="revoke-shared-access">Revoke (delete) shared access</h3>
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/) .
-1. In the panel on the left, under Shared Access, choose **Manage Permissions.** 
+1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
 1. Find the user to revoke shared access from and click    ![remove_icon.png](assets/remove_icon.png)    in the user's row ( **Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
@@ -522,7 +522,7 @@ After providing shared access for a new user, the related information is availab
 You may also revoke shared access using the **Edit** menu:
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/) .
-1. In the panel on the left, under Shared Access, choose **Manage Permissions.** 
+1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
 1. Find the user to revoke shared access from and click **Edit** in the user's row ( **Actions** column).
 1. Click **Delete This User** at the bottom of the page.
 1. In the confirmation popup, click **Delete User** to revoke access or X in the top corner to cancel revoking.
@@ -541,5 +541,3 @@ To know which account you are currently using (your own native account or shared
 <h3 id="troubleshooting-shared-access">Shared access troubleshooting</h3>
 
 Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012) .
-
- 

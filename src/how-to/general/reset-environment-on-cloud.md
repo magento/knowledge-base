@@ -27,7 +27,9 @@ This section shows how to reset an environment when you have not created a snaps
 
 The steps are:
 
-0. Disable Configuration Management. 1. Uninstall the Magento software. 2. Reset the git branch.
+1. Disable Configuration Management.
+1. Uninstall the Magento software.
+1. Reset the git branch.
 
 After performing these steps:
 
@@ -48,6 +50,7 @@ To remove the configuration file, follow these steps:
 1. Remove the configuration file:
     * For Magento 2.2:    ```php    rm app/etc/config.php    ```    
     * For Magento 2.1:    ```php    rm app/etc/config.local.php    ```    
+
 Read more about Configuration Management:
 
 * [Knowledge Base](https://support.magento.com/hc/en-us/articles/115003169574)
@@ -58,7 +61,7 @@ Read more about Configuration Management:
 >
 Uninstalling the Magento software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
 
-Magento DevDocs, [Uninstall the Magento software](http://devdocs.magento.com/guides/v2.2/install-gde/install/cli/install-cli-uninstall.html#instgde-install-uninstall) 
+Magento DevDocs, [Uninstall the Magento software](http://devdocs.magento.com/guides/v2.2/install-gde/install/cli/install-cli-uninstall.html#instgde-install-uninstall)
 
 To uninstall the Magento software, follow these steps:
 

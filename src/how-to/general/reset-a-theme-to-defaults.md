@@ -21,15 +21,15 @@ While you’re developing Magento components (modules, themes, and language pack
 
 If you need to reset the store theme, but cannot access the Admin panel, you can reset it in the database by doing the following:
 
-1. Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) or access the DB manually from the command line to execute the following SQL query: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'` 
+1. Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) or access the DB manually from the command line to execute the following SQL query: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. Clear the following directories:
-    * `pub/static/frontend` 
-    * `var/view_preprocessing` 
-    * `var/cache` 
+    * `pub/static/frontend`
+    * `var/view_preprocessing`
+    * `var/cache`
     * `var/page_cache`  
+
 This way there will be no theme set on the store view level, and when you reload the store front pages, the default Luma theme will be applied.
 
 ## Additional Information
 
 * [Clear directories during development](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html)
-

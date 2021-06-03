@@ -17,7 +17,6 @@ For MBI Essentials clients to cancel their subscriptions or update their payment
 1. Click Magento > My Products and Services > Magento Business Intelligence, and click Show Details next to the license you want to update.
 1. Select Update Payment Method or Cancel License.
 
-#  [None](#related-reading) Related reading
+## [None](#related-reading) Related reading
 
 * [MBI User Guide: Magento Business Intelligence](https://docs.magento.com/mbi/) .
-

@@ -11,26 +11,28 @@ This article provides a solution for the Magento Commerce Cloud issue, where you
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 Trigger a deploy by pushing the code to the Staging or Production environment.
 
- <span class="wysiwyg-underline">Expected behavior</span> 
+ <span class="wysiwyg-underline">Expected behavior</span>
 
 Deployment is successful.
 
- <span class="wysiwyg-underline">Actual behavior</span> 
+ <span class="wysiwyg-underline">Actual behavior</span>
 
 The deployment is blocked and the following error message is displayed in the log:
 
 <pre>Deploying applications Verifying configuration E: Error while verifying routes.yaml.
 The following domains are configured for your cluster, but have no routes defined in your routes.yaml file:
-- store1.example.com 
-- store2.example.com 
+
+- store1.example.com
+- store2.example.com
 - test-store.example.com
-With your current routes.yaml configuration, 
+
+With your current routes.yaml configuration,
   these domains would NOT be served!
-  
+
 In order to continue, please see here for instructions to troubleshoot:
  https://support.magento.com/hc/en-us/articles/360032207811</pre>
 
@@ -49,7 +51,7 @@ To resolve the blocked deployment, update the `routes.yaml` file to configure ro
 
 ### Method 1: Apply the patch supplied by Magento
 
-1. Look for a recent Magento Support ticket with the title " *Enable self service features for <project\_ID>".* 
+1. Look for a recent Magento Support ticket with the title " *Enable self service features for <project\_ID>".*
 1. Follow the instructions in the ticket to apply the patch, which updates the route configuration for your Cloud environment.
 1. Сommit and push the changes to redeploy your project.
 

@@ -19,13 +19,17 @@ The MDVA-11189 Magento patch fixes the issue when after importing a .csv file to
 
 Fixes the issue when after importing a .csv to update product stock, rows from the `cataloginventory_stock` table are deleted.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
-1. In the database run the following MySQL command:    <pre>select count(*) from cataloginventory_stock_status;</pre>    
+1. In the database run the following MySQL command:
+
+    ``select count(*) from cataloginventory_stock_status;``    
 1. Note the number of rows.
-1. Set the crontab as follows:    <pre>* * * * * /usr/bin/php <path to installation>/bin/magento cron:run  | grep -v "Ran jobs by schedule" >> <path to installation>/var/log/cron.log 2>&1</pre>    
+1. Set the crontab as follows:
+
+    ``* * * * * /usr/bin/php <path to installation>/bin/magento cron:run  | grep -v "Ran jobs by schedule" >> <path to installation>/var/log/cron.log 2>&1``    
 1. Go to the Admin panel in **System** > **Tools** > **Index Management** .
-1. Set indexers to *Update By Schedule.* 
+1. Set indexers to *Update By Schedule.*
 1. Go to **System** > *Data Transfer* > **Export** .
 1. Set **Entity Type** equal to *Products* > **Continue** .
 1. Open the saved .csv file > Remove all columns except for SKU and QTY.
@@ -33,19 +37,21 @@ Fixes the issue when after importing a .csv to update product stock, rows from t
 1. Save the .csv file.
 1. Go to **System** > *Data Transfer* > **Import** .
 1. Set the following values:
-1. Entity Type: *Products* 
-1. Import Behavior: *Add/Update* 
-1. Leave all other values at default.
-1. Choose File to select the catalog product spreadsheet.
+   1. Entity Type: *Products* 
+   1. Import Behavior: *Add/Update*
+   1. Leave all other values at default.
+   1. Choose File to select the catalog product spreadsheet.
 
 1. Click **Check Data** > **Import** . Allow 5-10 minutes to pass.
-1. In the database run the following MySQL command:    <pre>select count(*) from cataloginventory_stock_status;</pre>    
+1. In the database run the following MySQL command:
 
- <span class="wysiwyg-underline">Actual result:</span> 
+    ``select count(*) from cataloginventory_stock_status;``    
+
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The number of rows in `cataloginventory_stock` is decreased after the CSV import to update the stock.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The number of rows in `cataloginventory_stock` should remain the same after the CSV import to update the stock.
 

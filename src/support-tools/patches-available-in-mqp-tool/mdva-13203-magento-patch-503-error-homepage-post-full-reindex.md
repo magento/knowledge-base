@@ -17,17 +17,17 @@ The MDVA-13203 Magento patch fixes the issue where your site is showing a mainte
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Go to the affected URL.
 1. You see the maintenance page.
 1. Check that the site is not in maintenance status via ssh:
 
- `php bin/magento maintenance:status
-Status: maintenance mode is not active
-List of exempt IP-addresses: none` 
+    `php bin/magento maintenance:status`    
+    `Status: maintenance mode is not active`\
+    `List of exempt IP-addresses: none`
 
-4. Look at `system.log` :
+1. Look at `system.log` :
 
 <pre>grep critical -i var/log/system.log |tail
 

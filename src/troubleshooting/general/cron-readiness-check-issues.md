@@ -9,7 +9,7 @@ This article provides solutions for cron readiness issues. The following are sym
 * The PHP readiness check doesn't display the PHP version as the following figure shows:    ![upgr-tshoot-no-cron.png](assets/upgr-tshoot-no-cron.png)    
 * The following error displays in the Magento Admin:    ![compman-cron-not-running.png](assets/compman-cron-not-running.png)    To see the error, you might need to click **System Messages** at the top of the window as follows:    ![compman_sys-messages.png](assets/compman_sys-messages.png)    
 
- 
+
 <h2 id="check-your-existing-crontab">Check your existing crontab</h2>
 
 This section discusses how to see if cron is currently running and to verify whether it's set up properly.
@@ -22,7 +22,8 @@ To verify whether or not your crontab is set up:
     * What PHP binary you're using (in some cases, you have more than one)
     * What Magento cron scripts you're running (in particular, the paths to those scripts)
     * Where your cron logs are located
-See one of the following sections for a solution to your issue.    
+
+    See one of the following sections for a solution to your issue.    
 
 <h2 id="solution-crontab-not-set-up">Solution: crontab not set up</h2>
 

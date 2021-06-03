@@ -19,10 +19,11 @@ Magento Best Practices for cart limits are:
     * the product works, but response time increases above targets.
 * Above **500** products in a cart
     * the cart and checkout flows are not guaranteed to work.
+    
 ## Affected products and versions
 
 * Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
