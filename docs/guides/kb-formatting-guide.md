@@ -33,16 +33,7 @@ This \` inline code \` within a paragraph of text.
 
 ### Code blocks
 
-To insert a code block without highlighting, enclose the code block in triple backticks.
-
-\`\`\`
-
-```markdown
-code block here
-```
-\`\`\`
-
-To add highlighting to the code block, specify the language after opening triple backticks:
+To insert a code block, enclose the code block in triple backticks and specify the language after opening triple backticks:
 
 \`\`\` sql
 
@@ -64,6 +55,8 @@ WHERE TABLE_SCHEMA = "%project_id%"
 ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 ```
 
+According to our linting rules, you always need to specify a language for a code block.
+
 For the list of supported languages check https://github.com/github/linguist/blob/master/lib/linguist/languages.yml.
 
 If the highlighting doesn't work for a certain language in markdown, to make it at least highlighted when published to https://support.magento.com/hc/en-us/, use the following HTML:
@@ -82,7 +75,7 @@ Always separate lists from the rest of content by blank lines.
 
 Use the following formatting for ordered lists:
 
-```
+```markdown
 1. First numbered list item.
 1. Second numbered list item.
 ...
@@ -93,7 +86,7 @@ To create unordered bulleted list, begin a line with *, or +, or -. But select o
 
 Example:
 
-```
+```markdown
 * Unordered list item.
 * Unordered list item.
 ...
@@ -101,7 +94,7 @@ Example:
 ```
 To add content between list items, add 4 spaces in the begining of the line:
 
-```
+```markdown
 * List item.
 * List item.
     Here's some content between list items.
@@ -131,7 +124,7 @@ You can upload *.pdf* and *.zip* files and add links to them in article, so that
 
 To do so, place the files in the *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the link to the file in your article:
 
-```
+```markdown
 [asset_title](assets/%file_name%).
 ```
 
