@@ -39,7 +39,7 @@ This is not \*italicized\* type (Ignore MD Format with " \ ")
 
 ## Blockquote Quotiation
 
->This is a blockquote quotation
+>This is a blockquote quotation. Blockquotes cannot be consecutive. They must have a different type of text between them to be recognized as separate blockquotes. 
 
 ## Escape Characters
 
@@ -203,6 +203,8 @@ There is a comment here.
 
 ## Icons and Messages
 
+*Please Note: Unlike the Adobe Experience League, we use ![classname] rather than [!classname]*
+
 >![SUCCESS]
 >
 >Sucess note.
@@ -224,7 +226,6 @@ Block quotes cannot be placed consecutively. They need another item between them
 >[!ERROR]
 >
 >Error note.
-
 
 
 Error messages: *Text of verbatim Error messages are always denoted in italics.*
