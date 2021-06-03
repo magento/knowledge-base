@@ -122,23 +122,20 @@ To do so, place the files in the assets sub-folder in the same section folder as
 [asset_title](assets/%file_name%).
 ```
 
-### Anchor Links
+### Anchor links to sections
 
-If you need to add an ID to serve as destination anchor for links, use HTML. For example, if you need to reference a header, use the following formatting:
+If you need reference a section inside your article, you don't need to create a separate anchor. They’re automatically generated at publishing time for all H2-H6 headings. The anchors are generated from header by making all words lowercase and using "-" for separating words.
 
-```html
-<h2 id="this_is_anchor">This is header</h2>
-```
-
-Then you can use either Markdown or HTML to create a link to this anchor:
+Example:
 
 ```markdown
-[this is link to the anchor in the same article](#this_is_anchor)`
+## This is header
 ```
-or
 
-```html
-<a href="#this_is_anchor">this is link to the anchor in the same article</a>`
+This is a link to this anchor:
+
+```markdown
+[this is link to the anchor in the same article](#this-is-header)`
 ```
 
 ## Tables
