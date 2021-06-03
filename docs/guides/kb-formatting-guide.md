@@ -17,7 +17,7 @@ To format text as italics, use a single asterisk:
 
 Use the following formatting for headers from H2 to H5. H1 is never used since article title in considered H1.
 
-` ## Header 2 `
+`## Header 2 `
 
 `### Header 3 `
 
@@ -37,7 +37,9 @@ To insert a code block without highlighting, enclose the code block in triple ba
 
 \`\`\`
 
+```markdown
 code block here
+```
 
 \`\`\`
 
