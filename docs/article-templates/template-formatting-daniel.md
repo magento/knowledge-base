@@ -176,7 +176,7 @@ lables: article, lables
    
 1. This is the fourth step.
 
-   >[!NOTE]
+   >![NOTE]
    >
    >This is note text.
    
@@ -203,19 +203,19 @@ There is a comment here.
 
 ## Icons and Messages
 
->[!SUCCESS]
+>![SUCCESS]
 >
 >Sucess note.
 
 Block quotes cannot be placed consecutively. They need another item between them. 
 
->[!WARNING]
+>![WARNING]
 >
 >Warning note.
 
 Block quotes cannot be placed consecutively. They need another item between them. 
 
->[!INFO]
+>![INFO]
 >
 >Info note.
 
