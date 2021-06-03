@@ -97,7 +97,7 @@ Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the 
 1. Set up your table and code blocks.
 1. Perform this step.
 
-   ![screen](src/troubleshooting/general/assets/authorize-net_test-mode_setting.png)
+   ![screen](assets/authorize-net_test-mode_setting.png)
    
 1. Make sure that your table looks like this: 
 
