@@ -14,23 +14,23 @@ The MDVA-28993 Magento patch implements the "Minimum should match" functionality
 >![info]
 >
 >Note: the patch can be applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+    status`
 
 ## Issue
 
 When using Elasticsearch 6 for searching SKU that contains a hyphen(-), search returns too many results.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Go to the storefront.
 
-2. In the search bar enter a string containing a hyphen, for example "WS-M-Blue".
+1. In the search bar enter a string containing a hyphen, for example "WS-M-Blue".
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 Returns only WS-M-Blue.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 Returns all SKUs starting with "WS".
 

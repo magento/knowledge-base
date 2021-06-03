@@ -25,8 +25,8 @@ labels: template,formatting
 </p>
 <h3>Code block</h3>
 <pre class="line-numbers"><code class="language-clike">elasticsearch:
-		type: elasticsearch:1.7
-		disk: 1024<br></code></pre>
+    type: elasticsearch:1.7
+    disk: 1024<br></code></pre>
 <h2>Table</h2>
 <table>
   <tbody>

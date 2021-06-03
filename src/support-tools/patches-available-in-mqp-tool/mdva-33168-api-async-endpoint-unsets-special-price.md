@@ -34,8 +34,8 @@ This patch is available when the [Magento Quality Patch (MQP) tool](https://supp
     * **Dynamic SKU** = *Yes* .
     * **Price** = *$100.00* .
     * **Tax Class** = *Taxable Goods* .
-    * **Stock Status** = *In Stock* .
-Under **Bundle Items** , set these Example options:
+    * **Stock Status** = *In Stock* .  
+1. Under **Bundle Items** , set these Example options:
     * **Ship Bundle Items** = *Together* .
     * **Option Title** = *test* , **Input Type** = *Radio Buttons* , **Required** checkbox = *checked* .
     * **Is Default** checkbox = *unchecked* .

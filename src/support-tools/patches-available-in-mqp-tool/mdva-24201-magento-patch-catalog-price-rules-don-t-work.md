@@ -26,14 +26,14 @@ Install a fresh Magento instance with sample data.
  <span class="wysiwyg-underline">Steps to reproduce</span> :
 
 1. Log in to **Admin panel > Marketing > Catalog Price Rule > Add New Rule** , make the following settings:
-1. Set the **Rule Name** .
-1. Set **Active** = *No.* 
-1. Set Conditions: **Category** = *4* . (Example: Bags)
-1. Set Actions:
-    * Set **Apply as**   **percentage of original** .
-    * Set **Discount Amount** = *10* .
-Save, and then Continue Edit.
-1. Click on **Schedule New Update** :
+   1. Set the **Rule Name** .
+   1. Set **Active** = *No.*
+   1. Set Conditions: **Category** = *4* . (Example: Bags)
+   1. Set Actions:
+      1. Set **Apply as**   **percentage of original** .
+      1. Set **Discount Amount** = *10* .
+      1. Save, and then Continue Edit.
+   1. Click on **Schedule New Update** :
     * Set the **Rule Name** .
     * Set **Active** = *Yes* .
     * Save.

@@ -31,6 +31,7 @@ To avoid this issue, set the indexers to *Update on Schedule* .
     * `realtime` :  Sets the selected indexers to *Update on Save* .
     * `schedule` : Sets the specified indexers to save according to the Cron schedule. Use this setting to set *Update on Schedule* .
     * `indexer` : Is a space-separated list of indexers. Omit `[indexer]` to configure all indexers the same way.
+    
 ## [None](#related-reading) Related reading
 
 * [Magento\_Indexer Overview](https://devdocs.magento.com/guides/v2.3/mrg/ce/Indexer.html)
@@ -39,4 +40,3 @@ To avoid this issue, set the indexers to *Update on Schedule* .
 * [Indexing overview - Indexing modes](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-indexing-modes)
 * [Configuration best practices - Indexers](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
 * [Slow performance due to full reindexing](https://support.magento.com/hc/en-us/articles/360039207872)
-

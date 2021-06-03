@@ -36,13 +36,21 @@ This patch is available when the [Magento Quality Patch (MQP) tool](https://supp
 
 The correct calculated discount is $234, as expected.
 
-* Calculations:Matching cart price rules: Rule 2, Rule 1Apply Rule 2 (50% off), so Discount = $204Apply Rule 1 (10 off 3 items), so Discount = $30Total Discount = MIN ( 408/2 + 10x3, 8 \* 51) = MIN (204 + 30, 8 \* 51) = $234
+* Calculations:\
+Matching cart price rules: Rule 2, Rule 1\
+Apply Rule 2 (50% off), so Discount = $204\
+Apply Rule 1 (10 off 3 items), so Discount = $30\
+Total Discount = MIN ( 408/2 + 10x3, 8 &#42; 51) = MIN (204 + 30, 8 &#42; 51) = $234
 
  <span class="wysiwyg-underline">Actual results</span> :
 
 The discount is incorrectly calculated to be $153, caused by the wrong quantity used for calculating maximum discount value, as the fixed discount amount is applied regardless of the products' amount in the shopping cart.
 
-* Calculations:Matching cart price rules: Rule 2, Rule 1Apply Rule 2 (50% off), so Discount = $204Apply Rule 1 (10 off 3 items), so Discount = $30Total Discount = MIN (204 + 30, 3 \* 51) = $153
+* Calculations:\
+Matching cart price rules: Rule 2, Rule 1\
+Apply Rule 2 (50% off), so Discount = $204\
+Apply Rule 1 (10 off 3 items), so Discount = $30\
+Total Discount = MIN (204 + 30, 3 &#42; 51) = $153
 
 ## Apply the patch
 

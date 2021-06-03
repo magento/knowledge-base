@@ -34,6 +34,7 @@ Two main scenarios can lead to conflicting component dependencies. Click on your
 * [Incompatibility with third-party modules:](https://support.magento.com/hc/en-us/articles/360044010932#incompatibility_third_party_modules)
     * [Magento Commerce and Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360044010932#magento_commerce_magento_commerce_cloud)
     * [Magento Open Source](https://support.magento.com/hc/en-us/articles/360044010932#opensource)
+
 <h2 id="upgrading_magento">Upgrading Magento</h2>
 
 If you are upgrading Magento Commerce Cloud, try the following to resolve conflicting component dependencies:• Check the keys being used to upgrade. Are the keys being generated from the correct email account?• Check permissions and make sure that they match the Magento upgrade requirements. Review DevDocs' [Magento Upgrade Overview > Update and Upgrade Checklist > File System Permissions](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) .

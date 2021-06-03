@@ -13,7 +13,7 @@ During installation using the Setup Wizard, the process stops at about 70% (with
 
 Common causes for this issue include:
 
-* The PHP setting for [ `max_execution_time` ](http://php.net/manual/en/info.configuration.php#ini.max-execution-time) 
+* The PHP setting for [ `max_execution_time` ](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
 * Timeout values for nginx and Varnish
 
 <h3 id="solution-">Solution:</h3>
@@ -28,9 +28,10 @@ Set all of the following as appropriate.
 1. Change its value to `18000` .
 1. Save your changes to `php.ini` and exit the text editor.
 1. Restart Apache:    
-    * CentOS: `service httpd restart` 
-    * Ubuntu: `service apache2 restart` 
-If you use nginx or Varnish, continue with the following sections.    
+    * CentOS: `service httpd restart`
+    * Ubuntu: `service apache2 restart`
+
+    If you use nginx or Varnish, continue with the following sections.    
 
 <h4 id="nginx-only">nginx only</h4>
 
@@ -44,7 +45,7 @@ location ~ ^/setup/index.php {
 }
 ```
 
-Restart nginx: `service nginx restart` 
+Restart nginx: `service nginx restart`
 
 <h4 id="varnish-only">Varnish only</h4>
 

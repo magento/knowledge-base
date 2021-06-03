@@ -22,7 +22,7 @@ For more information about the New Relic APM service and its setup with your Mag
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps To See If The Issue Affects You</span> 
+ <span class="wysiwyg-underline">Steps To See If The Issue Affects You</span>
 
 1. In your New Relic APM Overview Chart, check for the first indication that MySQL has become a bottleneck. See the sample picture below where MySQL has become a bottleneck and takes most of the web transactions time:    ![KB-372_image002.png](assets/KB-372_image002.png)    Notice how the red dashed line in the image shows a discernible upward trend in the MySQL web transactions time and then peaks at even higher levels.
 1. From here you can then go to your **Database** screen where you can see the second indication of high throughput or slow `SELECT` queries in MySQL, and in the below sample image you can see when sorting by **Most time consuming** , your store, in this example, is slow on `SELECT` MySQL queries.    ![KB-372_image003_BlurredExtension.png](assets/KB-372_image003_BlurredExtension.png)    Analyze the slow transactions in New Relic APM.If you see a high volume of queries or high pressure on a MySQL database, you can spread out the load across different nodes by enabling `SLAVE` connections.
@@ -41,12 +41,12 @@ Magento can read multiple databases or Redis asynchronously. Updating the `.mage
 >
 >It is a best practice recommendation to always have MySQL slave connection enabled.
 
- 
+
 ### Steps
 
 1. Edit your `.magento.env.yaml` file, and add the following content:    ![KB-372_image004.png](assets/KB-372_image004.png)    You can find more details in [Deploy Variables in DevDocs](https://devdocs.magento.com/cloud/env/variables-deploy.html#mysql_use_slave_connection) .
- 1. Commit your changes, and push your changes.
- 1. Pushing changes will initiate a new deployment process. Once deployment is successfully completed, you should have your Magento Commerce Cloud instance now configured to use slave connections.
+1. Commit your changes, and push your changes.
+1. Pushing changes will initiate a new deployment process. Once deployment is successfully completed, you should have your Magento Commerce Cloud instance now configured to use slave connections.
 
 ## Common Questions
 

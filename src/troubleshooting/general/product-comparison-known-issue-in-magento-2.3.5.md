@@ -16,15 +16,15 @@ When a user tries to compare products from different store views and one product
 
 ## Solution
 
-Specify non-empty values for comparable product attributes or use the default store view value for the attribute. ** ** Comparable attribute values cannot be empty.
+Specify non-empty values for comparable product attributes or use the default store view value for the attribute. Comparable attribute values cannot be empty.
 
 >![info]
 >
->Product attributes are set to be used for comparison using the **Comparable on Storefront** configuration setting. ** ** For more information, ** ** refer to the [Creating Product Attributes](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) in Magento User Guide.
+>Product attributes are set to be used for comparison using the **Comparable on Storefront** configuration setting. For more information, refer to the [Creating Product Attributes](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) in Magento User Guide.
 
 A fix will be available in Magento 2.3.6, which is scheduled for release in Q4 2020.
 
-You can view the fix in GitHub (please consider, that the fix did not go through regression testing and is not an official hot fix):<https://github.com/magento/magento2/pull/27662> 
+You can view the fix in GitHub (please consider, that the fix did not go through regression testing and is not an official hot fix):<https://github.com/magento/magento2/pull/27662>
 
 ## Related reading
 

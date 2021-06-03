@@ -88,6 +88,7 @@ Magento's WAF offering includes protection against OWASP Top-10 threats as part 
 * rule customizations
 * bot mitigation
 * malware protection
+
 ## How is my site performance affected by the WAF?
 
 An estimated 1.5 milliseconds (ms) to 20 ms of latency is introduced to every non-cached request.
@@ -155,7 +156,7 @@ The following table summarizes support channels and availability for WAF Support
 </tbody>
 </table>
 
- *\* Magento's toll-free Support telephone line is reserved for Priority 1 Incidents only. Non-Priority 1 calls will slow down overall response to issues* 
+ *\* Magento's toll-free Support telephone line is reserved for Priority 1 Incidents only. Non-Priority 1 calls will slow down overall response to issues*
 
 ## How are false positives triaged?
 
