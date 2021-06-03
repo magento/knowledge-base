@@ -75,11 +75,16 @@ Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the 
 ## Links and Cross-Refrences
 
 **Hyperlink:** [Adobe](https://www.adobe.com)
+
 **URL as Link:** <https://www.adobe.com>
+
 **Image Link:**
 [![image](https://experienceleague.adobe.com/docs/authoring-guide-exl/assets/logo.png?lang=en)](https://www.adobe.com)
+
 **Standard Relative Link(NOT SUPPORTED):** [Overview example article](collaborative-doc-instructions/overview.md)
+
 **Root Relative Link(NOT SUPPORTED):** [Introduction example article](/help/using/docile-rules/introduction.md)
+
 **Deep Linking:** [Go to Heading H1](#heading-h1)
 
 ## Lists
