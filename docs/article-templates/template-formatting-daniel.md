@@ -119,10 +119,11 @@ This is not \*italicized\* type (Ignore MD Format with " \ ")
 
 Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the parentheses ( ) include the image location. The exclamation mark distinguishes an image from a link. We don’t support hover text at this time.
 
-**Mardown Syntax**
-![alt text](src/troubleshooting/known-issues-patches-attached/assets/table_results2.png)
+![alt text](assets/table_results2.png)
 
-**HTML image syntax with height and width**
+### Images with height and width
+
+*Images with height and width attributes must be formatted using HTML tags*
 
 <img src="https://experienceleague.adobe.com/docs/authoring-guide-exl/assets/logo.png?lang=en" alt="Adobe Image" style="width:50px;height:50px;">
 
@@ -368,13 +369,6 @@ Use the &lt;code&gt; tag for file names.
 
 &nbsp; &nbsp; &nbsp; &nbsp;Example: `app/etc/config.php`
 
-## Depersonalizing Text and Images
-
-If you need to have a placeholder for a company name use "Acme Inc". If you need to have a placeholder for a user use "John Doe".
-
-## Decision Tree Articles
-
-The majority of articles on the Magento Help Center focus on one symptom. However, there are also Decision tree articles that cover multiple symptons and guide the user to a solution through a series of Yes and No questions. Depending on the answer, a new symptom and potential solution displays. An example is the [Site Down Troubleshooter](https://support.magento.com/hc/en-us/articles/360029351531) . Here is a link to the [Decision Tree Troubleshooting](https://support.magento.com/hc/en-us/articles/360035461472) template. Example:
 
 ### Step 1
 
@@ -463,6 +457,3 @@ b. No - Proceed to [Step 2](#step-2){: class="accordion-anchor" }
 For definition lists, we do not yet support standard Markdown syntax. Instead, use manual formatting like this:
 **Frog** - An amphibious green creature. Likes flies.
 
-## Image syntax with height and width
-
-![Adobe Image](https://experienceleague.adobe.com/docs/authoring-guide-exl/assets/logo.png?lang=en){: style="width:50px;height:50px" }
