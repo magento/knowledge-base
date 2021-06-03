@@ -66,6 +66,10 @@ This is not \*italicized\* type (Ignore MD Format with " \ ")
 
 ## HTML Syntax Allowed in MD 
 
+### Tables
+
+Tables should be formatted using HTML. Currently MD tables are unsupported. 
+
 <table>
 <tbody>
   <colgroup>
@@ -79,29 +83,45 @@ This is not \*italicized\* type (Ignore MD Format with " \ ")
 </tr>
 </tbody>
 </table>
+
+#### Line Break
 <br>
+
+#### Paragraph
 <p>Paragraph</p>
-<br>
+
+#### Unordered List
 <ul><li>Unordered List</li></ul> 
-<br>
+
+#### Ordered List
 <ol><li>Ordered List</li></ol> 
-<br>
-<br>
+
+#### Bold
 <b>Bold</b>
-<br>
+
+#### Caption 
 <caption>Caption</caption>
-<br>
+
+#### Italic
 <i>Italic</i>
-<br>
+
+#### Strong
 <strong>Strong</strong>
-<br> 
+
+#### Underline
+
+To underline content you must use an HTML tag.
+
 <u>(underline using u tag)</u>
 <ins>(underline using ins tag)</ins>
-<br> 
+
+#### Strikethrough
 <s>(strikethrough)</s>
-<br> 
+
+#### Span
 <span class="class">Span</span>
-<br>
+
+#### Subscript
 <sub>(subscript)</sub>
 <br> 
 <sup>(superscript)</sup>
