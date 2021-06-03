@@ -95,7 +95,8 @@ This is not \*italicized\* type (Ignore MD Format with " \ ")
 <br>
 <strong>Strong</strong>
 <br> 
-<u>(underline)</u>
+<u>(underline using u tag)</u>
+<ins>(underline using ins tag)</ins>
 <br> 
 <s>(strikethrough)</s>
 <br> 
