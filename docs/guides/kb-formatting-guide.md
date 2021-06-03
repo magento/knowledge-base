@@ -38,11 +38,8 @@ To insert a code block without highlighting, enclose the code block in triple ba
 \`\`\`
 
 ```markdown
-```
 code block here
 ```
-```
-
 \`\`\`
 
 To add highlighting to the code block, specify the language after opening triple backticks:
@@ -56,6 +53,16 @@ WHERE TABLE_SCHEMA = "%project_id%"
 ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 \`\`\`
 
+This will render as:
+
+```sql
+SELECT TABLE_NAME AS `Table`,
+  ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
+FROM information_schema.TABLES
+WHERE TABLE_SCHEMA = "%project_id%"
+ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
+```
+
 For the list of supported languages check https://github.com/github/linguist/blob/master/lib/linguist/languages.yml.
 
 If the highlighting doesn't work for a certain language in markdown, to make it at least highlighted when published to https://support.magento.com/hc/en-us/, use the following HTML:
@@ -66,7 +73,7 @@ your code here
 </pre></code>
 ```
 
-Where %language-code% are the codes defined by [Prism.js supported languages](https://prismjs.com/#supported-languages).
+Where ``%language-code%`` are the codes defined by [Prism.js supported languages](https://prismjs.com/#supported-languages).
 
 ## Lists
 
