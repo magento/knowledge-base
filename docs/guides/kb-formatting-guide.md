@@ -51,6 +51,7 @@ SELECT TABLE_NAME AS `Table`,
 FROM information_schema.TABLES
 WHERE TABLE_SCHEMA = "%project_id%"
 ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
+
 \`\`\`
 
 This will render as:
@@ -111,23 +112,24 @@ You can embed lists this way as well.
 
 ## Links
 
-External links are straight-forward and can be rendered as a linked caption or a pure URL.
+External links are straightforward:
+
 ```markdown
 [Adobe](https://www.adobe.com)
 ```
 
 ### Links to images
 
-To insert an image, place the image to assets sub-folder in the same section folder as the article, and use the following syntax to insert the image to your article:
+To insert an image, place the image to *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the image to your article:
 
 ```markdown
 ![alt text](assets/image.png)
 ```
 
 ### Links to attached files
-You can upload .pdf and .zip files and add links to them in article, so that users can download the files.
+You can upload *.pdf* and *.zip* files and add links to them in article, so that users can download the files.
 
-To do so, place the files in the assets sub-folder in the same section folder as the article, and use the following syntax to insert the link to the file in your article:
+To do so, place the files in the *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the link to the file in your article:
 
 ```
 [asset_title](assets/%file_name%).
@@ -146,7 +148,7 @@ Example:
 This is a link to this anchor:
 
 ```markdown
-[this is link to the anchor in the same article](#this-is-header)`
+[this is link to the anchor in the same article](#this-is-header)
 ```
 
 ## Tables
