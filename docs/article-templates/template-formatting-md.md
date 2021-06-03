@@ -5,8 +5,6 @@ labels: template,formatting
 
 # Heading H1 
 
-H1 is reserved for article title.
-
 ## Heading H2
 
 ### Heading H3
@@ -19,29 +17,19 @@ H1 is reserved for article title.
 
 ### Heading IDs
 
-Heading IDs (also called anchor IDs) are required for deep linking to sections within articles. To specify a heading ID, use this format:
-
-[Link to Header](#heading-ids)
-
-### Heading Best Practices
-
-* Make sure that a level 1 heading (#) follows a blank line after the metadata in each article.
-* Don’t skip levels, such as jumping from level 2 (##) to level 4 (####).
-* Include a blank line before and after each heading.
-* If a heading includes numerals, specify an explicit heading ID that does not begin with a number, such as ## Release notes for 2016 {#release-notes-2016}.
+Heading IDs (also called anchor IDs) are required for deep linking to sections within articles. To specify a heading ID, use this format: [Link to Header](#heading-ids)
 
 ## Basic Text formatting
 
 This text is **bold**
 This text is *italic*
 This text is ***bold and italic***
-This is not \*italicized\* type (Ignore MD Format with " \ ")
 
-## Blockquote Quotiation
+### Blockquote Quotiation
 
 >This is a blockquote quotation. Blockquotes cannot be consecutive. They must have a different type of text between them to be recognized as separate blockquotes. 
 
-## Escape Characters
+### Escape Characters
 
 &lt;
 &gt;
@@ -64,91 +52,18 @@ This is not \*italicized\* type (Ignore MD Format with " \ ")
 
 [Demo PPTX](assets/demo.pptx)
 
-## HTML Syntax Allowed in MD 
 
-### Tables
+### Images
 
-Tables should be formatted using HTML. Currently MD tables are unsupported. 
+Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the parentheses ( ) include the image location. The exclamation mark distinguishes an image from a link. We don’t support hover text at this time. Format: ![alt text](assets/table_results2.png)
 
-<table>
-<tbody>
-  <colgroup>
-    <col span="2" style="background-color:red">
-  </colgroup>
-<tr>
-<th>Dummy Data</th>
-</tr>
-<tr>
-<td>January</td>
-</tr>
-</tbody>
-</table>
-
-#### Line Break
-<br>
-
-#### Paragraph
-<p>Paragraph</p>
-
-#### Unordered List
-<ul><li>Unordered List</li></ul> 
-
-#### Ordered List
-<ol><li>Ordered List</li></ol> 
-
-#### Bold
-<b>Bold</b>
-
-#### Caption 
-<caption>Caption</caption>
-
-#### Italic
-<i>Italic</i>
-
-#### Strong
-<strong>Strong</strong>
-
-#### Underline
-
-To underline content you must use an HTML tag.
-
-<u>(underline using u tag)</u>
-<ins>(underline using ins tag)</ins>
-
-#### Strikethrough
-<s>(strikethrough)</s>
-
-#### Span
-<span class="class">Span</span>
-
-#### Subscript
-<sub>(subscript)</sub>
-<br> 
-<sup>(superscript)</sup>
-<br> 
-<a href="https://www.adobe.com">Link</a>
-<br>
-<img src="https://experienceleague.adobe.com/docs/authoring-guide-exl/assets/logo.png?lang=en" alt="adobe image">
-<br>
-<div class="class1">Div</div>
-<br>
-<em>(emphasis, italics)</em>
-<br>
-<pre><code class="language-graphql">Codeblock</code></pre>
-
-## Images
-
-Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the parentheses ( ) include the image location. The exclamation mark distinguishes an image from a link. We don’t support hover text at this time.
-
-![alt text](assets/table_results2.png)
-
-### Images with height and width
+#### Images with height and width
 
 *Images with height and width attributes must be formatted using HTML tags*
 
 <img src="https://experienceleague.adobe.com/docs/authoring-guide-exl/assets/logo.png?lang=en" alt="Adobe Image" style="width:50px;height:50px;">
 
-## Video
+### Video (NOT SUPPORTED)
 
 >[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
@@ -158,8 +73,8 @@ Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the 
 **URL as Link:** <https://www.adobe.com>
 **Image Link:**
 [![image](https://experienceleague.adobe.com/docs/authoring-guide-exl/assets/logo.png?lang=en)](https://www.adobe.com)
-**Standard Relative Link(Not Supported):** [Overview example article](collaborative-doc-instructions/overview.md)
-**Root Relative Link(Not Supported):** [Introduction example article](/help/using/docile-rules/introduction.md)
+**Standard Relative Link(NOT SUPPORTED):** [Overview example article](collaborative-doc-instructions/overview.md)
+**Root Relative Link(NOT SUPPORTED):** [Introduction example article](/help/using/docile-rules/introduction.md)
 **Deep Linking:** [Go to Heading H1](#heading-h1)
 
 ## Metadata
@@ -190,9 +105,7 @@ lables: article, lables
    
 1. Make sure that your table looks like this: 
 
-   | Hello | World |
-   |---|---|
-   | How | are you? |
+
    
 1. This is the fourth step.
 
@@ -256,14 +169,14 @@ Error messages: *Text of verbatim Error messages are always denoted in italics.*
 
 Example (use the &lt;code&gt; tag): `php bin/magento magento-cloud:scd-dump`
 
-### Code Block(Fenced)
+### Code Block (Fenced)
 
 ```clike
 elasticsearch:
         type: elasticsearch:1.7
         disk: 1024 
 ```
-### Code Block Yaml
+#### Code Block Yaml
 
 ```yaml
 integer: 25
@@ -272,13 +185,13 @@ float: 25.0
 boolean: Yes
 ```
 
-### Code Block JSON
+#### Code Block JSON
 
 ```json
 {"name":"John", "age":30, "car":null}
 ```
 
-### Code Block Bash
+#### Code Block Bash
 
 ```bash
 #!/bin/bash
@@ -289,7 +202,7 @@ done
 printf "\n"
 ```
 
-### Code Block PHP
+#### Code Block PHP
 
 ```php
 <?php
@@ -408,21 +321,101 @@ Use the &lt;code&gt; tag for file names.
 <p>b. NO – Open a<a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket"> Support Ticket</a> for further investigation.</p>
 </div>
 
-## Links
+## HTML Syntax Allowed in MD 
 
-To create a link to a section in a knowledge base article (known in html as an "anchor") go into the source code of KB article, go to the header you want to link to, go to the source code <> and add this code to the header you want the link to point to &lt;h2 id ="issue"&gt;Issue&lt;/h2&gt;
+### Tables
 
-https://support.magento.com/hc/en-us/articles/115001851814\#issue
+Tables should be formatted using HTML. Currently MD tables are unsupported. 
 
-## Versions
+<table>
+<tbody>
+  <colgroup>
+    <col span="2" style="background-color:red">
+  </colgroup>
+<tr>
+<th>Dummy Data</th>
+</tr>
+<tr>
+<td>January</td>
+</tr>
+</tbody>
+</table>
 
-When describing a product or feature that is supported on all Magento versions say:2.3.0-2.3.6-p1, 2.4.0-2.4.2 (these are the currently supported versions as of 6 April 2021, however, it is good to confirm these with release calendar).
+### Line Break
+
+<br>
+
+### Paragraph
+
+<p>Paragraph</p>
+
+### Unordered List
+
+<ul><li>Unordered List</li></ul> 
+
+### Ordered List
+
+<ol><li>Ordered List</li></ol> 
+
+### Bold
+
+<b>Bold</b>
+
+### Caption 
+
+<caption>Caption</caption>
+
+### Italic
+
+<i>Italic</i>
+
+### Strong
+
+<strong>Strong</strong>
+
+### Underline
+
+<u>(underline using u tag)</u>
+<ins>(underline using ins tag)</ins>
+
+### Strikethrough
+
+<s>(strikethrough)</s>
+
+### Span
+
+<span class="class">Span</span>
+
+### Subscript
+
+<sub>(subscript)</sub>
+
+### Superscript
+
+<sup>(superscript)</sup>
+
+### Non-Relative Anchor
+
+<a href="https://www.adobe.com">Link</a>
+
+###  Image
+
+See [Images](##images)
+
+### Div
+<div class="class1">Div</div>
+
+### Italics
+<em>(emphasis, italics)</em>
+
+### Code
+<pre><code class="language-graphql">Codeblock</code></pre>
 
 ## Test Syntax
 
 ### Tables
 
-#### Vanilla Markdown
+#### Vanilla Markdown (NOT SUPPORTED)
 
 | Header | Another header | Yet another header |
 |--- |--- |--- |
@@ -438,14 +431,14 @@ When describing a product or feature that is supported on all Magento versions s
 | **Exception log** | `var/log/exception.log` | `var/log/exception.log`  | `var/log/exception.log` |
 | **Debug log** | `var/log/debug.log` | `var/log/debug.log` | `var/log/debug.log` |
 
-#### Markdown Table with line breaks and lists
+#### Markdown Table with line breaks and lists (NOT SUPPORTED)
 
 | Header | Another header | Yet another header |
 |------------|----------|----------------|
 | row 1 | first line in cell<br>second line in cell | row 1 column 3 |
 | row 2 | bullet list<ul><li>item 1</li><li>item 2</li><li>item 3</li></ul> | row 2 column 3 |
 
-#### Markdown table with line breaks and fake lists
+#### Markdown table with line breaks and fake lists (NOT SUPPORTED)
 
 | Color | Things to Do |
 |--- |--- |
@@ -454,7 +447,7 @@ When describing a product or feature that is supported on all Magento versions s
 
 ### Troubleshooter
 
-### Step 1
+#### Step 1
 
 **HTML SYNTAX**
 
