@@ -207,25 +207,25 @@ There is a comment here.
 >
 >Sucess note.
 
+Block quotes cannot be placed consecutively. They need another item between them. 
+
 >[!WARNING]
 >
 >Warning note.
 
->[!NOTE]
+Block quotes cannot be placed consecutively. They need another item between them. 
+
+>[!INFO]
 >
 >Info note.
+
+Block quotes cannot be placed consecutively. They need another item between them. 
 
 >[!ERROR]
 >
 >Error note.
 
->[!IMPORTANT]
->
->This is a standard important block.
 
->[!TIP]
->
->This is a standard tip.
 
 Error messages: *Text of verbatim Error messages are always denoted in italics.*
 
