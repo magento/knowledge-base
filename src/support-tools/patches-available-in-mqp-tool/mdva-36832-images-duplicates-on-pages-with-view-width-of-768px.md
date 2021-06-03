@@ -20,11 +20,11 @@ The MDVA-36832 Magento patch fixes the issue where images duplicates on pages wi
 
 <ins>Steps to reproduce:</ins>
 
- 1. Go to backend > CONTENT > Pages and edit any page.
- 1. Add any image to page.
- 1. Go to frontend and open edited page.
- 1. Open developer tools in Chrome.
- 1. Enable "device view" and select iPad view or set page width to 768px.
+1. Go to backend > CONTENT > Pages and edit any page.
+1. Add any image to page.
+1. Go to frontend and open edited page.
+1. Open developer tools in Chrome.
+1. Enable "device view" and select iPad view or set page width to 768px.
 
    <ins>Actual result:</ins>
 
