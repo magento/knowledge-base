@@ -1,7 +1,7 @@
 ## Author in Markdown
-Generally, we use [GitHub flavored markdown](https://github.github.com/gfm/), but in some circumstances HTML is allowed or even required.
+Generally, we use [GitHub flavored Markdown](https://github.github.com/gfm/), but in some circumstances HTML is allowed or even required.
 
-Following are the examples of most common used markdown formatting.
+Following are the examples of the Markdown formatting that is most commonly used in our repo.
 
 ## Basic formatting
 
@@ -102,14 +102,26 @@ You can embed lists this way as well.
 
 ### Links to images
 
-### Links to attached files 
+### Links to attached files
 
 ### Anchor Links
 
+If you need to add an ID to serve as destination anchor for links, use HTML. For example, if you need to reference a header, use the following formatting:
+
+`<h2 id="this_is_anchor">This is header</h2> `
+
+Then you can use either Markdown or HTML to create a link to this anchor:
+
+`[this is link to the anchor in the same article](#this_is_anchor)`
+
+or
+
+`<a href="#this_is_anchor">this is link to the anchor in the same article</a>`
 
 
 ## Tables
 
+Use HTML formatting for tables.
 
 
 ## Warnings and info blocks
