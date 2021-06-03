@@ -3,6 +3,15 @@ title: TEMPLATE - formatting
 labels: template,formatting
 ---
 
+## Metadata
+
+```markdown
+---
+title: article title
+lables: article, lables
+---
+```
+
 # Heading H1 
 
 ## Heading H2
@@ -63,10 +72,6 @@ Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the 
 
 <img src="https://experienceleague.adobe.com/docs/authoring-guide-exl/assets/logo.png?lang=en" alt="Adobe Image" style="width:50px;height:50px;">
 
-### Video (NOT SUPPORTED)
-
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
-
 ## Links and Cross-Refrences
 
 **Hyperlink:** [Adobe](https://www.adobe.com)
@@ -76,15 +81,6 @@ Use the `![ ]( )` syntax for images. The brackets [ ] include alt text, and the 
 **Standard Relative Link(NOT SUPPORTED):** [Overview example article](collaborative-doc-instructions/overview.md)
 **Root Relative Link(NOT SUPPORTED):** [Introduction example article](/help/using/docile-rules/introduction.md)
 **Deep Linking:** [Go to Heading H1](#heading-h1)
-
-## Metadata
-
-```markdown
----
-title: article title
-lables: article, lables
----
-```
 
 ## Lists
 
@@ -129,11 +125,6 @@ lables: article, lables
 * Bullet point 2
 * Bullet point 3
 
-## Comments and Remarks
-
-There is a comment here.
-<!-- Standard Comment -->
-
 ## Icons and Messages
 
 *Please Note: Unlike the Adobe Experience League, we use ![classname] rather than [!classname]*
@@ -156,7 +147,7 @@ Block quotes cannot be placed consecutively. They need another item between them
 
 Block quotes cannot be placed consecutively. They need another item between them. 
 
->[!ERROR]
+>![ERROR]
 >
 >Error note.
 
@@ -290,22 +281,7 @@ echo "Hello World!";
 
 <br>&nbsp;
 
-## Writing Style Examples
-
-Start every article with an introductory sentence explaining the issue.
-
-This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch.
-
-Use bold for UI element names (buttons, tabs, options etc.,) and italics for option values.
-
-&nbsp; &nbsp; &nbsp; &nbsp;Example: Set **Use Flat Catalog Category** to *No*.
-
-Use the &lt;code&gt; tag for file names.
-
-&nbsp; &nbsp; &nbsp; &nbsp;Example: `app/etc/config.php`
-
-
-### Step 1
+## Troubleshooters
 
 <div class="zd-accordion-panel">
 <div class="zd-accordion-section">Do you have [<em>error type J</em>]?</div>
@@ -313,13 +289,14 @@ Use the &lt;code&gt; tag for file names.
 <p>b. NO – Proceed to<a class="accordion-anchor" href="#step-2"> Step 2</a>.</p>
 </div>
 
-### Step 2
+## Video (NOT SUPPORTED)
 
-<div class="zd-accordion-panel">
-<div class="zd-accordion-section">Do you have [<em>error type K</em>] or an [<em>error type L</em>]?</div>
-<p class="zd-accordion-text">a. YES – Proceed with checking for [<em>issue/problem</em>] in this [<em>Link to KB or DevDocs article</em>].</p>
-<p>b. NO – Open a<a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket"> Support Ticket</a> for further investigation.</p>
-</div>
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+
+## Comments and Remarks (NOT SUPPORTED)
+
+There is a comment here.
+<!-- Standard Comment -->
 
 ## HTML Syntax Allowed in MD 
 
@@ -415,7 +392,7 @@ See [Images](##images)
 
 ### Tables
 
-#### Vanilla Markdown (NOT SUPPORTED)
+#### Markdown Table (NOT SUPPORTED)
 
 | Header | Another header | Yet another header |
 |--- |--- |--- |
