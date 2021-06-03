@@ -38,7 +38,9 @@ To insert a code block without highlighting, enclose the code block in triple ba
 \`\`\`
 
 ```markdown
+```
 code block here
+```
 ```
 
 \`\`\`
