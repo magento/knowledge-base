@@ -54,15 +54,15 @@ This is not \*italicized\* type (Ignore MD Format with " \ ")
 
 ### Patches
 
-[Download demo.zip patch](src/troubleshooting/known-issues-patches-attached/assets/demo.zip)
+[Download demo.zip patch](assets/demo.zip)
 
 ### PDFs
 
-[Demo PDF](src/troubleshooting/known-issues-patches-attached/assets/demo.pdf)
+[Demo PDF](assets/demo.pdf)
 
 ### Powerpoint
 
-[Demo PPTX](src/troubleshooting/known-issues-patches-attached/assets/demo.pptx)
+[Demo PPTX](assets/demo.pptx)
 
 ## HTML Syntax Allowed in MD 
 
