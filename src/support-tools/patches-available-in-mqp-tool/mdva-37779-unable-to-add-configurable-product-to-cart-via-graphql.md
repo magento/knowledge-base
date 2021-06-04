@@ -34,7 +34,7 @@ Have a second website, store and store view where website ID is not equal to the
 Product added to cart.
 
 <ins>Actual results</ins>:
-Get an error: *Could not add the product with SKU xxxx to the shopping cart: The website with id 3 that was requested wasn't found. Verify the website and try again.*
+Get an error: *Could not add the product with SKU xxxx to the shopping cart: The website with ID 3 that was requested wasn't found. Verify the website and try again.*
 
 ## Apply the patch
 
