@@ -29,7 +29,7 @@ Use the following formatting for headers from H2 to H5. H1 is never used since t
 
 Use single backticks to enclose the code element you would like to highlight:
 
-This \` inline code \` within a paragraph of text.
+This \`inline code\` within a paragraph of text.
 
 ### Code blocks
 
