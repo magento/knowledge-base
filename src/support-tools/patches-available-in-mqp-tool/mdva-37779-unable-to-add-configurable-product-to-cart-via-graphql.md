@@ -1,6 +1,6 @@
 ---
 title: MDVA-37779: Unable to add configurable product to cart via GraphQL
-labels: MQP patches, Magento Quality Patches,2.4.2,2.4.2-p1,MQP 1.0.24,configurable,cart
+labels: MQP patches,Magento Quality Patches,2.4.2,2.4.2-p1,MQP 1.0.24,configurable,cart
 ---
 
 
