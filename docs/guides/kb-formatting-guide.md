@@ -15,7 +15,7 @@ To format text as italics, use a single asterisk:
 
 ## Headers
 
-Use the following formatting for headers from H2 to H5. H1 is never used since article title in considered H1.
+Use the following formatting for headers from H2 to H5. H1 is never used since the article title in considered H1.
 
 `## Header 2 `
 
