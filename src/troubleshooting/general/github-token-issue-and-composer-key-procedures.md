@@ -16,9 +16,7 @@ This article provides solutions for the issue for failed deployments related to 
 
 
 ## Issue
-
- Deployments fail and deployment logs contain information similar to the following:
-
+ Deployments fail and deployment logs contain information similar to the following:\
  *Fatal error: Uncaught UnexpectedValueException: Your github oauth token for github.com contains invalid characters: "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" in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
 
 
@@ -28,7 +26,7 @@ Outdated Composer keys cause the Github token failures which result in the faile
 
 ## Solutions
 
-<ins>Primary Method</ins>
+<ins>Solution 1</ins>
 
 To resolve the issue, please update your Composer version to at least 1.10.21, preferably 1.10.22:
 
@@ -36,25 +34,25 @@ To resolve the issue, please update your Composer version to at least 1.10.21, p
 1. Run Composer update.
 1. Push a deployment.
 
-<ins>Secondary Method</ins>
+<ins>Solution 2</ins>
 
 If that primary method does not work, please try this:
 
 1. On your local environment, `run composer require “composer/composer”:”>1.10.21` (or if you have installed Composer version 1.10.22, `run composer require “composer/composer”:”>1.10.22`).
 1. This adds the requirement for that Composer package version, you may be required to add the ``–no-update`` flag as follows:
-    ```php
+    ```bash
     “composer/composer”:”>1.10.21” -–no-update
     ```
 
     or for version 1.10.22,
 
-    ```php
+    ```bash
     “composer/composer”:”>1.10.22” -–no-update
     ```
 1. Check the lock file. If it is not updated, update it to 1.10.21 (or to 1.10.22).
 1. Push a deployment.
 
-<ins>Tertiary Method</ins>
+<ins>Solution 3</ins>
 
 If you still have issues:
 
