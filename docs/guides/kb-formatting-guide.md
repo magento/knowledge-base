@@ -29,7 +29,7 @@ Use the following formatting for headers from H2 to H5. H1 is never used since t
 
 Use single backticks to enclose the code element you would like to highlight:
 
-This \`inline code\` within a paragraph of text.
+This is \`inline code\` within a paragraph of text.
 
 ### Code blocks
 
@@ -59,7 +59,7 @@ According to our linting rules, you always need to specify a language for a code
 
 For the list of supported languages check https://github.com/github/linguist/blob/master/lib/linguist/languages.yml.
 
-If the highlighting doesn't work for a certain language in markdown, to make it at least highlighted when published to https://support.magento.com/hc/en-us/, use the following HTML:
+If the highlighting doesn't work for a certain language in markdown (that is, language is not supported), to make it at least highlighted when published to https://support.magento.com/hc/en-us/, use the following HTML:
 
 ```html
 <pre><code class="language-%language-code%"
@@ -130,7 +130,7 @@ To do so, place the files in the *assets* sub-folder in the same section folder 
 
 ### Anchor links to sections
 
-If you need reference a section inside your article, you don't need to create a separate anchor. They’re automatically generated at publishing time for all H2-H6 headings. The anchors are generated from header by making all words lowercase and using "-" for separating words.
+If you need to reference a section inside your article, you don't need to create a separate anchor. They’re automatically generated at publishing time for all H2-H6 headings. The anchors are generated from header by making all words lowercase and using "-" for separating words.
 
 Example:
 
