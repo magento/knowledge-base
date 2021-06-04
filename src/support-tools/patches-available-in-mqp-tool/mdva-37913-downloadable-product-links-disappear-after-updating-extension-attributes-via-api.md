@@ -12,7 +12,7 @@ The MDVA-37913 Magento patch solves the issue where the downloadable product lin
 Magento Commerce Cloud 2.3.6
 
 **Compatible with Magento versions:**
-Magento Commerce and Magneto Commerce Cloud 2.3.0 - 2.4.0-p1
+Magento Commerce and Magento Commerce Cloud 2.3.0 - 2.4.0-p1
 >![info]
 >
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
