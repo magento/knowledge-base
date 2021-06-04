@@ -1,9 +1,9 @@
 ---
-title: Production site not accessible due to origin cloaking
+title: Site not accessible due to origin cloaking
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,DNS,Fastly,Magento Commerce Cloud,origin,origin cloaking,production,security,troubleshooting
 ---
 
-This article provides a solution for when your Magento Commerce Cloud production site store front and/or Admin is not accessible.
+This article provides a solution for when your Magento Commerce Cloud staging or production site store front and/or Admin is not accessible.
 
 ## Affected products and versions
 
@@ -20,9 +20,9 @@ https://mydomain.com.c.<projectid>.magento.cloud/ is no longer accessible.
 
  <span class="wysiwyg-underline">Actual results:</span> Page fails to load with the following error:
 
- *NET::ERR\_CERT\_INVALID*  *TLS alert, bad certificate (554):* 
+ *NET::ERR\_CERT\_INVALID*  *TLS alert, bad certificate (554):*
 
- <span class="wysiwyg-underline">Expected results:</span> 
+ <span class="wysiwyg-underline">Expected results:</span>
 
 Page loads successfully.
 
@@ -39,4 +39,4 @@ Origin cloaking is a security feature that allows Magento Commerce to block any 
 
 ## Related reading
 
- [Fastly origin cloaking enablement FAQ](https://support.magento.com/hc/en-us/articles/360055181631) 
+ [Fastly origin cloaking enablement FAQ](https://support.magento.com/hc/en-us/articles/360055181631)
