@@ -1,5 +1,5 @@
 ---
-title:
+title: Github token issue and Composer key procedures
 labels: Magento Commerce,Magento Commerce Cloud,GitHub,token,Composer key,troubleshooting,failed deployment,fail,Git
 ---
 
