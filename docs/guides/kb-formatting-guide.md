@@ -1,7 +1,7 @@
 ## Author in Markdown
 Generally, we use [GitHub flavored Markdown](https://github.github.com/gfm/), but in some circumstances HTML is allowed or even required.
 
-Following are the examples of the Markdown formatting that is most commonly used in our repo.
+The following are examples of the Markdown formatting that is most commonly used in our repo.
 
 ## Basic formatting
 
