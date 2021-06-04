@@ -1,5 +1,5 @@
 ---
-title: Github token issue and Composer key procedures
+title:
 labels: Magento Commerce,Magento Commerce Cloud,GitHub,token,Composer key,troubleshooting,failed deployment,fail,Git
 ---
 
@@ -57,6 +57,7 @@ If that primary method does not work, please try this:
 <ins>Tertiary Method</ins>
 
 If you still have issues:
+
 1. Please try running a Composer update locally before pushing a deployment. This will update the `composer.lock` file, and then commit those locked requirements to the build server.
 1. If none of these methods have worked, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
