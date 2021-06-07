@@ -27,7 +27,7 @@ Orders not filtered according to admin timezone.
 
 1. Go to **Stores** > Setting > **Configuration** > **General** and set the **Timezone** to *Eastern Standard Time (America/New_York)*
 1. Place a new order after 00:00 UTC
-1. Go to Sales > Orders and filter by today's date
+1. Go to **Sales** > **Orders** and filter by today's date
 
 
 <ins>Expected results</ins>:
