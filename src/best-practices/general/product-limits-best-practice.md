@@ -5,12 +5,16 @@ labels: 2.3,2.3.x,2.4,2.4.x,SKU,best practices,catalog,performance,product,store
 
 It is best practice to minimize the number of product Stocking Keeping Units (SKUs) to avoid performance degradation. The recommended effective product max is 10M.
 
-Effective Number of SKU is calculated as the following:Effective SKU = N\[SKUs\] \* Stores/Websites \* Customer GroupsHigh Effective SKU slows down product data retrieval and increases admin operations time.
+Effective Number of SKU is calculated as the following:
+
+Effective SKU = N\[SKUs\] &#42; Stores/Websites &#42; Customer Groups
+
+High Effective SKU slows down product data retrieval and increases admin operations time.
 
 ## Affected products and versions
 
 * Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
@@ -26,4 +30,4 @@ You can reduce the number of products (SKUs) by:
 
 ## Related reading
 
-DevDocs [Magento Commerce Cloud: Best Practices for store configuration](https://devdocs.magento.com/cloud/configure/configure-best-practices.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=price%20rules) 
+DevDocs [Magento Commerce Cloud: Best Practices for store configuration](https://devdocs.magento.com/cloud/configure/configure-best-practices.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=price%20rules)

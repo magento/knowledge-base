@@ -7,7 +7,7 @@ This article shows two solutions to roll back an environment without having a sn
 
 ### Affected products and versions
 
-* Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 Choose the most appropriate for your case:
 
@@ -20,7 +20,9 @@ This section shows how to roll back an environment when you have not created a s
 
 The steps are:
 
-0. Disable Configuration Management.1. Uninstall the Magento software.2. Reset the git branch.
+1. Disable Configuration Management.
+1. Uninstall the Magento software.
+1. Reset the git branch.
 
 After performing these steps:
 
@@ -41,6 +43,7 @@ To remove the configuration file, follow these steps:
 1. Remove the configuration file:
     * For Magento 2.2:    ```php    rm app/etc/config.php    ```    
     * For Magento 2.1:    ```php    rm app/etc/config.local.php    ```    
+
 Read more about Configuration Management:
 
 * [Knowledge Base](https://support.magento.com/hc/en-us/articles/115003169574)
@@ -51,7 +54,7 @@ Read more about Configuration Management:
 >
 Uninstalling the Magento software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
 
-Magento DevDocs, [Uninstall the Magento software](http://devdocs.magento.com/guides/v2.2/install-gde/install/cli/install-cli-uninstall.html#instgde-install-uninstall) 
+Magento DevDocs, [Uninstall the Magento software](http://devdocs.magento.com/guides/v2.2/install-gde/install/cli/install-cli-uninstall.html#instgde-install-uninstall)
 
 To uninstall the Magento software, follow these steps:
 
@@ -117,4 +120,3 @@ After resetting the DB, [make a git push to the environment to trigger redeploy]
 * [Configure your project - View environment history](https://devdocs.magento.com/guides/v2.3/cloud/project/project-webint-basic.html#project-conf-hist)
 * [Component deployment failure](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html)
 * [Manage your project](https://devdocs.magento.com/guides/v2.3/cloud/project/projects.html)
-

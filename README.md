@@ -13,6 +13,7 @@ You can check for the announcement that this repo has become public at:
 * [Adobe Commerce Facebook](https://www.facebook.com/adobecommerce)
 * [Adobe Commerce Twitter](https://twitter.com/AdobeCommerce/)
 * [Adobe Commerce LinkedIn](https://www.linkedin.com/company/adobe-commerce/posts)
+
 <!--
 ### Contributing (coming soon)
 
@@ -27,9 +28,9 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
 1. Make edits on forked repo.
 1. Submit a Pull Request (PR) to this repo.
 1. Tests are run:
-     * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
-     * Markdown Linting test - making sure markdown syntax is correct.
-     * File structure validation test - making sure the commit is done according to the [required file structure](.github/CONTRIBUTING,md#file_structure).
+  * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
+  * Markdown Linting test - making sure markdown syntax is correct.
+  * File structure validation test - making sure the commit is done according to the [required file structure](.github/CONTRIBUTING,md#file_structure).
 1. PR approvals flow:
      1. Knowledge Base (KB) writers reviews the PR within several days' time frame and adds label.
      1. KB writer can approve/deny/request changes.

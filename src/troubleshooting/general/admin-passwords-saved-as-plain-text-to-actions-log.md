@@ -19,8 +19,12 @@ When an existing Magento Administrator creates a new user with the Administrator
 <h3 id="Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce">Steps to reproduce:</h3>
 
 1. Log in as Administrator and create a new user by navigating to this path: **System** > Permissions > **All Users** .
-![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
- **** 2. Then click the **Add new user** page. Provide your current Administrator's password when prompted.3. Go to the **System** > **Action Log** > **Report** page and find the last log entry.4. You can see the current password, neither encrypted nor hashed.
+
+    ![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
+
+1. Then click the **Add new user** page. Provide your current Administrator's password when prompted.
+1. Go to the **System** > **Action Log** > **Report** page and find the last log entry.
+1. You can see the current password, neither encrypted nor hashed.
 
 <h2 id="Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Solution">Solution</h2>
 
@@ -30,6 +34,6 @@ After installing the Security Update, the password gets encrypted and does not s
 
 <h2 id="Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation">More information</h2>
 
- [Magento 2.0.16 and 2.1.9 Security Update page](https://magento.com/security/patches/magento-2016-and-219-security-update) 
+ [Magento 2.0.16 and 2.1.9 Security Update page](https://magento.com/security/patches/magento-2016-and-219-security-update)
 
  [Upgrade the Magento application and components](http://devdocs.magento.com/guides/v2.1/comp-mgr/bk-compman-upgrade-guide.html) (DevDocs article)

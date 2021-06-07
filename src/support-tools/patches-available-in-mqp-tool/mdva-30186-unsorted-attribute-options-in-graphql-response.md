@@ -22,7 +22,8 @@ The MDVA-30186 patch solves the issue where attribute options are not sorted in 
 1. Create 6 simple products with options (Example: *Option 1*: 1 product, *Option 2*: 2 products, *Option 3*: 3 products).
 1. Create a category and assign all the above products created.
 1. Now make the following GraphQL request with your category id:
-    ```java
+
+    <pre><code class="language-graphql">
     {
       products(
         filter: { category_id: { eq: "3" } }
@@ -47,7 +48,8 @@ The MDVA-30186 patch solves the issue where attribute options are not sorted in 
         }
       }
     }
-    ```
+    </code></pre>
+
 1. Now alter the sort order of attribute options from the attribute edit page in the Admin.
 1. Make the above GraphQL request again, and observe the color attribute options.
 

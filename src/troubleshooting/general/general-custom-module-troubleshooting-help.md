@@ -21,12 +21,14 @@ Check the logs to see if there are entries with custom module's name in the erro
 1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles detail those actions:    
     * [Enable or disable modules](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html)
     * [Uninstall modules](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html)
+
 ### Magento Commerce Cloud, all versions
 
-1. Logs locations: [Magento Commerce Cloud logs](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) 
+1. Logs locations: [Magento Commerce Cloud logs](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
 1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles detail those actions:    
     * [Install, manage, and upgrade extensions](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html)
     * [Component deployment failure](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html)
+
 ## Related reading
 
 * [Module overview](https://devdocs.magento.com/guides/v2.3/architecture/archi_perspectives/components/modules/mod_intro.html)
@@ -36,4 +38,3 @@ Check the logs to see if there are entries with custom module's name in the erro
 * [Run the Module Manager](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html)
 * [Module configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/config/config-files.html)
 * [Out of memory errors](https://devdocs.magento.com/guides/v2.3/comp-mgr/trouble/cman/out-of-memory.html)
-
