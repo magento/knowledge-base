@@ -13,6 +13,8 @@ To format text as italics, use a single asterisk:
 
 `This text will be *italics*`
 
+To add a line break, use the `<br>` HTML tag.
+
 ## Headers
 
 Use the following formatting for headers from H2 to H5. H1 is never used since the article title in considered H1.
