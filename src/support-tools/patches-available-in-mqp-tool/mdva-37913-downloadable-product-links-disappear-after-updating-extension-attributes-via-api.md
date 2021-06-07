@@ -28,6 +28,7 @@ Downloadable product with download links.
 
 1. Update extension attributes, using request like this:
 
+```JSON
 {
     "product": {
         "extension_attributes": {
@@ -38,6 +39,7 @@ Downloadable product with download links.
         }
     }
 }
+```
 
 <ins>Expected results</ins>:
 Product is updated, all download links are not removed.
