@@ -128,7 +128,7 @@ To do so, place the files in the *assets* sub-folder in the same section folder 
 [asset_title](assets/%file_name%).
 ```
 
-### Anchor links to sections
+### Links to a specific sections in the article
 
 If you need to reference a section inside your article, you don't need to create a separate anchor. They’re automatically generated at publishing time for all H2-H6 headings. The anchors are generated from header by making all words lowercase and using "-" for separating words.
 
@@ -138,11 +138,13 @@ Example:
 ## This is header
 ```
 
-This is a link to this anchor:
+This is a link to this header:
 
 ```markdown
 [this is link to the anchor in the same article](#this-is-header)
 ```
+
+If you need to reference an element other than header, use HTML to define the element to add use the [id attribute](https://www.w3schools.com/html/html_id.asp). You can then use Markdown or HTML to reference this ID.
 
 ## Tables
 
