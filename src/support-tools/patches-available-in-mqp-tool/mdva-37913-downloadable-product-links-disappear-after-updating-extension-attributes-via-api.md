@@ -22,7 +22,7 @@ Magento Commerce and Magento Commerce Cloud 2.3.0 - 2.4.0-p1
 Downloadable product links disappear after updating extension attributes via API.
 
 <ins>Prerequisites</ins>:
-Downloadable product with downloadable links.
+Downloadable product with download links.
 
 <ins>Steps to reproduce</ins>:
 
