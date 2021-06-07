@@ -32,7 +32,7 @@ Orders not filtered according to admin timezone.
 
 <ins>Expected results</ins>:
 
-Order placed today after 00:00 UTC should be visible in filtered results.
+Order placed today after 00:00 UTC is visible in filtered results.
 
 <ins>Actual results</ins>:
 
