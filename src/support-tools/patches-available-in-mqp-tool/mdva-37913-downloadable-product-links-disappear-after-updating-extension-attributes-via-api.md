@@ -43,7 +43,7 @@ Downloadable product with download links.
 Product is updated, all download links are not removed.
 
 <ins>Actual results</ins>:
-Product updated, but all downloadable links were removed.
+Product updated, but all download links were removed.
 
 
 ## Apply the patch
