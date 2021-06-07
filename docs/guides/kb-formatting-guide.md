@@ -146,6 +146,12 @@ This is a link to this header:
 
 If you need to reference an element other than header, use HTML to define the element to add use the [id attribute](https://www.w3schools.com/html/html_id.asp). You can then use Markdown or HTML to reference this ID.
 
+### Relative links and links to other articles
+
+Do not use relative links to reference Support KB articles. Those links will not work when your article gets published in [Magento Help Center](https://support.magento.com/hc/en-us). 
+Please use complete hyperlinks from the [Magento Help Center](https://support.magento.com/hc/en-us). 
+
+
 ## Tables
 
 Use [HTML formatting for tables](https://www.w3schools.com/html/html_tables.asp).
