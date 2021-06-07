@@ -40,7 +40,7 @@ Downloadable product with download links.
 }
 
 <ins>Expected results</ins>:
-Product should be updated, all downloadable links should not be removed.
+Product is updated, all download links are not removed.
 
 <ins>Actual results</ins>:
 Product updated, but all downloadable links were removed.
