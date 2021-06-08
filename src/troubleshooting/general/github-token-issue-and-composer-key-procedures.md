@@ -16,7 +16,7 @@ This article provides solutions for the issue for failed deployments related to 
 
 
 ## Issue
- Deployments fail and deployment logs contain information similar to the following:\
+ Deployments fail and deployment logs contain information similar to the following:<br>
  *Fatal error: Uncaught UnexpectedValueException: Your github oauth token for github.com contains invalid characters: "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" in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
 
 
@@ -24,40 +24,15 @@ This article provides solutions for the issue for failed deployments related to 
 
 Outdated Composer keys cause the Github token failures which result in the failed deployments.
 
-## Solutions
+## Solution
 
-<ins>Solution 1</ins>
+To resolve the issue, please update your Composer version to 1.10.22:
 
-To resolve the issue, please update your Composer version to at least 1.10.21, preferably 1.10.22:
+1. On your local environment, `run composer require “composer/composer”:”>1.10.21` .
+1. This adds the requirement for that Composer package version. Check the lock file - `composer/composer` version must be 1.0.22 or higher.
+1. Commit `composer.json` and `composer.lock` and push a deployment.
 
-1. Update the version of Composer specified in your `composer.lock` file to 1.10.21 or 1.10.22.
-1. Run Composer update.
-1. Push a deployment.
-
-<ins>Solution 2</ins>
-
-If that primary method does not work, please try this:
-
-1. On your local environment, `run composer require “composer/composer”:”>1.10.21` (or if you have installed Composer version 1.10.22, `run composer require “composer/composer”:”>1.10.22`).
-1. This adds the requirement for that Composer package version, you may be required to add the ``–no-update`` flag as follows:
-    ```bash
-    “composer/composer”:”>1.10.21” -–no-update
-    ```
-
-    or for version 1.10.22,
-
-    ```bash
-    “composer/composer”:”>1.10.22” -–no-update
-    ```
-1. Check the lock file. If it is not updated, update it to 1.10.21 (or to 1.10.22).
-1. Push a deployment.
-
-<ins>Solution 3</ins>
-
-If you still have issues:
-
-1. Please try running a Composer update locally before pushing a deployment. This will update the `composer.lock` file, and then commit those locked requirements to the build server.
-1. If none of these methods have worked, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+If this method does not work, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 
 ## Related reading
