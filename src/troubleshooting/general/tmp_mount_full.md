@@ -61,8 +61,7 @@ Do not use MySQL for search. Elasticsearch for search usually eliminates the nee
 There are several solutions to free up space. After isolating the cause choose one of the following solutions:
 
 * Check for .MAD and .MAI files:
-.MAD and .MAI files:
-o .MAD files: https://mariadb.com/kb/en/mysqld-fills-tmp-with-file-tmpsql_26be_0mad/
+.MAD and .MAI files: MAD files: https://mariadb.com/kb/en/mysqld-fills-tmp-with-file-tmpsql_26be_0mad/
 * Create a cron to clean-up up `/tmp` by running the following command in the CLI:
 
     ```bash
