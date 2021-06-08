@@ -1,6 +1,6 @@
 ---
 title: Best practices for Magento product attribute options
-labels: .
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,products
 ---
 
 This article provides best practices for product attribute options in Magento. Our recommendation is to have not more than 100 attribute options, as performance can be affected.
@@ -17,12 +17,12 @@ Potential site impacts can include:
 * Increase in Product Edit form rendering time.
 * Slow checkout.
 
-## [None](#affected-products-and-versions) Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
 * Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
 
-## [None](#best-practices) Best practices
+## Best practices
 
 Reduce the number of product attribute options by:
 
@@ -31,7 +31,7 @@ Reduce the number of product attribute options by:
 * Maintaining a list of actual attribute options.
 * Managing products info through external Product Management System (PMS).
 
-## [None](#related-reading) Related reading
+## Related reading
 
 Refer to:
 

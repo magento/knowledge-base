@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0: “Add selections to my cart” does not work
-labels: .
+labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,button,known issues,product,“Add selections to my cart”
 ---
 
 This article provides a workaround for a broken button known issue in Magento Admin when managing a customer's shopping cart. When trying to add selected products to a customer's shopping cart, the Add selections to my cart button located on the bottom of the section does not work. This issue occurs on any Admin panel page that contains two Add selections to my cart buttons. A permanent fix will be available in Magento 2.4.1. \#\# Affected products and versions
@@ -8,7 +8,7 @@ This article provides a workaround for a broken button known issue in Magento Ad
 * Magento Commerce version 2.4.0
 * Magento Commerce Cloud version 2.4.0
 
-## [None](#issue) Issue
+## Issue
 
 Steps to reproduce
 
@@ -24,7 +24,7 @@ Actual result
 
 Magento does not add your selections to my cart.
 
-## [None](#solution) Solution
+## Solution
 
 The Add selections to my cart button located on the top of the page is still working. The issue is expected to be fixed in Magento version 2.4.1, which is scheduled for release in Q4 1. \#\# Related reading
 

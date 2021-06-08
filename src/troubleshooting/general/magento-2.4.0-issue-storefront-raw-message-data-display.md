@@ -1,11 +1,11 @@
 ---
-title: Magento 2.4.0 issue: storefront raw message data display
-labels: .
+title: "Magento 2.4.0 issue: storefront raw message data display"
+labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,PHP 7.4.2,cookies,error message,known issues,store,troubleshooting
 ---
 
 This article provides a solution for the issue when all error messages on the storefront display with a "+" sign instead of a space. This solution helps error messages remain readable.
 
-## [None](#affected-products-and-versions) Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud 2.4.1. \* Magento Commerce 2.4.1. \#\# Issue
 
@@ -16,11 +16,11 @@ Steps to reproduce:
 
  `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.` 
 
-## [None](#cause) Cause
+## Cause
 
 The issue is caused by a PHP 7.4.2 issue related to set\\read cookies. See [PHP BUG \#79174 setcookie() encodes space as \`+\`, but $\_COOKIE no longer decodes them](https://bugs.php.net/bug.php?id=79174) .
 
-## [None](#solution) Solution
+## Solution
 
 To solve this issue, use another version of PHP 7.4.x. PHP 7.4.2 is not supported by Magento 2.4.1. \#\# Related reading
 
