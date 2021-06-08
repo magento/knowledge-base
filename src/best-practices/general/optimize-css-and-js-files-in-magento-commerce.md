@@ -1,11 +1,11 @@
 ---
 title: Optimize CSS and JS files in Magento Commerce
-labels: .
+labels: 2.3,CSS,Javascript,Magento Commerce,Magento Commerce Cloud,best practices,configuration,file optimization,performance
 ---
 
 This article provides best practices for CSS and Javascript (JS) file optimization, in Magento.
 
-## [None](#issue-by-affected-products-and-versions) Issue by affected products and versions
+## Issue by affected products and versions
 
 The time it takes to load CSS and Javascript (JS) files can be reduced by merging, minifying, and bundling separate files into a single file:\_\_
 
@@ -13,7 +13,7 @@ The time it takes to load CSS and Javascript (JS) files can be reduced by mergin
 * JS bundling is available for all versions of Magento Commerce and Magento Commerce Cloud including the currently supported version 2.3 (as of July 2020).
 * CSS merging and minification is available for all versions of Magento Commerce and Magento Commerce Cloud including the currently supported version 2.3 (as of July 2020).
 
-## [None](#best-practices) Best practices
+## Best practices
 
 How to merge or minify CSS files:
 
@@ -28,7 +28,7 @@ How to merge and bundle JS files:
 * You can turn on merging or bundling in Magento’s Admin UI (merging and bundling cannot be enabled at the same time):Stores > Settings > Configuration > Advanced > Developer > JavaScript Settings.
 * You can also enable Magento’s built-in bundling (basic bundling) from the command line: `php -f bin/magento config:set dev/js/enable_js_bundling 1` 
 
-## [None](#related-reading) Related reading
+## Related reading
 
 Review the following links:
 

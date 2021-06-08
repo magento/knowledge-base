@@ -38,10 +38,3 @@ If assistance is required or if there are questions or concerns, [submit a Magen
 ## Related reading
 
 Refer to DevDocs [Customization tutorials > Customize product creation form](https://devdocs.magento.com/guides/v2.4/howdoi/customize_product.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=product%20attributes) .
-<header>
-<section>
-<div>
-<div> </div>
-</div>
-</section>
-</header>

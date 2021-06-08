@@ -28,7 +28,7 @@ Reduce the number of complex products variations by:
 ## Related reading
 
 Refer to:
-<ul><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/product-create-configurable.html">Create products > Configurable Product</a>
-</li><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/attribute-best-practices.html">Product Attributes > Best Practices</a>
-</li></ul>
+
+* Magento User Guide [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
+* Magento User Guide [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
  

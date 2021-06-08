@@ -1,6 +1,6 @@
 ---
 title: Magento upgrade: compact to dynamic tables 2.2.x, 2.3.x-2.4.x
-labels: .
+labels: 2.2,2.2.x,2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,MySQL,Pro,Starter,database,known issues,troubleshooting,upgrade
 ---
 
 This article provides a solution for the issue when you cannot upgrade Magento from 2.2x and 2.3.x to 2.4.x due to `COMPACT` MySQL tables not having been converted to `DYNAMIC` tables in your database.
@@ -9,50 +9,42 @@ If you try to upgrade Magento from 2.2x and 2.3.x to 2.4.x without converting ro
 
 When using the MySQL queries below you may need to replace all single and double quotes due to there being characters that look like them but are not them that are used in some browser display fonts.Converting from `COMPACT` to `DYNAMIC` tables can take a long time with a large database. This process should be done in [maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) during a low traffic period. For steps refer to DevDocs [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) .
 
-## [None](#affected-product-and-versions) Affected product and versions
+## Affected product and versions
 
 * Magento Commerce Cloud v2.3
 * Magento Commerce Cloud v2.2
 
-## [None](#issue) Issue
+## Issue
 
  `COMPACT` tables must be converted to `DYNAMIC` tables in your database before you can upgrade from Magento Commerce Cloud v2.2 and v2.3 to v2.1. \#\# Solution
 
-<ol><li>SSH into the environment. For steps, refer to DevDocs<a href="https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh">Magento Commerce Cloud > SSH into your environment</a>. For pro accounts prod/staging you will need to do this on all 3 nodes, over port 1. For starter accounts/integration/dev branches you will not need to specify a port or do it multiple times as there is a single database container.</li><li>Authenticate to MySQL by running the following command in the CLI/Terminal:<pre><code>export DB_NAME=$(grep [\']db[\'] -A 20 app/etc/env.php | grep dbname | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
+1. SSH into the environment. For steps, refer to DevDocs [Magento Commerce Cloud > SSH into your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh). For pro accounts prod/staging you will need to do this on all 3 nodes, over port 1. For starter accounts/integration/dev branches you will not need to specify a port or do it multiple times as there is a single database container.
+1. Authenticate to MySQL by running the following command in the CLI/Terminal:
+```shell
+export DB_NAME=$(grep [\']db[\'] -A 20 app/etc/env.php | grep dbname | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
 export MYSQL_HOST=$(grep [\']db[\'] -A 20 app/etc/env.php | grep host | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
 export DB_USER=$(grep [\']db[\'] -A 20 app/etc/env.php | grep username | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
-export MYSQL_PWD=$(grep [\']db[\'] -A 20 app/etc/env.php | grep password | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/[']$//" | sed "s/['][,]//");</code></pre>
-</li><li>Get a count of tables to be altered and their names by running the following command in the CLI/Terminal:<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>For starter use 3306 as there is only one MySQL instance.</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>For Pro<pre><code>mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|wc -l</code><p><code>mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|less</code></p></pre>
-<p></p>
-</li><li>Build the<code>ALTER</code>table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For Pro<pre><code>mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt<p>fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt
-612 /app/fw0ef0jqfdlwdj/var/alter.txt</p>
-</code><p><code>fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l
-612</code></p></pre>
-<p></p>
-</li><li>Download the file's contents to a text file on your local environment.</li><li>Log in to MySQL. For starter use 3306 as there is only one MySQL instance.</li><li>Copy and paste 100 or so rows at a time from that file into MySQL to alter the table formats from<code>COMPACT</code>to<code>DYNAMIC</code>.</li><li>When complete check the list of compact tables you created in step 3 to ensure that there are no tables left to be converted.</li><li>If there are any, repeat step 3 to 8 till none remain.</li><li>Once complete, repeat on node 2/3 for Pro accounts. There should be no compact tables on any node when you've completed this.</li><li>Double check you have no<code>MyISAM</code>tables. For steps refer to<a href="https://support.magento.com/hc/en-us/articles/360041997312#convert">Database best practices for Magento Commerce Cloud > Convert all MyISAM tables to InnoDb</a>.</li></ol>
-## [None](#related-reading) Related Reading
+export MYSQL_PWD=$(grep [\']db[\'] -A 20 app/etc/env.php | grep password | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/[']$//" | sed "s/['][,]//");
+```
+1. Get a count of tables to be altered and their names by running the following command in the CLI/Terminal: For starter use 3306 as there is only one MySQL instance.
+
+For Pro `mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|wc -l</code><p><code>mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|less`
+1. Build the `ALTER` table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For Pro
+```shell
+mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt<p>fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt
+612 /app/fw0ef0jqfdlwdj/var/alter.txt
+fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l
+612
+```
+1. Download the file's contents to a text file on your local environment.
+1. Log in to MySQL. For starter use 3306 as there is only one MySQL instance.
+1. Copy and paste 100 or so rows at a time from that file into MySQL to alter the table formats from `COMPACT` to `DYNAMIC`.
+1. When complete check the list of compact tables you created in step 3 to ensure that there are no tables left to be converted.
+1. If there are any, repeat step 3 to 8 till none remain.
+1. Once complete, repeat on node 2/3 for Pro accounts. There should be no compact tables on any node when you've completed this.
+2. Double check you have no `MyISAM` tables. For steps refer to [Database best practices for Magento Commerce Cloud > Convert all MyISAM tables to InnoDb](https://support.magento.com/hc/en-us/articles/360041997312#convert)
+   
+## Related Reading
 
 * [Magento 2.4.0 known issue: missing "Refund" label in Klarna](https://support.magento.com/hc/en-us/articles/360047598311-Magento-2-4-0-known-issue-missing-Refund-label-in-Klarna)
 * [Magento 2.4.0 known issue: two buttons missing on Create New Order page in Admin](https://support.magento.com/hc/en-us/articles/360047481431-Magento-2-4-0-known-issue-two-buttons-missing-on-Create-New-Order-page-in-Admin)
