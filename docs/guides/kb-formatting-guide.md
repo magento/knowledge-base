@@ -13,7 +13,12 @@ To format text as italics, use a single asterisk:
 
 `This text will be *italics*`
 
+To format text as underlined, use the `<ins>` tag:
+
+`<ins>This text will be underlined</ins>`
+
 To add a line break, use the `<br>` HTML tag.
+
 
 ## Headers
 
