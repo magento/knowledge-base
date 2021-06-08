@@ -40,7 +40,7 @@ To establish blocking based on user agent, you need to add a custom VCL snippet 
 1. Then Fastly Configuration > Custom VCL Snippets.
 1. Create the new custom snippet as described in the [Custom VCL snippets](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) guide for the Fastly\_Cdn module. You can use the following code sample as an example. This sample disallows traffic for the `AhrefsBot` and `SemrushBot` user agents.
 
-```
+```php
 name: block_bad_useragents
   type: recv
   priority: 5
