@@ -56,7 +56,9 @@ The `/tmp` mount has too many files which could be caused by:
 
 ## Solution
 
-Do not use MySQL for search. Elasticsearch for search usually eliminates the need for most of the heavy temp table creations. See [Configure Magento to use Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) in Magento Developer Documentation.
+There are things you can do to free up some space one time, and there are best practices which would make it less probable that `/tmp` will get full again.
+
+### Free up space in `/tmp`
 
 There are several solutions to free up space. After isolating the cause choose one of the following solutions:
 
@@ -68,6 +70,11 @@ There are several solutions to free up space. After isolating the cause choose o
     sudo find /tmp -type f -atime +10 -delete
     ```
 
-### Best practice
+### Best practices
 
-Avoid running the `SELECT` query on columns without indexes as this use up a large amount of temporary disk space. You can also add the indexes.
+To avoid getting issues with `/tmp` being full, follow these recommendations:
+
+* Do not use MySQL for search. Elasticsearch for search usually eliminates the need for most of the heavy temp table creations. See [Configure Magento to use Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) in Magento Developer Documentation.
+* Avoid running the `SELECT` query on columns without indexes as this use up a large amount of temporary disk space. You can also add the indexes.
+
+## Related reading
