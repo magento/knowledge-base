@@ -2,16 +2,18 @@ name: Metadata Validation
 on: ['pull_request']
 
 jobs:
-  validate_integrity:
+  metadata-validation:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checking out
       uses: actions/checkout@v2
 
-    - name: Setup Deno
+    - name: Set up Deno
       uses: denoland/setup-deno@v1
       with:
         deno-version: v1.x
-    - name: Validate
+    - name: Cache dependencies
+      run: deno cache --unstable _checks/metadata_validation/mod.ts
+    - name: Validate article metadata
       run: deno run --allow-read --unstable _checks/metadata_validation/mod.ts
