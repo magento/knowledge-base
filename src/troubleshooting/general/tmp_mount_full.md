@@ -89,7 +89,7 @@ ANYTHING WE COULD RECOMMEND ON THE FOLLOWING?
 
 Ece-tools database backups:
 • Written to /tmp
-• FYI -https://jira.corp.magento.com/browse/MCLOUD-7700?filter=-2&jql=project%20%3D%20MCLOUD%20AND%20reporter%20in%20(currentUser())%20order%20by%20created%20DESC
+• https://jira.corp.magento.com/browse/MCLOUD-7700?filter=-2&jql=project%20%3D%20MCLOUD%20AND%20reporter%20in%20(currentUser())%20order%20by%20created%20DESC
 
 Mysql dumps:
 • Dumps written to /tmp
@@ -98,9 +98,6 @@ Mysql dumps:
 
 
 Check that Use% is <70%. Inodes are correlated with files. If you remove files from the partition, you will free inodes.
-
-
-
 
 ### Best practices
 
