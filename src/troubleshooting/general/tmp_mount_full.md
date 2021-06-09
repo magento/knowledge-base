@@ -58,27 +58,7 @@ The `/tmp` mount has too many files which could be caused by:
 
 There are things you can do to free up some space one time, and there are best practices which would make it less probable that `/tmp` will get full again.
 
-### Free up space in `/tmp`
-
-There are several solutions to free up space. After isolating the cause choose one of the following solutions:
-
-#### Elasticsearch
-
-Remove the Javacores (java*.core) and heapdumps (*.hprof) using system shell.
-
-#### Database backup and MySQL heapdumps
-
-ANYTHING WE COULD RECOMMEND ON THE FOLLOWING?
-
-Ece-tools database backups:
-• Written to /tmp
-• FYI -https://jira.corp.magento.com/browse/MCLOUD-7700?filter=-2&jql=project%20%3D%20MCLOUD%20AND%20reporter%20in%20(currentUser())%20order%20by%20created%20DESC
-
-Mysql dumps:
-• Dumps written to /tmp
-• https://support.magento.com/hc/en-us/articles/360003254334 (instructions to dump to /tmp but not to move file off /tmp immediately)
-
-#### Check and free up inodes
+### Check and free up inodes
 
 Ensure that there are enough available inodes. To do this, run the following command:
 
@@ -93,13 +73,33 @@ Filesystem Inodes   Used   Free Use% Mounted on
 /dev/nvme2n1 655360    1695  653665    1% /data/mysql
 ```
 
-Check that Use% is <70%. Inodes are correlated with files. If you remove files from the partition, you will free inodes.
-
 ### Check and free up storage space
 
 Follow the instructions in the [MySQL disk space is low on Magento Commerce Cloud > Check and free up storage space](https://support.magento.com/hc/en-us/articles/360037591972#check_and_free).
 
 **(WILL IT ALL BE RELEVANT?)**
+
+### Elasticsearch
+
+Remove the Javacores (java*.core) and heapdumps (*.hprof) using system shell.
+
+### Database backup and MySQL heapdumps
+
+ANYTHING WE COULD RECOMMEND ON THE FOLLOWING?
+
+Ece-tools database backups:
+• Written to /tmp
+• FYI -https://jira.corp.magento.com/browse/MCLOUD-7700?filter=-2&jql=project%20%3D%20MCLOUD%20AND%20reporter%20in%20(currentUser())%20order%20by%20created%20DESC
+
+Mysql dumps:
+• Dumps written to /tmp
+• https://support.magento.com/hc/en-us/articles/360003254334 (instructions to dump to /tmp but not to move file off /tmp immediately)
+
+
+
+Check that Use% is <70%. Inodes are correlated with files. If you remove files from the partition, you will free inodes.
+
+
 
 
 ### Best practices
