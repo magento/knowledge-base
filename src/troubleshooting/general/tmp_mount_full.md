@@ -68,7 +68,7 @@ Remove the Javacores (java*.core) and heapdumps (*.hprof) using system shell.
 
 #### Database backup and MySQL heapdumps
 
-ANYTHING WE COULD RECOMMEND 
+ANYTHING WE COULD RECOMMEND ON THE FOLLOWING?
 
 Ece-tools database backups:
 • Written to /tmp
