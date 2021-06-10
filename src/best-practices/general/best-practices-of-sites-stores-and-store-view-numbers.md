@@ -1,6 +1,6 @@
 ---
 title: Best practices of sites, stores, and store view numbers
-labels: a
+labels: Magento Commerce Cloud,Pro,best practices,performance,stores,views
 ---
 
 This article provides best practices for store numbers for Magento Commerce Cloud Pro accounts to optimize Magento performance. Having a large number of stores, websites or store views can slow your site down. The maximum recommended sites, stores and store views counts is:
@@ -9,7 +9,7 @@ This article provides best practices for store numbers for Magento Commerce Clou
 * stores = 50
 * store view count = 50
 
-## [None](#best-practices) Best practices
+## Best practices
 
 Websites and stores are multipliers for catalog data, so having a large number of websites and stores results in:
 

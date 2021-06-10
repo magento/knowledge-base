@@ -1,19 +1,19 @@
 ---
 title: Install latest patches to fix Magento Redis issues
-labels: .
+labels: 2.3.3,2.3.4,CPU,Magento Commerce Cloud,Redis,Redis 5,memory,patch,performance,troubleshooting
 ---
 
 This article provides information on the latest Redis-related patches available in [Magento Cloud Patches](https://devdocs.magento.com/cloud/project/project-patch.html) package.
 
-## [None](#affected-products-and-versions) Affected products and versions
+## Affected products and versions
 
 Magento Commerce Cloud 2.3.3, 2.3.4
 
-## [None](#issue) Issue
+## Issue
 
 Extra CPU and memory consumption by Redis might decrease the Magento performance and thus the overall performance of your website.
 
-## [None](#solution) Solution
+## Solution
 
 Apply the latest patches provided by Magento Cloud Patches package. For detailed instructions, refer to [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in Magento Developer Documentation.
 

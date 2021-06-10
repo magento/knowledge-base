@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0: Checkout error selecting local payments
-labels: .
+labels: 2.4.0,Braintree,Magento Commerce,Magento Commerce Cloud,billing address,checkout,known issues,payment method
 ---
 
 This article talks about a solution for known issue in Magento during checkout where an error message appears when selecting a local payment method for some countries. This occurs for the countries Belgium, Italy, Netherlands, Poland, and Spain. The error message, " *There are currently no available payment methods. Please update your Billing Address.* " will appear, but the local payment methods will still appear and function correctly. A permanent fix will be available in Magento 2.4.1. \#\# Affected products and versions
@@ -8,7 +8,7 @@ This article talks about a solution for known issue in Magento during checkout w
 * Magento Commerce version 2.4.0
 * Magento Commerce Cloud version 2.4.0
 
-## [None](#issue) Issue
+## Issue
 
 Preconditions
 
@@ -32,7 +32,7 @@ Actual result
 
 The error message, " *There are currently no available payment methods. Please update your Billing Address.* " appears, but the local payment methods will still display and function correctly.
 
-## [None](#solution) Solution
+## Solution
 
 The solution is to ignore the displayed error message, and continue with payment as normal, as all local payment methods will function normally. A fix will be available in Magento version 2.4.1, which is scheduled for release in Q4 1. \#\# Related reading
 

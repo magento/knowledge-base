@@ -17,7 +17,7 @@ Possible problems: misprints in account details (usernames, passwords), invalid 
 
 Make sure you have applied the same settings and have enabled the same functionalities in both Magento Admin and PayPal account settings.
 
-### Example settings issue **** 
+### Example settings issue 
 
 When applying the PayPal Express Checkout solution, transactions based on AVS/CSC responses must be declined in **PayPal Manager** (Service Settings > Set Up > Security Options) and in **Magento Admin** ( **Stores** > Configuration > **Sales** > **Payment methods** ...).
 ![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
@@ -31,11 +31,9 @@ If your PayPal payment method involves API with [Billing Agreements and Referenc
 
 See the following articles:
 
-<ul><li>
-<p title="PayPal gateway rejected request - duplicate invoice issue"><a href="https://support.magento.com/hc/en-us/articles/115002457473">PayPal gateway rejected request - duplicate invoice issue</a></p>
-</li><li>
-<p title="Change increment ID for new store entity"><a href="https://support.magento.com/hc/en-us/articles/360004002914">Change increment ID for new store entity</a></p>
-</li></ul>
+* [PayPal gateway rejected request - duplicate invoice issue](https://support.magento.com/hc/en-us/articles/115002457473)
+* [Change increment ID for new store entity](https://support.magento.com/hc/en-us/articles/360004002914)
+
 ## Contact Support to collect advanced payment logs
 
 To troubleshoot complicated payment issues, the Magento Support Team may ask you to apply a dedicated patch to enable advanced payment logging. In this case, your steps should be the following:

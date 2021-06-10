@@ -1,6 +1,6 @@
 ---
 title: Extended Redis cache implementation Magento Commerce 2.3.5+
-labels: .
+labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,Redis,best practices,cache,configuration
 ---
 
 As of Magento Commerce Cloud and Magento Commerce 2.3.5 or higher, it is recommended that you use the extended Redis cache implementation.
@@ -13,19 +13,21 @@ These optimizations include:
 * Lower Redis consumption of CPU cycles by improving the adapter’s ability to automatically determine what needs to be loaded.
 * Reduce race conditions on Redis write operations.
 
-## [None](#affected-products-and-versions) Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud and Magento Commerce 2.3.5+
 
-## [None](#best-practices) Best practices
+## Best practices
 
 As of Magento 2.3.5 and higher, it is recommended to use the extended Redis cache implementation `\Magento\Framework\Cache\Backend\Redis` .
 
 If you have eco-tools 2002.1.1 or higher, use the `REDIS_BACKEND` deployment variable to set this:
 
-<pre>stage:
+```yaml
+stage:
   deploy:
-    REDIS_BACKEND: '\Magento\Framework\Cache\Backend\Redis'</pre>
+    REDIS_BACKEND: '\Magento\Framework\Cache\Backend\Redis'
+```
 
 For details about the variable, see [Deploy variables > REDIS\_BACKEND](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend) in Magento Developer Documentation.
 
