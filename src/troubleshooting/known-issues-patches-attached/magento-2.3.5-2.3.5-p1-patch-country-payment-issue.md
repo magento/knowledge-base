@@ -16,7 +16,7 @@ When a store has Amazon Pay and another payment assigned to different countries,
 
 A web page refresh is a workaround for the issue.
 
-To resolve this issue and remove the error, we have created a [patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch) .
+To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) .
 
  <span class="wysiwyg-underline">Prerequisites</span> :
 
@@ -62,13 +62,13 @@ To resolve this issue and remove the error, we have created a [patch](https://su
 
 ## Solution
 
- [Apply the patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch) below.
+ [Apply the patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) below.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360057950771/BUNDLE-2546_EE_2.3.5-p1.composer.patch) 
+ [Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) 
 
 ### Compatible Magento versions:
 

@@ -38,9 +38,9 @@ bin/magento
 
 The patches are attached to this article. To download a patch, scroll down to the end of the article and click the file name, or click the corresponding link:
 
-* [Download MDVA-11059\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025424672/MDVA-11059_EE_2.2.3_COMPOSER_v1.patch)
-* [Download MDVA-23505\_EE\_2.2.4\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360047580191/MDVA-23505_EE_2.2.4_COMPOSER_v1.patch)
-* [Download MDVA-12158\_EE\_2.2.5\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360047446032/MDVA-12158_EE_2.2.5_COMPOSER_v2.patch)
+* [Download MDVA-11059\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-11059_EE_2.2.3_COMPOSER_v1.patch.zip)
+* [Download MDVA-23505\_EE\_2.2.4\_COMPOSER\_v1.patch](assets/MDVA-23505_EE_2.2.4_COMPOSER_v1.patch.zip)
+* [Download MDVA-12158\_EE\_2.2.5\_COMPOSER\_v2.patch](assets/MDVA-12158_EE_2.2.5_COMPOSER_v2.patch.zip)
 
 ### Compatible Magento versions:
 

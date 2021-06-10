@@ -37,7 +37,7 @@ The patch fixes the error in the Google Analytics component code. After applying
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-11263\_EE\_2.2.4\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360025558831/MDVA-11263_EE_2.2.4_v1.composer.patch) 
+ [Download MDVA-11263\_EE\_2.2.4\_v1.composer.patch](assets/MDVA-11263_EE_2.2.4_v1.composer.patch.zip) 
 
 ### Compatible Magento versions:
 

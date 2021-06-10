@@ -5,7 +5,7 @@ labels: Certification program,Magento,announcements,developer
 
  **In this article:** five Magento 2 certification programs from Magento U, available in 2018, with recommended trainings. Click the certification heading to read the detailed info on the [Magento U website](https://u.magento.com) .
 
-This article is also available as a one-page leaflet ( [PDF](assets/magento_u_certification_training_paths.pdf) ).
+This article is also available as a one-page leaflet ( [PDF](assets/magento_u_certification_training_paths.pdf.zip) ).
 
 ![magento-2-certified-associate-developer-badge.png](assets/magento-2-certified-associate-developer-badge.png)
  

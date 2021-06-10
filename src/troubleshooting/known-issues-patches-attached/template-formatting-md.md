@@ -55,11 +55,11 @@ This text is ***bold and italic***
 
 ### PDFs
 
-[Demo PDF](assets/demo.pdf)
+[Demo PDF](assets/demo.pdf.zip)
 
 ### Powerpoint
 
-[Demo PPTX](assets/demo.pptx)
+[Demo PPTX](assets/demo.pptx.zip)
 
 
 ### Images
