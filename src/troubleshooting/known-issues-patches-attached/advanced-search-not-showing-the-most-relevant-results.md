@@ -33,7 +33,7 @@ The "Orion Two-Tone Fitted Jacket" is not the first result, though it is the mos
 
 To solve the issue, apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-7256\_EE\_2.1.7\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360027842872/MDVA-7256_EE_2.1.7_v1.composer.patch) 
+ [Download MDVA-7256\_EE\_2.1.7\_v1.composer.patch](assets/MDVA-7256_EE_2.1.7_v1.composer.patch.zip) 
 
 The patch adds the implementation for sorting by relevance for advanced search results as the default sorting field.
 

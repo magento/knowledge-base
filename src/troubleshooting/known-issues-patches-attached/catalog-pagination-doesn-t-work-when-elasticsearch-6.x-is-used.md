@@ -39,7 +39,7 @@ Products should be displayed on the second page.
 
 To fix the issue, please apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download Catalog pagination issue on Elasticsearch 6.x patch](https://support.magento.com/hc/en-us/article_attachments/360040653971/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch) - The patch is compatible with all affected versions and editions.
+ [Download Catalog pagination issue on Elasticsearch 6.x patch](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - The patch is compatible with all affected versions and editions.
 
 >![warning]
 >

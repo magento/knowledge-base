@@ -25,7 +25,7 @@ You get the " *Something went wrong while saving this configuration: Area is alr
 
 The patch is attached to this article. To download it, click the following link or scroll down to the end of the article and click the attached file:
 
- [Download MDVA-11106\_EE\_2.2.4\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023313871/MDVA-11106_EE_2.2.4_v1.composer.patch) 
+ [Download MDVA-11106\_EE\_2.2.4\_v1.composer.patch](assets/MDVA-11106_EE_2.2.4_v1.composer.patch.zip) 
 
 ### Compatible Magento versions:
 

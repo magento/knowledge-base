@@ -41,10 +41,10 @@ The attached patch provides the improvement for the integration with Cybersource
 
 There are several patches attached to this article, different patches for different versions. To download a patch, scroll down to the end of the article and click the file name, or click the following link:
 
-* [Download MDVA-5914\_EE\_2.1.9\_COMPOSER\_v3.patch](https://support.magento.com/hc/en-us/article_attachments/360026011231/MDVA-5914_EE_2.1.9_COMPOSER_v3.patch)
-* [Download MDVA-8609\_EE\_2.2.2\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360026012371/MDVA-8609_EE_2.2.2_COMPOSER_v2.patch)
-* [Download MDVA-12964\_EE\_2.2.5\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360026013271/MDVA-12964_EE_2.2.5_COMPOSER_v1.patch)
-* [Download MDVA-16643\_EE\_2.3.0\_COMPOSER\_v1.patch](assets/MDVA-16643_EE_2.3.0_COMPOSER_v1.patch)
+* [Download MDVA-5914\_EE\_2.1.9\_COMPOSER\_v3.patch](assets/MDVA-5914_EE_2.1.9_COMPOSER_v3.patch.zip)
+* [Download MDVA-8609\_EE\_2.2.2\_COMPOSER\_v2.patch](assets/MDVA-8609_EE_2.2.2_COMPOSER_v2.patch.zip)
+* [Download MDVA-12964\_EE\_2.2.5\_COMPOSER\_v1.patch](assets/MDVA-12964_EE_2.2.5_COMPOSER_v1.patch.zip)
+* [Download MDVA-16643\_EE\_2.3.0\_COMPOSER\_v1.patch](assets/MDVA-16643_EE_2.3.0_COMPOSER_v1.patch.zip)
 
 ## Compatible Magento versions
 

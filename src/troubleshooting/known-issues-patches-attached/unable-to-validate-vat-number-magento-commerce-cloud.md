@@ -34,13 +34,13 @@ The following error is displayed: " *Error during VAT Number verification.* "
 
 ## Solution
 
-Apply the [patch](https://support.magento.com/hc/en-us/article_attachments/360058272591/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch) provided in this article.
+Apply the [patch](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) provided in this article.
 
 ## Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [MDVA-27623\_EE\_2.3.2-p2\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360058272591/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch) 
+ [MDVA-27623\_EE\_2.3.2-p2\_COMPOSER\_v1.patch](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) 
 
 ## How to apply the patch
 

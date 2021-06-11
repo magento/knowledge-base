@@ -23,7 +23,7 @@ In Magento Admin, if you select customer or client records to be deleted, filter
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-10600\_EE\_2.2.3\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360025343891/MDVA-10600_EE_2.2.3_v1.composer.patch) 
+ [Download MDVA-10600\_EE\_2.2.3\_v1.composer.patch](assets/MDVA-10600_EE_2.2.3_v1.composer.patch.zip) 
 
 ### Compatible Magento versions:
 

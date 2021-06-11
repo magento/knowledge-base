@@ -26,13 +26,13 @@ Whether you need to use the attached script and the patch, or just the script, d
 
 For these versions you must apply the patch and run the attached database clean-up script to end continued logging and eliminate logs.
 
-1. Run the composer patch to stop logging. This patch is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](https://support.magento.com/hc/en-us/article_attachments/360052587472/CLEANUP_PATCH_COMPOSER_2.3.2.patch) . For instructions on how to apply the patch, see [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) .
+1. Run the composer patch to stop logging. This patch is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip) . For instructions on how to apply the patch, see [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) .
 
-1. Now run the script to clean the database of the pre-existing failed login attempts. This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](https://support.magento.com/hc/en-us/article_attachments/360054669971/DB_CLEANUP_SCRIPT_v2.php) .
+1. Now run the script to clean the database of the pre-existing failed login attempts. This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip) .
 
 Please refer to the [ **How to run the script** ](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section for instructions.
 
- **Magento Commerce and Magento Open Source versions 2.3.3 and above/2.2.10 & above** For these versions only run the below script to clear old logs (logging was ended previously for these versions through a fix released in Oct 2019). This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](https://support.magento.com/hc/en-us/article_attachments/360054669971/DB_CLEANUP_SCRIPT_v2.php) .
+ **Magento Commerce and Magento Open Source versions 2.3.3 and above/2.2.10 & above** For these versions only run the below script to clear old logs (logging was ended previously for these versions through a fix released in Oct 2019). This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip) .
 
 Please refer to the [ **How to run the script** ](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section for instructions.
 

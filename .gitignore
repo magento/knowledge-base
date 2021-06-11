@@ -1,3 +1,8 @@
+# Adding this folder to Gitignore. It contains scripts to run a bulk update on the entire repo. It assess assests in pdf, patch, php, shell, pptx, and bash.
+# The script then compresses asset into .zip files, and updates the articles that refrence them with the appropriate path.
+
+bulk_update/
+
 .DS_Store
 */.DS_STORE
 # Byte-compiled / optimized / DLL files

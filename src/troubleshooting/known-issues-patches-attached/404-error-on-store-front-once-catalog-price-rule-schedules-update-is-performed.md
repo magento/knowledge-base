@@ -39,7 +39,7 @@ Following is the detailed description of the required steps:
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-7392\_EE\_2.2.1\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360024181571/MDVA-7392_EE_2.2.1_COMPOSER_v2.patch) 
+ [Download MDVA-7392\_EE\_2.2.1\_COMPOSER\_v2.patch](assets/MDVA-7392_EE_2.2.1_COMPOSER_v2.patch.zip) 
 
 ### Compatible Magento versions:
 

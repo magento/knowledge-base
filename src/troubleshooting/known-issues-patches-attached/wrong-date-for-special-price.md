@@ -38,7 +38,7 @@ Applying the patch will prevent the issue from happening again. To correct the d
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-11605\_EE\_2.2.2\_COMPOSER\_v1.patch](assets/MDVA-11605_EE_2.2.2_COMPOSER_v1.patch) 
+ [Download MDVA-11605\_EE\_2.2.2\_COMPOSER\_v1.patch](assets/MDVA-11605_EE_2.2.2_COMPOSER_v1.patch.zip) 
 
 ### Compatible Magento versions:
 
