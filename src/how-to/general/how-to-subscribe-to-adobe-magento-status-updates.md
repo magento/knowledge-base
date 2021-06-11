@@ -17,6 +17,7 @@ This article explains how you can subscribe to Adobe Magento status on [Adobe st
 1. Click **Create subscriptions**.
 
     ![create-subscription-adobe-status.png](assets/create-subscription-adobe-status.png)
+    
 1. You see a window where you can select notifications for products. It may differ from the following screenshot as some subscriptions may be preselected based on your profile or because you have already set up some subscriptions. Click on **Adobe Magento** under Experience Cloud. If you want to receive notifications for all Adobe Magento services check the Adobe Magento checkbox. This will automatically select all Adobe Magento services which you can see when the Adobe Magento section expands (see screenshot).
 
     ![subscribe_to_all_adobe_magento_services_notifications.png](assets/adobe_magento_all_services_notification.png)
