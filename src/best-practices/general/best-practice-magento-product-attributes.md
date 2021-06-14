@@ -3,7 +3,16 @@ title: Best practice Magento product attributes
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,product
 ---
 
-This article provides best practices for the maximum recommended number of product attributes in Magento. There is a limit of 500. If you exceed the maximum recommended limit, performance can be affected.
+This article provides best practices for the maximum recommended number of product attributes in Magento.
+
+These maximum recommended number of product attributes limits are:
+
+* For Magento Commerce and Magento Commerce Cloud versions 2.4.1 and lower,
+the limit is 500 product attributes.
+* For Magento Commerce and Magento Commerce Cloud versions 2.4.2 and higher,
+the limit is 1500 product attributes.
+
+If you exceed the maximum recommended limit, performance can be affected.
 
 Many product attributes affects the size of the Product template saved for each product (EAV structure). This leads to:
 
@@ -21,7 +30,7 @@ Product Mass Actions functionality can be blocked. Index re-build time for mid/l
 ## Affected products and versions
 
 * Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
