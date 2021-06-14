@@ -15,7 +15,7 @@ The patch is attached to this article. The patch moves the `analytics` cron job 
 
 To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [MDVA-19640\_EE\_2.3.0\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360046452172/MDVA-19640_EE_2.3.0_COMPOSER_v1.patch) 
+ [MDVA-19640\_EE\_2.3.0\_COMPOSER\_v1.patch](assets/MDVA-19640_EE_2.3.0_COMPOSER_v1.patch.zip) 
 
 After applying the patch run the following SQL query. The query has to be run to change records in `cron_schedule` table.
 

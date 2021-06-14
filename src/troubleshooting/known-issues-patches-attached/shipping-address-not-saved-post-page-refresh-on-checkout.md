@@ -29,7 +29,7 @@ Prerequisites: The persistent shopping cart functionality is enabled. Check if i
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-9718\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360025238631/MDVA-9718_EE_2.2.3_COMPOSER_v1.patch) 
+ [Download MDVA-9718\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-9718_EE_2.2.3_COMPOSER_v1.patch.zip) 
 
 ### Compatible Magento versions
 

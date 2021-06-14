@@ -36,7 +36,7 @@ Disable GraphQL product cache with the patch provided in this article.
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [MDVA-28559\_EE\_2.3.5-p1\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360065269852/MDVA-28559_EE_2.3.5-p1_v1.composer.patch) 
+ [MDVA-28559\_EE\_2.3.5-p1\_COMPOSER\_v1.patch](assets/MDVA-28559_EE_2.3.5-p1_v1.composer.patch.zip) 
 
 ### Compatible Magento versions:
 

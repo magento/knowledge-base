@@ -21,7 +21,7 @@ A customer gets a 404 error when they attempt to access Advanced reporting.
 
 ## Solution
 
-To fix the issue, please apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link: [Download MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1](https://support.magento.com/hc/en-us/article_attachments/360046698871/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch) 
+To fix the issue, please apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link: [Download MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip) 
 
 ## How to apply the patch
 

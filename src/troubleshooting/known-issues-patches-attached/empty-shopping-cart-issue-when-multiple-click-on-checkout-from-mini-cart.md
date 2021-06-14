@@ -27,9 +27,9 @@ You have no items in your shopping cart.
 
 The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
 
- [Download MDVA-10441\_EE\_2.2.3\_v3.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023267032/MDVA-10441_EE_2.2.3_v3.composer.patch) 
+ [Download MDVA-10441\_EE\_2.2.3\_v3.composer.patch](assets/MDVA-10441_EE_2.2.3_v3.composer.patch.zip) 
 
- [Download MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360023768751/MDVA-17078_EE_2.2.5_COMPOSER_v1.patch) 
+ [Download MDVA-17078\_EE\_2.2.5\_COMPOSER\_v1.patch](assets/MDVA-17078_EE_2.2.5_COMPOSER_v1.patch.zip) 
 
 ### Compatible Magento versions
 

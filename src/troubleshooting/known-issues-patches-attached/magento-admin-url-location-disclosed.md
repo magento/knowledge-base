@@ -19,9 +19,9 @@ An issue has been discovered in Magento Open Source and Magento Commerce that ca
 
 To fix the issue, please apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
-* Download [PRODSECBUG-2432\_EE\_2.1.17\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360059699111/PRODSECBUG-2432_EE_2.1.17_composer.patch) - for versions 2.1.13-2.1.17, Magento Commerce, Magento Open Source
-* Download [PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360059699131/PRODSECBUG-2432_EE_2.2.8_composer.patch) - for versions 2.2.0-2.2.8, all editions
-* Download [PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360059699151/PRODSECBUG-2432_EE_2.3.1_composer.patch) - for versions 2.3.0-2.3.1, all editions
+* Download [PRODSECBUG-2432\_EE\_2.1.17\_composer.patch](assets/PRODSECBUG-2432_EE_2.1.17_composer.patch.zip) - for versions 2.1.13-2.1.17, Magento Commerce, Magento Open Source
+* Download [PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip) - for versions 2.2.0-2.2.8, all editions
+* Download [PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip) - for versions 2.3.0-2.3.1, all editions
 
 If you do see a patch for your product/version, please upgrade to the latest security release and then apply the patch.
 

@@ -37,7 +37,7 @@ Apply the patch provided in this article.
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [B2B-709-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063988371/B2B-709-composer.patch) 
+ [B2B-709-composer.patch](assets/B2B-709-composer.patch.zip) 
 
 The patch is also available for download in both, `.git` and `.composer` , formats on [Magento Commerce Downloads](https://magento.com/tech-resources/download) page, under **Patches** in the left column navigation. Search for XXX patch.
 
