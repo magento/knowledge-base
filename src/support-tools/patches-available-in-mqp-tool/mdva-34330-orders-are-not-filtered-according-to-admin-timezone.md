@@ -1,5 +1,5 @@
 ---
-title: MDVA-34330: Orders are not filtered according to admin timezone
+title: "MDVA-34330: Orders are not filtered according to admin timezone"
 labels: MQP patches,Magento Quality Patches,MDVA-34330,MQP tool 1.0.24,2.4.3,issue,Magneto Commerce Cloud,2.3.1,   
 ---
 
