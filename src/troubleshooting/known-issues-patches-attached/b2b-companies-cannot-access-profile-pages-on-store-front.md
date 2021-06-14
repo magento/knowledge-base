@@ -13,7 +13,7 @@ Customers (companies) can successfully create a company account on the site, but
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-9013\_EE\_2.2.2\_composer.patch](https://support.magento.com/hc/en-us/article_attachments/360025147472/MDVA-9013_EE_2.2.2_composer.patch) 
+ [Download MDVA-9013\_EE\_2.2.2\_composer.patch](assets/MDVA-9013_EE_2.2.2_composer.patch.zip) 
 
 ### Compatible Magento versions
 

@@ -30,9 +30,9 @@ Your catalog search results with same filters set, differ depending on the searc
 
 The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
 
- [Download MDVA-12312\_EE\_2.2.3\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360023683791/MDVA-12312_EE_2.2.3_COMPOSER_v1.patch) 
+ [Download MDVA-12312\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-12312_EE_2.2.3_COMPOSER_v1.patch.zip) 
 
- [Download MDVA-14172\_EE\_2.2.6\_COMPOSER\_v1.patch](https://support.magento.com/hc/en-us/article_attachments/360023949911/MDVA-14172_EE_2.2.6_COMPOSER_v1.patch) 
+ [Download MDVA-14172\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-14172_EE_2.2.6_COMPOSER_v1.patch.zip) 
 
 ### Compatible Magento versions:
 

@@ -14,7 +14,7 @@ This article describes a known Magento 2.4.1 issue, where an error message pops-
 
 An error message pops-up and disappears on the Billing step of Checkout, if PayPal Braintree payment is used and multiple addresses shipment selected.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. On the storefront, log in as a customer. (optionally could be a guest checkout, if it is enabled in Admin)
 1. Add a product to the cart.
@@ -26,14 +26,14 @@ An error message pops-up and disappears on the Billing step of Checkout, if PayP
 1. Select **PayPal Braintree** and click the **PayPal** button.
 1. In the pop-up window click **Agree & Pay** .
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The order is placed without any error.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The order is placed, but with an error. The *PayPal Checkout could not be initialized. Please contact store owner* .  error is displayed for a second and disappears.
 
 ## Fix
 
-Since the order placing is not blocked, there is no need to perform workaround steps. The issue is scheduled to be fixed in Magento Commerce 2.4.2.
+Since the order placing is not blocked, there is no need to perform workaround steps.

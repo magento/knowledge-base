@@ -22,7 +22,7 @@ Order confirmation emails are sent from the Apache server email address. Other e
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-10993\_EE\_2.2.4\_v1.composer.patch](https://support.magento.com/hc/en-us/article_attachments/360023209891/MDVA-10993_EE_2.2.4_v1.composer.patch) 
+ [Download MDVA-10993\_EE\_2.2.4\_v1.composer.patch](assets/MDVA-10993_EE_2.2.4_v1.composer.patch.zip) 
 
 ### Compatible Magento versions:
 

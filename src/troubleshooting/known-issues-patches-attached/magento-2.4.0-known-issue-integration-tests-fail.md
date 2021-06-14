@@ -32,7 +32,7 @@ Apply the patch provided in this article.
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [BUNDLE-2684-composer.patch](https://support.magento.com/hc/en-us/article_attachments/360063994752/BUNDLE-2684-composer.patch) 
+ [BUNDLE-2684-composer.patch](assets/BUNDLE-2684-composer.patch.zip) 
 
 ### Compatible Magento versions:
 

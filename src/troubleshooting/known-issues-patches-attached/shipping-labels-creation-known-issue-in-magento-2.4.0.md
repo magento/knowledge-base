@@ -55,7 +55,7 @@ Apply the patch provided in this article.
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [MC-35514-2.4.0-CE-composer-2.patch](https://support.magento.com/hc/en-us/article_attachments/360063419631/MC-35514-2.4.0-CE-composer-2.patch) 
+ [MC-35514-2.4.0-CE-composer-2.patch](assets/MC-35514-2.4.0-CE-composer-2.patch.zip) 
 
 The patch is also available for download in both, `.git` and `.composer` , formats on [Magento Commerce Downloads](https://magento.com/tech-resources/download) page, under **Patches** in the left column navigation. Search for MC-35514 patch.
 

@@ -48,8 +48,8 @@ The patch is attached to this article, available for download in both `.composer
 
 To download it, scroll down to the end of the article and click the file name, or click one of the following links:
 
-* [Composer patch B2B-716\_composer.patch](assets/B2B-716_composer.patch)
-* [Git patch B2B-716\_git.patch](assets/B2B-716_git.patch)
+* [Composer patch B2B-716\_composer.patch](assets/B2B-716_composer.patch.zip)
+* [Git patch B2B-716\_git.patch](assets/B2B-716_git.patch.zip)
 
 ## How to apply a patch
 

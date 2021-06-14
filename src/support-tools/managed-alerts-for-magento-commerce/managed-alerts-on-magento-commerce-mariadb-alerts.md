@@ -8,7 +8,7 @@ This article provides troubleshooting steps when you receive MariaDB alerts for 
 * DML Queries Warning
 * DML Queries Critical
 
-## **Affected products and versions** 
+## **Affected products and versions**
 
 Magento Commerce Cloud Pro
 
@@ -16,13 +16,13 @@ Magento Commerce Cloud Pro
 
 You will receive a managed alert in New Relic if you have signed up to [Managed alerts for Magento Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Magento to give customers a standard set using insights from Support and Engineering.
 
- **<u>Do!</u>** 
+ **<u>Do!</u>**
 
 * Abort any deployment scheduled until this alert is cleared.
 * Put your site into maintenance mode immediately if your site is or becomes completely unresponsive. For steps refer to DevDocs [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) . Make sure to add your IP to the exempt IP address list to ensure that you are still able to access your site for troubleshooting. For steps, refer to DevDocs [Maintain the list of exempt IP addresses](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten#instgde-cli-maint-exempt) .
 * End any scripts such as imports that may be the cause of the alert if site performance is impacted.
 
- **<u>Don't!</u>** 
+ **<u>Don't!</u>**
 
 * Run indexers or additional crons which may cause additional stress on MariaDB.
 * Do any major administrative tasks (i.e., Magento Admin, data imports / exports).
@@ -30,7 +30,7 @@ You will receive a managed alert in New Relic if you have signed up to [Managed 
 
 ## Solution
 
- <span class="wysiwyg-underline"> **DML Queries (queries that modify the database using UPDATE, INSERT, and DELETE)** </span> 
+ <span class="wysiwyg-underline"> **DML Queries (queries that modify the database using UPDATE, INSERT, and DELETE)** </span>
 
 If you receive a DML Queries Critical alert start at step one. If you receive a DML Queries Warning alert start at step two.
 
@@ -50,8 +50,7 @@ If you receive a DML Queries Critical alert start at step one. If you receive a 
 1. Operational optimizations: Offload resource intensive data modifications to lower traffic times.
 1. Additional optimizations: Ensure that you are on the latest version of ECE-Tools. For steps, refer to DevDocs [Magento Commerce Cloud > Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) .
 
- <span class="wysiwyg-underline"> **Related Reading** </span> 
+## Related Reading 
 
 * To research other common MariaDB issues, refer to [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651) .
 * To research database best practices, refer to [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312) .
-

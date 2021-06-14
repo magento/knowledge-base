@@ -17,7 +17,7 @@ This article provides solutions for the issue for failed deployments related to 
 
 ## Issue
  Deployments fail and deployment logs contain information similar to the following:<br>
- *Fatal error: Uncaught UnexpectedValueException: Your github oauth token for github.com contains invalid characters: "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" in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
+ *Fatal error: Uncaught UnexpectedValueException: Your github oauth token for github.com contains invalid characters: "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
 
 
 ## Cause

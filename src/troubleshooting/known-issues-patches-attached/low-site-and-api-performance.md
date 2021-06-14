@@ -17,7 +17,7 @@ To solve the issue, apply the patch. The patch splits and writes the log, paymen
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-8371\_EE\_2.2.1\_COMPOSER\_v2.patch](https://support.magento.com/hc/en-us/article_attachments/360025304332/MDVA-8371_EE_2.2.1_COMPOSER_v2.patch) 
+ [Download MDVA-8371\_EE\_2.2.1\_COMPOSER\_v2.patch](assets/MDVA-8371_EE_2.2.1_COMPOSER_v2.patch.zip) 
 
 ### Compatible Magento versions
 
