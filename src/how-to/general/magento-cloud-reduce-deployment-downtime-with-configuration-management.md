@@ -1,6 +1,6 @@
 ---
-title: Magento Cloud: reduce deployment downtime with Configuration Management
-labels: 2.1.4,2.2,2.2.x,Magento Commerce Cloud,cloud,configuration,deployment,downtime,how to,management,pipeline
+title: "Magento Cloud: reduce deployment downtime with Configuration Management"
+labels: "2.1.4,2.2,2.2.x,Magento Commerce Cloud,cloud,configuration,deployment,downtime,how to,management,pipeline"
 ---
 
 To dramatically reduce maintenance downtime and provide efficient configuration of your store across environments, Magento Commerce (Cloud) provides the **Configuration Management** feature. For Magento Commerce (Cloud) 2.2.x and later implementations, this feature supports Pipeline Deployment concepts and options with reduced steps.

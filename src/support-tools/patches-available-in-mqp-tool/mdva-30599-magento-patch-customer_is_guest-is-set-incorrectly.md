@@ -1,6 +1,6 @@
 ---
-title: MDVA-30599 Magento patch: customer_is_guest is set incorrectly
-labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0-p1,2.4.1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,customer_is_guest,support tools
+title: "MDVA-30599 Magento patch: customer_is_guest is set incorrectly"
+labels: "2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0-p1,2.4.1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,customer_is_guest,support tools"
 ---
 
 The MDVA-30599 Magento patch fixes the issue where guest quotes created using API are incorrectly marked as quotes for logged in customers. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issue is scheduled to be fixed in Magento 2.4.2.

@@ -1,5 +1,5 @@
 ---
-title: SSL (TLS) certificates for Magento Commerce Cloud: FAQ
+title: "SSL (TLS) certificates for Magento Commerce Cloud: FAQ"
 labels: 
 ---
 

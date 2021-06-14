@@ -1,6 +1,6 @@
 ---
-title: MDVA-36833: broken pagination on search results page
-labels: 2.4.2,MQP 1.0.22,Magento Commerce Cloud,Magento Quality Patches,catalog,pagination,search,shared catalog,support tools
+title: "MDVA-36833: broken pagination on search results page"
+labels: "2.4.2,MQP 1.0.22,Magento Commerce Cloud,Magento Quality Patches,catalog,pagination,search,shared catalog,support tools"
 ---
 
 The MDVA-36833 Magento patch fixes the issue where pagination breaks when the shared catalogue is enabled and some products were excluded from shared catalog. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-36833. Please note that the issue is scheduled to be fixed in Magento 2.4.3.

@@ -1,6 +1,6 @@
 ---
-title: Magento best practice: update services and components to latest version
-labels: 2.4,2.4.0,End of Life,Magento Commerce Cloud,PCI,best practices,security,service,upgrade
+title: "Magento best practice: update services and components to latest version"
+labels: "2.4,2.4.0,End of Life,Magento Commerce Cloud,PCI,best practices,security,service,upgrade"
 ---
 
 This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources.

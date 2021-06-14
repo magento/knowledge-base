@@ -1,6 +1,6 @@
 ---
-title: MBI: Reauthenticating integrations
-labels: API,MBI,Magento Business Intelligence,analysis,authentication,data,database,how to,integrations,third-party extensions
+title: "MBI: Reauthenticating integrations"
+labels: "API,MBI,Magento Business Intelligence,analysis,authentication,data,database,how to,integrations,third-party extensions"
 ---
 
 This article provides solutions for re-authorizing an integration to grant Magento BI the required privileges to pull data from a third-party service. Re-authorization is required when these privileges are revoked.

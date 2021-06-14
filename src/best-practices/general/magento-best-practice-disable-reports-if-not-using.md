@@ -1,6 +1,6 @@
 ---
-title: Magento best practice: disable Reports if not using
-labels: 2.3.x,2.4.0,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,performance,reports
+title: "Magento best practice: disable Reports if not using"
+labels: "2.3.x,2.4.0,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,performance,reports"
 ---
 
 Magento recommends disabling the [Reports functionality](https://docs.magento.com/user-guide/configuration/general/reports.html) if you are not using it or the related dynamic customer segments functionality. Having it enabled might slow product pages loading causing performance degradation on the storefront catalog.

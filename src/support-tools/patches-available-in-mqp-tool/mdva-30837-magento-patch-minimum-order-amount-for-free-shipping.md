@@ -1,6 +1,6 @@
 ---
-title: MDVA-30837 Magento patch: minimum order amount for free shipping
-labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.7,MQP patches,Magento Commerce Cloud,configuration,coupon,quote,shipping,support tools,tax
+title: "MDVA-30837 Magento patch: minimum order amount for free shipping"
+labels: "2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.7,MQP patches,Magento Commerce Cloud,configuration,coupon,quote,shipping,support tools,tax"
 ---
 
 The MDVA-30837 patch adds configuration options for the free shipping calculation so the user can configure the Minimum Order Amount to get Free Shipping based on the Subtotal (or Grand Total). This allows local customizations for tax and shipping methods. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.7 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.

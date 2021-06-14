@@ -1,6 +1,6 @@
 ---
-title: MDVA-37874: Fixed discount not applied to entire cart
-labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,2.3.6,2.3.6-p1,2.3.7,MQP 1.0.24,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,fixed discount amount,bundle product,order
+title: "MDVA-37874: Fixed discount not applied to entire cart"
+labels: "2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,2.3.6,2.3.6-p1,2.3.7,MQP 1.0.24,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,fixed discount amount,bundle product,order"
 ---
 
 The MDVA-37874 Magento patch fixes the issue when the **fixed discount amount** for the whole cart is incorrectly applied to a bundle product containing more than one option. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.24 is installed. The patch ID is MDVA-37874. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.

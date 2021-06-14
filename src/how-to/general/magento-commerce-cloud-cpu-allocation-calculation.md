@@ -1,6 +1,6 @@
 ---
-title: Magento Commerce Cloud: CPU allocation calculation
-labels: CPU Allocation,calculation,configuration,hardware resources,phCPU,query
+title: "Magento Commerce Cloud: CPU allocation calculation"
+labels: "CPU Allocation,calculation,configuration,hardware resources,phCPU,query"
 ---
 
 The attached article provides detailed guidelines on what metrics should be used when making decisions about CPU allocation, and how to calculate them.

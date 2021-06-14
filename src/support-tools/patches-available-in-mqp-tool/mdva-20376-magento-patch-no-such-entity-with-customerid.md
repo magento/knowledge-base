@@ -1,6 +1,6 @@
 ---
-title: MDVA-20376 Magento patch: no such entity with customerId
-labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.13,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,customerId,error,no such entity,order placement
+title: "MDVA-20376 Magento patch: no such entity with customerId"
+labels: "2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.13,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,customerId,error,no such entity,order placement"
 ---
 
 The MDVA-20376 Magento patch solves the issue for a *No such entity with customerId = 1* error for logged-in customers after order placement. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Magento version 2.3.4.

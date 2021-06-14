@@ -1,6 +1,6 @@
 ---
-title: MDVA-31307 Magento patch: Out of memory on certain categories
-labels: 2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PHP Fatal Error,category pages,error message,memory,support tools
+title: "MDVA-31307 Magento patch: Out of memory on certain categories"
+labels: "2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PHP Fatal Error,category pages,error message,memory,support tools"
 ---
 
 The MDVA-31307 Magento patch fixes the issue where Magento\_Csp/Model/BlockCache consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process.This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Magento 2.4.2.

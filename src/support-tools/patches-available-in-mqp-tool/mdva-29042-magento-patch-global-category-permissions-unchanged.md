@@ -1,6 +1,6 @@
 ---
-title: MDVA-29042 Magento patch: global category permissions unchanged
-labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,category,customer group,deselect,permissions,support tools
+title: "MDVA-29042 Magento patch: global category permissions unchanged"
+labels: "2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,category,customer group,deselect,permissions,support tools"
 ---
 
 The MDVA-29042 patch fixes the issue where catalog permissions were changed to " *Allow* " automatically after new product was added to the shared catalog in Magento Admin. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.5 is installed. Please note that the issue was fixed in Magento version 2.3.6 with B2B extension.

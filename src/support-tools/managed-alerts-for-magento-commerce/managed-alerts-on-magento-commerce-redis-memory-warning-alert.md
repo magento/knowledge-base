@@ -1,6 +1,6 @@
 ---
-title: Managed alerts on Magento Commerce: Redis memory warning alert
-labels: Magento Commerce Cloud,New Relic,Pro,Redis,alert,memory,support tools,troubleshooting,warning
+title: "Managed alerts on Magento Commerce: Redis memory warning alert"
+labels: "Magento Commerce Cloud,New Relic,Pro,Redis,alert,memory,support tools,troubleshooting,warning"
 ---
 
 This article provides troubleshooting steps for when you receive a Redis warning alert for Magento Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected:

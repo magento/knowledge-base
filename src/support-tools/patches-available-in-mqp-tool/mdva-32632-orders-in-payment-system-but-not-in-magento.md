@@ -1,6 +1,6 @@
 ---
-title: MDVA-32632: Orders in payment system but not in Magento
-labels: 1.0.12,2.3.0,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.12,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,orders,payments,support tools
+title: "MDVA-32632: Orders in payment system but not in Magento"
+labels: "1.0.12,2.3.0,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.12,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,orders,payments,support tools"
 ---
 
 The MDVA-32632 solves the issue where orders are in a payment system but not in Magento. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that the issue was fixed in Magento 2.3.5.

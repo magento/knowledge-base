@@ -1,6 +1,6 @@
 ---
-title: MDVA-35064: URL rewrites not generated for configurables created via API
-labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP 1.0.17,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools
+title: "MDVA-35064: URL rewrites not generated for configurables created via API"
+labels: "2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP 1.0.17,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools"
 ---
 
 The MDVA-35064 Magento patch fixes the issue where URL rewrites are not being generated for "All store views" for products created via API.

@@ -1,6 +1,6 @@
 ---
-title: Web Application Firewall (WAF) powered by Fastly: the FAQ
-labels: FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security
+title: "Web Application Firewall (WAF) powered by Fastly: the FAQ"
+labels: "FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security"
 ---
 
 ## How does Magento's Managed Cloud WAF (powered by Fastly) work?

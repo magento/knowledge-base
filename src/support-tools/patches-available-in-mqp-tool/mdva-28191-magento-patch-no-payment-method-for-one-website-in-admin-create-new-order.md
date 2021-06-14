@@ -1,6 +1,6 @@
 ---
-title: MDVA-28191 Magento patch: No payment method for one website in Admin Create New Order
-labels: 2.3.3,2.3.4,2.3.5,2.3.5-p1,2.4.0,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,order,payment method,support tools
+title: "MDVA-28191 Magento patch: No payment method for one website in Admin Create New Order"
+labels: "2.3.3,2.3.4,2.3.5,2.3.5-p1,2.4.0,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,order,payment method,support tools"
 ---
 
 The MDVA-28191 Magento patch fixes the issue where a payment method is not loading in the Admin **Create New Order** for one website, although payment methods may be showing for other websites.  This patch is available when the [Magento Quality Patches (MQP)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 is installed.

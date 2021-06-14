@@ -1,6 +1,6 @@
 ---
-title: Magento best practice: enable asynchronous orders processing
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,asynchronous orders,best practices,checkout performance
+title: "Magento best practice: enable asynchronous orders processing"
+labels: "2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,asynchronous orders,best practices,checkout performance"
 ---
 
 This article provides best practice for configuration settings that can help improve checkout performance in case of large number of simultaneously created orders.

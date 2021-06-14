@@ -1,6 +1,6 @@
 ---
-title: MDVA-31791 Magento patch: improvement for product page with related products and target rules
-labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.4.0,2.4.0-p1,MQP 1.0.9,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,performance,product page,support tools
+title: "MDVA-31791 Magento patch: improvement for product page with related products and target rules"
+labels: "2.3.4,2.3.4-p1,2.3.4-p2,2.4.0,2.4.0-p1,MQP 1.0.9,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,performance,product page,support tools"
 ---
 
 The MDVA-31791 Magento patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.9 is installed. Please note that the issue was fixed in Magento 2.4.1.

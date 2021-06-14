@@ -1,6 +1,6 @@
 ---
-title: PWA Studio: browser not trust generated SSL certificate
-labels: Magento PWA, troubleshooting, browser, PWA, SSL, certificate
+title: "PWA Studio: browser not trust generated SSL certificate"
+labels: "Magento PWA, troubleshooting, browser, PWA, SSL, certificate"
 ---
 
 This article provides a solution for when you see a warning that indicates that your browser does not trust the generated SSL certificate.

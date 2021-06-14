@@ -1,6 +1,6 @@
 ---
-title: Managed alerts on Magento Commerce: CPU critical alert
-labels: CPU,Magento Commerce,Magento Commerce Cloud,New Relic,alert,how to,maintenance mode,threshold,troubleshooting
+title: "Managed alerts on Magento Commerce: CPU critical alert"
+labels: "CPU,Magento Commerce,Magento Commerce Cloud,New Relic,alert,how to,maintenance mode,threshold,troubleshooting"
 ---
 
 This article provides troubleshooting steps when you receive a CPU critical alert for Magento Commerce in New Relic. Immediate action is required to remedy the issue.The alert will look something like the following, depending on the alert notification channel you selected.

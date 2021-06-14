@@ -1,6 +1,6 @@
 ---
-title: PWA Studio: Validation errors when running developer mode
-labels: PWA Studio,Venia,environment variables,errors,how to,validation
+title: "PWA Studio: Validation errors when running developer mode"
+labels: "PWA Studio,Venia,environment variables,errors,how to,validation"
 ---
 
 This topic discusses a solution for when validation errors occur when running developer mode in Magento Progressive Web App (PWA) Studio as a result of not previously creating the venia-concept (Venia is a PWA storefront.) environment file. This file will hold the variables for your local development environment.

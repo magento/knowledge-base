@@ -1,6 +1,6 @@
 ---
-title: Magento 2.3.6, 2.4.0-p1, 2.4.1 known issue: dotdigital login
-labels: 2.3.6,2.4.0-p1,2.4.1,Magento Commerce,Magento Commerce Cloud,dotdigital,known issues,troubleshooting
+title: "Magento 2.3.6, 2.4.0-p1, 2.4.1 known issue: dotdigital login"
+labels: "2.3.6,2.4.0-p1,2.4.1,Magento Commerce,Magento Commerce Cloud,dotdigital,known issues,troubleshooting"
 ---
 
 This article describes a Magento 2.3.6, 2.4.0-p1, and 2.4.1 known issue where it is impossible to log in to [dotdigital](https://dotdigital.com/) via the Admin Panel when the dotdigital account is enabled.

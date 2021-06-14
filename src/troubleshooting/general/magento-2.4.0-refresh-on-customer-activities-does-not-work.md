@@ -1,6 +1,6 @@
 ---
-title: Magento 2.4.0: refresh on Customer's Activities does not work
-labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,button,known issues,order,product,refresh,troubleshooting
+title: "Magento 2.4.0: refresh on Customer's Activities does not work"
+labels: "2.4.0,Magento Commerce,Magento Commerce Cloud,button,known issues,order,product,refresh,troubleshooting"
 ---
 
 This article provides a solution for a Magento 2.4.0 known issue when an admin user creates an order for a customer and the refresh buttons on the Customer's Activities side panel does not work.

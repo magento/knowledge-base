@@ -1,6 +1,6 @@
 ---
-title: MBI: Reporting a defect
-labels: Magento Business Intelligence,support,troubleshooting
+title: "MBI: Reporting a defect"
+labels: "Magento Business Intelligence,support,troubleshooting"
 ---
 
 If you observe a feature behaving unexpectedly and think you have found an issue or bug, consider [submitting a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) and include the following:

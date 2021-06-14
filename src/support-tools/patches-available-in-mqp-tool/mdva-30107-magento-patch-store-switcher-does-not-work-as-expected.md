@@ -1,6 +1,6 @@
 ---
-title: MDVA-30107 Magento patch: store switcher does not work as expected
-labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.5,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,store switcher,support tools
+title: "MDVA-30107 Magento patch: store switcher does not work as expected"
+labels: "2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.5,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,store switcher,support tools"
 ---
 
 The MDVA-30107 patch solves the issue where store switcher doesn't work as expected if different base URLs are used for store views. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed.

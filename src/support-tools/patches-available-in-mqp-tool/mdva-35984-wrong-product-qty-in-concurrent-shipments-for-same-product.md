@@ -1,6 +1,6 @@
 ---
-title: MDVA-35984: Wrong product Qty in concurrent shipments for same product
-labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,MQP 1.0.21,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,identical product,multiple concurrent shipments,product Qty,product quantity,same product
+title: "MDVA-35984: Wrong product Qty in concurrent shipments for same product"
+labels: "2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,MQP 1.0.21,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,identical product,multiple concurrent shipments,product Qty,product quantity,same product"
 ---
 
 The MDVA-35984 Magento patch fixes the issue when creating multiple concurrent shipments for the same product gives an incorrect product quantity (Qty).

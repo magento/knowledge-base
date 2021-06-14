@@ -1,6 +1,6 @@
 ---
-title: MDVA-29389 Magento patch: Advanced Reporting related cron job fails
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Advanced Reporting,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,MySQL,cron,database,error,support tools
+title: "MDVA-29389 Magento patch: Advanced Reporting related cron job fails"
+labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Advanced Reporting,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,MySQL,cron,database,error,support tools"
 ---
 
 The MDVA-29389 Magento patch fixes the issue where with Advanced Reporting where the `analytics_collect_data` cronjob says: " *Port must be configured within host parameter (like localhost:3306)* ". This patch is available when the<a>Magento Quality Patch (MQP) tool 1.0.7</a>is installed. The issue is scheduled to be fixed in Magento Commerce 2.4.2.

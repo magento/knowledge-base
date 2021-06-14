@@ -1,6 +1,6 @@
 ---
-title: MDVA-31150 Magento patch: invoice without store credit info
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,API,MQP 1.0.8,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,credit,invoice,order,store,support tools
+title: "MDVA-31150 Magento patch: invoice without store credit info"
+labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,API,MQP 1.0.8,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,credit,invoice,order,store,support tools"
 ---
 
 The MDVA-31150 Magento patch fixes the issue where an invoice is created without store credit information. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.8 is installed. Please note that the issue will be fixed in Magento version 2.4.2.

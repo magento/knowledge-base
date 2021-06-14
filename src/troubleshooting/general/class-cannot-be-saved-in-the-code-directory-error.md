@@ -1,6 +1,6 @@
 ---
-title: "Class cannot be saved in the code directory" error
-labels: Cloud,generated
+title: "\"Class cannot be saved in the code directory\" error"
+labels: "Cloud,generated"
 ---
 
 This article describes how to fix the issue where the way you specified dependencies prevents classes to be auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
@@ -135,4 +135,3 @@ class YourClass
 ## Related reading
 
 * [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) on Devdocs
-

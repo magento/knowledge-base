@@ -1,6 +1,6 @@
 ---
-title: MDVA-28511 Magento patch: accented letters hang Payflow payments
-labels: 2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.14,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PayFlow Pro,accented letters,customer name,payment
+title: "MDVA-28511 Magento patch: accented letters hang Payflow payments"
+labels: "2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.14,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PayFlow Pro,accented letters,customer name,payment"
 ---
 
 The MDVA-28511 Magento patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters.

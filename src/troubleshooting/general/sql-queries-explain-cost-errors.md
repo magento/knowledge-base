@@ -1,6 +1,6 @@
 ---
-title: SQL queries: EXPLAIN cost errors
-labels: EXPLAIN cost,Magento Business Intelligence,troubleshooting
+title: "SQL queries: EXPLAIN cost errors"
+labels: "EXPLAIN cost,Magento Business Intelligence,troubleshooting"
 ---
 
 This article provides solutions for EXPLAIN cost errors when running unsuccessful SQL queries. PostgreSQL uses something called [the EXPLAIN command](https://www.postgresql.org/docs/9.5/static/using-explain.html) to determine the cost of SQL queries. We built the SQL Report Builder to also use this command, meaning that if the cost is deemed to be too high - the amount of resources required to execute the query exceeds our thresholds - the query won't run and an EXPLAIN message will display.

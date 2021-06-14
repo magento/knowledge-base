@@ -1,6 +1,6 @@
 ---
-title: MCP-87 Magento patch: storefront broken
-labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,catalog,index,performance,products,reindex,slow response,store,support tools
+title: "MCP-87 Magento patch: storefront broken"
+labels: "2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,catalog,index,performance,products,reindex,slow response,store,support tools"
 ---
 
 The MCP-87 Magento patch fixed the issue where stock reindexing of catalogs is slow. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed.

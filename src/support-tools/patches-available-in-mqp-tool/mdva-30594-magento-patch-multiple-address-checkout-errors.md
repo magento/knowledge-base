@@ -1,6 +1,6 @@
 ---
-title: MDVA-30594 Magento patch: multiple address checkout errors
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.2,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,checkout,multiple addresses,order success,support tools
+title: "MDVA-30594 Magento patch: multiple address checkout errors"
+labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.2,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,checkout,multiple addresses,order success,support tools"
 ---
 
 The MDVA-30594 patch solves the issue when placing an order with multiple addresses, the customer is not seeing the order success page. Checking the orders on Magento Admin shows two orders with the same products instead of the correct products. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed. The issue is scheduled to be fixed in Magento 2.4.2.

@@ -1,6 +1,6 @@
 ---
-title: MDVA-35155: Can't buy bundle product after option title changed
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,bundle product,can't buy,option title change
+title: "MDVA-35155: Can't buy bundle product after option title changed"
+labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,bundle product,can't buy,option title change"
 ---
 
 The MDVA-35155 Magento patch solves the issue where a bundle product can't be bought after the option title is changed.

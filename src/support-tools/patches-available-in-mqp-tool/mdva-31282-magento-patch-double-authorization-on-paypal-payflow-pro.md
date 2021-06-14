@@ -1,6 +1,6 @@
 ---
-title: MDVA-31282 Magento patch: double authorization on Paypal PayFlow Pro
-labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,PayFlow Pro,double authorization,fraud filter,support tools
+title: "MDVA-31282 Magento patch: double authorization on Paypal PayFlow Pro"
+labels: "2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,PayFlow Pro,double authorization,fraud filter,support tools"
 ---
 
 The MDVA-31282 patch solves the issue when double authorizations occur on Paypal PayFlow Pro in Magento. The double authorizations also have the effect of bypassing PayFlow Pro's fraud filters and doubling transaction fees. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed.

@@ -62,7 +62,7 @@ async function validateFrontmatter() {
         return true
     } else {
         console.log(`\n${red(failedCount + '')} files contain errors (out of ${cyan(total + '')} files total).`)
-        console.log(cyan("Please ensure that the frontmatter/metadata in the articles is valid. If a key or value contains a colon (:) or dash (-) character, wrap the entire value in \"quotes\" or use multiline strings ( see https://yaml-multiline.info ). Double-check that articles contain valid `title` and `labels` fields."))
+        console.log(cyan("Please ensure that the frontmatter/metadata in the articles is valid. If a key or value contains a colon (:) or dash (-) character, wrap the entire value in \"quotes\" or use multiline strings ( see https://yaml-multiline.info ). If the title contains quotes already, escape the inner quotes by preceding them with a backslash (\\\"). Double-check that articles contain valid `title` and `labels` fields."))
         return false
     }
 }

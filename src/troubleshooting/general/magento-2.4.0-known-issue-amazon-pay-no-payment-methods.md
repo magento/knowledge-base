@@ -1,6 +1,6 @@
 ---
-title: Magento 2.4.0 known issue: Amazon pay, no payment methods
-labels: 2.3.5-p1,2.4.0,Amazon Pay,Magento Commerce,Magento Commerce Cloud,checkout,known issues,payment method,payments,troubleshooting
+title: "Magento 2.4.0 known issue: Amazon pay, no payment methods"
+labels: "2.3.5-p1,2.4.0,Amazon Pay,Magento Commerce,Magento Commerce Cloud,checkout,known issues,payment method,payments,troubleshooting"
 ---
 
 This article provides a solution for a Magento 2.4.0 known issue where payment methods are missing when customers use **Return to standard checkout** , after they enabled Amazon pay.

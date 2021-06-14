@@ -1,6 +1,6 @@
 ---
-title: Magento Quality Patches released: new tool to self-serve quality patches
-labels: MQP,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,announcements,apply patch,ece-tools
+title: "Magento Quality Patches released: new tool to self-serve quality patches"
+labels: "MQP,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,announcements,apply patch,ece-tools"
 ---
 
 Adobe has released for general availability Magento Quality Patches (MQP) - a tool that  allows for applying, reverting, and viewing general information about quality patches available for your installed version of Magento Commerce (for both on prem and cloud).

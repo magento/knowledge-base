@@ -1,6 +1,6 @@
 ---
-title: MDVA-28202 Magento patch: out of stock products don't filter properly
-labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,configurable product,display price,support tools
+title: "MDVA-28202 Magento patch: out of stock products don't filter properly"
+labels: "2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,configurable product,display price,support tools"
 ---
 
 The MDVA-28202 patch solves the issue where out of stock products aren't filtered properly using **Price** filter on a Magento store frontend. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.6 is installed.

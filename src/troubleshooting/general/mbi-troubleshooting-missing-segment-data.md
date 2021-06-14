@@ -1,6 +1,6 @@
 ---
-title: MBI: troubleshooting missing Segment data
-labels: Magento Business Intelligence,missing Segment data,troubleshooting
+title: "MBI: troubleshooting missing Segment data"
+labels: "Magento Business Intelligence,missing Segment data,troubleshooting"
 ---
 
 This article provides a potential solution for missing data from your Segment integration. The cause of missing data might be the **selective integration snippets** on your website.

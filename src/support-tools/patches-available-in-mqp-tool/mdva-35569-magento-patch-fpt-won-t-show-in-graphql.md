@@ -1,6 +1,6 @@
 ---
-title: MDVA-35569 Magento patch: FPT won't show in GraphQL
-labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,FPT,GraphQL,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,cart,fixed product tax
+title: "MDVA-35569 Magento patch: FPT won't show in GraphQL"
+labels: "2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,FPT,GraphQL,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,cart,fixed product tax"
 ---
 
 The MDVA-35569 Magento patch solves the issue when FPT (fixed product tax) doesn't show in GraphQL when the state is specified in the cart.

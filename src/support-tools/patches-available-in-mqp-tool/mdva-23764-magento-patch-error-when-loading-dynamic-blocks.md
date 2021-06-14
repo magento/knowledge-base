@@ -1,6 +1,6 @@
 ---
-title: MDVA-23764 Magento patch: error when loading dynamic blocks
-labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,dynamic block,support tools
+title: "MDVA-23764 Magento patch: error when loading dynamic blocks"
+labels: "2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,dynamic block,support tools"
 ---
 
 The MDVA-23764 Magento patch fixes the bug in

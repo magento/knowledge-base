@@ -1,6 +1,6 @@
 ---
-title: MDVA-28661 Magento patch: issue with company users management when changing admin email
-labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,B2B,MQP 1.0.5,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,email,management,support tools,user
+title: "MDVA-28661 Magento patch: issue with company users management when changing admin email"
+labels: "2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,B2B,MQP 1.0.5,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,email,management,support tools,user"
 ---
 
 MDVA-28661 Magento patch available in the [Magento Quality Patches (MQP)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where an error is thrown in the **Company Users** company account section after **Company Admin** email address is changed.

@@ -1,6 +1,6 @@
 ---
-title: Magento 2.4.0: Braintree not in Multiple Addresses checkout
-labels: 2.4.0,Braintree,Magento Commerce,Magento Commerce Cloud,address,checkout,known issues,payment,payment method,troubleshooting
+title: "Magento 2.4.0: Braintree not in Multiple Addresses checkout"
+labels: "2.4.0,Braintree,Magento Commerce,Magento Commerce Cloud,address,checkout,known issues,payment,payment method,troubleshooting"
 ---
 
 This article provides a solution for a Magento 2.4.0 known issue where Braintree payment methods are not included in working with Multiple Addresses checkout. There is currently no solution, but a solution is planned for 2.4.1.
