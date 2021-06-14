@@ -1,6 +1,6 @@
 ---
 title: "MDVA-34330: Orders are not filtered according to admin timezone"
-labels: MQP patches,Magento Quality Patches,MDVA-34330,MQP tool 1.0.24,2.4.3,issue,Magneto Commerce Cloud,2.3.1,   
+labels: MQP patches,Magento Quality Patches,MDVA-34330,MQP tool 1.0.24,2.4.3,issue,Magneto Commerce Cloud,2.3.1,2.3.1 to 2.4.2-p1   
 ---
 
 The MDVA-34330 Magento patch solves the issue where orders are not filtered according to admin timezone. This patch is available when the Magento Quality Patch (MQP) tool 1.0.24 is installed. The patch ID is MDVA-34330. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
