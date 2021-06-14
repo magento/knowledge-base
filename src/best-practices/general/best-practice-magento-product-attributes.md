@@ -8,9 +8,9 @@ This article provides best practices for the maximum recommended number of produ
 These maximum recommended number of product attributes limits are:
 
 * For Magento Commerce and Magento Commerce Cloud versions 2.4.1 and lower,
-the limit is 500 product attributes.
+   the limit is 500 product attributes.
 * For Magento Commerce and Magento Commerce Cloud versions 2.4.2 and higher,
-the limit is 1500 product attributes.
+   the limit is 1500 product attributes.
 
 If you exceed the maximum recommended limit, performance can be affected.
 
