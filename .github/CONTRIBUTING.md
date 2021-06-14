@@ -125,15 +125,15 @@ labels:
 To add an article, create a new markdown file in the desired category + section. Articles must include the standard metadata table with title and labels. Labels can be omitted.
 
 ### Edit article content
-You can rename article, edit its content, labels or links to files.
+You can rename article, edit its content, labels, or links to files.
 
 #### Rename article
 
-To rename the article update the title in the article's metadata. It will reflect in [Support Help Center](https://support.magento.com/hc/en-us) exactly as written in the metadata. Non-ASCII characters are not allowed in metadata.
+To rename the article, update the title in the article's metadata. It will reflect in [Support Help Center](https://support.magento.com/hc/en-us) exactly as written in the metadata. Non-ASCII characters are not allowed in metadata.
 
 #### Add/Edit/Delete article labels
 
-To add, edit, or delete article labels (tags) update the labels portion of the metadata.
+To add, edit, or delete article labels (tags), update the labels portion of the metadata.
 
 #### Edit article body
 
@@ -149,7 +149,7 @@ To delete an article, delete the article file.
 
 ## Report an issue
 
-If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (as described above) or you can report it by creating an issue in the Support KB repository.
+If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (as described above), or you can report it by creating an issue in the Support KB repository.
 
 You must complete the issue template. We will close your issue if you fail to provide the information listed template. Enter as much information as you can, including content corrections, steps to reproduce, command or code updates, or questions for clarifications.
 
