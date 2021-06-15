@@ -1,5 +1,5 @@
 ---
-title: MDVA-22026 Magento patch: Unable to import product images from external URL
+title: MDVA-22026: Unable to import product images from external URL
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,external URL,import,product image
 ---
 

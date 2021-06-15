@@ -1,5 +1,5 @@
 ---
-title: When pushed from git environments placed under production on Magento Cloud
+title: New environments placed under production when pushed from Git
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Cloud CLI,Magento Commerce Cloud,command line,develop,git,production,staging,troubleshooting
 ---
 
@@ -11,21 +11,21 @@ This article provides a solution for the issue where new environments are placed
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
  <span class="wysiwyg-underline">Prerequisites</span> : Have a local git controlled clone of the project.
 
 You need to create an integration branch from the staging branch:
 
-1. Switch to the staging branch by running the following command in the local shell: `git checkout staging` 
-1. Create an integration branch from the staging branch by running the following command in the local shell: `git checkout -b <branch>` 
-1. Push the branch to the remote repository and set up an upstream branch by running the following command in the local shell: `git push --set-upstream origin <branch>` 
+1. Switch to the staging branch by running the following command in the local shell: `git checkout staging`
+1. Create an integration branch from the staging branch by running the following command in the local shell: `git checkout -b <branch>`
+1. Push the branch to the remote repository and set up an upstream branch by running the following command in the local shell: `git push --set-upstream origin <branch>`
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The new branch was created under the production branch.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The new branch is created under the staging branch.
 
@@ -41,11 +41,10 @@ To update a parent for the existing branch on the server, please use the `magent
 
 Example of usage:
 
- `magento-cloud environment:info parent Staging` 
+ `magento-cloud environment:info parent Staging`
 
 This will set the parent branch to "Staging" for the currently checked out branch.
 
 ## Related reading
 
 * DevDocs [Magento Commerce Cloud > Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) .
-
