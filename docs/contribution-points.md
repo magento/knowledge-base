@@ -1,5 +1,5 @@
 
-The Magento Support Knowledge Base (KB) works with Magento Community Engineering teams and projects. As you contribute Pull Requests (PRs), you gain Contribution Points.
+The Adobe Commerce Support Knowledge Base (KB) works with Magento Community Engineering teams and projects. As you contribute Pull Requests (PRs), you gain Contribution Points.
 
 These earned points add to contributor totals for Magento contributions. Like Magento code and Magento DevDocs contributions, the Support KB team assesses the PRs and applies labels (which may vary between repositories) to determine the level of work and achievements to be awarded. Each PR receives one base achievement and potentially additional achievements.
 
