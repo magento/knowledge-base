@@ -89,7 +89,7 @@ All images and any other attachments should go to "assets" folders inside the se
 
 ### Artilce files naming convention
 
-File names correspond to article titles. So file names appear as articles titles on [support.magento.com](https://support.magento.com/hc/en-us).
+All file and folder names must be lower cased with "-" in between all words. File names should be descriptive and might coincide with future article title (but they don't define the title).
 
 ### Image files naming
 
@@ -103,7 +103,7 @@ If you add images to your articles, please follow this convention to name your i
 
 ### Metadata
 
-The Markdown (.md) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file.
+The Markdown (.md) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
 
 ```yaml
 ---
