@@ -1,9 +1,9 @@
 ---
 title: Adobe Commerce Support KB starts accepting contributions
-labels: announcements,help center,GitHub,community,contributions
+labels: announcements,help center,GitHub,community,contributions,Adobe Commerce
 ---
 
-Starting June 15th, this Adobe Commerce Support Knowledge Base team starts accepting direct edits and new articles contributions from external Magento community though the [magento/knowledge-base](https://github.com/magento/knowledge-base) GitHub repo!
+Starting June 15th, this Adobe Commerce Support Knowledge Base team starts accepting direct edits and new articles contributions from external Magento community through the [magento/knowledge-base](https://github.com/magento/knowledge-base) GitHub repo!
 
 Noticed a typo in one of our articles or incomplete troubleshooting steps?
 You can now fix it yourself and get contribution points!
@@ -19,11 +19,11 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
 1. Make edits on forked repo.
 1. Submit a Pull Request (PR) to this repo.
 1. Tests are run:
-  * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
-  * Markdown Linting test - making sure markdown syntax is correct.
-  * File structure validation test - making sure the commit is done according to the [required file structure](.github/CONTRIBUTING,md#file_structure).
+    * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
+    * Markdown Linting test - making sure markdown syntax is correct.
+    * File structure validation test - making sure the commit is done according to the [required file structure](https://github.com/magento/knowledge-base/blob/main/.github/CONTRIBUTING.md#file_structure).
 1. PR approvals flow:
-     1. Knowledge Base (KB) writers reviews the PR within several days' time frame and adds label.
+     1. Knowledge Base (KB) writers review the PR within several days' time frame and add labels.
      1. KB writer can approve/deny/request changes.
      1. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
      1. SME can approve/deny/request changes.
@@ -31,12 +31,12 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
 1. The [magento/knowledge-base](https://github.com/magento/knowledge-base) repo synchronizes with the internal one in 20 minutes.
 1. Once the repos are synced, your PR gets closed and you get [contribution points](#contribution-points).
 
-For details on contribution flow, please refer to the [Contributor's Guide](.github/CONTRIBUTING.md).
-For templates, style guide, and formatting guidelines, please refer to [Documentation](docs/index.md).-->
+For details on contribution flow, please refer to the [Contributor's Guide](https://github.com/magento/knowledge-base/blob/main/.github/CONTRIBUTING.md).
+For templates, style guide, and formatting guidelines, please refer to [Documentation](https://github.com/magento/knowledge-base/tree/main/docs).
 
-### Find the article you want to edit on Github
+### Find the Support KB article file on Github
 
-In the Support Knowledge Base, articles are organized in sections, which nest under categories.
+In the Support Knowledge Base (KB), articles are organized in sections, which nest under categories.
 
 For example, the [How to subscribe to Adobe Magento status updates](https://support.magento.com/hc/en-us/articles/4402858335373-How-to-subscribe-to-Adobe-Magento-status-updates) article belongs to the General section in the How To category.
 
@@ -47,10 +47,10 @@ You can see the section and category name in the breadcrumbs path on the article
 Article files are organized the same way in the [magento/knowledge-base](https://github.com/magento/knowledge-base) repo.
 All the content is stored in the `src` folder, with folders for categories and nested folders for sections; file names either coincide with article titles or are similar.
 
-You might also use search inside the repo using a piece of text from the article as search query. But in this case make sure to check that the article file belongs to the right section and category.  
+You might also use search inside the repo using a piece of text from the Support KB article as a search string. When the search returns files, containing this string, make sure to choose the file that belongs to the right section and category.  
 
 ### Contribution points
 
-The [magento/knowledge-base](https://github.com/magento/knowledge-base) repo in integrated Magento Community Engineering for contribution points and support.
+The [magento/knowledge-base](https://github.com/magento/knowledge-base) repo in integrated with Magento Community Engineering for contribution points and support.
 
-Please refer to [Contribution Points](https://github.com/magento/knowledge-base/blob/main/docs/contribution-points.md) documents to see how points are rewarded.
+Please refer to [Contribution Points](https://github.com/magento/knowledge-base/blob/main/docs/contribution-points.md) document to see how points are rewarded.
