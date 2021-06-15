@@ -10,7 +10,7 @@ You can now fix it yourself and get contribution points!
 
 ## Contribute
 
-We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Magento code and Magento Developer Documentation. See [Contribution reward points](docs/contribution-points.md) for details.
+We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Magento code and Magento Developer Documentation. See [Contribution reward points](https://github.com/magento/knowledge-base/blob/main/docs/contribution-points.md) for details.
 
 
 ### General contribution flow
