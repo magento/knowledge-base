@@ -11,11 +11,11 @@ These examples show how reward points are calculated:
 
 ## Base achievements
 
-Every merged PR to the Support KB repository receives one base achievement. If you enter a PR with editorial fixes and new content, you receive the Improvement and one of the additional achievements.
+Every merged PR to the Support KB repository receives one base achievement. By default, it is "Improvement", but if changes are minor and qualify for "Editorial" instead, a team member would add the "Editorial" label, and it will replace the default Improvement achievement. 
 
 | ACHIEVEMENT  | POINTS | DESCRIPTION                                                                                                                              |
 |--------------|:--------:|------------------------------------------------------------------------------------------------------------------------------------------|
-| Improvement  | 10     | Contribution contains document improvements, adding missing details for troubleshooting steps or important symptoms, updating an image and similar. |
+| Improvement  | 10     | Contribution contains document improvements, adding missing details for troubleshooting steps or important symptoms, updating an image and similar. Any PR is considered an "Improvement" by default.|
 | Editorial    | 1      | Contribution contains fixes for typos, broken links, grammatical inconsistencies, or minor rewrites to correct inaccuracies.              |
 
 ## Additional achievements
