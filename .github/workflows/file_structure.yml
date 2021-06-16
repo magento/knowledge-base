@@ -18,5 +18,16 @@ jobs:
       with:
         python-version: 3.8
 
+    - name: Set up Deno
+      uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.x
+  
+    - name: "Deno: Cache dependencies"
+      run: deno cache _checks/directory_structure/validate-categories.ts
+
     - name: Run Validator
       run: python ./_checks/directory_structure/validate.py
+
+    - name: Validate sections and categories
+      run: deno run --allow-read _checks/directory_structure/validate-categories.ts
