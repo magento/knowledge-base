@@ -1,4 +1,4 @@
-import { exists } from "https://deno.land/std@0.98.0/fs/mod.ts"
+import { exists } from "https://deno.land/std@0.98.0/fs/exists.ts"
 import { join } from "https://deno.land/std@0.98.0/path/mod.ts"
 import { green, red } from "https://deno.land/std@0.98.0/fmt/colors.ts"
 
