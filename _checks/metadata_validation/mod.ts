@@ -1,4 +1,4 @@
-import { walk } from "https://deno.land/std@0.98.0/fs/mod.ts"
+import { walk } from "https://deno.land/std@0.98.0/fs/walk.ts"
 import { parse } from "https://deno.land/std@0.98.0/encoding/yaml.ts"
 import { cyan, green, red } from "https://deno.land/std@0.98.0/fmt/colors.ts"
 
@@ -48,7 +48,7 @@ async function validateFrontmatter() {
             const data = parse(frontmatter) as any
             if (!data) throw Error("Frontmatter exists, but there's no data in it. Add the required `title` and `labels` fields.")
             if (!data.title) throw Error("The title field is missing.")
-            if (!data.labels) throw Error("The labels field is missing.")
+            if (typeof data.labels === "undefined") throw Error("The labels field is missing.")
         } catch (e) {
             failedCount++
             // Output both the path and error description.

@@ -16,4 +16,4 @@ jobs:
     - name: Cache dependencies
       run: deno cache --unstable _checks/metadata_validation/mod.ts
     - name: Validate article metadata
-      run: deno run --allow-read --unstable _checks/metadata_validation/mod.ts
+      run: deno run --allow-read _checks/metadata_validation/mod.ts
