@@ -26,7 +26,7 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 
 1. Run the following command:  
  `magento-cloud activity -p <project id> -e <environment>`  
-
+  
 1. It will return an output similar to the following:  
 `Activities on the project <project name> (project id), environment <environment>:
 +---------------+---------------------------+---------------------------------------------+----------+----------+---------+
