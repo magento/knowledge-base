@@ -27,6 +27,7 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 1. Run the following command:  
  `magento-cloud activity -p <project id> -e <environment>`
 
+
 1. It will return an output similar to the following:  
 `Activities on the project <project name> (project id), environment <environment>:
 +---------------+---------------------------+---------------------------------------------+----------+----------+---------+
@@ -34,6 +35,7 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 +---------------+---------------------------+---------------------------------------------+----------+----------+---------+
 | l5wgwmzwrsskg | 2021-06-01T08:18:02-07:00 | ABC merged Integration into Staging | 100%     | complete | success |
 | raah5xrhqz3wg | 2021-06-01T08:07:18-07:00 | XYZ pushed to Integration           | 100%     | complete | failure |`
+
 
 1. Copy the activity ID and then run the command:  
 `magento-cloud activity:log <activity ID> -p <project id> -e <environment>`  
