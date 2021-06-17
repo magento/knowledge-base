@@ -1,5 +1,5 @@
 ---
-title: Magento Commerce 2.3.6, 2.4.1 CAPTCHA in checkout not working
+title: Magento 2.3.6, 2.4.1 CAPTCHA in checkout not working
 labels: 2.3.6,2.4.1,CAPTCHA,CyberSource,Magento Commerce,Magento Commerce Cloud,Magento Open Source,PayFlow Pro,PayPal Express Checkout,order,patch
 ---
 
@@ -23,7 +23,7 @@ Magento Commerce and Magento Open Source 2.3.6 and 2.4.1
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Setup at least one of these payment methods in Magento: Paypal Express, Payflow Pro, or CyberSource.
 1. Go to **Admin > Stores > Configuration > Customers > Customer Configuration > CAPTCHA** .
@@ -37,13 +37,13 @@ Magento Commerce and Magento Open Source 2.3.6 and 2.4.1
 
 1. On Payment information page, enter captcha and try to checkout with Paypal Express, Payflow Pro, or CyberSource.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The CAPTCHA feature functions as expected.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
-The error message displays: *Please provide CAPTCHA code and try again.* 
+The error message displays: *Please provide CAPTCHA code and try again.*
 
 ## Solution
 
@@ -69,11 +69,11 @@ These patches are not compatible with any other Magento versions and editions.
 
 ## How to apply the patch
 
- <span class="wysiwyg-underline">Composer patch</span> 
+ <span class="wysiwyg-underline">Composer patch</span>
 
 See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for composer patch instructions.
 
- <span class="wysiwyg-underline">Git patch</span> 
+ <span class="wysiwyg-underline">Git patch</span>
 
 * See DevDocs [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) for git patch instructions for Magento Commerce/Magento Open Source.
 
