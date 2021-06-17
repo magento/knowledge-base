@@ -3,7 +3,7 @@ title: Troubleshoot /tmp mount full for Adobe Commerce
 labels: Adobe Commerce,troubleshooting,tmp,full
 ---
 
-This article provides a solution for when the /tmp mount is full, site may be down, and you are unable to SSH into a node.
+This article provides a solution for when the `/tmp` mount is full, site may be down, and you are unable to SSH into a node.
 
 ## Affected products and versions
 
@@ -39,8 +39,8 @@ To check how full the `/tmp` mount is, run the following command in the CLI (aft
  df -h
 ```
 
-<ins>Expected result:</ins>
-1% what is the correct utilization for /tmp directory size&nbsp; - this ticket here suggests expected utilization ins around 1% <a href="/agent/tickets/356692">https://magento.zendesk.com/agent/tickets/356692</a> ????
+<ins>Expected result:</ins><br>
+???
 
 <ins>Actual result:</ins>
 
