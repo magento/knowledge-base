@@ -1,5 +1,5 @@
 ---
-title: MDVA-12304 Magento patch: 503 error on store front and cookie error
+title: "MDVA-12304 Magento patch: 503 error on store front and cookie error"
 labels: MDVA-12304,quality patch,503 error,known issue,Magento Commerce,2.2.5,2.2.5,2.x.x.,MQP,support tools
 ---
 
