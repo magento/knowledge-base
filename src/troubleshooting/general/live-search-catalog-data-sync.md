@@ -78,7 +78,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 
 1. Use the following SQL query to check the timestamp of last export. It should be after the `modified_at` timestamp.
     ```SQL
-    select * from flag where flag_code = 'product-attributes-feed-version';
+    select * from flag where flag_code = 'product-attributes-feed-version';
     ```
 1. If the timestamp is older, you can either wait for the next `cron` run, or trigger it yourself using the following command:
     ```bash
@@ -99,7 +99,7 @@ Wait for `<>` time (time for incremental updates). If you still do not your data
     truncate table catalog_product_attribute_data_submitted_hash;
     truncate table catalog_category_data_submitted_hash;
     delete from flag where flag_code IN ('products-feed-version', 'product-attributes-feed-version');
-    ```
+    ```  
 1. After you have cleared all the data, you can either wait for the indexers and `cron` to run on their own, or manually run them using the following commands:
     ```bash 
     bin/magento indexer:reindex catalog_data_exporter_products
