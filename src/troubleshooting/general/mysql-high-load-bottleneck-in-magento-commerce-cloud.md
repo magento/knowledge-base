@@ -6,6 +6,7 @@ labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,h
 >![warning]
 >
 >For scaled architecture (split architecture), Redis slave connections **SHOULD NOT** be enabled. You can check if you are on scaled architecture by doing the following:
+
 1. Go to your project URL, e.g. https://us.magento.cloud/projects<project ID>/environments/production
 1. Click on the Access site. If there are more than three nodes shown under SSH access you are on scaled architecture.
 
@@ -62,6 +63,7 @@ Below are the common questions you may ask when you consider using the Slave Con
 
     *But on overloaded clusters, there is a performance boost because these 10-15% are mitigated by reducing load by traffic.*
 * Should I enable these settings for my store? *If you have high load or expect high load on the MySQL Database or Redis, you definitely need to enable Slave Connections. For a regular customer with average traffic, this is **not** an optimal setting to be enabled.*
+
 ## Related reading
 
 * [Deploy variables](https://devdocs.magento.com/cloud/env/variables-deploy.html)
