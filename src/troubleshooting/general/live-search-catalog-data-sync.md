@@ -53,7 +53,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     select * from flag where flag_code = 'products-feed-version';
     ```
 1. If the timestamp is older, you can either wait for the next `cron` run, or trigger it yourself using following command:
-    ```bash
+    ```SQL
     bin/magento cron:run --group=catalog_data_exporter
     ```
 1. Wait for `<>` time (time for incremental updates). If you still do not see your data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). SHOULDN"T THEY TRY OTHER SOLUTIONS DESCRIBED HERE?
