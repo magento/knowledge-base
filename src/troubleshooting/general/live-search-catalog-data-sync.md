@@ -77,7 +77,7 @@ If your product attribute data isn't synced correctly for a specific attribute c
 If you see the correct data in `catalog_data_exporter_product_attributes`:
 
 1. Use the following SQL query to check the timestamp of last export. It should be after the `modified_at` timestamp.
-    ```sql
+    ```SQL
     select * from flag where flag_code = 'product-attributes-feed-version';
     ```
 1. If the timestamp is older, you can either wait for the next `cron` run, or trigger it yourself using the following command:
