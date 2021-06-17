@@ -5,19 +5,8 @@ This repository contains the markdown source of articles, published in [Magento 
 
 Our goal is to provide the Magento community with comprehensive and quality documentation on resolving Magento issues, Magento best practices, and sharing answers to questions our Support team typically gets. We believe to accomplish that goal, we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Magento Support documentation.
 
-We don't officially take contributions until the end of May (the exact date will be determined later). Once we are ready to take contributions, we will provide submission steps and explain how many points you could gain by contributing.
 
-Please do not contribute until official notice in social media or email.
-You can check for the announcement that this repo has become public at:
-
-* [Adobe Commerce Facebook](https://www.facebook.com/adobecommerce)
-* [Adobe Commerce Twitter](https://twitter.com/AdobeCommerce/)
-* [Adobe Commerce LinkedIn](https://www.linkedin.com/company/adobe-commerce/posts)
-
-<!--
-### Contributing (coming soon)
-
-Warning: We don't officially take contributions until end of May (the exact date will be determined later).
+### Contributing 
 
 We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Magento code and Magento Developer Documentation. See [Contribution reward points](docs/contribution-points.md) for details.
 
