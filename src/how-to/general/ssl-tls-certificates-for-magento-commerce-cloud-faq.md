@@ -1,6 +1,6 @@
 ---
-title: SSL (TLS) certificates for Magento Commerce Cloud: FAQ
-labels: 
+title: "SSL (TLS) certificates for Magento Commerce Cloud: FAQ"
+labels: FAQ,how to,SSL certificates,Magento Commerce Cloud,PaaS,started,pro,Cloud customers,certificate request,
 ---
 
 This article provides quick answers to questions about getting SSL (TLS) certificates for your Magento Commerce Cloud site.
