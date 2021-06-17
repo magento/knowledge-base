@@ -51,12 +51,12 @@ Around 100%&nbsp;
 The `/tmp` mount has too many files which could be caused by:
 
 * Bad SQL queries generating large and/or too many temp tables. 
-* Services writing to the `/tmp` directory
+* Services writing to the `/tmp` directory.
 * Database backups/dumps left in the `/tmp` directory.
 
 ## Solution
 
-There are things you can do to free up some space one time, and there are best practices which would make it less probable that `/tmp` will get full again.
+There are things you can do to free up some space one time, and there are best practices which would prevent `\tmp` from getting full.
 
 ### Check and free up inodes
 
@@ -97,13 +97,13 @@ find /tmp/*.hprof -type f -delete
 
 If you don't have permissions to delete files created by another user (in this case, Elasticsearch), but you see that files are large, please create a support ticket to deal with with them.
 
-#### Check up database dumps
+#### Check up database dumps/backups
 
 >![WARNING]
 >
 >Database backups are usually created for a purpose. If you are not sure if the file is still needed, consider moving it to a separate location instead deleting.
 
-Check `.tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have been created by ece-tools during backup or when manually dumping the database using the `mysqldump` dump command.
+Check `.tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have been created by ece-tools during backup or when manually creating database dumps using the `mysqldump` dump command.
 
 
 ### Best practices
