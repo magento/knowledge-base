@@ -109,5 +109,6 @@ Wait for `<>` time (time for incremental updates). If you still do not your data
 ## Related reading
 
 See Configure and Connect in the developer documentation:
-Pre GA. (Beta):  https://devdocs-beta.magento.com/live-search/config-connect.html
-Post GA (June 22): https://devdocs.magento.com/live-search/config-connect.html
+
+* Pre GA. (Beta):  https://devdocs-beta.magento.com/live-search/config-connect.html
+* Post GA (June 22): https://devdocs.magento.com/live-search/config-connect.html
