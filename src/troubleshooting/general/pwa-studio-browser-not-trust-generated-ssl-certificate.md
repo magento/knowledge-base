@@ -3,23 +3,28 @@ title: "PWA Studio: browser not trust generated SSL certificate"
 labels: "Magento PWA, troubleshooting, browser, PWA, SSL, certificate"
 ---
 
-This article provides a solution for when you see a warning that indicates that your browser does not trust the generated SSL certificate.
+This article provides a solution to an untrusted, generated SSL certificate warning in your browser when you navigate to a local instance of your PWA Studio storefront during development.
 ## Affected products and versions
 
 PWA Studio
 
 ## Issue
-The browser does not trust the generated SSL certificate.
+The browser does not trust the generated SSL certificate of your local PWA Studio storefront.
 
 ## Cause
 Browsing to the dev/staging site.
 
 ## Solution
 
+In your storefront project, run the command for adding a custom hostname and SSL certificate to your local development instance:
+
+```sh
+yarn buildpack create-custom-origin ./
+```
+
 Generating certificates is handled by [devcert](https://github.com/davewasmer/devcert). It depends on OpenSSL, so make sure you have a current version of openssl on your system using the following command:
 
 `openssl version`
-
 
 The version should be 1.0 or above (or LibreSSL 2, in the case of OSX High Sierra).
 
