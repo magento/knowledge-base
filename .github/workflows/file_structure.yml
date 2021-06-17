@@ -1,9 +1,6 @@
 name: File Structure Validation
 
-on:
-  pull_request:
-    branches:
-      - main
+on: pull_request
 
 jobs:
   validate_integrity:
