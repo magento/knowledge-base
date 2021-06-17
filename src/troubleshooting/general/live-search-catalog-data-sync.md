@@ -25,6 +25,7 @@ Your catalog data is not synchronized correctly.
 * Connection is successful
 
 <ins>Actual result</ins>
+
 Exported catalog cannot be verified and/or connection is not established because the API key has changed.
 
 ## Solution
@@ -37,7 +38,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
 
 1. Use the following SQL query and verify that you have the data you expect in the `feed_data` column. Also make note of the `modified_at` timestamp.
     ```SQL
-       select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
     ```
 1. If you do not see the correct data, try to reindex using following command and rerun the SQL query in step 1 to verify the data:
     ```bash
@@ -49,11 +50,11 @@ If your product data is not synced correctly for a specific SKU, do the followin
 
 1. If you see the correct data in `catalog_data_exporter_products`, use the following SQL query to check the timestamp of last export. It should be after the `modified_at` timestamp:
     ```sql
-       select * from flag where flag_code = 'products-feed-version';
+    select * from flag where flag_code = 'products-feed-version';
     ```
 1. If the timestamp is older, you can either wait for the next `cron` run, or trigger it yourself using following command:
     ```bash
-       bin/magento cron:run --group=catalog_data_exporter
+    bin/magento cron:run --group=catalog_data_exporter
     ```
 1. Wait for `<>` time (time for incremental updates). If you still do not see your data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). SHOULDN"T THEY TRY OTHER SOLUTIONS DESCRIBED HERE?
 
