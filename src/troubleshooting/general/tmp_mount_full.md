@@ -73,31 +73,38 @@ Filesystem Inodes   Used   Free Use% Mounted on
 /dev/nvme2n1 655360    1695  653665    1% /data/mysql
 ```
 
+Check that Use% is <70%. Inodes are correlated with files. If you remove files from the partition, you will free inodes.
+
 ### Check and free up storage space
+
+There are several services that might be writing down files to `/tmp`.
+
+#### Check up and free MySQL space
 
 Follow the instructions in the [MySQL disk space is low on Magento Commerce Cloud > Check and free up storage space](https://support.magento.com/hc/en-us/articles/360037591972#check_and_free).
 
-**(WILL IT ALL BE RELEVANT?)**
+#### Check up Elasticsearch heapdumps
 
-### Elasticsearch
+>![WARNING]
+>
+>Heapdumps contain logging information that might be valuable for investigating issues. Consider storing them in a separate location for at >least 10 days
 
-Remove the Javacores (java*.core) and heapdumps (*.hprof) using system shell.
+Remove heapdumps (`*.hprof`) using system shell:
 
-### Database backup and MySQL heapdumps
+```bash
+find /tmp/*.hprof -type f -delete
+```
 
-ANYTHING WE COULD RECOMMEND ON THE FOLLOWING?
+If you don't have permissions to delete files created by another user (in this case, Elasticsearch), but you see that files are large, please create a support ticket to deal with with them.
 
-Ece-tools database backups:
-• Written to /tmp
-• https://jira.corp.magento.com/browse/MCLOUD-7700?filter=-2&jql=project%20%3D%20MCLOUD%20AND%20reporter%20in%20(currentUser())%20order%20by%20created%20DESC
+#### Check up database dumps
 
-Mysql dumps:
-• Dumps written to /tmp
-• https://support.magento.com/hc/en-us/articles/360003254334 (instructions to dump to /tmp but not to move file off /tmp immediately)
+>![WARNING]
+>
+>Database backups are usually created for a purpose. If you are not sure if the file is still needed, consider moving it to a separate location instead deleting.
 
+Check `.tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have been created by ece-tools during backup or when manually dumping the database using the `mysqldump` dump command.
 
-
-Check that Use% is <70%. Inodes are correlated with files. If you remove files from the partition, you will free inodes.
 
 ### Best practices
 
