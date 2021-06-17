@@ -15,12 +15,10 @@ As you contribute PRs, you gain [Contribution Points](../docs/contribution-point
 
 ## Get started
 
-
 ![Get started workflow](../docs/img/contributor_start.png)
 
 1. Make sure you have a [GitHub account](https://github.com/signup/free).
-
-    **Note for partners:** Add [2FA](https://devdocs.magento.com/contributor-guide/contributing.html#two-factor) protection when contributing to Magento repositories.
+   - **Note for partners:** Add [2FA](https://devdocs.magento.com/contributor-guide/contributing.html#two-factor) protection when contributing to Magento repositories.
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) the [Support KB repository](https://github.com/magento/knowledge-base). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
 1. Review the [Support KB guidelines below](#contribution-guidelines).
@@ -58,7 +56,7 @@ The following diagram shows the contribution workflow:
 * Review existing [pull requests](https://github.com/magento/knowledge-base/pulls) and [issues](https://github.com/magento/knowledge-base/issues) to avoid duplicating work.
 * For large contributions, or changes that include multiple files, [open an issue](#report-an-issue) and discuss it with us first. This helps prevent duplicate or unnecessary work.
 * Do not make global find-and-replace changes without first [creating an issue](https://github.com/magento/knowledge-base/issues/new/choose) and discussing it with us. Global changes can have unintended consequences.
-* Combine multiple small changes (such as minor editorial and technical changes) into a single pull request. This helps us efficiently and effectively facilitate your contribution.
+* Combine multiple small changes (_such as minor editorial and technical changes_) into a single pull request. This helps us efficiently and effectively facilitate your contribution.
 * Review your work for basic typos, formatting errors, or ambiguous sentences before opening a pull request.
 
 ## Specific contribution guidelines
@@ -81,7 +79,7 @@ The following guidelines may answer most of your questions and help you get star
     * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
 
 
-## File structure {#file_structure}
+## File structure
 
 All .md files should go to sections folders, nested in category folders under the "src" folder.
 All images and any other attachments should go to "assets" folders inside the section folders.
@@ -103,7 +101,7 @@ If you add images to your articles, please follow this convention to name your i
 
 ### Metadata
 
-The Markdown (.md) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
+The Markdown (`.md`) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
 
 ```yaml
 ---
@@ -133,7 +131,7 @@ To rename the article, update the title in the article's metadata. It will refle
 
 #### Add/Edit/Delete article labels
 
-To add, edit, or delete article labels (tags), update the labels portion of the metadata.
+To add, edit, or delete article labels (_tags_), update the labels portion of the metadata.
 
 #### Edit article body
 
@@ -149,7 +147,7 @@ To delete an article, delete the article file.
 
 ## Report an issue
 
-If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (as described above), or you can report it by creating an issue in the Support KB repository.
+If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (_as described above_), or you can report it by creating an issue in the Support KB repository.
 
 You must complete the issue template. We will close your issue if you fail to provide the information listed template. Enter as much information as you can, including content corrections, steps to reproduce, command or code updates, or questions for clarifications.
 
