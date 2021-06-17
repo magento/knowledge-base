@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: 2.4.0 installation fails with outdated stores cache
+title: Magento 2.4.0 installation fails with outdated stores cache
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,cache,extensions,fail,installation,known issues,stores,troubleshooting
 ---
 
@@ -46,4 +46,3 @@ The issue will be fixed in the scope of 2.4.1 release.
 * [Magento 2.4.0 known issue - Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032-Magento-2-4-0-known-issue-Export-Tax-Rates-does-not-work-)
 * [Magento 2.4.0 known issue: “Add selections to my cart” button does not work](https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-known-issue-Add-selections-to-my-cart-button-does-not-work)
 * [Magento 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332-Magento-2-4-0-known-issue-raw-message-data-display-on-storefront)
-

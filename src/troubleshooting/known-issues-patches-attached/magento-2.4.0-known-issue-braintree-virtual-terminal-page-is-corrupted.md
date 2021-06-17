@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: Braintree Virtual Terminal page is corrupted
+title: Magento 2.4.0 Braintree Virtual Terminal page corrupted
 labels: 2.4.0,Braintree Virtual Terminal,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting
 ---
 
@@ -14,29 +14,29 @@ This article provides a patch for the known Magento 2.4.0 issue, where the Brain
 
 ### Scenario 1: Braintree payment method is configured
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
-In Magento Admin, go to **Sales** > **Braintree Virtual Terminal** . ** ** 
+In Magento Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The **Braintree Virtual Terminal** page loads with proper UI.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The UI of the **Braintree Virtual Terminal** page is broken.
 
 ### Scenario 2: Braintree payment method is configured
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
-In Magento Admin, go to **Sales** > **Braintree Virtual Terminal** . ** ** 
+In Magento Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The **Braintree Virtual Terminal** page loads with proper UI and a warning is displayed informing that Braintree is not yet configured.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The UI of the **Braintree Virtual Terminal** page is broken and no warning is displayed.
 
@@ -48,7 +48,7 @@ Apply the patch provided in this article.
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [BUNDLE-2670-composer.patch](assets/BUNDLE-2670-composer.patch.zip) 
+ [BUNDLE-2670-composer.patch](assets/BUNDLE-2670-composer.patch.zip)
 
 ### Compatible Magento versions:
 
