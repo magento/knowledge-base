@@ -1,5 +1,5 @@
 ---
-title: Display Magento error report number instead of Fastly's 503 error on Cloud
+title: Display Magento error report number instead of Fastly 503 error
 labels: 503,Fastly,Magento Commerce Cloud,Pro,debug,error,how to,production,reports,staging
 ---
 
@@ -26,4 +26,3 @@ Once you see the authentic Magento error and the error report number, you may ge
 ```clike
 {server_IP} {store_domain}
 ```
-

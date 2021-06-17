@@ -1,6 +1,6 @@
 ---
-title: "Magento 2.4.1 known issue: unable to change Amazon account in Google Chrome"
-labels: "2.4.1,Amazon Pay,Javascript,Magento Commerce,Magento Commerce Cloud,browser,cookies,known issues,troubleshooting"
+title: "Magento 2.4.1 issue: unable to change Amazon account in Chrome"
+labels: 2.4.1,Amazon Pay,Javascript,Magento Commerce,Magento Commerce Cloud,browser,cookies,known issues,troubleshooting
 ---
 
 This article describes a known Magento 2.4.1 issue where customers get signed in to the previously used Amazon accounts instead of being suggested to log in, when using Amazon Pay during checkout.
@@ -14,7 +14,7 @@ This article describes a known Magento 2.4.1 issue where customers get signed in
 
 Customers get signed in to the previously used Amazon accounts instead of being suggested to log in, when using Amazon Pay during checkout.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. On storefront, add any item to the shopping cart and proceed to guest checkout.
 1. Click the **Amazon Pay** button. Amazon.com sign in pop-up appears.
