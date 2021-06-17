@@ -1,5 +1,5 @@
 ---
-title: Magento Cloud: reduce deployment downtime with Configuration Management
+title: Reduce deployment downtime on Magento Cloud
 labels: 2.1.4,2.2,2.2.x,Magento Commerce Cloud,cloud,configuration,deployment,downtime,how to,management,pipeline
 ---
 
@@ -31,8 +31,7 @@ We strongly recommend applying the Configuration Management approach in your dep
 
 ## Configuration Management on DevDocs
 
-* [Configuration management for **2.1.X** ](http://devdocs.magento.com/guides/v2.1/cloud/live/sens-data-over.html) and the [example](http://devdocs.magento.com/guides/v2.1/cloud/live/sens-data-initial.html) in the *Magento Commerce (Cloud) Guide* 
-* [Configuration management for **2.2.X** ](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-over.html) and the [example](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-initial.html) in the *Magento Commerce (Cloud) Guide* 
+* [Configuration management for **2.1.X** ](http://devdocs.magento.com/guides/v2.1/cloud/live/sens-data-over.html) and the [example](http://devdocs.magento.com/guides/v2.1/cloud/live/sens-data-initial.html) in the *Magento Commerce (Cloud) Guide*
+* [Configuration management for **2.2.X** ](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-over.html) and the [example](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-initial.html) in the *Magento Commerce (Cloud) Guide*
 * [Upgrade from 2.0.X or 2.1.X](http://devdocs.magento.com/guides/v2.2/cloud/project/project-upgrade.html#old-version) section of the *Upgrade Magento Commerce (Cloud)* topic
-* [Pipeline Deployment](http://devdocs.magento.com/guides/v2.2/config-guide/deployment/) in the *Magento Configuration Guide* — For Magento Commerce (Cloud), you do not need to follow the instructions in this guide. The content is strictly for reference. We already provide the build server, integration environments, and more with Cloud. ** 
-
+* [Pipeline Deployment](http://devdocs.magento.com/guides/v2.2/config-guide/deployment/) in the *Magento Configuration Guide* — For Magento Commerce (Cloud), you do not need to follow the instructions in this guide. The content is strictly for reference. We already provide the build server, integration environments, and more with Cloud. **

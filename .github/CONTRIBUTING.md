@@ -1,13 +1,6 @@
 
 ## Contribute to Magento Support Knowledge base
 
-Warning: We will officially start taking contributions at the end of May. Please do not contribute until official notice in social media or email.
-You can check for the announcement that this repo has become public at:
-
-* [Adobe Commerce Facebook](https://www.facebook.com/adobecommerce)
-* [Adobe Commerce Twitter](https://twitter.com/AdobeCommerce/)
-* [Adobe Commerce LinkedIn](https://www.linkedin.com/company/adobe-commerce/posts)
-
 Share your troubleshooting tips and best practices with the community by contributing to [Magento Support Knowledge Base](https://support.magento.com/hc/en-us) (Support KB)!
 You can contribute by creating an issue or pull request (PR) on our [Support KB](https://github.com/magento/knowledge-base) GitHub repository.
 We welcome all types of contributions; from minor typo fixes to new topics.
@@ -70,7 +63,7 @@ The following diagram shows the contribution workflow:
 
 ## Specific contribution guidelines
 
-The following guidelines may answer most of your questions and help you get started:
+The following guidelines may answer most of your questions and help you get started.
 
 ### Dos:
 
@@ -96,7 +89,7 @@ All images and any other attachments should go to "assets" folders inside the se
 
 ### Artilce files naming convention
 
-File names correspond to article titles. So file names appear as articles titles on [support.magento.com](https://support.magento.com/hc/en-us).
+All file and folder names must be lower cased with "-" in between all words. File names should be descriptive and might coincide with future article title (but they don't define the title).
 
 ### Image files naming
 
@@ -110,7 +103,7 @@ If you add images to your articles, please follow this convention to name your i
 
 ### Metadata
 
-The Markdown (.md) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file.
+The Markdown (.md) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
 
 ```yaml
 ---
@@ -123,12 +116,40 @@ labels:
 
 | Property  | Description |
 | ------------- | ---------- |
-| `title`       | Defines the article title |
+| `title`       | Defines the article title. If using any [YAML special characters](https://support.asg.com/mob/mvw/10_0/mv_ag/using_quotes_with_yaml_special_characters.htm) in title, please enclose it in quotes ("")|
 | `labels` | Contains labels that will be added to the article in Magento Help Center. Add labels to describe products, issues, products versions, section and category.  If in doubt, don't add labels. |
+
+
+### Add article
+
+To add an article, create a new markdown file in the desired category + section. Articles must include the standard metadata table with title and labels. Labels can be omitted.
+
+### Edit article content
+You can rename article, edit its content, labels, or links to files.
+
+#### Rename article
+
+To rename the article, update the title in the article's metadata. It will reflect in [Support Help Center](https://support.magento.com/hc/en-us) exactly as written in the metadata. Non-ASCII characters are not allowed in metadata.
+
+#### Add/Edit/Delete article labels
+
+To add, edit, or delete article labels (tags), update the labels portion of the metadata.
+
+#### Edit article body
+
+To edit the article body, edit the body within your editor. Follow our [Formatting guide](../docs/guides/kb-formatting-guide.md).
+
+### Move article into different section
+
+To move an article into a different section, move the file into the appropriate section. Do not move your article directly into a category folder. This will result in errors.
+
+### Delete article
+
+To delete an article, delete the article file.
 
 ## Report an issue
 
-If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (as described above) or you can report it by creating an issue in the Support KB repository.
+If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (as described above), or you can report it by creating an issue in the Support KB repository.
 
 You must complete the issue template. We will close your issue if you fail to provide the information listed template. Enter as much information as you can, including content corrections, steps to reproduce, command or code updates, or questions for clarifications.
 
