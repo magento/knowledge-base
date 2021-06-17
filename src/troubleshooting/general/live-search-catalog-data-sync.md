@@ -78,7 +78,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 
 1. Use the following SQL query to check the timestamp of last export. It should be after the `modified_at` timestamp.
     ```sql
-   select * from flag where flag_code = 'product-attributes-feed-version';
+    select * from flag where flag_code = 'product-attributes-feed-version';
     ```
 1. If the timestamp is older, you can either wait for the next `cron` run, or trigger it yourself using the following command:
     ```bash
@@ -91,7 +91,7 @@ Wait for `<>` time (time for incremental updates). If you still do not your data
 (Known issue) If you have changed your API configuration, that is, changed your API Key or _SaaS Identifier+ (project / data space) (https://devdocs-beta.magento.com/live-search/config-connect.html) and find that your catalog changes are no longer syncing, do the following:
 
 1. Run the following queries to clear the export-related table:
-    ```sql
+    ```SQL
     truncate table catalog_data_exporter_products;
     truncate table catalog_data_exporter_product_attributes;
     truncate table catalog_data_exporter_categories;
