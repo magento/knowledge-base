@@ -75,6 +75,7 @@ If your product attribute data isn't synced correctly for a specific attribute c
 ### Check timestamp of last product attribute export
 
 If you see the correct data in `catalog_data_exporter_product_attributes`:
+
 1. Use the following SQL query to check the timestamp of last export. It should be after the `modified_at` timestamp.
     ```sql
    select * from flag where flag_code = 'product-attributes-feed-version';
@@ -106,7 +107,7 @@ Wait for `<>` time (time for incremental updates). If you still do not your data
     bin/magento cron:run --group=catalog_data_exporter
     ```
 ## Related reading
- 
+
 See Configure and Connect in the developer documentation:
 Pre GA. (Beta):  https://devdocs-beta.magento.com/live-search/config-connect.html
 Post GA (June 22): https://devdocs.magento.com/live-search/config-connect.html
