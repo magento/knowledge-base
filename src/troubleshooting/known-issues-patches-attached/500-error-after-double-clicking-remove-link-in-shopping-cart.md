@@ -1,6 +1,6 @@
 ---
 title: "\"500 error\" after double-clicking Remove link in shopping cart"
-labels: "2.2.0,500 error,Magento Commerce Cloud,known issues,patch,shopping cart,troubleshooting"
+labels: 2.2.0,500 error,Magento Commerce Cloud,known issues,patch,shopping cart,troubleshooting
 ---
 
 This article provides a patch for the known Magento Commerce Cloud 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs).

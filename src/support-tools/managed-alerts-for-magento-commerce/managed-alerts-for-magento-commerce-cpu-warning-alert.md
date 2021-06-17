@@ -1,6 +1,6 @@
 ---
 title: "Managed alerts for Magento Commerce: CPU warning alert"
-labels: "Apdex,CPU,Magento Commerce Cloud,New Relic,Pro,alert,how to,maintenance mode,threshold,troubleshooting,warning"
+labels: Apdex,CPU,Magento Commerce Cloud,New Relic,Pro,alert,how to,maintenance mode,threshold,troubleshooting,warning
 ---
 
 This article provides troubleshooting steps when you receive a CPU warning alert for Magento Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.

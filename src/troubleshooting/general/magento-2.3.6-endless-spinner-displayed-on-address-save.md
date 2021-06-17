@@ -1,6 +1,6 @@
 ---
 title: "Magento 2.3.6: endless spinner displayed on address save"
-labels: "2.3.6,Magento Commerce,Vertex,known issues,spinner,troubleshooting"
+labels: 2.3.6,Magento Commerce,Vertex,known issues,spinner,troubleshooting
 ---
 
 This article describes a known issue Magento 2.3.6, where the waiting spinner is displayed indefinitely when saving an address in My account on storefront.

@@ -1,6 +1,6 @@
 ---
 title: "Magento 2.4.0 known issue: exception during B2B 1.2.0 install"
-labels: "2.4.0,B2B,Magento Commerce,Magento Commerce Cloud,exception,installation,patch,setup:upgrade"
+labels: 2.4.0,B2B,Magento Commerce,Magento Commerce Cloud,exception,installation,patch,setup:upgrade
 ---
 
 This article provides a fix for a Magento known issue for an exception thrown during `setup:upgrade` when installing B2B 1.2.0.

@@ -1,6 +1,6 @@
 ---
 title: "Managed alerts for Magento Commerce: Apdex critical alert"
-labels: "Apdex,Magento Commerce Cloud,New Relic,Pro,Starter,alert,cron,how to,maintenance mode,memory,threshold,troubleshooting"
+labels: Apdex,Magento Commerce Cloud,New Relic,Pro,Starter,alert,cron,how to,maintenance mode,memory,threshold,troubleshooting
 ---
 
 This article provides troubleshooting steps when you receive an Apdex critical alert for Magento Commerce in New Relic. The Apdex score measures users' satisfaction to the response time of web applications and services. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.

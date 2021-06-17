@@ -1,6 +1,6 @@
 ---
 title: "MBI: Guidance on using Magento BI features"
-labels: "MBI,Magento Business Intelligence,analysis,data,data discrepancies,database,how to,reports"
+labels: MBI,Magento Business Intelligence,analysis,data,data discrepancies,database,how to,reports
 ---
 
 Have a quick question about a Magento BI feature? If so, we’re here to help. To get started, we recommend checking out these helpful articles:

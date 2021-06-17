@@ -1,6 +1,6 @@
 ---
 title: "MDVA-30977 Magento patch: missing products from categories, indexing related"
-labels: "2.3.4,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,category,products,support tools"
+labels: 2.3.4,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,category,products,support tools
 ---
 
 The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in Magento 2.4.2.

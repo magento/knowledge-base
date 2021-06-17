@@ -1,6 +1,6 @@
 ---
 title: "ERROR: Warming up failed on Magento Commerce Cloud"
-labels: "Magento Commerce Cloud,cache,error,troubleshooting,warming"
+labels: Magento Commerce Cloud,cache,error,troubleshooting,warming
 ---
 
 This article provides a solution for when the page cache is warming up and fails with an error:

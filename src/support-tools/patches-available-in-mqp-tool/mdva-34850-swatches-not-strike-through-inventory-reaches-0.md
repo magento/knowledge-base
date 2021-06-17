@@ -1,6 +1,6 @@
 ---
 title: "MDVA-34850: swatches not strike-through inventory reaches \"0\""
-labels: "Inventory,MQP 1.0.17,MQP patches,Magento Commerce,Magento Commerce Cloud,configuration,inventory source,out of stock,support tools"
+labels: Inventory,MQP 1.0.17,MQP patches,Magento Commerce,Magento Commerce Cloud,configuration,inventory source,out of stock,support tools
 ---
 
 The MDVA-34850 Magento patch fixes the issue where the swatches are not stricken through when the inventory reaches "0", and are not visible in the the Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out Of Stock Products** is also set to *Yes* in admin configuration. Please note that the issue is scheduled to be fixed in Magento 2.4.3.

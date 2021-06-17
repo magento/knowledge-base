@@ -1,6 +1,6 @@
 ---
 title: "MDVA-31969 Magento patch: import products .csv images duplicated"
-labels: "2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.14,Magento Commerce Cloud,csv file,duplicate,images,images-issues,import,product image,support tools"
+labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.14,Magento Commerce Cloud,csv file,duplicate,images,images-issues,import,product image,support tools
 ---
 
 The MDVA-31969 Magento patch fixes the issue where images are duplicated when importing two products .csv files. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed.

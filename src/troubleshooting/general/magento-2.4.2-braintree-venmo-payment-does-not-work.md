@@ -1,6 +1,6 @@
 ---
 title: "Magento 2.4.2: Braintree Venmo payment does not work"
-labels: "2.4.2,Braintree Venmo payment,Magento Commerce,Magento Commerce Cloud,known issue,orders"
+labels: 2.4.2,Braintree Venmo payment,Magento Commerce,Magento Commerce Cloud,known issue,orders
 ---
 
 This article describes a known Magento Commerce 2.4.2 issue where orders are not generated when using Braintree Venmo during checkout. There is no resolution available at this time.

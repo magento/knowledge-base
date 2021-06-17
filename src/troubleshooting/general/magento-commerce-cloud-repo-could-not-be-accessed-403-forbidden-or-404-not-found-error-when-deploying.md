@@ -73,5 +73,3 @@ Following is a step by step description of how to update your authorization keys
 1. Commit and merge your changes.
 1. `git add -A`      `git commit -m "<message>"`      `git push origin master`     
 1. Wait for the project to deploy.
-
- 

@@ -1,6 +1,6 @@
 ---
 title: "MDVA-33482 Magento patch: tax miscalculation in credit memo"
-labels: "2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,credit memo,tax miscalculated"
+labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,credit memo,tax miscalculated
 ---
 
 The MDVA-33482 Magento patch solves the issue where tax is miscalculated in credit memos.

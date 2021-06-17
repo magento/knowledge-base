@@ -1,6 +1,6 @@
 ---
 title: "MDVA-33106 Magento patch: rescheduled product changes erased after cron run"
-labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools
 ---
 
 The MDVA-33106 Magento patch fixes the issue where the rescheduled product changes are erased after the cron

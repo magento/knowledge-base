@@ -1,6 +1,6 @@
 ---
 title: "MDVA-35910: form validation broken when \"Login as Customer\" disabled"
-labels: "2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,Login as Customer extension,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,disabled,form validation,javascript error,js error"
+labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,Login as Customer extension,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,disabled,form validation,javascript error,js error
 ---
 
 The MDVA-35910 Magento patch solves the issue where the create customer account form validation is broken when the **Login as Customer** extension is disabled.

@@ -1,6 +1,6 @@
 ---
 title: "Managed alerts on Magento Commerce: memory critical alert"
-labels: "Apdex,Magento Commerce Cloud,New Relic,Pro,alert,critical,cron,how to,maintenance mode,memory,threshold,troubleshooting"
+labels: Apdex,Magento Commerce Cloud,New Relic,Pro,alert,critical,cron,how to,maintenance mode,memory,threshold,troubleshooting
 ---
 
 This article provides troubleshooting steps when you receive a memory critical alert for Magento Commerce in New Relic. Immediate action is required to remedy the issue.The alert will look something like the following, depending on the alert notification channel you selected.

@@ -1,6 +1,6 @@
 ---
 title: "MDVA-32655: \"quoteItemCleaner\" consumer executes one message per execution"
-labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP patches,Magento Commerce,Magento Commerce Cloud,catalog,catalog_category_product,performance,quoteItemCleaner,slow,support tools"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP patches,Magento Commerce,Magento Commerce Cloud,catalog,catalog_category_product,performance,quoteItemCleaner,slow,support tools
 ---
 
 The MDVA-32655 Magento patch fixes the incorrect "in progress" message status to the correct "complete" message for consumer `quoteItemCleaner` after deleting several products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is 32655. Please note that the issue is scheduled to be fixed in Magento 2.4.3.

@@ -1,6 +1,6 @@
 ---
 title: "MDVA-31006 Magento patch: Paypal Duplicate Orders 10415 error"
-labels: "10415 error,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.4.2,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,PayPal,duplicate,order,orders,support tools"
+labels: 10415 error,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.4.2,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,PayPal,duplicate,order,orders,support tools
 ---
 
 The MDVA-31006 Magento patch fixes the issue where using the PayPal Express checkout payment creates duplicate orders with a 10415 error. This patch is available in the [Magento Quality Patches (MQP)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.6. The issue will be fixed in 2.4.2.

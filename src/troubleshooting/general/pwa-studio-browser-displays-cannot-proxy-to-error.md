@@ -1,6 +1,6 @@
 ---
 title: "PWA Studio: Browser displays “Cannot proxy to“ error"
-labels: "ENOTFOUND,NodeJS,PWA Studio,browser,hostfile,hostname,how to,proxy"
+labels: ENOTFOUND,NodeJS,PWA Studio,browser,hostfile,hostname,how to,proxy
 ---
 
 This topic discusses a solution when your web browser displays a " *Cannot proxy to* " and the console displays an *

@@ -1,6 +1,6 @@
 ---
 title: "MDVA-29787 Magento patch: related products are not displayed"
-labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,related products,support tools,target rule"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,related products,support tools,target rule
 ---
 
 The MDVA-29787 patch solves the issue where **Related Products** are not displayed on a Magento store frontend. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.6 is installed.

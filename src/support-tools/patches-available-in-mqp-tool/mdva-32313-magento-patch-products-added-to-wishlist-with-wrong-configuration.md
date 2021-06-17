@@ -1,6 +1,6 @@
 ---
 title: "MDVA-32313 Magento patch: products added to wishlist with wrong configuration"
-labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.10,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,configurable product,product listing,wishlist"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.10,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,configurable product,product listing,wishlist
 ---
 
 The MDVA-32313 patch solves the issue where configurable products are not able to be added to the wishlist correctly, because they are assigned wrong configurations when they are added to the wishlist. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.10 is installed. Please note that the issue was fixed in Magento version 2.4.2.

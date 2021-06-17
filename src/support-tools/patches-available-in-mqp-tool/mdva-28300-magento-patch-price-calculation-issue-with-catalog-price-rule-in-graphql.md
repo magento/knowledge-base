@@ -1,6 +1,6 @@
 ---
 title: "MDVA-28300 Magento patch: price calculation issue with catalog price rule in GraphQL"
-labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,GraphQL,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,price calculation,support tools"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,GraphQL,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,price calculation,support tools
 ---
 
 >![warning]

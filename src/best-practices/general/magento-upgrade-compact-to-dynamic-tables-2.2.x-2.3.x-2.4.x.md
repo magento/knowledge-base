@@ -1,6 +1,6 @@
 ---
 title: "Magento upgrade: compact to dynamic tables 2.2.x, 2.3.x-2.4.x"
-labels: "2.2,2.2.x,2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,MySQL,Pro,Starter,database,known issues,troubleshooting,upgrade"
+labels: 2.2,2.2.x,2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,MySQL,Pro,Starter,database,known issues,troubleshooting,upgrade
 ---
 
 This article provides a solution for the issue when you cannot upgrade Magento from 2.2x and 2.3.x to 2.4.x due to `COMPACT` MySQL tables not having been converted to `DYNAMIC` tables in your database.

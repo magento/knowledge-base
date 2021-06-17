@@ -1,6 +1,6 @@
 ---
 title: "MDVA-36853: No images load from large media galleries"
-labels: "2.4.2,MQP 1.0.22,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,directory,media gallery,page builder,widget"
+labels: 2.4.2,MQP 1.0.22,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,directory,media gallery,page builder,widget
 ---
 
 The MDVA-36853 Magento patch fixes the issue when no images load since the page builder media gallery widget doesn't load when you have a large media directory.

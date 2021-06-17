@@ -1,6 +1,6 @@
 ---
 title: "MDVA-22150 Magento patch: frontend user can't login"
-labels: "2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,503 error,MQP 1.0.13,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,aborted order,can't login,cancelled,coupon,disabled product,frontend user"
+labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,503 error,MQP 1.0.13,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,aborted order,can't login,cancelled,coupon,disabled product,frontend user
 ---
 
 The MDVA-22150 Magento patch solves the issue when a frontend user can't log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working.

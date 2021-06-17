@@ -1,6 +1,6 @@
 ---
 title: "Magento 2.4.0 known issue: Create New Order buttons missing"
-labels: "2.4.0,Magento Commerce,Magento Commerce Cloud,SKU,button,known issues,order,products"
+labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,SKU,button,known issues,order,products
 ---
 
 This article provides a workaround for a known issue in Magento Admin for two missing buttons on the order creation page. When creating a new order for a new or existing customer, it is not possible to add products to the order from the catalog since the **Add Products By SKU** and **Add Products** buttons are missing. This is caused by JS bundling being enabled. A fix will be available in Magento 2.4.1.

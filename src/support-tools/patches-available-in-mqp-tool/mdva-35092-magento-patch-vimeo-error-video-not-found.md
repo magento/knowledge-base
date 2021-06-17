@@ -1,6 +1,6 @@
 ---
 title: "MDVA-35092 Magento patch: Vimeo Error: \"Video not found\""
-labels: "2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,MQP 1.0.17,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,Vimeo,error,support tools,video"
+labels: 2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,MQP 1.0.17,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,Vimeo,error,support tools,video
 ---
 
 The MDVA-35092 Magento patch fixes the issue where you see Error: "Video not Found". This error message displays when you enter a Vimeo video using the native Add Video interface in the product admin of Magento. Please note that the issue is scheduled to be fixed in Magento 2.4.3.

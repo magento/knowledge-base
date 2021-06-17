@@ -1,6 +1,6 @@
 ---
 title: "MDVA-34469 Magento patch: wrong store code specified for cart"
-labels: "2.4.1,2.4.1-p1,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,cart,default,headers,store,support tools,views"
+labels: 2.4.1,2.4.1-p1,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,cart,default,headers,store,support tools,views
 ---
 
 The MDVA-34469 Magento patch solves the issue where users get the error message: *Wrong store code specified for cart* when adding a product to the cart after switching store views.

@@ -1,6 +1,6 @@
 ---
 title: "Managed alerts for Magento Commerce: memory warning alert"
-labels: "Apdex,Magento Commerce Cloud,MySQL,New Relic,PHP,Pro,alert,how to,maintenance mode,memory,threshold,troubleshooting,warning"
+labels: Apdex,Magento Commerce Cloud,MySQL,New Relic,PHP,Pro,alert,how to,maintenance mode,memory,threshold,troubleshooting,warning
 ---
 
 This article provides troubleshooting steps when you receive a memory warning alert for Magento Commerce in New Relic. Immediate action is required to remedy the issue.The alert will look something like the following, depending on the alert notification channel you selected.

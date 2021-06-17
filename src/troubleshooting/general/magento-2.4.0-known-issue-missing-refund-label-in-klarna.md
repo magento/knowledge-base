@@ -1,6 +1,6 @@
 ---
 title: "Magento 2.4.0 known issue: missing \"Refund\" label in Klarna"
-labels: "2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,known issues,label,refund"
+labels: 2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,known issues,label,refund
 ---
 
 This article provides a workaround for a known issue in Admin for a missing **Refund** label in Klarna VBE (Vendor Bundled Extension). When in the Klarna portal conducting a refund, the **Refund** label is not displayed next to the Bundled product which was refunded.

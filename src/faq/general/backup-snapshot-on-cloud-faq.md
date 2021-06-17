@@ -1,6 +1,6 @@
 ---
 title: "Backup (snapshot) on Cloud: FAQ"
-labels: "2.2.x,2.3.x,FAQ,Magento Commerce Cloud,Pro,Pro Legacy,Starter,backup,production,snapshot,staging"
+labels: 2.2.x,2.3.x,FAQ,Magento Commerce Cloud,Pro,Pro Legacy,Starter,backup,production,snapshot,staging
 ---
 
 This article covers the essentials of backing up your environments with snapshots on Magento Commerce Cloud.

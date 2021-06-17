@@ -1,6 +1,6 @@
 ---
 title: "MDVA-36424: Images attached to page builder vanish on save"
-labels: "2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,MQP 1.0.21,MQP patches,Magento Commerce,Magento Commerce Cloud,URL,content,images,save,support tools"
+labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,MQP 1.0.21,MQP patches,Magento Commerce,Magento Commerce Cloud,URL,content,images,save,support tools
 ---
 
 The MDVA-36424 Magento patch solves the issue where there are multiple websites and the default website base URL is different from the admin URL, the images attached to page builder elements disappeared when the category is saved for the second time. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36424. Please note that the issue is scheduled to be fixed in Magento 2.4.3.

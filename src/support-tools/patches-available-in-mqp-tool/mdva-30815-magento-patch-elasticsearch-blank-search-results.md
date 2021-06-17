@@ -1,6 +1,6 @@
 ---
 title: "MDVA-30815 Magento patch: Elasticsearch blank search results"
-labels: "2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,category,elasticsearch,products,products per page,support tools"
+labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,category,elasticsearch,products,products per page,support tools
 ---
 
 The MDVA-30815 patch fixes the issue where Elasticsearch displays a blank page when the search results' limiter options are changed. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.7 is installed. Please note that the issue was fixed in Magento version 2.3.5.

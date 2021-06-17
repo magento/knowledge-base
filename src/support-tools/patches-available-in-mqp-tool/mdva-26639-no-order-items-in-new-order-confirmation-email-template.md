@@ -1,6 +1,6 @@
 ---
 title: "MDVA-26639: no order items in new order confirmation email template"
-labels: "2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,confirmation email template,new order,order items missing"
+labels: 2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,confirmation email template,new order,order items missing
 ---
 
 The MDVA-26639 Magento patch fixes the issue when a new order is created, the order items are missing in a confirmation email template.

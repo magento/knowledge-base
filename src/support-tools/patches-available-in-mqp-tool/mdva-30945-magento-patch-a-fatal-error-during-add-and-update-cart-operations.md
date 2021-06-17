@@ -1,6 +1,6 @@
 ---
 title: "MDVA-30945 Magento patch: a fatal error during add and update cart operations"
-labels: "MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,PHP Fatal Error,blank cart,support tools"
+labels: MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,PHP Fatal Error,blank cart,support tools
 ---
 
 The MDVA-30945 Magento patch fixes the issue where you receive a fatal error *Call to a member function getValue() on null in module-configurable-product CartItemProcessor.php* when updating carts. This patch is available when the<a>Magento Quality Patch (MQP) tool</a>1.0.7 is installed. The issue is scheduled to be fixed in Magento version 2.4.2.

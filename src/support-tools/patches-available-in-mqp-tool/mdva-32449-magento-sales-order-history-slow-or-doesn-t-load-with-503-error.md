@@ -1,6 +1,6 @@
 ---
 title: "MDVA-32449: Magento sales order history slow or doesn't load with 503 error"
-labels: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.1,503,MQP 1.0.12,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,error,orders,sales order history,slow,slow performance,slow response,support tools"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.1,503,MQP 1.0.12,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,error,orders,sales order history,slow,slow performance,slow response,support tools
 ---
 
 The MDVA-32449 patch solves the issue on Magento where the sales order history loads slowly or does not load and displays a 503 error. This is an issue when 13000+ customers are assigned to a B2B company. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that this issue was fixed in Magento 2.4.1.

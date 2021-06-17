@@ -1,6 +1,6 @@
 ---
 title: "MDVA-13203: Magento patch: 503 error homepage post full reindex"
-labels: "2.2.4,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,503,503 error,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,database,integrity constraint violation,maintenance,support tools"
+labels: 2.2.4,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,503,503 error,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,database,integrity constraint violation,maintenance,support tools
 ---
 
 The MDVA-13203 Magento patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log` . This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed.

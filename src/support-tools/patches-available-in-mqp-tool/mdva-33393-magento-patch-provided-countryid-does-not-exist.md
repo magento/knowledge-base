@@ -1,6 +1,6 @@
 ---
 title: "MDVA-33393 Magento patch: provided countryId does not exist"
-labels: "2.3.0,2.4.1,2.4.1-p1,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,address,data,error,exception log,id,log,support tools,validation"
+labels: 2.3.0,2.4.1,2.4.1-p1,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,address,data,error,exception log,id,log,support tools,validation
 ---
 
 The MDVA-33393 Magento patch solves the issue where the error message: *Provided countryId does not exist.* displays in the exception log.
