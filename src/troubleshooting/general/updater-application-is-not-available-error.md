@@ -1,5 +1,5 @@
 ---
-title: "\"Updater application is not available\" error"
+title: '"Updater application is not available" error'
 labels: 2.2.x,2.3.x,Magento Commerce,how to,install,update,updater,web setup wizard
 ---
 
