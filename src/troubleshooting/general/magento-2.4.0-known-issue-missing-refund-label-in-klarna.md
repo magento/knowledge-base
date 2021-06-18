@@ -1,5 +1,5 @@
 ---
-title: "Magento 2.4.0 known issue: missing \"Refund\" label in Klarna"
+title: 'Magento 2.4.0 known issue: missing "Refund" label in Klarna'
 labels: 2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,known issues,label,refund
 ---
 
