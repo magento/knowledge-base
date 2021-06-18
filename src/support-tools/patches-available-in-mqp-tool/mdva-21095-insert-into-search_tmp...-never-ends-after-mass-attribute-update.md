@@ -1,5 +1,5 @@
 ---
-title: "MDVA-21095: INSERT INTO \"search_tmp...\" never ends after mass attribute update"
+title: 'MDVA-21095: INSERT INTO "search_tmp..." never ends after mass attribute update'
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PHP-fpm die,mass attribute update,pm.max_children,query INSERT INTO search_tmp,reindex
 ---
 
