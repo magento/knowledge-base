@@ -1,5 +1,5 @@
 ---
-title: MDVA-33975 Magento patch: GraphQL price calculations
+title: "MDVA-33975 Magento patch: GraphQL price calculations"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,GraphQL,MQP 1.0.14,MQP patches,Magento Commerce,Magento Commerce Cloud,billing,cart price rule,catalog price rules,discount,price calculation,support tools
 ---
 

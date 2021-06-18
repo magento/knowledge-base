@@ -1,5 +1,5 @@
 ---
-title: Managed alerts for Magento Commerce: Apdex warning alert
+title: "Managed alerts for Magento Commerce: Apdex warning alert"
 labels: Apdex,Magento Commerce Cloud,MySQL,New Relic,PHP,Pro,alert,cron,how to,maintenance mode,starter,threshold,troubleshooting,warning
 ---
 

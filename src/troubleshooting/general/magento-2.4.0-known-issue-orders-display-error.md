@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: orders display error
+title: "Magento 2.4.0 known issue: orders display error"
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,display,error,known issues,orders
 ---
 

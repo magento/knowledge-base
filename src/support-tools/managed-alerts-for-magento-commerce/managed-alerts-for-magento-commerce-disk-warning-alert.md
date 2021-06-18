@@ -1,5 +1,5 @@
 ---
-title: Managed alerts for Magento Commerce: disk warning alert
+title: "Managed alerts for Magento Commerce: disk warning alert"
 labels: Magento Commerce Cloud,MySQL,New Relic,Pro,alert,disk,disk space,how to,maintenance mode,threshold,troubleshooting
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MBI: Creating and editing advanced calculated columns
+title: "MBI: Creating and editing advanced calculated columns"
 labels: MBI,Magento Business Intelligence,analysis,calculated columns,data,data discrepancies,database,how to,reports
 ---
 

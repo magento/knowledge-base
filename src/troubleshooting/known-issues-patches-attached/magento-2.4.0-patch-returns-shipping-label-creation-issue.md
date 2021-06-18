@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 patch: returns shipping label creation issue
+title: "Magento 2.4.0 patch: returns shipping label creation issue"
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,known issues,patch,return,shipping label
 ---
 

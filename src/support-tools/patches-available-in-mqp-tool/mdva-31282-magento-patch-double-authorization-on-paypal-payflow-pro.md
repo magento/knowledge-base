@@ -1,5 +1,5 @@
 ---
-title: MDVA-31282 Magento patch: double authorization on Paypal PayFlow Pro
+title: "MDVA-31282 Magento patch: double authorization on Paypal PayFlow Pro"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,PayFlow Pro,double authorization,fraud filter,support tools
 ---
 

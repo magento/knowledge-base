@@ -1,5 +1,5 @@
 ---
-title: MDVA-31224 Magento patch: Product price reindex takes too long
+title: "MDVA-31224 Magento patch: Product price reindex takes too long"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,price,product,reindex,support tools,time
 ---
 

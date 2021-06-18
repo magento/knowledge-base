@@ -1,5 +1,5 @@
 ---
-title: MDVA-33894 Magento patch: bundle solution for Quick Order
+title: "MDVA-33894 Magento patch: bundle solution for Quick Order"
 labels: 2.4.0,2.4.0-p1,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,order by SKU,quick order,support tools
 ---
 

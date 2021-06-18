@@ -1,5 +1,5 @@
 ---
-title: MDVA-31150 Magento patch: invoice without store credit info
+title: "MDVA-31150 Magento patch: invoice without store credit info"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,API,MQP 1.0.8,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,credit,invoice,order,store,support tools
 ---
 

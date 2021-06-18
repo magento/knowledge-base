@@ -1,5 +1,5 @@
 ---
-title: Magento Quality Patches released: new tool to self-serve quality patches
+title: "Magento Quality Patches released: new tool to self-serve quality patches"
 labels: MQP,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,announcements,apply patch,ece-tools
 ---
 

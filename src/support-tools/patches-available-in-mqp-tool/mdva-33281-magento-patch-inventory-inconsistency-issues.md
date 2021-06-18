@@ -1,5 +1,5 @@
 ---
-title: MDVA-33281 Magento patch: inventory inconsistency issues
+title: "MDVA-33281 Magento patch: inventory inconsistency issues"
 labels: 2.3.4,2.3.5-p1,2.3.5-p2,Inventory,MQP 1.0.14,Magento Commerce Cloud,PHP Fatal Error,data discrepancies,duplicate,inventory source,order placement,support tools
 ---
 

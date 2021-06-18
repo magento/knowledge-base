@@ -1,5 +1,5 @@
 ---
-title: MDVA-37225: Quick order not working with integer SKU
+title: "MDVA-37225: Quick order not working with integer SKU"
 labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,MQP 1.0.23,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,integer SKU,quick order
 ---
 

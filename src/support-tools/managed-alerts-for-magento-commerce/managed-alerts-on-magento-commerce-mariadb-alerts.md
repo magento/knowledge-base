@@ -1,5 +1,5 @@
 ---
-title: Managed alerts on Magento Commerce: MariaDB alerts
+title: "Managed alerts on Magento Commerce: MariaDB alerts"
 labels: Magento Commerce Cloud,MariaDB,New Relic,Pro,alert,data,database,mysql,performance,queries,support tools,warning
 ---
 

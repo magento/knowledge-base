@@ -1,5 +1,5 @@
 ---
-title: MDVA-30428 Magento patch: wishlist not working with the MSI
+title: "MDVA-30428 Magento patch: wishlist not working with the MSI"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.4,2.4.0,2.4.1,Inventory,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,wishlist
 ---
 
