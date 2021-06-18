@@ -1,6 +1,6 @@
 ---
-title: MDVA-12304 Magento patch: 503 error on store front and cookie error
-labels: 
+title: "MDVA-12304 Magento patch: 503 error on store front and cookie error"
+labels: MDVA-12304,quality patch,503 error,known issue,Magento Commerce,2.2.5,2.2.5,2.x.x.,MQP,support tools,
 ---
 
 This MDVA-12304 patch solves 503 errors on store fronts, with *Unable to send the cookie. Maximum number of cookies would be exceeded.* error message in logs. This is a known Magento Commerce 2.2.5 issue. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
