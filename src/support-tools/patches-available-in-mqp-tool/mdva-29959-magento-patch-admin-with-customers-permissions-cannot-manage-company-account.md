@@ -1,5 +1,5 @@
 ---
-title: "MDVA-29959 Magento patch: admin with \"Customers\" permissions cannot manage company account"
+title: 'MDVA-29959 Magento patch: admin with "Customers" permissions cannot manage company account'
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,ACL,B2B,MQP 1.0.5,MQP patches,Magento Commerce,Magento Quality Patches,support tools
 ---
 
