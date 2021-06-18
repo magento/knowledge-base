@@ -1,5 +1,5 @@
 ---
-title: "MDVA-34850: swatches not strike-through inventory reaches \"0\""
+title: 'MDVA-34850: swatches not strike-through inventory reaches "0"'
 labels: Inventory,MQP 1.0.17,MQP patches,Magento Commerce,Magento Commerce Cloud,configuration,inventory source,out of stock,support tools
 ---
 
