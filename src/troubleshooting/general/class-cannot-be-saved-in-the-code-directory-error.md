@@ -1,5 +1,5 @@
 ---
-title: "\"Class cannot be saved in the code directory\" error"
+title: '"Class cannot be saved in the code directory" error'
 labels: Cloud,generated
 ---
 
