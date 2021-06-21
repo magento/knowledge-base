@@ -32,7 +32,7 @@ export async function checker(options: {
         if (!entry.isDirectory) continue
         // Skip folders that shouldn't be searched through
         if (shouldExclude(categoryPath)) continue
-    
+
         // Show a warning if the category.json doesn't exist.
         if (!await exists(categoryJson)) {
             warn(categoryPath)
@@ -42,7 +42,7 @@ export async function checker(options: {
         for await (const entry of Deno.readDir(categoryPath)) {
             const sectionPath = join(categoryPath, entry.name)
             const sectionJson = join(sectionPath, '.group.json')
-    
+
             if (!entry.isDirectory) continue
             if (shouldExclude(sectionPath)) continue
 
