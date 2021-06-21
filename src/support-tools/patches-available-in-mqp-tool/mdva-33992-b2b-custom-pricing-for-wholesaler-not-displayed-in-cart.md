@@ -1,5 +1,5 @@
 ---
-title: MDVA-33992: B2B custom pricing for wholesaler not displayed in cart
+title: "MDVA-33992: B2B custom pricing for wholesaler not displayed in cart"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,B2B,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,custom price,support tools
 ---
 

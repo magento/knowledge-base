@@ -1,5 +1,5 @@
 ---
-title: MDVA-28651 Magento patch: B2B -  quotes slow to load
+title: "MDVA-28651 Magento patch: B2B -  quotes slow to load"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.4.0,2.4.1,B2B,MQP 1.0.9,MQP patches,Magento Commerce,Magento Commerce Cloud,performance,quote,response time,support tools
 ---
 

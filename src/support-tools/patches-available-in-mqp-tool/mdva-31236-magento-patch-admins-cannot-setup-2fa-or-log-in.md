@@ -1,5 +1,5 @@
 ---
-title: MDVA-31236 Magento patch: admins cannot setup 2FA or log in
+title: "MDVA-31236 Magento patch: admins cannot setup 2FA or log in"
 labels: 2.4.0,2.4.0-p1,2.4.1,2FA,MQP 1.0.12,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools
 ---
 

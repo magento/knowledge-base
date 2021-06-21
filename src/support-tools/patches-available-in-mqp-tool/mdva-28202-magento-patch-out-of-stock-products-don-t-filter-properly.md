@@ -1,5 +1,5 @@
 ---
-title: MDVA-28202 Magento patch: out of stock products don't filter properly
+title: "MDVA-28202 Magento patch: out of stock products don't filter properly"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,configurable product,display price,support tools
 ---
 

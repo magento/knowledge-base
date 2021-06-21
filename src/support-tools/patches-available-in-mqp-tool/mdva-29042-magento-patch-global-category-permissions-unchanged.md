@@ -1,5 +1,5 @@
 ---
-title: MDVA-29042 Magento patch: global category permissions unchanged
+title: "MDVA-29042 Magento patch: global category permissions unchanged"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,category,customer group,deselect,permissions,support tools
 ---
 

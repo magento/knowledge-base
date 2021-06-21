@@ -1,5 +1,5 @@
 ---
-title: MDVA-28409 Magento patch: Magento web server crashing - Out of memory
+title: "MDVA-28409 Magento patch: Magento web server crashing - Out of memory"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,MQP,MQP 1.0.5,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,cron,memory,out of memory,quote,support tools
 ---
 

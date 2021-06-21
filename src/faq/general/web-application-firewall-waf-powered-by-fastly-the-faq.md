@@ -1,5 +1,5 @@
 ---
-title: Web Application Firewall (WAF) powered by Fastly: the FAQ
+title: "Web Application Firewall (WAF) powered by Fastly: the FAQ"
 labels: FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MDVA-19391 Magento patch: Advanced Reporting not working
+title: "MDVA-19391 Magento patch: Advanced Reporting not working"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,404 error,Advanced Reporting,MQP 1.0.13,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PageBuilderAnalytics module
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MDVA-35092 Magento patch: Vimeo Error: "Video not found"
+title: 'MDVA-35092 Magento patch: Vimeo Error: "Video not found"'
 labels: 2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,MQP 1.0.17,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,Vimeo,error,support tools,video
 ---
 

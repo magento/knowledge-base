@@ -1,6 +1,6 @@
 ---
-title: Magento Commerce Cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying
-labels: 2.2.x,2.3.x,Magento Commerce Cloud,URL could not be accessed: HTTP/1.1 403 Forbidden,access key,authentication,deployment error,how to,update
+title: "Magento Commerce Cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying"
+labels: "2.2.x,2.3.x,Magento Commerce Cloud,URL could not be accessed: HTTP/1.1 403 Forbidden,access key,authentication,deployment error,how to,update"
 ---
 
 This article discusses how to resolve Magento Commerce Cloud failed deployment with an error similar to the following:" *The 'https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip' URL could not be accessed: HTTP/1.1 403 Forbidden* ".OrThe " *https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* "
@@ -73,5 +73,3 @@ Following is a step by step description of how to update your authorization keys
 1. Commit and merge your changes.
 1. `git add -A`      `git commit -m "<message>"`      `git push origin master`     
 1. Wait for the project to deploy.
-
- 

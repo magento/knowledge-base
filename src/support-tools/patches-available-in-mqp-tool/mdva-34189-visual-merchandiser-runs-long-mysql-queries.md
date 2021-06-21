@@ -1,5 +1,5 @@
 ---
-title: MDVA-34189: Visual merchandiser runs long MySQL queries
+title: "MDVA-34189: Visual merchandiser runs long MySQL queries"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,MySQL,Site-Wide Analysis Tool,Visual Merchandiser,catalog,category,support tools
 ---
 

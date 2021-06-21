@@ -1,5 +1,5 @@
 ---
-title: MDVA-31640 Magento patch: unable to create consecutive scheduled update via REST API
+title: "MDVA-31640 Magento patch: unable to create consecutive scheduled update via REST API"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,MQP 1.0.9,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,scheduled update,support tools
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MDVA-23426 Magento patch: emails sent as attachments from Outlook
+title: "MDVA-23426 Magento patch: emails sent as attachments from Outlook"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,Outlook,attachements,email,order email,orders,shipping,support tools
 ---
 

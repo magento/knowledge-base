@@ -1,5 +1,5 @@
 ---
-title: Managed alerts for Magento Commerce: CPU warning alert
+title: "Managed alerts for Magento Commerce: CPU warning alert"
 labels: Apdex,CPU,Magento Commerce Cloud,New Relic,Pro,alert,how to,maintenance mode,threshold,troubleshooting,warning
 ---
 

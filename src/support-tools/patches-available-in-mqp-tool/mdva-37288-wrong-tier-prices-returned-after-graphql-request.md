@@ -1,5 +1,5 @@
 ---
-title: MDVA-37288: Wrong tier prices returned after GraphQL request
+title: "MDVA-37288: Wrong tier prices returned after GraphQL request"
 labels: 2.4.2,MQP 1.0.23,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches, support tools, products, GraphQL
 ---
 

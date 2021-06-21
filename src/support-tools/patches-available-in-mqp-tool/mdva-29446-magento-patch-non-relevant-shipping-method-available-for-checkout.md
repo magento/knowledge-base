@@ -1,5 +1,5 @@
 ---
-title: MDVA-29446 Magento Patch: Non-relevant shipping method available for checkout
+title: "MDVA-29446 Magento Patch: Non-relevant shipping method available for checkout"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,checkout,shipping,support tools
 ---
 

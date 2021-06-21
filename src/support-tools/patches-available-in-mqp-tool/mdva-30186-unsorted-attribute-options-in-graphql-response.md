@@ -1,5 +1,5 @@
 ---
-title: MDVA-30186: Unsorted attribute options in GraphQL response
+title: "MDVA-30186: Unsorted attribute options in GraphQL response"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,2.4.2,2.4.2-p1,MQP 1.0.23,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,products,attribute,GraphQL,unsorted,sorted
 ---
 

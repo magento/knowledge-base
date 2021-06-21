@@ -1,5 +1,5 @@
 ---
-title: MDVA-36833: broken pagination on search results page
+title: "MDVA-36833: broken pagination on search results page"
 labels: 2.4.2,MQP 1.0.22,Magento Commerce Cloud,Magento Quality Patches,catalog,pagination,search,shared catalog,support tools
 ---
 

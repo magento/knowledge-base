@@ -1,5 +1,5 @@
 ---
-title: 'Area code is not set' error when running setup:updgrade
+title: "'Area code is not set' error when running setup:updgrade"
 labels: 2.2.3,Magento Commerce Cloud,known issues,patch,setup:upgrade,troubleshooting
 ---
 

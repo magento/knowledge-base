@@ -1,5 +1,5 @@
 ---
-title: MDVA-32632: Orders in payment system but not in Magento
+title: "MDVA-32632: Orders in payment system but not in Magento"
 labels: 1.0.12,2.3.0,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.12,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,orders,payments,support tools
 ---
 

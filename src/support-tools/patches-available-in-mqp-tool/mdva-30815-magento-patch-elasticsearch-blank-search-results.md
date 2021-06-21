@@ -1,5 +1,5 @@
 ---
-title: MDVA-30815 Magento patch: Elasticsearch blank search results
+title: "MDVA-30815 Magento patch: Elasticsearch blank search results"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,category,elasticsearch,products,products per page,support tools
 ---
 

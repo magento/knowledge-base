@@ -1,5 +1,5 @@
 ---
-title: MBI: Guidelines for submitting support requests
+title: "MBI: Guidelines for submitting support requests"
 labels: MBI,Magento Business Intelligence,analysis,data,data discrepancies,database,how to,reports,support,troubleshoot
 ---
 

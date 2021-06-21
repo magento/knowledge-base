@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0: Braintree not in Multiple Addresses checkout
+title: "Magento 2.4.0: Braintree not in Multiple Addresses checkout"
 labels: 2.4.0,Braintree,Magento Commerce,Magento Commerce Cloud,address,checkout,known issues,payment,payment method,troubleshooting
 ---
 

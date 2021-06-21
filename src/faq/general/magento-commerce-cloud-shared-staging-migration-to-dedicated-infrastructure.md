@@ -1,5 +1,5 @@
 ---
-title: Magento Commerce Cloud: shared Staging migration to dedicated infrastructure
+title: "Magento Commerce Cloud: shared Staging migration to dedicated infrastructure"
 labels: FAQ,Magento Commerce Cloud,Pro,Staging,cloud,commerce,dedicated,infrastructure,maintenance mode,migration,production,shared,staging,upgrade
 ---
 

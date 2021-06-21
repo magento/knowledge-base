@@ -1,5 +1,5 @@
 ---
-title: MDVA-30112 Magento patch: large number reservation inconsistencies
+title: "MDVA-30112 Magento patch: large number reservation inconsistencies"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,2.4.1,Inventory,MQP 1.0.8,Magento Commerce Cloud,Magento Quality Patches,data discrepancies,orders,support tools
 ---
 

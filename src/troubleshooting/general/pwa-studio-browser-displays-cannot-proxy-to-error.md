@@ -1,5 +1,5 @@
 ---
-title: PWA Studio: Browser displays “Cannot proxy to“ error
+title: "PWA Studio: Browser displays “Cannot proxy to“ error"
 labels: ENOTFOUND,NodeJS,PWA Studio,browser,hostfile,hostname,how to,proxy
 ---
 

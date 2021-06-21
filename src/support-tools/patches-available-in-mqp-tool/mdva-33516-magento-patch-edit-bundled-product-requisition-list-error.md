@@ -1,5 +1,5 @@
 ---
-title: MDVA-33516 Magento patch: edit bundled product Requisition List error
+title: "MDVA-33516 Magento patch: edit bundled product Requisition List error"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,MQP 1.0.14,Magento Commerce Cloud,bundle options,error,support tools
 ---
 

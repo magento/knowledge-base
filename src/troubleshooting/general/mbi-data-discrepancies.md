@@ -1,5 +1,5 @@
 ---
-title: MBI: Data discrepancies
+title: "MBI: Data discrepancies"
 labels: Magento Business Intelligence,data discrepancies,troubleshooting
 ---
 

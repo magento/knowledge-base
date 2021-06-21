@@ -1,5 +1,5 @@
 ---
-title: MDVA-36615: catalog products grid filter incorrect results
+title: "MDVA-36615: catalog products grid filter incorrect results"
 labels: 2.4.2,MQP 1.0.21,MQP patches,Magento Commerce,Magento Commerce Cloud,Product Grid,catalog,configurable product,search,support tools
 ---
 

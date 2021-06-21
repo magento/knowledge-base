@@ -1,5 +1,5 @@
 ---
-title: MDVA-28763 Magento patch: issues with managing product images via REST API
+title: "MDVA-28763 Magento patch: issues with managing product images via REST API"
 labels: 2.3.2,2.3.3.x,API,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,images,support tools
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MBI: troubleshooting missing Segment data
+title: "MBI: troubleshooting missing Segment data"
 labels: Magento Business Intelligence,missing Segment data,troubleshooting
 ---
 
