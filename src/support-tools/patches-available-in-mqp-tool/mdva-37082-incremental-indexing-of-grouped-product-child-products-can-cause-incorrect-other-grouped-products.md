@@ -23,9 +23,9 @@ Incremental indexing of grouped product child products can cause incorrect other
 <ins>Steps to reproduce</ins>:
 
 1. Create new stock and source for the main website.
-1. Create 3 simple products with qty 10,15 and 0
-1. Create 2 grouped products and assing first simple product with qty 10 to one and other 2 simple products to the other
-1. Confirm the both grouped products can be accessible from the frontend. In stock
+1. Create 3 simple products with qty 10,15 and 0.
+1. Create 2 grouped products and assing first simple product with qty 10 to one and other 2 simple products to the other.
+1. Confirm that both grouped products can be accessible from the frontend, in stock.
 1. Assign the simple product with qty 0 to the first grouped product's Up-Sell Products
 1. Clean the FPC and check the 2nd GP from the frontend
 1. Run a full reindex
@@ -34,11 +34,11 @@ Incremental indexing of grouped product child products can cause incorrect other
 1. Clean FPC and check the 2nd GP from the frontend
 
 <ins>Expected results</ins>:
-GP shouldn't go OOS after saving another GP with Up-sell
-
+GP shouldn't go OOS after saving another GP with Up-sell.
+The issue resolves after a full reindex.
 <ins>Actual results</ins>:
-When you save the 1st GP the 2nd GP goes OOS
-The issue resolves after a full reindex
+When you save the 1st GP the 2nd GP goes OOS.
+
 
 ## Apply the patch
 
