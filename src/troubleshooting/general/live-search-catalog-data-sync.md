@@ -1,6 +1,6 @@
 ---
 title: Live search catalog is not synchronized
-labels: Adobe Commerce,live search
+labels: Adobe Commerce,Live Search,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
 This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension.
@@ -21,8 +21,8 @@ Your catalog data is not synchronized correctly.
 
 <ins>Expected result</ins>
 
-* Exported catalog data can be verified
-* Connection is successful
+* Exported catalog data can be verified.
+* Connection is successful.
 
 <ins>Actual result</ins>
 
@@ -30,7 +30,7 @@ Exported catalog cannot be verified and/or connection is not established because
 
 ## Solution
 
-There are several things you might do to try and fix the catalog syncing issues.
+There are several things you might do, depending on the issue you experience.
 
 ### Sync product data for a specific SKU
 
@@ -44,7 +44,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     ```bash
     bin/magento indexer:reindex catalog_data_exporter_products
     ```
-1. If you still do not see the correct data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). SHOULDN"T THEY TRY OTHER SOLUTIONS DESCRIBED HERE?
+1. If you still do not see the correct data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ### Check timestamp of last product export
 
