@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot /tmp mount full for Adobe Commerce
-labels: Adobe Commerce,troubleshooting,tmp,full
+labels: Adobe Commerce,troubleshooting,tmp,full,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
 This article provides a solution for when the `/tmp` mount is full, site may be down, and you are unable to SSH into a node.
@@ -33,18 +33,18 @@ The `/tmp` mount being full might result in a range of possible symptoms, includ
 
 <ins>Steps to reproduce:</ins>
 
-To check how full the `/tmp` mount is, run the following command in the CLI (after navigating to `/tmp`:
+To check how full the `/tmp` mount is, in the CLI switch to `/tmp` and run the following command:
 
 ```bash  
  df -h
 ```
 
 <ins>Expected result:</ins><br>
-Usage less than 80%. 
+Less than 80%. 
 
 <ins>Actual result:</ins>
 
-Around 100%&nbsp;
+Around 100%.
 
 ## Cause
 
@@ -81,13 +81,13 @@ There are several services that might be writing down files to `/tmp`.
 
 #### Check up and free MySQL space
 
-Follow the instructions in the [MySQL disk space is low on Magento Commerce Cloud > Check and free up storage space](https://support.magento.com/hc/en-us/articles/360037591972#check_and_free).
+Follow the instructions in [MySQL disk space is low on Magento Commerce Cloud > Check and free up storage space](https://support.magento.com/hc/en-us/articles/360037591972#check_and_free).
 
 #### Check up Elasticsearch heapdumps
 
 >![WARNING]
 >
->Heapdumps contain logging information that might be valuable for investigating issues. Consider storing them in a separate location for at >least 10 days
+>Heapdumps contain logging information that might be valuable for investigating issues. Consider storing them in a separate location for at least 10 days.
 
 Remove heapdumps (`*.hprof`) using system shell:
 
@@ -101,9 +101,9 @@ If you don't have permissions to delete files created by another user (in this c
 
 >![WARNING]
 >
->Database backups are usually created for a purpose. If you are not sure if the file is still needed, consider moving it to a separate location instead deleting.
+>Database backups are usually created for a purpose. If you are not sure if the file is still needed, consider moving it to a separate location instead of deleting.
 
-Check `/.tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have been created by ece-tools during backup or when manually creating database dumps using the `mysqldump` tool.
+Check `/tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have been created by ece-tools during backup or when manually creating database dumps using the `mysqldump` tool.
 
 
 ### Best practices
