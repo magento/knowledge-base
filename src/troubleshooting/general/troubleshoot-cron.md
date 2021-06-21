@@ -3,7 +3,7 @@ title: Troubleshoot cron
 labels: 2.2.x,2.3.x,Magento Commerce,cron,troubleshooting
 ---
 
-This article describes troubleshooting solutions for issues with cron in Magento on-premise products.
+This article offers troubleshooting solutions for issues with cron in Magento on-premise products.
 
 Affected products and versions
 
@@ -24,7 +24,7 @@ Affected products and versions
 
 This section discusses how to see if cron is currently running and to verify whether it's set up properly.
 
-To verify whether or not your crontab is set up:
+To verify whether or not your crontab is set up do the following steps:
 
 1. Log in to your Magento server as, or switch to, the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) .
 1. See if the following file exists:    ```bash    ls -al <magento_root>/var/.setup_cronjob_status    ```    If the file exists, cron has run successfully in the past. If the file *does not* exist, either you haven't yet installed Magento or cron isn't running. In either case, continue with the next step.    
