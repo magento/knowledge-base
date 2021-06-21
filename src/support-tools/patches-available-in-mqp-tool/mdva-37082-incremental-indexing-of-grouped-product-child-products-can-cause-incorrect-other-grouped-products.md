@@ -3,7 +3,7 @@ title: "MDVA-37082: partial index of stock status for grouped products is wrong 
 labels:
 ---
 
-The MDVA-37082 Magento patch fixes the issue where the partial index of stock status for grouped products is wrong for custom stock.
+The MDVA-37082 Magento patch fixes the issue where the partial index of the stock status for grouped products is wrong for custom stocks.
 This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue was is scheduled to be fixed in Magento 2.4.4.
 
 
@@ -34,11 +34,10 @@ Incremental indexing of grouped product child products can cause incorrect other
 1. Clean FPC and check the 2nd GP from the frontend
 
 <ins>Expected results</ins>:
-GP shouldn't go OOS after saving another GP with Up-sell.
-The issue resolves after a full reindex.
+***GP shouldn't go OOS after saving another GP with Up-sell.
+The issue resolves after a full reindex.***
 <ins>Actual results</ins>:
-When you save the 1st GP the 2nd GP goes OOS.
-
+***When you save the 1st GP the 2nd GP goes OOS.***
 
 ## Apply the patch
 
