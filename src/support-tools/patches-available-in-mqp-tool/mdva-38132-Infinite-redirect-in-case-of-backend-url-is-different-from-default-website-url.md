@@ -1,9 +1,9 @@
 ---
-title: "MDVA-38132: Infinite redirect in case of backend URL is different from default website URL"
+title: "MDVA-38132: Infinite redirect when backend URL is different from default website URL"
 labels:
 ---
 
-The MDVA-38132 Magento patch solves/fixes the issue where ***Infinite redirect in case of backend URL is different from default website URL*** This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-38132 Magento patch fixes the issue of infinite redirect when the backend URL is different from the default website URL. This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
@@ -16,8 +16,7 @@ Magento Commerce and Magneto Commerce Cloud 2.3.0-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-***Infinite redirects no longer occur when the Admin URL differs from the default website URL in deployments where Magento is configured to be accessible from two URLs.
-Fixed in Magento version 2.4.3***
+Infinite redirects ***no longer occur when the Admin URL is different from the default website URL*** in deployments where Magento is configured to be accessible from two URLs.
 
 
 <ins>Prerequisites</ins>:
@@ -25,21 +24,22 @@ Fixed in Magento version 2.4.3***
 * Base URL is used for both backend and storefront. Base Secure URL is not used.
 * The web server is configured so that Magento is accessible via two different URLs. URL1 is used for Magento installation.
 
-
 <ins>Steps to reproduce</ins>:
 
-1. Go to Admin Panel > **Stores** > **Configuration** > **Web**
-1. Leave original Base URL in global configuration. It's our URL1
-1. Switch to Main Website scope
-1. Change Base URL to a different URL (see preconditions to setup web server correctly). This is our URL2
-1. Clear cache (if necessary and possible)
-1. Open Admin Panel
+1. Go to Admin Panel > **Stores** > **Configuration** > **Web.**
+1. Leave original Base URL in global configuration. It's your URL1.
+1. Switch to Main Website scope.
+1. Change Base URL to a different URL (see preconditions to setup web server correctly). This is your URL2.
+1. Clear cache (if necessary and possible).
+1. Open Admin Panel.
 
 <ins>Expected results</ins>:
+
 Admin Panel is successfully opened and can be navigated. Main Website's store is successfully opened and can be navigated.
 
 <ins>Actual results</ins>:
-***Infinite redirect happens. Magento redirects from URL1 to URL2 and back again.***
+
+Infinite redirect happens. Magento redirects from URL1 to URL2 and back again.
 
 ## Apply the patch
 
