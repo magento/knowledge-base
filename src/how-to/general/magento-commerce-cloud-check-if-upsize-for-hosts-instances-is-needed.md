@@ -1,5 +1,5 @@
 ---
-title: Magento Commerce Cloud: check if upsize for host’s instances is needed
+title: "Magento Commerce Cloud: check if upsize for host’s instances is needed"
 labels: 2.3.x,2.4.x,CPU,Magento Commerce Cloud,how to,load,memory,upsize
 ---
 

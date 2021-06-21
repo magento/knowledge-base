@@ -1,5 +1,5 @@
 ---
-title: PWA Studio: Webpack hangs before beginning compilation
+title: "PWA Studio: Webpack hangs before beginning compilation"
 labels: PWA,PWA studio,hangs,how to,javascript,pwa-buildpack,stalls,webpack
 ---
 

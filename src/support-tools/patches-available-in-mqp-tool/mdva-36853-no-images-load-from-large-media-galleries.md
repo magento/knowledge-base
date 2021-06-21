@@ -1,5 +1,5 @@
 ---
-title: MDVA-36853: No images load from large media galleries
+title: "MDVA-36853: No images load from large media galleries"
 labels: 2.4.2,MQP 1.0.22,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,directory,media gallery,page builder,widget
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MDVA-30284 Magento Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded
+title: "MDVA-30284 Magento Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Elasticsearch problem,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,index,products,support tools
 ---
 

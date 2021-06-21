@@ -1,5 +1,5 @@
 ---
-title: MDVA-36424: Images attached to page builder vanish on save
+title: "MDVA-36424: Images attached to page builder vanish on save"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,MQP 1.0.21,MQP patches,Magento Commerce,Magento Commerce Cloud,URL,content,images,save,support tools
 ---
 

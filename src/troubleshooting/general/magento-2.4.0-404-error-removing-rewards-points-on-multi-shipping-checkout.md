@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0: 404 error removing rewards points on multi-shipping checkout
+title: "Magento 2.4.0: 404 error removing rewards points on multi-shipping checkout"
 labels: 2.4.0,404 error,Magento Commerce,Magento Commerce Cloud,checkout,known issues,multishipping,rewards points,shopping cart
 ---
 

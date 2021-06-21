@@ -1,5 +1,5 @@
 ---
-title: MDVA-31343 Magento patch: schedule update removes body class for category
+title: "MDVA-31343 Magento patch: schedule update removes body class for category"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,CSS,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,category,schedule update,support tools
 ---
 

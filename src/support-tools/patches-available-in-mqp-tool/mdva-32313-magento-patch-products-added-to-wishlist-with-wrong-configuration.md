@@ -1,5 +1,5 @@
 ---
-title: MDVA-32313 Magento patch: products added to wishlist with wrong configuration
+title: "MDVA-32313 Magento patch: products added to wishlist with wrong configuration"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.10,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,configurable product,product listing,wishlist
 ---
 

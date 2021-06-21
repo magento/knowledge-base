@@ -1,5 +1,5 @@
 ---
-title: MDVA-35982 Magento patch: Can't ship some orders
+title: "MDVA-35982 Magento patch: Can't ship some orders"
 labels: 2.3.0,2.3.5-p1,2.4.2,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,orders,shipping,site,support tools
 ---
 

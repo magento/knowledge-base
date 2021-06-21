@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.2 B2B: discount remains pay method change
+title: "Magento 2.4.2 B2B: discount remains pay method change"
 labels: 2.4.2,B2B,Magento Commerce,Magento Commerce Cloud,discount,known issue,payment method
 ---
 

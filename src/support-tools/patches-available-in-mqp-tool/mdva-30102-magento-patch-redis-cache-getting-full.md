@@ -1,5 +1,5 @@
 ---
-title: MDVA-30102 Magento patch: Redis cache getting full
+title: "MDVA-30102 Magento patch: Redis cache getting full"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.5-p1,2.3.5-p2,2.4.0,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,Redis,cache,memory,missing products,support tools
 ---
 

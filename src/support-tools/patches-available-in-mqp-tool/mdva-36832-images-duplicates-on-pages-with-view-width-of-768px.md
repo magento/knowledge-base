@@ -1,5 +1,5 @@
 ---
-title: MDVA-36832: Images duplicate on pages with 768px view width
+title: "MDVA-36832: Images duplicate on pages with 768px view width"
 labels: 2.4.2,MQP 1.0.24,Magento Commerce Cloud,Magento Quality Patches,support tools, Magento Commerce, MQP patches, 2.3.4, 2.3.4-p2, 2.3.5-p1, 2.3.5-p2, 2.4.0, 2.3.6, 2.4.0-p1, 2.4.1, 2.3.6-p1, 2.4.1-p1, 2.4.2, 2.3.7, 2.4.2-p1, product image, duplicate
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MDVA-30945 Magento patch: a fatal error during add and update cart operations
+title: "MDVA-30945 Magento patch: a fatal error during add and update cart operations"
 labels: MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,PHP Fatal Error,blank cart,support tools
 ---
 

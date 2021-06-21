@@ -1,5 +1,5 @@
 ---
-title: MDVA-27664 Magento patch: date of birth account error
+title: "MDVA-27664 Magento patch: date of birth account error"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,date of birth,validation error
 ---
 

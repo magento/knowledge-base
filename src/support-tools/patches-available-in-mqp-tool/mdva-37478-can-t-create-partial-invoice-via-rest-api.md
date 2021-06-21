@@ -1,5 +1,5 @@
 ---
-title: MDVA-37478: Can't create partial invoice via REST API
+title: "MDVA-37478: Can't create partial invoice via REST API"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,MQP 1.0.23,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,Payment on account,REST API,order,partial invoice
 ---
 

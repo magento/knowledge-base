@@ -1,5 +1,5 @@
 ---
-title: Linking Magento.com and accounts.magento.cloud account logins
+title: Link Magento.com, accounts.magento.cloud account logins
 labels: Magento,Magento Commerce Cloud,account,accounts,accounts.magento.cloud,linking,login,logins,security
 ---
 
@@ -20,5 +20,3 @@ Users at [accounts.magento.cloud](https://accounts.magento.cloud/) can connect t
 1. Log in to [https://account.magento.com](https://account.magento.com/) .
 1. Navigate to a separate tab to [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) .
 1. Click “Connect with [Magento.com](https://account.magento.com/customer/account/login/) ”.
-
- 

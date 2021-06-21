@@ -1,5 +1,5 @@
 ---
-title: MDVA-31791 Magento patch: improvement for product page with related products and target rules
+title: "MDVA-31791 Magento patch: improvement for product page with related products and target rules"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.4.0,2.4.0-p1,MQP 1.0.9,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,performance,product page,support tools
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MBI Webinar: Untap the Full Potential of Your Customer Data
+title: "MBI Webinar: Untap the Full Potential of Your Customer Data"
 labels: MBI,Magento Business Intelligence,data,database,how to,reports
 ---
 

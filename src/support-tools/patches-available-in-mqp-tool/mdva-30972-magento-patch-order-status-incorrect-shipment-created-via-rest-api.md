@@ -1,5 +1,5 @@
 ---
-title: MDVA-30972 Magento Patch: order status incorrect shipment created via REST API
+title: "MDVA-30972 Magento Patch: order status incorrect shipment created via REST API"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,order,security,shipping,support tools
 ---
 

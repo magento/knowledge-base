@@ -1,5 +1,5 @@
 ---
-title: MDVA-33614 Magento patch: can't save Terms page
+title: "MDVA-33614 Magento patch: can't save Terms page"
 labels: 2.4.1,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,Page Builder,Terms,support tools
 ---
 

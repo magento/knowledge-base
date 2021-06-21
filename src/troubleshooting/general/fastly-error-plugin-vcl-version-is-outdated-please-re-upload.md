@@ -1,5 +1,5 @@
 ---
-title: Fastly Error: Plugin VCL version is outdated! Please re-Upload
+title: "Fastly Error: Plugin VCL version is outdated! Please re-Upload"
 labels: 2.2.x,2.3.x,Fastly error,Magento Commerce Cloud,Plugin VCL,Troubleshooting,VCL snippets,ece-tools,how to
 ---
 

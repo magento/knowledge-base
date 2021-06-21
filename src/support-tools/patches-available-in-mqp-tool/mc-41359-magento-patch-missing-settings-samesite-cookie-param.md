@@ -1,5 +1,5 @@
 ---
-title: MC-41359 Magento patch: missing settings SameSite cookie param
+title: "MC-41359 Magento patch: missing settings SameSite cookie param"
 labels: 2.3.6-p1,2.4.2,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,SameSite,browser,cookies,error,settings,support tools
 ---
 

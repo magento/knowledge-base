@@ -1,5 +1,5 @@
 ---
-title: MDVA-30977 Magento patch: missing products from categories, indexing related
+title: "MDVA-30977 Magento patch: missing products from categories, indexing related"
 labels: 2.3.4,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,category,products,support tools
 ---
 

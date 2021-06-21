@@ -1,5 +1,5 @@
 ---
-title: "Area already set" error when saving theme configuration in Admin
+title: '"Area already set" error when saving theme configuration in Admin'
 labels: 2.2.4,Magento Commerce Cloud,area already set,known issues,patch,theme,troubleshooting
 ---
 

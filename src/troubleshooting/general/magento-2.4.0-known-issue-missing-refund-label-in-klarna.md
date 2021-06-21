@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: missing "Refund" label in Klarna
+title: 'Magento 2.4.0 known issue: missing "Refund" label in Klarna'
 labels: 2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,known issues,label,refund
 ---
 
@@ -55,4 +55,3 @@ The workaround for this issue is to ignore the missing **Refund** label in the K
 * [Shipping labels creation known issue in Magento 2.4.0](https://support.magento.com/hc/en-us/articles/360046750171-Shipping-labels-creation-known-issue-in-Magento-2-4-0)
 * [Magento 2.4.0 known issue - refresh on Customer's Activities does not work](https://support.magento.com/hc/en-us/articles/360046091332-Magento-2-4-0-known-issue-refresh-on-Customer-s-Activities-does-not-work)
 * [Magento 2.4.0 known issue: “Add selections to my cart” button does not work](https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-known-issue-Add-selections-to-my-cart-button-does-not-work)
-

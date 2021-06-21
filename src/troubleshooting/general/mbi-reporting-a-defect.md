@@ -1,5 +1,5 @@
 ---
-title: MBI: Reporting a defect
+title: "MBI: Reporting a defect"
 labels: Magento Business Intelligence,support,troubleshooting
 ---
 

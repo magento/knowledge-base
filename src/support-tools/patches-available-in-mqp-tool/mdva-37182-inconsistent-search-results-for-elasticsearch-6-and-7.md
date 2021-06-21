@@ -1,5 +1,5 @@
 ---
-title: MDVA-37182: inconsistent search results for ElasticSearch 6 and 7
+title: "MDVA-37182: inconsistent search results for ElasticSearch 6 and 7"
 labels: 2.4.1,2.4.1-p1,2.4.2,Elasticsearch version,MQP 1.0.22,Magento Quality Patches,search,support tools
 ---
 

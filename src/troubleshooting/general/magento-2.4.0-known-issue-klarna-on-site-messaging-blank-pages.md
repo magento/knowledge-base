@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: Klarna On-Site Messaging blank pages
+title: "Magento 2.4.0 known issue: Klarna On-Site Messaging blank pages"
 labels: 2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,design,known issues,on-site messaging,payment,troubleshooting
 ---
 

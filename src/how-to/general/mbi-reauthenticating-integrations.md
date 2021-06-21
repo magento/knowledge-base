@@ -1,5 +1,5 @@
 ---
-title: MBI: Reauthenticating integrations
+title: "MBI: Reauthenticating integrations"
 labels: API,MBI,Magento Business Intelligence,analysis,authentication,data,database,how to,integrations,third-party extensions
 ---
 
