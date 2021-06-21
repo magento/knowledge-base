@@ -1,5 +1,5 @@
 ---
-title: Magento 2.3.6: endless spinner displayed on address save
+title: "Magento 2.3.6: endless spinner displayed on address save"
 labels: 2.3.6,Magento Commerce,Vertex,known issues,spinner,troubleshooting
 ---
 

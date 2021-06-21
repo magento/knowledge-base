@@ -1,5 +1,5 @@
 ---
-title: "500 error" after double-clicking Remove link in shopping cart
+title: '"500 error" after double-clicking Remove link in shopping cart'
 labels: 2.2.0,500 error,Magento Commerce Cloud,known issues,patch,shopping cart,troubleshooting
 ---
 

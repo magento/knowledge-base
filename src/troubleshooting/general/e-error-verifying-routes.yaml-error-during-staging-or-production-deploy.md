@@ -1,5 +1,5 @@
 ---
-title: E: Error verifying routes.yaml error during Staging or Production deploy
+title: "E: Error verifying routes.yaml error during Staging or Production deploy"
 labels: Magento Commerce Cloud,deployment,routes.yaml,troubleshooting
 ---
 

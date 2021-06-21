@@ -1,5 +1,5 @@
 ---
-title: MDVA-31519 Magento patch: lost order after guest checkout
+title: "MDVA-31519 Magento patch: lost order after guest checkout"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.14,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,guest checkout,lost,missing,order placement,payment
 ---
 

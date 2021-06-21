@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.2: Braintree Venmo payment does not work
+title: "Magento 2.4.2: Braintree Venmo payment does not work"
 labels: 2.4.2,Braintree Venmo payment,Magento Commerce,Magento Commerce Cloud,known issue,orders
 ---
 

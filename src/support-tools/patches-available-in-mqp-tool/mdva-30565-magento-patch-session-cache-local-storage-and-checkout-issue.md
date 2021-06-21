@@ -1,5 +1,5 @@
 ---
-title: MDVA-30565 Magento patch: session cache local storage and checkout issue
+title: "MDVA-30565 Magento patch: session cache local storage and checkout issue"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,MQP 1.0.6,Magento Commerce,Magento Commerce Cloud,cookie,estimate shipping method,guest checkout,local storage,session cache,support tools
 ---
 

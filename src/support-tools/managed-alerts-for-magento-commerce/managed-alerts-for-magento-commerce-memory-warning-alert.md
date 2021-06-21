@@ -1,5 +1,5 @@
 ---
-title: Managed alerts for Magento Commerce: memory warning alert
+title: "Managed alerts for Magento Commerce: memory warning alert"
 labels: Apdex,Magento Commerce Cloud,MySQL,New Relic,PHP,Pro,alert,how to,maintenance mode,memory,threshold,troubleshooting,warning
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MDVA-28993 Magento patch: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue
+title: 'MDVA-28993 Magento patch: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue'
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,support tools
 ---
 

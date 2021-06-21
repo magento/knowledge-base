@@ -1,5 +1,5 @@
 ---
-title: PWA Studio: browser cannot resolve the .local.pwadev site
+title: "PWA Studio: browser cannot resolve the .local.pwadev site"
 labels: Magento PWA, troubleshooting, browser, PWA, hostfile
 ---
 

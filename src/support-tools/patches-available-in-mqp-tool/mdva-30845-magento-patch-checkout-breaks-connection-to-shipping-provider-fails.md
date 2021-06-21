@@ -1,5 +1,5 @@
 ---
-title: MDVA-30845 Magento patch: checkout breaks connection to shipping provider fails
+title: "MDVA-30845 Magento patch: checkout breaks connection to shipping provider fails"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,MQP 1.0.12,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,checkout,shipping,support tools
 ---
 

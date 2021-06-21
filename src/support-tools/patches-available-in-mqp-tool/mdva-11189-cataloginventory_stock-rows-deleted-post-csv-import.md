@@ -1,5 +1,5 @@
 ---
-title: MDVA-11189: cataloginventory_stock rows deleted post CSV import
+title: "MDVA-11189: cataloginventory_stock rows deleted post CSV import"
 labels: 2.2.3,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,Inventory,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,catalog,csv file,data discrepancies,import,product,support tools
 ---
 

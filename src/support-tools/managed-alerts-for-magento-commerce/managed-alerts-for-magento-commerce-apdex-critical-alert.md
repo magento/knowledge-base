@@ -1,5 +1,5 @@
 ---
-title: Managed alerts for Magento Commerce: Apdex critical alert
+title: "Managed alerts for Magento Commerce: Apdex critical alert"
 labels: Apdex,Magento Commerce Cloud,New Relic,Pro,Starter,alert,cron,how to,maintenance mode,memory,threshold,troubleshooting
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: Braintree Virtual Terminal page is corrupted
+title: "Magento 2.4.0 known issue: Braintree Virtual Terminal page is corrupted"
 labels: 2.4.0,Braintree Virtual Terminal,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting
 ---
 

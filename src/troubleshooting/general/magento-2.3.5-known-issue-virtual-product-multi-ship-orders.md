@@ -1,5 +1,5 @@
 ---
-title: Magento 2.3.5 known issue: virtual product multi-ship orders
+title: "Magento 2.3.5 known issue: virtual product multi-ship orders"
 labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,address,known issues,multishipping,order,product,troubleshooting
 ---
 

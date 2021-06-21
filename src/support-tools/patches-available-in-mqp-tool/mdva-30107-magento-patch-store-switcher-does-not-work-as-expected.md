@@ -1,5 +1,5 @@
 ---
-title: MDVA-30107 Magento patch: store switcher does not work as expected
+title: "MDVA-30107 Magento patch: store switcher does not work as expected"
 labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.5,MQP 1.0.5,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,store switcher,support tools
 ---
 

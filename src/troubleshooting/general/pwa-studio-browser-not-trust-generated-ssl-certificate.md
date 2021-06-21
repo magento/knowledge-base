@@ -1,5 +1,5 @@
 ---
-title: PWA Studio: browser not trust generated SSL certificate
+title: "PWA Studio: browser not trust generated SSL certificate"
 labels: Magento PWA, troubleshooting, browser, PWA, SSL, certificate
 ---
 

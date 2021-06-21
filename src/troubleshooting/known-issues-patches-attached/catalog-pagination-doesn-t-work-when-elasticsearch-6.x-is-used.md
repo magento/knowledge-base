@@ -1,5 +1,5 @@
 ---
-title: Catalog pagination doesn't work when Elasticsearch 6.x is used
+title: Catalog pagination doesn't work with Elasticsearch 6.x
 labels: 2.3.3,Elasticsearch 6.x,Magento Commerce,Magento Commerce Cloud,known issues,pagination,patch,troubleshooting
 ---
 
@@ -20,18 +20,18 @@ After this patch is installed, users will be able to page through all search res
 
 An issue has been discovered in Magento Open Source, Magento Commerce, and Magento Commerce Cloud where Search result page pagination doesn't work if you switch the page.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Install Magento.
 1. Enable Elasticseach 6 as a catalog search engine.
 1. Add a number of products to Category that goes past the 1-page limit set in Admin.     **Note** : 12 is the default number of products displayed per page in Magento 2.3.3.    
 1. Open Category on storefront (either search results or category page) and go to page 2.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 Products should be displayed on the second page.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
  **"**  *We can't find products matching the selection*  **"** message on the second page.
 

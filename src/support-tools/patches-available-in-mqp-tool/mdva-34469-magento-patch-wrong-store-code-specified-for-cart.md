@@ -1,5 +1,5 @@
 ---
-title: MDVA-34469 Magento patch: wrong store code specified for cart
+title: "MDVA-34469 Magento patch: wrong store code specified for cart"
 labels: 2.4.1,2.4.1-p1,MQP 1.0.15,MQP patches,Magento Commerce,Magento Commerce Cloud,cart,default,headers,store,support tools,views
 ---
 

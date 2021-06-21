@@ -1,5 +1,5 @@
 ---
-title: MDVA-30599 Magento patch: customer_is_guest is set incorrectly
+title: "MDVA-30599 Magento patch: customer_is_guest is set incorrectly"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0-p1,2.4.1,MQP 1.0.6,MQP patches,Magento Commerce,Magento Commerce Cloud,customer_is_guest,support tools
 ---
 

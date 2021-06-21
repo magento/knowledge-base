@@ -1,5 +1,5 @@
 ---
-title: MDVA-35197: GraphQL add to cart error if added products out of stock
+title: "MDVA-35197: GraphQL add to cart error if added products out of stock"
 labels: 2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,MQP 1.0.17,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools
 ---
 

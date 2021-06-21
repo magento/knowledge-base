@@ -1,5 +1,5 @@
 ---
-title: PWA Studio: Validation errors when running developer mode
+title: "PWA Studio: Validation errors when running developer mode"
 labels: PWA Studio,Venia,environment variables,errors,how to,validation
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Managed alerts on Magento Commerce: CPU critical alert
+title: "Managed alerts on Magento Commerce: CPU critical alert"
 labels: CPU,Magento Commerce,Magento Commerce Cloud,New Relic,alert,how to,maintenance mode,threshold,troubleshooting
 ---
 

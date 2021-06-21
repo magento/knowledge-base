@@ -1,5 +1,5 @@
 ---
-title: MDVA-35773: Tax appears on invoice with 100% discount
+title: "MDVA-35773: Tax appears on invoice with 100% discount"
 labels: 100% discount,2.3.6,2.3.6-p1,2.3.7,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,MQP 1.0.22,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,grand total,invoice,tax miscalculated
 ---
 

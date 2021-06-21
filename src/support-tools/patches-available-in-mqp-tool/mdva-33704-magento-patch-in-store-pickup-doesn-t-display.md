@@ -1,5 +1,5 @@
 ---
-title: MDVA-33704 Magento patch: In-store pickup doesn't display
+title: "MDVA-33704 Magento patch: In-store pickup doesn't display"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,cart,checkout,in-store pickup,shipping method
 ---
 
