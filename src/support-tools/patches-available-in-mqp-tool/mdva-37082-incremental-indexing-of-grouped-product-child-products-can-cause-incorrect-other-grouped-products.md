@@ -1,9 +1,10 @@
 ---
-title: "MDVA-37082: Incremental Indexing of Grouped Product Child Products Can Cause Incorrect Other Grouped Products to be incorrectly indexed when children are shared."
-labels: 
+title: "MDVA-37082: partial index of stock status for grouped products is wrong for custom stock"
+labels:
 ---
 
-The MDVA-37082 Magento patch solves the issue where ***Incremental Indexing of Grouped Product Child Products cause incorrect other grouped products to be incorrectly indexed when children are shared.*** This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue was is scheduled to be fixed in Magento 2.4.4.
+The MDVA-37082 Magento patch fixes the issue where the partial index of stock status for grouped products is wrong for custom stock.
+This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue was is scheduled to be fixed in Magento 2.4.4.
 
 
 ## Affected products and versions
@@ -17,13 +18,11 @@ Magento Commerce and Magneto Commerce Cloud 2.3.0-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-***The partial index of stock status for grouped products is wrong for custom stock.
-Fixed in Magento version 2.4.4***
-
+Incremental indexing of grouped product child products can cause incorrect other grouped products to be incorrectly indexed when children are shared.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create new stock and source for the main website
+1. Create new stock and source for the main website.
 1. Create 3 simple products with qty 10,15 and 0
 1. Create 2 grouped products and assing first simple product with qty 10 to one and other 2 simple products to the other
 1. Confirm the both grouped products can be accessible from the frontend. In stock
