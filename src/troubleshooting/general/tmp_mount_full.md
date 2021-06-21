@@ -40,7 +40,7 @@ To check how full the `/tmp` mount is, run the following command in the CLI (aft
 ```
 
 <ins>Expected result:</ins><br>
-???
+Usage less than 80%. 
 
 <ins>Actual result:</ins>
 
@@ -95,7 +95,7 @@ Remove heapdumps (`*.hprof`) using system shell:
 find /tmp/*.hprof -type f -delete
 ```
 
-If you don't have permissions to delete files created by another user (in this case, Elasticsearch), but you see that files are large, please [create a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to deal with with them.
+If you don't have permissions to delete files created by another user (in this case, Elasticsearch), but you see that files are large, please [create a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to deal with them.
 
 #### Check up database dumps/backups
 
@@ -103,7 +103,7 @@ If you don't have permissions to delete files created by another user (in this c
 >
 >Database backups are usually created for a purpose. If you are not sure if the file is still needed, consider moving it to a separate location instead deleting.
 
-Check `.tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have been created by ece-tools during backup or when manually creating database dumps using the `mysqldump` dump command.
+Check `/.tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have been created by ece-tools during backup or when manually creating database dumps using the `mysqldump` tool.
 
 
 ### Best practices
