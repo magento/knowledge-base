@@ -1,9 +1,9 @@
 ---
-title: MDVA-37916: Paypal Payment Advance not returning to confirmation page
+title: MDVA-37916: PayPal Payment Advance not returning to confirmation page
 labels:
 ---
 
-The MDVA-37916 Magento patch solves/fixes the issue where ***Paypal Payment Advance not returning to confirmation page.*** This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+The MDVA-37916 Magento patch fixes the issue where PayPal Payment Advance not returning to confirmation page. This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
@@ -18,21 +18,21 @@ Magento Commerce and Magneto Commerce Cloud 2.3.5-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-***The SameSite=LAX for PHPSESSID makes unavailable this cookie and session inside iframe. PayPal redirects customer inside iframe and can't get orderId from session.***
+***The SameSite=LAX for PHPSESSID makes unavailable this cookie and session inside iframe. PayPal redirects customer inside iframe and can't get order ID from session.***
 
-<ins>Steps to reproduce</ins>:
+<ins>Steps to reproduce: [Screencast](https://assets.adobe.com/public/025d479b-5796-4772-6f3d-adc86306a799)</ins>
 
-1. Add product to cart and navigate the payment step of the checkout page.
-1. Select "Credit Card (Payflow Advanced)" payment option.
-1. Click "Continue" button to bring up the iframe with the payment form.
-1. Fill the payment form with sandbox credit card details.
+* Add product to cart and navigate the payment step of the checkout page.
+* Select **Credit Card (Payflow Advanced)** payment option.
+* Click **Continue** to bring up the iframe with the payment form.
+* Fill the payment form with sandbox credit card details.
      * Card number: 4444 3333 2222 1111 or 4111 1111 1111 1111
      * Expiration date: 12/23
      * CSC: 123
-1. Click "Pay Now" button.
+* Click **Pay Now.**
 
 <ins>Expected results</ins>:
-***After the payment is processed (and no payment error), the customer is redirected to the Order Confirmation page.***
+After the payment is processed (and no payment error is recorded), the user is redirected to the Order Confirmation page.
 
 <ins>Actual results</ins>:
 1. The customer is NOT redirected to the Order Confirmation page.
