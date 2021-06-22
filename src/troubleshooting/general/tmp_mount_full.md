@@ -42,8 +42,7 @@ To check how full the `/tmp` mount is, in the CLI switch to `/tmp` and run the f
 <ins>Expected result:</ins><br>
 Less than 80%. 
 
-<ins>Actual result:</ins>
-
+<ins>Actual result:</ins><br>
 Around 100%.
 
 ## Cause
@@ -77,7 +76,7 @@ Check that Use% is <70%. Inodes are correlated with files. If you remove files f
 
 ### Check and free up storage space
 
-There are several services that might be writing down files to `/tmp`.
+There are several services that might be saving files to `/tmp`.
 
 #### Check up and free MySQL space
 
