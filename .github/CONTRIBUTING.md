@@ -43,11 +43,11 @@ The following diagram shows the contribution workflow:
 
 1. Complete the pull request providing the information listed in the template.
 
-    **We will close your pull request if you do not provide the information described in the template.**
+   **We will close your pull request if you do not provide the information described in the template.**
 
 1. After creating a pull request, a Support KB staff member will review it and may ask you to make revisions.
 
-    **We will close your pull request if you do not respond to feedback in two weeks.**
+   **We will close your pull request if you do not respond to feedback in two weeks.**
 
 **Note:** If you have not signed the [Adobe Contributor License Agreement](https://opensource.adobe.com/cla.html), the pull request provides a link. You must sign the CLA before we can accept your contribution.
 
@@ -75,17 +75,17 @@ The following guidelines may answer most of your questions and help you get star
 * Do not make changes to content in the Announcements and Support Tools folders.
 * Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
 * Do not remove/change the HTML formatting in Troubleshooters articles. Examples:
-    * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
-    * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
+   * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
+   * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
 
 
 ## File structure
 
-All .md files should go to sections folders, nested in category folders under the "src" folder.
+All `.md` files should go to sections folders, nested in category folders under the "src" folder.
 All images and any other attachments should go to "assets" folders inside the section folders.
 
 
-### Artilce files naming convention
+### Article files naming convention
 
 All file and folder names must be lower cased with "-" in between all words. File names should be descriptive and might coincide with future article title (but they don't define the title).
 
@@ -112,10 +112,10 @@ labels:
 
 > Key-value pair reference:
 
-| Property  | Description |
+| Property | Description |
 | ------------- | ---------- |
-| `title`       | Defines the article title. If using any [YAML special characters](https://support.asg.com/mob/mvw/10_0/mv_ag/using_quotes_with_yaml_special_characters.htm) in title, please enclose it in quotes ("")|
-| `labels` | Contains labels that will be added to the article in Magento Help Center. Add labels to describe products, issues, products versions, section and category.  If in doubt, don't add labels. |
+| `title` | Defines the article title. If using any [YAML special characters](https://support.asg.com/mob/mvw/10_0/mv_ag/using_quotes_with_yaml_special_characters.htm) in title, please enclose it in quotes ("")|
+| `labels` | Contains labels that will be added to the article in Magento Help Center. Add labels to describe products, issues, products versions, section and category. If in doubt, don't add labels. |
 
 
 ### Add article
@@ -152,6 +152,5 @@ If you find a typo or errors in Magento Support Knowledge Base article, you can 
 You must complete the issue template. We will close your issue if you fail to provide the information listed template. Enter as much information as you can, including content corrections, steps to reproduce, command or code updates, or questions for clarifications.
 
 **Note:** Check the existing [issues](https://github.com/magento/knowledge-base/issues) on GitHub to see if someone has already reported the issue.
-
 
 Thank you for contributing your brilliance to Magento Support Knowledge Base!!
