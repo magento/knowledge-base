@@ -7,7 +7,7 @@ Adobe technical support may require access to your Magento related data in order
 
 >![info]
 >
->Privacy Settings tab will only be available/visible to users with support entitlements associated with a paid/purchased product, and to users who are the primary MagID and directly entitled; this tab is not available for delegation to another user via Shared Access. After granting access, it can take 5-10 minutes for all internal Adobe systems to be updated. If access was not granted prior to ticket submission, the primary account owner would need to update the ticket with explicit data access consent.
+>Privacy Settings tab will only be available/visible to users with support entitlements associated with a paid/purchased product, and to users who are the primary MageID and directly entitled; this tab is not available for delegation to another user via Shared Access. After granting access, it can take 5-10 minutes for all internal Adobe systems to be updated. If access was not granted prior to ticket submission, the primary account owner would need to update the ticket with explicit data access consent.
 
 To authorize access:
 
