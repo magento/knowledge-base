@@ -36,6 +36,7 @@ The SameSite=LAX for PHPSESSID makes unavailable this cookie and session inside 
 After the payment is processed (and no payment error is recorded), you are redirected to the Order Confirmation page.
 
 <ins>Actual results</ins>:
+
 * You are NOT redirected to the Order Confirmation page.
 * But the order has been created in Magento.
 * No payment error (means the payment was successful).
