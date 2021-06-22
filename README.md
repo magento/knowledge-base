@@ -12,7 +12,7 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
 ### General Contribution Flow
 
 1. Fork this Repository.
-1. Make edits on forked Repository.
+1. Make edits on the forked Repository.
 1. Submit a Pull Request (PR) to this Repository.
 1. Tests are run:
    * Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
