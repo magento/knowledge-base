@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37916: PayPal Payment Advance not returning to Confirmation Page"
+title: "MDVA-37916: PayPal Payment Advance not returning to confirmation page"
 labels: MQP patches,Magento Quality Patches,Support Tools,MDVA-37916,MQP fixes,Magento Commerce Cloud,MQP 1.0.25,2.4.4,2.3.6-p1,2.3.5-p1,2.3.5-p2,2.4.0,2.3.6,2.3.7,2.4.2,2.4.1-p1,2.4.2-p1,
 ---
 
