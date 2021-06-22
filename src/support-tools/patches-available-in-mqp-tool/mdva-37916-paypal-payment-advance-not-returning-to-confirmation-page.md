@@ -26,9 +26,9 @@ The SameSite=LAX for PHPSESSID makes unavailable this cookie and session inside 
 * Select **Credit Card (Payflow Advanced)** payment option.
 * Click **Continue** to bring up the iframe with the payment form.
 * Fill the payment form with sandbox credit card details.
-     * Card number: 4444 3333 2222 1111 or 4111 1111 1111 1111
-     * Expiration date: 12/23
-     * CSC: 123
+    * Card number: 4444 3333 2222 1111 or 4111 1111 1111 1111
+    * Expiration date: 12/23
+    * CSC: 123
 * Click **Pay Now.**
 
 <ins>Expected results</ins>:  
