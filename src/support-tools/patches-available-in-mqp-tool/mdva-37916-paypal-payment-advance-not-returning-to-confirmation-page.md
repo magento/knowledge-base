@@ -37,8 +37,8 @@ After the payment is processed (and no payment error is recorded), you are redir
 
 <ins>Actual results</ins>:
 * You are NOT redirected to the Order Confirmation page.
-* No payment error (means the payment was successful).
 * But the order has been created in Magento.
+* No payment error (means the payment was successful).
 
 ## Apply the patch
 
