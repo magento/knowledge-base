@@ -3,7 +3,7 @@ This repository contains the markdown source of articles, published in [Adobe Co
 
 ## Goals
 
-Our goal is to provide the Adobe Commerce Community with comprehensive and quality documentation on resolving Magento issues, Magento best practices, and sharing answers to questions our Support team typically gets. We believe that to accomplish that goal, We need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Adobe Commerce Support Knowledge Base documentation.
+Our goal is to provide the Adobe Commerce Community with comprehensive and quality documentation on resolving Magento issues, Magento best practices, and sharing answers to questions our Support team typically gets. We believe that to accomplish this goal, we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Adobe Commerce Support Knowledge Base documentation.
 
 ## Contributing 
 
