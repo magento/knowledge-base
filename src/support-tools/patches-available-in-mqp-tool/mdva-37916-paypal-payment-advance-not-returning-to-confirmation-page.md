@@ -1,9 +1,9 @@
 ---
-title: "MDVA-37916: PayPal Payment Advance not returning to confirmation page"
-labels: MQP patches,Magento Quality Patches,Support Tools,MDVA-37916,MQP fixes,Magento Commerce,Magento Commerce Cloud,MQP 1.0.25,2.4.4,2.3.6-p1,2.3.5-p1,2.3.5-p2,2.4.0,2.3.6,2.3.7,2.4.2,2.4.1-p1,2.4.2-p1,
+title: "MDVA-37916: PayPal Payments Advanced not returning to confirmation page"
+labels: MQP patches,Magento Quality Patches,Support Tools,MDVA-37916,MQP fixes,Magento Commerce,Magento Commerce Cloud,MQP 1.0.25,2.3.5-p1,2.3.5-p2, 2.4.0, 2.3.6, 2.4.0-p1, 2.4.1, 2.3.6-p1, 2.4.1-p1,
 ---
 
-The MDVA-37916 Magento patch fixes the issue when the PayPal Payment Advance does not return to the Confirmation Page after payment is processed. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+The MDVA-37916 Magento patch fixes the issue when the PayPal Payments Advanced does not return to the confirmation page after the payment. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
@@ -19,7 +19,7 @@ Magento Commerce and Magneto Commerce Cloud 2.3.5-2.4.2-p1
 
 ## Issue
 
-The customer is not taken to the Payment Confirmation page when using Paypal Payment Advanced method.
+The customer is not taken to the Payment Confirmation page after payment when using the PayPal Payments Advanced method.
 
 <ins>Steps to reproduce: [Screencast](https://assets.adobe.com/public/025d479b-5796-4772-6f3d-adc86306a799)</ins>
 
@@ -40,7 +40,7 @@ After the payment is processed (and no payment error is recorded), you are redir
 
 * You are NOT redirected to the Order Confirmation page.
 * But the order has been created in Magento.
-* No payment error (means the payment was successful).
+* No payment error means the payment was successful.
 
 ## Apply the patch
 
