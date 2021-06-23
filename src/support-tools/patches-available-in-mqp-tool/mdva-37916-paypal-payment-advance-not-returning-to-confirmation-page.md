@@ -1,9 +1,9 @@
 ---
 title: "MDVA-37916: PayPal Payment Advance not returning to confirmation page"
-labels: MQP patches,Magento Quality Patches,Support Tools,MDVA-37916,MQP fixes,Magento Commerce Cloud,MQP 1.0.25,2.4.4,2.3.6-p1,2.3.5-p1,2.3.5-p2,2.4.0,2.3.6,2.3.7,2.4.2,2.4.1-p1,2.4.2-p1,
+labels: MQP patches,Magento Quality Patches,Support Tools,MDVA-37916,MQP fixes,Magento Commerce,Magento Commerce Cloud,MQP 1.0.25,2.4.4,2.3.6-p1,2.3.5-p1,2.3.5-p2,2.4.0,2.3.6,2.3.7,2.4.2,2.4.1-p1,2.4.2-p1,
 ---
 
-The MDVA-37916 Magento patch fixes the issue where the PayPal Payment Advance does not return to the Confirmation Page after payment is processed. This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+The MDVA-37916 Magento patch fixes the issue when the PayPal Payment Advance does not return to the Confirmation Page after payment is processed. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
@@ -18,7 +18,8 @@ Magento Commerce and Magneto Commerce Cloud 2.3.5-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-The SameSite=LAX for PHPSESSID makes unavailable this cookie and session inside iframe. PayPal redirects customer inside iframe and can't get order ID from session.
+
+The customer is not taken to the Payment Confirmation page when using Paypal Payment Advanced method.
 
 <ins>Steps to reproduce: [Screencast](https://assets.adobe.com/public/025d479b-5796-4772-6f3d-adc86306a799)</ins>
 
