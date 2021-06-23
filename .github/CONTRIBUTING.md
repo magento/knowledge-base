@@ -37,9 +37,9 @@ The following diagram shows the contribution workflow:
 
 * Create a pull request to the [magento/knowledge-base](https://github.com/magento/knowledge-base) repository. Use `main` as the base branch when creating a PR.
 * Complete the pull request providing the information listed in the template.
-  * **We will close your pull request if you do not provide the information described in the template.**
+  - **We will close your pull request if you do not provide the information described in the template.**
 * After creating a pull request, a Support KB staff member will review it and may ask you to make revisions.
-  * **We will close your pull request if you do not respond to feedback in two weeks.**
+  - **We will close your pull request if you do not respond to feedback in two weeks.**
 
 >**Note:** If you have not signed the [Adobe Contributor License Agreement](https://opensource.adobe.com/cla.html), the pull request provides a link. You must sign the CLA before we can accept your contribution.
 
@@ -67,9 +67,9 @@ The following guidelines may answer most of your questions and help you get star
 * Do not make changes to content in the Announcements and Support Tools folders.
 * Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
 * Do not remove/change the HTML formatting in Troubleshooters articles.
-  * Examples:
-    * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
-    * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
+  - Examples:
+    + [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
+    + [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
 
 ## File structure
 
