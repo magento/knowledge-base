@@ -1,5 +1,5 @@
 ---
-title: MDVA-32714 Magento patch: customer group price not working via GraphQL
+title: "MDVA-32714 Magento patch: customer group price not working via GraphQL"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,GraphQL,MQP 1.0.13,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,price,support tools
 ---
 

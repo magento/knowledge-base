@@ -1,5 +1,5 @@
 ---
-title: MDVA-37874: Fixed discount not applied to entire cart
+title: "MDVA-37874: Fixed discount not applied to entire cart"
 labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,2.3.6,2.3.6-p1,2.3.7,MQP 1.0.24,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools,fixed discount amount,bundle product,order
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Magento best practice: disable Reports if not using
+title: "Magento best practice: disable Reports if not using"
 labels: 2.3.x,2.4.0,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,performance,reports
 ---
 

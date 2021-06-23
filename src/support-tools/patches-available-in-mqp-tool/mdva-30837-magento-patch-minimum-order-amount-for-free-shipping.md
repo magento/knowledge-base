@@ -1,5 +1,5 @@
 ---
-title: MDVA-30837 Magento patch: minimum order amount for free shipping
+title: "MDVA-30837 Magento patch: minimum order amount for free shipping"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,MQP 1.0.7,MQP patches,Magento Commerce Cloud,configuration,coupon,quote,shipping,support tools,tax
 ---
 

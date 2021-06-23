@@ -1,5 +1,5 @@
 ---
-title: MDVA-33289 Magento patch: Javascript in address at checkout
+title: "MDVA-33289 Magento patch: Javascript in address at checkout"
 labels: 2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,2.4.2,Google Tag Manager,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,address,checkout,error,javascript,support tools
 ---
 

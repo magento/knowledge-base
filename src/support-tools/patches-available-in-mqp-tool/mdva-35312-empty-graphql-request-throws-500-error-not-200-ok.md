@@ -1,5 +1,5 @@
 ---
-title: MDVA-35312: empty GraphQL request throws 500 error not 200 OK
+title: "MDVA-35312: empty GraphQL request throws 500 error not 200 OK"
 labels: 2.4.1-p1,2.4.2,500 error,GraphQL,MQP 1.0.18,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,support tools
 ---
 

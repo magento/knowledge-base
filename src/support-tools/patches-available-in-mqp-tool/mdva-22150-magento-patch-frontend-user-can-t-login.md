@@ -1,5 +1,5 @@
 ---
-title: MDVA-22150 Magento patch: frontend user can't login
+title: "MDVA-22150 Magento patch: frontend user can't login"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,503 error,MQP 1.0.13,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,aborted order,can't login,cancelled,coupon,disabled product,frontend user
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MDVA-30782 Magento patch: dynamic block is displayed regardless of cart rule
+title: "MDVA-30782 Magento patch: dynamic block is displayed regardless of cart rule"
 labels: 2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,cart_rules,dynamic block,support tools
 ---
 

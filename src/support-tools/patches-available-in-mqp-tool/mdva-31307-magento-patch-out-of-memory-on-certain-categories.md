@@ -1,5 +1,5 @@
 ---
-title: MDVA-31307 Magento patch: Out of memory on certain categories
+title: "MDVA-31307 Magento patch: Out of memory on certain categories"
 labels: 2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PHP Fatal Error,category pages,error message,memory,support tools
 ---
 

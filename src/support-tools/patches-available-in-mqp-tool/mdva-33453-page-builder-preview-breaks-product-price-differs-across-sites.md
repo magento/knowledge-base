@@ -1,5 +1,5 @@
 ---
-title: MDVA-33453: Page Builder preview breaks product price differs across sites
+title: "MDVA-33453: Page Builder preview breaks product price differs across sites"
 labels: 2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,MQP 1.0.16,MQP patches,Magento Commerce,Magento Commerce Cloud,Page Builder,error,price,product,support tools
 ---
 

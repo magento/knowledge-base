@@ -1,5 +1,5 @@
 ---
-title: MDVA-32133 Magento patch: page builder doesn't load media gallery
+title: "MDVA-32133 Magento patch: page builder doesn't load media gallery"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,MQP 1.0.12,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,load,media gallery,page builder,support tools
 ---
 

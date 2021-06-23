@@ -1,5 +1,5 @@
 ---
-title: MDVA-31007 Magento patch: custom address attributes display
+title: "MDVA-31007 Magento patch: custom address attributes display"
 labels: 2.4.0,2.4.0-p1,MQP 1.0.7,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches
 ---
 

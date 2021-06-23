@@ -1,5 +1,5 @@
 ---
-title: MDVA-31242 Magento patch: issue in exporting orders in CSV format
+title: "MDVA-31242 Magento patch: issue in exporting orders in CSV format"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,MQP 1.0.8,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches
 ---
 

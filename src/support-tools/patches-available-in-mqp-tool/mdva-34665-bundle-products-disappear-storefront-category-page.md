@@ -1,5 +1,5 @@
 ---
-title: MDVA-34665: bundle products disappear storefront category page
+title: "MDVA-34665: bundle products disappear storefront category page"
 labels: 2.3.4,2.3.4-p2,MQP 1.0.21,MQP patches,Magento Commerce,Magento Commerce Cloud,bundle product,category pages,indexers,missing products,stock status,store,support tools
 ---
 

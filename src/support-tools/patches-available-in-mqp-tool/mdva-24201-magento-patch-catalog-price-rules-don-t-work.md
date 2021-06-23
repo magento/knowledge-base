@@ -1,5 +1,5 @@
 ---
-title: MDVA-24201 Magento patch: catalog price rules don't work
+title: "MDVA-24201 Magento patch: catalog price rules don't work"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,MQP 1.0.14,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,catalog price rules,database,update
 ---
 

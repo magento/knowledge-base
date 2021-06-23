@@ -1,5 +1,5 @@
 ---
-title: MBI Training Video: Cohort Report Builder
+title: "MBI Training Video: Cohort Report Builder"
 labels: MBI,Magento Business Intelligence,analysis,database,date,how to,mbi-api-migration,reports
 ---
 

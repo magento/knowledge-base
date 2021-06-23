@@ -1,5 +1,5 @@
 ---
-title: MDVA-34928: checkout page error after store credit removed
+title: "MDVA-34928: checkout page error after store credit removed"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,cart,checkout,error,store credit,support tools
 ---
 

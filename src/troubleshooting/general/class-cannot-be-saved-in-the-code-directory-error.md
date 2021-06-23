@@ -1,5 +1,5 @@
 ---
-title: "Class cannot be saved in the code directory" error
+title: '"Class cannot be saved in the code directory" error'
 labels: Cloud,generated
 ---
 
@@ -135,4 +135,3 @@ class YourClass
 ## Related reading
 
 * [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) on Devdocs
-

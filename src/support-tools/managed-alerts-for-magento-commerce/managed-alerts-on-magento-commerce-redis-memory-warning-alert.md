@@ -1,5 +1,5 @@
 ---
-title: Managed alerts on Magento Commerce: Redis memory warning alert
+title: "Managed alerts on Magento Commerce: Redis memory warning alert"
 labels: Magento Commerce Cloud,New Relic,Pro,Redis,alert,memory,support tools,troubleshooting,warning
 ---
 

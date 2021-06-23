@@ -1,5 +1,5 @@
 ---
-title: MDVA-35847 Magento patch: Company User form not working
+title: "MDVA-35847 Magento patch: Company User form not working"
 labels: 2.4.1,2.4.1-p1,2.4.2,500 error,Company User,MQP 1.0.19,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,custom customer attribute,form
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice issue
+title: "Magento 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice issue"
 labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Venmo,known issues,orders,partial invoice
 ---
 

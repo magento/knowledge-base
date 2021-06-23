@@ -1,5 +1,5 @@
 ---
-title: SQL queries: EXPLAIN cost errors
+title: "SQL queries: EXPLAIN cost errors"
 labels: EXPLAIN cost,Magento Business Intelligence,troubleshooting
 ---
 

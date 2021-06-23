@@ -1,5 +1,5 @@
 ---
-title: MDVA-36253: Incorrect total in mini cart after deleting item
+title: "MDVA-36253: Incorrect total in mini cart after deleting item"
 labels: 2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,MQP 1.0.22,Magento Commerce Cloud,Magento Quality Patches,cart,support tools
 ---
 

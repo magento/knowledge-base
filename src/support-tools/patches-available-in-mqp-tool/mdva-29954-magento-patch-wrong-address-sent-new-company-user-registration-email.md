@@ -1,5 +1,5 @@
 ---
-title: MDVA-29954 Magento patch: wrong address sent new company user registration email
+title: "MDVA-29954 Magento patch: wrong address sent new company user registration email"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.1,B2B features,Companies Admin,MQP 1.0.8,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,New Company Registration Request,email address,sender email,user
 ---
 

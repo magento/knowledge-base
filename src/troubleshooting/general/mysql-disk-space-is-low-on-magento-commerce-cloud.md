@@ -17,8 +17,8 @@ Errors you may encounter:
 
 Galera:
 
-* *SQLSTATE\[08S01\]: Communication link failure: 1047 WSREP has not yet prepared node for application use*   *Import errors:* 
-* *SQLSTATE\[HY000\]: General error: 1180 Got error 5 "Input/output error"* 
+* *SQLSTATE\[08S01\]: Communication link failure: 1047 WSREP has not yet prepared node for application use*   *Import errors:*
+* *SQLSTATE\[HY000\]: General error: 1180 Got error 5 "Input/output error"*
 * *SQLSTATE\[08S01\]: Communication link failure: 1047 WSREP has not yet prepared node for application use*   
 
 Environment sync errors:
@@ -27,9 +27,9 @@ Environment sync errors:
 
 PHP errors:
 
-* *php: PDO::\_\_construct(): MySQL server has gone away.* 
-* *php errors: PDO::\_\_construct(): Error while reading greeting packet. PID=NNNN.* 
-* *ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)".* 
+* *php: PDO::\_\_construct(): MySQL server has gone away.*
+* *php errors: PDO::\_\_construct(): Error while reading greeting packet. PID=NNNN.*
+* *ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)".*
 
 Database errors:
 
@@ -43,12 +43,12 @@ Database errors:
 
 Deployment errors:
 
-* *E: Command '\['sudo', '-u', '<environment name>', 'bash', '-c', '/etc/platform/<environment name>/post\_deploy.sh'\]' returned non-zero exit status 255* 
-* *E: Command '\['ssh', u'<node IP address>', 'sudo /usr/bin/sv -w 30 restart site-<environment name>g-nginx'\]' returned non-zero* 
-* *Upgrading schema.. SQLSTATE\[HY000\]: General error: 1114 The table '<table\_name>' is full* 
-* *SQLSTATE\[HY000\]: General error: 3 Error writing file './<environment name>/\#* 
-* *W: <filename>' (Errcode: 28 "No space left on device")*  *Indexing errors (along with orphaned temporary .ibd files in /tmp):* 
-* *Catalog Rule indexer throws an exception. The temporary tables don't get cleaned up in the aftermath and then fill the disk on the current MySQL master node* 
+* *E: Command '\['sudo', '-u', '<environment name>', 'bash', '-c', '/etc/platform/<environment name>/post\_deploy.sh'\]' returned non-zero exit status 255*
+* *E: Command '\['ssh', u'<node IP address>', 'sudo /usr/bin/sv -w 30 restart site-<environment name>g-nginx'\]' returned non-zero*
+* *Upgrading schema.. SQLSTATE\[HY000\]: General error: 1114 The table '<table\_name>' is full*
+* *SQLSTATE\[HY000\]: General error: 3 Error writing file './<environment name>/\#*
+* *W: <filename>' (Errcode: 28 "No space left on device")*  *Indexing errors (along with orphaned temporary .ibd files in /tmp):*
+* *Catalog Rule indexer throws an exception. The temporary tables don't get cleaned up in the aftermath and then fill the disk on the current MySQL master node*
 
  <span class="wysiwyg-underline">Steps to reproduce</span> One of the ways you can check if the `/data/mysql` (or wherever MySQL data storage is configured) is full by running the following command in the CLI:
 
@@ -87,7 +87,7 @@ Filesystem Inodes   Used   Free Use% Mounted on
 
 Check that Use% is <70%. Inodes are correlated with files. If you remove files from the partition, you will free inodes.
 
-### Check and free up storage space
+<h3 id="check_and_free"> Check and free up storage space </h3>
 
 Check available storage space. For this, execute:
 

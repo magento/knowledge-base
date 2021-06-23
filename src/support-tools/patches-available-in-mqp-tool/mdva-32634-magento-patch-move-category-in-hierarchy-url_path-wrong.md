@@ -1,5 +1,5 @@
 ---
-title: MDVA-32634 Magento patch: move category in hierarchy url_path wrong
+title: "MDVA-32634 Magento patch: move category in hierarchy url_path wrong"
 labels: MQP 1.0.16,MQP patches,Magento Commerce,Magento Commerce Cloud,URL,catalog,category,data discrepancies,support tools
 ---
 

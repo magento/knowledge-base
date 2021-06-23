@@ -1,5 +1,5 @@
 ---
-title: MDVA-34695 Magento patch: Products and categories not displaying
+title: "MDVA-34695 Magento patch: Products and categories not displaying"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,MQP 1.0.18,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,catalog_category_entity,categories grid,children_count,display,products
 ---
 

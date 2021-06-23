@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 known issue: integration tests fail
+title: "Magento 2.4.0 known issue: integration tests fail"
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,dotdigital,integration tests,known issues,patch,troubleshooting
 ---
 
