@@ -1,5 +1,5 @@
 ---
-title: Sync data and files from Production to Staging or Staging to Integration
+title: Sync data and files Production to Staging or Staging to Integration
 labels: Magento Commerce Cloud,data,how to,production,staging,sync
 ---
 

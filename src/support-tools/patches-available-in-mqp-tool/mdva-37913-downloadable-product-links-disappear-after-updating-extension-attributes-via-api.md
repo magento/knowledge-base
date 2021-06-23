@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37913: Downloadable product links disappear after updating extension attributes via API"
+title: "MDVA-37913: Product download links vanish after updating extension attributes via API"
 labels: MQP patches,Magento Quality Patches,MDVA-37913,Magento 2.4.3,MQP tool 1.0.24,
 ---
 
