@@ -1,5 +1,5 @@
 ---
-title: Checking deployment log if the Cloud UI shows log snipped error
+title: Checking deployment log if the Cloud UI shows "log snipped" error
 labels: troubleshooting,deployment log error,Magento Commerce Cloud,log snipped,Cloud UI,manage log,
 ---
 
