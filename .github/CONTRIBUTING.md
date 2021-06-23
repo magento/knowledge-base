@@ -15,9 +15,9 @@ As you contribute PRs, you gain [Contribution Points](../docs/contribution-point
 
 ![Get started workflow](../docs/img/contributor_start.png)
 
-- Make sure you have a [GitHub account](https://github.com/signup/free).
-- [Fork](https://help.github.com/articles/fork-a-repo/) the [Support KB repository](https://github.com/magento/knowledge-base). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
-- Review the [Support KB guidelines below](#contribution-guidelines).
+* Make sure you have a [GitHub account](https://github.com/signup/free).
+* [Fork](https://help.github.com/articles/fork-a-repo/) the [Support KB repository](https://github.com/magento/knowledge-base). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
+* Review the [Support KB guidelines below](#contribution-guidelines).
 
 >**Note for partners:** Add [2FA](https://devdocs.magento.com/contributor-guide/contributing.html#two-factor) protection when contributing to Magento repositories.
 
@@ -29,27 +29,27 @@ The following diagram shows the contribution workflow:
 
 ### Create a branch
 
-- Create a new branch from your fork using a name that best describes the work or references a GitHub issue number.
-- Edit or create markdown (`.md`) files in your branch.
-- Push your branch to your fork.
+* Create a new branch from your fork using a name that best describes the work or references a GitHub issue number.
+* Edit or create markdown (`.md`) files in your branch.
+* Push your branch to your fork.
 
 ### Create a pull request
 
-- Create a pull request to the [magento/knowledge-base](https://github.com/magento/knowledge-base) repository. Use `main` as the base branch when creating a PR.
-- Complete the pull request providing the information listed in the template.
-   - **We will close your pull request if you do not provide the information described in the template.**
-- After creating a pull request, a Support KB staff member will review it and may ask you to make revisions.
-   - **We will close your pull request if you do not respond to feedback in two weeks.**
+* Create a pull request to the [magento/knowledge-base](https://github.com/magento/knowledge-base) repository. Use `main` as the base branch when creating a PR.
+* Complete the pull request providing the information listed in the template.
+  - **We will close your pull request if you do not provide the information described in the template.**
+* After creating a pull request, a Support KB staff member will review it and may ask you to make revisions.
+  - **We will close your pull request if you do not respond to feedback in two weeks.**
 
 >**Note:** If you have not signed the [Adobe Contributor License Agreement](https://opensource.adobe.com/cla.html), the pull request provides a link. You must sign the CLA before we can accept your contribution.
 
 ## General contribution guidelines
 
-- Review existing [pull requests](https://github.com/magento/knowledge-base/pulls) and [issues](https://github.com/magento/knowledge-base/issues) to avoid duplicating work.
-- For large contributions, or changes that include multiple files, [open an issue](#report-an-issue) and discuss it with us first. This helps prevent duplicate or unnecessary work.
-- Do not make global find-and-replace changes without first [creating an issue](https://github.com/magento/knowledge-base/issues/new/choose) and discussing it with us. Global changes can have unintended consequences.
-- Combine multiple small changes (_such as minor editorial and technical changes_) into a single pull request. This helps us efficiently and effectively facilitate your contribution.
-- Review your work for basic typos, formatting errors, or ambiguous sentences before opening a pull request.
+* Review existing [pull requests](https://github.com/magento/knowledge-base/pulls) and [issues](https://github.com/magento/knowledge-base/issues) to avoid duplicating work.
+* For large contributions, or changes that include multiple files, [open an issue](#report-an-issue) and discuss it with us first. This helps prevent duplicate or unnecessary work.
+* Do not make global find-and-replace changes without first [creating an issue](https://github.com/magento/knowledge-base/issues/new/choose) and discussing it with us. Global changes can have unintended consequences.
+* Combine multiple small changes (_such as minor editorial and technical changes_) into a single pull request. This helps us efficiently and effectively facilitate your contribution.
+* Review your work for basic typos, formatting errors, or ambiguous sentences before opening a pull request.
 
 ## Specific contribution guidelines
 
@@ -57,24 +57,24 @@ The following guidelines may answer most of your questions and help you get star
 
 ### Dos:
 
-- Write content using Markdown. See [Support KB formatting](../docs/guides/kb-formatting-guide.md) for details.
-- Please follow the style recommendations described in [Support KB Styleguide](../docs/guides/support-kb-styleguide.md).
-- Use [article templates](../docs/article-templates/) when adding new articles.
-- Follow the recommended file structure and file naming convention described further.
+* Write content using Markdown. See [Support KB formatting](../docs/guides/kb-formatting-guide.md) for details.
+* Please follow the style recommendations described in [Support KB Styleguide](../docs/guides/support-kb-styleguide.md).
+* Use [article templates](../docs/article-templates/) when adding new articles.
+* Follow the recommended file structure and file naming convention described further.
 
 ### Don'ts
 
-- Do not make changes to content in the Announcements and Support Tools folders.
-- Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
-- Do not remove/change the HTML formatting in Troubleshooters articles. 
-	- Examples:
-		- [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
-		- [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
+* Do not make changes to content in the Announcements and Support Tools folders.
+* Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
+* Do not remove/change the HTML formatting in Troubleshooters articles. 
+  - Examples:
+    + [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
+    + [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
 
 ## File structure
 
-All `.md` files should go to sections folders, nested in category folders under the "src" folder.
-All images and any other attachments should go to "assets" folders inside the section folders.
+* All `.md` files should go to sections folders, nested in category folders under the "src" folder.
+* All images and any other attachments should go to "assets" folders inside the section folders.
 
 ### Article files naming convention
 
@@ -84,17 +84,17 @@ All file and folder names must be lower cased with "-" in between all words. Fil
 
 If you add images to your articles, please follow this convention to name your image files:
 
-- Specify version of the product which is represented on the screenshot. If it is not Magento Commerce, add name of the product to the file name.
-- Relay what is being captured by the image, for example a screenshot of Magento Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
-- Lower case.
-- Words should be separated by hyphen "-", not underscore "_".
-- Use existing naming patterns. Check the existing file names under /assets folders as an example.
+* Specify version of the product which is represented on the screenshot. If it is not Magento Commerce, add name of the product to the file name.
+* Relay what is being captured by the image, for example a screenshot of Magento Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
+* Lower case.
+* Words should be separated by hyphen "-", not underscore "_".
+* Use existing naming patterns. Check the existing file names under /assets folders as an example.
 
 ### Metadata
 
 The Markdown (`.md`) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
 
-```
+```yaml
 ---
 title:
 labels:
