@@ -21,6 +21,7 @@ Magento Commerce and Magneto Commerce Cloud 2.4.1-2.4.2-p1
 Gift card amount is missing from the order total response.
 
 <ins>Prerequisites</ins>:
+
 1. Create a customer account.
 1. Place an order using a gift card (gift card covers entire order).
 
