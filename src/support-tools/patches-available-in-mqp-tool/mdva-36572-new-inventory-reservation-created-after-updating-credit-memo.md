@@ -21,10 +21,10 @@ Credit Memo reservation update observer is triggered every time the credit memo 
 <ins>Steps to reproduce</ins>:
 
 1. Create customer account.
-2. Create simple product.
-3. Create new order, invoice and credit memo for the order.
-4. Create new Integration.
-5. Check inventory_reservation table:
+1. Create simple product.
+1. Create new order, invoice and credit memo for the order.
+1. Create new Integration.
+1. Check inventory_reservation table:
 ```SQL
 select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
@@ -35,8 +35,8 @@ select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
 2 rows in set (0.00 sec)
 ```
-6. Send GET request to: `../rest/default/V1/creditmemo/3`
-7. Copy response (in my case):
+   1. Send GET request to: `../rest/default/V1/creditmemo/3`
+   1. Copy response (in my case):
 ```JSON
 {
     "adjustment": 0,
@@ -111,8 +111,7 @@ select * from inventory_reservation;
     "comments": []
 }
 ```
-8. Send POST request to:
-`../rest/default/V1/creditmemo`
+  1. Send POST request to: `../rest/default/V1/creditmemo`
 ```JSON
 {
     "entity":
@@ -124,7 +123,7 @@ select * from inventory_reservation;
 >Note:
 such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 
-9. Check inventory_reservation table:
+1. Check inventory_reservation table:
 
 <ins>Actual results</ins>:
 ```sql
@@ -144,7 +143,6 @@ select * from inventory_reservation;
 
 
 No second reservation for the same credit memo is created.
-
 
 ## Apply the patch
 
