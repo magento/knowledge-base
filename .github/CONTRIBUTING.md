@@ -67,9 +67,9 @@ The following guidelines may answer most of your questions and help you get star
 * Do not make changes to content in the Announcements and Support Tools folders.
 * Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
 * Do not remove/change the HTML formatting in Troubleshooters articles.
-   * Examples:
-      * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
-      * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
+    * Examples:
+        * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
+        * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
 
 ## File structure
 
