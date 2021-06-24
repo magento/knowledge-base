@@ -1,5 +1,5 @@
 ---
-title: "Bi-weekly Magento Support KB Newsletter: new article and updates"
+title: "Bi-weekly Magento Support KB Newsletter: new articles and updates"
 labels: announcements,help center,newsletter,published,update,what's new
 ---
 
