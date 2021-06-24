@@ -2,7 +2,7 @@
 title: "MDVA-36572: New inventory reservation created after updating credit memo"
 labels: MQP Patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.25,Magento Commerce Cloud,Magento Commerce,2.4.1,2.3.5-p1,2.3.5-p2,2.4.0,2.3.6,2.4.0-p1,2.4.1,2.3.6-p1,2.4.1-p1,2.4.2,2.3.7,2.4.2-p1
 ---
-The MDVA-36572 Magento patch fixes the issue where ***new inventory reservation created after updating credit memo.*** This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Magento  2.4.4.
+The MDVA-36572 Magento patch fixes the issue where ***new inventory reservation created after updating credit memo.*** This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
@@ -16,18 +16,17 @@ Magento Commerce and Magneto Commerce Cloud 2.3.5-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-***Credit Memo reservation update observer was triggered every time the credit memo was updated. As per agreement with PO, changed the logic of reservation update to only be triggered upon the credit memo create. The possibility of the credit memo edits over API will be reviewed by PO as well in the sope of the separate tickets.***
+Credit Memo reservation update observer was triggered every time the credit memo was updated. As per agreement with PO, changed the logic of reservation update to only be triggered upon the credit memo create. The possibility of the credit memo edits over API will be reviewed by PO as well in the scope of the separate tickets.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create customer account
-1. Create simple product
-1. Create new order, invoice and credit memo for this order
-1. Create new Integration
-1. Check inventory_reservation table:
+1. Create customer account.
+2. Create simple product.
+3. Create new order, invoice and credit memo for the order.
+4. Create new Integration.
+5. Check inventory_reservation table:
 ```sql
-
-mysql> select * from inventory_reservation;
+select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
 | reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
@@ -36,10 +35,9 @@ mysql> select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
 2 rows in set (0.00 sec)
 ```
-1. Send GET request to: `../rest/default/V1/creditmemo/3`
-1. Copy response, in my case:
-
-```sql
+6. Send GET request to: `../rest/default/V1/creditmemo/3`
+7. Copy response (in my case):
+```JSON
 {
     "adjustment": 0,
     "adjustment_negative": 0,
@@ -113,9 +111,9 @@ mysql> select * from inventory_reservation;
     "comments": []
 }
 ```
-1. Send POST request to:
+8. Send POST request to:
 `../rest/default/V1/creditmemo`
-```sql
+```JSON
 {
     "entity":
         --past full response from previous step here--
@@ -126,12 +124,12 @@ mysql> select * from inventory_reservation;
 >Note:
 such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 
-1. Check inventory_reservation table:
+9. Check inventory_reservation table:
 
 <ins>Actual results</ins>:
 ```sql
 
-mysql> select * from inventory_reservation;
+select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
 | reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
@@ -143,7 +141,9 @@ mysql> select * from inventory_reservation;
 ```
 
 <ins>Expected results</ins>:  
-***we should not create a second reservation for the same credit memo***
+
+
+No second reservation for the same credit memo.
 
 
 ## Apply the patch
