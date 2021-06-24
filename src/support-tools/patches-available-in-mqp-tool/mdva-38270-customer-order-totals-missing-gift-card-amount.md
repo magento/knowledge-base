@@ -18,7 +18,7 @@ Magento Commerce and Magneto Commerce Cloud 2.4.1-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-Gift card amount is missing from the order total responses.
+Gift card amount is missing from the order total response.
 
 <ins>Prerequisites</ins>:
 1. Create a customer account.
