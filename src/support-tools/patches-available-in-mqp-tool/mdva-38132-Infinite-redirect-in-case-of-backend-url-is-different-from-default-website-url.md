@@ -1,6 +1,6 @@
 ---
 title: "MDVA-38132: Infinite redirect when backend URL is different from default website URL"
-labels:
+labels: MQP Patches,Magento Quality Patches,Support Tools,MQP 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.3,2.3.3-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.3.6,2.4.0-p1,2.4.1,2.3.6-p1,2.4.1-p1,2.4.2,2.3.7,2.4.2-p1
 ---
 
 The MDVA-38132 Magento patch fixes the issue of infinite redirect when the backend URL is different from the default website URL. This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
@@ -10,14 +10,13 @@ The MDVA-38132 Magento patch fixes the issue of infinite redirect when the backe
 **The patch is created for Magento version:**
 Magento Commerce Cloud 2.3.4-p2
 **Compatible with Magento versions:**
-Magento Commerce and Magneto Commerce Cloud 2.3.0-2.4.2-p1
+Magento Commerce and Magneto Commerce Cloud 2.3.3-2.4.2-p1
 >![info]
 >
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-Infinite redirects ***no longer occur when the Admin URL is different from the default website URL*** in deployments where Magento is configured to be accessible from two URLs.
-
+Magento Admin panel has an infinite redirect when the backend URL is different from the default website URL
 
 <ins>Prerequisites</ins>:
 
@@ -29,7 +28,7 @@ Infinite redirects ***no longer occur when the Admin URL is different from the d
 1. Go to Admin Panel > **Stores** > **Configuration** > **Web.**
 1. Leave original Base URL in global configuration. It's your URL1.
 1. Switch to Main Website scope.
-1. Change Base URL to a different URL (see preconditions to setup web server correctly). This is your URL2.
+1. Change Base URL to a different URL (see preconditions to set up web server correctly). This is your URL2.
 1. Clear cache (if necessary and possible).
 1. Open Admin Panel.
 
