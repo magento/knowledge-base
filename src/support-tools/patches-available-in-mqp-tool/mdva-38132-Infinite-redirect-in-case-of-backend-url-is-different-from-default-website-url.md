@@ -3,7 +3,7 @@ title: "MDVA-38132: Infinite redirect when backend URL is different from default
 labels: MQP Patches,Magento Quality Patches,Support Tools,MQP 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.3,2.3.3-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.3.6,2.4.0-p1,2.4.1,2.3.6-p1,2.4.1-p1,2.4.2,2.3.7,2.4.2-p1
 ---
 
-The MDVA-38132 Magento patch fixes the issue of infinite redirect when the backend URL is different from the default website URL. This patch is available when the Magento Quality Patch (MQP) tool 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-38132 Magento patch fixes the issue of infinite redirect when the backend URL is different from the default website URL. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
@@ -16,7 +16,7 @@ Magento Commerce and Magneto Commerce Cloud 2.3.3-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-Magento Admin panel has an infinite redirect when the backend URL is different from the default website URL
+Magento Admin panel has an infinite redirect when the backend URL is different from the default website URL.
 
 <ins>Prerequisites</ins>:
 
@@ -38,7 +38,7 @@ Admin Panel is successfully opened and can be navigated. Main Website's store is
 
 <ins>Actual results</ins>:
 
-Infinite redirect happens. Magento redirects from URL1 to URL2 and back again.
+Infinite redirect happens. Magento redirects from URL1 to URL2 and continues back and forth.
 
 ## Apply the patch
 
