@@ -40,7 +40,6 @@ After the payment is processed and the payment is successful, you are redirected
 
 * You are NOT redirected to the Order Confirmation page.
 * But the order has been created in Magento.
-* No payment error means the payment was successful.
 
 ## Apply the patch
 
