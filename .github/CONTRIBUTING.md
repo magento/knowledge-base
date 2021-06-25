@@ -71,7 +71,7 @@ The following guidelines may answer most of your questions and help you get star
 * Please follow the style recommendations described in [Support KB Styleguide](../docs/guides/support-kb-styleguide.md).
 * Use [article templates](../docs/article-templates/) when adding new articles.
 * Follow the recommended file structure and file naming convention described further.
-* Test your changes & additions for [linting errors](#testing) before creating a pull request - this will save time and effort as errors will cause the automatic checks to fail and will need fixing before the PR can be merged.
+* Test your changes & additions for [linting errors](#testing) before creating a pull request - this will save time and effort as errors will cause the automatic checks to fail and will need fixing before the pull request can be merged.
 
 ### Don'ts
 
