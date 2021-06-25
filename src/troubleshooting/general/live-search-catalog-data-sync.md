@@ -22,7 +22,7 @@ Your catalog data is not synchronized correctly or a new product was added but i
 Or
 
 1. Add a new product to catalog.
-1.. After 8 hours, try running a search query using product name or other searchable attributes.
+1. After 8 hours, try running a search query using product name or other searchable attributes.
 
 <ins>Expected result</ins>
 
