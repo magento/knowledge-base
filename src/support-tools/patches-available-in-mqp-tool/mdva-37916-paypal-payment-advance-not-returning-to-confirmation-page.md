@@ -34,7 +34,7 @@ The customer is not taken to the Payment Confirmation page after payment when us
 
 <ins>Expected results</ins>:  
 
-After the payment is processed (and no payment error is recorded), you are redirected to the Order Confirmation page.
+After the payment is processed and the payment is successful, you are redirected to the Order Confirmation page.
 
 <ins>Actual results</ins>:
 
