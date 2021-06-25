@@ -11,18 +11,24 @@ This article provides solutions for the Adobe Commerce issue where your catalog 
 
 ## Issue
 
-Your catalog data is not synchronized correctly.
+Your catalog data is not synchronized correctly or a new product was added but is not appearing in search results.
 
 <ins>Steps to reproduce</ins>
 
 1. Configure and connect Live Search for your Adobe Commerce instance as described in [Configure and Connect](https://devdocs-beta.magento.com/live-search/config-connect.html) in Adobe Commerce Development Documentation.
-1. Verify the exported catalog data as described in [Configure and Connect > Verify catalog sync](https://devdocs-beta.magento.com/live-search/config-connect.html#verify-catalog-sync).
-1. Test the connection as described in [Configure and Connect > Test the connection](https://devdocs-beta.magento.com/live-search/config-connect.html#test-the-connection).
+1. After 8 hours, verify the exported catalog data as described in [Configure and Connect > Verify catalog sync](https://devdocs-beta.magento.com/live-search/config-connect.html#verify-catalog-sync).
+1. After 8 hours, test the connection as described in [Configure and Connect > Test the connection](https://devdocs-beta.magento.com/live-search/config-connect.html#test-the-connection).
+
+Or
+
+1. Add a new product to catalog.
+2. After 8 hours, try running a search query using product name or other searchable attributes.
 
 <ins>Expected result</ins>
 
 * Exported catalog data can be verified
 * Connection is successful
+* New product appears in search results.
 
 <ins>Actual result</ins>
 
@@ -31,6 +37,10 @@ Exported catalog cannot be verified and/or connection is not established because
 ## Solution
 
 There are several things you might do to try and fix the catalog syncing issues.
+
+### Wait for changes to be applied
+
+Once you configure and connect, it can take over 8 hours for the index in ES to be created and search results to be returned (same timeframe is also true for delta updates as of now, but will be improved in future).
 
 ### Sync product data for a specific SKU
 
@@ -88,7 +98,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 
 ### Sync after API configuration change
 
-(Known issue) If you have changed your API configuration, that is, changed your API Key or _SaaS Identifier+ (project / data space) and find that your catalog changes are no longer syncing, do the following:
+(Known issue) If you have changed your API configuration, which results in a change in your Data Space ID and find that your catalog changes are no longer syncing, do the following:
 
 1. Run the following queries to clear the export-related table:
     ```sql
