@@ -29,16 +29,16 @@ The following diagram shows the contribution workflow:
 
 ### Create a branch
 
-* Create a new branch from your fork using a name that best describes the work or references a GitHub issue number.
-* Edit or create markdown (`.md`) files in your branch.
-* Push your branch to your fork.
+1. Create a new branch from your fork using a name that best describes the work or references a GitHub issue number.
+2. Edit or create markdown (`.md`) files in your branch.
+3. Push your branch to your fork.
 
 ### Create a pull request
 
-* Create a pull request to the [magento/knowledge-base](https://github.com/magento/knowledge-base) repository. Use `main` as the base branch when creating a PR.
-* Complete the pull request providing the information listed in the template.
+1. Create a pull request to the [magento/knowledge-base](https://github.com/magento/knowledge-base) repository. Use `main` as the base branch when creating a PR.
+2. Complete the pull request providing the information listed in the template.
     * **We will close your pull request if you do not provide the information described in the template.**
-* After creating a pull request, a Support KB staff member will review it and may ask you to make revisions.
+3. After creating a pull request, a Support KB staff member will review it and may ask you to make revisions.
     * **We will close your pull request if you do not respond to feedback in two weeks.**
 
 >**Note:** If you have not signed the [Adobe Contributor License Agreement](https://opensource.adobe.com/cla.html), the pull request provides a link. You must sign the CLA before we can accept your contribution.
