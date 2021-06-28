@@ -11,7 +11,7 @@ This article provides a solution for the issue where the release of laminas/lami
 
 ## Issue
 
-After the update to laminas-escaper 2.7.1 an error message is displayed on the product edit (or product management) page.
+After the update to laminas/laminas-escaper:2.7.1 an error message is displayed on the page.
 
 <u>Steps to reproduce</u>:
 
