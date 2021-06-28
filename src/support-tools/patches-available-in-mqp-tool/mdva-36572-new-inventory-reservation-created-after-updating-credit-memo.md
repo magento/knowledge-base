@@ -25,62 +25,62 @@ Magento Commerce and Magneto Commerce Cloud 2.3.5-2.4.2-p1
 1. Create new order, invoice and credit memo for the order.
 1. Create new Integration.
 1. Check inventory_reservation table:
-```SQL
-select * from inventory_reservation;
-+----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
-| reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |
-+----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
-|              1 |        1 | simple_1 |  -1.0000 | {"event_type":"order_placed","object_type":"order","object_id":"","object_increment_id":"000000001"}        |
-|              2 |        1 | simple_1 |   1.0000 | {"event_type":"creditmemo_created","object_type":"order","object_id":"1","object_increment_id":"000000001"} |
-+----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
-2 rows in set (0.00 sec)
-```
+    ```SQL
+       select * from inventory_reservation;
+       +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
+       | reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |
+       +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
+       |              1 |        1 | simple_1 |  -1.0000 | {"event_type":"order_placed","object_type":"order","object_id":"","object_increment_id":"000000001"}        |
+       |              2 |        1 | simple_1 |   1.0000 | {"event_type":"creditmemo_created","object_type":"order","object_id":"1","object_increment_id":"000000001"} |
+       +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
+       2 rows in set (0.00 sec)
+    ```
 1. Send GET request to: `../rest/default/V1/creditmemo/3`
 1. Copy response (in my case):
-```JSON
-{
-    "adjustment": 0,
-    "adjustment_negative": 0,
-    "adjustment_positive": 0,
-    "base_adjustment": 0,
-    "base_adjustment_negative": 0,
-    "base_adjustment_positive": 0,
-    "base_currency_code": "USD",
-    "base_discount_amount": 0,
-    "base_grand_total": 105,
-    "base_discount_tax_compensation_amount": 0,
-    "base_shipping_amount": 5,
-    "base_shipping_incl_tax": 5,
-    "base_shipping_tax_amount": 0,
-    "base_subtotal": 100,
-    "base_subtotal_incl_tax": 100,
-    "base_tax_amount": 0,
-    "base_to_global_rate": 1,
-    "base_to_order_rate": 1,
-    "billing_address_id": 2,
-    "created_at": "2021-04-05 23:43:45",
-    "discount_amount": 0,
-    "entity_id": 1,
-    "global_currency_code": "USD",
-    "grand_total": 105,
-    "discount_tax_compensation_amount": 0,
-    "increment_id": "000000001",
-    "order_currency_code": "USD",
-    "order_id": 1,
-    "shipping_address_id": 1,
-    "shipping_amount": 5,
-    "shipping_incl_tax": 5,
-    "shipping_tax_amount": 0,
-    "state": 2,
-    "store_currency_code": "USD",
-    "store_id": 1,
-    "store_to_base_rate": 0,
-    "store_to_order_rate": 0,
-    "subtotal": 100,
-    "subtotal_incl_tax": 100,
-    "tax_amount": 0,
-    "updated_at": "2021-04-05 23:43:45",
-    "items": [
+   ```JSON
+       {
+       "adjustment": 0,
+       "adjustment_negative": 0,
+       "adjustment_positive": 0,
+       "base_adjustment": 0,
+       "base_adjustment_negative": 0,
+       "base_adjustment_positive": 0,
+       "base_currency_code": "USD",
+       "base_discount_amount": 0,
+       "base_grand_total": 105,
+       "base_discount_tax_compensation_amount": 0,
+       "base_shipping_amount": 5,
+       "base_shipping_incl_tax": 5,
+       "base_shipping_tax_amount": 0,
+       "base_subtotal": 100,
+       "base_subtotal_incl_tax": 100,
+       "base_tax_amount": 0,
+       "base_to_global_rate": 1,
+       "base_to_order_rate": 1,
+       "billing_address_id": 2,
+       "created_at": "2021-04-05 23:43:45",
+       "discount_amount": 0,
+       "entity_id": 1,
+       "global_currency_code": "USD",
+       "grand_total": 105,
+       "discount_tax_compensation_amount": 0,
+       "increment_id": "000000001",
+       "order_currency_code": "USD",
+       "order_id": 1,
+       "shipping_address_id": 1,
+       "shipping_amount": 5,
+       "shipping_incl_tax": 5,
+       "shipping_tax_amount": 0,
+       "state": 2,
+       "store_currency_code": "USD",
+       "store_id": 1,
+       "store_to_base_rate": 0,
+       "store_to_order_rate": 0,
+       "subtotal": 100,
+       "subtotal_incl_tax": 100,
+       "tax_amount": 0,
+       "updated_at": "2021-04-05 23:43:45",
+       "items": [
         {
             "base_cost": null,
             "base_discount_tax_compensation_amount": 0,
@@ -107,20 +107,20 @@ select * from inventory_reservation;
             "weee_tax_applied_row_amount": 0,
             "weee_tax_row_disposition": 0
         }
-    ],
-    "comments": []
-}
-```
+       ],
+       "comments": []
+      }
+    ```
 1. Send POST request to: `../rest/default/V1/creditmemo`
-```JSON
-{
-    "entity":
+   ```JSON
+       {
+       "entity":
         --past full response from previous step here--
-}
-```
->![info]
->
->Note:
+       }
+   ```
+      >![info]
+      >
+    >Note:
 such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 
 1. Check inventory_reservation table:
