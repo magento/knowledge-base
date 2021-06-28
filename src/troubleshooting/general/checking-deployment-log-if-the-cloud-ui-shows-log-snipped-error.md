@@ -10,7 +10,7 @@ Magento Commerce Cloud
 
 ## Issue
 
-When trying to view deployment log, Cloud UI shows *log snipped because it was too long* message.
+When trying to view deployment log, Cloud UI shows the message: *log snipped because it was too long.*
 
 Steps to reproduce:  
 
