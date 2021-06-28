@@ -15,7 +15,7 @@ After the update to laminas/laminas-escaper:2.7.1 an error message is displayed 
 
 <u>Steps to reproduce</u>:
 
-Update laminas-escaper to 2.7.1.
+Update laminas/laminas-escaper to 2.7.1.
 
 <u>Expected result</u>:
 
