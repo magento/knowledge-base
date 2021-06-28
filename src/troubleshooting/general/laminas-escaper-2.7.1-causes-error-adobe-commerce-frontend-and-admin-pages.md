@@ -13,15 +13,15 @@ This article provides a solution for the issue where the release of laminas/lami
 
 After the update to laminas/laminas-escaper:2.7.1 an error message is displayed on the page.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 Update laminas/laminas-escaper to 2.7.1.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 No error.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
 After update to laminas/laminas-escaper:2.7.1 an error message is displayed on a product edit (or product management) page: *TypeError: rawurlencode() expects parameter 1 to be string, int given in /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246*
 This error occurs on the frontend and Admin pages causing the content of the page to be distorted.
