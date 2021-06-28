@@ -35,8 +35,8 @@ select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
 2 rows in set (0.00 sec)
 ```
-   1. Send GET request to: `../rest/default/V1/creditmemo/3`
-   1. Copy response (in my case):
+1. Send GET request to: `../rest/default/V1/creditmemo/3`
+1. Copy response (in my case):
 ```JSON
 {
     "adjustment": 0,
@@ -111,7 +111,7 @@ select * from inventory_reservation;
     "comments": []
 }
 ```
-  1. Send POST request to: `../rest/default/V1/creditmemo`
+1. Send POST request to: `../rest/default/V1/creditmemo`
 ```JSON
 {
     "entity":
