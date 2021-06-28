@@ -28,7 +28,7 @@ This error occurs on the frontend and Admin pages causing the content of the pag
 
 ## Cause
 
-laminas/laminas-escaper 2.7.1 uses strict types and this breaks the magento framework escaper.
+laminas/laminas-escaper 2.7.1 started using strict type validation for the Escaper class.
 
 ## Solution
 
