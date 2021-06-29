@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37182: inconsistent search results for ElasticSearch 6 and 7"
+title: "MDVA-37182: inconsistent search results in ElasticSearch 6 and 7"
 labels: 2.4.1,2.4.1-p1,2.4.2,Elasticsearch version,MQP 1.0.22,Magento Quality Patches,search,support tools
 ---
 
@@ -19,7 +19,7 @@ The MDVA-37182 Magento patch fixes the issue with inconsistent search behavior a
 
 Inconsistent search behavior.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Create products with the following details:
     * Names:  "5127AC", "5127SS", "5127AB"
@@ -31,11 +31,11 @@ Inconsistent search behavior.
 1. Run full reindex.
 1. On the storefront, search for "5127s".
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 ES6: search returns no results.ES7: search returns three products.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 Search returns one product for both versions.
 
