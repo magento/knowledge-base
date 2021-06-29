@@ -1,5 +1,5 @@
 ---
-title: "Magento 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice issue"
+title: "Magento 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice"
 labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Venmo,known issues,orders,partial invoice
 ---
 
@@ -12,24 +12,24 @@ This article describes a known Magento Commerce 2.4.0 and 2.4.1 issue, where par
 
 ## Issue
 
- <span class="wysiwyg-underline">Preconditions:</span> 
+ <span class="wysiwyg-underline">Preconditions:</span>
 
 In the Braintree payment method configuration, set **Enable Venmo through Braintree** = *Yes* with **Payment Action** = *Authorization* ; **Enable Vault for Card Payments** = *No* .
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Create an order for two or more products, using Venmo (Braintree) as a payment method.
 1. Open the order in Magento Admin.
 1. Create an invoice for one of the ordered products.
 1. Try to create invoice for the rest ordered products.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 Invoice created.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
-The following error message is displayed: *The "vault\_capture" command doesn't exist. Verify the command and try again.* 
+The following error message is displayed: *The "vault\_capture" command doesn't exist. Verify the command and try again.*
 
 ## Workaround
 
