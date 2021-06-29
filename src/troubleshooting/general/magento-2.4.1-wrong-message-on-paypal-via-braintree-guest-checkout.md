@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.1 wrong message on Paypal via Braintree guest checkout
+title: Magento 2.4.1: wrong message on PayPal-Braintree guest checkout
 labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PayPal,cart,guest checkout,known issues
 ---
 
@@ -46,6 +46,5 @@ The customer is redirected to the Shopping Cart page and shows the following mes
 The workaround for this issue is the customer can log in at a store instead (Logged-in users do not use guest checkout.) where guest checkout is disabled.This issue is scheduled to be resolved in Magento version 2.4.2, which is scheduled for release in Q1 1. \#\# Related reading
 
 * [Best practice for number of products in cart in Magento](https://support.magento.com/hc/en-us/articles/360048550332)
-* DevDocs [Order processing tutorial: Step 1. Add items to the cart](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) 
-* DevDocs [GraphQL checkout tutorial: Step 1. Add products to the cart](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) 
-
+* DevDocs [Order processing tutorial: Step 1. Add items to the cart](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html)
+* DevDocs [GraphQL checkout tutorial: Step 1. Add products to the cart](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html)
