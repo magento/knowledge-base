@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.1: wrong message on PayPal-Braintree guest checkout
+title: "Magento 2.4.1: wrong message on PayPal-Braintree guest checkout"
 labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,PayPal,cart,guest checkout,known issues
 ---
 
