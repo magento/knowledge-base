@@ -9,6 +9,7 @@ The MDVA-38132 Magento patch fixes the issue of infinite redirect when the backe
 
 **The patch is created for Magento version:**
 Magento Commerce Cloud 2.3.4-p2
+
 **Compatible with Magento versions:**
 Magento Commerce and Magneto Commerce Cloud 2.3.3-2.4.2-p1
 >![info]
