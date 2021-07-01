@@ -115,7 +115,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
    ```JSON
        {
        "entity":
-        --past full response from previous step here--
+        --paste full response from previous step here--
        }
    ```
       >![info]
