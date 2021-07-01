@@ -1,9 +1,9 @@
 ---
-title: "MDVA-38270: Gift card amounts missing from Customer Order Total"
+title: "MDVA-38270: Gift card amount missing from Customer Order Total"
 labels: MQP Patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.25,Magento Commerce Cloud,Magento Commerce,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-38270 Magento patch fixes the issue where gift card amount is not found in Customer Order Total. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-38270. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-38270 Magento patch fixes the issue when the gift card amount is not found in the Customer Order Total. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-38270. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
