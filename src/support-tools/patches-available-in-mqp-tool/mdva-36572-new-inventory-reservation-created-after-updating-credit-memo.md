@@ -16,7 +16,7 @@ Magento Commerce and Magneto Commerce Cloud 2.3.5-2.4.2-p1
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-Credit Memo reservation update observer is triggered every time the credit memo is updated. As per agreement with PO, changed the logic of reservation update to only be triggered upon the credit memo create. The possibility of the credit memo edits over API will be reviewed by PO as well in the scope of the separate tickets.
+Credit Memo reservation update observer is triggered every time the credit memo is updated. As per agreement with PO changed the logic of reservation update to only be triggered upon the credit memo created. The possibility of the credit memo edits over API will be reviewed by PO as well in the scope of separate tickets.
 
 <ins>Steps to reproduce</ins>:
 
