@@ -3,7 +3,7 @@ title: "MDVA-37916: PayPal Payments Advanced not returning to confirmation page"
 labels: MQP patches,Magento Quality Patches,Support Tools,MDVA-37916,MQP fixes,Magento Commerce,Magento Commerce Cloud,MQP 1.0.25,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-37916 Magento patch fixes the issue when the PayPal Payments Advanced does not return to the confirmation page after payment. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+The MDVA-37916 Magento patch fixes the issue of PayPal Payments Advanced not returning to the confirmation page after payment. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
@@ -23,14 +23,14 @@ The customer is not taken to the Payment Confirmation page after payment when us
 
 <ins>Steps to reproduce: [Screencast](https://assets.adobe.com/public/025d479b-5796-4772-6f3d-adc86306a799)</ins>
 
-* Add product to cart and navigate to the payment step of the checkout page.
-* Select **Credit Card (Payflow Advanced)** payment option.
-* Click **Continue** to bring up the iframe with the payment form.
-* Fill the payment form with sandbox credit card details.
+1. Add product to cart and navigate to the payment step of the checkout page.
+1. Select **Credit Card (Payflow Advanced)** payment option.
+1. Click **Continue** to bring up the iframe with the payment form.
+1. Fill the payment form with sandbox credit card details.
     * Card number: 4444 3333 2222 1111 or 4111 1111 1111 1111
     * Expiration date: 12/23
     * CSC: 123
-* Click **Pay Now.**
+1. Click **Pay Now.**
 
 <ins>Expected results</ins>:  
 
