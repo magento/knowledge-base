@@ -168,27 +168,27 @@ Use [HTML formatting for tables](https://www.w3schools.com/html/html_tables.asp)
 
 Success note block:
 ```
->![SUCCESS]
+>![success]
 >
 >This is a success note
 ```
 Warning block:
 ```
->![WARNING]
+>![warning]
 >
 >This is a warning
 ```
 
 Info note block:
 ```
->![INFO]
+>![info]
 >
 >This is a block with additional info
 ```
 
 Error note block:
 ```
->![ERROR]
+>![error]
 >
 >This is a block with additional info
 ```
