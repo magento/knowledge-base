@@ -1,9 +1,9 @@
 ---
-title: MDVA-38468: Error when saving CMS pages
-labels: MQP patches,Magento Quality Patches,
+title: "MDVA-38468: Error when saving CMS pages"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2
 ---
 
-The MDVA-38468 Magento patch fixes the issue of ***error when saving CMS pages.*** This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Magento 2.3.6.
+The MDVA-38468 Magento patch fixes the error that prevents you from saving CMS pages. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Magento 2.3.6.
 
 ## Affected products and versions
 
@@ -19,7 +19,7 @@ Magento Commerce and Magneto Commerce Cloud 2.3.2-2.3.5-p2
 
 ## Issue
 
-Error when saving CMS pages - Item with the same ID 'PAGE_ID' already exists.
+When trying to save CMS pages, the following error message  pops up: *Item with the same ID 'PAGE_ID' already exists.*
 
 <ins>Steps to reproduce</ins>:
 
