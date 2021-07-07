@@ -31,7 +31,7 @@ Incorrect tax rate is displayed on Checkout Page when the Shopping Cart has only
 
 1. Create a customer.
 1. Add different billing and shipping addresses.
-1. Add virtual product to the cart.
+1. Add a virtual product to the cart.
 1. Check the Cart and Checkout Page.
 
 <ins>Expected results</ins>:
