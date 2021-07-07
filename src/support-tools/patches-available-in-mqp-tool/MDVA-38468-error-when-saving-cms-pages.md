@@ -1,9 +1,9 @@
 ---
-title: "MDVA-38468: Error when saving CMS pages"
+title: "MDVA-38468: Receive an error message when saving CMS page"
 labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2
 ---
 
-The MDVA-38468 Magento patch fixes the error that prevents you from saving CMS pages. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Magento 2.3.6.
+The MDVA-38468 Magento patch fixes the issue where users receive an error message when saving a CMS page. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Magento 2.3.6.
 
 ## Affected products and versions
 
@@ -19,7 +19,7 @@ Magento Commerce and Magneto Commerce Cloud 2.3.2-2.3.5-p2
 
 ## Issue
 
-When trying to save CMS pages, the following error message  pops up: *Item with the same ID 'PAGE_ID' already exists.*
+When trying to save a CMS page, you receive the following error message: *Item with the same ID "GE_ID" already exists.*
 
 <ins>Steps to reproduce</ins>:
 
@@ -27,16 +27,16 @@ When trying to save CMS pages, the following error message  pops up: *Item with 
 1. Create one more website+store+storeview.
 1. Go to Content -> Hierarchy -> Add any existing CMS page to hierarchy tree.
 1. Go to Content -> Pages -> Add new Page:
-  * add any title
-  * in "Page in Websites" section assign to both created storeviews
-  * in "Hierarchy" section assign to any category
-  * Save and continue edit
+  * Add any title.
+  * In "Page in Websites" section assign to both created storeviews.
+  * In "Hierarchy" section assign to any category.
+  * Save and continue edit.
 
 <ins>Expected results</ins>:
-The page is saved without errors.
+The page is saved without any error.
 
 <ins>Actual results</ins>:
-The page saved, but you get the following error message: *Item (Magento\VersionsCms\Model\Hierarchy\Node) with the same ID "PAGE_ID" already exists"*
+The page is saved, but you get the following error message: *Item (Magento\VersionsCms\Model\Hierarchy\Node) with the same ID "PAGE_ID" already exists"*
 
 ## Apply the patch
 
