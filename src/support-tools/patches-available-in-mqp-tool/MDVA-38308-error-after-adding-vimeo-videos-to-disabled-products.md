@@ -1,6 +1,6 @@
 ---
 title: "MDVA-38308: Error after adding Vimeo videos to disabled products"
-labels: MQP patches,Magento Quality Patches,
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP fixes,Magento Commerce,Magento Commerce Cloud,MQP 1.0.26,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
 The MDVA-38308 Magento patch fixes the issue for the error after adding Vimeo videos to disabled products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-38308. Please note that the issue is scheduled to be fixed in Magento  2.4.4.
@@ -23,11 +23,12 @@ Error after adding Vimeo videos to disabled products.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create simple product.
-1. Disable created product.
+1. Create a simple product.
+1. Disable the created product.
 1. Try to add Vimeo video to the disabled product.
 
 <ins>Expected results</ins>:
+
 Video is added without errors.
 
 <ins>Actual results</ins>:
