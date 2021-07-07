@@ -19,24 +19,26 @@ Magento Commerce and Magneto Commerce Cloud 2.3.2-2.3.5-p2
 
 ## Issue
 
-When trying to save a CMS page, you receive the following error message: *Item with the same ID "GE_ID" already exists.*
+When trying to save a CMS page, you receive the following error message: *Item with the same ID "PAGE_ID" already exists.*
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a new website+store+storeview.
-1. Create one more website+store+storeview.
+1. Create a new website + store + storeview.
+1. Create one more website + store + storeview.
 1. Go to Content -> Hierarchy -> Add any existing CMS page to hierarchy tree.
 1. Go to Content -> Pages -> Add new Page:
-  * Add any title.
-  * In "Page in Websites" section assign to both created storeviews.
-  * In "Hierarchy" section assign to any category.
-  * Save and continue edit.
+   * Add any title.
+   * In "Page in Websites" section assign to both created storeviews.
+   * In "Hierarchy" section assign to any category.
+   * Save and continue edit.
 
 <ins>Expected results</ins>:
+
 The page is saved without any error.
 
 <ins>Actual results</ins>:
-The page is saved, but you get the following error message: *Item (Magento\VersionsCms\Model\Hierarchy\Node) with the same ID "PAGE_ID" already exists"*
+
+The page is saved, but you get the following error message: *Item (Magento\VersionsCms\Model\Hierarchy\Node) with the same ID "PAGE_ID" already exists.*
 
 ## Apply the patch
 
