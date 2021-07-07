@@ -1,9 +1,9 @@
 ---
-title: "MDVA-37068: Incorrect tax is displayed on checkout for virtual products"
+title: "MDVA-37068: Incorrect tax is displayed on Checkout for virtual products"
 labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-37068 Magento patch fixes the issue when the checkout displays an incorrect tax rate for virtual products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-37068. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+The MDVA-37068 Magento patch fixes the issue when the Checkout Page displays an incorrect tax rate for virtual products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-37068. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
@@ -19,7 +19,7 @@ Magento Commerce and Magneto Commerce Cloud 2.3.1-2.4.2-p1
 
 ## Issue
 
-Incorrect tax rate is displayed on checkout when the shopping cart has only virtual products.
+Incorrect tax rate is displayed on Checkout Page when the Shopping Cart has only virtual products.
 
 <ins>Prerequisites</ins>:
 
@@ -32,15 +32,15 @@ Incorrect tax rate is displayed on checkout when the shopping cart has only virt
 1. Create a customer.
 1. Add different billing and shipping addresses.
 1. Add virtual product to the cart.
-1. Check the cart page and checkout page.
+1. Check the Cart and Checkout Page.
 
 <ins>Expected results</ins>:
 
-The tax displayed on the cart and checkout page are the same.
+The tax displayed on the Cart and Checkout Page are the same.
 
 <ins>Actual results</ins>:
 
-The tax displayed on the cart and checkout page are NOT the same.
+The tax displayed on the Cart and Checkout Page are NOT the same.
 
 ## Apply the patch
 
