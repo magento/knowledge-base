@@ -1,9 +1,9 @@
 ---
-title: "MDVA-37068: Incorrect tax rate displays on checkout for virtual products"
-labels: MQP patches,Magento Quality Patches,
+title: "MDVA-37068: Incorrect tax is displayed on checkout for virtual products"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-37068 Magento patch fixes the issue of incorrect tax rate displays on checkout for virtual products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-37068. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+The MDVA-37068 Magento patch fixes the issue when the checkout displays an incorrect tax rate for virtual products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-37068. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
@@ -19,12 +19,12 @@ Magento Commerce and Magneto Commerce Cloud 2.3.1-2.4.2-p1
 
 ## Issue
 
-Incorrect tax rate displays when the shopping cart has only virtual products.
+Incorrect tax rate is displayed on checkout when the shopping cart has only virtual products.
 
 <ins>Prerequisites</ins>:
 
-1. Create 2 separate Tax rates and tax rules for 2 different countries - for example 10% and 1%.
-1. Create virtual product.
+1. Create 2 separate tax rates and tax rules for 2 different countries - for example 10% and 1%.
+1. Create a virtual product.
 1. Run reindex and clean cache.
 
 <ins>Steps to reproduce</ins>:
@@ -40,7 +40,7 @@ The tax displayed on the cart and checkout page are the same.
 
 <ins>Actual results</ins>:
 
-Different taxes on the cart and checkout page.
+The tax displayed on the cart and checkout page are NOT the same.
 
 ## Apply the patch
 
