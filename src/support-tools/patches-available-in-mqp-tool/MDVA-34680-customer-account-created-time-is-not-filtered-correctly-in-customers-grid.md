@@ -1,9 +1,9 @@
 ---
-title: "MDVA-34680: Customer Account created time is not filtered correctly in customers grid"
-labels: MQP patches,Magento Quality Patches,
+title: "MDVA-34680: Customer Account created time not filtered correctly in customers grid"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.6,2.3.6-p1,2.3.7,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-34680 Magento patch fixes the issue when the Customer Account created time is not filtered correctly in in customers grid. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-34680. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-34680 Magento patch fixes the issue when the Customer Account created time is not filtered correctly in customers grid. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-34680. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
@@ -11,7 +11,7 @@ The MDVA-34680 Magento patch fixes the issue when the Customer Account created t
 Magento Commerce Cloud 2.4.1, 2.4.2
 
 **Compatible with Magento versions:**
-Magento Commerce and Magneto Commerce Cloud 2.3.6-2.3.7, 2.4.1-2.4.2-1
+Magento Commerce and Magneto Commerce Cloud 2.3.6-2.3.7, 2.4.1-2.4.2-p1
 
 >![info]
 >
@@ -22,9 +22,9 @@ When a customer account is created after 00:00 UTC and you try to filter account
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to Stores > Configuration > General and set the Timezone to Eastern Standard [United States/New York].
+1. Go to **Stores** > **Configuration** > **General** and set the Timezone to Eastern Standard [United States/New York].
 1. Create a new customer account after 00:00 UTC.
-1. Go to Customers > All Customers and filter the by today's date.
+1. Go to **Customers** > **All Customers** and filter accounts by today's date.
 
 <ins>Expected results</ins>:
 
