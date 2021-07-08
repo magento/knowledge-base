@@ -50,7 +50,7 @@ Conflicting component dependencies can also be caused by third-party modules tha
 <h2 id="magento_commerce_magento_commerce_cloud">Magento Commerce and Magento Commerce Cloud</h2>
 
 1. Reach out to the developer of the extension so they can assist you. You can find their contact information on the page you purchased the extension from on the Magento Marketplace. Look for the **Contact Seller** button shown on the right panel. All Magento developers are required to provide a user's and installation guide when they publish an extension on Marketplace. You can find both on the right side of their landing page.
-1. If you do not receive a response from the Seller in a reasonable amount of time, please [let Magento Marketplace know](https://marketplacesupport.magento.com/) so that we can remind them of their customer support commitments.
+1. If you do not receive a response from the Seller in a reasonable amount of time, please [let Magento Marketplace know](https://marketplacesupport.magento.com/hc/en-us) so that we can remind them of their customer support commitments.
 
 <h2 id="opensource">Magento Open Source</h2>
 
