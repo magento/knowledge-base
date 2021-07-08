@@ -28,9 +28,9 @@ First, check for headers with a dig command to the URL. In a terminal applicatio
 
 For example:
 
-* Live site: `dig http[s]://<your domain>` 
-* Staging: `dig http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud` 
-* Production: `dig http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud` 
+* Live site: `dig http[s]://<your domain>`
+* Staging: `dig http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud`
+* Production: `dig http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud`
 
 ### Test with curl command
 
@@ -173,7 +173,6 @@ When you isolate the extension that is resetting Fastly headers, contact the ext
 
 ## More information
 
-* [About Fastly](http://devdocs.magento.com/guides/v2.1/cloud/basic-information/cloud-fastly.html)
+* [About Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html)
 * [Set up Fastly](http://devdocs.magento.com/guides/v2.1/cloud/access-acct/fastly.html)
 * [Custom Fastly VCL snippets](http://devdocs.magento.com/guides/v2.1/cloud/configure/cloud-vcl-custom-snippets.html)
-
