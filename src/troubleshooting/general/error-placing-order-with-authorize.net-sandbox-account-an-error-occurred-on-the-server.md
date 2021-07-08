@@ -7,7 +7,7 @@ This article provides a fix for " *An error occurred on the server* " error mess
 
 ## Issue
 
-Placing an order using [Authorize.Net Direct Post](http://docs.magento.com/m2/ce/user_guide/payment/authorize-net-direct-post.html) Sandbox account causes an error message:
+Placing an order using [Authorize.Net Direct Post](https://docs.magento.com/user-guide/v2.3/payment/authorize-net.html) Sandbox account causes an error message:
 
 >
 "An error occurred on the server. Please try to place order again"
@@ -30,9 +30,9 @@ The Authorize.net settings might contain incorrect URL addresses for the critica
 
 ## Solution 2: Provide correct URL's
 
-* **Gateway URL:**   `https://test.authorize.net/gateway/transact.dll` 
-* **Transaction Details URL:**   `https://apitest.authorize.net/xml/v1/request.api` 
-* **API Reference:**   `https://developer.authorize.net/api/reference/` 
+* **Gateway URL:**   `https://test.authorize.net/gateway/transact.dll`
+* **Transaction Details URL:**   `https://apitest.authorize.net/xml/v1/request.api`
+* **API Reference:**   `https://developer.authorize.net/api/reference/`
 
 ## If nothing helped: get debug info
 
@@ -45,4 +45,3 @@ In case the `debug.log` is empty, check the **transact.dll** response in your we
 1. Open the console.
 1. Before placing an order, go to the **Network** tab and select **Preserve log** .    ![web-console_network_preserve-log.png](assets/web-console_network_preserve-log.png)    
 1. Filter responses by **transact.dll** to see a response message with a possible error.    ![transact-dll_web-console_response.png](assets/transact-dll_web-console_response.png)    
-
