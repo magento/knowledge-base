@@ -7,7 +7,7 @@ This article provides a fix for " *An error occurred on the server* " error mess
 
 ## Issue
 
-Placing an order using [Authorize.Net Direct Post](https://docs.magento.com/user-guide/v2.3/payment/authorize-net.html) Sandbox account causes an error message:
+Placing an order using [Authorize.Net Direct Post](https://docs.magento.com/user-guide/v2.3/payment/authorize-net-direct-post.html) Sandbox account causes an error message:
 
 >
 "An error occurred on the server. Please try to place order again"
