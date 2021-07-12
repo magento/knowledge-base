@@ -78,7 +78,7 @@ Where ``%language-code%`` are the codes defined by [Prism.js supported languages
 
 ## Lists
 
-Always separate lists from the rest of content by blank lines. A list should be preceded and followed by a blank line.
+Always separate lists from the rest of content by blank lines. Lists should be preceded and followed by a blank line.
 
 Use the following formatting for ordered lists:
 
