@@ -4,7 +4,7 @@ labels: MQP patches,Magento Quality Patches,2.4.2,2.4.2-p1,MQP 1.0.24,configurab
 ---
 
 
-The MDVA-37779 Magento patch solves the issue where it is impossible to add a configurable product to cart when the website ID is not equal to the store ID. This patch is available when the Magento Quality Patch (MQP) tool 1.0.24 is installed. The patch ID is MDVA-37779. Please note that the issue is scheduled to be fixed in Magento 2.4.4. 
+The MDVA-37779 Magento patch solves the issue where it is impossible to add a configurable product to cart when the website ID is not equal to the store ID. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.24 is installed. The patch ID is MDVA-37779. Please note that the issue is scheduled to be fixed in Magento 2.4.4. 
 
 ## Affected products and versions
 
