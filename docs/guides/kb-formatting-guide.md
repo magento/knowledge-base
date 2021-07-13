@@ -1,11 +1,11 @@
 ## Author in Markdown
-Generally, we use [Adobe Experience League Markdown Syntax Style Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), but there are some differences and exceptions. Also, ceratain HMTL tags are required in certain cases.
+Generally, we use [Adobe Experience League Markdown Syntax Style Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), but there are some differences and exceptions. Also, certain HTML tags are required in certain cases.
 
 The following are examples of the Markdown formatting that is most commonly used in our repo.
 
 ## Basic formatting
 
-To format text as bold, inclose it in two asterisks:
+To format text as bold, enclose it in two asterisks:
 
 `This will be **bold** text`
 
@@ -22,7 +22,7 @@ To add a line break, use the `<br>` HTML tag.
 
 ## Headers
 
-Use the following formatting for headers from H2 to H5. H1 is never used since the article title in considered H1.
+Use the following formatting for headers from H2 to H5. H1 is never used since the article title is considered H1.
 
 `## Header 2 `
 
@@ -62,7 +62,7 @@ WHERE TABLE_SCHEMA = "%project_id%"
 ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 ```
 
-According to our linting rules, you always need to specify a language for a code block.
+According to our linting rules, you always need to specify a language for the code block.
 
 For the list of supported languages check https://github.com/github/linguist/blob/master/lib/linguist/languages.yml.
 
@@ -78,7 +78,7 @@ Where ``%language-code%`` are the codes defined by [Prism.js supported languages
 
 ## Lists
 
-Always separate lists from the rest of content by blank lines.
+Always separate lists from the rest of content by blank lines. Lists should be preceded and followed by a blank line.
 
 Use the following formatting for ordered lists:
 
@@ -99,7 +99,7 @@ Example:
 ...
 * Last unordered list item.
 ```
-To add content between list items, add 4 spaces in the begining of the line:
+To add content between list items, add 4 spaces in the beginning of the line:
 
 ```markdown
 * List item.
@@ -124,6 +124,11 @@ To insert an image, place the image to *assets* sub-folder in the same section f
 
 ```markdown
 ![alt text](assets/image.png)
+```
+
+If you want to customize the size of your image, you will need to use HTML:
+```html
+<img src = "assets/image.png" alt = "your alt text" style="width:50px;height:100px;">
 ```
 
 ### Links to attached files
@@ -155,8 +160,8 @@ If you need to reference an element other than header, use HTML to define the el
 
 ### Relative links and links to other articles
 
-Do not use relative links to reference Support KB articles. Those links will not work when your article gets published in [Magento Help Center](https://support.magento.com/hc/en-us). 
-Please use complete hyperlinks from the [Magento Help Center](https://support.magento.com/hc/en-us). 
+Do not use relative links to reference Support KB articles. Those links will not work when your article gets published in [Magento Help Center](https://support.magento.com/hc/en-us).
+Please use complete hyperlinks from the [Magento Help Center](https://support.magento.com/hc/en-us).
 
 
 ## Tables
