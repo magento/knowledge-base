@@ -1,11 +1,11 @@
 ## Author in Markdown
-Generally, we use [Adobe Experience League Markdown Syntax Style Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), but there are some differences and exceptions. Also, ceratain HMTL tags are required in certain cases.
+Generally, we use [Adobe Experience League Markdown Syntax Style Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), but there are some differences and exceptions. Also, certain HMTL tags are required in certain cases.
 
 The following are examples of the Markdown formatting that is most commonly used in our repo.
 
 ## Basic formatting
 
-To format text as bold, inclose it in two asterisks:
+To format text as bold, enclose it in two asterisks:
 
 `This will be **bold** text`
 
