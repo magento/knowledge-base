@@ -5,7 +5,7 @@ labels: Fastly,Magento Commerce,Magento Commerce Cloud,disk space,how to,image o
 
 This article provides a solution for the issue of low disk space caused by large, rich images.
 
-## AFFECTED PRODUCTS AND VERSIONS
+## Affected products and versions
 
 * Magento Commerce Cloud, all supported versions
 * Magento Commerce, all supported versions
@@ -27,4 +27,4 @@ Use [Fastly image optimization](https://devdocs.magento.com/guides/v2.3/cloud/cd
 
 ## Related reading
 
-To learn about managing your disk space (if you are on Magento Commerce Cloud) see [Manage disk space in Magento Developer Documentation.](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=manage%20disk%20space) 
+To learn about managing your disk space (if you are on Magento Commerce Cloud) see [Manage disk space in Magento Developer Documentation.](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=manage%20disk%20space)
