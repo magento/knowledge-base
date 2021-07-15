@@ -23,13 +23,13 @@ When trying to save a CMS page, you receive the following error message: *Item w
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a new website + store + storeview.
-1. Create one more website + store + storeview.
-1. Go to Content > Hierarchy > Add any existing CMS page to hierarchy tree.
-1. Go to Content > Pages > Add new Page:
+1. Create a new Website + Store + Storeview.
+1. Create one more Website + Store + Storeview.
+1. Go to **Content** > **Hierarchy** > Add any existing CMS page to hierarchy tree.
+1. Go to **Content** > **Pages** > **Add New Page**:
    * Add any title.
-   * In "Page in Websites" section assign to both created storeviews.
-   * In "Hierarchy" section assign to any category.
+   * In Page in Websites section assign to both created Storeviews.
+   * In Hierarchy section assign to any category.
    * Save and continue edit.
 
 <ins>Expected results</ins>:
