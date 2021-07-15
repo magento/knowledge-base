@@ -1,9 +1,9 @@
 ---
 title: "MDVA-38468: Receive an error message when saving CMS page"
-labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,CMS,error message,save CMS pages,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2
 ---
 
-The MDVA-38468 Magento patch fixes the issue where users receive an error message when saving a CMS page. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Magento 2.3.6.
+The MDVA-38468 Magento patch fixes the issue where users get the error message: *Item with the same ID "PAGE_ID" already exists,* when saving a CMS page. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Magento 2.3.6.
 
 ## Affected products and versions
 
@@ -11,7 +11,7 @@ The MDVA-38468 Magento patch fixes the issue where users receive an error messag
 Magento Commerce Cloud 2.3.2-p2
 
 **Compatible with Magento versions:**
-Magento Commerce and Magneto Commerce Cloud 2.3.2-2.3.5-p2
+Magento Commerce and Magento Commerce Cloud 2.3.2-2.3.5-p2
 
 >![info]
 >
@@ -25,8 +25,8 @@ When trying to save a CMS page, you receive the following error message: *Item w
 
 1. Create a new website + store + storeview.
 1. Create one more website + store + storeview.
-1. Go to Content -> Hierarchy -> Add any existing CMS page to hierarchy tree.
-1. Go to Content -> Pages -> Add new Page:
+1. Go to Content > Hierarchy > Add any existing CMS page to hierarchy tree.
+1. Go to Content > Pages > Add new Page:
    * Add any title.
    * In "Page in Websites" section assign to both created storeviews.
    * In "Hierarchy" section assign to any category.
