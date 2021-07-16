@@ -1,9 +1,9 @@
 ---
 title: "MDVA-38608: Temporary tables not deleted for unsuccessful reindexes"
-labels: MQP patches,Magento Quality Patches,MQP,Support Tools,unsuccessful reindexes,temporary tables,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,reindexes,temporary tables,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-38608 Magento patch fixes the issue where temporary tables are not deleted for unsuccessful reindexes. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38608. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-38608 Magento patch fixes the issue where temporary tables for unsuccessful reindexes are not deleted. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38608. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
