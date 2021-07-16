@@ -1,6 +1,6 @@
 ---
 title: "MDVA-38308: Error after adding Vimeo videos to disabled products"
-labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP fixes,Magento Commerce,Magento Commerce Cloud,disabled products,Vimeo,videos,error message,adding Vimeo videos,MQP 1.0.26,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP fixes,Magento Commerce,Magento Commerce Cloud,disabled products,Vimeo,videos,error message,MQP 1.0.26,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
 The MDVA-38308 Magento patch solves the issue where users get the error message: *Notice: Undefined index: extension in /lib/internal/Magento/Framework/File/Uploader.php on line 806,* when adding Vimeo videos to disabled products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-38308. Please note that the issue is scheduled to be fixed in Magento  2.4.4.
