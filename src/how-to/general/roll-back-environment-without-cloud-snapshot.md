@@ -11,8 +11,8 @@ This article shows two solutions to roll back an environment without having a sn
 
 Choose the most appropriate for your case:
 
-* If you have a stable build, but no valid snapshot - [Scenario 1: No snapshot, build stable (SSH connection available)](scen2) .
-* If the build is broken and you have no valid snapshot - [Scenario 2: No snapshot; build broken (no SSH connection)](scen3) .
+* If you have a stable build, but no valid snapshot - [Scenario 1: No snapshot, build stable (SSH connection available)](scen2). 
+* If the build is broken and you have no valid snapshot - [Scenario 2: No snapshot; build broken (no SSH connection)](scen3).
 
 <h2 id="scen2">Scenario 1: No snapshot, build stable (SSH connection available)</h2>
 
