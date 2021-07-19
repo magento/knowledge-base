@@ -1,21 +1,21 @@
 ---
-title: Checking deployment log if the Cloud UI shows "log snipped" error
+title: Checking deployment log if Cloud UI has "log snipped" error
 labels: troubleshooting,deployment log error,Magento Commerce Cloud,log snipped,Cloud UI,manage log,
 ---
 
-This article provides a solution for the issue where the Cloud UI shows the error message: *log snipped because it was too long,* when trying to view deployment log.
+This article provides a solution for the issue where the Cloud UI shows the error message: *log snipped because it was too long* when trying to view deployment log.
 
 ## Affected products
 Magento Commerce Cloud
 
 ## Issue
 
-When trying to view deployment log, Cloud UI shows the message: *log snipped because it was too long.*
+When trying to view deployment log, Cloud UI shows the error message: *log snipped because it was too long.*
 
 Steps to reproduce:  
 
 1. Go to the Project URL and click on the **Status** of the deployment in question.  
-1. If the log is too long to be displayed in the UI, it will show the message: *log snipped because it was too long.*
+1. If the log is too long to be displayed in the UI, it will show the error message: *log snipped because it was too long.*
 
 ## Cause
 
@@ -31,9 +31,9 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 1. It will return an output similar to the following:
     ```bash
     Activities on the project <project name> (project id), environment <environment>:
-    +---------------+---------------------------+---------------------------------------------+----------+----------+---------+
-    | ID            | Created                   | Description                                 | Progress | State    | Result  |
-    +---------------+---------------------------+---------------------------------------------+----------+----------+---------+
+    +---------------+---------------------------+-------------------------------------+----------+----------+---------+
+    | ID            | Created                   | Description                         | Progress | State    | Result  |
+    +---------------+---------------------------+-------------------------------------+----------+----------+---------+
     | l5wgwmzwrsskg | 2021-06-01T08:18:02-07:00 | ABC merged Integration into Staging | 100%     | complete | success |
     | raah5xrhqz3wg | 2021-06-01T08:07:18-07:00 | XYZ pushed to Integration           | 100%     | complete | failure |
     ```
