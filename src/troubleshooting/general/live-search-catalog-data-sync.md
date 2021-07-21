@@ -118,7 +118,5 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
     ```
 ## Related reading
 
-See Configure and Connect in the developer documentation:
+See [Configure and Connect](https://devdocs.magento.com/live-search/config-connect.html) in the developer documentation.
 
-* Pre GA. (Beta):  https://devdocs-beta.magento.com/live-search/config-connect.html
-* Post GA (June 22): https://devdocs.magento.com/live-search/config-connect.html
