@@ -66,7 +66,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     ```bash
     bin/magento cron:run --group=catalog_data_exporter
     ```
-1. Wait for 15-20 minutes (time for incremental updates). If you still do not see your data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. Wait for `<>` time (time for incremental updates). If you still do not see your data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ### Sync specific attribute code
 
@@ -94,7 +94,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
     ```bash
     bin/magento cron:run --group=catalog_data_exporter
     ```
-1. Wait for `<>` time (time for incremental updates). If you still do not your data, please [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. Wait for 15-20 minutes (time for incremental updates). If you still do not your data, please [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ### Sync after API configuration change
 
