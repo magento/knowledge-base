@@ -22,7 +22,7 @@ Your catalog data is not synchronized correctly or a new product was added but i
 Or
 
 1. Add a new product to catalog.
-1. After 8 hours, try running a search query using product name or other searchable attributes.
+1. Try running a search query using product name or other searchable attributes after 15-20 minutes from the time Magento indexer + cron have run to sync data to backend serviced.
 
 <ins>Expected result</ins>
 
