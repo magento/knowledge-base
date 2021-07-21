@@ -1,6 +1,6 @@
 ---
 title: Best Practices for using third-party extensions in Magento
-labels: 2.2.x,2.3.x,3rd-party extensions,Magento Commerce,Magento Commerce Cloud,best practices,extensions,performance,third-party extensions
+labels: 2.2.x,2.3.x,3rd-party extensions,Magento Commerce,Magento Commerce Cloud,Magento Open Source,best practices,extensions,performance,third-party extensions
 ---
 
 This article provides some best practices for potential issues with third-party extensions (modules) used in Magento.
@@ -27,4 +27,3 @@ Follow the **Best Practices** described below to avoid performance issues caused
 
 * [Magento Commerce Cloud: Technologies and requirements - Development and testing](https://devdocs.magento.com/cloud/requirements/cloud-requirements.html#cloud-req-devtest)  
 * [Magento Commerce Cloud: Go live and launch - Why test fully in Integration and Staging?](https://devdocs.magento.com/cloud/live/live.html#whytest)  
-

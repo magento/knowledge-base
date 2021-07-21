@@ -5,7 +5,7 @@ labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,cache invalidation,full re
 
 This article provides a fix for poor performance due to full reindexing (where data in the indexing-related database tables is updating).
 
-### AFFECTED PRODUCTS AND VERSIONS
+## Affected versions and products
 
 * Magento Commerce Cloud 2.x.x
 * Magento Commerce 2.x.x
@@ -33,7 +33,7 @@ Actions that can produce full reindexing were performed from admin including:
 
 * Who might be doing this manually from the CLI
 * What 3-rd party module is doing the reindexation
-* What 3-rd party module is marking indexers as *Invalid* 
+* What 3-rd party module is marking indexers as *Invalid*
 
 ### Solution
 
@@ -41,4 +41,4 @@ Run reindexing only when necessary. For steps review DevDocs [Configure Indexers
 
 ## Related Reading
 
-DevDocs [Indexing Overview: How to reindex](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) KB [Invalidated cache causes response time degradation](https://support.magento.com/hc/en-us/articles/360039658851) 
+DevDocs [Indexing Overview: How to reindex](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) KB [Invalidated cache causes response time degradation](https://support.magento.com/hc/en-us/articles/360039658851)

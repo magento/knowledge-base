@@ -1,6 +1,6 @@
 ---
 title: Deployment fails Fastly module incompatible Magento version
-labels: Fastly,deploy,deployment
+labels: troubleshooting,Fastly,deployment,Deployment fails,Magento Commerce 2.1.X,Magento Commerce Cloud 2.1.X,Fastly module 1.2.79
 ---
 
 UPDATED: February 29, 2019
@@ -34,12 +34,12 @@ The deployment might fail with the following error messages:
   Requested areas: frontend, adminhtml
   Requested themes: Magento/blank, Magento/backend
   === frontend -> Magento/blank -> en_GB ===
- 
+
     [Exception]
     Warning: Missing argument 3 for Fastly\Cdn\Plugin\ExcludeFilesFromMinification::afterGetExcludes(), called in /app/vendor/magento/framework/Interception/Interceptor.php on line 152 and defined in /app/vendor/fastly/magento2/Plugin/ExcludeFilesFromMinification.php on line 38
- 
+
   setup:static-content:deploy [-d|--dry-run] [--no-javascript] [--no-css] [--no-less] [--no-images] [--no-fonts] [--no-html] [--no-misc] [--no-html-minify] [-t|--theme[="..."]] [--exclude-theme[="..."]] [-l|--language[="..."]] [--exclude-language[="..."]] [-a|--area[="..."]] [--exclude-area[="..."]] [-j|--jobs[="..."]] [--symlink-locale] [languages1] ... [languagesN]
- 
+
 [2019-01-23 000:00:00] INFO: Set flag: var/.deploy_is_failed
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
@@ -62,4 +62,4 @@ To do this, take the following steps:
 1. Commit and push the changes, and trigger the deployment process if it is not done automatically.
 1. In the Magento Admin, [upload the new VCL to Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets) .
 
-## 
+##
