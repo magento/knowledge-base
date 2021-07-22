@@ -11,11 +11,11 @@ labels: 2.3.3,2.3.4-p1,2.3.5,FAQ,Google,Magento Commerce,ads,channel,shopping
 
 ### Q: What do I need to get started?
 
-Beginning with Magento v2.3.3, Google Shopping ads Channel installs with Magento. Instances on a previous Magento version can [install](https://devdocs.magento.com/extensions/google-shopping-ads/) the Google Shopping ads Channel extension from [Magento Marketplace](https://marketplace.magento.com/magento-google-shopping-ads.html) .
+Beginning with Magento v2.3.3, Google Shopping ads Channel installs with Magento. Instances on a previous Magento version can install the Google Shopping ads Channel extension from [Magento Marketplace](https://marketplace.magento.com/magento-google-shopping-ads.html).
 
-Once installed, we walk you through adding your [Google API Key](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/verify-api-key.html) and creating a series of accounts through [Google onboarding](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/onboarding-google.html) . The accounts needed to include a Google general account, a Google Merchant Center, and a Google Ads account. You also need a payment method for your Google Ads account as part of this integration.
+Once installed, we walk you through adding your [Google API Key](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/verify-api-key.html) and creating a series of accounts through [Google onboarding](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/onboarding-google.html). The accounts needed to include a Google general account, a Google Merchant Center, and a Google Ads account. You also need a payment method for your Google Ads account as part of this integration.
 
-Google Shopping ads Channel can be accessed through the Magento Admin. On the *Admin* sidebar, click **Marketing** . Then under *Advertising Channels* , click **Google Shopping ads** . We recommend reviewing [best practices](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/google-best-practices.html) and [getting started information](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/about-google.html) to better understand specific preparation and how the integration uses your product catalog.
+Google Shopping ads Channel can be accessed through the Magento Admin. On the *Admin* sidebar, click **Marketing**. Then under *Advertising Channels* , click **Google Shopping ads**. We recommend reviewing [best practices](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/google-best-practices.html) and [getting started information](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/about-google.html) to better understand specific preparation and how the integration uses your product catalog.
 
 ### Q: I have Google accounts already. Can I use them?
 
@@ -23,7 +23,7 @@ You can use an existing Google account for your business.
 
 You must create a new GMC account through the onboarding process. If you have claimed and verified your store URL(s) to an existing account, you must [unclaim](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/gmc-unlink-gmc.html) it to continue. You also will create a new Google Ads account.
 
-We include instructions in the [onboarding process](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/onboarding-google.html) .
+We include instructions in the [onboarding process](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/onboarding-google.html).
 
 ### Q: I have multiple URLs to claim and verify. Can I manage them all in Magento?
 
@@ -33,7 +33,7 @@ After completing the onboarding process, you can click **Create GMC Account** to
 
 ### Q: What is gtag and where is the configuration and usage?
 
-Magento automatically installs and configures [Google Analytics gtag](https://support.google.com/tagmanager/answer/7582054) for you with the integration. The gtag.js global site tag is used to load the tracking library and configure the AdWords accounts you intent to send data to. You use this tag for [AdWords conversion tracking and remarketing](https://developers.google.com/adwords-remarketing-tag/) .
+Magento automatically installs and configures [Google Analytics gtag](https://support.google.com/tagmanager/answer/7582054) for you with the integration. The gtag.js global site tag is used to load the tracking library and configure the AdWords accounts you intent to send data to. You use this tag for [AdWords conversion tracking and remarketing](https://developers.google.com/adwords-remarketing-tag/).
 
 The gtag triggers on purchases, and fires specifically on the thank you and confirmation after purchase.
 
@@ -63,7 +63,7 @@ No, the [Onboarding Process](https://docs.magento.com/m2/ee/user_guide/sales-cha
 
 ### Q: My account shows errors, what happened?
 
-Your Google Merchant Center account must have a status of Approved. Once approved, Google continues product reviews and approvals and runs any active campaigns. If your account ever has an error, review and resolve quickly. All campaigns and product reviews will pause until the account is approved. We provide a dashboard to review and manage all account information and issues. See [Managing Google Accounts](https://docs.magento.com/m2/ce/user_guide/sales-channels/google-ads/google-account-managment.html) .
+Your Google Merchant Center account must have a status of Approved. Once approved, Google continues product reviews and approvals and runs any active campaigns. If your account ever has an error, review and resolve quickly. All campaigns and product reviews will pause until the account is approved. We provide a dashboard to review and manage all account information and issues. See [Managing Google Accounts](https://docs.magento.com/m2/ce/user_guide/sales-channels/google-ads/google-account-managment.html).
 
 ### Q: Can I update Google account information in Magento?
 
@@ -73,7 +73,7 @@ Yes, you can review and update your GMC account information anytime through Goog
 
 ### Q: How does communication between Magento and Google work? When are dashboards and data updated?
 
-After onboarding, Magento checks product and account status every 30 minutes for the first 72 hours. It can take Google up to 72 hours to review all products to approve for the Google product catalog. After the first 72 hours, Magento checks once every 24 hours. For complete details, see [Google Best Practices](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/google-faq.html#) and [About Google and Magento Catalogs](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/about-google-magento-catalogs.html) .
+After onboarding, Magento checks product and account status every 30 minutes for the first 72 hours. It can take Google up to 72 hours to review all products to approve for the Google product catalog. After the first 72 hours, Magento checks once every 24 hours. For complete details, see [Google Best Practices](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/google-faq.html#) and [About Google and Magento Catalogs](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/about-google-magento-catalogs.html).
 
 ### Q: When will product changes reach Google?
 
@@ -98,12 +98,12 @@ Create as many campaigns as you like. If the payment method has not been added, 
 
 ### Q: What types of ads campaigns are supported?
 
-This integration supports [Smart Shopping campaigns](https://support.google.com/google-ads/answer/7674739?hl=en) . These ads simplify your campaign management, maximize your conversion value, and expand your reach.
+This integration supports [Smart Shopping campaigns](https://support.google.com/google-ads/answer/7674739?hl=en). These ads simplify your campaign management, maximize your conversion value, and expand your reach.
 
 ### Q: What languages do campaign ads display in?
 
 If you advertise in multiple countries, ads are shown to users who speak a supported language that is also present in your product data. Google will make a guess about the user's preferred language and matched with that product data.
-Google serves and runs ads in all languages you configured when [claiming and verifying your URL](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/url-verify.html) . This may increase your costs for running ads.
+Google serves and runs ads in all languages you configured when [claiming and verifying your URL](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/url-verify.html). This may increase your costs for running ads.
 
 ### Q: Why are the product totals in my Magento catalog differ than the counts in Google?
 
@@ -111,7 +111,7 @@ Magento tracks the quantity of products including all on-hand inventory amounts,
 
 ### Q: How many products does Google support for ads?
 
-Google allows you to sync and sell up to 150,000 products from your Magento catalog. If you attempt to sell more than 150,000 unique products, Google will disable and reduce the number of active products available. To increase your limit, [contact Google with this form](https://support.google.com/merchants/contact/additional_items) .
+Google allows you to sync and sell up to 150,000 products from your Magento catalog. If you attempt to sell more than 150,000 unique products, Google will disable and reduce the number of active products available. To increase your limit, [contact Google with this form](https://support.google.com/merchants/contact/additional_items).
 
 ### Q: What happens with Google Ads when my GMC and/or products are disapproved?
 
