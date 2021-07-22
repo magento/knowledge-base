@@ -5,6 +5,15 @@ labels: Authorize.net,Magento Commerce,payments,sandbox,troubleshooting
 
 This article provides a fix for " *An error occurred on the server* " error message when placing an order using Authorize.Net Direct Post.
 
+>![warning]
+>
+>**Deprecation Notice**  
+Due to the Payment Service Directive [PSD2](https://docs.magento.com/user-guide/v2.3/stores/compliance-payment-services-directive.html) and the continued evolution of many APIs, this payment integration is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated and we are recommending that you disable it in your Magento configuration and transition to the corresponding [Magento Marketplace extension](https://marketplace.magento.com/extensions.html).
+
+>**This integration is removed from the Magento 2.4.0 release and has been deprecated from current versions of 2.3.**
+
+>For details about making a secure transition from deprecated payment integrations, see our [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445).
+
 ## Issue
 
 Placing an order using [Authorize.Net Direct Post](https://docs.magento.com/user-guide/v2.3/payment/authorize-net-direct-post.html) Sandbox account causes an error message:
