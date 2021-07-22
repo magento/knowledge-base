@@ -44,9 +44,3 @@ For the changes to be applied, clean the cache by running
 ```bash
 bin/magento cache:clean
 ```
-
-.
-
-## Related reading
-
-* [Authorize.net](https://docs.magento.com/user-guide/v2.3/payment/authorize-net.html) in Magento User Guide.
