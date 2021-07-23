@@ -1,6 +1,6 @@
 ---
-title: Live search catalog is not synchronized
-labels: Adobe Commerce,live search
+title: Live search catalog not synchronized
+labels: Adobe Commerce,live search,catalog,data
 ---
 
 This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension.
@@ -22,7 +22,7 @@ Your catalog data is not synchronized correctly or a new product was added but i
 Or
 
 1. Add a new product to catalog.
-1. Try running a search query using product name or other searchable attributes after 15-20 minutes from the time Magento indexer + cron have run to sync data to backend serviced.
+1. Try running a search query using the product name or other searchable attributes after 15-20 minutes from the time Magento indexer + cron have run to sync data to backend service.
 
 <ins>Expected result</ins>
 
@@ -40,7 +40,7 @@ There are several things you might do to try and fix the catalog syncing issues.
 
 ### Wait for changes to be applied
 
-Once you configure and connect, it can take over 8 hours for the index in ES to be created and search results to be returned (same timeframe is also true for delta updates as of now, but will be improved in future).
+Once you configure and connect, it can take over 8 hours for the index in ES (Elasticsearch) to be created and search results to be returned (same timeframe is also true for delta updates as of now, but will be improved in future).
 
 ### Sync product data for a specific SKU
 
@@ -50,7 +50,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     ```sql
     select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
     ```
-1. If you do not see the correct data, try to reindex using following command and rerun the SQL query in step 1 to verify the data:
+1. If you do not see the correct data, try to reindex using the following command and rerun the SQL query in step 1 to verify the data:
     ```bash
     bin/magento indexer:reindex catalog_data_exporter_products
     ```
@@ -62,7 +62,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     ```sql
     select * from flag where flag_code = 'products-feed-version';
     ```
-1. If the timestamp is older, you can either wait for the next cron run, or trigger it yourself using following command:
+1. If the timestamp is older, you can either wait for the next cron run, or trigger it yourself using the following command:
     ```bash
     bin/magento cron:run --group=catalog_data_exporter
     ```
@@ -94,7 +94,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
     ```bash
     bin/magento cron:run --group=catalog_data_exporter
     ```
-1. Wait for 15-20 minutes (time for incremental updates). If you still do not your data, please [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. Wait for 15-20 minutes (time for incremental updates). If you still do not see your data, please [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ### Sync after API configuration change
 
