@@ -61,15 +61,28 @@ The following guidelines may answer most of your questions and help you get star
 * Please follow the style recommendations described in [Support KB Styleguide](../docs/guides/support-kb-styleguide.md).
 * Use [article templates](../docs/article-templates/) when adding new articles.
 * Follow the recommended file structure and file naming convention described further.
+* Test your changes & additions for [linting errors](#testing) before creating a pull request - this will save time and effort as errors will cause the automatic checks to fail and will need fixing before the pull request can be merged.
 
 ### Don'ts
 
 * Do not make changes to content in the Announcements and Support Tools folders.
 * Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
-* Do not remove/change the HTML formatting in Troubleshooters articles.
-    * Examples:
-        * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
-        * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
+* Do not remove/change the HTML formatting in Troubleshooters articles. Examples:
+    * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
+    * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
+
+## Testing
+Contributions can be tested locally using the 'mdl' application. Full instructions on how to install and use 'mdl' can be found on the [Markdown Lint](https://github.com/markdownlint/markdownlint) repository.
+
+Run :
+
+```bash
+mdl --style=_checks/styles/style-rules-prod --ignore-front-matter --git-recurse -- .
+```
+
+If no errors are returned then it is safe to commit changes and create a pull request. See [Linting Error Codes](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md) for an explanation of any errors reported.
+
+For more advanced checking and identifying of linting issues, the [`linter-markdownlint`](https://atom.io/packages/linter-markdownlint) plugin from Atom can be installed alongside `mdl`. 
 
 ## File structure
 
