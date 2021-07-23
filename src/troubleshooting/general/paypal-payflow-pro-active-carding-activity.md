@@ -91,13 +91,9 @@ bin/magento cache:clean
 Having installed the package, configure Google reCAPTCHA (recommended) or CAPTCHA as described in the following docs:
 
 * Google reCAPTCHA links:
-    * version 2.3.x: [Commerce](https://docs.magento.com/m2/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/ce/user_guide/stores/security-google-recaptcha.html)
-    * version 2.2.x: [Commerce](https://docs.magento.com/m2/2.2/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-google-recaptcha.html)
-    * version 2.1.x: [Commerce](https://docs.magento.com/m2/2.1/ee/user_guide/stores/security-google-recaptcha.html) | [Open Source](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-google-recaptcha.html)
+    * [Adobe Commerce User Guide](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html)
 * CAPTCHA links:
-    * version 2.3.x: [Commerce](https://docs.magento.com/m2/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/ce/user_guide/stores/security-captcha.html)
-    * version 2.2.x: [Commerce](https://docs.magento.com/m2/2.2/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-captcha.html)
-    * version 2.1.x: [Commerce](https://docs.magento.com/m2/2.1/ee/user_guide/stores/security-captcha.html) | [Open Source](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-captcha.html)
+    * [Adobe Commerce User Guide](https://docs.magento.com/user-guide/stores/security-captcha.html)
 
 The new checkout form option is:
 
@@ -110,7 +106,7 @@ Please contact PayPal Payflow Merchant Support to learn more about Fraud Protect
 
 >![info]
 >
->For additional information, see PayPal’s KB [“Magento has contacted me about my Payflow Pro integration. What do I need to do?”](https://www.paypal.com/us/smarthelp/article/ts2242) .
+>For additional information, see PayPal’s KB [“Magento has contacted me about my Payflow Pro integration. What do I need to do?”](https://www.paypal.com/us/smarthelp/article/ts2242).
 
  **PayPal Payflow Merchant Support Details**
 
