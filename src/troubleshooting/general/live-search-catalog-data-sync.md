@@ -102,7 +102,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 
 1. Run the following queries to clear the export-related table:
     ```mysql
-       truncate table catalog_data_exporter_products;
+    truncate table catalog_data_exporter_products;
     ```   
     ```mysql
     truncate table catalog_data_exporter_product_attributes;
@@ -110,10 +110,17 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
     ```mysql
     truncate table catalog_data_exporter_categories;
     ```
+    ```mysql
     truncate table catalog_product_data_submitted_hash;
-       truncate table catalog_product_attribute_data_submitted_hash;
-       truncate table catalog_category_data_submitted_hash;
-       delete from flag where flag_code IN ('products-feed-version', 'product-attributes-feed-version');
+    ```
+    ```mysql
+    truncate table catalog_product_attribute_data_submitted_hash;
+    ```
+    ```mysql
+    truncate table catalog_category_data_submitted_hash;
+    ```
+    ```mysql
+    delete from flag where flag_code IN ('products-feed-version', 'product-attributes-feed-version');
     ```  
 1. After you have cleared all the data, you can either wait for the indexers and cron to run on their own, or manually run them using the following commands:
     ```bash 
