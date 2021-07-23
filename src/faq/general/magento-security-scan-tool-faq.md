@@ -1,6 +1,6 @@
 ---
 title: Magento Security Scan Tool FAQ
-labels: A
+labels: FAQ,Magento Security Scan Tool,specific security tests,Security Scan Tool,Magento Security,free tool,scanning, scan pages
 ---
 
 This article answers some Frequently Asked Questions (FAQ) about the Magento Security Scan Tool.

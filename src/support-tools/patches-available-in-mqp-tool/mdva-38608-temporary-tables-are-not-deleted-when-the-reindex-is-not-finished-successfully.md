@@ -1,19 +1,17 @@
 ---
-title: "MDVA-34330: Orders not filtered according to admin timezone"
-labels: support tool,MQP patches,Magento Quality Patches,MDVA-34330,MQP tool 1.0.24,issue,Magneto Commerce Cloud,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
+title: "MDVA-38608: Temporary tables not deleted for unsuccessful reindexes"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,reindexes,temporary tables,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-34330 Magento patch solves the issue where orders are not filtered according to admin timezone. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.24 is installed. The patch ID is MDVA-34330. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-38608 Magento patch fixes the issue where temporary tables for unsuccessful reindexes are not deleted. This patch is available when the [Magento Quality Patch (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38608. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
 **The patch is created for Magento version:**
-
-Magento Commerce Cloud 2.4.1
+Magento Commerce Cloud 2.3.2-p2
 
 **Compatible with Magento versions:**
-
-Magento Commerce and Magneto Commerce Cloud 2.3.1 - 2.4.2-p1
+Magento Commerce and Magento Commerce Cloud 2.3.0-2.4.2-p1
 
 >![info]
 >
@@ -21,22 +19,20 @@ Magento Commerce and Magneto Commerce Cloud 2.3.1 - 2.4.2-p1
 
 ## Issue
 
-Orders not filtered according to admin timezone.
+Temporary tables are not deleted when the reindex is not finished successfully.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Stores** > Settings > **Configuration** > **General** and set the **Timezone** to *Eastern Standard Time (America/New_York)*
-1. Place a new order after 00:00 UTC
-1. Go to **Sales** > **Orders** and filter by today's date
-
+1. Run reindex.
+1. Reindex fails.
 
 <ins>Expected results</ins>:
 
-Order placed today after 00:00 UTC is visible in filtered results.
+Temporary tables are deleted.
 
 <ins>Actual results</ins>:
 
-The order is missing in filtered results.
+Temporary tables are NOT deleted.
 
 ## Apply the patch
 

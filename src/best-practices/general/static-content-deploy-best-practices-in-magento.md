@@ -5,7 +5,7 @@ labels: Magento Commerce,Magento Commerce Cloud,best practices,configuration,con
 
 This article talks about static content deploy (SCD) best practices in Magento to help avoid issues where the static content would not be available on your website.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, all versions
 * Magento Open Source, all versions

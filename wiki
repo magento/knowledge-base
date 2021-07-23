@@ -1,0 +1,6 @@
+## Welcome to the Adobe Commerce Support Knowledge Base!
+This repository contains the markdown source of articles, published in the Adobe Commerce Support Knowledge Base.
+
+### Become a contributor
+Getting started with our contribution program is easy. You can start with a simple page edit, then work your way up to major revisions and new topics. The more participation we have from the Magento community, the better the docs are for everyone!
+To start contributing, see [Contributing](https://github.com/magento/knowledge-base/blob/main/.github/CONTRIBUTING.md) to Knowledge Base.

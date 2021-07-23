@@ -1,17 +1,17 @@
 ---
-title: "MDVA-37779: Unable to add configurable product to cart via GraphQL"
-labels: support tools,MQP patches,Magento Quality Patches,Magento Commerce,Magneto Commerce Cloud,MQP 1.0.24,2.4.2,2.4.2-p1
+title: "MDVA-37068: Incorrect tax displayed on Checkout for virtual products"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,virtual products,checkout,tax,shopping cart,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-37779 Magento patch solves the issue where it is impossible to add a configurable product to cart when the website ID is not equal to the store ID. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.24 is installed. The patch ID is MDVA-37779. Please note that the issue is scheduled to be fixed in Magento 2.4.4. 
+The MDVA-37068 Magento patch fixes the issue when the Checkout Page displays an incorrect tax rate for virtual products. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-37068. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 
 **The patch is created for Magento version:**
-Magento Commerce Cloud 2.4.2
+Magento Commerce Cloud 2.3.5-p2
 
 **Compatible with Magento versions:**
-Magento Commerce and Magneto Commerce Cloud 2.4.2 - 2.4.2-p1
+Magento Commerce and Magento Commerce Cloud 2.3.1-2.4.2-p1
 
 >![info]
 >
@@ -19,21 +19,28 @@ Magento Commerce and Magneto Commerce Cloud 2.4.2 - 2.4.2-p1
 
 ## Issue
 
-It is impossible to add configurable product to the cart when the website ID is not equal to the store ID.
+Incorrect tax rate is displayed on Checkout Page when the Shopping Cart has only virtual products.
 
 <ins>Prerequisites</ins>:
-Have a second website, store and store view where website ID is not equal to the store ID.
+
+1. Create two separate tax rates and tax rules for two different countries - for example 10% and 1%.
+1. Create a virtual product.
+1. Run reindex and clean cache.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create an empty cart using GraphQl mutation `createEmptyCart`.
-1. Try to add a configurable product to the cart using the `addConfigurableProductsToCart` mutation.
+1. Create a customer.
+1. Add different billing and shipping addresses.
+1. Add a virtual product to the cart.
+1. Check the Cart and Checkout Page.
 
 <ins>Expected results</ins>:
-Product added to cart.
+
+The tax displayed on the Cart and Checkout Page are the same.
 
 <ins>Actual results</ins>:
-Get an error: *Could not add the product with SKU xxxx to the shopping cart: The website with ID 3 that was requested wasn't found. Verify the website and try again.*
+
+The tax displayed on the Cart and Checkout Page are NOT the same.
 
 ## Apply the patch
 
@@ -41,7 +48,6 @@ To apply individual patches use the following links depending on your Magento pr
 
 * Magento Commerce: DevDocs [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
 * Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
-
 
 ## Related reading
 

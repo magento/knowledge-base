@@ -33,4 +33,4 @@ If the output from running the above query shows that the percentage of free mem
 
 ## Related Reading
 
-To learn more about Redis memory refer to [Redis Memory Optimization](https://redis.io/topics/memory-optimization) .
+To learn more about Redis memory refer to [Redis Memory Optimization](https://redis.io/topics/memory-optimization).

@@ -68,6 +68,5 @@ Environment variables are covered in the articles of the [Manage variables](http
 
 Particular topics you might be interested in:
 
-* [Magento Commerce (Cloud) variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_cloud.html)
+* [Magento Commerce (Cloud) variables](https://devdocs.magento.com/cloud/env/variables-cloud.html)
 * Add environment variables via [CLI](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_over.html#addvariables) and the [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#project-conf-env-var) 
-

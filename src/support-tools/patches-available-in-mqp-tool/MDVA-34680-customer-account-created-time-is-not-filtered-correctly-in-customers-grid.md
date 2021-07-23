@@ -1,42 +1,38 @@
 ---
-title: "MDVA-34330: Orders not filtered according to admin timezone"
-labels: support tool,MQP patches,Magento Quality Patches,MDVA-34330,MQP tool 1.0.24,issue,Magneto Commerce Cloud,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
+title: "MDVA-34680: Customer Account created time not filtered correctly in customers grid"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.0.26,Magento Commerce Cloud,Magento Commerce,account filter,Customer Account,customers grid,2.3.6,2.3.6-p1,2.3.7,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-34330 Magento patch solves the issue where orders are not filtered according to admin timezone. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.24 is installed. The patch ID is MDVA-34330. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-34680 Magento patch fixes the issue when the Customer Account created time is not filtered correctly in customers grid. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-34680. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
 **The patch is created for Magento version:**
-
-Magento Commerce Cloud 2.4.1
+Magento Commerce Cloud 2.4.1, 2.4.2
 
 **Compatible with Magento versions:**
-
-Magento Commerce and Magneto Commerce Cloud 2.3.1 - 2.4.2-p1
+Magento Commerce and Magento Commerce Cloud 2.3.6-2.3.7, 2.4.1-2.4.2-p1
 
 >![info]
 >
 >Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
-
-Orders not filtered according to admin timezone.
+When a customer account is created after 00:00 UTC and you try to filter accounts by that date, it will not return this customer.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Stores** > Settings > **Configuration** > **General** and set the **Timezone** to *Eastern Standard Time (America/New_York)*
-1. Place a new order after 00:00 UTC
-1. Go to **Sales** > **Orders** and filter by today's date
-
+1. Go to **Stores** > **Configuration** > **General** and set the Timezone to Eastern Standard [United States/New York].
+1. Create a new customer account after 00:00 UTC.
+1. Go to **Customers** > **All Customers** and filter accounts by today's date.
 
 <ins>Expected results</ins>:
 
-Order placed today after 00:00 UTC is visible in filtered results.
+The customer account filters show the new account created today after 00:00 UTC.
 
 <ins>Actual results</ins>:
 
-The order is missing in filtered results.
+The customer account filters do not show the new account created today.
 
 ## Apply the patch
 

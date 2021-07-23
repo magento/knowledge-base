@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,best practices,index
 
 This article provides a fix for low performance due to indexers being set on *Update on Save* mode, and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Magento.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, versions 2.2.x and 2.3.x
 * Magento Commerce Cloud, versions 2.2.x and 2.3.x
@@ -31,7 +31,7 @@ To avoid this issue, set the indexers to *Update on Schedule* .
     * `realtime` :  Sets the selected indexers to *Update on Save* .
     * `schedule` : Sets the specified indexers to save according to the Cron schedule. Use this setting to set *Update on Schedule* .
     * `indexer` : Is a space-separated list of indexers. Omit `[indexer]` to configure all indexers the same way.
-    
+
 ## Related reading
 
 * [Magento\_Indexer Overview](https://devdocs.magento.com/guides/v2.3/mrg/ce/Indexer.html)

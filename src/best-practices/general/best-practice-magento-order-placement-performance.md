@@ -8,7 +8,7 @@ This article provides best practices for order processing and checkout performan
 ## Affected products and versions
 
 * Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
@@ -16,7 +16,7 @@ It is recommended that you enable the Async email notification and Order archive
 
 ### Enable Async email notifications
 
-Enable the Async email notification functionality to improve the performance of placing an order. This moves the order processing email notifications to the background.To enable this feature:
+Enable the Async email notification functionality to improve the performance of placing an order. This moves the order processing email notifications to the background. To enable this feature:
 
 1. Go to Magento Admin Panel.
 1. Click on **STORES** > Settings > **Configuration**.
@@ -30,5 +30,5 @@ To enable the feature, follow the instructions in [Archive > To enable archiving
 
 ## Related reading
 
-Refer to [Performance Best Practices > 
+Refer to [Performance Best Practices >
 Best Practices](https://devdocs.magento.com/guides/v2.4/performance-best-practices/configuration.html#asynchronous-email-notifications).

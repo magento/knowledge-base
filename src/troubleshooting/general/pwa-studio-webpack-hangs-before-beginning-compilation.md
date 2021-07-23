@@ -5,7 +5,7 @@ labels: PWA,PWA studio,hangs,how to,javascript,pwa-buildpack,stalls,webpack
 
 This article talks about a suggested solution to when a javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) hangs for a long time before beginning compilation in Magento Progressive Web App Studio (PWA Studio).
 
-### AFFECTED PRODUCTS AND VERSIONS
+## Affected products and versions
 
 * Magento PWA Studio
 
@@ -25,7 +25,7 @@ pwa-buildpack
 
 project, the webpack may hang for a long time before beginning compilation.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 Prerequisites: Set up a PWA Studio storefront, such as Venia, with a local Magento instance and run a
 
@@ -41,12 +41,12 @@ watch
 
 command.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 * If using the    ```yaml    build    ```    command, it generates the build artifacts for Venia normally.
 * If using the    ```yaml    watch    ```    command, it starts the Venia storefront normally.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 Your
 
@@ -87,4 +87,3 @@ You can install higher versions of OpenSSL with [Homebrew](https://brew.sh/) on 
 * [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
 * [buildpack Command Line Interface](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
 * [Tools and libraries: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
-
