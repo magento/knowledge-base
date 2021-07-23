@@ -9,7 +9,7 @@ All data collected by Segment is sent to Magento BI (formerly RJMetrics) by defa
 
  **If you use [selective integration snippets](https://segment.com/docs/libraries/analytics.js/#selecting-integrations) ,** you'll need to add RJMetrics to the list of integrations before data will flow to your data warehouse.
 
-Here's an example of a snippet that sends data to RJMetrics, Mixpanel, and KISSMetrics **only:** 
+Here's an example of a snippet that sends data to RJMetrics, Mixpanel, and KISSMetrics **only:**
 
 ```json
 }, {
@@ -26,6 +26,4 @@ Make sure you enter 'RJMetrics' exactly as it appears in the example above.
 
 ## Related documentation
 
-* [Connecting Segment](https://support.magento.com/hc/en-us/articles/360016730531)
 * [Expected Segment data](https://support.magento.com/hc/en-us/articles/360016504192)
-
