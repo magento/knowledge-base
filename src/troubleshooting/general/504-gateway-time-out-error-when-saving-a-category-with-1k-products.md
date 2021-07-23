@@ -15,18 +15,18 @@ This article suggests a solution for the timeout issue you might have, when perf
 
 Prerequisites: The **Stores** > **Configuration** > **CATALOG** > **Catalog** > **Use Categories Path for Product URLs** option is set to *Yes* for your store view.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. In Magento Admin, go to **Catalog** > **Categories** .
 1. Open a large category, like more than 1000 assigned products.
 1. Add a product to the category.
-1. Click **Save Category.** 
+1. Click **Save Category.**
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Category is saved successfully.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 After 5 minutes of saving process, the 504 gateway timeout error page appears.
 
@@ -54,5 +54,4 @@ Now you can proceed to adding products to categories, or moving categories with 
 
 ## Related reading
 
-* [Automatic Product Redirects](https://docs.magedevteam.com/244/m2/ce/user_guide/marketing/url-redirect-product-automatic.html) in [Magento 2.3 User Guide](https://docs.magedevteam.com/244/m2/ce/user_guide/) 
-
+* [Automatic Product Redirects](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html  (Yet to replace) in [Magento 2.3 User Guide](https://docs.magento.com/user-guide/v2.3/)
