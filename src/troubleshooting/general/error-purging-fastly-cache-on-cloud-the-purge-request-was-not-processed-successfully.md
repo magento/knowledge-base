@@ -43,7 +43,6 @@ Review the list of VCLs. If you have issues with the default VCLs from Fastly, y
 
 ## More information
 
-* [About Fastly](http://devdocs.magento.com/guides/v2.2/cloud/basic-information/cloud-fastly.html)
+* [About Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html)
 * [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html)
 * [Custom Fastly VCL snippets](http://devdocs.magento.com/guides/v2.2/cloud/configure/cloud-vcl-custom-snippets.html)
-

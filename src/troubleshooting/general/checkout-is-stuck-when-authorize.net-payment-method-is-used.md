@@ -15,7 +15,7 @@ This article provides an explanation and fix for the Magento Commerce 2.3.X issu
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Configure the Authorize.net payment method in the Magento Admin.
 1. Go to the storefront.
@@ -23,13 +23,13 @@ This article provides an explanation and fix for the Magento Commerce 2.3.X issu
 1. Choose Authorize.net as a payment method.
 1. Click **Place Order** .
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 The Authorize.net iframe is loaded.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
-Ajax spinner is displayed, and the page never loads.  The following JS error is displayed in the browser console log: *'Uncaught TypeError: Cannot read property 'length' of null at b (jstest.authorize.net/v1/AcceptCore.js:1)'* 
+Ajax spinner is displayed, and the page never loads.  The following JS error is displayed in the browser console log: *'Uncaught TypeError: Cannot read property 'length' of null at b (jstest.authorize.net/v1/AcceptCore.js:1)'*
 
 ## Cause
 
@@ -44,10 +44,3 @@ For the changes to be applied, clean the cache by running
 ```bash
 bin/magento cache:clean
 ```
-
-.
-
-## Related reading
-
-* [Authorize.net](https://docs.magento.com/m2/ee/user_guide/payment/authorize-net.html) in Magento User Guide.
-

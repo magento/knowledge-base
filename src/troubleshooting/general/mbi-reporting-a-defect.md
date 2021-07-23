@@ -18,7 +18,7 @@ Open your browser’s developer tools and take a screenshot of any errors displa
 * [Firefox](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console)
 * [Chrome](https://developers.google.com/web/tools/chrome-devtools/?hl=en)
 * [Opera](http://www.opera.com/dragonfly/documentation/)
-* [Internet Explorer](https://msdn.microsoft.com/en-us/library/gg589512(v=vs.85).aspx#OpeningTools)
+* [Internet Explorer](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85)
 
 In some browsers, opening the developer tools might not automatically display the console - the site’s code may display first. If this happens, click the console option in the developer window and take screenshots of any errors displayed there.
 
@@ -29,4 +29,3 @@ In some browsers, opening the developer tools might not automatically display th
 * [MBI Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
 * [MBI Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
 * [MBI User Guide: Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
-
