@@ -23,7 +23,3 @@ Here's an example of a snippet that sends data to RJMetrics, Mixpanel, and KISSM
 ```
 
 Make sure you enter 'RJMetrics' exactly as it appears in the example above.
-
-## Related documentation
-
-* [Expected Segment data](https://support.magento.com/hc/en-us/articles/360016504192)
