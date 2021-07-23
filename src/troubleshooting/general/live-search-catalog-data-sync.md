@@ -113,8 +113,8 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 1. After you have cleared all the data, you can either wait for the indexers and cron to run on their own, or manually run them using the following commands:
     ```bash 
     bin/magento indexer:reindex catalog_data_exporter_products
-    bin/magento indexer:reindex catalog_data_exporter_product_attributes
-    bin/magento cron:run --group=catalog_data_exporter
+    bin/magento indexer:reindex catalog_data_exporter_product_attributes
+    bin/magento cron:run --group=catalog_data_exporter
     ```
 ## Related reading
 
