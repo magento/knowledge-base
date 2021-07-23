@@ -102,8 +102,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 
 1. Run the following queries to clear the export-related table:
     ```sql
-       truncate table catalog_data_exporter_products;
-       truncate table catalog_data_exporter_product_attributes;
+       truncate table catalog_data_exporter_products;truncate table catalog_data_exporter_product_attributes;
        truncate table catalog_data_exporter_categories;
        truncate table catalog_product_data_submitted_hash;
        truncate table catalog_product_attribute_data_submitted_hash;
