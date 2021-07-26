@@ -34,11 +34,8 @@ When using the MySQL queries below you may need to replace all single and double
      ```
  1. Build the `ALTER` table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For ProBuild the `ALTER` table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For Pro.
      ```shell
- mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt<p>fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt
- 612 /app/fw0ef0jqfdlwdj/var/alter.txt
- fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l
- 612
- Download the file's contents to a text file on your local environment.
+        mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt<p>fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt 612 /app/fw0ef0jqfdlwdj/var/alter.txt fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l 612```
+ 1. Download the file's contents to a text file on your local environment.
  1. Log in to MySQL. For starter use 3306 as there is only one MySQL instance.
  1. Copy and paste 100 or so rows at a time from that file into MySQL to alter the table formats from `COMPACT` to `DYNAMIC`.
  1. When complete check the list of compact tables you created in step 3 to ensure that there are no tables left to be converted.
