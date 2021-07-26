@@ -21,7 +21,7 @@ When using the MySQL queries below you may need to replace all single and double
  ## Solution
 
  1. SSH into the environment. For steps, refer to DevDocs [Magento Commerce Cloud > SSH into your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh). For pro accounts prod/staging you will need to do this on all node 1, the changes will then replicate across other nodes in the cluster. You should check the changes have been applied by logging into node 2 and 3 also. For starter accounts/integration/dev branches you will not need to specify a port or do it multiple times as there is a single database container.
-        ```shell
+       ```shell
         export DB_NAME=$(grep [\']db[\'] -A 20 app/etc/env.php | grep dbname | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
         export MYSQL_HOST=$(grep [\']db[\'] -A 20 app/etc/env.php | grep host | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
         export DB_USER=$(grep [\']db[\'] -A 20 app/etc/env.php | grep username | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
