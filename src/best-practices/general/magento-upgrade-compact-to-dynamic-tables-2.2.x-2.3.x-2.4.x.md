@@ -7,7 +7,7 @@ This article provides a solution for the issue when you cannot upgrade Magento f
 
 If you try to upgrade Magento from 2.2x and 2.3.x to 2.4.x without converting row formats from COMPACT to DYNAMIC, you will probably not be allowed to upgrade, and if you manage to upgrade there may be data loss on some tables.
 
-When using the MySQL queries below you may need to replace all single and double quotes due to there being characters that look like them but are not them that are used in some browser display fonts.Converting from `COMPACT` to `DYNAMIC` tables can take a long time with a large database. This process should be done in [maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) during a low traffic period. For steps refer to DevDocs [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten).
+When using the MySQL queries below you may need to replace all single and double quotes due to there being characters that look like them but are not them that are used in some browser display fonts.Converting from `COMPACT` to `DYNAMIC` tables can take a long time with a large database. This process should be done in [maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) during a low traffic period. For steps refer to DevDocs [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) .
 
 ## Affected product and versions
 
@@ -25,18 +25,16 @@ When using the MySQL queries below you may need to replace all single and double
         export DB_NAME=$(grep [\']db[\'] -A 20 app/etc/env.php | grep dbname | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
         export MYSQL_HOST=$(grep [\']db[\'] -A 20 app/etc/env.php | grep host | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
         export DB_USER=$(grep [\']db[\'] -A 20 app/etc/env.php | grep username | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
-        export MYSQL_PWD=$(grep [\']db[\'] -A 20 app/etc/env.php | grep password | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/[']$//" | sed "s/['][,]//");
-```
+        export MYSQL_PWD=$(grep [\']db[\'] -A 20 app/etc/env.php | grep password | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/[']$//" | sed "s/['][,]//");```
  1. Get a count of tables to be altered and their names by running the following command in the CLI/Terminal: For starter use 3306 as there is only one MySQL instance.
      For Pro
      ```shell
-     mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM   information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|wc -l 
-    mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|less````
+     mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|wc -l mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|less`
+     ```
  1. Build the `ALTER` table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For ProBuild the `ALTER` table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For Pro.
      ```shell
-        mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt 
-fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt 612 /app/fw0ef0jqfdlwdj/var/alter.txt
-fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l 612```
+        mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt<p>fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt 612 /app/fw0ef0jqfdlwdj/var/alter.txt fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l 612
+     ```
  1. Download the file's contents to a text file on your local environment.
  1. Log in to MySQL. For starter use 3306 as there is only one MySQL instance.
  1. Copy and paste 100 or so rows at a time from that file into MySQL to alter the table formats from `COMPACT` to `DYNAMIC`.
