@@ -182,7 +182,7 @@ One of the following might be the cause:
 
 #### Solution
 
- [Log in to Help Center](https://support.magento.com/hc/en-us/articles/360019086851) .
+ [Log in to Help Center](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
 The **Submit a ticket** link will only be displayed for customers with an email linked to a valid support agreement.
 
