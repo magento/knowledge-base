@@ -21,7 +21,7 @@ When using the MySQL queries below you may need to replace all single and double
  ## Solution
 
 1. SSH into the environment. For steps, refer to DevDocs [Magento Commerce Cloud > SSH into your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh). For pro accounts prod/staging you will need to do this on all node 1, the changes will then replicate across other nodes in the cluster. You should check the changes have been applied by logging into node 2 and 3 also. For starter accounts/integration/dev branches you will not need to specify a port or do it multiple times as there is a single database container.
-        ```shell
+    ```shell
         export DB_NAME=$(grep [\']db[\'] -A 20 app/etc/env.php | grep dbname | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
         export MYSQL_HOST=$(grep [\']db[\'] -A 20 app/etc/env.php | grep host | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
         export DB_USER=$(grep [\']db[\'] -A 20 app/etc/env.php | grep username | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");
@@ -29,11 +29,11 @@ When using the MySQL queries below you may need to replace all single and double
         ```
 1. Get a count of tables to be altered and their names by running the following command in the CLI/Terminal: For starter use 3306 as there is only one MySQL instance.
      For Pro
-     ```shell
+    ```shell
      mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|wc -l</code><p><code>mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|less`
      ```
 1. Build the `ALTER` table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For ProBuild the `ALTER` table list file, and make sure it's complete:For starter use 3306 as there is only one MySQL instance. For Pro.
-     ```shell
+    ```shell
         mysql -P 3304 -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|awk '{print "alter table "$1" ROW_FORMAT=DYNAMIC; "}' > ~/var/alter.txt<p>fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ wc -l ~/var/alter.txt 612 /app/fw0ef0jqfdlwdj/var/alter.txt fw0ef0jqfdlwdj@i-f5w6ef4w6e5f4we6f4:~$ mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -e "SELECT table_name,row_format FROM information_schema.tables WHERE table_schema='$DB_NAME' and row_format='compact'"|grep -v table_name|wc -l 612```
 1. Download the file's contents to a text file on your local environment.
 1. Log in to MySQL. For starter use 3306 as there is only one MySQL instance.
