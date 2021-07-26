@@ -9,8 +9,8 @@ The Magento Support Knowledge Base provides troubleshooting solutions for fixing
 
 There are also separate troubleshooting resources for:
 
-* Magento U: [https://magento-u-support.magento.com/](https://magento-u-support.magento.com/hc/en-us) 
-* Magento Marketplace:<https://marketplacesupport.magento.com/>>>
+* Magento U: [https://magento-u-support.magento.com/](https://magento-u-support.magento.com/hc/en-us)
+* Magento Marketplace:<https://marketplacesupport.magento.com/hc/en-us>>>
 * Magento Partners Portal:<<<FLOATING LINK: https://partnersupport.magento.com>
 
 If you are looking for technical or end-user documentation, please use one of the following links:
@@ -37,7 +37,7 @@ If you are looking for technical or end-user documentation, please use one of th
 </td>
 </tr>
 <tr>
-<td> 
+<td>
 <p>Magento Open Source</p>
 <p> </p>
 </td>
@@ -47,7 +47,7 @@ If you are looking for technical or end-user documentation, please use one of th
 </td>
 </tr>
 <tr>
-<td> 
+<td>
 <p>Magento B2B</p>
 <p> </p>
 </td>
@@ -87,10 +87,9 @@ If you are looking for technical or end-user documentation, please use one of th
 </tbody>
 </table>
 
- 
+
 ## Blogs and communications
 
 * Magento security center (security updates and patches):<https://magento.com/security/news>>>
 * Magento Community Developer Blog (how to's, best practices and Magento technical news from Magento community):<<<FLOATING LINK: https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog>>>
 * Magento Blog (high level e-commerce):<<<FLOATING LINK: https://magento.com/blog>
-
