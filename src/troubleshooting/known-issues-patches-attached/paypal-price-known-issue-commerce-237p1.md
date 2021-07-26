@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal
+title: "Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal"
 labels: troubleshooting,known issue,paypal,2.3.7-p1,order,Adobe Commerce
 ---
 
