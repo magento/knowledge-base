@@ -16,8 +16,6 @@ Related reading
 * [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
 * [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
 * [Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
-* [Conducting new analyses](https://support.magento.com/hc/en-us/articles/360016505992)
 * [Connection issues](https://support.magento.com/hc/en-us/articles/360016732611)
 * [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
-
