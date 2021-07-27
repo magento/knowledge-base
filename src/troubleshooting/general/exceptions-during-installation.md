@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce,exception,generated,how to,install,installa
 
 This article provide a possible solution for the issues with installing Magento using Web Setup Wizard.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
