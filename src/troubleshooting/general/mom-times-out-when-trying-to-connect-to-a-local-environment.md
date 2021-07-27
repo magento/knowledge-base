@@ -5,7 +5,7 @@ labels: Magento Order Management,timeout,troubleshooting
 
 This article provides a solution for the Magento Order Management (MOM) issue where you cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.3.1
 * Magento Order Management
@@ -17,17 +17,17 @@ This article provides a solution for the Magento Order Management (MOM) issue wh
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Install Magento Commerce on your local environment.
 1. Setup ngrok to create a tunnel to expose your local server.
 1. Try [connecting to MOM](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/) .
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Connection established successfully.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 MCOM seems to timeout when trying to callback to the ngrok URL.
 
