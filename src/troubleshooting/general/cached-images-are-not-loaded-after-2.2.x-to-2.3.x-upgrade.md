@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,404,Magento Commerce Cloud,Pro,cache,images,troubleshooting
 
 This article provides the solution for the issue with cached images not being displayed after upgrading from Magento Commerce Cloud 2.2.X to 2.3.X.
 
-### Affected versions and editions:
+## Affected versions and editions:
 
 * Magento Commerce Cloud 2.2.X, 2.3.X, Pro Plan
 
@@ -24,10 +24,8 @@ The issue is caused by the incorrect Nginx configuration set in `.magento.app.ya
     * Pro Plan:
     * Integration: correct the file yourself and push the changes.
     * Staging and Production: correct the file yourself, push the changes, and create a [Magento Support ticket](https://support.magento.com/hc/en-us/articles/360019088251) to have it applied.
-    
+
 
 1. Enable Fastly image optimization in the Magento Admin (Fastly must be configured prior), as described in<https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html>
 
 If the configuration is correct, but you are still experiencing the issue, continue investigation or contact [Magento Support](https://support.magento.com/hc/en-us/articles/360019088251) .
-
- 
