@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,maintenance mode,troubleshooting
 
 This article provides a fix for when maintenance mode is enabled (a Magento Commerce Cloud issue) but the store front is still available for customers.
 
-## Affected products/versions
+## Affected products and versions
 
 * Magento Commerce Cloud, all versions
 
