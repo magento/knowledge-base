@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,stuck cron,troubleshooting
 
 This article provides a solution for when Magento cron jobs do not finish executing and persist in a `running` status, which prevents other cron jobs from running. This can happen for a number of reasons, such as network issues, application crashes, redeployment issues.
 
-### Affected products and versions
+## Affected products and versions
 
 Magento Commerce Cloud, all versions
 
@@ -32,4 +32,3 @@ To resolve this issue, you must reset the cron job(s) using the `cron:unlock` co
 1. Find all running cron jobs:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```    
 1. Copy the `job_code` of any job running longer than usual.    
 1. Use the schedule IDs from the previous step to unlock specific cron jobs:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```    
-
