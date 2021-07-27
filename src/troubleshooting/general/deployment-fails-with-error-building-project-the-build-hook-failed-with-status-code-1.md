@@ -5,28 +5,28 @@ labels: Magento Commerce Cloud,build,deployment,error building,troubleshooting
 
 This article talks about the causes and solutions for the Magento Commerce Cloud issue, where the build phase of the deployment process fails and the error message is summarized with : *"Error building project: The build hook failed with status code 1"* .
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud, all versions
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Trigger the deployment manually or by performing a merge, push, or synchronization of your environment.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 1. The building phase fails, and the whole deployment process gets stuck.
-1. In the deployment error log, the error message ends with: *"Error building project: The build hook failed with status code 1. Aborted build".* 
+1. In the deployment error log, the error message ends with: *"Error building project: The build hook failed with status code 1. Aborted build".*
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Deployment is completed successfully.
 
 ## Cause
 
-There are multiple reasons why environment building fails. Usually, in the deployment log you will see a long error message, where the first part would be more specific regarding the reason, and the conclusion would be *Error building project: The build hook failed with status code 1. Aborted build".* 
+There are multiple reasons why environment building fails. Usually, in the deployment log you will see a long error message, where the first part would be more specific regarding the reason, and the conclusion would be *Error building project: The build hook failed with status code 1. Aborted build".*
 
 Looking closer at the first, problem-specific, part will help you to identify the issue. Here are the most common ones, and the next section provides solutions for them:
 
@@ -48,10 +48,10 @@ The following paragraphs provide some more details.
 
 Directories that be considered for clean up:
 
-* `var/log` 
-* `var/report` 
-* `var/debug/` 
-* `var` 
+* `var/log`
+* `var/report`
+* `var/debug/`
+* `var`
 
 For details on how increase disk space if you on the Starter plan, see the [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud) . The same instructions can be used for increasing space of Pro plan Integration environment.For Pro Production/Staging, you need to file a ticket to [Magento Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and request increase disk space. But it is monitored by Platform. But typically, you will not have to deal with this on Staging/Production of Pro plan, cause Magento monitors these parameters for you, and alerts you and/or takes actions, according to the contract.
 
@@ -67,16 +67,16 @@ See the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/pro
 If it is the applied patch that is preventing the environment to build successfully, you see something similar to the following in the deploy log:
 
 ```bash
-%patch_name%.composer.patch 
-[2019-02-19 18:12:59] CRITICAL: 
+%patch_name%.composer.patch
+[2019-02-19 18:12:59] CRITICAL:
 ....
-[2019-02-19 18:12:59] CRITICAL: Command git apply --check --reverse /app/m2-hotfixes/%patch_name%.composer.patch returned code 1 
+[2019-02-19 18:12:59] CRITICAL: Command git apply --check --reverse /app/m2-hotfixes/%patch_name%.composer.patch returned code 1
 ...
-W: 
-W: Command git apply --check --reverse /app/m2-hotfixes/%patch_name%.composer.patch returned code 1 
-W: 
-W: 
-W: build 
+W:
+W: Command git apply --check --reverse /app/m2-hotfixes/%patch_name%.composer.patch returned code 1
+W:
+W:
+W: build
 ...
 E: Error building project: The build hook failed with status code 1. Aborted build.
 ```
@@ -91,5 +91,5 @@ If it is the custom extension that is preventing the environment to build succes
 
 Commit and push your changes. This will trigger the deployment automatically.
 
- 
- `` 
+
+ ``
