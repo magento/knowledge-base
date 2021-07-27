@@ -5,7 +5,7 @@ labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,cacheable page,how to,slow
 
 This article provides solutions for increased website load times or outages due to full page cache (for example Fastly) having been disabled for any block on any page(s) that need to be cached.
 
-### AFFECTED PRODUCTS AND VERSIONS
+## Affected products and versions
 
 * Magento Commerce Cloud 2.x.x
 * Magento Commerce 2.x.x
