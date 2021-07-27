@@ -5,7 +5,7 @@ labels: Magento Commerce,Magento Commerce Cloud,deployment,mysql,troubleshooting
 
 This article provides a solution for Magento Commerce and Cloud issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, Magento Cloud
 * all versions
@@ -59,5 +59,3 @@ Once you change the `.magento/services.yaml` file, you need to commit and push y
 ```bash
 <code class="language-bash"></code>
 ```
-
- 
