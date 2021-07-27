@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce Cloud,SSH,cache,how to,images not displayed
 
 This article provides a solution for when images are not being displayed correctly after deployment.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud 2.2.x, 2.3.x
 
@@ -26,4 +26,3 @@ To perform this, you need the SSH information and the store URL available throug
 1. SSH to your project that was a source for the [database dump](https://support.magento.com/hc/en-us/articles/360003254334-Create-database-dump-on-Cloud) , as described in [SSH to environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) .
 1. Regenerate the image cache by running:    ```bash    php bin/magento catalog:images:resize    ```    
 1. Test the category pages through the store URL.    
-
