@@ -5,23 +5,23 @@ labels: Cloud,Fastly,Magento Commerce Cloud,cache,slow performance,troubleshooti
 
 This article provides recommendations how to make your Magento Commerce Cloud site better performing under heavy traffic loads, and how to cut this load.
 
-### Affected versions and editions
+## Affected versions and editions
 
 * Magento Commerce Cloud, all versions
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Visit your Magento store.
 1. Browse a category page.
 1. Add a product to the cart.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 The site is responsive and adding a product to the cart is fast.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 The site is slow, or the category pages are fast but the cart page is slow.
 
@@ -109,7 +109,7 @@ If the
 magento-cloud log
 ```
 
-command doesn't work, you can connect to the remote server with SSH and check the log file at `/var/log/access.log` 
+command doesn't work, you can connect to the remote server with SSH and check the log file at `/var/log/access.log`
 
 After you identify the IP addresses that are causing heavy server load, you can block them by configuring an IP block list from in the Magento Admin panel, under **Stores** > **Configuration** > ADVANCED > **System** > **Full Page Cache** > **Fastly Configuration** > **Blocking** .
 
@@ -120,6 +120,6 @@ If you cannot access your Admin due to heavy load, you can use the Fastly API to
 
  `if( req.http.Fastly-Client-IP ~ ACL_NAME_GOES_HERE ) {
   error 403 "Forbidden";
-  }` 
+  }`
 
 For more information on blocking IP addresses, see the Fastly Magento 2 module guide:<https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md>
