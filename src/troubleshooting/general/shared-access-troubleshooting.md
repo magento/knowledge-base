@@ -21,4 +21,4 @@ labels: Magento Commerce,Magento Commerce Cloud,shared access,troubleshooting
 
 ## Related reading
 
-[Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360043335371-Ticket-submission-form-merchant-is-not-displayed-in-Organization-drop-down)
+[Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed)

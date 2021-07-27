@@ -11,7 +11,7 @@ On September 3, Multi-State Information Sharing and Analysis Center (MS-ISAC) ha
 
 Read on for impacts and steps for Magento Commerce sites:
 
- **Magento Commerce hosted on our Cloud product** 
+ **Magento Commerce hosted on our Cloud product**
 
 If you are using Magento Commerce on our cloud infrastructure, please work with your technology team to redeploy Magento Commerce starting at any time\* in order to take advantage of the update. We recommend that Merchants complete this redeployment by September 30 in order to avoid PCI compliance issues that may go into effect as a result of these vulnerabilities at the end of the month.
 
@@ -20,9 +20,9 @@ Additional notes on redeploying your Cloud site for this update:
 * If your site is still using PHP version 7.0, you will need to upgrade to a supported PHP version first before redeploying in order to take advantage of these security updates.
 * For 2.1.x/2.2.x, more information on upgrading PHP can be found [here](https://devdocs.magento.com/guides/v2.2/cloud/project/project-upgrade.html) .
 
-\* *Previous versions of this article and our messaging stated September 19, but our teams have finished their work ahead of schedule.* 
+\* *Previous versions of this article and our messaging stated September 19, but our teams have finished their work ahead of schedule.*
 
- **Magento Commerce on all other hosting solutions** 
+ **Magento Commerce on all other hosting solutions**
 
 Since Magento Commerce relies on PHP, we recommend that all Merchants using Magento Commerce review necessary updates for PHP with their hosting provider. We also recommend that Merchants complete this review and any updates by September 30 in order to avoid PCI compliance issues that may go into effect as a result of these vulnerabilities at the end of the month.
 
@@ -32,8 +32,8 @@ Please note some additional details for Magento Commerce on other hosting soluti
 
 Per the alert, recommended patches for this vulnerability include:
 
-* PHP 7.1: [https://www.php.net/ChangeLog-7.php\#7.1.32](https://www.php.net/ChangeLog-7.php#7.1.32) 
-* PHP 7.2: [https://www.php.net/ChangeLog-7.php\#7.2.22](https://www.php.net/ChangeLog-7.php#7.2.22) 
-* PHP 7.3: [https://www.php.net/ChangeLog-7.php\#7.3.9](https://www.php.net/ChangeLog-7.php#7.3.9) 
+* PHP 7.1: [https://www.php.net/ChangeLog-7.php\#7.1.32](https://www.php.net/ChangeLog-7.php#7.1.32)
+* PHP 7.2: [https://www.php.net/ChangeLog-7.php\#7.2.22](https://www.php.net/ChangeLog-7.php#7.2.22)
+* PHP 7.3: [https://www.php.net/ChangeLog-7.php\#7.3.9](https://www.php.net/ChangeLog-7.php#7.3.9)
 
-If you would like more information on PHP and recent releases, you can visit [PHP’s site](https://www.php.net/) . And if you have questions or would like more information on best practices for security, please check out our [DevBlog article on Security](https://docs.magento.com/m2/ee/user_guide/magento/magento-security-best-practices.html) .
+If you would like more information on PHP and recent releases, you can visit [PHP’s site](https://www.php.net/) . And if you have questions or would like more information on best practices for security, please check out our [Security Best Practices Guide](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf).
