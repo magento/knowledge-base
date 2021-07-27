@@ -5,7 +5,7 @@ labels: 2.3.x,Authorize.net,Magento Commerce,checkout,troubleshooting
 
 This article provides an explanation and fix for the Magento Commerce 2.3.X issue where the checkout gets stuck if Authorize.net is used, with the *'Cannot read property 'length' of null'* error message in the browser console log.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.3.X
 
