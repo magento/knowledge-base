@@ -5,7 +5,7 @@ labels: 3.1.1,3.2.0,3.3.0,MCOM,Magento Order Management,connector,getMode,getMod
 
 This article provides a solution for the issue when you get a `getMode()` error in the CLI running `bin/magento oms:messages:process` in the Magento Order Management System (OMS).
 
-### AFFECTED PRODUCTS AND VERSIONS
+## Affected products and versions
 
 This error occurs when using MCOM Connector release 3.1.1 and 3.2.0. It is resolved in MCOM Connector 3.3.0. It is not specific to an MDC or MOM version.
 
@@ -13,7 +13,7 @@ This error occurs when using MCOM Connector release 3.1.1 and 3.2.0. It is resol
 
 When running the following command in the CLI:
 
- `bin/magento oms:messages:process` 
+ `bin/magento oms:messages:process`
 
 An error message similar to the following is outputted in the CLI:
 
@@ -52,7 +52,7 @@ This occurs when the Connector attempts to process `magento.inventory.source_man
 
 To resolve the problem run the following SQL statement in the CLI which deletes all records in the `mcom_api_messages` table:
 
- `delete from mcom_api_messages;` 
+ `delete from mcom_api_messages;`
 
 ## Related Reading
 
