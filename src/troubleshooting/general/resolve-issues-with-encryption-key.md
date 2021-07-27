@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce Cloud,crypt_key,database,encryption,how to
 
 This article talks about how to fix the issues caused by the encryption key not being moved together with DB dump to the other environment.
 
-### Products and versions affected
+## Affected products and versions
 
 * Magento Commerce Cloud 2.2.x, 2.3.x
 
@@ -39,4 +39,3 @@ Optionally, you can manually override the encryption key in the `app/etc/env.php
 1. Paste the copied data as the `key` value for `crypt` .
 1. Save the edited `env.php` .
 1. Clean cache on the destination environment by running `bin/magento cache:clean` or in Magento Admin under **System** > **Tools** > **Cache Management** .
-
