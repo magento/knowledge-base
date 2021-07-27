@@ -5,7 +5,7 @@ labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,create product,product sta
 
 This article provides a fix for when product status is Disabled and products are not displayed on the store front, or are assigned to the wrong store views, when created/updated programmatically.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud, Magento Commerce
 * 2.X.X
@@ -25,4 +25,3 @@ Set a dynamic DI preference for the `Magento\Framework\Authorization\PolicyInter
 ## Related reading
 
 * [Github: Can not change product status which product created with productRepository](https://github.com/magento/magento2/issues/5664)
-
