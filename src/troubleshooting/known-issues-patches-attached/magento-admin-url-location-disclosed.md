@@ -5,7 +5,7 @@ labels: 2.x.x,Admin URL disclosed,Magento Commerce,Magento Commerce Cloud,known 
 
 This article provides a patch for the Magento 2 security issue where the URL location of a Magento Admin panel can be disclosed. Knowing the URL location could make it easier to automate attacks.
 
-### Affected versions:
+## Affected products and versions
 
 * Magento Commerce Cloud 2.X.X
 * Magento Commerce 2.X.X
@@ -38,6 +38,6 @@ Magento also strongly recommends that merchants deploy tools to secure their adm
 * [5 Immediate Actions to Protect Against Brute Force Attacks](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [Protect Your Magento Installation Password Guessing New Update](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [Security Best Practices](https://magento.com/security/best-practices/security-best-practices)
-* Adding and Configuring Two-Factor Authentication in Magento for [2.1.x](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-two-factor-authentication.html) , [2.2.x](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-two-factor-authentication.html) , and [2.3.x](https://docs.magento.com/m2/ce/user_guide/stores/security-two-factor-authentication.html) 
+* Adding and Configuring Two-Factor Authentication in Magento for [2.1.x](https://docs.magento.com/m2/2.1/ce/user_guide/stores/security-two-factor-authentication.html) , [2.2.x](https://docs.magento.com/m2/2.2/ce/user_guide/stores/security-two-factor-authentication.html) , and [2.3.x](https://docs.magento.com/m2/ce/user_guide/stores/security-two-factor-authentication.html)
 
 ## Attached files
