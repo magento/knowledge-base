@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,AJAX requests,Magento Commerce,Magento Commerce Cloud,high t
 
 This article provides a solution for performance issues with a Magento Commerce or Magento Commerce Cloud site due to some high throughput requests causing significant server load and traffic.
 
-### AFFECTED PRODUCTS AND VERSIONS
+## Affected products and versions
 
 * Magento Commerce Cloud 2.2.x, 2.3.x
 * Magento Commerce 2.2.x, 2.3.x
@@ -30,11 +30,11 @@ There are three solutions:
 * Ensure lighter requests (cache requests or move to customer private content).
 * Reduce the number of requests.
 
- <span class="wysiwyg-underline">Ensure lighter requests (cache requests or move to customer private content)</span> 
+ <span class="wysiwyg-underline">Ensure lighter requests (cache requests or move to customer private content)</span>
 
 If there are third-party AJAX requests that are triggered on each page, attempt to cache these requests or move them to customer private content. The merchant can do this by making sure that custom AJAX requests are called using the GET HTTP methods. It will make these requests cacheable by Fastly. If there are custom AJAX requests that should not be cached, they should be refactored according to private-content functionality. For steps, refer to DevDocs [Private Content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) .
 
- <span class="wysiwyg-underline">Reduce the number of requests</span> 
+ <span class="wysiwyg-underline">Reduce the number of requests</span>
 
 * Disable the persistent shopping cart, as it can increase the number of `customer/section/load` requests. Follow the steps in [Persistent shopping cart paths](https://devdocs.magento.com/guides/v2.3/config-guide/prod/config-reference-most.html#persistent-shopping-cart-paths) to see if persistent shopping cart is enabled.
 * If you need to reload or invalidate content in `sections.xml` follow the steps in DevDocs [Private content: Invalidate private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html#invalidate-private-content) . Please make sure that you are not using the `customerData.reload()` method directly in your customizations.
