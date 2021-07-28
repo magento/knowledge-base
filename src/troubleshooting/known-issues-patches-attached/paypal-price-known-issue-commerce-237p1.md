@@ -19,7 +19,7 @@ When placing an order by using PayPal Express Checkout payment method, then the 
 1. On the store front, add any product to the cart (product A, price $50).
 1. Click the cart link to open the cart.
 1. Click the **PayPal Checkout** button.
-1. Use you PayPal credentials to login to PayPal and submit the payment.
+1. Use you PayPal credentials to log in to PayPal and submit the payment.
 1. Finish order placement on the store side.
 1. Go back to the catalog and a add different product (product B, price $100) to the cart.
 1. Click the cart link to open the cart.
