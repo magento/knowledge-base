@@ -26,10 +26,12 @@ When placing an order by using PayPal Express Checkout payment method, then the 
 1. Click the **PayPal Checkout** button.
 
 <ins>Actual result:</ins>
-Product price in the cart is $50 instead of $100.
+
+Product price in the cart is $50 instead of $100.<br/>
 On the store side, the order contains product A instead of the product B.
 
 <ins>Expected result:</ins>
+
 Product B is added to the order.
 
 ## Solution
