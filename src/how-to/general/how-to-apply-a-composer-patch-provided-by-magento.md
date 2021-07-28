@@ -1,6 +1,6 @@
 ---
 title: How to apply a composer patch provided by Adobe
-labels: Magento Commerce,Magento Commerce Cloud,apply patch,composer,git,how to,patch
+labels: Magento Commerce,Magento Commerce Cloud,apply patch,composer,git,how to,patch,Adobe Commerce
 ---
 
 This article instructs how to apply a composer patch for Magento Commerce, Magento Commerce Cloud, and Magento Open Source.
