@@ -14,12 +14,12 @@ This article provides a solution for when deployment is stuck because there is a
 
 ## Issue
 
-A new version of symfony/console dependency (4.4.27, 4.4.28) is causing composer update to fail:
+A new version of symfony/console dependency (4.4.27, 4.4.28) is causing composer update to fail.
 
 <ins>Steps to reproduce</ins>:
 
 When you install or upgrade Adobe Commerce or run composer update the execution fails with the following error message:
-**Incompatible argument type: Required type: int. Actual type: string**
+*Incompatible argument type: Required type: int. Actual type: string*
 
 ## Cause
 
