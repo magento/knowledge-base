@@ -1,21 +1,19 @@
 ---
-title: "Adobe Commerce upgrade: compact to dynamic tables 2.2.x, 2.3.x-2.4.x"
-labels: 2.2,2.2.x,2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,Adobe Commerce on our cloud architecture, Adobe Commerce 
+title: "Adobe Commerce upgrade to Magento 2.3.5"
+labels: 2.2,2.2.x,2.3,2.3.x,2.3.5, Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,Adobe Commerce on our cloud architecture, Adobe Commerce 
 ---
 
-This article provides a solution for the issue when you cannot upgrade Adobe Commerce on our cloud architecture from 2.2x and 2.3.x to 2.4.x due to `COMPACT` MySQL tables not having been converted to `DYNAMIC` tables in your database.
-
-If you try to upgrade Adobe Commerce on our cloud architecture from 2.2x and 2.3.x to 2.4.x without converting row formats from COMPACT to DYNAMIC, you will probably not be allowed to upgrade, and if you manage to upgrade there may be data loss on some tables.
+This article provides a solution when you struggle to upgrade from mariadb 10.0 to 10.2 (this is needed when upgrading to Magento 2.3.5). To do so all tables need to be converted from ``COMPACT`` to ``DYNAMIC``. The ``COMPACT`` to ``DYNAMIC`` change is needed when upgrading from mariadb 10.0 to 10.2 (which in turn is needed when upgrading to Magento 2.3.5).
 
 When using the MySQL queries below you may need to replace all single and double quotes due to there being characters that look like them but are not those that are used in some browser display fonts. Converting from `COMPACT` to `DYNAMIC` tables can take a long time with a large database. This process should be done in [maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) during a low traffic period. For steps refer to Adobe Commerce Developer Guide [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten).
 
 ## Affected product and versions
 
-* Adobe Commerce on our cloud architecture v2.2 and v2.3
+* Adobe Commerce with mariadb version to 10.2 or later 
 
 ## Issue
 
- `COMPACT` tables must be converted to `DYNAMIC` tables in your database before you can upgrade from Adobe Commerce on our cloud architecture v2.2 and v2.3 to v2.4.
+Upgrading your mariadb version to 10.2 or later is rejected by Adobe Commerce support, due to ``COMPACT`` tables needing to be converted to ``DYNAMIC``.
 
 ## Solution
 
