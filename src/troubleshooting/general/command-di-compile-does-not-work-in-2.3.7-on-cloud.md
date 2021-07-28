@@ -8,8 +8,8 @@ This article provides a solution for when deployment is stuck because there is a
 ## Affected products and versions
 
 * Adobe Commerce (all deployment methods) and Magento Open Source:
-  * 2.4.0, 2.4.0-p1, 2.4.1, 2.4.1-p1, 2.4.2, 2.4.2-p1, 2.4.2-p2, 2.4.3
-  * 2.3.5, 2.3.5-p1,2.3.5-p2, 2.3.6, 2.3.6-p1, 2.3.7, 2.3.7-p1
+  2.4.0, 2.4.0-p1, 2.4.1, 2.4.1-p1, 2.4.2, 2.4.2-p1, 2.4.2-p2, 2.4.3
+  2.3.5, 2.3.5-p1,2.3.5-p2, 2.3.6, 2.3.6-p1, 2.3.7, 2.3.7-p1
 * symfony/console dependency (4.4.27, 4.4.28).
 
 ## Issue
