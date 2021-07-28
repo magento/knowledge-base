@@ -3,7 +3,8 @@ title: "MDVA-38799: Downloadable products weren't saved after creating a staging
 labels:
 ---
 
-The MDVA-XXX Magento patch solves/fixes the issue where ..... This patch is available when the Magento Quality Patch (MQP) tool xxx is installed. The patch ID is MDVA-XXX. Please note that the issue was fixed/is scheduled to be fixed in Magento xxx. (this is optional, if the issue really was fixed). 
+The MDVA-38799 Magento patch solves the issue where downloadable products weren't saved after creating a staging update. This patch is available when the Magento Quality Patch (MQP) tool 1.1.0
+is installed. The patch ID is MDVA-38799. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
