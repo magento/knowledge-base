@@ -16,7 +16,7 @@ This article provides a solution for when deployment is stuck because there is a
 
 A new version of symfony/console dependency (4.4.27, 4.4.28) is causing composer update to fail:
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 When you install or upgrade Adobe Commerce or run composer update the execution fails with the following error message:
 **Incompatible argument type: Required type: int. Actual type: string**
@@ -43,7 +43,7 @@ All 2.3.5+ Adobe Commerce on-premise merchants should run the following CLI comm
 
 **How to fix on Adobe Commerce on our cloud architecture:**
 
-Run the above commands or starting from Thursday, July 29 upgrade to the latest ECE tools version (ece-tools:2002.1.7) For steps, refer to Adobe Commerce on our cloud architecture: [DevDocs Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html)
+Run the above commands or starting from Thursday, July 29 upgrade to the latest ECE tools version (ece-tools:2002.1.7) For steps, refer to Adobe Commerce on our cloud architecture: [Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html)
 
 The complete fix will be released in Adobe Commerce (all deployment methods) 2.4.4.
 
