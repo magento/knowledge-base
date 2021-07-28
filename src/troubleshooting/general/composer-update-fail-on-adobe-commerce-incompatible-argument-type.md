@@ -14,7 +14,7 @@ This article provides a solution for when deployment is stuck because there is a
 
 ## Issue
 
-A new version of symfony/console dependency (4.4.27, 4.4.28) is causing composer update to fail.
+A new version of symfony/console dependency (4.4.27, 4.4.28) is causing dependency compilation process to fail.
 
 <ins>Steps to reproduce</ins>:
 
