@@ -1,5 +1,5 @@
 ---
-title: "MDVA-38827: Order shipment email error."
+title: "MDVA-38827: Order shipment email error"
 labels: MQP patches,Magento Quality Patches,MQP,MQP 1.1.0,Magento Commerce 2.4.4,Magento Commerce,Adobe Commerce 2.4.4,error message,Adobe Commerce on our cloud architecture,Adobe Commerce on-premise,order shipment,Adobe Commerce on our cloud architecture 2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1
 ---
 
@@ -40,7 +40,7 @@ An error message is received when the “Notify Customers by Email” option for
 Sales email with shipment comments will be generated.
 
 <ins>Actual results</ins>:
-An error message, “We're sorry, an error has occurred while generating this content.” is received.
+An error message, *“We're sorry, an error has occurred while generating this content.”* is received.
 
 ## Apply the patch
 
