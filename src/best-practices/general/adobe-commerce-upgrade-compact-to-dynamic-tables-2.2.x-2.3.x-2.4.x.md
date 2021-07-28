@@ -17,7 +17,7 @@ When using the MySQL queries below you may need to replace all single and double
 
  `COMPACT` tables must be converted to `DYNAMIC` tables in your database before you can upgrade from Adobe Commerce on our cloud architecture v2.2 and v2.3 to v2.4.
 
- ## Solution
+## Solution
 
 1. SSH into the environment. You do not need to perform that change on every MySQL node. It needs to be done just on one MySQL instance. For steps, refer to Adobe Commerce Developer Guide [SSH into your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh). 
     ```shell
