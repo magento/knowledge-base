@@ -23,18 +23,18 @@ An error message is received when the “Notify Customers by Email” option for
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Marketing > Communications > Email Templates** and select Add New Template.
-   - Select **Magento Sales > New Shipment**.
-   - Click on Load Template.
-   - Add a template name (e.g., Core Shipping Template) and click Save.
-2. Go to **Store > Settings > Configuration > Sales > Sales Email**:
-   - Enable Shipment Comments.
-   - Select “Core Shipping Template” (refer point 1.3) under Shipment Comment Email Template and Shipment Comment Email Template for Guest.
-3. Now, place an order, go to the admin panel **Sales > Order**, click View, and then ship the order.
-4. The order state will change from Pending to Processing.
-5. Click Shipments on the left sidebar menu and then click View to see the order.
-6. Add a comment in “Comment Text” below “Shipment History” and check the checkbox “Notify Customer by Email.”
-7. Click Submit Comment.
+1. Go to **Marketing** > **Communications** > **Email Templates** and select Add New Template.
+   * Select **Magento Sales** > **New Shipment**.
+   * Click on **Load Template**.
+   * Add a template name (e.g., Core Shipping Template) and click **Save**.
+1. Go to **Store** > Settings > **Configuration** > **Sales** > **Sales Email**:
+   * Enable Shipment Comments.
+   * Select “Core Shipping Template” (refer point 1.3) under Shipment Comment Email Template and Shipment Comment Email Template for Guest.
+1. Now, place an order, go to the admin panel **Sales** > **Order**, click **View**, and then ship the order.
+1. The order state will change from Pending to Processing.
+1. Click **Shipments** on the left sidebar menu and then click **View** to see the order.
+1. Add a comment in “Comment Text” below “Shipment History” and check the checkbox “Notify Customer by Email.”
+1. Click **Submit Comment**.
 
 <ins>Expected results</ins>:
 Sales email with shipment comments will be generated.
