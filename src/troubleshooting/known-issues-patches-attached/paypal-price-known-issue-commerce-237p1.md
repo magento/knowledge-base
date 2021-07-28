@@ -12,7 +12,7 @@ You can download the patch from this article and it is also available through th
 * Magento Open Source 2.3.7-p1
 
 ## Issue
-When placing an order by using PayPal Express Checkout payment method, then previously ordered purchased product is added into the order instead of the of the actual one.
+When placing an order by using PayPal Express Checkout payment method, then the previously ordered purchased product is added into the order instead of the actual one.
 
 <ins>Steps to reproduce:<ins>
 
