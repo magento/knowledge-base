@@ -15,8 +15,12 @@ This article instructs how to apply a composer patch for Magento Commerce, Magen
 1. Copy the `%patch_name%.composer.patch` file(s) to the `m2-hotfixes` directory.
 1. Add, commit, and push your code changes:
     ```git    
-    git add -A    
+    git add -A
+    ```
+    ```git
     git commit -m "Apply %patch_name%.composer.patch patch"     
+    ```
+    ```git
     git push origin    
     ```    
 
