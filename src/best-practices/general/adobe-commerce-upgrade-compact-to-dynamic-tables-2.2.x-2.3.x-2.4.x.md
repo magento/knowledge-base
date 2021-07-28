@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce upgrade to Magento 2.3.5"
+title: "Adobe Commerce 2.3.5 upgrade: compact to dynamic tables"
 labels: 2.2,2.2.x,2.3,2.3.x,2.3.5, Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,Adobe Commerce on our cloud architecture, Adobe Commerce 
 ---
 
@@ -9,7 +9,7 @@ When using the MySQL queries below you may need to replace all single and double
 
 ## Affected product and versions
 
-* Adobe Commerce with mariadb version to 10.2 or later 
+* Adobe Commerce on our cloud architecture v2.2 and v2.3 with mariadb version to 10.2 or later. 
 
 ## Issue
 
