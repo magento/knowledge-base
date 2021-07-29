@@ -2,17 +2,17 @@
 title: "MDVA-38799: Downloadable products not saved after creating a staging update"
 labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.1.0,Magento Commerce,Magneto Commerce Cloud,Adobe Commerce on premise,Adobe Commerce on cloud our architecture,downloadable products,staging,update,error,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
-The MDVA-38799 Adobe Commerce patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3 ***(Magento version 2.4.3)***.
+The MDVA-38799 Adobe Commerce patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
 ## Affected products and versions
 
-**The patch is created for ***Magento version*** :**
+**The patch is created for Adobe Commerce version:**
 
-Adobe Commerce on cloud architecture 2.4.1 ***(Magento Commerce Cloud 2.4.1)***
+Adobe Commerce on cloud architecture 2.4.1
 
-**Compatible with ***Magento versions***:**
+**Compatible with Adobe Commerce versions:**
 
-Adobe Commerce and Adobe Commerce on cloud architecture 2.3.0-2.4.2-p1 ***(Magento Commerce and Magneto Commerce Cloud 2.3.0-2.4.2-p1)***
+Adobe Commerce (all deployment methods) 2.3.0-2.4.2-p1
 
 >![info]
 >
