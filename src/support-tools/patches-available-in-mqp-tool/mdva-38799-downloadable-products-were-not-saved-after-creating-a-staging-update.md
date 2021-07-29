@@ -1,18 +1,18 @@
 ---
-title: "MDVA-38799: Downloadable products weren't saved after creating a staging update"
+title: "MDVA-38799: Downloadable products not saved after creating a staging update"
 labels:
 ---
-
-The MDVA-38799 Magento patch solves the issue where downloadable products weren't saved after creating a staging update. This patch is available when the Magento Quality Patch (MQP) tool 1.1.0
-is installed. The patch ID is MDVA-38799. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-38799 Magento patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3 ***(Magento version 2.4.3)***.
 
 ## Affected products and versions
 
 **The patch is created for Magento version:**
-Magento xxx (might be Commerce and/or Commerce Cloud; no period after versions)
+
+Adobe Commerce on cloud architecture 2.4.1 ***(Magento Commerce Cloud 2.4.1)***
 
 **Compatible with Magento versions:**
-Magento xxx (might be Commerce and/or Commerce Cloud; no period after versions)
+
+Adobe Commerce and Adobe Commerce on cloud architecture 2.3.0-2.4.2-p1 ***Magento Commerce and Magneto Commerce Cloud 2.3.0-2.4.2-p1***
 
 >![info]
 >
@@ -20,21 +20,29 @@ Magento xxx (might be Commerce and/or Commerce Cloud; no period after versions)
 
 ## Issue
 
-(Short issue description goes here.)
-
-<ins>Prerequisites</ins>:
-(if any)...
+Downloadable products are not saved after creating a staging update. Users get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.  
 
 <ins>Steps to reproduce</ins>:
 
-1. ...
-1. ...
+1. Navigate to **Catalog** > **Products**.
+1. Click the dropdown next to Add Product and select Downloadable Product.
+   * Fill out the name, SKU, price, and quantity of the product.
+1. Scroll down to the Downloadable Information page.
+1. Under Samples, click **Add Link**.
+   * Fill out the Title, Upload File (the type of file does not matter).
+1. Click **Save**. You will get the message: *You saved the product*.
+1. Click **Schedule New Update** at the top of the page.
+   * Fill out the Update Name, and a legal Start Date and End Date.
+1. Click **Save** on the staging update.
+1. Click **Save** on the product.
 
 <ins>Expected results</ins>:
-...
+
+Product is saved without any error.
 
 <ins>Actual results</ins>:
-...
+
+You get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.
 
 ## Apply the patch
 
@@ -42,10 +50,6 @@ To apply individual patches use the following links depending on your Magento pr
 
 * Magento Commerce: DevDocs [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
 * Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
-
-## Additional steps required after the patch installation
-
-(This section is optional, there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
