@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,produ
 
 This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on our cloud architecture.
 
-You only need to use one variant (option) to dump your DB. These options apply to any environment type (Integration, Staging, Production) and any plan (Starter and Pro).
+You only need to use one variant (option) to dump your DB. These options apply to any environment type (Integration, Staging, Production) and any plan (Magento Commerce on cloud starter and Adobe Commerce on our cloud pro architecture).
 
 ## Prerequisite: SSH to your environment
 
