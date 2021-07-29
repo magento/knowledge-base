@@ -123,6 +123,7 @@ Examples:
 * One word labels are preferable. Do not add issue description. That is, put "database" instead "database crashes".
 
 Examples: 
+
 * "database"
 * "cron"
 * "deployment"
