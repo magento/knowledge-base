@@ -5,7 +5,7 @@ This repository contains the markdown source of articles, published in [Adobe Co
 
 Our goal is to provide the Adobe Commerce Community with comprehensive and quality documentation on resolving Magento issues, Magento best practices, and sharing answers to questions our Support team typically gets. We believe that to accomplish this goal, we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Adobe Commerce Support Knowledge Base documentation.
 
-## Contributing 
+## Contributing
 
 We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Magento code and Magento Developer Documentation. See [Contribution reward points](docs/contribution-points.md) for details.
 
@@ -27,7 +27,7 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
 - The **magento/knowledge-base** repository synchronizes with the internal one in 20 minutes.
 - Once the repositories are synced, your PR gets closed and you get reward points.
 - **For more details on contribution flow, Please refer to the [Contributor's Guide](.github/CONTRIBUTING.md) of Knowledge Base.**
-- **For templates, style guide, and formatting guidelines, Please refer this [Documentation](docs/index.md).**
+- **For templates, style guide, labels and formatting guidelines, Please refer this [Documentation](docs/index.md).**
 
 ## Licensing
 
