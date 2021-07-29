@@ -2,19 +2,17 @@
 title: "MDVA-37592: Sorting by price doesn't work correctly for products with a zero price assigned to shared catalog"
 labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.1.0,Magento Commerce,Magneto Commerce Cloud,Adobe Commerce,Adobe Commerce on cloud architecture,
 ---
-The MDVA-37592 Adobe Commerce patch solves the issue
-
-where downloadable products are not saved after creating a staging update. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3 ***(Magento version 2.4.3)***.
+The MDVA-37592 Adobe Commerce patch solves the issue where sorting by price does not work correctly for products with a zero price assigned to shared catalog. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-37592. Please note that the issue is yet to fix.
 
 ## Affected products and versions
 
 **The patch is created for ***Magento version*** :**
 
-Adobe Commerce on cloud architecture 2.4.1 ***(Magento Commerce Cloud 2.4.1)***
+Adobe Commerce on cloud architecture 2.4.0-p1 ***(Magento Commerce Cloud 2.4.0-p1)***
 
 **Compatible with ***Magento versions***:**
 
-Adobe Commerce and Adobe Commerce on cloud architecture 2.3.0-2.4.2-p1 ***(Magento Commerce and Magneto Commerce Cloud 2.3.0-2.4.2-p1)***
+Adobe Commerce and Adobe Commerce on cloud architecture 2.3.6-2.4.2-p1 ***(Magento Commerce and Magneto Commerce Cloud 2.3.6-2.4.2-p1)***
 
 >![info]
 >
@@ -22,7 +20,7 @@ Adobe Commerce and Adobe Commerce on cloud architecture 2.3.0-2.4.2-p1 ***(Magen
 
 ## Issue
 
-Downloadable products are not saved after creating a staging update. Users get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.  
+Sorting by price doesn't work correctly for products with a zero price assigned to shared catalog.
 
 <ins>Prerequisites</ins>
 
@@ -30,25 +28,21 @@ B2B installed.
 
 <ins>Steps to reproduce</ins>:
 
-1. Navigate to **Catalog** > **Products**.
-1. Click the dropdown next to Add Product and select Downloadable Product.
-   * Fill out the name, SKU, price, and quantity of the product.
-1. Scroll down to the Downloadable Information page.
-1. Under Samples, click **Add Link**.
-   * Fill out the Title, Upload File (the type of file does not matter).
-1. Click **Save**. You will get the message: *You saved the product*.
-1. Click **Schedule New Update** at the top of the page.
-   * Fill out the Update Name, and a legal Start Date and End Date.
-1. Click **Save** on the staging update.
-1. Click **Save** on the product.
+1. Enable shared catalog.
+1. Create four products with the following prices and assign them to a category - $50, $60, $70, $80.
+1. Create a shared catalog with the above products.
+1. Set the custom price to 0 for the product with a price of $70.
+1. Create a company user and assign it to the shared catalog just created.
+1. Log in using the company account and browse to the category that the products are assigned to.
+1. Try to sort by price.
 
 <ins>Expected results</ins>:
 
-Product is saved without any error.
+The products with zero price is sorted respectively.
 
 <ins>Actual results</ins>:
 
-You get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.
+The product with price 0 is sorted according to the original price.
 
 ## Apply the patch
 
