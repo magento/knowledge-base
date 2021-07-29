@@ -15,7 +15,7 @@ To dump your DB on Adobe Commerce on our cloud architecture with any variant dis
 >
 >Whether you choose Option 1 or Option 2 please run the command during off peak hours against a database secondary node.
 
-## Option 1: db-dump ( **ece-tools; recommended** )
+## Option 1: db-dump (**ece-tools; recommended**)
 
 You may dump your DB using the [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) command:
 
