@@ -17,7 +17,7 @@ labels: troubleshooting,
 
 Payment Services reporting data, for Payout and Order payment status reports, may not sync immediately.
 
-After a merchant captures or refunds an order, for instance, the status of the order may not be available for a short time.
+After a merchant captures or refunds an order, for instance, the status of the order may not be immediately available.
 
 <u>Steps to reproduce</u>:
 
