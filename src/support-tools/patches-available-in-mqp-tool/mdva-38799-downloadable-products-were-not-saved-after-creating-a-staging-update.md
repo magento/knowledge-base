@@ -46,16 +46,16 @@ You get the error message: *The downloadable sample is not related to the produc
 
 ## Apply the patch
 
-To apply individual patches use the following links depending on your Adobe Commerce ***(Magento)*** product:
+To apply individual patches use the following links depending on your Adobe Commerce product:
 
-* Adobe Commerce Developer Guide ***(Magento Commerce: DevDocs)*** [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
-* Adobe Commerce User Guide: ***(Magento Commerce Cloud: DevDocs)*** [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
+* Adobe Commerce Developer Guide: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
+* Adobe Commerce User Guide: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
 
 ## Related reading
 
 To learn more about Magento Quality Patches, refer to:
 
 * [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce ***Magento*** issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Check if patch is available for your Adobe Commerce issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252).
 
 For info about other patches available in MQP tool, refer to the [Patches available in MQP tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
