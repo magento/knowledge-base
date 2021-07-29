@@ -1,6 +1,6 @@
 ---
 title: Checking deployment log if Cloud UI has "log snipped" error
-labels: troubleshooting,deployment log error,Magento Commerce Cloud,log snipped,Cloud UI,manage log,
+labels: troubleshooting,deployment log error,Magento Commerce Cloud,Adobe Commerce,log snipped,Cloud UI,manage log,
 ---
 
 This article provides a solution for the issue where the Cloud UI shows the error message: *log snipped because it was too long* when trying to view deployment log.
