@@ -37,7 +37,7 @@ Prerequisites: An order is placed using Payment Services functionality.
 Report data is populated immediately after there is an action on an order.
 
 <u>Actual result</u>:
-There may be a delay in visible report data for just-completed order actions.
+There may be a delay in visible report data for just-completed order actions. Payout reports may incur a delay of 24-48 hours. Order payment status reports may incur a few hour delay.
 
 ## Cause
 
@@ -48,4 +48,4 @@ There are two factors that affect this delay in visible data in the Admin:
 
 ## Solution
 
-This issue of delayed reporting data will be resolved for our General Availability (GA) release.
+This issue of delayed reporting data for Order payment status reports will be resolved for our General Availability (GA) release. Payout reports may still incur a delay because of the dependency on PayPal's data publishing timeframe.
