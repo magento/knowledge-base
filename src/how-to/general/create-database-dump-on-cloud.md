@@ -1,15 +1,15 @@
 ---
-title: Create database dump on Cloud
-labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production
+title: Create database dump on Adobe Commerce on our cloud architecture
+labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce on our cloud architecture
 ---
 
-This article discusses the possible (and recommended) ways to create a database (DB) dump on Magento Commerce (Cloud) environments.
+This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on our cloud architecture.
 
 You only need to use one variant (option) to dump your DB. These options apply to any environment type (Integration, Staging, Production) and any plan (Starter and Pro).
 
 ## Prerequisite: SSH to your environment
 
-To dump your DB on Magento Commerce (Cloud) with any variant discussed in this article, you must first [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) .
+To dump your DB on Adobe Commerce on our cloud architecture with any variant discussed in this article, you must first [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
 
 >![warning]
 >
@@ -25,7 +25,7 @@ vendor/bin/ece-tools db-dump
 
 This is the recommended and safest option.
 
- **Related documentation on DevDocs:**   [Dump your database (ECE-Tools)](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#db-dump) 
+ Related documentation on Adobe Commerce Developer Guide [Dump your database (ECE-Tools)](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#db-dump).
 
 ## Option 2: mysqldump
 
@@ -47,8 +47,7 @@ To obtain your DB credentials (host, username, and password), you might call the
 echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 ```
 
- **Related documentation:** 
+ **Related documentation:**
 
-* **Official MySQL documentation:**  [mysqldump — A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) 
-* **DevDocs:**   [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS` )
-
+* Official MySQL documentation: [mysqldump — A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+* Adobe Commerce Developer Guide [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`)
