@@ -8,11 +8,11 @@ The MDVA-38799 Adobe Commerce patch solves the issue where downloadable products
 
 **The patch is created for Adobe Commerce version:**
 
-Adobe Commerce on our cloud architecture 2.4.1
+* Adobe Commerce on our cloud architecture 2.4.1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.3.0-2.4.2-p1
+* Adobe Commerce (all deployment methods) 2.3.0-2.4.2-p1
 
 >![info]
 >
