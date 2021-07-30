@@ -8,7 +8,7 @@ The MDVA-38799 Adobe Commerce patch solves the issue where downloadable products
 
 **The patch is created for Adobe Commerce version:**
 
-Adobe Commerce on cloud architecture 2.4.1
+Adobe Commerce on our cloud architecture 2.4.1
 
 **Compatible with Adobe Commerce versions:**
 
@@ -30,7 +30,7 @@ Downloadable products are not saved after creating a staging update. Users get t
 1. Scroll down to the Downloadable Information page.
 1. Under Samples, click **Add Link**.
    * Fill out the Title, Upload File (the type of file does not matter).
-1. Click **Save**. You will get the message: *You saved the product*.
+1. Click **Save**. You will get the following message: *You saved the product*.
 1. Click **Schedule New Update** at the top of the page.
    * Fill out the Update Name, and a legal Start Date and End Date.
 1. Click **Save** on the staging update.
@@ -46,10 +46,10 @@ You get the error message: *The downloadable sample is not related to the produc
 
 ## Apply the patch
 
-To apply individual patches use the following links depending on your Adobe Commerce product:
+To apply individual patches use the following links depending on your deployment type:
 
-* Adobe Commerce Developer Guide: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
-* Adobe Commerce User Guide: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
+* Adobe Commerce or Magento Open Source on-premise: DevDocs [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
+* Adobe Commerce on our cloud architecture: DevDocs [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
 
 ## Related reading
 
