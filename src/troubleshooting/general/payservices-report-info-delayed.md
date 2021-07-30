@@ -9,7 +9,8 @@ labels: troubleshooting,
 
 ## Affected products and versions
 
-* Magento Commerce 2.4.2-p1
+* Magento Commerce (on-premises) 2.4.2-p1
+* Magento Cloud 2.4.2-p1
 * Magento Open Source 2.4.2-p1
 * Payment Services for Adobe Commerce and Magento Open Source, Early Access Program (EAP)
 
@@ -23,7 +24,7 @@ After a merchant captures or refunds an order, for instance, the status of the o
 
 Prerequisites: An order is placed using Payment Services functionality.
 
-1. An order is [captured](https://docs.magento.com/user-guide/sales/order-update.html) in the [Admin](https://docs.magento.com/user-guide/stores/admin.html).
+1. An order is [captured](https://docs.magento.com/user-guide/sales/order-update.html) (or (canceled))[https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order] or (refunded)[https://docs.magento.com/user-guide/sales/credit-memos.html]) in the [Admin](https://docs.magento.com/user-guide/stores/admin.html).
 1. The merchant navigates to the Order payment status report to see information about that order.
 1. The status is shown as `AUTHORIZED`.
 
