@@ -32,7 +32,5 @@ If you're unsure how to answer any of these questions, don't worry! Try your bes
 * [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
 * [Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
 * [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
-* [Conducting new analyses](https://support.magento.com/hc/en-us/articles/360016505992)
 * [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
-
