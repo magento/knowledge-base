@@ -5,13 +5,13 @@ labels: Magento Commerce Cloud,access key,deployment,troubleshooting
 
 This article provides a solution for issues with deploying Magento Cloud caused by access key ownership conflict.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud, all supported versions
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 Prerequisites: The Cloud license is associated with Contact A (email address: *<u>first@e.mail</u>* )
 
@@ -20,11 +20,11 @@ Prerequisites: The Cloud license is associated with Contact A (email address: *<
 1. Contact A then left the company, and the license (ownership) was then transferred to Contact B.
 1. System integrator tries to install the extension on the Cloud environment using Key X.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Extension is successfully installed.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 Extension is not installed, because deployment fails.
 
@@ -50,4 +50,3 @@ If you have access to the Marketplace account associated with the old key, take 
 ## Related reading
 
 * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)
-

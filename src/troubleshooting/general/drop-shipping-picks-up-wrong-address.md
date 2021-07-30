@@ -7,7 +7,7 @@ labels: 2.3.x,Inventory,Magento Commerce,Magento Commerce Cloud,shipping
 
 The shippping solution does not pick up the address of the product's source.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud all versions, with Magento Inventory installed
 * Magento Commerce 2.3.0 and later, with Magento Inventory installed
@@ -20,4 +20,3 @@ Magento Inventory does not currently support using drop shipping rates calculati
 ## Related Reading
 
 * [Magento Inventory FAQ](https://github.com/magento/inventory/wiki/MSI-FAQs)
-

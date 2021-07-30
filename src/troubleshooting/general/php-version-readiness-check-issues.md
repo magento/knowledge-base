@@ -9,7 +9,7 @@ This article talks about the solutions for the PHP version issues you might face
 >
 >On Magento Cloud please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
@@ -57,4 +57,3 @@ To resolve the issue, try the following:
     * [Magento 2.3.x System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
     * [Magento 2.2.x System Requirements](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)
 * Set the same PHP settings for both the PHP command line and the PHP web server plug-in as discussed in [PHP configuration options](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html) .    
-

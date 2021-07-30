@@ -11,21 +11,21 @@ ENOTFOUND
 
 * error when using Magento Progressive Web App (PWA) Studio.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento PWA Studio
 
 ## Issue
 
- <span class="wysiwyg-underline">Step to reproduce</span> 
+ <span class="wysiwyg-underline">Step to reproduce</span>
 
 * Load your Magento store in a browser.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 * The Magento store loads normally in your browser.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 * Your web browser displays the “ *Cannot proxy to“* error and the console displays an *    ```clike    ENOTFOUND    ```    * error.
 
@@ -43,4 +43,3 @@ NodeJS cannot resolve the hostname of your Magento store.
 * [Magento PWA Studio Documentation](https://magento.github.io/pwa-studio/)
 * [Creating a simple server](https://magento.github.io/pwa-studio/tutorials/hello-upward/simple-server/)
 * [Tools and libraries](https://magento.github.io/pwa-studio/technologies/tools-libraries/)
-

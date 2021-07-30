@@ -5,7 +5,7 @@ labels: DDOS,Magento Commerce,Magento Commerce Cloud,attack,grep,netstat,trouble
 
 This article talks about the issue of how to try to check for Distributed Denial of Service (DDoS) attacks from your server's Command Line Interface (CLI).
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, all versions
 * Magento Open Source, all versions
@@ -37,15 +37,14 @@ Again it is important to note that using software specifically designed to ident
 1. To check established connections, instead of just all connections, and display the connection count for each IP address, use the command:     `netstat -ntu | grep ESTAB | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -nr`     
 1. To show connection counts listed by IP address to port 80, use the command:     `netstat -plan|grep :80|awk {‘print $5’}|cut -d: -f 1|sort|uniq -c|sort -nk 1`     
 
- 
+
 Make sure you have someone to give proper analysis to the data you find to determine if you are in fact having a DDOS attack. Using the `netstat` commands from your server CLI in these steps above will help you analyze if you are experiencing a DDoS attack, but using software analysis products that are specifically designed to help identify DDoS attacks, along with proper analysis, are your best tools to identify DDoS threats.
 
 If you find that you are under DDoS attack, the steps you can take depend on your network configuration and how the DDoS attack is occurring, but general advice is to contact your ISP,  get a new IP address for your server, and/or consult IT professionals skilled in handling DDoS issues to analyze and advise on your particular situation.
 
- 
+
 ## Related reading
 
 * [DDoS protection (Magento Commerce Cloud)](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
 * [Using CLI commands](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
 * [Magento Cloud CLI reference](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html)
-

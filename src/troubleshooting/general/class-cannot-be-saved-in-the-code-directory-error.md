@@ -5,24 +5,24 @@ labels: Cloud,generated
 
 This article describes how to fix the issue where the way you specified dependencies prevents classes to be auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud 2.2.0 or later
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. In your local environment, write a custom class with a dependency on the auto-generated class.
 1. Run the scenario, where your custom class is triggered, and see it working correctly.
 1. Commit and push your changes to the integration environment. This would trigger the deployment process. Deployment is successful.
 1. In the [integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) , run the scenario where your custom class is triggered.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Everything works correctly, the same way as in your local environment.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 Failure with the error message saying that your class cannot be saved in the `generated/code` directory.
 
@@ -45,7 +45,7 @@ Or there is a particular solution for each case.
 
 Move your class code from the entry point to a separate module and then use it in the entry point.
 
- <span class="wysiwyg-underline">Example</span> 
+ <span class="wysiwyg-underline">Example</span>
 
 Original code in, for example, `index2.php` :
 
@@ -82,7 +82,7 @@ You need to take the following steps:
 
 Move dependency declaration to the constructor.
 
- <span class="wysiwyg-underline">Example</span> 
+ <span class="wysiwyg-underline">Example</span>
 
 Original class declaration:
 

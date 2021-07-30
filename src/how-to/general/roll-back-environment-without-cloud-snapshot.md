@@ -5,13 +5,13 @@ labels: 2.1,2.1.x,2.2,2.2.x,Cloud,Magento Commerce Cloud,commit,how to,roll back
 
 This article shows two solutions to roll back an environment without having a snapshot of your environment on Magento Commerce Cloud.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 Choose the most appropriate for your case:
 
-* If you have a stable build, but no valid snapshot - [Scenario 1: No snapshot, build stable (SSH connection available)](scen2). 
+* If you have a stable build, but no valid snapshot - [Scenario 1: No snapshot, build stable (SSH connection available)](scen2).
 * If the build is broken and you have no valid snapshot - [Scenario 2: No snapshot; build broken (no SSH connection)](scen3).
 
 <h2 id="scen2">Scenario 1: No snapshot, build stable (SSH connection available)</h2>

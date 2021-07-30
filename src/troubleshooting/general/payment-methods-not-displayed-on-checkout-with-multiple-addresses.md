@@ -5,7 +5,7 @@ labels: 2.x.x,Cybersource,Magento Commerce,Magento Commerce Cloud,multishipping,
 
 This article explains that most of the payment methods are not displayed on checkout when multiple shipping addresses are specified, because the functionality is only implemented for Cybersource.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, Magento Commerce Cloud
 * 2.x.x
@@ -18,7 +18,7 @@ This article explains that most of the payment methods are not displayed on chec
 
 Prerequisites: In the Magento Admin, enable and configure PayPal and Cybersource payment methods, and enable Multishipping for your store.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. On the storefront, add multiple products to the cart.
 1. Go to the shopping cart page.

@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce,backup,disk space,how to,permissions
 
 This article lists the possible solutions for the backup creation issues.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
@@ -25,7 +25,7 @@ Enter the following CLI command:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-For additional information on backups, see [Back up and roll back the file system, media, and database.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html) 
+For additional information on backups, see [Back up and roll back the file system, media, and database.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
 
 <h2 id="insufficient-disk-space-trouble-backup-space-">Insufficient disk space</h2>
 
@@ -40,7 +40,7 @@ If the backup failed because of insufficient disk space, you should typically fr
 Unfortunately, we can not recommend anything specific because of the variety of errors you might encounter. We can suggest, however, you:
 
 * Contact your system administrator.
-* Search public forums like [Stack Exchange](http://unix.stackexchange.com) or [Stack Overflow.](http://stackoverflow.com) 
+* Search public forums like [Stack Exchange](http://unix.stackexchange.com) or [Stack Overflow.](http://stackoverflow.com)
 * Open a [GitHub issue](https://github.com/magento/magento2/issues) and we'll try to help.
 
 <h2 id="backup-fails-trouble-backup-all-">Backup fails</h2>

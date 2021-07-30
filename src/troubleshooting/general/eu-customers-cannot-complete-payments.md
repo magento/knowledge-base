@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,EU,Magento Commerce,Magento Commerce Cloud,declined,how to,p
 
 This article provides a fix for the issue of customers from the European Union not being able to complete payments.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Cloud all versions
 * Magento Commerce 2.2.x, 2.3.x

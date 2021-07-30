@@ -5,11 +5,11 @@ labels: Magento Commerce,Magento Commerce Cloud,fail,how to,install,nginx
 
 This article provides a fix for a failed Magneto installation, when using the nginx web server.
 
-### Issue
+## Issue
 
 If you use the nginx web server and you attempt to install the Magento software, the installation sometimes fails.
 
-### Solution
+## Solution
 
 You can confirm the issue by the following error in the `var/report` directory:
 

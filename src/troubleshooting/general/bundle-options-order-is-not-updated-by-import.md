@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,bundle options,how t
 
 This article provides a solution for the issue when after importing products from a .csv file, the bundle product options appear in a different order than they are listed in the import file.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud 2.2.x, 2.3.x
 * Magento Commerce 2.2.x, 2.3.x
@@ -13,18 +13,18 @@ This article provides a solution for the issue when after importing products fro
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 Prerequisites: you have a valid .csv file containing bundle products.
 
 1. Import the file using the [Import functionality](https://docs.magento.com/m2/ee/user_guide/system/data-import.html) .
 1. Open the bundle product page.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The options order is the same as in the .csv file.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The options order is different from that in the .csv file.
 

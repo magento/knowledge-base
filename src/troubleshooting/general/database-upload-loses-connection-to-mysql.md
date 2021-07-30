@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Lost connection to MySQL server,Magento Commerce Cloud,datab
 
 This article provides a solution for when the database upload loses connection to MySQL.
 
-## AFFECTED VERSIONS AND PRODUCTS
+## Affected products and versions
 
 Magento Commerce Cloud 2.2.x., 2.3.x
 
@@ -28,13 +28,13 @@ This is usually due to a lack of disk space for importing the database.
 First, check if there is a lack of disk space. To do so run the `netcat` command in the CLI against the database port 3306, there will be a disk full message if it is full:
 
 ```clike
-web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306 
+web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
 You will need to allocate more space for the database in your `services.yaml` and deploy, if you have some space unused. For steps see [Service Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space) .
 
-Note: On the Pro plan, you can check the allocated space on your partition by running the following command: `df -h` 
+Note: On the Pro plan, you can check the allocated space on your partition by running the following command: `df -h`
 
 Expect output similar to the following output. In this example, 10GB of the 25GB allocated is used, with 15GB of MySQL space not being used.
 
@@ -48,4 +48,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## Related reading
 
-DevDocs [Manage Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) 
+DevDocs [Manage Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html)

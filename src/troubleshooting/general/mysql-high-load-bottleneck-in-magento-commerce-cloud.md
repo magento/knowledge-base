@@ -9,7 +9,7 @@ labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,h
 
 This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Magento Commerce Cloud.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud 2.x.x, Pro accounts.
 

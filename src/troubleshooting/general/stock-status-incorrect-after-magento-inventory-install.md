@@ -9,7 +9,7 @@ This article provides a fix for stock status being incorrect after Magento Inven
 
 After first installing or upgrading to have Magento Inventory in the multi-website Magento environment, not all websites have the correct stock statuses for products.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud all versions,  with Magento Inventory installed
 * Magento Commerce 2.3.0 and later, with Magento Inventory installed

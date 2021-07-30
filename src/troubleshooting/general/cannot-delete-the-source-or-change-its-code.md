@@ -9,7 +9,7 @@ This article provides a fix for when you can not completely remove a source and/
 
 Sources can not be deleted regardless of product assignment.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud all versions, with Magento Inventory installed
 * Magento Commerce 2.3.0 and later, with Magento Inventory installed

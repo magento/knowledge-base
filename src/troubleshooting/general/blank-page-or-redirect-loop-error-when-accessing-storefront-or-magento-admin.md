@@ -5,7 +5,7 @@ labels: Magento Admin,Magento Commerce,Magento Commerce Cloud,blank,redirect,tro
 
 This article provides a solution for the issue when you access Magento store front or backend and you get a blank page or redirect loop.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud, all versions
 * Magento Commerce, all versions
@@ -13,15 +13,15 @@ This article provides a solution for the issue when you access Magento store fro
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 Open a store front or Admin page.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 The page opens.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 The page is blank or displays the *"This webpage has a redirect loop"* error message.
 
@@ -43,7 +43,5 @@ To make sure this is the cause of the problem, take the following steps:
 
 Fixing the issue:
 
-1. Set the value starting with    ```html    https    ```    for `web/secure/base_url.` 
+1. Set the value starting with    ```html    https    ```    for `web/secure/base_url.`
 1. For the changes to be applied, clean the configuration cache by running the following command:    ```bash    php <your_magento_install_dir>/bin/magento cache:clean config    ```    
-
- 

@@ -5,24 +5,24 @@ labels: Magento Commerce,Magento Commerce Cloud,admin login,troubleshooting
 
 This article provides the possible solutions for the Magento Admin login issue, where you are redirected back to the login form with the following error message: *"Your account is temporarily disabled"* . The suggested solution is checking and correcting the admin user database settings.
 
-### Affected editions and versions:
+## Affected editions and versions:
 
 All Magento versions and editions.
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Go to your Magento Admin page.
 1. Enter your credentials and click Sign in.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 You get logged in to the Magento Admin.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
-You are redirected back to the login form, with the following error message displayed: *"Your account is temporarily disabled. Please try again later".* 
+You are redirected back to the login form, with the following error message displayed: *"Your account is temporarily disabled. Please try again later".*
 
 ## Solution
 
