@@ -1,23 +1,19 @@
 ---
-title: Include patch ID in title. Example "MDVA-XXX Adobe Commerce patch: storefront is broken" or "MDVA-XXX: storefront is broken", if the title is long.
+title: "MDVA-37592: Sorting by price doesn't work correctly for products with a zero price assigned to shared catalog"
 labels: MQP patches,Magento Quality Patches, ...
 ---
 
-(how to use this template: click edit page, copy and paste source, and remove/replace instructions with actual content)
-
-The MDVA-XXX Adobe Commerce patch solves/fixes the issue where .... This patch is available when the Magento Quality Patch (MQP) tool xxx is installed. The patch ID is MDVA-XXX. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce xxx. (this is optional, if the issue really was fixed).
+The MDVA-37592 Adobe Commerce patch solves the issue where sorting by price does not work correctly for products with a zero price assigned to shared catalog. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-37592. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce on-premise xxx
-* Adobe Commerce on our cloud architecture xxx
-* Adobe Commerce (all deployment types) xxx
+
+* Adobe Commerce on our cloud architecture 2.4.0-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce on-premise xxx
-* Adobe Commerce on our cloud architecture xxx
-* Adobe Commerce (all deployment types) xxx
+
+* Adobe Commerce (all deployment types) 2.3.6-2.4.2-p1
 
 >![info]
 >
@@ -25,21 +21,29 @@ The MDVA-XXX Adobe Commerce patch solves/fixes the issue where .... This patch i
 
 ## Issue
 
-(Short issue description goes here.)
+Sorting by price doesn't work correctly for products with a zero price assigned to shared catalog.
 
 <ins>Prerequisites</ins>:
-(if any)...
+
+B2B is installed.
 
 <ins>Steps to reproduce</ins>:
 
-1. ...
-1. ...
+1. Enable shared catalog.
+1. Create four products with the following prices and assign them to a category - $50, $60, $70, $80.
+1. Create a shared catalog with the above products.
+1. Set the custom price to 0 for the product with a price of $70.
+1. Now create a company user and assign it to the shared catalog just created.
+1. Log in using the company account and browse to the category that the products are assigned to.
+1. Try to sort by price.
 
 <ins>Expected results</ins>:
-...
+
+The products with zero price is sorted respectively.
 
 <ins>Actual results</ins>:
-...
+
+The product with price 0 is sorted according to the original price.
 
 ## Apply the patch
 
