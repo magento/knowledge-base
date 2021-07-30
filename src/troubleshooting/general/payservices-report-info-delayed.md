@@ -1,6 +1,6 @@
 ---
 title: Delayed Payment Services report data
-labels: troubleshooting,
+labels: troubleshooting
 ---
 
 <u>Title</u>: Delayed Payment Services reporting data<br/>
@@ -28,7 +28,7 @@ Prerequisites: An order is placed using Payment Services functionality.
 1. The merchant navigates to the Order payment status report to see information about that order.
 1. The status is shown as `AUTHORIZED`.
 
-    Commerce has not synced data and sent it to Payment Services, so the order capture is not yet recognized by the report.
+    Commerce has not synced data and sent it to Payment Services, so the new order status is not yet recognized by the report.
 
 >![info]
 >
