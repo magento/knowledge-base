@@ -18,13 +18,13 @@ labels: troubleshooting
 
 Payment Services reporting data, for Payout and Order payment status reports, may not sync immediately.
 
-After a merchant captures or refunds an order, for instance, the status of the order may not be immediately available.
+After a merchant invoices (captures) or issues a credit memo for an order, for instance, the status of the order may not be immediately available.
 
 <u>Steps to reproduce</u>:
 
 Prerequisites: An order is placed using Payment Services functionality.
 
-1. An order is [captured](https://docs.magento.com/user-guide/sales/order-update.html) (or (canceled))[https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order] or (refunded)[https://docs.magento.com/user-guide/sales/credit-memos.html]) in the [Admin](https://docs.magento.com/user-guide/stores/admin.html).
+1. An order is [invoiced](https://docs.magento.com/user-guide/sales/invoice-create.html) (or (canceled))[https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order] or (refunded via credit memo)[https://docs.magento.com/user-guide/sales/credit-memos.html]) in the [Admin](https://docs.magento.com/user-guide/stores/admin.html).
 1. The merchant navigates to the Order payment status report to see information about that order.
 1. The status is shown as `AUTHORIZED`.
 
