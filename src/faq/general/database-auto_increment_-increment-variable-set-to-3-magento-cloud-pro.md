@@ -12,7 +12,7 @@ Why does the increment ID used on Pro clusters not always get separated/incremen
 The increment ID used on clusters does not always get separated/incremented by 3 due to the way that Galera works.
 
 Each of the three servers manages its own ID space, and the increment being used depends on which is the MySQL main database server (depending on the relative load) - hence the varying gaps.
-If you SSH to each node and connect to the local MySQL instance running on that node using port 3307 (instead of being proxied to the "main" on the standard port 3306). you will see the following picture:
+If you SSH to each node and connect to the local MySQL instance running on that node using port 3307 (instead of being proxied to the "main" on the standard port 3306). You will see the following picture:
 
 
 ![auto_increment](assets/auto_increment_id.png)
