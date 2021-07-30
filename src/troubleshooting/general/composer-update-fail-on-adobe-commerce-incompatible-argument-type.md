@@ -3,6 +3,10 @@ title: "Composer update fail on Adobe Commerce: Incompatible argument type"
 labels: troubleshooting,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,symfony,Magento,Adobe Commerce,Adobe Commerce on our cloud architecture,composer
 ---
 
+>![info]
+>
+>This issue is now fixed in the latest symfony version 4.4.29 release.
+
 This article provides a solution for when deployment is stuck because there is an issue with code compilation. This issue is caused by a new version of symfony/console dependency (4.4.27, 4.4.28).
 
 ## Affected products and versions
