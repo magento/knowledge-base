@@ -26,13 +26,13 @@ Downloadable products are not saved after creating a staging update. Users get t
 
 1. Navigate to **Catalog** > **Products**.
 1. Click the dropdown next to Add Product and select Downloadable Product.
-      * Fill out the name, SKU, price, and quantity of the product.
+    * Fill out the name, SKU, price, and quantity of the product.
 1. Scroll down to the Downloadable Information page.
 1. Under Samples, click **Add Link**.
-      * Fill out the Title, Upload File (the type of file does not matter).
+    * Fill out the Title, Upload File (the type of file does not matter).
 1. Click **Save**. You will get the following message: *You saved the product*.
 1. Click **Schedule New Update** at the top of the page.
-      * Fill out the Update Name, and a legal Start Date and End Date.
+    * Fill out the Update Name, and a legal Start Date and End Date.
 1. Click **Save** on the staging update.
 1. Click **Save** on the product.
 
