@@ -1,6 +1,6 @@
 ---
 title: Delayed Payment Services report data
-labels: troubleshooting
+labels: troubleshooting,payment services,adobe commerce,magento,2.4.2-p1
 ---
 
 This article explains why reporting data in Payment Services may be delayed.
