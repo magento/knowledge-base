@@ -38,7 +38,7 @@ Downloadable products are not saved after creating a staging update. Users get t
 
 <ins>Expected results</ins>:
 
-Product is saved without any error.
+The product is saved without any error.
 
 <ins>Actual results</ins>:
 
