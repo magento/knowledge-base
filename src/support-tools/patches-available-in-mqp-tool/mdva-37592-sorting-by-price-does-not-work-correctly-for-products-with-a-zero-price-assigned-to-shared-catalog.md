@@ -1,6 +1,6 @@
 ---
-title: "MDVA-37592: Sorting by price doesn't work correctly for products with a zero price assigned to shared catalog"
-labels: MQP patches,Magento Quality Patches, ...
+title: "MDVA-37592: Sorting by price not working for products with zero price"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,Magento Commerce Cloud,Magento Commerce,Adobe Commerce on our cloud architecture,Adobe Commerce on-premise,Adobe Commerce,MQP 1.1.0,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,
 ---
 
 The MDVA-37592 Adobe Commerce patch solves the issue where sorting by price does not work correctly for products with a zero price assigned to shared catalog. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-37592. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
@@ -21,7 +21,7 @@ The MDVA-37592 Adobe Commerce patch solves the issue where sorting by price does
 
 ## Issue
 
-Sorting by price doesn't work correctly for products with a zero price assigned to shared catalog.
+Sorting by not working correctly for products with a zero price assigned to shared catalog.
 
 <ins>Prerequisites</ins>:
 
@@ -32,7 +32,7 @@ B2B is installed.
 1. Enable shared catalog.
 1. Create four products with the following prices and assign them to a category - $50, $60, $70, $80.
 1. Create a shared catalog with the above products.
-1. Set the custom price to 0 for the product with a price of $70.
+1. Set the custom price to zero for the product with a price of $70.
 1. Now create a company user and assign it to the shared catalog just created.
 1. Log in using the company account and browse to the category that the products are assigned to.
 1. Try to sort by price.
@@ -43,7 +43,7 @@ The products with zero price is sorted respectively.
 
 <ins>Actual results</ins>:
 
-The product with price 0 is sorted according to the original price.
+The product with price zero is sorted according to the original price.
 
 ## Apply the patch
 
@@ -51,10 +51,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premise: DevDocs [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
 * Adobe Commerce on our cloud architecture: DevDocs [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
