@@ -40,7 +40,7 @@ An error message is received when the “Notify Customers by Email” option for
 Sales email with shipment comments will be generated.
 
 <ins>Actual results</ins>:
-An error message, *“We're sorry, an error has occurred while generating this content.”* is received.
+The following error message is received in the email: *"We're sorry, an error has occurred while generating this content."* 
 
 ## Apply the patch
 
