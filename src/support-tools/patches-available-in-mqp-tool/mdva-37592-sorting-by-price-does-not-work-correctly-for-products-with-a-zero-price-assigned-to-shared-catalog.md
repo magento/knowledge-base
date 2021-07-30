@@ -34,7 +34,7 @@ B2B is installed.
 1. Create a shared catalog with the above products.
 1. Set the custom price to zero for the product with a price of $70.
 1. Now create a company user and assign it to the shared catalog just created.
-1. Log in using the company account and browse to the category that the products are assigned to.
+1. Log in using the company account and browse to the category where the products are assigned to.
 1. Try to sort by price.
 
 <ins>Expected results</ins>:
@@ -43,7 +43,7 @@ The product with price zero is sorted respectively.
 
 <ins>Actual results</ins>:
 
-The product with price zero is sorted according to the original price.
+The product with price zero is NOT sorted respectively. Instead it is sorted according to the original price.
 
 ## Apply the patch
 
