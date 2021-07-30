@@ -46,16 +46,16 @@ See the sections below for detailed recommendations on how to define labels for 
     </td>
   </tr>
   <tr>
-    <td colspan="1">Magento B2B</td>
-    <td colspan="1">"Magento B2B"</td>
+    <td colspan="1">B2B for Adobe Commerce</td>
+    <td colspan="1">"B2B"</td>
   </tr>
   <tr>
-    <td colspan="1">Magento PWA project</td>
-    <td colspan="1">"Magento PWA"</td>
+    <td colspan="1">PWA for Adobe Commerce</td>
+    <td colspan="1">"PWA"</td>
   </tr>
   <tr>
-    <td colspan="1">Magento Venia storefront project</td>
-    <td colspan="1">"Magento Venia"</td>
+    <td colspan="1">Venia storefront project</td>
+    <td colspan="1">"Venia"</td>
   </tr>
   <tr>
     <td colspan="1">Magento Quality Patches, MQP</td>
