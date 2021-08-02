@@ -15,7 +15,7 @@ This article provides a fix for an Adobe Commerce known issue for an exception t
 
  <ins>Steps to reproduce</ins>
 
-1. Install Commerce with more than 1 store created.
+1. Install Adobe Commerce with more than one store created.
 1. Create an additional store.
 1. Install B2B 1.2.0.
 
@@ -59,8 +59,8 @@ See [How to apply a composer patch provided by Adobe](https://support.magento.co
 
  <ins>Git patch </ins>
 
-* See DevDocs' [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) for git patch instructions for Adobe Commerce on our cloud infrastructure.
-* See DevDocs' [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) for git patch instructions for Adobe Commerce.
+* See [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in Developer Guide for git patch instructions for Adobe Commerce on our cloud infrastructure.
+* See [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in Developer Guide for git patch instructions for Adobe Commerce.
 
 ## Related reading
 
