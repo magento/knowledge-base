@@ -444,9 +444,7 @@ Your ticket is not solved and is being processed by the Magento Support Team.Whe
 
 Magento Support is expecting information from you.
 
-In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue.Make sure you provide your replies as soon as you can since Magento Support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
-
-Reference the [Magento Support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy.
+In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue. Make sure you provide your replies as soon as you can since Magento Support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
 
 #### **3. Solved**
 
