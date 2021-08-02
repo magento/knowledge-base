@@ -34,7 +34,7 @@ To create a new key and update the Magento Admin:
 1. In the Google Shopping ads section, paste the key you copied for **API key** .
 1. Tap **Save Config** .
 
- 
+
 ### Q: Some of my products are listed as Adult only in Google. How do I fix this?
 
 When you selected attribute mappings for your Adult-Only products, you may have accidentally selected all products as adult, or mapped an incorrect attribute, or have not updated a new attribute setting.
@@ -90,7 +90,7 @@ Check the following:
 
 * Your payment method has expired or there is a billing issue. Please check your Google Ads account in the Billing and Payments section. See Google's [Choose a payment method](https://support.google.com/google-ads/answer/2375433) .
 * Your account has an Approved status in the Google Shopping ads dashboard. If it is Pending Approval or Disapproved, your account is effectively paused. Product approvals and ads will not run. Google may require up to 10 days to fully review your accounts and products. If you have a Disapproved account, review and resolve as quickly as possible. Learn more about [account approvals](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/google-account-managment.html) .
-* Your URL has an Unclaimed status. If the URL was claimed in another GMC account, you need to unclaim it to [reclaim in Google Shopping ads Channel](https://docs.magedevteam.com/eap/google/user_guide/sales-channels/google-ads/url-verify.html) . When verifying and claiming your URL, Magento attempts the claim process up to five times within an hour after submission. If the URL is not claimed within five attempts, Magento provides a notification with more information. We recommend reviewing Google's [Verify and claim your website URL](https://support.google.com/merchants/answer/176793?hl=en) .
+* Your URL has an Unclaimed status. If the URL was claimed in another GMC account, you need to unclaim it to reclaim in Google Shopping ads Channel. When verifying and claiming your URL, Magento attempts the claim process up to five times within an hour after submission. If the URL is not claimed within five attempts, Magento provides a notification with more information. We recommend reviewing Google's [Verify and claim your website URL](https://support.google.com/merchants/answer/176793?hl=en) .
 * Products assigned to the campaign have an Approval status. If the campaign does not have any Google approved products, ads will not run. Learn more about [product approvals](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/product-managment.html) .
 * Campaign has an Active status. If the campaign is Paused or Ended, ads are not running.
 * You have updated your products and campaigns, but the time required for Google to receive and review the information has not completed. Magento checks periodically for account and product updates from Google. If you have submitted product data for the first time or significantly updated existing data in your GMC account, Google may take up to two business days to review the new data. As a result, products in your campaigns may take time to also update.
