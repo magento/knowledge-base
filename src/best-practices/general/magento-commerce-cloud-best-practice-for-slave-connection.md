@@ -9,7 +9,7 @@ See the [MySQL high-load bottleneck in Magento Commerce Cloud](https://support.m
 
 ## Related reading
 
- [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud)
+ [Database best practices for Adobe Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud)
 
 >![info]
 >
