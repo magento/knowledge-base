@@ -12,7 +12,7 @@ This article provides a patch for the known issue of a purchase order (PO) disco
 
 ## Issue
 
- <span class="wysiwyg-underline">Prerequisites</span> : a discount coupon is created, and approval rules preventing POs from being processed automatically exist.
+ <span class="wysiwyg-underline">Prerequisites</span>: a discount coupon is created, and approval rules preventing POs from being processed automatically exist.
 
 <span class="wysiwyg-underline">Steps to reproduce:</span>
 
