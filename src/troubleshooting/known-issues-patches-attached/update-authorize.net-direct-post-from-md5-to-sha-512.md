@@ -118,11 +118,3 @@ Take the following steps to update the Magento Admin configuration:
 
 
 The process is successful if the Signature Key updates and payment processing continues. If you have issues, verify the Signature Key with Authorize.Net.
-
-## More information
-
-* [Tech Resources](https://magento.com/technical-resources) for Magento Open Source and Commerce documentation
-    * Open Source [2.3](https://docs.magento.com/m2/ce/user_guide/payment/authorize-net-direct-post.html) , [2.2](https://docs.magento.com/m2/2.2/ce/user_guide/payment/authorize-net-direct-post.html) , [2.1](https://docs.magento.com/m2/2.1/ce/user_guide/payment/authorize-net-direct-post.html)
-    * Commerce and Commerce Cloud [2.3](https://docs.magento.com/m2/ee/user_guide/payment/authorize-net-direct-post.html) , [2.2](https://docs.magento.com/m2/2.2/ee/user_guide/payment/authorize-net-direct-post.html) , [2.1](https://docs.magento.com/m2/2.1/ee/user_guide/payment/authorize-net-direct-post.html)
-    * Magento 1 [Open Source](https://docs.magento.com/m1/ce/user_guide/payment/authorize-net-direct-post.html) and [Commerce](https://docs.magento.com/m1/ee/user_guide/payment/authorize-net-direct-post.html)
-* Authorize.Net announcement: [MD5 Hash End of Life & Signature Key Replacement](https://support.authorize.net/s/article/MD5-Hash-End-of-Life-Signature-Key-Replacement)
