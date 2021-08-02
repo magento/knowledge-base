@@ -15,9 +15,12 @@ GraphQL requests are cached by Fastly, and the cached version is retrieved for e
 
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
-1. Trigger the following GraphQL request to get products for certain category:    ```clike    GET http://<magento2-server>/graphql?query={products(currentPage:1,pageSize:6,filter:{web_ready:{eq:"1"},category_id:{eq:"1521"}}){total_count,items{__typename,id,sku,name}}}    ```    
+1. Trigger the following GraphQL request to get products for certain category like: <pre>
+<code class="language-graphql">GET http://<magento2-server>/graphql?query={products(currentPage:1,pageSize:6,filter:{web_ready:{eq:"1"},category_id:{eq:"1521"}}){total_count,items{__typename,id,sku,name}}}</code>
+</pre>
 
-1. Re-save one of the products retrieved by the request above in Magento Admin.
+
+1. Re-save one of the products retrieved by the request above in the Commerce Admin.
 1. Trigger the request again.
 
 <ins>Expected results</ins>:
@@ -62,6 +65,6 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions on how to apply a composer patch.
+See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions on how to apply a composer patch.
 
 ## Attached files
