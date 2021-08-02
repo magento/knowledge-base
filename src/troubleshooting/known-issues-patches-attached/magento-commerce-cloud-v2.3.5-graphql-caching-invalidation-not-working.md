@@ -13,13 +13,11 @@ Adobe Commerce on our cloud architecture v2.3.5.
 
 GraphQL requests are cached by Fastly, and the cached version is retrieved for each subsequent request from Fastly. When a product is re-saved in the Adobe Commerce backend, the Fastly cache should invalidate when a product is updated. However, it remains valid.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+<ins>Steps to reproduce</ins>:
 
-1. Trigger the following GraphQL request to get products for certain category like:
-<pre>
+1. Trigger the following GraphQL request to get products for certain category like: <pre>
 <code class="language-graphql">GET http://<magento2-server>/graphql?query={products(currentPage:1,pageSize:6,filter:{web_ready:{eq:"1"},category_id:{eq:"1521"}}){total_count,items{__typename,id,sku,name}}}</code>
 </pre>
-
 1. Re-save one of the products retrieved by the request above in the Commerce Admin.
 1. Trigger the request again.
 
