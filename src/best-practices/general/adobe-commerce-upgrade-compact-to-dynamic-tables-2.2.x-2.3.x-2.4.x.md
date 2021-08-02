@@ -14,6 +14,7 @@ For steps on how to enable maintenance mode, please refer to the [Adobe Commerce
 ## Affected product and versions
 
 * Adobe Commerce on our cloud architecture with MariaDB version to 10.0 or earlier and Magento version 2.3.4 or earlier.
+
 ## Issue
 
 Upgrading your mariadb version to 10.2 or later is rejected by Adobe Commerce support, due to ``COMPACT`` tables needing to be converted to ``DYNAMIC`` and and/or storage engine type being MyISAM.
