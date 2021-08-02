@@ -20,6 +20,7 @@ GraphQL requests are cached by Fastly, and the cached version is retrieved for e
 </pre>
 
 1. Re-save one of the products retrieved by the request above in the Commerce Admin.
+
 1. Trigger the request again.
 
 <ins>Expected results</ins>:
