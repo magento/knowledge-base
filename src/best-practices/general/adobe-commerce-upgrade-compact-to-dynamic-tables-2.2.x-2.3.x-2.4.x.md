@@ -1,23 +1,23 @@
 ---
 title: "Adobe Commerce 2.3.5 upgrade: compact to dynamic tables"
-labels: 2.2,2.2.x,2.3,2.3.x,2.3.5, Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,Adobe Commerce,cloud architecture, Adobe Commerce,MariaDB 
+labels: 2.2,2.2.x,2.3,2.3.x,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,cloud architecture,Adobe Commerce,MariaDB,10.2
 ---
 
-This article provides a guide on the prerequisites to upgrade from Mariadb 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires Mariadb version 10.2.
+This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2.
 
 The upgrade of MariaDB itself will be performed by the Adobe Commerce Support team. However, prior to them starting the upgrade process, you will need to take action to convert all tables in your database from <code>COMPACT</code> format to <code>DYNAMIC</code>. You will also need to convert the storage engine type from MyISAM to InnoDB.
 
-Converting from <code>COMPACT</code> to <code>DYNAMIC</code> tables can take several hours with a large database. All the database <code>ALTER</code> commands below should be carried out in [maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) during a low traffic period on your site. You should not attempt to run these commands when your site is live and not in maintenance mode due to the risk of data corruption to your database.
+Converting from <code>COMPACT</code> to <code>DYNAMIC</code> tables can take several hours with a large database. All the database <code>ALTER</code> commands below should be carried out in [maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) during a low traffic period on your site. You should not attempt to run these commands when your site is live and not in maintenance mode, due to the risk of data corruption to your database.
 
 For steps on how to enable maintenance mode, please refer to the [Adobe Commerce on-premise: Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) in our developer documentation.
 
 ## Affected product and versions
 
-* Adobe Commerce on our cloud architecture with MariaDB version to 10.0 or earlier and Magento version 2.3.4 or earlier.
+* Adobe Commerce on our cloud architecture version 2.3.4 or earlier with MariaDB version to 10.0 or earlier 
 
 ## Issue
 
-Upgrading your mariadb version to 10.2 or later is rejected by Adobe Commerce support, due to ``COMPACT`` tables needing to be converted to ``DYNAMIC`` and and/or storage engine type being MyISAM.
+Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce support, due to ``COMPACT`` tables needing to be converted to ``DYNAMIC`` and and/or storage engine type being MyISAM.
 
 ## Solution
 
@@ -30,7 +30,7 @@ Upgrading your mariadb version to 10.2 or later is rejected by Adobe Commerce su
     ```mysql
        SELECT table_schema as ‘Database’, table_name AS ‘Table’, round(((data_length + index_length) / 1024 / 1024), 2) ‘Size in MB’ FROM information_schema.TABLES ORDER BY (data_length + index_length) DESC;
      ```
-1. Run this command to covert the tables that need to be converted into Dynamic. You need to do this one by one for every table on the database that needs to be converted:
+1. Run this command to covert the tables that need to be converted into ``Dynamic``. You need to do this one by one for every table on the database that needs to be converted:
     ```mysql
        ALTER TABLE [ table name here ] ROW_FORMAT=DYNAMIC;
     ```
