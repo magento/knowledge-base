@@ -26,13 +26,13 @@ See the sections below for detailed recommendations on how to define labels for 
   <tr>
     <td>Adobe Commerce (all deployment types) </td>
     <td>
-      <span>"Adobe Commerce"</span>
+    "Adobe Commerce"
     </td>
   </tr>
   <tr>
     <td>Adobe Commerce on our cloud architecture </td>
     <td>
-      <span>"Adobe Commerce,cloud"</span>
+      "Adobe Commerce,cloud"
     </td>
   </tr>
   <tr>
@@ -46,22 +46,21 @@ See the sections below for detailed recommendations on how to define labels for 
     </td>
   </tr>
   <tr>
-    <td colspan="1">B2B for Adobe Commerce</td>
-    <td colspan="1">"B2B"</td>
+    <td>B2B for Adobe Commerce</td>
+    <td>"B2B"</td>
   </tr>
   <tr>
-    <td colspan="1">PWA for Adobe Commerce</td>
-    <td colspan="1">"PWA"</td>
+    <td>PWA for Adobe Commerce</td>
+    <td>"PWA"</td>
   </tr>
   <tr>
-    <td colspan="1">Venia storefront project</td>
-    <td colspan="1">"Venia"</td>
+    <td>Venia storefront project</td>
+    <td>"Venia"</td>
   </tr>
   <tr>
-    <td colspan="1">Magento Quality Patches, MQP</td>
-    <td colspan="1">"Magento Quality Patches,MQP patches"</td>
+    <td>Magento Quality Patches, MQP</td>
+    <td>"Magento Quality Patches,MQP patches"</td>
   </tr>
-</tbody>
 </table>
 
 ## Labels for products versions
