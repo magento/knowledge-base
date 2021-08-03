@@ -18,6 +18,7 @@ See the sections below for detailed recommendations on how to define labels for 
 
 ## Labels for products
 
+<table>
 <tbody>
   <tr>
     <th>Product name</th>
@@ -61,6 +62,7 @@ See the sections below for detailed recommendations on how to define labels for 
     <td>Magento Quality Patches, MQP</td>
     <td>"Magento Quality Patches,MQP patches"</td>
   </tr>
+  </tbody>
 </table>
 
 ## Labels for products versions
@@ -105,7 +107,7 @@ See the sections below for detailed recommendations on how to define labels for 
 
 * Use capitalization according to the component official naming.
 * Do not use synonyms, one label for one component.
-* One word labels are preferable, but if component name contains several words - use several words. Do not add issue description. That is, put "Elasticsearch" instead "Elasticsearch problems".
+* One word labels are preferable, but if component name contains several words - use several words. Do not add issue descriptions. That is, put "Elasticsearch" instead of "Elasticsearch problems".
 * If the content is relevant for a particular version of the component only - add a label containing name + version.         
     Example: "Elasticsearch 5". If it is relevant for several particular versions - add several labels of this type. Example: "Elasticsearch 5", "Elasticsearch 6". When relevant, use "x" for multiple version. Example: "Elasticsearch 2.x"
 
