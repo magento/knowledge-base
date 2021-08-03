@@ -1,9 +1,9 @@
 ---
-title: Product recommendations not showing in Page Builder
+title: Product Recommendations not showing in Page Builder
 labels: troubleshooting,..
 ---
 
-This article provides a solution for the issue when product recommendations not showing in Page Builder.
+This article provides a solution for the issue of Product Recommendations option not showing in Page Builder.
 
 ## Affected products and versions
 
@@ -11,41 +11,20 @@ This article provides a solution for the issue when product recommendations not 
 
 ## Issue
 
-A clear description of the issue, including full error messages as text and any important screenshots.
-If this is found in a log, provide details: which log, location.
-
-Remove any specific project IDs or customer information from errors and logs! Also make sure sensitive information is not included in screen shots.
-
-If the issue occurs in a very specific situation, provide detailed steps to reproduce, expected result and actual result in the following format:
-
-<u>Steps to reproduce</u>:
-
-Prerequisites: ... (if any).
-
-1. First step.
-1. Second step.
-1. ....
-
-<u>Expected result</u>:
-Magento does this.
-
-<u>Actual result</u>:
-Magento does that.
+Product Recommendations option not showing in Page Builder.
 
 ## Cause
 
-The reason why the issue occurs. Don't describe the fix — it should be in the next section. Skip this option if the reason is not clear or not important in this case.
+There is no option in Page Builder to add Product Recommendations. Product Recommendations for Page Builder is an optional module and is installed separately.
 
 ## Solution
 
-How to fix the issue. Use a numbered list for steps.
-Finish the section with the results: error not displayed, deploy works, value changed and how to see the change, etc.
-
-If there is a temporary workaround, specify it as a separate section below this one.
+1. Check if you have installed it separately by running the command:
+`composer show magento/module-page-builder-product-recommendations`
+   * If it returns *Package magento/module-page-builder-product-recommendations not found*, you will have to install it by running the command: `composer require magento/module-page-builder-product-recommendations`
+1. Enable Product Recommendations in Page Builder. You can now [add a recommendation unit](https://docs.magento.com/user-guide/marketing/page-builder-add-product-recs.html?_ga=2.187638894.756057933.1627907332-1732968789.1622116639) to any content created in Page Builder.
 
 ## Related reading
-
-* User Guides: [Commerce](https://docs.magento.com/user-guide/)
-* [DevDocs](https://devdocs.magento.com)
-* Other Knowledge Base articles
-* Any related resources (blogs, forums, StackOverflow, etc.)
+* User Guide: [Add Recommendations to Page Builder](https://docs.magento.com/user-guide/marketing/page-builder-add-product-recs.html)
+* User Guide: [Adobe Commerce 2.4 User Guide](https://docs.magento.com/user-guide/)
+* [Install and Configure Recommendations](https://devdocs.magento.com/recommendations/install-configure.html)
