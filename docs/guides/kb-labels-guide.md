@@ -67,7 +67,7 @@ See the sections below for detailed recommendations on how to define labels for 
 
 ## Labels for products versions
 
-* Add a separate label for each version. Example: "2.3.7"
+* Add a separate label for each version of Adobe Commerce. Example: "2.3.7"
 * Don't add labels for intervals.
     That is, if 2.3.0-2.3.5 if affected, add: "2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2"
     NOT "2.3.0-2.3.5"
@@ -109,19 +109,19 @@ See the sections below for detailed recommendations on how to define labels for 
 * Do not use synonyms, one label for one component.
 * One word labels are preferable, but if component name contains several words - use several words. Do not add issue descriptions. That is, put "Elasticsearch" instead of "Elasticsearch problems".
 * If the content is relevant for a particular version of the component only - add a label containing name + version.         
-    Example: "Elasticsearch 5". If it is relevant for several particular versions - add several labels of this type. Example: "Elasticsearch 5", "Elasticsearch 6". When relevant, use "x" for multiple version. Example: "Elasticsearch 2.x"
+    Example: "Elasticsearch 5". If it is relevant for several particular versions - add several labels of this type. Example: "Elasticsearch 5", "Elasticsearch 6". When relevant, use "x" for multiple versions. Example: "Elasticsearch 2.x"
 
 Examples:
 
 * "Elasticsearch"
 * "New Relic"
-* "Web Setup Wizard".
+* "Web Setup Wizard"
 
 ## Labels for process/functionality being troubleshooted/described
 
 * Use low case, with exception of proper nouns.
 * Do not use synonyms, one label for one entity.
-* One word labels are preferable. Do not add issue description. That is, put "database" instead "database crashes".
+* One word labels are preferable. Do not add issue description. That is, put "database" instead of "database crashes".
 
 Examples: 
 
@@ -132,7 +132,7 @@ Examples: 
 
 ## Labels for the issue being fixed/described
 
-* Use low case, with exception of proper nouns.
+* Use low case, with the exception of proper nouns.
 * Do not use synonyms, one label for one entity.
 * One word labels are preferable. Do not convert an error message to a label.
 
