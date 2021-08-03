@@ -7,6 +7,7 @@ If you need to learn about general contribution flow, go to [Contributor's Guide
 * [Contribution rewards and points](contribution-points.md)
 * [Support KB Style Guide](guides/support-kb-styleguide.md)
 * [Support KB Formatting Guide](guides/kb-formatting-guide.md)
+* [Support KB Labels Guide](guides/kb-labels-guide.md)
 
 
 ## Templates
