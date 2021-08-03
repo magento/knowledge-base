@@ -27,5 +27,5 @@ There is no option in Page Builder to add Product Recommendations. Product Recom
 
 ## Related reading
 * [Add Recommendations to Page Builder](https://docs.magento.com/user-guide/marketing/page-builder-add-product-recs.html)
-* [Adobe Commerce 2.4 User Guide](https://docs.magento.com/user-guide/)
+* [Adobe Commerce User Guide](https://docs.magento.com/user-guide/)
 * [Install and Configure Recommendations](https://devdocs.magento.com/recommendations/install-configure.html)
