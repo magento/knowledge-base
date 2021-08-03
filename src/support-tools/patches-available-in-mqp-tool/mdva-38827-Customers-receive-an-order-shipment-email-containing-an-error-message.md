@@ -23,31 +23,33 @@ An error message is received when the “Notify Customers by Email” option for
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Marketing** > **Communications** > **Email Templates** and select Add New Template.
+1. Go to **Marketing** > **Communications** > **Email Templates** and select **Add New Template**.
    * Select **Magento Sales** > **New Shipment**.
    * Click on **Load Template**.
    * Add a template name (e.g., Core Shipping Template) and click **Save**.
 1. Go to **Store** > Settings > **Configuration** > **Sales** > **Sales Email**:
-   * Enable Shipment Comments.
-   * Select “Core Shipping Template” (refer point 1.3) under Shipment Comment Email Template and Shipment Comment Email Template for Guest.
-1. Now, place an order, go to the admin panel **Sales** > **Order**, click **View**, and then ship the order.
+   * Enable **Shipment Comments**.
+   * Select **Core Shipping Template** (refer to the "Add a template name" part of Step 1) under Shipment Comment Email Template and Shipment Comment Email Template for Guest.
+1. Place an order. Go to the Admin panel **Sales** > **Order**, click **View**, and then ship the order.
 1. The order state will change from Pending to Processing.
 1. Click **Shipments** on the left sidebar menu and then click **View** to see the order.
-1. Add a comment in “Comment Text” below “Shipment History” and check the checkbox “Notify Customer by Email.”
+1. Add a comment in **Comment Text** below **Shipment History** and check the checkbox **Notify Customer by Email**.
 1. Click **Submit Comment**.
 
 <ins>Expected results</ins>:
+
 Sales email with shipment comments will be generated.
 
 <ins>Actual results</ins>:
-The following error message is received in the email: *"We're sorry, an error has occurred while generating this content."* 
+
+The following error message is received in the email: *"We're sorry, an error has occurred while generating this content."*
 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment type:
 
-* Adobe Commerce or Magento Open Source on-premise: DevDocs [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
-* Adobe Commerce on our cloud architecture: DevDocs [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html). 
+* Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on our cloud architecture: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
 
 ## Related reading
 
