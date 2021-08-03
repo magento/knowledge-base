@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce best practice: conducting critical actions in Admin
+title: "Adobe Commerce best practice: conducting critical actions in Admin"
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,actions,cache invalidation,critical,event,flush,log,move,save,Adobe Commerce,Adobe Commerce on our cloud architecture,Adobe Commerce on-premise
 ---
 
