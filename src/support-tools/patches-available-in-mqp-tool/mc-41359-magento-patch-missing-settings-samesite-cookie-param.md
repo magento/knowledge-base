@@ -1,6 +1,6 @@
 ---
 title: "MC-41359 commerce patch: missing settings SameSite cookie param"
-labels: 2.3.6-p1,2.4.2,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,SameSite,browser,cookies,error,settings,support tools,Adobe Commerce on our cloud architecture,Adobe Commerce
+labels: 2.3.6-p1,2.4.2,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,SameSite,browser,cookies,error,settings,support tools,Adobe Commerce,cloud architecture
 ---
 
 The MC-41359 commerce patch fixes the issue with missing SameSite cookie parameters settings. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MC-41359. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
