@@ -22,7 +22,7 @@ After you invoice (capture) an order or issue a credit memo for an order, for in
 
 Prerequisites: An order is placed using Payment Services functionality.
 
-1. An order is [invoiced](https://docs.magento.com/user-guide/sales/invoice-create.html) (or [canceled](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) or [refunded via credit memo](https://docs.magento.com/user-guide/sales/credit-memos.html]) in the [Admin](https://docs.magento.com/user-guide/stores/admin.html).
+1. An order is [invoiced](https://docs.magento.com/user-guide/sales/invoice-create.html) (or [canceled](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) or [refunded via credit memo](https://docs.magento.com/user-guide/sales/credit-memos.html])) in the [Admin](https://docs.magento.com/user-guide/stores/admin.html).
 1. Navigate to the Order payment status report to see information about that order.
 1. The status is shown as `AUTHORIZED`, which is the order status prior to the invoicing or other order action.
 
