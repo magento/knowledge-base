@@ -5,22 +5,22 @@ labels: Magento Commerce,Magento Commerce Cloud,admin,login,troubleshooting
 
 This article gives the possible solutions for the Magento Admin login issue, where you are redirected back to the login form when trying to log in to the Magento Admin, and no error message is displayed. These include correcting the server timezone settings and clearing the cookies settings in Magento.
 
-### Affected editions and versions:
+## Affected editions and versions:
 
 All Magento versions and editions.
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Go to your Magento Admin page.
 1. Enter your credentials and click Sign in.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 You get logged in to the Magento Admin.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 You are redirected back to the login form, with no error messages.
 
@@ -58,5 +58,3 @@ To check the cookies settings values and clear them, take the following steps:
 
 * [Redirect back to the Admin login form with "Your account is temporarily disabled" error](https://support.magento.com/hc/en-us/articles/360028606831)
 * [Redirect back to the Admin login form with "Your current session has been expired" error](https://support.magento.com/hc/en-us/articles/360028441671)
-
- 

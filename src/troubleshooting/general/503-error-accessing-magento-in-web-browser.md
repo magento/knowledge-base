@@ -5,27 +5,27 @@ labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-
 
 This article provides a possible solution for the issue where you get 503 error when trying to access Magento storefront and/or Admin.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.3.x
 
 <h2 id="symptoms">Issue</h2>
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 (Prerequisites: make sure the store is not in [maintenance mode](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show) .)
 
 Navigate to your Magento Admin or storefront in a web browser.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 The page loads.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 You get the HTTP 503 (Service Unavailable) error. The Apache `error.log` includes the following message:
 
- *Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration.* 
+ *Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration.*
 
 <h2 id="details">Cause</h2>
 
@@ -72,4 +72,3 @@ apache2
 * [Apache documentation about mod\_authz\_host](http://httpd.apache.org/docs/current/mod/mod_authz_host.html)
 * [Order, Allow, Deny from the Apache Definitive Guide](http://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
 * [askubuntu.com](http://askubuntu.com/questions/335228/changes-in-apache-config-between-12-04-2-and-12-04-3-lts)
-

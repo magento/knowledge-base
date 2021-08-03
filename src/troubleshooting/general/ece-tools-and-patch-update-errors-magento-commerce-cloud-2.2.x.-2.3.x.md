@@ -5,13 +5,13 @@ labels: 2.2.x,2.3.x,Magento Commerce Cloud,No such file or directory,composer.js
 
 This article provides a solution for the issue where you see error messages including " *failed to open stream:* " or " *No such file or directory",* when trying to deploy updates to ECE-Tools, patches or other changes.
 
-### AFFECTED PRODUCTS AND VERSIONS
+## Affected products and versions
 
 Magento Commerce Cloud 2.2.x., 2.3.x
 
 ## Issue
 
-Errors when trying to deploy updates to ECE-Tools, patches or other changes include: PHP errors in the project web UI and in the `var/log/cloud.log` 
+Errors when trying to deploy updates to ECE-Tools, patches or other changes include: PHP errors in the project web UI and in the `var/log/cloud.log`
 
 ```clike
 W: PHP Warning: require(<path to file>): failed to open stream: No such file or directory in <path to file> on line 70
@@ -49,7 +49,7 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 ```
 
 ```clike
-[Symfony\Component\Console\Exception\CommandNotFoundException] 
+[Symfony\Component\Console\Exception\CommandNotFoundException]
  W: There are no commands defined in the "module" namespace.
 ```
 
@@ -72,5 +72,4 @@ Please change your extra section to match that provided below and re-attempt dep
 
 ## Related reading
 
-* DevDocs [Upgrades and patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=update%20ece%20tools) 
-
+* DevDocs [Upgrades and patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=update%20ece%20tools)

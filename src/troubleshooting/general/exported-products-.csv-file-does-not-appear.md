@@ -5,29 +5,29 @@ labels: 2.3.2,Magento Commerce Cloud,csv file,export,exportProcessor,exported,ho
 
 This article provides a fix for the issue where you try to export products to a .csv file in Magento Admin, but the file does not appear.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud 2.3.2
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 Prerequisites: The **Add Secret Key to URLs** option is set to *Yes* . The option is configured in the Magento Admin under **Stores** > **Configuration** > **Advanced** > **Admin** > **Security** .
 
 1. In the Magento Admin, navigate to **System** > **Data Transfer** > **Export** .    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)    
 1. Select
-    * **Entity Type** : *Products* 
-    * **Export File Format** : *CSV* 
+    * **Entity Type** : *Products*
+    * **Export File Format** : *CSV*
     * **Field Enclosure** : leave unchecked.
 1. Click **Continue** .
 1. The following message is displayed: *"Message is added to queue, wait to get your file soon"* .
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 The .csv file with the exported products is displayed in the grid in a couple of minutes.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 The .csv file with the exported products is not displayed in the grid in 10 minutes or more.
 
@@ -47,7 +47,7 @@ See details for both options in the following paragraphs.
 ### Disable the the Add Secret Key to URL option
 
 1. In the Magento Admin, navigate to **Stores** > **Configuration** > **Advanced** > **Admin** > **Security** .
-1. Set the **Add Secret Key to URLs** option to *No.* 
+1. Set the **Add Secret Key to URLs** option to *No.*
 1. Click **Save Config** .
 1. Clean cache under **System** > **Tools** > **Cache Management** or by running    ```bash    bin/magento cache:clean    ```    or in Magento Admin.
 
@@ -55,7 +55,7 @@ See details for both options in the following paragraphs.
 
 To get the export file, run the `bin/magento queue:consumers:start exportProcessor` command. After running this, the file should be displayed in the grid.
 
- 
+
 To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` variable to the `.magento.env.yaml` file.
 
 #### Add process as a cron job (optional)
@@ -66,11 +66,8 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 
 >![info]
 >
->If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml` . It might be empty initially, you can add info there as required. Reference the following Magento DevDocs articles: [Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html) , [Environment variables](https://devdocs.magento.com/cloud/env/variables-intro.html) 
+>If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml` . It might be empty initially, you can add info there as required. Reference the following Magento DevDocs articles: [Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html) , [Environment variables](https://devdocs.magento.com/cloud/env/variables-intro.html)
 
 >![info]
 >
 >On Magento Commerce Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Magento Commerce Cloud project before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml` . If this feature is not enabled, [create a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) , to have the job added for you.
-
- 
- 

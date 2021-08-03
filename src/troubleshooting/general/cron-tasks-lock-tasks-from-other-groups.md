@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting
 
 This article provides a solution for the Magento Commerce Cloud issue related to certain long-run cron jobs blocking other cron jobs.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Cloud, Pro Architecture
 * Onboard earlier than May 2019
@@ -14,7 +14,7 @@ This article provides a solution for the Magento Commerce Cloud issue related to
 
 On Magento Cloud, when you have complex cron tasks (long-run tasks) they might lock other tasks for execution. For example, the indexers task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default cron jobs like: sending emails, generating sitemaps, customer notifications, other custom tasks.
 
- <span class="wysiwyg-underline">Symptoms</span> 
+ <span class="wysiwyg-underline">Symptoms</span>
 
 The processes, executed by cron jobs, are not performed. For example, product updates are not applied for hours, or customers report not receiving emails.
 
@@ -40,4 +40,3 @@ To check if the self-managed cron is enabled, run the `crontab -l` command, and 
 ## Related reading
 
 * [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html) on Magento Devdocs
-

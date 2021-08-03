@@ -11,7 +11,7 @@ ENOTFOUND
 
 * error when using Magento Progressive Web App (PWA) Studio.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento PWA Studio
 

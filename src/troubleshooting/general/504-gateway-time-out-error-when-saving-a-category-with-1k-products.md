@@ -5,7 +5,7 @@ labels: 2.3.3,504 error,Magento Commerce,Magento Commerce Cloud,URL rewrites,how
 
 This article suggests a solution for the timeout issue you might have, when performing operations with large categories (1k+ plus products).
 
-### Affected products and versions:
+## Affected products and versions:
 
 * Magento Commerce Cloud 2.3.3
 * Magento Commerce 2.3.3

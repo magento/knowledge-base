@@ -5,22 +5,22 @@ labels: Magento Commerce,Magento Commerce Cloud,admin,login,troubleshooting
 
 This article gives the possible solutions for the Magento Admin login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"* . Solutions include checking for server time setting issues and changing session storage settings.
 
-### Affected editions and versions:
+## Affected editions and versions:
 
 All Magento versions and editions.
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Go to your Magento Admin page.
 1. Enter your credentials and click Sign in.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 You get logged in to the Magento Admin.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 You are redirected back to the login form, with the following error message displayed: *"Your current session has been expired"* .
 
@@ -47,7 +47,7 @@ For example, to start storing session in the file system, change the `'session'`
 
 ```php
 ....
-'session' => 
+'session' =>
     array (
       'save' => 'files',
 ),
@@ -56,11 +56,10 @@ For example, to start storing session in the file system, change the `'session'`
 
 Run the `bin/magento app:config:import` command to import configuration data.
 
- 
+
 ## Related reading
 
 * [Import data from configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html)
 * [Configure Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
 * [Redirect back to the Admin login form with "Your account is temporarily disabled" error](https://support.magento.com/hc/en-us/articles/360028606831)
 * [Redirect back to the login form with no error, when trying to login to Magento Admin](https://support.magento.com/hc/en-us/articles/360028606711)
-

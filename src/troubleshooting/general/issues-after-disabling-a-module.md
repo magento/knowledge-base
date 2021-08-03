@@ -5,7 +5,7 @@ labels: 2.1.x,Magento Commerce,Magento Commerce Cloud,module disable,troubleshoo
 
 This article provides a solution for module functionality issues after having disabled module output in the Magento Admin.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud, Magento Commerce
 * 2.1.X or earlier

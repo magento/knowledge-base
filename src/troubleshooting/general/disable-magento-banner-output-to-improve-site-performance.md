@@ -9,7 +9,7 @@ This article provides a fix for low site performance. Low site performance can b
 >
 >If you use the Magento Banner functionality, see the [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) article for recommendations on how to avoid performance issues caused by excessive Ajax requests.
 
-### AFFECTED PRODUCTS AND VERSIONS
+## Affected products and versions
 
 * Magento Commerce Cloud, v.2.x.x
 * Magento Commerce, v.2.2.x, 2.3.x
@@ -48,5 +48,3 @@ When the Magento Banner module is enabled, Magento sends Ajax requests from the 
 
 1. Disable the Magento Banner module output, as described in [Disable module output](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) . The module name you need to use is `Magento_Banner` .
 1. Deploy your code. For Magento Commerce Cloud, deploy as described in the [Deploy your store](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) article.
-
- 

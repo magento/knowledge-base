@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,MySQL,database,deadl
 
 This article talks about deadlocks in MySQL to help identify and resolve them, if they cause a site down, stuck database import, or other Magento issues.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, versions 2.2.x and 2.3.x
 * Magento Commerce Cloud, versions 2.2.x and 2.3.x
@@ -14,7 +14,7 @@ This article talks about deadlocks in MySQL to help identify and resolve them, i
 
 Deadlocks in MySQL occur when two or more transactions mutually hold and request for locks. Deadlocks being present do not always indicate an issue, but often are a symptom of some other MySQL or Magento issue that has occurred.
 
-Often the application, deployment, or MySQL logs will mention a *"deadlock"* error or the error *"Deadlock found when trying to get lock; try restarting transaction."* 
+Often the application, deployment, or MySQL logs will mention a *"deadlock"* error or the error *"Deadlock found when trying to get lock; try restarting transaction."*
 
 ## Cause
 

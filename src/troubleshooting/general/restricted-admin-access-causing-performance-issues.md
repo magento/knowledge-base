@@ -5,7 +5,7 @@ labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,admin,how to,permiss
 
 This article provides solutions for when performance is negatively impacted by using [Admin roles with role scope restricted by website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) .
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.2.x, 2.3.x
 * Magento Commerce Cloud 2.2.x, 2.3.x
@@ -27,5 +27,3 @@ Following are the options to avoid the issue:
 ## Related reading
 
 * [User roles](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) in Magento User Guide.
-
- 

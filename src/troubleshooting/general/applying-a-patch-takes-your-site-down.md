@@ -5,7 +5,7 @@ labels: Magento Commerce,Magento Commerce Cloud,patch,remove patch,troubleshooti
 
 This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce, all supported versions
 * Magento Commerce Cloud, all supported versions
@@ -42,10 +42,9 @@ For Magento Commerce Cloud, all versions,
 1. Remove the `%patch_name%.composer.patch` file(s) from the `m2-hotfixes` directory.
 1. Commit and push your code changes:    ```git    git commit -m "Remove %patch_name%.composer.patch patch" && git push origin    ```    
 
- 
+
 ## Related reading
 
 * [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731)
 * [Apply patches (Magento Commerce Cloud)](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)
 * [How to Apply and Revert \[Magento 1\] Patches](https://devdocs.magento.com/guides/m1x/other/ht_install-patches.html)
-

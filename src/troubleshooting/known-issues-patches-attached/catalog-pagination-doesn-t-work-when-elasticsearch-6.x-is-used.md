@@ -9,7 +9,7 @@ The patch below resolves issues that users of Magento 2.3.3 experience in deploy
 
 After this patch is installed, users will be able to page through all search results.
 
-### Affected versions:
+## Affected products and versions
 
 * Magento Commerce Cloud 2.3.3
 * Magento Commerce 2.3.3

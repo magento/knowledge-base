@@ -5,23 +5,23 @@ labels: 2.2.x,2.3.x,Apache,Magento Commerce,how to,images,nginx,stylesheets
 
 This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Magento.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Install Magento.
 1. Navigate to the storefront or Admin.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Styles are applied, no UI element looks like missing styles.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 Styles are not applied correctly, graphics is missing.
 
@@ -42,4 +42,3 @@ The following are possible solutions depending on the software you use and the c
     * The `include` directive must point to the sample nginx configuration file in your Magento installation directory. For example:    ```bash    include /var/www/html/magento2/nginx.conf.sample;    ```    
     * The `server_name` directive must match the base URL you specified when installing Magento. For example:    ```bash    server_name 192.186.33.10;    ```    
 * If the Magento application is in [production mode](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode) , try deploying static view files using the command [magento setup:static-content:deploy](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) .    
-

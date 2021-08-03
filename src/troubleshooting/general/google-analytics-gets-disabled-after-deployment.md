@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,google analytics,how to
 
 This topic discusses solution to a typical issue you might experience with Google Analytics during deployment.
 
-### Affected products and versions
+## Affected products and versions
 
 * Magento Commerce Cloud, all versions
 

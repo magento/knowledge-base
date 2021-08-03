@@ -5,9 +5,9 @@ labels: 2.2.x,2.3.x,Magento Commerce Cloud,cron,disk space,how to
 
 This article suggests solutions for the situation when you run out of space on a certain environment of Magento Commerce Cloud.
 
-### Affected products and versions
+## Affected products and versions
 
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Issue
 
@@ -46,5 +46,3 @@ To check how much space you have for each environment:
 1. As the Magento Commerce Cloud Account Owner, log in to your project.    
 1. In the upper right corner, click **<your name>** > **Account Settings** .    
 1. On the project tab, see the amount specified, for example:    ![project_space.png](assets/project_space.png)    
-
- 

@@ -45,6 +45,5 @@ Using the subdomain allows you to perform a "soft launch" of your store in futur
 
 ### DevDocs
 
-* [Fastly Overview](http://devdocs.magento.com/guides/v2.2/cloud/basic-information/cloud-fastly.html)
+* [Fastly Overview](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html)
 * [Go live checklist: DNS configurations for Fastly](http://devdocs.magento.com/guides/v2.2/cloud/live/go-live-checklist.html#dns)
-
