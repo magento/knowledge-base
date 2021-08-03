@@ -41,5 +41,4 @@ NodeJS cannot resolve the hostname of your Magento store.
 ## Related reading
 
 * [Magento PWA Studio Documentation](https://magento.github.io/pwa-studio/)
-* [Creating a simple server](https://magento.github.io/pwa-studio/tutorials/hello-upward/simple-server/)
 * [Tools and libraries](https://magento.github.io/pwa-studio/technologies/tools-libraries/)

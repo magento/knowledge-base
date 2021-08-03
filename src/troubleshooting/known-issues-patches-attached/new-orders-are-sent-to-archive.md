@@ -31,7 +31,7 @@ After applying the patch, orders will appear in the Order grid as expected. But 
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-8007\_EE\_2.2.0\_v1.composer.patch](assets/MDVA-8007_EE_2.2.0_v1.composer.patch.zip) 
+ [Download MDVA-8007\_EE\_2.2.0\_v1.composer.patch](assets/MDVA-8007_EE_2.2.0_v1.composer.patch.zip)
 
 ### Compatible Magento versions:
 
@@ -50,6 +50,6 @@ See [How to apply a composer patch provided by Magento](https://support.magento.
 
 ## Useful links
 
-* [Manage Archived orders](https://docs.magento.com/m2/2.2/ee/user_guide/sales/order-archive.html)
+* [Manage Archived orders](https://docs.magento.com/user-guide/sales/order-archive.html)
 
 ## Attached Files
