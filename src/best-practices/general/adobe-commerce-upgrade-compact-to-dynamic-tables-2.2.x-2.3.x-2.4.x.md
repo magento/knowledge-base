@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.3.5 upgrade: compact to dynamic tables"
-labels: 2.2,2.2.x,2.3,2.3.x,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,cloud architecture,Adobe Commerce,MariaDB,10.2
+labels: 2.3,2.3.4,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,cloud architecture,Adobe Commerce,MariaDB,10.0,10.2
 ---
 
 This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2.
@@ -9,7 +9,7 @@ The upgrade of MariaDB itself will be performed by the Adobe Commerce Support te
 
 Converting from <code>COMPACT</code> to <code>DYNAMIC</code> tables can take several hours with a large database. All the database <code>ALTER</code> commands below should be carried out in [maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) during a low traffic period on your site. You should not attempt to run these commands when your site is live and not in maintenance mode, due to the risk of data corruption to your database.
 
-For steps on how to enable maintenance mode, please refer to the [Adobe Commerce on-premise: Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) in our developer documentation.
+For steps on how to enable maintenance mode, please refer to [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) in our developer documentation.
 
 ## Affected product and versions
 
@@ -17,7 +17,7 @@ For steps on how to enable maintenance mode, please refer to the [Adobe Commerce
 
 ## Issue
 
-Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce support, due to ``COMPACT`` tables needing to be converted to ``DYNAMIC`` and and/or storage engine type being MyISAM.
+Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce support, due to ``COMPACT`` tables needing to be converted to ``DYNAMIC`` and/or storage engine type being MyISAM.
 
 ## Solution
 
