@@ -7,7 +7,7 @@ This article provides a solution for when you run out of disk space; safely remo
 ## Affected products and versions
 
 * Adobe Commerce on our Cloud Architecture:
- 2.3.0-2.3.6-p1, 2.4.0-2.4.2
+  2.3.0-2.3.7, 2.4.0-2.4.2-p1 
 * This is specific to dedicated Pro clusters. Starter and Integration environments are single node, and do not have a ``/data/exports directory``.
 
 ## Signs of low disk space
