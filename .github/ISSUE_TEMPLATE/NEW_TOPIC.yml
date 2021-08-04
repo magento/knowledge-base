@@ -22,7 +22,7 @@ body:
       placeholder: ex. Missing information in article. Page not displaying properly.
     validations:
       required: True
-  - type: input
+  - type: textarea
     attributes:
       label: Content checklist
       description: List specific information or details to include in this topic
@@ -49,4 +49,9 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true  
-  
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this issue!
+        GitHub Issues should only be created for problems/topics related to this project's codebase.
+        Issues that do not comply with our Code of Conduct or do not contain enough information may be closed at the maintainers' discretion.
