@@ -1,6 +1,5 @@
 name: New topic
 description: Create a request to add missing information to Support KB or report a bug.
-title: ""
 labels: [bug, triage]
 assignees:
   - octocat
@@ -41,7 +40,7 @@ body:
     attributes:
       label: Additional information/resources
       description: Any information you already know or other online resources that cover this topic
-    validatios:
+    validations:
       required: false
   - type: checkboxes
     attributes:
