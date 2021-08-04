@@ -25,7 +25,6 @@ After we move your Staging environment to the dedicated infrastructure, the URLs
 
 ![cloud_project-ssh-three-node-access.jpg](assets/cloud_project-ssh-three-node-access.jpg)
 
-
 ## Will there be any changes to my existing workflow?
 
 If you use a direct URL to connect to the shared Staging environment using SSH, you must replace the existing URL with the SSH access URL for the new dedicated Staging environment. See [SSH to an environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) in our developer documentation.
