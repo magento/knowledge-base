@@ -1,13 +1,13 @@
 ---
 title: "Adobe Commerce on our cloud architecture: shared Staging migration to dedicated infrastructure"
-labels: FAQ,Magento Commerce Cloud,Pro,Staging,cloud,commerce,dedicated,infrastructure,maintenance mode,migration,production,shared,staging,upgrade,Adobe Commerce
+labels: FAQ,Magento Commerce Cloud,Pro,Staging,cloud architecture,commerce,dedicated,infrastructure,maintenance mode,migration,production,shared,staging,upgrade,Adobe Commerce
 ---
 
 This Frequently Asked Questions (FAQ) article answers common questions about the process of migrating shared Staging environments to dedicated infrastructure for Adobe Commerce on our cloud architecture.
 
 ## Why is Adobe Commerce upgrading my Staging environment to use Dedicated Staging?
 
-Adobe Commerce is provisioning all Adobe Commerce on our cloud pro architecture plan accounts that have a shared Staging environment with a separate, dedicated Staging environment. We will migrate your existing shared Staging environment to the dedicated Staging environment as part of the upgrade process. Previously, Production and Staging environments for Pro plan projects were hosted on shared Cloud infrastructure, and customers had the option to add a dedicated Staging environment for an additional charge.
+Adobe Commerce is provisioning all Adobe Commerce on our cloud pro architecture plan accounts that have a shared Staging environment with a separate, dedicated Staging environment. We will migrate your existing shared Staging environment to the dedicated Staging environment as part of the upgrade process. Previously, Production and Staging environments for Pro plan projects were hosted on shared cloud infrastructure, and customers had the option to add a dedicated Staging environment for an additional charge.
 
 Having a dedicated Staging environment allows you to perform activities such as testing service upgrades and running performance tests in a separate environment without impacting your Production environment. You can also upsize your Staging environment independently as needed.
 
@@ -25,7 +25,6 @@ After we move your Staging environment to the dedicated infrastructure, the URLs
 
 ![cloud_project-ssh-three-node-access.jpg](assets/cloud_project-ssh-three-node-access.jpg)
 
-
 ## Will there be any changes to my existing workflow?
 
 If you use a direct URL to connect to the shared Staging environment using SSH, you must replace the existing URL with the SSH access URL for the new dedicated Staging environment. See [SSH to an environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) in our developer documentation.
@@ -42,7 +41,7 @@ None. The Adobe Commerce infrastructure team will initiate and complete the migr
 
 The upgrade to the Dedicated Staging environment does create a new AWS instance that has new IP addresses and access points. This will potentially require you to update any dependencies for external systems or integrations. We recommend that you check these items following the upgrade.
 
-If you run into any issues after the upgrade, [submit a Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+If you run into any issues after the upgrade, [submit an Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
 ## What should I expect during the migration?
 
