@@ -1,6 +1,6 @@
 ---
 title: "MDVA-38827: Order shipment email error"
-labels: MQP patches,Magento Quality Patches,MQP,MQP 1.1.0,Magento Commerce 2.4.4,Magento Commerce,Adobe Commerce 2.4.4,error message,Adobe Commerce on our cloud architecture,Adobe Commerce on-premise,order shipment,Adobe Commerce on our cloud architecture 2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1
+labels: MQP patches,Magento Quality Patches,MQP,MQP 1.1.0,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premise,order shipment,cloud architecture
 ---
 
 The MDVA-38827 Adobe Commerce patch fixes the issue where customers receive an order shipment email containing an error message. This patch is available when the Magento Quality Patch (MQP) tool 1.1.0 is installed. The patch ID is MDVA-38827. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4. 
