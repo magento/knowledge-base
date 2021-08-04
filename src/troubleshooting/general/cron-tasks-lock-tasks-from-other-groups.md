@@ -34,7 +34,11 @@ Previously, in Adobe Commerce on our cloud architecture environment, the Jenkins
 
 To check if the self-managed cron is enabled, run the `crontab -l` command and observe the result:
 
-* Self-managed cron is enabled, if you are able to see the tasks, like the following:    ```bash    username@hostname:~$ crontab -l    # Crontab is managed by the system, attempts to edit it directly will fail.    SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun    ```    
+* Self-managed cron is enabled, if you are able to see the tasks, like the following:   
+    ```bash
+    username@hostname:~$ crontab -l    # Crontab is managed by the system, attempts to edit it directly will fail.    
+    SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun    
+    ```    
 * The self-managed cron is not enabled if you are not able to see the tasks and get the *"you are not allowed to use this program"* error message.
 
 >![info]
