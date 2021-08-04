@@ -10,10 +10,10 @@ body:
       value: |
         Thanks for taking the time to report an issue!
   - type: input
-      attributes: 
-        label: Article URL
-        description: Help Center or GH URL
-      validations:
+    attributes: 
+      label: Article URL
+      description: Help Center or GH URL
+    validations:
         required: False
   - type: textarea
     id: Description
