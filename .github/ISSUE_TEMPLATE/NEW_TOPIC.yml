@@ -27,13 +27,13 @@ body:
     attributes:
       label: Content checklist
       description: List specific information or details to include in this topic
-      value: 
-      - * The topic provides troubleshooting/best practice for ____.
-      - * Information in this topic is relevant for
-      - * Magento Commerce version  ____.
-      - * Magento Commerce Cloud version  ____.
-      - * Magento Open Source version  ____.
-      - * Extension or technology (Fastly, New Relic etc) version   ____.
+      value: |
+        * The topic provides troubleshooting/best practice for ____.
+        * Information in this topic is relevant for
+        * Magento Commerce version  ____.
+        * Magento Commerce Cloud version  ____.
+        * Magento Open Source version  ____.
+        * Extension or technology (Fastly, New Relic etc) version   ____.
     validations:
       required: True
   - type: textarea
