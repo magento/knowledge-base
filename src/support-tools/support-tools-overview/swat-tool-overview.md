@@ -1,5 +1,5 @@
 ---
-title: Site-Wide Analysis Tool by Adobe: overview
+title: "Site-Wide Analysis Tool by Adobe: overview"
 labels: support tools,swat,Site-Wide Analysis Tool,Adobe Commerce,cloud architecture
 ---
 
