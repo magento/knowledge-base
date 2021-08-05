@@ -1,0 +1,57 @@
+name: Bug Report
+description: Report a bug or missing content on article.
+labels: [bug, triage]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue!
+  - type: input
+    attributes: 
+      label: Article URL
+      description: Help Center/GH URL or filepath.
+    validations:
+        required: True
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: Please give us a description of the issue.
+      placeholder: ex. Missing information in article. Page not displaying properly.
+    validations:
+      required: True
+  - type: textarea
+    attributes:
+      label: Content checklist
+      description: List specific information or details to include in this topic
+      value: |
+        * The topic provides troubleshooting/best practice for ____.
+        * Information in this topic is relevant for
+        * Magento Commerce version  ____.
+        * Magento Commerce Cloud version  ____.
+        * Magento Open Source version  ____.
+        * Extension or technology (Fastly, New Relic etc) version   ____.
+    validations:
+      required: True
+  - type: textarea
+    id: additionalinfo
+    attributes:
+      label: Additional information/resources
+      description: Any information you already know or other online resources that cover this topic
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: Before submitting this issue, please make sure you are complying with our Code of Conduct [https://github.com/magento/devdocs/blob/master/.github/CODE_OF_CONDUCT.md]
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true  
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this issue!
+        GitHub Issues should only be created for problems/topics related to this project's codebase.
+        Issues that do not comply with our Code of Conduct or do not contain enough information may be closed at the maintainers' discretion.
