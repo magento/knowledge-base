@@ -1,6 +1,6 @@
 ---
 title: Observation for Adobe Commerce overview
-labels: support tools,Observation,Adobe Commerce,cloud architecture
+labels: support tools,Observation,Adobe Commerce,cloud architecture,Magento
 ---
 
 Observation for Adobe Commerce is a New Relic nerdlet to see the state of your Adobe Commerce site, current or past time views. A nerdlet is a custom application built with New Relic One programmability.
