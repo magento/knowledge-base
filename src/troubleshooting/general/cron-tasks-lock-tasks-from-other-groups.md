@@ -28,10 +28,10 @@ Previously, in Adobe Commerce on our cloud architecture environment, the Jenkins
 
 1. Contact [Adobe Commerce support](https://support.magento.com/hc/en-us/articles/360019088251) to have self-managed crons enabled.
 1. Edit the `.magento.app.yaml` file in the root directory of the Magento code in the Git branch. Add the following:    
-```yaml    crons:        
-cronrun:  spec: "* * * * *"            
-cmd: "php bin/magento cron:run"    
-```    
+  ```yaml    crons:        
+  cronrun:  spec: "* * * * *"            
+  cmd: "php bin/magento cron:run"    
+  ```    
 1. Save the file and push updates to the Staging and Production environments (the same way you do it for Integration environments).
 
 >![info]
