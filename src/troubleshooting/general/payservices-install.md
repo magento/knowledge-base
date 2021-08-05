@@ -3,7 +3,7 @@ title: Troubleshoot Payment Services installation
 labels: troubleshooting
 ---
 
-This article explains some errors you may experience while installing Payment Services, and provides solutions to fix those errors so that you can complete installation.
+This article explains errors you may experience while installing Payment Services, and provides solutions to fix those errors so that you can complete installation.
 
 ## Affected products and versions
 
@@ -18,8 +18,8 @@ When installing the Payment Services extension, you may see an error message sta
 
 <u>Steps to reproduce</u>:
 
-1. You attempt to [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html).
-1. You see the following error:
+1. Attempt to [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html).
+1. See the following error:
 
    ``` terminal
    Could not find a matching version of package magento/payment-services. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -41,12 +41,12 @@ Verify that [your Composer keys are linked to the Magento ID](https://devdocs-be
 
 ## Issue - Not enough memory for PHP
 
-When installing the Payment Services extension, you may see an error message stating that you used do not have enough memory for PHP.
+When installing the Payment Services extension, you may see an error message stating that you do not have enough memory for PHP.
 
 <u>Steps to reproduce</u>:
 
-1. You attempt to [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html).
-1. You see the following error, or similar:
+1. Attempt to [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html).
+1. See the following error, or similar:
 
    ``` terminal
    Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
