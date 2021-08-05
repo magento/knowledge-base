@@ -1,6 +1,6 @@
 ---
 title: Cron tasks lock tasks from other groups
-labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting,Adobe Commerce,cloud
+labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting,Adobe Commerce,cloud architecture
 ---
 
 This article provides a solution for the Adobe Commerce on our cloud architecture issue related to certain long-run cron jobs blocking other cron jobs.
@@ -27,14 +27,26 @@ Previously, in Adobe Commerce on our cloud architecture environment, the Jenkins
 ## Solution
 
 1. Contact [Adobe Commerce support](https://support.magento.com/hc/en-us/articles/360019088251) to have self-managed crons enabled.
-1. Edit the `.magento.app.yaml` file in the root directory of the Magento code in the Git branch. Add the following:    ```yaml    crons:        cronrun:            spec: "* * * * *"            cmd: "php bin/magento cron:run"    ```    Please note, there’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular Magento’s `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.    
+1. Edit the `.magento.app.yaml` file in the root directory of the Magento code in the Git branch. Add the following:    
+```yaml    crons:        
+cronrun:  spec: "* * * * *"            
+cmd: "php bin/magento cron:run"    
+```    
 1. Save the file and push updates to the Staging and Production environments (the same way you do it for Integration environments).
+
+>![info]
+>
+>Note: There’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular Magento’s `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
 
 ### Check if you have self-managed cron enabled (only for Cloud Pro Staging and Production)
 
 To check if the self-managed cron is enabled, run the `crontab -l` command and observe the result:
 
-* Self-managed cron is enabled, if you are able to see the tasks, like the following:    ```bash    username@hostname:~$ crontab -l    # Crontab is managed by the system, attempts to edit it directly will fail.    SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun    ```    
+* Self-managed cron is enabled, if you are able to see the tasks, like the following:
+ ```bash
+  username@hostname:~$ crontab -l    # Crontab is managed by the system, attempts to edit it directly will fail.    
+  SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun    
+ ```
 * The self-managed cron is not enabled if you are not able to see the tasks and get the *"you are not allowed to use this program"* error message.
 
 >![info]
