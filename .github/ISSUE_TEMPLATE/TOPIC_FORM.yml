@@ -1,5 +1,5 @@
-name: New topic
-description: Create a request to add missing information to Support KB or report a bug.
+name: Bug Report
+description: Report a bug or missing content on article.
 labels: [bug, triage]
 assignees:
   - octocat
@@ -11,9 +11,9 @@ body:
   - type: input
     attributes: 
       label: Article URL
-      description: Help Center or GH URL
+      description: Help Center/GH URL or filepath.
     validations:
-        required: False
+        required: True
   - type: textarea
     id: Description
     attributes:
