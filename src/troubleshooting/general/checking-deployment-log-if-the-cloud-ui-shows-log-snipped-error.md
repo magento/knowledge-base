@@ -19,7 +19,7 @@ When trying to view deployment log, Cloud UI shows the error message: *log snipp
 
 ## Cause
 
-Note that the log shown in the Cloud UI shouldn't be treated as the source of truth, especially if you find that the site isn't responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server - refer to [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html) in our developer documentation.
+Note that the log shown in the Cloud UI should not be treated as the source of truth, especially if you find that the site is not responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server - refer to [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html) in our developer documentation.
 
 ## Solution
 
