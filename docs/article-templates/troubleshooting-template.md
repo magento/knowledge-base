@@ -3,10 +3,10 @@ title: ...
 labels: troubleshooting,...
 ---
 
-<u>Title</u>: Title should briefly describe the issue, maximum 70 characters is preferred.<br/>
+Title should briefly describe the issue, maximum 70 characters is preferred.<br/>
 (Example: "Out of memory error during install or upgrade".)
 
-<u>Intro</u>: Intro paragraph or two paragraphs: a brief overview of issue. The first 140 characters are important for SEO purposes.
+Intro paragraph or two paragraphs: a brief overview of issue. The first 140 characters are important for SEO purposes.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ Remove any specific project IDs or customer information from errors and logs! Al
 
 If the issue occurs in a very specific situation, provide detailed steps to reproduce, expected result and actual result in the following format:
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 Prerequisites: ... (if any).
 
@@ -31,10 +31,12 @@ Prerequisites: ... (if any).
 1. Second step.
 1. ....
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
+
 Magento does this.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
+
 Magento does that.
 
 ## Cause
