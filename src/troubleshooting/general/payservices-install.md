@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot Payment Services installation
-labels: troubleshooting
+labels: troubleshooting,Adobe Commerce,Magento Commerce,Composer,Payment Services,memory,PHP,install,extension,2.4.2-p1
 ---
 
 This article explains errors you may experience while installing Payment Services, and provides solutions to fix those errors so that you can complete installation.
@@ -8,7 +8,7 @@ This article explains errors you may experience while installing Payment Service
 ## Affected products and versions
 
 * Adobe Commerce (on-premise) 2.4.2-p1
-* Adobe Commerce Cloud 2.4.2-p1
+* Adobe Commerce on our cloud architecture 2.4.2-p1
 * Magento Open Source 2.4.2-p1
 * Payment Services for Adobe Commerce and Magento Open Source, Early Access Program (EAP)
 
@@ -16,20 +16,20 @@ This article explains errors you may experience while installing Payment Service
 
 When installing the Payment Services extension, you may see an error message stating that you used incorrect Composer keys during installation.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Attempt to [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html).
 1. See the following error:
 
-   ``` terminal
-   Could not find a matching version of package magento/payment-services. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
-   ```
+   *Could not find a matching version of package magento/payment-services. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).*
 
-<u>Expected result</u>:
-You can follow [installation instructions](https://devdocs-beta.magento.com/payment-services/install-payments.html) to successfully install Payment Services.
+<ins>Expected result</ins>:
 
-<u>Actual result</u>:
-During installation, you see an error message stating that you did not used the correct Composer keys during installation.
+You can follow these [installation instructions](https://devdocs-beta.magento.com/payment-services/install-payments.html) in our developer documentation to successfully install Payment Services.
+
+<ins>Actual result</ins>:
+
+During installation, you see an error message stating that you did not use the correct Composer keys during installation.
 
 ### Cause
 
@@ -48,14 +48,14 @@ When installing the Payment Services extension, you may see an error message sta
 1. Attempt to [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html).
 1. See the following error, or similar:
 
-   ``` terminal
-   Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
-   ```
+   *Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52*
 
 <u>Expected result</u>:
-You can follow [installation instructions](https://devdocs-beta.magento.com/payment-services/install-payments.html) to successfully install Payment Services.
+
+You can follow these [installation instructions](https://devdocs-beta.magento.com/payment-services/install-payments.html) in our developer documentation to successfully install Payment Services.
 
 <u>Actual result</u>:
+
 During installation, you see an error message stating that you do not have enough memory for PHP.
 
 ### Cause
