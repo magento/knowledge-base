@@ -48,5 +48,5 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 
 ## Related reading
 
-* Developer documentation [Adobe Commerce on our cloud architecture > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
-* Developer documentation [Adobe Commerce on our cloud architecture > View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html)
+* Developer documentation: [Adobe Commerce on our cloud architecture > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
+* Developer documentation: [Adobe Commerce on our cloud architecture > View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html)
