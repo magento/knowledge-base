@@ -1,18 +1,18 @@
 ---
 title: Checking deployment log if Cloud UI has "log snipped" error
-labels: troubleshooting,deployment log error,Magento Commerce Cloud,Adobe Commerce,log snipped,Cloud UI,manage log,
+labels: troubleshooting,deployment log, error,Magento Commerce Cloud,Adobe Commerce,cloud architecture,log snipped,Cloud UI,manage log,
 ---
 
 This article provides a solution for the issue where the Cloud UI shows the error message: *log snipped because it was too long* when trying to view deployment log.
 
 ## Affected products
-Magento Commerce Cloud, all versions
+Adobe Commerce on our cloud architecture (all versions)
 
 ## Issue
 
 When trying to view deployment log, Cloud UI shows the error message: *log snipped because it was too long*.
 
-Steps to reproduce:  
+## Steps to reproduce:  
 
 1. Go to the Project URL and click on the **Status** of the deployment in question.  
 1. If the log is too long to be displayed in the UI, it will show the error message: *log snipped because it was too long*.
@@ -23,7 +23,7 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 
 ## Solution
 
-1. Make sure that you have the DevDocs [Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) installed in your local environment.
+1. Make sure that you have the Developer Documentation's [Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) installed in your local environment.
 1. Run the following command:
     ```bash
     magento-cloud activity -p <project id> -e <environment>
@@ -48,5 +48,5 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 
 ## Related reading
 
-* DevDocs [Magento Commerce Cloud > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
-* DevDocs [View and Manage Logs](https://devdocs.magento.com/cloud/project/log-locations.html)
+* Developer Documentation [Magento Commerce Cloud > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
+* Developer Documentation [View and Manage Logs](https://devdocs.magento.com/cloud/project/log-locations.html)
