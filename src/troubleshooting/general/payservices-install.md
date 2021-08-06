@@ -43,18 +43,18 @@ Verify that [your Composer keys are linked to the Magento ID](https://devdocs-be
 
 When installing the Payment Services extension, you may see an error message stating that you do not have enough memory for PHP.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Attempt to [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html).
 1. See the following error, or similar:
 
    *Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52*
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 You can follow these [installation instructions](https://devdocs-beta.magento.com/payment-services/install-payments.html) in our developer documentation to successfully install Payment Services.
 
-<u>Actual result</u>:
+<ins>Actual result</ins:
 
 During installation, you see an error message stating that you do not have enough memory for PHP.
 
