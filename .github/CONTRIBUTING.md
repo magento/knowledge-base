@@ -103,7 +103,7 @@ If you add images to your articles, please follow this convention to name your i
 * Words should be separated by hyphen "-", not underscore "_".
 * Use existing naming patterns. Check the existing file names under /assets folders as an example.
 
-<h3 id="metadata"> Metadata
+<h3 id="metadata"> Metadata </h3>
 
 The Markdown (`.md`) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
 
