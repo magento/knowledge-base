@@ -6,11 +6,9 @@ labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,h
 >![warning]
 >
 >For scaled architecture (split architecture), Redis slave connections **SHOULD NOT** be enabled. You can check if you are on scaled architecture by doing the following:
-
 1. Go to your project URL, e.g. https://us.magento.cloud/projects<project ID>/environments/production
 1. Click on the Access site. If there are more than three nodes shown under SSH access you are on scaled architecture.
-
-  If you enable Redis Slave Reads on scaled architecture the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Magento 2.3.5 or later and implement new Redis back end configuration and implement L2 caching for Redis.
+If you enable Redis Slave Reads on scaled architecture the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Magento 2.3.5 or later and implement new Redis back end configuration and implement L2 caching for Redis.
 
 This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Magento Commerce Cloud.
 
@@ -59,7 +57,7 @@ Below are the common questions you may ask when you consider using the Slave Con
 * Is there any known issues or limitation to use Slave Connections? **We do not have any known issues from using Slave Connections. Just make sure you are using the most recently updated ece-tools package. Instructions are here on [how to update your ece-tools package](https://devdocs.magento.com/cloud/project/ece-tools-update.html).**
 * Is there any extra latency by using Slave Connections? *Yes, cross-AZ (cross-Availability Zones) latency is higher and reduces performance of a Magento Commerce Cloud instance in the case if the instance is not overloaded and can carry the whole load. But clearly if the instance is overloaded – master-slave will help with performance by spreading out the load on the MySQL Database or Redis across different nodes.*
 
-    **On not-overloaded clusters** – Slave Connections **will slow down performance by 10-15%**, which is one of the reasons it’s not default.
+    **On not-overloaded clusters** – **Slave Connections will slow down performance by 10-15%**, which is one of the reasons it is not default.
 
     *But on overloaded clusters, there is a performance boost because these 10-15% are mitigated by reducing load by traffic.*
 * Should I enable these settings for my store? *If you have high load or expect high load on the MySQL Database or Redis, you definitely need to enable Slave Connections. For a regular customer with average traffic, this is **not** an optimal setting to be enabled.*
