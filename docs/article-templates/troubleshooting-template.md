@@ -6,7 +6,7 @@ labels: troubleshooting,...
 Title should briefly describe the issue, maximum 70 characters is preferred.<br/>
 (Example: "Out of memory error during install or upgrade".)
 
-See [Contributing > Metadate](https://github.com/magento-commerce/knowledge-base/blob/main/.github/CONTRIBUTING.md#-metadatathe-markdown-md-files-metadata-is-a-set-of-yaml-key-value-pairs-the-metadata-section-is-located-at-the-top-of-each-file-non-ascii-characters-are-not-allowed-in-metadata---titlelabels---key-value-pair-referencepropertydescriptiontitledefines-the-article-title-if-using-any-yaml-special-characters-in-title-please-enclose-it-in-quotes-labelscontains-labels-that-will-be-added-to-the-article-in-magento-help-center-add-labels-to-describe-products-issues-products-versions-section-and-category-if-in-doubt-dont-add-labels) for additional information on metadata.
+See [Contributing > Metadata](../../CONTRIBUTING.md#metadata) for additional information on metadata.
 
 Intro paragraph or two paragraphs: a brief overview of issue. The first 140 characters are important for SEO purposes.
 
