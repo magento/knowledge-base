@@ -54,7 +54,7 @@ When installing the Payment Services extension, you may see an error message sta
 
 You can follow these [installation instructions](https://devdocs-beta.magento.com/payment-services/install-payments.html) in our developer documentation to successfully install Payment Services.
 
-<ins>Actual result</ins:
+<ins>Actual result</ins>:
 
 During installation, you see an error message stating that you do not have enough memory for PHP.
 
