@@ -12,7 +12,7 @@ Adobe Commerce on our cloud architecture (all versions)
 
 When trying to view deployment log, Cloud UI shows the error message: *log snipped because it was too long*.
 
-## Steps to reproduce:  
+## Steps to reproduce
 
 1. Go to the Project URL and click on the **Status** of the deployment in question.  
 1. If the log is too long to be displayed in the UI, it will show the error message: *log snipped because it was too long*.
