@@ -190,10 +190,3 @@ Info note block:
 >
 >This is a block with additional info
 ```
-
-Error note block:
-```
->![error]
->
->This is a block with additional info
-```
