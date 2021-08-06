@@ -19,11 +19,11 @@ When trying to view deployment log, Cloud UI shows the error message: *log snipp
 
 ## Cause
 
-Note that the log shown in the Cloud UI shouldn't be treated as the source of truth, especially if you find that the site isn't responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server - refer to DevDocs [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html).
+Note that the log shown in the Cloud UI shouldn't be treated as the source of truth, especially if you find that the site isn't responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server - refer to developer documentation [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html).
 
 ## Solution
 
-1. Make sure that you have the Developer Documentation's [Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) installed in your local environment.
+1. Make sure that you have the developer documentation's [Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) installed in your local environment.
 1. Run the following command:
     ```bash
     magento-cloud activity -p <project id> -e <environment>
@@ -48,5 +48,5 @@ Note that the log shown in the Cloud UI shouldn't be treated as the source of tr
 
 ## Related reading
 
-* Developer Documentation [Magento Commerce Cloud > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
-* Developer Documentation [View and Manage Logs](https://devdocs.magento.com/cloud/project/log-locations.html)
+* Developer documentation [Adobe Commerce on our cloud architecture> Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
+* Developer documentation [View and Manage Logs](https://devdocs.magento.com/cloud/project/log-locations.html)
