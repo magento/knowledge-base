@@ -1,18 +1,18 @@
 ---
-title: "MDVA-38799: Downloadable products not saved after creating a staging update"
-labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.1.0,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud architecture,Magento,downloadable products,staging,update,error,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
+title: "MDVA-36021: Call to a member function getId () error is displayed on the order details page in the Admin"
+labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud architecture,Magento,
 ---
-The MDVA-38799 Adobe Commerce patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
+The MDVA-36021 patch for Adobe Commerce solves the issue when users get the error message: *Call to a member function getId ()*. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is The MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* 
+* Adobe Commerce on our cloud architecture 2.4.1, 2.4.2
 
 **Compatible with Adobe Commerce versions:**
 
-*
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.2-p1
 
 >![info]
 >
@@ -20,17 +20,24 @@ The MDVA-38799 Adobe Commerce patch solves the issue where downloadable products
 
 ## Issue
 
+*Call to a member function getId ()* error is displayed on the order details page in the Admin.
+
 <ins>Prerequisites</ins>:
+
+The system should have tax settings and the order with specific tax rates.
 
 <ins>Steps to reproduce</ins>:
 
-1.
+1. Log in to Commerce Admin.
+1. Go to **Sales** > **Orders** > **Open Order**
 
 <ins>Expected results</ins>:
 
+Order is opened without any error.
 
 <ins>Actual results</ins>:
 
+You get an error similar to the following: *report.CRITICAL: Error: Call to a member function getId() on array in /magento2ce/app/code/Magento/Sales/view/adminhtml/templates/order/totals/tax.phtml:62*.
 
 ## Apply the patch
 
