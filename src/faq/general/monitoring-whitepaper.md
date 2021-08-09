@@ -1,5 +1,5 @@
 ---
-title: Monitoring Whitepaper for Adobe Commerce on cloud infrastructure
+title: Monitoring Whitepaper for Adobe Commerce on cloud our infrastructure
 labels: FAQ,Adobe Commerce, cloud infrastructure,Magento,monitoring
 ---
 
