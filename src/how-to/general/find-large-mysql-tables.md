@@ -1,6 +1,6 @@
 ---
 title: Find large MySQL tables
-labels: Magento,Magento Commerce Cloud,MySQL,database,how to,tables
+labels: Magento,Magento Commerce Cloud,MySQL,database,how to,tables,Adobe Commerce
 ---
 
 To identify the large tables, connect to the database as described in the [Connect to the database](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) article, and run the following command, where `project_id` is your Cloud project ID:
