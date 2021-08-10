@@ -65,4 +65,4 @@ In this case you might refer to [Site Down Troubleshooter](https://support.magen
 1. Run the following query to delete the invalid link to the `staging_update` table:    ```sql    DELETE FROM flag WHERE flag_code = 'staging';    ```    
 1. Wait for the cron job to be run (runs in up to 5 minutes if set up properly) or run it manually if you do not have cron set up.
 
-The problem should be solved straight after fixing the invalid link. If the problem persists, [submit a support ticket.](https://support.magento.com/hc/en-us/articles/360019088251) .
+The problem should be solved straight after fixing the invalid link. If the problem persists, [submit a support ticket.](https://support.magento.com/hc/en-us/articles/360019088251).
