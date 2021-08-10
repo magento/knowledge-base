@@ -1,13 +1,14 @@
 ---
-title: Web API unable to process message with more than 20 items in array
+title: Web API unable to process requests with more than 20 items in array
 labels: 2.4.3,API,rate limit,Adobe Commerce,Magento,troubleshooting
 ---
 
-This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in array.
+This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in array for Adobe Commerce 2.4.3.
 
 ## Affected products and versions:
 
 * Adobe Commerce 2.4.3
+* Magento Open Source 2.4.3
 
 ## Issue
 
@@ -24,4 +25,21 @@ By default, the following built-in API rate limiting is available:
 
 ## Solution
 
-If the default limits impact your store business flow, you can customize the default limits programmatically using [class constructor arguments](https://devdocs-beta.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html) as described in developer documentation: [API security > Rate limiting > Maximum parameter inputs](https://devdocs-beta.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+To disable the input limits on the REST API request, apply the patch provided in this article.  
+
+### Compatible Adobe Commerce versions
+
+* Adobe Commerce on our cloud infrastucture 2.4.3
+* Adobe Commerce on-premise 2.4.3
+
+### How to apply the patch
+
+Unzip the downloaded `.zip` file and apply the patch as described in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731). 
+
+>![warning]
+>
+>If you suspect that your store is experiencing a DoS attack, Adobe recommends lowering the default input limits to a lower value to impose restriction on the >number of resources that can be requested.  You can customize the default limits programmatically using [class constructor arguments](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
+>as described in developer documentation: [API security > Rate limiting > Maximum parameter inputs](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+
+
+
