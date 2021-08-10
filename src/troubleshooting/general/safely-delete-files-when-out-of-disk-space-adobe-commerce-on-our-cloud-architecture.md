@@ -7,7 +7,7 @@ This article provides a solution for when you run out of disk space and need to 
 
 ## Affected products and versions
 
-* Adobe Commerce on our Cloud Architecture:
+* Adobe Commerce on our cloud infrastructure:
   2.3.0-2.3.7, 2.4.0-2.4.2-p1 
 * This is specific to dedicated Pro clusters. Starter and Integration environments are single node, and do not have the `/data/exports` directory.
 
