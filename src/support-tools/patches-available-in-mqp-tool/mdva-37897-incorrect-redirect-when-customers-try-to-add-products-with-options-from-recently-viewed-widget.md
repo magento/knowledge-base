@@ -17,11 +17,11 @@ The MDVA-37897 Adobe Commerce patch solves the issue where incorrect redirect oc
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new quality patches for Adobe Commerce tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+>Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
-When users try to add a product from Recently Viewed Section and it has required options to select, they are redirected to product listing page instead of product details page.
+When a user tries to add a product from Recently Viewed Section which has required options to select, user is redirected to product listing page instead of product details page.
 
 <ins>Steps to reproduce</ins>:
 
