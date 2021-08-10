@@ -32,4 +32,4 @@ Merchants can delete files from the application's mount points and through `/mnt
 * [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554)
 * [Check disk space on Cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713)
 * [Low disk space](https://support.magento.com/hc/en-us/articles/360037072592)
-* [Check disk space limit for Adobe Commerce on our Cloud Architecture](https://support.magento.com/hc/en-us/articles/360038374052)
+* [Check disk space limit for Adobe Commerce on our cloud infrastructure](https://support.magento.com/hc/en-us/articles/360038374052)
