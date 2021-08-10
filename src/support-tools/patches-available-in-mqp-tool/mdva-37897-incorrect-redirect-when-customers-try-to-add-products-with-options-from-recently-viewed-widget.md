@@ -25,14 +25,14 @@ When a user tries to add a product from Recently Viewed Section which has requir
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a simple product with customizable options (Type: Radio Button)
+1. Create a simple product with customizable options (Type: Radio Button).
 1. Configure the Recently Viewed widget to show products.
 1. Visit products that have customizable options so they can show up in the Recently Viewed widget.
-1. Click on Add to Cart for one of the products in the Recently Viewed widget.
+1. Click **Add to Cart** for one of the products in the Recently Viewed widget.
 
 <ins>Expected results</ins>:
 
-You are redirected to PDP to choose the options.
+You are redirected to product details page to choose the options.
 
 <ins>Actual results</ins>:
 
@@ -47,7 +47,7 @@ To apply individual patches use the following links depending on your deployment
 
 ## Related reading
 
-To learn more about Magento Quality Patches, refer to:
+To learn more about quality patches for Adobe Commerce, refer to:
 
 * [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
 * [Check if patch is available for your Adobe Commerce issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252).
