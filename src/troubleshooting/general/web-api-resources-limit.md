@@ -24,4 +24,4 @@ By default, the following built-in API rate limiting is available:
 
 ## Solution
 
-Customize the default limits programmatically using [class constructor arguments](https://devdocs-beta.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html) as described in developer documentation: [API security > Rate limiting > Maximum parameter inputs](https://devdocs-beta.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+If the default limits impact your store business flow, you can customize the default limits programmatically using [class constructor arguments](https://devdocs-beta.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html) as described in developer documentation: [API security > Rate limiting > Maximum parameter inputs](https://devdocs-beta.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
