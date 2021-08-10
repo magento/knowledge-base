@@ -3,13 +3,13 @@ title: "MDVA-37897: Incorrect redirect when adding products from Recently Viewed
 labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud architecture,Magento,incorrect redirect,Recently Viewed,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-37897 patch for Adobe Commerce solves the issue where incorrect redirect occurs when customer try to add products with options from the Recently Viewed widget. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is The MDVA-37897. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
+The MDVA-37897 Adobe Commerce patch solves the issue where incorrect redirect occurs when users try to add products with options from the Recently Viewed widget. This patch is available when the [quality patches for Adobe Commerce tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is The MDVA-37897. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce on our cloud architecture  2.4.1
+* Adobe Commerce on our cloud infrastructure 2.4.1
 
 **Compatible with Adobe Commerce versions:**
 
@@ -17,11 +17,11 @@ The MDVA-37897 patch for Adobe Commerce solves the issue where incorrect redirec
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+>Note: the patch might become applicable to other versions with new quality patches for Adobe Commerce tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
-When customer tries to add product from Recently Viewed Section and it has required options to select then its just landing on product listing page instead of product details page.
+When users try to add a product from Recently Viewed Section and it has required options to select, they are redirected to product listing page instead of product details page.
 
 <ins>Steps to reproduce</ins>:
 
