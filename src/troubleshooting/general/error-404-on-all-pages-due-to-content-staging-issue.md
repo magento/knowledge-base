@@ -46,15 +46,17 @@ At the same time, the issue might not occur if a deleted asset has no end date f
 
 To identify, if the issue you are experiencing is the one described in this article, run the following DB query:
 
-<pre>SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';</pre>
+```sql
+   SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';
+```
 
 If the query returns a table where `update_exists` value is "0", then an invalid link to the `staging_update` table exists in your database and the steps described in the [Solution section](#solution) will help to solve the issue. The following is an example of the query result with `update_exists` value equal to "0":
 
-![issue_exists.png](assets/issue_exists.png)
+![update_exists_0.png](assets/update_exists_0.png)
 
 If the query returns a table where `update_exists` value is "1" or an empty result, it means your issue is not related to staging updates. The following is an example of the query result with `update_exists` value equal to "1":
 
-![issue_is_different.png](assets/issue_is_different.png)
+![updates_exist_1.png](assets/updates_exist_1.png)
 
 In this case you might refer to [Site Down Troubleshooter](https://support.magento.com/hc/en-us/articles/360029351531) for troubleshooting ideas.
 
