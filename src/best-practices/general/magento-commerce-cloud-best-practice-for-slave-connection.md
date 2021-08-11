@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce on cloud architecture best practice for slave connection
+title: Adobe Commerce on cloud architecture best practice for MySQL slave connection
 labels: Magento Commerce Cloud,MySQL,best practices,database,slave connection,Adobe Commerce,cloud architecture
 ---
 
