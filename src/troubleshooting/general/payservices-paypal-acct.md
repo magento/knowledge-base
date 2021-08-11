@@ -14,13 +14,13 @@ This article explains why your PayPal sandbox account for Payment Services may n
 
 ## Issue
 
-Our [onboarding documentation](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html) instructs you to sign up for a PayPal account, log into the PayPal Developers account, and then create a sandbox account. If you create a sandbox account *before* signing up for a PayPal account, PayPal will not be able to verify your sandbox account and you will be unable to complete onboarding.
+Our [onboarding documentation](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html) instructs you to sign up for a PayPal account, log into the PayPal Developers account, and then create a sandbox account. If you select to create a new account during onboarding in the PayPal onboarding popup window, PayPal will not be able to verify your sandbox account and you will be unable to complete onboarding.
 
 <u>Steps to reproduce</u>:
 
 1. You [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html) and [configure your Commerce Services](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#configure-commerce-services).
-1. You navigate to Payment Services in the Admin and start sandbox onboarding.
-1. In the PayPal onboarding popup that appears, you create a new Business account (instead of [logging in to your existing PayPal account](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#enable-sandbox-testing).
+1. You navigate to Payment Services in the Admin and [start sandbox onboarding](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#enable-sandbox-testing).
+1. In the PayPal onboarding popup that appears, you create a new Business account (instead of [logging in to your existing PayPal account](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#enable-sandbox-testing)).
 1. You successfully complete PayPal onboarding.
 1. You see a notification in the Admin that your sandbox payments are pending and that you must confirm your email address with PayPal to complete onboarding.
 
