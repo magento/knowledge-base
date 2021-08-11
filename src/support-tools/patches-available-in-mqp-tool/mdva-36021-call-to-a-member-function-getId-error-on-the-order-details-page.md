@@ -34,7 +34,7 @@ The system should have tax settings and orders with specific tax rates.
 
 <ins>Expected results</ins>:
 
-Order is opened without any error.
+The order is opened without any error.
 
 <ins>Actual results</ins>:
 
