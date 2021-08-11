@@ -1,18 +1,18 @@
 ---
 title: Cron tasks lock tasks from other groups
-labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting,Adobe Commerce,cloud architecture
+labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a solution for the Adobe Commerce on our cloud architecture issue related to certain long-run cron jobs blocking other cron jobs.
+This article provides a solution for the Adobe Commerce on our cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
 
 ## Affected products and versions
 
-* Adobe Commerce on our cloud pro architecture
+* Adobe Commerce on our cloud pro infrastructure
 * Onboard earlier than May 2019
 
 ## Issue
 
-On Adobe Commerce on our cloud architecture, when you have complex cron tasks (long-run tasks), they might lock other tasks for execution. For example, the indexers task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default cron jobs like sending emails, generating sitemaps, customer notifications, and other custom tasks.
+On Adobe Commerce for cloud, when you have complex cron tasks (long-run tasks), they might lock other tasks for execution. For example, the indexers task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default cron jobs like sending emails, generating sitemaps, customer notifications, and other custom tasks.
 
 <ins>Symptoms</ins>:
 
@@ -22,7 +22,7 @@ When you open the `cron_schedule` database table, you see the jobs with `missed`
 
 ## Cause
 
-Previously, in Adobe Commerce on our cloud architecture environment, the Jenkins server was used to run cron jobs. Jenkins will only run one instance of a job at a time; consequently, there will only be one `bin/magento cron:run` process running at a time.
+Previously, in Adobe Commerce for cloud environment, the Jenkins server was used to run cron jobs. Jenkins will only run one instance of a job at a time; consequently, there will only be one `bin/magento cron:run` process running at a time.
 
 ## Solution
 
