@@ -2,7 +2,7 @@
 title: "MDVA-34948: Slowing of website"
 labels: MQP patches,Magento Quality Patches,Support Tools,MQP 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud infrastructure,2.4.1,2.4.0-p1,2.3.6,2.3.6-p1
 ---
-The MDVA-34948 Adobe Commerce patch fixes the issue of slowing of the website. This patch is available when the [quality patches for Adobe Commerce (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is MDVA-34948. Please note that the issue is fixed in Adobe Commerce version 2.4.1.
+The MDVA-34948 Adobe Commerce patch fixes the issue of slowing of the website. This patch is available when the [quality patches for Adobe Commerce (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is MDVA-34948. Please note that the issue  is scheduled to be fixed in Adobe Commerce version 2.4.1.
 
 ## Affected products and versions
 
