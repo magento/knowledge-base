@@ -7,7 +7,7 @@ labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,h
 >
 >For scaled architecture (split architecture), Redis slave connections **SHOULD NOT** be enabled. You can check if you are on scaled architecture by doing the following:
 
-1. Go to your project URL, e.g. https://us.magento.cloud/projects/&lt;project ID&gt;/environments/production
+1. Go to your project URL, e.g. https:&#8203;//us.magento.cloud/projects/&lt;project ID&gt;/environments/production
 1. Click on the Access site. If there are more than three nodes shown under SSH access you are on scaled architecture.
 
   If you enable Redis Slave Reads on scaled architecture the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Magento 2.3.5 or later and implement new Redis back end configuration and implement L2 caching for Redis.
