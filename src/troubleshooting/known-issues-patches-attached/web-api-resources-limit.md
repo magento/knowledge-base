@@ -47,3 +47,7 @@ Unzip the downloaded `.zip` file and apply the patch as described in [How to app
 >
 >If you suspect that your store is experiencing a DoS attack, Adobe recommends lowering the default input limits to a lower value to impose restriction on the  number of resources that can be requested.  You can customize the default limits programmatically using [class constructor arguments](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
 >as described in developer documentation: [API security > Rate limiting > Maximum parameter inputs](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+
+## Related reading
+
+[API security > Rate limiting](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) in developer documentation.
