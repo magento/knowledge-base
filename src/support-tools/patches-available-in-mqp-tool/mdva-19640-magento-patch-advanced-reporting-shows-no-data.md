@@ -3,9 +3,7 @@ title: "MDVA-19640 Magento patch: Advanced reporting shows no data"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,Advanced Reporting,MQP 1.0.20,MQP patches,Magento Commerce,Magento Commerce Cloud,empty,no data
 ---
 
-The MDVA-19640 Magento patch fixes the issue when Advanced Reporting shows no data.
-
-This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-19640. Please note that there is no current plan to fix this issue in future versions.
+The MDVA-19640 Magento patch fixes the issue when Advanced Reporting shows no data. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-19640. Please note that there is no current plan to fix this issue in future versions.
 
 ## Affected products and versions
 
