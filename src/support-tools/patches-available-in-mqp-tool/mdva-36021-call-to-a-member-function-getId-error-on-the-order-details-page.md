@@ -3,7 +3,7 @@ title: 'MDVA-36021: Users get "Call to a member function getId()" error on order
 labels: MQP patches,Magento Quality Patches,MQP,Support Tools,MQP 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud infrastructure,Magento,orders,details,error message,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,
 ---
 
-The MDVA-36021 patch for Adobe Commerce solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the [quality patch for Adobe Commerce tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is The MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
+The MDVA-36021 patch for Adobe Commerce solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the [quality patch for Adobe Commerce tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
 
 ## Affected products and versions
 
