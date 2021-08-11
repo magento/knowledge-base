@@ -1,17 +1,19 @@
 ---
 title: "MDVA-38827: Order shipment email error"
-labels: MQP patches,Magento Quality Patches,MQP,MQP 1.1.0,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premise,order shipment,cloud architecture
+labels: MQP patches,Magento Quality Patches,MQP,MQP 1.1.0,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premise,order shipment,cloud infrastructure
 ---
 
-The MDVA-38827 Adobe Commerce patch fixes the issue where customers receive an order shipment email containing an error message. This patch is available when the Magento Quality Patch (MQP) tool 1.1.0 is installed. The patch ID is MDVA-38827. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4. 
+The MDVA-38827 Adobe Commerce patch fixes the issue where customers receive an order shipment email containing an error message. This patch is available when the [quality patches for Adobe Commerce (MQP) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.0 is installed. The patch ID is MDVA-38827. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-Adobe Commerce on our cloud architecture 2.4.2-p1
+
+Adobe Commerce on our cloud infrastructure 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
-Adobe Commerce on-premise and Adobe Commerce on our cloud architecture 2.3.3-p1 – 2.4.2-p1
+
+Adobe Commerce on-premise and Adobe Commerce on our cloud infrastructure 2.3.3-p1 – 2.4.2-p1
 
 >![info]
 >
@@ -49,13 +51,13 @@ The following error message is received in the email: *"We're sorry, an error ha
 To apply individual patches, use the following links depending on your deployment type:
 
 * Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on our cloud architecture: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Cloud for Adobe Commerce: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
 
 ## Related reading
 
-To learn more about Magento Quality Patches, refer to:
+To learn more about quality patches for Adobe Commerce, refer to:
 
-* [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality patches for Adobe Commerce released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
+* [Check if patch is available for your Adobe Commerce issue using quality patches for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360047125252).
 
 For info about other patches available in MQP tool, refer to the [Patches available in MQP tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
