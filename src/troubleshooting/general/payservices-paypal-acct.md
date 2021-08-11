@@ -19,8 +19,9 @@ Our [onboarding documentation](https://docs-beta.magento.com/user-guide/payment-
 <u>Steps to reproduce</u>:
 
 1. You [install Payment Services](https://devdocs-beta.magento.com/payment-services/install-payments.html) and [configure your Commerce Services](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#configure-commerce-services).
-1. You create a sandbox account *before* creating, or logging in to an existing, PayPal account (per [our user guide documentation](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#enable-sandbox-testing)).
-1. You navigate to Payment Services in the Admin and proceed with and complete sandbox onboarding.
+1. You navigate to Payment Services in the Admin and start sandbox onboarding.
+1. In the PayPal onboarding popup that appears, you create a new Business account (instead of [logging in to your existing PayPal account](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#enable-sandbox-testing).
+1. You successfully complete PayPal onboarding.
 1. You see a notification in the Admin that your sandbox payments are pending and that you must confirm your email address with PayPal to complete onboarding.
 
    You did not receive a confirmation email because PayPal was unable to verify your email address.
