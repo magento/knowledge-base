@@ -28,6 +28,7 @@ By default, the following built-in API rate limiting is available:
 To disable the input limits on the REST API request, apply one of the following patches (depedning on your version):
 
 * [MC-43048__set_rate_limits__2.3.7-p1.patch.zip](assets/MC-43048__set_rate_limits__2.3.7-p1.patch.zip)
+* [MC-43048__set_rate_limits__2.4.3.patch.zip](assets/MC-43048__set_rate_limits__2.4.3.patch.zip)
 
 ### Compatible Adobe Commerce versions
 
