@@ -1,6 +1,6 @@
 # Metadata validation
 
-To ensure correct formatting of metadata in MD files, we have put in place a metadata validation test. This document provides guidelines to help contributors avoid some of the most common metadata validation errors.
+To ensure correct formatting of metadata in MD files, we have put in place a metadata validation test. This document provides guidelines to help contributors avoid some of the common metadata validation errors.
 
 **Example of metadata:**
 
@@ -13,13 +13,13 @@ labels: article, labels, tags
 Article content...
 ```
 
-## Common validation errors and how to avoid them
+## Common validation errors and how to avoid/fix them
 
-There are various types of metadata validation errors that can occur. Here are some examples and how to fix them.
+The following are some of the most common scenarios where data validation errors occur.
 
-### Colon
+### Colon in metadata
 
-A validation error will occur if the title or labels has colon(s).
+A validation error will occur if either the title or labels or both have colon(s).
 
 **Example:**
 
@@ -29,7 +29,7 @@ title: Patch: Unable to validate VAT number - Magento Commerce Cloud
 labels: patch: 2041.1, article, labels, tags
 ---
 ```
-This is fixed by wrapping the title or labels (or both if both have colons) in single quotation marks.
+This error is fixed by wrapping the title or labels (or both if both have colons) in single quotation marks.
 
 **Example:**
 
@@ -40,7 +40,7 @@ labels: 'patch: 2041.1, article, labels, tags'
 ---
 ```
 
-### Colon and single quotation or apostrophe mark
+### Colon and single quotation mark or apostrophe in metadata
 
 The previous solution will not work if there are colons, single quotation marks or apostrophes in the title or labels.
 
@@ -53,7 +53,7 @@ labels: patch: 2041.1, 'article', labels, tags
 ---
 ```
 
-To avoid/fix this error, wrap the title or labels (or both) in double quotation marks.
+This error is fixed by wrapping the title or labels (or both) in double quotation marks.
 
 **Example:**
 
@@ -64,7 +64,7 @@ labels: "patch: 2041.1, 'article', labels, tags"
 ---
 ```
 
-### Colon, double quotation marks, and single quotes or apostrophes all together
+### Colon, double quotation mark, and single quotation mark or apostrophe in metadata
 
 **Example:**
 
@@ -75,7 +75,7 @@ labels: patch: 2041.1, 'article', "labels", can't, tags
 ---
 ```
 
-When this happens, wrap the title or labels (or both) in double quotation marks and use a backslash to escape all double quotation marks in the title or labels.
+When this happens, wrap the title or labels (or both) in double quotation marks and use a backslash to escape all the double quotation marks in the title or labels.
 
 **Example:**
 
@@ -86,9 +86,9 @@ labels: "patch: 2041.1, 'article', \"labels\", can't, tags"
 ---
 ```
 
-### Missing Fields
+### Missing Fields in metadata
 
-Validation errors will occur if either the title or label fields are missing.
+A validation error will occur if either the title field or label field is missing from the metadata.
 
 **Example:**
 
@@ -98,25 +98,23 @@ title: This is a title
 ---
 ```
 
-or
+OR
 
 ```markdown
 ---
 labels: article, labels, tags
 ---
-
-Article content...
 ```
 
-To avoid these errors, include both fields. The labels field can be empty and it will not be considered an error, but the title field cannot be empty.
+To avoid this error, include both fields in the metadata.
+
+The labels field can be left empty and it will not result in an error, but the title field must be filled.
 
 **Example:**
 
 ```markdown
 ---
-title: This is a title
+title: Unlike labels the title field must be filled
 labels:
 ---
-
-Article content...
 ```
