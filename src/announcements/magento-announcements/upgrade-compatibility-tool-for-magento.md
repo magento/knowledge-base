@@ -25,7 +25,7 @@ Adobe Commerce customers.
 
 ## Install the Upgrade Compatibility Tool 1.1.0
 
-For installation steps, refer to Adobe Commerce on-premise:[Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce on-premise: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
+For installation steps, refer to Adobe Commerce:[Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
 
 ## What is the number next to each issue?
 This is the error message reference that provides information about errors that can occur while executing the Upgrade Compatibility Tool.
@@ -44,4 +44,4 @@ You can contact the UCT team on our [#upgrade-compatibility-tool](https://magent
 ## Related Reading
 
 * [Introducing the Upgrade Compatibility Tool (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce on-premise:[Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation.
+* Adobe Commerce:[Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation.
