@@ -1,9 +1,9 @@
 ---
-title: Upgrade Compatibility Tool 1.1.0 for Magento
-labels: CLI,GraphQL,Magento Commerce Cloud,PHP,Upgrade Compatibility Tool,announcements,command line,deprecated,reports,update,upgrade,version,1.1.0
+title: Upgrade Compatibility Tool 1.1.0 for Adobe Commerce
+labels: CLI,GraphQL,Magento Commerce Cloud,PHP,Upgrade Compatibility Tool,announcements,command line,deprecated,reports,update,upgrade,version,1.1.0,Adobe Commerce, cloud infrastructure
 ---
 
-The Upgrade Compatibility Tool is a command-line tool that checks an Adobe Commerce customized instance against a specific version by analyzing all modules and core code installed in it. It returns a list of critical issues, errors, and warnings that must be addressed before upgrading to the latest version of Adobe Commerce.
+The Upgrade Compatibility Tool 1.0.1 is a command-line tool that checks an Adobe Commerce customized instance against a specific version by analyzing all modules and core code installed in it. It returns a list of critical issues, errors, and warnings that must be addressed before upgrading to the latest version of Adobe Commerce.
 
 ## What is new on UCT 1.0.1?
 
@@ -21,11 +21,11 @@ You can use the tool to compare any 2.x version.
 
 ## Who can use the Upgrade Compatibility Tool 1.1.0?
 
-Users on all versions of Magento Commerce Cloud. The Upgrade Compatibility Tool 1.1.0 helps prevent issues during an upgrade to Magento 2.4.2, as well as when upgrading to older Magento versions (e.g., 2.3.3 > 2.3.6, or 2.3.5 > 2.4.1).
+Users on all versions of Adobe Commerce for Cloud. The Upgrade Compatibility Tool 1.1.0 helps prevent issues during an upgrade to Adobe Commerce 2.4.2, as well as when upgrading to older Adobe Commerce versions (e.g., 2.3.3 > 2.3.6, or 2.3.5 > 2.4.1).
 
 ## Install the Upgrade Compatibility Tool 1.1.0
 
-For installation steps, refer to Magento DevDocs [Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html). For prerequisites for using the tool, refer to Magento DevDocs [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html).
+For installation steps, refer to Adobe Commerce on-premise:[Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce on-premise: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
 
 ## Where can I share feedback about the tool?
 
@@ -33,5 +33,5 @@ You can contact the UCT team on our [magento-safe-upgrade-tool](https://magentoc
 
 ## Related Reading
 
-* [Introducing the Magento Commerce Upgrade Compatibility Tool (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Magento DevDocs [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html)
+* [Introducing the Upgrade Compatibility Tool (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
+* Adobe Commerce on-premise:[Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation.
