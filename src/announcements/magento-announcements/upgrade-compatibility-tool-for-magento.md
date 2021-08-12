@@ -14,7 +14,7 @@ The Upgrade Compatibility Tool 1.1.0 introduces significant improvements includi
 * **Improved VBE validations**: VBEs (Vendor Bundled Extensions) are not part of Adobe Commerce core code but are tested and supported by Adobe. With this update, we now validate VBEs using the same approach we use for core code. This improvement will help users understand issues related to customizations and core code/VBEs clearly.
 * **Provide error codes**: We introduced error codes to help users identify, understand, and solve issues during an upgrade. Error and warning messages provide a clear description and suggested solution.
 * **Possibility to list only critical issues**: with this users will be able to focus only on those issues that are critical and will generate problems while upgrading.
-* **Delta issues between 2 versions**: with this improvement, proposed by our community members, UCT users will be able to get a delta of the issues between 2 versions which will allow them to focus only on the new issues introduced for the target version they will upgrade.
+* **Delta issues between two versions**: with this improvement, proposed by our community members, UCT users will be able to get a delta of the issues between 2 versions which will allow them to focus only on the new issues introduced for the target version they will upgrade.
 
 ## Which versions can the tool compare?
 You can use the tool to compare any 2.x version.
@@ -25,7 +25,7 @@ Adobe Commerce customers.
 
 ## Install the Upgrade Compatibility Tool 1.1.0
 
-For installation steps, refer to Adobe Commerce:[Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
+For installation steps, refer to Adobe Commerce: [Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
 
 ## What is the number next to each issue?
 This is the error message reference that provides information about errors that can occur while executing the Upgrade Compatibility Tool.
@@ -43,5 +43,5 @@ You can contact the UCT team on our [#upgrade-compatibility-tool](https://magent
 
 ## Related Reading
 
-* [Introducing the Upgrade Compatibility Tool (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce:[Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation.
+* Adobe Commerce Blog: [Introducing the Upgrade Compatibility Tool (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
+* Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation.
