@@ -27,6 +27,16 @@ Users on all versions of Adobe Commerce for Cloud. The Upgrade Compatibility Too
 
 For installation steps, refer to Adobe Commerce on-premise:[Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce on-premise: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
 
+## What is the number next to each issue?
+This is the error message reference that provides information about errors that can occur while executing the Upgrade Compatibility Tool.
+
+The Upgrade Compatibility Tool error messages are categorized by level (critical issues, errors, and warnings) and type (core code, custom code, and GraphQL schemas). Each type contains the following information:
+
+* Error code: The Adobe Commerce assigned identifier for the error message.
+* Error description: A description that summarizes the cause of the error.
+* Error suggested action: If applicable, provides guidance to troubleshoot and resolve the error.
+* Codes are listed and described at the [Error message reference page](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
+
 ## Where can I share feedback about the tool?
 
 You can contact the UCT team on our [magento-safe-upgrade-tool](https://magentocommeng.slack.com/archives/C019Y143U9F) slack channel. We are looking forward to getting your feedback and suggestions to improve the tool.
