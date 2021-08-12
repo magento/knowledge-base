@@ -29,7 +29,7 @@ The following note should appear under the **Notes for this order**  section: "V
 
 <u>Actual results</u>:
 
-The following note appears under the **Notes for this order** section: Vertex Invoice sent successfully. Amount: $3.23.
+The following note appears under the **Notes for this order** section: "Vertex Invoice sent successfully. Amount: $3.23."
 
 ## Solution
 
