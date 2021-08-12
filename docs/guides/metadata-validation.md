@@ -29,7 +29,7 @@ title: Patch: Unable to validate VAT number - Magento Commerce Cloud
 labels: patch: 2041.1, article, labels, tags
 ---
 ```
-This error is fixed by wrapping the title or labels (or both if both have colons) in single quotation marks.
+To avoid this error, wrap the title or labels (or both if both have colons) in **single quotation marks**.
 
 **Example:**
 
@@ -53,7 +53,7 @@ labels: patch: 2041.1, 'article', labels, tags
 ---
 ```
 
-This error is fixed by wrapping the title or labels (or both) in double quotation marks.
+This error is fixed by wrapping the title or labels (or both) in **double quotation marks**.
 
 **Example:**
 
@@ -75,7 +75,7 @@ labels: patch: 2041.1, 'article', "labels", can't, tags
 ---
 ```
 
-When this happens, wrap the title or labels (or both) in double quotation marks and use a backslash to escape all the double quotation marks in the title or labels.
+When this happens, wrap the title or labels (or both) in **double quotation marks** and use a **backslash** to escape all the double quotation marks in the title or labels.
 
 **Example:**
 
