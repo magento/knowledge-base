@@ -3,12 +3,7 @@ title: Upgrade Compatibility Tool 1.1.0 for Magento
 labels: CLI,GraphQL,Magento Commerce Cloud,PHP,Upgrade Compatibility Tool,announcements,command line,deprecated,reports,update,upgrade,version,1.1.0
 ---
 
-A Magento upgrade can be made easier with the Upgrade Compatibility Tool 1.1.0. The Upgrade Compatibility Tool 1.1.0 is a command line (CLI) tool that assesses the difficulty of an upgrade. The tool identifies potential problems that must be fixed in your custom code before attempting to upgrade to a newer version of Magento. The tool outputs:
-
-* errors (usage of non-existing classes and interface)
-* warnings (usage of deprecated and non-API classes and interface)
-
-The reports also provide a complexity score - a figure that indicates how difficult it is to upgrade from the current Magento version to the new one.
+The Upgrade Compatibility Tool is a command-line tool that checks an Adobe Commerce customized instance against a specific version by analyzing all modules and core code installed in it. It returns a list of critical issues, errors, and warnings that must be addressed before upgrading to the latest version of Adobe Commerce.
 
 ## What is new on UCT 1.0.1?
 
