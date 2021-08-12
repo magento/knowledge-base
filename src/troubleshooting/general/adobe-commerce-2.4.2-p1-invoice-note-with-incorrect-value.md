@@ -25,7 +25,7 @@ When the customer group is changed at the time of creating the order, the invoic
 
 <u>Expected results</u>:
 
-The following note should appear under the **Notes for this order**  section: Vertex Invoice sent successfully. Amount: $0.00.
+The following note should appear under the **Notes for this order**  section: "Vertex Invoice sent successfully. Amount: $0.00."
 
 <u>Actual results</u>:
 
