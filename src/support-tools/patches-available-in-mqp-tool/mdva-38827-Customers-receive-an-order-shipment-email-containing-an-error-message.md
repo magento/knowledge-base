@@ -51,7 +51,7 @@ The following error message is received in the email: *"We're sorry, an error ha
 To apply individual patches, use the following links depending on your deployment type:
 
 * Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Cloud for Adobe Commerce: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce for cloud: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
 
 ## Related reading
 
