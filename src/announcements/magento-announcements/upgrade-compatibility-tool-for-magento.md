@@ -21,7 +21,7 @@ You can use the tool to compare any 2.x version.
 
 ## Who can use the Upgrade Compatibility Tool 1.1.0?
 
-Users on all versions of Adobe Commerce for Cloud. The Upgrade Compatibility Tool 1.1.0 helps prevent issues during an upgrade to Adobe Commerce 2.4.2, as well as when upgrading to older Adobe Commerce versions (e.g., 2.3.3 > 2.3.6, or 2.3.5 > 2.4.1).
+Adobe Commerce customers.
 
 ## Install the Upgrade Compatibility Tool 1.1.0
 
@@ -39,7 +39,7 @@ The Upgrade Compatibility Tool error messages are categorized by level (critical
 
 ## Where can I share feedback about the tool?
 
-You can contact the UCT team on our [magento-safe-upgrade-tool](https://magentocommeng.slack.com/archives/C019Y143U9F) slack channel. We are looking forward to getting your feedback and suggestions to improve the tool.
+You can contact the UCT team on our [#upgrade-compatibility-tool](https://magentocommeng.slack.com/archives/C019Y143U9F) slack channel. We are looking forward to getting your feedback and suggestions to improve the tool.
 
 ## Related Reading
 
