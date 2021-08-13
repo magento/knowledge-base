@@ -15,7 +15,7 @@ Article content...
 
 ## Common validation errors and how to avoid/fix them
 
-The following are some of the most common scenarios where data validation errors occur.
+The following are some of the most common scenarios where metadata validation errors occur.
 
 ### Colon in metadata
 
