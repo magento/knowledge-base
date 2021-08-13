@@ -1,4 +1,4 @@
-# Metadata validation
+# Metadata validation guide
 
 To ensure correct formatting of metadata in MD files, we have put in place a metadata validation test. This document provides guidelines to help contributors avoid some of the common metadata validation errors.
 
