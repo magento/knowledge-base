@@ -21,7 +21,7 @@ The MDVA-37897 patch solves the issue of incorrect redirect when users try to ad
 
 ## Issue
 
-When a user tries to add a product from Recently Viewed section which has required options to be selected, the user is redirected to product listing page instead of product details page.
+When a user tries to add a product from Recently Viewed section which has required options to be selected, the user is redirected to the product listing page instead of the product details page.
 
 <ins>Steps to reproduce</ins>:
 
@@ -32,11 +32,11 @@ When a user tries to add a product from Recently Viewed section which has requir
 
 <ins>Expected results</ins>:
 
-You are redirected to product details page to choose the options.
+You are redirected to the product details page to choose the options.
 
 <ins>Actual results</ins>:
 
-You are redirected to product listing page.
+You are redirected to the product listing page.
 
 ## Apply the patch
 
