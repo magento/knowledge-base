@@ -1,6 +1,6 @@
 # Metadata validation guide
 
-To ensure correct formatting of metadata in MD files, we have put in place a metadata validation test. This document provides guidelines to help contributors avoid some of the common metadata validation errors.
+To ensure correct formatting of metadata in MD files, we have put in place a metadata validation test. This document provides guidelines to help contributors avoid some of the most common metadata validation errors.
 
 **Example of metadata:**
 
@@ -86,7 +86,7 @@ labels: "patch: 2041.1, 'article', \"labels\", can't, tags"
 ---
 ```
 
-### Missing Fields in metadata
+### Missing fields in metadata
 
 A validation error will occur if either the title field or label field is missing from the metadata.
 
