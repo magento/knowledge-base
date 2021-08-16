@@ -35,7 +35,7 @@ The Upgrade Compatibility Tool error messages are categorized by level (critical
 * Error code: The Adobe Commerce assigned identifier for the error message.
 * Error description: A description that summarizes the cause of the error.
 * Error suggested action: If applicable, provides guidance to troubleshoot and resolve the error.
-* Codes are listed and described at the [Error message reference page](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
+* Codes are listed and described on the [Error message reference page](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
 
 ## Where can I share feedback about the tool?
 
