@@ -5,7 +5,7 @@ labels: CLI,GraphQL,Magento Commerce Cloud,PHP,Upgrade Compatibility Tool,announ
 
 The Upgrade Compatibility Tool 1.1.0 is a command-line tool that checks an Adobe Commerce customized instance against a specific version by analyzing all modules and core code installed in it. It returns a list of critical issues, errors, and warnings that must be addressed before upgrading to the latest version of Adobe Commerce.
 
-## What is new on UCT 1.0.1?
+## What is new on UCT 1.1.0?
 
 The Upgrade Compatibility Tool 1.1.0 introduces significant improvements, including:
 
