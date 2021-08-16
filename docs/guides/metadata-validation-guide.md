@@ -75,7 +75,7 @@ labels: patch: 2041.1, 'article', "labels", can't, tags
 ---
 ```
 
-When this happens, wrap the title or labels (or both) in **double quotation marks** and use a **backslash** to escape all the double quotation marks in the title or labels.
+When this happens, wrap the title or labels (or both) in **double quotation marks** and use a **backslash** to escape all the double quotation marks in the title and labels.
 
 **Example:**
 
@@ -88,7 +88,7 @@ labels: "patch: 2041.1, 'article', \"labels\", can't, tags"
 
 ### Missing fields in metadata
 
-A validation error will occur if either the title field or label field is missing from the metadata.
+A validation error will occur if either the title field or labels field is missing from the metadata.
 
 **Example:**
 
