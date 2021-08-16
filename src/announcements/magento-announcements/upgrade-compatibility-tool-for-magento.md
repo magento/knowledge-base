@@ -7,7 +7,7 @@ The Upgrade Compatibility Tool 1.0.1 is a command-line tool that checks an Adobe
 
 ## What is new on UCT 1.0.1?
 
-The Upgrade Compatibility Tool 1.1.0 introduces significant improvements including:
+The Upgrade Compatibility Tool 1.1.0 introduces significant improvements, including:
 
 * **Validate core file modifications**: Adobe strongly recommends against customizing core product code. With this release, we added a checkpoint for customers and partners to identify any modifications to the core code to understand the impact of the modifications early and quickly. Adding this tool within the development process will help partners and merchants to identify issues proactively, preventing problems during future upgrades, and reducing Total Cost of Ownership (TCO).
 * **Export the report to a JSON file**: This improvement was implemented following feedback from the community. Now, when you run the tool, the details of all identified issues are exported to a JSON file so users can read, share, and manage the results without having to run the tool again.
