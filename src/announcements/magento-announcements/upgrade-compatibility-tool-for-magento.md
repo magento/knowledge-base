@@ -13,7 +13,7 @@ The Upgrade Compatibility Tool 1.1.0 introduces significant improvements, includ
 * **Export the report to a JSON file**: This improvement was implemented following feedback from the community. Now, when you run the tool, the details of all identified issues are exported to a JSON file so users can read, share, and manage the results without having to run the tool again.
 * **Improved VBE validations**: VBEs (Vendor Bundled Extensions) are not part of Adobe Commerce core code but are tested and supported by Adobe. With this update, we now validate VBEs using the same approach we use for core code. This improvement will help users understand issues related to customizations and core code/VBEs clearly.
 * **Provide error codes**: We introduced error codes to help users identify, understand, and solve issues during an upgrade. Error and warning messages provide a clear description and suggested solution.
-* **Possibility to list only critical issues**: with this users will be able to focus only on those issues that are critical and will generate problems while upgrading.
+* **Possibility to list only critical issues**: with this, users will be able to focus only on those issues that are critical and will generate problems while upgrading.
 * **Delta issues between two versions**: with this improvement, proposed by our community members, UCT users will be able to get a delta of the issues between 2 versions which will allow them to focus only on the new issues introduced for the target version they will upgrade.
 
 ## Which versions can the tool compare?
