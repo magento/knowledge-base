@@ -41,7 +41,7 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
 <div class="zd-accordion-panel">
 <h5>Step 3</h5>
 <div class="zd-accordion-section">
-Which directory has   &gt; 70% used?<code>/tmp</code> or <code>/data/mysql</code>?
+Which directory has   &gt; 70% used? <code>/tmp</code> or <code>/data/mysql</code>?
 <br>Note: By default database tmpdir writes to <code>/tmp</code>. To check your database configuration is still on this default, run the following command in MySQL CLI: <code>SHOW VARIABLES LIKE "TMPDIR";</code> If the database tmpdir is still writing to <code>/tmp</code>, you will see <code>/tmp</code> in the Value column.
 
  a. <code>/tmp</code> – Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-4">Step 4</a>.&nbsp;<br>
