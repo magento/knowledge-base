@@ -26,7 +26,6 @@ This article provides solutions for re-authorizing an integration to grant Magen
 * [PrestaShop](https://support.magento.com/hc/en-us/articles/360016507152-Connecting-PrestaShop)
 * [Quickbooks](https://support.magento.com/hc/en-us/articles/360016504252-Connecting-Quickbooks)
 * [Salesforce](https://support.magento.com/hc/en-us/articles/360016507372-Connecting-Salesforce)
-* [Segment](https://support.magento.com/hc/en-us/articles/360016730531-Connecting-Segment)
 * [Shopify](https://support.magento.com/hc/en-us/articles/360016733191-Connecting-Shopify)
 * [Spree](https://support.magento.com/hc/en-us/articles/360016733011-Connecting-Spree)
 * [Stripe](https://support.magento.com/hc/en-us/articles/360016733211-Connecting-Stripe)
