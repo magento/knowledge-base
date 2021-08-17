@@ -69,4 +69,3 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
  a. YES – You have solved the issue.&nbsp;<br>
  b. NO – <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</span>
 </p></div>
-<p><a href="#zd-accordion-1">Back to Step 1</a></p>
