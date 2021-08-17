@@ -49,4 +49,4 @@ The status of all integrations is on the Integrations page ( **Manage D**  **ata
 
 To re-authenticate, you may have to re-enter your account credentials. In some cases, you may be required to generate new API keys for the problem integration. Click the name of the problem integration to begin the reauthorization process.
 
-If the problem persists, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) .
+If the problem persists, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
