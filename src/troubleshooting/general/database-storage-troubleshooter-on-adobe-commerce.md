@@ -4,9 +4,10 @@ labels: Adobe Commerce,on-premise,cloud infrastructure,database,troubleshooting,
 ---
 
 This article is a troubleshooter tool for customers on Adobe Commerce having issues with databases. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot space and configuration issues with databases.
-
+<!---------This opens the main level that holds everything.--------------->
 <div class="zd-accordion">
-<div class="zd-accordion-panel">
+<!---------This is one whole accordion panel.--------------->
+<div id="zd-accordion-1" class="zd-accordion-panel">
 <h5>Step 1</h5>
 <div class="zd-accordion-section">Do you have a <code>/tmp</code> issue caused by a lack of space?<br><br>
 This can be indicated by a range of symptoms including the <code>/tmp</code> mount being full, site down, or not being able to SSH into a node. You may also be experiencing errors like <em>No space left on device (28)</em>. For a list of errors resulting from <cocde>/tmp</code> being full, review <a href="https://support.magento.com/hc/en-us/articles/360059094711" target="_blank" rel="noopener"> /tmp mount full</a>. <br><br>
@@ -26,8 +27,8 @@ Is IUse% &gt; 90%?<br>
  <a class="accordion-anchor" href="#zd-accordion-2">Step 2</a> after you have completed these steps. If you want to request more space, <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">submit a support ticket</a>.<br>
  b. NO – Check space. Run <code>df -h | grep mysql </code>
 and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in the <code>/tmp</code> and <code>/data/mysql</code> directories. Proceed to   <a class="accordion-anchor" href="#zd-accordion-3">Step 3</a>.</p></div>
-
-<div class="zd-accordion-panel">
+<!---------This is one whole accordion panel.--------------->
+<div id="zd-accordion-2" class="zd-accordion-panel">
 <h5>Step 2</h5>
  <div class="zd-accordion-section">Once you have reduced the number of files, run <code>df -h | grep mysql</code>
 and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/tmp</code> and <code>/data/mysql</code>.
@@ -37,8 +38,8 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
  <p class="zd-accordion-text">
   a. YES – Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-3">Step 3</a>.&nbsp;<br>
   b. NO – Queries may be exhausting the available storage. This may crash the node, killing the query and removing the <code>tmp</code> files. Examine the output of the <code>SHOW PROCESSLIST;</code> in the MySQL CLI for queries that may be the cause of the problem. <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</p></div>
-
-<div class="zd-accordion-panel">
+<!---------This is one whole accordion panel.--------------->
+<div id="zd-accordion-3" class="zd-accordion-panel">
 <h5>Step 3</h5>
 <div class="zd-accordion-section">
 Which directory has   &gt; 70% used? <code>/tmp</code> or <code>/data/mysql</code>?
@@ -48,7 +49,8 @@ Which directory has   &gt; 70% used? <code>/tmp</code> or <code>/data/mysql</cod
  b. <code>/data/mysql</code> – Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.&nbsp;<br>
 </div>
 
-<div class="zd-accordion-panel">
+<!---------This is one whole accordion panel.--------------->
+<div id="zd-accordion-4" class="zd-accordion-panel">
 <h5>Step 4</h5>
 <div class="zd-accordion-section"> <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a>, scroll down the article and try the solutions and best practices. Then run <code>df -h | grep mysql </code>
 and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/tmp</code> and <code>/data/mysql</code> directories<br>
@@ -61,7 +63,8 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
 </p>
 </div>
 
-<div class="zd-accordion-panel">
+<!---------This is one whole accordion panel.--------------->
+<div id="zd-accordion-5" class="zd-accordion-panel">
 <h5>Step 5</h5>
  <div class="zd-accordion-section">Your database configuration may no longer be at the original default. Find the database tmpdir config by running in the MySQL CLI: <code>SELECT @@DATADIR;</code>. If <code>/data/mysql/</code> is outputted, the database tmpdir is now writing to <code>/data/mysql/</code>. Try to increase space in this directory by following the steps in <a href="https://support.magento.com/hc/en-us/articles/360037591972" target="_blank" rel="noopener">MySQL disk space is low on Adobe Commerce on our cloud infrastructure</a>. Then run <code>df -h | grep mysql </code>
 and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/data/mysql</code> and <code>/tmp</code>.<br>&nbsp; &lt; 70% used?</div>
@@ -69,3 +72,8 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
  a. YES – You have solved the issue.&nbsp;<br>
  b. NO – <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</span>
 </p></div>
+<!---------This closes the main level that holds everything.--------------->
+  <p>
+    <a class="accordion-back-to-step-1" href="#zd-accordion-1">Back to Step 1</a>
+  </p>
+</div>
