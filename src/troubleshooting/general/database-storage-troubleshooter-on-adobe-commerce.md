@@ -63,7 +63,7 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
 
 <div class="zd-accordion-panel">
 <h5>Step 5</h5>
- <div class="zd-accordion-section">Your database configuration may no longer be at the original default. Find the database tmpdir config by running in the MySQL CLI: <code>SELECT @@DATADIR;</code>. If <code>/data/mysql/</code> is outputed the database tmpdir is now writing to <code>/data/mysql/</code>. Try to increase space in this directory by following steps in <a href="https://support.magento.com/hc/en-us/articles/360037591972" target="_blank" rel="noopener">MySQL disk space is low on Adobe Commerce on our cloud infrastructure</a>. Then run <code>df -h | grep mysql </code>
+ <div class="zd-accordion-section">Your database configuration may no longer be at the original default. Find the database tmpdir config by running in the MySQL CLI: <code>SELECT @@DATADIR;</code>. If <code>/data/mysql/</code> is outputted, the database tmpdir is now writing to <code>/data/mysql/</code>. Try to increase space in this directory by following the steps in <a href="https://support.magento.com/hc/en-us/articles/360037591972" target="_blank" rel="noopener">MySQL disk space is low on Adobe Commerce on our cloud infrastructure</a>. Then run <code>df -h | grep mysql </code>
 and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/data/mysql</code> and <code>/tmp</code>.<br>&nbsp; &lt; 70% used?</div>
 <p class="zd-accordion-text">
  a. YES – You have solved the issue.&nbsp;<br>
