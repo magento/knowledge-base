@@ -29,7 +29,7 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
 
 <div class="zd-accordion-panel">
 <h5>Step 2</h5>
- <div class="zd-accordion-section">Once you have reduced the number of files, run <code>df -h | grep mysql </code>
+ <div class="zd-accordion-section">Once you have reduced the number of files, run <code>df -h | grep mysql</code>
 and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/tmp</code> and <code>/data/mysql</code>.
 
   &gt; 70% used for <code>/tmp</code> or <code>/data/mysql</code>?
