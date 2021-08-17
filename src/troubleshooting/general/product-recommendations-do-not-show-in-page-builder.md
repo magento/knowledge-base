@@ -1,5 +1,5 @@
 ---
-title: Product Recommendations not showing in Page Builder
+title: Product Recommendations not shown in Page Builder
 labels: troubleshooting,Magento Commerce,Magento commerce Cloud,on-premise,cloud infrastructure,Page Builder,Product Recommendations,
 ---
 
