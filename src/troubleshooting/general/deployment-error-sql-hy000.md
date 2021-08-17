@@ -1,5 +1,5 @@
 ---
-title: Deployment error: SQLSTATE[HY000]
+title: "Deployment error: SQLSTATE[HY000]"
 labels: Magento Commerce Cloud,command line,troubleshooting,deployment error,Adobe Commerce,on-premise
 ---
 
