@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-36021: Users get "Call to a member function getId()" error on order details page'
+title: "MDVA-36021: Users get error message when opening order details"
 labels: MQP patches,Magento Quality Patches,MQP,QPT,Quality Patches Tool,Support Tools,MQP 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud infrastructure,Magento,orders,details,error message,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,
 ---
 
