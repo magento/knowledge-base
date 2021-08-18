@@ -13,13 +13,13 @@ The MC-41359 commerce patch fixes the issue with missing SameSite cookie paramet
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
+>Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
 Missing settings of the SameSite cookie parameter.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <ins>Steps to reproduce:</ins>
 
 Prerequisites:
 
@@ -27,22 +27,22 @@ Prerequisites:
 * Enable **SameSite by default cookies** and **Cookies without SameSite must be secure**.
 * Open the Chrome inspector.
 
- <span class="wysiwyg-underline">Scenario 1:</span>
+ <ins>Scenario 1:</ins>
 
 1. Enable PayPal.
 1. Go to the store front.
 1. Add a product to the cart.
 1. Go to checkout.
 
- <span class="wysiwyg-underline">Scenario 2:</span>
+ <ins>Scenario 2:</ins>
 
 If you have New Relic [enabled](https://docs.magento.com/user-guide/reports/new-relic-reporting.html) the warning appears on any frontend page.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<ins>Actual result:</ins>
 
-Warning message in the browser console "A cookie associated with a cross-site resource was set without a SameSite attribute."
+Warning message in the browser console: *A cookie associated with a cross-site resource was set without a SameSite attribute.*
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <ins>Expected result:</ins>
 
 "lax" should not be added to the cookie domain; the samesite attribute should be present with default value.
 
@@ -50,7 +50,7 @@ Warning message in the browser console "A cookie associated with a cross-site re
 
 For instructions on how to apply an MQP patch, use the following links depending on your Magento product:
 
-* Adobe Commerce: [Apply patches using Magento Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation
+* Adobe Commerce: [Apply patches using Magento Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on our cloud infrastructure: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
