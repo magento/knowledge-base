@@ -44,7 +44,7 @@ Sales email with shipment comments is generated.
 
 <ins>Actual results</ins>:
 
-The following error message is received in the email: *"We're sorry, an error has occurred while generating this content."*
+The following error message is received in the email: *We're sorry, an error has occurred while generating this content.*
 
 ## Apply the patch
 
