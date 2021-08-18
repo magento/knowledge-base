@@ -82,7 +82,7 @@ mdl --style=_checks/styles/style-rules-prod --ignore-front-matter --git-recurse 
 
 If no errors are returned then it is safe to commit changes and create a pull request. See [Linting Error Codes](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md) for an explanation of any errors reported.
 
-For more advanced checking and identifying of linting issues, the [`linter-markdownlint`](https://atom.io/packages/linter-markdownlint) plugin from Atom can be installed alongside `mdl`. 
+For more advanced checking and identifying of linting issues, the [`linter-markdownlint`](https://atom.io/packages/linter-markdownlint) plugin from Atom can be installed alongside `mdl`.
 
 ## File structure
 
@@ -103,7 +103,7 @@ If you add images to your articles, please follow this convention to name your i
 * Words should be separated by hyphen "-", not underscore "_".
 * Use existing naming patterns. Check the existing file names under /assets folders as an example.
 
-### Metadata
+<h3 id="metadata"> Metadata </h3>
 
 The Markdown (`.md`) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
 

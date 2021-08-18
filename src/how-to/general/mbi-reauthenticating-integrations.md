@@ -26,7 +26,6 @@ This article provides solutions for re-authorizing an integration to grant Magen
 * [PrestaShop](https://support.magento.com/hc/en-us/articles/360016507152-Connecting-PrestaShop)
 * [Quickbooks](https://support.magento.com/hc/en-us/articles/360016504252-Connecting-Quickbooks)
 * [Salesforce](https://support.magento.com/hc/en-us/articles/360016507372-Connecting-Salesforce)
-* [Segment](https://support.magento.com/hc/en-us/articles/360016730531-Connecting-Segment)
 * [Shopify](https://support.magento.com/hc/en-us/articles/360016733191-Connecting-Shopify)
 * [Spree](https://support.magento.com/hc/en-us/articles/360016733011-Connecting-Spree)
 * [Stripe](https://support.magento.com/hc/en-us/articles/360016733211-Connecting-Stripe)
@@ -50,4 +49,4 @@ The status of all integrations is on the Integrations page ( **Manage D**  **ata
 
 To re-authenticate, you may have to re-enter your account credentials. In some cases, you may be required to generate new API keys for the problem integration. Click the name of the problem integration to begin the reauthorization process.
 
-If the problem persists, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) .
+If the problem persists, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).

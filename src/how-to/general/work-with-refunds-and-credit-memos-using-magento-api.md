@@ -1,6 +1,6 @@
 ---
-title: Work with refunds and credit memos using Magento API
-labels: API,Magento,credit memo,devdocs,how to,refund
+title: Work with refunds and credit memos using Adobe Commerce API
+labels: API,Magento,credit memo,devdocs,how to,refund,Adobe Commerce
 ---
 
-Please refer to the [Refunds](https://devdocs.magento.com/guides/v2.2/rest/modules/sales/refunds.html) article on the Magento DevDocs.
+Please refer to the [Refunds](https://devdocs.magento.com/guides/v2.4/rest/modules/sales/refunds.html) article in the developer documentation.

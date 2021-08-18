@@ -3,10 +3,12 @@ title: ...
 labels: troubleshooting,...
 ---
 
-<u>Title</u>: Title should briefly describe the issue, maximum 70 characters is preferred.<br/>
+Title should briefly describe the issue, maximum 70 characters is preferred.<br/>
 (Example: "Out of memory error during install or upgrade".)
 
-<u>Intro</u>: Intro paragraph or two paragraphs: a brief overview of issue. The first 140 characters are important for SEO purposes.
+See [Contributing > Metadata](../../CONTRIBUTING.md#metadata) for additional information on metadata.
+
+Intro paragraph or two paragraphs: a brief overview of issue. The first 140 characters are important for SEO purposes.
 
 ## Affected products and versions
 
@@ -23,7 +25,7 @@ Remove any specific project IDs or customer information from errors and logs! Al
 
 If the issue occurs in a very specific situation, provide detailed steps to reproduce, expected result and actual result in the following format:
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 Prerequisites: ... (if any).
 
@@ -31,10 +33,12 @@ Prerequisites: ... (if any).
 1. Second step.
 1. ....
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
+
 Magento does this.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
+
 Magento does that.
 
 ## Cause
@@ -51,6 +55,6 @@ If there is a temporary workaround, specify it as a separate section below this 
 ## Related reading
 
 * User Guides: [Commerce](https://docs.magento.com/user-guide/)
-* [DevDocs](https://devdocs.magento.com)
+* [Developer Guide](https://devdocs.magento.com)
 * Other Knowledge Base articles
 * Any related resources (blogs, forums, StackOverflow, etc.)
