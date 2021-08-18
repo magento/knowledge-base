@@ -22,7 +22,7 @@ When you open the `cron_schedule` database table, you see the jobs with `missed`
 
 ## Cause
 
-Previously, in Adobe Commerce for cloud environment, the Jenkins server was used to run cron jobs. Jenkins will only run one instance of a job at a time; consequently, there will only be one `bin/magento cron:run` process running at a time.
+Previously, in our cloud environment, the Jenkins server was used to run cron jobs. Jenkins will only run one instance of a job at a time; consequently, there will only be one `bin/magento cron:run` process running at a time.
 
 ## Solution
 
