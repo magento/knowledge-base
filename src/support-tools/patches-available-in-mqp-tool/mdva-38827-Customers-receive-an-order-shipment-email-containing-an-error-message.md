@@ -21,7 +21,7 @@ Adobe Commerce on-premise and Adobe Commerce on our cloud infrastructure 2.3.3-p
 
 ## Issue
 
-An error message is received when the “Notify Customers by Email” option for shipment is selected.
+When the Notify Customers by Email option for shipment is selected, customers receive an email containing the following error message:  *We're sorry, an error has occurred while generating this content*.
 
 <ins>Steps to reproduce</ins>:
 
