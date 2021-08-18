@@ -51,7 +51,7 @@ Warning message in the browser console "A cookie associated with a cross-site re
 For instructions on how to apply an MQP patch, use the following links depending on your Magento product:
 
 * Adobe Commerce: [Apply patches using Magento Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation
-* Adobe Commerce on our cloud architecture: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+* Adobe Commerce on our cloud infrastructure: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
