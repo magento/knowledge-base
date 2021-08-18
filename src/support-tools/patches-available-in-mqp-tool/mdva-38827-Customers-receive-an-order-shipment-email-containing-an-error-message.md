@@ -32,7 +32,7 @@ An error message is received when the “Notify Customers by Email” option for
 1. Go to **Store** > Settings > **Configuration** > **Sales** > **Sales Email**:
    * Enable **Shipment Comments**.
    * Select **Core Shipping Template** (refer to the "Add a template name" part of Step 1) under Shipment Comment Email Template and Shipment Comment Email Template for Guest.
-1. Place an order. Go to the Admin panel **Sales** > **Order**, click **View**, and then ship the order.
+1. Place an order. Go to the Admin panel > **Sales** > **Order**, click **View**, and then ship the order.
 1. The order state will change from Pending to Processing.
 1. Click **Shipments** on the left sidebar menu and then click **View** to see the order.
 1. Add a comment in **Comment Text** below **Shipment History** and check the checkbox **Notify Customer by Email**.
