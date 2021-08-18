@@ -57,7 +57,16 @@ For details on how increase disk space if you on the Starter plan, see the [Incr
 
 ### Ensure ECE-tools are configured correctly
 
-1. Ensure that build hooks are defined properly in the `magento.app.yaml` file. If you are on Magento Commerce 2.2.X, building hooks should be defined as follows:    ```yaml    # We run build hooks before your application has been packaged.        build: |            php ./vendor/bin/ece-tools build        # We run deploy hook after your application has been deployed and started.        deploy: |            php ./vendor/bin/ece-tools deploy    ```    Use the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
+1. Ensure that build hooks are defined properly in the `magento.app.yaml` file. If you are on Magento Commerce 2.2.X, building hooks should be defined as follows:
+   ```yaml
+   # We run build hooks before your application has been packaged.
+   build: |
+       php ./vendor/bin/ece-tools build
+   # We run deploy hook after your application has been deployed and started.
+   deploy: |
+       php ./vendor/bin/ece-tools deploy
+   ```
+   Use the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
 1. Ensure that ECE-tools package is present in the `composer.lock` file by running the following command:    <pre><code class="language-bash">grep '<code class="language-yaml">"name": "magento/ece-tools"</code>' composer.lock</code></pre>    If they are specified, the response would look like the following example:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```    
 
 See the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.

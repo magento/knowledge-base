@@ -45,6 +45,9 @@ Follow these steps to identify and troubleshoot the cause.
 1. If the above steps do not help you identify or troubleshoot the source of the issue, consider enabling L2 cache to reduce network traffic between the app and Redis. For general information on what is L2 cache, refer to [L2 caching in the Magento application](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html) . To enable L2 cache for Cloud, try the following:
 1. Upgrade ECE Tools if below 2002.1.2 version.
 1. Configure L2 Cache by using [Use REDIS\_BACKEND variable](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend) and updating `.magento.env.yaml` file:
-
-    ```yaml    stage:         deploy:             REDIS_BACKEND: '\Magento\Framework\Cache\Backend\RemoteSynchronizedCache'    ```    
+   ```yaml
+   stage:
+       deploy:
+           REDIS_BACKEND: '\Magento\Framework\Cache\Backend\RemoteSynchronizedCache'
+   ```    
 

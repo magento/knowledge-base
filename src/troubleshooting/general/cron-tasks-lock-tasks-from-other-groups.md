@@ -27,7 +27,14 @@ Previously, in Magento Cloud Environment, the Jenkins server was used to run cro
 ## Solution
 
 1. Contact [Magento support](https://support.magento.com/hc/en-us/articles/360019088251) to have self-managed crons enabled.
-1. Edit the `.magento.app.yaml` file in the root directory of the Magento code in the Git branch. Add the following:    ```yaml    crons:        cronrun:            spec: "* * * * *"            cmd: "php bin/magento cron:run"    ```    Please note, there’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular Magento’s `cron:run` task, added as described above, is enough. Though it is required to transfer your custom jobs, if you had any.    
+1. Edit the `.magento.app.yaml` file in the root directory of the Magento code in the Git branch. Add the following:
+   ```yaml
+   crons:
+       cronrun:
+           spec: "* * * * *"
+           cmd: "php bin/magento cron:run"
+   ```
+   Please note, there’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular Magento’s `cron:run` task, added as described above, is enough. Though it is required to transfer your custom jobs, if you had any.    
 1. Save the file and push updates to the Staging and Production environments (the same way as you do it for Integration environments).
 
 ### Check if you have self-managed cron enabled

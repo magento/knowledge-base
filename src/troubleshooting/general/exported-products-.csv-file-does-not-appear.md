@@ -62,7 +62,17 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 
 1. Make sure your cron is setup and configured. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html) for details.
 1. Run the following command to return a list of message queue consumers:     `./bin/magento queue:consumers:list`     
-1. Add the following to your `.magento.env.yaml` file in the Magento `/app` directory, and include the consumers you would like to add. For example, here is the consumer required for export processing:    ```yaml    stage:      deploy:        CRON_CONSUMERS_RUNNER:          cron_run: true          max_messages: 1000          consumers:            - exportProcessor    ```    Then push this updated file and redeploy your environment. Also reference [Add custom cron jobs to your project](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#add-cron) .
+1. Add the following to your `.magento.env.yaml` file in the Magento `/app` directory, and include the consumers you would like to add. For example, here is the consumer required for export processing:
+   ```yaml
+   stage:
+       deploy:
+           CRON_CONSUMERS_RUNNER:
+               cron_run: true
+               max_messages: 1000
+               consumers:
+                   - exportProcessor
+   ```
+   Then push this updated file and redeploy your environment. Also reference [Add custom cron jobs to your project](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#add-cron).
 
 >![info]
 >
