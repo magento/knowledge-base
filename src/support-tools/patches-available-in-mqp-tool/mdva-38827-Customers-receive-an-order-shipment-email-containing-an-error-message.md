@@ -1,5 +1,5 @@
 ---
-title: "MDVA-38827: Order shipment email error"
+title: "MDVA-38827: Customers receive order shipment error via email"
 labels: MQP patches,Magento Quality Patches,MQP,MQP 1.1.0,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premise,cloud infrastructure,order shipment
 ---
 
