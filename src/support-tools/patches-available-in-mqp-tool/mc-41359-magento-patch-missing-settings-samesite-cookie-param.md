@@ -7,7 +7,7 @@ The MC-41359 commerce patch fixes the issue with missing SameSite cookie paramet
 
 ## Affected products and versions
 
- **The patch is created for Adobe Commerce version:** Adobe Commerce on our cloud architecture 2.4.2
+ **The patch is created for Adobe Commerce version:** Adobe Commerce on our cloud infrastructure 2.4.2
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce and Adobe Commerce on our cloud architecture 2.3.6-p1, 2.4.2, 2.4.2-p1
 
