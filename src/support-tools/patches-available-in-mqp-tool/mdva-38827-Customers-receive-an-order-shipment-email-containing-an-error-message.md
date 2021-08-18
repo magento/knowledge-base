@@ -17,7 +17,7 @@ Adobe Commerce on-premise and Adobe Commerce on our cloud infrastructure 2.3.3-p
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool  releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
