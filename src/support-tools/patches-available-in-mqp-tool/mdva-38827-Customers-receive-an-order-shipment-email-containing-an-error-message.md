@@ -40,7 +40,7 @@ An error message is received when the “Notify Customers by Email” option for
 
 <ins>Expected results</ins>:
 
-Sales email with shipment comments will be generated.
+Sales email with shipment comments is generated.
 
 <ins>Actual results</ins>:
 
