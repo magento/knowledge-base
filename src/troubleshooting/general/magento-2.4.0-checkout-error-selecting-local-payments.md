@@ -20,7 +20,7 @@ The error message, " *There are currently no available payment methods. Please u
 * Create one product and one category.
 * Configure [Braintree Payment Method](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html) .
 
-### Steps to reproduce
+<ins>Steps to reproduce</ins>:
 
 1. Navigate to the storefront.
 1. Select items to add to the cart.
