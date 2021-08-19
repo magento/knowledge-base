@@ -28,7 +28,7 @@ The error message, " *There are currently no available payment methods. Please u
 1. Fill out the address form a with valid address.
 1. Proceed to the Review & Payments page.
 
-### Expected result
+<ins>Expected result</ins>:
 
 The local payment methods should be displayed normally, without an error message.
 
