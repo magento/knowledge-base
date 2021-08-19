@@ -38,7 +38,7 @@ The error message, " *There are currently no available payment methods. Please u
 
 ## Solution
 
-The solution is to ignore the displayed error message, and continue with payment as normal, as all local payment methods will function normally. A fix will be available in Magento version 2.4.1, which is scheduled for release in Q4 1. 
+The solution is to ignore the displayed error message, and continue with payment as normal, as all local payment methods will function normally. The fix was available starting with Adobe Commerce version 2.4.1. 
 
 ## Related reading
 
