@@ -1,6 +1,6 @@
 ---
 title: ElasticSuite tracking indices causes problems with Elasticsearch
-labels: ElasticSuite 2.8.0,Elasticsearch problem,Elasticsuite tracking indices,how to,tracking indices
+labels: ElasticSuite 2.8.0,Elasticsearch problem,ElasticSuite tracking indices,how to,tracking indices
 ---
 
 >![info]
@@ -11,11 +11,11 @@ This article talks about the issue of Elasticsearch memory problems caused by tr
 
 ## Affected products and versions
 
-It is not confirmed what versions of ElasticSuite have this issue, but the 2.8.0 version contains a fix.
+It is not confirmed what versions of ElasticSuite have this issue.
 
 ## Issue
 
-If the ElasticSuite third-party plugin is installed, you might experience Elasticsearch memory issues and the Elasticsearch service might crash caused by ElasticSuite tracking indices. Symptoms include:
+If the ElasticSuite third-party plugin is installed, you might experience Elasticsearch memory issues, and the Elasticsearch service might crash caused by ElasticSuite tracking indices. Symptoms include:
 
 * Elasticsearch crashes with no memory errors.
 * When running a health command `curl -m1 localhost:9200/_cluster/health?pretty` or `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (for starter accounts) there are hundreds or thousands of `unassigned_shards`
@@ -24,18 +24,16 @@ If the ElasticSuite third-party plugin is installed, you might experience Elasti
 
 ## Cause
 
-ElasticSuite has a new feature that creates tracking indices. These tracking indices record which search terms are the most used, which terms generate the most turnover and which terms are leading to a no results page so merchants can create synonyms to fix them. It does not appear to delete the tracking indices so Elasticsearch runs out of resources and crashes.
+ElasticSuite has a new feature that creates tracking indices. These tracking indices record which search terms are the most used, which terms generate the most turnover, and which terms are leading to a no results page so merchants can create synonyms to fix them. It does not appear to delete the tracking indices, so Elasticsearch runs out of resources and crashes.
 
 ## Solution
 
-To upgrade to ElasticSuite 2.8.0 or to learn how to disable the Search Analytics Dashboard feature in the ElasticSuite plugin follow the steps in [Elasticsearch crashes or has out of memory issues when using ElasticSuite plugin](https://support.magento.com/hc/en-us/articles/360035266131) .
-
-However, if you can't upgrade to the 2.8.0 version or disable the Search Analytics Dashboard, you can create a cron job to delete the tracking indices. This command deletes indices created in the last month:
+Create a cron job to delete the tracking indices. This command deletes indices created in the last month:
 
  `curl -XDELETE localhost:9200/<name in index> * **\_tracking\_log** * _$(date
     +'%Y%m' -d 'last month')*`
 
-If you want to delete indices at a set time-frequency create a cron job by referring to these DevDocs articles:
+If you want to delete indices at a set time-frequency, create a cron job by referring to these DevDocs articles:
 
 * [Configure a customer cron job and cron group (tutorial)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
 * [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
