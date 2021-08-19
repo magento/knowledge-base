@@ -45,7 +45,7 @@ The customer is redirected to the Shopping Cart page and the following message i
 
 ## Workaround
 
-The workaround for this issue is that the customer can log in at a store (Logged-in users do not use guest checkout.) where guest checkout is disabled. This issue is scheduled to be resolved in Adobe Commerce version 2.4.2, which is scheduled for release in Q1.
+The workaround for this issue is that the customer can log in at a store (Logged-in users do not use guest checkout.) where guest checkout is disabled. This issue was fixed in Adobe Commerce version 2.4.2.
 
 ## Related reading
 
