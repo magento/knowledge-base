@@ -105,7 +105,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <ol>
 <li>Go back to the Overview page and switch to Non-web transactions on the drop-down filter.</li>
 <li>Review transaction traces at the very bottom of the page, one by one.</li>
-<li>Depending on the issue you may need to use a third-party tool like a PHP profiler to find a bottleneck.</li>
+<li>Depending on the issue, you may need to use a third-party tool like a PHP profiler to find a bottleneck.</li>
 <li>If you need to investigate further, consider examining database processes.</li>
 </ol>
 <p>Database processes:</p>
