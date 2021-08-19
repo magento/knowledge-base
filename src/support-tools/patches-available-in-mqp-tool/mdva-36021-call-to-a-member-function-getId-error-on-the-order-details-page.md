@@ -29,7 +29,7 @@ The system should have tax settings and orders with specific tax rates.
 
 <ins>Steps to reproduce</ins>:
 
-1. Log in to Commerce Admin.
+1. Log in to the Commerce Admin.
 1. Go to **Sales** > **Orders** > **Open Order**.
 
 <ins>Expected results</ins>:
