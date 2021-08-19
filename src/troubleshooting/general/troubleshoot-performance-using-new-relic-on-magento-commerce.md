@@ -37,7 +37,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <li>Review those transactions with a low Apdex score, unusually high Count or high Avg time, or Dissat %.</li>
 <li>Click on each individual transaction. If you cannot resolve the issue, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket.</a>
 </li>
-<li>If you need to investigate further consider checking non-web transactions.</li>
+<li>If you need to investigate further, consider checking non-web transactions.</li>
 </ol>
 </li>
 </ol>
@@ -99,14 +99,14 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. Make sure the filter is set to Web transactions time on the drop-down graph filter.</li>
 <li>Manually narrow the time window.</li>
 <li>Click on Transactions. Make sure the filters are set to Web and Most time consuming. Investigate the longest running transaction.</li>
-<li>If you need to investigate further consider checking non-web transactions.</li>
+<li>If you need to investigate further, consider checking non-web transactions.</li>
 </ol>
 <p>Non-web Transactions:</p>
 <ol>
 <li>Go back to the Overview page and switch to Non-web transactions on the drop-down filter.</li>
 <li>Review transaction traces at the very bottom of the page, one by one.</li>
 <li>Depending on the issue you may need to use a third-party tool like a PHP profiler to find a bottleneck.</li>
-<li>If you need to investigate further consider examining database processes.</li>
+<li>If you need to investigate further, consider examining database processes.</li>
 </ol>
 <p>Database processes:</p>
 <ol>
@@ -114,7 +114,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <li>Sort by Most time consuming.</li>
 <li>Review TOP queries. Note:<code>UDPATE</code>or<code>INSERT</code>queries are the most CPU consuming queries.</li>
 <li>Switch to Throughput from Sort By selector and look for processes that have caused the database throughput to drop down.</li>
-<li>If you need to investigate further consider examining third-party services.</li>
+<li>If you need to investigate further, consider examining third-party services.</li>
 </ol>
 <p>Third-party services:</p>
 <ol>
