@@ -14,7 +14,7 @@ The error message, " *There are currently no available payment methods. Please u
 
 ## Issue
 
-### Preconditions
+<ins>Preconditions</ins>:
 
 * Magento 2.4.0 is installed.
 * Create one product and one category.
