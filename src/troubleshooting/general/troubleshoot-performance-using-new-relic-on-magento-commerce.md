@@ -23,7 +23,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <p>Your New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex score</a> measures users' satisfaction with the response time of your web applications and services.</p>
 </td>
 <td>
-<p>You log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. On the right side of the Overview page you see the Apdex score graph. An Apdex score of 0.5 or less is a point of concern and warrants investigation:Web-transaction times (server requests):</p>
+<p>You log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. On the right side of the Overview page you see the Apdex score graph. An Apdex score of 0.5 or less is a point of concern and warrants investigation: Web-transaction times (server requests):</p>
 <ol>
 <ol>
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > (Select an app) > Overview. Make sure the filter is set to Web transactions time on the main chart drop-down filter. Below in the Transactions table look for App server time. Verify if you have any long running or suspicious transactions.</li>
@@ -94,7 +94,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <p>Outage: New Relic determines outages by Apdex. You will see a red line on the Apdex score graph which indicates Apdex < 0.4, which is considered an outage.</p>
 </td>
 <td>
-<p>Investigating an outage may take several steps, examining web and non-web transactions, databases and third-party transactions.Web Transactions:</p>
+<p>Investigating an outage may take several steps, examining web and non-web transactions, databases and third-party transactions. Web Transactions:</p>
 <ol>
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. Make sure the filter is set to Web transactions time on the drop-down graph filter.</li>
 <li>Manually narrow the time window.</li>
