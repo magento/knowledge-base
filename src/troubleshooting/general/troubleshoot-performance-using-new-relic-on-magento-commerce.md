@@ -23,19 +23,19 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <p>Your New Relic<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex score</a>measures users' satisfaction with the response time of your web applications and services.</p>
 </td>
 <td>
-<p>You log in to<a href="https://login.newrelic.com/login">New Relic</a>> APM > Overview. On the right side of the Overview page you see the Apdex score graph. An Apdex score of 0.5 or less is a point of concern and warrants investigation:Web-transaction times (server requests):</p>
+<p>You log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. On the right side of the Overview page you see the Apdex score graph. An Apdex score of 0.5 or less is a point of concern and warrants investigation:Web-transaction times (server requests):</p>
 <ol>
 <ol>
-<li>Log in to<a href="https://login.newrelic.com/login">New Relic</a>> APM > (Select an app) > Overview. Make sure the filter is set to Web transactions time on the main chart drop-down filter. Below in the Transactions table look for App server time. Verify if you have any long running or suspicious transactions.</li>
+<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > (Select an app) > Overview. Make sure the filter is set to Web transactions time on the main chart drop-down filter. Below in the Transactions table look for App server time. Verify if you have any long running or suspicious transactions.</li>
 <li>Investigate them individually by going to Monitoring > Transactions and make sure to set the filters for Web and Most time consuming<em>.</em>
 </li>
 <li>Then search for third-party modules that consume resources: payment providers, ERP, etc.</li>
 <li>In the Monitoring section of APM:<ol>
 <li>Click Transactions.</li>
 <li>Scroll down, click Show all transactions table.</li>
-<li>You can sort transactions by<a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">various parameters</a>and jump to those that cause suspicion.</li>
+<li>You can sort transactions by <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">various parameters</a> and jump to those that cause suspicion.</li>
 <li>Review those transactions with a low Apdex score, unusually high Count or high Avg time, or Dissat %.</li>
-<li>Click on each individual transaction. If you cannot resolve the issue,<a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket.</a>
+<li>Click on each individual transaction. If you cannot resolve the issue, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket.</a>
 </li>
 <li>If you need to investigate further consider checking non-web transactions.</li>
 </ol>
