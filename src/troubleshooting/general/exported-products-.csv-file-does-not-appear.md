@@ -15,7 +15,8 @@ This article provides a fix for the issue where you try to export products to a 
 
 Prerequisites: The **Add Secret Key to URLs** option is set to *Yes* . The option is configured in the Magento Admin under **Stores** > **Configuration** > **Advanced** > **Admin** > **Security** .
 
-1. In the Magento Admin, navigate to **System** > **Data Transfer** > **Export** .    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)    
+1. In the Magento Admin, navigate to **System** > **Data Transfer** > **Export** .    
+    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)    
 1. Select
     * **Entity Type** : *Products*
     * **Export File Format** : *CSV*
