@@ -60,7 +60,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </td>
 <td>
 <ol>
-<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a>> Infrastructure > Processes.</li>
+<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > Infrastructure > Processes.</li>
 <li>Review CPU graphs to see if there is any stuck or high consuming process that is using more than 100% CPU time and compare against processor count on the instance. Pay attention to peaks in resource utilization. It is not recommended that you kill a process, unless it is a stuck cron.</li>
 </ol>
 </td>
@@ -78,7 +78,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <td>
 <p>Look for an unusual spike compared to previous average I/O operations:</p>
 <ol>
-<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a>> Infrastructure > Processes.</li>
+<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > Infrastructure > Processes.</li>
 <li>Review I/O Read Bytes Per Second graph.</li>
 <li>Record the time of the spike.</li>
 <li>Click on APM.</li>
@@ -96,7 +96,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <td>
 <p>Investigating an outage may take several steps, examining web and non-web transactions, databases and third-party transactions.Web Transactions:</p>
 <ol>
-<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a>> APM > Overview. Make sure the filter is set to Web transactions time on the drop-down graph filter.</li>
+<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. Make sure the filter is set to Web transactions time on the drop-down graph filter.</li>
 <li>Manually narrow the time window.</li>
 <li>Click on Transactions. Make sure the filters are set to Web and Most time consuming. Investigate the longest running transaction.</li>
 <li>If you need to investigate further consider checking non-web transactions.</li>
