@@ -50,7 +50,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </ol>
 </td>
 <td>
-<p>To learn more about New Relic Apdex score refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. You may also refer to <a href="https://support.magento.com/hc/en-us/articles/360046422091-Managed-alerts-for-Magento-Commerce-Apdex-warning-alert">Managed alerts for Magento Commerce: Apdex warning alert</a>.</p>
+<p>To learn more about New Relic Apdex score, refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. You may also refer to <a href="https://support.magento.com/hc/en-us/articles/360046422091-Managed-alerts-for-Magento-Commerce-Apdex-warning-alert">Managed alerts for Magento Commerce: Apdex warning alert</a>.</p>
 </td>
 </tr>
 <tr>
