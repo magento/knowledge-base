@@ -32,7 +32,7 @@ The error message, " *There are currently no available payment methods. Please u
 
 The local payment methods should be displayed normally, without an error message.
 
-### Actual result
+<ins>Actual result</ins>:
 
 The error message, " *There are currently no available payment methods. Please update your Billing Address.* " appears, but the local payment methods will still display and function correctly.
 
