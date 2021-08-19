@@ -42,7 +42,7 @@ The solution is to ignore the displayed error message, and continue with payment
 
 ## Related reading
 
-* [Magento 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332)
+* [Adobe Commerce 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332)
 * [Magento 2.4.0 known issue: Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032)
 * [Magento 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout](https://support.magento.com/hc/en-us/articles/360046354992)
 * [Magento 2.4.0 known issue: returns edit page stops working when creating shipping label](https://support.magento.com/hc/en-us/articles/360046441312)
