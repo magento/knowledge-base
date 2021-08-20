@@ -43,8 +43,8 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
 <h5>Step 3</h5>
 <div class="zd-accordion-section">
 Which directory has   &gt; 70% used? <code>/tmp</code> or <code>/data/mysql</code>?
-<br>Note: By default database tmpdir writes to <code>/tmp</code>. To check your database configuration is still on this default, run the following command in MySQL CLI: <code>SHOW VARIABLES LIKE "TMPDIR";</code> If the database tmpdir is still writing to <code>/tmp</code>, you will see <code>/tmp</code> in the Value column.
-
+<br>Note: By default database tmpdir writes to <code>/tmp</code>. To check your database configuration is still on this default, run the following command in MySQL CLI: <code>SHOW VARIABLES LIKE "TMPDIR";</code> If the database tmpdir is still writing to <code>/tmp</code>, you will see <code>/tmp</code> in the Value column.</div>
+<p class="zd-accordion-text">
  a. <code>/tmp</code> – Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-4">Step 4</a>.&nbsp;<br>
  b. <code>/data/mysql</code> – Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.&nbsp;<br>
 </div>
@@ -56,7 +56,8 @@ Which directory has   &gt; 70% used? <code>/tmp</code> or <code>/data/mysql</cod
 and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/tmp</code> and <code>/data/mysql</code> directories<br>
 &nbsp; &lt; 70% used?<br>
 
-<strong>Note:</strong> The solutions in  <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> are designed for merchants who have not changed the variables for database tmpdir, which by default writes to <code>/tmp</code>. If you have changed the tmpdir value, the instructions in <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> will not help.
+<strong>Note:</strong> The solutions in  <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> are designed for merchants who have not changed the variables for database tmpdir, which by default writes to <code>/tmp</code>. If you have changed the tmpdir value, the instructions in <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> will not help.</div>
+ <p class="zd-accordion-text">
 
  a. YES – You have solved the issue.&nbsp;<br>
  b. NO – <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</span>
