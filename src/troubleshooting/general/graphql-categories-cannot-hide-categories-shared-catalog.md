@@ -13,7 +13,9 @@ B2B Shared catalog feature is not working with GraphQL.
 GraphQl Categories and `categoryList` queries ignore the Category permission to hide categories in a shared catalog. This happens to all customers on Adobe Commerce 2.4.3 with B2B Shared Catalog feature turned on.
 
 <ins>Steps to reproduce</ins>:
-Prerequisites:
+
+Prerequisites: 
+
 This happens to all customers on Adobe Commerce 2.4.3 with PWA storefront consuming GraphQl API with Adobe Commerce backend/admin having B2B > Shared Catalog feature turned on.
 
 1. Create multiple categories (CAT1,CAT2).
