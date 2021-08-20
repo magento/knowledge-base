@@ -7,7 +7,7 @@ To ensure correct formatting of metadata in MD files, we have put in place a met
 ```markdown
 ---
 title: This is a title
-labels: article, labels, tags
+labels: article,labels,tags
 ---
 
 Article content...
@@ -26,7 +26,7 @@ A validation error will occur if either the title or labels or both have colon(s
 ```markdown
 ---
 title: Patch: Unable to validate VAT number - Magento Commerce Cloud
-labels: patch: 2041.1, article, labels, tags
+labels: patch: 2041.1,article,labels,tags
 ---
 ```
 To avoid this error, wrap the title or labels (or both if both have colons) in **single quotation marks**.
@@ -36,7 +36,7 @@ To avoid this error, wrap the title or labels (or both if both have colons) in *
 ```markdown
 ---
 title: 'Patch: Unable to validate VAT number - Magento Commerce Cloud'
-labels: 'patch: 2041.1, article, labels, tags'
+labels: 'patch: 2041.1,article,labels,tags'
 ---
 ```
 
@@ -49,7 +49,7 @@ The previous solution will not work if there are colons, single quotation marks 
 ```markdown
 ---
 title: Patch: Can't validate 'VAT' number - Magento Commerce Cloud
-labels: patch: 2041.1, 'article', labels, tags
+labels: patch: 2041.1,'article',labels,tags
 ---
 ```
 
@@ -60,7 +60,7 @@ This error is fixed by wrapping the title or labels (or both) in **double quotat
 ```markdown
 ---
 title: "Patch: Can't validate 'VAT' number - Magento Commerce Cloud"
-labels: "patch: 2041.1, 'article', labels, tags"
+labels: "patch: 2041.1,'article',labels,tags"
 ---
 ```
 
@@ -71,7 +71,7 @@ labels: "patch: 2041.1, 'article', labels, tags"
 ```markdown
 ---
 title: Patch: Can't validate 'VAT' number - Magento "Commerce" Cloud
-labels: patch: 2041.1, 'article', "labels", can't, tags
+labels: patch: 2041.1,'article',"labels",can't,tags
 ---
 ```
 
@@ -82,7 +82,7 @@ When this happens, wrap the title or labels (or both) in **double quotation mark
 ```markdown
 ---
 title: "Patch: Can't validate 'VAT' number - Magento \"Commerce\" Cloud"
-labels: "patch: 2041.1, 'article', \"labels\", can't, tags"
+labels: "patch: 2041.1,'article',\"labels\",can't,tags"
 ---
 ```
 
@@ -102,7 +102,7 @@ OR
 
 ```markdown
 ---
-labels: article, labels, tags
+labels: article,labels,tags
 ---
 ```
 
