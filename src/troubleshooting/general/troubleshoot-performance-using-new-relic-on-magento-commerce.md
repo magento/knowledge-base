@@ -42,7 +42,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </li>
 </ol>
 </ol>
-<p>Non web-transaction time (operations and background tasks):</p>
+<p>Non-web-transaction time (operations and background tasks):</p>
 <ol>
 <ol>
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > (Select an app) > Overview. Make sure you select Non-web transactions time on the main graph drop-down filter. Click individual transactions in the Transactions table. Look for long-running or suspicious transactions. This includes backend jobs, cron jobs or import/export jobs, including third-party.</li>
