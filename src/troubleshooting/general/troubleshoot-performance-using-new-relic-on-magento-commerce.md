@@ -61,7 +61,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <td>
 <ol>
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > Infrastructure > Processes.</li>
-<li>Review CPU graphs to see if there is any stuck or high consuming process that is using more than 100% CPU time and compare against processor count on the instance. Pay attention to peaks in resource utilization. It is not recommended that you kill a process, unless it is a stuck cron.</li>
+<li>Review CPU graphs to see if there is any stuck or high-consuming process that is using more than 100% CPU time and compare against processor count on the instance. Pay attention to peaks in resource utilization. It is not recommended that you kill a process unless it is a stuck cron.</li>
 </ol>
 </td>
 <td>
