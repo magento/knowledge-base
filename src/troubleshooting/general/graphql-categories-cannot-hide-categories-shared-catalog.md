@@ -16,7 +16,7 @@ GraphQl Categories and `categoryList` queries ignore the Category permission to 
 Prerequisites:
 This happens to all customers on Adobe Commerce 2.4.3 with PWA storefront consuming GraphQl API with Adobe Commerce backend/admin having B2B > Shared Catalog feature turned on.
 
-1. Create multiple categories (CAT1, CAT2).
+1. Create multiple categories (CAT1,CAT2).
 1. Create a private shared catalog.
 1. Create a company user and assign it to above shared catalog.
 1. Assign a few products to each of these categories.
