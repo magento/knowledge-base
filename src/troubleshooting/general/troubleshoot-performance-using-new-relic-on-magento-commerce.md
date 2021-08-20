@@ -110,7 +110,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </ol>
 <p>Database processes:</p>
 <ol>
-<li>On the APM page go to Monitoring > Databases.</li>
+<li>On the APM page, go to Monitoring > Databases.</li>
 <li>Sort by Most time consuming.</li>
 <li>Review TOP queries. Note: <code>UDPATE</code> or <code>INSERT</code>queries are the most CPU consuming queries.</li>
 <li>Switch to Throughput from Sort By selector and look for processes that have caused the database throughput to drop down.</li>
