@@ -18,6 +18,7 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
     - Adobe CLA - making sure the Adobe Open Source Contributor License Agreement is signed.
     - Markdown Linting test - making sure markdown syntax is correct.
     - File structure validation test - making sure the commit is done according to the [required file structure](.github/CONTRIBUTING,md#file_structure).
+    - Metadata validation test - making sure all the necessary metadata are included in the right format. See [Metadata validation guide](https://github.com/magento-commerce/knowledge-base/blob/main/docs/guides/metadata-validation-guide.md) on how to fix common validation errors.     
 - Pull Request (PR) approvals flow:
     - Knowledge Base (KB) writers reviews the PR within several days' time frame and adds label.
     - KB writer can approve/deny/request changes.
