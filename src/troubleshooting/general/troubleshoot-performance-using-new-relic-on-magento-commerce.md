@@ -91,7 +91,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </tr>
 <tr>
 <td>
-<p>Outage: New Relic determines outages by Apdex. You will see a red line on the Apdex score graph which indicates Apdex < 0.4, which is considered an outage.</p>
+<p>Outage: New Relic determines outages by Apdex. You will see a red line on the Apdex score graph, which indicates Apdex < 0.4, which is considered an outage.</p>
 </td>
 <td>
 <p>Investigating an outage may take several steps, examining web and non-web transactions, databases and third-party transactions. Web Transactions:</p>
