@@ -73,7 +73,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </tr>
 <tr>
 <td>
-<p>High I/O operations: For each customer, this number would be individual, but will be significantly different from average.</p>
+<p>High I/O operations: For each customer, this number would be individual but will be significantly different from the average.</p>
 </td>
 <td>
 <p>Look for an unusual spike compared to previous average I/O operations:</p>
