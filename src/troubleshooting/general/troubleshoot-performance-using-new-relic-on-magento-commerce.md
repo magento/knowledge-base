@@ -98,7 +98,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <ol>
 <li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. Make sure the filter is set to Web transactions time on the drop-down graph filter.</li>
 <li>Manually narrow the time window.</li>
-<li>Click on Transactions. Make sure the filters are set to Web and Most time consuming. Investigate the longest running transaction.</li>
+<li>Click on Transactions. Make sure the filters are set to Web and Most time-consuming. Investigate the longest-running transaction.</li>
 <li>If you need to investigate further, consider checking non-web transactions.</li>
 </ol>
 <p>Non-web Transactions:</p>
