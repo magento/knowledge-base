@@ -15,7 +15,7 @@ As a cloud-based service, the WAF requires no hardware or software to install or
 
 ## Is the WAF available for all Cloud customers?
 
-Yes, the Cloud WAF service is included in your Magento Commerce Cloud subscription for both Starter and Pro plans at no additional cost. The WAF service is available in the Production environment only.
+Yes, the Cloud WAF service is included in your Magento Commerce Cloud subscription for both Starter and Pro plans at no additional cost. The WAF service is available in Production and staging environments.
 
 ## Does WAF comply with PCI DSS 6.6 requirements?
 
