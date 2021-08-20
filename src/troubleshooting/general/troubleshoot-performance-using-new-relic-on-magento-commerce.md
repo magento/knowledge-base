@@ -118,8 +118,8 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </ol>
 <p>Third-party services:</p>
 <ol>
-<li>On the APM page go to Monitoring > External services.</li>
-<li>Select Slowest average response time from Sort by drop-down list.</li>
+<li>On the APM page, go to Monitoring > External services.</li>
+<li>Select the Slowest average response time from Sort by drop-down list.</li>
 <li>Look for processes that occurred just before the outage.</li>
 </ol>
 </td>
