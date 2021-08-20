@@ -47,7 +47,7 @@ At the same time, the issue might not occur if a deleted asset has no end date f
 To identify, if the issue you are experiencing is the one described in this article, run the following DB query:
 
 ```sql
-   SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists
+   SELECT f.flag_data >'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists
    -> FROM flag f
    -> LEFT JOIN staging_update su
    -> ON su.id = f.flag_data >'$.current_version'
