@@ -26,7 +26,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <p>You log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > Overview. On the right side of the Overview page you see the Apdex score graph. An Apdex score of 0.5 or less is a point of concern and warrants investigation: Web-transaction times (server requests):</p>
 <ol>
 <ol>
-<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > (Select an app) > Overview. Make sure the filter is set to Web transactions time on the main chart drop-down filter. Below in the Transactions table look for App server time. Verify if you have any long running or suspicious transactions.</li>
+<li>Log in to <a href="https://login.newrelic.com/login">New Relic</a> > APM > (Select an app) > Overview. Make sure the filter is set to Web transactions time on the main chart drop-down filter. Below in the Transactions table, look for App server time. Verify if you have any long-running or suspicious transactions.</li>
 <li>Investigate them individually by going to Monitoring > Transactions and make sure to set the filters for Web and Most time consuming<em>.</em>
 </li>
 <li>Then search for third-party modules that consume resources: payment providers, ERP, etc.</li>
