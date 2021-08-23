@@ -105,7 +105,7 @@ If you add images to your articles, please follow this convention to name your i
 
 <h3 id="metadata"> Metadata </h3>
 
-The Markdown (`.md`) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata.
+The Markdown (`.md`) file's metadata is a set of YAML key-value pairs. The metadata section is located at the top of each file. Non-ASCII characters are not allowed in metadata. See [Metadata validation guide](https://github.com/magento-commerce/knowledge-base/blob/main/docs/guides/metadata-validation-guide.md) to avoid/fix validation errors.
 
 ```yaml
 ---
@@ -120,6 +120,7 @@ labels:
 | ------------- | ---------- |
 | `title` | Defines the article title. If using any [YAML special characters](https://support.asg.com/mob/mvw/10_0/mv_ag/using_quotes_with_yaml_special_characters.htm) in title, please enclose it in quotes ("")|
 | `labels` | Contains labels that will be added to the article in Magento Help Center. Add labels to describe products, issues, products versions, section and category. If in doubt, don't add labels. |
+
 
 ### Add article
 
