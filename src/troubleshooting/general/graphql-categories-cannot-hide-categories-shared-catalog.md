@@ -1,6 +1,6 @@
 ---
 title: GraphQl query to hide categories not work with B2B shared catalog
-labels: troubleshooting,GraphQL,2.4.3,Adobe Commerce,Adobe Commerce on cloud infrastructure,category,catalog,B2B
+labels: troubleshooting,GraphQL,2.4.3,Adobe Commerce,cloud infrastructure,category,catalog,B2B
 ---
 B2B Shared catalog feature is not working with GraphQL.
 
