@@ -7,17 +7,18 @@ The MDVA-30102 patch solves the issue of the Redis cache getting full and genera
 
 ## Affected products and versions
 
-* The patch was designed for Magento Commerce Cloud 2.3.5-p1.
-* The patch is also compatible with Magento Commerce / Magento Commerce Cloud 2.3.2-2.4.0.
+* The patch was designed for Magento Commerce Cloud 2.3.5-p1
 
+
+* The patch is also compatible with Magento Commerce / Magento Commerce Cloud 2.3.2-2.4.1-p1
 >![info]
 >
 >Note: the patch can be applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+    status`
 
 ## Issue
 
-Redis cache is getting full and the allocated `maxmemory` appears to be insufficient. The layout cache didn't have TTL and was not evicted causing cache growth and eviction of other keys in Redis. As the result all Redis memory was allocated for layout cache. <span class="wysiwyg-underline">Steps to reproduce:</span> 
+Redis cache is getting full and the allocated `maxmemory` appears to be insufficient. The layout cache didn't have TTL and was not evicted causing cache growth and eviction of other keys in Redis. As the result all Redis memory was allocated for layout cache. <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 Prerequisites:
 
@@ -32,9 +33,9 @@ Prerequisites:
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
-Redis cache grows up to ~5GB. There is a max limit of 8GB of Redis memory, so if you have 1M products you will run out memory very quickly. <span class="wysiwyg-underline">Expected result:</span> 
+Redis cache grows up to ~5GB. There is a max limit of 8GB of Redis memory, so if you have 1M products you will run out memory very quickly. <span class="wysiwyg-underline">Expected result:</span>
 
 Redis cache should not be rapidly growing.
 
