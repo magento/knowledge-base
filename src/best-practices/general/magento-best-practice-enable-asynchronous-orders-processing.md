@@ -20,7 +20,7 @@ Method 1: Cloud and On-Premise (if deploy mode is PRODUCTION - which is the defa
 
 Method 2: On-Premise only (only when the deploy mode set to DEFAULT OR DEVELOPER): Enable the **Asynchronous indexing** option in Magento Admin under **Stores** > Settings > **Configuration** > **Advanced** > **Developer** > **Grid Settings** > **Asynchronous indexing**.
 
-    ![asynchronous_orders_magento.png](assets/asynchronous_orders_magento.png)
+![asynchronous_orders_magento.png](assets/asynchronous_orders_magento.png)
 
 Then flush cache by running `php bin/magento cache:flush` or go to Magento Admin under **System** > **Tools** > **Cache Management**.
 
