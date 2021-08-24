@@ -119,24 +119,20 @@ External links are straightforward:
 [Adobe](https://www.adobe.com)
 ```
 
-### Links to images
+### Links to attachments
 
-To insert an image, place the image to *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the image to your article:
+All types of attachments should be .png, .jpg, and .jpeg formats. We only accept attachments that are in these three formats.
+
+To insert an attachment to your article, place your file in the *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the attachment.
 
 ```markdown
 ![alt text](assets/image.png)
 ```
-Keep in mind that we only accept .png, .jpg, and .jpeg formats.
 
-If you want to customize the size of your image, you will need to use HTML:
+If you want to customize the size of your image, you will need to do that using the following HTML tag:
 ```html
 <img src = "assets/image.png" alt = "your alt text" style="width:50px;height:100px;">
 ```
-
-### Links to attached files
-You can upload *.pdf* and *.zip* files and add links to them in article, so that users can download the files.
-
-To do so, place the files in the *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the link to the file in your article:
 
 ```markdown
 [asset_title](assets/%file_name%).
