@@ -1,4 +1,5 @@
 ## Author in Markdown
+
 Generally, we use [Adobe Experience League Markdown Syntax Style Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), but there are some differences and exceptions. Also, certain HTML tags are required in certain cases.
 
 The following are examples of the Markdown formatting that is most commonly used in our repo.
@@ -125,6 +126,7 @@ To insert an image, place the image to *assets* sub-folder in the same section f
 ```markdown
 ![alt text](assets/image.png)
 ```
+Keep in mind that we only accept .png, .jpg, and .jpeg formats.
 
 If you want to customize the size of your image, you will need to use HTML:
 ```html
