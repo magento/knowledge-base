@@ -25,24 +25,15 @@ Consult the [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3
 
 ## Solution
 
-Customize your `php.ini` settings.
+Customize your `php.ini` settings. Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
 
-Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
-
-## ## Example
+## Example
 
  *'PHP Warning: Unknown: failed to open stream: No such file or directory'*
 
 ## Solution
 
-Make sure you do not remove the windows-style endings in the
-
-```bash
-php.ini
-```
-
-file.  Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
-
+Make sure you do not remove the windows-style endings in the `php.ini` file.  Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
 
 ## Example
 
@@ -60,15 +51,6 @@ The MySQL environment has run out of disk space. Provide more disk space for the
 ## Solution
 
 Check the `<root>/tmp` directory, because it is probably full. If it is full, provide more space in the directory. This could involve simply moving files to another directory or deleting them.
-
-
-## Example
-
- *'PHP Fatal error: Uncaught RedisException: read error on connection in'*
-
-## Solution
-
-This is a common issue with Redis following a website downsize. Redis must be reconfigured to reflect the downsize. Consult this [Redis and static-content deployment](https://devdocs.magento.com/guides/v2.3/cloud/trouble/redis-troubleshooting.html#static-content) article for more detail.
 
 ## Related reading
 
