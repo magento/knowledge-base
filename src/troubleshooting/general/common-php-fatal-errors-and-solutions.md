@@ -15,12 +15,9 @@ You can update the maximum execution time by setting a custom `max_execution_tim
 
 For example:
 
-```bash
-max_execution_time = 120
-```
+`max_execution_time = 120`
 
 Consult the [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
-
 
 ## Example
 
@@ -28,13 +25,9 @@ Consult the [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3
 
 ## Solution
 
-Customize your
+Customize your `php.ini` settings.
 
-```bash
-php.ini
-```
-
-settings. Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
+Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
 
 ## ## Example
 
