@@ -35,7 +35,6 @@ Only the CAT1 shows up in the results.
 
 All the categories show up regardless of whether they are assigned/unassigned in the shared catalog or what the category permissions are.
 
-
 ## Cause
 
 Functionality was not implemented.
