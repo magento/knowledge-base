@@ -42,8 +42,7 @@ Functionality was not implemented.
 
 ## Solution
 
-Run the composer patch to resolve the issue. For instructions on how to apply the patch, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731-How-to-apply-a-composer-patch-provided-by-Adobe).
-
+The issue is going to be fixed in scope of 2.4.4 and merchants should [submit a ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to get a custom patch if they want this to be fixed prior to 2.4.4 release. 
 ## Related reading
 
 * [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360025796972)
