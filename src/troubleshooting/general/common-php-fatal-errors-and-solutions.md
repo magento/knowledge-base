@@ -11,19 +11,9 @@ This article lists some common PHP Fatal Error quick examples that you could fin
 
 ## Solution
 
-You can update the maximum execution time by setting a custom
+You can update the maximum execution time by setting a custom `max_execution_time` value in your `php.ini` file and redeploying.
 
-```bash
-max_execution_time
-```
-
-value in your
-
-```bash
-php.ini
-```
-
-file and redeploying. For example:
+For example:
 
 ```bash
 max_execution_time = 120
