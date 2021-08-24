@@ -42,7 +42,7 @@ Functionality was not implemented.
 
 ## Solution
 
-The issue is going to be fixed in scope of 2.4.4 and merchants should [submit a ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to get a custom patch if they want this to be fixed prior to 2.4.4 release. 
+The issue is going to be fixed in scope of 2.4.4 and merchants should [submit a ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to get a custom patch if they need a solution prior to 2.4.4 release. 
 ## Related reading
 
-* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360025796972)
+* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360025796972) in our knowledge base. 
