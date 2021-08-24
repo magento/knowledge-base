@@ -5,7 +5,7 @@ labels: troubleshooting,Sengrid,email,Adobe Commerce,cloud infrastructure,Pro,St
 This article provides a solution for when your emails are not being sent due to your Sendgrid credits having been exceeded.
 ## Affected products and versions
 
-* Adobe Commerce for Cloud, 2.3.0-2.3.7, 2.4.0-2.4.2-p1
+* Adobe Commerce for Cloud, 2.3.0-2.3.7-p1, 2.4.0-2.4.3
 
 ## Issue
 
