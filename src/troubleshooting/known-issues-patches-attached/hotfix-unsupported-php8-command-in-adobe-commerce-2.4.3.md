@@ -17,7 +17,7 @@ The issue is caused by the new Adobe Commerce 2.4.3 version using PHP 8 only fun
 
  <span class="wysiwyg-underline">Steps to reproduce</span> :
 
-1. Attempt to upgrade to Adobe Commerce 2.4.3
+Attempt to upgrade to Adobe Commerce 2.4.3
 
  <span class="wysiwyg-underline">Expected Result:</span> Successful upgrade.
  <span class="wysiwyg-underline">Actual Result:</span> PHP fatal error.
@@ -26,10 +26,7 @@ The issue is caused by the new Adobe Commerce 2.4.3 version using PHP 8 only fun
 
 As a workaround you can add the `symfony/polyfill-php80` package via composer to the project or install a composer patch.
 
-For On-Prem Merchants: Apply the [hotfix,]() which is available from the Downloads section on [magento.com](https://magento.com) portal in My account.
-
-For Cloud Merchants: Magento will include the fix in the Magento Cloud Patches page 1.0.2.  Please refer to DevDocs [Magento Cloud patches release notes](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) in order to find instructions on applying the latest package.
-
+Or install a compser patch. 
 ## How to Apply the Patch
 
 See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
