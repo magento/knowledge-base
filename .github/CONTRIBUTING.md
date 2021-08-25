@@ -98,10 +98,10 @@ All file and folder names must be lower cased with "-" in between all words. Fil
 
 If you add images to your articles, please follow this convention to name your image files:
 
-* Specify version of the product which is represented on the screenshot. If it is not Magento Commerce, add name of the product to the file name.
-* Relay what is being captured by the image, for example a screenshot of Magento Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
+* Specify the version of the product which is represented on the screenshot. If it is not Magento Commerce, add the name of the product to the file name.
+* Relay what is being captured by the image, for example, a screenshot of Magento Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
 * File names are in lower case.
-* Words should be separated by hyphen "-", not underscore "_".
+* Words should be separated by a hyphen "-", not underscore "_".
 * Use existing naming patterns. Check the existing file names under /assets folders as an example.
 
 <h3 id="metadata"> Metadata </h3>
@@ -128,7 +128,7 @@ labels:
 To add an article, create a new markdown file in the desired category + section. Articles must include the standard metadata table with title and labels. Labels can be omitted.
 
 ### Edit article content
-You can rename article, edit its content, labels, or links to files.
+You can rename an article, edit its content, labels, or links to files.
 
 #### Rename article
 
