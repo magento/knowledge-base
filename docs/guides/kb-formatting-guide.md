@@ -121,7 +121,7 @@ External links are straightforward:
 
 ### Links to attachments
 
-All types of attachments should be .png, .jpg, and .jpeg formats. We only accept attachments that are in these three formats.
+Any kind of attachment should be in .png, .jpg, and .jpeg formats. For security purpose, we only accept attachments that are in one of the three formats.
 
 To insert an attachment to your article, place your file in the *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the attachment.
 
