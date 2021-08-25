@@ -10,7 +10,8 @@ This article provides a fix for when an upgrade to Adobe Commerce 2.4.3 fails wi
 The issue will be fixed in the scope of 2.4.4 and 2.4.3-p1 releases.
 ## Affected versions and products
 
-* Adobe Commerce for Cloud and Adobe Commerce 2.4.3.
+* Adobe Commerce for Cloud and Adobe Commerce 2.3.7-p1 and 2.4.3.
+* Magento Open Source 2.3.7-p1
 
 ## Issue
 
