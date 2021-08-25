@@ -30,7 +30,7 @@ PHP fatal error.
 
 ## Solution
 
-As a workaround you can add the `symfony/polyfill-php80` package via composer to the project or install a composer patch.
+As a workaround you run the following command in the CLI/Terminal: `composer require symfony/polyfill-php80` from the Magento root folder or install a composer patch.
 
 ## How to Apply the Patch
 
