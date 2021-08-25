@@ -20,11 +20,11 @@ The issue is caused by the new Adobe Commerce 2.4.3 version using PHP 8 only fun
 
 Attempt to upgrade to Adobe Commerce 2.4.3.
 
-<span class="wysiwyg-underline">Expected Result:</span> 
+<ins>Expected Result:</ins> 
 
 Successful upgrade.
 
-<span class="wysiwyg-underline">Actual Result:</span>
+<ins>Actual Result:</ins>
 
 PHP fatal error.
 
