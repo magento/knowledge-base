@@ -131,7 +131,7 @@ To insert an attachment to your article, place your file in the *assets* sub-fol
 
 If you want to customize the size of your image, you will need to do that using the following HTML tag:
 ```html
-<img src = "assets/image.png" alt = "your alt text" style="width:50px;height:100px;">
+<img src = "assets/image.png" alt = "your alt text" width="custom width, ex: 250px">
 ```
 
 ```markdown
