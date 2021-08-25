@@ -60,7 +60,7 @@ The following guidelines may answer most of your questions and help you get star
 * Write content using Markdown. See [Support KB formatting](../docs/guides/kb-formatting-guide.md) for details.
 * Please follow the style recommendations described in [Support KB Styleguide](../docs/guides/support-kb-styleguide.md).
 * Use [article templates](../docs/article-templates/) when adding new articles.
-* Follow the recommended file structure and file naming convention described further.
+* Follow the recommended file structure and file naming convention described below.
 * Test your changes & additions for [linting errors](#testing) before creating a pull request - this will save time and effort as errors will cause the automatic checks to fail and will need fixing before the pull request can be merged.
 
 ### Don'ts
@@ -86,8 +86,9 @@ For more advanced checking and identifying of linting issues, the [`linter-markd
 
 ## File structure
 
-All `.md` files should go to sections folders, nested in category folders under the "src" folder.
-All images and any other attachments should go to "assets" folders inside the section folders.
+All `.md` files should go to sections folders, nested in category folders under the "src" folder. All image attachments should go to "assets" folders inside the section folders.
+
+Contributors should also note that we only accept attachments in .png, .jpg, and .jpeg formats.
 
 ### Article files naming convention
 
@@ -99,7 +100,7 @@ If you add images to your articles, please follow this convention to name your i
 
 * Specify version of the product which is represented on the screenshot. If it is not Magento Commerce, add name of the product to the file name.
 * Relay what is being captured by the image, for example a screenshot of Magento Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
-* Lower case.
+* File names are in lower case.
 * Words should be separated by hyphen "-", not underscore "_".
 * Use existing naming patterns. Check the existing file names under /assets folders as an example.
 
