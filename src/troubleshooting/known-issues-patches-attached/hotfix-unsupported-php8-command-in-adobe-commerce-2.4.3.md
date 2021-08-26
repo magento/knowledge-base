@@ -37,7 +37,7 @@ For Adobe Commerce merchants on 2.4.3 download the following patch:
 
  [Download AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt) 
 
-For Adobe Commerce merchants on 2.7-p1 download the following patch:
+For Adobe Commerce and Magento Open Source merchants on 2.7-p1 download the following patch:
  [Download AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt) 
 
 ## How to Apply the Patch
