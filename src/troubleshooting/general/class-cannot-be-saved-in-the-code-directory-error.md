@@ -50,60 +50,59 @@ Move your class code from the entry point to a separate module and then use it i
 Original code in, for example, `index2.php` :
 
 ```php
-    <?php
-    use YourVendor\SomeModule\Model\GeneratedFactory;
+<?php
+use YourVendor\SomeModule\Model\GeneratedFactory;
 
-    require realpath(__DIR__) . '/../app/bootstrap.php';
-    $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
+require realpath(__DIR__) . '/../app/bootstrap.php';
+$bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
 
-    class SomeClass
+class SomeClass
+{
+    private $generatedFactory;
+
+    public function __construct(GeneratedFactory $generatedFactory)
     {
-        private $generatedFactory;
-
-        public function __construct(GeneratedFactory $generatedFactory)
-        {
-            $this->generatedFactory = $generatedFactory;
-        }
-
-        // Some code here...
+        $this->generatedFactory = $generatedFactory;
     }
 
-    $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
+// Some code here...
+}
 
-    // There is some code that uses $someObject
+$someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
+
+// There is some code that uses $someObject
 ```
 
 You need to take the following steps:
 
 1. Move the class definition to `app/code/YourVendor/YourModule`:  
 
-   ```php
-    <?php   
-    namespace YourVendor\YourModule;
-    use YourVendor\YourModule\Model\GeneratedFactory;
-    class YourClass
-    {
-        private $generatedFactory;
-
-        public function __construct(GeneratedFactory $generatedFactory)
+    ```php
+       <?php   
+        namespace YourVendor\YourModule;
+        use YourVendor\YourModule\Model\GeneratedFactory;
+        class YourClass
         {
-            $this->generatedFactory = $generatedFactory;
-        }
-    // Some code here...
-    }
+            private $generatedFactory;
 
-    ```
+            public function __construct(GeneratedFactory $generatedFactory)
+            {
+                $this->generatedFactory = $generatedFactory;
+            }
+        // Some code here...
+        }
+     ```
 
 1. Edit the entry point `my_api/index.php` so that it looks like following:  
 
-```php
-<?php
-use YourVendor\YourModule\YourClass;
-    require realpath(__DIR__) . '/../app/bootstrap.php';
-    $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
-    $someObject = $bootstrap->getObjectManager()->create(YourClass::class);
-// Some code using $someObject
- ```    
+    ```php
+      <?php
+      use YourVendor\YourModule\YourClass;
+          require realpath(__DIR__) . '/../app/bootstrap.php';
+          $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
+          $someObject = $bootstrap->getObjectManager()->create(YourClass::class);
+      // Some code using $someObject
+    ```    
 
 ### Case 2 specific solution
 
