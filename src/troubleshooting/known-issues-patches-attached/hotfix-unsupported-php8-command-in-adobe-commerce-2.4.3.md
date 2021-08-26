@@ -1,17 +1,17 @@
 ---
-title: Upgrade on Adobe Commerce 2.4.3 PHP Fatal error Hotfix
+title: Adobe Commerce Upgrade 2.4.3 and 2.3.7-p1 PHP Fatal error Hotfix
 labels: 2.4.3,Magento,known issues,patch,troubleshooting,error,php,8,Adobe Commerce, cloud infrastructure
 ---
 
-This article provides a fix for when an upgrade to Adobe Commerce 2.4.3 fails with the following error:
+This article provides a fix for when merchants try to upgrade to Adobe Commerce (all deployment methods) or Magento Open Source 2.4.3 or 2.3.7-p1 they see the following error:
 
 *PHP Fatal error: Uncaught Error: Call to undefined function Magento\Framework\Filesystem\Directory\str_contains() in <...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
 
 The issue will be fixed in the scope of 2.4.4 and 2.4.3-p1 releases.
 ## Affected versions and products
 
-* Adobe Commerce for Cloud and Adobe Commerce 2.3.7-p1 and 2.4.3.
-* Magento Open Source 2.3.7-p1
+* Adobe Commerce (all deployment methods) when upgrading to 2.3.7-p1 and 2.4.3.
+* Magento Open Source hen upgrading to 2.3.7-p1 and 2.4.3.
 
 ## Issue
 
