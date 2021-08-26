@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce Upgrade 2.4.3 and 2.3.7-p1 PHP Fatal error Hotfix
+title: Adobe Commerce upgrade 2.4.3, 2.3.7-p1 PHP Fatal error Hotfix
 labels: 2.4.3,Magento,known issues,patch,troubleshooting,error,php,8,Adobe Commerce, cloud infrastructure
 ---
 
