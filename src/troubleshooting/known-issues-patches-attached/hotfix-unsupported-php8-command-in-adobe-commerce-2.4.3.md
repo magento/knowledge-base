@@ -35,10 +35,10 @@ As a workaround you run the following command in the CLI/Terminal: `composer req
 
 In order to fix the issue for 2.4.3, Adobe Commerce (all deployment methods) and Magento Open Source merchants should apply patch:
 
- [AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt) 
+ [AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch) 
 
 In order to fix the issue for 2.3.7-p1, Adobe Commerce (all deployment methods) and Magento Open Source merchants should apply patch: 
- [AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt) 
+ [AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch) 
 
 ## How to Apply the Patch
 
