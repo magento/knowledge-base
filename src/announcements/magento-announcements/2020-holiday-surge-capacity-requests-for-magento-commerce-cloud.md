@@ -13,7 +13,7 @@ Once you have completed the recommended estimation, if your team has identified 
 
  **Requesting Surge Capacity**
 
-Adobe Commerce merchants on our cloud infrastructure that anticipate a need for additional capacity during the holiday season should [submit a Surge Capacity Support Ticket](https://support.magento.com/hc/en-us/articles/360041138511-How-to-request-temporary-additional-cloud-capacity-for-Magento-Commerce-Cloud) via our [Help Center](https://support.magento.com/hc/en-us) ,  indicating the dates and expected capacity needs within the ticket. Please note that increased capacity will require usage of your licensed overage capacity.
+Adobe Commerce merchants on our cloud infrastructure that anticipate a need for additional capacity during the holiday season should [submit a Surge Capacity Support Ticket](https://support.magento.com/hc/en-us/articles/360041138511-How-to-request-temporary-additional-cloud-capacity-for-Magento-Commerce-Cloud) via our [Help Center](https://support.magento.com/hc/en-us), indicating the dates and expected capacity needs within the ticket. Please note that increased capacity will require usage of your licensed overage capacity.
 
 **We recommend submitting these tickets at least 48 business hours in advance of when the capacity is needed; and additionally recommend that requests for the Black Friday / Cyber Monday period be placed as far in advance as possible, as capacity during this period is limited.**
 
