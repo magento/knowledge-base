@@ -33,12 +33,12 @@ PHP fatal error.
 
 As a workaround you run the following command in the CLI/Terminal: `composer require symfony/polyfill-php80` from the Magento root folder or install a composer patch.  
 
-For Adobe Commerce merchants on 2.4.3 download the following patch:
+In order to fix the issue for 2.4.3, Adobe Commerce (all deployment methods) and Magento Open Source merchants should apply patch:
 
- [Download AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt) 
+ [AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch.txt) 
 
-For Adobe Commerce and Magento Open Source merchants on 2.7-p1 download the following patch:
- [Download AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt) 
+In order to fix the issue for 2.3.7-p1, Adobe Commerce (all deployment methods) and Magento Open Source merchants should apply patch: 
+ [AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.txt) 
 
 ## How to Apply the Patch
 
