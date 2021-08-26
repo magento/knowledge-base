@@ -123,7 +123,7 @@ External links are straightforward:
 
 Any kind of attachment should be in .png, .jpg, and .jpeg formats. For security purpose, we only accept attachments that are in one of the three formats.
 
-To insert an attachment to your article, place your file in the *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the attachment.
+To insert an image, place the image to *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the image to your article:
 
 ```markdown
 ![alt text](assets/image.png)
