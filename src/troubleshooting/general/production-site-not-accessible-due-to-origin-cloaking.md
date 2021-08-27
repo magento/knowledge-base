@@ -11,9 +11,9 @@ This article provides a solution for when your Magento Commerce Cloud staging or
 
 ## Issue
 
-https://mydomain.com.c.<projectid>.magento.cloud/ is no longer accessible.
+https://mydomain.com.c.<`projectid`>.magento.cloud/ is no longer accessible.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Log in to your project.
 1. Click **Access Project** for a list of URLs and SSH.
