@@ -1,4 +1,5 @@
 ## Author in Markdown
+
 Generally, we use [Adobe Experience League Markdown Syntax Style Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), but there are some differences and exceptions. Also, certain HTML tags are required in certain cases.
 
 The following are examples of the Markdown formatting that is most commonly used in our repo.
@@ -118,7 +119,9 @@ External links are straightforward:
 [Adobe](https://www.adobe.com)
 ```
 
-### Links to images
+### Links to attachments
+
+Any kind of attachment should be in .png, .jpg, and .jpeg formats. For security purpose, we only accept attachments that are in one of the three formats.
 
 To insert an image, place the image to *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the image to your article:
 
@@ -126,15 +129,10 @@ To insert an image, place the image to *assets* sub-folder in the same section f
 ![alt text](assets/image.png)
 ```
 
-If you want to customize the size of your image, you will need to use HTML:
+If you want to customize the size of your image, you will need to do that using the following HTML tag:
 ```html
-<img src = "assets/image.png" alt = "your alt text" style="width:50px;height:100px;">
+<img src = "assets/image.png" alt = "your alt text" width="custom width, ex: 250px">
 ```
-
-### Links to attached files
-You can upload *.pdf* and *.zip* files and add links to them in article, so that users can download the files.
-
-To do so, place the files in the *assets* sub-folder in the same section folder as the article, and use the following syntax to insert the link to the file in your article:
 
 ```markdown
 [asset_title](assets/%file_name%).
