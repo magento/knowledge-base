@@ -36,6 +36,6 @@ Reduce the number of product attribute options by:
 Refer to:
 
 * Adobe Commerce User Guide [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
-* Magento User Guide [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
+* Adobe Commerce User Guide [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
 * [Best practice for attribute SET in Magento](https://support.magento.com/hc/en-us/articles/360045041092)
 * [Best practice Magento product attributes](https://support.magento.com/hc/en-us/articles/360048256612)
