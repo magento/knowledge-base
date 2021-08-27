@@ -19,7 +19,7 @@ Potential site impacts can include:
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce (on-premise), all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 * Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
