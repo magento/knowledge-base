@@ -7,7 +7,7 @@ If you are a Pro customer and currently use the standard-sized Integration Envir
 
 ## Pro
 
-1. If you are on Pro, to upgrade, you must reduce the number of Integration branches to 2 total ( **the main Integration branch is included in the 2 total** ). **Note: Do not count the primary branch in this total. The primary branch is not considered an integration branch.** Follow the steps in DevDocs' [Manage branches with the Project Web Interface](https://devdocs.magento.com/cloud/project/project-webint-branch.html?) .
+1. If you are on Pro, to upgrade, you must reduce the number of Integration branches to 2 in total ( **the main Integration branch is included in the total** ). Follow the steps in DevDocs' [Manage branches with the Project Web Interface](https://devdocs.magento.com/cloud/project/project-webint-branch.html?) . For clarification on branch definition and what counts as an Integration branch, consult [Pro Architecture](https://devdocs.magento.com/cloud/architecture/pro-architecture.html).
 1. The merchant needs to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting an Upgrade to Enhanced Integration Environments, using the contact reason " *Request a cloud configuration change* ".
 1. Magento Customer Engineering team confirms the number of Integration environments and begins the change.
 1. The merchant will be notified in the ticket when the upgrade is complete.
