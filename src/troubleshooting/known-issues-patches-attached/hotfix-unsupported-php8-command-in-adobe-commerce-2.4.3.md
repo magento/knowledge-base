@@ -15,13 +15,13 @@ The issue will be fixed in the scope of 2.4.4, 2.4.3-p1 and 2.3.7-p2 releases.
 
 ## Issue
 
-The issue is caused by the new Adobe Commerce 2.4.3 and 2.3.7-p1 versions using PHP 8 only function `str_contains`. Adobe Commerce 2.4.3 and 2.3.7-p1 are only compatible with PHP 7.4 so this function cannot be used. 
+The issue is caused by the new Adobe Commerce 2.4.3 and 2.3.7-p1 versions using PHP 8 only function `str_contains`. Adobe Commerce 2.4.3 and 2.3.7-p1 are only compatible with PHP 7.4 so this function cannot be used.
 
  <ins>Steps to reproduce</ins> :
 
 Attempt to upgrade to Adobe Commerce 2.4.3 or 2.3.7-p1.
 
-<ins>Expected result:</ins> 
+<ins>Expected result:</ins>
 
 Successful upgrade.
 
@@ -35,10 +35,10 @@ As a workaround you run the following command in the CLI/Terminal: `composer req
 
 In order to fix the issue for 2.4.3, Adobe Commerce (all deployment methods) and Magento Open Source merchants should apply patch:
 
- [AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch) 
+ [AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch.zip) 
 
-In order to fix the issue for 2.3.7-p1, Adobe Commerce (all deployment methods) and Magento Open Source merchants should apply patch: 
- [AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch) 
+In order to fix the issue for 2.3.7-p1, Adobe Commerce (all deployment methods) and Magento Open Source merchants should apply patch:
+ [AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.zip)
 
 ## How to Apply the Patch
 
