@@ -19,7 +19,7 @@ The issue is caused by the new Adobe Commerce 2.4.3 version using PHP 8 only fun
 
  <ins>Steps to reproduce</ins> :
 
-Attempt to upgrade to Adobe Commerce 2.4.3.
+Attempt to upgrade to Adobe Commerce 2.4.3 or 2.3.7-p1.
 
 <ins>Expected result:</ins> 
 
