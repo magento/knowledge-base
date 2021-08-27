@@ -57,7 +57,15 @@ To resolve the blocked deployment, update the `routes.yaml` file to configure ro
 
 ### Method 2: Manually add the missing route configuration
 
-1. To serve all domains in your project using the same route configuration, update the `routes.yaml` file adding route templates for the default domain and all other domains on your project as shown in the following example:    ```yaml    "http://{default}/":        type: upstream        upstream: "mymagento:http"    "http://{all}/":        type: upstream        upstream: "mymagento:http"    ```    
+1. To serve all domains in your project using the same route configuration, update the `routes.yaml` file adding route templates for the default domain and all other domains on your project as shown in the following example:
+   ```yaml
+   "http://{default}/":
+       type: upstream
+       upstream: "mymagento:http"
+   "http://{all}/":
+       type: upstream
+       upstream: "mymagento:http"
+   ```    
 1. Сommit and push your changes to redeploy your project.
 
 For detailed instructions to update the route configuration, see [Configure routes](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) in the Magento Cloud Guide.
