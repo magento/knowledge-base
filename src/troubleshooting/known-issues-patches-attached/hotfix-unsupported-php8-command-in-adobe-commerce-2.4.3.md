@@ -15,7 +15,7 @@ The issue will be fixed in the scope of 2.4.4, 2.4.3-p1 and 2.3.7-p2 releases.
 
 ## Issue
 
-The issue is caused by the new Adobe Commerce 2.4.3 version using PHP 8 only function `str_contains`. Adobe Commerce 2.4.3 is only compatible with PHP 7.4 so this function cannot be used. 
+The issue is caused by the new Adobe Commerce 2.4.3 and 2.3.7-p1 versions using PHP 8 only function `str_contains`. Adobe Commerce 2.4.3 and 2.3.7-p1 are only compatible with PHP 7.4 so this function cannot be used. 
 
  <ins>Steps to reproduce</ins> :
 
