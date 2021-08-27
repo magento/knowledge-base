@@ -1,27 +1,27 @@
 ---
-title: Error purging cache in Magento Commerce Admin
-labels: Magento Commerce Cloud,admin,error,cache, 2.3.0, 2.4.2-p1, 2.3.7, 2.3.1, 2.3.2, 2.3.2-p2, 2.3.3, 2.3.3-p1, 2.3.4, 2.3.4-p2, 2.3.5-p1, 2.3.5-p2, 2.4.0, 2.3.6, 2.4.0-p1, 2.4.1, 2.3.6-p1, 2.4.2
+title: Error purging cache in Adobe Commerce Admin
+labels: Adobe Commerce, Magento Commerce Cloud,admin,error,cache, 2.3.0, 2.4.2-p1, 2.3.7, 2.3.1, 2.3.2, 2.3.2-p2, 2.3.3, 2.3.3-p1, 2.3.4, 2.3.4-p2, 2.3.5-p1, 2.3.5-p2, 2.4.0, 2.3.6, 2.4.0-p1, 2.4.1, 2.3.6-p1, 2.4.2
 ---
 
-This article explains how to identify the cause of an error message that occurs when purging the cache in Magento Commerce Admin. When you attempt to purge cache through the Admin you receive the following message:
+This article explains how to identify the cause of an error message that occurs when purging the cache in Adobe Commerce Admin. When you attempt to purge cache through the Admin you receive the following message:
 */app/project-id/pub/media/catalog/product/cache/directory/filename" file can't be deleted. Warning!unlink(/app/project id/pub/media/catalog/product/cache/directory/filename): No such file or directory*
 
 ## Affected products and versions
 
-Magento Commerce and Magento Commerce Cloud: 2.3.0-2.3.7, 2.4.0-2.4.2-p1
+Adobe Commerce and Adobe Commerce Cloud: 2.3.0-2.3.7, 2.4.0-2.4.2-p1
 
 ## Issue
 
-When you attempt to purge cache through the Magento Admin you receive an error message.
+When you attempt to purge cache through the Adobe Commerce Admin you receive an error message.
 
 <ins>Steps to reproduce:</ins>
 
-1. In Magento Admin, go to **System** > **Tools** > **Cache Management**. 
+1. In Adobe Commerce Admin, go to **System** > **Tools** > **Cache Management**. 
 1. Select any of the clear caching options.
 
 <ins>Expected result:</ins>
 
-You successfully flush Magento cache with no errors.
+You successfully flush Adobe Commerce cache with no errors.
 
 <ins>Actual result:</ins>
 
