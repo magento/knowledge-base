@@ -5,7 +5,7 @@ labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3
 
 The MDVA-34886 Magento patch solves the issue where Search does return results when weight attribute is configured as searchable.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

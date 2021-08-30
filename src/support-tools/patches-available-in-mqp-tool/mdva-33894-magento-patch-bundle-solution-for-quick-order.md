@@ -3,7 +3,7 @@ title: "MDVA-33894 Magento patch: bundle solution for Quick Order"
 labels: 2.4.0,2.4.0-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,order by SKU,quick order,support tools
 ---
 
-The MDVA-33894 Magento patch fixes multiple issues for the Quick Order functionality including adding and removing multiple products and SKU case sensitivity. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-33894 Magento patch fixes multiple issues for the Quick Order functionality including adding and removing multiple products and SKU case sensitivity. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 

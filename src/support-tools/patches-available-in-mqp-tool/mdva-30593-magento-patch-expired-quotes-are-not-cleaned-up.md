@@ -3,7 +3,7 @@ title: "MDVA-30593 Magento patch: expired quotes are not cleaned up"
 labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.3-p1,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,quote,support tools
 ---
 
-The MDVA-30593 patch solves the issue where quotes that expired according to the **Quote Lifetime** setting, are not cleaned up. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Magento Commerce 2.3.4.
+The MDVA-30593 patch solves the issue where quotes that expired according to the **Quote Lifetime** setting, are not cleaned up. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Magento Commerce 2.3.4.
 
 ## Affected products and versions
 

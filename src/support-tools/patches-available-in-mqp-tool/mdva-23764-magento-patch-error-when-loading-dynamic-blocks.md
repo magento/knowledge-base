@@ -9,7 +9,7 @@ The MDVA-23764 Magento patch fixes the bug in
 JsFooterPlugin.php
 ```
 
-that affects the display of dynamic blocks. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
+that affects the display of dynamic blocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
 
 ## Affected products and versions
 

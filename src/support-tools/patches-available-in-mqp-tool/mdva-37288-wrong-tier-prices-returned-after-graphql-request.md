@@ -3,7 +3,7 @@ title: "MDVA-37288: Wrong tier prices returned after GraphQL request"
 labels: 2.4.2,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool, support tools, products, GraphQL
 ---
 
-The MDVA-37288 patch solves the issue where the wrong tier prices are returned after GraphQL request. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+The MDVA-37288 patch solves the issue where the wrong tier prices are returned after GraphQL request. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

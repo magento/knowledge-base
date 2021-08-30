@@ -3,7 +3,7 @@ title: "MDVA-31007 Magento patch: custom address attributes display"
 labels: 2.4.0,2.4.0-p1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool
 ---
 
-The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales > Orders** location). This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
+The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales > Orders** location). This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

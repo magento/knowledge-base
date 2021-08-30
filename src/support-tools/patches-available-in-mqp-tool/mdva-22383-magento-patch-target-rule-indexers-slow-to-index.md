@@ -3,7 +3,7 @@ title: "MDVA-22383: target rule indexers slow to index"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.20,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,index,product save,support tools,target rule
 ---
 
-The MDVA-22383 Magento patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Magento 2.3.5.
+The MDVA-22383 Magento patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Magento 2.3.5.
 
 ## Affected products and versions
 

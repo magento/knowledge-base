@@ -5,7 +5,7 @@ labels: 2.4.2,QPT 1.0.22,QPT patches,Magento Commerce,Magento Commerce Cloud,Qua
 
 The MDVA-36853 Magento patch fixes the issue when no images load since the page builder media gallery widget doesn't load when you have a large media directory.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-36853. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-36853. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

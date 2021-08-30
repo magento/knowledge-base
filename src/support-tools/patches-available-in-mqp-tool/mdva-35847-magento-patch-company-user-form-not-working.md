@@ -5,7 +5,7 @@ labels: 2.4.1,2.4.1-p1,2.4.2,500 error,Company User,QPT 1.0.19,Magento Commerce,
 
 The MDVA-35847 Magento patch solves the issue of the Company User form is not working and returns a 500 error on the frontend.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35847. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35847. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

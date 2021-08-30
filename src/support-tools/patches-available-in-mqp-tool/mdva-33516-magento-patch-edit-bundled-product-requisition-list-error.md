@@ -3,7 +3,7 @@ title: "MDVA-33516 Magento patch: edit bundled product Requisition List error"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,QPT 1.0.14,Magento Commerce Cloud,bundle options,error,support tools
 ---
 
-The MDVA-33516 Magento patch fixes the issue where when editing the bundle product type from the Requisition List, you are redirected to a requisition list item error page. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-33516 Magento patch fixes the issue where when editing the bundle product type from the Requisition List, you are redirected to a requisition list item error page. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 

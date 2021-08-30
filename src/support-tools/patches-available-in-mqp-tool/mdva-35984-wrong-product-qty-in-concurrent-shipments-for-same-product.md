@@ -5,7 +5,7 @@ labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.21,QPT patches,Mage
 
 The MDVA-35984 Magento patch fixes the issue when creating multiple concurrent shipments for the same product gives an incorrect product quantity (Qty).
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-35984. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-35984. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

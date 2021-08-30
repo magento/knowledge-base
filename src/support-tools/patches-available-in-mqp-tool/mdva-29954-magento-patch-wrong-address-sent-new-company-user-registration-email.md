@@ -3,7 +3,7 @@ title: "MDVA-29954 Magento patch: wrong address sent new company user registrati
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.1,B2B features,Companies Admin,QPT 1.0.8,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,New Company Registration Request,email address,sender email,user
 ---
 
-The MDVA-29954 patch solves the issue where the "New Company Registration Request" and "You've been linked to a company" emails are sent from the wrong email address. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.8 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
+The MDVA-29954 patch solves the issue where the "New Company Registration Request" and "You've been linked to a company" emails are sent from the wrong email address. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.8 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

@@ -3,7 +3,7 @@ title: "MDVA-28409 Magento patch: Magento web server crashing - Out of memory"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,QPT,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cron,memory,out of memory,quote,support tools
 ---
 
-The MDVA-28409 patch solves the issue where the cron job for removing quotes stopped due to having to process a large number of items. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed.
+The MDVA-28409 patch solves the issue where the cron job for removing quotes stopped due to having to process a large number of items. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed.
 
 ## Affected products and versions
 

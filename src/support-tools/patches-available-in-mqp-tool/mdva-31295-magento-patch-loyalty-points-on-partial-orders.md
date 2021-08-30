@@ -3,7 +3,7 @@ title: "MDVA-31295 Magento Patch: Loyalty points on partial orders"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,QPT 1.0.8,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,order,rewards points,support tools,tax
 ---
 
-The MDVA-31295 Magento patch fixes the issue where reward points are not calculated correctly when a partial order completes and items are taxed. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.8 is installed. Please note that the issue will be fixed in Magento version 2.4.2.
+The MDVA-31295 Magento patch fixes the issue where reward points are not calculated correctly when a partial order completes and items are taxed. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.8 is installed. Please note that the issue will be fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

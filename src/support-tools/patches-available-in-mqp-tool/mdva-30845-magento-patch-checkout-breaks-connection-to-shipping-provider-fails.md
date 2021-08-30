@@ -3,7 +3,7 @@ title: "MDVA-30845 Magento patch: checkout breaks connection to shipping provide
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,QPT 1.0.12,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,checkout,shipping,support tools
 ---
 
-The MDVA-30845 Magento patch fixes the issue where the *Sorry, no quotes are available for this order at this time* error is displayed when failing to connect to UPS XML/USPS/DHL during checkout, and no other shipping method is available. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
+The MDVA-30845 Magento patch fixes the issue where the *Sorry, no quotes are available for this order at this time* error is displayed when failing to connect to UPS XML/USPS/DHL during checkout, and no other shipping method is available. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
 
 ## Affected products and versions
 

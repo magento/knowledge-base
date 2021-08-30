@@ -3,7 +3,7 @@ title: "MDVA-34928: checkout page error after store credit removed"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart,checkout,error,store credit,support tools
 ---
 
-The MDVA-34928 Magento patch solves the issue where after removing store credit there is an infinite loader at the checkout page. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-34928. Please note that the issue was fixed in Magento 2.3.6.
+The MDVA-34928 Magento patch solves the issue where after removing store credit there is an infinite loader at the checkout page. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-34928. Please note that the issue was fixed in Magento 2.3.6.
 
 ## Affected products and versions
 

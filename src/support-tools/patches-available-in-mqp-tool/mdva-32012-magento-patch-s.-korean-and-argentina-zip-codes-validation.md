@@ -3,7 +3,7 @@ title: "MDVA-32012 Magento patch: S. Korean and Argentina zip codes validation"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Argentina,Korea,QPT 1.0.9,QPT patches,Magento Commerce,Magento Commerce Cloud,address,support tools,zip/postal code seems to be invalid
 ---
 
-The MDVA-32012 Magento patch solves the issue where Argentinean and South Korean zip codes are not validating, due to changes or variation in national postal code formats. South Korean zip codes are now required to be 5-digits, whereas previously they were 6-digits. Argentinean zip codes can be both numeric and alphanumeric. The MDVA-32012 Magento patch means that these formats for postal code values will validate for these countries. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.9 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
+The MDVA-32012 Magento patch solves the issue where Argentinean and South Korean zip codes are not validating, due to changes or variation in national postal code formats. South Korean zip codes are now required to be 5-digits, whereas previously they were 6-digits. Argentinean zip codes can be both numeric and alphanumeric. The MDVA-32012 Magento patch means that these formats for postal code values will validate for these countries. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.9 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

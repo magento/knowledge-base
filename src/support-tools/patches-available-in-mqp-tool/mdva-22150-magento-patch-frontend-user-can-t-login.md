@@ -5,7 +5,7 @@ labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,503 error,QPT 1.0.13,QPT patches,Mag
 
 The MDVA-22150 Magento patch solves the issue when a frontend user can't log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Magento version 2.3.4.
+This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Magento version 2.3.4.
 
 ## Affected products and versions
 

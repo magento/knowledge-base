@@ -3,7 +3,7 @@ title: "MDVA-37478: Can't create partial invoice via REST API"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Payment on account,REST API,order,partial invoice
 ---
 
-The MDVA-37478 Magento patch fixes the issue when you're unable to create a partial invoice via REST API for an order placed with payment method **Payment on Account**. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37478. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+The MDVA-37478 Magento patch fixes the issue when you're unable to create a partial invoice via REST API for an order placed with payment method **Payment on Account**. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37478. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

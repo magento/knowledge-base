@@ -5,7 +5,7 @@ labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,
 
 The MDVA-34943 Magento patch solves the issue where a quick order can't add 2 or more products to the cart.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.17 is installed. Please note that the issue was fixed in Magento version 2.4.2.
+This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.17 is installed. Please note that the issue was fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

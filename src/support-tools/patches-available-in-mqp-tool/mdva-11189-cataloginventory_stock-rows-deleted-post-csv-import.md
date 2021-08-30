@@ -3,7 +3,7 @@ title: "MDVA-11189: cataloginventory_stock rows deleted post CSV import"
 labels: 2.2.3,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,Inventory,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,catalog,csv file,data discrepancies,import,product,support tools
 ---
 
-The MDVA-11189 Magento patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Magento 2.3.5.
+The MDVA-11189 Magento patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Magento 2.3.5.
 
 ## Affected products and versions
 

@@ -3,7 +3,7 @@ title: "MDVA-37225: Quick order not working with integer SKU"
 labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,integer SKU,quick order
 ---
 
-The MDVA-37225 Magento patch fixes the issue when the page doesn't load when creating a quick order when there is an integer value in imported SKUs. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37225. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+The MDVA-37225 Magento patch fixes the issue when the page doesn't load when creating a quick order when there is an integer value in imported SKUs. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37225. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

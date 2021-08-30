@@ -5,7 +5,7 @@ labels: Inventory,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud
 
 The MDVA-34850 Magento patch fixes the issue where the swatches are not stricken through when the inventory reaches "0", and are not visible in the the Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out Of Stock Products** is also set to *Yes* in admin configuration. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed.
 
 ## Affected products and versions
 

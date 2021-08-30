@@ -3,7 +3,7 @@ title: "MDVA-33281 Magento patch: inventory inconsistency issues"
 labels: 2.3.4,2.3.5-p1,2.3.5-p2,Inventory,QPT 1.0.14,Magento Commerce Cloud,PHP Fatal Error,data discrepancies,duplicate,inventory source,order placement,support tools
 ---
 
-The MDVA-33281 Magento patch fixes three inventory inconsistency issues. Click on the linked issues under the Issue section to see steps to reproduce these errors. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed.
+The MDVA-33281 Magento patch fixes three inventory inconsistency issues. Click on the linked issues under the Issue section to see steps to reproduce these errors. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed.
 
 ## Affected products and versions
 

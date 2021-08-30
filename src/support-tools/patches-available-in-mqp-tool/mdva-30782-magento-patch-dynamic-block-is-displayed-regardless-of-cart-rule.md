@@ -3,7 +3,7 @@ title: "MDVA-30782 Magento patch: dynamic block is displayed regardless of cart 
 labels: 2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,cart_rules,dynamic block,support tools
 ---
 
-The MDVA-30782 Magento patch fixes the issue where a dynamic block is displayed regardless of the cart rule. This patch is available when the<a>Quality Patches Tool (QPT) tool</a>1.0.7 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
+The MDVA-30782 Magento patch fixes the issue where a dynamic block is displayed regardless of the cart rule. This patch is available when the<a>Quality Patches Tool (QPT)</a>1.0.7 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

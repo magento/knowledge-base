@@ -3,7 +3,7 @@ title: "MDVA-33289 Magento patch: Javascript in address at checkout"
 labels: 2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,2.4.2,Google Tag Manager,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,address,checkout,error,javascript,support tools
 ---
 
-The MDVA-33289 Magento patch fixes the problem where Javascript shows in address at payment. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-33289. Please note that the issue was scheduled to be fixed in Magento 2.4.3.
+The MDVA-33289 Magento patch fixes the problem where Javascript shows in address at payment. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-33289. Please note that the issue was scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 

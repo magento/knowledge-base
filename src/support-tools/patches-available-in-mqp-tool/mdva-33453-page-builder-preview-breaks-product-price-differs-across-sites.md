@@ -3,7 +3,7 @@ title: "MDVA-33453: Page Builder preview breaks product price differs across sit
 labels: 2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,QPT 1.0.16,QPT patches,Magento Commerce,Magento Commerce Cloud,Page Builder,error,price,product,support tools
 ---
 
-The MDVA-33453 Magento patch solves the issue where the Page Builder preview is broken if matching products have a different price for each website. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-33453 Magento patch solves the issue where the Page Builder preview is broken if matching products have a different price for each website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 

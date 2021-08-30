@@ -9,7 +9,7 @@ The MDVA-33106 Magento patch fixes the issue where the rescheduled product chang
 bin/magento cron:run
 ```
 
-command is executed. This patch is available when the<a>Quality Patches Tool (QPT) tool</a>1.0.13 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
+command is executed. This patch is available when the<a>Quality Patches Tool (QPT)</a>1.0.13 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
 
 ## Affected products and versions
 

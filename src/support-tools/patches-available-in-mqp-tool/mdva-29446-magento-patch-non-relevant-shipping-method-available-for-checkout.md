@@ -3,7 +3,7 @@ title: "MDVA-29446 Magento Patch: Non-relevant shipping method available for che
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,checkout,shipping,support tools
 ---
 
-The MDVA-29446 patch solves the issue where a shipping method that is not applicable shows up on the checkout shipping method options, and if selected an error message " *Carrier with such method not found null, flat rate* ." displays. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in later Magento versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues) ).
+The MDVA-29446 patch solves the issue where a shipping method that is not applicable shows up on the checkout shipping method options, and if selected an error message " *Carrier with such method not found null, flat rate* ." displays. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in later Magento versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues) ).
 
 ## Affected products and versions
 

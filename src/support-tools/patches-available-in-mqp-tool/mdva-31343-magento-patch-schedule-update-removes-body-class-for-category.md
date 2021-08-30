@@ -3,7 +3,7 @@ title: "MDVA-31343 Magento patch: schedule update removes body class for categor
 labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,CSS,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,category,schedule update,support tools
 ---
 
-MDVA-31343 Magento patch fixes the issue where the assigned layout body CSS class for a category gets removed during scheduled update. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The issue is scheduled to be fixed in Magento 2.4.2.
+MDVA-31343 Magento patch fixes the issue where the assigned layout body CSS class for a category gets removed during scheduled update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The issue is scheduled to be fixed in Magento 2.4.2.
 
 ## Affected products and versions
 

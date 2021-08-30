@@ -5,7 +5,7 @@ labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.20,QPT patches,Magento Commerce,Ma
 
 The MDVA-22026 Magento patch fixes the issue of being unable to import product images from an external URL.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22026. Please note that the issue was fixed in Magento version 2.3.4.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22026. Please note that the issue was fixed in Magento version 2.3.4.
 
 ## Affected products and versions
 

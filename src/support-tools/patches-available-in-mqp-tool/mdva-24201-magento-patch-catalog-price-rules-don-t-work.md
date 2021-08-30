@@ -5,7 +5,7 @@ labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,QPT 1.
 
 The MDVA-24201 Magento patch solves the issue where active catalog price rules in the database do not apply on the frontend.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.14 is installed. Please note that the issue was fixed in Magento version 2.3.5.
+This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.14 is installed. Please note that the issue was fixed in Magento version 2.3.5.
 
 ## Affected products and versions
 

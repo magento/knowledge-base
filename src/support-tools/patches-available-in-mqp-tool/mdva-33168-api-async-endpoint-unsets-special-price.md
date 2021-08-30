@@ -5,7 +5,7 @@ labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3
 
 The MDVA-33168 Magento patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-33168. Please note that the issue is planned to be fixed in Magento version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-33168. Please note that the issue is planned to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

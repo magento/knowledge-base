@@ -5,7 +5,7 @@ labels: 2.3.0,2.4.1,2.4.1-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Com
 
 The MDVA-33393 Magento patch solves the issue where the error message: *Provided countryId does not exist.* displays in the exception log.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 

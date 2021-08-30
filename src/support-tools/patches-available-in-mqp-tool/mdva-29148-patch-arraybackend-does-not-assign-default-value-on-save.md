@@ -3,7 +3,7 @@ title: MDVA-29148 Patch ArrayBackend does not assign default value on save
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,attribute,products,support tools
 ---
 
-The MDVA-29148 patch solves the issue where `\Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend` does not assign the default value on save. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.7 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
+The MDVA-29148 patch solves the issue where `\Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend` does not assign the default value on save. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.7 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

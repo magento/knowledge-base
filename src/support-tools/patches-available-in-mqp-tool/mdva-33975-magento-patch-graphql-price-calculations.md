@@ -12,7 +12,7 @@ The MDVA-33975 patch fixes GraphQL price calculation issues. These issues includ
 * The shipping amount discount was not retrieved on the last billing step, and the grand total was incorrectly displayed.
 * The discount is not applied in GraphQL when customer segment is used in the cart price rule condition.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.14 is installed.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.14 is installed.
 
 ## Affected products and versions
 

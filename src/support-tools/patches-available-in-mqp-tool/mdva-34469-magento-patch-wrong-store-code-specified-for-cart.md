@@ -5,7 +5,7 @@ labels: 2.4.1,2.4.1-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce 
 
 The MDVA-34469 Magento patch solves the issue where users get the error message: *Wrong store code specified for cart* when adding a product to the cart after switching store views.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
 
 ## Affected products and versions
 

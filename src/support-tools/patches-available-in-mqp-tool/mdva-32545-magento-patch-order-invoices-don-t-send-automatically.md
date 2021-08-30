@@ -5,7 +5,7 @@ labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,
 
 The MDVA-32545 Magento patch fixes the issue where Invoice emails don't automatically send to the customer for orders placed from the Admin. This affects any payment method with the **Sale** transaction type, like **Braintree** or **PayPal Payflow Pro** .
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Magento version 2.4.2.
+This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Magento version 2.4.2.
 
 ## Affected products and versions
 

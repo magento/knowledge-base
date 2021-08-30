@@ -5,7 +5,7 @@ labels: 2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,QPT 1.0.17,QPT pat
 
 The MDVA-35092 Magento patch fixes the issue where you see Error: "Video not Found". This error message displays when you enter a Vimeo video using the native Add Video interface in the product admin of Magento. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed.
 
 ## Affected products and versions
 

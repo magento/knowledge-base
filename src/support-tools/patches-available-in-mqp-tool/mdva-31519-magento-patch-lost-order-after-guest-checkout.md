@@ -5,7 +5,7 @@ labels: 2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.14,QPT patches,Magento Commerce,Magento 
 
 The MDVA-31519 Magento patch solves the issue where paid orders are missing and lock wait timeouts in guest checkout.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.14 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.14 is installed. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

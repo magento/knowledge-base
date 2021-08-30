@@ -7,7 +7,7 @@ labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,GraphQL,QPT 1.0.13
 >
 >A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-32714 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975 Magento patch: GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351) .
 
-The MDVA-32714 Magento patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-32714 Magento patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 

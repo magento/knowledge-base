@@ -3,7 +3,7 @@ title: "MDVA-31399 Magento patch: Subtotal (Incl. Tax) in cart rule condition"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,QPT 1.0.12,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart price rule,support tools
 ---
 
-The MDVA-31399 Magento patch adds the *Subtotal (Incl. Tax)* option to [cart price rule condition](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions) , fixing the issue where it was impossible to apply a cart price rule based on Subtotal (Incl. Tax) number. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
+The MDVA-31399 Magento patch adds the *Subtotal (Incl. Tax)* option to [cart price rule condition](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions) , fixing the issue where it was impossible to apply a cart price rule based on Subtotal (Incl. Tax) number. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
 
 ## Affected products and versions
 

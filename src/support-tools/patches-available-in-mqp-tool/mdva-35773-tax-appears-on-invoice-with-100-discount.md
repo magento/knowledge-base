@@ -5,7 +5,7 @@ labels: 100% discount,2.3.6,2.3.6-p1,2.3.7,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0
 
 The MDVA-35773 Magento patch fixes the issue with the Grand Total not being shown as zero on the invoice for orders with 100% discount.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-35773. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-35773. Please note that the issue is scheduled to be fixed in Magento version 2.4.3.
 
 ## Affected products and versions
 

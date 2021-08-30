@@ -2,7 +2,7 @@
 title: "MDVA-36572: New inventory reservation created after updating credit memo"
 labels: QPT Patches,Quality Patches Tool,QPT,Support Tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
-The MDVA-36572 Magento patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+The MDVA-36572 Magento patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
 ## Affected products and versions
 

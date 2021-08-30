@@ -3,7 +3,7 @@ title: "MDVA-31236 Magento patch: admins cannot setup 2FA or log in"
 labels: 2.4.0,2.4.0-p1,2.4.1,2FA,QPT 1.0.12,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools
 ---
 
-The MDVA-31236 Magento patch fixes the issue where Magento admin users with custom resource access cannot set up [two-factor authentication (2FA)](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) or log in. This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
+The MDVA-31236 Magento patch fixes the issue where Magento admin users with custom resource access cannot set up [two-factor authentication (2FA)](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) or log in. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
 
 ## Affected products and versions
 

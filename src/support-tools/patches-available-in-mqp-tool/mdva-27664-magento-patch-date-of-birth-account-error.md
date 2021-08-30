@@ -5,7 +5,7 @@ labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.15,QPT patches,M
 
 The MDVA-27664 Magento patch solves the issue where a customer account's date of birth could be greater than today.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. Please note that the issue was fixed in Magento version 2.3.6.
+This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. Please note that the issue was fixed in Magento version 2.3.6.
 
 ## Affected products and versions
 

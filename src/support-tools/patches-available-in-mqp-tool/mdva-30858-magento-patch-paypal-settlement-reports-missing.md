@@ -5,7 +5,7 @@ labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,
 
 The MDVA-30858 Magento patch fixes missing PayPal Settlement Reports when having multiple PayPal accounts. The reports should be available under Admin sidebar > **Reports** > Sales > **PayPal Settlement** . Instead, the message: *We couldn't find any records.* displays.
 
-This patch is available when the [Quality Patches Tool (QPT) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
 
 ## Affected products and versions
 
