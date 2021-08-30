@@ -26,7 +26,7 @@ Security-only releases contain security fixes only and no quality fixed. Please 
 
 Magento will continue to have security-only releases for the latest release line as well. The process for these are outlined in [Introducing the New Security-only Patch Release](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) Magento DevBlog post.
 
-## What are Quality Patches Tool?
+## What is Quality Patches Tool?
 
 Please refer to the [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) article.
 
