@@ -6,7 +6,7 @@ This article provides a solution for when B2B shared catalog feature is not work
 
 ## Affected products and versions
 
-* Adobe Commerce for Cloud and Adobe Commerce 2.4.3.
+* Adobe Commerce for cloud and Adobe Commerce (on-premise) 2.4.3
 
 ## Issue
 
