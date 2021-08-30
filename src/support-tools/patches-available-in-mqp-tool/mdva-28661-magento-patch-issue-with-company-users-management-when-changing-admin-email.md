@@ -1,9 +1,9 @@
 ---
 title: "MDVA-28661 Magento patch: issue with company users management when changing admin email"
-labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,B2B,MQP 1.0.5,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,email,management,support tools,user
+labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,B2B,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,email,management,support tools,user
 ---
 
-MDVA-28661 Magento patch available in the [Magento Quality Patches (MQP)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where an error is thrown in the **Company Users** company account section after **Company Admin** email address is changed.
+MDVA-28661 Magento patch available in the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where an error is thrown in the **Company Users** company account section after **Company Admin** email address is changed.
 
 ## Affected products and versions
 
@@ -11,7 +11,7 @@ Magento Commerce and Magento Commerce Cloud 2.3.0 to 2.4.1 (including 2.3.5-p1) 
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
+>Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
     status` 
 
 ## Issue
@@ -42,17 +42,17 @@ No such entity with id = 2
 
 To apply individual patches use the following links depending on your Magento product:
 
-* Magento Commerce: DevDocs [Apply patches using Magento Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
+* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
 * Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
 
 ## Related reading
 
-To learn more about Magento Quality Patches, refer to:
+To learn more about Quality Patches Tool, refer to:
 
-* [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) 
-* [Check if patch is available for your Magento issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252) 
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) 
+* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) 
 
-For info about other patches available in MQP tool, refer to the [Patches available in MQP tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
+For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
 
 To learn more about B2B Company functionality, refer to these DevDocs articles:
 

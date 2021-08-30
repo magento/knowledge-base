@@ -1,11 +1,11 @@
 ---
 title: 'MDVA-35092 Magento patch: Vimeo Error: "Video not found"'
-labels: 2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,MQP 1.0.17,MQP patches,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,Vimeo,error,support tools,video
+labels: 2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Vimeo,error,support tools,video
 ---
 
 The MDVA-35092 Magento patch fixes the issue where you see Error: "Video not Found". This error message displays when you enter a Vimeo video using the native Add Video interface in the product admin of Magento. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
-This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed.
+This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed.
 
 ## Affected products and versions
 
@@ -15,7 +15,7 @@ This patch is available when the [Magento Quality Patch (MQP) tool](https://supp
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
+>Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
 
 ## Issue
 
@@ -34,16 +34,16 @@ The new video is found and saved. <span class="wysiwyg-underline">Actuals result
 
 ## Apply the patch
 
-For instructions on how to apply an MQP patch, use the following links depending on your Magento product:
+For instructions on how to apply an QPT patch, use the following links depending on your Magento product:
 
-* Magento Commerce: DevDocs [Apply patches using Magento Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
+* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
 * Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
 
 ## Related reading
 
-To learn more about Magento Quality Patches, refer to:
+To learn more about Quality Patches Tool, refer to:
 
-* [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
+* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
 
-For info about other patches available in MQP tool, refer to the [Patches available in MQP tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
+For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

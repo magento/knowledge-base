@@ -1,9 +1,9 @@
 ---
 title: "MDVA-32634 Magento patch: move category in hierarchy url_path wrong"
-labels: MQP 1.0.16,MQP patches,Magento Commerce,Magento Commerce Cloud,URL,catalog,category,data discrepancies,support tools
+labels: QPT 1.0.16,QPT patches,Magento Commerce,Magento Commerce Cloud,URL,catalog,category,data discrepancies,support tools
 ---
 
-The MDVA-32634 Magento patch solves the issue where the url\_path of the catalog category does not change after moving the category in the hierarchy. This patch is available when the [Magento Quality Patch (MQP) tool](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-32634 Magento patch solves the issue where the url\_path of the catalog category does not change after moving the category in the hierarchy. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.3.
 
 ## Affected products and versions
 
@@ -13,7 +13,7 @@ The MDVA-32634 Magento patch solves the issue where the url\_path of the catalog
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
+>Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
 
 ## Issue
 
@@ -30,16 +30,16 @@ Moving a catalog category in the hierarchy results in an incorrect url\_path. Th
 
 ## Apply the patch
 
-For instructions on how to apply an MQP patch, use the following links depending on your Magento product:
+For instructions on how to apply an QPT patch, use the following links depending on your Magento product:
 
-* Magento Commerce: DevDocs [Apply patches using Magento Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
+* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
 * Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
 
 ## Related reading
 
-To learn more about Magento Quality Patches, refer to:
+To learn more about Quality Patches Tool, refer to:
 
-* [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
+* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
 
-For info about other patches available in MQP tool, refer to the [Patches available in MQP tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
+For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

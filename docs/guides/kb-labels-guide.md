@@ -59,8 +59,8 @@ See the sections below for detailed recommendations on how to define labels for 
     <td>"Venia"</td>
   </tr>
   <tr>
-    <td>Magento Quality Patches, MQP</td>
-    <td>"Magento Quality Patches,MQP patches"</td>
+    <td>Quality Patches Tool, QPT</td>
+    <td>"Quality Patches Tool,QPT patches"</td>
   </tr>
   </tbody>
 </table>

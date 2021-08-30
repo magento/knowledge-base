@@ -1,6 +1,6 @@
 ---
 title: FAQ for the Updated Lifecycle Policy for Magento Releases
-labels: 2.3.6,2.3.x,2.4,Elasticsearch,MQP,Magento Commerce,Magento Commerce Cloud,Magento Quality Patches,announcements,lifecycle,patches,quality,security,support,upgrade
+labels: 2.3.6,2.3.x,2.4,Elasticsearch,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,lifecycle,patches,quality,security,support,upgrade
 ---
 
 ## What’s changing?
@@ -8,11 +8,11 @@ labels: 2.3.6,2.3.x,2.4,Elasticsearch,MQP,Magento Commerce,Magento Commerce Clou
 Magento provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:
 
 * **Prior policy:** Currently the quality fixes to the previous line that is in the 12 month EOS window are delivered through our quarterly patch release, hence making the quarterly patches a combination of security + quality.
-* **New policy:** Starting with 2.4 as the most current minor release line, release patches for the previous supported line (2.3) will move to security-only. We will still deliver quality fixes for the previous supported line during the 12-month window after release of a minor (like 2.4) and subsequent new minor release lines; but those will be made available through [Magento Quality Patches (MQP)](https://support.magento.com/hc/en-us/articles/360047139492) and be focused only on critical issues.
+* **New policy:** Starting with 2.4 as the most current minor release line, release patches for the previous supported line (2.3) will move to security-only. We will still deliver quality fixes for the previous supported line during the 12-month window after release of a minor (like 2.4) and subsequent new minor release lines; but those will be made available through [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) and be focused only on critical issues.
 
 ## When does this policy take effect?
 
-Magento 2.3.6 is scheduled to be released on October 15, 2020, and is planned to be the last patch release for Magento 2.3 that will include both quality + security. After 2.3.6, the 2.3.x line will become security-only and critical quality issues for 2.3 can be fixed via MQP.
+Magento 2.3.6 is scheduled to be released on October 15, 2020, and is planned to be the last patch release for Magento 2.3 that will include both quality + security. After 2.3.6, the 2.3.x line will become security-only and critical quality issues for 2.3 can be fixed via QPT.
 
 >![info]
 >
@@ -26,9 +26,9 @@ Security-only releases contain security fixes only and no quality fixed. Please 
 
 Magento will continue to have security-only releases for the latest release line as well. The process for these are outlined in [Introducing the New Security-only Patch Release](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) Magento DevBlog post.
 
-## What are Magento Quality Patches?
+## What is Quality Patches Tool?
 
-Please refer to the [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) article.
+Please refer to the [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) article.
 
 ## Who should consider using this new policy?
 
@@ -36,41 +36,41 @@ The new policy is intended to create pathways for merchants to plan strategicall
 
 ## Should Merchants still upgrade to the latest line?
 
-Ultimately, all Merchants should still prioritize planning to adopt the latest Magento line in a timely fashion. The new Security Only line and MQP tool are not intended to supplant the strategic upgrade roadmap for merchants; rather, they offer flexibility for merchants in planning their upgrade roadmap and a means to react quickly to security / quality issues without having to implement an entire upgrade.
+Ultimately, all Merchants should still prioritize planning to adopt the latest Magento line in a timely fashion. The new Security Only line and QPT tool are not intended to supplant the strategic upgrade roadmap for merchants; rather, they offer flexibility for merchants in planning their upgrade roadmap and a means to react quickly to security / quality issues without having to implement an entire upgrade.
 
 ## How will I get quality fixes on supported minor versions that are not the latest line?
 
-Fixes will be made available via the [Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047139492) tool.
+Fixes will be made available via the [Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047139492).
 
 ## How will I get quality fixes on the latest line?
 
-The current line will have quality as part of the quarterly update. In between releases if you contact support for a fix on the most recent line, they will supply it via MQP. Then once you upgrade to the release that has that fix in it, then it will be applied via the quarterly patch.
+The current line will have quality as part of the quarterly update. In between releases if you contact support for a fix on the most recent line, they will supply it via QPT. Then once you upgrade to the release that has that fix in it, then it will be applied via the quarterly patch.
 
 ## What kind of quality issues will be fixed on supported minor versions that are not the latest line?
 
-Only major quality issues that break core flows will be fixed in previous line (2.3) and delivered via MQP.
+Only major quality issues that break core flows will be fixed in previous line (2.3) and delivered via QPT.
 
 ## Will any quality fixes be part of the quarterly release on supported minor versions that are not the latest line?
 
 Yes, as part of the security-only line, we release what Adobe calls "hot fixes" to that line, these are highly critical issues that affect the Magento application.
 
-## Will security improvements and MQP be delivered at the same time?
+## Will security improvements and QPT be delivered at the same time?
 
-The security-only line will follow the quarterly release schedule and be released with the -p1 nomenclature. Example 2.3.6-p1. Quality will be released ad hoc as quality issues are discovered and fixed, and they’ll be made available via MQP.
+The security-only line will follow the quarterly release schedule and be released with the -p1 nomenclature. Example 2.3.6-p1. Quality will be released ad hoc as quality issues are discovered and fixed, and they’ll be made available via QPT.
 
-## If I have a quality issue that won’t be resolved in supported minor versions that are not the latest line or MQP, what do I do?
+## If I have a quality issue that won’t be resolved in supported minor versions that are not the latest line or QPT, what do I do?
 
-The previous line being security-only means the main benefit is staying secure. Only patches for major issues that break core flows will be made available through MQP.
+The previous line being security-only means the main benefit is staying secure. Only patches for major issues that break core flows will be made available through QPT.
 
 Issues that do not affect core flows or have workarounds will be fixed in the most recent line only. Magento encourages those that want both critical and non-critical fixes, to move to the most recent line.
 
 ## Will upgrades be more expensive or difficult for Merchants if they remain on the security-only line until it reaches end of Security support?
 
-In theory, they should be equal in cost for the Merchant in terms of development hours as long as they have not adopted a large number of Quality Patches. If a Merchant finds that they need or want more than a handful of patches via the MQP tool, the recommendation is that they prioritize an upgrade to the latest version of Magento. Adopting a large number of Quality Patches, in lieu of upgrading to the current version of Magento, can increase the development costs and complexities of upgrade once the security-only line reaches end of support.
+In theory, they should be equal in cost for the Merchant in terms of development hours as long as they have not adopted a large number of Quality Patches. If a Merchant finds that they need or want more than a handful of patches via the QPT tool, the recommendation is that they prioritize an upgrade to the latest version of Magento. Adopting a large number of Quality Patches, in lieu of upgrading to the current version of Magento, can increase the development costs and complexities of upgrade once the security-only line reaches end of support.
 
-## Why should I limit the amount of quality patches delivered via MQP?
+## Why should I limit the amount of quality patches delivered via QPT?
 
-By applying many individual quality fixes you make your Magento code more complex. The added complexity could result in unpredictable changes when upgrading to the most recent release line. That is why we recommend using MQP sparingly and only for the most critical fixes.
+By applying many individual quality fixes you make your Magento code more complex. The added complexity could result in unpredictable changes when upgrading to the most recent release line. That is why we recommend using QPT sparingly and only for the most critical fixes.
 
 ## What about compliance for technology stacks?
 

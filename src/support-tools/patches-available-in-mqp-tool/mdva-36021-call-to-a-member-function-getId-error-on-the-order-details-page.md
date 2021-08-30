@@ -1,6 +1,6 @@
 ---
 title: "MDVA-36021: Users get error message when opening order details"
-labels: MQP patches,Magento Quality Patches,MQP,QPT,Quality Patches Tool,Support Tools,MQP 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud infrastructure,Magento,orders,details,error message,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
+labels: QPT patches,Quality Patches Tool,QPT,QPT,Quality Patches Tool,Support Tools,QPT 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud infrastructure,Magento,orders,details,error message,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
 The MDVA-36021 patch solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
@@ -54,4 +54,4 @@ To learn more about quality patches for Adobe Commerce, refer to:
 * [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
 * [Check if patch is available for your Adobe Commerce issue using Quality patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
 
-For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
+For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
