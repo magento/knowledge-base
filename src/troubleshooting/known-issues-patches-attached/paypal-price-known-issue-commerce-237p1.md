@@ -4,7 +4,7 @@ labels: troubleshooting,known issue,paypal,2.3.7-p1,order,Adobe Commerce,Magento
 ---
 
 This article provides a patch for a known issue in Adobe Commerce 2.3.7-p1: when using PayPal Checkout more than once customers get the previously ordered product in cart, instead of the new one they are trying to order.
-You can download the patch from this article and it is also available through the Magento Quality Patches (MQP) tool.
+You can download the patch from this article and it is also available through the Quality Patches Tool (QPT).
 
 ## Affected versions
 

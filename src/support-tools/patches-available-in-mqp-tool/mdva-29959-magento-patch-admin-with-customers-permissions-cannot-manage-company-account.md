@@ -1,9 +1,9 @@
 ---
 title: 'MDVA-29959 Magento patch: admin with "Customers" permissions cannot manage company account'
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,ACL,B2B,MQP 1.0.5,MQP patches,Magento Commerce,Magento Quality Patches,support tools
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,ACL,B2B,QPT 1.0.5,QPT patches,Magento Commerce,Quality Patches Tool,support tools
 ---
 
-MDVA-29959 Magento patch available in the [Magento Quality Patches (MQP)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where a restricted admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company). Please note, that the issue is fixed in Magento Commerce B2B 2.3.4.
+MDVA-29959 Magento patch available in the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where a restricted admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company). Please note, that the issue is fixed in Magento Commerce B2B 2.3.4.
 
 ## Affected products and versions
 
@@ -11,7 +11,7 @@ Magento Commerce B2B v2.3.0-2.3.3-p1
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
+>Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
     status` 
 
 ## Issue
@@ -46,9 +46,9 @@ The patch adds new ACL for managing companies. Following is an illustration of t
 
 ## Related reading
 
-To learn more about Magento Quality Patches, refer to:
+To learn more about Quality Patches Tool, refer to:
 
-* KB [Magento Quality Patches released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* KB [Check if patch is available for your Magento issue using Magento Quality Patches](https://support.magento.com/hc/en-us/articles/360047125252) .
+* KB [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
+* KB [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
 
-For info about other patches available in MQP tool, refer to the [Patches available in MQP tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
+For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

@@ -1,6 +1,6 @@
 ---
 title: "MDVA-34948: Slowing of website"
-labels: MQP patches,Magento Quality Patches,Support Tools,MQP 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud infrastructure,2.4.1,2.4.0-p1,2.3.6,2.3.6-p1,slow website,MySQL,queries
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premise,cloud infrastructure,2.4.1,2.4.0-p1,2.3.6,2.3.6-p1,slow website,MySQL,queries
 ---
 The MDVA-34948 Adobe Commerce patch fixes the issue of slowing of the website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is MDVA-34948. Please note that the issue  is scheduled to be fixed in Adobe Commerce version 2.4.1.
 
@@ -16,7 +16,7 @@ The MDVA-34948 Adobe Commerce patch fixes the issue of slowing of the website. T
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new MQP tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+>Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
@@ -53,4 +53,4 @@ To learn more about Quality Patches Tool, refer to:
 * [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
 
-For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
+For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
