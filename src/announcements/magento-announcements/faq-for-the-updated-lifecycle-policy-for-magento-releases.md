@@ -40,7 +40,7 @@ Ultimately, all Merchants should still prioritize planning to adopt the latest M
 
 ## How will I get quality fixes on supported minor versions that are not the latest line?
 
-Fixes will be made available via the [Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047139492) tool.
+Fixes will be made available via the [Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047139492).
 
 ## How will I get quality fixes on the latest line?
 
