@@ -27,11 +27,11 @@ This happens to all merchants on Adobe Commerce 2.4.3 with PWA storefront consum
 1. Set the category permission for CAT2 to *Deny* Browsing category and set the customer group to the above private catalog.
 1. Run the `categoryList query` or the categories query as the company user from step three.
 
-<ins>Expected result</ins>:
+<ins>Expected results</ins>:
 
 Only the CAT1 shows up in the results.
 
-<ins>Actual result</ins>:
+<ins>Actual results</ins>:
 
 All the categories show up regardless of whether they are assigned/unassigned in the shared catalog or what the category permissions are.
 
