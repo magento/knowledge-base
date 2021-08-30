@@ -10,7 +10,7 @@ This article provides a solution for when B2B shared catalog feature is not work
 
 ## Issue
 
-GraphQL Categories and `categoryList` queries ignore the Category permission to hide categories in a shared catalog. This happens to all merchants on Adobe Commerce 2.4.3 with B2B Shared Catalog feature turned on.
+GraphQL categories and `categoryList` queries ignore the category permission to hide categories in a shared catalog. This happens to all merchants on Adobe Commerce 2.4.3 with B2B Shared Catalog feature turned on.
 
 <ins>Steps to reproduce</ins>:
 
@@ -44,4 +44,4 @@ Functionality was not implemented.
 The issue is going to be fixed in the scope of version 2.4.4, and merchants should [submit a ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to get a custom patch if they need a solution prior to the 2.4.4 release. 
 ## Related reading
 
-* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360025796972) in our knowledge base. 
+* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360048176832) in our knowledge base. 
