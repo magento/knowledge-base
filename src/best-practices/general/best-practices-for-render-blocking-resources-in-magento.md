@@ -8,7 +8,7 @@ This article provides guidance on preventing resources blocking page rendering i
 ## Affected products and versions
 
 * Adobe Commerce on-premise, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Adobe Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Adobe Commerce on our cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
 
 ## Best practices
 
