@@ -8,7 +8,7 @@ This article explains how to identify the cause of an error message that occurs 
 
 ## Affected products and versions
 
-Adobe Commerce and Adobe Commerce Cloud: 2.3.0-2.3.7, 2.4.0-2.4.2-p1
+Adobe Commerce, all deployment types: 2.3.0-2.3.7, 2.4.0-2.4.2-p1
 
 ## Issue
 
