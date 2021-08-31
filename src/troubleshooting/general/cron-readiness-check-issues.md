@@ -11,7 +11,7 @@ This article provides solutions for cron readiness issues. The following are sym
 * The following error displays in the Magento Admin:  
 ![compman-cron-not-running.png](assets/compman-cron-not-running.png)  
 To see the error, you might need to click **System Messages** at the top of the window as follows:  
-![compman_sys-messages.png](assets/compman_sys-messages.png)    
+![compman_sys-messages.png](assets/compman_sys-messages.png)
 
 <h2 id="check-your-existing-crontab">Check your existing crontab</h2>
 
