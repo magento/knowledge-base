@@ -27,22 +27,22 @@ Adobe Commerce installed with Nginx
 1. Create a simple product with 1 product image.
 1. Nginx has an uncommented configuration for image resizing in `nginx.conf.sample` similar to this:
 
-    ```conf
-    load_module /etc/nginx/modules/ngx_http_image_filter_module.so;
-    location /media/ {
-       location ~* ^/media/catalog/.* {
-           set $width "-";
-           set $height "-";
-           if ($arg_width != '') {
-               set $width $arg_width;
-           }
-           if ($arg_height != '') {
-               set $height $arg_height;
-           }
-           image_filter resize $width $height;
-           image_filter_jpeg_quality 90;
-       }
-    ```   
+```conf
+load_module /etc/nginx/modules/ngx_http_image_filter_module.so;
+location /media/ {
+    location ~* ^/media/catalog/.* {
+        set $width "-";
+        set $height "-";
+        if ($arg_width != '') {
+            set $width $arg_width;
+        }
+        if ($arg_height != '') {
+            set $height $arg_height;
+        }
+        image_filter resize $width $height;
+        image_filter_jpeg_quality 90;
+    }
+```   
 
  <ins>Expected results</ins>:<br>
  The product image is uploaded to the product page.
