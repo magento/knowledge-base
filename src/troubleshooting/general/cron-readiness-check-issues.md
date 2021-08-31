@@ -7,11 +7,11 @@ This article provides solutions for cron readiness issues. The following are sym
 
 * An error message about the PHP setting `$HTTP_RAW_POST_DATA` displays even though it's set properly.
 * The PHP readiness check doesn't display the PHP version as the following figure shows:  
-![upgr-tshoot-no-cron.png](assets/upgr-tshoot-no-cron.png)  
+        ![upgr-tshoot-no-cron.png](assets/upgr-tshoot-no-cron.png)  
 * The following error displays in the Magento Admin:  
-![compman-cron-not-running.png](assets/compman-cron-not-running.png)  
-To see the error, you might need to click **System Messages** at the top of the window as follows:  
-![compman_sys-messages.png](assets/compman_sys-messages.png)
+        ![compman-cron-not-running.png](assets/compman-cron-not-running.png)  
+        To see the error, you might need to click **System Messages** at the top of the window as follows:  
+        ![compman_sys-messages.png](assets/compman_sys-messages.png)
 
 <h2 id="check-your-existing-crontab">Check your existing crontab</h2>
 
