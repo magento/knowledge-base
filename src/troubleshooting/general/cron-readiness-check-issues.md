@@ -40,7 +40,7 @@ For more information about PHP settings, see [Required PHP settings](https://dev
 
 <h2 id="solution-cron-running-with-errors">Solution: cron running with errors</h2>
 
-Try running each command manually because the command might display helpful error messages. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron) .
+Try running each command manually because the command might display helpful error messages. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
 
 >![info]
 >
