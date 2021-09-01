@@ -8,6 +8,6 @@ instrumented with various monitoring tools to track the health of critical parts
 deliver optimized performance on cloud.
 
 This document provides information about the systems and subsystems being monitored, thresholds set on
-mission-critical parameters and notifications.
+mission-critical parameters, and notifications.
 
 Click [Adobe Commerce Pro: Cloud Monitoring_Fact Sheet](assets/Adobe Commerce Pro Monitoring_Fact Sheet.zip) to download the PDF version of the Monitoring Fact Sheet.
