@@ -10,9 +10,9 @@ This article provides a solution for the issue when all error messages on the st
 * Magento Commerce Cloud 2.4.1.
 * Magento Commerce 2.4.1.
 
- ## Issue
+## Issue
 
-Steps to reproduce:
+<ins>Steps to reproduce:</ins>
 
 1. Go to Create New Account page on the storefront.
 1. Create a new account using a registered email. The following message is displayed:
