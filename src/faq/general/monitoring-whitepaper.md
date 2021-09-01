@@ -1,6 +1,6 @@
 ---
 title: Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure
-labels: FAQ,Adobe Commerce, cloud infrastructure,Magento,monitoring
+labels: FAQ,Adobe Commerce,cloud pro infrastructure,Magento,monitoring
 ---
 
 Monitoring provides visibility into the overall health of Adobe Commerce powered by Magento, and is
