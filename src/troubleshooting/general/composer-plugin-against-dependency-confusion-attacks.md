@@ -3,7 +3,7 @@ title: Composer plugin against Dependency Confusion attacks
 labels: Magento Commerce,error,Dependency Confusion Attacks,troubleshooting,Adobe Commerce 2.4.3,Composer plugin,cloud infrastructure,on-premise
 ---
 
-This article provides a solution for the Dependency Confusion attacks. Composer plugin was introduced alongside Adobe Commerce 2.4.3 release to protect Adobe Commerce merchants from Dependency Confusion attacks.
+This article provides information on the composer plugin released for the Dependency Confusion attacks and recommendations on avoiding the error. Composer plugin was introduced alongside Adobe Commerce 2.4.3 release to protect Adobe Commerce merchants from Dependency Confusion attacks.
 
 ## Affected products and versions
 
@@ -17,7 +17,7 @@ A potential case of an active Dependency Confusion attack is detected through at
 
 When you install/update composer, the composer plugin will stop the process if it detects a potential Dependency Confusion attack. In that case, composer install/update will fail with an error message similar to,
 
-```SQL
+```
 Higher matching version x.x.x of package/name was found in public repository packagist.org than x.x.x in private.repo. Public package might've been taken over by a malicious entity; please investigate and update package requirement to match the version from the private repository.
 ```
 
