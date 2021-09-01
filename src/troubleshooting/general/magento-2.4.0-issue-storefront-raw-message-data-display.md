@@ -7,14 +7,17 @@ This article provides a solution for the issue when all error messages on the st
 
 ## Affected products and versions
 
-* Magento Commerce Cloud 2.4.1. \* Magento Commerce 2.4.1. \#\# Issue
+* Magento Commerce Cloud 2.4.1.
+* Magento Commerce 2.4.1.
+
+ ## Issue
 
 Steps to reproduce:
 
 1. Go to Create New Account page on the storefront.
 1. Create a new account using a registered email. The following message is displayed:
 
- `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.` 
+ `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.`
 
 ## Cause
 
