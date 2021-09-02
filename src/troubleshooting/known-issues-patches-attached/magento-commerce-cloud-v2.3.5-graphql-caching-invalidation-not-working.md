@@ -48,18 +48,18 @@ The patch was created for:
 The patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
 * Adobe Commerce on our cloud architecture v2.4.0
-* Adobe Commerce on-premise v2.4.0
+* Adobe Commerce on-premises v2.4.0
 * Adobe Commerce on our cloud architecture v2.3.5-p2
-* Adobe Commerce on-premise v2.3.5-p2
+* Adobe Commerce on-premises v2.3.5-p2
 * Adobe Commerce on our cloud architecture v2.3.5-p1
-* Adobe Commerce on-premise v2.3.5-p1
-* Adobe Commerce on-premise v2.3.5
+* Adobe Commerce on-premises v2.3.5-p1
+* Adobe Commerce on-premises v2.3.5
 * Adobe Commerce on our cloud architecture v2.3.4-p2
-* Adobe Commerce on-premise v2.3.4-p2
+* Adobe Commerce on-premises v2.3.4-p2
 * Adobe Commerce on our cloud architecture v2.3.4
-* Adobe Commerce on-premise v2.3.4
-* Adobe Commerce on-premise v2.3.3-p1
-* Adobe Commerce on-premise v2.3.3
+* Adobe Commerce on-premises v2.3.4
+* Adobe Commerce on-premises v2.3.3-p1
+* Adobe Commerce on-premises v2.3.3
 
 ## How to apply the patch
 

@@ -7,7 +7,7 @@ This article describes a known Adobe Commerce 2.4.2-p1 issue where an invoice no
 
 ## Affected products and versions
 
-* Adobe Commerce on-premise 2.4.2-p1
+* Adobe Commerce on-premises 2.4.2-p1
 * Adobe Commerce on our cloud infrastructure 2.4.2-p1
 
 ## Issue

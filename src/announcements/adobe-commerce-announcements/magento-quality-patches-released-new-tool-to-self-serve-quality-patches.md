@@ -3,7 +3,7 @@ title: "Quality Patches Tool released: new tool to self-serve quality patches"
 labels: QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,apply patch,ece-tools
 ---
 
-Adobe has released for general availability Quality Patches Tool (QPT) - a tool that  allows for applying, reverting, and viewing general information about quality patches available for your installed version of Magento Commerce (for both on prem and cloud).
+Adobe has released for general availability Quality Patches Tool (QPT) - a tool that  allows for applying, reverting, and viewing general information about quality patches available for your installed version of Magento Commerce (for both on-premises and cloud).
 
 QPT provides faster self-service issue resolution, allowing you to easily apply patches suggested by Magento Support for issues you might experience with Magento.
 

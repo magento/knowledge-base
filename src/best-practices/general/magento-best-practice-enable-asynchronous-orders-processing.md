@@ -16,9 +16,9 @@ If the number of simultaneously placed orders in your store is large enough and 
 
 To enable the setting:
 
-Method 1: Cloud and On-Premise (if deploy mode is PRODUCTION - which is the default setting on Cloud as DEFAULT or DEVELOPER are not allowed): Run `php bin/magento config:set dev/grid/async_indexing 1`.
+Method 1: Cloud and on-premises (if deploy mode is PRODUCTION - which is the default setting on Cloud as DEFAULT or DEVELOPER are not allowed): Run `php bin/magento config:set dev/grid/async_indexing 1`.
 
-Method 2: On-Premise only (only when the deploy mode set to DEFAULT OR DEVELOPER): Enable the **Asynchronous indexing** option in Magento Admin under **Stores** > Settings > **Configuration** > **Advanced** > **Developer** > **Grid Settings** > **Asynchronous indexing**.
+Method 2: on-premises only (only when the deploy mode set to DEFAULT OR DEVELOPER): Enable the **Asynchronous indexing** option in Magento Admin under **Stores** > Settings > **Configuration** > **Advanced** > **Developer** > **Grid Settings** > **Asynchronous indexing**.
 
 ![asynchronous_orders_magento.png](assets/asynchronous_orders_magento.png)
 

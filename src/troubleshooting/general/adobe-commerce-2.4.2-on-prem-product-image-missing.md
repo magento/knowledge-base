@@ -3,7 +3,7 @@ title: "Adobe Commerce 2.4.2 on-prem: product image missing"
 labels: 2.4.2,Adobe Commerce,on-premise,on-prem,product image missing,Nginx,AWS s3,known issue,workaround
 ---
 
-This article describes a known Adobe Commerce 2.4.2 on-premise issue where the product image is not uploaded to the product page. This issue is scheduled to be addressed in a future version after version 2.4.3. There is not a solution available at this time, but as a workaround you can disable Nginx to resize images.
+This article describes a known Adobe Commerce 2.4.2 on-premises issue where the product image is not uploaded to the product page. This issue is scheduled to be addressed in a future version after version 2.4.3. There is not a solution available at this time, but as a workaround you can disable Nginx to resize images.
 
 ## Affected products and versions
 

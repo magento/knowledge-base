@@ -35,13 +35,13 @@ The issue will be resolved automatically once a new symfony/console version 4.2.
 
 **How to fix on Adobe Commerce on-premise:**
 
-Adobe Commerce on-premise 2.4.x
+Adobe Commerce on-premises 2.4.x
 
 Run the following command in the CLI/Terminal:
 
 ``composer require symfony/console:">=4.4.0 <4.4.27 || ~4.4.29"``
 
-All 2.3.5+ Adobe Commerce on-premise merchants should run the following CLI command:
+All 2.3.5+ Adobe Commerce on-premises merchants should run the following CLI command:
 
 ``composer require symfony/console:"~4.1.0||~4.2.0||~4.3.0||>=4.4.0 <4.4.27 || ~4.4.29"``
 

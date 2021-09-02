@@ -3,7 +3,7 @@ title: Troubleshoot cron
 labels: 2.2.x,2.3.x,Magento Commerce,cron,troubleshooting
 ---
 
-This article offers troubleshooting solutions for issues with cron in Magento on-premise products.
+This article offers troubleshooting solutions for issues with cron in Magento on-premises products.
 
 Affected products and versions
 

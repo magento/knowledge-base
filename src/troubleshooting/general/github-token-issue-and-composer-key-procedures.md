@@ -12,7 +12,7 @@ This article provides solutions for the issue for failed deployments related to 
 
 >![info]
 >
->Note: Magento Commerce On-Premise merchants should check with their host provider to ensure they are using Composer version 1.10.21 or higher due to the token format changes introduced by Git.
+>Note: Magento Commerce on-premises merchants should check with their host provider to ensure they are using Composer version 1.10.21 or higher due to the token format changes introduced by Git.
 
 
 ## Issue

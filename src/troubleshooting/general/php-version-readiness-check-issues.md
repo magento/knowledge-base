@@ -3,7 +3,7 @@ title: PHP version readiness check issues
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,PHP version,how to,web setup wizard
 ---
 
-This article talks about the solutions for the PHP version issues you might face when installing/upgrading Magento on-premise using the Web Setup Wizard.
+This article talks about the solutions for the PHP version issues you might face when installing/upgrading Magento on-premises using the Web Setup Wizard.
 
 >![warning]
 >

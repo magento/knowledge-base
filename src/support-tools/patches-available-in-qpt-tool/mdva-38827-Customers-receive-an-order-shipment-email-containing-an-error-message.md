@@ -13,7 +13,7 @@ Adobe Commerce on our cloud infrastructure 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce on-premise and Adobe Commerce on our cloud infrastructure 2.3.3-p1 – 2.4.2-p1
+Adobe Commerce on-premises and Adobe Commerce on our cloud infrastructure 2.3.3-p1 – 2.4.2-p1
 
 >![info]
 >
