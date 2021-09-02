@@ -18,7 +18,7 @@ The following error might display:
 ```terminal
 error: Your local changes to the following files would be overwritten by merge:
 <list of files>
-``
+```
 
 To find which files are subject to being overwritten, either read the message or enter:
 
