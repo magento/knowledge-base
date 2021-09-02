@@ -7,9 +7,13 @@ The MDVA-34474 Magento patch fixes the issue where adding a product to the requi
 
 ## Affected products and versions
 
- **The patch is created for Magento version:** Magento Commerce Cloud 2.4.0
+ **The patch is created for Magento version:**
 
- **Compatible with Magento versions:** Magento Commerce and Magento Commerce Cloud 2.3.0 - 2.4.2
+ Magento Commerce Cloud 2.4.0
+
+ **Compatible with Magento versions:**
+
+ Magento Commerce and Magento Commerce Cloud 2.3.0 - 2.4.2
 
 >![info]
 >
@@ -17,36 +21,38 @@ The MDVA-34474 Magento patch fixes the issue where adding a product to the requi
 
 ## Issue
 
-Adding a product to requisition list using API results in error.
+Adding a product to the requisition list using API results in error.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+<ins>Steps to reproduce</ins>:
 
-1. Activate requisition list in Admin ( **Stores** > **Configuration** > **General** > **B2B Features** > **Enable Requisition List** = *Yes* ).
+1. Activate requisition list in Admin (**Stores** > **Configuration** > **General** > **B2B Features** > **Enable Requisition List** = *Yes*).
 1. Create a customer.
-1. Create a new requisition list for this customer sending call    ```json    POST rest/all/V1/requisition_lists    ```    with the json payload attached.
+1. Create a new requisition list for this customer sending call ```json    POST rest/all/V1/requisition_lists``` with the json payload attached.
 
- <span class="wysiwyg-underline">Actual result:</span> 400 error.
+<ins>Expected results</ins>:
+
+No error and the list is created.
+
+<ins>Actual results</ins>:
+
+400 error.
 
 ```json
 {"message":"Could not save Requisition List"}
 ```
 
- <span class="wysiwyg-underline">Expected result:</span> 
-
-No error and list created.
-
 ## Apply the patch
 
-For instructions on how to apply an QPT patch, use the following links depending on your Magento product:
+For instructions on how to apply a QPT patch, use the following links depending on your Magento product:
 
-* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
-* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
+* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
+* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
 
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
+* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
