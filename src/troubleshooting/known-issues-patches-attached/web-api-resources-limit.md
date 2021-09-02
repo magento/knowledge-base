@@ -35,7 +35,7 @@ To disable the input limits on the REST API request, apply one of the following 
 The patches were created for:
 
 * Adobe Commerce on our cloud infrastucture 2.4.3 and 2.3.7-p1
-* Adobe Commerce on-premise 2.4.3 and 2.3.7-p1
+* Adobe Commerce on-premises 2.4.3 and 2.3.7-p1
 
 The patches are not compatible with any other Adobe Commerce versions.
 

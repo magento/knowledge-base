@@ -400,7 +400,7 @@ For Partners: **Merchant Name** is the name of your Customer.
 
 Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) .
 
-#### Steps to reproduce (Commerce on-Premise and Commerce Cloud only)
+#### Steps to reproduce (Commerce on-premises and Commerce Cloud only)
 
 Give exact step-by-step instructions to reproduce your problem, including:
 

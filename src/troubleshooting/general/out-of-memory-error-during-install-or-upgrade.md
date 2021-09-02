@@ -3,7 +3,7 @@ title: Out of memory error during install or upgrade
 labels: 2.3.x,Magento Commerce,PHP,how to,out of memory,troubleshooting,web setup wizard
 ---
 
-This article talks about solutions for the out of memory error during installing/upgrading Magento on-premise products.
+This article talks about solutions for the out of memory error during installing/upgrading Magento on-premises products.
 
 ## Affected products and versions
 

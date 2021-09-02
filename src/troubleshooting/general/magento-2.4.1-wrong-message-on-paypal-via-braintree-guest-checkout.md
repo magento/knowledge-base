@@ -7,7 +7,7 @@ This article describes a known Adobe Commerce 2.4.1 issue where if guest checkou
 
 ## Affected products and versions
 
-* Adobe Commerce on-premise 2.4.0, 2.4.1
+* Adobe Commerce on-premises 2.4.0, 2.4.1
 * Adobe Commerce on our cloud architecture 2.4.0, 2.4.1
 
 ## Issue

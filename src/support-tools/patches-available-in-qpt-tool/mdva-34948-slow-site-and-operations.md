@@ -12,7 +12,7 @@ The MDVA-34948 Adobe Commerce patch fixes the issue of slowing of the website. T
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce on-premise and Adobe Commerce on our cloud infrastructure 2.3.6-2.3.6-p1, 2.4.0-2.4.0-p1
+* Adobe Commerce on-premises and Adobe Commerce on our cloud infrastructure 2.3.6-2.3.6-p1, 2.4.0-2.4.0-p1
 
 >![info]
 >

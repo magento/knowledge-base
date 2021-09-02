@@ -7,7 +7,7 @@ UPDATED 2 April 2019
 
 The PayPal Payflow Pro integration in Magento is being actively targeted by carding activity, where attackers attempt hundreds of $0 transactions with stolen credit cards to check the card’s validity.
 
-The activity currently targets versions of this Payflow Pro integration that were included in Magento 2.1.x, 2.2.x, 2.3.x for Open Source and Commerce (on prem and cloud). The carding activity is inherent to the way Payflow Pro is integrated into shopping carts.
+The activity currently targets versions of this Payflow Pro integration that were included in Magento 2.1.x, 2.2.x, 2.3.x for Open Source and Commerce (on-premises and cloud). The carding activity is inherent to the way Payflow Pro is integrated into shopping carts.
 
 >![info]
 >
@@ -36,7 +36,7 @@ Magento created two package options to add Google reCAPTCHA and/or CAPTCHA to th
 These packages are compatible with the following Magento editions and versions:
 
 * Magento versions: 2.1.x, 2.2.x, 2.3.x
-* Magento editions: Open Source and Commerce (on prem and cloud) and Commerce Cloud
+* Magento editions: Open Source and Commerce (on-premises and cloud) and Commerce Cloud
 
 Installation requires CLI commands to your Magento instance. Developer assistance may be required.
 
