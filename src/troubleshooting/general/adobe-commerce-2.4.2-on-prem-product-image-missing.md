@@ -1,26 +1,26 @@
 ---
-title: "Adobe Commerce 2.4.2 on-prem: product image missing"
-labels: 2.4.2,Adobe Commerce,on-premise,on-prem,product image missing,Nginx,AWS s3,known issue,workaround
+title: "Adobe Commerce on-premises 2.4.2: product image missing"
+labels: 2.4.2,Adobe Commerce,on-premise,on-prem,product image missing,Nginx,AWS s3,known issue,workaround,Magento Commerce
 ---
 
-This article describes a known Adobe Commerce 2.4.2 on-premises issue where the product image is not uploaded to the product page. This issue is scheduled to be addressed in a future version after version 2.4.3. There is not a solution available at this time, but as a workaround you can disable Nginx to resize images.
+This article describes a known Adobe Commerce on-premises 2.4.2 issue where the product image is not uploaded to the product page. This issue is scheduled to be addressed in a future version after version 2.4.3. There is not a solution available at this time, but as a workaround, you can disable Nginx to resize images.
 
 ## Affected products and versions
 
-* Adobe Commerce 2.4.2 (on-premise)
+* Adobe Commerce on-premises 2.4.2
 
 ## Issue
 
-The product image is saved in `s3` bucket, but it is not synced back to the `pub/media` directory. This issue only happens when using both:
+The product image is saved in the `s3` bucket, but it is not synced back to the `pub/media` directory. This issue only happens when using both:
 
 * Site-enabled Nginx to resize images
 * AWS `s3` as media storage
 
- <ins>Prerequisite</ins>:
+<ins>Prerequisites</ins>:
 
 Adobe Commerce installed with Nginx
 
- <ins>Steps to reproduce</ins>:
+<ins>Steps to reproduce</ins>:
 
 1. Configure Adobe Commerce to use AWS `s3` as media storage.
 1. Configure Nginx using the `nginx.conf.sample` configuration file provided in the Adobe Commerce installation directory and an Nginx virtual host. See DevDocs [Configure Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu).
@@ -44,10 +44,12 @@ location /media/ {
     }
 ```   
 
- <ins>Expected results</ins>:<br>
+ <ins>Expected results</ins>:
+
  The product image is uploaded to the product page.
 
- <ins>Actual results</ins>:<br>
+ <ins>Actual results</ins>:
+
  The product image is not uploaded to the product page.
 
 ## Workaround
