@@ -33,9 +33,9 @@ This article provides a solution for Adobe Commerce 2.4.0 known issue when an ad
 <ins>Expected results</ins>:
 
  1. The name of the product should appear in the **Recently Viewed Products** section.
- 2. The name of the product should appear in the **Last Ordered Items** section.
- 3. The name of the product should appear in the **Products in Comparison List** section.
- 4. The name of the product should appear in the **Recently Compared Products** section.
+ 1. The name of the product should appear in the **Last Ordered Items** section.
+ 1. The name of the product should appear in the **Products in Comparison List** section.
+ 1. The name of the product should appear in the **Recently Compared Products** section.
 
  <ins>Actual results</ins>:
 
