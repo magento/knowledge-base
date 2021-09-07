@@ -1,6 +1,7 @@
 ---
 title: MDVA-39521: Unable to set shipping address on cart with empty phone number via GraphQL
-labels: QPT patches,Quality Patches Tool,
+labels: QPT patches,Quality Patches Tool,QPT,MQP,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,shipping address,GraphQL,
+2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
 The MDVA-39521 patch solves the issue where the user is unable to set shipping address on cart with empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce  2.4.4.
@@ -13,7 +14,7 @@ The MDVA-39521 patch solves the issue where the user is unable to set shipping a
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment types) 2.4.0-2.4.3
+* Adobe Commerce (all deployment types) 2.4.0 - 2.4.3
 
 >![info]
 >
@@ -189,7 +190,7 @@ Result:
 
 To apply individual patches, use the following links depending on your deployment type:	 
 
-* Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on our cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
