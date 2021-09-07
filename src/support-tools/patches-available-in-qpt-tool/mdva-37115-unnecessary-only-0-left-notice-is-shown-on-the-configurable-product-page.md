@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-37115: Unnecessary "Only 0 left" notice is shown on the configurable product page'
-labels: QPT patches,Quality Patches Tool,QPT,MQO,Support Tools,QPT 1.1.2,Magento, Adobe Commerce,on-premise,cloud infrastructure,
+labels: QPT patches,Quality Patches Tool,QPT,MQO,Support Tools,QPT 1.1.2,Magento, Adobe Commerce,on-premise,cloud infrastructure,product page,configuration,Only 0 left,notice,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
 The MDVA-37115 patch solves the issue where the unnecessary "Only 0 left" notice is shown on the configurable product page. This patch is available when the Quality Patches Tool (QPT) 1.1.2 is installed. The patch ID is MDVA-37115. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
