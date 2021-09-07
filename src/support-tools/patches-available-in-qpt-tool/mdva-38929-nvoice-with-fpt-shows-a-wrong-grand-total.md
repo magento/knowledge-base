@@ -21,15 +21,15 @@ The MDVA-38929 patch solves the issue where the invoice with FPT shows a wrong g
 
 ## Issue
 
-Invoice with FPT shows a wrong grand total when the order is paid from the store credit.
+The invoice with FPT shows a wrong grand total when the order is paid from the store credit.
 
 <ins>Steps to reproduce</ins>:
 
 1. Create a customer and make sure that the customer has a store credit with enough money to cover the order.
 1. Enable FPT and add FPT to a product.
 1. From the front end, log in as the created customer.
-1. Add the product with FPT to cart.
-1. Checkout and pay with the store credit. It should be a zero pay order.
+1. Add the product with FPT to the cart.
+1. Checkout and pay with store credit. It should be a zero pay order.
 1. Go to Orders and manually invoice the order.
 1. Check the invoice grand total.
 
@@ -40,8 +40,8 @@ Invoice with FPT shows a wrong grand total when the order is paid from the store
 
 <ins>Actual results</ins>:
 
-* The invoice grand total still shows FPT amount.
-* The total paid still shows FPT amount.
+* The invoice grand total still shows the FPT amount.
+* The total paid still shows the FPT amount.
 
 ## Apply the patch
 
