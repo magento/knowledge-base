@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-39195: "Add to Cart" button is inactive on the category page when the redirect to cart is enabled'
-labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,
+labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,Add to Cart,redirect,inactive,category page,redirect,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
 The MDVA-39195 patch solves the issue where "Add to Cart" button is inactive on the category page when the redirect to cart is enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39195. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.2.4.
