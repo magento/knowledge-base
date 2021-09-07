@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37364: Custom customer attribute of date type breaks the customer grid UI"
+title: "MDVA-37364: Custom customer attribute of date type breaks grid UI"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,customer attribute,custom,grid UI,broken,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
