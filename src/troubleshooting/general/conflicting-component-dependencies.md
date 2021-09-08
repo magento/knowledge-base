@@ -7,7 +7,7 @@ This article provides a solution for conflicting component dependencies. When tr
 
 <h3 id="conflicting-dependencies-trouble-depend-conflict-">Affected products and versions</h3>
 
-* Adobe Commerce on-premise 2.2.x, 2.3.x
+* Adobe Commerce on-premises 2.2.x, 2.3.x
 * Adobe Commerce on our cloud infrastructure 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
 
