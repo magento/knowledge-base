@@ -1,5 +1,5 @@
 ---
-title: MDVA-39384: Unable to save custom customer attribute for a company user
+title: "MDVA-39384: Unable to save custom customer attribute for company user"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,custom customer,attribute,company,user,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
@@ -21,7 +21,7 @@ The MDVA-39384 patch solves the issue where the custom customer attribute for a 
 
 ## Issue
 
-Unable to save custom customer attribute for a company user.
+Custom customer attribute for a company user is not saved.
 
 <ins>Prerequisites</ins>:
 
@@ -29,16 +29,16 @@ B2B modules installed.
 
 <ins>Steps to reproduce</ins>:
 
-1. Set "Enable Company" to "Yes" under "Stores > Settings > Configuration > B2B Features
+1. Go to **Stores** > Settings > **Configuration** > **B2B Features** and set the **Enable Company** to Yes.
 1. Create a custom customer attribute.
-    * Values Required: Yes (optional, enabled so the validation error is displayed)
-    * Show on Storefront: Yes
-    * Forms to Use In: All available in the list
+    * Values Required: Yes (optional, enabled so the validation error is displayed).
+    * Show on Storefront: Yes.
+    * Forms to Use In: All available in the list.
 1. Create a Company and log in as the company admin.
-1. Navigate to "Company Structure" in my account.
-1. Click on the "Add User" link.
+1. Navigate to Company Structure in your account.
+1. Click on the **Add User** link.
 1. Fill the form including the custom attribute.
-1. Click Save.
+1. Click **Save**.
 
 <ins>Expected results</ins>:
 
@@ -53,11 +53,7 @@ The custom attribute value is not saved with the new company user creation.
 To apply individual patches, use the following links depending on your deployment type:	 
 
 * Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on our cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
