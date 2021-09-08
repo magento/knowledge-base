@@ -43,7 +43,7 @@ The invoice with FPT shows a wrong grand total when the order is paid from the s
 * The invoice grand total still shows the FPT amount.
 * The total paid still shows the FPT amount.
 
-## Apply the patch
+## Apply the patch  
 
 To apply individual patches, use the following links depending on your deployment type:	 
 
