@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37115: Unnecessary "Only 0 left" notice is shown on the configurable product page'
+title: 'MDVA-37115: "Only 0 left" notice is shown on product page'
 labels: QPT patches,Quality Patches Tool,QPT,MQO,Support Tools,QPT 1.1.2,Magento, Adobe Commerce,on-premise,cloud infrastructure,product page,configuration,Only 0 left,notice,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
@@ -44,12 +44,8 @@ No "Only 0 left" notice.
 
 To apply individual patches, use the following links depending on your deployment type:	 
 
-* Adobe Commerce on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on our cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
+* Adobe Commerce or Magento Opensource on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
