@@ -43,9 +43,9 @@ The invoice with FPT shows a wrong grand total when the order is paid from the s
 * The invoice grand total still shows the FPT amount.
 * The total paid still shows the FPT amount.
 
-## Apply the patch  
+## Apply the patch
 
-To apply individual patches, use the following links depending on your deployment type:	 
+To apply individual patches, use the following links depending on your deployment type:
 
 * Adobe Commerce and Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on our cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
