@@ -5,7 +5,7 @@ labels: Magento Commerce Cloud,New Relic,Pro,alert,critical,disk space,how to,ma
 
 This article provides troubleshooting steps when you receive a critical disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 
-<img src = "assets/disk-critical-magento-managed.png" alt = "disc critical alert" style="width:50px;height:100px;">
+<img src = "assets/disk-critical-magento-managed.png" alt = "disc critical alert" width="250px">
 
 ## Affected products and versions
 
