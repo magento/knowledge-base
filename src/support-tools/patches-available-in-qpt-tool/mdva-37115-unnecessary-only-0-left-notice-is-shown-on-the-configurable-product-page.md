@@ -21,7 +21,7 @@ The MDVA-37115 patch solves the issue where the unnecessary "Only 0 left" notice
 
 ## Issue
 
-Unnecessary "Only 0 left" notice is displayed on the configurable product page.
+An Unnecessary "Only 0 left" notice is displayed on the configurable product page.
 
 <ins>Prerequisites</ins>:
 
