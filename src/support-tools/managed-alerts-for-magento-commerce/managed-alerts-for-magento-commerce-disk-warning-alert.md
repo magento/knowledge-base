@@ -8,7 +8,7 @@ This article provides troubleshooting steps when you receive a warning disk aler
 
 ## Affected products and versions
 
-* Adobe Commerce on our cloud **pro** infrastructure.
+* Adobe Commerce on cloud infrastructure, Pro plan architecture.
 
 ## Issue
 
