@@ -7,7 +7,7 @@ This article provides a fix for an Adobe Commerce known issue for an exception t
 
 ## Affected products and versions
 
-* Adobe Commerce on-premise 2.4.0
+* Adobe Commerce on-premises 2.4.0
 * Adobe Commerce on our cloud infrastructure 2.4.0
 * B2B 1.2.0
 
