@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39195: Add to Cart is inactive on the Category Page"
+title: "MDVA-39195: Add to Cart is inactive on Category Page"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,Add to Cart,redirect,inactive,Category Page,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
