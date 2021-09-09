@@ -73,4 +73,4 @@ See [How to apply a composer patch provided by Adobe](https://support.magento.co
 
  <ins>Git patch</ins>
 
-See DevDocs [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) for git patch instructions for Adobe Commerce/Magento Open Source.
+See developer documentation [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) for git patch instructions for Adobe Commerce/Magento Open Source.
