@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39384: Unable to save custom customer attribute for company user"
+title: 'MDVA-39384: Unable to save custom customer attribute for company user'
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,custom customer,attribute,company,user,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
