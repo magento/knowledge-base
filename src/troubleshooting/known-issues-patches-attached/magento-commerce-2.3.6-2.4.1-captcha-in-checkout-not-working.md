@@ -53,7 +53,7 @@ The patches are attached to this article, available for download in both `.compo
 
 To download a patch, scroll down to the end of the article and click the file name, or click one of the following links:
 
- <ins>For Adobe Commerce on-premise/Adobe Commerce on our cloud infrastructure/Magento Open Source 2.3.6</ins> :
+ <ins>For Adobe Commerce on-premises/Adobe Commerce on cloud infrastructure/Magento Open Source 2.3.6</ins> :
 
 * [Composer patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_COMPOSER.patch.zip)
 * [Git patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_GIT.patch.zip)
