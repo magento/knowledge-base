@@ -3,7 +3,7 @@ title: "MDVA-39966: Unable to deploy locales other than en_US"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,on-premise,cloud infrastructure,deployment,locales,QPT 1.1.2,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1
 ---
 
-The MDVA-39966 patch solves the issue where the user is unable deploy locales other than en_US. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39966.
+The MDVA-39966 patch solves the issue where the user is unable to deploy locales other than en_US. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39966.
 
 ## Affected products and versions
 
