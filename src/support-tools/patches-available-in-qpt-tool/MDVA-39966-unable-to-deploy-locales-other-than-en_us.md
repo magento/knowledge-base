@@ -33,6 +33,8 @@ bin/magento setup:static-content:deploy --language=de_DE
 ```
 
 <ins>Expected results</ins>:
+
+de_DE is deployed.
 ```bash
 bin/magento setup:static-content:deploy --language=de_DE
 
