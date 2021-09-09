@@ -5,4 +5,4 @@ labels: Magento Commerce,Magento Commerce C,site down,troubleshooting
 
 This Magento site down troubleshooting diagram can be used to identify and resolve causes of a site down.
 
-![site down troubleshooting diagram](assets/updated_site_down_6.jpeg)
+![site down troubleshooting diagram image](assets/updated_site_down_6.jpeg)
