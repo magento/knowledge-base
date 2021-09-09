@@ -3,7 +3,7 @@ title: "MDVA-39521: Unable to set shipping address on cart with empty phone numb
 labels: QPT patches,Quality Patches Tool,QPT,MQP,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,shipping,address,GraphQL,phone number,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
-The MDVA-39521 patch solves the issue where the user is unable to set shipping address on cart with empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce  2.4.4.
+The MDVA-39521 patch solves the issue where the user is unable to set shipping address on cart with an empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -21,13 +21,13 @@ The MDVA-39521 patch solves the issue where the user is unable to set shipping a
 
 ## Issue
 
-User is not able to set shipping address on the cart with an empty telephone number via GraphQ  despite the “Show Telephone” is configured as optional.
+The user is not able to set shipping address on the cart with an empty telephone number via GraphQ despite the “Show Telephone” is configured as optional.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create simple product
+1. Create a simple product
 1. Go to **Stores** > **Configuration** > **Customers** > **Customer Configuration** > **Name and Address Options** and set the Show Telephone as Optional
-1. Create an empty cart via GraphQL request:
+1. Create an empty cart via GraphQL request.
     ```GraphQL
     mutation {
     createEmptyCart
@@ -92,35 +92,35 @@ GRAPHQL VARIABLES
     }
     ```
 
-Result:
+    Result:
 
     ```GraphQL
-    {
-        "data": {
-            "setShippingAddressesOnCart": {
-                "cart": {
-                    "shipping_addresses": [
-                        {
-                            "firstname": "John",
-                            "lastname": "Canada",
-                            "company": "Company Name",
-                            "street": [
-                                "820 Burrard Street"
-                            ],
-                            "city": "Vancouver",
-                            "postcode": "V6Z 2J1",
-                            "telephone": "123-456-0000",
-                            "country": {
-                                "code": "CA",
-                                "label": "CA"
-                            }
-                        }
-                    ]
-                }
-            }
-        }
-    }
-    ```
+      {
+          "data": {
+              "setShippingAddressesOnCart": {
+                  "cart": {
+                      "shipping_addresses": [
+                          {
+                              "firstname": "John",
+                              "lastname": "Canada",
+                              "company": "Company Name",
+                              "street": [
+                                  "820 Burrard Street"
+                              ],
+                              "city": "Vancouver",
+                              "postcode": "V6Z 2J1",
+                              "telephone": "123-456-0000",
+                              "country": {
+                                  "code": "CA",
+                                  "label": "CA"
+                              }
+                          }
+                      ]
+                  }
+              }
+          }
+      }
+   ```
 1. Add address with empty phone number.
     ```GraphQL
     mutation ($cartId: String!) {
@@ -189,7 +189,7 @@ Result:
 
 To apply individual patches, use the following links depending on your deployment type:	 
 
-* Adobe Commerce on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on our cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
