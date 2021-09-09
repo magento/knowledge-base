@@ -14,19 +14,19 @@ This article provides a solution for Adobe Commerce 2.4.0 known issue when an ad
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to the admin panel > **Sales** > **Orders**.
+1. Go to the **Admin Panel** > **Sales** > **Orders**.
 1. Click the **Create New Order** button.
 1. Select the created customer.
 1. Go to the storefront as the created customer.
 1. Go to the **Product** page. Click the **Refresh** button on the **Recently Viewed Products** section of **Customer's Activities**.
 1. Go back to the storefront.
 1. Place an order using the created products.
-1. Go back to the admin panel and click the **Refresh** button of the **Last Ordered Items** section of **Customer's Activities**.
+1. Go back to the **Admin Panel** and click the **Refresh** button of the **Last Ordered Items** section of **Customer's Activities**.
 1. Go back to the storefront. Add the created product to the **Comparison List**.
-1. Go back to the admin panel. Click the **Refresh** button of the **Products in Comparison List** section of **Customer's Activities**.
+1. Go back to the **Admin Panel**. Click the **Refresh** button of the **Products in Comparison List** section of **Customer's Activities**.
 1. Go back to the storefront.
 1. Remove the created product from the **Comparison List**.
-1. Go back to the admin panel.
+1. Go back to the **Admin Panel**.
 1. Click the **Refresh** button of the **Recently Compared Products** section of **Customer's Activities**.
 1. Go back to the storefront.
 
