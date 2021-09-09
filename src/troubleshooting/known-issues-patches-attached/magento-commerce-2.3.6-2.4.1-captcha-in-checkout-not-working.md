@@ -45,7 +45,7 @@ The error message displays: *Please provide CAPTCHA code and try again.*
 
 ## Solution
 
-Apply one of the patches below depending on whether you are on Adobe Commerce on-premise/Adobe Commerce on our cloud infrastructure/Magento Open Source 2.3.6 or 2.4.1.
+Apply one of the patches below depending on whether you are on Adobe Commerce on-premises/Adobe Commerce on cloud infrastructure/Magento Open Source 2.3.6 or 2.4.1.
 
 ## Patches
 
