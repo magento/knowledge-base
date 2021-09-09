@@ -26,7 +26,8 @@ Unable to deploy locales other than en_US.
 <ins>Steps to reproduce</ins>:
 
 1. Configure two store views with different locales, for example - en_US and de_DE.
-1. Try to deploy static content for this locales and run the following command:
+1. Try to deploy static content for this locales by running the following command:
+
 ```bash
 bin/magento setup:static-content:deploy --language=en_US
 bin/magento setup:static-content:deploy --language=de_DE
@@ -59,7 +60,7 @@ frontend/Magento/luma/en_US             2504/2504           ====================
 ```
 ## Apply the patch
 
-To apply individual patches, use the following links depending on your deployment type:	 
+To apply individual patches, use the following links depending on your deployment type:
 
 * Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
