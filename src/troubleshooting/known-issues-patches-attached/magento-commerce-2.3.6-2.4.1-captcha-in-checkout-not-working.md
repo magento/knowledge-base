@@ -58,7 +58,7 @@ To download a patch, scroll down to the end of the article and click the file na
 * [Composer patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_COMPOSER.patch.zip)
 * [Git patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_GIT.patch.zip)
 
- <ins>For Adobe Commerce on-premise/Adobe Commerce on our cloud infrastructure/Magento Open Source 2.4.1</ins> :
+ <ins>For Adobe Commerce on-premises/Adobe Commerce on cloud infrastructure/Magento Open Source 2.4.1</ins> :
 
 * [Composer patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_COMPOSER.patch.zip)
 * [Git patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_GIT.patch.zip)
