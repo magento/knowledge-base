@@ -1,6 +1,7 @@
 ---
 title: Database storage troubleshooter on Adobe Commerce
 labels: Adobe Commerce,on-premise,cloud infrastructure,database,troubleshooting,MySQL,error,space,disk space,disk,database,storage,site down,connection,queries, troubleshooting,connection
+popular: yes
 ---
 
 This article is a troubleshooter tool for customers on Adobe Commerce having issues with databases. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot space and configuration issues with databases.
