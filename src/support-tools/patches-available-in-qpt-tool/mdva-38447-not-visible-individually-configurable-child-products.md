@@ -1,6 +1,6 @@
 ---
-title: "MDVA-38447: "Not visible individually" configurable child products are returned in GraphQL response and slow MySQL query"
-labels: QPT patches,Quality Patches Tool,QPT 1.1.2,Support Tools,Magento Commerce Cloud,Magento Commerce,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,MySQL
+title: 'MDVA-38447: "Not visible individually" configurable child products are returned in GraphQL response and slow MySQL query'
+labels: QPT patches,Quality Patches Tool,QPT 1.1.2,Support Tools,Magento Commerce Cloud,Magento Commerce,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,MySQL,B2B
 ---
 
 The MDVA-38447 Adobe Commerce patch fixes the issue where "Not visible individually" configurable child products are returned in GraphQL response and slow MySQL query for GraphQL products query with category filter. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-38447. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
