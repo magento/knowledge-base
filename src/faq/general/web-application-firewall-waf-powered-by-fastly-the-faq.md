@@ -151,7 +151,7 @@ The following table summarizes support channels and availability for WAF Support
 </tr>
 <tr>
 <td>Emergency escalation*</td>
-<td>US toll-free: (877)-282-7436; International: (310)-945-1310</td>
+<td>Refer to <a href="https://support.magento.com/hc/en-us/articles/360042536151">Magento P1 notification hotline</a> article for US and international numbers. (you need to be logged in to view the article)</td>
 </tr>
 </tbody>
 </table>
