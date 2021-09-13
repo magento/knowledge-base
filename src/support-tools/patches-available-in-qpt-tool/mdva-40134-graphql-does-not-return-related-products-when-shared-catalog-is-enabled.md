@@ -1,0 +1,74 @@
+---
+title: "MDVA-40134: GraphQL does not return related products when the shared catalog is enabled"
+labels: QPT patches,Quality Patches Tool,QPT 1.1.2,Magento Commerce 2.4.3,Adobe Commerce 2.4.3,error message,on-premises,cloud infrastructure,2.4.2-p1,2.4.2-p2,GraphQL
+---
+
+The MDVA-40134 Adobe Commerce patch fixes the issue where GraphQL does not return related products when the shared catalog is enabled. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.2 is installed. The patch ID is MDVA-40134. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+
+## Affected products and versions
+
+**The patch is created for Adobe Commerce version:**
+
+Adobe Commerce (all deployment methods) 2.4.2-p1
+
+**Compatible with Adobe Commerce versions:**
+
+Adobe Commerce (all deployment methods) 2.4.2-p1 – 2.4.2-p2
+
+>![info]
+>
+>Note: the patch might become applicable to other versions with new Quality Patches Tool  releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+
+## Issue
+
+GraphQL does not return related products when the shared catalog is enabled.
+
+<ins>Prerequisites</ins>:
+
+B2B modules must be installed.
+The instance must be clean with only the sample data.
+
+<ins>Steps to reproduce</ins>:
+
+1. Go to **Stores** > **Configuration** > **General** > **B2B features** and enable **Company and Shared Catalog**.
+1. Go to **Catalog** > **Shared Catalog** and add all the products to the **General Catalog**.
+1. Use the sample data and modify the Joust Duffle Bag (SKU 24-MB01).
+1. Under **Related Products**, add the two Duffle bags (ID 7 and 13).
+1. Send a **Post** request:
+
+<pre>{
+  products(filter: {sku: {eq: "24-MB01"}}, sort: {name: ASC}) {
+    items {
+      related_products {
+        uid
+        name
+      }
+    }
+  }
+}</pre>
+
+<ins>Expected results</ins>:
+
+Related products must show in GraphQL response.
+
+<ins>Actual results</ins>:
+
+Users get the following error:
+
+<pre>Return value of Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId() must be of the type int, null returned {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Return value of Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId() must be of the type int, null returned </pre>
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment type:
+
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+
+## Related reading
+
+To learn more about quality patches for Adobe Commerce, refer to:
+
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+
+For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
