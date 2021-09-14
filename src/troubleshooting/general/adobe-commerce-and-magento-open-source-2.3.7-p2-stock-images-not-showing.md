@@ -1,5 +1,5 @@
 ---
-title: Adobe stock images don't display, Adobe Commerce 2.3.7-p2
+title: stock images can't display, Adobe Commerce and Magento Open Source 2.3.7-p2
 labels: troubleshooting,Adobe Commerce,Magento,Magento Open Source,media gallery,2.37-p2,images not displayed
 ---
 
