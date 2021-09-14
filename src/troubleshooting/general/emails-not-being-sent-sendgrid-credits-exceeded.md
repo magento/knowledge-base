@@ -1,8 +1,8 @@
 ---
 title: Emails not sent when SendGrid credits exceeded on Adobe Commerce 
-labels: troubleshooting,SendGrid,email,Adobe Commerce,cloud infrastructure,
+labels: troubleshooting,SendGrid,email,Adobe Commerce,cloud infrastructure,Pro architecture,Starter architecture,Magento
 ---
-This article provides a solution when your emails are not being sent because you have exceeded your SendGrid credits limit.
+This article provides a solution when your emails are not being sent because you have exceeded your SendGrid credits limit, on Adobe Commerce.
 ## Affected products and versions
 
 * Adobe Commerce for cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3
@@ -15,7 +15,8 @@ In Production, a total of 12,000 emails are allocated per day, but that number c
 
 ## How to check if your credits have been exceeded:
 Adobe Commerce on cloud infrastructure Pro plan architecture: Check the `/var/log/mail.log` - you might see a message like this:
-May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded).
+
+*May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded)*.
 
 ## Cause
 
