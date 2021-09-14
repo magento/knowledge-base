@@ -1,6 +1,6 @@
 ---
 title: stock images can't display, Adobe Commerce and Magento Open Source 2.3.7-p2
-labels: troubleshooting,Adobe Commerce,Magento,Magento Open Source,media gallery,2.37-p2,images not displayed
+labels: troubleshooting,Adobe Commerce,Magento,Magento Open Source,media gallery,2.37-p2,images not displayed,on-premises,cloud infrastructure
 ---
 
  This article provides a solution for the issue where Adobe stock images uploaded into the file system directories `pub/media` or `pub/media/catalog` do not display in the Media Gallery UI. This is because the images are outside of the allowed media gallery directories. For these images to display merchants need to delete the images on the file system and re-upload into an allowed Media Gallery directory.
@@ -17,8 +17,7 @@ Merchants can upload Adobe Stock images to Storage Root in the Media Gallery but
 <ins>Steps to reproduce</ins>
 
 1. Enable adobe stock with valid API keys.
-1. Open media gallery (**Catalog** > **Categories** > **Content** section > click **Select from Gallery**). For more detailed steps refer to [Creating Categories](https://docs.magento.com/user-guide/catalog/category-create.html#step-3-complete-the-category-content) in our user guide.
-1. Click on Storage Root.
+1. Open media gallery (**Catalog** > **Categories** > **Content** section > click **Select from Gallery**). 
 1. Click **Search Adobe Stock**.
 1. Select an image & Save Preview. Note that you may have to reset the Adobe Stock grid to get images to appear.
 
@@ -41,4 +40,4 @@ Delete uploaded Adobe stock images from `pub/media` and `pub/media/catalog` fold
 
 ## Related reading
 
-* [Adobe Stock Integration](https://docs.magento.com/user-guide/cms/adobe-stock.html) in our user guide.
+* [Media Storage](https://docs.magento.com/user-guide/v2.3/cms/media-storage.html) in our user guide.
