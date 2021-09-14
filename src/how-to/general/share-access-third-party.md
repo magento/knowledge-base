@@ -35,4 +35,4 @@ Standard practice is to troubleshoot on a local environment. If the issue cannot
 
 ## Related reading
 
-* (Best Practices for using third-party extensions in Adobe Commerce)[https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento]
+* (Best Practices for using third-party extensions in Adobe Commerce)[https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento] in our support knowledge base.
