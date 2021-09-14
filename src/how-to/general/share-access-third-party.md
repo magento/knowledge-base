@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce: share access with a third-party for testing
+title: Adobe Commerce: share access with a third party for testing
 labels: Adobe Commerce,cloud
 ---
 
@@ -15,7 +15,7 @@ Proper internal data security procedures and requirements should be followed on 
 Depending on your internal security standards, you may choose to have the third party troubleshoot on a local environment. If the issue cannot be reproduced locally, you may wish to provide access to your cloud environment. If you elect to do so, please be sure to work within your internal security standards. If providing access to any of your cloud environments, be sure that your third-party is clear on what can be done and what approval is required for things such as replication only or allowing for code changes. This is especially important for Production environments.
 
 
-##  Providing 3rd party with access and data
+##  Providing third party with access and data
 
 * Provide your third-party vendor access to the cloud environment. Related articles:
     * [Adobe Commerce Help Center User Guide > SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](https://support.magento.com/hc/en-us/articles/360000913794#shared-access) in Support Knowledge Base.
