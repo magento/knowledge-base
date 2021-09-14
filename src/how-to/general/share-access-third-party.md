@@ -16,12 +16,17 @@ Depending on your internal security standards, you may choose to have the third 
 
 ## Providing third party with access and data
 
-* Provide your third-party vendor access to the cloud environment. Related articles:
-    * [Adobe Commerce Help Center User Guide > SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](https://support.magento.com/hc/en-us/articles/360000913794#shared-access) in Support Knowledge Base.
-    * [Sharing Your Commerce Account](https://docs.magento.com/user-guide/magento/magento-account-share.html) in Commerce User Guide.
-* Create a database dump (or give third-party vendor access to do this). It can be done using the CLI or in the Adobe Commerce Admin. This DB dump will obfuscate customer data, so all they get is code and product SKU’s etc., o proprietary / customer data.
-For reference use [Create database dump on Adobe Commerce on our cloud architecture](https://support.magento.com/hc/en-us/articles/360003254334).
-* Once testing is complete, make sure to revoke the shared access to your cloud environment, as described in [Adobe Commerce Help Center User Guide > Revoke (delete shared access)](https://support.magento.com/hc/en-us/articles/360000913794#revoke-shared-access).
+<ul>
+<li>Provide your third-party vendor access to the cloud environment. Related articles:
+<ul>
+<li>[Adobe Commerce Help Center User Guide > SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](https://support.magento.com/hc/en-us/articles/360000913794#shared-access) in Support Knowledge Base.</li>
+<li>[Sharing Your Commerce Account](https://docs.magento.com/user-guide/magento/magento-account-share.html) in Commerce User Guide.</li>
+</ul>   
+</li>
+<li>Create a database dump (or give third-party vendor access to do this). It can be done using the CLI or in the Adobe Commerce Admin. This DB dump will obfuscate customer data, so all they get is code and product SKU’s etc., o proprietary / customer data.
+For reference use [Create database dump on Adobe Commerce on our cloud architecture](https://support.magento.com/hc/en-us/articles/360003254334).</li>
+<li>Once testing is complete, make sure to revoke the shared access to your cloud environment, as described in [Adobe Commerce Help Center User Guide > Revoke (delete shared access)](https://support.magento.com/hc/en-us/articles/360000913794#revoke-shared-access).</li>
+</ul>
 
 ## Testing best practice
 
