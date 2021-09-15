@@ -19,7 +19,7 @@ Depending on your internal security standards, you may choose to have the third 
 <ul>
 <li>Provide your third-party vendor access to the cloud environment. Related articles:
 <ul>
-<li><a href="https://support.magento.com/hc/en-us/articles/360000913794#shared-access">Adobe Commerce Help Center User Guide> SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</a> in our support knowledge base.</li>
+<li><a href="https://support.magento.com/hc/en-us/articles/360000913794#shared-access">Adobe Commerce Help Center User Guide > SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</a> in our support knowledge base.</li>
 <li><a href="https://docs.magento.com/user-guide/magento/magento-account-share.html">Sharing Your Commerce Account</a> in our user guide.</li>
 </ul>   
 </li>
