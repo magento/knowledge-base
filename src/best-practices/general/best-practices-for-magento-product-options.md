@@ -1,14 +1,14 @@
 ---
-title: Best practices for Magento product options
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,products
+title: Best practices for Adobe Commerce product options
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,products,Adobe Commerce,on-premise,cloud infrastructure
 ---
 
-This article provides best practices for product options in Magento. Our recommendation is to have not more than 100 options per product, as performance can be affected.
+This article provides best practices for product options in Adobe Commerce. Our recommendation is to have not more than 100 options per product, as performance can be affected.
 
 Many product options leads to an increase in data retrieved for each product on all read and write operations resulting in:
 
-* Increase in SQL queries traffic and heavier    ```sql    JOIN    ```    operations affecting database throughput
-* Increase of Magento indexes size and full-text search index
+* Increase in SQL queries traffic and heavier    ```sql    JOIN    ```    operations affecting database throughput.
+* Increase of Adobe Commerce indexes size and full-text search index.
 
 The increases listed above can cause these potential site impacts:
 
@@ -18,8 +18,8 @@ The increases listed above can cause these potential site impacts:
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
@@ -32,8 +32,7 @@ Reduce the number of product options by:
 ## Related reading
 
 Refer to:
-<ul><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/product-create-configurable.html">Create products > Configurable Product</a>
-</li><li title="File storage low/exhausted, specific page loads are slow">Magento User Guide<a href="https://docs.magento.com/user-guide/catalog/attribute-best-practices.html">Product Attributes > Best Practices</a>
-</li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360045041092">Best practice for attribute SET in Magento</a></li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360048256612">Best practice Magento product attributes</a></li><li title="File storage low/exhausted, specific page loads are slow">DevDocs'<a href="https://devdocs.magento.com/guides/v2.4/rest/modules/inventory/bulk-inventory.html">Inventory mass actions</a>
+<ul><li title="File storage low/exhausted, specific page loads are slow">Adobe Commerce User Guide<a href="https://docs.magento.com/user-guide/catalog/product-create-configurable.html"> Create products > Configurable Product</a>
+</li><li title="File storage low/exhausted, specific page loads are slow">Adobe Commerce User Guide<a href="https://docs.magento.com/user-guide/catalog/attribute-best-practices.html"> Product Attributes > Best Practices</a>
+</li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360045041092">Best practice for attribute SET in Adobe Commerce</a></li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360048256612">Best practice Adobe Commerce product attributes</a></li><li title="File storage low/exhausted, specific page loads are slow"> <a href="https://devdocs.magento.com/guides/v2.4/rest/modules/inventory/bulk-inventory.html"> Inventory mass actions</a> in our developer documentation
 </li></ul>
- 
