@@ -3,12 +3,12 @@ title: Magento 2.4.0 Braintree Virtual Terminal page corrupted
 labels: 2.4.0,Braintree Virtual Terminal,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting
 ---
 
-This article provides a patch for the known Magento 2.4.0 issue, where the Braintree Virtual Terminal page does not load the proper UI elements or a proper error message if Braintree is not configured.
+This article provides a patch for the known Adobe Commerce 2.4.0 issue, where the Braintree Virtual Terminal page does not load the proper UI elements or a proper error message if Braintree is not configured.
 
 ## Affected products and versions
 
-* Magento Commerce 2.4.0
-* Magento Commerce Cloud 2.4.0
+* Adobe Commerce on-premises 2.4.0
+* Adobe Commerce on cloud infrastructure 2.4.0
 
 ## Issue
 
@@ -50,15 +50,15 @@ The patch is attached to this article. To download it, scroll down to the end of
 
  [BUNDLE-2670-composer.patch](assets/BUNDLE-2670-composer.patch.zip)
 
-### Compatible Magento versions:
+### Compatible Adobe Commerce versions:
 
 The patch was created for:
 
-* Magento Commerce Cloud 2.4.0
-* Magento Commerce 2.4.0
+* Adobe Commerce on cloud infrastructure 2.4.0
+* Adobe Commerce on-premises 2.4.0
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
 ## Attached Files
