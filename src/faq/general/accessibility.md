@@ -6,7 +6,7 @@ labels: Magento, Adobe Commerce,accessibility
 Adobe Commerce continues to improve Accessibility and will be updating our Accessibility plans for 2022 soon.
 
 The Adobe Commerce Luma theme is highly customizable as is the Commerce Admin.
-Our customers can extend the Luma theme and create their own accessibility modules, and/or visit our Commerce Marketplace to vet an extension to meet your accessibility requirements. Here is a search string that displays the current available themes on Commerce Marketplace https://marketplace.magento.com/catalogsearch/result/?q=Accessibility%20Theme.
+You can extend the Luma theme and create your own accessibility modules, and/or visit our Commerce Marketplace to vet an extension to meet your accessibility requirements. Here is a search string that displays the current available themes on Commerce Marketplace [https://marketplace.magento.com/catalogsearch/result/?q=Accessibility%20Theme].
 
 Most of our customers are following the [W3C Accessibility documentations and Guidelines](https://www.w3.org/WAI/standards-guidelines/).
 
