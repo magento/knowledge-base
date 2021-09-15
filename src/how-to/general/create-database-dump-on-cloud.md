@@ -1,15 +1,15 @@
 ---
-title: Create database dump on Adobe Commerce on our cloud architecture
-labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce on our cloud architecture
+title: Create database dump on Adobe Commerce on cloud infrastructure
+labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce,cloud infrastructure,pro,starter
 ---
 
-This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on our cloud architecture.
+This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on cloud infrastructure.
 
-You only need to use one variant (option) to dump your DB. These options apply to any environment type (Integration, Staging, Production) and any plan (Magento Commerce on cloud starter and Adobe Commerce on our cloud pro architecture).
+You only need to use one variant (option) to dump your DB. These options apply to any environment type (Integration, Staging, Production) and any plan (Adobe Commerce on cloud infrastructure Starter plan architecture and Adobe Commerce on cloud infrastructure Pro plan architecture).
 
 ## Prerequisite: SSH to your environment
 
-To dump your DB on Adobe Commerce on our cloud architecture with any variant discussed in this article, you must first [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
+To dump your DB on Adobe Commerce on cloud infrastructure with any variant discussed in this article, you must first [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
 
 >![warning]
 >
@@ -25,7 +25,7 @@ vendor/bin/ece-tools db-dump
 
 This is the recommended and safest option.
 
- Related documentation on Adobe Commerce Developer Guide [Dump your database (ECE-Tools)](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#db-dump).
+ See [Dump your database (ECE-Tools)](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#db-dump) in our developer documentation.
 
 ## Option 2: mysqldump
 
@@ -51,5 +51,5 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 
  **Related documentation:**
 
-* Official MySQL documentation: [mysqldump — A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
-* Adobe Commerce Developer Guide [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`)
+* [mysqldump — A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in official MySQL documentation.
+* [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our developer documentation.
