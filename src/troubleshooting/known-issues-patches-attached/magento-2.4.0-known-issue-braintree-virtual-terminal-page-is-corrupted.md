@@ -1,6 +1,6 @@
 ---
 title: Magento 2.4.0 Braintree Virtual Terminal page corrupted
-labels: 2.4.0,Braintree Virtual Terminal,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting
+labels: 2.4.0,Braintree Virtual Terminal,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
 This article provides a patch for the known Adobe Commerce 2.4.0 issue, where the Braintree Virtual Terminal page does not load the proper UI elements or a proper error message if Braintree is not configured.
@@ -16,7 +16,7 @@ This article provides a patch for the known Adobe Commerce 2.4.0 issue, where th
 
  <span class="wysiwyg-underline">Steps to reproduce:</span>
 
-In Magento Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
+In Commerce Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
 
  <span class="wysiwyg-underline">Expected result:</span>
 
@@ -30,7 +30,7 @@ The UI of the **Braintree Virtual Terminal** page is broken.
 
  <span class="wysiwyg-underline">Steps to reproduce:</span>
 
-In Magento Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
+In Commerce Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
 
  <span class="wysiwyg-underline">Expected result:</span>
 
