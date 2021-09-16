@@ -12,7 +12,7 @@ We are also reducing the complexity of upgrades and accelerating innovation by n
 We will be moving our end of support (EOS) dates to align closely with those of PHP, the third-party scripting language that Adobe Commerce is built on. Whenever a PHP version reaches its end of life (EOL), Adobe must update our code to maintain PCI compliance. Aligning our EOS dates to PHP EOL dates will help reduce the frequency and impact of PHP version changes and make it even simpler for Merchants to follow the most effective path for staying current.
 
 ## How will these changes benefit customers?
-Reducing the frequency and complexity of patch releases means customers can reduce the time, resources, and development dollars they spend on upgrades. In addition, as we continue to release features as independent services, customers will be able to adopt these features faster, accelerating their time to innovation. To learn more about the benefits of our simplified upgrade process, visit our recent release strategy blog post.<LINK>
+Reducing the frequency and complexity of patch releases means customers can reduce the time, resources, and development dollars they spend on upgrades. In addition, as we continue to release features as independent services, customers will be able to adopt these features faster, accelerating their time to innovation. To learn more about the benefits of our simplified upgrade process, visit our recent release strategy [blog post](https://magento.com/blog/accelerating-innovation-through-simplified-release-strategy).
 
 ## What are the different types of upgrades that will be released in 2022?
 To streamline upgrades, we will be delivering three types of releases throughout 2022.
