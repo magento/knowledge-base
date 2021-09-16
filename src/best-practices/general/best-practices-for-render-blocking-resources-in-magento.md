@@ -1,6 +1,6 @@
 ---
 title: Best practices for render-blocking resources in Adobe Commerce
-labels: 2.3,2.3.x,2.4,2.4.x,CSS,Javascript,Magento Commerce,Magento Commerce Cloud,best practices,Adobe Commerce, cloud infrastructure
+labels: 2.3,2.3.x,2.4,2.4.x,CSS,Javascript,Magento Commerce,Magento Commerce Cloud,best practices,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article provides guidance on preventing resources blocking page rendering in Adobe Commerce, which can lead to a significant increase in page rendering time and cause performance degradation.
