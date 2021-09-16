@@ -3,7 +3,7 @@ title: Adobe support customer data access and privacy
 labels: Adobe,GDPR,Magento Commerce,Magento Commerce Cloud,account,announcements,customers,data,security,support
 ---
 
-Adobe technical support may require access to your Magento related data in order to provide support. The primary Magento account holder can choose to provide this authorization in their Magento account privacy settings. Allowing this access prior to support request creation will help ensure the issue can be properly investigated and/or help increase the speed of resolution.
+Adobe technical support may require access to your Magento-related data in order to provide support. The primary Magento account holder can choose to provide this authorization in their Magento account privacy settings. Allowing this access prior to support request creation will help ensure the issue can be properly investigated and/or help increase the speed of resolution.
 
 >![info]
 >
