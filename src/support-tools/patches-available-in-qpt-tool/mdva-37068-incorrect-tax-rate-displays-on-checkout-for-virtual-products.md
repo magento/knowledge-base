@@ -8,7 +8,7 @@ The MDVA-37068 patch fixes the issue when the Checkout Page displays an incorrec
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-Magento Commerce Cloud 2.3.5-p2
+Adobe Commerce on cloud infrastructure 2.3.5-p2
 
 **Compatible with Adobe Commerce versions:**
 Adobe Commerce (all deployment methods) 2.3.1-2.4.2-p1
