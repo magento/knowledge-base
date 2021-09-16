@@ -17,7 +17,7 @@ Reducing the frequency and complexity of patch releases means customers can redu
 ## What are the different types of upgrades that will be released in 2022?
 To streamline upgrades, we will be delivering three types of releases throughout 2022.
 
-* **Patch releases**. We will release two core application upgrades in 2022 that include security, compliance, performance, and high priority quality fixes.
+* **Patch releases**. We will release two core application upgrades in 2022 that include security, compliance, performance, and high-priority quality fixes.
 * **Security patch releases**. These are security-only updates to the core application released to keep merchants secure and compliant.
 * **Feature releases**. These are releases of new features and feature updates that are delivered as independent services, separate from the patch releases. Examples include services like Product Recommendations and Live Search, independent modules like PWA Studio and Inventory Management (MSI), and updates to our cloud services and infrastructure.
 
