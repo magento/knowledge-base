@@ -1,6 +1,6 @@
 ---
 title: FAQ for New Adobe Commerce Release Strategy and Updated Lifecycle Policy
-labels: FAQ,Magento,release strategy,lifecycle policy
+labels: FAQ,Magento,release strategy,lifecycle policy,Adobe Commerce,update
 ---
 
 ## How are Adobe Commerce releases changing?
