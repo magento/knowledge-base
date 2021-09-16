@@ -1,5 +1,5 @@
 ---
-title: Check vCPU usage with Observation for Adobe Commerce
+title: View number of vCPUs in your cluster on Adobe Commerce
 labels: Adobe Commerce,cloud infrastructure,Observation for Adobe Commerce,CPU,Magento,how to,New Relic
 ---
 
