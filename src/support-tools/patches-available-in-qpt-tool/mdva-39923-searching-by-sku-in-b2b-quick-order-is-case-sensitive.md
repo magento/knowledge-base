@@ -21,7 +21,7 @@ Adobe Commerce (all deployment methods) 2.4.1 – 2.4.2-p2
 
 ## Issue
 
-Searching by SKU in B2B quick order functionality is case-sensitive and shows an error when a different case is used than the one with which the name is saved.
+Searching by SKU in B2B quick order functionality is case-sensitive and shows an error when a different case is used than the one with which the SKU is saved.
 
 <ins>Prerequisites</ins>:
 
