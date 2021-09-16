@@ -37,5 +37,5 @@ Attackers can exploit this vulnerability if a package is only available through 
 
 ### Expectations from extension developers
 
-* There is no way for the plugin to be sure that a package was compromised. The plugin will detect when a public version of a package at packagist.org has a higher version than the one available from a private repo like repo.magento.com. We recommend that extension developers avoid such situations and do not publish newer versions publicly than those available through repo.magento.com.
+* There is no way to know for certain if the package for a plugin, if from a public repo, has been compromised or not. The plugin will detect when a public version of a package at packagist.org has a higher version than the one available from a private repo like [repo.magento.com](https://repo.magento.com). We strongly recommend that extension developers avoid such situations and do not publish newer versions publicly than those available through [repo.magento.com](https://repo.magento.com).
 * Adobe Commerce understands that the Marketplace review process may delay extensions release availability, but the process is there to keep merchants safe and to help extensions developers find accidental mistakes they might've missed.
