@@ -19,8 +19,7 @@ To acess and log in to the New Relic Observation for Adobe Commerce nerdlet:
 1. From the New Relic home page, click **Apps**.
 1. Click **Observation for Adobe Commerce**.
 1. The Observation for Adobe Commerce nerdlet opens.
-1. Click on the **Select an account** dropdown. If you do not see the **Select an account** dropdown, you
-may not have access. Request it [here](https://adobe.sharepoint.com/sites/MG/it/IT%20Services%20Wiki/Requesting%20access%20to%20Magento%20Commerce%20New%20Relic.aspx).
+1. Click on the **Select an account** dropdown. If you do not see the **Select an account** dropdown, you may not have access. Request it [here](https://adobe.sharepoint.com/sites/MG/it/IT%20Services%20Wiki/Requesting%20access%20to%20Magento%20Commerce%20New%20Relic.aspx).
 1. You can paste the project_id, type in the New Relic account number or account name or browse through the list of accounts.
 1. Click on the light blue dropdown menu with the clock icon (toward the top right of the nerdlet window).
 1. If you are trying to identify the cause of an event/issue identified in a ticket select a time prior to the ticket date and time to see if there were any preceding events/data. You can use the preset time frames or set a custom time frame by selecting **Set custom**.
