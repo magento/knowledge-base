@@ -1,6 +1,6 @@
 ---
 title: Composer plugin against Dependency Confusion attacks
-labels: Magento Commerce,error,Dependency Confusion Attacks,troubleshooting,Adobe Commerce 2.4.3,Composer plugin,cloud infrastructure,on-premise
+labels: Magento Commerce,error,Dependency Confusion Attacks,troubleshooting,Adobe Commerce 2.4.3,Composer plugin,cloud infrastructure,on-premises,Magento Commerce Cloud
 ---
 
 This article provides information on the composer plugin released for the Dependency Confusion attacks and recommendations on avoiding the error. Composer plugin was introduced alongside Adobe Commerce 2.4.3 release to protect Adobe Commerce merchants from Dependency Confusion attacks.
