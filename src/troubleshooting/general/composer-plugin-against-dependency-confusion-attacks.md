@@ -25,7 +25,7 @@ Dependency Confusion attack allows to remotely execute arbitrary code on a serve
 
 Such an attack may even go undetected if an attacker is able to maintain the original package's functionality.
 
-Attackers can exploit this vulnerability if a package is only available through private repositories but is not registered in the public one. The attacker then uploads a package with the same name to the public repository and gives it a higher version than the one available privately. The dependency manager will then compare versions of both privately and publicly available packages and will choose the highest one from the public repository. The malicious code downloaded by the dependency manager will then be executed with the same privileges as the application's code.
+Attackers can exploit this vulnerability if a package is only available through private repositories, but is not registered in the public one. The attacker then uploads a package with the same name to the public repository and gives it a higher version than the one available privately. The dependency manager will then compare versions of both privately and publicly available packages and will choose the highest one from the public repository. The malicious code downloaded by the dependency manager will then be executed with the same privileges as the application's code.
 
 ## Solution
 
