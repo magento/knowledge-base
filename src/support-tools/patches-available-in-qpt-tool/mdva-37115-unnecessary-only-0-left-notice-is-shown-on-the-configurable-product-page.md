@@ -35,11 +35,11 @@ Inventory modules is installed.
 
 <ins>Expected results</ins>:
 
-No "Only 0 left" notice.
+No "Only 0 left" notice is shown on the product page.
 
 <ins>Actual results</ins>:
 
-"Only 0 left" notice on the product page.
+"Only 0 left" notice is shown on the product page.
 
 ## Apply the patch
 
