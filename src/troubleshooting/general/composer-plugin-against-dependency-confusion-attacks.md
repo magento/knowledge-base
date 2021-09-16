@@ -33,7 +33,7 @@ Attackers can exploit this vulnerability if a package is only available through 
 
 * Take the error message shown when the plugin stops the composer install/update seriously, and contact the extension developer if you recognize the potentially compromised package.
 * You can still install Adobe Commerce with the safe version of the package from the Marketplace or other trusted private repository.
-* Change the required package version in your composer.json to the exact version found in the Marketplace to proceed with composer install/update.
+* Change the required package version in your composer.json to the exact version found in the Marketplace in order to proceed with the composer install/update.
 
 ### Expectations from extension developers
 
