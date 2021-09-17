@@ -19,7 +19,7 @@ This known issue is mentioned in developer documentation:
 
 ## Affected products and versions
 
-* Adobe Commerce  2.3.6 and 2.4.1
+* Adobe Commerce (all deployment methods) 2.3.6 and 2.4.1
 * Magento Open Source 2.3.6 and 2.4.1
 
 ## Issue
