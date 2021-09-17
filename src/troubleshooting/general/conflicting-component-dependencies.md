@@ -1,6 +1,6 @@
 ---
 title: Conflicting component dependencies
-labels: 2.2.x,2.3.x,Magento Commerce Cloud,conflicting component dependencies,troubleshooting,web setup wizard, Adobe Commerce
+labels: 2.2.x,2.3.x,Magento Commerce Cloud,conflicting component dependencies,troubleshooting,web setup wizard,Adobe Commerce,on-premises
 ---
 
 This article provides a solution for conflicting component dependencies. When trying to setup or update Adobe Commerce using the Web Setup Wizard, you see the *"We found conflicting component dependencies"* Composer error message.
