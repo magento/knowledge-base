@@ -1,6 +1,6 @@
 ---
 title: Accessibility for Adobe Commerce FAQ
-labels: Magento, Adobe Commerce,accessibility
+labels: Magento,Adobe Commerce,accessibility
 ---
 
 We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  
