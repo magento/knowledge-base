@@ -36,7 +36,7 @@ Images can be uploaded to the Media Gallery Storage Root via Adobe Stock.
 ## Solution
 
 Select any subdirectory of the Media Gallery Storage Root (excluding Storage Root > catalog) before uploading an Adobe stock image.
-Delete uploaded Adobe stock images from `pub/media` and `pub/media/catalog` folders on the Magento file system and upload images into any allowed Media Gallery Storage Root subdirectories instead (excluding Storage Root > Catalog).
+Delete uploaded Adobe Stock images from the `pub/media` and `pub/media/catalog` folders on the Adobe Commerce file system and upload images into any allowed Media Gallery Storage Root subdirectories instead (excluding Storage Root > Catalog).
 
 ## Related reading
 
