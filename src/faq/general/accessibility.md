@@ -1,5 +1,5 @@
 ---
-title: Accessibility for Adobe Commerce FAQ
+title: Web Content Accessibility for Adobe Commerce
 labels: Magento,Adobe Commerce,accessibility
 ---
 
