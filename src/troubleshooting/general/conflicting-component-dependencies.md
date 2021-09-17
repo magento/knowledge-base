@@ -41,7 +41,7 @@ Two main scenarios can lead to conflicting component dependencies. Click on your
 If you are upgrading Adobe Commerce on cloud infrastructure, try the following to resolve conflicting component dependencies:
 
 * Check the keys being used to upgrade. Are the keys being generated from the correct email account?
-* Check permissions and make sure that they match the Magento upgrade requirements. Review DevDocs' [Magento Upgrade Overview > Update and Upgrade Checklist > File System Permissions](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) .
+* Check permissions and make sure that they match the Magento upgrade requirements. Review [Magento Upgrade Overview > Update and Upgrade Checklist > File System Permissions](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) in our developer documentation.
 
 <h2 id="incompatibility_third_party_modules">Incompatibility with third-party modules:</h2>
 
