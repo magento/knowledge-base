@@ -1,9 +1,9 @@
 ---
 title: "MDVA-39966: Unable to deploy locales other than en_US"
-labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,on-premise,cloud infrastructure,deployment,locales,QPT 1.1.2,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1
+labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,on-premises,cloud infrastructure,deployment,locales,QPT 1.1.2,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1
 ---
 
-The MDVA-39966 patch solves the issue where the user is unable to deploy locales other than en_US. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39966.
+The MDVA-39966 patch solves the issue where the user is unable to deploy locales other than en_US. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39966. Please note that the issue was fixed in Adobe Commerce version 2.4.1.
 
 ## Affected products and versions
 
@@ -62,7 +62,7 @@ frontend/Magento/luma/en_US             2504/2504           ====================
 
 To apply individual patches, use the following links depending on your deployment type:
 
-* Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
