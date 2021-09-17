@@ -1,17 +1,16 @@
 ---
-title: Adobe Commerce Support KB starts accepting contributions
-labels: announcements,help center,GitHub,community,contributions,Adobe Commerce
+title: Adobe Commerce Support Knowledge Base starts accepting contributions
+labels: announcements,help center,GitHub,community,contributions,Adobe Commerce,Magento
 ---
 
-Starting June 15th, this Adobe Commerce Support Knowledge Base team starts accepting direct edits and new articles contributions from external Magento community through the [magento/knowledge-base](https://github.com/magento/knowledge-base) GitHub repo!
+Starting June 15th, the Adobe Commerce Support Knowledge Base team starts accepting direct edits and new article contributions from external Adobe Commerce community through the [magento/knowledge-base](https://github.com/magento/knowledge-base) GitHub repo!
 
 Noticed a typo in one of our articles or incomplete troubleshooting steps?
 You can now fix it yourself and get contribution points!
 
 ## Contribute
 
-We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Magento code and Magento Developer Documentation. See [Contribution reward points](https://github.com/magento/knowledge-base/blob/main/docs/contribution-points.md) for details.
-
+We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Adobe Commerce code and our developer documentation. See [Contribution reward points](https://github.com/magento/knowledge-base/blob/main/docs/contribution-points.md) for details.
 
 ### General contribution flow
 
@@ -23,7 +22,7 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
     * Markdown Linting test - making sure markdown syntax is correct.
     * File structure validation test - making sure the commit is done according to the [required file structure](https://github.com/magento/knowledge-base/blob/main/.github/CONTRIBUTING.md#file_structure).
 1. PR approvals flow:
-    1. Knowledge Base (KB) writers review the PR within several days' time frame and add labels.
+    1. The Support Knowledge Base (KB) writers review the PR within several days' time frame and add labels.
     1. KB writer can approve/deny/request changes.
     1. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
     1. SME can approve/deny/request changes.
