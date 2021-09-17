@@ -19,7 +19,7 @@ Merchants can upload Adobe Stock images to Storage Root in the Media Gallery but
 1. Enable Adobe Stock with valid API keys.
 1. Open media gallery (**Catalog** > **Categories** > **Content** section > click **Select from Gallery**). 
 1. Click **Search Adobe Stock**.
-1. Select an image & Save Preview. Note that you may have to reset the Adobe Stock grid to get images to appear.
+1. Select an image. The click **Save Preview**. Note that you may have to reset the Adobe Stock grid to get images to appear.
 
 <ins>Expected result</ins>:
 
