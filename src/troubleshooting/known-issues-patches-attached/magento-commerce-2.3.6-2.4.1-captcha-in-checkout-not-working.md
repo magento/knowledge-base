@@ -5,7 +5,7 @@ labels: 2.3.6,2.4.1,CAPTCHA,CyberSource,Magento Commerce,Magento Commerce Cloud,
 
 This article provides a patch for the issue where the CAPTCHA feature for checkout does not work as expected on the Place Order page when using third-party payment providers like Paypal Express, Payflow Pro, or CyberSource in Adobe Commerce.
 
-This known issue is mentioned in developer documentation:
+This known issue is mentioned in our developer documentation:
 
 <ins>For Adobe Commerce 2.3.6</ins>:
 
