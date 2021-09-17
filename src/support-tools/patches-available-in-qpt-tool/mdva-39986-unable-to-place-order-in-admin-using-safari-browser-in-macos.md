@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39986: Unable to place orders in admin using Safari browser on macOS"
+title: "MDVA-39986: Unable to place orders in admin in Safari browser on macOS"
 labels: QPT patches,Quality Patches Tool,QPT,QPT 1.1.2,Magento Commerce 2.4.3,Adobe Commerce 2.4.3,JS error,on-premises,cloud infrastructure,2.4.2-p1,2.4.2-p2
 ---
 
@@ -26,7 +26,7 @@ Users are not able to place orders in the admin using the Safari browser on macO
 <ins>Steps to reproduce</ins>:
 
 1. Place an order.
-1. Go to Backend using Safari browser on macOS and open the order you created earlier.
+1. Go to the admin using Safari browser on macOS and open the order you created earlier.
 1. Click on **Reorder**.
 1. Try to update **Product Quantity**.
 
