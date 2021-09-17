@@ -1,5 +1,5 @@
 ---
-title: How to identify and measure outages for Adobe Commerce on cloud
+title: Identify and measure outages for Adobe Commerce on cloud
 labels: Adobe Commerce,cloud,outage,site down
 ---
 
