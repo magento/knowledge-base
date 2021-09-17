@@ -23,7 +23,7 @@ Merchants can upload Adobe Stock images to Storage Root in the Media Gallery but
 
 <ins>Expected result</ins>:
 
-You should see the image.
+The image displays.
 
 <ins>Actual result</ins>:
 
