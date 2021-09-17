@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.4.0: exception during B2B 1.2.0 install"
-labels: 2.4.0,B2B,Magento Commerce Cloud,exception,installation,patch,setup:upgrade,Adobe Commerce,cloud infrastructure
+labels: 2.4.0,B2B,Magento Commerce Cloud,exception,installation,patch,setup:upgrade,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article provides a fix for an Adobe Commerce known issue for an exception thrown during `setup:upgrade` when installing B2B 1.2.0.
