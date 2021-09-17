@@ -8,7 +8,7 @@ This article provides troubleshooting steps when you receive a CPU critical aler
 
 ## Affected products and versions
 
-Adobe Commerce on cloud infrastructure Pro plan architecture.
+Adobe Commerce on cloud infrastructure Pro plan architecture
 
 ## Issue
 
