@@ -3,7 +3,7 @@ title: Stock images not displayed, Adobe Commerce and Magento Open Source 2.3.7-
 labels: troubleshooting,Adobe Commerce,Magento,Magento Open Source,media gallery,2.37-p2,images not displayed,on-premises,cloud infrastructure
 ---
 
- This article provides a solution for the issue where Adobe stock images uploaded into the file system directories `pub/media` or `pub/media/catalog` do not display in the Media Gallery UI. This is because the images are outside of the allowed media gallery directories. For these images to display merchants need to delete the images on the file system and re-upload into an allowed Media Gallery directory.
+This article provides a solution for the issue where Adobe stock images uploaded into the file system directories `pub/media` or `pub/media/catalog` do not display in the Media Gallery UI. This is because the images are outside of the allowed media gallery directories. For these images to display merchants need to delete the images on the file system and re-upload into an allowed Media Gallery directory.
 
 ## Affected products and versions
 
