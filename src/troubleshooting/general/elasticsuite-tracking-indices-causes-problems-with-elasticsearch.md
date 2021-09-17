@@ -35,5 +35,5 @@ Create a cron job to delete the tracking indices. This command deletes indices c
 
 If you want to delete indices at a set time-frequency, create a cron job by referring to these DevDocs articles:
 
-* [Configure a customer cron job and cron group (tutorial)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
+* [Configure a custom cron job and cron group (tutorial)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
 * [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
