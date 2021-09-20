@@ -9,7 +9,7 @@ This article provides troubleshooting steps when you receive a critical disk ale
 
 ## Affected products and versions
 
-Adobe Commerce cloud infrastructure, Pro plan architecture.
+Adobe Commerce cloud infrastructure Pro plan architecture.
 
 ## Issue
 
