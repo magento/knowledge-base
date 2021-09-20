@@ -1,6 +1,6 @@
 ---
 title: "Managed alerts for Adobe Commerce: disk critical alert"
-labels: Magento Commerce Cloud,New Relic,alert,critical,disk space,how to,maintenance mode,mysql disk space,threshold,troubleshooting,Adobe Commerce,cloud infrastructure,pro architecture
+labels: Magento Commerce Cloud,New Relic,alert,critical,disk space,how to,maintenance mode,mysql disk space,threshold,troubleshooting,Adobe Commerce,cloud infrastructure,Pro
 ---
 
 This article provides troubleshooting steps when you receive a critical disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
