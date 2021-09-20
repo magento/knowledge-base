@@ -30,7 +30,7 @@ B2B modules must be installed.
 <ins>Steps to reproduce</ins>:
 
 1. Create a configurable product with simple products set to **Not visible individually**.
-1. Run **full reindex**.
+1. Run a **full reindex**.
 1. Run **GraphQL query** like:
 
 <pre>query getFilteredProducts(
