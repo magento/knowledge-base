@@ -40,7 +40,7 @@ No error is shown.
 
 The following error message is received:
 
-`A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later.`
+`*A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later.*`
 
 ## Apply the patch
 
