@@ -11,7 +11,7 @@ This article explains how to check the `access.log` and related logs to troubles
 
 # How to check the access.log
 
-To view logs for these server errors, check the `access.log` on the web server, e.g., <ip address> <timestamp> <request uri> <response code> <referer url>
+To view logs for these server errors, check the `access.log` on the web server, e.g., `<ip address> <timestamp> <request uri> <response code> <referer url>`
 
 To check related logs:
 
