@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39043: Admin users with limited access get error while adding Products widget to CMS page"
+title: "MDVA-39043: Admin users get error adding widget to CMS page"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.2,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premises,cloud infrastructure,Products widget,CMS,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
