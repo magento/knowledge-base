@@ -31,7 +31,7 @@ B2B modules must be installed.
 
 1. Create a configurable product with simple products set to **Not visible individually**.
 1. Run a **full reindex**.
-1. Run **GraphQL query** like:
+1. Run a **GraphQL query** like:
 
 <pre>query getFilteredProducts(
   $filter: ProductAttributeFilterInput!
