@@ -9,13 +9,13 @@ The MDVA-37082 Magento patch fixes the issue when the partial index of stock sta
 ## Affected products and versions
 
 **The patch is created for Magento version:**
-Magento Commerce Cloud 2.3.4-p2
+Adobe Commerce on cloud infrastructure 2.3.4-p2
 
 **Compatible with Magento versions:**
-Magento Commerce and Magneto Commerce Cloud 2.3.0-2.4.2-p1
+Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.2-p1
 >![info]
 >
->Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status`.
+>Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 Incremental indexing of grouped product child products can cause incorrect other grouped products to be incorrectly indexed when children are shared.
@@ -43,10 +43,10 @@ The 2nd Grouped Product goes out of stock when you save the 1st Grouped Product.
 
 ## Apply the patch
 
-To apply individual patches use the following links depending on your Magento product:
+To apply individual patches use the following links to our developer documentation, depending on your Adobe Commerce deployment method:
 
-* Magento Commerce: DevDocs [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
-* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
+* Adobe Commerce on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
 
 ## Related reading
 
