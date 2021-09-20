@@ -1,21 +1,21 @@
 ---
 title: Exported products .csv file does not appear
-labels: 2.3.2,Magento Commerce Cloud,csv file,export,exportProcessor,exported,how to,products
+labels: 2.3.2,Magento Commerce Cloud,csv file,export,exportProcessor,exported,how to,products,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a fix for the issue where you try to export products to a .csv file in Magento Admin, but the file does not appear.
+This article provides a fix for the issue where you try to export products to a .csv file in Commerce Admin, but the file does not appear.
 
 ## Affected products and versions
 
-* Magento Commerce Cloud 2.3.2
+* Adobe Commerce on cloud infrastructure 2.3.2
 
 ## Issue
 
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
-Prerequisites: The **Add Secret Key to URLs** option is set to *Yes* . The option is configured in the Magento Admin under **Stores** > **Configuration** > **Advanced** > **Admin** > **Security** .
+Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option is configured in the Commerce Admin under **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 
-1. In the Magento Admin, navigate to **System** > **Data Transfer** > **Export** .    
+1. In the Admin, navigate to **System** > **Data Transfer** > **Export**.    
     ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)    
 1. Select
     * **Entity Type** : *Products*
@@ -34,7 +34,7 @@ The .csv file with the exported products is not displayed in the grid in 10 minu
 
 ## Cause
 
-A known issue with the Export functionality in Magento application part version 2.3.2.
+A known issue with the Export functionality in Adobe Commerce application part version 2.3.2.
 
 ## Solution
 
@@ -47,10 +47,10 @@ See details for both options in the following paragraphs.
 
 ### Disable the the Add Secret Key to URL option
 
-1. In the Magento Admin, navigate to **Stores** > **Configuration** > **Advanced** > **Admin** > **Security** .
+1. In the Admin, navigate to **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 1. Set the **Add Secret Key to URLs** option to *No.*
-1. Click **Save Config** .
-1. Clean cache under **System** > **Tools** > **Cache Management** or by running    ```bash    bin/magento cache:clean    ```    or in Magento Admin.
+1. Click **Save Config**.
+1. Clean cache under **System** > **Tools** > **Cache Management** or by running    ```bash    bin/magento cache:clean    ```    or in the Admin.
 
 ### Run the export command manually and optionally add it as cron job
 
@@ -77,8 +77,8 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 
 >![info]
 >
->If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml` . It might be empty initially, you can add info there as required. Reference the following Magento DevDocs articles: [Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html) , [Environment variables](https://devdocs.magento.com/cloud/env/variables-intro.html)
+>If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml`. It might be empty initially, you can add info there as required. Reference the following articles: [Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html) and [Environment variables](https://devdocs.magento.com/cloud/env/variables-intro.html) in our developer documentation.
 
 >![info]
 >
->On Magento Commerce Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Magento Commerce Cloud project before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml` . If this feature is not enabled, [create a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) , to have the job added for you.
+>On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket), to have the job added for you.

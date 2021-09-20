@@ -1,9 +1,9 @@
 ---
- title: Magento Support ticket lifecycle policy update
- labels: Magento Support,about help center,tickets
+ title: Adobe Commerce Support ticket lifecycle policy update
+ labels: Magento Support,about help center,tickets,Adobe Commerce
 ---
 
- This article provides information about Magento Support ticket lifecycle policy update.
+ This article provides information about Adobe Commerce Support ticket lifecycle policy update.
 
  The following table illustrates the updated scenarios. You can find details for each scenario in the section below.
 
@@ -60,10 +60,10 @@ When a ticket is set to "Solved" by a customer, it is closed in one day and the 
 
 ### Customer directs support to close the ticket
 
-When a customer directs Magento Support to close the ticket, it is closed in one day and the customer is notified.
+When a customer directs Adobe Commerce Support to close the ticket, it is closed in one day and the customer is notified.
 
 ## Related reading
 
 * [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket)
-* ["Submit a ticket" link not displayed on Magento Help Center start page](https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Magento-Help-Center-start-page)
+* ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Magento-Help-Center-start-page)
 * [Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360043335371-Ticket-submission-form-merchant-is-not-displayed-in-Organization-drop-down)
