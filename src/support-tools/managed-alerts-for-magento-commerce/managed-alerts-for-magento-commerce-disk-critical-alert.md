@@ -43,7 +43,7 @@ Follow these steps to identify and troubleshoot the cause.
     * [New Relic Incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents) . This is included in your [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832).
 1. In New Relic, review disks for highest use. For steps refer to Storage tab on New Relic [Infrastructure monitoring Hosts page:](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page)
     * If in New Relic you see a slow increase in disk usage, try the following options:
-    * Optimizing disk space by adjusting space allocation. For steps, refer to developer documentation [Manage Disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html). You may also need to request more disk space (contact your CSM).
+    * Optimizing disk space by adjusting space allocation. For steps, refer to [Manage Disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation. You may also need to request more disk space (contact your CSM).
     * Clear up disk space for MySQL. Refer to [MySQL disk space is low](https://support.magento.com/hc/en-us/articles/360037591972) in our support knowledge base for steps.
     * If New Relic shows rapidly increasing disk usage, this could indicate that there is a problem that has caused a file to increase very quickly in a directory. Do the following checks:
 1. Check overall disk space to identify the problem by running the following command in the CLI/Terminal: `df -h`  
