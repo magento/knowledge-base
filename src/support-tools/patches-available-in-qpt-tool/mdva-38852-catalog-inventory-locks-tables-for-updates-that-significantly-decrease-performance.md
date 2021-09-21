@@ -36,7 +36,7 @@ Catalog inventory locks tables for updates which significantly decreases perform
 <ins>Actual results</ins>:
 
 * Placing an order is extremely slow when there are multiple concurrent users.
-* Deadlock errors occurs which look like the following:
+* Deadlock errors occur which look like the following:
 
 ```SQL
 "SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction, query was:
