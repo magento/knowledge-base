@@ -1,6 +1,6 @@
 ---
 title: "MDVA-38132: Infinite redirect when backend URL is different from default website URL"
-labels: QPT Patches,Quality Patches Tool,Support Tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.3,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1, Adobe Commerce,cloud infrastructure,on-premises
+labels: QPT Patches,Quality Patches Tool,Support Tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.3,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 The MDVA-38132 patch fixes the issue of infinite redirect when the backend URL is different from the default website URL. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
