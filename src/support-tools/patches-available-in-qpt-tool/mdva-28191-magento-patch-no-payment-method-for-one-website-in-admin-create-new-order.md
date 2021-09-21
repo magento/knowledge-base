@@ -20,7 +20,7 @@ When creating an order from the backend Magento creates two quotes, one is inact
 
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
-1. Go to **Admin Panel** > **Sales** > **Orders** and press the **Create New Order** button.    
+1. Go to **Admin Panel** > **Sales** > **Orders** and click the **Create New Order** button.    
 1. Choose the customer you want to create the order for.
 1. If your store has multiple views, choose the store view where the order is to be placed, on the **Create New Order** page for the user you selected.
 1. Add products from the **Customer's Activities** section or from the catalog by clicking **Add Products** . Scroll down the page to complete the following sections as needed for the order:
