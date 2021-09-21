@@ -10,7 +10,7 @@ The MDVA-38132 patch fixes the issue of infinite redirect when the backend URL i
 **The patch is created for Adobe Commerce version:**
 Adobe Commerce on cloud infrastructure 2.3.4-p2
 
-**Compatible with Magento versions:**
+**Compatible with Adobe Commerce versions:**
 Adobe Commerce (all deployment methods) 2.3.3-2.4.2-p1
 >![info]
 >
