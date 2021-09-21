@@ -31,7 +31,7 @@ Catalog inventory locks tables for updates which significantly decreases perform
 <ins>Expected results</ins>:
 
 * There is no deadlocks.
-* Performance is not decreased in cases when several parallel orders placed.
+* Performance is not decreased in cases when several parallel orders are placed.
 
 <ins>Actual results</ins>:
 
