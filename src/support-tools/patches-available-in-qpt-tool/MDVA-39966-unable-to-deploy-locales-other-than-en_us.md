@@ -26,7 +26,7 @@ Unable to deploy locales other than en_US.
 <ins>Steps to reproduce</ins>:
 
 1. Configure two store views with different locales, for example - en_US and de_DE.
-1. Try to deploy static content for this locales by running the following command:
+1. Try to deploy static content for these locales by running the following command:
 
 ```bash
 bin/magento setup:static-content:deploy --language=en_US
