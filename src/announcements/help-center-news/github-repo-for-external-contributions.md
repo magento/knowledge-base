@@ -22,7 +22,7 @@ We welcome all kinds of contributions, from minor typo corrections to complete t
     * Markdown Linting test - making sure markdown syntax is correct.
     * File structure validation test - making sure the commit is done according to the [required file structure](https://github.com/magento/knowledge-base/blob/main/.github/CONTRIBUTING.md#file_structure).
 1. PR approvals flow:
-    1. The Support Knowledge Base (KB) writers review the PR within several days' time frame and add labels.
+    1. The support knowledge base (KB) writers review the PR within several days' time frame and add labels.
     1. KB writer can approve/deny/request changes.
     1. If approved, KB writer adds labels corresponding to the level of input provided in PR and internal subject matter expert (SME) reviews the PR.
     1. SME can approve/deny/request changes.
