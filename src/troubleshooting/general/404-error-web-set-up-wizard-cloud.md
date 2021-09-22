@@ -7,7 +7,7 @@ This article provides a solution for when you experience a 404 not found error w
 
 ## Affected products and versions
 
-* The web setup wizard functionality was deprecated in Adobe Commerce on cloud infrastructure 2.3.6 and removed in 2.4.0.
+* The web setup wizard functionality was deprecated in Adobe Commerce (all deployment methods) 2.3.6 and removed in 2.4.0.
 
 ## Issue
 
@@ -33,9 +33,8 @@ The Web Setup Wizard has been disabled for all Adobe Commerce on cloud infrastru
 
 This feature is disabled on Adobe on cloud infrastructure.
 
-See to [Install, manage, and upgrade extensions
-](https:/devdocs.magento.com/cloud/howtos/install-components.html) in our developer doccumentation for information on how to perform updates or install external modules.
-
+See [Install, manage, and upgrade extensions](https:/devdocs.magento.com/cloud/howtos/install-components.html) in our developer documentation for information on how to perform updates or install external modules for Adobe Commerce on our cloud infrastructure.
+See [Quick start install](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html] in our developer documentation for information on how to perform updates or install external modules for for Adobe Commerce.
 ## Related reading
 
 * [Install an extension](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) in our developer documentation.
