@@ -27,9 +27,7 @@ A 404 error displays.
 
 ## Cause
 
-The Web Setup Wizard has been disabled for all Adobe Commerce on cloud infrastructure instances - it is not possible to enable it.
-
-Extensions have to be installed through composer. 
+The Web Setup Wizard has been disabled for all Adobe Commerce on cloud infrastructure instances - it is not possible to enable it. Extensions have to be installed through composer.
 
 ## Solution
 
