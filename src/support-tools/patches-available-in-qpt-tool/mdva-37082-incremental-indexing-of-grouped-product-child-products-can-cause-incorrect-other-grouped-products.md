@@ -8,7 +8,7 @@ The MDVA-37082 Magento patch fixes the issue when the partial index of stock sta
 
 ## Affected products and versions
 
-**The patch is created for Magento version:**
+**The patch is created for Adobe Commerce version:**
 Adobe Commerce on cloud infrastructure 2.3.4-p2
 
 **Compatible with Magento versions:**
