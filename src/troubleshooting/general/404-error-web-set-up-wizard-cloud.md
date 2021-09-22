@@ -29,7 +29,7 @@ A 404 error displays.
 
 The Web Setup Wizard has been disabled for all Adobe Commerce on cloud infrastructure instances - it is not possible to enable it.
 
-You must use install any extensions locally and then push it to the cloud environment.
+Extensions have to be installed through composer. 
 
 ## Solution
 
