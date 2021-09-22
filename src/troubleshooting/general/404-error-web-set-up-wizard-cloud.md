@@ -7,7 +7,7 @@ This article provides a solution for when you experience a 404 not found error w
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3
+* The web setup wizard functionality was deprecated in Adobe Commerce on cloud infrastructure 2.3.6 and removed in 2.4.0.
 
 ## Issue
 
