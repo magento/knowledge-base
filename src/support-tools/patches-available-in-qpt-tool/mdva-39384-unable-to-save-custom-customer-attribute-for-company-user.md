@@ -30,8 +30,8 @@ B2B modules installed.
 <ins>Steps to reproduce</ins>:
 
 1. Go to **Stores** > Settings > **Configuration** > **B2B Features** and set the **Enable Company** to Yes.
-1. Create a custom customer attribute.
-    * Values Required: Yes (optional, enabled so the validation error is displayed).
+1. Create a custom customer attribute:
+    * Values Required: Yes (optional, enable it so the validation error is displayed).
     * Show on Storefront: Yes.
     * Forms to Use In: All available in the list.
 1. Create a Company and log in as the company admin.
@@ -42,11 +42,11 @@ B2B modules installed.
 
 <ins>Expected results</ins>:
 
-The custom attribute value is saved with the new company user created.
+The custom attribute values are saved with the new company user.
 
 <ins>Actual results</ins>:
 
-The custom attribute value is not saved with the new company user created.
+The custom attribute values are NOT saved with the new company user.
 
 ## Apply the patch
 
