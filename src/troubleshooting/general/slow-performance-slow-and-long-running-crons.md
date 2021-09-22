@@ -31,7 +31,7 @@ Flat tables and indexers enabled.
 Starting with Adobe Commerce and Magento Open Source 2.1.x and above, the use of a flat catalog is no longer a best practice and is not recommended. Continued use of this feature is known to cause performance degradation and other indexing issues. To disable the flat catalog:
 
 1. In the Admin, navigate to **Stores** > **Settings** > **Configuration**.
-1. In the panel on the left under **Catalog** , choose **Catalog** .
+1. In the panel on the left under **Catalog** , choose **Catalog**.
 1. Expand the **Storefront** section, and do the following:
     * Set **Use Flat Catalog Category** to *No*.
     * Set **Use Flat Catalog Product** to *No*.
