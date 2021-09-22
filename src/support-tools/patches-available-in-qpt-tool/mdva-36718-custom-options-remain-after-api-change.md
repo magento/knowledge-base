@@ -15,7 +15,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
  **Compatible with Magento versions:**
 
- Adobe Commerce and Adobe Commerce on cloud infrastructure 2.3.0-2.4.2
+ Adobe Commerce (all deployment methods) 2.3.0-2.4.2
 
 >![info]
 >
