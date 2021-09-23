@@ -1,15 +1,16 @@
 ---
-title: "Magento 2.4.2 B2B: discount remains pay method change"
-labels: 2.4.2,B2B,Magento Commerce,Magento Commerce Cloud,discount,known issue,payment method
+title: "Adobe Commerce 2.4.2 B2B: discount remains pay method change"
+labels: 2.4.2,B2B,Magento Commerce,Magento Commerce Cloud,discount,known issue,payment method,Adobe Commerce,cloud infrastructure
 ---
 
-This article describes a known Magento Commerce 2.4.2 B2B issue where a payment method-tied discount persists after a payment method change at checkout. There is no resolution available at this time.
+This article describes a known Adobe Commerce 2.4.2 B2B issue where a payment method-tied discount persists after a payment method change at checkout. There is no resolution available at this time.
 
 ## Affected products and versions
 
-* Magento Commerce 2.4.2
-* Magento Commerce Cloud 2.4.2
-* Magento B2B version 1.3.1
+* Adobe Commerce 2.4.2
+* Adobe Commerce on cloud infrastructure 2.4.2
+* B2B for Adobe Commerce 1.3.1
+
 
 ## Issue
 
