@@ -22,7 +22,7 @@ Adobe Commerce Best Practices for cart limits are:
 
 ## Affected products and versions
 
-* 	Adobe Commerce (all deployment methods)
+* Adobe Commerce (all deployment methods)
 
 ## Best practices
 
