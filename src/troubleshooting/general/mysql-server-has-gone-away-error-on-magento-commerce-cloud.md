@@ -1,29 +1,29 @@
 ---
-title: MySQL server has gone away​ error on Magento Commerce Cloud
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,MySQL,cron,deployment fails,error,log,time-out
+title: MySQL server has gone away​ error on Adobe Commerce on cloud
+labels: 2.3,2.3.x,2.4,2.4.x,Magento,MySQL,cron,deployment fails,error,log,time-out,Adobe Commerce,cloud infrastructure
 ---
 
-This article talks about the solution for the issue where you receive an " *SQL server has gone away* " error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced. ** 
+This article talks about the solution for the issue where you receive an " *SQL server has gone away* " error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced.
 
 ## Affected products and versions
 
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) .
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Issue
 
 You receive an " *SQL server has gone away* " error message in the `cron.log` file.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 Import files and trigger a deployment.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Successful deployment.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
-Error message in `cron.log` :" *SQLSTATE\[HY000\] \[2006\] MySQL server has gone away at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144"* 
+Error message in `cron.log` :" *SQLSTATE\[HY000\] \[2006\] MySQL server has gone away at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144"*
 
 ## Cause
 
@@ -38,6 +38,5 @@ The `default_socket_timeout` value is set too low. This is caused by the setting
 ## Related reading
 
 * [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172)
-* [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312)
-* [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651)
-
+* [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312)
+* [Most common database issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651)
