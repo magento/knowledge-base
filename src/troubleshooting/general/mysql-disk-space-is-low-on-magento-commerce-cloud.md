@@ -33,13 +33,13 @@ PHP errors:
 
 Database errors:
 
-* Error\_code: 1114
-* InnoDB: Error (Out of disk space) writing word node to FTS auxiliary index table.
-* SQLSTATE\[HY000\]: General error: 2006 MySQL server has gone away
-* \[ERROR\] Slave SQL: Error 'The table '<table\_name>' is full' on query.
-* Unit mysql.service entered failed state.
-* error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111 "Connection refused")'
-* 1205 Lock wait timeout exceeded; try restarting transaction, query was: INSERT INTO \`cron\_schedule\` (\`job\_code\`, \`status\`, \`created\_at\`, \`scheduled\_at\`) VALUES (?, ?, 'YYYY-02-07 HH:MM:SS’, ‘YYYY-MM-DD HH:MM:SS’')
+* *Error\_code: 1114*
+* *InnoDB: Error (Out of disk space) writing word node to FTS auxiliary index table.*
+* *SQLSTATE\[HY000\]: General error: 2006 MySQL server has gone away*
+* *\[ERROR\] Slave SQL: Error 'The table '<table\_name>' is full' on query.*
+* *Unit mysql.service entered failed state.*
+* *error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111 "Connection refused")'*
+* *1205 Lock wait timeout exceeded; try restarting transaction, query was: INSERT INTO \`cron\_schedule\` (\`job\_code\`, \`status\`, \`created\_at\`, \`scheduled\_at\`) VALUES (?, ?, 'YYYY-02-07 HH:MM:SS’, ‘YYYY-MM-DD HH:MM:SS’')*
 
 Deployment errors:
 
