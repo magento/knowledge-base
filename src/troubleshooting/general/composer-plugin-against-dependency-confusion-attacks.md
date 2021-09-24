@@ -17,7 +17,7 @@ A potential case of an active Dependency Confusion attack is detected through at
 
 When you install/update composer, the composer plugin will stop the process if it detects a potential Dependency Confusion attack. In that case, composer install/update will fail with an error message similar to:
 
-```*Higher matching version x.x.x of package/name was found in public repository packagist.org than x.x.x in private.repo. Public package might've been taken over by a malicious entity; please investigate and update package requirement to match the version from the private repository.*```
+*```Higher matching version x.x.x of package/name was found in public repository packagist.org than x.x.x in private.repo. Public package might've been taken over by a malicious entity; please investigate and update package requirement to match the version from the private repository.```*
 
 ## Cause
 
