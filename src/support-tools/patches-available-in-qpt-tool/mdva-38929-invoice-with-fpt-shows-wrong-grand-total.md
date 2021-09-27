@@ -25,7 +25,7 @@ The invoice with FPT shows a wrong grand total when the order is paid with store
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a customer and make sure that the customer has a store credit with enough money to cover the order.
+1. Create a customer and make sure that the customer has store credit enough to cover the order.
 1. Enable FPT and add FPT to a product.
 1. From the front end, log in as the customer just created.
 1. Add the product with FPT to the cart.
