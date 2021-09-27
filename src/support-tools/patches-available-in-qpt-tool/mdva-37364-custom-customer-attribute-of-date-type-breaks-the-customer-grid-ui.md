@@ -3,7 +3,7 @@ title: "MDVA-37364: Custom customer attribute of date type breaks Grid UI"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premise,cloud infrastructure,customer attribute,custom,grid UI,broken,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
-The MDVA-37364 patch solves the issue where the custom customer attribute of date type breaks the Customer Grid UI. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-37364. Please note that the issue is scheduled to be fixed in Magento version 2.4.4.
+The MDVA-37364 patch solves the issue where the custom customer attribute of date type breaks the Customer Grid UI. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-37364. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
 
 ## Affected products and versions
 
@@ -27,9 +27,8 @@ Custom customer attribute of date type breaks the Customer Grid UI.
 
 1. Create a custom attribute with date type:
     * Go to **Stores** > **Attributes** > **Add Attribute**.
-    * Set Input Type as Date.
-    * Set Add to Column Options as Yes.
-    * Set attached customer_attribute.png.
+    * Set the Input Type to Date.
+    * Set the Add to Column Options to Yes.
     * Save the attribute.
 1. Go to **Admin** > **Customers** > **All Customers**.
     * Add the newly added custom attribute to the grid from the columns option.
@@ -40,7 +39,7 @@ Custom customer attribute of date type breaks the Customer Grid UI.
 
 <ins>Expected results</ins>:
 
-The Admin Customer Grid shows all data including the new date custom attribute without breaking the grid UI.
+The Admin Customer Grid shows all data including the new date custom attribute without breaking the Customer Grid UI.
 
 <ins>Actual results</ins>:
 
