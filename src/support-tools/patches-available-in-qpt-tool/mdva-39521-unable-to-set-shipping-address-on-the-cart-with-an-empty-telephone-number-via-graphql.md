@@ -69,7 +69,6 @@ GRAPHQL VARIABLES
       "cartId": "6Efw00UbjPoP5cvTFhsswDTjpxs0Xupt"
     }
     ```
-
     ```GraphQL
     mutation ($cartId: String!) {
       setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses:
@@ -95,7 +94,7 @@ GRAPHQL VARIABLES
     }
     ```
 
-    Result:
+Result:
 
     ```GraphQL
       {
