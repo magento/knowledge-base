@@ -49,7 +49,7 @@ The instance must be clean with only the sample data.
 
 <ins>Expected results</ins>:
 
-Related products must show in GraphQL response.
+Related products is shown in the GraphQL response.
 
 <ins>Actual results</ins>:
 
