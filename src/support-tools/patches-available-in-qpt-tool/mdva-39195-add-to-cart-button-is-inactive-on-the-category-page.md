@@ -21,7 +21,7 @@ The MDVA-39195 patch solves the issue where the **Add to Cart** button is inacti
 
 ## Issue
 
-The Add to Cart button is inactive on the Category Page even if the redirect to cart is enabled.
+The **Add to Cart** button is inactive on the Category Page when the redirect to cart is enabled.
 
 <ins>Steps to reproduce</ins>:
 
