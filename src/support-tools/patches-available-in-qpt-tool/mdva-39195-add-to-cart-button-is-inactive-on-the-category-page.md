@@ -36,7 +36,7 @@ The Add to Cart button is inactive on the Category Page even if the redirect to 
 
 <ins>Actual results</ins>:
 
-**Add to Cart** button inactive on Category Page.
+**Add to Cart** button is inactive on Category Page.
 
 ## Apply the patch
 
