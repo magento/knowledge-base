@@ -7,7 +7,7 @@ This article provides a solution for when you experience a 404 not found error w
 
 ## Affected products and versions
 
-* The web setup wizard functionality was deprecated in Adobe Commerce (all deployment methods) 2.3.6 and removed in 2.4.0.
+* The Web Setup Wizard functionality was deprecated in Adobe Commerce (all deployment methods) 2.3.6 and removed in 2.4.0.
 
 ## Issue
 
