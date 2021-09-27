@@ -21,7 +21,7 @@ The MDVA-39521 patch solves the issue where the user is unable to set shipping a
 
 ## Issue
 
-The user is not able to set shipping address on the cart with an empty telephone number via GraphQ despite the “Show Telephone” is configured as optional.
+The user is not able to set shipping address on the cart with an empty telephone number via GraphQ despite the Show Telephone is configured as optional.
 
 <ins>Steps to reproduce</ins>:
 
@@ -72,7 +72,10 @@ GRAPHQL VARIABLES
 
     ```GraphQL
     mutation ($cartId: String!) {
-      setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses: {address: {firstname: "John", lastname: "Doe", company: "Company Name", street: ["820 Burrard Street"], city: "Vancouver", region: "BC", postcode: "V6Z 2J1", country_code: "CA", telephone: "123-456-0000", save_in_address_book: false}}}) {
+      setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses:
+      {address: {firstname: "John", lastname: "Doe", company: "Company Name",
+      street: ["820 Burrard Street"], city: "Vancouver", region: "BC", postcode: "V6Z 2J1",
+      country_code: "CA", telephone: "123-456-0000", save_in_address_book: false}}}) {
         cart {
           shipping_addresses {
             firstname
