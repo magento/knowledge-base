@@ -50,9 +50,9 @@ The patches are attached to this article. To download a patch, scroll down to th
 
 The patches were created for:
 
-* MDVA-11059\_EE\_2.2.3\_COMPOSER\_v1.patch was created for Adobe Commerce on-premises 2.2.3
-* MDVA-23505\_EE\_2.2.4\_COMPOSER\_v1.patch was created for Adobe Commerce on-premises 2.2.4
-* MDVA-12158\_EE\_2.2.5\_COMPOSER\_v2.patch was created for Adobe Commerce on-premises 2.2.5
+* MDVA-11059\_EE\_2.2.3\_COMPOSER\_v1.patch was created for Adobe Commerce (all deployment methods) 2.2.3
+* MDVA-23505\_EE\_2.2.4\_COMPOSER\_v1.patch was created for Adobe Commerce (all deployment methods) 2.2.4
+* MDVA-12158\_EE\_2.2.5\_COMPOSER\_v2.patch was created for Adobe Commerce (all deployment methods) 2.2.5
 
 The MDVA-11059\_EE\_2.2.3\_COMPOSER\_v1.patch patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
