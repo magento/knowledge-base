@@ -94,7 +94,7 @@ GRAPHQL VARIABLES
     }
     ```
 
-Result:
+    Result:
 
     ```GraphQL
       {
