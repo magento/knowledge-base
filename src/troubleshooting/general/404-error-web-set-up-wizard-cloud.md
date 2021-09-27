@@ -11,7 +11,7 @@ This article provides a solution for when you experience a 404 not found error w
 
 ## Issue
 
-When installng an extension using Web Setup Wizard a 404 page displays.
+When installing an extension using Web Setup Wizard a 404 page displays.
 
 <ins>Steps to reproduce</ins>:
 
