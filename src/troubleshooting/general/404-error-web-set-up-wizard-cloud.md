@@ -37,4 +37,4 @@ See [Install, manage, and upgrade extensions](https://devdocs.magento.com/cloud/
 See [Quick start install](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in our developer documentation for information on how to perform updates or install external modules for Adobe Commerce.
 ## Related reading
 
-* [Install an extension](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) in our developer documentation.
+* See [Install an extension](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) in our developer documentation.
