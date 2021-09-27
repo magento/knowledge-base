@@ -33,7 +33,7 @@ Custom customer attribute of date type breaks the Customer Grid UI.
 1. Go to **Admin** > **Customers** > **All Customers**.
     * Add the newly added custom attribute to the grid from the columns option.
 1. Create/Edit a customer and set the value of the created custom date attribute field.
-1. Save, reindex and clear cache.
+1. Save, reindex, and clear cache.
 1. Go to **Customers** > **All Customers**.
     * Check the Customer Grid.
 
