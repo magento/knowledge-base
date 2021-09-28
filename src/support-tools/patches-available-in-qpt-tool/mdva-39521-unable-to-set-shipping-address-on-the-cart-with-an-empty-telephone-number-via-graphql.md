@@ -125,7 +125,10 @@ The user is not able to set shipping address on the carts with an empty telephon
 1. Add address with empty phone number.
     ```GraphQL
     mutation ($cartId: String!) {
-      setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses: {address: {firstname: "John", lastname: "Canada", company: "Company Name", street: ["820 Burrard Street"], city: "Vancouver", region: "BC", postcode: "V6Z 2J1", country_code: "CA", telephone: "123-456-0000", save_in_address_book: false}}}) {
+      setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses: {address: {firstname:
+        "John", lastname: "Canada", company: "Company Name", street: ["820 Burrard Street"], city:
+        "Vancouver", region: "BC", postcode: "V6Z 2J1", country_code: "CA", telephone: "123-456-0000",
+        save_in_address_book: false}}}) {
         cart {
           shipping_addresses {
             firstname
