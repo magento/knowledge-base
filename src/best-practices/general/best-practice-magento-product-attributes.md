@@ -1,15 +1,15 @@
 ---
-title: Best practice Magento product attributes
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,product
+title: Best practice Adobe Commerce product attributes
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,attribute,best practices,product,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
-This article provides best practices for the maximum recommended number of product attributes in Magento.
+This article provides best practices for the maximum recommended number of product attributes in Adobe Commerce.
 
 These maximum recommended number of product attributes limits are:
 
-* For Magento Commerce and Magento Commerce Cloud versions 2.4.1 and lower,
+* For Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure versions 2.4.1 and lower,
    the limit is 500 product attributes.
-* For Magento Commerce and Magento Commerce Cloud versions 2.4.2 and higher,
+* For Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure versions 2.4.2 and higher,
    the limit is 1500 product attributes.
 
 If you exceed the maximum recommended limit, performance can be affected.
@@ -29,8 +29,8 @@ Product Mass Actions functionality can be blocked. Index re-build time for mid/l
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
@@ -42,8 +42,8 @@ Recommendations are:
 * Remove non-used product properties
 * Store and manage non-commerce related attributes in external PMS systems
 
-If assistance is required or if there are questions or concerns, [submit a Magento Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) .
+If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
 ## Related reading
 
-Refer to DevDocs [Customization tutorials > Customize product creation form](https://devdocs.magento.com/guides/v2.4/howdoi/customize_product.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=product%20attributes) .
+See [Customization tutorials > Customize product creation form](https://devdocs.magento.com/guides/v2.4/howdoi/customize_product.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=product%20attributes) in our developer documentation.

@@ -1,13 +1,13 @@
 ---
 title: Troubleshooting 503 error caused by necessity to change default Varnish settings
-labels: 503,Magento Commerce,Varnish,backend,cache,error,fetch,how to
+labels: 503,Magento Commerce,Varnish,backend,cache,error,fetch,how to,troubleshooting,Adobe Commerce
 ---
 
 This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store.
 
 ## Issue
 
-If the length of cache tags used by Magento exceed Varnish's default of 8192 bytes, you can see HTTP 503 (Backend Fetch Failed) errors in the browser. The errors might display similar to the following: *"Error 503 Backend fetch failed. Backend fetch failed"*
+If the length of cache tags used by Adobe Commerce exceed Varnish's default of 8192 bytes, you can see HTTP 503 (Backend Fetch Failed) errors in the browser. The errors might display similar to the following: *"Error 503 Backend fetch failed. Backend fetch failed"*
 
 ## Solution
 
@@ -29,14 +29,14 @@ To resolve this issue, increase the default value of the `http_resp_hdr_len` par
 
 <h2 id="health-check-timeouts">Health check timeouts</h2>
 
-If you disable the cache while Varnish is configured as the caching application and while Magento is in developer mode, it might become impossible to log in to the Admin.
+If you disable the cache while Varnish is configured as the caching application and while Adobe Commerce is in developer mode, it might become impossible to log in to the Admin.
 
-This situation could happen because the default health check has a `timeout` value of 2 seconds. It could take more than 2 seconds for the health check to collect and merge information on every health check request. If this occurs in 6 out of 10 health checks, the Magento server is considered unhealthy. Varnish serves stale content when the server is unhealthy.
+This situation could happen because the default health check has a `timeout` value of 2 seconds. It could take more than 2 seconds for the health check to collect and merge information on every health check request. If this occurs in 6 out of 10 health checks, the Adobe Commerce server is considered unhealthy. Varnish serves stale content when the server is unhealthy.
 
-Because Admin is accessed through Varnish, you cannot log in to Admin to enable caching (unless Magento becomes healthy again). However, you can use the following command to enable cache:
+Because Admin is accessed through Varnish, you cannot log in to Admin to enable caching (unless Adobe Commerce becomes healthy again). However, you can use the following command to enable cache:
 
 ```bash
 $ bin/magento cache:enable
 ```
 
-For more information about using the command line, see [Get started with command-line configuration](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands.html) .
+For more information about using the command line, see [Get started with command-line configuration](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands.html).

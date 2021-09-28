@@ -1,13 +1,13 @@
 ---
-title: "Magento Commerce Cloud: CPU allocation calculation"
-labels: CPU Allocation,calculation,configuration,hardware resources,phCPU,query
+title: "Adobe Commerce on cloud infrastructure: CPU allocation calculation"
+labels: CPU Allocation,calculation,configuration,hardware resources,phCPU,query,Adobe Commerce,cloud infrastructure,Magento
 ---
 
 The attached article provides detailed guidelines on what metrics should be used when making decisions about CPU allocation, and how to calculate them.
 
 ## Affected products and versions
 
-Magento Commerce Cloud 2.3.x, 2.4.x.
+Adobe Commerce on cloud infrastructure 2.3.x, 2.4.x.
 
 ## Attached files
 
