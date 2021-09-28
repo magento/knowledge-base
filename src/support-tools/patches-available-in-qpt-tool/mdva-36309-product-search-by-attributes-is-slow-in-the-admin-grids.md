@@ -13,7 +13,7 @@ The MDVA-36309 patch solves the issue where the products search by attributes is
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods)  2.4.2 - 2.4.2-p2
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.2-p2
 
 >![info]
 >
