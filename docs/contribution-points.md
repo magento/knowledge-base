@@ -1,5 +1,5 @@
 
-The Adobe Commerce Support Knowledge Base works with Adobe Commerce Community Engineering teams and projects. As you contribute Pull Requests (PRs), you gain Contribution Points.
+The Adobe Commerce Support Knowledge Base works with the Community Engineering teams and projects. As you contribute Pull Requests (PRs), you gain Contribution Points.
 
 These earned points add to contributor totals for Adobe Commerce contributions. Like code for Adobe Commerce & Magento Open Source and contributions to our developer documentation, the Support KB team assesses the PRs and applies labels (which may vary between repositories) to determine the level of work and achievements to be awarded. Each PR receives one base achievement and potentially additional achievements.
 
