@@ -36,7 +36,7 @@ When trying to save a CMS page assigned to a hierarchy, users get the following 
     * Add CMS Page 1 to this scope and save it.
 1. Go to **Content** > **Pages** > **Add New Page**.
     * Title the page as Page 2.
-    * In the Page in Websites section, assign to All Store Views and both created store views and save it.
+    * In the Page in Websites section, assign to All Store Views and both created store views and click **Save Page**.
 1. In the CMS edit page, open the Hierarchy tab.
     * Assign the page to Store View 2 node, Default node, and All Websites node.
 
