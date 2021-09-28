@@ -1,6 +1,6 @@
 ---
 title: Current version of RDBMS is not supported error on deployment
-labels: troubleshooting,Adobe Commerce,cloud infrastructure,MariaDB,RDBMS
+labels: troubleshooting,Adobe Commerce,cloud infrastructure,MariaDB,RDBMS,Magento Commerce
 ---
 
 This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*.
