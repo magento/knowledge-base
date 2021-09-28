@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce best practice: conducting critical actions in Admin"
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,actions,cache invalidation,critical,event,flush,log,move,save,Adobe Commerce,cloud architecture,on-premise
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,actions,cache invalidation,critical,event,flush,log,move,save,Adobe Commerce,cloud infrastructre,on-premises
 ---
 
 It is best practice not to conduct critical actions in the Commerce Admin panel during business hours to avoid performance degradation.
@@ -15,8 +15,8 @@ These critical actions lead to cache invalidation (a procedure for one or more o
 
 ## Affected products and versions
 
-* Adobe Commerce on-premise, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Adobe Commerce on our cloud architecture, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practice
 
