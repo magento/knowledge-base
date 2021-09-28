@@ -31,12 +31,12 @@ When trying to save a CMS page assigned to a hierarchy, users get the following 
 1. Change the scope to Store View 2.
     * Uncheck "Use the parent node hierarchy".
     * Add CMS Page 1 to this scope and save it.
-1. Now change the scope to Default.
+1. Now change the scope to Default Store View.
     * Uncheck "Use the parent node hierarchy".
     * Add CMS Page 1 to this scope and save it.
-1. Go to **Content** > **Pages** > **Add new Page**.
+1. Go to **Content** > **Pages** > **Add New Page**.
     * Title the page as Page 2.
-    * In the Page (in the Websites section), assign to All Store Views, and both created store views and save it.
+    * In the Page in Websites section, assign to All Store Views and both created store views and save it.
 1. In the CMS edit page, open the Hierarchy tab.
     * Assign the page to Store View 2 node, Default node, and All Websites node.
 
