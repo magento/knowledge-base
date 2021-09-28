@@ -1,7 +1,7 @@
 
-The Adobe Commerce Support Knowledge Base (KB) works with Magento Community Engineering teams and projects. As you contribute Pull Requests (PRs), you gain Contribution Points.
+The Adobe Commerce Support Knowledge Base works with Adobe Commerce Community Engineering teams and projects. As you contribute Pull Requests (PRs), you gain Contribution Points.
 
-These earned points add to contributor totals for Magento contributions. Like Magento code and Magento DevDocs contributions, the Support KB team assesses the PRs and applies labels (which may vary between repositories) to determine the level of work and achievements to be awarded. Each PR receives one base achievement and potentially additional achievements.
+These earned points add to contributor totals for Adobe Commerce contributions. Like code for Adobe Commerce & Magento Open Source and contributions to our developer documentation, the Support KB team assesses the PRs and applies labels (which may vary between repositories) to determine the level of work and achievements to be awarded. Each PR receives one base achievement and potentially additional achievements.
 
 These examples show how reward points are calculated:
 
@@ -11,7 +11,7 @@ These examples show how reward points are calculated:
 
 ## Base achievements
 
-Every merged PR to the Support KB repository receives one base achievement. By default, it is "Improvement", but if changes are minor and qualify for "Editorial" instead, a team member would add the "Editorial" label, and it will replace the default Improvement achievement. 
+Every merged PR to the support knowledge base repository receives one base achievement. By default, it is "Improvement", but if changes are minor and qualify for "Editorial" instead, a team member would add the "Editorial" label, and it will replace the default Improvement achievement.
 
 | ACHIEVEMENT  | POINTS | DESCRIPTION                                                                                                                              |
 |--------------|:--------:|------------------------------------------------------------------------------------------------------------------------------------------|
