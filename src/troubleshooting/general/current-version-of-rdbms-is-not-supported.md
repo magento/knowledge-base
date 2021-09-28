@@ -1,5 +1,5 @@
 ---
-title: Current version of RDBMS is not supported error on deployment
+title: Current version of RDBMS not supported error on deployment
 labels: troubleshooting,Adobe Commerce,cloud infrastructure,MariaDB,RDBMS,Magento Commerce
 ---
 
@@ -42,4 +42,4 @@ If you are on Adobe Commerce on cloud infrastructure Pro plan architecture, plea
 
 ## Related reading
 [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
-[Adobe Commerce 2.3.5 upgrade: compact to dynamic tables]https://support.magento.com/hc/en-us/articles/360048389631 in our support knowlegde base. 
+[Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](https://support.magento.com/hc/en-us/articles/360048389631) in our support knowlegde base. 
