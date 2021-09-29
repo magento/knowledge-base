@@ -62,7 +62,7 @@ The user is not able to set shipping address on the carts with an empty telephon
     }
     }
     ```
-1. Add address: GRAPHQL VARIABLES
+1. Add address: GRAPHQL VARIABLES.
     ```GraphQL
     {
       "cartId": "6Efw00UbjPoP5cvTFhsswDTjpxs0Xupt"
