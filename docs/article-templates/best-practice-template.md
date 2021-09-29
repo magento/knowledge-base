@@ -28,7 +28,7 @@ Adobe Commerce (all deployment methods) x.x.x
 ## Related reading
 
 * [article topic](https://docs.magento.com/user-guide/) in our user guide.
-* [article topic](https://devdocs.magento.com) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: "[upgrade project](https://devdocs.magento.com/cloud/project/project-upgrade-parent.html) in our developer documentation for upgrade instructions for Adobe Commerce on our cloud infrastructure" vs "[Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in our developer documentation for instructions on how to apply custom patches on Adobe Commerce." or "[upgrade project](https://devdocs.magento.com/cloud/project/project-upgrade-parent.html) in our developer documentation for Adobe Commerce on our cloud infrastructure." vs "[Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in our developer documentation for Adobe Commerce."
+* [article topic](https://devdocs.magento.com) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: “[upgrade project](https://devdocs.magento.com/cloud/project/project-upgrade-parent.html) in our developer documentation for Adobe Commerce on cloud infrastructure." vs "[Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in our developer documentation for Adobe Commerce on-premises.
 * [article topic](https://support.magento.com/hc/en-us) in our knowledge base.
 * Any related resources (blogs, forums, StackOverflow, etc.)
 
