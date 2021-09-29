@@ -48,7 +48,7 @@ The patch is attached to this article. To download it, scroll down to the end of
 
 The patch was created for:
 
-* Adobe Commerce on-premises 2.2.2
+* Adobe Commerce (all deployment methods) 2.2.2
 
 The patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
