@@ -9,11 +9,11 @@ The MDVA-37364 patch solves the issue where the custom customer attribute of dat
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment types) 2.4.2
+* Adobe Commerce (all deployment methods) 2.4.2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment types) 2.4.0-2.4.2-p2
+* Adobe Commerce (all deployment methods) 2.4.0-2.4.2-p2
 
 >![info]
 >
