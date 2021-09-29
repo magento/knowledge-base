@@ -1,5 +1,5 @@
 ---
-title: Magento 2.4.0 Braintree Virtual Terminal page corrupted
+title: Adobe Commerce 2.4.0 Braintree Virtual Terminal page corrupted
 labels: 2.4.0,Braintree Virtual Terminal,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
