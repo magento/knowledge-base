@@ -9,11 +9,11 @@ The MDVA-39521 patch solves the issue where the user is unable to set shipping a
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment types) 2.4.2-p1
+* Adobe Commerce (all deployment methods) 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment types) 2.4.0 - 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.3
 
 >![info]
 >
@@ -21,7 +21,7 @@ The MDVA-39521 patch solves the issue where the user is unable to set shipping a
 
 ## Issue
 
-The user is not able to set shipping address on the carts with an empty telephone number via GraphQ despite the Show Telephone is configured as optional.
+The user is not able to set shipping address on the carts with an empty telephone number via GraphQ despite the fact that the Show Telephone is configured as optional.
 
 <ins>Steps to reproduce</ins>:
 
