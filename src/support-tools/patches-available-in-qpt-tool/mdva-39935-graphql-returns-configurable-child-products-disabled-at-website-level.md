@@ -30,7 +30,9 @@ GraphQL returns configurable child products even after they are disabled at the 
 1. Disable **Simple Product** and save the **Configurable Product**.
 1. Fetch the **Configurable Product** data using GraphQL.
 
-<pre>{
+<pre>
+  <code class="language-graphql">
+{
   products(filter: { sku: { eq: "cp1" } }) {
     items {
       __typename
@@ -49,7 +51,9 @@ GraphQL returns configurable child products even after they are disabled at the 
       }
     }
   }
-}</pre>
+}
+</code>
+</pre>
 
 <ins>Expected results</ins>:
 
