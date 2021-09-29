@@ -53,7 +53,7 @@ GraphQL returns configurable child products even after they are disabled at the 
 
 <ins>Expected results</ins>:
 
-Disabled products don't show in the variant results.
+Disabled products are NOT shown in the variant results.
 
 <ins>Actual results</ins>:
 
