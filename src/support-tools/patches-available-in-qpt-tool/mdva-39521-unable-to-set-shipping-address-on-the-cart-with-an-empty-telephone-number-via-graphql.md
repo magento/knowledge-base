@@ -25,7 +25,7 @@ The user is not able to set shipping address on the carts with an empty telephon
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a simple product
+1. Create a simple product.
 1. Go to **Stores** > **Configuration** > **Customers** > **Customer Configuration** > **Name and Address Options** and set the Show Telephone as Optional
 1. Create an empty cart via GraphQL request.
     ```GraphQL
