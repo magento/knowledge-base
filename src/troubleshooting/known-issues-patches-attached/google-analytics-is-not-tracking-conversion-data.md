@@ -18,7 +18,7 @@ The conversion data was not tracked by Google Analytics due to an error in the G
 1. Enable and configure the Google Analytics functionality in the Commerce Admin under **Stores** > **Settings** > **Configuration** > **Sales** > **Google API** > **Google Analytics**.
 1. Click **Save Config**.
 1. Place an order on the storefront.
-1. Go to Google Analytics dashboard > Conversions > Overview.
+1. Go to **Google Analytics Dashboard** > **Conversions** > **Overview**.
 1. Set the date range to the current date.
 
  <ins>Expected result</ins>:
