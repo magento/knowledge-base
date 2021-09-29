@@ -158,7 +158,7 @@ If you need to reference an element other than header, use HTML to define the el
 
 ### Relative links and links to other articles
 
-Do not use relative links to reference our support knowledge base articles. Those links will not work when your article gets published in [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
+Do not use relative links to reference our support knowledge base articles. Those links will not work when your article gets published in the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
 Please use complete hyperlinks from the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
 
 
