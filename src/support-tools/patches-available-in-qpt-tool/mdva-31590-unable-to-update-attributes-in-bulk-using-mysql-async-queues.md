@@ -1,6 +1,6 @@
 ---
 title: "MDVA-31590: Unable to update attributes in bulk using MySQL async queues"
-labels: QPT patches,Quality Patches Tool,
+labels: QPT patches,Quality Patches Tool,MQP,QPT,QPT 1.1.3,update,attributes,MySQL,async queues,Adobe Commerce,on-premises,cloud infrastructure,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1
 ---
 
 The MDVA-31590 patch solves the issue where the user is unable to update attributes in bulk using MySQL async queues. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-31590. Please note that the issue was fixed in Adobe Commerce 2.4.2.
