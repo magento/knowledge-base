@@ -14,6 +14,7 @@ Intro paragraph or two paragraphs: a brief overview of issue. The first 140 char
 
 * Adobe Commerce on-premises x.x.x
 * Adobe Commerce on cloud infrastructure x.x.x
+
 (*Alternatively if the same versions on cloud or on-premises are affected you can say:*)
 
 Adobe Commerce (all deployment methods) x.x.x
@@ -59,7 +60,6 @@ If there is a temporary workaround, specify it as a separate section below this 
 ## Related reading
 
 * [Topic title](https://docs.magento.com/user-guide/) in our user guide.
-* [Topic title](https://devdocs.magento.com) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users:
-"See [article topic](https://devdocs.magento.com/cloud/project/project-upgrade-parent.html) in our developer documentation for upgrade instructions for Adobe Commerce on our cloud infrastructure" vs "See [Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in our developer documentation for steps to apply custom patches on Adobe Commerce."
+* [Topic title](https://devdocs.magento.com) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: "See [article topic](https://devdocs.magento.com/cloud/project/project-upgrade-parent.html) in our developer documentation for upgrade instructions for Adobe Commerce on our cloud infrastructure" vs "See [Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in our developer documentation for steps to apply custom patches on Adobe Commerce."
 * [Topic title](https://support.magento.com/hc/en-us) in our knowledge base.
 * Any related resources (blogs, forums, StackOverflow, etc.)
