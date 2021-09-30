@@ -26,4 +26,4 @@ A fix will be available in Adobe Commerce 2.3.6, which is scheduled for release 
     * [Country payment method issue in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.5 and 2.3.5-p1](https://support.magento.com/hc/en-us/articles/360043955991)
     * [Adobe Commerce prompts customers to log in but provides invalid link](https://support.magento.com/hc/en-us/articles/360043857372)
     * [Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1](https://support.magento.com/hc/en-us/articles/360042646332)
-   * [Adobe Commerce 2.3.5 Known Issues in our developer documentation](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+    * [Adobe Commerce 2.3.5 Known Issues in our developer documentation](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
