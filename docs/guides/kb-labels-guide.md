@@ -1,5 +1,5 @@
-This document provides guidelines for adding labels to articles in the Support Knowledge Base for Commerce repo.
-Labels (also called tags) improve searching experience in the [Support Knowledge Base for Commerce](https://support.magento.com/hc/en-us).
+This document provides guidelines for adding labels to articles in the Adobe Commerce Support Knowledge Base.
+Labels (also called tags) improve searching experience in the [Adobe Commerce Support Knowledge Base](https://support.magento.com/hc/en-us).
 Labels are added in the "labels" field in metadata section of an article file, separated by commas, no space between a comma and the next label.
 See [../../.github/CONTRIBUTING.md#metadata] for details.
 
@@ -31,14 +31,14 @@ See the sections below for detailed recommendations on how to define labels for 
     </td>
   </tr>
   <tr>
-    <td>Adobe Commerce on our cloud architecture </td>
+    <td>Adobe Commerce on cloud infrastructure</td>
     <td>
-      "Adobe Commerce,cloud"
+      "Adobe Commerce,cloud infrastructure"
     </td>
   </tr>
   <tr>
-    <td>Adobe Commerce on-premise</td>
-    <td>"Adobe Commerce, on-premise"</td>
+    <td>Adobe Commerce on-premises</td>
+    <td>"Adobe Commerce, on-premises"</td>
   </tr>
   <tr>
     <td>Magento Business Intelligence (MBI)</td>
