@@ -1,11 +1,10 @@
-Please follow these style and formatting recommendations, when contributing to the Magento Support KB.
+Please follow these style and formatting recommendations, when contributing to the Adobe Commerce Help Center.
 
 ## Titles
 
 * Titles are in sentence-style capitalization.
 * Plural for titles; singular for procedure headings. Example: Title - Writing books. Header - Write a book.
 * Keep titles short, with important words at the beginning. For SEO reasons, it is highly recommended titles are not longer than 70 characters (there is an exception for when a title reduction prevents the true meaning being communicated). 
-
 
 ## Headers
 
@@ -92,9 +91,9 @@ Write both numbers in words or both in numerals, if you have two numbers in a se
 
 <tr>
 
-<td>Log in to   Magento.com Account page </td>
+<td>Log in to Magento.com Account page </td>
 
-<td>Log in to your Magento account</td>
+<td>Log in to your Adobe Commerce account</td>
 
 <td colspan="1">
 </td>
@@ -128,12 +127,12 @@ Write both numbers in words or both in numerals, if you have two numbers in a se
 
 References to other resources.
 
-Example: See xyz on DevDocs
-See xyz on Magento DevDocs and so on 
+Example: See xyz on our developer documentation
+
 
 </td>
 
-<td colspan="1">See xyz in Magento Developer Documentation</td>
+<td colspan="1">See xyz in our developer documentation</td>
 
 <td colspan="1">
 
@@ -148,15 +147,15 @@ Accessibility requirement:  All links describe the destination of the link.
 
 <td colspan="1">
 
-Magento Commerce v2.4.0
+Adobe Commerce v2.4.0
 
- Magento Commerce 2.4.0
+ Adobe Commerce 2.4.0
 
-Magento Commerce version 2.4.0
+Adobe Commerce version 2.4.0
 
 </td>
 
-<td colspan="1">Magento Commerce 2.4.0 (no v. or version)</td>
+<td colspan="1">Adobe Commerce 2.4.0 (no v. or version)</td>
 
 <td colspan="1"></td>
 
@@ -212,7 +211,8 @@ Error message: __Something went wrong.__
 ## Accessibility
 
 
-* All non-text or graphical elements have textual equivalents or Alt Text. Example: ![example_image](/url "alt_text_for_this_image").
+* All non-text or graphical elements have textual equivalents or Alt Text. Example:
+![example_image](/url "alt_text_for_this_image").
 
 * All links describe the destination of the link. Example [link](/uri "destination_of_the_link").
 
@@ -245,7 +245,7 @@ Best practice is to isolate inline links in a link list with a configurable ti
 
 ### Links to external websites
 
- Use ordinary URLs rather than goURLs to link to pages outside  [Adobe.com](http://Adobe.com) .
+ Use ordinary URLs rather than goURLs to link to pages outside  [Adobe.com](http://Adobe.com).
 
 
 ## Commas
@@ -262,6 +262,10 @@ In general, follow The Chicago Manual of Style recommendations for open style 
 
 ## Versions
 
-* We use "version" for all releases (major/minor/patch). For example "Supported versions: Magento Commerce 2.3.x"
+* We use "version" for all releases (major/minor/patch). For example "Supported versions: Adobe Commerce 2.3.x"
 
-* We use low case "x" when writing about all patch releases within minor release, and all minor with major. For example, Magento Commerce 2.x.x.
+* We use low case "x" when writing about all patch releases within minor release, and all minor with major. For example, Adobe Commerce 2.x.x.
+
+## Branding
+
+* Magento Commerce is now Adobe Commerce. Please refer to the [Rebrand terms](https://github.com/magento/knowledge-base/wiki) wiki for more information on how to use up to date branding language.
