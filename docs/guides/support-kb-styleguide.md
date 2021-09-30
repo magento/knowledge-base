@@ -210,7 +210,6 @@ Error message: __Something went wrong.__
 
 ## Accessibility
 
-
 * All non-text or graphical elements have textual equivalents or Alt Text. Example:
 ![example_image](/url "alt_text_for_this_image").
 
