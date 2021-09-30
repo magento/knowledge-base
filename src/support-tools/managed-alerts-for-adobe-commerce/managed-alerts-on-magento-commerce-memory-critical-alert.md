@@ -43,7 +43,7 @@ Follow these steps to identify and troubleshoot the cause.
 
 1. Use [New Relic APM's Infrastructure page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page) to identify top memory intensive processes. For steps, refer to New Relic [Infrastructure monitoring Hosts page > Processes tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page#processes-tab):
     * If services like Redis, MySQL, or PHP are the top sources of memory consumption, try the following:
-1. Check that you are on the latest versions. Newer versions can sometimes fix memory leaks. If you are not on the latest version, consider upgrading. For steps, refer to [Magento Commerce Cloud > Services > Change Services](https://devdocs.magento.com/cloud/project/project-conf-files_services.html#change-service-version).
+1. Check that you are on the latest versions. Newer versions can sometimes fix memory leaks. If you are not on the latest version, consider upgrading. For steps, refer to [Adobe Commerce on cloud infrastructure > Services > Change Services](https://devdocs.magento.com/cloud/project/project-conf-files_services.html#change-service-version).
 1. If the problem with the service is not version related, try the following:
 1. **MySQL** : Check for issues like long running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651).
 1. **Redis** : If Redis is a top source of memory consumption, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
