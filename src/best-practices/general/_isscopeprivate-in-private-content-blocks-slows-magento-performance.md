@@ -27,4 +27,4 @@ Reduce AJAX requests due to non-cacheable blocks. This will enable you to have m
 
 ## Solution
 
-Use private content instead of the `_isScopePrivate` variable. Review [Private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) in our developer documentation for details. Also review [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472).
+Use private content instead of the `_isScopePrivate` variable. Review [Private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) in our developer documentation for details. Also review [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472) in our support knowledge base.
