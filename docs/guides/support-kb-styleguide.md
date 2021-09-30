@@ -210,9 +210,7 @@ Error message: __Something went wrong.__
 
 ## Accessibility
 
-* All non-text or graphical elements have textual equivalents or Alt Text. 
-
-Example:
+* All non-text or graphical elements have textual equivalents or Alt Text. Example:
 ![example_image](/url "alt_text_for_this_image").
 
 * All links describe the destination of the link. Example [link](/uri "destination_of_the_link").
