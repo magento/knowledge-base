@@ -1,5 +1,5 @@
 ---
-title: Whitepaper: Delivering commerce experiences at scale
+title: Whitepaper - Delivering commerce experiences at scale
 labels: Whitepaper,Delivering commerce experiences at scale,Adobe Commerce,cloud architecture,Adobe Experience Manager,Commerce Integration Framework,glass,headless,AEM,CIF,Adobe Experience Cloud
 ---
 
