@@ -25,7 +25,7 @@ A validation error will occur if either the title or labels or both have colon(s
 
 ```markdown
 ---
-title: Patch: Unable to validate VAT number - Magento Commerce Cloud
+title: Patch: Unable to validate VAT number - Adobe Commerce on cloud infrastructure
 labels: patch: 2041.1,article,labels,tags
 ---
 ```
@@ -35,7 +35,7 @@ To avoid this error, wrap the title or labels (or both if both have colons) in *
 
 ```markdown
 ---
-title: 'Patch: Unable to validate VAT number - Magento Commerce Cloud'
+title: 'Patch: Unable to validate VAT number - Adobe Commerce on cloud infrastructure'
 labels: 'patch: 2041.1,article,labels,tags'
 ---
 ```
@@ -48,7 +48,7 @@ The previous solution will not work if there are colons, single quotation marks 
 
 ```markdown
 ---
-title: Patch: Can't validate 'VAT' number - Magento Commerce Cloud
+title: Patch: Can't validate 'VAT' number - Adobe Commerce on cloud infrastructure
 labels: patch: 2041.1,'article',labels,tags
 ---
 ```
@@ -59,7 +59,7 @@ This error is fixed by wrapping the title or labels (or both) in **double quotat
 
 ```markdown
 ---
-title: "Patch: Can't validate 'VAT' number - Magento Commerce Cloud"
+title: "Patch: Can't validate 'VAT' number - Adobe Commerce on cloud infrastructure"
 labels: "patch: 2041.1,'article',labels,tags"
 ---
 ```
@@ -70,7 +70,7 @@ labels: "patch: 2041.1,'article',labels,tags"
 
 ```markdown
 ---
-title: Patch: Can't validate 'VAT' number - Magento "Commerce" Cloud
+title: Patch: Can't validate 'VAT' number - Adobe "Commerce" on cloud infrastructure
 labels: patch: 2041.1,'article',"labels",can't,tags
 ---
 ```
@@ -81,7 +81,7 @@ When this happens, wrap the title or labels (or both) in **double quotation mark
 
 ```markdown
 ---
-title: "Patch: Can't validate 'VAT' number - Magento \"Commerce\" Cloud"
+title: "Patch: Can't validate 'VAT' number - Adobe \"Commerce\" on cloud infrastructure"
 labels: "patch: 2041.1,'article',\"labels\",can't,tags"
 ---
 ```
