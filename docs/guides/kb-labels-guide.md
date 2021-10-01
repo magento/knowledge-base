@@ -25,7 +25,7 @@ See the sections below for detailed recommendations on how to define labels for 
     <th>Label</th>
   </tr>
   <tr>
-    <td>Adobe Commerce (all deployment types) </td>
+    <td>Adobe Commerce (all deployment methods) </td>
     <td>
     "Adobe Commerce"
     </td>
