@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0 issue: storefront raw message data display"
+title: "Adobe Commerce 2.4.1 issue: storefront raw message data display"
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,PHP 7.4.2,cookies,error message,known issues,store,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
