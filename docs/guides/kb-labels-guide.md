@@ -27,7 +27,7 @@ See the sections below for detailed recommendations on how to define labels for 
   <tr>
     <td>Adobe Commerce (all deployment methods) </td>
     <td>
-    "Adobe Commerce"
+    "Adobe Commerce,cloud infrastructure,on-premises"
     </td>
   </tr>
   <tr>
@@ -38,7 +38,7 @@ See the sections below for detailed recommendations on how to define labels for 
   </tr>
   <tr>
     <td>Adobe Commerce on-premises</td>
-    <td>"Adobe Commerce, on-premises"</td>
+    <td>"Adobe Commerce,on-premises"</td>
   </tr>
   <tr>
     <td>Magento Business Intelligence (MBI)</td>
