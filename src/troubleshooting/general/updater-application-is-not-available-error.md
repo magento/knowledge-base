@@ -1,9 +1,9 @@
 ---
 title: '"Updater application is not available" error'
-labels: 2.2.x,2.3.x,Magento Commerce,how to,install,update,updater,web setup wizard
+labels: 2.2.x,2.3.x,Magento Commerce,how to,install,update,updater,web setup wizard,Adobe Commerce,on-premises,open source
 ---
 
-This article talks about the solution for the "updater application is not available" issue you might face when trying to update/install Magento using the Web Setup Wizard.
+This article talks about the solution for the "updater application is not available" issue you might face when trying to update/install Adobe Commerce on-premises using the Web Setup Wizard.
 
 ## Issue
 
@@ -13,10 +13,10 @@ The following message is displayed in the readiness check:
 
 ## Affected products/versions
 
-* Magento Commerce 2.2.x, 2.3.x
+* Adobe Commerce on-premises 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
 
 
 ## Solution
 
-To resolve this issue, see if there is a `<magento_root>/update` directory that contains files and subdirectories. Otherwise, see [Set up the updater](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) .
+To resolve this issue, see if there is a `<magento_root>/update` directory that contains files and subdirectories. Otherwise, see [Set up the updater](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) in our developer documentation.
