@@ -31,7 +31,7 @@ The patch is attached to this article. To download it, scroll down to the end of
 
  [Download MDVA-10439\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-10439_EE_2.2.3_COMPOSER_v1.patch.zip)
 
-### Compatible Magento versions:
+## Compatible Adobe Commerce versions:
 
 The patch was created for:
 
