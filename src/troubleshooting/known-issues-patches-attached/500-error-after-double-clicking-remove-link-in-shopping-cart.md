@@ -1,9 +1,9 @@
 ---
 title: '"500 error" after double-clicking Remove link in shopping cart'
-labels: 2.2.0,500 error,Magento Commerce Cloud,known issues,patch,shopping cart,troubleshooting
+labels: 2.2.0,500 error,Magento Commerce Cloud,known issues,patch,shopping cart,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,
 ---
 
-This article provides a patch for the known Magento Commerce Cloud 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs).
+This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs).
 
 ## Issue
 
@@ -31,21 +31,20 @@ OR
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [Download MDVA-8623\_EE\_2.2.0\_v1.composer.patch](assets/MDVA-8623_EE_2.2.0_v1.composer.patch.zip) 
+ [Download MDVA-8623\_EE\_2.2.0\_v1.composer.patch](assets/MDVA-8623_EE_2.2.0_v1.composer.patch.zip)
 
-### Compatible Magento versions:
+## Compatible Adobe Commerce versions:
 
 The patch was created for:
 
-* Magento Commerce (Cloud) 2.2.0
+* Adobe Commerce on cloud infrastructure 2.2.0
 
-The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+The patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
-* Magento Commerce (Cloud) versions from 2.2.1 to 2.2.5
-* Magento Commerce versions from 2.2.0 to 2.2.5
+* Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.2.1 - 2.2.5
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
 
 ## Attached Files
