@@ -12,7 +12,7 @@ Here’s a short update on what was published and updated in our support knowled
 
 ## PUBLISHED
 
-Please click to get familiar with the article and give us feedback on any articles issues!
+Please click to get familiar with the article and give us feedback on any articles' issues!
 
 1. [Whitepaper - Delivering commerce experiences at scale](https://support.magento.com/hc/en-us/articles/4410378506381): There is great value integrating the strengths of Adobe Experience Manager (AEM), Commerce Integration Framework (CIF), and Adobe Commerce. This whitepaper is intended to be a high-level guide to provide areas to investigate initially while preparing your AEM/CIF/Adobe Commerce environment for heavy loads.
 1. [404 not found error when accessing Web Setup Wizard via admin panel](https://support.magento.com/hc/en-us/articles/4410175757581): explains that Web Setup Wizard was deprecated in Adobe Commerce (all deployment methods) 2.3.6 and informs that Extensions have to be installed through composer.
