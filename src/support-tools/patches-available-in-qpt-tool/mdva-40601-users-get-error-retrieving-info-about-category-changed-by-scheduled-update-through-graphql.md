@@ -17,7 +17,7 @@ Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2-p2
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new Quality Patches Tool  releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
@@ -25,7 +25,7 @@ Users get an error when trying to retrieve information about category changed by
 
 <ins>Steps to reproduce</ins>:
 
-1. Setup a category structure with a sub-category as given below:
+1. Set up a category structure with a sub-category as given below:
 
    <pre>
    <code class="language-graphql">
