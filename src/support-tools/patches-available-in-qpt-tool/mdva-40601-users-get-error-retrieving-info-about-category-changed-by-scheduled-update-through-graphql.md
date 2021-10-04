@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40601: Users get error getting info about category changed by scheduled update via GraphQL"
+title: "MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.3,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,GraphQL,on-premises,cloud infrastructure,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
@@ -27,25 +27,34 @@ Users get an error when trying to retrieve information about category changed by
 
 1. Setup a category structure with a sub-category as given below:
 
-   <pre>- Root
+   <pre>
+   <code class="language-graphql">
+   - Root
     - Some category
          - Some child category
+   </code>
    </pre>
 
 1. Execute GraphQL query with "Some Category" ID 49.
 
-    <pre>query {
+    <pre>
+    <code class="language-graphql">
+    query {
      category(id: 49) {
       name
       children {
         name
        }
      }
-   }</pre>
+   }
+   </code>
+   </pre>
 
     Result:
 
-    <pre>{
+    <pre>
+    <code class="language-graphql">
+    {
       "data": {
         "category": {
           "name": "Some category",
@@ -56,7 +65,9 @@ Users get an error when trying to retrieve information about category changed by
           ]
         }
       }
-    }</pre>
+    }
+    </code>
+    </pre>
 
 1. Create a schedule update for "Some Category" with a different category name.
 1. Wait for the schedule update to get activated.
@@ -64,13 +75,15 @@ Users get an error when trying to retrieve information about category changed by
 
 <ins>Expected results</ins>:
 
-Users should receive the same result but with the updated category name.
+You receive the same result but with the updated category name.
 
 <ins>Actual results</ins>:
 
-Users get the following error:
+You get the following error:
 
-<pre>{
+<pre>
+<code class="language-graphql">
+{
   "errors": [
     {
       "debugMessage": "uasort() expects parameter 1 to be array, string given",
@@ -92,7 +105,9 @@ Users get the following error:
   "data": {
     "category": null
   }
-}</pre>
+}
+</code>
+</pre>
 
 ## Apply the patch
 
