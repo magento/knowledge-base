@@ -37,7 +37,7 @@ Follow these steps to identify and troubleshoot the cause.
 >Because this is a critical alert, it is highly recommended you complete **Step 1** before you try to troubleshoot the issue (Step 2 onwards).
 
 1. Check if an Adobe Commerce support ticket exists. For steps, see [Track your support tickets](https://support.magento.com/hc/en-us/articles/360000913794#track-tickets) in our support knowledge base. Support may have already received a New Relic threshold alert, created a ticket and started working on the issue. If no ticket exists, create one. The ticket should have the following information:
-1. Contact Reason: select “New Relic CRITICAL alert received"
+    * Contact Reason: select “New Relic CRITICAL alert received"
 1. Description of the alert
 1. [New Relic Incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). This is included in your [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832).
 
