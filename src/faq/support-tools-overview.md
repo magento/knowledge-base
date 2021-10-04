@@ -12,7 +12,7 @@ This article gives an overview of each of the available tools:
 * [Site-Wide Analysis Tool](#site-wide-analysis-tool)
 * [Quality Patches Tool](#quality-patches-tool)
 
-<h2 id="observation-for-adobe-commerce">Observation for Adobe Commerce - most relevant New Relic info </h2>
+<h2 id="observation-for-adobe-commerce">Observation for Adobe Commerce - get most relevant New Relic info in an easy format</h2>
 
 Observation for Adobe Commerce is a New Relic nerdlet to see the state of your Adobe Commerce site, current or past time views. A nerdlet is a custom application built with New Relic One programmability. It presents most relevant New Relic information in an easy format against a common timeline.
 
@@ -25,13 +25,13 @@ Managed alerts for Adobe Commerce on cloud architecture produce ready-made New R
 We’ve set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles provided in our support knowledge base. Click [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832-Managed-alerts-for-Magento-Commerce) to learn more about managed alerts.
 
 
-<h2 id="site-wide-analysis-tool">Site-Wide Analysis Tool - scans site configuration and recommends improvements based on impact to stability/performance</h2>
+<h2 id="site-wide-analysis-tool">Site-Wide Analysis Tool - get recommendations to improve stability/performance based on site scan</h2>
 
 Site-Wide Analysis Tool is a SaaS (software as a service) application that performs end-to-end 'point-in-time' Adobe Commerce on cloud architecture site analysis. All tool-related customer site information is collected on predetermined schedules from every three hours to once a day. This means that SWAT is constantly analyzing customer site data for Findings.
 
 To find out more about Site-Site-Wide Analysis Tool, refer to [Magento Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) (**you must be singed-in to access it**)
 
-<h2 id="quality-patches-tool">Quality Patches Tool</h2>
+<h2 id="quality-patches-tool">Quality Patches Tool - get all patches available for your Adobe Commerce version</h2>
 
 The Quality Patches Tool(QPT) delivers individual patches developed by Adobe and the Magento Open Source community. It allows you to apply, revert, and view general information about all individual patches that are available for the installed version of Adobe Commerce or Magento Open Source.
 
