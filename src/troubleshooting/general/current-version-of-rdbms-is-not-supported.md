@@ -28,7 +28,7 @@ Deployment fails with error message: *current version of RDBMS is not supported*
 
 ## Cause
 
-You version of MariaDB is not compatible with the version of Adobe Commerce you are trying to upgrade to.
+Your version of MariaDB is not compatible with the version of Adobe Commerce you are trying to upgrade to.
 
 ## Solution
 
@@ -41,5 +41,6 @@ For the Staging and Production on Adobe Commerce on cloud infrastructure Pro pla
 
 
 ## Related reading
-[Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
-[Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](https://support.magento.com/hc/en-us/articles/360048389631) in our support knowlegde base. 
+
+* [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
+* [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](https://support.magento.com/hc/en-us/articles/360048389631) in our support knowlegde base. 
