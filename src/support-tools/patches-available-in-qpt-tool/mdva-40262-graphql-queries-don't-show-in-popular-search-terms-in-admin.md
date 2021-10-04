@@ -32,7 +32,9 @@ Sample data must be installed.
 1. Go to **Stores** > **Configuration** > **Catalog** > **SEO** > **Popular Search Terms** and set to enable.
 1. Run the following GraphQL query:
 
-<pre>{
+<pre>
+<code class="language-graphql">
+{
   products(
     search: "jackets"
     filter: { price: { to: "50" } }
@@ -48,7 +50,9 @@ Sample data must be installed.
       current_page
     }
   }
-}</pre>
+}
+</code>
+</pre>
 
 <ins>Expected results</ins>:
 
