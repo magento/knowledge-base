@@ -46,6 +46,12 @@ See the sections below for detailed recommendations on how to define labels for 
         "Magento Business Intelligence,MBI"
     </td>
   </tr>
+   <tr>
+    <td>Magento Open Source (MBI)</td>
+    <td>
+        "Magento Open Source"
+    </td>
+  </tr>
   <tr>
     <td>B2B for Adobe Commerce</td>
     <td>"B2B"</td>
