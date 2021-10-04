@@ -3,23 +3,27 @@ title: 404 Error on store front once catalog price rule schedules update is perf
 labels: 2.2.1,404 error,Magento Commerce,known issues,patch,schedule update,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-This article provides a patch and required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
+This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
 
 ## Issue
 
 Storefront pages become unavailable, returning 404 error. The issue appears after the active catalog price rule update becomes due, providing that the starting date of this update was edited after initial creation.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+<span class="wysiwyg-underline">Steps to reproduce</span>:
 
-1. In the Commerce Admin, create a new Catalog Price Rule under **Marketing** > **Promotions** > **Catalog Price Rule** .
+1. In the Commerce Admin, create a new Catalog Price Rule under **Marketing** > **Promotions** > **Catalog Price Rule**.
 1. In the **Catalog Price Rule** grid, click **Edit,** schedule a new Update and set **Status** to *Active.*
 1. Navigate to **Content** > **Content Staging** > **Dashboard.**
 1. Select the recently created update and change its starting time.
 1. Save the changes.
 
- <span class="wysiwyg-underline">Expected result</span> : When the Update start date becomes effective, the catalog price rule is applied successfully.
+<span class="wysiwyg-underline">Expected result</span> :
 
- <span class="wysiwyg-underline">Actual result</span> : When the Update start date becomes effective, all catalog and products on the storefront become unavailable returning the 404 error.
+When the Update start date becomes effective, the catalog price rule is applied successfully.
+
+<span class="wysiwyg-underline">Actual result</span> :
+
+When the Update start date becomes effective, all catalog and products on the storefront become unavailable returning the 404 error.
 
 ## Solution
 
@@ -27,11 +31,11 @@ To restore catalog pages and be able to fully use the catalog price rules update
 
 Following is the detailed description of the required steps:
 
-1. [Apply the patch](#patch) .
+1. [Apply the patch](#patch).
 1. In the Commerce Amin, delete the catalog price rule related to the issue (where the start time was updated). To do this, open the rule page under **Marketing** > **Promotions** > **Catalog Price Rule**, and click **Delete Rule**.
 1. Accessing the database manually delete the related record from the `catalogrule` table.
 1. Fix the invalid links in the database. See the [related paragraph](#fix_links) for details.
-1. In the Admin under **Marketing** > **Promotions** > **Catalog Price Rule**, create the new rule with the required configuration.
+1. In the Admin under **Marketing**, go to **Promotions** > **Catalog Price Rule**, and create the new rule with the required configuration.
 1. Clear the browser cache under **System** > **Cache Management**.
 1. Make sure the cron jobs are configured properly and may be executed successfully.
 
