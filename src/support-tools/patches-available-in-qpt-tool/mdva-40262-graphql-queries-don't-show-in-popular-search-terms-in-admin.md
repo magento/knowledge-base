@@ -17,7 +17,7 @@ Adobe Commerce (all deployment methods) 2.4.2 – 2.4.3
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new Quality Patches Tool  releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
