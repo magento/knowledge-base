@@ -1,5 +1,5 @@
 ---
-title: Current version of RDBMS not supported error on deployment
+title: "The 'Current version of RDBMS not supported' error on deployment"
 labels: troubleshooting,Adobe Commerce,cloud infrastructure,MariaDB,RDBMS,Magento Commerce
 ---
 
