@@ -7,7 +7,7 @@ This article provides a solution for when a deployment fails and you have the fo
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3
+Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3.
 
 ## Issue
 
