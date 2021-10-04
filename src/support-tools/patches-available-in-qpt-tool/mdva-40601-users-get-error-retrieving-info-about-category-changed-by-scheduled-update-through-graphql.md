@@ -25,7 +25,7 @@ Users get an error when trying to retrieve information about category changed by
 
 <ins>Steps to reproduce</ins>:
 
-1. Setup a category structure with a sub-category as given below:
+1. Set up a category structure with a sub-category as given below:
 
    <pre>- Root
     - Some category
