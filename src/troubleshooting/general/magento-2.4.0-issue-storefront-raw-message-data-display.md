@@ -7,7 +7,7 @@ This article provides a solution for the issue when all error messages on the st
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure 2.4.1
+* Adobe Commerce on cloud infrastructure 2.4.0
 * Adobe Commerce on-premises 2.4.1.
 
 ## Issue
