@@ -9,7 +9,7 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 You get the " *Something went wrong while saving this configuration: Area is already set* " error message when trying to set a theme for the Default Store View.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+<span class="wysiwyg-underline">Steps to reproduce</span>:
 
 1. Log in to the Commerce Admin.
 1. Navigate to **Content** > **Design** > **Configuration**.
