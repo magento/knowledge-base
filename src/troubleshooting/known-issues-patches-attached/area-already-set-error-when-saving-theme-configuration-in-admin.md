@@ -17,7 +17,7 @@ You get the " *Something went wrong while saving this configuration: Area is alr
 1. Change the theme in the **Applied Theme** drop-down. For example, from *Magento Luma* to *Magento Blank.*
 1. Click **Save Configuration**.
 
- <span class="wysiwyg-underline">Expected result</span> : The selected theme is applied for the default store view.
+ <span class="wysiwyg-underline">Expected result</span>: The selected theme is applied for the default store view.
 
  <span class="wysiwyg-underline">Actual result</span> : Theme is not applied, the *"Something went wrong while saving this configuration: Area is already set"* error message is displayed.
 
