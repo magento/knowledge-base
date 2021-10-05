@@ -160,4 +160,4 @@ class YourClass
 
 ## Related reading
 
-* [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html)
+* [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) in our developer documentation.
