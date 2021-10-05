@@ -7,7 +7,7 @@ This article provides a possible solution for the issue where you get a 503 erro
 
 ## Affected products and versions
 
-* Adobe Commerce 2.3.x
+Adobe Commerce 2.3.x
 
 <h2 id="symptoms">Issue</h2>
 
