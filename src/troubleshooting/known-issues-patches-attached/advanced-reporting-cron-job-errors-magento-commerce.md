@@ -1,5 +1,5 @@
 ---
-title: Advanced Reporting cron job errors Magento Commerce
+title: Advanced Reporting cron job errors Adobe Commerce
 labels: 2.3.1,404,Magento Commerce,Magento Commerce Cloud,advanced reporting,known issue,patch,troubleshooting,2.3.4-p2,2.3.4,2.3.3-p1,2.3.3,2.3.2-p2,2.3.2,2.3.0
 ---
 
@@ -7,7 +7,7 @@ This article provides patches for the Advanced Reporting cron jobs issues in Ado
 
 ## Affected products and versions
 
-Magento Commerce 2.3.x
+Adobe Commerce (all deployment options) 2.3.x
 
 ## Issue
 
