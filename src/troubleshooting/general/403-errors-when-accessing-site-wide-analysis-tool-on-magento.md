@@ -45,7 +45,8 @@ If when you next try to access the Site-Wide Analysis Tool, there is still a 403
 </li><li>On the <strong>Role Info</strong> tab under ROLE INFORMATION, enter a descriptive role name and under Current User Identity Verification, enter your password.
 </li><li><font>On the</font> <strong>Role Resources</strong> tab under ROLE INFORMATION s<font>et</font>Role Scopes to <em>All</em> or <em>Custom</em>.</li>
 <li>Under <em>Roles Resources</em>, set <strong>Resource Access</strong> to <em>Custom</em>.</li>
-<li>In the tree, select the checkbox next to Site-Wide Analysis Tool, and click <strong>Save Role</strong>.<img alt="swat_access_role.png" src="assets/swat_access_role.png"/>
+<li>In the tree, select the checkbox next to Site-Wide Analysis Tool, and click <strong>Save Role</strong>.
+<img alt="swat_access_role.png" src="assets/swat_access_role.png"/>
 </li></ol>
 
 You should be able to access the Site-Wide Analysis Tool when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**. If you still get the 403 error, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
