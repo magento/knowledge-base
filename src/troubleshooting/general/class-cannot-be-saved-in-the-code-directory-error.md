@@ -1,9 +1,9 @@
 ---
 title: '"Class cannot be saved in the code directory" error'
-labels: Cloud,generated,Adobe Commerce,cloud infrastructure,2.2.0,troubleshooting,dependencies,auto-generated,directory,code
+labels: Cloud,generated,Adobe Commerce,cloud infrastructure,2.2.0,troubleshooting,dependencies,auto-generated,directory,code,Magento
 ---
 
-This article describes how to fix the issue where the way you specified dependencies prevents classes to be auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
+This article describes how to fix the issue where the way you specified dependencies prevents classes from being auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
 
 ## Affected products and versions
 
@@ -160,4 +160,4 @@ class YourClass
 
 ## Related reading
 
-* [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html)
+* [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) in our developer documentation.
