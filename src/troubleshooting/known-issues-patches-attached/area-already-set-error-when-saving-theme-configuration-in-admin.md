@@ -14,7 +14,7 @@ You get the " *Something went wrong while saving this configuration: Area is alr
 1. Log in to the Commerce Admin.
 1. Navigate to **Content** > **Design** > **Configuration**.
 1. Set the configuration scope to *Default Store View*.
-1. Change the theme in the **Applied Theme** drop-down. For example, from *Magento Luma* to *Magento Blank.*
+1. Change the theme in the **Applied Theme** drop-down. For example, from *Luma* to *Blank.*
 1. Click **Save Configuration**.
 
  <span class="wysiwyg-underline">Expected result</span>: The selected theme is applied for the default store view.
