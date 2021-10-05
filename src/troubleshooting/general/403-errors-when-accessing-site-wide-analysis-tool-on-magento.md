@@ -56,6 +56,6 @@ You should be able to access the Site-Wide Analysis Tool when you log in next ti
 Articles in the Related reading section are visible for signed in users only.
 
 * [Adobe Commerce Site-Wide Analysis Tool report explained in details video](https://support.magento.com/hc/en-us/articles/360048981531-Magento-Site-Wide-Analysis-Tool-report-explained-in-details-video) in our support knowledge base.
-* [Adobe Commerce Site-Wide Analysis Tool report, an overview video](https://support.magento.com/hc/en-us/articles/360048980791-Magento-Site-Wide-Analysis-Tool-report-an-overview-video)
+* [Adobe Commerce Site-Wide Analysis Tool report, an overview video](https://support.magento.com/hc/en-us/articles/360048980791-Magento-Site-Wide-Analysis-Tool-report-an-overview-video) in our support knowledge base.
 * [Adobe Commerce Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video)
 * [Adobe Commerce Site-Wide Analysis Tool Report FAQ](https://support.magento.com/hc/en-us/articles/360048646671-Magento-Site-Wide-Analysis-Tool-Report-FAQ)
