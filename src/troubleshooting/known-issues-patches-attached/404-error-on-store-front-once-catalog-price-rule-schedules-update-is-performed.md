@@ -29,7 +29,7 @@ When the Update start date becomes effective, all catalog and products on the st
 
 To restore catalog pages and be able to fully use the catalog price rules updates functionality, you need to install the patch, delete the rule both manually and in the admin, and fix the invalid links in the database. You will also need to recreate the catalog price rule.
 
-Following is the detailed description of the required steps:
+The following is a detailed description of the required steps:
 
 1. [Apply the patch](#patch).
 1. In the Commerce Amin, delete the catalog price rule related to the issue (where the start time was updated). To do this, open the rule page under **Marketing** > **Promotions** > **Catalog Price Rule**, and click **Delete Rule**.
