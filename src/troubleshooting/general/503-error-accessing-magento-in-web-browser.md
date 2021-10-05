@@ -1,21 +1,21 @@
 ---
-title: 503 error accessing Magento in web browser
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,503 error,Apache,Magento Commerce,troubleshooting
+title: 503 error accessing Adobe Commerce in web browser
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,503 error,Apache,Magento Commerce,troubleshooting,Magento,Adobe Commerce
 ---
 
-This article provides a possible solution for the issue where you get 503 error when trying to access Magento storefront and/or Admin.
+This article provides a possible solution for the issue where you get a 503 error when trying to access Adobe Commerce storefront and/or Admin.
 
 ## Affected products and versions
 
-* Magento Commerce 2.3.x
+Adobe Commerce 2.3.x
 
 <h2 id="symptoms">Issue</h2>
 
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
-(Prerequisites: make sure the store is not in [maintenance mode](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show) .)
+(Prerequisites: make sure the store is not in [maintenance mode](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
 
-Navigate to your Magento Admin or storefront in a web browser.
+Navigate to your Commerce Admin or storefront in a web browser.
 
  <span class="wysiwyg-underline">Expected result</span>
 
@@ -29,7 +29,7 @@ You get the HTTP 503 (Service Unavailable) error. The Apache `error.log` include
 
 <h2 id="details">Cause</h2>
 
-Apache 2.4 compatibility module `mod_access_compat` is disabled, which results in Magento URL rewrites not working properly.
+Apache 2.4 compatibility module `mod_access_compat` is disabled, which results in Adobe Commerce URL rewrites not working properly.
 
 <h2 id="suggested-solution">Solution</h2>
 
