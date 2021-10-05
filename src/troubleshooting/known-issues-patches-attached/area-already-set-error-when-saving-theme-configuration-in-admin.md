@@ -12,7 +12,7 @@ You get the " *Something went wrong while saving this configuration: Area is alr
  <span class="wysiwyg-underline">Steps to reproduce</span>:
 
 1. Log in to the Commerce Admin.
-1. Navigate to **Content** > **Design** > **Configuration** .
+1. Navigate to **Content** > **Design** > **Configuration**.
 1. Set the configuration scope to *Default Store View* .
 1. Change the theme in the **Applied Theme** drop-down. For example, from *Magento Luma* to *Magento Blank.*
 1. Click **Save Configuration** .
