@@ -35,7 +35,7 @@ Following is the detailed description of the required steps:
 1. In the Commerce Amin, delete the catalog price rule related to the issue (where the start time was updated). To do this, open the rule page under **Marketing** > **Promotions** > **Catalog Price Rule**, and click **Delete Rule**.
 1. Accessing the database manually delete the related record from the `catalogrule` table.
 1. Fix the invalid links in the database. See the [related paragraph](#fix_links) for details.
-1. In the Admin under **Marketing**, go to **Promotions** > **Catalog Price Rule**, and create the new rule with the required configuration.
+1. In the Commerce Admin under **Marketing**, go to **Promotions** > **Catalog Price Rule**, and create the new rule with the required configuration.
 1. Clear the browser cache under **System** > **Cache Management**.
 1. Make sure the cron jobs are configured properly and may be executed successfully.
 
