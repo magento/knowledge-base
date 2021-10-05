@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.3.5 upgrade: compact to dynamic tables"
-labels: 2.3,2.3.4,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,cloud architecture,Adobe Commerce,MariaDB,10.0,10.2
+labels: 2.3,2.3.4,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,cloud architecture,Adobe Commerce,MariaDB,10.0,10.2,Magento,cloud infrastructure
 ---
 
 This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2.
@@ -13,7 +13,7 @@ For steps on how to enable maintenance mode, please refer to [Installation Guide
 
 ## Affected product and versions
 
-* Adobe Commerce on our cloud architecture version 2.3.4 or earlier with MariaDB version to 10.0 or earlier
+* Adobe Commerce on cloud infrastructure version 2.3.4 or earlier with MariaDB version to 10.0 or earlier
 
 ## Issue
 
@@ -52,24 +52,24 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
       ```mysql
           SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE engine = ‘MyISAM’;
       ```
-      
+
 1. If any tables have converted back, you will need to repeat the steps above on the reverted tables, or the support team will not be able to proceed with the upgrade ticket.
 
 ## Related Reading
 
-* [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](https://support.magento.com/hc/en-us/articles/360047598311-Magento-2-4-0-known-issue-missing-Refund-label-in-Klarna)
-* [Adobe Commerce 2.4.0 known issue: two buttons missing on Create New Order page in Admin](https://support.magento.com/hc/en-us/articles/360047481431-Magento-2-4-0-known-issue-two-buttons-missing-on-Create-New-Order-page-in-Admin)
-* [Different addresses not allowed when unselecting 'My billing and shipping address are the same' using Vertex Address Cleansing](https://support.magento.com/hc/en-us/articles/360046998952-Different-addresses-not-allowed-when-unselecting-My-billing-and-shipping-address-are-the-same-using-Vertex-Address-Cleansing)
-* [Adobe Commerce 2.4.0 known issue: when Braintree is enabled, Venmo partial invoice issue](https://support.magento.com/hc/en-us/articles/360046845932-Magento-Commerce-2-4-0-known-issue-when-Braintree-is-enabled-Venmo-partial-invoice-issue)
-* [Adobe Commerce 2.4.0 known issue: Error message selecting local payment method displayed for some countries during checkout](https://support.magento.com/hc/en-us/articles/360047139331-Magento-2-4-0-known-issue-Error-message-selecting-local-payment-method-displayed-for-some-countries-during-checkout)
-* [Adobe Commerce 2.4.0 known issue: Amazon Pay enabled, payment methods missing when Return to standard checkout used](https://support.magento.com/hc/en-us/articles/360046680632-Magento-2-4-0-known-issue-Amazon-Pay-enabled-payment-methods-missing-when-Return-to-standard-checkout-used)
-* [Adobe Commerce 2.4.0 known issue: 2.4.0 installation fails with outdated stores cache](https://support.magento.com/hc/en-us/articles/360046949731-Magento-2-4-0-known-issue-2-4-0-installation-fails-with-outdated-stores-cache)
-* [Adobe Commerce 2.4.0 known issue: 404 error when removing rewards points on multi-shipping checkout](https://support.magento.com/hc/en-us/articles/360046920131-Magento-2-4-0-known-issue-404-error-when-removing-rewards-points-on-multi-shipping-checkout)
-* [Adobe Commerce 2.4.0 known issue: orders display error](https://support.magento.com/hc/en-us/articles/360046802271-Magento-2-4-0-known-issue-orders-display-error)
-* [Adobe Commerce 2.4.0 known issue: B2B Admin cannot add a configurable product to a quote](https://support.magento.com/hc/en-us/articles/360046801971-Magento-2-4-0-known-issue-B2B-Admin-cannot-add-a-configurable-product-to-a-quote)
-* [Adobe Commerce 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout](https://support.magento.com/hc/en-us/articles/360046354992-Magento-2-4-0-known-issue-Braintree-payment-methods-do-not-show-up-in-Multiple-Addresses-checkout)
-* [Shipping labels creation known issue in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360046750171-Shipping-labels-creation-known-issue-in-Magento-2-4-0)
-* [Adobe Commerce 2.4.0 known issue - refresh on Customer's Activities does not work](https://support.magento.com/hc/en-us/articles/360046091332-Magento-2-4-0-known-issue-refresh-on-Customer-s-Activities-does-not-work)
-* [Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032-Magento-2-4-0-known-issue-Export-Tax-Rates-does-not-work-)
-* [Adobe Commerce 2.4.0 known issue: “Add selections to my cart” button does not work](https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-known-issue-Add-selections-to-my-cart-button-does-not-work)
-* [Adobe Commerce 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332-Magento-2-4-0-known-issue-raw-message-data-display-on-storefront)
+* [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](https://support.magento.com/hc/en-us/articles/360047598311-Magento-2-4-0-known-issue-missing-Refund-label-in-Klarna) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: two buttons missing on Create New Order page in Admin](https://support.magento.com/hc/en-us/articles/360047481431-Magento-2-4-0-known-issue-two-buttons-missing-on-Create-New-Order-page-in-Admin) in our support knowledge base.
+* [Different addresses not allowed when unselecting 'My billing and shipping address are the same' using Vertex Address Cleansing](https://support.magento.com/hc/en-us/articles/360046998952-Different-addresses-not-allowed-when-unselecting-My-billing-and-shipping-address-are-the-same-using-Vertex-Address-Cleansing) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: when Braintree is enabled, Venmo partial invoice issue](https://support.magento.com/hc/en-us/articles/360046845932-Magento-Commerce-2-4-0-known-issue-when-Braintree-is-enabled-Venmo-partial-invoice-issue) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: Error message selecting local payment method displayed for some countries during checkout](https://support.magento.com/hc/en-us/articles/360047139331-Magento-2-4-0-known-issue-Error-message-selecting-local-payment-method-displayed-for-some-countries-during-checkout) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: Amazon Pay enabled, payment methods missing when Return to standard checkout used](https://support.magento.com/hc/en-us/articles/360046680632-Magento-2-4-0-known-issue-Amazon-Pay-enabled-payment-methods-missing-when-Return-to-standard-checkout-used) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: 2.4.0 installation fails with outdated stores cache](https://support.magento.com/hc/en-us/articles/360046949731-Magento-2-4-0-known-issue-2-4-0-installation-fails-with-outdated-stores-cache) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: 404 error when removing rewards points on multi-shipping checkout](https://support.magento.com/hc/en-us/articles/360046920131-Magento-2-4-0-known-issue-404-error-when-removing-rewards-points-on-multi-shipping-checkout) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: orders display error](https://support.magento.com/hc/en-us/articles/360046802271-Magento-2-4-0-known-issue-orders-display-error) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: B2B Admin cannot add a configurable product to a quote](https://support.magento.com/hc/en-us/articles/360046801971-Magento-2-4-0-known-issue-B2B-Admin-cannot-add-a-configurable-product-to-a-quote) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout](https://support.magento.com/hc/en-us/articles/360046354992-Magento-2-4-0-known-issue-Braintree-payment-methods-do-not-show-up-in-Multiple-Addresses-checkout) in our support knowledge base.
+* [Shipping labels creation known issue in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360046750171-Shipping-labels-creation-known-issue-in-Magento-2-4-0) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue - refresh on Customer's Activities does not work](https://support.magento.com/hc/en-us/articles/360046091332-Magento-2-4-0-known-issue-refresh-on-Customer-s-Activities-does-not-work) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032-Magento-2-4-0-known-issue-Export-Tax-Rates-does-not-work-) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: “Add selections to my cart” button does not work](https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-known-issue-Add-selections-to-my-cart-button-does-not-work) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332-Magento-2-4-0-known-issue-raw-message-data-display-on-storefront) in our support knowledge base.
