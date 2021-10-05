@@ -25,7 +25,7 @@ The issue is caused by a PHP 7.4.2 issue related to set\\read cookies. See [PHP 
 
 ## Solution
 
-To solve this issue, use another version of PHP 7.4.x. PHP 7.4.2 is not supported by Adobe Commerce 2.4.1.
+To solve this issue, use another version of PHP 7.4.x. PHP 7.4.2 is not supported by Adobe Commerce 2.4.0.
 
 ## Related reading
 
