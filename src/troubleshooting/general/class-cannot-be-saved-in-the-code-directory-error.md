@@ -1,13 +1,13 @@
 ---
 title: '"Class cannot be saved in the code directory" error'
-labels: Cloud,generated
+labels: Cloud,generated,Adobe Commerce,cloud infrastructure,2.2.0,troubleshooting,dependencies,auto-generated,directory,code,Magento
 ---
 
-This article describes how to fix the issue where the way you specified dependencies prevents classes to be auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
+This article describes how to fix the issue where the way you specified dependencies prevents classes from being auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
 
 ## Affected products and versions
 
-* Magento Commerce Cloud 2.2.0 or later
+* Adobe Commerce on cloud infrastructure 2.2.0 or later
 
 ## Issue
 
@@ -16,7 +16,7 @@ This article describes how to fix the issue where the way you specified dependen
 1. In your local environment, write a custom class with a dependency on the auto-generated class.
 1. Run the scenario, where your custom class is triggered, and see it working correctly.
 1. Commit and push your changes to the integration environment. This would trigger the deployment process. Deployment is successful.
-1. In the [integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) , run the scenario where your custom class is triggered.
+1. In the [integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter), run the scenario where your custom class is triggered.
 
  <span class="wysiwyg-underline">Expected result</span>
 
@@ -160,4 +160,4 @@ class YourClass
 
 ## Related reading
 
-* [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) on Devdocs
+* [Code generation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) in our developer documentation.
