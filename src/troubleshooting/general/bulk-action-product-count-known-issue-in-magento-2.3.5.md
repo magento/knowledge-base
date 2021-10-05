@@ -1,6 +1,6 @@
 ---
 title: Bulk action product count known issue in Adobe Commerce 2.3.5
-labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,bulk,export,import,known issues,mass update,product,Adobe Commerce,cloud infrastructure
+labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,bulk,export,import,known issues,mass update,product,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article describes a known Adobe Commerce 2.3.5 issue, where the notification a merchant gets after a bulk action in Admin contains a wrong number of affected items.
