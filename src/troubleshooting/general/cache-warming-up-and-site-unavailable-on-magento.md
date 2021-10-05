@@ -27,7 +27,7 @@ The site is unavailable or the response time is too high.
 
 ## Solution
 
-Limit the number of concurrent connections during the cache warm-up. This requires adding the `WARM_UP_CONCURRENCY` post-deploy variable to specify the number of warm-up requests that the cache warm-up script can send concurrently. Setting this option can help manage the load on Adobe Commerce's cloud infrastructure. For steps, refer to [Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) in our developer documentation.
+Limit the number of concurrent connections during the cache warm-up. This requires adding the `WARM_UP_CONCURRENCY` post-deploy variable to specify the number of warm-up requests that the cache warm-up script can send concurrently. Setting this option can help manage the load on Adobe Commerce's cloud infrastructure. For steps, see [Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) in our developer documentation.
 
 ## Related reading
 
