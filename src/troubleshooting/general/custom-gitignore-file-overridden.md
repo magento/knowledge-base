@@ -60,7 +60,6 @@ To keep your custom `.gitignore file` then you need to ignore it in the `magento
 {
 ...
 "extra": {
-    "magento-force": "override",
     "magento-deploy-ignore": {
         "*": [
             "/.gitignore"
