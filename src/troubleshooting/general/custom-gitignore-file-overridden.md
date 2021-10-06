@@ -10,6 +10,7 @@ This article provides a solution for when a tracked `.gitignore` file is overrid
 Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
 
 <ins>Prerequisites</ins>
+
 * Composer 2.0.11
 * PHP 7.4
 
