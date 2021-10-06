@@ -45,7 +45,7 @@ Adding an item to the cart multiple times (parallel request) for the same SKU cr
      createEmptyCart
     }</pre>
 
-1. Create a script to make two "addSimpleProductsToCart" requests running in parallel. For example:
+1. Create a script to make two `addSimpleProductsToCart` requests running in parallel. For example:
 
     <pre>#!/bin/bash
     curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MywiaWF0IjoxNjIzOTUyNjcwLCJleHAiOjE2MjM5NTYyNzB9.-fh7ysqiQTAacdB3MVvaXzFE9AmKyfF8TsVmICLJoWI" -d '{"query" : "mutation { addSimpleProductsToCart( input: { cart_id: \"S8dCF7uan1POMy0qY0Hup7tEv1AhFGdY\" cart_items: [ { data: { quantity: 2 sku: \"simple1\" } } ] } ) { cart { items { id product { name sku } quantity } } } }"}' http://magento2.3.local/graphql &
