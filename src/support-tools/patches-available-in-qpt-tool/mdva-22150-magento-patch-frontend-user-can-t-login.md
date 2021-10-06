@@ -1,5 +1,5 @@
 ---
-title: "MDVA-22150 Adobe Commerce patch: frontend user can't login"
+title: "MDVA-22150 Adobe Commerce patch: frontend user can't log in"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,503 error,QPT 1.0.13,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,aborted order,can't login,cancelled,coupon,disabled product,frontend user,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
  <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Log in into the Admin and create a configurable product.
-1. Go to **Cart Rules** , and create a coupon code with some discount.
+1. Go to **Cart Rules**, and create a coupon code with some discount.
 1. Create a customer account in the frontend.
 1. Add the product to the cart, follow the checkout process, and enter the coupon.
 1. After entering the coupon, don't submit the order, but abort the order and logout.
