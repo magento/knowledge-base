@@ -11,7 +11,7 @@ Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
 
 ## Issue
 
-`.gitignore` file is being overwritten when running composer.
+`.gitignore` file is being overwritten when running composer install command.
 
 <ins>Steps to reproduce</ins>:
 
