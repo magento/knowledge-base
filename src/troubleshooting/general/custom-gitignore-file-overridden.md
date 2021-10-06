@@ -32,7 +32,7 @@ Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
     1. `composer install`
     1. `git diff`
 
-```
+```git
 diff --git a/.gitignore b/.gitignore
 index c144521..7092a56 100644
 --- a/.gitignore
