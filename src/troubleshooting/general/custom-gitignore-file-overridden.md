@@ -56,7 +56,7 @@ index c144521..7092a56 100644
 
 To keep your custom `.gitignore file` then you need to ignore it in the `magento-deploy-ignore` section.
 
-```
+```git
 {
   ...
 "extra": {
