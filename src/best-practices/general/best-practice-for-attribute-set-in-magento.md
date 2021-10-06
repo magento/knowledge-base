@@ -1,5 +1,5 @@
 ---
-title: Best practice for attribute SET in Magento
+title: Best practice for attribute SET in Adobe Commerce
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,MySQL,attribute,best practices,performance,product,set,Magento,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
