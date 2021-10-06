@@ -36,7 +36,8 @@ To fix the issue, you need to correct the value of the secure link.
 To make sure this is the cause of the problem, take the following steps:
 
 1. Check the `web/secure/enable_upgrade_insecure` , `web/secure/use_in_adminhtml` (if you have the blank/loop redirect issue in Admin) or `web/secure/use_in_frontend` (if you have the blank/loop redirect issue on the store front) value in the `'core_config_data'` DB table.
-    * If `web/secure/enable_upgrade_insecure` is set to "1", then Adobe Commerce is set up to add the response header `Content-Security-Policy: upgrade-insecure-requests`, thus instructing browsers to use HTTPS, redirecting all queries that come over HTTP to HTTPS, for both Admin and storefront.
+    * If `web/secure/enable_upgrade_insecure` is set to "1", then Adobe Commerce is set up to add the response header `Content-Security-Policy: upgrade-insecure-requests`, thus instructing browsers to use HTTPS, redirecting all queries that come over HTTP
+    to HTTPS, for both Admin and storefront.
     * If `web/secure/use_in_adminhtml` is set to "1", Adobe Commerce returns HTTPS redirects for all HTTP requests for the Admin pages.
     * If `web/secure/use_in_frontend` is set to "1", Adobe Commerce returns HTTPS redirects for all HTTP requests for the store front pages.
 1. Check the `web/secure/base_url` and `web/unsecure/base_url` values in the `'core_config_data'` table. If they both start with    `http`, then you need to correct the "secure" value.
@@ -45,6 +46,6 @@ Fixing the issue:
 
 1. Set the value starting with `https` for `web/secure/base_url.`
 1. For the changes to be applied, clean the configuration cache by running the following command:
-```bash
-php <your_magento_install_dir>/bin/magento cache:clean config
-```
+    ```bash
+    php <your_magento_install_dir>/bin/magento cache:clean config
+    ```
