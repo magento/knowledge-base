@@ -29,7 +29,9 @@ Adding an item to the cart multiple times (parallel request) for the same SKU cr
 1. Create a customer.
 1. Generate a customer token for making GraphQL request.
 
-    <pre>mutation {
+    <pre>
+    <code class="language-graphql">
+    mutation {
         generateCustomerToken(
             email: "customer email"
             password: "customer password"
@@ -37,29 +39,38 @@ Adding an item to the cart multiple times (parallel request) for the same SKU cr
         {
             token
         }
-    }</pre>
+    }
+    </code>
+    </pre>
 
 1. Use the token mentioned in step 3 to create an empty cart for the customer.
 
-    <pre>mutation{
+    <pre>
+    <code class="language-graphql">
+    mutation{
      createEmptyCart
-    }</pre>
+    }
+    </code>
+    </pre>
 
 1. Create a script to make two `addSimpleProductsToCart` requests running in parallel. For example:
 
-    <pre>#!/bin/bash
+    <pre>
+    <code class="language-#!/bin/bash">
     curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MywiaWF0IjoxNjIzOTUyNjcwLCJleHAiOjE2MjM5NTYyNzB9.-fh7ysqiQTAacdB3MVvaXzFE9AmKyfF8TsVmICLJoWI" -d '{"query" : "mutation { addSimpleProductsToCart( input: { cart_id: \"S8dCF7uan1POMy0qY0Hup7tEv1AhFGdY\" cart_items: [ { data: { quantity: 2 sku: \"simple1\" } } ] } ) { cart { items { id product { name sku } quantity } } } }"}' http://magento2.3.local/graphql &
-    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MywiaWF0IjoxNjIzOTUyNjcwLCJleHAiOjE2MjM5NTYyNzB9.-fh7ysqiQTAacdB3MVvaXzFE9AmKyfF8TsVmICLJoWI" -d '{"query" : "mutation { addSimpleProductsToCart( input: { cart_id: \"S8dCF7uan1POMy0qY0Hup7tEv1AhFGdY\" cart_items: [ { data: { quantity: 1 sku: \"simple1\" } } ] } ) { cart { items { id product { name sku } quantity } } } }"}' http://magento2.3.local/graphql</pre>
+    curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MywiaWF0IjoxNjIzOTUyNjcwLCJleHAiOjE2MjM5NTYyNzB9.-fh7ysqiQTAacdB3MVvaXzFE9AmKyfF8TsVmICLJoWI" -d '{"query" : "mutation { addSimpleProductsToCart( input: { cart_id: \"S8dCF7uan1POMy0qY0Hup7tEv1AhFGdY\" cart_items: [ { data: { quantity: 1 sku: \"simple1\" } } ] } ) { cart { items { id product { name sku } quantity } } } }"}' http://magento2.3.local/graphql
+    </code>
+    </pre>
 
 1. Run the script.
 
 <ins>Expected results</ins>:
 
-Only one product line must exist with a total quantity of three in this case.
+Only one product line with a total quantity (three in this case) is created in the Shopping Cart.
 
 <ins>Actual results</ins>:
 
-Two separate lines for the same product are created in the shopping cart.
+Two separate lines for the same product are created in the Shopping Cart.
 
 ## Apply the patch
 
