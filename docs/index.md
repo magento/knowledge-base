@@ -1,14 +1,13 @@
-Welcome to the home of Magento Support KB repo documentation.
+Welcome to the home of the Adobe Commerce Support Knowledge Base repo documentation.
 Here you can find docs helping you to make best fitting contributions and templates, serving the same purpose.
 If you need to learn about general contribution flow, go to [Contributor's Guide](../.github/CONTRIBUTING.md).
 
 ## Guides
 
 * [Contribution rewards and points](contribution-points.md)
-* [Support KB Style Guide](guides/support-kb-styleguide.md)
-* [Support KB Formatting Guide](guides/kb-formatting-guide.md)
-* [Support KB Labels Guide](guides/kb-labels-guide.md)
-
+* [Support Knowledge Base Style Guide](guides/support-kb-styleguide.md)
+* [Support Knowledge Base Formatting Guide](guides/kb-formatting-guide.md)
+* [Support Knowledge Base Labels Guide](guides/kb-labels-guide.md)
 
 ## Templates
 
