@@ -1,14 +1,14 @@
-## Contribute to Magento Support Knowledge Base
+## Contribute to Adobe Commerce Support Knowledge Base
 
-Share your troubleshooting tips and best practices with the community by contributing to [Magento Support Knowledge Base](https://support.magento.com/hc/en-us) (Support KB)!
-You can contribute by creating an issue or pull request (PR) on our [Support KB](https://github.com/magento/knowledge-base) GitHub repository.
+Share your troubleshooting tips and best practices with the community by contributing to the [Adobe Commerce Support Knowledge Base](https://support.magento.com/hc/en-us) (Support Knowledge Base)!
+You can contribute by creating an issue or pull request (PR) on our [support knowledge base](https://github.com/magento/knowledge-base) GitHub repository.
 We welcome all types of contributions; from minor typo fixes to new topics.
 
-Support KB staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
+Support knowledge base staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
 
 ## Rewards for contributions
 
-Support KB works with Magento Community Engineering teams and projects.
+Support knowledge base works with Magento Community Engineering teams and projects.
 As you contribute PRs, you gain [Contribution Points](../docs/contribution-points.md).
 
 ## Get started
@@ -16,8 +16,8 @@ As you contribute PRs, you gain [Contribution Points](../docs/contribution-point
 ![Get started workflow](../docs/img/contributor_start.png)
 
 * Make sure you have a [GitHub account](https://github.com/signup/free).
-* [Fork](https://help.github.com/articles/fork-a-repo/) the [Support KB repository](https://github.com/magento/knowledge-base). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
-* Review the [Support KB guidelines below](#contribution-guidelines).
+* [Fork](https://help.github.com/articles/fork-a-repo/) the [Support Knowledge Base repository](https://github.com/magento/knowledge-base). Remember to [sync your fork](https://help.github.com/articles/syncing-a-fork/) and update branches as needed.
+* Review the [Support Knowledge Base guidelines below](#contribution-guidelines).
 
 >**Note for partners:** Add [2FA](https://devdocs.magento.com/contributor-guide/contributing.html#two-factor) protection when contributing to Magento repositories.
 
@@ -69,7 +69,7 @@ The following guidelines may answer most of your questions and help you get star
 * Do not remove/change the HTML formatting mentioned as required in [Support KB formatting](../docs/guides/kb-formatting-guide.md).
 * Do not remove/change the HTML formatting in Troubleshooters articles. Examples:
     * [Redis troubleshooter](https://support.magento.com/hc/en-us/articles/360046673932)
-    * [Magento Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
+    * [Adobe Commerce Fastly troubleshooter](https://support.magento.com/hc/en-us/articles/360040759292-Magento-Fastly-troubleshooter)
 
 ## Testing
 Contributions can be tested locally using the 'mdl' application. Full instructions on how to install and use 'mdl' can be found on the [Markdown Lint](https://github.com/markdownlint/markdownlint) repository.
@@ -98,8 +98,8 @@ All file and folder names must be lower cased with "-" in between all words. Fil
 
 If you add images to your articles, please follow this convention to name your image files:
 
-* Specify the version of the product which is represented on the screenshot. If it is not Magento Commerce, add the name of the product to the file name.
-* Relay what is being captured by the image, for example, a screenshot of Magento Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
+* Specify the version of the product which is represented on the screenshot. If it is not Adobe Commerce, add the name of the product to the file name.
+* Relay what is being captured by the image, for example, a screenshot of Adobe Commerce Price Rule configuration would be cart-price-rule-new-231.png, cart-price-rule-saved-231.png etc. Check for existing images to follow the naming patterns.
 * File names are in lower case.
 * Words should be separated by a hyphen "-", not underscore "_".
 * Use existing naming patterns. Check the existing file names under /assets folders as an example.
@@ -120,7 +120,7 @@ labels:
 | Property | Description |
 | ------------- | ---------- |
 | `title` | Defines the article title. If using any [YAML special characters](https://support.asg.com/mob/mvw/10_0/mv_ag/using_quotes_with_yaml_special_characters.htm) in title, please enclose it in quotes ("")|
-| `labels` | Contains labels that will be added to the article in Magento Help Center. Add labels to describe products, issues, products versions, section and category. If in doubt, don't add labels. |
+| `labels` | Contains labels that will be added to the article in the support knowledge base. Add labels to describe products, issues, products versions, section and category. If in doubt, don't add labels. |
 
 
 ### Add article
@@ -152,10 +152,10 @@ To delete an article, delete the article file.
 
 ## Report an issue
 
-If you find a typo or errors in Magento Support Knowledge Base article, you can either correct it and deliver changes with a pull request (_as described above_), or you can report it by creating an issue in the Support KB repository.
+If you find a typo or errors in the support knowledge base article, you can either correct it and deliver changes with a pull request (_as described above_), or you can report it by creating an issue in the Support KB repository.
 
 You must complete the issue template. We will close your issue if you fail to provide the information listed template. Enter as much information as you can, including content corrections, steps to reproduce, command or code updates, or questions for clarifications.
 
 > **Note:** Check the existing [issues](https://github.com/magento/knowledge-base/issues) on GitHub to see if someone has already reported the issue.
 
-Thank you for contributing your brilliance to Magento Support Knowledge Base!!
+Thank you for contributing your brilliance to Adobe Commerce Support Knowledge Base!!
