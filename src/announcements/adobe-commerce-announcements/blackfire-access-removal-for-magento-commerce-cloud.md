@@ -15,15 +15,19 @@ On April 11, 2020, free access to Blackfire performance monitoring will no longe
 
 If when running a deployment you get Blackfire related errors do the following:
 
-1. Remove Blackfire from your configuration. Edit the `.magento.app.yaml` file and remove Blackfire from the runtime section: 
-`... `# Enable extensions required by Magento 2
-runtime:
-  extensions: 
-  - redis
-  - xsl
-  - json
-  -**blackfire**
-   - imap...` `
+1. Remove Blackfire from your configuration. Edit the `.magento.app.yaml` file and remove Blackfire from the runtime section:
+    ```YAML
+    ...
+    # Enable extensions required by Magento 2
+    runtime:
+      extensions:
+      - redis
+      - xsl
+      - json
+      -**blackfire**
+       - imap
+    ...
+    ```
 1. Complete this on the Local development environment and push up to the cloud.
 
 Only [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) if you see the following error after you run a deployment:
