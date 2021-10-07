@@ -3,7 +3,7 @@ title: "MDVA-31590: Unable to update attributes in bulk using MySQL async queues
 labels: QPT patches,Quality Patches Tool,MQP,QPT,QPT 1.1.3,update,attributes,MySQL,async queues,Adobe Commerce,on-premises,cloud infrastructure,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1
 ---
 
-The MDVA-31590 patch solves the issue where the user is unable to update attributes in bulk using MySQL async queues. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-31590. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+The MDVA-31590 patch solves the issue where the users are unable to update attributes in bulk using MySQL async queues. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-31590. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -21,34 +21,36 @@ The MDVA-31590 patch solves the issue where the user is unable to update attribu
 
 ## Issue
 
-<ins>Prerequisites</ins>:
-
+Users are not able to update attributes in bulk using MySQL async.
 
 <ins>Steps to reproduce</ins>:
 
 1. On the product grid in the backend, perform a mass action to update attribute values for a few products.
-    * Check products and select Update Attributes action from the Actions dropdown.
-1. Set values for needed attributes and assign products to websites and save.
-1. After the page reloads, it will display a message like the following:
-    `Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.`
-1. Wait few seconds and reload the backend page.
+    * Check products and select **Update Attributes** from the Actions dropdown.
+1. Set values for the required attributes and assign products to websites and save.
+1. Once the page reloads, it will display a message like the following:
+    *Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.*
+1. Wait for few seconds and reload the backend page.
 
 <ins>Expected results</ins>:
 
-1. Items are successfully updated.
+1. The page displays a successful update message like: *1 item(s) have been successfully updated.*
 1. Attribute values for related products are updated.
-1. In DB, new record in `magento_bulk` and new record(s) in `magento_operation` table (operations related to the bulk).
-1. New record(s) in the `queue_message` (related to the queues `product_action_attribute.update` and/or `product_action_attribute.website.update`) and new related record(s) in the `queue_message_status` table with status "4".
+1. In DB, new records are created in both `magento_bulk` table and `magento_operation` table (operations related to the bulk).
+1. New record(s) are created in the `queue_message` table (related to the queues `product_action_attribute.update` and/or `product_action_attribute.website.update`).
+1. `queue_message_status` table have record with status "4".
+1. There is NO errors in `system.log`.
 
 <ins>Actual results</ins>:
 
-1. The system messages still displayed a message like the follwoing:
-`Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.`
+1. The page still displays a message like the following:
+    *Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.*
 1. Attribute values for the products are updated.
-1. A new record in `message_bulk` table but no related record(s) in `magento_operation` table.
-1. New related records in `queue_message` and `queue_message_status` tables but records in the last table with error status (status value "6").
-`system.log` contains error like:
- `main.CRITICAL: Message has been rejected: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'operation_key' cannot be null, query was: INSERT INTO {{magento_operation}} ({{id}}, {{bulk_uuid}}, {{topic_name}}, {{serialized_data}}, {{result_serialized_data}}, {{status}}, {{error_code}}, {{result_message}}, {{operation_key}}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) [] []`
+1. A new record is created in `message_bulk` table but there is no related record(s) in `magento_operation` table.
+1. New records are created in `queue_message` and `queue_message_status` tables.
+1. `queue_message_status` table has record with error status (status value "6").
+1. `system.log` contains error similar to the following:
+    *main.CRITICAL: Message has been rejected: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'operation_key' cannot be null, query was: INSERT INTO {{magento_operation}} ({{id}}, {{bulk_uuid}}, {{topic_name}}, {{serialized_data}}, {{result_serialized_data}}, {{status}}, {{error_code}}, {{result_message}}, {{operation_key}}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) [] []*
 
 ## Apply the patch
 
