@@ -8,11 +8,11 @@ This provides an overview of Quality Patches Tool (QPT) and links to resources e
 ## Affected products and versions
 
 * Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## What are Quality Patches Tool
 
-The [Quality Patches Tool](https://github.com/magento/quality-patches) (QPT) package delivers Quality Patches Tool.
+The [Quality Patches Tool](https://github.com/magento/quality-patches) (QPT) individual patches developed by Adobe and the Magento Open Source community.
 
 It allows you to:
 
@@ -46,4 +46,3 @@ Please refer to [Apply patches](https://devdocs.magento.com/cloud/project/projec
 
 * [Quality Patches Tool release notes](https://devdocs.magento.com/quality-patches/release-notes.html)
 * [How to apply composer patches provided by Magento Support](https://support.magento.com/hc/en-us/articles/360028367731)
-
