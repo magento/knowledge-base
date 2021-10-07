@@ -11,12 +11,6 @@ This article provides a solution for the issue when cart price rule coupons are 
 * Adove Commerce on-premises x.x.x
 * Adobe Commerce on cloud infrastructure x.x.x
 
-*Alternatively if the same versions on cloud or on-premises are affected you can say:*
-
-Adobe Commerce (all deployment methods) x.x.x
-
-* Affected extension or technology (e.g. Redis, Fastly): x.x.x
-
 ## Issue
 
 A clear description of the issue, including full error messages as text and any important screenshots.
@@ -30,8 +24,8 @@ If the issue occurs in a very specific situation, provide detailed steps to repr
 
 1. Create a coupon and configure the coupon to single use.
 1. Proceed to checkout.
-3. Use the coupon that you just created.
-4. Proceed to checkout again and use the same coupon.
+1. Use the coupon that you just created.
+1. Proceed to checkout again and use the same coupon.
 
 <ins>Expected result</ins>:
 
@@ -67,4 +61,4 @@ For detailed steps, refer to [Manage message queues > Configuration](https://dev
 
 ## Related reading
 
-* [Message Queues Overview](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html) in our developer documentation.
+[Message Queues Overview](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html) in our developer documentation.
