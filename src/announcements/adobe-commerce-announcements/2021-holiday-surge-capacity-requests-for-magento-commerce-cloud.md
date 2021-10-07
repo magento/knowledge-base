@@ -21,7 +21,7 @@ Adobe Commerce merchants on our cloud infrastructure that anticipate a need for 
 
 Need more guidance on preparing for peak season traffic? Adobe Commerce merchants on our cloud infrastructure can contact their Customer Success Manager for help, strategy, and planning tips for preparing for a successful peak season. We also recommend checking out the [Magento Blog](https://magento.com/blog) for strategy tips year-round.
 
-## Related reading
+## Resources on reviewing your capacity
 
 * [CPU allocation calculation for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058551232)
 * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058506772)
