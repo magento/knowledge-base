@@ -3,40 +3,40 @@ title: Blockers launching on Magento Commerce Cloud
 labels: Fastly,Magento Commerce Cloud,SSL,TLS,UAT,VCL,performance,troubleshooting
 ---
 
-This article provides a fix for blockers to launching on Magento Commerce (Cloud) including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance.
+This article provides a fix for blockers to launching on Adobe Commerce on cloud infrastructure including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance.
 
 ## 1. Fastly Configuration
 
- [Fastly](https://www.fastly.com/) is a Varnish-based Content Delivery Network (CDN) for serving static assets. It is required for Magento Commerce (Cloud) on Production environments, so it's important to configure Fastly and test your website (UAT) with Fastly enabled and configured — on both Staging and Production environments.
+ [Fastly](https://www.fastly.com/) is a Varnish-based Content Delivery Network (CDN) for serving static assets. It is required for Adobe Commerce on cloud infrastructure on Production environments, so it's important to configure Fastly and test your website (UAT) with Fastly enabled and configured — on both Staging and Production environments.
 
 >![warning]
 >
 >With Full Page Cache (FPC) enabled, your website performs differently; make sure you test it before going live.
 
-The process of Fastly configuration is documented in detail in the [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html) topic on DevDocs. Below are the important steps.
+The process of Fastly configuration is documented in detail in the [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html) topic in our developer documentation. Below are the important steps.
 
 ### 1a. Make sure you have the most recent version of the Fastly module installed
 
-Make sure you have the most recent version of the Fastly module installed to get the latest features and improvements. To check if you have the latest version of Fastly review DevDocs' [Upgrade the Fastly module](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upgrade) . For more details review DevDocs' [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) .
+Make sure you have the most recent version of the Fastly module installed to get the latest features and improvements. To check if you have the latest version of Fastly, review [Upgrade the Fastly module](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upgrade) in our developer documentation. For more details review [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) in our developer documentation.
 
-### 1b. Enable and configure Fastly using the Magento Admin
+### 1b. Enable and configure Fastly using the Commerce Admin
 
-For more details review DevDocs' [Get your Fastly credentials](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#cloud-fastly-creds) .
+For more details, review [Get your Fastly credentials](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#cloud-fastly-creds) in our developer documentation.
 
 ### 1c. Upload Fastly VCL snippets
 
-For more details [Upload VCL to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upload-vcl-snippets) .
+For more details, see [Upload VCL to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upload-vcl-snippets) in our developer documentation.
 
-You can also [create and add own custom VCL snippets](https://devdocs.magento.com/cloud/cdn/cloud-vcl-custom-snippets.html) .
+You can also [create and add own custom VCL snippets](https://devdocs.magento.com/cloud/cdn/cloud-vcl-custom-snippets.html).
 
 ### 1d. Configure DNS for Fastly
 
-Refer to this article for detailed steps: [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#fastly-dns) 
+Refer to this article for detailed steps: [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#fastly-dns) in our developer documentation.
 
 ### Related Fastly articles on Knowledge Base
 
-* Knowledge Base [Fastly caching is not working on Cloud](https://support.magento.com/hc/en-us/articles/115001853074-Fastly-caching-is-not-working-for-sites-for-Magento-Commerce-Cloud) 
-* Knowledge Base [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](https://support.magento.com/hc/en-us/articles/115001853194-Fastly-purges-do-not-process-successfully-for-Magento-Commerce-Cloud) 
+* [Fastly caching is not working on Cloud](https://support.magento.com/hc/en-us/articles/115001853074-Fastly-caching-is-not-working-for-sites-for-Magento-Commerce-Cloud) in our support knowledge base.
+* [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](https://support.magento.com/hc/en-us/articles/115001853194-Fastly-purges-do-not-process-successfully-for-Magento-Commerce-Cloud) in our support knowledge base.
 
 ## 2. Valid SSL (TLS) certificate
 
@@ -44,7 +44,7 @@ Problem: Without a valid and working SSL certificate, you cannot test external p
 
 Recommendation **:** Request your shared SSL certificate for Staging or Live domain names.
 
-Read about SSL certificates on the Knowledge Base [Quick FAQ](https://support.magento.com/hc/en-us/articles/115004685333) .
+Read about SSL certificates in this [Quick FAQ](https://support.magento.com/hc/en-us/articles/115004685333) article in our support knowledge base.
 
 ## 3. Configure and test 301 redirects
 
@@ -56,17 +56,17 @@ In case you're migrating from an old website to a new one, the 301 redirects lea
 
 http://www.mywebsite.com/old-category-page.html - **>** http://www.mywebsite.com/new-seo-friendly-category-page.html
 
- **Related articles:** 
+ **Related articles:**
 
-* [Redirects through routes.yaml](http://devdocs.magento.com/guides/v2.2/cloud/project/project-routes-more-redir.html) on DevDocs
-* [Redirects through the Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#project-conf-env-route) on DevDocs
-* [URL Rewrites](http://docs.magento.com/m2/ee/user_guide/marketing/url-rewrite.html) on Magento User Guide
+* [Redirects through routes.yaml](http://devdocs.magento.com/guides/v2.2/cloud/project/project-routes-more-redir.html) in our developer documentation.
+* [Redirects through the Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#project-conf-env-route) in our developer documentation.
+* [URL Rewrites](http://docs.magento.com/m2/ee/user_guide/marketing/url-rewrite.html) in our user guide
 
 ## 4. Asset performance
 
 Problem: Static assets are served slowly so your site has poor performance (long load time, multimedia content not displayed, etc). Static assets of your website are CSS resources, images, videos, attached documents and much more. The way they are organized and served is a key factor in the performance of your site.
 
-Recommendation: To identify possible causes of poor performance consider using [Magento Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) for performance testing. You could also consider these 3rd party tools:
+Recommendation: To identify possible causes of poor performance consider using [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) for performance testing. You could also consider these third-party tools:
 
 * [Siege](https://www.joedog.org/siege-home/) : HTTP load-testing and benchmarking utility; supports basic authentication, cookies, HTTP, HTTPS and FTP protocols.
 * [Jmeter](http://jmeter.apache.org/) : A reputable load-testing and performance measuring tool. Helps gauge performance for spiked traffic, e.g., for flash sales.
@@ -75,7 +75,6 @@ Recommendation: To identify possible causes of poor performance consider using [
 
 You may also consider [minification](https://devdocs.magento.com/cloud/live/sens-data-over.html#cloud-clp-settings) for CSS, JavaScript, and HTML.
 
- **Related articles:** 
+ **Related articles:**
 
-* [Test deployment](http://devdocs.magento.com/guides/v2.2/cloud/live/stage-prod-test.html) on DevDocs
-
+* [Test deployment](http://devdocs.magento.com/guides/v2.2/cloud/live/stage-prod-test.html) in our developer documentation.
