@@ -114,8 +114,8 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 If executing the `setup:uninstall` command fails with an error and cannot be completed, we may clear the DB manually with these steps:
 
 1. [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
-1. Connect to the MySQL DB:    ```mysql -h database.internal```    
-   * For Pro environments see: [Set up MySQL service](https://devdocs.magento.com/cloud/project/services-mysql.html#connect-to-the-database)
+2. Connect to the MySQL DB:    ```mysql -h database.internal```    
+  * For Pro environments see: [Set up MySQL service](https://devdocs.magento.com/cloud/project/services-mysql.html#connect-to-the-database)
 3. Drop the \`main\` DB :    ```drop database main;```    
 4. Create an empty \`main\` DB:    ```create database main;```    
 5. Delete the following configuration files: `config.php` , `config.php` .bak, `env.php`, `env.php.bak`
