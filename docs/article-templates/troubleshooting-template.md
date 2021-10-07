@@ -12,8 +12,13 @@ Intro paragraph or two paragraphs: a brief overview of issue. The first 140 char
 
 ## Affected products and versions
 
-* Magento Commerce x.x.x
-* Magento Commerce Cloud x.x.x
+* Adobe Commerce on-premises x.x.x
+* Adobe Commerce on cloud infrastructure x.x.x
+
+(*Alternatively if the same versions on cloud or on-premises are affected you can say:*)
+
+Adobe Commerce (all deployment methods) x.x.x
+
 * Affected extension or technology (e.g. Redis, Fastly): x.x.x
 
 ## Issue
@@ -35,11 +40,11 @@ Prerequisites: ... (if any).
 
 <ins>Expected result</ins>:
 
-Magento does this.
+Adobe Commerce does this.
 
 <ins>Actual result</ins>:
 
-Magento does that.
+Adobe Commerce does that.
 
 ## Cause
 
@@ -54,7 +59,7 @@ If there is a temporary workaround, specify it as a separate section below this 
 
 ## Related reading
 
-* User Guides: [Commerce](https://docs.magento.com/user-guide/)
-* [Developer Guide](https://devdocs.magento.com)
-* Other Knowledge Base articles
+* [Article topic](https://docs.magento.com/user-guide/) in our user guide.
+* [Article topic](https://devdocs.magento.com) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: “[Article topic](https://devdocs.magento.com) in our developer documentation for Adobe Commerce on cloud infrastructure." vs "[Article topic](https://devdocs.magento.com) in our developer documentation for Adobe Commerce on-premises."
+* [Article topic](https://support.magento.com/hc/en-us) in our support knowledge base.
 * Any related resources (blogs, forums, StackOverflow, etc.)
