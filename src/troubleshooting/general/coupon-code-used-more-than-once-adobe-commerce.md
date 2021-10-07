@@ -41,7 +41,7 @@ Merchants do not have `sales.rule.update.coupon.usage` consumer setup and runnin
 
 ## Solution
 
-Add "sales.rule.update.coupon.usage" consumer to the `app/etc/env.php` file.
+Add `sales.rule.update.coupon.usage` consumer to the `app/etc/env.php` file.
 
 ```php
 ...
