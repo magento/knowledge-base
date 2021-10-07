@@ -1,6 +1,6 @@
 ---
 title: Blackfire access removal for Adobe Commerce on cloud infrastructure
-labels: Blackfire,Blackfire access,Blackfire removal,Magento Commerce Cloud,Pro,Magento,Starter,New Relic,PHP,blackfire.io,extensions,Adobe Commerce,cloud infrastructure,on-premises
+labels: Blackfire,Blackfire access,Blackfire removal,Magento Commerce Cloud,Pro,Magento,Starter,New Relic,PHP,blackfire.io,extensions,Adobe Commerce,cloud infrastructure
 ---
 
 On April 11, 2020, free access to Blackfire performance monitoring will no longer be included with cloud hosted Adobe Commerce on cloud infrastructure Pro plan architecture or Adobe Commerce on cloud infrastructure Starter plan architecture subscriptions.  You will no longer be able to log in to your Blackfire account. It is possible to continue using Blackfire beyond April 11 by purchasing a license directly through Blackfire.io. Adobe Commerce merchants who have not purchased licenses directly from Blackfire by that date will have their free, Adobe-provided Blackfire licenses deactivated. Along with this, functionality to create new reports using the Profiler tool will be disabled. It is still possible for customers using Pro architecture hosted on cloud infrastructure to receive free monitoring of infrastructure performance via New Relic Infrastructure.
