@@ -60,7 +60,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 
 ## Related reading
 
-* For insights, methods and examples to measure and improve site’s performance, refer to the following in-depth articles in our support knowledge base:
+* For insights, methods and examples of how to measure and improve site’s performance, refer to the following in-depth articles in our support knowledge base:
     * [CPU allocation calculation for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058551232)
     * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058506772)
     * [Check host’s CPU configuration for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058507012O).
