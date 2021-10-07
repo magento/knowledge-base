@@ -8,7 +8,7 @@ This article provides a solution for the issue when cart price rule coupons are 
 
 ## Affected products and versions
 
-* Adove Commerce (all deployment methods): 2.3.6 and above, 2.4.2 and above.
+* Adove Commerce (all deployment methods) 2.3.6 and above, 2.4.2 and above.
 
 ## Issue
 
