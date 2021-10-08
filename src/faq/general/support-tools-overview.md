@@ -27,7 +27,7 @@ We’ve set up key dashboards and alerts to aid you in understanding when your s
 
 <h2 id="site-wide-analysis-tool">Site-Wide Analysis Tool - get performance recommendations based on site scan</h2>
 
-Site-Wide Analysis Tool is a SaaS (software as a service) application that performs end-to-end 'point-in-time' site analysis. All tool-related customer site information is collected on predetermined schedules from every three hours to once a day. This means that SWAT is constantly analyzing customer site data for Findings.
+The Site-Wide Analysis Tool is a SaaS (software as a service) application that performs end-to-end 'point-in-time' site analysis. All tool-related customer site information is collected on predetermined schedules from every three hours to once a day. This means that SWAT is constantly analyzing customer site data.
 
 To find out more about Site-Site-Wide Analysis Tool, refer to [Magento Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) (**you must be singed-in to access it**)
 
