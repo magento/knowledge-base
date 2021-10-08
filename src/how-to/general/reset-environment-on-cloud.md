@@ -65,7 +65,7 @@ Read: [Uninstall the Adobe Commerce software](https://devdocs.magento.com/guides
 To uninstall the Adobe Commerce software, follow these steps:
 
 1. [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
-1. Execute `setup:uninstall` :    ```bin/magento setup:uninstall```    
+1. Execute `setup:uninstall` : `bin/magento setup:uninstall`    
 1. Confirm uninstall.
 
 The following message displays to confirm a successful uninstallation:
