@@ -20,7 +20,7 @@ To download the complete article about how to use Observation for Adobe Commerce
 
 <h2 id="managed-alerts-for-adobe-commerce">Managed Alerts for Adobe Commerce - get alerts on critical storage and Apdex levels </h2>
 
-Managed alerts for Adobe Commerce on cloud architecture produce ready-made New Relic alerting that includes directions on next steps to troubleshoot.
+Managed alerts for Adobe Commerce on cloud infrastructure produce ready-made New Relic alerting that includes directions on next steps to troubleshoot.
 
 We’ve set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles provided in our support knowledge base. Click [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832-Managed-alerts-for-Magento-Commerce) to learn more about managed alerts.
 
