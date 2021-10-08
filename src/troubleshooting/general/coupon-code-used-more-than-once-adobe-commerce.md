@@ -32,7 +32,7 @@ The coupon can be used more than once.
 
 ## Cause
 
-Merchants do not have `sales.rule.update.coupon.usage` consumer setup and running that results in improper behavior.
+Merchants do not have `sales.rule.update.coupon.usage` consumer set up and running that results in improper behavior.
 
 ## Solution
 
