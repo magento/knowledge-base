@@ -9,6 +9,6 @@ The attached article provides detailed guidelines on the steps and queries a use
 
 Adobe Commerce on cloud infrastructure 2.3.x, 2.4.x
 
-## Attached files
+## Download the article
 
 Click on the attached .pdf file to download the article.
