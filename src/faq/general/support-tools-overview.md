@@ -14,7 +14,7 @@ This article gives an overview for each of the available tools:
 
 <h2 id="observation-for-adobe-commerce">Observation for Adobe Commerce - get the most relevant New Relic info in an easy format</h2>
 
-Observation for Adobe Commerce is a New Relic nerdlet to see the state of your Adobe Commerce site, current or past time views. A nerdlet is a custom application built with New Relic One programmability. It presents most relevant New Relic information in an easy format against a common timeline.
+Observation for Adobe Commerce is a New Relic nerdlet to see the state of your Adobe Commerce site, current or past time views. A nerdlet is a custom application built with New Relic One programmability. It presents the most relevant New Relic information in an easy format against a common timeline.
 
 To download the complete article about how to use Observation for Adobe Commerce on cloud architecture, go to [Use Observation for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4402379845901-Use-Observation-for-Adobe-Commerce) page (**you must be signed-in to view it**).  
 
