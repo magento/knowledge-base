@@ -34,4 +34,4 @@ If assistance is required or if there are questions or concerns, [submit an Adob
 ## Related reading
 
 [Configuring Product Options](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html) in our user guide.<br>
-Refer to [Shopping Assistance > Managing a Shopping Cart](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html#method-2-add-item-by-sku) in our user guide.
+[Shopping Assistance > Managing a Shopping Cart](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html#method-2-add-item-by-sku) in our user guide.
