@@ -23,7 +23,7 @@ Merchants set up a coupon for single use and customers are able to use it multip
 
 <ins>Expected result</ins>:
 
-The coupon can only be used once.
+The coupon can only be used once. A message displays: The coupon code "COUPON_NAME" is not valid
 
 <ins>Actual result</ins>:
 
