@@ -18,7 +18,7 @@ Observation for Adobe Commerce is a New Relic nerdlet to see the state of your A
 
 To download the complete article about how to use Observation for Adobe Commerce on cloud architecture, go to [Use Observation for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4402379845901-Use-Observation-for-Adobe-Commerce) page (**you must be signed-in to view it**).  
 
-<h2 id="managed-alerts-for-adobe-commerce">Managed Alerts For Adobe Commerce - get alerts on critical storage and Apdex levels </h2>
+<h2 id="managed-alerts-for-adobe-commerce">Managed Alerts for Adobe Commerce - get alerts on critical storage and Apdex levels </h2>
 
 Managed alerts for Adobe Commerce on cloud architecture produce ready-made New Relic alerting that includes directions on next steps to troubleshoot.
 
