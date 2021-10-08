@@ -4,7 +4,7 @@ labels: Magento,Adobe Commerce,support tools,site-wide analysis tool,observation
 ---
 
 Adobe Commerce offers variety of support tools that help and empower you to improve the e-commerce store experience.
-It provides personalized best practices, diagnostic and monitoring tools, and most relevant information about your site.
+It provides personalized best practices, diagnostic and monitoring tools, and actionable information about your site.
 This article gives an overview for each of the available tools:
 
 * [Observation for Adobe Commerce](#observation-for-adobe-commerce)
