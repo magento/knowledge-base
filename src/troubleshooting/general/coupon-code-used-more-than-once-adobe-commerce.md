@@ -12,12 +12,7 @@ This article provides a solution for the issue when cart price rule coupons are 
 
 ## Issue
 
-A clear description of the issue, including full error messages as text and any important screenshots.
-If this is found in a log, provide details: which log, location.
-
-Remove any specific project IDs or customer information from errors and logs! Also make sure sensitive information is not included in screen shots.
-
-If the issue occurs in a very specific situation, provide detailed steps to reproduce, expected result and actual result in the following format:
+Merchants set up a coupon for single use and customers are able to use it multiple times.
 
 <ins>Steps to reproduce</ins>:
 
