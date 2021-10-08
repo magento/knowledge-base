@@ -14,7 +14,7 @@ Fastly: This error can affect all versions of the Fastly module except the lates
 
 1. Log in to the Commerce Admin panel.
 1. Navigate to **Stores** > **Configuration** > **Advanced** > **System** > **Full Page Cache**   **Fastly Cache.**
-1. In the **Automatic Upload & Service Activation** section, there will be a " *Plugin VCL version is outdated! Please re-Upload.* " notification.
+1. In the **Automatic Upload & Service Activation** section, there will be a "*Plugin VCL version is outdated! Please re-Upload.*" notification.
 1. You attempt to upload the VCL snippets by clicking on the "Upload VCL to Fastly" button but you still see the warning " *Plugin VCL version is outdated! Please re-Upload.* "
 
 ## Cause
