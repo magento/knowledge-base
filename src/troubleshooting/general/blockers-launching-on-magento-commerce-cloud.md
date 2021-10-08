@@ -17,7 +17,7 @@ The process of Fastly configuration is documented in detail in the [Set up Fastl
 
 ### 1a. Make sure you have the most recent version of the Fastly module installed
 
-Make sure you have the most recent version of the Fastly module installed to get the latest features and improvements. To check if you have the latest version of Fastly, review [Upgrade the Fastly module](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upgrade) in our developer documentation. For more details review [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) in our developer documentation.
+Make sure you have the most recent version of the Fastly module installed to get the latest features and improvements. To check if you have the latest version of Fastly, review [Upgrade the Fastly module](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upgrade) in our developer documentation. For more details, review [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) in our developer documentation.
 
 ### 1b. Enable and configure Fastly using the Commerce Admin
 
@@ -33,7 +33,7 @@ You can also [create and add own custom VCL snippets](https://devdocs.magento.co
 
 Refer to this article for detailed steps: [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#fastly-dns) in our developer documentation.
 
-### Related Fastly articles on Knowledge Base
+### Related Fastly articles in Knowledge Base
 
 * [Fastly caching is not working on Cloud](https://support.magento.com/hc/en-us/articles/115001853074-Fastly-caching-is-not-working-for-sites-for-Magento-Commerce-Cloud) in our support knowledge base.
 * [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](https://support.magento.com/hc/en-us/articles/115001853194-Fastly-purges-do-not-process-successfully-for-Magento-Commerce-Cloud) in our support knowledge base.
@@ -60,7 +60,7 @@ http://www.mywebsite.com/old-category-page.html - **>** http://www.mywebsite.com
 
 * [Redirects through routes.yaml](http://devdocs.magento.com/guides/v2.2/cloud/project/project-routes-more-redir.html) in our developer documentation.
 * [Redirects through the Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#project-conf-env-route) in our developer documentation.
-* [URL Rewrites](http://docs.magento.com/m2/ee/user_guide/marketing/url-rewrite.html) in our user guide
+* [URL Rewrites](http://docs.magento.com/m2/ee/user_guide/marketing/url-rewrite.html) in our user guide.
 
 ## 4. Asset performance
 
