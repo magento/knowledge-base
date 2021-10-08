@@ -21,6 +21,7 @@ If the ElasticSuite third-party plugin is installed, you might experience Elasti
 * When running a health command `curl -m1 localhost:9200/_cluster/health?pretty` or `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (for starter accounts) there are hundreds or thousands of `unassigned_shards`
 * Elasticsearch or site performance is severely degraded.
 * *"No alive nodes found in your cluster"* in Elasticsearch deploy or log errors.
+* *"Rejecting mapping update to [<\*>_tracking_log_event_<\*>]"* in deploy or log errors.
 
 ## Cause
 
