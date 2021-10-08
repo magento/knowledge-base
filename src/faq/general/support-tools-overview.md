@@ -35,4 +35,4 @@ To find out more about Site-Site-Wide Analysis Tool, refer to [Magento Site-Wide
 
 The Quality Patches Tool (QPT) delivers individual patches developed by Adobe and the Magento Open Source community. It allows you to apply, revert, and view general information about all individual patches that are available for the installed version of Adobe Commerce or Magento Open Source.
 
-QPT shows only those available patches for installed version, with categorization and easy application/removal. To learn more, refer to [Check patch for Adobe Commerce issue with Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+QPT shows only those available patches for your installed version, with categorization and easy application/removal. To learn more, refer to [Check patch for Adobe Commerce issue with Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
