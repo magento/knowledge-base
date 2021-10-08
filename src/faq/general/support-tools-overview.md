@@ -12,7 +12,7 @@ This article gives an overview for each of the available tools:
 * [Site-Wide Analysis Tool](#site-wide-analysis-tool)
 * [Quality Patches Tool](#quality-patches-tool)
 
-<h2 id="observation-for-adobe-commerce">Observation for Adobe Commerce - get most relevant New Relic info in an easy format</h2>
+<h2 id="observation-for-adobe-commerce">Observation for Adobe Commerce - get the most relevant New Relic info in an easy format</h2>
 
 Observation for Adobe Commerce is a New Relic nerdlet to see the state of your Adobe Commerce site, current or past time views. A nerdlet is a custom application built with New Relic One programmability. It presents most relevant New Relic information in an easy format against a common timeline.
 
