@@ -22,7 +22,7 @@ Adobe Commerce Best Practices for cart limits are:
 
 ## Affected products and versions
 
-* Adobe Commerce (all deployment methods)
+Adobe Commerce (all deployment methods) all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
