@@ -8,7 +8,7 @@ This article provides a solution for the issue when cart price rule coupons are 
 
 ## Affected products and versions
 
-* Adove Commerce (all deployment methods) 2.3.6 and above, 2.4.2 and above.
+Adove Commerce (all deployment methods) 2.3.6 and above, 2.4.2 and above.
 
 ## Issue
 
@@ -23,7 +23,7 @@ Merchants set up a coupon for single use and customers are able to use it multip
 
 <ins>Expected result</ins>:
 
-The coupon can only be used once. A message displays: The coupon code "COUPON_NAME" is not valid
+The coupon can only be used once. A message displays: *The coupon code "COUPON_NAME" is not valid*.
 
 <ins>Actual result</ins>:
 
