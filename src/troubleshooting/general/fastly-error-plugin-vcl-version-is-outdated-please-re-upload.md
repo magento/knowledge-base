@@ -32,5 +32,6 @@ The Fastly extension was updated (along with a bundled VCL configuration and tem
 </ol></ol>
 ## Related reading
 
+
 * For information about setting up and configuring Fastly, see [Configure Fastly services](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html) in our developer documentation.
 * For general information about Fastly, see [fastly.com](https://www.fastly.com/).
