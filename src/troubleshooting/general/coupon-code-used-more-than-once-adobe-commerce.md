@@ -1,6 +1,6 @@
 ---
 title: Coupon for single use is used multiple times, Adobe Commerce
-labels: troubleshooting,coupon,Adobe Commerce,cart price rule,,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
+labels: troubleshooting,coupon,Adobe Commerce,cart price rule,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
 This article provides a solution for the issue when cart price rule coupons are not working properly. Merchants set up a coupon for single use and customers are able to use it multiple times.
