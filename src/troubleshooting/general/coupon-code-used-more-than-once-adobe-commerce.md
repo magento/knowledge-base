@@ -27,7 +27,7 @@ The coupon can only be used once.
 
 <ins>Actual result</ins>:
 
-The coupon can only be a second time.
+The coupon can be used more than once.
 
 
 ## Cause
