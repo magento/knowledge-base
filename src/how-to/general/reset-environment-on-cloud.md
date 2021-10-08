@@ -84,7 +84,7 @@ With git reset, we revert the code to the desired state in the past.
 1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience:    ```git    git log --reverse    ```    
 1. Select the commit hash on which you've been good. To reset code to its authentic state (Vanilla), find the very first commit that created your branch (environment).    ![Selecting a commit hash in git console](assets/select_commit_hash.png)    
 1. Apply hard git reset:    ```git reset --h <commit_hash>```    
-1. Push changes to server:    ```git push --force <origin> <branch>```    
+1. Push changes to server: `git push --force <origin> <branch>`   
 
 After performing these steps, our git branch gets reset and the entire git changelog is clear. The last git push triggers the redeploy to apply all changes and re-install Adobe Commerce.
 
