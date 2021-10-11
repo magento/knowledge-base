@@ -1,21 +1,21 @@
 ---
 title: Fastly origin cloaking enablement FAQ
-labels: DDoS,FAQ,Fastly,Magento Commerce,Magento Commerce Cloud,REST API,origin cloaking,security,staging
+labels: DDoS,FAQ,Fastly,Magento Commerce,Magento Commerce Cloud,REST API,origin cloaking,security,staging,Adobe Commerce,cloud infrastructure
 ---
 
-This FAQ discusses common questions about Fastly origin cloaking enablement in Magento.
+This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce.
 
 ## What is Fastly origin cloaking?
 
-Origin cloaking is a security feature that allows Magento Commerce Cloud to block any non-Fastly traffic (to prevent DDoS attacks, going to the Cloud infrastructure (origin).
+Origin cloaking is a security feature that allows Adobe Commerce on cloud infrastructure to block any non-Fastly traffic (to prevent DDoS attacks, going to the cloud infrastructure (origin).
 
 ## What are origin cloaking’s benefits?
 
-Origin cloaking is designed to prevent traffic from bypassing the Fastly Web Application Firewall (WAF) and routing it through the strictly defined flow of **Fastly > Load Balancer > Instances** . With this implementation, all the traffic is guaranteed to go through the Fastly WAF as well as the internal WAF built into the load balancer.
+Origin cloaking is designed to prevent traffic from bypassing the Fastly Web Application Firewall (WAF) and routing it through the strictly defined flow of **Fastly** > **Load Balancer** > **Instances**. With this implementation, all the traffic is guaranteed to go through the Fastly WAF as well as the internal WAF built into the load balancer.
 
 ## Why is this origin cloaking enablement happening now?
 
-This feature was newly created to benefit Magento Commerce Cloud.
+This feature was newly created to benefit Adobe Commerce on cloud infrastructure.
 
 ## Does origin cloaking change the outgoing IP address?
 
@@ -29,13 +29,7 @@ Fastly does not cache API calls, so the client should be fine with the change. O
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
 ```
 
-In this example, the client will still be able to hit the API if they change the URL to
-
-```php
-mywebsite.com
-```
-
-:
+In this example, the client will still be able to hit the API if they change the URL to ``mywebsite.com``:
 
 ```php
 mywebsite.com/rest/default/V1/integration/admin/token?username=XXXX&password=XXXXX;
@@ -56,6 +50,6 @@ Yes, if the project has multiple stagings, the change will be applied to all sta
 
 These changes will be implemented on the date indicated in your ticket between 08:00 and 17:00 UTC.
 
-A smaller timeframe change window cannot be provided, due to the application of the change to multiple Magento Commerce Cloud customers during the window.
+A smaller timeframe change window cannot be provided, due to the application of the change to multiple Adobe Commerce on cloud infrastructure customers during the window.
 
 Please contact us at least 48 hours prior to the change window in order to re-schedule, if needed.
