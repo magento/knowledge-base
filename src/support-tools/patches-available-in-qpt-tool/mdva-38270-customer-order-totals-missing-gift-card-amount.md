@@ -64,7 +64,7 @@ query {
 
 <ins>Expected results</ins>:
 
-total_giftcard field is available.
+`total_giftcard` field is available.
 
 <ins>Actual results</ins>:
 
