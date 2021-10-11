@@ -21,7 +21,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
  <span class="wysiwyg-underline">Steps to reproduce</span>:
 
-1. In Admin, go to **System > Import**.
+1. In Admin, go to **System** > **Import**.
 1. Set **Entity Type** = *Products*.
 1. Set **Import Behavior** = *Add/Update*.
 1. Set **Allowed Errors Count** = *10000*.
@@ -29,7 +29,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Click the **Check Data** button (which should validate the file).
 1. Click the **Import** button.
 
- <span class="wysiwyg-underline">Expected results</span> :
+ <span class="wysiwyg-underline">Expected results</span>:
 
 Successful import of products from CSV files, including images from external URLs, as expected.
 
@@ -43,7 +43,7 @@ Unsuccessful import of products from CSV files, including images from external U
 
 ## Apply the patch
 
-To apply individual patches use the following links depending on your your deployment method:
+To apply individual patches use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html).
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
