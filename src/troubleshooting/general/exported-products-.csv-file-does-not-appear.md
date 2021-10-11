@@ -52,7 +52,7 @@ See details for both options in the following paragraphs.
 1. In the Admin, navigate to **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 1. Set the **Add Secret Key to URLs** option to *No.*
 1. Click **Save Config**.
-1. Clean cache under **System** > **Tools** > **Cache Management** or by running    ```bash    bin/magento cache:clean    ```    or in the Admin.
+1. Clean cache under **System** > **Tools** > **Cache Management** or by running    ```bash    bin/magento cache:clean``` or in the Admin.
 
 ### Run the export command manually and optionally add it as cron job
 
