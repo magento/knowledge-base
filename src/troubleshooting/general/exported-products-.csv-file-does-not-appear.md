@@ -36,18 +36,18 @@ The .csv file with the exported products is not displayed in the grid in 10 minu
 
 ## Cause
 
-A known issue with the Export functionality in Adobe Commerce application part version 2.3.2.
+A known issue with the Export functionality in the Adobe Commerce application part version 2.3.2.
 
 ## Solution
 
 There are two possible solutions for the issue:
 
 * Disable the Add Secret Key to URL option.
-* Run the the `bin/magento queue:consumers:start exportProcessor` command manually, and optionally configure it to be run by cron.
+* Run the `bin/magento queue:consumers:start exportProcessor` command manually, and optionally configure it to be run by cron.
 
 See details for both options in the following paragraphs.
 
-### Disable the the Add Secret Key to URL option
+### Disable the Add Secret Key to URL option
 
 1. In the Admin, navigate to **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 1. Set the **Add Secret Key to URLs** option to *No.*
@@ -75,7 +75,7 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
                consumers:
                    - exportProcessor
    ```
-   Then push this updated file and redeploy your environment. Also reference [Add custom cron jobs to your project](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#add-cron).
+   Then push this updated file and redeploy your environment. Also reference [Add custom cron jobs to your project](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#add-cron) in our developer documentation.
 
 >![info]
 >
