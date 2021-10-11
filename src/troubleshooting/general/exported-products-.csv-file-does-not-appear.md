@@ -3,7 +3,7 @@ title: Exported products .csv file does not appear
 labels: 2.3.2,Magento Commerce Cloud,csv file,export,exportProcessor,exported,how to,products,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a fix for the issue where you try to export products to a .csv file in Commerce Admin, but the file does not appear.
+This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear.
 
 ## Affected products and versions
 
@@ -15,14 +15,16 @@ This article provides a fix for the issue where you try to export products to a 
 
 Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option is configured in the Commerce Admin under **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 
-1. In the Admin, navigate to **System** > **Data Transfer** > **Export**.    
+1. In the Admin, navigate to **System** > **Data Transfer** > **Export**.
+    
     ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)    
+
 1. Select
-    * **Entity Type** : *Products*
-    * **Export File Format** : *CSV*
-    * **Field Enclosure** : leave unchecked.
-1. Click **Continue** .
-1. The following message is displayed: *"Message is added to queue, wait to get your file soon"* .
+    * **Entity Type**: *Products*
+    * **Export File Format**: *CSV*
+    * **Field Enclosure**: leave unchecked.
+1. Click **Continue**.
+1. The following message is displayed: *"Message is added to queue, wait to get your file soon"*.
 
  <span class="wysiwyg-underline">Expected result</span>
 
