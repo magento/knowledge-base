@@ -21,6 +21,7 @@ Cannot change the default `robots.txt` setting.
 
  <span class="wysiwyg-underline">Expected result:</span>  
 `robots.txt` has the saved text. 
+
 <span class="wysiwyg-underline">Actual result:</span>
 
  `robots.txt` file does not change.
