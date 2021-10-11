@@ -7,7 +7,7 @@ This article provides a patch for a known Adobe Commerce 2.4.0 issue, where a sh
 
 ## Affected products and versions
 
-* Adobe Commerce 2.4.0
+* Adobe Commerce on premises 2.4.0
 * Adobe Commerce on cloud infrastructure 2.4.0
 
 ## Issue
@@ -37,7 +37,7 @@ The **Create Shipping Label** checkbox is not displayed.
 1. Click the **Ship** button. The **New Shipment** page opens.
 1. Click the **Submit Shipment** button. A shipment is created.
 1. Open the newly created shipment.
-1. Click the **Create Shipping Label** button. The  **Create Packages** dialog opens.
+1. Click the **Create Shipping Label** button. The **Create Packages** dialog opens.
 
  <span class="wysiwyg-underline">Expected result:</span>
 
@@ -64,7 +64,7 @@ The patch is also available for download in both, `.git` and `.composer` , forma
 The patch was created for:
 
 * Adobe Commerce on cloud infrastructure version 2.4.0
-* Adobe Commerce version 2.4.0
+* Adobe Commerce on premises version 2.4.0
 
 ## How to apply the patch
 
