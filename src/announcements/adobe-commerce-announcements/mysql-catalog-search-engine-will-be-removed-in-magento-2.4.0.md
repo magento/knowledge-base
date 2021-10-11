@@ -3,7 +3,7 @@ title: MySQL catalog search engine will be removed in Adobe Commerce 2.4.0
 labels: 2.4.0,Elasticsearch 6,Elasticsearch 7,Magento Commerce,Magento Commerce Cloud,MySQL,MySQL search engine depreciated,MySQL search engine removed,announcements,search,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-Adobe Commerce, Adobe Commerce on cloud infrastructure, and Magento Open Source 2.4.0 will be released in the coming months. For Adobe Commerce and Magento Open Source version 2.4.0 Elasticsearch 6.x or 7.x will be a required component, and MySQL search engine will be removed. In Adobe Commerce on cloud infrastructure, Elasticsearch is already required.
+Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source 2.4.0 will be released in the coming months. For Adobe Commerce on-premises and Magento Open Source version 2.4.0 Elasticsearch 6.x or 7.x will be a required component, and MySQL search engine will be removed. In Adobe Commerce on cloud infrastructure, Elasticsearch is already required.
 
 >![warning]
 >
@@ -13,7 +13,7 @@ The reason for the removal of MySQL search engine is that Elasticsearch provides
 
 ## Affected products and versions:
 
-* Adobe Commerce v2.4.0
+* Adobe Commerce on-premises v2.4.0
 * Magento Open Source v2.4.0
 
 ## Upgrading:
@@ -30,7 +30,7 @@ The reason for the removal of MySQL search engine is that Elasticsearch provides
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch (with no version listed)</td>
-<td style="width: 478.2px;">You are using Elasticsearch 2 and must update to Elasticsearch 7 (preferred) or 6. See <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">Upgrading Elasticsearch</a> and <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">Configure Adobe Commerce to use Elasticsearch</a> in our developer documentation for details.</td>
+<td style="width: 478.2px;">You are using Elasticsearch 2 and must update to Elasticsearch 7 (preferred) or 6. See <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">Upgrading Elasticsearch</a> and <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">Configure Commerce to use Elasticsearch</a> in our developer documentation for details.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch 5</td>
@@ -49,7 +49,7 @@ The reason for the removal of MySQL search engine is that Elasticsearch provides
 
 ## Installation:
 
-When Adobe Commerce and Magento Open Source 2.4.0 is released, Elasticsearch will be a required component, so you must have an Elasticsearch host setup and configured prior to installing version 2.4.0.  See [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
+When Adobe Commerce on-premises and Magento Open Source 2.4.0 is released, Elasticsearch will be a required component, so you must have an Elasticsearch host setup and configured prior to installing version 2.4.0.  See [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
 
 By default, Adobe Commerce search will use Elasticsearch 7 as the search engine and attempt to connect to a server at localhost:9200. Elasticsearch 6.x is also supported. If your configuration does not match the defaults, you can configure these settings using arguments passed to `setup:install`, in much the same way the database connection is configured.
 
