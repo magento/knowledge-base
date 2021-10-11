@@ -1,5 +1,5 @@
 ---
-title: "Deployment fails with 'Error building project: The build hook failed with status code 1'"
+title: Deployment fails with "Error building project: The build hook failed with status code 1"
 labels: Magento Commerce Cloud,build,deployment,error building,troubleshooting,Adobe Commerce,cloud infrastructure,Pro,Starter
 ---
 
