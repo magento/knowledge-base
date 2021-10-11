@@ -4,7 +4,7 @@ Share your troubleshooting tips and best practices with the community by contrib
 You can contribute by creating an issue or pull request (PR) on our [support knowledge base](https://github.com/magento/knowledge-base) GitHub repository.
 We welcome all types of contributions; from minor typo fixes to new topics.
 
-Support knowledge base staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
+The Support knowledge base staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
 
 ## Rewards for contributions
 
