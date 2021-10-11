@@ -51,7 +51,7 @@ The reason for the removal of MySQL search engine is Elasticsearch provides supe
 
 When Adobe Commerce and Magento Open Source 2.4.0 is released, Elasticsearch will be a required component, so you must have an Elasticsearch host setup and configured prior to installing version 2.4.0.  See [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
 
-By default, Adobe Commerce search will use Elasticsearch 7 as the search engine and attempt to connect to a server at localhost:9200. Elasticsearch 6.x is also supported. If your configuration does not match the defaults, you can configure these settings using arguments passed to `setup:install` , in much the same way the database connection is configured.
+By default, Adobe Commerce search will use Elasticsearch 7 as the search engine and attempt to connect to a server at localhost:9200. Elasticsearch 6.x is also supported. If your configuration does not match the defaults, you can configure these settings using arguments passed to `setup:install`, in much the same way the database connection is configured.
 
 For example, `setup:install --elasticsearch-host=es.mystore.com`
 
