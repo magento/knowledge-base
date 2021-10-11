@@ -1,14 +1,14 @@
-## Contribute to Adobe Commerce Support Knowledge Base
+## Contribute to the Adobe Commerce Support Knowledge Base
 
 Share your troubleshooting tips and best practices with the community by contributing to the [Adobe Commerce Support Knowledge Base](https://support.magento.com/hc/en-us) (Support Knowledge Base)!
 You can contribute by creating an issue or pull request (PR) on our [support knowledge base](https://github.com/magento/knowledge-base) GitHub repository.
 We welcome all types of contributions; from minor typo fixes to new topics.
 
-The Support knowledge base staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
+The support knowledge base staff members review issues and pull requests on a regular basis. We do our best to address all issues as soon as possible, but working through the backlog takes time. We appreciate your patience.
 
 ## Rewards for contributions
 
-Support knowledge base works with Magento Community Engineering teams and projects.
+The support knowledge base works with Magento Community Engineering teams and projects.
 As you contribute PRs, you gain [Contribution Points](../docs/contribution-points.md).
 
 ## Get started
@@ -158,4 +158,4 @@ You must complete the issue template. We will close your issue if you fail to pr
 
 > **Note:** Check the existing [issues](https://github.com/magento/knowledge-base/issues) on GitHub to see if someone has already reported the issue.
 
-Thank you for contributing your brilliance to Adobe Commerce Support Knowledge Base!!
+Thank you for contributing your brilliance to the Adobe Commerce Support Knowledge Base!!
