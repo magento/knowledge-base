@@ -53,7 +53,7 @@ Directories to be considered for clean up:
 * `var/debug/`
 * `var`
 
-For details on how to increase disk space if you are on the Starter plan, see the [Increase disk space for Integration environment on cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Pro plan Integration environment. For Pro Production/Staging, you need to file a ticket to [Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket), and request increased disk space. But it is monitored by Platform. But typically, you will not have to deal with this on the Staging/Production of Pro plan as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
+For details on how to increase disk space if you are on the Adobe Commerce on cloud infrastructure Starter plan architecture, see the [Increase disk space for Integration environment on cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Adobe Commerce on cloud infrastructure Pro plan architecture Integration environment. For Pro Production/Staging, you need to file a ticket to [Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket), and request increased disk space. But it is monitored by Platform. But typically, you will not have to deal with this on the Staging/Production of Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
 
 ### Ensure ECE-tools are configured correctly
 
@@ -71,7 +71,7 @@ For details on how to increase disk space if you are on the Starter plan, see th
 
 See the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
 
-### Is patch causing the issue?
+### Is the patch causing the issue?
 
 If it is the applied patch that is preventing the environment from building successfully, you will see something similar to the following in the deploy log:
 
