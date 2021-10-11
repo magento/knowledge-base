@@ -13,7 +13,7 @@ This article talks about the causes and solutions for the Adobe Commerce on clou
 
 <ins>Steps to reproduce</ins>:
 
-1. Trigger the deployment manually or by performing a merge, push, or synchronization of your environment.
+Trigger the deployment manually or by performing a merge, push, or synchronization of your environment.
 
 <ins>Expected result</ins>:
 
