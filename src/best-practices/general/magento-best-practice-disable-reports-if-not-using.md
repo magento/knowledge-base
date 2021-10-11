@@ -3,7 +3,7 @@ title: "Adobe Commerce best practice: disable Reports if not using"
 labels: 2.3.x,2.4.0,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,performance,reports,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-Adobe Commerce recommends disabling the [Reports functionality](https://docs.magento.com/user-guide/configuration/general/reports.html) if you are not using it or the related dynamic customer segments functionality. Having it enabled might slow product pages loading causing performance degradation on the storefront catalog.
+Adobe recommends disabling the [Reports functionality](https://docs.magento.com/user-guide/configuration/general/reports.html) if you are not using it or the related dynamic customer segments functionality. Having it enabled might slow product pages loading causing performance degradation on the storefront catalog.
 
 ## Affected products and versions
 
