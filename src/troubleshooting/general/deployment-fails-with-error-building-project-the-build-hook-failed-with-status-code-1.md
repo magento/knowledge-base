@@ -32,7 +32,7 @@ Looking closer at the first problem-specific part will help you to identify the 
 
 * There is no available storage space.
 * Incorrect ECE-Tools configuration.
-* Patch you are trying to apply is incompatible with your Adobe Commerce version or has conflicts with other patches applied or your customizations.
+* The patch you are trying to apply is incompatible with your Adobe Commerce version or has conflicts with other patches applied or your customizations.
 * Problems with custom modules code are preventing from building successfully.
 
 ## Solution
