@@ -26,6 +26,7 @@ Gift card amount is missing from the order total response.
 1. Place an order using a gift card (gift card covers entire order).
 
 <ins>Steps to reproduce</ins>:  
+
 Make a customer query for customer, orders, items, total:
 ```GraphQL
 query {
