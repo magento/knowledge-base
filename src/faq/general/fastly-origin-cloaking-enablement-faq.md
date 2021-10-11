@@ -29,13 +29,7 @@ Fastly does not cache API calls, so the client should be fine with the change. O
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
 ```
 
-In this example, the client will still be able to hit the API if they change the URL to
-
-```php
-mywebsite.com
-```
-
-:
+In this example, the client will still be able to hit the API if they change the URL to ``mywebsite.com``:
 
 ```php
 mywebsite.com/rest/default/V1/integration/admin/token?username=XXXX&password=XXXXX;
