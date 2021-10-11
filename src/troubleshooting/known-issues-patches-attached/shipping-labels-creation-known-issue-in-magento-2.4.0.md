@@ -35,7 +35,7 @@ The **Create Shipping Label** checkbox is not displayed.
 
 1. Open the placed order in the Admin, under **Sales** > **Orders**.
 1. Click the **Ship** button. The **New Shipment** page opens.
-1. Click the Submit Shipment button. A shipment is created.
+1. Click the **Submit Shipment** button. A shipment is created.
 1. Open the newly created shipment.
 1. Click the **Create Shipping Label** button. The  **Create Packages** dialog opens.
 
