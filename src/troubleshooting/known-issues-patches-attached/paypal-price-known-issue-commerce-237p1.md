@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal"
-labels: troubleshooting,known issue,paypal,2.3.7-p1,order,Adobe Commerce,Magento
+labels: troubleshooting,known issue,paypal,2.3.7-p1,order,Adobe Commerce,Magento,cloud infrastructure,on-premises,Magento Open Source,patch
 ---
 
 This article provides a patch for a known issue in Adobe Commerce 2.3.7-p1: when using PayPal Checkout more than once customers get the previously ordered product in cart, instead of the new one they are trying to order.
@@ -12,7 +12,7 @@ You can download the patch from this article and it is also available through th
 * Magento Open Source 2.3.7-p1
 
 ## Issue
-When placing an order by using PayPal Express Checkout payment method, then the previously ordered purchased product is added into the order instead of the actual one.
+When placing an order by using PayPal Express Checkout payment method, the previously ordered purchased product is added into the order instead of the actual one.
 
 <ins>Steps to reproduce:<ins>
 

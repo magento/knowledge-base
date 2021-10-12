@@ -1,13 +1,13 @@
 ---
-title: Advanced Reporting cron job errors Magento Commerce
-labels: 2.3.1,2.3.4-p2,2.3.x,404,Magento Commerce,Magento Commerce Cloud,advanced reporting,known issue,patch,troubleshooting
+title: Advanced Reporting cron job errors Adobe Commerce
+labels: 2.3.1,404,Magento Commerce,Magento Commerce Cloud,advanced reporting,known issue,patch,troubleshooting,2.3.4-p2,2.3.4,2.3.3-p1,2.3.3,2.3.2-p2,2.3.2,2.3.0
 ---
 
-This article provides patches for the Advanced Reporting cron jobs issues in Magento Commerce, which can cause a 404 error for customers trying to access Advanced Reporting.
+This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting.
 
 ## Affected products and versions
 
-Magento Commerce 2.3.x
+Adobe Commerce (all deployment options) 2.3.x
 
 ## Issue
 
@@ -15,41 +15,19 @@ A customer gets a 404 error when they attempt to access Advanced Reporting and t
 
 ## Compatible Magento versions:
 
-The patches are compatible (but might not solve the issue) with the following Magento versions and editions:
+The patches are compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
- [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip) :Magento Commerce and Magento Commerce Cloud:
+* [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip): Adobe Commerce (all deployment options) 2.3.1-2.3.4-p2
+* [MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip): Adobe Commerce (all deployment options) 2.3.0
+* [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip): Adobe Commerce (all deployment options) 2.3.0
 
-* 2.3.4-p2
-* 2.3.4
-* 2.3.3-p1
-* 2.3.3
-* 2.3.2-p2
-* 2.3.2
-* 2.3.1
+## **Solution**
 
- [MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip) :Magento Commerce and Magento Commerce Cloud:
+To fix the issue, please apply the relevant patch attached to this article. To download it, click the following links:
 
-* 2.3.0
-* 2.2.7
-* 2.2.6
-* 2.2.5
-* 2.2.4
-* 2.2.3
-* 2.2.2
-
- [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip) :Magento Commerce and Magento Commerce Cloud:
-
-* 2.3.0
-* 2.2.7
-* 2.2.6
-
-## **Solution** 
-
-To fix the issue, please apply the relevant patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following links:
-
-* Download [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip) 
-* Download [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip) 
-* Download [MDVA-18980\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip) 
+* Download [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip)
+* Download [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip)
+* Download [MDVA-18980\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip)
 
 To check which patch to use:
 
@@ -76,7 +54,7 @@ To check which patch to use:
 <td>Apply<a href="assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch">MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip</a>, clear cache and wait 24 hours for the job to run again and try again.</td>
 </tr>
 <tr>
-<td> 
+<td>
 <p><em>Failed to open file /tmp/analytics/tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../</em></p>
 </td>
 <td>Apply<a href="assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch">MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip</a>, clear cache and wait 24 hours for the job to run again and try again.</td>
@@ -88,8 +66,7 @@ To check which patch to use:
 </tbody>
 </table>
 </li></ol>
+
 ## How to apply the patch
 
-See [How to apply a composer patch](https://support.magento.com/hc/en-us/articles/360028367731) provided by Magento for instructions.
-
-## Attached files
+Unzip the file and follow instructions in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731).
