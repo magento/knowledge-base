@@ -39,7 +39,7 @@ Users are not able to update attributes in bulk using MySQL async.
 1. In DB, new records are created in both `magento_bulk` table and `magento_operation` table (operations related to the bulk).
 1. New record(s) are created in the `queue_message` table (related to the queues `product_action_attribute.update` and/or `product_action_attribute.website.update`).
 1. `queue_message_status` table have record with status "4".
-1. There is NO errors in `system.log`.
+1. There are NO errors in `system.log`.
 
 <ins>Actual results</ins>:
 
