@@ -1,20 +1,20 @@
 ---
 title: Changes to categories are not being saved
-labels: Magento Commerce,Magento Commerce Cloud,catalog,category,troubleshooting
+labels: Magento Commerce,Magento Commerce Cloud,catalog,category,troubleshooting,Adobe Commerce,admin
 ---
 
-This article provides a fix for when updating product categories via Magento Admin, the changes are not displayed on Magento Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using Magento Admin.
+This article provides a fix for when updating product categories via Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin.
 
 ## Issue
 
-After making changes to a product category in Magento Admin and saving, the new updates are neither saved nor displayed in Magento Admin and storefront.
+After making changes to a product category in the Admin and saving, the new updates are neither saved nor displayed in the Admin and storefront.
 
 ### Steps to reproduce
 
-1. Go to **Catalog** > **Categories** .
+1. Go to **Catalog** > **Categories**.
 1. Select a category.
-1. Make changes, then click **Save** .
-1. The message is displayed: *You saved the category* .
+1. Make changes, then click **Save**.
+1. The message is displayed: *You saved the category*.
 1. Notice that the change you've made has not been saved.
 
 ## Possible cause: corrupted data in the `catalog_category_entity` table
@@ -26,7 +26,7 @@ The issue is caused by the same values in the `created_in` column of the affecte
 Details:
 
 * the `catalog_category_entity` DB table has two or more records for the affected category (these records have the same `entity_id` value)
-* these category records have **the same values in the `created_in` column** 
+* these category records have **the same values in the `created_in` column**
 
 ### How does the second DB entry (and all the next ones) appear in DB for one and the same category?
 
@@ -40,11 +40,11 @@ We cannot state the reasons for data corruption with certainty. The possible rea
 * incorrect data migration
 * incorrect data restore from backup
 
-To the best of our knowledge, such data corruption is not typical for the "clean" (out-of-the-box) Magento instance and cannot be reproduced on a Magento installation with no customizations.
+To the best of our knowledge, such data corruption is not typical for the "clean" (out-of-the-box) Adobe Commerce instance and cannot be reproduced on an Adobe Commerce installation with no customizations.
 
 ### How to verify this is your issue
 
-The `catalog_category_entity` table should have multiple records for the affected category (records should have the same `entity_id` value) and at least two of those records should have the same `created_in` values. With this, the Staging-scheduled updates would not be displayed in Magento Admin; you would only see the empty Scheduled Changes block.
+The `catalog_category_entity` table should have multiple records for the affected category (records should have the same `entity_id` value) and at least two of those records should have the same `created_in` values. With this, the Staging-scheduled updates would not be displayed in the Commerce Admin; you would only see the empty Scheduled Changes block.
 
 #### Steps to verify
 
@@ -79,5 +79,3 @@ Follow these steps:
 1. Select the record where `row_id` = `entity_id` and copy the `updated_in` value.
 1. Select the record where `row_id` is not equal to `entity_id` and paste the copied `updated_in` value as the `created_in` value. See the screenshot below as an illustration.    ![Copying the created_in value.png](assets/copy_created-in_value.png)    
 1. Verify that the category update record, the `created_in` value of which you have updated (in step 3), exists in the `staging_update` table. *For example:* IF the copied `created_in` value is 1509281953, THEN the entity with `row_id` = 1509281953 must exist in the `staging_update` table
-
- 
