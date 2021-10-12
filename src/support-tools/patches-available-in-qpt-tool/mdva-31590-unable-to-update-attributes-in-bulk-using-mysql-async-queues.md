@@ -46,7 +46,7 @@ Users are not able to update attributes in bulk using MySQL async.
 1. The page still displays a message like the following:
     *Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.*
 1. Attribute values for the products are updated.
-1. A new record is created in `message_bulk` table but there is no related record(s) in `magento_operation` table.
+1. A new record is created in `message_bulk` table, but there is no related record(s) in `magento_operation` table.
 1. New records are created in `queue_message` and `queue_message_status` tables.
 1. `queue_message_status` table has record with error status (status value "6").
 1. `system.log` contains error similar to the following:
