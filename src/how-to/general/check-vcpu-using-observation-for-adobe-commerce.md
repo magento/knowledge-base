@@ -6,13 +6,6 @@ labels: Adobe Commerce,cloud infrastructure,Observation for Adobe Commerce,CPU,M
 
 This article explains how to check your vCPU tier usage using the New Relic Infra tab on Observation for Adobe Commerce. Observation for Adobe Commerce is a New Relic nerdlet which shows the state of your Adobe Commerce site, current and past time views.
 
-Questions:
-1) Should the warning be changed to say the vCPU charts provide no or meaningless data for a period longer than a month? Rob says vCPU graphs will produce mealingless or no data for a year period, Spyrou implies this could happen with a month
-2) Spyrou says the vCPU graphs also can't provide accurate data? "When NR instances are not set up correctly. It affects ANY reporting attempted by NR. So we need to be careful, otherwise will be accused of slopy work at best.""
-3) Rob says someone from marketing wants to use a different term from vCPU, they want to use "vCPU tiers". How would this work with the plural? vCPUs? would it be replaced with vCPU tiers?
-4) Queries - Spyrou says is wrong?
-
-
 >![warning]
 
 > Observation for Adobe Commerce cannot show data or will show graphs with meaningless data if you choose a time range greater than a week. This is because the vCPU tier view uses time charts, which are broken up into 365 buckets maximum. The vCPU tier data is metric data, which is summary data. You can set a timeline back one year, but do not choose a duration longer than one week. For example you could set the date from October 1, 2020 to October 8, 2020 and it will display the vCPU tier data from that date/time range (if it is less than one year).
