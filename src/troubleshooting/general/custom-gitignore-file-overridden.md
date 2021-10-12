@@ -55,7 +55,7 @@ Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
 
 ## Solution
 
-To keep your custom `.gitignore file` then you need to ignore it in the `magento-deploy-ignore` section.
+To keep your custom `.gitignore file` you need to ignore it in the `magento-deploy-ignore` section.
 
 ```git
 {
