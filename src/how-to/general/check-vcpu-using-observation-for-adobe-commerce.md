@@ -10,6 +10,7 @@ Questions:
 1) Should the warning be changed to say the vCPU charts provide no or meaningless data for a period longer than a month? Rob says vCPU graphs will produce mealingless or no data for a year period, Spyrou implies this could happen with a month
 2) Spyrou says the vCPU graphs also can't provide accurate data? "When NR instances are not set up correctly. It affects ANY reporting attempted by NR. So we need to be careful, otherwise will be accused of slopy work at best.""
 3) Rob says someone from marketing wants to use a different term from vCPU, they want to use "vCPU tiers". How would this work with the plural? vCPUs? would it be replaced with vCPU tiers?
+4) Queries - Spyrou says is wrong?
 
 
 >![warning]
