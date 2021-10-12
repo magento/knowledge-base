@@ -8,7 +8,7 @@ This article explains how to check your vCPU tier usage using the New Relic Infr
 
 >![warning]
 
-> Observation for Adobe Commerce cannot show data or will show graphs with meaningless data if you choose a time range greater than a week. This is because the vCPU tier view uses time charts, which are broken up into 365 buckets maximum. The vCPU tier data is metric data, which is summary data. You can set a timeline back one year, but do not choose a duration longer than one week. For example you could set the date from October 1, 2020 to October 8, 2020 and it will display the vCPU tier data from that date/time range (if it is less than one year).
+> Observation for Adobe Commerce cannot show accurate data or will show graphs with meaningless data if you choose a time range greater than two weeks. This is because the vCPU tier view uses time charts, which are broken up into 365 buckets maximum. The vCPU tier data is metric data, which is summary data. You can set a timeline back one year, but do not choose a duration longer than one week. For example you could set the date from October 1, 2020 to October 8, 2020 and it will display the vCPU tier data from that date/time range (if it is less than one year).
 
 ## Affected products and versions:
 
