@@ -54,7 +54,7 @@ Or you can check its status in the logs by searching for the `indexer_update_all
 
 To set up the missing MySQL table triggers, you need to re-set the indexer mode:
 
-1. Switch to 'On Save'
+1. Switch to 'On Save'.
 2. Switch back to 'On Schedule'.
 
 Use the following command to perform this operation.
