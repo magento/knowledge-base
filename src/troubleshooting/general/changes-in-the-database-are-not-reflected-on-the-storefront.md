@@ -1,14 +1,14 @@
 ---
 title: Changes in the database are not reflected on the storefront
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,change log tables,how to,indexer mode,large tables,slow updates
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,change log tables,how to,indexer mode,large tables,slow updates,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
 This article provides solutions to avoid delays or interruptions in entity updates being applied. This includes how to avoid change log tables from getting oversized and how to set up MySQL table triggers.
 
 Affected products and versions:
 
-* Magento Commerce Cloud 2.2.x, 2.3.x
-* Magento Commerce 2.2.x, 2.3.x
+* Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
+* Adobe Commerce on-premises 2.2.x, 2.3.x
 
 ## Issue
 
@@ -16,13 +16,13 @@ Changes you make in the database are not reflected on the storefront, or there i
 
 ## Cause
 
-If your indexers are [configured to update by schedule](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) , the issue might be caused by one or more tables with change logs being too large or MySQL triggers being not set up.
+If your indexers are [configured to update by schedule](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), the issue might be caused by one or more tables with change logs being too large or MySQL triggers being not set up.
 
 ### Oversized change log tables
 
 The change log tables grow that big if the `indexer_update_all_views` cron job is not completed successfully multiple times.
 
-Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `indexer_update_all_views` cron job. There are multiple change log tables in a Magento database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + ‘\_cl’,  for example `catalog_category_product_cl` , `catalog_product_category_cl` . You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) article on Magento DevDocs.
+Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `indexer_update_all_views` cron job. There are multiple change log tables in a Adobe Commerce database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + ‘\_cl’,  for example `catalog_category_product_cl`, `catalog_product_category_cl`. You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) article in our developer documentation.
 
 ### MySQL database triggers not set up
 
@@ -54,9 +54,9 @@ Or you can check its status in the logs by searching for the `indexer_update_all
 
 To set up the missing MySQL table triggers, you need to re-set the indexer mode:
 
-1. switch to 'On Save'
+1. Switch to 'On Save'
 
-2)    switch back to 'On Schedule'.
+2. Switch back to 'On Schedule'.
 
 Use the following command to perform this operation.
 
@@ -66,4 +66,5 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Related reading
 
-<ul><li title="MySQL tables are too large"><a href="https://support.magento.com/hc/en-us/articles/360038862691">MySQL tables are too large</a></li><li title="MySQL tables are too large"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Indexer overview > Mview</a></li></ul>
+<ul><li title="MySQL tables are too large"><a href="https://support.magento.com/hc/en-us/articles/360038862691">MySQL tables are too large</a> in our support knowledge base.</li>
+<li title="MySQL tables are too large"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Indexer overview > Mview</a> in our developer documentation.</li></ul>
