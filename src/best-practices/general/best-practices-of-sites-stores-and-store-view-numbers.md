@@ -1,9 +1,9 @@
 ---
 title: Best practices of sites, stores, and store view numbers
-labels: Magento Commerce Cloud,Pro,best practices,performance,stores,views
+labels: Magento Commerce Cloud,Pro,best practices,performance,stores,views,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides best practices for store numbers for Magento Commerce Cloud Pro accounts to optimize Magento performance. Having a large number of stores, websites or store views can slow your site down. The maximum recommended sites, stores and store views counts is:
+This article provides best practices for store numbers for Adobe Commerce on cloud infrastructure Pro plan accounts to optimize Adobe Commerce performance. Having a large number of stores, websites or store views can slow your site down. The maximum recommended sites, stores and store views counts is:
 
 * sites = 50
 * stores = 50
@@ -24,4 +24,3 @@ Recommendations include:
 * Separate price lists from catalog data, leveraging of external price and Price Management System (PMS).
 * Use alternative noSQL data storage like Elasticsearch.
 * Custom flat indexes for catalog data.
-
