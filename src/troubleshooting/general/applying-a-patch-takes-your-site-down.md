@@ -51,4 +51,5 @@ For Magento Commerce Cloud, all versions,
 
 
 ## Related reading
+
 * [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
