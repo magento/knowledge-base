@@ -42,7 +42,7 @@ Follow these steps to identify and troubleshoot the cause.
     * Try to find a correlation with recently installed third party extensions and the time the issue started.
     * Review extensions which potentially could affect the Adobe Commerce cache and cause the cache to grow quickly. For example, custom layout blocks, overriding cache functionality, and storing large amounts of data in cache.
 1. If there is no evidence of misbehaving extensions, [Install latest patches to fix Redis issues for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360046678631-Install-latest-patches-to-fix-Redis-issues-for-Magento-Commerce-Cloud).
-1. If the above steps do not help you identify or troubleshoot the source of the issue, consider enabling L2 cache to reduce network traffic between the app and Redis. For general information on what is L2 cache, refer to [L2 caching in the Magento application](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html) in our developer documentation. To enable L2 cache for Cloud, try the following:
+1. If the above steps do not help you identify or troubleshoot the source of the issue, consider enabling L2 cache to reduce network traffic between the app and Redis. For general information on what is L2 cache, refer to [L2 caching in the Adobe Commerce application](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html) in our developer documentation. To enable L2 cache for Cloud, try the following:
 1. Upgrade ECE Tools if below 2002.1.2 version.
 1. Configure L2 Cache by using [Use REDIS\_BACKEND variable](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend) and updating `.magento.env.yaml` file:
    ```yaml
