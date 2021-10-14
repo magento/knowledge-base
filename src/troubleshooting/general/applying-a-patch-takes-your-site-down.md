@@ -41,7 +41,7 @@ For Adobe Commerce on-premises and Magento Open Source 2.x versions,
 
 ### Adobe Commerce on cloud infrastructure, all versions
 
-For Magento Commerce Cloud, all versions,
+For Adobe Commerce on cloud infrastructure, all versions,
 
 1. Remove the `%patch_name%.composer.patch` file(s) from the `m2-hotfixes` directory.
 1. Commit and push your code changes:  
