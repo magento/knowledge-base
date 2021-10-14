@@ -4,6 +4,7 @@ labels: Magento Commerce Cloud,New Relic,Pro,Redis,alert,memory,support tools,tr
 ---
 
 This article provides troubleshooting steps for when you receive a Redis memory critical alert for Adobe Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected.
+
 ![new_relic_redis_memory_critical.png](assets/new_relic_redis_memory_critical.png)
 
 ## Affected products and versions
