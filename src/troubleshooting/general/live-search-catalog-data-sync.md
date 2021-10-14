@@ -64,7 +64,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     ```
 1. If the timestamp is older, you can either wait for the next cron run, or trigger it yourself using the following command:
     ```bash
-    bin/magento cron:run --group=catalog_data_exporter
+    bin/magento cron:run --group=saas_data_exporter
     ```
 1. Wait for `<>` time (time for incremental updates). If you still do not see your data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
@@ -92,31 +92,19 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
     ```
 1. If the timestamp is older, you can either wait for the next cron run, or trigger it yourself using the following command:
     ```bash
-    bin/magento cron:run --group=catalog_data_exporter
+    bin/magento cron:run --group=saas_data_exporter
     ```
 1. Wait for 15-20 minutes (time for incremental updates). If you still do not see your data, please [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ### Sync after API configuration change
 
-(Known issue) If you have changed your API configuration, which results in a change in your Data Space ID and find that your catalog changes are no longer syncing, do the following:
+(Known issue) If you have changed your API configuration, which results in a change in your Data Space ID and find that your catalog changes are no longer syncing, run the following commands:
 
-1. Run the following queries to clear the export-related table:
-    ```mysql
-    truncate table catalog_data_exporter_products;
-    truncate table catalog_data_exporter_product_attributes;
-    truncate table catalog_data_exporter_categories;
-    truncate table catalog_product_data_submitted_hash;
-    truncate table catalog_product_attribute_data_submitted_hash;
-    truncate table catalog_category_data_submitted_hash;
-    delete from flag where flag_code IN ('products-feed-version', 'product-attributes-feed-version');
-    ```  
-1. After you have cleared all the data, you can either wait for the indexers and cron to run on their own, or manually run them using the following commands:
-    ```bash 
-    bin/magento indexer:reindex catalog_data_exporter_products
-    bin/magento indexer:reindex catalog_data_exporter_product_attributes
-    bin/magento cron:run --group=catalog_data_exporter
-    ```
+```bash 
+bin/magento saas:resync --feed products
+bin/magento saas:resync --feed productattributes
+```
+
 ## Related reading
 
 See [Configure and Connect](https://devdocs.magento.com/live-search/config-connect.html) in the developer documentation.
-
