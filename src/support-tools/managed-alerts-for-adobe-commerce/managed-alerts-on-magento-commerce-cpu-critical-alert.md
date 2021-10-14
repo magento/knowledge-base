@@ -4,7 +4,8 @@ labels: CPU,Magento Commerce,Magento Commerce Cloud,New Relic,alert,how to,maint
 ---
 
 This article provides troubleshooting steps when you receive a CPU critical alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
-![cpu-critical-magento-managed.png](assets/cpu-critical-magento-managed.png)
+
+<img src = "assets/cpu-critical-magento-managed.png" alt = "disc critical alert" width="500px">
 
 ## Affected products and versions
 
@@ -23,7 +24,7 @@ You will receive a managed alert in New Relic if you have signed up to [Managed 
 
 * Launch additional marketing campaigns which may bring additional pageviews to your site.
 * Run indexers or additional crons, which may cause additional stress on the CPU or disk.
-* Do any major administrative tasks (i.e., the Admin, data imports/exports).
+* Do any major administrative tasks (i.e., the Commerce Admin, data imports/exports).
 * Clear your cache.
 
 Your site may become non-responsive (if you are not already experiencing a site outage) if you do any of the "Don't" actions before you have investigated and solved the cause of the alert.

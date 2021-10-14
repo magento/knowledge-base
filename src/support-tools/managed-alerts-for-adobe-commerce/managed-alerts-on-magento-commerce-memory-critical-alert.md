@@ -4,7 +4,8 @@ labels: Apdex,Magento Commerce Cloud,New Relic,Pro,alert,critical,cron,how to,ma
 ---
 
 This article provides troubleshooting steps when you receive a memory critical alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
-![memory-critical-magento-managed.png](assets/memory-critical-magento-managed.png)
+
+<img src = "assets/memory-critical-magento-managed.png" alt = "disc critical alert" width="500px">
 
 ## Affected products and versions
 
@@ -45,9 +46,9 @@ Follow these steps to identify and troubleshoot the cause.
     * If services like Redis, MySQL, or PHP are the top sources of memory consumption, try the following:
 1. Check that you are on the latest versions. Newer versions can sometimes fix memory leaks. If you are not on the latest version, consider upgrading. For steps, refer to [Adobe Commerce on cloud infrastructure > Services > Change Services](https://devdocs.magento.com/cloud/project/project-conf-files_services.html#change-service-version) in our developer documentation.
 1. If the problem with the service is not version related, try the following:
-1. **MySQL** : Check for issues like long running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.
-1. **Redis** : If Redis is a top source of memory consumption, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
-1. **PHP** : If PHP is a top source of memory consumption, review running processes by running `ps aufx` in the CLI/Terminal. In the terminal output you will see cron jobs and processes that are currently being executed. Check the output for the processes' execution time. If there is a cron with a long execution time, the cron may be hanging. For troubleshooting steps, see [Slow performance, slow and long running crons](https://support.magento.com/hc/en-us/articles/360034631192) and [Cron job stuck in "running" status](https://support.magento.com/hc/en-us/articles/360033099451) in our support knowledge base.
+1. **MySQL**: Check for issues like long running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.
+1. **Redis**: If Redis is a top source of memory consumption, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+1. **PHP**: If PHP is a top source of memory consumption, review running processes by running `ps aufx` in the CLI/Terminal. In the terminal output you will see cron jobs and processes that are currently being executed. Check the output for the processes' execution time. If there is a cron with a long execution time, the cron may be hanging. For troubleshooting steps, see [Slow performance, slow and long running crons](https://support.magento.com/hc/en-us/articles/360034631192) and [Cron job stuck in "running" status](https://support.magento.com/hc/en-us/articles/360033099451) in our support knowledge base.
 
 1. If you are still struggling to identify the source of the problem, use [New Relic APM's Transaction page](https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems) to identify transactions with performance issues:
     * Sort transactions by ascending Apdex scores. [Apdex](https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction) refers to user satisfaction to the response time of your web applications and services. A [low Apdex score](https://support.magento.com/hc/en-us/articles/360046422091-Managed-alerts-for-Magento-Commerce-Apdex-warning-alert) can indicate a bottleneck (a transaction with a higher response time). Usually it is the database, Redis, or PHP. For steps, refer to New Relic [View transactions with highest Apdex dissatisfaction](https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/view-your-apdex-score#apdex-dissat).
