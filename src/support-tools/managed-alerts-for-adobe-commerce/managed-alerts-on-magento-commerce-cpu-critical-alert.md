@@ -24,7 +24,7 @@ You will receive a managed alert in New Relic if you have signed up to [Managed 
 
 * Launch additional marketing campaigns which may bring additional pageviews to your site.
 * Run indexers or additional crons, which may cause additional stress on the CPU or disk.
-* Do any major administrative tasks (i.e., the Admin, data imports/exports).
+* Do any major administrative tasks (i.e., the Commerce Admin, data imports/exports).
 * Clear your cache.
 
 Your site may become non-responsive (if you are not already experiencing a site outage) if you do any of the "Don't" actions before you have investigated and solved the cause of the alert.
