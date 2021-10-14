@@ -4,7 +4,8 @@ labels: Apdex,Magento Commerce Cloud,New Relic,Pro,alert,critical,cron,how to,ma
 ---
 
 This article provides troubleshooting steps when you receive a memory critical alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
-![memory-critical-magento-managed.png](assets/memory-critical-magento-managed.png)
+
+<img src = "assets/memory-critical-magento-managed.png" alt = "disc critical alert" width="500px">
 
 ## Affected products and versions
 
