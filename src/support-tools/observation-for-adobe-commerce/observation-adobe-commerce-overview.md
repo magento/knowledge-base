@@ -7,4 +7,4 @@ Observation for Adobe Commerce is a New Relic nerdlet to see the state of your A
 
 The summary tab of Observation for Adobe Commerce is intended to quickly see some of the problems experienced by sites to help you auto-resolve or identify potential root causes of site problems. The additional tabs provide deeper level information on component services, database, infrastructure and process states.
 
-To download the complete article about how to use Observation for Adobe Commerce on our cloud infrastructure, go to [Use Observation for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4402379845901-Use-Observation-for-Adobe-Commerce) page (**you must be signed-in to view it**).  
+To download the complete article about how to use Observation for Adobe Commerce on cloud infrastructure, go to [Use Observation for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4402379845901-Use-Observation-for-Adobe-Commerce) page (**you must be signed-in to view it**).  
