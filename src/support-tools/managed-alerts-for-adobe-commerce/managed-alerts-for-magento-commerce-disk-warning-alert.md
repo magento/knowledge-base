@@ -4,7 +4,8 @@ labels: Magento Commerce Cloud,MySQL,New Relic,Pro,alert,disk,disk space,how to,
 ---
 
 This article provides troubleshooting steps when you receive a warning disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue.The alert will look something like the following, depending on the alert notification channel you selected.
-![disk-warning-magento-managed.png](assets/disk-warning-magento-managed.png)
+
+<img src = "assets/disk-warning-magento-managed.png" alt = "disc warning alert" width="500px">
 
 ## Affected products and versions
 
