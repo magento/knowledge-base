@@ -41,7 +41,7 @@ The entire command might look as follows:
 mysqldump -h <host> -u <username> -p<password> --single-transaction <db_name> | gzip > /tmp/<dump_name>.sql.gz
 ```
 
-The database backup created by running the mysqldump command and saved in `\tmp`, should be moved from this location. It should not take up storage space in `\tmp` (which might result in problems).
+The database backup created by running the `mysqldump` command and saved in `\tmp`, should be moved from this location. It should not take up storage space in `\tmp` (which might result in problems).
 
 To obtain your DB credentials (host, username, and password), you might call the `MAGENTO_CLOUD_RELATIONSHIPS` environment variable:
 
