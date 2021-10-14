@@ -37,7 +37,7 @@ For Adobe Commerce on-premises and Magento Open Source 2.x versions,
     patch -p1 -R %patch_name%.composer.patch
     ```
     (If the above command does not work, try using `-p2` instead of `-p1`)
-1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management** .
+1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
 
 ### Adobe Commerce on cloud infrastructure, all versions
 
