@@ -6,18 +6,6 @@ labels: Adobe Commerce,cloud infrastructure,Observation for Adobe Commerce,CPU,M
 
 This article explains how to check your vCPU tier usage using the New Relic Infra tab on Observation for Adobe Commerce. Observation for Adobe Commerce is a New Relic nerdlet which shows the state of your Adobe Commerce site, current and past time views.
 
->![warning]
-
-> Observation for Adobe Commerce cannot show accurate data or will show graphs with meaningless data if you choose a time range greater than approximately two weeks. This is because the vCPU tier view uses time charts, which are broken up into 365 buckets maximum. The vCPU tier data is metric data, which is summary data. You can set a timeline back one year, but do not choose a duration longer than one week. For example you could set the date from October 1, 2020 to October 8, 2020 and it will display the vCPU tier data from that date/time range (if it is less than one year). Another issue can be aggregation of APM and instance names you can get a repitition of the results, and inaccurate data. We need mitigation steps....../ workaround? Can data be cleaned up?  15 minute - meeting next week with Rob and Spyro.
-
-Rob - one hour timeframe? one year - dashboard, one year with one day increments...if you want a timeframe more than 2 weeks, can use different graph ..
-
-Timeframe - vCPU usage of longer than two weeks...dashboard (3rd dashboard, timeframe is in days but the range can be longer than two weeks..)
-
-Rob creates two extra dashboards - data sampling one hour, two dashboards (both covering node), Rob needs to add two more, 24 CPU, one for nodes, but time sampling is by day.
-
-Rob - just one? 
-
 ## Affected products and versions:
 
 * Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3
@@ -33,9 +21,10 @@ To access and log in to the New Relic Observation for Adobe Commerce nerdlet:
 1. You can paste the project_id, type in the New Relic account number or account name, or browse through the list of accounts.
 1. Click on the light blue dropdown menu with the clock icon (toward the top right of the nerdlet window).
 1. If you are trying to identify the cause of an event/issue, select a time prior to the ticket date and time to see if there were any preceding events/data. You can use the preset time frames or set a custom time frame by selecting **Set custom**.
-1. On the focus tabs click **Infra**. See two vCPU tier graphs:
+1. On the focus tabs click **Infra**. You see three vCPU tier graphs:
     * One is the **vCPU view over timeline (need to select a timeline > than 24 hours)** graph. This frame shows the vCPU view across the selected timeframe for more than 24 hours. This frame looks at the number of vCPU tiers assigned to the New Relic application name shown. It shows cluster upsizes and downsizes.
     * The other graph shows the **vCPU view over timeline BY NODE**. This graph displays vCPU tier views across the selected timeframe by node. This graph is helpful in detecting loss of node(s) or when nodes are upsized or downsized.
+    * The third graph shows the **vCPU view over timeline greater than 2 weeks**. This graph displays vCPU tier views over longer periods. However, this will only show one sample per day and will not be accurate if cluster size changes multiple times in a day.
 
 ## Related reading
 
