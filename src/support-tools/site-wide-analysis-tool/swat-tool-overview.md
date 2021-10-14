@@ -7,4 +7,4 @@ Site-Wide Analysis Tool is a SaaS (software as a service) application that perfo
 
 To find out more about Site-Site-Wide Analysis Tool, please refer to the following article in our support knowledge base (**you must be singed-in to access it**):
 
-* [Magento Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) in our support knowledge base.
+* [Magento Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video).
