@@ -1,6 +1,6 @@
 ---
 title: Create database dump on Adobe Commerce on cloud infrastructure
-labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce,cloud infrastructure,pro,starter
+labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce,cloud infrastructure
 ---
 
 This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on cloud infrastructure.
@@ -38,10 +38,10 @@ You may dump your DB using the native MySQL `mysqldump` command.
 The entire command might look as follows:
 
 ```sql
-mysqldump -h <host> -u <username> -p<password> --single-transaction <db_name> | gzip > /tmp/<dump_name>.sql.gz
+mysqldump -h <host> -u <username> -p <password> --single-transaction <db_name> | gzip > /tmp/<dump_name>.sql.gz
 ```
 
-The database backup created by running the mysqldump command and saved in \tmp`, should be moved from this location. It should not take up storage space in \tmp` (which might result in problems).
+The database backup created by running the `mysqldump` command and saved in `\tmp`, should be moved from this location. It should not take up storage space in `\tmp` (which might result in problems).
 
 To obtain your DB credentials (host, username, and password), you might call the `MAGENTO_CLOUD_RELATIONSHIPS` environment variable:
 
