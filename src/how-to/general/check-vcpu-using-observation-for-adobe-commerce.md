@@ -10,6 +10,14 @@ This article explains how to check your vCPU tier usage using the New Relic Infr
 
 > Observation for Adobe Commerce cannot show accurate data or will show graphs with meaningless data if you choose a time range greater than approximately two weeks. This is because the vCPU tier view uses time charts, which are broken up into 365 buckets maximum. The vCPU tier data is metric data, which is summary data. You can set a timeline back one year, but do not choose a duration longer than one week. For example you could set the date from October 1, 2020 to October 8, 2020 and it will display the vCPU tier data from that date/time range (if it is less than one year). Another issue can be aggregation of APM and instance names you can get a repitition of the results, and inaccurate data. We need mitigation steps....../ workaround? Can data be cleaned up?  15 minute - meeting next week with Rob and Spyro.
 
+Rob - one hour timeframe? one year - dashboard, one year with one day increments...if you want a timeframe more than 2 weeks, can use different graph ..
+
+Timeframe - vCPU usage of longer than two weeks...dashboard (3rd dashboard, timeframe is in days but the range can be longer than two weeks..)
+
+Rob creates two extra dashboards - data sampling one hour, two dashboards (both covering node), Rob needs to add two more, 24 CPU, one for nodes, but time sampling is by day.
+
+Rob - just one? 
+
 ## Affected products and versions:
 
 * Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3
