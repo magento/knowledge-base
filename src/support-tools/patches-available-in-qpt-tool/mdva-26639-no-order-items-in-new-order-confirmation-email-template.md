@@ -19,16 +19,16 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <span class="wysiwyg-underline">Steps to reproduce</span>:
 
 1. Go to **Stores** > **Configuration** > **Sales** > **Sales Emails** > **New Order Confirmation** and select **Template: New Pickup Order**.
 1. Go to **Sales** > **Order: Select a order**, then go to **Information**, and select **Send Mail**.
 
- <span class="wysiwyg-underline">Expected results</span> :
+ <span class="wysiwyg-underline">Expected results</span>:
 
 The order items show in the customer order email, as expected.
 
- <span class="wysiwyg-underline">Actual results</span> :
+ <span class="wysiwyg-underline">Actual results</span>:
 
 The order items are missing in the customer order email. The same applies if you create a new template and select a template New Order or New Order (Luma).
 
