@@ -11,7 +11,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
  **The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.3.4-p2
 
- **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce 2.3.4 - 2.3.5-p2
+ **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.4 - 2.3.5-p2
 
 >![info]
 >
