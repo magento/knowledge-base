@@ -34,9 +34,9 @@ Install a fresh Magento instance with sample data.
       1. Set **Discount Amount** = *10*.
       1. Save, and then Continue Edit.
    1. Click on **Schedule New Update**:
-       * Set the **Rule Name**.
-       * Set **Active** = *Yes*.
-       * Save.
+      * Set the **Rule Name**.
+      * Set **Active** = *Yes*.
+      * Save.
 1. Go to the backend, and run:
    ```php    bin/magento cron:run    ```    
 
