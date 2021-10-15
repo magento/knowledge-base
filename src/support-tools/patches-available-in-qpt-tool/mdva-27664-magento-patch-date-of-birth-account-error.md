@@ -21,7 +21,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
  <span class="wysiwyg-underline">Steps to reproduce</span>:
 
-1. Login to Admin.
+1. Log in to the Admin.
 1. Set **Locale** = *en\_GB* (UK) for a user.
 1. Edit a customer.
 1. Select a date of birth after the 12th of a month this year.
