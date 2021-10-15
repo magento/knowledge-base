@@ -1,5 +1,5 @@
 ---
-title: "MDVA-24201 Adobe Commerce patch: catalog price rules don't work"
+title: "MDVA-24201: Catalog price rules don't work"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,catalog price rules,database,update,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
