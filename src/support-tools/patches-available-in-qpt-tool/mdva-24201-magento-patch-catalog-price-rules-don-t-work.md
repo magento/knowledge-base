@@ -40,7 +40,7 @@ Install a fresh Magento instance with sample data.
 1. Go to the backend, and run:
    ```php    bin/magento cron:run    ```    
 
- <span class="wysiwyg-underline">Expected results</span> :
+ <span class="wysiwyg-underline">Expected results</span>:
 
 The prices of the products in category 4 "Bags" should be reduced by 10% of original price, as it was set by the catalog price rule, as expected.
 
