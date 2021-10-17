@@ -21,10 +21,10 @@ To access and log in to the New Relic Observation for Adobe Commerce nerdlet:
 1. You can paste the project_id, type in the New Relic account number or account name, or browse through the list of accounts.
 1. Click on the light blue dropdown menu with the clock icon (toward the top right of the nerdlet window).
 1. If you are trying to identify the cause of an event/issue, select a time prior to the ticket date and time to see if there were any preceding events/data. You can use the preset time frames or set a custom time frame by selecting **Set custom**.
-1. On the focus tabs click **Infra**. You see three vCPU tier graphs:
-    * One is the **vCPU view over timeline (need to select a timeline > than 24 hours)** graph. This frame shows the vCPU view across the selected timeframe for more than 24 hours. This frame looks at the number of vCPU tiers assigned to the New Relic application name shown. It shows cluster upsizes and downsizes.
-    * The other graph shows the **vCPU view over timeline BY NODE**. This graph displays vCPU tier views across the selected timeframe by node. This graph is helpful in detecting loss of node(s) or when nodes are upsized or downsized.
-    * The third graph shows the **vCPU view over timeline greater than 2 weeks**. This graph displays vCPU tier views over longer periods. However, this will only show one sample per day and will not be accurate if cluster size changes multiple times in a day.
+1. On the tabs click **Infra**. There are three vCPU tier graphs:
+    * The first is the graph which shows vCPU tier view over timeline GREATER 2 weeks (You will need to select a timeline GREATER than 2 weeks). NOTE: This will only show 1 sample per day and will not be accurate if cluster size changes multiple times in a day.
+    * The second is the gprah which shows vCPU tier view over timeline (need to select a timeline GREATER than 24 hours but not greater than 2 weeks)** graph. This frame shows the vCPU view across the selected timeframe for more than 24 hours, up to two weeks. However, this graph will only show one sample per day and will not be accurate if cluster size changes multiple times in a day.
+    * The third graph shows the vCPU tier view over timeline BY NODE, should look at timeline LESS than 24 hours**. This graph displays vCPU tier views across the selected timeframe by node. This graph is helpful in detecting loss of node(s) or when nodes are upsized or downsized.
 
 ## Related reading
 
