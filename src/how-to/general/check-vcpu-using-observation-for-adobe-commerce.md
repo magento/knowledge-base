@@ -4,13 +4,13 @@ labels: Adobe Commerce,cloud infrastructure,Observation for Adobe Commerce,CPU,M
 
 ---
 
-This article explains how to check your vCPU tier usage using the New Relic Infra tab on Observation for Adobe Commerce. Observation for Adobe Commerce is a New Relic nerdlet which shows the state of your Adobe Commerce site, current and past time views.
+This article explains how to check your vCPU tier allocation using the New Relic Infra tab on Observation for Adobe Commerce. Observation for Adobe Commerce is a New Relic nerdlet which shows the state of your Adobe Commerce site, current and past time views.
 
 ## Affected products and versions:
 
 * Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3
 
-## Check vCPU tier usage with Observation for Adobe Commerce:
+## Check vCPU tier allocation with Observation for Adobe Commerce:
 
 To access and log in to the New Relic Observation for Adobe Commerce nerdlet:
 
