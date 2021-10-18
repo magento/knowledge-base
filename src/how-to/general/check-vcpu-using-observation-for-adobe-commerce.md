@@ -23,7 +23,7 @@ To access and log in to the New Relic Observation for Adobe Commerce nerdlet:
 1. If you are trying to identify the cause of an event/issue, select a time prior to the ticket date and time to see if there were any preceding events/data. You can use the preset time frames or set a custom time frame by selecting **Set custom**.
 1. On the tabs click **Infra**. There are three vCPU tier graphs:
     * The first is the graph which shows vCPU tier view over a timeline greater than two weeks (You will need to select a timeline greater than two weeks). NOTE: This will only show one sample per day and will not be accurate if cluster size changes multiple times in a day.
-    * The second is the graph which shows vCPU tier view over timeline (need to select a timeline greater than 24 hours but not greater than two weeks). This graph shows the vCPU tier view across the selected timeframe for more than 24 hours, up to two weeks. However, this graph will only show one sample per day and will not be accurate if cluster size changes multiple times in a day.
+    * The second is the graph which shows vCPU tier view over timeline (need to select a timeline greater than 24 hours but not greater than two weeks). This graph shows the vCPU tier view across the selected timeframe for more than 24 hours, up to two weeks. 
     * The third graph shows the vCPU tier view over timeline by Node, (should look at a timeline less than 24 hours). This graph is helpful in detecting loss of node(s) or when nodes are upsized or downsized.
 
 ## Related reading
