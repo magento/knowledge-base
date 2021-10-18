@@ -1,5 +1,5 @@
 ---
-title: View number of vCPU tiers in your cluster on Adobe Commerce
+title: View environment vCPU tier in your cluster on Adobe Commerce
 labels: Adobe Commerce,cloud infrastructure,Observation for Adobe Commerce,CPU,Magento,how to,New Relic,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 
 ---
@@ -22,7 +22,7 @@ To access and log in to the New Relic Observation for Adobe Commerce nerdlet:
 1. Click on the light blue dropdown menu with the clock icon (toward the top right of the nerdlet window).
 1. If you are trying to identify the cause of an event/issue, select a time prior to the ticket date and time to see if there were any preceding events/data. You can use the preset time frames or set a custom time frame by selecting **Set custom**.
 1. On the tabs click **Infra**. There are three vCPU tier graphs:
-    * The first is the graph which shows vCPU tier view over a timeline greater than two weeks (You will need to select a timeline greater than two weeks). The sample rate will be per day. If cluster upsizes/downsizes occur on a day, the ending tier size will be displayed on the following day.
+    * The first is the graph which shows **vCPU tier view over a timeline greater than two weeks (You will need to select a timeline greater than two weeks). The sample rate will be per day. If cluster upsizes/downsizes occur on a day, the ending tier size will be displayed on the following day**. 
     * The second is the graph which shows vCPU tier view over timeline (need to select a timeline greater than 24 hours but not greater than two weeks). This graph shows the vCPU tier view across the selected timeframe for more than 24 hours, up to two weeks. 
     * The third graph shows the vCPU tier view over timeline by Node, (should look at a timeline less than 24 hours). This graph is helpful in detecting loss of node(s) or when nodes are upsized or downsized.
 
