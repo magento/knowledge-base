@@ -1,13 +1,13 @@
 ---
 title: Cron job is stuck in "running" status
-labels: Magento Commerce Cloud,stuck cron,troubleshooting
+labels: Magento Commerce Cloud,stuck cron,troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a solution for when Magento cron jobs do not finish executing and persist in a `running` status, which prevents other cron jobs from running. This can happen for a number of reasons, such as network issues, application crashes, redeployment issues.
+This article provides a solution for when Adobe Commerce cron jobs do not finish executing and persist in a `running` status, which prevents other cron jobs from running. This can happen for a number of reasons, such as network issues, application crashes, redeployment issues.
 
 ## Affected products and versions
 
-Magento Commerce Cloud, all versions
+Adobe Commerce on cloud infrastructure, all versions
 
 <h2 id="symptom">Symptom</h2>
 
