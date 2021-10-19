@@ -7,7 +7,7 @@ This article provides a patch for the issue where there is an error during VAT n
 
 ## Affected products and versions
 
-All Adobe Commerce on-premises and Adobe Commerce on  cloud infrastructure versions up to 2.3.6 (including 2.3.5-p1) were affected, including already released p1 and p2 versions. This includes:
+All Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure versions up to 2.3.6 (including 2.3.5-p1) were affected, including already released p1 and p2 versions. This includes:
 
 * 2.3.5-p1
 * 2.3.5
