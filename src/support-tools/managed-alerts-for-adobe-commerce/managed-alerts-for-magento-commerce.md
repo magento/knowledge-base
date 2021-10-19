@@ -2,7 +2,7 @@
 title: Managed alerts for Adobe Commerce
 labels: Apdex,CPU,Magento Commerce Cloud,MariaDB,New Relic,Pro,Starter,alert,critical,disk,disk space,how to,memory,warning,Adobe Commerce,cloud infrastructure
 ---
-If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer, you can use managed alerts to understand the health of your site. If you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer you will only receive alerts for the Apdex and error rate conditions.
+If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer, you can use managed alerts to understand the health of your site. If you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer, you will only receive alerts for the Apdex and error rate conditions.
 
 We’ve set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles listed below. Before you can use the alerts, first set up notification channels. Please refer to [New Relic Configure Notification Channels](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) in our developer documentation.
 
