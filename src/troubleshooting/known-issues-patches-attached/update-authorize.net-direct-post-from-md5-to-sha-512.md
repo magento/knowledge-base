@@ -17,9 +17,9 @@ Adobe Commerce implementation of the Authorize.Net Direct Post payment method us
 
 ### Affected versions
 
-* Adobe Commerce 1.X.X
+* Adobe Commerce on-premises 1.X.X
 * Magento Open Source 1.X.X
-* Adobe Commerce 2.X.X
+* Adobe Commerce on-premises 2.X.X
 * Magento Open Source 2.X.X
 * Adobe Commerce on cloud infrastructure 2.X.X
 * Authorize.Net Direct Post
@@ -28,7 +28,7 @@ Adobe Commerce implementation of the Authorize.Net Direct Post payment method us
 
 Adobe Commerce implements the Authorize.Net Direct Post payment method, using Authorize.Net's AIM (Advanced Integration Method) and DPM (Direct Post method) APIs, which use MD5 based hash.
 
- [Authorize.net will stop supporting MD5 based hash usage on March 14, 2019](https://support.authorize.net/s/article/MD5-Hash-End-of-Life-Signature-Key-Replacement). Starting from this date, Magento Open Source, Adobe Commerce and Adobe Commerce on cloud infrastructure merchants will not be able to process payments using Authorize.Net Direct Post payment method. To be able to continue successfully process payments using these methods, merchants need to apply the patch provided by Adobe Commerce and replace the existing MD5 hash with a Signature Key in the Commerce Admin configuration settings.
+ [Authorize.net will stop supporting MD5 based hash usage on March 14, 2019](https://support.authorize.net/s/article/MD5-Hash-End-of-Life-Signature-Key-Replacement). Starting from this date, Magento Open Source, Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure merchants will not be able to process payments using Authorize.Net Direct Post payment method. To be able to continue successfully process payments using these methods, merchants need to apply the patch provided by Adobe Commerce and replace the existing MD5 hash with a Signature Key in the Commerce Admin configuration settings.
 
 ## Solution
 
@@ -38,14 +38,14 @@ Alternatively, you can upgrade to version 2.2.8 or 2.3.1 and get all updates and
 
 ### 1. Download the patch
 
-#### Adobe Commerce on cloud infrastructure and Adobe Commerce
+#### Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises
 
 Patches are attached to this article. To download a patch, scroll down to the end of the article and click the file name, or click one the following links:
 
 * For versions 2.2.0-2.2.7 and 2.3.0 - [Download Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch](assets/Auth.net.md5-2019-02-28-05-04-05.composer-2019-03-04-07-33-26.patch.zip)
 * For versions 2.0.0-2.0.18 and 2.1.0-2.1.16 - [Download MDVA-17212\_EE\_2.1.0\_v1.composer-2019-03-05-12-05-22.patch](assets/MDVA-17212_EE_2.1.0_v1.composer-2019-03-05-12-05-22.patch.zip)
 
-#### Adobe Commerce
+#### Adobe Commerce on-premises
 
 * For versions 1.10.1.0-1.14.4.1 - [Download PATCH\_SUPEE-11085\_EE\_1.14.4.0\_v1-2019-02-28-04-59-38.sh](assets/PATCH_SUPEE-11085_EE_1.14.4.0_v1-2019-02-28-04-59-38.sh.zip)
 
@@ -62,7 +62,7 @@ You may require developer assistance to apply the update. To update, you can dow
 
 For Adobe Commerce on cloud infrastructure, apply the M2 patch and deploy. For details, see [Apply custom patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html).
 
-#### Magento 2.X Commerce
+#### Adobe 2.X Commerce on-premises
 
 For Adobe Commerce 2.X and Open Source 2.X, follow these steps to install the Composer-based patch:
 
@@ -78,9 +78,9 @@ For Magento Open Source 2.X, follow these steps to install the Composer-based pa
 1. Run the following SSH command:    ```git    patch -p0 < %patch_name%    ```    
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
 
-#### Adobe 1.X Commerce and Magento Open Source
+#### Adobe 1.X Commerce on-premises and Magento Open Source
 
-For Adobe Commerce 1.X and Open Source 1.X, follow these steps to install the patch:
+For Adobe Commerce 1.X on-premises and Open Source 1.X, follow these steps to install the patch:
 
 1. Upload the patch to your Magento root directory.
 1. Run the following SSH command:    ```bash    sh %patch_name%.sh    ```    
