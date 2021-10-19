@@ -21,7 +21,7 @@ In this article:
 * Adobe Commerce on-premises: 2.X.X
 * Adobe Commerce on cloud infrastructure:
     * Version: 2.X.X
-    * Plan: Starter, Pro
+    * Starter and Pro plan architecture
 * MySQL, Elasticsearch: all supported versions
 
 ## Change Search Engine using the Admin (steps)
