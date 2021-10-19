@@ -97,7 +97,7 @@ You need to get a new Signature Key and add it to your Commerce Admin configurat
 1. Select **New Signature Key**. Review the options available.
 1. Click **Submit** to continue.
 1. Request and enter PIN for verification.
-1. Your new Signature Key is displayed. Copy this key to add to your Magento Admin configuration.
+1. Your new Signature Key is displayed. Copy this key to add to your Commerce Admin configuration.
 
 ### 4. Update the Commerce Admin configuration
 
