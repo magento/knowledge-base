@@ -3,8 +3,9 @@ title: "Managed alerts for Adobe Commerce: disk warning alert"
 labels: Magento Commerce Cloud,MySQL,New Relic,Pro,alert,disk,disk space,how to,maintenance mode,threshold,troubleshooting,Adobe Commerce,cloud
 ---
 
-This article provides troubleshooting steps when you receive a warning disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue.The alert will look something like the following, depending on the alert notification channel you selected.
-![disk-warning-magento-managed.png](assets/disk-warning-magento-managed.png)
+This article provides troubleshooting steps when you receive a warning disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
+
+<img src = "assets/disk-warning-magento-managed.png" alt = "disc warning alert" width="500px">
 
 ## Affected products and versions
 
@@ -23,16 +24,16 @@ You will receive an alert in New Relic if you have signed up to [Managed alerts 
 
 * Launch additional marketing campaigns which may bring additional page views to your site.
 * Run indexers or additional crons which may cause additional stress on CPU or disk.
-* Do any major administrative tasks (i.e.,Commerce Admin, data imports / exports).
-* Clear your cache.Your site may become non-responsive, (if you are not already experiencing a site outage) if you do any of the "Don't" actions before you have investigated and solved the cause of the alert.
+* Do any major administrative tasks (i.e., Commerce Admin, data imports/exports).
+* Clear your cache. Your site may become non-responsive, (if you are not already experiencing a site outage) if you do any of the "Don't" actions before you have investigated and solved the cause of the alert.
 
 ## Solution
 
 Follow these steps to identify and troubleshoot the cause:
 
-1. In New Relic, review disks for highest use. For steps refer to Storage tab on New Relic [Infrastructure monitoring Hosts page:](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page)
+1. In New Relic, review disks for highest use. For steps refer to Storage tab on New Relic [Infrastructure monitoring Hosts page:](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page).
     * If in New Relic you see a slow increase in disk usage, try the following options:
-    * Optimizing disk space by adjusting space allocation. For steps, refer to DevDocs [Manage Disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html). You may also need to request more disk space (contact your CSM).
+    * Optimizing disk space by adjusting space allocation. For steps, refer to [Manage Disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation. You may also need to request more disk space (contact your CSM).
     * Clear up disk space for MySQL. Refer to [MySQL disk space is low](https://support.magento.com/hc/en-us/articles/360037591972) for steps.
     * If New Relic shows rapidly increasing disk usage, this could indicate that there is a problem that has caused a file to increase very quickly in a directory. Do the following checks:
 1. Check overall disk space to identify the problem by running the following command in the CLI/Terminal: `df -h`   
