@@ -12,15 +12,15 @@ This article provides a patch for the Adobe Commerce 2.4.0 issue where integrati
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <ins>Steps to reproduce</ins>
 
 Run 2.4.0 integration tests.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <ins>Expected result</ins>
 
 Tests pass.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <ins>Actual result</ins>
 
  *PHP Fatal error: Declaration of Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest::setUp() must be compatible with PHPUnit\\Framework\\TestCase::setUp(): void in /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php on line 36*
 
