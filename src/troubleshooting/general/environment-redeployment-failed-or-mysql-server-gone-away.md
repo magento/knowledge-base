@@ -26,7 +26,7 @@ For all Adobe Commerce on cloud infrastructure Starter plan architecture environ
 magento-cloud db:size
 ```
 
-For the Staging or Production environment of the Pro architecture, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh), and run the `df -h`   `| grep mysql.` The result will look similar to the following:
+For the Staging or Production environment of the Pro architecture, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh), and run the `df -h`   `| grep mysql` command. The result will look similar to the following:
 
 ```bash
 sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
