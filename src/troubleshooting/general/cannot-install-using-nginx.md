@@ -21,4 +21,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### Workaround
 
-Append `/setup` to the URL by which you access the Setup Wizard or install the Adobe Commerce software using the [command line](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html).
+Install the Adobe Commerce software using the [command line](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html).
