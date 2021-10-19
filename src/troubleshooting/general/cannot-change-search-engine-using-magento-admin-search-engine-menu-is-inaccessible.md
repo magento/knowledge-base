@@ -89,7 +89,7 @@ array (
 
 Remove the section with default search engine configuration from the `app/etc/env.php` or the `app/etc/config.php` configuration files.
 
-### Related files in our developer documentation
+### Related articles in our developer documentation
 
  [Adobe Commerce configuration files](https://devdocs.magento.com/guides/v2.2/config-guide/config/config-magento.html) in Adobe Commerce Configuration Guide
 
