@@ -1,6 +1,6 @@
 ---
 title: "Managed alerts for Adobe Commerce: disk warning alert"
-labels: Magento Commerce Cloud,MySQL,New Relic,Pro,alert,disk,disk space,how to,maintenance mode,threshold,troubleshooting,Adobe Commerce,cloud
+labels: Magento Commerce Cloud,MySQL,New Relic,Pro,alert,disk,disk space,how to,maintenance mode,threshold,troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
 This article provides troubleshooting steps when you receive a warning disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
@@ -31,7 +31,7 @@ You will receive an alert in New Relic if you have signed up to [Managed alerts 
 
 Follow these steps to identify and troubleshoot the cause:
 
-1. In New Relic, review disks for highest use. For steps refer to Storage tab on New Relic [Infrastructure monitoring Hosts page:](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page).
+1. In New Relic, review disks for highest use. For steps refer to Storage tab on New Relic [Infrastructure monitoring Hosts page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page):
     * If in New Relic you see a slow increase in disk usage, try the following options:
     * Optimizing disk space by adjusting space allocation. For steps, refer to [Manage Disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation. You may also need to request more disk space (contact your CSM).
     * Clear up disk space for MySQL. Refer to [MySQL disk space is low](https://support.magento.com/hc/en-us/articles/360037591972) for steps.
