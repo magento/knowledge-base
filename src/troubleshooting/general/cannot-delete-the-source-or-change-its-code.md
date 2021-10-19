@@ -27,6 +27,6 @@ The code is vital for connecting the source to orders. This is a unique ID for t
 
 You can remove a source from a product by transferring the inventory or dropping the product from all shipments at a location.
 
-If you need to remove a source from [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) calculations and Magento Inventory order processing, you can disable the source. Disabled sources retain all data, assigned products, and inventory quantities, and maybe re-enabled any time to begin shipping again.
+If you need to remove a source from [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) calculations and Adobe Commerce Inventory order processing, you can disable the source. Disabled sources retain all data, assigned products, and inventory quantities, and may be re-enabled any time to begin shipping again.
 
 See the [Create Sources guide](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) for details on how to disable a source.
