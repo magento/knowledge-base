@@ -46,13 +46,12 @@ The product falls under wrong price range filter.
 
 To apply individual patches use the following links depending on your Adobe Commerce product:
 
-*  Adobe Commerce or Magento Open Source on-premises:[Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
-*  Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
+* Adobe Commerce or Magento Open Source on-premises:[Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
 
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
-
 * [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
 
