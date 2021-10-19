@@ -1,5 +1,5 @@
 ---
-title: 404 not found error when accessing Web Setup Wizard via admin panel 
+title: 404 not found error when accessing Web Setup Wizard via admin panel
 labels: troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce,404 error,web setup wizard
 ---
 
@@ -34,7 +34,7 @@ The Web Setup Wizard has been disabled for all Adobe Commerce on cloud infrastru
 This feature is disabled on Adobe Commerce on cloud infrastructure.
 
 See [Install, manage, and upgrade extensions](https://devdocs.magento.com/cloud/howtos/install-components.html) in our developer documentation for information on how to perform updates or install external modules for Adobe Commerce on our cloud infrastructure.
-See [Quick start install](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in our developer documentation for information on how to perform updates or install external modules for Adobe Commerce.
+See [Quick start install](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in our developer documentation for information on how to perform updates or install external modules for Adobe Commerce on-premises.
 ## Related reading
 
 * See [Install an extension](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) in our developer documentation.
