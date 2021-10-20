@@ -1,42 +1,41 @@
 ---
-title: "ERROR: Warming up failed on Magento Commerce Cloud"
-labels: Magento Commerce Cloud,cache,error,troubleshooting,warming
+title: "ERROR: Warming up failed on Adobe Commerce on cloud infrastructure"
+labels: Magento Commerce Cloud,cache,error,troubleshooting,warming,Adobe Commerce,cloud infrastructure
 ---
 
 This article provides a solution for when the page cache is warming up and fails with an error:
 
- *ERROR: Warming up failed: <website link>* 
+ *ERROR: Warming up failed: <website link>*
 
 ## Affected products and versions
 
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) .
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Issue
 
-Cache warmup failing.
+Cache warm-up failing.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+<ins>Steps to reproduce</ins>:
 
-Start cache warm up operations.
+Start cache warm-up operations.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+<ins>Expected result</ins>:
 
 Pages or whole site loads.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+<ins>Actual result</ins>:
 
-The site is unavailable or the response time is too high. *ERROR: Warming up failed: <website link>* .
+The site is unavailable or the response time is too high. *ERROR: Warming up failed: <website link>*
 
 ## Cause
 
-Cache warmup doesn't work with HTTP access control enabled.
+Cache warm-up doesn't work with HTTP access control enabled.
 
 ## Solution
 
-Ensure that you do not have access control enabled: go to the specific branch/environment and click on the **Settings** icon, and check the **HTTP access control** setting - cache warmup cannot occur in this scenario and access control has to be disabled.
+Ensure that you do not have access control enabled: go to the specific branch/environment and click on the **Settings** icon, and check the **HTTP access control** setting - cache warm-up cannot occur in this scenario, and access control has to be disabled.
 
 ## Related reading
 
-* [Magento User Guide > Full-Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html)
-* [Cache warming up and site unavailable on Magento](https://support.magento.com/hc/en-us/articles/360051308371)
-
+* [Adobe Commerce User Guide > Full-Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html) in our user guide.
+* [Cache warming up and site unavailable on Adobe Commerce](https://support.magento.com/hc/en-us/articles/360051308371) in our support knowledge base.
