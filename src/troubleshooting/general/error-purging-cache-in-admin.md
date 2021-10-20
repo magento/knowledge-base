@@ -50,4 +50,4 @@ However, if the output shows that the files are still in the cache, you need to 
 
 ## Related Reading
 
-* [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) in our developer documentation
+* [Cache Management](https://docs.magento.com/user-guide/system/cache-management.html) in our developer documentation.
