@@ -14,27 +14,27 @@ Due to the Payment Service Directive PSD2 (see details on [Payment Services Dire
 </tr>
 <tr>
 <td style="width: 225.455px;">Worldpay</td>
-<td style="width: 226.364px;">2.3.x -<a href="https://docs.magento.com/m2/ee/user_guide/payment/worldpay.html">Deprecated since 2.3.5</a>2.4.0 - Will be completely removed.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/worldpay.html">Deprecated since 2.3.5</a><br>2.4.0 - Will be completely removed</td>
 <td style="width: 226.364px;">Ask your payment provider what solution they recommend to comply with PSD2 requirements.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">Authorize.net</td>
-<td style="width: 226.364px;">2.3.x -<a href="https://docs.magento.com/m2/ee/user_guide/payment/authorize-net.html">Deprecated since 2.3.4</a>2.4.0 - Will be completely removed.</td>
-<td style="width: 226.364px;">Use the<a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">official extension</a>from marketplace instead.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/authorize-net.html">Deprecated since 2.3.4</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">Use the <a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">official extension</a> from marketplace instead.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">Authorize.net (Direct Post)</td>
-<td style="width: 226.364px;">2.3.x -<a href="https://docs.magento.com/m2/ee/user_guide/payment/authorize-net-direct-post.html">Deprecated since 2.3.1</a>2.4.0 - Will be completely removed.</td>
-<td style="width: 226.364px;">Use the<a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">official extension</a>from marketplace instead.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/authorize-net-direct-post.html">Deprecated since 2.3.1</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">Use the <a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">official extension</a> from marketplace instead.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">CyberSource</td>
-<td style="width: 226.364px;">2.3.x -<a href="https://docs.magento.com/m2/ee/user_guide/payment/cybersource.html">Deprecated since 2.3.3</a>2.4.0 - Will be completely removed.</td>
-<td style="width: 226.364px;">Use the<a href="https://marketplace.magento.com/cybersource-global-payment-management.html">official extension</a>from marketplace instead.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/cybersource.html">Deprecated since 2.3.3</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">Use the <a href="https://marketplace.magento.com/cybersource-global-payment-management.html">official extension</a> from marketplace instead.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">eWay</td>
-<td style="width: 226.364px;">2.3.x -<a href="https://docs.magento.com/m2/ee/user_guide/payment/eway.html">Deprecated since 2.3.3</a>2.4.0 - Will be completely removed.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/eway.html">Deprecated since 2.3.3</a><br>2.4.0 - Will be completely removed</td>
 <td style="width: 226.364px;">Ask your payment provider what solution they recommend to comply with PSD2 requirements.</td>
 </tr>
 </tbody>
