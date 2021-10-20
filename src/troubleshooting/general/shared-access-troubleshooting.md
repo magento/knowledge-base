@@ -9,7 +9,7 @@ labels: Magento Commerce,Magento Commerce Cloud,shared access,troubleshooting,Ad
 
  **Possible cause:** Permissions, necessary to grant shared access, have not been associated with your Commerce Account.
 
- **Solution:** Contact your Commerce Customer Success Manager. Please specify your name and the email, associated with your  Account.
+ **Solution:** Contact your Commerce Customer Success Manager. Please specify your name and the email associated with your Account.
 
 ## I use shared access but still see my tickets instead of the shared ones
 
