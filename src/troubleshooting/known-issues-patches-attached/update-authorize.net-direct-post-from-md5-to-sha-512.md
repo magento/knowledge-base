@@ -64,10 +64,10 @@ For Adobe Commerce on cloud infrastructure, apply the M2 patch and deploy. For d
 
 #### Adobe 2.X Commerce on-premises
 
-For Adobe Commerce 2.X and Open Source 2.X, follow these steps to install the Composer-based patch:
+For Adobe Commerce on-premises 2.X and Open Source 2.X, follow these steps to install the Composer-based patch:
 
 1. Upload the patch to your Magento root directory.
-1. Run the following SSH command:    ```git    patch -p1 < %patch_name%    ```    (If the above command does not work, try using `-p2` instead of `-p1` )
+1. Run the following SSH command:    ```git    patch -p1 < %patch_name%    ```    (If the above command does not work, try using `-p2` instead of `-p1`)
 1. For the changes to be reflected, refresh the cache in the Commerce Admin under **System** > **Cache Management**.
 
 #### Magento 2.X Open Source
@@ -110,10 +110,10 @@ Take the following steps to update the Commerce Admin configuration:
 1. In the **Signature Key** enter the SHA-512 Signature Key.
 1. Click **Save Config**.
 
-   *Magento 2 Authorize.Net Direct Post configuration screen:*
+   *Adobe Commerce 2 Authorize.Net Direct Post configuration screen:*
    ![auth-net-signature-key-m2.png](assets/auth-net-signature-key-m2.png)
 
-   *Magento 1 Authorize.Net Direct Post configuration screen:*
+   *Adobe Commerce 1 Authorize.Net Direct Post configuration screen:*
    ![auth-net-signature-key-m1.png](assets/auth-net-signature-key-m1.png)
 
 The process is successful if the Signature Key updates and payment processing continues. If you have issues, verify the Signature Key with Authorize.Net.
