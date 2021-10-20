@@ -3,7 +3,7 @@ title: Common PHP Fatal Errors and solutions
 labels: Magento Commerce,Adobe Commerce,PHP Fatal Error,troubleshooting
 ---
 
-This article lists some common PHP Fatal Error quick examples that you could find when looking through your Magento logs and the solutions for problems they indicate.
+This article lists some common PHP Fatal Error quick examples that you could find when looking through your Adobe Commerce logs and the solutions for problems they indicate.
 
 ## Example
 
@@ -17,7 +17,7 @@ For example:
 
 `max_execution_time = 120`
 
-Consult the [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
+Consult the [Customize php.ini settings](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) article.
 
 ## Example
 
@@ -25,7 +25,7 @@ Consult the [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3
 
 ## Solution
 
-Customize your `php.ini` settings. Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
+Customize your `php.ini` settings. Consult this [Customize php.ini settings](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) article.
 
 ## Example
 
@@ -33,7 +33,7 @@ Customize your `php.ini` settings. Consult this [Customize php.ini settings](htt
 
 ## Solution
 
-Make sure you do not remove the windows-style endings in the `php.ini` file.  Consult this [Customize php.ini settings](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_magento-app.html#customize-phpini-settings) article.
+Make sure you do not remove the Windows-style endings in the `php.ini` file. On Windows, line-endings are terminated with a combination of a carriage return (ASCII 0x0d or \r) and a newline(\n), also referred to as CR/LF.
 
 ## Example
 
@@ -43,16 +43,17 @@ Make sure you do not remove the windows-style endings in the `php.ini` file.  Co
 
 The MySQL environment has run out of disk space. Provide more disk space for the MySQL environment.
 
-
 ## Example
 
  *'PHP Fatal error: Uncaught TypeError: Return value of Magento'*
 
 ## Solution
 
-Check the `<root>/tmp` directory, because it is probably full. If it is full, provide more space in the directory. This could involve simply moving files to another directory or deleting them.
+Check the `<root>/tmp` directory because it is probably full. If it is full, provide more space in the directory. This could involve simply moving files to another directory or deleting them.
 
 ## Related reading
+
+In our developer documentation:
 
 * [PHP settings errors](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
 * [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
