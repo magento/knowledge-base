@@ -37,4 +37,4 @@ If serving stale content even for the first request is unacceptable, you may dis
 
 * [Configure purge options](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#purge) in our developer documentation.
 * [Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html) in our user guide.
-* [Serving stale content](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) in Fastly documentation
+* [Serving stale content](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) in Fastly documentation.
