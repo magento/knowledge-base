@@ -7,7 +7,7 @@ This article provides a solution for the issue when Fastly Image Optimization (I
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure 2.2.x., 2.3.x
+* Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
 
 ## Issue
 
