@@ -9,7 +9,7 @@ This article provides the steps you could take to block malicious traffic, when 
 
 * Adobe Commerce on cloud infrastructure 2.3.x
 
-In this article we assume that you already have the malicious IPs and/or their country and user agents. Adobe Commerce on cloud infrastructure users would typically get this information from Adobe Commerce Support. The following sections provide steps for blocking traffic based on this information. All the changes should be done in the Production environment.
+In this article we assume that you already have the malicious IPs and/or their country and user agents. Adobe Commerce on cloud infrastructure users would typically get this information from Adobe Commerce support. The following sections provide steps for blocking traffic based on this information. All the changes should be done in the Production environment.
 
 ## Get access to Admin Panel
 
