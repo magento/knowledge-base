@@ -14,7 +14,7 @@ To fix this security issue, install the Adobe Commerce 2.0.16 and 2.1.9 Security
 
 <h2 id="Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Issue">Issue</h2>
 
-When an existing Commerce Administrator creates a new user with the Administrator privileges via **System** > **Permissions** > **All Users** > **Add new user** , the password (entered as a confirmation) is saved as plain text in the `magento_logging_event_changes` database table.
+When an existing Commerce Administrator creates a new user with the Administrator privileges via **System** > **Permissions** > **All Users** > **Add new user**, the password (entered as a confirmation) is saved as plain text in the `magento_logging_event_changes` database table.
 
 <h3 id="Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce">Steps to reproduce:</h3>
 
