@@ -13,7 +13,7 @@ For steps on how to enable maintenance mode, please refer to [Installation Guide
 
 ## Affected product and versions
 
-* Adobe Commerce on cloud infrastructure version 2.3.4 or earlier with MariaDB version to 10.0 or earlier
+Adobe Commerce on cloud infrastructure version 2.3.4 or earlier with MariaDB version to 10.0 or earlier.
 
 ## Issue
 
