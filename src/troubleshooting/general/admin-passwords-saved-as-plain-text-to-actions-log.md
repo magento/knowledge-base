@@ -18,7 +18,7 @@ When an existing Commerce Administrator creates a new user with the Administrato
 
 <h3 id="Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce">Steps to reproduce:</h3>
 
-1. Log in as Administrator and create a new user by navigating to this path: **System** > Permissions > **All Users**.
+1. Log in as the Administrator and create a new user by navigating to this path: **System** > Permissions > **All Users**.
 
     ![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
 
