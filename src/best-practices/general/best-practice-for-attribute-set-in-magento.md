@@ -20,4 +20,4 @@ To see this variable, refer to [Cloud for Adobe Commerce > Cloud Variables](http
 
 ## Related reading
 
-[Adobe Commerce User Guide > Product Attributes > Attribute Set](https://docs.magento.com/user-guide/stores/attribute-sets.html?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=attribut&_ga=2.117581577.1025526503.1592831910-1966917137.1591621744) in our developer documentation.
+[Adobe Commerce User Guide > Product Attributes > Attribute Set](https://docs.magento.com/user-guide/stores/attribute-sets.html?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=attribut&_ga=2.117581577.1025526503.1592831910-1966917137.1591621744) in our user guide.
