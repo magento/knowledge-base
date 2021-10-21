@@ -18,7 +18,7 @@ From your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/p
  **Name:** ADMIN\_URL **Value:** new Admin URL
 
 * For detailed steps, see [add environment variables](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#env) in our developer documentation.
-* Also refer [environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html) in our developer documentation.
+* Also refer to [environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html) in our developer documentation.
 
 ### When Staging and Production are not available in Project Web Interface
 
