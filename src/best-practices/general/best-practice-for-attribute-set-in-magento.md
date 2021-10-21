@@ -7,11 +7,7 @@ It is best practice to remove non-used attribute sets. Exceeding the maximum att
 
 ## Affected products and versions
 
-<<<<<<< HEAD
 * Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-=======
-Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
->>>>>>> 80fb66b3b3741b4a8b2e169bdbe6e850505530ec
 * Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practice
