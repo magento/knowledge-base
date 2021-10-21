@@ -7,7 +7,7 @@ This article provides best practices for managing images in Adobe Commerce on cl
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure 2.3.x
+Adobe Commerce on cloud infrastructure 2.3.x
 
 ## Best practices
 
