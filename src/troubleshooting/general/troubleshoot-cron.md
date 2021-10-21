@@ -58,7 +58,7 @@ To verify your cron jobs are set up properly, see [Set up cron jobs](https://dev
 
 If your cron job uses a PHP binary different from the web server plug-in, PHP settings errors might display. To resolve the issue, set identical PHP settings for both the PHP command line and the PHP web server plug-in.
 
-For more information about PHP settings, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+For more information about PHP settings, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) in our developer documentation.
 
 <h3 id="solution-cron-running-with-errors">Solution for cron running with errors</h3>
 
