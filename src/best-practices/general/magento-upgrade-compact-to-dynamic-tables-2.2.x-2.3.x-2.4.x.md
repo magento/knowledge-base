@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.3.5 upgrade: compact to dynamic tables"
-labels: 2.3,2.3.4,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,cloud architecture,Adobe Commerce,MariaDB,10.0,10.2,Magento,cloud infrastructure
+labels: 2.3,2.3.4,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,Adobe Commerce,MariaDB,10.0,10.2,Magento,cloud infrastructure
 ---
 
 This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2.
