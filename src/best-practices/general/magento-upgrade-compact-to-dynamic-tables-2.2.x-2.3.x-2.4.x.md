@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.3.5 upgrade: compact to dynamic tables"
-labels: 2.3,2.3.4,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,cloud architecture,Adobe Commerce,MariaDB,10.0,10.2
+labels: 2.3,2.3.4,2.3.5,Magento Commerce Cloud,MySQL,database,known issues,troubleshooting,upgrade,Adobe Commerce,MariaDB,10.0,10.2,Magento,cloud infrastructure
 ---
 
 This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2.
@@ -13,7 +13,7 @@ For steps on how to enable maintenance mode, please refer to [Installation Guide
 
 ## Affected product and versions
 
-* Adobe Commerce on our cloud architecture version 2.3.4 or earlier with MariaDB version to 10.0 or earlier
+Adobe Commerce on cloud infrastructure version 2.3.4 or earlier with MariaDB version to 10.0 or earlier.
 
 ## Issue
 
@@ -52,10 +52,10 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
       ```mysql
           SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE engine = ‘MyISAM’;
       ```
-      
+
 1. If any tables have converted back, you will need to repeat the steps above on the reverted tables, or the support team will not be able to proceed with the upgrade ticket.
 
-## Related Reading
+## Related Readings in our support knowledge base
 
 * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](https://support.magento.com/hc/en-us/articles/360047598311-Magento-2-4-0-known-issue-missing-Refund-label-in-Klarna)
 * [Adobe Commerce 2.4.0 known issue: two buttons missing on Create New Order page in Admin](https://support.magento.com/hc/en-us/articles/360047481431-Magento-2-4-0-known-issue-two-buttons-missing-on-Create-New-Order-page-in-Admin)
