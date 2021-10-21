@@ -1,6 +1,6 @@
 ---
 title: Block malicious traffic for Adobe Commerce on Fastly level
-labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security,CDN,Magento,Adobe Commerce,cloud infrastructure
+labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security,CDN,Adobe Commerce,cloud infrastructure
 ---
 
 This article provides the steps you could take to block malicious traffic, when you suspect that your Adobe Commerce on cloud infrastructure store is experiencing a DDoS attack.
