@@ -1,6 +1,6 @@
 ---
 title: Block malicious traffic for Adobe Commerce on Fastly level
-labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security,CDN,Magento,Adobe Commerce,cloud infrastructure
+labels: 2.3.x,ACL,Fastly,Magento Commerce Cloud,block traffic,how to,robots.txt,security,CDN,Adobe Commerce,cloud infrastructure
 ---
 
 This article provides the steps you could take to block malicious traffic, when you suspect that your Adobe Commerce on cloud infrastructure store is experiencing a DDoS attack.
@@ -9,7 +9,7 @@ This article provides the steps you could take to block malicious traffic, when 
 
 * Adobe Commerce on cloud infrastructure 2.3.x
 
-In this article we assume that you already have the malicious IPs and/or their country and user agents. Adobe Commerce on cloud infrastructure users would typically get this information from Adobe Commerce Support. The following sections provide steps for blocking traffic based on this information. All the changes should be done in the Production environment.
+In this article we assume that you already have the malicious IPs and/or their country and user agents. Adobe Commerce on cloud infrastructure users would typically get this information from Adobe Commerce support. The following sections provide steps for blocking traffic based on this information. All the changes should be done in the Production environment.
 
 ## Get access to Admin Panel
 
@@ -30,7 +30,7 @@ For the Adobe Commerce on cloud infrastructure store, the most effective way to 
 For the Adobe Commerce on cloud infrastructure store, the most effective way to block traffic by country(s) is adding an ACL for Fastly in the Commerce Admin.
 
 1. In the Commerce Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System** > **Full Page Cache** > **Fastly Configuration**.
-1. Select the countries and configure blocking using ACL as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn module for Adobe Comerce.
+1. Select the countries and configure blocking using ACL as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn module for Adobe Commerce.
 
 ## Block traffic by user agent
 
