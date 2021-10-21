@@ -20,7 +20,7 @@ Prerequisites: The **Stores** > **Configuration** > **CATALOG** > **Catalog** > 
 1. In the Commerce Admin, go to **Catalog** > **Categories**.
 1. Open a large category, like more than 1000 assigned products.
 1. Add a product to the category.
-1. Click **Save Category.**
+1. Click **Save Category**.
 
  <span class="wysiwyg-underline">Expected result:</span>
 
