@@ -74,9 +74,11 @@ Below are the common questions you may ask when you consider using the Slave Con
 
 ## Related reading
 
-* [Deploy variables](https://devdocs.magento.com/cloud/env/variables-deploy.html) in our developer documentation.
-* [Set up optional database replication](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html) in our developer documentaiton.
-* [ece-tools package](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html) in our developer documentation.
+In our developer documentation:
+
+* [Deploy variables](https://devdocs.magento.com/cloud/env/variables-deploy.html).
+* [Set up optional database replication](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html).
+* [ece-tools package](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html).
 
 >![info]
 >
