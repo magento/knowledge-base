@@ -33,10 +33,10 @@ You can also [create and add own custom VCL snippets](https://devdocs.magento.co
 
 Refer to this article for detailed steps: [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#fastly-dns) in our developer documentation.
 
-### Related Fastly articles in Knowledge Base
+### Related Fastly articles in our support knowledge base
 
-* [Fastly caching is not working on Cloud](https://support.magento.com/hc/en-us/articles/115001853074-Fastly-caching-is-not-working-for-sites-for-Magento-Commerce-Cloud) in our support knowledge base.
-* [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](https://support.magento.com/hc/en-us/articles/115001853194-Fastly-purges-do-not-process-successfully-for-Magento-Commerce-Cloud) in our support knowledge base.
+* [Fastly caching is not working on Cloud](https://support.magento.com/hc/en-us/articles/115001853074-Fastly-caching-is-not-working-for-sites-for-Magento-Commerce-Cloud)
+* [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](https://support.magento.com/hc/en-us/articles/115001853194-Fastly-purges-do-not-process-successfully-for-Magento-Commerce-Cloud)
 
 ## 2. Valid SSL (TLS) certificate
 
@@ -54,7 +54,7 @@ Recommendation **:** Carefully configure and test the 301 redirects.
 
 In case you're migrating from an old website to a new one, the 301 redirects lead your customers from the previously indexed old pages to the proper pages on your new store, like this:
 
-http://www.mywebsite.com/old-category-page.html - **>** http://www.mywebsite.com/new-seo-friendly-category-page.html
+http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/new-seo-friendly-category-page.html
 
  **Related articles:**
 
