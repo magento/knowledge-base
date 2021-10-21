@@ -7,7 +7,7 @@ This article provides best practices for using `robots.txt` in Adobe Commerce. T
 
 ## Affected products and versions
 
-* Adobe Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
 * Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
@@ -29,5 +29,5 @@ If assistance is required or if there are questions or concerns, [submit an Adob
 
 In our support knowledge base:
 
-* [How to block malicious traffic for Adobe Commerce on cloud infrastructure on Fastly level](https://support.magento.com/hc/en-us/articles/360039447892)
+* [How to block malicious traffic for Adobe Commerce on Fastly level](https://support.magento.com/hc/en-us/articles/360039447892)
 * [robots.txt gives a 404 error in Adobe Commerce on cloud infrastructure 2.3.x](https://support.magento.com/hc/en-us/articles/360040594911)
