@@ -62,7 +62,7 @@ If the query returns a table where `update_exists` value is "1" or an empty resu
 
 <img src = "assets/updates_exist_1.png" alt = "updates_exist_1.png" width="320, ex: 200px">
 
-In this case you might refer to [Site Down Troubleshooter](https://support.magento.com/hc/en-us/articles/360029351531) for troubleshooting ideas.
+In this case, you might refer to the [Site Down Troubleshooter](https://support.magento.com/hc/en-us/articles/360029351531) for troubleshooting ideas.
 
 ## Solution
 
