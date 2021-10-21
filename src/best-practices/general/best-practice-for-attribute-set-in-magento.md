@@ -14,7 +14,7 @@ It is best practice to remove non-used attribute sets. Exceeding the maximum att
 
 Remove attributes that you don't use to ensure that the site is not exceeding the maximum recommended number of attribute sets, which is 1000. You can check the number of attribute sets with the following MySQL query: `SELECT COUNT(*) AS 'attribute_set' FROM *${TABLE_PREFIX}*eav_attribute_set;`
 
-Where `${TABLE_PREFIX}` is a table prefix which can be found in environment variable `MAGENTO_CLOUD_RELATIONSHIPS` .
+Where `${TABLE_PREFIX}` is a table prefix which can be found in environment variable `MAGENTO_CLOUD_RELATIONSHIPS`.
 
 To see this variable, refer to [Cloud for Adobe Commerce > Cloud Variables](https://devdocs.magento.com/cloud/env/variables-cloud.html) in our developer documentation.
 
