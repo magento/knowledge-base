@@ -30,7 +30,7 @@ For the Adobe Commerce on cloud architecture store, the most effective way to bl
 For the Adobe Commerce on cloud infrastructure store, the most effective way to block traffic by country(s) is adding an ACL for Fastly in the Commerce Admin.
 
 1. In the Commerce Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System** > **Full Page Cache** > **Fastly Configuration**.
-1. Select the countries and configure blocking using ACL as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn module for Adobe Comerce.
+1. Select the countries and configure blocking using ACL as described in the [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) guide for the Fastly\_Cdn module for Adobe Commerce.
 
 ## Block traffic by user agent
 
