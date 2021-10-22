@@ -31,7 +31,7 @@ For additional information about applying patches to Cloud projects, see [Apply 
 1. Upload the patch to your Magento root directory.
 1. Run the following SSH command:
     ```bash
-    patch -p1 %patch_name%.composer.patch
+    patch -p1 < %patch_name%.composer.patch
     ```
    (If the above command does not work, try using `-p2` instead of `-p1` )
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management** .
