@@ -72,4 +72,5 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 * For information on improving site performance to avoid the need for utilizing an increase in capacity, refer to these articles in our developer documentation:
     * [Image Sizing](https://docs.magento.com/m2/ee/user_guide/catalog/product-image-resizing.html?_ga=2.180036580.1101564187.1584392801-2014893147.1552329962)  
     * [Full Page Caching](https://docs.magento.com/m2/ee/user_guide/system/cache-full-page.html?_ga=2.206252883.1101564187.1584392801-2014893147.1552329962)  
-    * [ECE-Tools](https://devdocs.magento.com/guides/v2.2/cloud/reference/ece-tools-reference.html?_ga=2.250808134.1101564187.1584392801-2014893147.1552329962)  
+    * [ECE-Tools](https://devdocs.magento.com/guides/v2.2/cloud/reference/ece-tools-reference.html?_ga=2.250808134.1101564187.1584392801-2014893147.1552329962)
+* For information on how to look at the vCPU tier in Observation for Adobe Commerce, refer to [View environment vCPU tier in your cluster on Adobe Commerce](https://support.magento.com/hc/en-us/articles/4409425285901) in our support knowledge base.
