@@ -12,7 +12,7 @@ This article provides an overview of Quality Patches Tool (QPT) and links to res
 
 ## What are Quality Patches Tool
 
-The [Quality Patches Tool](https://github.com/magento/quality-patches) (QPT) individual patches are developed by Adobe and the Magento Open Source community.
+The [Quality Patches Tool](https://github.com/magento/quality-patches) (QPT) are individual patches developed by Adobe and the Magento Open Source community.
 
 It allows you to:
 
