@@ -24,7 +24,7 @@ Need more guidance on preparing for peak season traffic? Adobe Commerce merchant
 
 **View the history of your upsizes**
 
-You can view the history of requested resizes in the Cloud Onboarding UI application, under **Project** > **Services** > **Cluster Resize**.
+You can view the history of requested resizes in your [Project Portal (Onboarding UI)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), under **Project** > **Services** > **Cluster Resize**.
 The following information is available for each resize request:
 
 * **Requested**: (date and time of a request)
