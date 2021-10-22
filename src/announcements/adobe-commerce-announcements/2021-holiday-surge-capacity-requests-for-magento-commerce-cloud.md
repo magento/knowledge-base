@@ -17,9 +17,21 @@ Adobe Commerce merchants on our cloud infrastructure that anticipate a need for 
 
 **We recommend submitting these tickets at least 48 business hours in advance of when the capacity is needed; and additionally recommend that requests for the Black Friday / Cyber Monday period be placed as far in advance as possible, as capacity during this period is limited.**
 
+
  **More Help?**  
 
 Need more guidance on preparing for peak season traffic? Adobe Commerce merchants on our cloud infrastructure can contact their Customer Success Manager for help, strategy, and planning tips for preparing for a successful peak season. We also recommend checking out the [Magento Blog](https://magento.com/blog) for strategy tips year-round.
+
+**View the history of your upsizes**
+
+You can view the history of requested resizes in the Cloud Onboarding UI application, under **Project** > **Services** > **Cluster Resize**.
+The following information is available for each resize request:
+
+* **Requested**: (date and time of a request)
+* **Completed**: (date and time when the request was completed)
+* **Changed To**: the size of the cluster after the resize
+* **Days Usage**: for how many days the cluster stayed upsized
+* **Cluster Usage**: ...
 
 ## Resources on reviewing your capacity
 
