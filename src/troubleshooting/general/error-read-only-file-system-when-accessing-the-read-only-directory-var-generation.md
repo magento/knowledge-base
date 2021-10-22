@@ -48,7 +48,7 @@ In this case, the generated objects are being copied directly to the destination
 
 You may set the environment variable yourself on the local and Integration (Development) environments. For Staging and Production environments, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting to change the variable.
 
-## More information in our developer documentation
+## More information in our developer documentation:
 
 * [Dependency injection](http://devdocs.magento.com/guides/v2.2/extension-dev-guide/depend-inj.html)
 * [Code compiler](http://devdocs.magento.com/guides/v2.2/config-guide/cli/config-cli-subcommands-compiler.html)
