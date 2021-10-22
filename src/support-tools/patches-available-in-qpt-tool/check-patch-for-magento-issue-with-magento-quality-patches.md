@@ -1,6 +1,6 @@
 ---
-title: Check patch for Magento issue with Quality Patches Tool
-labels: 2.3,2.3.x,2.4,2.4.x,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,how to,patches
+title: Check patch for Adobe Commerce issue with Quality Patches Tool
+labels: 2.3,2.3.x,2.4,2.4.x,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,how to,patches,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
 This provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it.
