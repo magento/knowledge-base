@@ -30,7 +30,7 @@ For the Staging or Production environment of the Pro architecture, [SSH to the e
 
 ```bash
 sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
-/dev/xvdj                                          40G  7.4G   32G  19% /data/mysql
+/dev/xvdj                            40G  7.4G   32G  19% /data/mysql
 ```
 
 ## Solution
@@ -52,7 +52,3 @@ To make these changes for the Staging or Production environment of the Pro archi
 ### Applying the changes
 
 Once you change the `.magento/services.yaml` file, you need to commit and push your changes for them to be applied. The push will trigger the deployment process.
-
-```bash
-<code class="language-bash"></code>
-```
