@@ -1,5 +1,5 @@
 ---
-title: MDVA-40435: Discount on bundle product is not applied correctly via GraphQ
+title: "MDVA-40435: Discount on bundle product is not applied correctly via GraphQ"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Magento,QPT 1.1.4,Adobe Commerce,on-premises,cloud infrastructure,bundle product,GraphQ,discount,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
