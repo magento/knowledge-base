@@ -28,7 +28,7 @@ GraphQL query of `categoryList` returns both assigned and unassigned categories.
 1. Create two categories, CAT1 and CAT2, and assign few products to each category.
 1. Create a private shared catalog.
 1. Create a company user and assign it to the created shared catalog.
-1. Assign CAT1 to the custom catalog and set the category permission to "Allow" Browsing Category for the customer group of private catalog.
+1. Assign CAT1 to the custom catalog and set the category permission to "Allow" Browsing Category for the customer group of the private catalog.
 1. Set the category permission for CAT2 to "Deny" Browsing Category for the customer group of private catalog.
 1. Run the `categoryList` or `categories` GraphQL query as the company user.
 
