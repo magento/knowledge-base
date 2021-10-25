@@ -1,6 +1,6 @@
 ---
 title: MDVA-40435: Discount on bundle product is not applied correctly via GraphQ
-labels: QPT patches,Quality Patches Tool,
+labels: QPT patches,Quality Patches Tool,QPT,MQP,Magento,QPT 1.1.4,Adobe Commerce,on-premises,cloud infrastructure,bundle product,GraphQ,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
 The MDVA-40435 patch solves the issue where the discount on bundle product is not applied correctly via GraphQ. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.4 is installed. The patch ID is MDVA-40435. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
@@ -25,19 +25,19 @@ Discount on bundle product is not applied correctly via GraphQL.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create cart price rule with coupon code for $5 fixed discount.
-1. Create an empty cart via GraphQL
-1. Add bundle product to cart via GraphQL
-1. Apply coupon code on the fixed amount (5$) via GraphQL
-1. Get cart information via GraphQl.
+1. Create a cart price rule with coupon code for $5 fixed discount.
+1. Create an empty cart via GraphQL.
+1. Add a bundled product to the cart via GraphQL.
+1. Apply the coupon code on the fixed amount (5$) via GraphQL.
+1. Get the cart information via GraphQl.
 
 <ins>Expected results</ins>:
 
-"discounts" should be $5
+"discounts" is $5.
 
 <ins>Actual results</ins>:
 
-"discounts" is NULL
+"discounts" is NULL.
 
 ## Apply the patch
 
