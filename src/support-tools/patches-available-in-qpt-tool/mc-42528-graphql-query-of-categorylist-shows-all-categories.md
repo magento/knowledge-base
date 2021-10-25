@@ -1,5 +1,5 @@
 ---
-title: MC-42528: GraphQL query of categoryList shows all categories
+title: "MC-42528: GraphQL query of categoryList shows all categories"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Magento,QPT 1.1.4,Adobe Commerce,on-premises,cloud infrastructure,GraphQL query,categorylist,2.4.3,2.4.3-p1
 ---
 
