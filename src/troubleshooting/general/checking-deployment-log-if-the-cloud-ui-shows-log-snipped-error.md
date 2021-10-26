@@ -10,7 +10,7 @@ Adobe Commerce on cloud infrastructure (all supported versions)
 
 ## Issue
 
-When trying to view deployment log, Adobe Commerce on cloud architecture UI shows the following error message: *log snipped because it was too long*.
+When trying to view deployment log, Adobe Commerce on cloud infrastructure UI shows the following error message: *log snipped because it was too long*.
 
 ## Steps to reproduce
 
