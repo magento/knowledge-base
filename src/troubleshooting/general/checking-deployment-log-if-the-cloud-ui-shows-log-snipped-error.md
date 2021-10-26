@@ -46,7 +46,7 @@ Note that the log shown in the UI should not be treated as the source of truth, 
     magento-cloud activity:log raah5xrhqz3wg -p <project id> -e <environment>
     ```
 
-## Related readings in our developer documentation
+## Related readings in our developer documentation:
 
 * [Adobe Commerce on our cloud architecture > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
 * [Adobe Commerce on our cloud architecture > View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html)
