@@ -45,4 +45,4 @@ Please refer to [ Cloud for Adobe Commerce > Apply patches](https://devdocs.mage
 ## Related reading
 
 * [Quality Patches Tool release notes](https://devdocs.magento.com/quality-patches/release-notes.html) in our developer documentation.
-* [How to apply composer patches provided by Magento Support](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+* [How to apply composer patches provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
