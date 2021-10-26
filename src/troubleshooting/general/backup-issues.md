@@ -1,18 +1,18 @@
 ---
 title: Backup issues
-labels: 2.2.x,2.3.x,Magento Commerce,backup,disk space,how to,permissions
+labels: Magento Commerce,backup,disk space,how to,permissions,Adobe Commerce,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,Magento Open Source
 ---
 
 This article lists the possible solutions for the backup creation issues.
 
 ## Affected products and versions
 
-* Magento Commerce 2.2.x, 2.3.x
-* Magento Open Source 2.2.x, 2.3.x
+* Adobe Commerce on-premises 2.3.x
+* Magento Open Source 2.3.x
 
 <h2 id="backup-disabled">Backup disabled</h2>
 
-If the Magento backup functionality does not start or displays the following message, you need to enable the feature prior to backing up.
+If the Adobe Commerce backup functionality does not start or displays the following message, you need to enable the feature prior to backing up.
 
 ```terminal
 Backup functionality is disabled.
@@ -45,6 +45,6 @@ Unfortunately, we can not recommend anything specific because of the variety of 
 
 <h2 id="backup-fails-trouble-backup-all-">Backup fails</h2>
 
-If the backup fails or if all backup tests fail, it's possible the [Magento file system owner](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) doesn't have sufficient privileges and ownership of the Magento file system. For example, another user might own the files or the files might be read-only.
+If the backup fails or if all backup tests fail, it's possible the [Adobe Commerce file system owner](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) doesn't have sufficient privileges and ownership of the Adobe Commerce file system. For example, another user might own the files or the files might be read-only.
 
-Pay particular attention to file system permissions and ownership of the `<magento_root>/var` directory and subdirectories. For more information, see [Set file system permissions and ownership](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html) .
+Pay particular attention to file system permissions and ownership of the `<magento_root>/var` directory and subdirectories. For more information, see [Set file system permissions and ownership](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
