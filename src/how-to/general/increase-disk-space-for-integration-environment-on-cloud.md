@@ -1,6 +1,6 @@
 ---
-title: Increase disk space for Integration environment on Cloud
-labels: Cloud,Magento Commerce Cloud,disk space,how to,performance,space
+title: Increase disk space for Integration environment on cloud
+labels: Cloud,Magento Commerce Cloud,disk space,how to,performance,space,Adobe Commerce,cloud infrastructure
 ---
 
-Please refer to the [Manage disk space](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html) article on Magento DevDocs.
+Please refer to the [Manage disk space](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html) article in our developer documentation.
