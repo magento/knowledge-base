@@ -1,9 +1,9 @@
 ---
 title: "MDVA-29400: Duplicated orders placed with PayPal Express Checkout"
-labels: QPT patches,Quality Patches Tool,MQP,QPT,QPT 1.1.4,Support Tools,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1
+labels: QPT patches,Quality Patches Tool,MQP,QPT,QPT 1.1.4,Support Tools,Adobe Commerce,cloud infrastructure,on-premises,PayPal, Express Checkout,duplicated orders,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1
 ---
 
-The MDVA-29400 patch solves the issue where duplicated orders are created when users placed orders with PayPal Express Checkout. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.4 is installed. The patch ID is MDVA-29400. Please note that the issue was fixed in Adobe Commerce 2.4.1.
+The MDVA-29400 patch solves the issue where duplicated orders are created when customers placed orders with PayPal Express Checkout. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.4 is installed. The patch ID is MDVA-29400. Please note that the issue was fixed in Adobe Commerce 2.4.1.
 
 ## Affected products and versions
 
@@ -13,7 +13,7 @@ The MDVA-29400 patch solves the issue where duplicated orders are created when u
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.0 - 2.3.7-p1, 2.4.0 -2.4.0-p1
+* Adobe Commerce (all deployment methods) 2.3.0 - 2.3.7-p1, 2.4.0 - 2.4.0-p1
 
 >![info]
 >
@@ -21,7 +21,7 @@ The MDVA-29400 patch solves the issue where duplicated orders are created when u
 
 ## Issue
 
-Duplicated orders are being created when users placed orders with PayPal Express Checkout.
+Duplicated orders are created when users placed orders with PayPal Express Checkout.
 
 <ins>Prerequisites</ins>:
 
@@ -32,8 +32,8 @@ Enabled and configured PayPal Express Checkout.
 1. Add a product to Cart.
 1. Go to the Checkout Page and use PayPal Express as the payment method.
 1. It will redirect to paypal/express/review/ page.
-1. Place order. User will be redirected to Success page.
-1. Go back to PayPal/express/review/ page.
+1. Place order. You will be redirected to Success Page.
+1. Go back to PayPal/express/review/ Page.
 1. Click on **Place Order** button.
 
 <ins>Expected results</ins>:
