@@ -67,11 +67,11 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 You can view the history of requested resizes in your [Project Portal (Onboarding UI)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), under **Project** > **Services** > **Cluster Resize**.
 The following information is available for each resize request:
 
-* **Requested**: (date and time of a request)
-* **Completed**: (date and time when the request was completed)
-* **Changed To**: the size of the cluster after the resize
-* **Days Usage**: for how many days the cluster stayed upsized
-* **Cluster Usage**: ...
+* **Requested**: date and time of a request.
+* **Completed**: date and time when the request was completed.
+* **Changed To**: the size of the cluster after the resize.
+* **Days Usage**: for how many days the cluster stayed upsized.
+* **Cluster Usage**: changed vCPU size by the number of days it was used. (for example, vCPU size 192 by 25 days equals 4,800).
 
 
 ## Related reading
