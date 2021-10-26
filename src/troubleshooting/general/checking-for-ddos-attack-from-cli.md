@@ -41,7 +41,7 @@ Make sure you have someone to give proper analysis to the data you find to deter
 
 If you find that you are under DDoS attack, the steps you can take depend on your network configuration and how the DDoS attack is occurring, but general advice is to contact your ISP,  get a new IP address for your server, and/or consult IT professionals skilled in handling DDoS issues to analyze and advise on your particular situation.
 
-## Related readings in our developer documentation
+## Related readings in our developer documentation:
 
 * [DDoS protection](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
 * [Using CLI commands](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
