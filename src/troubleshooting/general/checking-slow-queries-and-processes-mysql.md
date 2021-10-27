@@ -1,6 +1,6 @@
 ---
 title: Checking slow queries and processes MySQL
-labels: Magento Commerce,Magento Commerce Cloud,MySQL,log,queries,slow,troubleshooting
+labels: Magento Commerce,Magento Commerce Cloud,MySQL,log,queries,slow,troubleshooting,Adobe Commerce
 ---
 
 This article talks about a couple common MySQL issues (Slow queries, Processes taking too long) that can adversely affect a merchant's site, and the solutions they indicate.
@@ -26,7 +26,6 @@ If you had an outage that was potentially caused by an overloaded database, thes
 * Import/Export scripts
 * Creating dumps
 
- 
 ## Checking MySQL "process list"
 
 ### Description
@@ -44,11 +43,10 @@ This will help to identify if the MySQL server is alive and that there are no st
 1. Check the "Time" column for any time greater than 1800 seconds; that indicates a process that is potentially taking too much time to complete. Note the status of the processes in the "State" column.
 1. Review the queries and possibly kill them if they are found not to be expected to run for that length of time. It is possible that the long running queries may be expected.
 
- 
+
 ## Related reading
 
 * [MySQL Show Processlist Syntax](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)
 * [MySQL Kill Syntax](https://dev.mysql.com/doc/refman/8.0/en/kill.html)
 * [Security, Performance, and Data Handling](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html)
 * [MySQL Help](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html)
-
