@@ -12,7 +12,7 @@ The MDVA-28202 patch solves the issue where out of stock products aren't filtere
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`
+>Note: the patch can be applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`
 
 ## Issue
 
@@ -44,10 +44,10 @@ The product falls under wrong price range filter.
 
 ## Apply the patch
 
-To apply individual patches use the following links depending on your Adobe Commerce product:
+To apply individual patches use the following links depending on your deployment method:
 
-* Adobe Commerce or Magento Open Source on-premises:[Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html).
+* Adobe Commerce or Magento Open Source on-premises: [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
@@ -58,6 +58,4 @@ To learn more about Quality Patches Tool, refer to:
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
 
-To learn more about configurable products, refer to this article in our developer documentation:
-
-* [Create a configurable product tutorial](https://devdocs.magento.com/guides/v2.4/rest/tutorials/configurable-product/config-product-intro.html)
+To learn more about configurable products, refer to this article in our developer documentation: [Create a configurable product tutorial](https://devdocs.magento.com/guides/v2.4/rest/tutorials/configurable-product/config-product-intro.html) in our developer documentation. 
