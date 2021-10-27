@@ -40,7 +40,7 @@ The coupon code should apply successfully as the previous order was not placed.
 
 <ins>Actual results</ins>:
 
-You get *coupon code is invalid* error.
+You get a *coupon code is invalid* error.
 
 ## Apply the patch
 
