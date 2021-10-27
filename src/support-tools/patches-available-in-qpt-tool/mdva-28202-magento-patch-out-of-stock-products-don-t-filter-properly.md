@@ -8,7 +8,7 @@ The MDVA-28202 patch solves the issue where out of stock products aren't filtere
 ## Affected products and versions
 
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.3.5-p1.
-* The patch is also compatible with Adobe Commerce and Adobe Commerce on cloud infrastructure 2.3.4 - 2.4.1.
+* The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.4.1.
 
 >![info]
 >
