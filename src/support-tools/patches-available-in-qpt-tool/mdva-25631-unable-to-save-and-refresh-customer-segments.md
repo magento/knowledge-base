@@ -25,7 +25,7 @@ Users are not able to save and refresh customer segments that contain a large nu
 
 <ins>Prerequisites</ins>:
 
-Generate a large number of customers (more than 3 million)
+Generate a large number of customers (more than 3 million).
 
 <ins>Steps to reproduce</ins>:
 
