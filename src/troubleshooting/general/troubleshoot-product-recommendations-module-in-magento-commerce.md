@@ -38,7 +38,6 @@ module correctly (Check [Product Recommendations - Install and Configure Recomme
 
 * Ensure the SaaS Environment ID or API Key are valid. If you get an error after specifying your SaaS Environment ID or your API key during the product recommendations initialization, check to make sure you have entered the [SaaS Environment ID and API key](https://docs.magento.com/m2/ce/user_guide/configuration/services/saas.html) (in our user guide) correctly. To ensure the MageID and API key are linked, the user who owns the MageID, typically the user who owns the Adobe Commerce license, needs to be the same user who generates the API key. If you must change the MageID that was used, [submit a Support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
 
-* Confirm you have selected a [SaaS Data Space](https://docs.magento.com/user-guide/system/saas.html#saasenv) (in our user guide). You should see three available SaaS Data Spaces (one Production, two Testing). If you see only one SaaS Data Space, check to make sure the user who owns the Adobe Commerce license generated the API key. That API key can then be passed to the systems integrator or development team that manages the SaaS projects and data spaces on behalf of the license-holder. If you are an Adobe Commerce solutions partner, the contract signer should generate the API key.
 
 >![info]
 >
