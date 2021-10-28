@@ -67,7 +67,6 @@ In our support knowledge base:
 
 In our user guide:
 
-* [Manual Reindexing](https://docs.magento.com/m1/ce/user_guide/system-operations/index-manual.html)
 * [Index Management](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
 
 In our developer documentation:
