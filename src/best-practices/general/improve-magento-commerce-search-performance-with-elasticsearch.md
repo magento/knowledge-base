@@ -33,4 +33,4 @@ Configure and enable the Elasticsearch engine as described in [Configure Adobe C
 * [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
 * [MySQL and ElasticSearch search engines show different results in the same conditions](https://support.magento.com/hc/en-us/articles/360025244171) in our support knowledge base.
 * [Ensure Elasticsearch is installed properly](https://support.magento.com/hc/en-us/articles/360034939312) in our support knowledge base.
-* [Elasticsearch: Getting Started](https://www.elastic.co/webinars/getting-started-elasticsearch)
+* [Elasticsearch: Getting Started](https://www.elastic.co/webinars/getting-started-elasticsearch) in .elastic.co.
