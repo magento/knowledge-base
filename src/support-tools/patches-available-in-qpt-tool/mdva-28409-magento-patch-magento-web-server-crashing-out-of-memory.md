@@ -1,13 +1,17 @@
 ---
-title: "MDVA-28409 patch: Magento web server crashing - Out of memory"
-labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,QPT,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches,Adobe Commerce,on-premises,cloud infrastructure, Tool,cron,memory,out of memory,quote,support tools
+title: "MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory"
+labels: 2.3.4,2.3.4-p2,2.3.5,2.4.0,QPT,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches,Adobe Commerce,on-premises,cloud infrastructure, Tool,cron,memory,out of memory,quote,support tools
 ---
 
 The MDVA-28409 patch solves the issue where the cron job for removing quotes stopped due to having to process a large number of items. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed.
 
 ## Affected products and versions
 
-Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.3.5, 2.4.0 Note: the patch can be applicable to other versions. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.3.5, 2.4.0
+
+>![info]
+>
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
 ## Issue
 
@@ -23,11 +27,11 @@ select * from cron_schedule where job_code like '%sales_clean_quotes%'
 
  <span class="wysiwyg-underline">Expected result:</span>
 
-The status of `sales_clean_quotes` cron job should be `success`. <span class="wysiwyg-underline">Actual result:</span>
+The status of `sales_clean_quotes` cron job should be `success`. 
+
+<span class="wysiwyg-underline">Actual result:</span>
 
 The status of `sales_clean_quotes` cron job is `running` or `error`.
-
-&nbsp;
 
 Another way to confirm that there is a cron job that is not able to remove outdated quotes is to map the output from the query from **Step 1** (`executed_at`) against the timestamps of any memory errors in `/var/log/cron.log`. If there is a cron job that is not able to process the amount of data you may see a message similar to:
 
