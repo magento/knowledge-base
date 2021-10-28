@@ -111,9 +111,11 @@ Take the following steps to update the Commerce Admin configuration:
 1. Click **Save Config**.
 
    *Adobe Commerce 2 Authorize.Net Direct Post configuration screen:*
+
    ![auth-net-signature-key-m2.png](assets/auth-net-signature-key-m2.png)
 
    *Adobe Commerce 1 Authorize.Net Direct Post configuration screen:*
+
    ![auth-net-signature-key-m1.png](assets/auth-net-signature-key-m1.png)
 
 The process is successful if the Signature Key updates and payment processing continues. If you have issues, verify the Signature Key with Authorize.Net.
