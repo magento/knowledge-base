@@ -24,7 +24,7 @@ This error could occur if the previous index was not completed successfully. A f
 
 ## Steps to Reproduce
 
-1. For example, say that the    ```bash    cataloginventory_stock    ```    index type is locked.
+1. For example, say that the    ```bash    cataloginventory_stock ```    index type is locked.
 1. When you try to reindex all data by running the CLI command    ```bash    php bin/magento indexer:reindex    ```, you will get the following output result:    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```    
 1. As you can see above, the    ```bash    cataloginventory_stock    ```    index process has been skipped.
 
