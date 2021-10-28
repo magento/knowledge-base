@@ -56,11 +56,11 @@ To identify if the issue you are experiencing is the one described in this artic
 
 If the query returns a table where `update_exists` value is "0", then an invalid link to the `staging_update` table exists in your database, and the steps described in the [Solution section](#solution) will help to solve the issue. The following is an example of the query result with `update_exists` value equal to "0":
 
-<img src = "assets/update_exists_0.png" alt = "update_exists_0.png" width="320, ex: 200px">
+![update_exists_0.png](assets/update_exists_0.png)
 
 If the query returns a table where `update_exists` value is "1" or an empty result, it means your issue is not related to staging updates. The following is an example of the query result with `update_exists` value equal to "1":
 
-<img src = "assets/updates_exist_1.png" alt = "updates_exist_1.png" width="320, ex: 200px">
+![updates_exist_1.png](assets/updates_exist_1.png)
 
 In this case, you might refer to the [Site Down Troubleshooter](https://support.magento.com/hc/en-us/articles/360029351531) for troubleshooting ideas.
 
