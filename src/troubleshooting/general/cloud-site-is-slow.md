@@ -1,19 +1,19 @@
 ---
 title: Cloud site is slow
-labels: Cloud,Fastly,Magento Commerce Cloud,cache,slow performance,troubleshooting
+labels: Cloud,Fastly,Magento Commerce Cloud,cache,slow performance,troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides recommendations how to make your Magento Commerce Cloud site better performing under heavy traffic loads, and how to cut this load.
+This article provides recommendations on how to make your Adobe Commerce on cloud infrastructure site better performing under heavy traffic loads, and how to cut this load.
 
 ## Affected versions and editions
 
-* Magento Commerce Cloud, all versions
+* Adobe Commerce on cloud infrastructure, all versions
 
 ## Issue
 
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
-1. Visit your Magento store.
+1. Visit your Adobe Commerce store.
 1. Browse a category page.
 1. Add a product to the cart.
 
@@ -37,7 +37,7 @@ The following paragraphs provide more details for each step.
 
 ### Step 1: Check the cache hit rate for the pages with high traffic
 
-The first step to fixing a site bogged down by heavy traffic is to ensure the pages with the heaviest traffic, like the store home page and the top-level category pages, are being cached properly.
+The first step to fixing a site bogged down by heavy traffic is to ensure the pages with the heaviest traffic, like the store's home page and the top-level category pages, are being cached properly.
 
 You can find out the cache hit rates for these pages by reviewing the `X-Cache` HTTP headers using cURL, as described in [Checking cache using cURL](https://docs.fastly.com/guides/debugging/checking-cache#using-curl) in the Fastly documentation. Or check the same headers using the network tab in the developer toolbar of your favorite web browser.
 
@@ -56,7 +56,8 @@ If the index page has a low hit rate, you can fix it by reducing the amount of h
 To check the overall cache hit rate:
 
 <ol><li>
-<a href="http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds">Get Fastly credentials</a>for your Magento Commerce Cloud environment.</li><li>Run the following Linux/macOS cURL command to check the hit rate for your site over the last 30 minutes, replacing<code><API_TOKEN></code>and<code><SERVICE_ID></code>with the values for your Fastly credentials:<pre><code class="language-bash">curl -H "Fastly-Key: <API_TOKEN>" https://api.fastly.com/stats/service/<SERVICE_ID>/field/hit_ratio?by=minute | json_pp</code></pre>You can also check historical hit rates over the last day or month by changing the time range query option from<code>?by=minute</code>to<code>?by=hour</code>or<code>?by=day</code>. For more information on getting Fastly cache stats, see<a href="https://docs.fastly.com/api/stats#Query">Query Options</a>in the Fastly documentation.<div class="info"><blockquote>The<code>| json_pp</code>option pretty prints the JSON response output using the<code>json_pp</code>utility. If you get a<em>'json_pp not found'</em>error, install the<code>json_pp</code>utility, or use another command line tool for JSON pretty printing. Alternatively, delete the<code>| json_pp</code>parameter and run the command again. The JSON response output is not formatted, but you can run it through a JSON beautifier to clean it up.</blockquote></div>
+<a href="http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds">Get Fastly credentials</a> for your Adobe Commerce on cloud infrastructure environment.
+</li><li>Run the following Linux/macOS cURL command to check the hit rate for your site over the last 30 minutes, replacing<code><API_TOKEN></code>and<code><SERVICE_ID></code> with the values for your Fastly credentials:<pre><code class="language-bash">curl -H "Fastly-Key: <API_TOKEN>" https://api.fastly.com/stats/service/<SERVICE_ID>/field/hit_ratio?by=minute | json_pp</code></pre>You can also check historical hit rates over the last day or month by changing the time range query option from<code>?by=minute</code>to<code>?by=hour</code>or<code>?by=day</code>. For more information on getting Fastly cache stats, see <a href="https://docs.fastly.com/api/stats#Query">Query Options</a> in the Fastly documentation.<div class="info"><blockquote>The <code>| json_pp</code> option pretty prints the JSON response output using the <code>json_pp</code> utility. If you get a<em>'json_pp not found'</em> error, install the <code>json_pp</code> utility, or use another command line tool for JSON pretty printing. Alternatively, delete the <code>| json_pp</code> parameter and run the command again. The JSON response output is not formatted, but you can run it through a JSON beautifier to clean it up.</blockquote></div>
 </li></ol>
 A hit rate above 0.90 or 90% indicates that the full-page cache is working.
 
@@ -65,16 +66,17 @@ A hit rate below 0.85 or 85% might indicate a site configuration problem, or you
 #### Troubleshooting for overall cache hit rate
 
 1. Using the hourly and daily hit rate stats, identify when the hit rate started to decrease. If the hit rate suddenly dropped around the same time that you deployed a change to your site, consider rolling back the change until the site load comes down.
-1. Check the configuration in the Magento Admin, under **Stores** > **Configuration** >Advanced > **System** > **Full Page Cache** . Make sure that **TTL for public content** value is not set too low.
-1. Make sure you've [uploaded the VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets) .
-1. If you use custom VCL snippets, debug them for correct usage of the "pass" or "pipe" actions: they should be used carefully and at the very least used with a condition of some sort. See [Magento Devdocs article on custom VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) for other tips.
+1. Check the configuration in the Commerce Admin, under **Stores** > **Configuration** > Advanced > **System** > **Full Page Cache**. Make sure that **TTL for public content** value is not set too low.
+1. Make sure you've [uploaded the VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. If you use custom VCL snippets, debug them for correct usage of the "pass" or "pipe" actions: they should be used carefully and at the very least used with a condition of some sort. For more tips, see [Custom Fastly VCL snippets
+](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) in our developer documentation.
 
 ### Step 3: Identify the websites causing the high server load
 
-You can use either of the following methods to get information about the IP addresses accessing your Magento store.
+You can use either of the following methods to get information about the IP addresses accessing your Adobe Commerce store.
 
 * Check the HTTP access logs through an SSH session.
-* Contact Magento Cloud support to request a list of IP addresses causing heavy load on the site.
+* Contact Adobe Commerce on cloud infrastructure support to request a list of IP addresses causing heavy load on the site.
 
 #### Check the HTTP access logs
 
@@ -111,7 +113,7 @@ magento-cloud log
 
 command doesn't work, you can connect to the remote server with SSH and check the log file at `/var/log/access.log`
 
-After you identify the IP addresses that are causing heavy server load, you can block them by configuring an IP block list from in the Magento Admin panel, under **Stores** > **Configuration** > ADVANCED > **System** > **Full Page Cache** > **Fastly Configuration** > **Blocking** .
+After you identify the IP addresses that are causing heavy server load, you can block them by configuring an IP block list from in the Commerce Admin panel, under **Stores** > **Configuration** > ADVANCED > **System** > **Full Page Cache** > **Fastly Configuration** > **Blocking**.
 
 If you cannot access your Admin due to heavy load, you can use the Fastly API to set up the blocking rules:
 
@@ -122,4 +124,4 @@ If you cannot access your Admin due to heavy load, you can use the Fastly API to
   error 403 "Forbidden";
   }`
 
-For more information on blocking IP addresses, see the Fastly Magento 2 module guide:<https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md>
+For more information on blocking IP addresses, see the [Fastly Adobe Commerce module guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md>)
