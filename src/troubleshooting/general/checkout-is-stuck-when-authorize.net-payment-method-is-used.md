@@ -33,7 +33,7 @@ Ajax spinner is displayed, and the page never loads. The following JS error is d
 
 ## Cause
 
-One of the most common reasons of this issue is the Public Client Key not being specified in the Authorize.Net configuration in the Commerce Admin.
+One of the most common reasons for this issue is the Public Client Key not being specified in the Authorize.Net configuration in the Commerce Admin.
 
 ## Solution
 
