@@ -68,8 +68,7 @@ A hit rate below 0.85 or 85% might indicate a site configuration problem, or you
 1. Using the hourly and daily hit rate stats, identify when the hit rate started to decrease. If the hit rate suddenly dropped around the same time that you deployed a change to your site, consider rolling back the change until the site load comes down.
 1. Check the configuration in the Commerce Admin, under **Stores** > **Configuration** > Advanced > **System** > **Full Page Cache**. Make sure that **TTL for public content** value is not set too low.
 1. Make sure you've [uploaded the VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
-1. If you use custom VCL snippets, debug them for correct usage of the "pass" or "pipe" actions: they should be used carefully and at the very least used with a condition of some sort. For more tips, see [Custom Fastly VCL snippets
-](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) in our developer documentation.
+1. If you use custom VCL snippets, debug them for correct usage of the "pass" or "pipe" actions: they should be used carefully and at the very least used with a condition of some sort. For more tips, see [Custom Fastly VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) in our developer documentation.
 
 ### Step 3: Identify the websites causing the high server load
 
