@@ -1,14 +1,14 @@
 ---
-title: "Magento 2.3.5, 2.3.5-p1 patch: country payment issue"
-labels: 2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,known issues,patch,payments,troubleshooting
+title: "Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue"
+labels: 2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,known issues,patch,payments,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-This patch resolves an issue in Magento where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
+This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
 
 ## Affected products and versions
 
-* Magento Commerce Cloud versions 2.3.5 and 2.3.5-p1
-* Magento Commerce versions 2.3.5 and 2.3.5-p1
+* Adobe Commerce on cloud infrastructure 2.3.5 and 2.3.5-p1
+* Adobe Commerce on-premises 2.3.5 and 2.3.5-p1
 
 ## Issue
 
@@ -16,48 +16,52 @@ When a store has Amazon Pay and another payment assigned to different countries,
 
 A web page refresh is a workaround for the issue.
 
-To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) .
+To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
 
- <span class="wysiwyg-underline">Prerequisites</span> :
+<ins>Prerequisites</ins>:
 
 * A simple product is created.
-* **Check / Money order** are enabled only for specific countries (at **Store** > **Configuration** ; **Sales** > **Payment Methods** ).
+* **Check/Money order** is enabled only for specific countries (at **Store** > **Configuration** > **Sales** > **Payment Methods**).
 
 * Example: Payment from Applicable Countries = Specific Countries
 * Example: Payment from Specific Countries = United Kingdom
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+<ins>Steps to reproduce</ins>:
 
 1. Go to the Storefront as a Guest.
 1. Add a simple product to the shopping cart.
 1. Go to Checkout.
 1. Fill the form with valid data.
 
-* Country = *United States* 
+    * Country = *United States*
 
-1. Select shipping rate and go **Next** .
+1. Select shipping rate and click **Next**.
 
-* Payment step is opened.
-* There are no available payments.
-* Message: **No Payment method available.** 
-* There is no **Place Order** button.
+    * Payment step is opened.
+    * There are no available payments.
+    * Message: **No Payment method available.**
+    * There is no **Place Order** button.
 
 1. Go back to the **Shipping Step** and change the value to:
 
-* Country = *United Kingdom* 
+    * Country = *United Kingdom*
 
-1. Select shipping rate and go **Next** .
+1. Select shipping rate and click **Next**.
 
- <span class="wysiwyg-underline">Expected result</span> : **The Payment step opens.** 
+<ins>Expected result</ins>:
+
+ The Payment step opens.
 
 * **Cash On Delivery** appears.
-* **Check / Money order** appears.
-* The **Place Order** button appears **.** 
+* **Check/Money order** appears.
+* The **Place Order** button appears.
 
- <span class="wysiwyg-underline">Actual result</span> : **The Payment step opens.** 
+<ins>Actual result</ins>:
+
+The Payment step opens.
 
 * There are no available payments.
-* Message: **No Payment method available** .
+* Message: **No Payment method available.**
 * There is no **Place Order** button.
 
 ## Solution
@@ -66,23 +70,23 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 
 ## Patch
 
-The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name or click the following link:
 
- [Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) 
+ [Download BUNDLE-2546\_EE\_2.3.5-p1.composer.patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip)
 
-### Compatible Magento versions:
+### Compatible Adobe Commerce versions:
 
 The patch was created for:
 
-* Magento Commerce Cloud versions 2.3.5 and 2.3.5-p1
-* Magento Commerce versions 2.3.5 and 2.3.5-p1
+* Adobe Commerce on cloud infrastructure 2.3.5 and 2.3.5-p1
+* Adobe Commerce on-premises 2.3.5 and 2.3.5-p1
 
-The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+The patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
-* Magento Commerce versions 2.3.4-p2 through 2.2.6
+* Adobe Commerce versions 2.3.4-p2 - 2.2.6
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base for instructions.
 
 ## Attached Files
