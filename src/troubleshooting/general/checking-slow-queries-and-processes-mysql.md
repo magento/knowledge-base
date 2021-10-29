@@ -13,7 +13,7 @@ If you had an outage that was potentially caused by an overloaded database, thes
 
 ### Steps
 
-1. Login to your MySQL command line (Adobe Commerce on-premises/Magento Open Source) or on your cloud server from the command line (Adobe Commerce on cloud infrastructure).
+1. Log in to your MySQL command line (Adobe Commerce on-premises/Magento Open Source) or on your cloud server from the command line (Adobe Commerce on cloud infrastructure).
 1. Examine the slow query log for queries longer than 50 seconds:
    ```bash
    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3    
