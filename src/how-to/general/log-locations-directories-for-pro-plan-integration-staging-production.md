@@ -1,5 +1,5 @@
 ---
-title: "Log locations (directories) for Pro architecture: Integration, Staging, Production"
+title: "Log locations (directories) for Pro plan: Integration, Staging, Production"
 labels: Magento Commerce Cloud,Pro,Staging,devdocs,how to,log,production
 ---
 
