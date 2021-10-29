@@ -15,7 +15,7 @@ Prerequisites: An ad blocker must be installed and active in browser.
 
 1. In the Commerce Admin, enable and configure the Google Analytics functionality.
 1. Open a product page on the storefront.
-1. Add products to cart.
+1. Add products to the cart.
 1. Click the **Go to Checkout** link.
 
  <span class="wysiwyg-underline">Expected result</span>: Checkout page loads and a customer can complete checkout.
