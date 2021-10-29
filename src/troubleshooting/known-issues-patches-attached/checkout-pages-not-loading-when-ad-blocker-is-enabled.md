@@ -14,7 +14,7 @@ If Google Analytics is enabled for the store, when a customer with installed uBl
 Prerequisites: An ad blocker must be installed and active in browser.
 
 1. In the Commerce Admin, enable and configure the Google Analytics functionality.
-1. Open a product page on the store front.
+1. Open a product page on the storefront.
 1. Add products to cart.
 1. Click the **Go to Checkout** link.
 
