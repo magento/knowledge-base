@@ -34,7 +34,7 @@ This will help to identify if the MySQL server is alive and that there are no st
 
 ### Steps
 
-1. Login to your MySQL command line (Adobe Commerce on-premises/Magento Open Source) or on your cloud server from the command line (Adobe Commerce on cloud infrastructure).
+1. Log in to your MySQL command line (Adobe Commerce on-premises/Magento Open Source) or on your cloud server from the command line (Adobe Commerce on cloud infrastructure).
 1. Login to MySQL using the block of code below. This will automate the process of logging in.     `export DB_NAME=$(grep [\']db[\'] -A 20 app/etc/env.php | grep dbname | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");    export MYSQL_HOST=$(grep [\']db[\'] -A 20 app/etc/env.php | grep host | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");    export DB_USER=$(grep [\']db[\'] -A 20 app/etc/env.php | grep username | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/['][,]//");    export MYSQL_PWD=$(grep [\']db[\'] -A 20 app/etc/env.php | grep password | head -n1 | sed "s/.*[=][>][ ]*[']//" | sed "s/[']$//" | sed "s/['][,]//");    mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -U -A -e 'show processlist;`     
 1. If you get an error back or it takes more than 30 sec to respond, you should contact Support to check the MySQL server.
 1. Looking at sample output
