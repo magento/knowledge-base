@@ -20,7 +20,7 @@ Prerequisites: An ad blocker must be installed and active in browser.
 
  <span class="wysiwyg-underline">Expected result</span>: Checkout page loads and a customer can complete checkout.
 
- <span class="wysiwyg-underline">Actual result</span>: Checkout page does not load, the loading spinner never disappears.
+ <span class="wysiwyg-underline">Actual result</span>: Checkout page does not load; the loading spinner never disappears.
 
 ## Patch
 
