@@ -18,7 +18,7 @@ Prerequisites: An ad blocker must be installed and active in browser.
 1. Add products to the cart.
 1. Click the **Go to Checkout** link.
 
- <span class="wysiwyg-underline">Expected result</span>: Checkout page loads and a customer can complete checkout.
+ <span class="wysiwyg-underline">Expected result</span>: Checkout page loads and the customer can complete checkout.
 
  <span class="wysiwyg-underline">Actual result</span>: Checkout page does not load; the loading spinner never disappears.
 
