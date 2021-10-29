@@ -28,7 +28,7 @@ The patch is attached to this article. To download it, scroll down to the end of
 
  [Download MDVA-9353\_EE\_2.2.2\_v1.composer.patch](assets/MDVA-9353_EE_2.2.2_v1.composer.patch.zip)
 
-### Compatible Magento versions:
+### Compatible Adobe Commerce versions:
 
 The patch was created for:
 
