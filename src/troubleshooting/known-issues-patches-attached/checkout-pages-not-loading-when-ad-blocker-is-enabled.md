@@ -37,7 +37,7 @@ The patch was created for:
 The patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
 * Adobe Commerce on cloud infrastructure from 2.1.0 to 2.1.14
-* Adobe Commerce on cloud infrastructure from 2.2.0 to 2.2.1, and from 2.2.3 to 2.2.5
+* Adobe Commerce on cloud infrastructure from 2.2.0 to 2.2.1 and 2.2.3 to 2.2.5
 * Adobe Commerce on-premises from 2.1.0 to 2.1.14
 * Adobe Commerce on-premises from 2.2.0 to 2.2.5
 
