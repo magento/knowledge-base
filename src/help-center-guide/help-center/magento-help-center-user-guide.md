@@ -514,7 +514,7 @@ After providing shared access for a new user, the related information is availab
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/) .
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
-1. Find the user to revoke shared access from and click    ![remove_icon.png](assets/remove_icon.png)    in the user's row ( **Actions** column).
+1. Find the user to revoke shared access from and click <img src = "assets/remove_icon.png" alt = "remove_icon.png" width="25px"> in the user's row (**Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
 ![revoke_shared_access.png](assets/revoke_shared_access.png)
