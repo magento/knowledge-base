@@ -36,7 +36,7 @@ A configurable product with at least two variations.
 <ins>Expected results</ins>:
 
 * Both invoices must be created successfully.
-* qty_invoiced should be updated for both invoices in the sales_order_item table.
+* `qty_invoiced` should be updated for both invoices in the `sales_order_item` table.
 * Both products should have invoiced quantity.
 
 <ins>Actual results</ins>:
