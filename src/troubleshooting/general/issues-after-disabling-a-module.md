@@ -20,6 +20,6 @@ Disabling a module output under **Stores** > **Settings** > **Configuration** > 
 
 ## Solution
 
-If you need to disable module functionality, disable the module as described in the [Enable or disable modules](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) article.
+If you need to disable module functionality, disable the module as described in [Enable or disable modules](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) in our developer documentation.
 
 The module output disabling functionality was removed starting from version 2.2.0.
