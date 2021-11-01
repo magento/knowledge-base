@@ -1,6 +1,6 @@
 ---
-title: Emails not sent when SendGrid credits exceeded on Adobe Commerce 
-labels: troubleshooting,SendGrid,email,Adobe Commerce,cloud infrastructure,Pro,Starter,Magento
+title: Emails not sent when SendGrid credits exceeded on Adobe Commerce
+labels: troubleshooting,SendGrid,email,Adobe Commerce,cloud infrastructure,Pro,Starter,Magento,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 This article provides a solution when your emails are not being sent because you have exceeded your SendGrid credits limit, on Adobe Commerce.
 ## Affected products and versions
@@ -9,8 +9,9 @@ This article provides a solution when your emails are not being sent because you
 
 ## Issue
 
-SendGrid credits refer to the number of allowed emails that can be sent. Only 12,000 emails can be sent per month from the integration branches. Once you have reached that limit, you will have to wait until the next month to send emails again.
-There are no hard limits on the number of emails that can be sent in Production and Staging, as long as the Sender Reputation is over 95%. The reputation is affected by the number of bounced/rejected emails, and whether DNS-based spam registries have flagged your domain as a potential spam source.
+SendGrid credits refer to the number of allowed emails that can be sent. Only 12,000 emails can be sent per month from the integration and Staging branches. Credits are renewed at the start of the month, so if you run out of credits, you will have to wait for the renewal.
+
+There are no hard limits on the number of emails that can be sent in Production, as long as the Sender Reputation is over 95%. The reputation is affected by the number of bounced/rejected emails, and whether DNS-based spam registries have flagged your domain as a potential spam source.
 In Production, a total of 12,000 emails are allocated per day, but that number can be extended within the same day based on the average number of emails that have been sent in the previous five days as long as the reputation is good.
 
 ## How to check if your credits have been exceeded:
