@@ -1,5 +1,5 @@
 ---
-title: Known issues that affect installation
+title: Known issues that affect xdebug installation
 labels: Apache,PHP,exception,extension,fatal error,how to,xdebug,Admin
 ---
 
