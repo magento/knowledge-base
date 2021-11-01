@@ -43,7 +43,7 @@ A configurable product with at least two variations.
 
 * Both invoices are created successfully.
 * `qty_invoiced` is not updated against one of the invoices in the `sales_order_item` table.
-* In the admin order view page, the invoices quantity is displayed only for one product.
+* In the Admin's **Order View** page, the invoices quantity is displayed only for one product.
 
 ## Apply the patch
 
