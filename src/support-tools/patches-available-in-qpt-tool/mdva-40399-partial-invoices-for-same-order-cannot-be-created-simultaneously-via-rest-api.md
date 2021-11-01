@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40399: Partial invoices for same order cannot be created simultaneously via Rest API"
+title: "MDVA-40399: Partial invoices for same order can't be created simultaneously via API"
 labels: support tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.4,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
