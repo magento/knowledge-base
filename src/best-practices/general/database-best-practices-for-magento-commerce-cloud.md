@@ -1,13 +1,13 @@
 ---
-title: Database best practices for Magento Commerce Cloud
-labels: Magento Commerce Cloud,MySQL,Pro,Starter,best practices,database,ece-tools,lock,performance,triggers
+title: Database best practices for Adobe Commerce on cloud infrastructure
+labels: Magento Commerce Cloud,MySQL,Pro,Starter,best practices,database,ece-tools,lock,performance,triggers,Adobe Commerce,cloud infrastructure
 ---
 
 >![warning]
 >
-> [MySQL catalog search engine will be removed in Magento 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0) . You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) .
+> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
-This article explains how to improve performance of your Magento Commerce Cloud store by working efficiently with the database. The recommendations are relevant for both, Starter and Pro plan customers.
+This article explains how to improve the performance of your Adobe Commerce on cloud infrastructure store by working efficiently with the database. The recommendations are relevant for both Starter architecture and Pro architecture customers.
 
 Click on the links below to see recommendations:
 
@@ -21,7 +21,7 @@ Click on the links below to see recommendations:
 
 <h2 id="convert">Convert all MyISAM tables to InnoDb</h2>
 
-Magento recommends using the InnoDb database engine, and in the out-of-the-box Magento installation all tables in the database are stored using the InnoDb engine. However, some third-party modules (extensions) can introduce tables in the MyISAM format. After you install a third-party module, you should check the database to identify any tables in MyISAM format and convert them to InnoDb.
+Adobe recommends using the InnoDb database engine, and in the out-of-the-box Adobe Commerce installation, all tables in the database are stored using the InnoDb engine. However, some third-party modules (extensions) can introduce tables in the MyISAM format. After you install a third-party module, you should check the database to identify any tables in MyISAM format and convert them to InnoDb.
 
 ### Determine if you have MyISAM tables
 
@@ -37,9 +37,9 @@ SELECT table_schema, CONCAT(ROUND((index_length+data_length)/1024/1024),'MB')
 
 <h3 id="change_innodb">Change the storage engine to InnoDb</h3>
 
-In the `db_schema.xml` file declaring the table, set the `engine` attribute value for the corresponding `table` node to `innodb` . For reference, see [Configure declarative schema>table node](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/db-schema.html#table-node) .
+In the `db_schema.xml` file declaring the table, set the `engine` attribute value for the corresponding `table` node to `innodb`. For reference, see [Configure declarative schema > table node](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/db-schema.html#table-node) in our developer documentation.
 
-The declarative scheme was introduced in Magento Commerce Cloud version 2.3
+The declarative scheme was introduced in Adobe Commerce on cloud infrastructure version 2.3.
 
 Related reading:
 
@@ -47,7 +47,7 @@ Related reading:
 
 <h2 id="ElasticSearch">Use ElasticSearch instead of native MySQL search</h2>
 
-Magento recommends replacing the default [MySQL search engine](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0) in Magento Commerce Cloud with Elasticsearch, because Elasticsearch is a better performing search engine than the MySQL search engine.
+Adobe recommends replacing the default [MySQL search engine](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0) in Adobe Commerce on cloud infrastructure with Elasticsearch, because Elasticsearch is a better performing search engine than the MySQL search engine.
 
 To determine which search engine is currently in use, run the following command:
 
@@ -55,22 +55,22 @@ To determine which search engine is currently in use, run the following command:
 ./bin/magento config:show catalog/search/engine
 ```
 
-To enable and configure the Elasticsearch engine, see the [Configure Magento to use Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html) instructions in Magento Developer documentation.
+To enable and configure the Elasticsearch engine, see the [Configure Adobe Commerce to use Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html) instructions in our developer documentation.
 
 <h2 id="Triggers">Avoid custom triggers</h2>
 
 Avoid using custom triggers if possible.
 
-Triggers are used to log changes into audit tables. Magento recommends configuring the application to write directly to the audit tables instead of using the trigger functionality for these reasons:
+Triggers are used to log changes into audit tables. Adobe recommends configuring the application to write directly to the audit tables instead of using the trigger functionality for these reasons:
 
 * Triggers are interpreted as code and MySQL does not precompile them. Hooking onto your query’s transaction space, they add the overhead to a parser and interpreter for each query performed with the table.
 * The triggers share the same transaction space as the original queries, and while those queries compete for locks on the table, the triggers independently compete on locks on another table.
 
-To learn about alternatives to using custom triggers, refer to KB [Best Practice triggers usage](https://support.magento.com/hc/en-us/articles/360048050352) .
+To learn about alternatives to using custom triggers, refer to [Best Practice triggers usage](https://support.magento.com/hc/en-us/articles/360048050352) in our support knowledge base.
 
 <h2 id="ECE-Tools">Upgrade ECE-Tools to version 2002.0.21 or higher</h2>
 
-To avoid potential issues with cron deadlocks, upgrade ECE-Tools to version 2002.0.21 or higher. For instructions, see [Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in the Magento Developer documentation.
+To avoid potential issues with cron deadlocks, upgrade ECE-Tools to version 2002.0.21 or higher. For instructions, see [Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in our developer documentation.
 
 <h2 id="indexer">Switch indexer mode safely</h2>
 
@@ -78,9 +78,9 @@ Switching indexers generates DDL statements to create triggers and can cause dat
 
 Follow the process below to switch an indexer mode in a way that prevents creating locks:
 
-1. Enable maintenance mode. For instructions refer to [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) in Magento Developer Documentation.
-1. Disable cron. For instructions refer to [Set up cron jobs > Disable cron jobs](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#disable-cron-jobs) in Magento Developer Documentation.
-1. Switch indexer mode. For information refer to [Manage the indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html) in Magento Developer Documentation.
+1. Enable maintenance mode. For instructions, refer to [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) in our developer documentation.
+1. Disable cron. For instructions, refer to [Set up cron jobs > Disable cron jobs](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#disable-cron-jobs) in our developer documentation.
+1. Switch indexer mode. For information, refer to [Manage the indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html) in our developer documentation.
 1. Enable cron.
 1. Disable maintenance mode.
 
@@ -93,8 +93,8 @@ If you need to run a DDL statement, put the website to maintenance mode and disa
 ### Enable order archiving
 
 Sales tables might take a lot of space overtime, so enabling archiving would save MySQL disk space and improve checkout performance.
-To enable the feature, follow the instructions in [Archive > To enable archiving](https://docs.magento.com/user-guide/sales/order-archive.html#to-enable-archiving) in Magento User Guide.
+To enable the feature, follow the instructions in [Archive > To enable archiving](https://docs.magento.com/user-guide/sales/order-archive.html#to-enable-archiving) in our user guide.
 
 ## Related reading
 
- [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651)
+[Most common database issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.
