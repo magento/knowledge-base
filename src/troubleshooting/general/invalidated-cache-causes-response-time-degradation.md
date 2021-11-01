@@ -56,5 +56,5 @@ Usually, the cache becomes invalidated because of the following:
 
 ## Recommendation
 
-1. Avoid flushing cache from Adobe Commerce CLI.
+1. Avoid flushing cache from the Commerce CLI.
 1. Configure indexers to **Update by schedule** instead of **Update on save mode** because the latter triggers full reindexing. For reference, see [Manage the indexers > Configure indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) in our developer documentation.
