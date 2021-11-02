@@ -52,7 +52,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 
 1. Please select the Adobe Commerce Product for which you are seeking Support.
 1. Complete the first four (Product, Organization, Implementation type, Subject) fields.
-1. Select *Surge Contact Request* in the **Contact Reason** drop down options. Click **OK** on the pop-up message requesting 48 hours' notice for temporary additional cloud capacity requests.
+1. Select *Surge Contact Request* in the **Contact Reason** drop down options. Click **OK** on the pop-up message requesting 48 business hours' notice for temporary additional cloud capacity requests.
 1. Complete the next four fields.
 1. Select from the **Surge Capacity Request Type** dropdown options. Note: please select *Holiday Surge Request* for all Holiday upsizing to ensure these tickets are routed properly.
 1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date.** The preferred **Resize**   **Start Time** is also a mandatory field.
