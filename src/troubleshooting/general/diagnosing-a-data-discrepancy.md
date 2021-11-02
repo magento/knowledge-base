@@ -1,6 +1,6 @@
 ---
 title: Diagnosing a data discrepancy
-labels: Magento Business Intelligence,data discrepancies,troubleshooting
+labels: Magento Business Intelligence,MBI,report,data discrepancies,troubleshooting,how to
 ---
 
 This article provides solutions for troubleshooting discrepancies between an MBI report and a query or third-party report.
@@ -21,8 +21,8 @@ Depending on the complexity of your analysis, generating the corresponding MBI r
     * [Groupings](https://support.magento.com/hc/en-us/articles/360016730831-Create-analyses-using-the-Report-Builder#groupsegment)
     * [Perspectives](https://support.magento.com/hc/en-us/articles/360016730831-Create-analyses-using-the-Report-Builder#filtersperspectivetime)
     * [Time options](https://support.magento.com/hc/en-us/articles/360016730831-Create-analyses-using-the-Report-Builder#settime)
-    * For [cohort analysis](https://support.magento.com/hc/en-us/articles/360016504632-Create-cohort-analysis): Cohort date.
-    * For [cohort analysis](https://support.magento.com/hc/en-us/articles/360016504632-Create-cohort-analysis): Cohort perspective.
+    * For [cohort analysis](https://support.magento.com/hc/en-us/articles/360016504632-Create-cohort-analysis): Cohort date
+    * For [cohort analysis](https://support.magento.com/hc/en-us/articles/360016504632-Create-cohort-analysis): Cohort perspective
 1. If the discrepancy involves recent data, confirm the latest available data point by consulting the **Update Details** section on the Connections page.
 1. If a metric used in the analysis is built on a table from your database where rows are ever deleted from that table, confirm with the MBI Support Team that the table is being checked for deleted rows, as well as the frequency of the recheck and the [replication method](https://support.magento.com/hc/en-us/articles/360016731631-Best-practice-Optimizing-your-database-for-analysis) for the table.
 1. Similarly, if columns used in the analysis can be modified after a row is added, confirm with support that these columns are being [checked for modifications](https://support.magento.com/hc/en-us/articles/360016506452-Configuring-data-rechecks), as well as the frequency of the recheck.
