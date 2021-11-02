@@ -29,7 +29,7 @@ Discount on a bundled product is not applied correctly via GraphQL.
 1. Create an empty cart via GraphQL.
 1. Add a bundled product to the cart via GraphQL.
 1. Apply the coupon code on the fixed amount (5$) via GraphQL.
-1. Get the cart information via GraphQl.
+1. Get the cart information via GraphQL.
 
 <ins>Expected results</ins>:
 
