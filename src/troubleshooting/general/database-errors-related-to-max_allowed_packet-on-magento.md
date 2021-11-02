@@ -7,11 +7,11 @@ This article provides a solution for database connection errors in the `var/log/
 
 ## Affected products and versions
 
-* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Issue
 
-When a MySQL client or the [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server receives a packet bigger than [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes, it issues an [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) error (which can be seen in the `exception.log`) and closes the connection. With some clients, you may also get a *Lost connection to MySQL server during query error* if the communication packet is too large.
+When a MySQL client or the [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server receives a packet bigger than [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes, it issues an [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) error (which can be seen in the `exception.log`) and closes the connection. With some clients, you may also get a *Lost connection to MySQL server during query* error if the communication packet is too large.
 
 <span class="wysiwyg-underline">Steps to reproduce</span>
 
@@ -35,5 +35,5 @@ The default value of 16MB for the MySQL `max_allowed_packets` setting is not lar
 
 * [Installation Guide > MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=max%20allowed%2016%20MB) in our developer documentation.
 * [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172) in our support knowledge base.
-* [Database best practices for Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041997312) in our support knowledge base.
-* [Most common database issues in Magento Commerce Cloud](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.
+* [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312) in our support knowledge base.
+* [Most common database issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.
