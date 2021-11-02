@@ -11,7 +11,7 @@ By default, Fastly hides all Adobe Commerce errors behind the **503 Service Unav
 
 Once you see the authentic Adobe Commerce error and the error report number, you may get details in the error report file by following these steps:
 
-1. SSH to the affected environment. Refer [SSH to an environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in our developer documentation.
+1. SSH to the affected environment. Refer to [SSH to an environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in our developer documentation.
 1. Locate the `./var/report/{error_number}` file.
 
 ## Add application domain and IP address to your hosts file: detailed steps
