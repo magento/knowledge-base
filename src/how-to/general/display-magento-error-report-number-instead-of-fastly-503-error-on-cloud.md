@@ -17,11 +17,11 @@ Once you see the authentic Adobe Commerce error and the error report number, you
 ## Add application domain and IP address to your hosts file: detailed steps
 
 1. Check the server IP of your store by executing the `nslookup` command in the command line on your local machine:
-    * Pro plan architecture users (Staging and Production environments):
+    * Pro architecture users (Staging and Production environments):
     ```clike
     nslookup {your_project_id}.ent.magento.cloud
     ```    
-    * Starter plan architecture users (all environments); Pro plan architecture users (Integration environment):
+    * Starter architecture users (all environments); Pro architecture users (Integration environment):
     ```clike
     nslookup gw.{your_region}.magentosite.cloud
     ```    
