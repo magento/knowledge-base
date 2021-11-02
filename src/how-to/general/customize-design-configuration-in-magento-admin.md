@@ -1,5 +1,5 @@
 ---
-title: Customize design configuration in Commerce Admin
+title: Customize design configuration in the Commerce Admin
 labels: 2.0,2.1.x,Magento Commerce,Magento Commerce Cloud,admin,configuration,content,custom,design,how to,magento,store,stores,Adobe Commerce
 ---
 
