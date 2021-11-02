@@ -29,7 +29,7 @@ Generate a large number of customers (more than 3 million).
 
 <ins>Steps to reproduce</ins>:
 
-1. Create customer segment and try to save it.
+1. Create a customer segment and try to save it.
 
 <ins>Expected results</ins>:
 
