@@ -34,7 +34,7 @@ Enabled and configured PayPal Express Checkout.
 1. It will redirect to paypal/express/review/ page.
 1. Place order. You will be redirected to Success Page.
 1. Go back to PayPal/express/review/ Page.
-1. Click on **Place Order** button.
+1. Click on the **Place Order** button.
 
 <ins>Expected results</ins>:
 
