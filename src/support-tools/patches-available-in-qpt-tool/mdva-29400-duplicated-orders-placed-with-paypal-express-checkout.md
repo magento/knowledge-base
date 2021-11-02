@@ -21,7 +21,7 @@ The MDVA-29400 patch solves the issue where duplicated orders are created when c
 
 ## Issue
 
-Duplicated orders are created when users placed orders with PayPal Express Checkout.
+Duplicated orders are created when users place orders with PayPal Express Checkout.
 
 <ins>Prerequisites</ins>:
 
