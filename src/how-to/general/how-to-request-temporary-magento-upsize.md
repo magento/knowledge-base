@@ -54,7 +54,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 1. Complete the first four (Product, Organization, Implementation type, Subject) fields.
 1. Select *Surge Contact Request* in the **Contact Reason** drop down options. Click **OK** on the pop-up message requesting 48 hours' notice for temporary additional cloud capacity requests.
 1. Complete the next four fields.
-1. Select from the **Surge Capacity Request Type** dropdown options.Note: please select *Holiday Surge Request* for all Holiday upsizing to ensure these tickets are routed properly.
+1. Select from the **Surge Capacity Request Type** dropdown options. Note: please select *Holiday Surge Request* for all Holiday upsizing to ensure these tickets are routed properly.
 1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date.** The preferred **Resize**   **Start Time** is also a mandatory field.
 1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
