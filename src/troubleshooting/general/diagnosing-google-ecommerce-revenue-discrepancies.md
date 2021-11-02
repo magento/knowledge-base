@@ -1,6 +1,6 @@
 ---
 title: Diagnosing Google eCommerce revenue discrepancies
-labels: Google eCommerce,Magento Business Intelligence,troubleshooting
+labels: Google eCommerce,Analytics,Report,Magento Business Intelligence,MBI,troubleshooting,orders,revenue,data discrepancies
 ---
 
 This article provides solutions for discrepancies between Google and MBI. Google eCommerce tracking brings power to both your Google Analytics account and your MBI dashboards, but it results in many clients asking us: Should both tools report the same amount of **orders** and **revenue**?
