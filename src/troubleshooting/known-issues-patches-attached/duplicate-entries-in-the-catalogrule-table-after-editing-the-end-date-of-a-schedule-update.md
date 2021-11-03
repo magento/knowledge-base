@@ -1,5 +1,5 @@
 ---
-title: Duplicate entries in the catalog rule table after editing the end date of a schedule update
+title: Duplicate entries in the catalogrule table after editing the end date of a schedule update
 labels: 2.2.3,Magento Commerce,catalog price,duplicate entry,known issues,indexer,reindex,patch,troubleshooting,Pro,Starter,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
