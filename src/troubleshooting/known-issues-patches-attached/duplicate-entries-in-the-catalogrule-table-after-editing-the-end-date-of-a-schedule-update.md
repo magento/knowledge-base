@@ -1,6 +1,6 @@
 ---
 title: Duplicate entries in the catalog rule table after editing the end date of a schedule update
-labels: 2.2.3,Magento Commerce,duplicate entry,known issues,patch,troubleshooting,Pro,Starter,Adobe Commerce,cloud infrastructure,on-premises
+labels: 2.2.3,Magento Commerce,catalog price,duplicate entry,known issues,indexer,reindex,patch,troubleshooting,Pro,Starter,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `catalogrule` table and errors in the `catalogrule_rule` (Catalog rule product) indexer reindex.
@@ -78,7 +78,7 @@ Take these steps to locate the duplicated entries and delete them:
     ```sql
     DELETE FROM catalog_product_entity WHERE entity_id = 483 AND row_id = 2052;
     ```    
-1. Clean cache by running
+1. Clean cache by running:
     ```bash
     bin/magento cache:clean
     ```   
