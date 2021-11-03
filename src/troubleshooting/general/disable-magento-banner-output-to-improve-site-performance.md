@@ -11,8 +11,8 @@ This article provides a fix for low site performance. Low site performance can b
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure, v.2.x.x
-* Adobe Commerce on-premises, v.2.2.x, 2.3.x
+* Adobe Commerce on cloud infrastructure v.2.x.x
+* Adobe Commerce on-premises v.2.2.x and 2.3.x
 
 ## Issue
 
