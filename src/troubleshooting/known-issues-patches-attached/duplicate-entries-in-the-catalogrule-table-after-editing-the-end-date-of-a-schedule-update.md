@@ -39,7 +39,7 @@ The patch was created for:
 
 * Adobe Commerce 2.2.3
 
-The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+The patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
 * Adobe Commerce on cloud infrastructure 2.2.1 - 2.2.5
 * Adobe Commerce on-premises 2.2.1 - 2.2.2, and 2.2.4 - 2.2.5
