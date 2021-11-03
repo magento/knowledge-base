@@ -1,9 +1,9 @@
 ---
 title: Download fails because of changes in Composer
-labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,composer,download,how to,self-update
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,composer,download,how to,self-update,Adobe Commerce
 ---
 
-This article provides a fix for a failed Magento download and exception error.
+This article provides a fix for a failed Adobe Commerce download and exception error.
 
 <h3 id="symptom">Issue</h3>
 
@@ -16,7 +16,7 @@ During download, the following error displays:
 
 <h3 id="symptom">Cause</h3>
 
-This happens because of changes in certain versions of Composer. The workaround is to downgrade Composer to an earlier version and try your Magento download again.
+This happens because of changes in certain versions of Composer. The workaround is to downgrade Composer to an earlier version and try your Adobe Commerce download again.
 
 ### Solution
 
@@ -36,10 +36,9 @@ Note the date is 2015-11-25, which indicates Composer has this issue.
 
 To work around it:
 
-1. Change your version of Composer to enable you to download the Magento software by doing any of the following:    
-    * Downgrade Composer using the following command:    ```php    composer self-update 1.0.0-alpha11    ```    
-    * Upgrade Composer to a version later than November 26, 2015:    ```php    composer self-update    ```    
-1. Delete your Magento 2 directory and subdirectories.    
-1. Try the download again using either `[composer create-project](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)` or `[git clone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/dev_install.html)` .
-1. After successfully downloading the Magento software, update Composer:    ```php    composer self-update    ```    
-
+1. Change your version of Composer to enable you to download the Adobe Commerce software by doing any of the following:    
+    * Downgrade Composer using the following command: `composer self-update 1.0.0-alpha11`.    
+    * Upgrade Composer to a version later than November 26, 2015: `composer self-update`.
+1. Delete your Adobe Commerce directory and subdirectories.    
+1. Try the download again using either `[composer create-project](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)` or `[git clone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/dev_install.html)`.
+1. After successfully downloading the Adobe Commerce software, update Composer: `composer self-update`.    
