@@ -1,6 +1,6 @@
 ---
 title: During installation, PHP date warning
-labels: PHP,date,how to,timezone,warning
+labels: PHP,date,how to,timezone,warning,Adobe Commerce,Magento,installation,Adobe Commerce
 ---
 
 This article provides a fix for a PHP date warning during installation.
@@ -15,4 +15,4 @@ PHP Warning:  date(): It is not safe to rely on the system's timezone settings. 
 
 <h3 id="solution">Solution</h3>
 
-Set the [PHP timezone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) properly.
+Check the PHP time zone setting carefully. Refer to [Installation Guide > PHP Settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) in our developer documentation.
