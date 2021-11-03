@@ -3,7 +3,7 @@ title: Diagnosing a data discrepancy
 labels: Magento Business Intelligence,MBI,report,data discrepancies,troubleshooting,how to
 ---
 
-This article provides solutions for troubleshooting discrepancies between an MBI report and a query or third-party report.
+This article provides solutions for troubleshooting discrepancies between a Magento Business Intelligence (MBI) report and a query or third-party report.
 
 Depending on the complexity of your analysis, generating the corresponding MBI report may require familiarity with a number of different facets of the platform. This checklist and the related links will help you understand the logic behind your report, allowing you to identify the source of any discrepancies.
 
