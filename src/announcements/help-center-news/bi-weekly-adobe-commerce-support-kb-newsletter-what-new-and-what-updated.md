@@ -1,6 +1,6 @@
 ---
 title: "Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates"
-labels: announcements,help center,newsletter,published,update,what's new,Magento,Adobe Commerce
+labels: announcements,help center,newsletter,published,update,what's new,Magento,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
  **NEXT UPDATE**: November 12th, 2021.
