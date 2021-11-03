@@ -22,5 +22,5 @@ Please click to get familiar with the article and give us feedback on any articl
 ## UPDATED
 
 1. [2021 Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](https://support.magento.com/hc/en-us/articles/360049580912-2021-Holiday-Surge-Capacity-Requests-for-Adobe-Commerce-on-our-cloud-infrastructure): added info about the Cluster Resize page in OBUI,  where merchants can view their upsizes history and data.
-1. [How to request temporary Adobe Commerce on cloud infrastructure upsize](https://support.magento.com/hc/en-us/articles/360041138511):  added info about the Cluster Resize page in OBUI,  where merchants can view their upsizes history and data
+1. [How to request temporary Adobe Commerce on cloud infrastructure upsize](https://support.magento.com/hc/en-us/articles/360041138511):  added info about the Cluster Resize page in OBUI,  where merchants can view their upsizes history and data.
 1. [Troubleshoot Product Recommendations module in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360042224851): added a step to ensure the SaaS Data Space or API Key are valid.
