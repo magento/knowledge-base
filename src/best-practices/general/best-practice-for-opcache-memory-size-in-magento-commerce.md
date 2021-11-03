@@ -18,7 +18,7 @@ The OPcache module is configured in the `php.ini` file. To allocate 2048MB of me
 
 ## Related reading
 
-Best practices for improving Adobe Commerce on cloud infrastructure site performance in our support documentation:
+Best practices for improving Adobe Commerce on cloud infrastructure site performance in our support knowledge base:
 
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud)
 * [Most common database issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651-Most-common-database-issues-in-Magento-Commerce-Cloud)
