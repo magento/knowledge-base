@@ -8,7 +8,7 @@ labels: 2.3.x,Magento Commerce Cloud,PWA,configuration,how to,npm,Adobe Commerce
 ## Environment and technologies
 
 * Adobe Commerce on cloud infrastructure 2.3.X
-* Magento PWA Studio
+* PWA for Adobe Commerce
 
 ## Set NPM version: steps
 
