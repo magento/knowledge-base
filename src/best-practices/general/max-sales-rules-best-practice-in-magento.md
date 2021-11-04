@@ -1,14 +1,14 @@
 ---
-title: Max sales rules best practice in Magento
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,cart,cart_rules,performance,price
+title: Max sales rules best practice in Adobe Commerce
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,cart,cart_rules,performance,price,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
-The maximum recommended total number of sales rules (cart price rules) for all websites is 1000 in Magento. Having many sales rules can have a negative impact on performance. The limitation is due to needing to validate cart contents against all rules registered in the system to apply the necessary rules.
+The maximum recommended total number of sales rules (cart price rules) for all websites is 1000 in Adobe Commerce. Having many sales rules can have a negative impact on performance. The limitation is due to needing to validate cart contents against all rules registered in the system to apply the necessary rules.
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
@@ -22,8 +22,8 @@ Having too many sales rules will cause degraded performance on the site, includi
 It is best practice to:
 
 * Manage and remove non-used rules.
-* Add strict rule conditions (like attribute or category filter) for increasing efficiency of the matching mechanism. For steps on creating and removing cart price rules, refer to DevDocs' [Magento User guide > Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rules-cart-create.html) .
+* Add strict rule conditions (like attribute or category filter) for increasing efficiency of the matching mechanism. For steps on creating and removing cart price rules, refer to  [Adobe Commerce User guide > Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rules-cart-create.html) in our user guide.
 
 ## Related reading
 
-DevDocs' [Magento User Guide > Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rules-cart.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=access%20price%20rule) .
+[Commerce User Guide > Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rules-cart.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=access%20price%20rule) in our user guide.
