@@ -26,6 +26,7 @@ To copy the encryption key:
 1. SSH to your project that was the source for the database dump, as described in [SSH to environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in our developer documentation.
 1. Open `app/etc/env.php` in a text editor.
 1. Copy the value of `key` for `crypt`.
+
 ```php    
 return array (      'crypt' =>      array (        'key' => '<your encryption key>',       ),    );    
 ```    

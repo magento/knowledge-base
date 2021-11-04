@@ -32,12 +32,14 @@ PHP OPcache settings are typically located either in `php.ini` or `opcache.ini`.
 Use the following guidelines to find it:
 
 * Apache web server:<br>
+
 For Ubuntu with Apache, OPcache settings are typically located in `php.ini`.<br>
 For CentOS with Apache or nginx, OPcache settings are typically located in `/etc/php.d/opcache.ini`.<br>
 If not, use the following command to locate it:    
 ```bash
     $ sudo find / -name 'opcache.ini'
 ```    
+
 * nginx web server with PHP-FPM: `/etc/php5/fpm/php.ini`.    
 
 If you have more than one `opcache.ini`, modify all of them.
@@ -50,9 +52,11 @@ If you have more than one `opcache.ini`, modify all of them.
 1. Make sure its value is set to `1`.
 1. Save your changes and exit the text editor.
 1. Restart your web server:    
+
     * Apache, Ubuntu: `service apache2 restart`
     * Apache, CentOS: `service httpd restart`
     * nginx, Ubuntu, and CentOS: `service nginx restart`
+    
 1. Regenerate DI configuration and all missing classes that can be auto-generated:
 ```bash
     $ bin/magento setup:di:compile`
