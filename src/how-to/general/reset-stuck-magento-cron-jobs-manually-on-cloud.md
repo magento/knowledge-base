@@ -18,6 +18,6 @@ Use this command with caution! We recommend reading the [Reset cron jobs](https:
 * The command resets **all** cron jobs, including those currently running; **use it in exceptional cases only**.
 * Avoid using this solution when indexers are running.
 
-## Read it in our developer documentation
+## Read it in our support knowledge base:
 
  [Reset cron jobs](https://devdocs.magento.com/guides/v2.2/cloud/trouble/reset-cron-jobs.html)
