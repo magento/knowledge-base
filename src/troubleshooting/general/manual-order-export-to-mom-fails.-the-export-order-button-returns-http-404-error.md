@@ -32,7 +32,9 @@ A " *404 Error: Page Not Found* " page is displayed.
 * Upgrade the MOM Connector to 3.4.0 for Adobe Commerce 2.3.x, or MOM Connector 2.5 for Adobe Commerce 2.2.x.
 * If upgrading the MOM Connector is not an option, you can export the order to Magento Order Management using the CLI command:
 
-   ```bash    $bin/magento oms:orders:sync    ```
+```bash
+$bin/magento oms:orders:sync
+```
 
 ## Related reading
 
