@@ -5,13 +5,13 @@ labels: Fastly,Magento Commerce,Magento Commerce Cloud,Varnish,cms,storefront me
 
 This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.
 
- **Cause:** the non-permitted `/` character (slash) in the *URL Key* parameter of the page (Search Engine Optimization settings). The character is usually added when *URL Path* (with entire page location) is mistakenly specified instead of *URL Key* : for example, *blog/page\_name* instead of just *page\_name* .
+ **Cause:** the non-permitted `/` character (slash) in the *URL Key* parameter of the page (Search Engine Optimization settings). The character is usually added when *URL Path* (with entire page location) is mistakenly specified instead of *URL Key*: for example, *blog/page\_name* instead of just *page\_name*.
 
  **Solution:** remove the `/` character (slash); for the *URL Key* parameter, specify only the page name.
 
 ## Affected versions
 
-* Adobe Commerce 2.X.X
+* Adobe Commerce on-premises 2.X.X
 * Adobe Commerce on cloud infrastructure 2.X.X
 * Fastly or Varnish
 
@@ -23,7 +23,7 @@ The Main Menu (also referred to as the [Category Top Navigation menu](https://do
 
 The issue is caused by the non-permitted `/` character (slash), added to the *URL Key* parameter (Search Engine Optimization settings).
 
-The character is usually added when *URL Path* (with entire page location, including the parent resource/directory of the page) is mistakenly specified instead of *URL Key* : for example, *blog/page\_name* instead of just *page\_name* .
+The character is usually added when *URL Path* (with entire page location, including the parent resource/directory of the page) is mistakenly specified instead of *URL Key*: for example, *blog/page\_name* instead of just *page\_name*.
 
 ![URL Key parameter for SEO settings](assets/seo_url_key.png)
 
@@ -31,7 +31,7 @@ The character is usually added when *URL Path* (with entire page location, inclu
 
 Remove the `/` character (slash) from the *URL Key* parameter for all pages of your store.
 
-In other words, use *URL Key* instead of *URL Path* : mention just the page name with no parent resource/directory.
+In other words, use *URL Key* instead of *URL Path*: mention just the page name with no parent resource/directory.
 
 ### Recommendations on page hierarchy and SEO
 
