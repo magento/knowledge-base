@@ -41,7 +41,7 @@ To set the page hierarchy, use the **Hierarchy** section of the Edit Page menu.
 
 You may also use the **Content** > **Elements** > **Hierarchy** menu — for more complex hierarchy solutions.
 
-For SEO purposes on product pages, use URL Rewrites ( **Marketing** > **SEO & Search** > **URL Rewrites** ).
+For SEO purposes on product pages, use URL Rewrites (**Marketing** > **SEO & Search** > **URL Rewrites**).
 
 ## More information in our user guide
 
