@@ -1,6 +1,6 @@
 ---
 title: Resolve an illegal offset error
-labels: Apache,Magento Commerce,Magento Commerce Cloud,OPcache,PHP,error,how to,illegal,offset,Adobe Commerce,cloud infrastructure
+labels: Apache,Magento Commerce,Magento Commerce Cloud,OPcache,PHP,error,how to,illegal,offset,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article provides a solution for when in Adobe Commerce 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Commerce Admin.
