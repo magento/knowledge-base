@@ -1,6 +1,6 @@
 ---
 title: Partner escalation checklist
-labels: Magento, best practices,Adobe Commerce,on-premises,cloud infrastructure,partners
+labels: Magento,best practices,Adobe Commerce,on-premises,cloud infrastructure,partners
 ---
 
 Below are ideas to help you prepare for a Partner escalation with a CSM or to avoid the escalation entirely.
