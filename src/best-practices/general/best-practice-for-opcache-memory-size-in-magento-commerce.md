@@ -1,6 +1,6 @@
 ---
 title: Best practice for OPcache memory size in Adobe Commerce
-labels: 2.3.x,Magento Commerce Cloud,OPcache,PHP 7.0,Pro,best practices,memory,performance,php.ini,Adobe Commerce,on-premises,cloud infrastructure,Pro plan architecture
+labels: 2.3.x,Magento Commerce Cloud,OPcache,PHP 7.0,Pro,best practices,memory,performance,php.ini,Adobe Commerce,cloud infrastructure,Pro plan architecture
 ---
 
 For Adobe Commerce on cloud infrastructure Pro plan architecture 2.3.x, it is recommended to set `opcache.memory_consumption` to at least 2GB, to avoid performance degradation.
