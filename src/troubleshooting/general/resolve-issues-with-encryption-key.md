@@ -28,7 +28,7 @@ To copy the encryption key:
 1. Copy the value of `key` for `crypt`.
 
 ```php    
-return array (      'crypt' =>      array (        'key' => '<your encryption key>',       ),    );    
+return array ('crypt' =>      array ('key' => '<your encryption key>', ),);    
 ```    
 
 To set the key value for the destination project:
