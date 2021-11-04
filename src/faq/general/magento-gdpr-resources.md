@@ -12,7 +12,7 @@ The [official homepage](https://magento.com/gdpr) for all Adobe Commerce GDPR re
 ## Official Adobe Commerce statements
 
 * GDPR and Adobe Commerce: New Steps to Protect Privacy in 2018 ([PDF](https://magento.com/sites/default/files/Magento-GDPR-Overview.pdf))
-* Adobe Commerce GDPR Frequently Asked Questions ( [PDF](https://magento.com/sites/default/files/Magento-GDPR-FAQs.pdf) )
+* Adobe Commerce GDPR Frequently Asked Questions ([PDF](https://magento.com/sites/default/files/Magento-GDPR-FAQs.pdf))
 
 ## GDPR compliance in our developer documentation: Adobe Commerce 2.X and 1.X
 
