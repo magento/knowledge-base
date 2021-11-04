@@ -56,8 +56,9 @@ If you have more than one `opcache.ini`, modify all of them.
     * Apache, Ubuntu: `service apache2 restart`
     * Apache, CentOS: `service httpd restart`
     * nginx, Ubuntu, and CentOS: `service nginx restart`
-    
+
 1. Regenerate DI configuration and all missing classes that can be auto-generated:
+
 ```bash
     $ bin/magento setup:di:compile`
 ```    
