@@ -3,7 +3,7 @@ title: Partner escalation checklist
 labels: Magento, best practices,Adobe Commerce,on-premises,cloud infrastructure,partners
 ---
 
-Below are some ideas to help you to prepare for a Partner escalation with a CSM, or even solve the situation, and avoid the escalation entirely.
+Below are ideas to help you prepare for a Partner escalation with a CSM or to avoid the escalation entirely.
 We understand that each situation is unique, and may not be applicable to some of the checklist items listed below. But we find that when customers approach their CSM with a grasp on these concepts, it typically expedites this process and leads to speedier resolutions:
 
 * **Consider scope**: If you’re unhappy with the deliverables, or feel like deliverables haven’t been met, we encourage you to revisit the scope document provided by your Partner. Similarly, if deliverables have been added, consider how this might impact your timeline.
