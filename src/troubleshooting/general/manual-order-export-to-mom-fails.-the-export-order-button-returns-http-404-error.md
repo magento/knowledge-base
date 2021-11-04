@@ -17,7 +17,7 @@ This article discusses how to fix an issue, where trying to export an order to M
 1. In the Commerce Admin, click **Sales > Orders**.
 1. Click the **Create New Order** button.
 1. Select a user, add an item(s), select payment and shipping methods, and then click the **Submit Order** button.
-1. Click the **Export Order** button and then **OK** .
+1. Click the **Export Order** button and then **OK**.
 
 <ins>Expected result</ins>:
 
