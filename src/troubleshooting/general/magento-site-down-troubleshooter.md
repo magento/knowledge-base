@@ -77,7 +77,7 @@ Click on each question to reveal the answer details in each step of the troubles
 <div class="zd-accordion-panel">
 <h5>Step 14</h5>
 <div class="zd-accordion-section">Do you have post-hook failures?</div>
-<p class="zd-accordion-text">a. YES – Proceed with checking your MySQL error in this<a href="https://dev.mysql.com/doc/refman/5.5/en/server-error-reference.html">MySQL server error message reference</a>.b. NO – Proceed to<a class="accordion-anchor" href="#zd-accordion-15">Step 15</a>.</p>
+<p class="zd-accordion-text">a. YES – Proceed with checking your MySQL error in this<a href="https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html">MySQL server error message reference</a>.b. NO – Proceed to<a class="accordion-anchor" href="#zd-accordion-15">Step 15</a>.</p>
 </div>
 <div class="zd-accordion-panel">
 <h5>Step 15</h5>
@@ -95,8 +95,8 @@ Click on each question to reveal the answer details in each step of the troubles
 <p class="zd-accordion-text">a. YES – Proceed with checking for MySQL dead locks in this<a href="https://support.magento.com/hc/en-us/articles/360031622211">Deadlocks in MySQL</a>article.b. NO – Open a<a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a>for further investigation.</p>
 </div>
 </div>
- 
- [Back to Step 1](#zd-accordion-1) 
 
- 
+ [Back to Step 1](#zd-accordion-1)
+
+
 Click [HERE](https://support.magento.com/hc/en-us/articles/360031107111) to see the Site Down Troubleshooting Flowchart.
