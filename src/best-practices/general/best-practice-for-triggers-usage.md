@@ -29,7 +29,7 @@ This additional overhead can have a negative performance on the site if many tri
 To avoid an issue with triggers negatively impacting performance follow these best practices:
 
 * If you have custom triggers that write some data when the trigger is executed, move this logic to write directly to the audit tables instead. For example, by adding an additional query in the application code, after the query you aimed to create the trigger for.
-* Review existing custom triggers and consider removing them and writing directly to the tables from the application side. You can check for existing triggers in your database by following steps in [MySQL 8.0 Reference Manual >  SHOW TRIGGERS Statement](https://dev.mysql.com/doc/refman/8.0/en/show-triggers.html)  ** [.](https://dev.mysql.com/doc/refman/8.0/en/show-triggers.html)**
+* Review existing custom triggers and consider removing them and writing directly to the tables from the application side. You can check for existing triggers in your database by following steps in [MySQL 8.0 Reference Manual >  SHOW TRIGGERS Statement](https://dev.mysql.com/doc/refman/8.0/en/show-triggers.html).
 * If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
 ## Related reading
