@@ -1,9 +1,9 @@
 ---
 title: "MDVA-30977: missing products from categories, indexing related"
-labels: 2.3.4,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,category,products,support tools, cloud infrastructure,on-premises
+labels: 2.3.4,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,category,products,support tools,cloud infrastructure,on-premises
 ---
 
-The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in  Adobe Commerce 2.4.2.
+The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -11,8 +11,7 @@ The patch was created for Adobe Commerce on cloud infrastructure 2.3.4. It is al
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches
-    status`
+>Note: the patch can be applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`
 
 ## Issues
 
@@ -22,13 +21,11 @@ The number of products displayed on the category page on the storefront is diffe
 
  <span class="wysiwyg-underline">Steps to reproduce:</span>
 
-1. Create at least 30000 products in two categories - at least 15000 products in each category.2. Go to **Catalog** > **Products** in Magento Admin.3. Select all products from the grid and perform a mass attribute update. For example, set **New** = *Yes* attribute.4. Run Magento cron job using the
-
-```cli
-bin/magento cron:run
-```
-
-command twice.5. Refresh category pages on Storefront while Magento performs 30000 products update.
+1. Create at least 30000 products in two categories - at least 15000 products in each category.
+1. Go to **Catalog** > **Products** in the Commerce Admin.
+1. Select all products from the grid and perform a mass attribute update. For example, set **New** = *Yes* attribute.4. Run Magento cron job using the `
+bin/magento cron:run`command twice.
+1. Refresh category pages on Storefront while Adobe Commerce performs 30000 products update.
 
  <span class="wysiwyg-underline">Expected result:</span>
 
@@ -42,19 +39,23 @@ The number of products in categories is different on each category page refresh.
 
 When the full reindex of the inventory is executed, category pages become empty and the *We can't find products matching the selection* message is displayed.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 1. Configure Magento with Elasticsearch.2. Add a new website.3. Create a new source and assign it to the new website using Manage stock.4. Create 30000 configurable products.5. Assign all the products to the new website and also add inventory to the new inventory source.6. Execute a full reindex.7. Execute the inventory reindex by running
+ <span class="wysiwyg-underline">Steps to reproduce:</span> 
+1. Configure Adobe Commerce with Elasticsearch.
+1. Add a new website.
+1. Create a new source and assign it to the new website using Manage stock.
+1. Create 30000 configurable products.
+1. Assign all the products to the new website and also add inventory to the new inventory source.
+1. Execute a full reindex.
+1. Execute the inventory reindex by running `bin/magento indexer:reindex inventory`
+1. Browse a category with big number of products.
 
-```cli
-bin/magento indexer:reindex inventory
-```
-
-.8. Browse a category with big number of products.
-
- <span class="wysiwyg-underline">Expected result:</span>
+<span class="wysiwyg-underline">Expected result:</span>
 
 Category pages display products as usual during reindex.
 
- <span class="wysiwyg-underline">Actual result:</span> Category pages become empty during reindex.
+<span class="wysiwyg-underline">Actual result:</span> 
+
+Category pages become empty during reindex.
 
  ## Apply the patch
 
