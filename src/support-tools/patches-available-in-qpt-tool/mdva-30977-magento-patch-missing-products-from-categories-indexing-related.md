@@ -23,8 +23,8 @@ The number of products displayed on the category page on the storefront is diffe
 
 1. Create at least 30000 products in two categories - at least 15000 products in each category.
 1. Go to **Catalog** > **Products** in the Commerce Admin.
-1. Select all products from the grid and perform a mass attribute update. For example, set **New** = *Yes* attribute.4. Run Magento cron job using the `
-bin/magento cron:run`command twice.
+1. Select all products from the grid and perform a mass attribute update. For example, set **New** = *Yes* attribute.
+1. Run Magento cron job using the `bin/magento cron:run` command twice.
 1. Refresh category pages on Storefront while Adobe Commerce performs 30000 products update.
 
 <span class="wysiwyg-underline">Expected result:</span>
