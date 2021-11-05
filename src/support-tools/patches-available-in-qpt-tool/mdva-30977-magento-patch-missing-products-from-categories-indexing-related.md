@@ -19,7 +19,7 @@ The patch was created for Adobe Commerce on cloud infrastructure 2.3.4. It is al
 
 The number of products displayed on the category page on the storefront is different after each page reload during mass product update.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+<span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Create at least 30000 products in two categories - at least 15000 products in each category.
 1. Go to **Catalog** > **Products** in the Commerce Admin.
@@ -27,11 +27,11 @@ The number of products displayed on the category page on the storefront is diffe
 bin/magento cron:run`command twice.
 1. Refresh category pages on Storefront while Adobe Commerce performs 30000 products update.
 
- <span class="wysiwyg-underline">Expected result:</span>
+<span class="wysiwyg-underline">Expected result:</span>
 
 The number of products in categories is always 15000 on each category page refresh.
 
- <span class="wysiwyg-underline">Actual result:</span>
+<span class="wysiwyg-underline">Actual result:</span>
 
 The number of products in categories is different on each category page refresh.
 
@@ -39,7 +39,8 @@ The number of products in categories is different on each category page refresh.
 
 When the full reindex of the inventory is executed, category pages become empty and the *We can't find products matching the selection* message is displayed.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+<span class="wysiwyg-underline">Steps to reproduce:</span> 
+
 1. Configure Adobe Commerce with Elasticsearch.
 1. Add a new website.
 1. Create a new source and assign it to the new website using Manage stock.
