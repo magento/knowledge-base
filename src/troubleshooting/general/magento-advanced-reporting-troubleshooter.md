@@ -14,9 +14,16 @@ Advanced Reporting issues on Magento can be solved using the Advanced Reporting 
 <div class="zd-accordion">
 <div class="zd-accordion-panel">
 <h5>Step 2</h5>
-<div class="zd-accordion-section">Is multiple currency being used (in orders and configuration)? Run this command:<code>php bin/magento config:show currency | grep 'currency/options'</code>
+<div class="zd-accordion-section">Are multiple base currencies currently being used (in orders and configuration)? Run this command:<code>php bin/magento config:show currency/options/base</code>
 </div>
-<p class="zd-accordion-text">a. YES – You cannot use Advanced Reporting, as we only support one currency. b. NO –  Output shows only one currency. Example:<code>currency/options/base - USD</code>   <code>currency/options/default - USD</code>   <code>currency/options/allow - USD</code>Proceed to<a class="accordion-anchor" href="#zd-accordion-3">Step 3</a>.</p>
+<p class="zd-accordion-text">a. YES – You cannot use Advanced Reporting, as we only support one currency. b. NO –  Output shows only one currency. Example:<code>USD</code>Proceed to<a class="accordion-anchor" href="#zd-accordion-2a">Step 2a</a>.</p>
+</div>
+<div class="zd-accordion">
+<div class="zd-accordion-panel">
+<h5>Step 2a</h5>
+<div class="zd-accordion-section">Have multiple base currencies ever been used (in orders)? Run this SQL command:<code>select distinct base_currency_code from sales_order;</code> **NOTE: This command requires a full table scan, so for tables with high numbers of records, this could have a performance impact whilst the query is executing**
+</div>
+<p class="zd-accordion-text">a. YES – You cannot use Advanced Reporting, as we only support one currency. b. NO –  Output shows only one currency. Proceed to<a class="accordion-anchor" href="#zd-accordion-3">Step 3</a>.</p>
 </div>
 <div class="zd-accordion">
 <div class="zd-accordion-panel">
