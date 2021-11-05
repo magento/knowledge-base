@@ -36,17 +36,17 @@ During checkout, the *Sorry, no quotes are available for this order at this time
 
 No error message displayed and flat rate shipping is available.
 
- ## Apply the patch
+## Apply the patch
 
- To apply individual patches, use the following links depending on your deployment method:
+To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 
- ## Related reading
+## Related reading
 
- To learn more about Quality Patches Tool, refer to:
+To learn more about Quality Patches Tool, refer to:
 
 * [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
