@@ -1,6 +1,6 @@
 ---
-title: "MDVA-40545: Only the first node for a page retrieved"
-labels: QPT patches,Quality Patches Tool,MQP,QPT,Adobe Commerce,Magento,cloud infrastructure,on-premises,Support Tools,node,retrieve,filter,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1, 2.3.7p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
+title: "MDVA-40545: Only the first node for a page is retrieved"
+labels: QPT patches,Quality Patches Tool,MQP,QPT,Adobe Commerce,Magento,cloud infrastructure,on-premises,Support Tools,node,retrieve,filter,sub-menu,breadcrums,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1, 2.3.7p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
 The MDVA-40545 patch solves the issue where only the first node for a page is retrieved even if there are more than one node for the same page. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-40545. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
