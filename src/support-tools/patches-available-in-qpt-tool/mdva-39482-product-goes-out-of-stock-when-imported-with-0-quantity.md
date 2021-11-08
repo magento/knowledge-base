@@ -33,7 +33,7 @@ The product goes out of stock if imported with "0" quantity when MSI and backord
 <ins>Steps to reproduce</ins>:
 
 1. Make sure the SKU is **In Stock** and has quantity **24-MB01**.
-1. Import following Stock Sources' CSV. Make sure you select "Stock Sources" in Entity Type:
+1. Import the Stock Sources' CSV. Make sure you select "Stock Sources" in Entity Type:
 
     ```code panel
     sku,qty,out_of_stock_qty
