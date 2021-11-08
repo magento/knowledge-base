@@ -1,6 +1,6 @@
 ---
-title: Magento site down troubleshooter
-labels: Magento Commerce,Magento Commerce Cloud,Troubleshooter,decision,down,how to,site,tree
+title: Adobe Commerce site down troubleshooter
+labels: Magento Commerce,Magento Commerce Cloud,Troubleshooter,decision,down,how to,site,tree,cloud infrastructure,on-premises
 ---
 
 Click on each question to reveal the answer details in each step of the troubleshooter.
@@ -9,7 +9,7 @@ Click on each question to reveal the answer details in each step of the troubles
 <div class="zd-accordion-panel">
 <h5>Step 1</h5>
 <div class="zd-accordion-section">Does https://status.adobe.com show any issues?</div>
-<p class="zd-accordion-text">a. YES – If you checked<a href="https://status.magento.com">Magento Status</a>and it showed an issue, Open a<a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a>for further investigation.b. NO – If you checked<a href="https://status.magento.com">Magento Status</a>and it did not show an issue, Proceed to<a class="accordion-anchor" href="#zd-accordion-2">Step 2</a>.</p>
+<p class="zd-accordion-text">a. YES – If you checked<a href="https://status.adobe.com/products/3350">Adobe Magento Status</a>and it showed an issue, Open a<a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a>for further investigation.b. NO – If you checked<a href="https://status.adobe.com/products/3350">Adobe Magento Status</a>and it did not show an issue, Proceed to<a class="accordion-anchor" href="#zd-accordion-2">Step 2</a>.</p>
 </div>
 <div class="zd-accordion-panel">
 <h5>Step 2</h5>
