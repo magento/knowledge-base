@@ -39,7 +39,7 @@ The product goes out of stock if imported with "0" quantity when MSI and backord
     sku,qty,out_of_stock_qty
     24-MB01,0,-10
     ```
-1. Check product's stock status after the Stock Sources have been imported.
+1. Check the product's stock status after the Stock Sources have been imported.
 
 <ins>Expected results</ins>:
 
