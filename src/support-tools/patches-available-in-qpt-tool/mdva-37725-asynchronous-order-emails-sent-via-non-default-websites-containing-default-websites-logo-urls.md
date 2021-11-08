@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37725: Asynchronous order emails sent via non-default websites containing default website's logo URLs"
+title: "MDVA-37725: Emails sent via non-default sites contain default site's logo URLs"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.4,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premises,cloud infrastructure,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
