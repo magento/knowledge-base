@@ -26,13 +26,13 @@ The product goes out of stock if imported with "0" quantity when MSI and backord
 <ins>Prerequisites</ins>:
 
 1. MSI and sample data must be installed.
-Go to  **Stores** > **Configurations** > **Catalog** > **Inventory**:
+1. Go to **Stores** > **Configurations** > **Catalog** > **Inventory**:
     * Set Backorders to "Allow Qty Below 0"
     * Set Out-of-Stock Threshold to "-10"
 
 <ins>Steps to reproduce</ins>:
 
-1. Make sure the following SKU is **In Stock** and has quantity **24-MB01**.
+1. Make sure the SKU is **In Stock** and has quantity **24-MB01**.
 1. Import following Stock Sources' CSV. Make sure you select "Stock Sources" in Entity Type:
 
     ```code panel
