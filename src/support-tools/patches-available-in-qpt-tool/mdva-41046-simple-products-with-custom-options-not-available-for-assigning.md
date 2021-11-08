@@ -25,13 +25,13 @@ Simple products with custom options are not available for assigning to configura
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a simple product with Customizable Options and set a value for the "configurable attribute".
-    * Use "Color" as the configurable attribute, and select "Yellow" as the color value.
+1. Create a simple product with customizable options and set a value for the configurable attribute.
+    * Use *Color* as the configurable attribute, and select *Yellow* as the color value.
 1. Save the simple product.
 1. Now go to the create configurable product page.
-1. Go through the "Create Configuration" wizard and make sure to select the attribute color as "Yellow".
+1. Go through the "Create configuration" wizard and make sure to select *Yellow* as the attribute color.
 1. Without saving the configurable product, select  "Choose different product" option from the Select dropdown.
-1. This will open a product grid that is filtered by color attribute "Yellow". Now select the simple product that was created previously with "Customizable Options".
+1. This will open a product grid that is filtered by color attribute yellow. Now select the simple product that was created previously with customizable options.
 1. Save the configurable product.
 
 <ins>Expected results</ins>:
