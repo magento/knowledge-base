@@ -26,7 +26,7 @@ The product goes out of stock if imported with "0" quantity when MSI and backord
 <ins>Prerequisites</ins>:
 
 1. MSI and sample data must be installed.
-1. **Stores** > **Configurations** > **Catalog** > **Inventory**:
+Go to  **Stores** > **Configurations** > **Catalog** > **Inventory**:
 
     * Backorders: [Allow Qty Below 0 / Allow Qty Below 0 and Notify Customer]
     * Out-of-Stock Threshold: [-10]
