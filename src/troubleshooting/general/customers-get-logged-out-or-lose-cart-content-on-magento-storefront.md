@@ -36,7 +36,7 @@ To solve the issue, contact the third-party service provider and request their d
 
 ### Temporary workaround
 
-To make your integration work while developers of the third-party service provider resolve the issue, you can set `SameSite` value to *None* . This can be done by configuring headers in Nginx or configuring this parameter via HTTP headers.
+To make your integration work while developers of the third-party service provider resolve the issue, you can set `SameSite` value to *None*. This can be done by configuring headers in Nginx or configuring this parameter via HTTP headers.
 
 >![warning]
 >

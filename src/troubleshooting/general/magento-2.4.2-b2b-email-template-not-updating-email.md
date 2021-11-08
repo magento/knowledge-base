@@ -13,17 +13,21 @@ This article describes a known Adobe Commerce 2.4.2 B2B issue where updating som
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <span class="wysiwyg-underline">Steps to reproduce</span>:
 
 1. Company Admin creates a PO (Purchase Order) in the frontend.
 1. Check the Auto-Approved email. The **customer name** / **currency rate** should be expected values.
-1. Change currency symbol ( **Stores > Configuration > Currency Setup > Currency Options** ) in Admin and company admin name on the Customer Account page.
+1. Change currency symbol (**Stores > Configuration > Currency Setup > Currency Options**) in Admin and company admin name on the Customer Account page.
 1. Customer Admin creates another PO in Admin.
 1. Check the Auto-Approved email.
 
- <span class="wysiwyg-underline">Expected results:</span> The customer name and currency symbol are changed in emails, and have their new values as expected.
+ <span class="wysiwyg-underline">Expected results:</span>
 
- <span class="wysiwyg-underline">Actual results</span> :The customer name and currency symbol are not changed in emails, and have their previous values.
+ The customer name and currency symbol are changed in emails, and have their new values as expected.
+
+ <span class="wysiwyg-underline">Actual results</span>:
+
+ The customer name and currency symbol are not changed in emails, and have their previous values.
 
 ## Workaround
 
