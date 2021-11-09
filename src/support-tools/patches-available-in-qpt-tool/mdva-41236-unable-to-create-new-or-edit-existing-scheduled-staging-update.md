@@ -27,7 +27,7 @@ Users are unable to create new schedules or edit existing ones for products if t
 
 1. Create a product with the Status set to *disable*.
 1. Add a scheduled update to enable this product. Add future start and end dates.
-1. Edit that scheduled update and remove **End Date**.
+1. Edit the scheduled update by removing the **End Date**.
 1. Edit the schedule again and try to add an **End Date**. An error will occur.
 1. Refresh the page and again go to **Edit Scheduled Update**.
 1. Click **Remove from update** > **Delete the update**.
