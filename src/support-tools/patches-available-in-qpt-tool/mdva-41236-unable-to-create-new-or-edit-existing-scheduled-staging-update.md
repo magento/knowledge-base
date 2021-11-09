@@ -21,7 +21,7 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.4.3-p1
 
 ## Issue
 
-Users are unable to create new or edit existing scheduled updates for the product if "End Date" has been previously removed.
+Users are unable to create new schedules or edit existing ones for products if the "End Date" has been previously removed.
 
 <ins>Steps to reproduce</ins>:
 
