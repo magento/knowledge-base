@@ -15,6 +15,7 @@ The MDVA-28993 patch implements the "Minimum should match" functionality and par
  >
  >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
 
+
 ## Issue
 
 When using Elasticsearch 6 for searching SKU that contains a hyphen(-), search returns too many results.

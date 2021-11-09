@@ -1,6 +1,6 @@
 ---
-title: Best practice Magento product variations
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,performance,products
+title: Best practice Adobe Commerce product variations
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,performance,products,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
 This article provides best practices for product variations. Our recommendation is to have not more than 50 variations per product, as performance can be affected.
@@ -14,8 +14,8 @@ Potential site impacts can include:
 
 ## Affected products and versions
 
-* Magento Commerce, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
-* Magento Commerce Cloud, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) 
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
 
@@ -27,8 +27,7 @@ Reduce the number of complex products variations by:
 
 ## Related reading
 
-Refer to:
+Refer to the following articles in our user guide:
 
-* Magento User Guide [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
-* Magento User Guide [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
- 
+* [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
+* [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
