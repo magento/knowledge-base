@@ -37,16 +37,15 @@ Users are unable to create new schedules or edit existing ones for products if t
 
 <ins>Expected results</ins>:
 
-* There is no error in step 4.  The admin is able to update the scheduled update without any error as the schedule is not yet active.
+* There is no error in step 4. The admin is able to update the scheduled update without any error as the schedule is not yet active.
 * The admin user is able to delete the previous update and create a new one.
 
 <ins>Actual results</ins>:
 
 Users get the following error message:
 
-```code block
-error: Future Update already exists in this time range. Set a different range and try again.
-```
+*error: Future Update already exists in this time range. Set a different range and try again.*
+
 
 ## Apply the patch
 
