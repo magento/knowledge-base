@@ -25,7 +25,7 @@ GraphQL query returns products not assigned to a shared catalog.
 
 <ins>Prerequisites</ins>:
 
-B2B modules is installed.
+B2B modules are installed.
 
 <ins>Steps to reproduce</ins>:
 
@@ -37,7 +37,7 @@ B2B modules is installed.
 1. Create an additional custom shared catalog and assign it to "Product 2."
 1. Create a new company and assign it to the additional shared catalog created in step three.
 1. After cron execution/reindex, on the frontend, validate that you can see "Product 1 - Public" if you are not logged in.
-1. Log in as the company admin of the company created in step four, and validate that you only see "Product 2."
+1. Log in as the admin of the company created in step four, and validate that you only see "Product 2."
 1. Request an Authorization Token using the following GraphQL query:
 
     <pre>
