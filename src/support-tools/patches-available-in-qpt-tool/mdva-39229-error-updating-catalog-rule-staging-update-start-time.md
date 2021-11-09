@@ -29,11 +29,11 @@ Users get an error after updating the start time of the Catalog rule Staging upd
 1. Create and execute any **Staging update**.
 1. Run the query and verify that the Staging flag was created.
 
-    ```code block
-    select * from flag;
-    ```
+    
+    `select * from flag;`
+  
 
-1. Create a new **Staging update** to start after five minutes.
+1. Create a new Staging update to start after five minutes.
 1. Open **Content** > **Staging** > **Dashboard** > **New Update** and delay the start time by one minute.
 1. Wait for six minutes.
 1. Run cron.
@@ -46,9 +46,7 @@ The update start time is changed, and the update is applied. The old update is d
 
 Users get the following error:
 
-```code Block
-report.ERROR: Cron Job staging_synchronize_entities_period has an error: The active update can't be deleted.
-```
+*report.ERROR: Cron Job staging_synchronize_entities_period has an error: The active update can't be deleted.*
 
 ## Apply the patch
 
