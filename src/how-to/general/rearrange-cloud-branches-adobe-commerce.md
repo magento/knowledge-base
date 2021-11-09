@@ -3,7 +3,7 @@ title: Rearrange cloud branches on Adobe Commerce
 labels: Adobe Commerce,cloud infrastructure,integration,staging,production,environment,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-This article provides the steps you could take to re-arrange cloud branches on Adobe Commerce, if they are not organized according to the correct hierarchy. If you do not have the branches organized in correct hierarchy you will not be able to merge to the correct parent branch - it will go straight to the Master branch.
+This article provides the steps you could take to re-arrange cloud branches on Adobe Commerce, if they are not organized according to the correct hierarchy. If you do not have the branches organized in correct hierarchy you will not be able to merge to the correct parent branch - it will go to the existing parent branch.
 
 ## Affected products and versions:
 
