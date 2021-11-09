@@ -31,7 +31,7 @@ Once you have saved a change to your configuration to `app/etc/env.php` or `app/
 
 ## Cause
 
-When the configuration is saved to env.php or config.php, you will not be able to modify the setting in the Admin. To allow editing of the setting, you will have to remove the configuration from `env.php` or `config.php`.
+When the configuration is saved to `env.php` or `config.php`, you will not be able to modify the setting in the Admin. To allow editing of the setting, you will have to remove the configuration from `env.php` or `config.php`.
 
 ## Solution
 
