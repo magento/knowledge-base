@@ -25,8 +25,8 @@ Users get an error after updating the start time of the Catalog rule Staging upd
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a **Catalog Price** rule.
-1. Create and execute any **Staging update**.
+1. Create a Catalog Price rule.
+1. Create and execute any Staging update.
 1. Run the query and verify that the Staging flag was created.
 
     
