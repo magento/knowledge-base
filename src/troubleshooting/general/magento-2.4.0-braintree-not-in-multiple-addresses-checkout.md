@@ -16,7 +16,7 @@ Note: Adobe Commerce recommends using the [Commerce Marketplace Braintree extens
 
 <ins>Prerequisites</ins>:
 
-core Braintree integration is used.
+The core Braintree integration is used.
 
 <ins>Steps to reproduce</ins>:
 
