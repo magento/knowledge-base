@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-28993: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue'
-labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,support tools,cloud infrastructure,on-premises
+labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,support tools,cloud infrastructure,on-premises
 ---
 
 The MDVA-28993 patch implements the "Minimum should match" functionality and partial search for Elasticsearch engine, and solves issues with hyphens in search queries. The patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed.
@@ -11,10 +11,10 @@ The MDVA-28993 patch implements the "Minimum should match" functionality and par
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises/ Adobe Commerce on cloud infrastructure 2.3.4-2.3.5-p2
 
->![info]
->
->Note: the patch can be applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches
-    status`
+ >![info]
+ >
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, run `./vendor/bin/magento-patches status`.
+
 
 ## Issue
 
@@ -38,7 +38,7 @@ Returns all SKUs starting with "WS".
 
 The MDVA-28993 patch contains the following fixes and improvements:
 
-* implements the new "Minimum should match" functionality and partial search for Elasticsearch engine. For configuration details refer to [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html#step-4-configure-minimum-terms-to-match) in Magento User Guide.
+* implements the new "Minimum should match" functionality and partial search for Elasticsearch engine. For configuration details refer to [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html#step-4-configure-minimum-terms-to-match) in our user guide.
 * partial search for Elasticsearch
 * fixes the "searches with hyphen" issue described above.
 
