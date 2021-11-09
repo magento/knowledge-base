@@ -1,6 +1,6 @@
 ---
 title: "MDVA-37748: GraphQL query returns products not assigned to shared catalog"
-labels: support tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.4,Adobe Commerce,cloud infrastructure,on-premises,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1
+labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.5,Adobe Commerce,cloud infrastructure,on-premises,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1
 ---
 
 The MDVA-37748 patch fixes the issue where a GraphQL query returns products not assigned to a shared catalog. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.5 is installed. The patch ID is MDVA-37748. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
