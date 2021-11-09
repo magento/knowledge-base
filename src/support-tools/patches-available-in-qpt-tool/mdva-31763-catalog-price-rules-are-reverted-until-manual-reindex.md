@@ -3,7 +3,7 @@ title: "MDVA-31763: Catalog price rules are reverted until manual reindex"
 labels: QPT patches,Quality Patches Tool,MQP,Support Tools,QPT 1.1.5,Adobe Commerce,cloud infrastructure,on-premises,catalog,price rule,reindex,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1, 2.3.7p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-31763 patch solves the issue where Catalog price rules are reverted until manual reindex. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-31763. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-31763 patch solves the issue where catalog price rules are reverted until manual reindex. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-31763. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -21,32 +21,31 @@ The MDVA-31763 patch solves the issue where Catalog price rules are reverted unt
 
 ## Issue
 
-When `catalogrule_product` partial indexer executed on configurable products, catalog rules get disappeared.
+When `catalogrule_product` partial indexer is executed on configurable products, catalog rules get disappeared.
 
 <ins>Steps to reproduce</ins>:
 
 1. Log in to the Admin backend.
 1. Go to **Stores** > **Attributes** > **Product** and search for "manufacturer" attribute.
-1. Add a few options and set "Use for Promo Rule Conditions" to *Yes*.
+    * Add a few options and set "Use for Promo Rule Conditions" to *Yes*.
 1. Go to **Stores** > **Attributes** > **Attribute Sets**.
-1. Select the default attribute set and add the "manufacturer" attribute to it.
+    * Select the default attribute set and add the "manufacturer" attribute to it.
 1. Create a configurable product with couple variations.
 1.  Set "manufacturer" attribute value for previously created configurable product
 1.  Create catalog rules:
     * Active = Yes
     * Websites = Main Website
     * Customer Groups = NOT LOGGED IN
-    * Conditions: manufacturer = <selected value for configurable product>
+    * Conditions: manufacturer = \<selected value for configurable product>
     * Actions: Any discount
 1. Do a full index.
-1. Check product price on PDP.
-1. Price is correct.
+1. Check product price on PDP and make sure the price is correct.
 1. Update "Weight" attribute of the created configurable product.
 1. Check product price on PDP.
 
 <ins>Expected results</ins>:
 
-Catalog rule prices set on configurable products is not be removed during partial reindex.
+Catalog rule prices set on configurable products is not removed during partial reindex.
 
 <ins>Actual results</ins>:
 
