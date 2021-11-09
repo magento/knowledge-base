@@ -7,7 +7,7 @@ This article gives the possible solutions for the Commerce Admin login issue, wh
 
 ## Affected editions and versions:
 
-All Adobe Commerce versions and editions.
+All Adobe Commerce versions and editions
 
 ## Issue
 
