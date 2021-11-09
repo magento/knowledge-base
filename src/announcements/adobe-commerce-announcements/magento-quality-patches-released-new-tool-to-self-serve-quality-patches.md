@@ -1,5 +1,5 @@
 ---
-title: Quality Patches Tool released: new tool to self-serve quality patches
+title: "Quality Patches Tool released: new tool to self-serve quality patches"
 labels: QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,apply patch,ece-,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
