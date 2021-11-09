@@ -40,16 +40,16 @@ When `catalogrule_product` partial indexer is executed on configurable products,
     * Actions: Any discount
 1. Do a full index.
 1. Check product price on PDP and make sure the price is correct.
-1. Update "Weight" attribute of the created configurable product.
+1. Update "weight" attribute of the created configurable product.
 1. Check product price on PDP.
 
 <ins>Expected results</ins>:
 
-Catalog rule prices set on configurable products is not removed during partial reindex.
+The catalog rule prices set on configurable products is not removed during partial reindex.
 
 <ins>Actual results</ins>:
 
-Catalog price rule set on configurable products disappears during partial reindex.
+The catalog price rule set on configurable products disappears during partial reindex.
 
 ## Apply the patch
 
