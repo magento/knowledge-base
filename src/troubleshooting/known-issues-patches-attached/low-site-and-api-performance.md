@@ -7,7 +7,7 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 ## Issue
 
-Site performance is slow. API operations run slowly, for example updating products using the `PUT` method. When you take a closer look at the operations using NewRelic, most memory and CPU are consumed by writing to `/var/log/debug.log`.
+Site performance is slow. API operations run slowly, for example updating products using the `PUT` method. When you take a closer look at the operations using New Relic, most memory and CPU are consumed by writing to `/var/log/debug.log`.
 
 ## Solution
 
