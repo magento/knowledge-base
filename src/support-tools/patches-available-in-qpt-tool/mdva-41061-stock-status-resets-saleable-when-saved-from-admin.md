@@ -25,7 +25,7 @@ Stock status resets to saleable when the product is saved from the Admin.
 
 <ins>Prerequisites</ins>:
 
-Inventory modules installed.
+Inventory modules is installed.
 
 <ins>Steps to reproduce</ins>:
 
