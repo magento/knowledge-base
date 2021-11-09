@@ -36,7 +36,7 @@ Users are unable to create new schedules or edit existing ones for products if t
 
 <ins>Expected results</ins>:
 
-* In step four of steps to reproduce, the admin should be able to update the scheduled update without any error as the schedule is not yet active.
+* There is no error in step 4.  The admin is able to update the scheduled update without any error as the schedule is not yet active.
 * The admin user should be able to delete the previous update and create a new one.
 
 <ins>Actual results</ins>:
