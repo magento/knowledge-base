@@ -3,7 +3,7 @@ title: "Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout"
 labels: 2.4.0,Braintree,Magento Commerce,Magento Commerce Cloud,address,checkout,known issues,payment,payment method,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-This article provides a solution for a Adobe Commerce 2.4.0 known issue where Braintree payment methods are not included in working with Multiple Addresses checkout. Please note that the issue was fixed in Adobe Commerce 2.4.1.
+This article provides a workaround for an Adobe Commerce 2.4.0 known issue where Braintree payment methods are not included in working with Multiple Addresses checkout. Please note that the issue was fixed in Adobe Commerce 2.4.1.
 
 Note: Adobe Commerce recommends using the [Commerce Marketplace Braintree extension](https://marketplace.magento.com/paypal-module-braintree.html) for versions 2.3 and later in order to keep PSD compliance. The extension does not offer the multi-address checkout functionality.
 
