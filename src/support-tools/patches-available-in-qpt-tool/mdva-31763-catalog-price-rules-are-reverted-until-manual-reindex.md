@@ -31,8 +31,8 @@ When `catalogrule_product` partial indexer is executed on configurable products,
 1. Go to **Stores** > **Attributes** > **Attribute Sets**.
     * Select the default attribute set and add the "manufacturer" attribute to it.
 1. Create a configurable product with couple variations.
-1.  Set "manufacturer" attribute value for previously created configurable product
-1.  Create catalog rules:
+1. Set "manufacturer" attribute value for previously created configurable product.
+1. Create catalog rules:
     * Active = Yes
     * Websites = Main Website
     * Customer Groups = NOT LOGGED IN
