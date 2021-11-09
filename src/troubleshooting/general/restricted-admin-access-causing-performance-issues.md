@@ -20,7 +20,7 @@ The issue is fixed in Adobe Commerce 2.2.10 and 2.3.3.
 
 Following are the options to avoid the issue:
 
-* Upgrade the Adobe Commerce application version to 2.2.10 or 2.3.3. (for instructions, see the [Upgrade Adobe Commerce on cloud infrastructure version](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html)) in our developer documentation).
+* Upgrade the Adobe Commerce application version to 2.2.10 or 2.3.3. (for instructions, see the [Upgrade Adobe Commerce on cloud infrastructure version](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) in our developer documentation).
 * Avoid restricting Admin user role scope by website, if possible.
 * [Submit a Magento Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket), to request a patch, if it is available.
 
