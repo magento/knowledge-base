@@ -9,7 +9,7 @@ This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe C
 <div class="zd-accordion-panel">
 <h5>Step 1</h5>
 <div class="zd-accordion-section">Redis issue?</div>
-<p class="zd-accordion-text">a. YES – Proceed to <a class="accordion-anchor" href="#zd-accordion-2">Step 2</a>. b. NO – Return to <a href="https://support.magento.com/hc/en-us">support.magento.com</a> and search for relevant troubleshooting articles.</p>
+<p class="zd-accordion-text">a. YES – Proceed to <a class="accordion-anchor" href="#zd-accordion-2">Step 2</a>.<br>b. NO – Return to <a href="https://support.magento.com/hc/en-us">support.magento.com</a> and search for relevant troubleshooting articles.</p>
 </div>
 <div class="zd-accordion-panel">
 <h5>Step 2</h5>
