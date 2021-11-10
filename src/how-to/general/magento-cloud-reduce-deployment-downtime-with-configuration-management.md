@@ -1,6 +1,6 @@
 ---
 title: Reduce deployment downtime on Adobe Commerce on cloud infrastructure
-labels: 2.1.4,2.2,2.2.x,Magento Commerce Cloud,cloud,configuration,deployment,downtime,how to,management,pipeline,Adobe Commerce,cloud infrastructure
+labels: 2.1.4,2.2,2.2.x,Magento Commerce Cloud,configuration,deployment,downtime,how to,management,pipeline,Adobe Commerce,cloud infrastructure
 ---
 
 To dramatically reduce maintenance downtime and provide efficient configuration of your store across environments, Adobe Commerce on cloud infrastructure provides the **Configuration Management** feature. For Adobe Commerce on cloud infrastructure 2.2.x and later implementations, this feature supports Pipeline Deployment concepts and options with reduced steps.
