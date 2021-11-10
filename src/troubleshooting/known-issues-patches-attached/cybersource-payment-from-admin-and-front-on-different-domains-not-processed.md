@@ -3,7 +3,7 @@ title: Cybersource payment from Admin and front on different domains not process
 labels: 2.3.0,Cybersource,Magento Commerce,known issues,patch,troubleshooting,payment,domain,Commerce Admin,store front,Adobe Commerce,cloud infrastructure,on-premises  
 ---
 
-This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both store front and the Commerce Admin, if they are on different domains.
+This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains.
 
 >![info]
 >
@@ -11,7 +11,7 @@ This article provides a patch for the known Adobe Commerce 2.3.0 limitation rela
 
 ## Issue
 
-The previous implementation of the Cybersource integration allowed processing payments from one domain only. As a result, if your Adobe Commerce store front is on different domain from the Commerce Admin, you get the following error when trying to place an order using Cybersource in the Admin: " *Load denied by X-Frame-Options: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ does not permit cross-origin framing.* .."
+The previous implementation of the Cybersource integration allowed processing payments from one domain only. As a result, if your Adobe Commerce storefront is on different domain from the Commerce Admin, you get the following error when trying to place an order using Cybersource in the Admin: " *Load denied by X-Frame-Options: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ does not permit cross-origin framing.* .."
 
  <span class="wysiwyg-underline">Steps to reproduce</span>:
 
