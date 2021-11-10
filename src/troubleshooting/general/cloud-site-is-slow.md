@@ -3,7 +3,7 @@ title: Cloud site is slow
 labels: Cloud,Fastly,Magento Commerce Cloud,cache,slow performance,troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides recommendations on how to make your Adobe Commerce on cloud infrastructure site better performing under heavy traffic loads, and how to cut this load.
+This article provides recommendations on how to make your Adobe Commerce on cloud infrastructure site better performing under heavy traffic loads and how to cut this load.
 
 ## Affected versions and editions
 
