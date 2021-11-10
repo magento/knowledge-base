@@ -67,7 +67,7 @@ Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned 
 
 The issue is caused by parallel interfering processes on the Redis connection.
 
-Here, a process in `App/Config/Type/System.php` was expecting a response for `system_defaultweb` but received a response for `system_cache_exists` that was made by a different process. See the detailed explanation in the [Jason Woods' post](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
+Here, a process in `App/Config/Type/System.php` was expecting a response for `system_defaultweb`, but received a response for `system_cache_exists` that was made by a different process. See the detailed explanation in [Jason Woods' post](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
 
 ## Solution
 
@@ -77,7 +77,7 @@ Disable parallelism and run `setup:static-content:deploy` in a single-thread mod
 STATIC_CONTENT_THREADS =1
 ```
 
-Also, you may run the `setup:static-content:deploy` command followed by the `-j 1` (or `--jobs=1` ) argument.
+Also you may run the `setup:static-content:deploy` command followed by the `-j 1` (or `--jobs=1`) argument.
 
 >![info]
 >
