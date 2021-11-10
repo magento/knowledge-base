@@ -123,4 +123,4 @@ If you cannot access your Admin due to heavy load, you can use the Fastly API to
   error 403 "Forbidden";
   }`
 
-For more information on blocking IP addresses, see the [Fastly Adobe Commerce module guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md)
+For more information on blocking IP addresses, see the [Fastly Adobe Commerce module guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) in GitHub.
