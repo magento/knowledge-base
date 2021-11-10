@@ -41,7 +41,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-Make sure you set file system permissions as discussed in the article [Overview of ownership and permissions](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) in our developer document.
+Make sure you set file system permissions as discussed in the article [Overview of ownership and permissions](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) in our developer documentation.
 
 <h2 id="trouble-depend-state">The Component Dependency Check status never changes</h2>
 
