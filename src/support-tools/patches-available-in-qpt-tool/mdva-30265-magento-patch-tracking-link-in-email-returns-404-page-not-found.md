@@ -12,18 +12,17 @@ The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 After the shipment is created for an order placed, an email is sent to the customer with tracking information and a link to track the order. However, when the customer clicks on the shipment tracking link in the email this returns a "404 Page not Found" error.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Install Magento v2.4. For steps, refer to [Install Magento using Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html) .
 1. Place an order.
-1. Go to the Admin panel > **Sales** > **Orders** . Look for the order you just created and open it. ** ** 
+1. Go to the Admin panel > **Sales** > **Orders** . Look for the order you just created and open it. ** **
 1. Create a shipment and add a tracking number (Carrier = Custom Value). For steps, refer to the Magento User Guide > [Order Management > Creating a Shipment](https://docs.magento.com/user-guide/sales/shipments-create.html) .
 1. You receive an email. Click on the tracking link to check it is working.
 1. Create an invoice. For steps, refer to Magento User Guide > [Order Management > Creating an invoice](https://docs.magento.com/user-guide/sales/invoice-create.html) . Then click again on the tracking link above.
@@ -76,5 +75,3 @@ To learn more about Quality Patches Tool, refer to:
 </section>
 
 <footer></footer>
-
- 
