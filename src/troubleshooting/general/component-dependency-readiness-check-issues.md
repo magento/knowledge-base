@@ -1,6 +1,6 @@
 ---
 title: Component dependency readiness check issues
-labels: Magento Commerce,Magento Commerce Cloud,check,conflict,dependency,how to,readiness,Adobe Commerce
+labels: Magento Commerce,Magento Commerce Cloud,check,conflict,dependency,how to,readiness,Adobe Commerce,cloud infrastructure
 ---
 
 This article provides solutions for component dependency conflicts.
