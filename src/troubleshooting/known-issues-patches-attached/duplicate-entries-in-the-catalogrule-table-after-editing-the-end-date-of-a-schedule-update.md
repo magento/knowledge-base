@@ -23,7 +23,9 @@ Prerequisites: The `catalogrule_rule` indexer is set to *[Update on Schedule](ht
  
  The `catalogrule_rule` indexer is reindexed successfully. No duplicate entries in the `catalogrule` table.
 
- <span class="wysiwyg-underline">Actual result</span>: Reindex fails with the following error: *Item with the same ID already exists*, because there are duplicate entries in the `catalogrule` table.
+ <span class="wysiwyg-underline">Actual result</span>: 
+ 
+ Reindex fails with the following error: *Item with the same ID already exists*, because there are duplicate entries in the `catalogrule` table.
 
 ## Solution
 
