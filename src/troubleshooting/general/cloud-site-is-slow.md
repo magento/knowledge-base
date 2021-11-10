@@ -75,7 +75,7 @@ A hit rate below 0.85 or 85% might indicate a site configuration problem, or you
 You can use either of the following methods to get information about the IP addresses accessing your Adobe Commerce store.
 
 * Check the HTTP access logs through an SSH session.
-* Contact Adobe Commerce on cloud infrastructure support to request a list of IP addresses causing heavy load on the site.
+* Contact Adobe Commerce support to request a list of IP addresses causing heavy load on the site.
 
 #### Check the HTTP access logs
 
@@ -123,4 +123,4 @@ If you cannot access your Admin due to heavy load, you can use the Fastly API to
   error 403 "Forbidden";
   }`
 
-For more information on blocking IP addresses, see the [Fastly Adobe Commerce module guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md>)
+For more information on blocking IP addresses, see the [Fastly Adobe Commerce module guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md)
