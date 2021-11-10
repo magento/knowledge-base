@@ -1,5 +1,5 @@
 ---
-title: Patch for Amazon Pay checkout issue in Magento 2.3.5-p1
+title: Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1
 labels: 2.3.5-p1,Amazon Pay,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
