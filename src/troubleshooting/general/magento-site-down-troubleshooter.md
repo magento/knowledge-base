@@ -33,7 +33,7 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-4">Step 4</
 <p class="zd-accordion-text">a. Error Code 500 – Check log of <code>/var/log/platform/<project_id></code>. If this data does not present the issue to you, you can open a <a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a> and include the troubleshooting information you have so far for further investigation.</p><br>
 <p class="zd-accordion-text">b. Error Code 503 – Check log of <code>var/reports</code>. If this data does not present the issue to you, you can open a <a href="https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket">Support Ticket</a> and include the troubleshooting information you have so far for further investigation.</p>
 <p class="zd-accordion-text">c. Error Code 404 - Run the following query:
-<code>SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';</code> If the query returns a table, where <code>update_exists</code>value is "0", refer to the <a href="https://support.magento.com/hc/en-us/articles/360000262174">Error 404 on all pages, storefront and Admin, due to Content Staging issue</a> article. In all other cases proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.</p>
+<code>SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';</code> If the query returns a table, where <code>update_exists</code> value is "0", refer to the <a href="https://support.magento.com/hc/en-us/articles/360000262174">Error 404 on all pages, storefront and Admin, due to Content Staging issue</a> article. In all other cases proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.</p>
 <p class="zd-accordion-text">d. Other Error Codes – Proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.</p>
 </div>
 <div class="zd-accordion-panel">
@@ -50,8 +50,8 @@ b. NO – Check logs of <code>/var/log/exception.log</code> and <code>/var/log/d
 <p class="zd-accordion-text">a. YES – Proceed to <a class="accordion-anchor" href="#zd-accordion-13">Step 13</a>.<br>
 b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-7">Step 7</a>.</p>
 </div>
-<div id="zd-accordion-7" class="zd-accordion-panel">
 <div class="zd-accordion-panel">
+<div id="zd-accordion-7" class="zd-accordion-panel">
 <h5>Step 7</h5>
 <div class="zd-accordion-section">Do you have Elasticsearch errors?</div>
 <p class="zd-accordion-text">a. YES – Proceed with steps for <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">checking Elasticsearch</a>.<br>
@@ -73,7 +73,6 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-10">Step 10
 </div>
 <div class="zd-accordion-panel">
 <div id="zd-accordion-10" class="zd-accordion-panel">
-<div id="zd-accordion-10" class="zd-accordion-panel">
 <h5>Step 10</h5>
 <div class="zd-accordion-section">Do you see PHP Fatal Errors in your logs?</div>
 <p class="zd-accordion-text">a. YES – Proceed with consulting <a href="https://support.magento.com/hc/en-us/articles/360030568432">Common PHP Fatal Errors and solutions</a>.<br>
@@ -83,7 +82,7 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-11">Step 11
 <div id="zd-accordion-11" class="zd-accordion-panel">
 <h5>Step 11</h5>
 <div class="zd-accordion-section">Are you seeing Redis errors?</div>
-<p class="zd-accordion-text">a. YES – Proceed with steps to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify">verify Redis is running</a> and for <a href="https://redis.io/topics/problems">Redis troubleshooting</a>.
+<p class="zd-accordion-text">a. YES – Proceed with steps to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify">verify Redis is running</a> and for <a href="https://redis.io/topics/problems">Redis troubleshooting</a>.<br>
 b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-12">Step 12</a>.</p>
 </div>
 <div class="zd-accordion-panel">
@@ -122,6 +121,7 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-16">Step 16
 b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-17">Step 17</a>.</p>
 </div>
 <div class="zd-accordion-panel">
+<div id="zd-accordion-17" class="zd-accordion-panel">
 <h5>Step 17</h5>
 <div class="zd-accordion-section">Do you have MySQL database dead locks or an unresponsive MySQL database?</div>
 <p class="zd-accordion-text">a. YES – Proceed with checking for MySQL dead locks in this <a href="https://support.magento.com/hc/en-us/articles/360031622211">Deadlocks in MySQL</a> article.<br>
