@@ -11,10 +11,9 @@ The MDVA-31021 patch solves the issue when Import / Export takes a longer than t
 
  **The patch is also compatible with versions** Magento Commerce and Magento Commerce Cloud 2.3.0 - 2.4.1.
 
->![info]
->
->Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+ >![info]
+ >
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -24,17 +23,17 @@ If there are 100,000 records or more in `catalog_product_option` table, the Impo
 
 Magento store with 5000 products with custom options. Each product should have at least 4 custom options with 2 or more options to choose from, so that there are 100,000 records in `catalog_product_option` table.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. For an **Import** example: create a CSV import file with one of the SKUs from Magento admin.
 1. Add 4 custom options to the CSV import file.
 1. Try to import the CSV file from Magento admin.
 
- <span class="wysiwyg-underline">Expected results:</span> 
+ <span class="wysiwyg-underline">Expected results:</span>
 
 The Import or Export function completes as expected. Validation takes less than 10 seconds to complete with one product.
 
- <span class="wysiwyg-underline">Actual results:</span> 
+ <span class="wysiwyg-underline">Actual results:</span>
 
 The Import or Export function takes longer than expected. Validation takes more than 10 seconds to complete with only one product.
 
