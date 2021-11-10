@@ -1,6 +1,6 @@
 ---
 title: "Composer update fail on Adobe Commerce: Incompatible argument type"
-labels: troubleshooting,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,symfony,Magento,Adobe Commerce,Adobe Commerce on our cloud architecture,composer
+labels: troubleshooting,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,symfony,Magento,Adobe Commerce,composer,Magento Open Source,on-premises,cloud infrastructure
 ---
 
 >![info]
@@ -22,7 +22,7 @@ A new version of symfony/console dependency (4.4.27, 4.4.28) is causing dependen
 
 <ins>Steps to reproduce</ins>:
 
-When you install or upgrade Adobe Commerce or run composer update the execution fails with the following error message:
+When you install or upgrade Adobe Commerce or run composer update, the execution fails with the following error message:
 *Incompatible argument type: Required type: int. Actual type: string*
 
 ## Cause
@@ -45,12 +45,12 @@ All 2.3.5+ Adobe Commerce on-premises merchants should run the following CLI com
 
 ``composer require symfony/console:"~4.1.0||~4.2.0||~4.3.0||>=4.4.0 <4.4.27 || ~4.4.29"``
 
-**How to fix on Adobe Commerce on our cloud architecture:**
+**How to fix on Adobe Commerce on cloud infrastructure:**
 
-Run the above commands or upgrade to the latest ECE tools version (ece-tools:2002.1.7), which will be available on Thursday, July 29. For steps, refer to Adobe Commerce on our cloud architecture: [Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html).
+Run the above commands or upgrade to the latest ECE tools version (ece-tools: 2002.1.7), which will be available on Thursday, July 29. For steps, refer to [Cloud for Adobe Commerce > Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in our developer documentation.
 
 The complete fix will be released in Adobe Commerce (all deployment methods) 2.4.4.
 
 ## Related reading
 
-* Github [2021-07-27 Composer update Incompatible argument type: Required type: int. Actual type: string](https://github.com/magento/magento2/issues/33595)
+* Github: [2021-07-27 Composer update Incompatible argument type: Required type: int. Actual type: string](https://github.com/magento/magento2/issues/33595)

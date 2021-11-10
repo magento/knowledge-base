@@ -1,6 +1,6 @@
 ---
 title: Component dependency readiness check issues
-labels: Magento Commerce,Magento Commerce Cloud,check,conflict,dependency,how to,readiness
+labels: Magento Commerce,Magento Commerce Cloud,check,conflict,dependency,how to,readiness,Adobe Commerce,cloud infrastructure
 ---
 
 This article provides solutions for component dependency conflicts.
@@ -15,7 +15,7 @@ We suggest you try the following solutions in the order shown:
 
 <h3 id="trouble-depend-conflict">Conflicting dependencies</h3>
 
-The message `We found conflicting component dependencies` displays if Composer cannot determine which components to install or update. To resolve component dependency issues, you should be a technical person who thoroughly understands how Composer works.
+The message *We found conflicting component dependencies* displays if Composer cannot determine which components to install or update. To resolve component dependency issues, you should be a technical person who thoroughly understands how Composer works.
 
 Following is a sample failure message:
 
@@ -30,18 +30,18 @@ We found conflicting component dependencies.
 >
 >The message you see will likely be different.
 
-Refer to [Conflicting component dependencies for a solution](https://support.magento.com/hc/en-us/articles/360033204651) .
+Refer to [Conflicting component dependencies for a solution](https://support.magento.com/hc/en-us/articles/360033204651) in our support knowledge base.
 
 <h2 id="trouble-depend-permission">File system permissions issues</h2>
 
-If the Magento file system owner doesn't have permissions to write to directories on the Magento file system, a message similar to the following displays:
+If the Adobe Commerce file system owner doesn't have the permissions to write to directories on the Adobe Commerce file system, a message similar to the following displays:
 
 ```terminal
 file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-Make sure you set file system permissions as discussed in DevDocs' [Overview of ownership and permissions](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) .
+Make sure you set file system permissions as discussed in the article [Overview of ownership and permissions](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) in our developer documentation.
 
 <h2 id="trouble-depend-state">The Component Dependency Check status never changes</h2>
 
