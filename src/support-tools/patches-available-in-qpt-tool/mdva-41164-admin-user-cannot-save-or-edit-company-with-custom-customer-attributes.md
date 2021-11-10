@@ -1,9 +1,9 @@
 ---
-title: "MDVA-41164: Cannot save or edit Company with custom customer attribute of file or image"
-labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,edit,custom customer,attribute,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
+title: "MDVA-41164: Cannot save or edit Company with custom customer attributes"
+labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,edit,custom customer,attributes,exception log,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
 
-The MDVA-41164 patch solves the issue where the admin user is not able to save or edit Company with custom customer attribute of file or image of any type. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-41164. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-41164 patch solves the issue where the admin user is not able to save or edit a company with custom customer attributes of files or images of any type. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-41164. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -21,11 +21,11 @@ The MDVA-41164 patch solves the issue where the admin user is not able to save o
 
 ## Issue
 
-Admin user is not able to save or edit Company with custom customer attribute of file or image of any type.
+Admin user is not able to save or edit a company with custom customer attributes of files or images of any type.
 
 <ins>Prerequisites</ins>:
 
-B2B modules is installed.
+B2B module is installed.
 
 <ins>Steps to reproduce</ins>:
 
@@ -43,8 +43,8 @@ User is able to complete the creation of the company and the attachment is uploa
 
 <ins>Actual results</ins>:
 
-You get an error message: *Something went wrong while saving file.*
-Exception log contains record like the following:
+* You get an error message: *Something went wrong while saving file.*
+* Exception log contains a record like the following:
 ```php
 report.CRITICAL: Notice: Undefined index: customer in
 ../app/code/Magento/Customer/Controller/Adminhtml/File/Customer/Upload.php on line 69
