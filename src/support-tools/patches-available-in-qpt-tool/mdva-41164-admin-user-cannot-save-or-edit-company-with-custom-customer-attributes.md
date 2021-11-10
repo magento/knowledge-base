@@ -45,10 +45,10 @@ User is able to complete the creation of the company and the attachment is uploa
 
 * You get an error message: *Something went wrong while saving file.*
 * Exception log contains a record like the following:
-```php
-report.CRITICAL: Notice: Undefined index: customer in
-../app/code/Magento/Customer/Controller/Adminhtml/File/Customer/Upload.php on line 69
-```
+    ```php
+    report.CRITICAL: Notice: Undefined index: customer in
+    ../app/code/Magento/Customer/Controller/Adminhtml/File/Customer/Upload.php on line 69
+    ```
 
 ## Apply the patch
 
