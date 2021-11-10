@@ -1,13 +1,13 @@
 ---
-title: git pull origin develop fails when updating the Magento software
-labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,develop,fail,git,github,how to,origin,pull
+title: git pull origin develop fails when updating the Adobe Commerce software
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,develop,fail,git,github,how to,origin,pull,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a fix for when you can't update Magento 2 software when running `git pull origin develop` .
+This article provides a fix for when you can't update Adobe Commerce 2 software when running `git pull origin develop`.
 
-<h2 id="details">Details</h2>
+## Details
 
-One of the steps to updating the Magento 2 software is to update your local repository by running:
+One of the steps to updating the Adobe Commerce 2 software is to update your local repository by running:
 
 ```bash
 $ git pull origin develop
@@ -28,28 +28,39 @@ git status
 
 The next section discusses suggested solutions.
 
-<h3 id="suggested-solutions">Suggested solutions</h3>
+### Suggested solutions
 
-Your solution depends on whether or not you intentionally modified files in the Magento 2 file system. See one of the following sections for more information.
+Your solution depends on whether or not you intentionally modified files in the Adobe Commerce 2 file system. See one of the following sections for more information.
 
-<h4 id="you-intentionally-modified-files">You intentionally modified files</h4>
+#### You intentionally modified files
 
-Manually resolve the conflicts in the usual way. If you're not sure what to do, consult [GitHub help](https://help.github.com/) .
+Manually resolve the conflicts in the usual way. If you're not sure what to do, consult [GitHub help](https://help.github.com/).
 
-<h4 id="you-didn-t-intentionally-modify-any-files">You didn't intentionally modify any files</h4>
+#### You didn't intentionally modify any files
 
 Try any of the following:
 
-<ul><li>
-<p>If you're certain you didn't modify any files, and you don't mind removing or overwriting the changes in the Magento file system, enter:</p>
-<pre><code class="language-bash">$ git reset --hard HEAD && git pull origin develop</code></pre>
-<p>After that, continue where you left off with your Magento 2 update.</p>
-</li><li>
-<p>It's possible that a GitHub configuration setting can prevent these errors in the future. By default, GitHub stores content using the operating system-default line ending characters. If you're using Linux but another collaborator committed a change using Windows, GitHub converts the Windows line endings to Linux when you clone or pull. This gives the appearance of a change to files when in fact, no change was made.</p>
-<p>To configure GitHub to ignore line endings, enter the following command in your Git client:</p>
-<pre><code class="language-bash">$ git config --system core.autocrlf false</code></pre>
-<p>If you use Windows, enter:</p>
-<pre><code class="language-bash">$ git config --system core.eol LF</code></pre>
-<div class="info"><blockquote>Magento does<em>not</em>recommend or endorse any particular GitHub configuration settings. The preceding are suggestions only. For more information, consult the<a href="https://help.github.com/">GitHub help</a>.</blockquote></div>
-<p>Continue where you left off with your Magento 2 update.</p>
-</li></ul>
+* If you're certain you didn't modify any files, and you don't mind removing or overwriting the changes in the Adobe Commerce file system, enter:
+
+    </p>
+    <pre><code class="language-bash">$ git reset --hard HEAD && git pull origin develop</code></pre>
+
+    After that, continue where you left off with your Adobe Commerce 2 update.
+
+* It's possible that a GitHub configuration setting can prevent these errors in the future. By default, GitHub stores content using the operating system-default line ending characters. If you're using Linux, but another collaborator committed a change using Windows, GitHub converts the Windows line endings to Linux when you clone or pull. This gives the appearance of a change to files when in fact, no change was made.
+
+    To configure GitHub to ignore line endings, enter the following command in your Git client:
+
+    </p>
+    <pre><code class="language-bash">$ git config --system core.autocrlf false</code></pre>
+
+   If you use Windows, enter:
+
+    </p>
+    <pre><code class="language-bash">$ git config --system core.eol LF</code></pre>
+
+    >![info]
+    >
+    >Adobe does not recommend or endorse any particular GitHub configuration settings. The preceding are suggestions only. For more information, consult [GitHub help](https://help.github.com/).
+
+    Continue where you left off with your Adobe Commerce 2 update.
