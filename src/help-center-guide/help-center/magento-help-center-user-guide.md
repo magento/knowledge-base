@@ -179,12 +179,12 @@ You access the Adobe Commerce Help Center and want to submit a support request, 
 One of the following might be the cause:
 
 * You have not logged in to the Help Center.
-* If using shared access for the first time, you have not performed steps required to ensure that Magento Help Center is configured properly via the SSO call from Magento.com.
-* Your account is not entitled for Magento Support (for example, you are not a paying Commerce customer or you are an Open Source customer).
+* If using shared access for the first time, you have not performed the steps required to ensure that Adobe Commerce Help Center is configured properly via the SSO call from Magento.com.
+* Your account is not entitled for Adobe Commerce support (for example, you are not a paying Commerce customer or you are an Open Source customer).
 
 #### Solution
 
- [Log in to Help Center](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
+[Log in to Help Center](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
 The **Submit a ticket** link will only be displayed for customers with an email linked to a valid support agreement.
 
@@ -192,13 +192,13 @@ The **Submit a ticket** link will only be displayed for customers with an email 
 
 To be able to use shared access account to submit support tickets, you need to perform the following (this needs to be done only once):
 
-1. After receiving [shared access](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access) , log in to your [Magento account on the magento.com website](https://account.magento.com/) .
+1. After receiving [shared access](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access), log in to your [Magento account on the magento.com website](https://account.magento.com/).
 1. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
-1. Click on the **Support** tab in the left panel. Doing this will ensure that the Magento Help Center is configured properly via the SSO call from Magento.com to Magento Help Center.
+1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
 #### Still don't see the **Submit a ticket** link
 
-If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has a Magento license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
+If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
 If you are a Magento license owner, please verify that you don’t have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 
