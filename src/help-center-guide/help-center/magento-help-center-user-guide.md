@@ -172,7 +172,7 @@ See [Ticket fields explained](#ticket-fields-explained) below for more detailed 
 
 #### Issue
 
-You access the Magento Help Center and want to submit a support request, but the **Submit a ticket** link is not displayed on the Help Center start page.
+You access the Adobe Commerce Help Center and want to submit a support request, but the **Submit a ticket** link is not displayed on the Help Center start page.
 
 #### Cause
 
