@@ -94,13 +94,13 @@ All articles in the Knowledge Base are grouped into Categories. They are:
 
 * **Announcements:** articles with timely news and helpful information.
 * **Best Practices:** articles with recommended techniques and procedures that are prescribed as most effective.
-* **Troubleshooting:** articles that show how to solve a particular issue.For example, if you cannot perform an operation because of an error message, this is where you might find the solution.
+* **Troubleshooting:** articles that show how to solve a particular issue. For example, if you cannot perform an operation because of an error message, this is where you might find the solution.
 * **How To:** articles with detailed steps on how to perform a particular operation.
 * **FAQ:** answers to the most common, frequently asked questions.
 
 To find articles through navigating the categories, follow these steps:
 
-1. Go to the Knowledge Base landing page at<https://support.magento.com/hc/en-us>.
+1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
 1. Click a category.
 1. The list of all articles in that category is displayed. Browse through the articles, find the one you need, then click it.
 
@@ -112,18 +112,18 @@ Please vote, your opinion matters!
 
 <h2 id="support-tickets">SUPPORT TICKETS</h2>
 
-Magento Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Magento — for all Magento products.
+Adobe Commerce Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Adobe Commerce — for all Adobe Commerce products.
 
 <h2 id="login">LOG IN TO HELP CENTER</h2>
 
-Logging in allows you to work with support tickets. You can still access all articles in the Magento Knowledge Base without logging in.
+Logging in allows you to work with support tickets. You can still access all articles in the Adobe Commerce Knowledge Base without logging in.
 
-To log in to the Magento Help Center, follow these steps:
+To log in to the Adobe Commerce Help Center, follow these steps:
 
-1. Access the Help Center at<https://support.magento.com>.
+1. Access the Help Center at <https://support.magento.com>.
 1. Click **Log In** in the upper-right corner.
 
-Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) (Magento User Guide).
+Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
 
 <h3 id="submit-ticket"><strong>Submit a support ticket</strong></h3>
 
