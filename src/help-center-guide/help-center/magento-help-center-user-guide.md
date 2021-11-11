@@ -45,33 +45,33 @@ Learn how to submit a support ticket to the Adobe Commerce Help Center, provide 
 * [Access shared account (switch accounts)](#switch-accounts)
 * [Shared access troubleshooting](#troubleshooting-shared-access)
 
-<h2 id="what-is">WHAT IS MAGENTO HELP CENTER?</h2>
+<h2 id="what-is">WHAT IS ADOBE COMMERCE HELP CENTER?</h2>
 
-Welcome to Magento Help Center! We are here to help solve your Magento issues quickly and efficiently.
+Welcome to Adobe Commerce Help Center! We are here to help solve your Adobe Commerce issues quickly and efficiently.
 
-Magento Help Center is the [Knowledge Base](#kb) and the [Ticketing System](#support-tickets) . This document shows how to use both of them.
+Adobe Commerce Help Center is the [Knowledge Base](#kb) and the [Ticketing System](#support-tickets). This document shows how to use both of them.
 
 <h2 id="kb">KNOWLEDGE BASE</h2>
 
-When you access the Help Center, you first get to the Magento Knowledge Base.
+When you access the Help Center, you first get to the Adobe Commerce Knowledge Base.
 
 <h3 id="what-is-kb">What is Knowledge Base?</h3>
 
-The Magento Support Knowledge Base is a collection of articles based on the support tickets that Magento Customers or Partners submit.
+The Adobe Commerce Support Knowledge Base is a collection of articles based on the support tickets that Adobe Commerce Customers or Partners submit.
 
 Every Knowledge Base article covers a real-life issue or question and may be viewed as a reply to a submitted support ticket helping others to solve a similar problem.
 
 <h3 id="kb-devdocs-user-guide">Knowledge Base does not replace DevDocs or User Guide</h3>
 
-The information in the Knowledge Base is designed as complementary to [DevDocs](http://devdocs.magento.com/) , the [User Guide](http://docs.magento.com/m2/ee/user_guide/getting-started.html) , and [other Magento publications](https://magento.com/resources/technical) , and only covers troubleshooting, best practices, hosts announcements, answers FAQ's, or highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
+The information in the Knowledge Base is designed as complementary to [DevDocs](http://devdocs.magento.com/), the [User Guide](http://docs.magento.com/m2/ee/user_guide/getting-started.html), and [other Adobe Commerce publications](https://magento.com/resources/technical), and only covers troubleshooting, best practices, hosts announcements, answers FAQ's, or highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
 
 <h3 id="search-for-articles">Search for articles</h3>
 
-You don't need to be logged in to the Magento Help Center to search for articles in the Magento Knowledge Base.
+You don't need to be logged in to the Adobe Commerce Help Center to search for articles in the Adobe Commerce Knowledge Base.
 
 To search for articles, follow these steps:
 
-1. Go to the Knowledge Base landing page at<https://support.magento.com/hc/en-us>.
+1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
 1. In the **Search** field, start entering the keywords that an article should have.For example, *Redis* , *error* , *configuration management* , etc.    ![Search_Field_New_Inset_Image_1.jpg](assets/Search_Field_New_Inset_Image_1.jpg)    
 1. The top article suggestions are displayed below the **Search** field.
 1. Select an article from the list and click it.    ![Select_An_Article_Image_1.jpg](assets/Select_An_Article_Image_1.jpg)    
