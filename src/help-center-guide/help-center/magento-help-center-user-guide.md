@@ -123,7 +123,7 @@ To log in to the Adobe Commerce Help Center, follow these steps:
 1. Access the Help Center at <https://support.magento.com>.
 1. Click **Log In** in the upper-right corner.
 
-Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
+Use your Magento Account credentials to log in. For more information, see [Your Commerce Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
 
 <h3 id="submit-ticket"><strong>Submit a support ticket</strong></h3>
 
@@ -131,25 +131,25 @@ Once successfully logged in, you may submit a support ticket using the Help Cent
 
 <h4 id="submit-ticket-help-center-start-page">Help Center start page</h4>
 
-To submit a new support ticket using the starting page of Magento Help Center, follow these steps:
+To submit a new support ticket using the starting page of Adobe Commerce Help Center, follow these steps:
 
-1. Go to [Magento Help Center](https://support.magento.com/hc/en-us) .
-1. Click **Submit a ticket** in the upper-right corner.    ![View_Submit_Ticket_Button_JPG_Final.jpg](assets/View_Submit_Ticket_Button_JPG_Final.jpg)    
+1. Go to [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
+1. Click **Submit a ticket** at the upper-right corner.    ![View_Submit_Ticket_Button_JPG_Final.jpg](assets/View_Submit_Ticket_Button_JPG_Final.jpg)    
 1. Fill in the fields.
-1. Click **Submit** .
+1. Click **Submit**.
 
-You **must log in** to the Help Center using your Magento Account in order to submit a support ticket.Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link) .
+You **must log in** to the Help Center using your Magento Account in order to submit a support ticket. Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link).
 
 <h4 id="submit-ticket-magento-account-page">Magento Account page</h4>
 
 To submit a new support ticket using your Magento Account page, follow these steps:
 
-1. Log in to your Magento Account (see [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) ).
+1. Log in to your Magento Account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
 1. Click the **Support** tab.    ![magento_account_support_tab.png](assets/magento_account_support_tab.png)    
 1. The Help Center start page loads for you.
 1. Click **Submit a ticket** in the upper-right corner.
 1. Fill in the fields.
-1. Click **Submit** .
+1. Click **Submit**.
 
 <h4 id="submit-ticket-magento-cloud-account-page">Magento Cloud Account page</h4>
 
@@ -160,7 +160,7 @@ To submit a new support ticket using your Magento Cloud Account page, follow the
 1. The Help Center start page loads for you.
 1. Click **Submit a ticket** in the upper-right corner.
 1. Fill in the fields.
-1. Click **Submit** .
+1. Click **Submit**.
 
 <h4 id="info-in-support-ticket">Information in your support ticket</h4>
 
@@ -168,7 +168,7 @@ The fields, marked with a red asterisk ( **\*** ), are required and must be fill
 
 See [Ticket fields explained](#ticket-fields-explained) below for more detailed information.
 
-<h3 id="no-submit-link">"Submit a ticket" link not displayed on Magento Help Center start page</h3>
+<h3 id="no-submit-link">"Submit a ticket" link not displayed on Adobe Commerce Help Center start page</h3>
 
 #### Issue
 
