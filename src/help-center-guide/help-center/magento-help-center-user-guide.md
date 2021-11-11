@@ -246,7 +246,7 @@ The solution is to validate your email address:
 
 The merchant corresponding to the shared account is listed in **Organization** options.
 
- <span class="wysiwyg-underline">Actual result</span>:
+<span class="wysiwyg-underline">Actual result</span>:
 
 The merchant corresponding to the used shared account is not available in the **Organization** options.
 
@@ -254,9 +254,9 @@ The merchant corresponding to the used shared account is not available in the **
 
 After having been granted shared access from the merchant, you need to take the following steps (only once):
 
-1. Log in to your [Magento account on the magento.com website](https://account.magento.com/) .
-1. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
-1. Click on the **Support** tab in the left panel. Doing this will ensure that the Magento Help Center is configured properly via the SSO call from Magento.com to Magento Help Center.
+1. Log in to your [Magento account on the magento.com website](https://account.magento.com/).
+1. In the **Switch Accounts** drop-down field at the top-right corner, select the shared access account.
+1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
 <h3 id="track-tickets">Track your tickets</h3>
 
@@ -267,7 +267,7 @@ Your tickets are those that you:
 
 #### View your tickets
 
-To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets** .
+To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
 ![View_Your_Tickets_JPG_Final.jpg](assets/View_Your_Tickets_JPG_Final.jpg)
 
@@ -299,15 +299,13 @@ When you follow your organization tickets, you:
 To follow/unfollow tickets for an organization:
 
 1. Go to **My tickets** > **Organization tickets** tab.
-1. Select an organization in the menu and click **Follow/Unfollow** .
+1. Select an organization in the menu and click **Follow/Unfollow**.
 
 ![hc_follow-org-tickets.png](assets/hc_follow-org-tickets.png)
 
+<h3 id="P1-hotline">Adobe Commerce P1 hotline</h3>
 
-<h3 id="P1-hotline">Magento P1 hotline</h3>
-
- **Login is required** to access the [Magento P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Magento when seeking help during a P1 incident and explains what information to provide.
-
+**Login is required** to access the [Magento P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
 
 <h3 id="ticket-fields-explained">Support ticket fields explained</h3>
 
