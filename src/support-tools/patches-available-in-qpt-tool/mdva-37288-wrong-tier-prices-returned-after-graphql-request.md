@@ -82,6 +82,7 @@ Only items with tier prices should return proper tier prices:
 ```
 
 <ins>Actual results</ins>:
+
  * All items coming after an item with tier pricing have tier pricing in the response.
  * The tier pricing data that it's returning is from the last item in the loop that had tier pricing.
 
