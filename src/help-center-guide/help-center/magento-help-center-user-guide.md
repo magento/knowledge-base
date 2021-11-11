@@ -72,9 +72,11 @@ You don't need to be logged in to the Adobe Commerce Help Center to search for a
 To search for articles, follow these steps:
 
 1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
-1. In the **Search** field, start entering the keywords that an article should have.For example, *Redis* , *error* , *configuration management* , etc.    ![Search_Field_New_Inset_Image_1.jpg](assets/Search_Field_New_Inset_Image_1.jpg)    
+1. In the **Search** field, start entering the keywords that an article should have. For example, *Redis*, *error*, *configuration management*, etc.
+    ![Search_Field_New_Inset_Image_1.jpg](assets/Search_Field_New_Inset_Image_1.jpg)    
 1. The top article suggestions are displayed below the **Search** field.
-1. Select an article from the list and click it.    ![Select_An_Article_Image_1.jpg](assets/Select_An_Article_Image_1.jpg)    
+1. Select an article from the list and click it.
+    ![Select_An_Article_Image_1.jpg](assets/Select_An_Article_Image_1.jpg)    
 1. If you want the results of your search to be displayed on a new page:
     * Do not select an article from the suggestion list
     * After typing your search query, press Enter on your keyboard
