@@ -200,18 +200,18 @@ To be able to use shared access account to submit support tickets, you need to p
 
 If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
-If you are a Magento license owner, please verify that you don’t have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
+If you are an Adobe Commerce license owner, please verify that you don’t have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 
- <span class="wysiwyg-underline">How To Check Your Payment Status</span> :
+<span class="wysiwyg-underline">How To Check Your Payment Status</span>:
 
-1. Login to [magento.com](http://support.magento.com/) .
+1. Log in to [magento.com](http://support.magento.com/).
 1. Click on **Billing History** on the left.
 1. If you **do** have an invoice with **Pending Payment** status, **please contact your Customer Success Manager** to have the payment issue resolved.
 
-We provide support only to Magento license owners and accounts which have Shared Access to an account with a Magento license. If you need support for the Magento Open Source edition, please utilize these self-help technical resources:
+We provide support only to Adobe Commerce license owners and accounts which have Shared Access to an account with an Adobe Commerce license. If you need support for the Magento Open Source edition, please utilize these self-help technical resources:
 
-* [Magento Help Center](https://support.magento.com/)
-* [Magento Developer Docs](http://devdocs.magento.com/)
+* [Adobe Commerce Help Center](https://support.magento.com/)
+* [Adobe Commerce Developer Documentation](http://devdocs.magento.com/)
 * [Magento Tech Resources](https://magento.com/resources/technical)
 * [Magento Forums](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
 
