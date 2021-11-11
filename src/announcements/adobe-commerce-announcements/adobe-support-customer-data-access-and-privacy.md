@@ -13,8 +13,8 @@ To authorize access:
 
 1. [Log in](https://account.magento.com/customer/account/login) as a support entitled primary user.
 1. On the **My Account** page > **Account Settings** > **Privacy Settings.** You will see a consent form to grant Adobe technical support personnel access to your data.
-1. After reviewing the information about privacy settings choose whether to check the checkbox next to **I authorize the access of my data for the following duration:**
-1. On the duration drop down select the period of time you want Adobe technical support personnel to have access to your customer data. You can select 7 days, 30 days, one year or indefinitely.
+1. After reviewing the information about privacy settings choose whether to check the checkbox next to **I authorize the access of my data for the following duration:**.
+1. In the duration drop-down, select the period of time you want Adobe technical support personnel to have access to your customer data. You can select 7 days, 30 days, one year or indefinitely.
 1. Click **Save**. This will update the start and end date at the bottom of the page under **You have given consent for the following duration** (screen shot). After consent has been granted, the entitled primary user will see the option to withdraw consent at the bottom of the screen.
   ![magento-account-privacy-settings.png](assets/magento-account-privacy-settings.png)    
 
