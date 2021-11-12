@@ -432,11 +432,11 @@ Your ticket may have either of these three statuses.
 
 #### **1. Open**
 
-Your ticket is not solved and is being processed by the Magento Support Team.When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Magento Support — your ticket has the **Open** status.
+Your ticket is not solved and is being processed by the Adobe Commerce support team. When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Adobe Commerce support, your ticket has the **Open** status.
 
 #### **2. Awaiting your reply**
 
-Magento Support is expecting information from you.
+Adobe Commerce support is expecting information from you.
 
 In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue.Make sure you provide your replies as soon as you can since Magento Support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
 
