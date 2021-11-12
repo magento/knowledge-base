@@ -311,7 +311,7 @@ To follow/unfollow tickets for an organization:
 
 #### Affected URL
 
-Link to the environment where the Magento Support Team would be able to see your problem. Make sure to start the URL with "http://" or "https://".
+Link to the environment where the Adobe Commerce Support Team would be able to see your problem. Make sure to start the URL with "http://" or "https://".
 
 #### Attachments
 
