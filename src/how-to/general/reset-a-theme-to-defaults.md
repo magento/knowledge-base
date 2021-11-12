@@ -1,16 +1,16 @@
 ---
 title: Reset a theme to defaults
-labels: Magento Commerce,Magento Commerce Cloud,SQL,database,default,how to,luma,reset,store,theme
+labels: Magento Commerce,Magento Commerce Cloud,SQL,database,default,how to,luma,reset,store,theme,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-Depending on issues you may be encountering when customizing your themes and developing your store, you may not have access through the Magento Admin. You can clear and reset to your theme default without accessing the admin. After you clear the theme, the default Luma theme will be applied.
+Depending on issues you may be encountering when customizing your themes and developing your store, you may not have access through the Commerce Admin. You can clear and reset to your theme default without accessing the Admin. After you clear the theme, the default Luma theme will be applied.
 
-While you’re developing Magento components (modules, themes, and language packages), your rapidly changing environment requires you to periodically clear certain directories and caches. Otherwise, your code runs with exceptions and won’t function properly. For details, see [Clear directories during development](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in DevDocs.
+While you’re developing Adobe Commerce (all deployments) and Magento Open Source components (modules, themes, and language packages), your rapidly changing environment requires you to periodically clear certain directories and caches. Otherwise, your code runs with exceptions and won’t function properly. For details, see [Clear directories during development](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in our developer documentation.
 
 ## Environment and technologies
 
-* Magento Commerce
-* Magento Commerce (Cloud)
+* Adobe Commerce on-premises
+* Adobe Commerce on cloud infrastructure
 * Magento Open Source
 
 ## Prerequisites
@@ -32,4 +32,4 @@ This way there will be no theme set on the store view level, and when you reload
 
 ## Additional Information
 
-* [Clear directories during development](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html)
+* [Clear directories during development](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in our developer documentation
