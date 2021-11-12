@@ -403,7 +403,7 @@ Give exact step-by-step instructions to reproduce your problem, including:
 * Expected result
 * Actual result
 
- *Recommendation:* Assume that you are writing these steps for someone who knows **nothing** about Magento:
+*Recommendation:* Assume that you are writing these steps for someone who knows **nothing** about Adobe Commerce:
 
 * Mention every step, even if it seems simple and obvious
 * Do not rely on the assumption that your reader knows what you mean
@@ -414,18 +414,17 @@ Write in simple language, with short sentences.
 
 Include a short overview of your problem (for example, *Error 404 on all pages* ).
 
- **Suggested articles:** When you start writing the subject, you see a list of Knowledge Base articles that might be related to your problem; they are being offered to you basing on the keywords you are typing in. Click the article in the list to open it in the Knowledge Base.
+**Suggested articles:** When you start writing the subject, you see a list of Knowledge Base articles that might be related to your problem; they are being offered to you basing on the keywords you are typing in. Click the article in the list to open it in the Knowledge Base.
 
 ![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
 
- *Recommendation:* Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Magento Support Team.
+*Recommendation:* Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Adobe Commerce support team.
 
-#### Version (Commerce on-Premise, Commerce Cloud and Shipping only)
+#### Version (Adobe Commerce on-premise, Adobe Commerce on cloud infrastructure and Shipping only)
 
-Please select the Magento version you are requesting help with. All supported versions of Magento Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
+Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
-To find the version of your Magento Commerce (Cloud), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
-
+To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
 
 <h3 id="ticket-status">Ticket status: How your tickets are processed</h3>
 
