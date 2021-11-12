@@ -41,7 +41,7 @@ Check the session record created in the `admin_user_session` table. If the value
 
 ### Change the session storage
 
-Try changing the session storage. Use the info from the [How to locate your session files](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) article to find out where your session is stored, and change it by editing the `app/etc/env.php` file.
+Try changing the session storage. Use the info from the [How to locate your session files](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) article in our developer documentation to find out where your session is stored, and change it by editing the `app/etc/env.php` file.
 
 For example, to start storing session in the file system, change the `'session'` section as following:
 
