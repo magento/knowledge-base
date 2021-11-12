@@ -26,7 +26,7 @@ When `catalogrule_product` partial indexer is executed on configurable products,
 <ins>Steps to reproduce</ins>:
 
 1. Log in to the Admin backend.
-1. Go to **Stores** > **Attributes** > **Product** and search for "manufacturer" attribute.
+1. Go to **Stores** > **Attributes** > **Product** and search for the "manufacturer" attribute.
     * Add a few options and set "Use for Promo Rule Conditions" to *Yes*.
 1. Go to **Stores** > **Attributes** > **Attribute Sets**.
     * Select the default attribute set and add the "manufacturer" attribute to it.
