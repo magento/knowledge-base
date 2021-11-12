@@ -319,15 +319,15 @@ Attach logs, screenshots, video recordings, or any other media that may better i
 
 #### Backoffice URL (MOM only)
 
-URL must begin with “https://” **.** It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
+URL must begin with “https://”. It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
 
 You can also put the direct link related to your issue.
 
 #### CC
 
-Emails of the persons whom you want to follow your ticket (for example, *first@e.mail* ).
+Emails of the persons whom you want to follow your ticket (for example, *first@e.mail*).
 
-You may add emails of the persons who do not have a Magento or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
+You may add emails of the persons who do not have an Adobe Commerce or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
 
 To add several emails to CC:
 
@@ -352,7 +352,7 @@ Select the type of integration you have within MBI. This will help our engineers
 
 Include an overview of your problem with as many details as you find reasonably possible.
 
-Please provide precise details, steps to reproduce (except for Magento Commerce and Cloud, where there is a separate [Steps to Reproduce](#steps) field), and symptoms of your issue or request.  Be sure to include any affected SKUs, relevant data points, and any other relevant links.
+Please provide precise details, steps to reproduce (except for Adobe Commerce on-premises and cloud infrastructure, where there is a separate [Steps to Reproduce](#steps) field), and symptoms of your issue or request. Be sure to include any affected SKUs, relevant data points, and any other relevant links.
 
 #### Environment (Commerce Cloud, Commerce on-Premise, MBI and Shipping only)
 
