@@ -26,7 +26,7 @@ Check the logs to see if there are entries with custom module's name in the erro
 
 1. Logs locations: [Adobe Commerce on cloud infrastructure logs](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in our developer documentation.
 1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles in our developer documentation detail those actions:    
-    * [Install, manage, and upgrade extensions](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html) in our developer documentation.
+    * [Install, manage, and upgrade extensions](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html).
     * [Component deployment failure](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html) in our developer documentation.
 
 ## Related reading
