@@ -22,7 +22,7 @@ Google stopped supporting Google Image Charts on March 14, 2019. Users of Adobe 
 
 To be able to view static charts in the Commerce Admin, download and apply the patch provided by Adobe Commerce. No additional configuration is necessary.
 
-### Adobe Commerce 2 on-premises
+### Adobe Commerce on-premises
 
 1. Save the [attached MAGETWO-98833\_composer\_patch-2019-04-15-04-38-57.patch](assets/MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch.zip) patch and upload it to your Adobe Commerce root directory.
 1. Run the following SSH command, having replaced the patch name with actual one:    
