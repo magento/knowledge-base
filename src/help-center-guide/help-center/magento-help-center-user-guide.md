@@ -354,7 +354,7 @@ Include an overview of your problem with as many details as you find reasonably 
 
 Please provide precise details, steps to reproduce (except for Adobe Commerce on-premises and cloud infrastructure, where there is a separate [Steps to Reproduce](#steps) field), and symptoms of your issue or request. Be sure to include any affected SKUs, relevant data points, and any other relevant links.
 
-#### Environment (Commerce Cloud, Commerce on-Premise, MBI and Shipping only)
+#### Environment (Adobe Commerce cloud infrastructure, Adobe Commerce on-Premises, MBI and Shipping only)
 
 Select the environment type on which you face the problem:
 
@@ -362,7 +362,7 @@ Select the environment type on which you face the problem:
 * Staging
 * Production
 
-Read more about Magento Commerce Cloud environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article on DevDocs.
+Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article in our developer documentation.
 
 #### Number of orders affected (MOM only)
 
@@ -378,22 +378,22 @@ This field appears when your account is associated with more than one organizati
 
 #### Product
 
-Select the type of Magento product you are working with:
+Select the type of Adobe Commerce product you are working with:
 
-* Magento Commerce Cloud
-* Magento Commerce OnPremise
+* Adobe Commerce on cloud infrastructure
+* Adobe Commerce on-premises
 * Magento Order Management
 * Magento Shipping
 
 #### Partner name (Merchant name)
 
-For Merchants: **Partner Name** is the name of the Development Organization (Magento [Technology Partner](https://partners.magento.com/portal/directory/?&partner_type=6) or [Solution Partner](https://partners.magento.com/portal/directory/?&partner_type=1) ) that participate in developing your Magento store.
+For Merchants: **Partner Name** is the name of the Development Organization (Adobe Commerce [Technology Partner](https://partners.magento.com/portal/directory/?&partner_type=6) or [Solution Partner](https://partners.magento.com/portal/directory/?&partner_type=1)) that participate in developing your Adobe Commerce store.
 
 For Partners: **Merchant Name** is the name of your Customer.
 
 #### Project URL (Commerce Cloud only)
 
-Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) .
+Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
 
 #### Steps to reproduce (Commerce on-premises and Commerce Cloud only)
 
