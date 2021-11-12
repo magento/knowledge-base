@@ -7,7 +7,7 @@ This article provides a patch for the known Adobe Commerce 2.2.1 issue related t
 
 ## Issue
 
-In the Adobe Commerce 2.2.1 with B2B extension installed, orders created on the storefront by a registered customer, are not displayed in the list of orders in the customer's account in the Commerce Admin. In the debug log (`./var/log/debug.log`) the following error is logged:
+In the Adobe Commerce 2.2.1 with B2B extension installed, orders created on the storefront by a registered customer are not displayed in the list of orders in the customer's account in the Commerce Admin. In the debug log (`./var/log/debug.log`), the following error is logged:
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
