@@ -25,7 +25,7 @@ In this step, we define the secure URLs for the store. If that's already done, g
 <h3 id="step-2-enable-force-tls">Step 2: Enable Force TLS</h3>
 
 1. In the Commerce Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System**.
-1. Expand the **Full Page Cache** section, then **Fastly Configuration** , then **Advanced Configuration**.
+1. Expand the **Full Page Cache** section, then **Fastly Configuration**, then **Advanced Configuration**.
 1. Click the **Force TLS** button.    ![magento-admin_force-tls-button.png](assets/magento-admin_force-tls-button.png)    
 1. In the dialog that appears, click **Upload**.    ![magento-admin_force-tls-confirmation-dialog.png](assets/magento-admin_force-tls-confirmation-dialog.png)    
 1. After the dialog closes, make sure the current state of Force TLS is displayed as **enabled**.    ![magento-admin_force-tls-enabled.png](assets/magento-admin_force-tls-enabled.png)    
