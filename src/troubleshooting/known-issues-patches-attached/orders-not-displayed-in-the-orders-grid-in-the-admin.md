@@ -11,9 +11,11 @@ In the Adobe Commerce 2.2.1 with B2B extension installed, orders created on the 
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
-<ins>Steps to reproduce</ins>:
+<ins>Prerequisites</ins>:
 
-<ins>Prerequisites</ins>: Your store catalog contains products, not Adobe Commerce sample data, and the B2B extension is installed.
+Your store catalog contains products, not Adobe Commerce sample data, and the B2B extension is installed.
+
+<ins>Steps to reproduce</ins>:
 
 1. Navigate to the store front and create a customer account.
 1. Add a product to the shopping cart, complete checkout and submit an order.
