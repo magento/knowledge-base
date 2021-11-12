@@ -45,11 +45,11 @@ When `catalogrule_product` partial indexer is executed on configurable products,
 
 <ins>Expected results</ins>:
 
-The catalog rule prices set on configurable products are not removed during partial reindex.
+The catalog price rules set on configurable products are not removed during partial reindex.
 
 <ins>Actual results</ins>:
 
-The catalog price rule set on configurable products disappears during partial reindex.
+The catalog price rules set on configurable products are disappeared during partial reindex.
 
 ## Apply the patch
 
