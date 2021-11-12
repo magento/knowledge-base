@@ -25,7 +25,7 @@ Only the first node for a page is retrieved even if there are more than one node
 
 <ins>Steps to reproduce</ins>:
 
-1. In the admin panel, go to Hierarchy and add two menu items/nodes.
+1. In the Admin Panel, go to **Hierarchy** and add two menu items/nodes.
 1. Add the same CMS page to each node.
 1. Clear cache and check the frontend.
 1. Check link and breadcrumbs for the first added sub-menu.
