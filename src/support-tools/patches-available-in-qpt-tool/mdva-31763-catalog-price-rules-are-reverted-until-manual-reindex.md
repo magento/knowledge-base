@@ -40,7 +40,7 @@ When `catalogrule_product` partial indexer is executed on configurable products,
     * Actions: Any discount
 1. Do a full index.
 1. Check product price on PDP and make sure the price is correct.
-1. Update "weight" attribute of the created configurable product.
+1. Update the "weight" attribute of the created configurable product.
 1. Check product price on PDP.
 
 <ins>Expected results</ins>:
