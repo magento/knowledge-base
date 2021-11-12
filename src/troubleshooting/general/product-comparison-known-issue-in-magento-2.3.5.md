@@ -43,4 +43,4 @@ You can view the fix in GitHub (please consider, that the fix did not go through
 <p title="Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1"><a href="https://support.magento.com/hc/en-us/articles/360042646332">Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1</a></p>
 </li>
 </ul>
-</li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 Known Issues in our developer documentation</a></li></ul>
+</li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 Known Issues</a> in our developer documentation</li></ul>
