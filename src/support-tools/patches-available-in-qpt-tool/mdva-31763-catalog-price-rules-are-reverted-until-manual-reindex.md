@@ -45,7 +45,7 @@ When `catalogrule_product` partial indexer is executed on configurable products,
 
 <ins>Expected results</ins>:
 
-The catalog rule prices set on configurable products is not removed during partial reindex.
+The catalog rule prices set on configurable products are not removed during partial reindex.
 
 <ins>Actual results</ins>:
 
