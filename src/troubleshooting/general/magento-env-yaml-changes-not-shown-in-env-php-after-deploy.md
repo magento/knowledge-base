@@ -5,7 +5,7 @@ labels: .magento.env.yaml,Magento Commerce Cloud,app/etc/env.php,deploy,deployme
 
 >![info]
 >
->If you have this problem, then upgrade to ece-tools 2002.1.5 to fix it. 2002.1.5 has functionality to reset the opcache on each deployment so there is never a need to change the setting opcache.enable_cli=1 If you don't want to upgrade, then you would have to do the workaround steps as described below in the solution.
+>If you have this problem upgrade to ece-tools 2002.1.5 to fix it. 2002.1.5 has functionality to reset the opcache on each deployment so there is never a need to change the setting `opcache.enable_cli=1`. If you don't want to upgrade, then you would have to do the workaround steps as described below in the solution.
 
 This article provides a solution for the issue where changes in `.magento.env.yaml` file are not reflected in `app/etc/env.php` after deployment.
 
