@@ -305,13 +305,13 @@ To follow/unfollow tickets for an organization:
 
 <h3 id="P1-hotline">Adobe Commerce P1 hotline</h3>
 
-**Login is required** to access the [Magento P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
+**Login is required** to access the [Adobe Commerce P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
 
 <h3 id="ticket-fields-explained">Support ticket fields explained</h3>
 
 #### Affected URL
 
-Link to the environment where the Adobe Commerce Support Team would be able to see your problem. Make sure to start the URL with "http://" or "https://".
+Link to the environment where the Adobe Commerce support team would be able to see your problem. Make sure to start the URL with "http://" or "https://".
 
 #### Attachments
 
