@@ -14,7 +14,7 @@ This article provides solutions for when products are not displayed on storefron
 
 <ins>Steps to reproduce</ins>:
 
-1. Login to the Commerce Admin.
+1. Log in to the Commerce Admin.
 1. Go to **Catalog** > **Products**.
 
     ![open_product_page_magento_2.4.1.png](assets/open_product_page_magento_2.4.1.png)
