@@ -34,7 +34,7 @@ To be able to view static charts in the Commerce Admin, download and apply the p
 
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
 
-### Adobe Commerce 2 on cloud infrastructure
+### Adobe Commerce on cloud infrastructure
 
 For Cloud merchants, the patch will be included to the nearest ECE-tools update.
 
