@@ -438,9 +438,9 @@ Your ticket is not solved and is being processed by the Adobe Commerce support t
 
 Adobe Commerce support is expecting information from you.
 
-In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Magento Support, has proved helpful for your issue.Make sure you provide your replies as soon as you can since Magento Support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
+In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Adobe Commerce support, has proved helpful for your issue. Make sure you provide your replies as soon as you can since Adobe Commerce support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
 
-Reference the [Magento Support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy.
+Reference the [Adobe Commerce support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy.
 
 #### **3. Solved**
 
@@ -455,7 +455,7 @@ To add a comment to the conversation, follow these steps:
 1. Scroll to the bottom of your ticket.
 1. Click the **Add to conversation** field to start writing.    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)    
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.    ![hc_conversation-write.png](assets/hc_conversation-write.png)    
-1. Once you are finished with your comment, click **Submit** .
+1. Once you are finished with your comment, click **Submit**.
 
 <h3 id="resolve-ticket">Resolve your ticket</h3>
 
@@ -471,7 +471,7 @@ To open a follow-up ticket, click the " *create a follow-up* " link at the botto
 
 You may grant limited access to your account for other Magento account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
 
-You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/) .
+You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/).
 
 <h3 id="who-can-provide-shared-access">Who can provide shared access</h3>
 
