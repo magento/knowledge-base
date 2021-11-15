@@ -483,30 +483,28 @@ Users who have been provided with shared access cannot transfer or grant such ac
 
 <h3 id="find-account-owner-cloud">Get to know Account Owner (Cloud)</h3>
 
-To find out who is the Owner of your Adobe Commerce (Cloud) Account, follow these steps:
+To find out who is the Owner of your Adobe Commerce on cloud infrastructure Account, follow these steps:
 
-1. Access your Magento Commerce (Cloud) [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html) .
+1. Access your Adobe Commerce on cloud infrastructure [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html).
 1. Click the gear icon (Configure Project) next to your Project Name (upper-left corner).
 1. Go to the **Users** tab.
-1. Find the user who is mentioned as the **Account owner** .
+1. Find the user who is mentioned as the **Account owner**.
 
 ![magento_cloud_account_owner.png](assets/magento_cloud_account_owner.png)
 
-
-If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Magento Customer Success Manager (CSM).
+If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Adobe Commerce Customer Success Manager (CSM).
 
 <h3 id="provide-shared-access">Provide shared access</h3>
 
-See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Magento User Guide for detailed steps on setting up a shared account.
+See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Adobe Commerce User Guide for detailed steps on setting up a shared account.
 
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
 
 ![magento-account-shared-manage-permissions.png](assets/magento-account-shared-manage-permissions.png)
 
-
 <h3 id="revoke-shared-access">Revoke (delete) shared access</h3>
 
-1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/) .
+1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
 1. Find the user to revoke shared access from and click <img src = "assets/remove_icon.png" alt = "remove icon" width="25px"> in the user's row (**Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
@@ -515,9 +513,9 @@ After providing shared access for a new user, the related information is availab
 
 You may also revoke shared access using the **Edit** menu:
 
-1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/) .
+1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
-1. Find the user to revoke shared access from and click **Edit** in the user's row ( **Actions** column).
+1. Find the user to revoke shared access from and click **Edit** in the user's row (**Actions** column).
 1. Click **Delete This User** at the bottom of the page.
 1. In the confirmation popup, click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
@@ -534,4 +532,4 @@ To know which account you are currently using (your own native account or shared
 
 <h3 id="troubleshooting-shared-access">Shared access troubleshooting</h3>
 
-Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012) .
+Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012) in our support knowledge base.
