@@ -42,6 +42,12 @@ As a result, the Adobe Commerce installer cannot locate the extension and the in
 Determine if the mcrypt extension is loaded in any of the following ways:
 
 * Set up a [phpinfo.php](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) file in the web server's root directory and examine the output in a web browser.
-* Run the following command:    ```php    $ php -r "phpinfo();" | grep mcrypt``` If mycrypt is *not* installed, messages similar to the following display: ```php    PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0 ```    
+* Run the following command:    `$ php -r "phpinfo();" | grep mcrypt`
+
+If mycrypt is *not* installed, messages similar to the following display:
+
+```php
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
+```    
 
 In some cases, you might need to install the Adobe Commerce software from the [command line](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html) and specify the full path to the LAMP stack that has mcrypt installed.
