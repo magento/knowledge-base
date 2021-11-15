@@ -444,11 +444,11 @@ Reference the [Adobe Commerce support ticket lifecycle policy update](https://su
 
 #### **3. Solved**
 
-Magento Support has provided a solution for your issue, and you have agreed it has been helpful.It is you who marks the ticket as **Solved** . If the fixed issue occurs again, you may reopen the ticket, setting its status to back to **Open** .
+Adobe Commerce support has provided a solution for your issue, and you have agreed it has been helpful. It is you who marks the ticket as **Solved**. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to **Open**.
 
 <h3 id="conversation-in-ticket">Conversation in your ticket</h3>
 
-Conversation in your ticket unites all comments written by you or the Magento Support Team. Comments are displayed from latest (on top) to earliest (bottom).
+Conversation in your ticket unites all comments written by you or the Adobe Commerce support team. Comments are displayed from latest (on top) to earliest (bottom).
 
 To add a comment to the conversation, follow these steps:
 
@@ -465,11 +465,11 @@ To resolve your ticket, click **Mark as solved** at the bottom of your ticket.
 
 Opening a follow-up ticket will ensure that the original issue is linked to the follow-up ticket for continuity.
 
-To open a follow-up ticket, click the " *create a follow-up* " link at the bottom of the ticket you wish to create a follow up to.
+To open a follow-up ticket, click the "*create a follow-up*" link at the bottom of the ticket you wish to create a follow up to.
 
 <h2 id="shared-access">SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</h2>
 
-You may grant limited access to your account for other Magento account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
+You may grant limited access to your account for other Adobe Commerce account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
 
 You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/).
 
@@ -477,13 +477,13 @@ You can provide and manage shared access using your Magento Account page at [htt
 
 Only the Account Owner (Primary Account Holder) with the according privileges can provide shared access for other users.
 
-Managing users and their access is the customer's responsibility, especially in the shared access perspective. Thus, the Magento Support Team cannot provide shared access to a Magento account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the [Magento Account page](https://account.magento.com/) .
+Managing users and their access is the customer's responsibility, especially in the shared access perspective. Thus, the Adobe Commerce support team cannot provide shared access to a Magento account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the [Magento Account page](https://account.magento.com/).
 
 Users who have been provided with shared access cannot transfer or grant such access to other users.
 
 <h3 id="find-account-owner-cloud">Get to know Account Owner (Cloud)</h3>
 
-To find out who is the Owner of your Magento Commerce (Cloud) Account, follow these steps:
+To find out who is the Owner of your Adobe Commerce (Cloud) Account, follow these steps:
 
 1. Access your Magento Commerce (Cloud) [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html) .
 1. Click the gear icon (Configure Project) next to your Project Name (upper-left corner).
