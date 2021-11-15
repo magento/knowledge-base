@@ -156,7 +156,7 @@ To submit a new support ticket using your Magento Account page, follow these ste
 To submit a new support ticket using your Magento Cloud Account page, follow these steps:
 
 1. Log in to your [Magento Cloud Account](https://account.magento.com/cloud/customer/login/).
-1. Click the **Support** link at the page top.
+1. Click the **Support** link at the top of the page.
 1. The Help Center start page loads for you.
 1. Click **Submit a ticket** in the upper-right corner.
 1. Fill in the fields.
