@@ -12,7 +12,7 @@ This article provides a fix for the known issue when upgrading to Adobe Commerce
 
 ## Issue
 
-During an upgrade to Adobe Commerce (all deployment methods)/Magento Open Source version 2.3.5 or 2.3.4-p1, you could get a wishlist error (detailed below) from the module:
+When upgrading your Adobe Commerce (all deployment methods) and Magento Open Source to version 2.3.5 or 2.3.4-p1, you could get a wishlist error (detailed below) from the module:
 
 ```php
 Magento_Wishlist
