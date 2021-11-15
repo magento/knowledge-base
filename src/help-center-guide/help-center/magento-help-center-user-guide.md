@@ -218,9 +218,9 @@ We provide support only to Adobe Commerce license owners and accounts which have
 If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [None](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
 
 <h3 id="verify-email-address">
-<em>"Please verify your email address"</em>error on the Magento account page</h3>
+<em>"Please verify your email address"</em> error on the Magento Account page</h3>
 
-You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento account page](https://account.magento.com/).
+You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento Account page](https://account.magento.com/).
 ![Verify_Email_Address_Error.png](assets/Verify_Email_Address_Error.png)
 
 The solution is to validate your email address:
