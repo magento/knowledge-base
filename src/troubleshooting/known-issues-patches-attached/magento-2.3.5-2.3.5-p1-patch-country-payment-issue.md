@@ -61,7 +61,7 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 The Payment step opens.
 
 * There are no available payments.
-* Message: **No Payment method available.**
+* Message: *No Payment method available.*
 * There is no **Place Order** button.
 
 ## Solution
