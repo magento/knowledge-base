@@ -192,7 +192,7 @@ The **Submit a ticket** link will only be displayed for customers with an email 
 
 To be able to use shared access account to submit support tickets, you need to perform the following (this needs to be done only once):
 
-1. After receiving [shared access](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access), log in to your [Magento account on the magento.com website](https://account.magento.com/).
+1. After receiving [shared access](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access), log in to your [Magento Account on the magento.com website](https://account.magento.com/).
 1. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
 1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
