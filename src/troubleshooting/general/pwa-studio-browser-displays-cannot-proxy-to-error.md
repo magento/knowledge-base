@@ -27,7 +27,7 @@ error when using Progressive Web App (PWA) Studio for Adobe Commerce.
 
 <ins>Actual result</ins>:
 
-* Your web browser displays the “*Cannot proxy to“* error and the console displays an error like:  
+* Your web browser displays the “*Cannot proxy to*“ error and the console displays an error like:  
 
 ```clike
     ENOTFOUND    
