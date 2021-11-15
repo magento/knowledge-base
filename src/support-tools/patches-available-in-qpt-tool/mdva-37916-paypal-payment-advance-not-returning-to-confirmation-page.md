@@ -43,7 +43,7 @@ After the payment is processed and the payment is successful, you are redirected
 
 ## Apply the patch
 
-To apply individual patches, use the following links in our developer documentation, depending on your Adobe Commerce product:
+To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html)
