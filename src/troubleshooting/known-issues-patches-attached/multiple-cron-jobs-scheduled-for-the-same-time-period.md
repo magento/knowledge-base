@@ -14,7 +14,7 @@ When cron is configured to run every minute, if you edit time variables for thre
 1. In Commerce Admin, navigate to **Stores** > Settings > **Configuration** > **ADVANCED** > **System** > **Cron (Scheduled Tasks)** > **Cron configuration options for group: default.**
 1. Configure the following options:
     * **History Cleanup Every**: clear the **Use system** checkbox, and set to *1440*.
-    * **Success History Lifetime** : clear the **Use system** checkbox, and set to *1440*.
+    * **Success History Lifetime**: clear the **Use system** checkbox, and set to *1440*.
     * **Failure History Lifetime** : clear the **Use system** checkbox, and set to *1440*.
 
 1. Click **Save Config**.
