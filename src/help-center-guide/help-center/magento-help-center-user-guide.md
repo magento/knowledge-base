@@ -327,7 +327,7 @@ You can also put the direct link related to your issue.
 
 Emails of the persons whom you want to follow your ticket (for example, *first@e.mail*).
 
-You may add emails of the persons who do not have an Adobe Commerce or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
+You may add emails of the persons who do not have a Magento or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
 
 To add several emails to CC:
 
@@ -354,7 +354,7 @@ Include an overview of your problem with as many details as you find reasonably 
 
 Please provide precise details, steps to reproduce (except for Adobe Commerce on-premises and cloud infrastructure, where there is a separate [Steps to Reproduce](#steps) field), and symptoms of your issue or request. Be sure to include any affected SKUs, relevant data points, and any other relevant links.
 
-#### Environment (Adobe Commerce cloud infrastructure, Adobe Commerce on-Premises, MBI and Shipping only)
+#### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, MBI and Shipping only)
 
 Select the environment type on which you face the problem:
 
@@ -469,7 +469,7 @@ To open a follow-up ticket, click the "*create a follow-up*" link at the bottom 
 
 <h2 id="shared-access">SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</h2>
 
-You may grant limited access to your account for other Adobe Commerce account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
+You may grant limited access to your account for other Magento account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
 
 You can provide and manage shared access using your Magento account page at [https://account.magento.com](https://account.magento.com/).
 
