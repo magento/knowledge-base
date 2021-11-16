@@ -11,7 +11,7 @@ This article provides the steps you could take to re-arrange cloud branches on A
 
 ## Cloud Branch Organizaton
 
-The correct hierachy organization for your branches is:
+The correct hierarchy organization for your branches is:
 
 Master [main] > Production > Staging > Integration
 
