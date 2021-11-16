@@ -56,7 +56,7 @@ The following error is returned from the REST API:
 
 ## Apply the patch
 
-To apply individual patches, use the following links in our developer documentation, depending on your Adobe Commerce product:
+To apply individual patches, use the following links, depending on your Adobe Commerce product:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
