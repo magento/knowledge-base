@@ -3,7 +3,7 @@ title: "MDVA-37874: Fixed discount not applied to entire cart"
 labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,2.3.6,2.3.6-p1,2.3.7,QPT 1.0.24,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,fixed discount amount,bundle product,order,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
 ---
 
-The MDVA-37874 quality patch for Adobe Commerce fixes the issue when the **fixed discount amount** for the whole cart is incorrectly applied to a bundle product containing more than one option. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.24 is installed. The patch ID is MDVA-37874. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
+The MDVA-37874 patch fixes the issue when the **fixed discount amount** for the whole cart is incorrectly applied to a bundle product containing more than one option. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.24 is installed. The patch ID is MDVA-37874. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
 ## Affected products and versions
 
@@ -35,9 +35,9 @@ The fixed discount amount is applied to only part of the cart.
 
 ## Apply the patch
 
-To apply individual patches, use the following links in our developer documentation, depending on your Adobe Commerce product:
+To apply individual patches, use the following links, depending on your Adobe Commerce product:
 
-* Adobe Commerce on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
