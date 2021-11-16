@@ -3,7 +3,7 @@ title: "MDVA-40609: Disabled products data absent in cataloginventory_stock_stat
 labels: QPT patches,Quality Patches Tool,MQP,Magento,Adobe Commerce,on premises,cloud infrastructure,Support Tools,index,incorrect table,disabled product,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
-The MDVA-40609 patch solves the issue where the actual disabled products data is not shown in the `cataloginventory_stock_status` index table, but instead displays an incorrect disabled product quantities. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.6 is installed. The patch ID is MDVA-40609. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+The MDVA-40609 patch solves the issue where the disabled products data is not shown in the `cataloginventory_stock_status` index table, but instead displays an incorrect disabled product quantities. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.6 is installed. The patch ID is MDVA-40609. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
@@ -21,7 +21,7 @@ The MDVA-40609 patch solves the issue where the actual disabled products data is
 
 ## Issue
 
-Disabled products data is not shown in the `cataloginventory_stock_status` index table, but instead display an incorrect disabled product quantities.
+Disabled products data is not shown in the `cataloginventory_stock_status` index table, but instead displays an incorrect disabled product quantities.
 
 <ins>Prerequisites</ins>:
 
@@ -32,14 +32,14 @@ Inventory module is installed.
 1. Set up two websites with stores and store views.
 1. Create an additional source and stock.
 1. Add a simple product:
-    * Set "Enable Product" to *No*
+    * Set Enable Product to *No*
     * Assign two sources with Source Item Status = Instock, and Qty greater than zero
 1. Save the product.
 1. Check the **Product Salable Quantity** tab.
 
 <ins>Expected results</ins>:
 
-Both stocks have entered values(greater than zero).
+Both stocks have entered values greater than zero.
 
 <ins>Actual results</ins>:
 
