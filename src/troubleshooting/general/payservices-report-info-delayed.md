@@ -47,4 +47,10 @@ There are two factors that affect this delay in visible data in the Admin:
 
 ## Solution
 
-This issue of delayed reporting data for Order payment status reports will be resolved for our General Availability (GA) release in late November 2021. Payout reports may still incur a delay because of the dependency on PayPal's data publishing timeframe.
+For Order payment status reports:
+
+1. Navigate to **Sales** > **Payment Services**.
+1. Click **Order payment status** to view the order payment status reports table.
+1. Force resync by clicking the force resync icon in the top right corner of the reports table.
+
+For PayPal payout reports, the expected result is a delay of 24-48h.
