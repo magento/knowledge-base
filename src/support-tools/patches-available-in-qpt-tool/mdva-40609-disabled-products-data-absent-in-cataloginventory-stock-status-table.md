@@ -1,6 +1,6 @@
 ---
 title: "MDVA-40609: Disabled products data absent in cataloginventory_stock_status table"
-labels: QPT patches,Quality Patches Tool,MQP,Magento,Adobe Commerce,on premises,cloud infrastructure,Support Tools,index,incorrect table,disabled product,2.4.2,2.4.2-p1,2.4.2-p2
+labels: QPT patches,Quality Patches Tool,MQP,QPT 1.1.6,Magento,Adobe Commerce,on premises,cloud infrastructure,Support Tools,index,incorrect table,disabled product,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
 The MDVA-40609 patch solves the issue where the disabled products data is not shown in the `cataloginventory_stock_status` index table, but instead displays an incorrect disabled product quantities. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.6 is installed. The patch ID is MDVA-40609. Please note that the issue was fixed in Adobe Commerce 2.4.3.
