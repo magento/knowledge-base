@@ -42,7 +42,7 @@ To apply individual patches, use the following links in our developer documentat
 
 ## Related reading
 
-To learn more about Quality Patches Tool in our support knowledge base, refer to:
+To learn more about Quality Patches Tool, refer to:
 
 * [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
