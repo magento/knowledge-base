@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41399: Unable to access the "Manage Shopping Cart" page if a customer adds a product to the wishlist"
+title: "MDVA-41399: Unable to access the Manage Shopping Cart if a customer adds product to wishlist"
 labels: QPT patches,Quality Patches Tool,MQP,QPT 1.1.6,Adobe Commerce,Magento,cloud infrastructure,on-premises,Support Tools,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1, 2.3.7p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1
 ---
 
@@ -21,19 +21,19 @@ The MDVA-41399 patch solves the issue where admin users are unable to access the
 
 ## Issue
 
-Admin users are unable to access the "Manage Shopping Cart" page if a customer adds a product to the wishlist.
+Admin users are unable to access the Manage Shopping Cart page if a customer adds a product to the wishlist.
 
 <ins>Prerequisites</ins>:
 
 1. Create two or more products.
 1. Create a customer.
-1. Enable Developer mode.
+1. Enable the Developer mode.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to Storefront and sign in as the customer from preconditions.
+1. Go to Storefront and sign in as the customer from the preconditions.
 1. Add a product to Wish List.
-1. Go to the Admin panel and navigate to the created customer edit page and click on the **Manage Shopping Cart**.
+1. Go to the Admin panel and navigate to the created customer edit page and click on the **Manage Shopping Cart** button.
 
 <ins>Expected results</ins>:
 
@@ -41,7 +41,7 @@ Admin user is able to manage shopping cart.
 
 <ins>Actual results</ins>:
 
-Admin user get an error message: *An error has occurred. See error log for details.*
+Admin user gets an error message: *An error has occurred. See error log for details.*
 
 ## Apply the patch
 
