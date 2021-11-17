@@ -27,7 +27,7 @@ Our [onboarding documentation](https://docs-beta.magento.com/user-guide/payment-
    You did not receive a confirmation email because PayPal was unable to verify your email address.
 
 1. Click [reset sandbox](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html#enable-sandbox-testing) and restart your sandbox onboarding.
-1. You [contact Support](mailto:payment-services-support@adobe.com) if you cannot alleviate your account issues so that you can resume onboarding and accept payments.
+1. [Contact Support](mailto:payment-services-support@adobe.com) if you cannot alleviate your account issues so that you can resume onboarding and accept payments.
 
 ## Cause
 
