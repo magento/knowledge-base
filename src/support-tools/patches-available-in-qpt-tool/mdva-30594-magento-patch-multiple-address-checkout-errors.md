@@ -12,8 +12,7 @@ The MDVA-30594 patch solves the issue when placing an order with multiple addres
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -23,18 +22,18 @@ Multiple address orders do not complete with the order success page and also sho
 
 Create 2 websites with stores and store views.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Set **Catalog Price Scope** for website catalog ( **Stores > Settings > Configuration > Catalog > Catalog > Price > Scope** ).
 1. Configure **Fixed Product Taxes (FPT)** ( **Stores > Configuration > Sales > Tax > Fixed Product Taxes** ):
 
-* **Enable FPT** = *Yes* 
-* **Display Prices in Product List** = *Excluding FPT* 
-* **Display Prices on Product View Page** = *Excluding FPT* 
+* **Enable FPT** = *Yes*
+* **Display Prices in Product List** = *Excluding FPT*
+* **Display Prices on Product View Page** = *Excluding FPT*
 * **Display Prices in Sales Modules** = *Excluding FPT* (Including **FPT** description and final price).
 * **Display Prices in Emails** = *Excluding FPT* (Including **FPT** description and final price).
-* **Apply Tax to FPT** = *Yes* 
-* **Include FPT in Subtotal** = *No* 
+* **Apply Tax to FPT** = *Yes*
+* **Include FPT in Subtotal** = *No*
 
 1. Create an **FPT**   **attribute** , and assign it to the default attribute set ( [Configuring FPT: Create an FPT attribute](https://docs.magento.com/user-guide/tax/fixed-product-tax-configuration.html#step-2-create-an-fpt-attribute) in Magento User Guide).
 
@@ -64,11 +63,11 @@ Create 2 websites with stores and store views.
 
 1. Click the **Place Order** button.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The order with multiple addresses is placed successfully.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 A message like, " *An error has occurred.* " will appear.
 

@@ -12,17 +12,16 @@ The MDVA-30593 patch solves the issue where quotes that expired according to the
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Quotes, that expired according to the **Quote Lifetime** setting, are not cleaned up.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. In Magento Admin, go to **Stores** > **Configuration** > **Sales** > **Checkout** > **Shopping Cart** .
-1. Set **Quote Lifetime (days)** = *1* 
+1. Set **Quote Lifetime (days)** = *1*
 1. Save configuration and clear cache.
 1. Log in as a customer.
 1. Add a product to the cart.

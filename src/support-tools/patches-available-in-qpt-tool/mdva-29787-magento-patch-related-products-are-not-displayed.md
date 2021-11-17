@@ -12,8 +12,7 @@ The MDVA-29787 patch solves the issue where **Related Products** are not display
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -23,10 +22,10 @@ The target rule for **Related Products** does not work when " *is one of* " cond
 >
 >Note: This patch does not fix existing target rules. You must re-create existing target rules.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Create **New Attribute** (Example: Test\_Attr).
-    * Set **Catalog Input Type for Store Owner** = *Text.* 
+    * Set **Catalog Input Type for Store Owner** = *Text.*
     * In **Storefront Properties** , set **Use for Promo Rule Conditions** = *Yes* .
 1. Create **New Attribute Set** (Example: Test\_Set).
 1. Add the **New Attribute** to the **New Attribute Set** (Example: Add "Test\_Attr" attribute to the "Test\_Set" attribute set).
@@ -35,8 +34,8 @@ The target rule for **Related Products** does not work when " *is one of* " cond
     * Product2, Test\_Attr = 24-MB02
     * Product3, Test\_Attr = 701644329389M
 1. Create target **Rule** ( **Marketing**   **> Related Product Rules** and click the **Add Rule** button.) with settings:
-    * **Apply To** = *Related Products* 
-    * **Products to Match** 
+    * **Apply To** = *Related Products*
+    * **Products to Match**
     * Set the New Attribute you created **in**   **Step 1 above** to be the Product1's attribute (Example: Test\_Attr = MAGT2NA\_Test3).
     * **Products to Display** = The attributes of the other 2 products (Example: 24-MB02 and 701644329389M attributes).
 1. Save the **Rule** .
@@ -44,11 +43,11 @@ The target rule for **Related Products** does not work when " *is one of* " cond
 1. Clear cache.
 1. Open Product1 on the frontend.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The related products are present as expected.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The related products are missing.
 

@@ -40,7 +40,7 @@ Based on industry best practices, these policies set thresholds for warning and 
 
 Follow this link to learn how to [configure performance-based alerts](https://devdocs.magento.com/cloud/project/new-relic.html#monitor-performance-with-alert-policies).
 
-## Steps
+## Steps to request temporary upsize
 
 Follow the steps below to submit a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to request temporary additional cloud capacity:
 
@@ -52,11 +52,27 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 
 1. Please select the Adobe Commerce Product for which you are seeking Support.
 1. Complete the first four (Product, Organization, Implementation type, Subject) fields.
-1. Select *Surge Contact Request* in the **Contact Reason** drop down options. Click **OK** on the pop-up message requesting 48 hours' notice for temporary additional cloud capacity requests.
+1. Select *Surge Contact Request* in the **Contact Reason** drop down options. Click **OK** on the pop-up message requesting 48 business hours' notice for temporary additional cloud capacity requests.
 1. Complete the next four fields.
-1. Select from the **Surge Capacity Request Type** dropdown options.Note: please select *Holiday Surge Request* for all Holiday upsizing to ensure these tickets are routed properly.
+1. Select from the **Surge Capacity Request Type** dropdown options. Note: please select *Holiday Surge Request* for all Holiday upsizing to ensure these tickets are routed properly.
 1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date.** The preferred **Resize**   **Start Time** is also a mandatory field.
 1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+
+>![info]
+>
+>Once the upsize is scheduled, an automated system will adjust the size of your cloud instance. You may not receive any ticket notification when the procedure is complete. You may use the Observation for Adobe Commerce tool to view your AWS or Azure instance types to [verify the change](https://support.magento.com/hc/en-us/articles/4409425285901).
+
+## View the history of your upsizes
+
+You can view the history of requested resizes in your [Project Portal (Onboarding UI)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), under **Project** > **Services** > **Cluster Resize**.
+The following information is available for each resize request:
+
+* **Size Start Date**: date of upsize request.
+* **Size End Date**: date when the cluster was returned to the previous size.
+* **vCPU Size**: the size of the cluster after the upsize.
+* **Days Usage**: for how many days the cluster stayed upsized.
+* **Period vCPU**: changed vCPU size by the number of days it was used. (for example, vCPU size 192 by 25 days equals 4,800).
+
 
 ## Related reading
 
@@ -68,4 +84,4 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 * For information on improving site performance to avoid the need for utilizing an increase in capacity, refer to these articles in our developer documentation:
     * [Image Sizing](https://docs.magento.com/m2/ee/user_guide/catalog/product-image-resizing.html?_ga=2.180036580.1101564187.1584392801-2014893147.1552329962)  
     * [Full Page Caching](https://docs.magento.com/m2/ee/user_guide/system/cache-full-page.html?_ga=2.206252883.1101564187.1584392801-2014893147.1552329962)  
-    * [ECE-Tools](https://devdocs.magento.com/guides/v2.2/cloud/reference/ece-tools-reference.html?_ga=2.250808134.1101564187.1584392801-2014893147.1552329962)  
+    * [ECE-Tools](https://devdocs.magento.com/guides/v2.2/cloud/reference/ece-tools-reference.html?_ga=2.250808134.1101564187.1584392801-2014893147.1552329962)

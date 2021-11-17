@@ -1,16 +1,16 @@
 ---
 title: Checking deployment log if Cloud UI has "log snipped" error
-labels: troubleshooting,deployment log, error,Magento Commerce Cloud,Adobe Commerce,cloud architecture,log snipped,Cloud UI,manage log,
+labels: troubleshooting,deployment log,error,Magento Commerce Cloud,Adobe Commerce,cloud infrastructure,log snipped,UI,manage log
 ---
 
-This article provides a solution for the issue where the Cloud UI shows the error message: *log snipped because it was too long* when trying to view deployment log.
+This article provides a solution for the issue where the Adobe Commerce on cloud infrastructure UI shows the *log snipped because it was too long* error message when trying to view deployment log.
 
 ## Affected products
-Adobe Commerce on our cloud architecture (all versions)
+Adobe Commerce on cloud infrastructure (all supported versions)
 
 ## Issue
 
-When trying to view deployment log, Cloud UI shows the error message: *log snipped because it was too long*.
+When trying to view deployment log, Adobe Commerce on cloud infrastructure UI shows the following error message: *log snipped because it was too long*.
 
 ## Steps to reproduce
 
@@ -19,7 +19,7 @@ When trying to view deployment log, Cloud UI shows the error message: *log snipp
 
 ## Cause
 
-Note that the log shown in the Cloud UI should not be treated as the source of truth, especially if you find that the site is not responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server - refer to [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html) in our developer documentation.
+Note that the log shown in the UI should not be treated as the source of truth, especially if you find that the site is not responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server. Refer to [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html) in our developer documentation.
 
 ## Solution
 
@@ -46,7 +46,7 @@ Note that the log shown in the Cloud UI should not be treated as the source of t
     magento-cloud activity:log raah5xrhqz3wg -p <project id> -e <environment>
     ```
 
-## Related reading
+## Related readings in our developer documentation:
 
-* Developer documentation: [Adobe Commerce on our cloud architecture > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
-* Developer documentation: [Adobe Commerce on our cloud architecture > View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html)
+* [Adobe Commerce on cloud infrastructure > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
+* [Adobe Commerce on cloud infrastructure > View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html)

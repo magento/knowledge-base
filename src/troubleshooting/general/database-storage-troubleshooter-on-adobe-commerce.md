@@ -57,8 +57,7 @@ and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space u
 &nbsp; &lt; 70% used?<br>
 
 <strong>Note:</strong> The solutions in  <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> are designed for merchants who have not changed the variables for database tmpdir, which by default writes to <code>/tmp</code>. If you have changed the tmpdir value, the instructions in <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> will not help.</div>
- <p class="zd-accordion-text">
-
+<p class="zd-accordion-text">
  a. YES – You have solved the issue.&nbsp;<br>
  b. NO – <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</span>
 </p>

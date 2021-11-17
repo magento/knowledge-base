@@ -45,11 +45,3 @@ No, this change will **NOT** impact deployment and downtime.
 ## If the project has multiple stagings, will origin cloaking be applied to all stagings?
 
 Yes, if the project has multiple stagings, the change will be applied to all stagings.
-
-## When will Fastly origin cloaking be enabled?
-
-These changes will be implemented on the date indicated in your ticket between 08:00 and 17:00 UTC.
-
-A smaller timeframe change window cannot be provided, due to the application of the change to multiple Adobe Commerce on cloud infrastructure customers during the window.
-
-Please contact us at least 48 hours prior to the change window in order to re-schedule, if needed.

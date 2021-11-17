@@ -12,8 +12,7 @@ The MDVA-30284 patch solves the issue where you receive an error message that "L
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -23,9 +22,9 @@ The Elasticsearch fields limit is wrong resulting in the following error when ex
 
 This issue occurs when you have a large number of product attributes. The issue is triggered by the way Elasticsearch calculates the field count. Sometimes when there are attributes that have fields assigned to them these fields will index as separate indexers. This results in the limit having been exceeded warning.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
- <span class="wysiwyg-underline">Prerequisites</span> 
+ <span class="wysiwyg-underline">Prerequisites</span>
 
 * Installed module-elasticsearch 100.3.5.
 * Elasticsearch 7 installed.
@@ -35,17 +34,17 @@ This issue occurs when you have a large number of product attributes. The issue 
 1. Create products for each family.
 1. Run indexer.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 All products are available in the Elasticsearch index.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 1. Elasticsearch error:
 
  `{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
   of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
-  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}` 
+  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}`
 
 1. New product was not indexed.
 

@@ -11,25 +11,24 @@ Magento Commerce B2B v2.3.0-2.3.3-p1
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company).
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. In the Magento Admin, create a new admin role and assign a user to that role.
 1. Assign only "Customer" resources to the role.
 1. Login as a user with this role.
 1. Try to delete a company account.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The company account is successfully deleted.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 You are not able to delete the company account. You get the *Sorry, you need permissions to view this content.* error message.
 

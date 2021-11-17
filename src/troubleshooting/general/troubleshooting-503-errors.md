@@ -25,7 +25,20 @@ To resolve this issue, increase the default value of the `http_resp_hdr_len` par
 1. Search for the `http_resp_hdr_len` parameter.    
 1. If the parameter doesn't exist, add it after `thread_pool_max` .
 1. Set `http_resp_hdr_len` to a value equal to the product count of your largest category multiplied by 21. (Each product tag is about 21 characters in length.)    For example, setting the value to 65536 bytes should work if your largest category has 3,000 products.    For example:    ```conf    -p http_resp_hdr_len=65536 \    ```    
-1. Set the `http_resp_size` to a value that accommodates the increased response header length.    For example, using the sum of the increased header length and default response size is a good starting point (e.g., 65536 + 32768 = 98304):    ```conf    -p http_resp_size=98304 \    ```    A snippet follows:    ```conf    # DAEMON_OPTS is used by the init script.    DAEMON_OPTS="-a ${VARNISH_LISTEN_ADDRESS}:${VARNISH_LISTEN_PORT} \             -f ${VARNISH_VCL_CONF} \             -T ${VARNISH_ADMIN_LISTEN_ADDRESS}:${VARNISH_ADMIN_LISTEN_PORT} \             -p thread_pool_min=${VARNISH_MIN_THREADS} \             -p thread_pool_max=${VARNISH_MAX_THREADS} \             -p http_resp_hdr_len=65536 \             -p http_resp_size=98304 \       -p workspace_backend=131072 \             -S ${VARNISH_SECRET_FILE} \             -s ${VARNISH_STORAGE}"    ```    
+1. Set the `http_resp_size` to a value that accommodates the increased response header length.    For example, using the sum of the increased header length and default response size is a good starting point (e.g., 65536 + 32768 = 98304): `-p http_resp_size=98304`. A snippet follows:  
+    ```         
+    # DAEMON_OPTS is used by the init script.
+    DAEMON_OPTS="-a ${VARNISH_LISTEN_ADDRESS}:${VARNISH_LISTEN_PORT} \
+        -f ${VARNISH_VCL_CONF} \
+        -T ${VARNISH_ADMIN_LISTEN_ADDRESS}:${VARNISH_ADMIN_LISTEN_PORT} \
+        -p thread_pool_min=${VARNISH_MIN_THREADS} \
+        -p thread_pool_max=${VARNISH_MAX_THREADS} \
+        -p http_resp_hdr_len=65536 \
+        -p http_resp_size=98304 \
+        -p workspace_backend=98304 \
+        -S ${VARNISH_SECRET_FILE} \
+        -s ${VARNISH_STORAGE}" \
+    ```
 
 <h2 id="health-check-timeouts">Health check timeouts</h2>
 

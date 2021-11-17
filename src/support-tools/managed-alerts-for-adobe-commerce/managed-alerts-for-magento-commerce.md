@@ -1,33 +1,32 @@
 ---
-title: Managed alerts for Magento Commerce
-labels: Apdex,CPU,Magento Commerce Cloud,MariaDB,New Relic,Pro,Starter,alert,critical,disk,disk space,how to,memory,warning
+title: Managed alerts for Adobe Commerce
+labels: Apdex,CPU,Magento Commerce Cloud,MariaDB,New Relic,Pro,Starter,alert,critical,disk,disk space,how to,memory,warning,Adobe Commerce,cloud infrastructure
 ---
+If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer, you can use managed alerts to understand the health of your site. If you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer, you will only receive alerts for the Apdex and error rate conditions.
 
-If you are a Magento Commerce Cloud Pro customer, you can use managed alerts to understand the health of your site. If you are a Magento Commerce Cloud Starter customer you will only receive alerts for the Apdex and error rate conditions.
-
-We’ve set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles listed below. Before you can use the alerts, first set up notification channels. Please refer to DevDocs' [New Relic Configure Notification Channels](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) .
+We’ve set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles listed below. Before you can use the alerts, first set up notification channels. Please refer to [New Relic Configure Notification Channels](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) in our developer documentation.
 
 >![info]
 >
->If managed alerts for the Magento Commerce alert policy is not available, it could be due to this account being newly created or New Relic having been recently configured. A process is run every Tuesday to add the alert policy to those accounts. The alert policy should be available to you the day after the next process is run. If the policy is still missing, [submit a Magento support request](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and include your project ID.
+>If managed alerts for the Adobe Commerce alert policy is not available, it could be due to this account being newly created or New Relic having been recently configured. A process is run every Tuesday to add the alert policy to those accounts. The alert policy should be available to you the day after the next process is run. If the policy is still missing, [submit an Adobe Commerce support request](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and include your project ID.
 
 See below in the table for links to the KB articles providing troubleshooting steps for these alerts:
 
-* Managed alerts for Magento Commerce: CPU warning alert
-* Managed alerts for Magento Commerce: CPU critical alert
-* Managed alerts for Magento Commerce: memory warning alert
-* Managed alerts for Magento Commerce: memory critical alert
-* Managed alerts for Magento Commerce: Apdex warning alert
-* Managed alerts for Magento Commerce: Apdex critical alert
-* Managed alerts for Magento Commerce: disk warning alert
-* Managed alerts for Magento Commerce: disk critical alert
-* Managed alerts on Magento Commerce: MariaDB alerts
-* Managed alerts on Magento Commerce: Redis memory warning alert
-* Managed alerts on Magento Commerce: Redis memory critical alert
+* Managed alerts for Adobe Commerce: CPU warning alert
+* Managed alerts for Adobe Commerce: CPU critical alert
+* Managed alerts for Adobe Commerce: memory warning alert
+* Managed alerts for Adobe Commerce: memory critical alert
+* Managed alerts for Adobe Commerce: Apdex warning alert
+* Managed alerts for Adobe Commerce: Apdex critical alert
+* Managed alerts for Adobe Commerce: disk warning alert
+* Managed alerts for Adobe Commerce: disk critical alert
+* Managed alerts on Adobe Commerce: MariaDB alerts
+* Managed alerts on Adobe Commerce: Redis memory warning alert
+* Managed alerts on Adobe Commerce: Redis memory critical alert
 
 >![info]
 >
->The set thresholds for both Warning Alerts and Critical Alerts are based on research we are doing using historical performance data across our customer base, and represents the latest insights from Magento’s Support and Engineering teams. Please note that these thresholds are subject to change based on latest, ongoing analysis. The typical alert flow is to receive alerts lower to higher in terms of seriousness. So you will likely receive a Warning alert before you receive a Critical alert. Refer to the links to articles for troubleshooting steps.
+>The set thresholds for both Warning Alerts and Critical Alerts are based on research we are doing using historical performance data across our customer base, and represents the latest insights from Adobe Commerce's Support and Engineering teams. Please note that these thresholds are subject to change based on latest, ongoing analysis. The typical alert flow is to receive alerts lower to higher in terms of seriousness. So you will likely receive a Warning alert before you receive a Critical alert. Refer to the links to articles for troubleshooting steps.
 
 <table style="width: 128.434%; height: 660px;" width="100%">
 <tbody>
@@ -68,7 +67,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046247531">Managed alerts for Magento Commerce: CPU warning alert</a><a href="https://support.magento.com/hc/en-us/articles/360046247531"></a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046247531">Managed alerts for Adobe Commerce: CPU warning alert</a><a href="https://support.magento.com/hc/en-us/articles/360046247531"></a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -82,7 +81,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046543991">Managed alerts for Magento Commerce: CPU critical alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046543991">Managed alerts for Adobe Commerce: CPU critical alert</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -96,7 +95,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046104472">Managed alerts for Magento Commerce: memory warning alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046104472">Managed alerts for Adobe Commerce: memory warning alert</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -113,7 +112,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046544171#_critical_memory">Managed alerts for Magento Commerce: memory critical alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046544171#_critical_memory">Managed alerts for Adobe Commerce: memory critical alert</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -127,7 +126,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046422091">Managed alerts for Magento Commerce: Apdex warning alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046422091">Managed alerts for Adobe Commerce: Apdex warning alert</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -141,7 +140,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046427491">Managed alerts for Magento Commerce: Apdex critical alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046427491">Managed alerts for Adobe Commerce: Apdex critical alert</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -155,7 +154,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046105512" title="https://support.magento.com/hc/en-us/articles/360046105512">Managed alerts for Magento Commerce: disk warning alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046105512" title="https://support.magento.com/hc/en-us/articles/360046105512">Managed alerts for Adobe Commerce: disk warning alert</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -169,7 +168,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360046105352" title="https://support.magento.com/hc/en-us/articles/360046105352">Managed alerts for Magento Commerce: disk critical alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360046105352" title="https://support.magento.com/hc/en-us/articles/360046105352">Managed alerts for Adobe Commerce: disk critical alert</a></p>
 </td>
 </tr>
 <tr style="height: 44px;">
@@ -183,7 +182,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 44px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360051663431">Managed alerts on Magento Commerce: MariaDB alerts</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360051663431">Managed alerts on Adobe Commerce: MariaDB alerts</a></p>
 </td>
 </tr>
 <tr style="height: 22px;">
@@ -197,7 +196,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p>✅</p>
 </td>
 <td style="width: 24.5638%; height: 22px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360049928852">Managed alerts on Magento Commerce: Redis memory warning alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360049928852">Managed alerts on Adobe Commerce: Redis memory warning alert</a></p>
 </td>
 </tr>
 <tr style="height: 22px;">
@@ -211,7 +210,7 @@ See below in the table for links to the KB articles providing troubleshooting st
 <p>✅</p>
 </td>
 <td style="width: 24.5638%; height: 22px;">
-<p><a href="https://support.magento.com/hc/en-us/articles/360049936112">Managed alerts on Magento Commerce: Redis memory critical alert</a></p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360049936112">Managed alerts on Adobe Commerce: Redis memory critical alert</a></p>
 </td>
 </tr>
 </tbody>

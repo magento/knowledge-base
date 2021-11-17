@@ -1,26 +1,24 @@
 ---
-title: Change Magento Admin URL on Cloud
-labels: ADMIN_URL,Magento Commerce Cloud,Staging,URL,how to,magento_admin,production
+title: Change Admin URL on Adobe Commerce on cloud infrastructure
+labels: ADMIN_URL,Magento Commerce Cloud,Staging,URL,how to,magento_admin,production,Adobe Commerce,cloud infrastructure
 ---
 
-By default, [Magento Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *<domain\_name>/admin* . This article shows how to change the URL.
+By default, the [Commerce Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *<domain\_name>/admin*. This article shows how to change the URL.
 
-## Method 1: Change using Magento Admin
+## Method 1: Change using the Admin
 
-Read the steps: [Using a Custom Admin URL](http://docs.magento.com/m2/ee/user_guide/stores/store-urls-custom-admin.html) > **Change from the Magento Admin** (Magento User Guide).
+Read the steps: [Using a Custom Admin URL > Change from the Admin](http://docs.magento.com/m2/ee/user_guide/stores/store-urls-custom-admin.html) in our user guide.
 
 ## Method 2: Add ADMIN\_URL environment variable
 
 ### Integration environment
 
-From your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) , add a new variable with:
+From your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html), add a new variable with:
 
  **Name:** ADMIN\_URL **Value:** new Admin URL
 
-Read on DevDocs:
-
-* [add environment variables](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#env) (detailed steps)
-* [Magento environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html) (reference)
+* For detailed steps, see [add environment variables](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#env) in our developer documentation.
+* Also refer to [environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html) in our developer documentation.
 
 ### When Staging and Production are not available in Project Web Interface
 
@@ -30,7 +28,7 @@ If Staging and Production are accessible from your Project Web Interface, add th
 
 ### Add variables using Cloud CLI
 
-See [Add environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html#addvariables) (DevDocs) for detailed steps.
+See [Add environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html#addvariables) in our developer documentation for detailed steps.
 
 We don't recommend adding **global** variables via Cloud CLI (the `magento-cloud project:variable:set <name> <value>` command) since such global variables:
 

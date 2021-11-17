@@ -8,7 +8,7 @@ This article provides a patch for the known issue of a purchase order (PO) disco
 ## Affected products and versions
 
 * Adobe Commerce on cloud infrastructure 2.4.0
-* Adobe Commerce 2.4.0
+* Adobe Commerce on-premises 2.4.0
 
 ## Issue
 
