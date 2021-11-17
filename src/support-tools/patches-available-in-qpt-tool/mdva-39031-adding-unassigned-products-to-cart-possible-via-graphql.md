@@ -3,7 +3,7 @@ title: "MDVA-39031: Adding unassigned products to cart possible via GraphQL"
 labels: 2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,QPT 1.1.6,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Support Tools,GraphQL
 ---
 
-The MDVA-39031 patch solves the issue where adding a product to the cart via GraphQL is possible even if it is not assigned to the target website. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-39031. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-39031 patch solves the issue where adding a product to the cart via GraphQL is possible even if it is not assigned to the target website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.6 is installed. The patch ID is MDVA-39031. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
