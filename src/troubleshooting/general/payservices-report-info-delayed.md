@@ -51,6 +51,6 @@ For Order payment status reports:
 
 1. Navigate to **Sales** > **Payment Services**.
 1. Click **Order payment status** to view the order payment status reports table.
-1. Force resync by clicking the ![force resync](assets/force_resync.png) icon in the top right corner of the reports table.
+1. Force resync by clicking the **force resync** ![force resync](assets/force_resync.png) icon in the top right corner of the reports table.
 
 For PayPal payout reports, the expected result is a delay of 24-48h.
