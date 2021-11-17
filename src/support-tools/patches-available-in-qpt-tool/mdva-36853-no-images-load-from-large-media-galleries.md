@@ -21,8 +21,8 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 <ins>Steps to reproduce</ins>:
 
-1. Set **Enable Old Media Gallery** = *Yes* in **Admin > Stores > Configuration > Advanced > System > Media gallery** .
-1. Navigate to **Content > Blocks** , and create a new CMS block or edit an existing CMS block.
+1. Set **Enable Old Media Gallery** = *Yes* in **Admin > Stores > Configuration > Advanced > System > Media gallery**.
+1. Navigate to **Content > Blocks**, and create a new CMS block or edit an existing CMS block.
 1. Click on the **Edit with Pagebuilder** button.
 1. Add a media element.
 1. Click on the **Select from Gallery** button.
