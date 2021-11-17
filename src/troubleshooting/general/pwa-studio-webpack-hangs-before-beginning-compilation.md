@@ -1,17 +1,17 @@
 ---
 title: "PWA Studio: Webpack hangs before beginning compilation"
-labels: PWA,PWA studio,hangs,how to,javascript,pwa-buildpack,stalls,webpack
+labels: PWA,PWA studio,hangs,how to,javascript,pwa-buildpack,stalls,webpack,PWA for Adobe Commerce
 ---
 
-This article talks about a suggested solution to when a javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) hangs for a long time before beginning compilation in Magento Progressive Web App Studio (PWA Studio).
+This article talks about a suggested solution to when a javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) hangs for a long time before beginning compilation in Progressive Web App Studio (PWA Studio).
 
 ## Affected products and versions
 
-* Magento PWA Studio
+* PWA Studio
 
 ## Issue
 
- [Check what the latest release of the pwa-buildpack is,](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack) and the
+[Check what the latest release of the pwa-buildpack is](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack), and the
 
 ```yaml
 pwa-buildpack
@@ -25,9 +25,9 @@ pwa-buildpack
 
 project, the webpack may hang for a long time before beginning compilation.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+<ins>Steps to reproduce</ins>:
 
-Prerequisites: Set up a PWA Studio storefront, such as Venia, with a local Magento instance and run a
+<ins>Prerequisites</ins>: Set up a PWA Studio storefront, such as Venia, with a local Adobe Commerce instance and run a
 
 ```yaml
 build
@@ -41,12 +41,12 @@ watch
 
 command.
 
- <span class="wysiwyg-underline">Expected result:</span>
+<ins>Expected result</ins>:
 
 * If using the    ```yaml    build    ```    command, it generates the build artifacts for Venia normally.
 * If using the    ```yaml    watch    ```    command, it starts the Venia storefront normally.
 
- <span class="wysiwyg-underline">Actual result:</span>
+<ins>Actual result</ins>:
 
 Your
 

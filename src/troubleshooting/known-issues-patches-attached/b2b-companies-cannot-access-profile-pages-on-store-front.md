@@ -1,9 +1,9 @@
 ---
 title: "B2B: Companies cannot access profile pages on store front"
-labels: 2.2.2,B2B,Magento Commerce,known issues,patch,profile,troubleshooting
+labels: 2.2.2,B2B,Magento Commerce,known issues,patch,profile,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
-This article provides a patch for the known Magento Commerce 2.2.4 B2B issue related to registered companies getting errors on their Account pages on the storefront.
+This article provides a patch for the known Adobe Commerce 2.2.4 B2B issue related to registered companies getting errors on their Account pages on the storefront.
 
 ## Issue
 
@@ -11,23 +11,21 @@ Customers (companies) can successfully create a company account on the site, but
 
 ## Patch
 
-The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
+To download the archive with a patch, click the following link:
 
- [Download MDVA-9013\_EE\_2.2.2\_composer.patch](assets/MDVA-9013_EE_2.2.2_composer.patch.zip) 
+ [Download MDVA-9013\_EE\_2.2.2\_composer.patch](assets/MDVA-9013_EE_2.2.2_composer.patch.zip)
 
-### Compatible Magento versions
+### Compatible Adobe Commerce versions
 
 The patch was created for:
 
-* Magento Commerce 2.2.2
+* Adobe Commerce on-premises 2.2.2
 
-The patch is also compatible (but might not solve the issue) with the following Magento versions and editions:
+The patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
-* Magento Commerce (Cloud) from 2.2.0 to 2.2.4
-* Magento Commerce from 2.2.0 to 2.2.1, and from 2.2.3 to 2.2.4
+* Adobe Commerce on cloud infrastructure from 2.2.0 to 2.2.4
+* Adobe Commerce on-premises from 2.2.0 to 2.2.1, and from 2.2.3 to 2.2.4
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
-
-## Attached Files
+See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.

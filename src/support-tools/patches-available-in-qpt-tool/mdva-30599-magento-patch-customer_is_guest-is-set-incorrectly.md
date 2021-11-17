@@ -13,28 +13,27 @@ The MDVA-30599 Magento patch fixes the issue where guest quotes created using AP
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Guest quotes created using API are incorrectly marked as quotes for logged-in customers.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. On the Magento storefront, add a product to the cart as a guest user.
 1. In your Magento DB, find the corresponding `quote_id_mask` .
 1. Send an API request to `quoteGuestCartRepositoryV1` Cart Repository interface for guest carts. It can be done via Swagger or cURL request    ```curl    curl -X GET "http://web2-73.sparta.corp.magento.com/dev/support/ee24dev/rest/all/V1/guest-carts/ToOwPtSBxkorkCLq6ztwupPd99y8zhky" -H "accept: application/json"    ```    
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 In response you get `"customer_is_guest":
-true` 
+true`
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 In response you get `"customer_is_guest":
-  false` 
+  false`
 
 ## Apply the patch
 

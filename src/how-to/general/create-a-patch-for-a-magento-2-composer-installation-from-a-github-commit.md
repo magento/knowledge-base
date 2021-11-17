@@ -1,6 +1,6 @@
 ---
-title: Create a patch for a Magento 2 Composer installation from a GitHub commit
-labels: 2.x.x,Magento,composer,devdocs,github,how to,patch
+title: Create a patch for Adobe Commerce Composer installation from a GitHub commit
+labels: Magento,composer,devdocs,github,how to,patch,Adobe Commerce
 ---
 
-Please refer to the [Custom patches section of the Applying patches article](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) on Magento Devdocs.
+Please refer to [Custom patches section of the Applying patches](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) in our developer documentation.

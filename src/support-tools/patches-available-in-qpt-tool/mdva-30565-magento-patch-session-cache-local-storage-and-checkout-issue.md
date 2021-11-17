@@ -12,14 +12,13 @@ The MDVA-30565 patch solves the issue with session cache local storage and check
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When a customer session times out, cart items still can be seen on the cart page. This causes an estimate shipping method error where no shipping methods are available for guest checkout.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Enable persistent shopping cart in Magento Admin. ( **Enable Persistence** = " *Yes* ")
 1. Log in as a customer in the frontend. This creates the `persistent_shopping_cart` cookie and initiates a persistent session.
@@ -28,13 +27,13 @@ When a customer session times out, cart items still can be seen on the cart page
 1. Now you are a guest user, but if you go to the cart, you can still see the product that was added as a logged-in customer.
 1. Remove the product from the cart, and now the cart is empty. You can see Magento deletes the `persistent_shopping_cart` cookie in this event.
 1. Add a new product into the cart, and go to the cart page.
-1. Now in the browser console it shows `V1/guest-carts/4/estimate-shipping-methods` request now returns a 404 response with message `{"message":"No such entity        with %fieldName = %fieldValue","parameters":{"fieldName":"cartId","fieldValue":0}}` 
+1. Now in the browser console it shows `V1/guest-carts/4/estimate-shipping-methods` request now returns a 404 response with message `{"message":"No such entity        with %fieldName = %fieldValue","parameters":{"fieldName":"cartId","fieldValue":0}}`
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The estimate shipping method request returns correct results as expected.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 The estimate shipping method request fails with an error like, " *Sorry, no quotes are available for this order at this time.* "
 

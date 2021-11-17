@@ -10,7 +10,9 @@ The MDVA-32012 Magento patch solves the issue where Argentinean and South Korean
 * The patch was designed for Magento Commerce Cloud 2.3.5.
 * The patch is also compatible with the following Magento versions: Magento Commerce and Magento Commerce Cloud 2.3.0 - 2.4.1.
 
-Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
+>![info]
+>
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -18,7 +20,7 @@ Inputting a 5-digit South Korean or alphanumeric Argentinean zip codes produces 
 
 <pre>Provided Zip/Postal Code seems to be invalid. Example: [1234 (<em>if inputted</em> <em>an</em> <em>alphanumeric Argentinean address</em>)]<em>or</em>[123-456 (<em>if inputted a</em> <em>5-digit South Korean address)</em>]. If you believe it is the right one you can ignore this notice.</pre>
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Open the storefront.
 1. Add item to cart.
@@ -26,11 +28,11 @@ Inputting a 5-digit South Korean or alphanumeric Argentinean zip codes produces 
 1. Add a new address with South Korea for the country and input a 5-digit zip code or add a new address with Argentina for the country and input an alphanumeric zip code.
 1. Try to save.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 Saving address returns warning.
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Address should save without warning.
 

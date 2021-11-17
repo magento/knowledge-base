@@ -10,26 +10,28 @@ The MDVA-31150 Magento patch fixes the issue where an invoice is created without
 * This patch was designed for Magento Commerce Cloud 2.3.5-p2.
 * The patch is also compatible with Magento Commerce and Magento Commerce Cloud 2.3.0 to 2.3.5-p2, and 2.4.0 to 2.4.0-p1.
 
-Note: the patch can be applicable to other versions. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
+>![info]
+>
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 After the invoice order by API the used customer balance and gift card information is not present in the invoice.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
-1. Add a store credit amount to a customer account: On the Admin sidebar, go to **Customers** > **All Customers.** 
+1. Add a store credit amount to a customer account: On the Admin sidebar, go to **Customers** > **All Customers.**
 1. Find the customer record and click on **Edit** in the Action column, then **Store Credit** > Update the balance > **Save Customer** .
 1. Go to Storefront and add products to cart.
 1. Place an order by applying the store credit or gift card amount as partial payment.
 1. Create invoice using `REST API>POST>/rest/V1/order/1/invoice` with payload:    ```clike    { "capture": true, "items": [ { "extension_attributes": {}, "order_item_id": 3, "qty": 1 } ], "notify": true, "appendComment": true, "comment": { "extension_attributes": {}, "comment": "string", "is_visible_on_front": 0 }, "arguments": { "extension_attributes": {} }}    ```    
 1. Get the invoice that was just created using `REST API>GET>/rest/V1/invoices/1` .
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Store credit and gift card balance are returned by API Call.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 Store credit and gift card balance are not returned by API Call.
 

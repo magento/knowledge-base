@@ -12,8 +12,7 @@ The MDVA-31282 patch solves the issue when double authorizations occur on Paypal
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -23,7 +22,7 @@ Double authorizations occur in PayPal PayFlow Pro in Magento that have the effec
 
 Configure PayPal PayFlow Pro payment method.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Go to the frontend as a guest customer.
 1. Add products to **Shopping Cart** from product pages.
@@ -33,14 +32,14 @@ Configure PayPal PayFlow Pro payment method.
 1. Enter credit card data, and place order.
 1. Navigate to **Sales > Orders** in admin, and observe created order.
 
- <span class="wysiwyg-underline">Expected results:</span> 
+ <span class="wysiwyg-underline">Expected results:</span>
 
-* The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*  *Order is in Suspected Fraud status"* 
+* The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*  *Order is in Suspected Fraud status"*
 * Paypal PayFlow Pro shows a single authorization transaction as expected.
 
- <span class="wysiwyg-underline">Actual results:</span> 
+ <span class="wysiwyg-underline">Actual results:</span>
 
-* The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*  *Order is in Processing status"* 
+* The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*  *Order is in Processing status"*
 * Paypal PayFlow Pro shows double authorization transactions.
 
 ## Apply the patch

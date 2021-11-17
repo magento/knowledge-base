@@ -1,38 +1,38 @@
 ---
-title: Product images do not  display despite Product Edit image roles
-labels: Magento Commerce,Magento Commerce Cloud,product image,troubleshooting
+title: Product images do not display despite Product Edit image roles
+labels: Magento Commerce,Magento Commerce Cloud,product image,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article provides a fix for when product images do not display on your storefront, despite image roles set on the Product Edit page.
 
- **Cause:** on Magento instances with more than one store, some product images may have the `no_selection` values for image role attributes `image` , `small_image` , `thumbnail` , `swatch` . Such `no_selection` values emerge when the product image role is set on the global, all-stores scope instead of a particular store's scope (in other words, on the **All Store Views** instead of a particular **Store View** ). To understand if that's your case, run the SQL script from the **Cause** section below.
+ **Cause:** on Adobe Commerce instances with more than one store, some product images may have the `no_selection` values for image role attributes `image`, `small_image`, `thumbnail`, `swatch`. Such `no_selection` values emerge when the product image role is set on the global, all-stores scope instead of a particular store's scope (in other words, on the **All Store Views** instead of a particular **Store View**). To understand if that's your case, run the SQL script from the **Cause** section below.
 
  **Solution:** delete rows with the `no_selection` values for such images using the SQL script from the Solution section below.
 
 ## Affected versions
 
-* Magento Commerce 2.X.X
-* Magento Commerce (Cloud) 2.X.X
+* Adobe Commerce on-premises 2.X.X
+* Adobe Commerce on cloud infrastructure 2.X.X
 
 ## Issue
 
 Product images may not display on your storefront, although the image roles (Base, Small, Thumbnail, Swatch) have been set correctly on the Product page of your Admin panel.
 
-When you check the Product page with **Store View** set to **All store views** , the picture has the roles set on the **Image Detail** screen.
+When you check the Product page with **Store View** set to **All store views**, the picture has the roles set on the **Image Detail** screen.
 
 ![all_store_views.png](assets/all_store_views.png)
 
 ![image_roles.png](assets/image_roles.png)
 
-However, on the storefront, the image does not show up; when you check the Product page on the particular store level (switching the **Store View** ), the image is there but the roles are not set.
+However, on the storefront, the image does not show up; when you check the Product page on the particular store level (switching the **Store View**), the image is there but the roles are not set.
 
 ![image_roles_not_set.png](assets/image_roles_not_set.png)
 
 ## Cause
 
-On the multi-store Magento instances (with more than one store), some product images may have the `no_selection` values for attributes `image` , `small_image` , `thumbnail` , `swatch` (these attributes correspond to image roles). Such `no_selection` values emerge when the product image role is set on the global, all-stores scope instead of a particular store's scope (in other words, on the **All Store Views** instead of a particular **Store View** ).
+On the multi-store Adobe Commerce instances (with more than one store), some product images may have the `no_selection` values for attributes `image`, `small_image`, `thumbnail`, `swatch` (these attributes correspond to image roles). Such `no_selection` values emerge when the product image role is set on the global, all-stores scope instead of a particular store's scope (in other words, on the **All Store Views** instead of a particular **Store View**).
 
-Technically speaking: on `store_id=0` (which holds the global settings for all stores on your Magento instance), the product image roles might be set: this means that the attributes `image` , `small_image` , `thumbnail` , `swatch` have valid values (path to images). At the same time, on `store_id=1` (which is a particular store representation), the values for these attributes are `no_selection` .
+Technically speaking: on `store_id=0` (which holds the global settings for all stores on your Adobe Commerce instance), the product image roles might be set: this means that the attributes `image`, `small_image`, `thumbnail`, `swatch` have valid values (path to images). At the same time, on `store_id=1` (which is a particular store representation), the values for these attributes are `no_selection`.
 
 ### How to verify that is your problem
 
@@ -63,9 +63,9 @@ If the query returns a result like below, you are dealing with the problem docum
 
 ### Why does this happen?
 
-If the Magento application has more than one store, it may not synchronize data between a particular store and the Global store settings.
+If the Adobe Commerce application has more than one store, it may not synchronize data between a particular store and the Global store settings.
 
-Values on `store_id=1` have more priority than the default (global) store ( `store_id=0` ). Thus, the application may ignore the global image settings and use the store scope configuration ( `no_selection` for image role attributes) when displaying an image.
+Values on `store_id=1` have more priority than the default (global) store (`store_id=0`). Thus, the application may ignore the global image settings and use the store scope configuration (`no_selection` for image role attributes) when displaying an image.
 
 <h2 id="solution">Solution</h2>
 
@@ -79,7 +79,7 @@ After these attributes are removed, the roles for particular stores are set and 
 
 ## Additional details
 
-You will not be able to see the fix results immediately if Full Page Cache is enabled in your Magento instance.
+You will not be able to see the fix results immediately if Full Page Cache is enabled in your Adobe Commerce instance.
 
 For the changes to display, refresh the page cache using the **Cache Management** menu of your Admin panel.
 
@@ -87,14 +87,13 @@ For the changes to display, refresh the page cache using the **Cache Management*
 
 ### Stores and scopes
 
- [Stores and store scopes](http://docs.magento.com/m2/ee/user_guide/stores/stores-all-stores.html) (User Guide)
+ [Stores and store scopes](http://docs.magento.com/m2/ee/user_guide/stores/stores-all-stores.html) in our user guide
 
 ### Images
 
- [Uploading Product Images](http://docs.magento.com/m2/ee/user_guide/catalog/product-image-upload.html) (User Guide)
+ [Uploading Product Images](http://docs.magento.com/m2/ee/user_guide/catalog/product-image-upload.html) in our user guide
 
 ### Cache
 
-* [Cache management](http://docs.magento.com/m2/ee/user_guide/system/cache-management.html) (User Guide)
-* [Manage the cache](http://devdocs.magento.com/guides/v2.2/config-guide/cli/config-cli-subcommands-cache.html) (DevDocs)
-
+* [Cache management](http://docs.magento.com/m2/ee/user_guide/system/cache-management.html) in our user guide
+* [Manage the cache](http://devdocs.magento.com/guides/v2.2/config-guide/cli/config-cli-subcommands-cache.html) in our developer documentation

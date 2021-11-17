@@ -177,7 +177,7 @@ You access the Magento Help Center and want to submit a support request, but the
 One of the following might be the cause:
 
 * You have not logged in to the Help Center.
-* If using shared access, you have not performed steps required to ensure that Magento Help Center is configured properly via the SSO call from Magento.com.
+* If using shared access for the first time, you have not performed steps required to ensure that Magento Help Center is configured properly via the SSO call from Magento.com.
 * Your account is not entitled for Magento Support (for example, you are not a paying Commerce customer or you are an Open Source customer).
 
 #### Solution
@@ -514,7 +514,7 @@ After providing shared access for a new user, the related information is availab
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/) .
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
-1. Find the user to revoke shared access from and click    ![remove_icon.png](assets/remove_icon.png)    in the user's row ( **Actions** column).
+1. Find the user to revoke shared access from and click <img src = "assets/remove_icon.png" alt = "remove icon" width="25px"> in the user's row (**Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
 ![revoke_shared_access.png](assets/revoke_shared_access.png)
