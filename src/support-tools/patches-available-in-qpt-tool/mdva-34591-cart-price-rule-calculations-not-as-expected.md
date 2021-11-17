@@ -3,7 +3,7 @@ title: "MDVA-34591: Cart price rule calculations not as expected"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,calculation,cart price rule,discount,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-The MDVA-34591 patch fixes the issue where the cart price rule with **Maximum Qty Discount is Applied To** does not work correctly if multiple cart price rules are applied. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.19 is installed. The patch ID is MDVA-34591. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
+The MDVA-34591 patch fixes the issue where the cart price rule with **Maximum Qty Discount is Applied To** does not work correctly if multiple cart price rules are applied. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-34591. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
 ## Affected products and versions
 
