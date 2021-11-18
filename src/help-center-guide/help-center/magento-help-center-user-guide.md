@@ -22,11 +22,11 @@ Learn how to submit a support ticket to the Adobe Commerce Help Center, provide 
 * [Log In To Help Center](#login)
 * [Submit a support ticket](#submit-ticket)
     * [Help Center start page](#submit-ticket-help-center-start-page)
-    * [Magento account page](#submit-ticket-magento-account-page)
+    * [Magento Account page](#submit-ticket-magento-account-page)
     * [Magento Cloud Account page](#submit-ticket-magento-cloud-account-page)
     * [Information in your support ticket](#info-in-support-ticket)
     * ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](#no-submit-link)
-    * [*"Please verify your email address"* error on Magento account page](#verify-email-address)
+    * [*"Please verify your email address"* error on Magento Account page](#verify-email-address)
     * [Ticket submission form: merchant is not displayed in Organization drop-down](#merchant-not-displayed)
 * [Track your tickets](#track-tickets)
 * [Adobe Commerce P1 hotline (Login Required)](#P1-hotline)
@@ -123,11 +123,11 @@ To log in to the Adobe Commerce Help Center, follow these steps:
 1. Access the Help Center at <https://support.magento.com>.
 1. Click **Log In** in the upper-right corner.
 
-Use your Magento account credentials to log in. For more information, see [Your Commerce Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
+Use your Magento Account credentials to log in. For more information, see [Your Commerce Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
 
 <h3 id="submit-ticket"><strong>Submit a support ticket</strong></h3>
 
-Once successfully logged in, you may submit a support ticket using the Help Center start page, your Magento account page, and your Magento Cloud Account page.
+Once successfully logged in, you may submit a support ticket using the Help Center start page, your Magento Account page, and your Magento Cloud Account page.
 
 <h4 id="submit-ticket-help-center-start-page">Help Center start page</h4>
 
@@ -138,13 +138,13 @@ To submit a new support ticket using the starting page of Adobe Commerce Help Ce
 1. Fill in the fields.
 1. Click **Submit**.
 
-You **must log in** to the Help Center using your Magento account in order to submit a support ticket. Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link).
+You **must log in** to the Help Center using your Magento Account in order to submit a support ticket. Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link).
 
-<h4 id="submit-ticket-magento-account-page">Magento account page</h4>
+<h4 id="submit-ticket-magento-account-page">Magento Account page</h4>
 
-To submit a new support ticket using your Magento account page, follow these steps:
+To submit a new support ticket using your Magento Account page, follow these steps:
 
-1. Log in to your Magento account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
+1. Log in to your Magento Account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
 1. Click the **Support** tab.    ![magento_account_support_tab.png](assets/magento_account_support_tab.png)    
 1. The Help Center start page loads for you.
 1. Click **Submit a ticket** in the upper-right corner.
@@ -192,13 +192,13 @@ The **Submit a ticket** link will only be displayed for customers with an email 
 
 To be able to use shared access account to submit support tickets, you need to perform the following (this needs to be done only once):
 
-1. After receiving [shared access](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access), log in to your [Magento account on the magento.com website](https://account.magento.com/).
+1. After receiving [shared access](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access), log in to your [Magento Account on the magento.com website](https://account.magento.com/).
 1. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
 1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
 #### Still don't see the **Submit a ticket** link
 
-If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
+If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
 If you are an Adobe Commerce license owner, please verify that you don’t have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 
@@ -215,20 +215,20 @@ We provide support only to Adobe Commerce license owners and accounts which have
 * [Magento Tech Resources](https://magento.com/resources/technical)
 * [Magento Forums](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
 
-If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [None](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
+If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [help center login issues](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
 
 <h3 id="verify-email-address">
-<em>"Please verify your email address"</em> error on the Magento account page</h3>
+<em>"Please verify your email address"</em> error on the Magento Account page</h3>
 
-You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento account page](https://account.magento.com/).
+You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento Account page](https://account.magento.com/).
 ![Verify_Email_Address_Error.png](assets/Verify_Email_Address_Error.png)
 
 The solution is to validate your email address:
 
 1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.    ![Validate_Email_Solution.png](assets/Validate_Email_Solution.png)    
-1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento account with a link to validate the email address.
+1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento Account with a link to validate the email address.
 1. Click on the email validation link to validate your email and resolve this issue.
-1. If you do not receive an email with an email validation link, please email [None](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
+1. If you do not receive an email with an email validation link, please email [help center login issues](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
 
 <h3 id="merchant-not-displayed">Ticket submission form: merchant is not displayed in Organization drop-down</h3>
 
@@ -254,7 +254,7 @@ The merchant corresponding to the used shared account is not available in the **
 
 After having been granted shared access from the merchant, you need to take the following steps (only once):
 
-1. Log in to your [Magento account on the magento.com website](https://account.magento.com/).
+1. Log in to your [Magento Account on the magento.com website](https://account.magento.com/).
 1. In the **Switch Accounts** drop-down field at the top-right corner, select the shared access account.
 1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
@@ -469,15 +469,15 @@ To open a follow-up ticket, click the "*create a follow-up*" link at the bottom 
 
 <h2 id="shared-access">SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</h2>
 
-You may grant limited access to your account for other Magento account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
+You may grant limited access to your account for other Magento Account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
 
-You can provide and manage shared access using your Magento account page at [https://account.magento.com](https://account.magento.com/).
+You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/).
 
 <h3 id="who-can-provide-shared-access">Who can provide shared access</h3>
 
 Only the Account Owner (Primary Account Holder) with the according privileges can provide shared access for other users.
 
-Managing users and their access is the customer's responsibility, especially in the shared access perspective. Thus, the Adobe Commerce support team cannot provide shared access to a Magento account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the [Magento account page](https://account.magento.com/).
+Managing users and their access is the customer's responsibility, especially in the shared access perspective. Thus, the Adobe Commerce support team cannot provide shared access to a Magento Account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the [Magento Account page](https://account.magento.com/).
 
 Users who have been provided with shared access cannot transfer or grant such access to other users.
 
@@ -498,13 +498,13 @@ If, for any reason, the steps above are not applicable to you, and you are still
 
 See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Adobe Commerce User Guide for detailed steps on setting up a shared account.
 
-After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento account page.
+After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
 
 ![magento-account-shared-manage-permissions.png](assets/magento-account-shared-manage-permissions.png)
 
 <h3 id="revoke-shared-access">Revoke (delete) shared access</h3>
 
-1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
 1. Find the user to revoke shared access from and click <img src = "assets/remove_icon.png" alt = "remove icon" width="25px"> in the user's row (**Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
@@ -523,7 +523,7 @@ You may also revoke shared access using the **Edit** menu:
 
 To use the shared access provided for you, follow these steps:
 
-1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/) .
+1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/) .
 1. Click the **Switch Accounts** menu and select an account.
 
 ![magento-account-shared-switch.png](assets/magento-account-shared-switch.png)
