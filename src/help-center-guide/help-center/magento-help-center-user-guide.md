@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Help Center User Guide
-labels: Magento,help center,how to,shared access,shared account,support ticket,user guide,knowledge base,DevDocs,search articles,Help Center Login,submit tickets,Magento help center,Magento P1 hotline,Magento account page,Magento cloud account page,track tickets,ticket status,resolve ticket,follow-up ticket,delete shared access,access shared account,switch accounts,ticketing system,my tickets,articles categories,Adobe Commerce
+labels: Magento,help center,how to,shared access,shared account,support ticket,user guide,knowledge base,DevDocs,search articles,Help Center Login,submit tickets,Magento help center,Magento P1 hotline,Magento Account page,Magento cloud account page,track tickets,ticket status,resolve ticket,follow-up ticket,delete shared access,access shared account,switch accounts,ticketing system,my tickets,articles categories,Adobe Commerce
 ---
 
 Learn how to submit a support ticket to the Adobe Commerce Help Center, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
@@ -334,7 +334,7 @@ To add several emails to CC:
 1. Enter the email.
 1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    ![hc_cc_emails.png](assets/hc_cc_emails.png)    
 1. Start typing the next email.
-1. Save all other emails by pressing *Space* .
+1. Save all other emails by pressing *Space*.
 
 To delete emails from CC: click **x** in a framed email.
 
