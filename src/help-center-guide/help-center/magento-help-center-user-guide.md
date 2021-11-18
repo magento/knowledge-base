@@ -244,7 +244,7 @@ The solution is to validate your email address:
 
 <span class="wysiwyg-underline">Expected result</span>:
 
-The merchant corresponding to the shared account is listed in **Organization** options.
+The merchant corresponding to the shared account is listed in the **Organization** options.
 
 <span class="wysiwyg-underline">Actual result</span>:
 
@@ -327,7 +327,7 @@ You can also put the direct link related to your issue.
 
 Emails of the persons whom you want to follow your ticket (for example, *first@e.mail*).
 
-You may add emails of the persons who do not have a Magento or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
+You may add emails of the persons who do not have a Magento Account or a Zendesk account; these persons are still able to contribute to the conversation in your ticket.
 
 To add several emails to CC:
 
