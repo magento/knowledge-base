@@ -123,7 +123,7 @@ To log in to the Adobe Commerce Help Center, follow these steps:
 1. Access the Help Center at <https://support.magento.com>.
 1. Click **Log In** in the upper-right corner.
 
-Use your Magento Account credentials to log in. For more information, see [Your Commerce Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
+Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
 
 <h3 id="submit-ticket"><strong>Submit a support ticket</strong></h3>
 
@@ -212,7 +212,7 @@ We provide support only to Adobe Commerce license owners and accounts which have
 
 * [Adobe Commerce Help Center](https://support.magento.com/)
 * [Adobe Commerce Developer Documentation](http://devdocs.magento.com/)
-* [Magento Tech Resources](https://magento.com/resources/technical)
+* [Adobe Commerce Tech Resources](https://magento.com/resources/technical)
 * [Magento Forums](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
 
 If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [help center login issues](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
