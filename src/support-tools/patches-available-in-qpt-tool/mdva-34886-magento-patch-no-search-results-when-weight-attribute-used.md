@@ -7,13 +7,13 @@ The MDVA-34886 patch solves the issue where search does return results when the 
 
 ## Affected products and versions
 
- **The patch is created for Adobe Commerce version:**
+**The patch is created for Adobe Commerce version:**
 
- Adobe Commerce on cloud infrastructure 2.3.5-p1
+Adobe Commerce on cloud infrastructure 2.3.5-p1
 
- **Compatible with Adobe Commerce versions:**
+**Compatible with Adobe Commerce versions:**
 
- Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.4.2
+Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.4.2
 
 >![info]
 >
