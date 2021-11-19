@@ -1,5 +1,5 @@
 ---
-title: 404 not found error when accessing Web Setup Wizard via admin panel
+title: 404 not found error when accessing Web Setup Wizard via Admin panel 
 labels: troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce,404 error,web setup wizard
 ---
 

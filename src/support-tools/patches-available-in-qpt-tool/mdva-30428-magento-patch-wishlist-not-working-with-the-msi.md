@@ -12,14 +12,13 @@ The MDVA-30428 patch solves the Wishlist not working with the Magento Inventory 
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 On adding a product to the wishlist, when the product is assigned to a custom inventory source, the following message shows " *We can't add the item to Wish List right now: Cannot add product without stock to wishlist.* "
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Create a new inventory source in the Magento Admin. For steps, refer to the Magento User Guide [Catalog > Adding a New Source](https://docs.magento.com/user-guide/catalog/inventory-sources-add.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=new%20inventory%20source) .
 1. Create a new stock inventory in the Magento Admin, assign the new source and default website to the new stock. For steps, refer to Magento User Guide [Catalog > Adding a New Stock](https://docs.magento.com/user-guide/catalog/inventory-stock-add.html#add-new-stock) .
@@ -27,7 +26,7 @@ On adding a product to the wishlist, when the product is assigned to a custom in
 1. Visit the simple product details page in the frontend.
 1. Add the product to the wishlist. The following error shows: *We can't add the item to Wish List right now: Cannot add product without stock to wishlist* .
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 The product should be added to the wishlist with the custom stock. <span class="wysiwyg-underline">Actual result:</span> The product is not added to the wishlist and an error message shows.
 

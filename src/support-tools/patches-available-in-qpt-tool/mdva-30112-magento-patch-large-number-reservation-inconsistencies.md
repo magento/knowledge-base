@@ -10,7 +10,9 @@ The MDVA-30112 Magento patch solves the issue where you have an unexpectedly lar
 * The patch was designed for Magento Commerce Cloud 2.3.5.
 * The patch is also compatible with Magento Commerce and Magento Commerce Cloud 2.3.4 - 2.3.5-p2, 2.4.0 - 2.4.1.
 
-Note: the patch might become applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches status` .
+>![info]
+>
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -28,7 +30,7 @@ magento inventory:reservation:list-inconsistencies
 
 You see an unexpectedly large number of reservation inconsistencies and/or the command never completes.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Run the following command in the CLI to resolve the inconsistencies:    ```clike    bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations    ```    
 1. Place three orders:
@@ -44,11 +46,11 @@ You see the "pending" status orders are shown as inconsistencies.
 
 1. Run the following command in the CLI:    ```clike    bin/magento inventory:reservation:list-inconsistencies      -r --bunch-size 1 | bin/magento inventory:reservation:create-compensations    ```    
 
- <span class="wysiwyg-underline">Expected results:</span> 
+ <span class="wysiwyg-underline">Expected results:</span>
 
 Magento should not resolve inconsistencies of "pending" status orders. The stocks inconsistencies should be resolved for orders with 'complete', 'closed', and 'canceled' statuses.
 
- <span class="wysiwyg-underline">Actual results:</span> 
+ <span class="wysiwyg-underline">Actual results:</span>
 
 When there are orders more than the specified bunch-size value, Magento considers orders with "pending" status as inconsistencies and Magento adds multiple inconsistency resolving records for same order.
 

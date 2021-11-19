@@ -11,18 +11,17 @@ The MDVA-31006 Magento patch fixes the issue where using the PayPal Express chec
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The user is not being sent to the Magento order success page, so they refresh the blank page and the second order is placed, causing duplicate orders.
 
- <span class="wysiwyg-underline">Steps to reproducePrerequisites</span> 
+ <span class="wysiwyg-underline">Steps to reproducePrerequisites</span>
 
 * Magento is installed.
 * PayPal Express checkout payment is configured.
-* Log in to Magento admin. Go to **Stores** > **Configuration** > **Sales** > **Payment Methods** > select **Paypal Express Checkout** > **Configure** > **Advanced Settings** > **Skip Order Review Step** > *No.* 
+* Log in to Magento admin. Go to **Stores** > **Configuration** > **Sales** > **Payment Methods** > select **Paypal Express Checkout** > **Configure** > **Advanced Settings** > **Skip Order Review Step** > *No.*
 
 1. Log in as a user.
 1. Select an item and click **Add to Cart** .
@@ -38,7 +37,7 @@ The user is not being sent to the Magento order success page, so they refresh th
 * The customer is redirected to the Order Review page and sees an error message " *A successful payment transaction has already been completed. Please, check if the order has been placed.* "
 * In the payment.log which is located in `/var/log/payment.log` there is an error 10415, but only one order was created.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+ <span class="wysiwyg-underline">Actual result:</span>
 
 * As the customer is not sent to the Magento order success page, they refresh the blank page, and a second order is placed, so two duplicated orders are created.
 * In the payment.log which is located in `/var/log/payment.log` there is an error 10415.

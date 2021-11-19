@@ -12,30 +12,29 @@ The MDVA-29446 patch solves the issue where a shipping method that is not applic
 
 >![info]
 >
->Note: the patch can be applicable to other versions with new QPT tool releases. To check if the patch is compatible with your Magento version, run `./vendor/bin/magento-patches
-    status` 
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 <h2 id="issues">Issues</h2>
 
 You have a shipping method that is not applicable but still shows up on the checkout shipping method options, and you can select this non-relevant shipping method.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+ <span class="wysiwyg-underline">Steps to reproduce:</span>
 
- <span class="wysiwyg-underline">Prerequisites:</span> 
+ <span class="wysiwyg-underline">Prerequisites:</span>
 
 1. Install clean 2.3-develop.
 1. Enable Flat rate and set:
 
-    * Ship to Applicable Countries = *Specific Countries* 
-    * Ship to Specific Countries = *Antarctica* 
-    * Show Method if Not Applicable = *Yes* 
+    * Ship to Applicable Countries = *Specific Countries*
+    * Ship to Specific Countries = *Antarctica*
+    * Show Method if Not Applicable = *Yes*
 1. Disable all other shipping methods.
 
 1. Go to the frontend, create a customer with US address.
-1. Select an item and click **Add to Cart.** 
+1. Select an item and click **Add to Cart.**
 1. Click on the cart and click **Proceed to Checkout** .
 
-#### <span class="wysiwyg-underline">Actual result:</span> 
+#### <span class="wysiwyg-underline">Actual result:</span>
 
 1. On the **Shipping** page you see the following:
 
@@ -43,9 +42,9 @@ You have a shipping method that is not applicable but still shows up on the chec
     * Flat rate is $0
 1. After the user clicks **Next** , the user gets the following error:
 
- *"Carrier with such method not found: null, flatrate"* 
+ *"Carrier with such method not found: null, flatrate"*
 
- <span class="wysiwyg-underline">Expected result:</span> 
+ <span class="wysiwyg-underline">Expected result:</span>
 
 * The price of the shipping method is not visible if the shipping method is not applicable.
 * The **Next** button should not be active.
