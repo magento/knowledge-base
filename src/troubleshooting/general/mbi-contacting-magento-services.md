@@ -1,6 +1,6 @@
 ---
 title: "MBI: Contacting Magento Services"
-labels: Magento Business Intelligence,troubleshooting,Adobe Commerc
+labels: Magento Business Intelligence,troubleshooting,Adobe Commerce
 ---
 
 Great! You’re looking to enhance and expand your use of Magento BI and are looking for guidance that’s above and beyond our standard support.
