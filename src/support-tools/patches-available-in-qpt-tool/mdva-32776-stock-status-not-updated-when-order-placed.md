@@ -38,7 +38,7 @@ The stock status is not updated when an order is placed but not shipped.
 
 <ins>Expected results</ins>:
 
-Grouped products display *out-of-stock* labels when associated simple products go out of stock.
+Grouped products display `out-of-stock` labels when associated simple products go out of stock.
 
 <ins>Actual results</ins>:
 
