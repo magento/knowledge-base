@@ -11,17 +11,17 @@ This article discusses how to resolve Magento Commerce Cloud failed deployment w
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+ <span class="wysiwyg-underline">Steps to reproduce</span>
 
 Trigger deployment manually or by performing a merge, push, or synchronization of your environment.
 
- <span class="wysiwyg-underline">Actual result</span> 
+ <span class="wysiwyg-underline">Actual result</span>
 
 Deployment gets stuck. In the deployment error log in the Project UI, an error message similar to the following is displayed: *"The 'https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip' URL could not be accessed: HTTP/1.1 \[403 Forbidden or 404 Not Found\]"* .
 
 (Click the "Failure" icon in the Project UI to see the log.)
 
- <span class="wysiwyg-underline">Expected result</span> 
+ <span class="wysiwyg-underline">Expected result</span>
 
 Deployment is completed successfully.
 
@@ -36,7 +36,7 @@ Some of the reasons for keys being not valid are:
 
 >![info]
 >
->Customers get reminders and also get a 30 day grace period, so normally when credentials stop working, it has been almost 60 days since payment should have been received. You can't open a new support ticket and deploy the application. After you get your license activated again, you still can't deploy the application.
+>If you find this is due to an invoicing or lapsed contract issue, please contact your CSM for guidance to get this resolved. After your license is re-activated, your support and deployment entitlements will be restored.
 
 ## Solution
 
@@ -54,7 +54,7 @@ If your license was previously revoked due to payment issues, and you have resol
 
 ### 2. Add the keys value in the env:COMPOSER\_AUTH variable and check if the same keys are specified in auth.json
 
-See the instructions and related information in [Prepare your existing Magento Commerce install >](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) 
+See the instructions and related information in [Prepare your existing Magento Commerce install >](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json)
 
  [Add Magento authentication keys](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) in Magento Developer Documentation.
 
