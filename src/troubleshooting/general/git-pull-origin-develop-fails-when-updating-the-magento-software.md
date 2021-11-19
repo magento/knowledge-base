@@ -7,7 +7,7 @@ This article provides a fix for when you can't update Adobe Commerce software wh
 
 ## Details
 
-One of the steps to updating the Adobe Commerce 2 software is to update your local repository by running:
+One of the steps to updating the Adobe Commerce software is to update your local repository by running:
 
 ```bash
 $ git pull origin develop
