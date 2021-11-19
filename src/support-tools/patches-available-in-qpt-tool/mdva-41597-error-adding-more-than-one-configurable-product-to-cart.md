@@ -25,7 +25,7 @@ Users get an error when adding more than one configurable product to the cart us
 
 <ins>Steps to reproduce</ins>:
 
-Add multiple configurable products to the cart using GraphQL mutation `addConfigurableProductsToCart`.
+Add multiple configurable products to the cart using GraphQL mutation: `addConfigurableProductsToCart`.
 
 <ins>Expected results</ins>:
 
