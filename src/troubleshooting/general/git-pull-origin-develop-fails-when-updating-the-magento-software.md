@@ -30,7 +30,7 @@ The next section discusses suggested solutions.
 
 ### Suggested solutions
 
-Your solution depends on whether or not you intentionally modified files in the Adobe Commerce 2 file system. See one of the following sections for more information.
+Your solution depends on whether or not you intentionally modified files in the Adobe Commerce file system. See one of the following sections for more information.
 
 #### You intentionally modified files
 
