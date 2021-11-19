@@ -43,7 +43,7 @@ Grouped products display `out-of-stock` labels when associated simple products g
 <ins>Actual results</ins>:
 
 1. The simple product with qty = 11 shows out of stock.
-1. The grouped product does not show an out-of-stock message for the product with qty = 11. Though, adding this product to the cart gives an *out-of-stock* error.
+1. The grouped product does not show an *out-of-stock* message for the product with qty = 11. Though, adding this product to the cart gives an *out-of-stock* error.
 
 ## Apply the patch
 
