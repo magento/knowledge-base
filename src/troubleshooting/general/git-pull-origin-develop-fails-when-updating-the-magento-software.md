@@ -45,7 +45,7 @@ Try any of the following:
     </p>
     <pre><code class="language-bash">$ git reset --hard HEAD && git pull origin develop</code></pre>
 
-    After that, continue where you left off with your Adobe Commerce 2 update.
+    After that, continue where you left off with your Adobe Commerce update.
 
 * It's possible that a GitHub configuration setting can prevent these errors in the future. By default, GitHub stores content using the operating system-default line ending characters. If you're using Linux, but another collaborator committed a change using Windows, GitHub converts the Windows line endings to Linux when you clone or pull. This gives the appearance of a change to files when in fact, no change was made.
 
