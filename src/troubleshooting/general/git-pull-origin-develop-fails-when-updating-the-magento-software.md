@@ -63,4 +63,4 @@ Try any of the following:
     >
     >Adobe does not recommend or endorse any particular GitHub configuration settings. The preceding are suggestions only. For more information, consult [GitHub help](https://help.github.com/).
 
-    Continue where you left off with your Adobe Commerce 2 update.
+    Continue where you left off with your Adobe Commerce update.
