@@ -32,7 +32,7 @@ The stock status is not updated when an order is placed but not shipped.
 <ins>Steps to reproduce</ins>:
 
 1. Create two simple products with qty = 11 and 22.
-1. Create a grouped product using simple products created in step one.
+1. Create a grouped product using the simple products created in step one.
 1. Add grouped products to the cart by setting one of the product qty to 11 and making the other simple product go out of stock.
 1. Complete the checkout and place the order.
 
