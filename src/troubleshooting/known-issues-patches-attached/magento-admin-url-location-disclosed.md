@@ -23,7 +23,7 @@ To fix the issue, please apply the patch attached to this article. To download i
 * Download [PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip) - for versions 2.2.0-2.2.8, all editions
 * Download [PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip) - for versions 2.3.0-2.3.1, all editions
 
-If you do see a patch for your product/version, please upgrade to the latest security release and then apply the patch.
+If you do not see a patch for your product/version, please upgrade to the latest security release and then apply the patch.
 
 Adobe strongly recommends applying the patch as soon as possible, even if you have not experienced any symptoms of an attack.
 
