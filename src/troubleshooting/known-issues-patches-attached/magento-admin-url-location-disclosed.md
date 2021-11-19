@@ -38,4 +38,4 @@ Adobe also strongly recommends that merchants deploy tools to secure their admin
 * [5 Immediate Actions to Protect Against Brute Force Attacks](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [Protect Your Magento Installation Password Guessing New Update](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [Security Best Practices](https://magento.com/security/best-practices/security-best-practices)
-* Adding and Configuring Two-Factor Authentication in Magento for [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) and [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+* Adding and Configuring Two-Factor Authentication in Adobe Commerce for [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) and [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
