@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.4.2: Braintree Venmo payment does not work"
-labels: 2.4.2,Braintree Venmo payment,Adobe Commerce,Magento,cloud infrastructure,known issue,orders,on-premises
+labels: troubleshooting,2.4.2,Braintree Venmo payment,Adobe Commerce,Magento,cloud infrastructure,known issue,orders,on-premises
 ---
 
 This article describes a known Adobe Commerce 2.4.2 issue where orders are not generated when using Braintree Venmo during checkout. There is no resolution available at this time.
