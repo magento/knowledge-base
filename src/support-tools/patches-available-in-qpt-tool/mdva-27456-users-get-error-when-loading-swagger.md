@@ -25,7 +25,7 @@ Users get an error when loading Swagger.
 
 <ins>Steps to reproduce</ins>:
 
-Go to ../swagger.
+Go to `../swagger.`
 
 <ins>Expected results</ins>:
 
