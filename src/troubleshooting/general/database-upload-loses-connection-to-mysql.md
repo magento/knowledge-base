@@ -11,7 +11,7 @@ Adobe Commerce on cloud infrastructure 2.2.x., 2.3.x
 
 ## Issue
 
-The database does not upload to primary/integration branches on Adobe Commerce on cloud infrastructure Pro plan architecture or any branch on Adobe Commerce on cloud infrastructure Starter plan architecture with the symptom being the inability to connect. You see this error in the CLI.
+The database does not upload to primary/integration branches on Adobe Commerce on cloud infrastructure Pro plan architecture or any branch on Adobe Commerce on cloud infrastructure Starter plan architecture, with the symptom being the inability to connect. You see this error in the CLI.
 
 ```clike
 web@ddc35c264bd89a72042f1f3e5a:~$ mysql -h database.internal -u user -p main
@@ -25,14 +25,14 @@ This is usually due to a lack of disk space for importing the database.
 
 ## Solution
 
-First, check if there is a lack of disk space. To do so run the `netcat` command in the CLI against the database port 3306; there will be a disk full message if it is full:
+Check if there is a lack of disk space. To do so, run the `netcat` command in the CLI against the database port 3306; there will be a disk full message if it is full:
 
 ```clike
 web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-You will need to allocate more space for the database in your `services.yaml` and deploy if you have some space unused. For steps see [Service Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
+You will need to allocate more space for the database in your `services.yaml` and deploy if you have some space unused. For steps, see [Service Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
 
 Note: On the Pro architecture plan, you can check the allocated space on your partition by running the following command: `df -h`
 
