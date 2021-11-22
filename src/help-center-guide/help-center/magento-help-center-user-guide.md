@@ -212,7 +212,7 @@ We provide support only to Adobe Commerce license owners and accounts which have
 
 * [Adobe Commerce Help Center](https://support.magento.com/)
 * [Adobe Commerce Developer Documentation](http://devdocs.magento.com/)
-* [Adobe Commerce Tech Resources](https://magento.com/resources/technical)
+* [Adobe Commerce documentation resources](https://experienceleague.adobe.com/docs/commerce.html)
 * [Magento Forums](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
 
 If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [help center login issues](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
