@@ -228,7 +228,7 @@ The solution is to validate your email address:
 1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.    ![Validate_Email_Solution.png](assets/Validate_Email_Solution.png)    
 1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento Account with a link to validate the email address.
 1. Click on the email validation link to validate your email and resolve this issue.
-1. If you do not receive an email with an email validation link, please email [help center login issues](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
+1. If you do not receive an email with an email validation link, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
 
 <h3 id="merchant-not-displayed">Ticket submission form: merchant is not displayed in Organization drop-down</h3>
 
