@@ -19,6 +19,6 @@ Having installed the tool, you can check for available patches, apply or revert 
 
 Please refer to our developer documentation for details:
 
-* [QPT for Adobe Commerce on-premises](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
-* [QPT for Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/project-patch.html)
-* [QPT release notes](https://devdocs.magento.com/quality-patches/release-notes.html)
+* [Patches available in Quality Patches Tool](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
+* [Quality Patches Tool release notes](https://devdocs.magento.com/quality-patches/release-notes.html)
+
