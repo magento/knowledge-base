@@ -37,7 +37,7 @@ Admin users are unable to access the Manage Shopping Cart page if a customer add
 
 <ins>Expected results</ins>:
 
-Admin user is able to manage shopping cart.
+Admin user is able to manage the shopping cart.
 
 <ins>Actual results</ins>:
 
