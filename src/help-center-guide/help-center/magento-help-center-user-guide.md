@@ -380,10 +380,10 @@ This field appears when your account is associated with more than one organizati
 
 Select the type of Adobe Commerce product you are working with:
 
-* Adobe Commerce on cloud infrastructure
-* Adobe Commerce on-premises
+* Adobe Commerce (Cloud)
+* Adobe Commerce (On Premises)
 * Magento Order Management
-* Magento Shipping
+* Adobe Commerce Payment Services
 
 #### Partner name (Merchant name)
 
