@@ -33,7 +33,7 @@ While we can't perform these actions on your behalf, we're more than willing to 
 
 In addition to the data security functions listed above, there are a few product-related requests our support team can't accommodate:
 
-* **Teaching SQL** - Want to use the SQL Report Builder but you don't know SQL? No worries - we put together a [tutorial](https://docs.magento.com/mbi/data-analyst/dev-reports/sql-rpt-bldr.html) to help you with the basics.
+* **Teaching SQL** - Want to use the SQL Report Builder, but you don't know SQL? No worries - we put together a [tutorial](https://docs.magento.com/mbi/data-analyst/dev-reports/sql-rpt-bldr.html) to help you with the basics.
 
 * **SQL visualization problems not caused by product defects** - If a chart winds up looking a little wonky and it **isn't** caused by a product defect, it's likely that the cause is the query itself. Take a look at our [Creating visualizations from SQL queries tutorial](https://docs.magento.com/mbi/tutorials/create-visuals-from-sql.html) for guidance on how to structure your queries for visualization.
 * **Debugging SQL queries** - From time to time, you may encounter non-EXPLAIN errors that keep your query from running. We recommend referring to the [MBI User Guide: Using the SQL Report Builder](https://docs.magento.com/mbi/data-analyst/dev-reports/sql-rpt-bldr.html) and our SQL tutorial for help pinpointing where the query went wrong.
