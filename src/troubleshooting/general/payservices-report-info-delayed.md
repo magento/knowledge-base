@@ -7,10 +7,7 @@ This article explains why reporting data in Payment Services may be delayed.
 
 ## Affected products and versions
 
-* Adobe Commerce (on-premise) 2.4.2-p1
-* Adobe Commerce Cloud 2.4.2-p1
-* Magento Open Source 2.4.2-p1
-* Payment Services for Adobe Commerce and Magento Open Source, Early Access Program (EAP)
+* [Payment Services](https://marketplace.magento.com/) is now compatible with Adobe Commerce versions 2.4.0 to 2.4.3-p1.
 
 ## Issue
 
