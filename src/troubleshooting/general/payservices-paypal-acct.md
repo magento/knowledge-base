@@ -7,10 +7,7 @@ This article explains why your PayPal sandbox account for Payment Services may n
 
 ## Affected products and versions
 
-* Adobe Commerce (on-premise) 2.4.2-p1
-* Adobe Commerce on our cloud infrastructure 2.4.2-p1
-* Magento Open Source 2.4.2-p1
-* Payment Services for Adobe Commerce and Magento Open Source, Early Access Program (EAP)
+* [Payment Services](https://marketplace.magento.com/) is now compatible with Adobe Commerce versions 2.4.0 to 2.4.3-p1.
 
 ## Issue
 
@@ -36,4 +33,4 @@ PayPal will not be able to verify your sandbox account and you will not be able 
 
 ## Solution
 
-Follow the instructions in our [Onboarding user guide]((https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html)) to successfully install and onboard Payment Services.
+Follow the instructions in our [Onboarding user guide](https://docs-beta.magento.com/user-guide/payment-services/onboard-payments.html) to successfully install and onboard Payment Services.
