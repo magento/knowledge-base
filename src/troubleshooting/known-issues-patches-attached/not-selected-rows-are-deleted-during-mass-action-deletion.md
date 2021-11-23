@@ -1,5 +1,5 @@
 ---
-title: More products were deleted than initiated in the admin
+title: More products were deleted than initiated during mass deletion in Admin
 labels: 2.2.3,Magento Commerce Cloud,deleted customers,deleted products,known issues,mass update,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
