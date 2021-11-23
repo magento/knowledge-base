@@ -1,13 +1,13 @@
 ---
-title: ECE-Tools and patch update errors Magento Commerce Cloud 2.2.x., 2.3.x
-labels: 2.2.x,2.3.x,Magento Commerce Cloud,No such file or directory,composer.json,error message,failed to open stream:,how to,patches,updates to ECE-Tools
+title: ECE-Tools and patch update errors Adobe Commerce cloud infrastructure 2.2.x., 2.3.x
+labels: 2.2.x,2.3.x,Magento Commerce Cloud,No such file or directory,composer.json,error message,failed to open stream:,how to,patches,updates to ECE-Tools,Troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a solution for the issue where you see error messages including " *failed to open stream:* " or " *No such file or directory",* when trying to deploy updates to ECE-Tools, patches or other changes.
+This article provides a solution for the issue where you see error messages including "*failed to open stream:*" or "*No such file or directory*" when trying to deploy updates to ECE-Tools, patches or other changes.
 
 ## Affected products and versions
 
-Magento Commerce Cloud 2.2.x., 2.3.x
+Adobe Commerce on cloud infrastructure 2.2.x., 2.3.x
 
 ## Issue
 
@@ -55,11 +55,11 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## Cause
 
-Misconfiguration of your composer.json file.
+Misconfiguration of your `composer.json` file.
 
 ## Solution
 
-If a setting is missing from your composer.json file, some directories will not copy from the Magento 2 Code Base. The package and the update/patch can't apply because files will not be found.
+If a setting is missing from your `composer.json` file, some directories will not copy from the Adobe Commerce Code Base. The package and the update/patch can't apply because files will not be found.
 
 Please change your extra section to match that provided below and re-attempt deployment.
 
@@ -72,4 +72,4 @@ Please change your extra section to match that provided below and re-attempt dep
 
 ## Related reading
 
-* DevDocs [Upgrades and patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=update%20ece%20tools)
+* [Upgrades and patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=update%20ece%20tools) in our developer documentation.
