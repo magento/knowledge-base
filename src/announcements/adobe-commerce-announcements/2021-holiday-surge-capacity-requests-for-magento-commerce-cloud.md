@@ -13,7 +13,7 @@ Once you have completed the recommended estimation, if your team has identified 
 
 **View the history of your upsizes**
 
-You can view the history of requested resizes in your [Project Portal (Onboarding UI)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), under **Project** > **Services** > **Cluster Resize**.
+You can view the history of requested resizes in your [Project Portal (Onboarding UI)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), under **Project** > **Services** > **CPU Usage Tracking**.
 The following information is available for each resize request:
 
 * **Size Start Date**: date of upsize request.
