@@ -28,7 +28,7 @@ Slow queries occur on the `customer_grid_flat` table.
 1. Create an Admin user with a Custom scope (Example: Set **GWS** = *0,* and choose the existing default website with **ID** = *1*).
 1. Create any product and category items.
 1. Place an order from the frontend.
-1. Login to the Admin with a new user.
+1. Log in to the Admin as the new user.
 1. Go to the Sales grid (**Sales > Orders**).
 1. Check that the SQL query has been sent to DB (database).
 
