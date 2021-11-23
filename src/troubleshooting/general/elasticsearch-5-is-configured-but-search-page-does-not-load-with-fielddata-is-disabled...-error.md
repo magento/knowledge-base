@@ -4,7 +4,6 @@ labels: 2.2.x,Magento Commerce,elasticsearch,search,troubleshooting,Adobe Commer
 ---
 
 This topic describes how to fix the issue with Elasticsearch 5, where the search page does not load, and the exception similar to the following is thrown:
-
 ```bash
 {"0":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}].
 ```
@@ -23,7 +22,6 @@ This topic describes how to fix the issue with Elasticsearch 5, where the search
 Pre-conditions: Elasticsearch 5 is configured.
 
 On search request the following exception is generated in logs:
-
 ```bash
 {"0":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}].
 ```
