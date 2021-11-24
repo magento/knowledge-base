@@ -11,7 +11,7 @@ This article provides a fix for the issue when logging in to the Commerce Admin 
 
 ## Affected versions and technologies
 
-* Adobe Commerce on cloud infrastructure versions 2.1.11-2.1.13 and 2.2.1
+* Adobe Commerce on cloud infrastructure versions 2.1.11 - 2.1.13 and 2.2.1
 * Adobe Commerce on-premises versions 2.1.11-2.1.13 and 2.2.1
 * Redis, all versions
 
