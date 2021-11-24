@@ -21,7 +21,7 @@ The MDVA-40609 patch solves the issue where the disabled products data is not sh
 
 ## Issue
 
-Disabled products data is not shown in the `cataloginventory_stock_status` index table leading to displaying an incorrect product quantities.
+Disabled products data is not shown in the `cataloginventory_stock_status` index table leading to displaying incorrect product quantities.
 
 <ins>Prerequisites</ins>:
 
