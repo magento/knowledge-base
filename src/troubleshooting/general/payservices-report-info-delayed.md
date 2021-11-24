@@ -39,7 +39,7 @@ There may be a delay in visible report data for just-completed order actions. Pa
 
 There are two factors that affect this delay in visible data in the Admin:
 
-* How often you choose to sync (export and persist) data from Commerce, via [configuration in the Admin](https://devdocs-beta.magento.com/payment-services/configure-payments.html).
+* How often you choose to sync (export and persist) data from Commerce, via [configuration in the Admin](https://devdocs.magento.com/payment-services/configure-payments.html).
 * Timeframe in which PayPal publishes reporting data.
 
 ## Solution
@@ -48,7 +48,7 @@ For Order payment status reports:
 
 1. Navigate to **Sales** > **Payment Services**.
 1. Click **Order payment status** to view the order payment status reports table.
-1. Force resync by clicking the **force resync** ![force resync](assets/force_resync.png) icon in the top right corner of the reports table.
+1. Force resync by clicking the **force resync** icon in the top right corner of the reports table.
 1. You should see the last updated timestamp change and new transactions loaded in your report table.
 
 For PayPal payout reports, the expected result is a delay of 24-48h due to the dependency on PayPal's data publishing timeframe.
