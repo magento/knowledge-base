@@ -36,6 +36,19 @@ You used incorrect Composer keys during installation.
 
 Verify that [your Composer keys are linked to the Magento ID](https://devdocs.magento.com/payment-services/install-payments.html#incorrect-composer-keys) used during Payment Services registration.
 
+## Issue - Using same dataspace across multiple instances
+
+Running a multi-environment setup with Payment Services on each.
+
+### Solution
+
+The same API key can be used across instances, but each instance needs to use its own SaaS project.
+
+When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on your Commerce license:
+
+* Adobe Commerce - One production data space; two testing data spaces
+* Magento Open Source - One production data space; no testing data spaces
+
 ## Issue - Not enough memory for PHP
 
 When installing the Payment Services extension, you may see an error message stating that you do not have enough memory for PHP.
