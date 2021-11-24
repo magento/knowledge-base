@@ -49,6 +49,8 @@ When you create a SaaS project, Commerce generates one or more SaaS data spaces 
 * Adobe Commerce - One production data space; two testing data spaces
 * Magento Open Source - One production data space; no testing data spaces
 
+Follow instructions in [Commerce API key and private key](https://docs.magento.com/user-guide/payment-services/onboard-payments.html#commerce-api-key-and-private-key) to succesfully configure your Payment Services extension.
+
 ## Issue - Not enough memory for PHP
 
 When installing the Payment Services extension, you may see an error message stating that you do not have enough memory for PHP.
