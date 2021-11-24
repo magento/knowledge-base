@@ -70,6 +70,6 @@ After applying the patch with the fix, the workaround is not required anymore, s
 
 <h2 id="h_64593789291526919876198">Adobe Commerce on cloud infrastructure 2.2.0: use ECE-Tools v2002.0.8 or later</h2>
 
-The [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) deployment script package with versions 2002.0.3-2002.0.7 [applies](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html#v200203) the workaround automatically, setting `disable_locking` to `1`. This disables the session locking mechanism for Adobe Commerce 2.2.0, on which the original issue does not occur.
+The [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) deployment script package with versions 2002.0.3 - 2002.0.7 [applies](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html#v200203) the workaround automatically, setting `disable_locking` to `1`. This disables the session locking mechanism for Adobe Commerce 2.2.0, on which the original issue does not occur.
 
 If you are running Adobe Commerce on cloud infrastructure 2.2.0, upgrade ECE-Tools to v2002.0.8 of later. You may also consider upgrading your Adobe Commerce on cloud infrastructure to 2.2.2 or later.
