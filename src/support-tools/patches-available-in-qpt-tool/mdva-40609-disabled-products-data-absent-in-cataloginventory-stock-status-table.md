@@ -33,7 +33,7 @@ Inventory module is installed.
 1. Create an additional source and stock.
 1. Add a simple product:
     * Set Enable Product to *No*.
-    * Assign two sources with Source Item Status = Instock, and Qty greater than zero.
+    * Assign two sources with Source Item Status = Instock and Qty greater than zero.
 1. Save the product.
 1. Check the **Product Salable Quantity** tab.
 
