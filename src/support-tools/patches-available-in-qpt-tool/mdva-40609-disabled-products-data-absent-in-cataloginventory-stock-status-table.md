@@ -9,7 +9,7 @@ The MDVA-40609 patch solves the issue where the disabled products data is not sh
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods)  2.4.2
+* Adobe Commerce (all deployment methods) 2.4.2
 
 **Compatible with Adobe Commerce versions:**
 
