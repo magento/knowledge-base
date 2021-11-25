@@ -42,7 +42,7 @@ Running a multi-environment setup with Payment Services on each.
 
 ### Solution
 
-The same API key can be used across instances, but each instance needs to use its own SaaS project.
+The same API key can be used across instances, but each instance needs to use its own SaaS data space.
 
 When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on your Commerce license:
 
