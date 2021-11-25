@@ -1,11 +1,11 @@
 ---
 title: ElasticSuite tracking indices causes problems with Elasticsearch
-labels: ElasticSuite 2.8.0,Elasticsearch problem,ElasticSuite tracking indices,how to,tracking indices
+labels: ElasticSuite 2.8.0,Elasticsearch problem,ElasticSuite tracking indices,how to,tracking indices,Adobe Commerce
 ---
 
 >![info]
 >
->NOTE: ElasticSuite and its affiliated applications are third-party tools not currently supported by Magento. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.
+>NOTE: ElasticSuite and its affiliated applications are third-party tools not currently supported by Adobe. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.
 
 This article talks about the issue of Elasticsearch memory problems caused by tracking indices produced by the ElasticSuite plugin.
 
@@ -34,7 +34,7 @@ Create a cron job to delete the tracking indices. This command deletes indices c
  `curl -XDELETE localhost:9200/<name in index> * **\_tracking\_log** * _$(date
     +'%Y%m' -d 'last month')*`
 
-If you want to delete indices at a set time-frequency, create a cron job by referring to these DevDocs articles:
+If you want to delete indices at a set time-frequency, create a cron job by referring to the following articles in our developer documentation:
 
 * [Configure a custom cron job and cron group (tutorial)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
 * [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
