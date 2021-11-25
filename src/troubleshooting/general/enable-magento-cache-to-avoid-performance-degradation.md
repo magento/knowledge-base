@@ -24,7 +24,7 @@ One reason for performance degradation might be certain Adobe Commerce cache typ
     ```bash
     php bin/magento cache:status
     ```
-This would display the status of each cache type ("0" for disabled, "1" for enabled). Or you can get this information in the `app/etc/env.php` file.
+    This would display the status of each cache type ("0" for disabled, "1" for enabled). Or you can get this information in the `app/etc/env.php` file.
 1. Investigate the disabled cache types. All Adobe Commerce cache types should be enabled, unless you received alternative guidance from Adobe. Third party extensions must not require disabling Adobe Commerce cache.
 1. If the investigation confirms that some cache types are disabled by mistake, enable them by running the following command for each cache type: `php bin/magento cache:enable <your_disabled_cache_type>`
 
