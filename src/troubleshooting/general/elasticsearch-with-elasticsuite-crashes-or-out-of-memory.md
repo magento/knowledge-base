@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch with ElasticSuite crashes or out of memory
-labels: 2.1.x,2.2.x,2.3.x,ElasticSuite 2.8.0,Magento Commerce,Magento Commerce Cloud,elasticsearch crashes,elasticsuite,elasticsuite tracking indices,how to,out of memory,plugin,Adobe Commerce
+labels: 2.1.x,2.2.x,2.3.x,ElasticSuite 2.8.0,Magento Commerce,Magento Commerce Cloud,elasticsearch crashes,elasticsuite,elasticsuite tracking indices,how to,out of memory,plugin,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
 >![info]
