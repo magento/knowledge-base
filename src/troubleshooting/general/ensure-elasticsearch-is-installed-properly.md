@@ -7,7 +7,7 @@ This article talks about solutions for issues caused by incorrect Elasticsearch 
 
 >![warning]
 >
->On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
+>On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the Production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
 ## Elasticsearch version compatibility with Adobe Commerce
 
