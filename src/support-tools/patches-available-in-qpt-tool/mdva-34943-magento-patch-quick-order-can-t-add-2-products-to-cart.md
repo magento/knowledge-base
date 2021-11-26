@@ -34,7 +34,7 @@ Adobe Commerce with simple products.
 1. Enter the same valid SKU, but change the case (change uppercase to lowercase, or change lowercase to uppercase) of the first character, and click the product that shows up in the autocomplete field, and set **Quantity** = *1*.
 1. Enter a `random_sting_value` for **SKU**, and set **Quantity** = *1*.
 1. Set **SKU** = *123123123*, and set **Quantity** = *1*.
-1. Delete everything except the 1st entry you added to the **Quick Order** page.
+1. Delete everything except the first entry you added to the **Quick Order** page.
 1. Enter the 1st SKU (similar to Step 2 above) in the **Enter Multiple SKUs** field, and click **Add to List**.
 1. This results in a quantity of 2 for the 1st SKU and a line for a `random_sting_value`.
 1. To test more, refresh the page.
