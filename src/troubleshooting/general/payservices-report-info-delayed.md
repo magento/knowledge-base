@@ -7,7 +7,7 @@ This article explains why reporting data in Payment Services may be delayed.
 
 ## Affected products and versions
 
-* [Payment Services](https://marketplace.magento.com/) is now compatible with Adobe Commerce versions 2.4.0 to 2.4.3-p1.
+* [Payment Services](https://marketplace.magento.com/magento-payment-services.html) is now compatible with Adobe Commerce versions 2.4.0 to 2.4.3-p1.
 
 ## Issue
 
