@@ -31,7 +31,7 @@ Adobe Commerce with simple products.
 
 1. Go to **Quick Order** on the Storefront (while not logged in).
 1. Enter a valid SKU, click the product that shows up in the autocomplete field, and set **Quantity** = *1*.
-1. Enter the same valid SKU, but change the case (change uppercase to lowercase, or change lowercase to uppercase) of the 1st character, and click the product that shows up in the autocomplete field, and set **Quantity** = *1*.
+1. Enter the same valid SKU, but change the case (change uppercase to lowercase, or change lowercase to uppercase) of the first character, and click the product that shows up in the autocomplete field, and set **Quantity** = *1*.
 1. Enter a `random_sting_value` for **SKU**, and set **Quantity** = *1*.
 1. Set **SKU** = *123123123*, and set **Quantity** = *1*.
 1. Delete everything except the 1st entry you added to the **Quick Order** page.
