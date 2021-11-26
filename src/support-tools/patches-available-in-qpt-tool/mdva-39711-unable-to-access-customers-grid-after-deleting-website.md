@@ -1,5 +1,5 @@
 ---
-title: MDVA-39711: Unable to access customers grid after deleting website
+title: "MDVA-39711: Unable to access customers grid after deleting website"
 labels: QPT patches,Support Tools,Quality Patches Tool,Magento,QPT 1.1.7,Quality Patches Tool,Adobe Commerce,cloud infrastructure,on-premises,customers grid,Admin,website,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1, 2.3.7p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
