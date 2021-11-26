@@ -3,7 +3,7 @@ title: 'MDVA-40311: "Invalid security" error after login to Admin if custom admi
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.7,Magento,MQP,Patches for Adobe Commerce,cloud infrastructure,on-premises,Adobe Commerce,invalid security,admin path,secret key,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-40311 patch fixes the issue where the Admin user gets and error message *Invalid security or form key. Please refresh the page* after login to the Admin if the custom admin path is configured and secret key is enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.7 is installed. The patch ID is MDVA-40311. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-40311 patch fixes the issue where the Admin user gets an error message *Invalid security or form key. Please refresh the page* after login to the Admin if the custom admin path is configured and the secret key is enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.7 is installed. The patch ID is MDVA-40311. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -21,19 +21,19 @@ The MDVA-40311 patch fixes the issue where the Admin user gets and error message
 
 ## Issue
 
-Admin user gets and error message *Invalid security or form key. Please refresh the page* after login to the Admin if the custom admin path is configured and secret key is enabled.
+Admin user gets an error message *Invalid security or form key. Please refresh the page* after login to the Admin if the custom admin path is configured and the secret key is enabled.
 
 <ins>Steps to reproduce</ins>:
 
-* Log in as the Admin user using valid username/password.
+* Log in as the Admin user using valid username and password.
 
 <ins>Expected results</ins>:
 
-Able to log in without any error message.
+User is able to log in without any error message.
 
 <ins>Actual results</ins>:
 
-"Invalid security or form key. Please refresh the page." message is displayed.
+"Invalid security or form key. Please refresh the page" error message is displayed.
 
 ## Apply the patch
 
