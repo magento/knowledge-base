@@ -36,7 +36,7 @@ Adobe Commerce with simple products.
 1. Set **SKU** = *123123123*, and set **Quantity** = *1*.
 1. Delete everything except the first entry you added to the **Quick Order** page.
 1. Enter the 1st SKU (similar to Step 2 above) in the **Enter Multiple SKUs** field, and click **Add to List**.
-1. This results in a quantity of 2 for the 1st SKU and a line for a `random_sting_value`.
+1. This results in a quantity of 2 for the first SKU and a line for a `random_sting_value`.
 1. To test more, refresh the page.
 1. This results in no SKUs for quick order, as expected.
 1. Enter a `random_sting_value2` into the **Enter Multiple SKUs** field, and click **Add to List**.
