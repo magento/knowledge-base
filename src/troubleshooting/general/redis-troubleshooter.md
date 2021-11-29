@@ -6,7 +6,6 @@ labels: Magento Commerce,Magento Commerce Cloud,Redis,cache,caching,database,ece
 This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure merchants having issues with Redis. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot version and memory issues and optimize performance.
 
 <div class="zd-accordion">
-<div class="zd-accordion-panel">
 <div id="zd-accordion-1" class="zd-accordion-panel">
 <h5>Step 1</h5>
 <div class="zd-accordion-section">Redis issue?</div>
