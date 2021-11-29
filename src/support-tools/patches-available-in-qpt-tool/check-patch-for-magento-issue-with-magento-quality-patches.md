@@ -30,6 +30,9 @@ The tool is aimed to enable you to self-serve with patches for issues you might 
 >
 >Note: QPT is for quality patches only. Security patches are available in the [Magento Security Center](https://magento.com/security/patches).
 
+## Patches available in Quality Patches Tool
+Please refer to [Quality Patches Tool](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation for the list of available patches.
+
 ## How to install and use Quality Patches Tool
 
 The installation and usage commands are different for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure, because for cloud the QPT package is included to the ece-tools package.
