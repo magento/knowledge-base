@@ -11,7 +11,7 @@ Additionally, if you're an Admin user, you can use the [SQL Report Builder](http
 
 Keep in mind that the SQL Report Builder may either be based on PostgreSQL or Redshift, so you may have to make some changes to your query syntax. If you are unsure which syntax to use for your account, [contact support](https://support.magento.com/hc/en-us/articles/360019088251).
 
-Related reading
+## Related reading
 
 * [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
 * [Calculated columns](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
