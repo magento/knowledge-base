@@ -48,7 +48,7 @@ Warning message in the browser console: *A cookie associated with a cross-site r
 
 ## Apply the patch
 
-For instructions on how to apply an QPT patch, use the following links depending on your Adobe Commerce deployment type:
+To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce on-premises: [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
