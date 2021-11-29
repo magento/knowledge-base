@@ -3,7 +3,7 @@ title: Adobe support customer data access and privacy
 labels: Adobe,GDPR,Magento Commerce,Magento Commerce Cloud,account,announcements,customers,data,security,support
 ---
 
-Adobe technical support may require access to your Adobe Commerce-related data to provide support. The primary Adobe Commerce account holder can choose to provide this authorization in their Adobe Commerce account privacy settings. If you are the Project Owner of an Adobe Commerce Cloud project, note that it doesn't mean that you are the Primary Account Holder - you will have to contact the account holder to provide their consent.
+Adobe technical support may require access to your Adobe Commerce-related data in order to provide support. Authorization can only be provided by the primary Adobe Commerce account holder in their Adobe Commerce account privacy settings if they choose to do so. Allowing this access prior to support request creation will help ensure the issue can be properly investigated and/or help increase the speed of resolution. Please note, the "Project Owner" of an Adobe Commerce Cloud project may not be the primary Adobe Commerce account holder.
 
 >![info]
 >
