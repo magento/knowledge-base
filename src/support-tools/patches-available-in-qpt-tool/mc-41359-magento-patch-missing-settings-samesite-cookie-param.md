@@ -57,7 +57,7 @@ For instructions on how to apply an QPT patch, use the following links depending
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://devdocs.magento.com/quality-patches/tool.html#patch-grid).
