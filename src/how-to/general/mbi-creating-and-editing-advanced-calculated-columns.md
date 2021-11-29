@@ -1,18 +1,17 @@
 ---
 title: "MBI: Creating and editing advanced calculated columns"
-labels: MBI,Magento Business Intelligence,analysis,calculated columns,data,data discrepancies,database,how to,reports
+labels: MBI,Magento Business Intelligence,analysis,calculated columns,data,data discrepancies,database,how to,reports,Adobe Commerce
 ---
 
  [Admin users](https://support.magento.com/hc/en-us/articles/360016731291) have the ability to create and edit certain calculated columns in the Data Warehouse Manager. These calculated columns give you the ability to set up the reporting you are looking for to answer key business questions.
 
 For the list of calculated columns that you can create in the Data Warehouse Manager, as well as guidance to ensure you set them up correctly, check out the following articles:
 
-* [Creating calculated columns](https://support.magento.com/hc/en-us/articles/360016504512)
-* [Calculated column types](https://support.magento.com/hc/en-us/articles/360016504972)
-* [Understanding and evaluating table relationships](https://support.magento.com/hc/en-us/articles/360016505812)
-* [Creating paths for calculated columns](https://support.magento.com/hc/en-us/articles/360016731471)
+* [Creating calculated columns](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
+* [Calculated column types](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/calc-column-types.html)
+* [Understanding and evaluating table relationships](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
+* [Creating paths for calculated columns](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
 
- [Some calculated columns](https://support.magento.com/hc/en-us/articles/360016730791) (we call them Advanced Calculated Columns) require a member of our analyst team to create or edit.
 
 #### I still need help!
 
@@ -29,7 +28,6 @@ If you're unsure how to answer any of these questions, don't worry! Try your bes
 ## Related reading
 
 * [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
-* [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
 * [Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
 * [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
 * [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
