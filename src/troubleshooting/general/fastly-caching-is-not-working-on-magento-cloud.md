@@ -182,7 +182,7 @@ If the issue persists, another extension is likely resetting these headers. Repe
 1. Try the curl commands and verify the response headers.
 1. Repeat steps 8 and 9 to enable and test the curl commands. When the Fastly headers no longer display, you have found the extension causing issues with Fastly.
 
-When you isolate the extension that is resetting Fastly headers, contact the extension developer for additional assistance. We cannot provide fixes or updates for 3rd party extension developers to work with Fastly caching.
+When you isolate the extension that is resetting Fastly headers, contact the extension developer for additional assistance. We cannot provide fixes or updates for third-party extension developers to work with Fastly caching.
 
 ## More information in our developer documentation:
 
