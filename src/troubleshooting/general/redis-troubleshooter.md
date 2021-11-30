@@ -38,6 +38,6 @@ This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe C
 <p class="zd-accordion-text">a. YES – Check the temp directory <code>/dev/shm</code> to see if you need to increase space. If you need more space, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.<br>b. NO – Enabling L2 cache appears to have solved your Redis issues.</p>
 </div>
 <p>
-    <a class=“accordion-back-to-step-1” href=“#zd-accordion-1">Back to Step 1</a>
+    <a href="https://support.magento.com/hc/en-us/articles/360046673932#zd-accordion-1">Back to Step 1</a>
   </p>
 </div>
