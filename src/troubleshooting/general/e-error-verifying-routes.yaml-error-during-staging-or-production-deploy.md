@@ -68,7 +68,7 @@ To resolve the blocked deployment, update the `routes.yaml` file to configure ro
    ```    
 1. Сommit and push your changes to redeploy your project.
 
-For detailed instructions to update the route configuration, see [Could for Adobe Commerce > Configure routes](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) in our developer documentation.
+For detailed instructions to update the route configuration, see [Cloud for Adobe Commerce > Configure routes](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) in our developer documentation.
 
 >![info]
 >
