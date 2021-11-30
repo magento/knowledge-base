@@ -1,6 +1,6 @@
 ---
 title: FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
-labels: 2.3.6,2.3.x,2.4,Elasticsearch,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,lifecycle,patches,quality,security,support,upgrade,Adobe Commerce
+labels: 2.3.6,2.3.x,2.4,Elasticsearch,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,lifecycle,patches,quality,security,support,upgrade,Adobe Commerce,cloud infrastructure
 ---
 
 ## What’s changing?
