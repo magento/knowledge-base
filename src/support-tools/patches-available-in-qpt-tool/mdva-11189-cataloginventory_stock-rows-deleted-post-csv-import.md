@@ -24,7 +24,7 @@ Fixes the issue when after importing a `.csv` to update product stock, rows from
 1. In the database run the following MySQL command: `select count(*) from cataloginventory_stock_status;`
 1. Note the number of rows.
 1. Set the crontab as follows: `* * * * * /usr/bin/php <path to installation>/bin/magento cron:run  | grep -v "Ran jobs by schedule" >> <path to installation>/var/log/cron.log 2>&1`    
-1. Go to the Admin panel in **System** > **Tools** > **Index Management** .
+1. Go to the Admin panel in **System** > **Tools** > **Index Management**.
 1. Set indexers to *Update By Schedule.*
 1. Go to **System** > *Data Transfer* > **Export**.
 1. Set **Entity Type** equal to *Products* > **Continue**.
