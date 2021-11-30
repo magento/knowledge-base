@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40311: "Invalid security" error after login to Admin if custom admin path is configured'
+title: 'MDVA-40311: "Invalid security or form key" error after login to Admin if custom admin path is configured'
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.7,Magento,MQP,Patches for Adobe Commerce,cloud infrastructure,on-premises,Adobe Commerce,invalid security,admin path,secret key,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
