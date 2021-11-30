@@ -37,7 +37,7 @@ Fixes the issue when after importing a `.csv` to update product stock, rows from
    1. Import Behavior: *Add/Update*
    1. Leave all other values at default.
    1. Choose File to select the catalog product spreadsheet.
-1. Click **Check Data** > **Import** . Allow 5-10 minutes to pass.
+1. Click **Check Data** > **Import**. Allow 5-10 minutes to pass.
 1. In the database run the following MySQL command:
    `select count(*) from cataloginventory_stock_status;`    
 
