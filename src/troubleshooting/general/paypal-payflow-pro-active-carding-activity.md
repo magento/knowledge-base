@@ -33,10 +33,10 @@ To help protect from these attacks, we advise adding Google reCAPTCHA (recommend
 
 Adobe created two package options to add Google reCAPTCHA and/or CAPTCHA to the Payflow Pro checkout form. Installing one of these packages will update current installations and add an option that can help enhance this security to the Payflow Pro checkout form.
 
-These packages are compatible with the following Adobe Commerce editions and versions:
+These packages are compatible with the following Adobe Commerce deployments and versions:
 
 * Adobe Commerce versions: 2.1.x, 2.2.x, 2.3.x
-* Adobe Commerce editions: Open Source and on-premises and cloud infrastructure
+* Deployment methods: Magento Open Source and Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure
 
 Installation requires CLI commands to your Adobe Commerce instance. Developer assistance may be required.
 
