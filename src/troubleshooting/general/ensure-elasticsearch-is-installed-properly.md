@@ -31,7 +31,7 @@ The following symptoms indicate Elasticsearch is not configured correctly:
     ```clike
     [YYYY-MM-DD HH:MM:SS] CRITICAL: Fix configuration with given suggestions:    - Elasticsearch version #<version> is not compatible with current version of magento    Upgrade elasticsearch version to ~5.0
     ```
-*version* is the Elasticsearch Service running on the cloud environment.    
+Where *version* is the Elasticsearch Service running on the cloud environment.    
 
 ## Cause
 
