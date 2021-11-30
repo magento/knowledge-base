@@ -24,7 +24,7 @@ Once you change the `.magento/services.yaml` file, you need to commit and push y
 
 ## Allocate space on Pro plan Staging or Production
 
-To make these changes for the Staging or Production environment of the Pro plan, you must create a [support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket). When submitting a support ticket to increse storage, support will need to know how much and to what partition the storage should be applied to (`/mysql` or `/exports`). A storage increase request requires approve\al from your Customer Success Manager, who will review your entitled amount of storage (as per the order form) before approving.
+To make these changes for the Staging or Production environment of the Pro plan, you must create a [support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket). When submitting a support ticket to increase storage, support will need to know how much and to what partition the storage should be applied to (`/mysql` or `/exports`). A storage increase request requires approval from your Customer Success Manager, who will review your entitled amount of storage (as per the order form) before approving.
 
 ## Decreasing allocated space not available (Pro and Starter plan)
 
