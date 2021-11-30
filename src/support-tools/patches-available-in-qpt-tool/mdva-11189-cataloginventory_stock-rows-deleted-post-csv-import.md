@@ -26,7 +26,7 @@ Fixes the issue when after importing a `.csv` to update product stock, rows from
 1. Set the crontab as follows: `* * * * * /usr/bin/php <path to installation>/bin/magento cron:run  | grep -v "Ran jobs by schedule" >> <path to installation>/var/log/cron.log 2>&1`    
 1. Go to the Admin panel in **System** > **Tools** > **Index Management** .
 1. Set indexers to *Update By Schedule.*
-1. Go to **System** > *Data Transfer* > **Export** .
+1. Go to **System** > *Data Transfer* > **Export**.
 1. Set **Entity Type** equal to *Products* > **Continue**.
 1. Open the saved `.csv` file > Remove all columns except for SKU and QTY.
 1. Update the quantity for all products to 150.
