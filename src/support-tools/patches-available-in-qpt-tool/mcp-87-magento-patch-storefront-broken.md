@@ -28,7 +28,7 @@ The stock reindex of catalogs with large profiles is very slow.
 1. Log in to the Admin Panel.
 1. Navigate to: **Products** > **Catalog**.
 1. Select all items in the Products grid.
-1. Select **Update Attributes** in the Select Product Actions dropdown list. Click **Submit** .
+1. Select **Update Attributes** in the Select Product Actions dropdown list. Click **Submit**.
 1. Click on **Advanced Inventory** from the Advanced Settings tab. Change **Stock Availability** to *In Stock* . Click **Save** .
 1. Perform full reindex manually, execute the following command from the root: `php bin/magento indexer:reindex``
 
