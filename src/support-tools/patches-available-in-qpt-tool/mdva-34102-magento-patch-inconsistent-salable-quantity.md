@@ -1,5 +1,5 @@
 ---
-title: "MDVA-34102 Magento patch: inconsistent salable quantity"
+title: "MDVA-34102: inconsistent salable quantity"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,Default Stock,Edit Product,QPT 1.0.18,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Product Grid,disabled product,salable quantity,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 ---
 
