@@ -37,7 +37,7 @@ Admin user cannot access the customers' grid after deleting the website.
 
 <ins>Actual results</ins>:
 
-* User get and error message: *The website with id 2 that was requested wasn't found. Verify the website and try again*"
+* The user gets an error message: "*The website with id 2 that was requested wasn't found. Verify the website and try again*"
 * All customers are not displayed.
 
 ## Apply the patch
