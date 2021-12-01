@@ -21,7 +21,7 @@ The MDVA-40311 patch fixes the issue where the Admin user gets an error message:
 
 ## Issue
 
-Admin user gets an error message: *Invalid security or form key. Please refresh the page*, after login to the Admin if the custom admin path is configured and the secret key is enabled.
+Admin user gets an error message: *Invalid security or form key. Please refresh the page*, after login into the Admin if the custom admin path is configured and the secret key is enabled.
 
 <ins>Steps to reproduce</ins>:
 
