@@ -11,7 +11,7 @@ This article provides a solution for the Adobe Commerce on cloud infrastructure 
 
 ## Issue
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+<ins>Steps to reproduce</ins>:
 
 Trigger a deploy by pushing the code to the Staging or Production environment.
 
