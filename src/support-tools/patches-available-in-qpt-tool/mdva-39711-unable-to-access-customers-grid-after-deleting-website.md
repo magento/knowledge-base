@@ -21,7 +21,7 @@ The MDVA-39711 patch fixes the issue where the Admin user cannot access the cust
 
 ## Issue
 
-Admin user can not access the customers grid after deleting website.
+Admin user cannot access the customers' grid after deleting the website.
 
 <ins>Steps to reproduce</ins>:
 
