@@ -7,7 +7,7 @@ UPDATED 2 April 2019
 
 The PayPal Payflow Pro integration in Adobe Commerce is being actively targeted by carding activity, where attackers attempt hundreds of $0 transactions with stolen credit cards to check the card’s validity.
 
-The activity currently targets versions of this Payflow Pro integration that were included in Adobe Commerce 2.1.x, 2.2.x, 2.3.x for Open Source and Commerce (on-premises and cloud). The carding activity is inherent to the way Payflow Pro is integrated into shopping carts.
+The activity currently targets versions of this Payflow Pro integration that were included in Adobe Commerce 2.1.x, 2.2.x, 2.3.x for Magento Open Source and Commerce (on-premises and cloud). The carding activity is inherent to the way Payflow Pro is integrated into shopping carts.
 
 >![info]
 >
