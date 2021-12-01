@@ -8,7 +8,7 @@ The MDVA-31224 patch solves the issue when product price reindex takes too long 
 ## Affected products and versions
 
 * The patch was designed for Adobe Commerce on cloud infrastructure2.3.3.
-* The patch is also compatible with Adobe Commerce on-premises and Adobe on cloud infrastructure 2.3.3 - 2.3.4-p2.
+* The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3 - 2.3.4-p2.
 
 >![info]
 >
