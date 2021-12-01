@@ -11,15 +11,15 @@ This article provides a solution for the Adobe Commerce on cloud infrastructure 
 
 ## Issue
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+<ins>Steps to reproduce</ins>:
 
 Trigger a deploy by pushing the code to the Staging or Production environment.
 
- <span class="wysiwyg-underline">Expected behavior</span>
+<ins>Expected behavior</ins>:
 
 Deployment is successful.
 
- <span class="wysiwyg-underline">Actual behavior</span>
+<ins>Actual behavior</ins>:
 
 The deployment is blocked and the following error message is displayed in the log:
 
@@ -51,7 +51,7 @@ To resolve the blocked deployment, update the `routes.yaml` file to configure ro
 
 ### Method 1: Apply the patch supplied by Adobe Commerce
 
-1. Look for a recent Adobe Commerce support ticket with the title " *Enable self service features for <project\_ID>".*
+1. Look for a recent Adobe Commerce support ticket with the title "*Enable self service features for <project\_ID>".*
 1. Follow the instructions in the ticket to apply the patch, which updates the route configuration for your cloud environment.
 1. Сommit and push the changes to redeploy your project.
 
