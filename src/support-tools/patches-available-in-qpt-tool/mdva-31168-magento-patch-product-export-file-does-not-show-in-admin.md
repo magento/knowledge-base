@@ -17,7 +17,7 @@ The MDVA-31168 patch solves the issue where the product export CSV file does not
 
 ## Issue
 
- <span class="wysiwyg-underline">Prerequisites</span> :
+ <span class="wysiwyg-underline">Prerequisites</span>:
 
 Install Magento with sample data.
 
