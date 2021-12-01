@@ -35,8 +35,7 @@ Adobe created two package options to add Google reCAPTCHA and/or CAPTCHA to the 
 
 These packages are compatible with the following Adobe Commerce deployments and versions:
 
-* Adobe Commerce versions: 2.1.x, 2.2.x, 2.3.x
-* Deployment methods: Magento Open Source and Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure
+Adobe Commerce (all deployment methods) and Magento Open Source 2.1.x, 2.2.x, 2.3.x
 
 Installation requires CLI commands to your Adobe Commerce instance. Developer assistance may be required.
 
