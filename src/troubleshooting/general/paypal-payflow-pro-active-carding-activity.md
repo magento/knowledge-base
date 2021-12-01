@@ -123,7 +123,7 @@ Please contact PayPal Payflow Merchant Support to learn more about Fraud Protect
 
 >![info]
 >
->For additional information, see PayPal’s KB [Adobe has contacted me about my Payflow Pro integration. What do I need to do?”](https://www.paypal.com/us/smarthelp/article/ts2242).
+>For additional information, see PayPal’s KB ["Adobe has contacted me about my Payflow Pro integration. What do I need to do?”](https://www.paypal.com/us/smarthelp/article/ts2242).
 
 **PayPal Payflow Merchant Support Details**
 
