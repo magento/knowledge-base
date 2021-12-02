@@ -13,7 +13,7 @@ This article provides a solution for when you are unable to save an entity in th
 
 ## Issue
 
-When you try to reconfigure your store the page reloads and your changes are not saved. An error message can be seen in `var/log/system.log`:
+When you try to reconfigure your store the page reloads and your changes are not saved. A message can be seen in `var/log/system.log`:
 
 *[2021-11-27 00:30:52] report.WARNING: Session size of 418056 exceeded allowed session max size of 256000. [] []*
 
