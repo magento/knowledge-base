@@ -3,7 +3,7 @@ title: "MDVA-40120: GraphQL product DESC/ASC sort doesn't work"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.6,MQP,Magento,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,DESC,ASC,products,sort,sorting,price,relevance,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-40120 Quality patch solves the issue where GraphQL sorting by DESC/ASC doesn't work with products having the same relevance or price. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.6 is installed. The patch ID is MDVA-40120. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-40120 patch solves the issue where GraphQL sorting by DESC/ASC doesn't work with products having the same relevance or price. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.6 is installed. The patch ID is MDVA-40120. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
