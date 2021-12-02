@@ -29,6 +29,7 @@ It is impossible to apply a cart price rule based on Subtotal (Incl. Tax) number
 1. Create a tax rule and tax rate for 20%.
 1. Create a product with **Price** = *100* (this price includes tax).
 1. Create a new cart price rule with a coupon "10off" to apply $10 fixed discount if subtotal matches these conditions:
+
 **Conditions** : *If ALL of these conditions are TRUE :*        * **Subtotal** equals or greater than 100.*
 
 <ins>Expected results</ins>:
