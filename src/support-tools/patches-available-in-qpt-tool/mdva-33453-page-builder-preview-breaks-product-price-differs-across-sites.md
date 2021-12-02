@@ -29,11 +29,13 @@ The Page Builder product preview breaks when there is a product with different p
 1. Create or edit a CMS page, and use the product block to add the product.
 
 <ins>Actual result</ins>:<br>
+
 The below error occurs:
 
  *Error filtering template: Item (Magento\\Catalog\\Model\\Product\\Interceptor) with the same ID "2" already exists.*
 
 <ins>Expected result</ins>:<br>
+
 No errors are displayed.
 
 ## Apply the patch
