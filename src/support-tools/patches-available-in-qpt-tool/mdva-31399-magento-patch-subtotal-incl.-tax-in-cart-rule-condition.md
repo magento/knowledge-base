@@ -7,11 +7,11 @@ The MDVA-31399 patch adds the *Subtotal (Incl. Tax)* option to [cart price rule 
 
 ## Affected products and versions
 
-**The patch is created for Magento version:**
+**The patch is created for Adobe Commerce version:**
 
 Adobe Commerce on cloud infrastructure 2.3.5-p2
 
-**Compatible with Magento versions:**
+**Compatible with Adobe Commerce versions:**
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.4.1
 
@@ -29,7 +29,7 @@ It is impossible to apply a cart price rule based on Subtotal (Incl. Tax) number
 1. Create a tax rule and tax rate for 20%.
 1. Create a product with **Price** = *100* (this price includes tax).
 1. Create a new cart price rule with a coupon "10off" to apply $10 fixed discount if subtotal matches these conditions:
-**Conditions** : *If ALL of these conditions are TRUE :*        * **Subtotal** equals or greater than 100.* 
+**Conditions** : *If ALL of these conditions are TRUE :*        * **Subtotal** equals or greater than 100.*
 
 <ins>Expected results</ins>:
 
