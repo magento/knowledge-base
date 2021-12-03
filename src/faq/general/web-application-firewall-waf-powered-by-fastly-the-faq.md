@@ -82,7 +82,7 @@ The WAF solution that is sold directly by Fastly is a paid offering that include
 
 ## Are additional features and functionality offered?
 
-Adobe's WAF offering includes protection against OWASP Top-10 threats as part of PCI requirements, 24x7 support, including triage for false positives, and version upgrades. The following features are not supported in the standard offer:
+Adobe Commerce's WAF offering includes protection against OWASP Top-10 threats as part of PCI requirements, 24x7 support, including triage for false positives, and version upgrades. The following features are not supported in the standard offer:
 
 * rate limiting
 * rule customizations
