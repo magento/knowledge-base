@@ -12,7 +12,7 @@ This article provides a solution when your emails are not being sent because you
 
 SendGrid credits refer to the number of allowed emails that can be sent. Only 12,000 emails can be sent per month from the integration and Staging branches. Credits are renewed at the start of the month, so if you run out of credits, you will have to wait for the renewal.
 
-There are no hard limits on the number of emails that can be sent in Production, as long as the Sender Reputation is over 95%. The reputation is affected by the number of bounced/rejected emails, and whether DNS-based spam registries have flagged your domain as a potential spam source. In Production, a total of 12,000 emails are allocated per day, but that number can be extended based on the average number of emails that have been sent in the prior five days.
+There are no hard limits on the number of emails that can be sent in Production, as long as the Sender Reputation is over 95%. The reputation is affected by the number of bounced/rejected emails and whether DNS-based spam registries have flagged your domain as a potential spam source. In Production, a total of 12,000 emails are allocated per day, but that number can be extended based on the average number of emails that have been sent in the prior five days.
 
 ## How to check if your credits have been exceeded:
 
