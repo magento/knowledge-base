@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch service not running
-labels: 2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.2.8,2.2.9,2.3.0,2.3.1,Elasticsearch,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch errors,End of Life,Magento Commerce,Magento Commerce Cloud,PHP,exception,how to,Adobe Commerce
+labels: 2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.2.8,2.2.9,2.3.0,2.3.1,Elasticsearch,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch errors,End of Life,Magento Commerce,Magento Commerce Cloud,PHP,exception,how to,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article provides solutions for errors you can experience when the Elasticsearch (ES) service is not running (usually as a result of crashing). Symptoms can include errors when running health checks using curl, reindexing using the command line, Exception and PHP errors, and errors on product pages. The table lists errors and links to resources to attempt to solve them. One symptom can have a range of different causes.
