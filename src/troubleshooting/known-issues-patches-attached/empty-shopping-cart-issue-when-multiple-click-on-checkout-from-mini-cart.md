@@ -25,7 +25,7 @@ You have no items in your shopping cart.
 
 ## Patch
 
-The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
+The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name or click one of the following links:
 
  [Download MDVA-10441\_EE\_2.2.3\_v3.composer.patch](assets/MDVA-10441_EE_2.2.3_v3.composer.patch.zip)
 
