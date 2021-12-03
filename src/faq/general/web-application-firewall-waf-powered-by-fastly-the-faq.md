@@ -156,7 +156,7 @@ The following table summarizes support channels and availability for WAF Support
 </tbody>
 </table>
 
- *\* Adobe's toll-free Support telephone line is reserved for Priority 1 Incidents only. Non-Priority 1 calls will slow down overall response to issues*
+ *\* Adobe Commerce's toll-free Support telephone line is reserved for Priority 1 Incidents only. Non-Priority 1 calls will slow down overall response to issues*
 
 ## How are false positives triaged?
 
