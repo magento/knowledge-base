@@ -101,7 +101,7 @@ Yes, customers can enable blocking by country and access control list (ACL) from
 
 Overall WAF service availability is reported on the [Fastly Status page](https://status.fastly.com/). Availability reporting for individual customers' WAF is not provided.
 
-## Does Adobe provide Incident Management for the WAF service?
+## Does Adobe Commerce provide Incident Management for the WAF service?
 
 At this time, Incident Management is not offered.
 
