@@ -107,7 +107,7 @@ At this time, Incident Management is not offered.
 
 ## Does Adobe have a Security Operations Center?
 
-Although Adobe does not have a Security Operations Center, we do have a security operations process that allows us to engage the right resources to respond to security incidents in real-time. We also offer 24/7/365 follow-the-sun support.
+Although Adobe Commerce does not have a Security Operations Center, we do have a security operations process that allows us to engage the right resources to respond to security incidents in real-time. We also offer 24/7/365 follow-the-sun support.
 
 You can also get Adobe-related security news and updates from the [Security Center](https://magento.com/security).
 
