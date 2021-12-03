@@ -105,7 +105,7 @@ Overall WAF service availability is reported on the [Fastly Status page](https:/
 
 At this time, Incident Management is not offered.
 
-## Does Adobe have a Security Operations Center?
+## Does Adobe Commerce have a Security Operations Center?
 
 Although Adobe Commerce does not have a Security Operations Center, we do have a security operations process that allows us to engage the right resources to respond to security incidents in real-time. We also offer 24/7/365 follow-the-sun support.
 
