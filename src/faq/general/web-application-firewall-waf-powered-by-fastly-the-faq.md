@@ -3,7 +3,7 @@ title: "Web Application Firewall (WAF) powered by Fastly: the FAQ"
 labels: FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security,Adobe Commerce,cloud infrastructure
 ---
 
-## How does Adobe's managed cloud WAF (powered by Fastly) work?
+## How does Adobe Commerce's managed cloud WAF (powered by Fastly) work?
 
 Web Application Firewalls (WAFs) prevent [malicious traffic](https://support.magento.com/hc/en-us/articles/360039447892-How-to-block-malicious-traffic-for-Magento-Commerce-Cloud-on-Fastly-level) from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network.
 
