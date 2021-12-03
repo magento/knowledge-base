@@ -160,7 +160,7 @@ The following table summarizes support channels and availability for WAF Support
 
 ## How are false positives triaged?
 
-We have a false positive triage process (available 24x7) to quickly address and resolve instances  where legitimate requests have triggered a WAF rule. False positive events are treated as Priority 1 issues. As a default action, our support team can update the WAF policy immediately to disable the rule that triggered the blocking event and allow the legitimate request to pass through the WAF.
+We have a false positive triage process (available 24x7) to quickly address and resolve instances where legitimate requests have triggered a WAF rule. False positive events are treated as Priority 1 issues. As a default action, our support team can update the WAF policy immediately to disable the rule that triggered the blocking event and allow the legitimate request to pass through the WAF.
 
 ## What if traffic to the admin section of Adobe Commerce on cloud infrastructure's site triggers WAF rules? Will Adobe Commerce Support resolve issues with blocked admin traffic?
 
