@@ -1,14 +1,19 @@
 ---
-title: "MDVA-32133 Magento patch: page builder doesn't load media gallery"
-labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.12,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,load,media gallery,page builder,support tools
+title: "MDVA-32133 patch: page builder doesn't load media gallery"
+labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.12,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,load,media gallery,page builder,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 ---
 
-The MDVA-32133 solves the issue where the Media Gallery is not loaded. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that this issue is scheduled to be fixed in Magento 2.4.3.
+The MDVA-32133 patch solves the issue where the Media Gallery is not loaded. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
-* **The patch is created for Magento version:** Magento Commerce Cloud 2.4.0.
-* **Compatible with Magento versions:** Magento Commerce Cloud and Magento Commerce 2.4.0-2.4.2.
+**The patch is created for Adobe Commerce version:**
+
+Adobe Commerce on cloud infrastructure 2.4.0
+
+**Compatible with Adobe Commerce versions:**
+
+Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.4.0 - 2.4.2
 
 >![info]
 >
@@ -16,26 +21,36 @@ The MDVA-32133 solves the issue where the Media Gallery is not loaded. This patc
 
 ## Issue
 
-Fixes the issue where the order history loads very slow or not loaded at all. <span class="wysiwyg-underline">Steps to reproduce:</span> 
+Fixes the issue where the order history loads very slow or not loaded at all.
 
-1. Edit selected cms page.2. Expand Content and click **Edit with Page Builder** .3. Expand Media. Drag and drop Image on the Row area.4. Click **Select from Gallery** .5. You can log out and then log in via some other window.
+<ins>Steps to reproduce</ins>:
 
- <span class="wysiwyg-underline">Actual result:</span> The media gallery is not loaded.
+1. Edit selected cms page.
+1. Expand Content and click **Edit with Page Builder**.
+1. Expand Media. Drag and drop Image on the Row area.
+1. Click **Select from Gallery**.
+1. You can log out and then log in via some other window.
 
- <span class="wysiwyg-underline">Expected result:</span> The media gallery is loaded.
+<ins>Expected results</ins>:
+
+The media gallery is loaded.
+
+<ins>Actual results</ins>:
+
+The media gallery is not loaded.
 
 ## Apply the patch
 
-For instructions on how to apply an QPT patch, use the following links depending on your Magento product:
+To apply individual patches, use the following links depending on your deployment method:
 
-* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
-* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
-<h2 id="QPTPatchKBDataCollectionInstructionsProposal-Additionalstepsrequiredafterthepatchinstallation">Related reading</h2>
+## Related reading
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
+For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
