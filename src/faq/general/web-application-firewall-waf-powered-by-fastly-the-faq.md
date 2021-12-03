@@ -115,7 +115,7 @@ You can also get Adobe-related security news and updates from the [Security Cent
 
 WAF Support offers the following resources to assist you with mitigating the service impacts of unwanted or malicious requests:
 
-* Onboarding: enabling, initial setup and limited monitoring of the Fastly service(s) that support the Adobe managed cloud WAF
+* Onboarding: enabling, initial setup and limited monitoring of the Fastly service(s) that support the Adobe Commerce managed cloud WAF
 * Ongoing false positive triage to address instances where the WAF blocks legitimate traffic
 * Configuration of any new standard rules introduced as part of WAF version upgrades
 
