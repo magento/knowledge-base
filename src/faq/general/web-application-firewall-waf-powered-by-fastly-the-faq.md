@@ -45,7 +45,7 @@ As a part of the cloud WAF service, Fastly manages rule updates from commercial 
 
 ## How is Adobe Commerce's cloud WAF different from the WAF solution Fastly offers to its direct customers?
 
-The WAF solution that is sold directly by Fastly is a paid offering that includes broader rule sets and additional features like rule customization and malware protection. Adobe's cloud WAF solution includes a subset of rules targeted at the Adobe Commerce application and includes only one rule set for each customer's Production environment.
+The WAF solution that is sold directly by Fastly is a paid offering that includes broader rule sets and additional features like rule customization and malware protection. Adobe Commerce's cloud WAF solution includes a subset of rules targeted at the Adobe Commerce application and includes only one rule set for each customer's Production environment.
 
 ## What types of security threats does WAF protect against?
 
