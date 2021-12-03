@@ -7,7 +7,7 @@ labels: FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security,Adobe Commer
 
 Web Application Firewalls (WAFs) prevent [malicious traffic](https://support.magento.com/hc/en-us/articles/360039447892-How-to-block-malicious-traffic-for-Magento-Commerce-Cloud-on-Fastly-level) from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network.
 
-Adobe's cloud WAF provides a WAF policy with a rule set designed to protect your Adobe Commerce web applications from a wide range of attacks.
+Adobe Commerce's cloud WAF provides a WAF policy with a rule set designed to protect your Adobe Commerce web applications from a wide range of attacks.
 
 The WAF examines web and admin traffic to identify any suspicious activity. It evaluates the GET and the POST traffic (HTTP API calls) and applies the rule set to determine which traffic to block. The WAF can block a wide variety of attacks, including SQL injection attacks, cross-site scripting attacks, data exfiltration attacks, and HTTP protocol violations.
 
