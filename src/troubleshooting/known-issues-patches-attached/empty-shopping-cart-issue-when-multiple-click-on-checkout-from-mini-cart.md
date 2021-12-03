@@ -41,7 +41,7 @@ The patches were created for:
 The `MDVA-10441_EE_2.2.3_v3.composer.patch` patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
 * Adobe Commerce on cloud infrastructure versions from 2.2.1 to to 2.2.5
-* Adobe Commerce on-premises versions from 2.2.1 to to 2.2.5
+* Adobe Commerce on-premises versions from 2.2.1 to 2.2.5
 
 The `MDVA-17078_EE_2.2.5_COMPOSER_v1.patch` patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
