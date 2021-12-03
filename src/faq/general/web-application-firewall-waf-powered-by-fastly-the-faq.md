@@ -39,7 +39,7 @@ A blocked request returns a 403 page with a request identifier.
 
 You can customize this page as long as the customization includes the request identifier. Contact your technical account manager for details.
 
-## How do we update WAF rule sets?  How quickly can a WAF rule be changed or updated and applied globally in production?
+## How do we update WAF rule sets? How quickly can a WAF rule be changed or updated and applied globally in production?
 
 As a part of the cloud WAF service, Fastly manages rule updates from commercial third parties, Fastly research, and open sources. They update published rules into a policy as needed or when changes to the rules are available from their respective sources. New rules that match the published classes of rules are also inserted into the WAF instance of any service once it is enabled. This helps ensure immediate coverage for new or evolving exploits. You can review information [about rule updates and maintenance](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) on the Fastly documentation site.
 
