@@ -40,7 +40,7 @@ The sales order history page loads normally.
 
 <ins>Actual results</ins>:
 
-The page loads very slowly or the page may not load and a timeout error may display.
+The page loads very slowly or the page may not load and a timeout error is displayed.
 
 ## Apply the patch
 
