@@ -1,19 +1,19 @@
 ---
-title: "MDVA-33281 Magento patch: inventory inconsistency issues"
-labels: 2.3.4,2.3.5-p1,2.3.5-p2,Inventory,QPT 1.0.14,Magento Commerce Cloud,PHP Fatal Error,data discrepancies,duplicate,inventory source,order placement,support tools
+title: "MDVA-33281 patch: inventory inconsistency issues"
+labels: 2.3.4,2.3.5-p1,2.3.5-p2,Inventory,QPT 1.0.14,Magento Commerce Cloud,PHP Fatal Error,data discrepancies,duplicate,inventory source,order placement,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 ---
 
-The MDVA-33281 Magento patch fixes three inventory inconsistency issues. Click on the linked issues under the Issue section to see steps to reproduce these errors. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed.
+The MDVA-33281 patch fixes three inventory inconsistency issues. Click on the linked issues under the Issue section to see steps to reproduce these errors. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed.
 
 ## Affected products and versions
 
- **The patch is created for Magento version:** 
+**The patch is created for Adobe Commerce version:**
 
-Magento Commerce Cloud 2.3.5-p1.
+Adobe Commerce on cloud infrastructure 2.3.5-p1
 
- **Compatible with Magento versions:** 
+**Compatible with Adobe Commerce versions:**
 
-Magento Commerce Cloud 2.3.4-2.3.5-p2 **.** 
+Adobe Commerce on cloud infrastructure 2.3.4 - 2.3.5-p2
 
 >![info]
 >
@@ -23,23 +23,25 @@ Magento Commerce Cloud 2.3.4-2.3.5-p2 **.**
 
 The patch fixes inventory inconsistency issues such as:
 
-* [PHP Fatal error](https://support.magento.com/hc/en-us/articles/360055276532#php_fatal_error) when running `bin/magento inventory:reservation:list-inconsistencies` in the CLI because of the wrong SKU parameter type.
-* [Duplicate data](https://support.magento.com/hc/en-us/articles/360055276532#duplicates) in inconsistencies list.
-* [New reservation will be created before order placed (previous realization based on reservation after order placed).](https://support.magento.com/hc/en-us/articles/360055276532#orders) In case of errors within order placement, additional reservation will be added to compensate.
+* **PHP Fatal error** when running `bin/magento inventory:reservation:list-inconsistencies` in the CLI because of the wrong SKU parameter type.
+* **Duplicate data** in inconsistencies list.
+* **New reservation** will be created before order placed (previous realization based on reservation after order placed). In case of errors within order placement, additional reservation will be added to compensate.
 
 >![info]
 >
->There is also a patch MDVA-30112 that solves the issue where there is an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. For the solution, refer to [MDVA-30112 Magento patch: large number reservation inconsistencies](https://support.magento.com/hc/en-us/articles/360051515272) .
+>There is also a patch MDVA-30112 that solves the issue where there is an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in our developer documentation, in the `inventory_reservation` table. For the solution, refer to [MDVA-30112 Magento patch: large number reservation inconsistencies](https://support.magento.com/hc/en-us/articles/360051515272) in our support knowledge base.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> 
+## PHP Fatal Error
 
-PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies` .
+<ins>Steps to reproduce</ins>:
 
-To get a list of reservation inconsistencies log in to the production server and run the following command in the CLI (-r - raw output):
+PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies`.
+
+To get a list of reservation inconsistencies, log in to the production server and run the following command in the CLI (-r switch - raw output):
 
 <pre>bin/magento inventory:reservation:list-inconsistencies -r</pre>
 
- <span class="wysiwyg-underline">Expected Results</span> 
+<ins>Expected results</ins>:
 
 The list of reservation inconsistencies is created. These would be returned in the following format
 
@@ -47,9 +49,15 @@ The list of reservation inconsistencies is created. These would be returned in t
 <ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>
 ```
 
-. <span class="wysiwyg-underline">Actual Results</span> PHP Fatal error is outputted.
+<ins>Actual results</ins>:
 
-Duplicate data in the `inventory_reservation table` .
+PHP Fatal Error is outputted.
+
+## Duplicate data
+
+Duplicate data is in the `inventory_reservation table`.
+
+<ins>Steps to reproduce</ins>:
 
 To troubleshoot reservation inconsistencies, run the following command:
 
@@ -58,28 +66,44 @@ FROM inventory_reservation
 GROUP BY metadata, sku, quantity
 HAVING COUNT(*) > 1</pre>
 
- <span class="wysiwyg-underline">Expected Results</span> No duplicates. <span class="wysiwyg-underline">Actual Results</span> There are duplicates.
+<ins>Expected results</ins>:
+
+No duplicates.
+
+<ins>Actual results</ins>:
+
+There are duplicates.
+
+## New reservation
+
+<ins>Steps to reproduce</ins>:
 
 New reservation created before order placed:
 
-1. The merchant imports their database.
-1. They run `bin/magento setup:upgrade` in the terminal.
-1. They list inconsistencies by running `bin/magento inventory:reservation:list-inconsistencies        -i -r` in the terminal.
+1. Import the database.
+1. Run `bin/magento setup:upgrade` in the terminal.
+1. List inconsistencies by running `bin/magento inventory:reservation:list-inconsistencies        -i -r` in the terminal.
 
- <span class="wysiwyg-underline">Expected Results</span> No loop and much quicker results. <span class="wysiwyg-underline">Actual Results</span> The same results are displayed in an infinite loop or the command fails with `memory_limit` , depending on system settings.
+<ins>Expected results</ins>:
+
+No loop and much quicker results.
+
+<ins>Actual results</ins>:
+
+The same results are displayed in an infinite loop, or the command fails with `memory_limit`, depending on system settings.
 
 ## Apply the patch
 
-For instructions on how to apply an QPT patch, use the following links depending on your Magento product:
+To apply individual patches, use the following links depending on your deployment method:
 
-* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
-* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
+For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
