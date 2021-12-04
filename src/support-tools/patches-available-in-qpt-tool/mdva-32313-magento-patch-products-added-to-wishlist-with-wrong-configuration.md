@@ -21,10 +21,6 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 ## Issue
 
-<ins>Prerequisites</ins>:
-
-Install Adobe Commerce with sample data.
-
 <ins>Steps to reproduce</ins>:
 
 1. Create a customer.
