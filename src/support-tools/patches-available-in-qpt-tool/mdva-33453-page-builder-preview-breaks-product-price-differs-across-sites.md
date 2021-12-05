@@ -21,7 +21,7 @@ The Page Builder product preview breaks when there is a product with different p
 
 <ins>Steps to reproduce</ins>:
 
-1. Log in to Commerce Admin Panel.
+1. Log in to Commerce Admin panel.
 1. Create two websites.
 1. Create a simple product.
 1. Set a different price for the product on each website.
