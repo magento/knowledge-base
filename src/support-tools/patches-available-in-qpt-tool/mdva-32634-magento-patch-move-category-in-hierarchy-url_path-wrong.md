@@ -28,12 +28,12 @@ Moving a catalog category in the hierarchy results in an incorrect url\_path. Th
 1. Log in to the Commerce Admin. Create the following category structure under the root category: move-cat sub-move-cat sub-move-cat2 new-cat-move
 1. Verify category \[ url\_path \] attribute \[ id: 120 \] for value assignment in \[ catalog\_category\_entity\_varchar \] table using the following query:
     ```sql    
-    SELECT * FROM catalog_category_entity_varchar WHERE attribute_id = 120 ORDER         BY value_id DESC LIMIT 4;    
+    SELECT * FROM catalog_category_entity_varchar WHERE attribute_id = 120 ORDER BY value_id DESC LIMIT 4;    
     ```    
 
     It should give you the following result:    
     ```sql    
-    MariaDB [m24dev]> SELECT * FROM catalog_category_entity_varchar          WHERE attribute_id = 120 ORDER BY value_id DESC LIMIT 4;    
+    MariaDB [m24dev]> SELECT * FROM catalog_category_entity_varchar WHERE attribute_id = 120 ORDER BY value_id DESC LIMIT 4;    
     ```
 
     \[ url\_path \] values were generated and assigned to All Store scope \[ 0 \]. This is correct comparing to an instance without B2B.
