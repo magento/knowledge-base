@@ -19,7 +19,7 @@ The MDVA-31168 patch solves the issue where the product export CSV file does not
 
  <span class="wysiwyg-underline">Prerequisites</span>:
 
-Install Magento with sample data.
+Install Adobe Commerce with sample data.
 
  <span class="wysiwyg-underline">Steps to reproduce:</span>
 
