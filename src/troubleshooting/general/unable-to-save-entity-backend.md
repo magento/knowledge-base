@@ -1,14 +1,13 @@
 ---
 title: Unable to save entity Adobe Commerce backend
-labels: troubleshooting,Adobe Commerce
+labels: troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source,configuration
 ---
 
 This article provides a solution for when you are unable to save an entity in the Adobe Commerce backend. For example, when you cannot edit and save a specific `cart_price` rule.
 
 ## Affected products and versions
 
-* Adobe Commerce on-premises x.x.x
-* Adobe Commerce on cloud infrastructure x.x.x
+This issue can affect all Adobe Commerce versions which have Max Session Size configured. This was added starting from Magento Open Source 2.3.7-p1 and Adobe commerce  (all deployment methods) 2.4.3.
 
 
 ## Issue
