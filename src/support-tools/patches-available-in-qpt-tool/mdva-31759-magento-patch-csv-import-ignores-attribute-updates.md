@@ -29,7 +29,7 @@ CSV import ignores additional attributes with *Dropdown* and *Text Area* types.
 1. Create a product attribute with the following configuration:
     * **Default Label** : *G003*
     * **Catalog Input Type for Store Owner** : *Text Area* or *Dropdown*
-    * **Attribute Code** : *G003*
+    * **Attribute Code**: *G003*
     * **Scope**: *Global*
 1. Add the above attribute to the default attribute set.
 1. Create a product with the default attribute set and specify a value for the new attribute.
