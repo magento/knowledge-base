@@ -7,7 +7,7 @@ The MDVA-31168 patch solves the issue where the product export CSV file does not
 
 ## Affected products and versions
 
- **The patch is created for Adobe Commerce version:** Adobe Commerce 2.3.5-p2
+ **The patch is created for Adobe Commerce version:** Adobe Commerce on-premises 2.3.5-p2
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.1.
 
