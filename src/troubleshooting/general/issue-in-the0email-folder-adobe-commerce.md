@@ -11,7 +11,8 @@ This article provides a solution to an issue where you are not able to export pr
 Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p2, 2.4.0-2.4.3-p1
 
 ## Issue
-You cannot export files in the `var/export/email` folder.
+You cannot export files in the `var/export/email` or `var/export/archive` folder.
+This failed deploy due to permissions on `var/export/email` or `var/export/email/archive` because that archive folder gets created under email and if I just do the export/email sometimes there’s still an issue) other than adding something to account for the subfolder `var/export/email/archive`.
 
 <ins>Steps to reproduce</ins>:
 
