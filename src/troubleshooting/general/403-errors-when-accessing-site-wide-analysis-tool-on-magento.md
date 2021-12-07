@@ -34,29 +34,35 @@ There are two potential causes:
 
 ## Solution
 
-Check if you have HTTP access control enabled:
+### Check if the tool is blocked by bot protection software
 
-1. Go to your Cloud Project URL and select your production or staging environment.
-1. Ensure HTTP access control is not enabled (see screen shot).  
+If you use Cloudflare for bot protection, check if it is blocking Site-Wide Analysis Tool. To do this, run the following command in CLI, having replaced <Admin URL> with your actual URL:
 
-    ![swat_http_access_control.png](assets/swat_http_access_control.png)
+```cURL
+curl -sIL -X GET <Admin URL>/swat/key/index | grep HTTP
+HTTP/2 403
+```
 
-If when you next try to access the Site-Wide Analysis Tool, there is still a 403 error, you may not have added the *Site-Wide Analysis Tool* role also known as *Super Admin* to your Admin profile. The *Site-Wide Analysis Tool* role is not assigned by default. It must be added manually, by the Customer Account Owner/Admin to each Customer Admin that wants access to the Site-Wide Analysis Tool:
+If the response is correct 200 response and JSON output, then Cloudflare is not blocking the tool and you need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
 
-1. Go to **System** > Permissions > **User Roles**. In the upper-right corner, click **Add New Role**.
-1. In the **Role Info** tab under ROLE INFORMATION, enter a descriptive role name and under Current User Identity Verification, enter your password.
-1. On the **Role Resources** tab under ROLE INFORMATION set Role Scopes to *All* or *Custom*.
-1. Under *Roles Resources*, set **Resource Access** to *Custom*.
-1. In the tree, select the checkbox next to Site-Wide Analysis Tool, and click **Save Role**.
+If the response is 403, most likely Cloudflare is blocking Site-Wide Analysis Tool and you need to whitelist its IP's:
 
-    ![swat_access_role.png](assets/swat_access_role.png)
+* 107.23.33.174
+* 3.225.9.244
+* 3.88.83.85
+
+If a response is 500 (Fatal error), please install a patch. then send a patch  MDVA-38526
+MDVA-38526_EE_2.4.2_v1.patch
+MDVA-38526_EE_2.4.2_v1.composer.patch
+ MDVA-38526_EE_2.4.1-p1_v3.patch
+ MDVA-38526_EE_2.4.1-p1_v3.composer.patch
+
+If response output is not JSON, it could be because of PWA/Headless implementation. If you are using headless implementation, update the UPWARD configuration to bypass requests to Magento Origin. For this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist** add *swat*.
 
 
-You should be able to access the Site-Wide Analysis Tool when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**. If you still get the 403 error, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+If you are still not able to aceess the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
-## Related Reading
+## Related reading
 
-Articles in the Related reading section are visible for signed in users only.
-
-* [Adobe Commerce Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) in our support knowledge base.
+* [Adobe Commerce Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) in our support knowledge base (you need to be logged in to view the article).
 * [Adobe Commerce Site-Wide Analysis Tool Report FAQ](https://support.magento.com/hc/en-us/articles/360048646671-Magento-Site-Wide-Analysis-Tool-Report-FAQ) in our support knowledge base.
