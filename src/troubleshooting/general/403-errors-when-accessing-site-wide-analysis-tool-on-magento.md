@@ -42,14 +42,19 @@ If you use Cloudflare for bot protection, check if it is blocking Site-Wide Anal
 curl -sIL -X GET <Admin URL>/swat/key/index | grep HTTP
 HTTP/2 403
 ```
+#### Correct 200 response and JSON output
 
 If the response is correct 200 response and JSON output, then Cloudflare is not blocking the tool and you need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
+
+#### 403 response
 
 If the response is 403, most likely Cloudflare is blocking Site-Wide Analysis Tool and you need to whitelist its IP's:
 
 * 107.23.33.174
 * 3.225.9.244
 * 3.88.83.85
+
+#### 500 (Fatal error) response
 
 If a response is 500 (Fatal error), please install the MDVA-38526 patch. Use one of the following links to download the patch, depending on your Adobe Commerce version and type of patch you want:
 
@@ -58,10 +63,12 @@ If a response is 500 (Fatal error), please install the MDVA-38526 patch. Use one
 * Adobe Commerce on cloud infrastructure 2.4.1-p1 patch: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch)
 * Adobe Commerce on cloud infrastructure 2.4.1-p1 composer patch: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
 
-If response output is not JSON, it could be because of PWA/Headless implementation. If you are using headless implementation, update the UPWARD configuration to bypass requests to Magento Origin. For this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist** add *swat*.
+#### Response not JSON
+
+If response output is not JSON, it could be because of PWA/Headless implementation. If you are using headless implementation, update the UPWARD configuration to bypass requests to Adobe Commerce Origin. For this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist**, add *swat*.
 
 
-If you are still not able to aceess the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+If you are still not able to access the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
 ## Related reading
 
