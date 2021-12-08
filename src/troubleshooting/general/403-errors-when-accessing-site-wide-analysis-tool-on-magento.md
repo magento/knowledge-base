@@ -51,11 +51,12 @@ If the response is 403, most likely Cloudflare is blocking Site-Wide Analysis To
 * 3.225.9.244
 * 3.88.83.85
 
-If a response is 500 (Fatal error), please install a patch. then send a patch  MDVA-38526
-MDVA-38526_EE_2.4.2_v1.patch
-MDVA-38526_EE_2.4.2_v1.composer.patch
- MDVA-38526_EE_2.4.1-p1_v3.patch
- MDVA-38526_EE_2.4.1-p1_v3.composer.patch
+If a response is 500 (Fatal error), please install the MDVA-38526 patch. Use one of the following links to download the patch, depending on your Adobe Commerce version and type of patch you want:
+
+* Adobe Commerce on cloud infrastructure 2.4.2 patch: [MDVA-38526_EE_2.4.2_v1.patch.zip](assets/MDVA-38526_EE_2.4.2_v1.patch.zip)
+* Adobe Commerce on cloud infrastructure 2.4.2 composer patch: [MDVA-38526_EE_2.4.2_v1.composer.patch.zip](assets/MDVA-38526_EE_2.4.2_v1.composer.patch.zip)
+* Adobe Commerce on cloud infrastructure 2.4.1-p1 patch: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch)
+* Adobe Commerce on cloud infrastructure 2.4.1-p1 composer patch: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
 
 If response output is not JSON, it could be because of PWA/Headless implementation. If you are using headless implementation, update the UPWARD configuration to bypass requests to Magento Origin. For this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist** add *swat*.
 
