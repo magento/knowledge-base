@@ -3,9 +3,9 @@ title: Error running the `setup:di:compile` command manually
 labels: Magento Commerce Cloud,generated_code_symlink,setup:di:compile,troubleshooting
 ---
 
-This article provides a fix for when running the `setup:di:compile` command manually on Magento Commerce Cloud fails with an error (see the **Issue** section below) because the command tries to access the `var/di` and `var/generation` directories, which are read-only.
+This article provides a fix for when running the `setup:di:compile` command manually on Adobe Commerce on cloud infrastructure fails with an error (see the **Issue** section below) because the command tries to access the `var/di` and `var/generation` directories, which are read-only.
 
-This is an expected behavior: the `setup:di:compile` command should not be run manually on Magento Commerce (Cloud) since it is executed automatically during the deployment process.
+This is expected behavior: the `setup:di:compile` command should not be run manually on Adobe Commerce on cloud infrastructure since it is executed automatically during the deployment process.
 
 We strongly do not recommend running `setup:di:compile` manually, but if you have a reason to do so, you need to set the following environment variable to make `var/di` and `var/generation` folders writable:
 
@@ -21,7 +21,7 @@ Note that with code symlink generation disabled, the deployment downtime increas
 
 ## Affected versions
 
-* Magento Commerce (Cloud) 2.0.X, 2.1.X
+* Adobe Commerce on cloud infrastructure 2.0.X, 2.1.X
 
 ## Issue
 
@@ -50,7 +50,7 @@ Stack trace:
 
 The error occurs because the `setup:di:compile` command tries to access the `var/di` and `var/generation` directories, which are read-only.
 
-It is not a defect but an expected behavior on cloud environments. You should not run `setup:di:compile` manually since this command is being executed during the deployment process. The Magento code cannot be changed on the fly (because it is located in the read-only directories), so there is no need to recompile `var/di` and `var/generation` : there is no difference with files generated during deployment.
+It is not a defect but an expected behavior on cloud environments. You should not run `setup:di:compile` manually since this command is being executed during the deployment process. The code for Adobe Commerce cannot be changed on the fly (because it is located in the read-only directories), so there is no need to recompile `var/di` and `var/generation`: there is no difference with files generated during deployment.
 
 ## Solution
 
@@ -62,12 +62,11 @@ GENERATED_CODE_SYMLINK = disabled
 
 This allows you to run `setup:di:compile` manually, but the deployment process lasts longer.
 
-## More information on DevDocs
+## More information in our developer documentation
 
 Environment variables are covered in the articles of the [Manage variables](https://devdocs.magento.com/cloud/env/variables-cloud.html) section.
 
 Particular topics you might be interested in:
 
-* [Magento Commerce (Cloud) variables](https://devdocs.magento.com/cloud/env/variables-cloud.html)
+* [Adobe Commerce on cloud infrastructure variables](https://devdocs.magento.com/cloud/env/variables-cloud.html)
 * Add environment variables via [CLI](https://devdocs.magento.com/cloud/project/project-webint-basic.html#project-conf-env-var) and the [Project Web Interface](https://devdocs.magento.com/cloud/project/project-webint-basic.html#project-conf-env-var)
-
