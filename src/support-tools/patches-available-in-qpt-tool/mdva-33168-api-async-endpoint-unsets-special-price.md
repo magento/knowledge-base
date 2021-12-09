@@ -25,7 +25,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create 2 websites with stores.
+1. Create two websites with stores.
 1. Go to **Stores > Configurations > Catalog > Catalog > Price > Catalog** and Set **Price Scope** = *Website*.
 1. Create a *text-type* product attribute. Leave all the options to default.
 1. Add the attribute created to the default attribute set.
