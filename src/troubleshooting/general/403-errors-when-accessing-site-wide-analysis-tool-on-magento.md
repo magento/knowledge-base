@@ -13,15 +13,15 @@ Adobe Commerce on cloud infrastructure 2.4.1+
 
 You get a 403 error when trying to access the Site-Wide Analysis Tool.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <ins>Steps to reproduce:</ins>
 
 Log in to the Commerce Admin panel and click **Reports** > *System Insights* > **Site-Wide Analysis Tool**.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <ins>Expected result:</ins>
 
 You see the Site-Wide Analysis Tool.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<ins>Actual result:</ins>
 
 You see: *Error 403.*
 
