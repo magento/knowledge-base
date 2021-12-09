@@ -1,21 +1,25 @@
 ---
-title: "MDVA-33106 Magento patch: rescheduled product changes erased after cron run"
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools
+title: "MDVA-33106 patch: rescheduled product changes erased after cron run"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 ---
 
-The MDVA-33106 Magento patch fixes the issue where the rescheduled product changes are erased after the cron
+The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron
 
 ```bash
 bin/magento cron:run
 ```
 
-command is executed. This patch is available when the<a>Quality Patches Tool (QPT)</a>1.0.13 is installed. Please note that the issue is scheduled to be fixed in Magento 2.4.2.
+command is executed. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
- **The patch is created for Magento version:** Magento Commerce Cloud 2.3.5-p2.
+**The patch is created for Adobe Commerce version:**
 
- **Compatible with Magento versions:** Magento Commerce and Magento Commerce Cloud 2.3.0-2.4.1.
+Adobe Commerce on cloud infrastructure 2.3.5-p2
+
+**Compatible with Adobe Commerce versions:**
+
+Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.1
 
 >![info]
 >
@@ -23,42 +27,41 @@ command is executed. This patch is available when the<a>Quality Patches Tool (QP
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 
+<ins>Steps to reproduce</ins>:
 
-1. In Magento Admin, go to **Catalog** > **Products** and click edit. Notice the **Price** value, for example *9.99* .
+1. In Commerce Admin, go to **Catalog** > **Products** and click edit. Notice the **Price** value, for example *9.99*.
 1. Click **Schedule New Update** and fill in details:
-1. Update name is not important.
-1. Set a date in the future, +1 year for start date and end date.
-1. Set Price to *1.99.* 
-
-1. Save changes.
+   * Update name is not important.
+   * Set a date in the future, +1 year for start date and end date.
+   * Set Price to *1.99*.
+   * Save changes.
 1. Go to the Content staging dashboard and select grid view to see if scheduled match above.
 1. Select edit action next to the scheduled update. Data should still match above.
-1. Change the scheduled date to something closer. Instead of +1 year from now change it to + 1 week or + 1 month.
+1. Change the scheduled date to something closer. Instead of +1 year from now, change it to + 1 week or + 1 month.
 1. Save changes and check if the dates are updated on staging dashboard.
 1. Wait for a cron job to run.
 1. Click edit again in the scheduled change and check the price.
 
- <span class="wysiwyg-underline">Expected result:</span> 
+<ins>Expected results</ins>:
 
 Price is 1.99.
 
- <span class="wysiwyg-underline">Actual result:</span> 
+<ins>Actual results</ins>:
 
 Price is 9.99.
 
 ## Apply the patch
 
-For instructions on how to apply an QPT patch, use the following links depending on your Magento product:
+To apply individual patches, use the following links depending on your deployment method:
 
-* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
-* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
+For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
