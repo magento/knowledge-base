@@ -1,13 +1,13 @@
 ---
 title: Exceptions during installation
-labels: 2.2.x,2.3.x,Magento Commerce,exception,generated,how to,install,installation,var,web setup wizard
+labels: 2.2.x,2.3.x,Magento Commerce,exception,generated,how to,install,installation,var,web setup wizard,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-This article provide a possible solution for the issues with installing Magento using Web Setup Wizard.
+This article provides a possible solution for the issues with installing Adobe Commerce using Web Setup Wizard.
 
 ## Affected products and versions
 
-* Magento Commerce 2.2.x, 2.3.x
+* Adobe Commerce (all deployment methods) 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
 
 ## Issue
@@ -31,7 +31,7 @@ Object(Magento\Indexer\Model\Resource\Indexer\State\Collection), 'indexer_config
 ... more ...
 ```
 
-<h2 id="solution">Solution</h2>
+## Solution
 
 Clear the `<magento_root>/generated/code` and other directories under `var` and `generated` as follows:
 
