@@ -22,7 +22,7 @@ The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a
 1. Go to the affected URL.
 1. You see the maintenance page.
 1. Check that the site is not in maintenance status via SSH:
-    <pre>$ bin/magento maintenance:status  
+    <pre> bin/magento maintenance:status  
     Status: maintenance mode is not active
     List of exempt IP-addresses: none</pre>
 1. Look at `system.log`:
