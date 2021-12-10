@@ -25,34 +25,29 @@ You see the Site-Wide Analysis Tool.
 
 You see: *Error 403.*
 
-## Cause
-
-There are two potential causes:
-
-* You may have HTTP access control enabled. The Site-Wide Analysis Tool Dashboard does NOT support customers if they have HTTP Auth enabled.
-* Your Commerce administrator account may not have been assigned to the *Site-Wide Analysis Tool* Resource.
 
 ## Solution
 
-### Check if the tool is blocked by bot protection software
-
-If you use Cloudflare for bot protection, check if it is blocking Site-Wide Analysis Tool. To do this, run the following command in CLI, having replaced <Admin URL> with your actual URL:
+Run the following command in CLI, having replaced <Admin URL> with your actual URL:
 
 ```cURL
 curl -sIL -X GET <Admin URL>/swat/key/index | grep HTTP
 HTTP/2 403
 ```
-#### Correct 200 response and JSON output
-
-If the response is correct 200 response and JSON output, then Cloudflare is not blocking the tool and you need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
+Take steps depending on the type of response you get.
 
 #### 403 response
 
-If the response is 403, most likely Cloudflare is blocking Site-Wide Analysis Tool and you need to whitelist its IP's:
+If the response is 403, most likely you have Cloudflare bot protection and it is blocking Site-Wide Analysis Tool. To access the tool, whitelist its IP's:
 
 * 107.23.33.174
 * 3.225.9.244
 * 3.88.83.85
+
+#### Correct 200 response and JSON output
+
+If the response is correct 200 response and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
+
 
 #### 500 (Fatal error) response
 
@@ -65,7 +60,9 @@ If a response is 500 (Fatal error), please install the MDVA-38526 patch. Use one
 
 #### Response not JSON
 
-If response output is not JSON, it could be because of PWA/Headless implementation. If you are using headless implementation, update the UPWARD configuration to bypass requests to Adobe Commerce Origin. For this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist**, add *swat*.
+If response output is not JSON, it could be because of PWA/Headless implementation. If you are using Headless implementation, update the UPWARD configuration to bypass requests to Adobe Commerce Origin. For this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist**, add *swat*.
+
+![Upward_configuration](assets/upward_pwa.png)
 
 If you are still not able to access the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
