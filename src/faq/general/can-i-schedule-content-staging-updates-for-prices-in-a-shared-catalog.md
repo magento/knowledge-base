@@ -17,11 +17,11 @@ Still, you may use alternative methods and schedule a price update for:
 1. Start [scheduling a new product update](http://docs.magento.com/m2/ee/user_guide/cms/content-staging-scheduled-update.html).
 1. Scroll down to the **Price** field and click **Advanced Pricing**.       
 
-    <img src = "assets/advanced_pricing.png" alt = "advanced_pricing.png" width="250px, ex: 250px">
+    <img src = "assets/advanced_pricing.png" alt = "advanced_pricing.png" width="500px, ex: 250px">
 
 1. In the **Customer Group Price section**, select the needed Customer Group and set the updated price.
 
-    <img src = "assets/customer_group_price.png" alt = "customer_group_price.png" width="250, ex: 250px">
+    <img src = "assets/customer_group_price.png" alt = "customer_group_price.png" width="500, ex: 250px">
 
 1. Finish scheduling the update as usual.
 
