@@ -14,7 +14,7 @@ This article provides a fix for the Adobe Commerce on-premises and Adobe Commerc
 
 >![info]
 >
->This article doesn't apply to the situation in which you get a 404 error when trying to preview the staging update. If you run into that issue, please open a [support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+>This article doesn't apply to the situation in which you get a 404 error when trying to [preview the staging update](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). If you run into that issue, please open a [support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
 
 Accessing any storefront page or the Admin results in the 404 error (the "Whoops, our bad..." page) after performing operations with scheduled updates for store content assets using [Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html) (updates for store content assets scheduled using the [Magento\_Staging module](http://devdocs.magento.com/guides/v2.2/mrg/ee/Staging.html)). For example, you may have deleted a Product with a scheduled update or removed the end date for the scheduled update.
 
@@ -70,7 +70,10 @@ In this case, you might refer to the [Site Down Troubleshooter](https://support.
 
 ## Solution
 
-1. Run the following query to delete the invalid link to the `staging_update` table:    ```sql    DELETE FROM flag WHERE flag_code = 'staging';    ```    
+1. Run the following query to delete the invalid link to the `staging_update` table:
+   ```sql
+   DELETE FROM flag WHERE flag_code = 'staging';
+   ```   
 1. Wait for the cron job to run (runs in up to five minutes if set up properly) or run it manually if you do not have cron set up.
 
 The problem should be solved straight after fixing the invalid link. If the problem persists, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
