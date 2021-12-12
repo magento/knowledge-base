@@ -35,7 +35,7 @@ This is caused by a folder created inside `/var` which has imperfect permissions
 
 This is often noticed when the system creates a folder called `export`, that holds a folder called `email`, that holds a folder called `archive`.
 
- To check if the directory has these misconfigured permissions run the following command in the CLI/Terminal:
+ To check if the directory has these misconfigured permissions, run the following command in the CLI/Terminal:
 
 `ls -ld var/export/`
 
