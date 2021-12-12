@@ -16,7 +16,7 @@ This failed deploy due to permissions on `var/export/email` or `var/export/email
 
 <ins>Steps to reproduce</ins>:
 
-Go to **System** > *Data Transfer* > **Export**.
+In the Admin, go to **System** > *Data Transfer* > **Export**.
 Select the CSV files to save in the `var/export/` folder.
 
 <ins>Expected result</ins>:
