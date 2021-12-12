@@ -33,7 +33,7 @@ You receive the same message for all export types: Advanced Pricing, Customer Fi
 
 This is caused by a folder created inside `/var` which has imperfect permissions: `d-wxrwsr-T`. The T sticky bit means the users can only delete the files they own but the missing executable means they cannot create files in the directory.
 
-This is often noticed when the system creates one folder called export that holds a folder called email that holds a folder called archive.
+This is often noticed when the system creates a folder called `export`, that holds a folder called `email`, that holds a folder called `archive`.
 
  To check if the directory has these misconfigured permissions run the following command in the CLI/Terminal:
 
