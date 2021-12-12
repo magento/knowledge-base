@@ -46,7 +46,7 @@ The output if permissions are misconfigured will be:
 
 ## Solution
 
-To address this we update the permissions of the folders to 777 then all the files recursively by running the following command:
+To address this, update the permissions of the folders to 777 then all the files recursively, by running the following commands:
 
 `chmod 777 var/export/
  chmod 777 var/export/email/
