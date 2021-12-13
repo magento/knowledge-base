@@ -56,7 +56,7 @@ If a response code is 500 (Fatal error), please install the MDVA-38526 patch. Us
 * Adobe Commerce on cloud infrastructure patch: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch)
 * Adobe Commerce on cloud infrastructure composer patch: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
 
-The patch is applicable for Adobe Commerce versions 2.4.1-p1 - 2.4.2.
+The patch is applicable for Adobe Commerce versions 2.4.1-p1 - 2.4.3.
 
 #### Response not JSON
 
