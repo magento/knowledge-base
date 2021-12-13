@@ -28,10 +28,10 @@ You see: *Error 403.*
 
 ## Solution
 
-To make sure that Site-Wide Analysis Tool has the proper access to your application, run the following command in CLI, having replaced <Admin URL> with your actual URL:
+To make sure that Site-Wide Analysis Tool has the proper access to your application, run the following command in CLI, having replaced <store URL> with your store URL:
 
 ```cURL
-curl -sIL -X GET <Admin URL>/swat/key/index | grep HTTP
+curl -sIL -X GET <store URL>/swat/key/index | grep HTTP
 HTTP/2 403
 ```
 Take steps depending on the response code you get.
