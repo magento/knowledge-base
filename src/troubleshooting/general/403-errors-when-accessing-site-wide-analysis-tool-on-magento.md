@@ -34,7 +34,7 @@ To make sure that Site-Wide Analysis Tool has the proper access to your applicat
 curl -sIL -X GET <Admin URL>/swat/key/index | grep HTTP
 HTTP/2 403
 ```
-Take steps depending on the type of response you get.
+Take steps depending on the response code you get.
 
 #### 403 response
 
