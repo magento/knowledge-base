@@ -44,19 +44,19 @@ If the response is 403, most likely you have Cloudflare bot protection and it is
 * 3.225.9.244
 * 3.88.83.85
 
-#### Correct 200 response and JSON output
+#### Correct 200 response code and JSON output
 
-If the response is correct 200 response and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
+If the response is correct 200 code and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
 
 
-#### 500 (Fatal error) response
+#### 500 (Fatal error) response code
 
-If a response is 500 (Fatal error), please install the MDVA-38526 patch. Use one of the following links to download the patch, depending on your Adobe Commerce version and type of patch you want:
+If a response code is 500 (Fatal error), please install the MDVA-38526 patch. Use one of the following links to download the patch, depending on the type of patch you want:
 
-* Adobe Commerce on cloud infrastructure 2.4.2 patch: [MDVA-38526_EE_2.4.2_v1.patch.zip](assets/MDVA-38526_EE_2.4.2_v1.patch.zip)
-* Adobe Commerce on cloud infrastructure 2.4.2 composer patch: [MDVA-38526_EE_2.4.2_v1.composer.patch.zip](assets/MDVA-38526_EE_2.4.2_v1.composer.patch.zip)
-* Adobe Commerce on cloud infrastructure 2.4.1-p1 patch: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch)
-* Adobe Commerce on cloud infrastructure 2.4.1-p1 composer patch: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
+* Adobe Commerce on cloud infrastructure patch: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch)
+* Adobe Commerce on cloud infrastructure composer patch: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
+
+The patch is applicable for Adobe Commerce versions 2.4.1-p1 - 2.4.2.
 
 #### Response not JSON
 
