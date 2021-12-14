@@ -36,9 +36,9 @@ HTTP/2 403
 ```
 Take steps depending on the response code you get.
 
-#### 403 Forbidden response 
+#### 403 Forbidden response code
 
-If the response is 403, you may have Cloudflare bot protection which is blocking Site-Wide Analysis Tool. To access the tool, whitelist its IP's:
+If the response code is 403, you may have Cloudflare bot protection which is blocking Site-Wide Analysis Tool. To access the tool, whitelist its IP's:
 
 * 107.23.33.174
 * 3.225.9.244
