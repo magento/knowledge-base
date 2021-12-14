@@ -1,62 +1,72 @@
 ---
 title: 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
-labels: 2.4.1,2.4.1+,Magento Commerce Cloud,Site-Wide Analysis Tool,admin,error,permissions,troubleshooting,Magento,Adobe Commerce,cloud infrastructure
+labels: 2.4.1,2.4.1-p1,2.4.2,2.4.3,Magento Commerce Cloud,Site-Wide Analysis Tool,admin,error,permissions,troubleshooting,Magento,Adobe Commerce,cloud infrastructure
 ---
 
 This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce.
 
 ## Affected products and versions
 
-Adobe Commerce on cloud infrastructure 2.4.1+
+Adobe Commerce on cloud infrastructure 2.4.1 and later.
 
 ## Issue
 
 You get a 403 error when trying to access the Site-Wide Analysis Tool.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <ins>Steps to reproduce:</ins>
 
 Log in to the Commerce Admin panel and click **Reports** > *System Insights* > **Site-Wide Analysis Tool**.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <ins>Expected result:</ins>
 
 You see the Site-Wide Analysis Tool.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<ins>Actual result:</ins>
 
 You see: *Error 403.*
 
-## Cause
-
-There are two potential causes:
-
-* You may have HTTP access control enabled. The Site-Wide Analysis Tool Dashboard does NOT support customers if they have HTTP Auth enabled.
-* Your Commerce administrator account may not have been assigned to the *Site-Wide Analysis Tool* Resource.
 
 ## Solution
 
-Check if you have HTTP access control enabled:
+To make sure that the Site-Wide Analysis Tool has the proper access to your application, run the following command in the CLI. Replace <store URL> with your store URL:
 
-1. Go to your Cloud Project URL and select your production or staging environment.
-1. Ensure HTTP access control is not enabled (see screen shot).  
+```cURL
+curl -sIL -X GET <store URL>/swat/key/index | grep HTTP
+HTTP/2 403
+```
+Take steps depending on the response code you get.
 
-    ![swat_http_access_control.png](assets/swat_http_access_control.png)
+#### 403 Forbidden response code
 
-If when you next try to access the Site-Wide Analysis Tool, there is still a 403 error, you may not have added the *Site-Wide Analysis Tool* role also known as *Super Admin* to your Admin profile. The *Site-Wide Analysis Tool* role is not assigned by default. It must be added manually, by the Customer Account Owner/Admin to each Customer Admin that wants access to the Site-Wide Analysis Tool:
+If the response code is 403, you may have Cloudflare bot protection which is blocking Site-Wide Analysis Tool. To access the tool, whitelist its IP's:
 
-1. Go to **System** > Permissions > **User Roles**. In the upper-right corner, click **Add New Role**.
-1. In the **Role Info** tab under ROLE INFORMATION, enter a descriptive role name and under Current User Identity Verification, enter your password.
-1. On the **Role Resources** tab under ROLE INFORMATION set Role Scopes to *All* or *Custom*.
-1. Under *Roles Resources*, set **Resource Access** to *Custom*.
-1. In the tree, select the checkbox next to Site-Wide Analysis Tool, and click **Save Role**.
+* 107.23.33.174
+* 3.225.9.244
+* 3.88.83.85
 
-    ![swat_access_role.png](assets/swat_access_role.png)
+#### Correct 200 response code and JSON output
+
+If the response is the correct 200 code and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
 
 
-You should be able to access the Site-Wide Analysis Tool when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**. If you still get the 403 error, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+#### 500 (Fatal error) response code
 
-## Related Reading
+If a response code is 500 (Fatal error), please install the MDVA-38526 patch. Use one of the following links to download the patch, depending on the type of patch you want:
 
-Articles in the Related reading section are visible for signed in users only.
+* Adobe Commerce on cloud infrastructure patch: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch)
+* Adobe Commerce on cloud infrastructure composer patch: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
 
-* [Adobe Commerce Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) in our support knowledge base.
+The patch is applicable for Adobe Commerce on cloud infrastructure versions 2.4.1 and later.
+
+#### Response not JSON
+
+If the response output is not JSON, it could be because of PWA/Headless implementation. If you are using Headless implementation, update the UPWARD configuration to bypass requests to Adobe Commerce Origin. To do this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist**, add *swat*.
+
+![Upward_configuration](assets/upward_pwa.png)
+
+If you are still not able to access the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+
+## Related reading
+
+* [Adobe Commerce Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) in our support knowledge base (you need to be logged in to view the article).
 * [Adobe Commerce Site-Wide Analysis Tool Report FAQ](https://support.magento.com/hc/en-us/articles/360048646671-Magento-Site-Wide-Analysis-Tool-Report-FAQ) in our support knowledge base.
