@@ -29,7 +29,7 @@ The rule is set to inactive.
 
 <ins>Actual result</ins>:
 
-The rule is still set to active. So after clicking the **Save** button the page just reloads without any message
+The rule is still set to active. So after clicking the **Save** button the page just reloads without any message.
 
 ## Cause
 
