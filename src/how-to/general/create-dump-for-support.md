@@ -2,7 +2,7 @@
  title: How to create a "scrubbed" dump when requested by support agent
  labels: Adobe Commerce,how to,dump,scrubbed,support,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.3.7-p1,2.3.7-p2,2.4.1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
-This article provides information on how to create a "scrubbed" dump (backup) of your database and code from the Adobe Commerce Admin, when requested to provide one by an Adobe Commerce support agent. This dump excludes your media files to speed up the process and to result in a much smaller file. All sensitive data is hashed when making the database backup.
+This article provides information on how to create a "scrubbed" dump (backup) of your database and code from the Adobe Commerce Admin when requested to provide one by an Adobe Commerce support agent. This dump excludes your media files to speed up the process and to result in a much smaller file. All sensitive data is hashed when making the database backup.
 
 ## Affected products and versions
 
