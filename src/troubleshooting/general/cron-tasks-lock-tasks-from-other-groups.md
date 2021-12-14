@@ -3,11 +3,11 @@ title: Cron tasks lock tasks from other groups
 labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a solution for the Adobe Commerce on our cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
+This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
 
 ## Affected products and versions
 
-* Adobe Commerce on our cloud pro infrastructure
+* Adobe Commerce on cloud pro infrastructure
 * Onboard earlier than May 2019
 
 ## Issue
@@ -28,15 +28,17 @@ Previously, in our cloud environment, the Jenkins server was used to run cron jo
 
 1. Contact [Adobe Commerce support](https://support.magento.com/hc/en-us/articles/360019088251) to have self-managed crons enabled.
 1. Edit the `.magento.app.yaml` file in the root directory of the Magento code in the Git branch. Add the following:    
-  ```yaml    crons:        
-  cronrun:  spec: "* * * * *"            
-  cmd: "php bin/magento cron:run"    
-  ```    
+      ```yaml
+        crons:        
+        cronrun:
+        spec: "* * * * *"            
+        cmd: "php bin/magento cron:run"    
+      ```    
 1. Save the file and push updates to the Staging and Production environments (the same way you do it for Integration environments).
 
 >![info]
 >
->Note: There’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular Magento’s `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
+>Note: There’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
 
 ### Check if you have self-managed cron enabled (only for Cloud Pro Staging and Production)
 
