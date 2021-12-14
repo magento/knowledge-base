@@ -60,7 +60,7 @@ The patch is applicable for Adobe Commerce on cloud infrastructure versions 2.4.
 
 #### Response not JSON
 
-If response output is not JSON, it could be because of PWA/Headless implementation. If you are using Headless implementation, update the UPWARD configuration to bypass requests to Adobe Commerce Origin. For this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist**, add *swat*.
+If the response output is not JSON, it could be because of PWA/Headless implementation. If you are using Headless implementation, update the UPWARD configuration to bypass requests to Adobe Commerce Origin. To do this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist**, add *swat*.
 
 ![Upward_configuration](assets/upward_pwa.png)
 
