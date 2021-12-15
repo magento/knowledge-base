@@ -37,7 +37,7 @@ Configure CAPTCHA:
 
 <ins>Expected results</ins>:
 
-The CAPTCHA field is displayed when the number of failed attempts is reached, as expected.
+The CAPTCHA field is displayed when the number of failed attempts is reached.
 
 <ins>Actual results</ins>:
 
