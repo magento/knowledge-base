@@ -1,6 +1,6 @@
 ---
 title: Installation fails; cannot create install.log
-labels: Magento Commerce,Magento Commerce Cloud,how to,install.log,installation,open_basedir,php.ini,phpinfo.php,setup,wizard,Adobe Commerce,cloud infrastructure
+labels: Magento Commerce,how to,install.log,installation,open_basedir,php.ini,phpinfo.php,setup,wizard,Adobe Commerce
 ---
 
 This article provides a fix for a failed installation due to the Setup Wizard not creating the `install.log` during the installation.
