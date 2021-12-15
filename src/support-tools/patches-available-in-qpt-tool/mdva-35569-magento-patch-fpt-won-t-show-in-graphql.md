@@ -30,7 +30,8 @@ Adobe Commerce (all deployment methods) 2.3.4-2.4.1-p2
 1. Create a customer in GraphQL.
 1. Create a cart in GraphQL.
 1. Add the *weetax* product to the cart with GraphQL.
-1. Query the cart:    
+1. Query the cart:
+
 ```php    
 {cart(cart_id: "xxx") {    items {    id    product {    name    sku    price_range {    minimum_price {    final_price {    value    }    fixed_product_taxes {    label    amount {    value    }    }    }    maximum_price {    final_price {    value    }    fixed_product_taxes {    label    amount {    value    }    }    }    }    }    prices {    price {    value    }    }    quantity    }    prices {    subtotal_excluding_tax {    value    }    applied_taxes {    amount {    value    }    }    grand_total {    value    currency    }    discounts {    amount {    value    }    label    }    }}}    
 ```    
