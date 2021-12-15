@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce 2.4.1: wrong message on PayPal-Braintree guest checkout"
-labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PayPal,cart,guest checkout,known issues,Adobe Commerce,cloud architecture,on-premise
+labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PayPal,cart,guest checkout,known issues,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article describes a known Adobe Commerce 2.4.1 issue where if guest checkout is disabled, a guest customer trying to place an order with PayPal through Braintree gets a non-informative error message.
@@ -8,7 +8,7 @@ This article describes a known Adobe Commerce 2.4.1 issue where if guest checkou
 ## Affected products and versions
 
 * Adobe Commerce on-premises 2.4.0, 2.4.1
-* Adobe Commerce on our cloud architecture 2.4.0, 2.4.1
+* Adobe Commerce on cloud infrastructure 2.4.0, 2.4.1
 
 ## Issue
 
@@ -17,7 +17,7 @@ An unspecific error is shown when guest checkout is disabled from the backend, a
 <ins>Prerequisites</ins>:
 
 1. In the Commerce Admin, under **Stores** > **Configuration** > **Sales** > **Checkout**, set **Allow Guest Checkout** = *No*.
-1. Enable PayPal through Braintree as described in the [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) section of the Adobe Commerce User Guide.
+1. Enable PayPal through Braintree as described in the [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) in our user guide.
 
 <ins>Steps to reproduce</ins>:
 
@@ -39,7 +39,7 @@ If you enable direct Paypal without using Braintree, this scenario behaves diffe
 
 <ins>Actual results</ins>:
 
-The customer is redirected to the Shopping Cart page and the following message is displayed:
+The customer is redirected to the Shopping Cart page, and the following message is displayed:
 
 <pre><code class="language-bash">The customer email is missing. Enter and try again.</code></pre>
 
@@ -49,6 +49,6 @@ The workaround for this issue is that the customer can log in at a store (Logged
 
 ## Related reading
 
-* [Best practice for number of products in cart in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332)
+* [Best practice for number of products in cart in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) in our support knowledge base.
 * [Order processing tutorial: Step 1. Add items to the cart](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) in our developer documentation
 * [GraphQL checkout tutorial: Step 1. Add products to the cart](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in our developer documentation
