@@ -28,5 +28,5 @@ To make these changes for the Staging or Production environment of the Pro plan,
 
 ## Decreasing allocated space not available (Pro and Starter plan)
 
-Adobe Commerce Support can grow a partition (`/mysql` or `/exports`), but cannot shrink a partition. There is risk of date corruption in doing so, that is why decreasing storage for a partition isn’t available.
+Adobe Commerce Support can grow a partition (`/mysql` or `/exports`), but cannot shrink a partition. There is risk of data corruption in doing so, that is why decreasing storage for a partition isn’t available.
 It is also true for the Starter plan, where you can increase the allocated space yourself: decreasing is highly not recommended and might result in catastrophic data corruption.
