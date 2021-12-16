@@ -3,7 +3,7 @@ title: "MDVA-35773: Tax appears on invoice with 100% discount"
 labels: 100% discount,2.3.6,2.3.6-p1,2.3.7,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.22,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,grand total,invoice,tax miscalculated,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-The MDVA-35773 patch fixes the issue with the Grand Total not being shown as zero on the invoice for orders with a 100% discount. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-35773. Please note that the issue is fixed in Adobe Commerce version 2.4.3.
+The MDVA-35773 patch fixes the issue with the Grand Total not being shown as zero on the invoice for orders with a 100% discount. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-35773. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
 ## Affected products and versions
 
