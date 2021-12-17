@@ -35,7 +35,7 @@ If your ece-tools version is earlier than 2002.1.1, update it to the newer versi
 
 ## Related reading
 
-* [Magento Commerce Release v2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#performance-boosts) in our developer documentation.
+* [Adobe Commerce Release v2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#performance-boosts) in our developer documentation.
 * [Redis Page Cache](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-pg-cache.html) in our developer documentation.
 
-If assistance is required or if there are questions or concerns, [submit a Magento Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
