@@ -41,6 +41,10 @@ Check if the files specified above have the setting `cacheable="false”` . If t
 * If needed, consider moving non-cacheable blocks to [private content mechanism](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=private%20co) instead.
 * If not needed, remove the attribute `cacheable="false”` and flush the layout cache.
 
+>>![info]
+>
+>For Adobe Commerce on cloud infrastructure 2.4.1 and later, you can use the [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) to automatically check if your Full Page Cache is not configured correctly.
+
 ### Related Reading
 
 [Adobe Commerce cache overview](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=cacheable%2) in our developer documentation.
