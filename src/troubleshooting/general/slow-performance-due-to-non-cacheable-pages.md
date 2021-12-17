@@ -43,7 +43,7 @@ Check if the files specified above have the setting `cacheable="false”` . If t
 
 >>![info]
 >
->For Adobe Commerce on cloud infrastructure 2.4.1 and later, you can use the [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) to automatically check if your Full Page Cache is configured correctly.
+>For Adobe Commerce on cloud infrastructure 2.4.1 and later, you can use the [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) to automatically check if your Full Page Cache is not configured correctly.
 
 ### Related Reading
 
