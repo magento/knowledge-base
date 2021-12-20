@@ -38,7 +38,7 @@ The target rule for **Related Products** does not work when "*is one of*" condit
     * Product1, Test\_Attr = MAGT2NA\_Test3
     * Product2, Test\_Attr = 24-MB02
     * Product3, Test\_Attr = 701644329389M
-1. Create target **Rule** ( **Marketing**   > **Related Product Rules** and click the **Add Rule** button.) with settings:
+1. Create target **Rule** (**Marketing**   > **Related Product Rules** and click the **Add Rule** button.) with settings:
     * **Apply To** = *Related Products*
     * **Products to Match**
     * Set the New Attribute you created **in** **Step 1 above** to be the Product1's attribute (Example: Test\_Attr = MAGT2NA\_Test3).
