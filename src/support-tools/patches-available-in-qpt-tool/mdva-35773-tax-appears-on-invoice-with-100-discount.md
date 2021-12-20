@@ -23,18 +23,18 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-2.3.
 
 <ins>Steps to reproduce</ins>:
 
-1. Navigate to **Stores > Settings > Configuration > Sales > Tax**.
+1. Navigate to **Stores** > **Settings** > **Configuration** > **Sales** > **Tax**.
 1. Set **Catalog Prices** and **Apply Discount on Prices** to *Including Tax*.
-1. Navigate to **Stores > Tax Rules > Add New Tax Rule**.
+1. Navigate to **Stores** > **Tax Rules** > **Add New Tax Rule**.
 1. Create a tax rule (Example: all USA with 10% tax rate), and apply it.
-1. Navigate to **Marketing > Cart Price Rules**, and **Add New Rule**.
+1. Navigate to **Marketing** > **Cart Price Rules**, and **Add New Rule**.
 1. Create a rule with a **100% discount for all users**.
 1. Make an order on the Storefront:
 
     * Choose **Free Shipping**.
     * Apply **Coupon Code**.
 
-1. Navigate to **Sales > Orders**, and open your order.
+1. Navigate to **Sales** > **Orders**, and open your order.
 1. Create an invoice for the order, and open it.
 
 <ins>Expected results</ins>:
