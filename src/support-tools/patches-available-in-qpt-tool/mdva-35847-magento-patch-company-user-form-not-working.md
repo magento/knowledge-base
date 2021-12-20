@@ -23,7 +23,7 @@ Note: the patch might become applicable to other versions with new Quality Patch
 
 <ins>Prerequisites</ins>:
 
- Adobe Commerce B2B is installed
+ Adobe Commerce B2B is installed.
 
 <ins>Steps to reproduce</ins>:
 
