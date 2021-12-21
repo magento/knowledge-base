@@ -1,5 +1,5 @@
 ---
-title: Safely delete files when out of disk space, Adobe Commerce on our cloud infrastructure
+title: Safely delete files when out of disk space, Adobe Commerce on cloud infrastructure,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,Pro
 labels: troubleshooting,disk,disk space,Magento Commerce Cloud,space,data,file,Adobe Commerce,cloud infrastructure
 ---
 This article provides a solution for when you run out of disk space and need to safely remove files. Before considering this action, review [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left) in our developer documentation. If the steps in that article are not appropriate for you or do not solve the issue, review the steps in this article.
@@ -7,8 +7,8 @@ This article provides a solution for when you run out of disk space and need to 
 
 ## Affected products and versions
 
-* Adobe Commerce on our cloud infrastructure:
-  2.3.0-2.3.7, 2.4.0-2.4.2-p1 
+* Adobe Commerce on cloud infrastructure:
+  2.3.0-2.3.7, 2.4.0-2.4.2-p1
 * This is specific to dedicated Pro clusters. Starter and Integration environments are single node, and do not have the `/data/exports` directory.
 
 ## Signs of low disk space
@@ -29,7 +29,8 @@ Merchants can delete files from the application's mount points and through `/mnt
 
 ## Related reading
 
+In our support knowledge base:
 * [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554)
 * [Check disk space on Cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713)
 * [Low disk space](https://support.magento.com/hc/en-us/articles/360037072592)
-* [Check disk space limit for Adobe Commerce on our cloud infrastructure](https://support.magento.com/hc/en-us/articles/360038374052)
+* [Check disk space limit for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360038374052)
