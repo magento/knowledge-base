@@ -29,7 +29,7 @@ Catalog rules stop working for a configurable product if its simple product is r
 1. Create a category.
 1. Assign only the configurable product to the new category.
 1. Create new catalog rules:
-    * Condition = Category contains \<a new category id>
+    * Condition = Category contains \<new category id>
     * Action = 50% discount
     * Active = Yes
 1. Perform reindex.
