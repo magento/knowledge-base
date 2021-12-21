@@ -30,8 +30,8 @@ Discount amount is calculated incorrectly during reorder in the Admin.
 1. Enable and configure Table rate shipping method ($15).
 1. Create a tax rule for built-in tax rate (for CA).
 1. Create a cart price rule with a fixed $5 discount applied to the whole cart and shipping amount.
-1. Add product with price $12 to the cart and go to the Shopping Cart page.
-1. Apply discount to the cart.
+1. Add a product with price $12 to the cart and go to the Shopping Cart page.
+1. Apply the discount to the cart.
 1. Set shipping method in "estimates" section to "Flat Rate".
 1. Proceed through checkout till review steps (do not place the order).
 1. Go to the homepage and then back to the Shopping Cart.
