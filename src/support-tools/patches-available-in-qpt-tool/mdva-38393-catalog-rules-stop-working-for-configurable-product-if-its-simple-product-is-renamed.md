@@ -25,7 +25,7 @@ Catalog rules stop working for a configurable product if its simple product is r
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a configurable product with associated simple product.
+1. Create a configurable product with an associated simple product.
 1. Create a category.
 1. Assign only the configurable product to the new category.
 1. Create a new catalog rule:
@@ -33,8 +33,8 @@ Catalog rules stop working for a configurable product if its simple product is r
     * Action = 50% discount
     * Active = Yes
 1. Perform reindex.
-1. Check configurable product on frontend (discount should be applied).
-1. Check the `catalogrule_product` table (simple product should have discount).
+1. Check the configurable product on the frontend (discount should be applied).
+1. Check the `catalogrule_product` table (the simple product should have a discount).
 1. Go to the Admin and change the name of the simple product. This would add a record to the `catalogrule_product_cl` table.
 1. Execute the cron or the `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1` command.
 1. Check the `catalogrule_product` table.
@@ -46,7 +46,7 @@ Configurable product have discount.
 <ins>Actual results</ins>:
 
 * The discount records that were created for the simple products are missing in `catalogrule_product` table.
-* Configurable product on frontend has full original price.
+* The configurable product on the frontend has the full original price.
 
 ## Apply the patch
 
