@@ -29,7 +29,7 @@ We’ve set up key dashboards and alerts to aid you in understanding when your s
 
 The Site-Wide Analysis Tool is a SaaS (software as a service) application that performs end-to-end 'point-in-time' site analysis. All tool-related customer site information is collected on predetermined schedules from every three hours to once a day. This means that SWAT is constantly analyzing customer site data.
 
-To find out more about the Site-Wide Analysis Tool, refer to [Adobe Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) (**you must be signed-in to view it**).
+To find out more about the Site-Wide Analysis Tool, refer to [Adobe Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) (**you must be signed-in to view it**). Also review [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) in our user guide.
 
 <h2 id="quality-patches-tool">Quality Patches Tool - get all patches available for your Adobe Commerce version</h2>
 
