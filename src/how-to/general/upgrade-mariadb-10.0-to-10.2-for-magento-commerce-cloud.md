@@ -23,10 +23,10 @@ To upgrade from MariaDB 10.0 to 10.2 or 10.2 to 10.3 or to 10.4, complete the fo
 1. Check for MYISAM tables. You need to [convert all MyISAM tables to InnoD](https://support.magento.com/hc/en-us/articles/360041997312#convert).
 1. After you have prepared the database tables and rows (the previous two steps), create a [DB backup using ECE-Tools DB backup commands](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump).
 1. [Open a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to schedule the upgrade from MariaDB 10.0 to 10.2 or 10.2 to 10.3 or 10.4. In the ticket detail the date and time when you want the DB upgraded. The support team needs 48 hours' notice and the merchants dev team needs to be available. Once the time and date are agreed for the upgrade, do the following:
-1. Put your site into maintenance mode, and stop any DB activities, e.g., crons.
-1. Create a [DB backup using ECE-Tools DB backup commands](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump).
-1. Let support know you have completed the backup. Do this via your support ticket. To get steps for viewing and tracking your tickets, refer to [Adobe Commerce Help Center User Guide: Track your Tickets](https://support.magento.com/hc/en-us/articles/360000913794#track-tickets) in our support knowledge base.
-1. The Adobe Commerce support team will begin the MariaDB upgrade process.
+    1. Put your site into maintenance mode, and stop any DB activities, e.g., crons.
+    1. Create a [DB backup using ECE-Tools DB backup commands](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump).
+    1. Let support know you have completed the backup. Do this via your support ticket. To get steps for viewing and tracking your tickets, refer to [Adobe Commerce Help Center User Guide: Track your Tickets](https://support.magento.com/hc/en-us/articles/360000913794#track-tickets) in our support knowledge base.
+    1. The Adobe Commerce support team will begin the MariaDB upgrade process.
 
 1. If all the above steps have been taken, and the database is average size, this can be done in about an hour. Larger DBs will take longer. You will be informed via your ticket once the upgrade is complete.
 1. Disable maintenance mode. Refer to [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html#instgde-cli-maint) in our developer documentation.
