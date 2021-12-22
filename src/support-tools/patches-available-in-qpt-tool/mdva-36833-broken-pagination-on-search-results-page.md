@@ -25,7 +25,7 @@ Excluding some products from shared catalog leads to broken pagination for searc
 1. Note the products listed on the first page. There should be 12 products.
 1. Note down 11 SKUs from the 1st page. Go to backend and load Default Shared Catalog.
 1. Un-assign previously noted SKUs from Default Shared Catalog.
-1. Go to the store front and search for "jacket".
+1. Go to the storefront and search for "jacket".
 1. Check the first page of the search results.
 
  <span class="wysiwyg-underline">Actual result:</span>
