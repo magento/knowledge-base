@@ -48,11 +48,11 @@ During onboarding, you need to [claim and verify](https://docs.magento.com/m2/ee
 
 We recommend reviewing Google's [Verify and claim your website URL](https://support.google.com/merchants/answer/176793?hl=en). The URL could be claimed by another GMC account, or parent account. Or another GMC account received verification before this account. We recommend using administrative Google and GMC accounts for Google Shopping ads.
 
-If you are reusing a GMC account, see [Unlinking Existing GMC Account](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/gmc-unlink-gmc.html) in our developer documentation. This process walks through removing claimed URLs from an account.
+If you are reusing a GMC account, see [Unlinking Existing GMC Account](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/gmc-unlink-gmc.html) in our user guide. This process walks through removing claimed URLs from an account.
 
 ### Q: I received an error trying to create an attribute after GMC creation and onboarding?
 
-Depending on timeouts and other factors, Adobe Commerce may encounter an issue when creating attributes after the GMC Onboarding step. During attribute mapping, you may have selected an option to create a new Adobe Commerce attribute for Category and Adult-Only. You can create the attribute directly in the Catalog or select another attribute mapping option. To resolve, see [Editing Attribute Mappings](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/products-edit-mappings.html) in our developer documentation.
+Depending on timeouts and other factors, Adobe Commerce may encounter an issue when creating attributes after the GMC Onboarding step. During attribute mapping, you may have selected an option to create a new Adobe Commerce attribute for Category and Adult-Only. You can create the attribute directly in the Catalog or select another attribute mapping option. To resolve, see [Editing Attribute Mappings](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/products-edit-mappings.html) in our user guide.
 
 ## Approvals
 
@@ -78,18 +78,18 @@ If you keep seeing a banner message requiring you to accept an invitation email,
 
 * Check the email you registered with Google Ads for an invitation email. Open and accept the invite. If you can't find it, visit Google Ads to log in or request another invitation. See [Google's Signing in to Google Ads](https://support.google.com/google-ads/answer/1722062) for further troubleshooting.
 * Add a payment method to your Google Ads account in the Billing and Payments section. See [Account Settings](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/acct-settings.html) or Google's [Choose a payment method](https://support.google.com/google-ads/answer/2375433).
-* Update the Google Shopping ads setting in the Commerce Admin. See [how to update account settings](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/create-campaign.html#AcctSettings) in our developer documentation.
+* Update the Google Shopping ads setting in the Commerce Admin. See [how to update account settings](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/create-campaign.html#AcctSettings) in our user guide.
 * If you change or update your payment method in Google Ads, ensure it is approved and updated by Google. Adobe will continue publishing campaigns as long as the setting option is checked.
 * After verifying these settings, log into the Commerce Admin and access Google Shopping ads. The banner should be cleared.
 
 ### Q: Google ads are not running?
 
-If you search for your products and check for ads running on Google, and do not find any results, you may have some issues blocking the ads. For more information on ads, see [Managing Ads Campaigns](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/campaigns-manage.html) in our developer documentation.
+If you search for your products and check for ads running on Google, and do not find any results, you may have some issues blocking the ads. For more information on ads, see [Managing Ads Campaigns](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/campaigns-manage.html) in our user guide.
 
 Check the following:
 
 * Your payment method has expired or there is a billing issue. Please check your Google Ads account in the Billing and Payments section. See Google's [Choose a payment method](https://support.google.com/google-ads/answer/2375433).
-* Your account has an Approved status in the Google Shopping ads dashboard. If it is Pending Approval or Disapproved, your account is effectively paused. Product approvals and ads will not run. Google may require up to 10 days to fully review your accounts and products. If you have a Disapproved account, review and resolve as quickly as possible. Learn more about [account approvals](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/google-account-managment.html) in our developer documentation.
+* Your account has an Approved status in the Google Shopping ads dashboard. If it is Pending Approval or Disapproved, your account is effectively paused. Product approvals and ads will not run. Google may require up to 10 days to fully review your accounts and products. If you have a Disapproved account, review and resolve as quickly as possible. Learn more about [account approvals](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/google-account-managment.html) in our user guide.
 * Your URL has an Unclaimed status. If the URL was claimed in another GMC account, you need to unclaim it to reclaim in Google Shopping ads Channel. When verifying and claiming your URL, Adobe Commerce attempts the claim process up to five times within an hour after submission. If the URL is not claimed within five attempts, Adobe Commerce provides a notification with more information. We recommend reviewing Google's [Verify and claim your website URL](https://support.google.com/merchants/answer/176793?hl=en).
 * Products assigned to the campaign have an Approval status. If the campaign does not have any Google approved products, ads will not run. Learn more about [product approvals](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/product-managment.html) .
 * Campaign has an Active status. If the campaign is Paused or Ended, ads are not running.
