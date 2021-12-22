@@ -6,7 +6,7 @@ This article provides a solution for when B2B shared catalog feature is not work
 
 ## Affected products and versions
 
-* Adobe Commerce for cloud and Adobe Commerce (on-premise) 2.4.3
+* Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.4.3
 
 ## Issue
 
@@ -14,7 +14,7 @@ GraphQL categories and `categoryList` queries ignore the category permission to 
 
 <ins>Steps to reproduce</ins>:
 
-Prerequisites: 
+Prerequisites:
 
 This happens to all merchants on Adobe Commerce 2.4.3 with PWA storefront consuming GraphQL API with Adobe Commerce backend/Admin having B2B Shared Catalog feature turned on.
 
@@ -41,7 +41,8 @@ Functionality was not implemented.
 
 ## Solution
 
-The issue is going to be fixed in the scope of version 2.4.4, and merchants should [submit a ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to get a custom patch if they need a solution prior to the 2.4.4 release. 
+The issue is going to be fixed in the scope of version 2.4.4, and merchants should [submit a ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to get a custom patch if they need a solution prior to the 2.4.4 release.
+
 ## Related reading
 
-* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360048176832) in our knowledge base. 
+* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360048176832) in our knowledge base.
