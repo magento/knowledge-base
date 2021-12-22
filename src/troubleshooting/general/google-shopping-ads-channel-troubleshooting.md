@@ -5,7 +5,7 @@ labels: Google,Shopping ads,troubleshooting,Adobe Commerce,Magento,update
 
 >![info]
 >
->The Google Shopping ads Channel bundled extension has reached end-of-life and has been deprecated in Magento core code in Magento Commerce 2.3.5 and 2.3.4-p1. It will not be supported and working anymore.
+>The Google Shopping ads Channel bundled extension has reached end-of-life and has been deprecated in Adobe Commerce core code in Adobe Commerce 2.3.5 and 2.3.4-p1. It will not be supported and working anymore.
 
 The following information provides help when you encounter issues, errors, or banner messages with Google Shopping ads. For a searchable help for Google troubleshooting, see this site.
 
