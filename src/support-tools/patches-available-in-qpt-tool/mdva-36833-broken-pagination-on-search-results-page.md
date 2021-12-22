@@ -20,7 +20,7 @@ Excluding some products from shared catalog leads to broken pagination for searc
  <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Enable Shared Catalog.
-1. Go to **Catalog** > **Shared Catalogs** and setup the default Shared Catalog by assigning all the products to it.
+1. Go to **Catalog** > **Shared Catalogs** and set up the default Shared Catalog by assigning all the products to it.
 1. Load the store front and search for "jacket".
 1. Note the products listed on the first page. There should be 12 products.
 1. Note down 11 SKUs from the 1st page. Go to backend and load Default Shared Catalog.
