@@ -11,7 +11,7 @@ The article provides a link to the patch for a known Adobe Commerce 2.3.5 issue,
 
 ## Issue
 
-Adobe Commerce prompts customers to log in by displaying this message: *"This account is not confirmed. Click here to resend confirmation email"* . The **Click here** link should open the Send confirmation link page, but is inactive.
+Adobe Commerce prompts customers to log in by displaying this message: *"This account is not confirmed. Click here to resend confirmation email"*. The **Click here** link should open the Send confirmation link page, but is inactive.
 
 ## Solution
 
@@ -21,7 +21,7 @@ See [How to apply a composer patch provided by Adobe](https://support.magento.co
 
 ## Related reading
 
-Adobe Commerce Support Knowledge Base articles for Adobe Commerce 2.3.5 known issues:
+Articles in our support knowledge base and developer documentation for Adobe Commerce 2.3.5 known issues:
 
 * [Adobe Commerce 2.3.5 known issue: virtual product multi-ship orders](https://support.magento.com/hc/en-us/articles/360044461831)
 * [Product comparison known issue in Adobe Commerce 2.3.5](https://support.magento.com/hc/en-us/articles/360043970452)
@@ -29,4 +29,4 @@ Adobe Commerce Support Knowledge Base articles for Adobe Commerce 2.3.5 known is
 * [Adobe Commerce prompts customers log in invalid link](https://support.magento.com/hc/en-us/articles/360043857372)
 * [Bulk action product count known issue in Adobe Commerce 2.3.5](https://support.magento.com/hc/en-us/articles/360044839691)
 * [Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1](https://support.magento.com/hc/en-us/articles/360042646332)
-* [Adobe Commerce 2.3.5 Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues) in our developer documentation.
+* [Adobe Commerce 2.3.5 Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
