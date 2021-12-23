@@ -41,7 +41,7 @@ Catalog rules stop working for a configurable product if its simple product is r
 
 <ins>Expected results</ins>:
 
-The configurable product have a discount.
+The configurable product has a discount.
 
 <ins>Actual results</ins>:
 
