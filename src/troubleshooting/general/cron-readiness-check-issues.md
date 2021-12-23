@@ -15,7 +15,7 @@ This article provides solutions for cron readiness issues. The following are sym
 
 <h2 id="check-your-existing-crontab">Check your existing crontab</h2>
 
-This section discusses how to see if cron is currently running and to verify whether it's set up properly.
+This section discusses how to see if cron is currently running and verifying whether it's set up properly.
 
 To verify whether or not your crontab is set up:
 
