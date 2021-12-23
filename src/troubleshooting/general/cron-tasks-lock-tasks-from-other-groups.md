@@ -27,7 +27,7 @@ Previously, in our cloud environment, the Jenkins server was used to run cron jo
 ## Solution
 
 1. Contact [Adobe Commerce support](https://support.magento.com/hc/en-us/articles/360019088251) to have self-managed crons enabled.
-1. Edit the `.magento.app.yaml` file in the root directory of the Magento code in the Git branch. Add the following:    
+1. Edit the `.magento.app.yaml` file in the root directory of the code for Adobe Commerce in the Git branch. Add the following:    
       ```yaml
         crons:        
         cronrun:
