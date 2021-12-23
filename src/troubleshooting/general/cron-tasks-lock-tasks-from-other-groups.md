@@ -7,7 +7,7 @@ This article provides a solution for the Adobe Commerce on cloud infrastructure 
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud pro infrastructure
+* Adobe Commerce on cloud infrastructure Pro plan architecture
 * Onboard earlier than May 2019
 
 ## Issue
