@@ -27,7 +27,7 @@ Discount amount is calculated incorrectly during reorder in the Admin.
 
 1. Go to the **Admin** > **Stores** > **Configuration** > **Sales** > **Taxes**.
 1. Turn on the tax for shipping displaying the tax in the Shopping Cart.
-1. Enable and configure Table rate shipping method ($15).
+1. Enable and configure the Table rate shipping method ($15).
 1. Create a tax rule for built-in tax rate (for CA).
 1. Create a cart price rule with a fixed $5 discount applied to the whole cart and shipping amount.
 1. Add a product with a price of $12 to the cart and go to the Shopping Cart page.
