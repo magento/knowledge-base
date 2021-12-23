@@ -12,7 +12,7 @@ This article provides a solution for the Adobe Commerce on cloud infrastructure 
 
 ## Issue
 
-On Adobe Commerce for cloud, when you have complex cron tasks (long-run tasks), they might lock other tasks for execution. For example, the indexers task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default cron jobs like sending emails, generating sitemaps, customer notifications, and other custom tasks.
+On Adobe Commerce for cloud, when you have complex cron tasks (long-run tasks), they might lock other tasks for execution. For example, the indexers' task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default cron jobs like sending emails, generating sitemaps, customer notifications, and other custom tasks.
 
 <ins>Symptoms</ins>:
 
