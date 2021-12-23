@@ -45,7 +45,7 @@ The configurable product have a discount.
 
 <ins>Actual results</ins>:
 
-* The discount records that were created for the simple products are missing in `catalogrule_product` table.
+* The discount records created for the simple products are missing in the `catalogrule_product` table.
 * The configurable product on the frontend has the full original price.
 
 ## Apply the patch
