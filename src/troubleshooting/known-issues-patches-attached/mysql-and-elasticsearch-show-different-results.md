@@ -36,7 +36,7 @@ The patches are attached to this article. To download a patch, scroll down to th
 
  [Download MDVA-14172\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-14172_EE_2.2.6_COMPOSER_v1.patch.zip)
 
-### Compatible Magento versions:
+### Compatible Adobe Commerce versions:
 
 The patches were created for:
 
