@@ -11,16 +11,16 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 ## Issue:
 
-Your catalog search results with same filters set, differ depending on the search engine being used, MySQL or ElasticSearch.
+Your catalog search results with the same filter set differ depending on the search engine being used, MySQL or ElasticSearch.
 
  <span class="wysiwyg-underline">Steps to reproduce</span> :
 
 1. Install and configure ElasticSearch.
 1. On the storefront, select one of the filters.
-1. Make note of the number of matching products.
+1. Make a note of the number of matching products.
 1. Configure the default [MySQL search](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0).
 1. On the storefront, select one of the filters.
-1. Make note of the number of matching products.
+1. Make a note of the number of matching products.
 
  <span class="wysiwyg-underline">Expected result</span>:
  The number of matching products is the same.
@@ -30,7 +30,7 @@ Your catalog search results with same filters set, differ depending on the searc
 
 ## Patch
 
-The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click one the following links:
+The patches are attached to this article. To download a patch, scroll down to the end of the article and click the required file name, or click on the following links:
 
  [Download MDVA-12312\_EE\_2.2.3\_COMPOSER\_v1.patch](assets/MDVA-12312_EE_2.2.3_COMPOSER_v1.patch.zip)
 
