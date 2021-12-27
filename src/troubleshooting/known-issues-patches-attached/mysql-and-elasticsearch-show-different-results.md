@@ -51,7 +51,7 @@ The `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` patch is also compatible (but might 
 * Adobe Commerce on-premises 2.2.4
 * Adobe Commerce on-premises 2.2.5
 
-The `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` patch is also compatible (but might not solve the issue) with the following Adobe versions and editions:
+The `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` patch is also compatible (but might not solve the issue) with the following Adobe Commerce versions and editions:
 
 * Adobe Commerce on-premises 2.2.6
 
