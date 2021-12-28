@@ -24,12 +24,13 @@ The MDVA-30837 patch adds configuration options for the free shipping calculatio
 The patch MDVA-30837 adds the configuration setting to configure the **Minimum Order Amount** setting to get free shipping based on the Subtotal (or Grand Total):
 
 * **Include Tax to Amount**: *Yes/No* in the Free Shipping method configuration.
-    - When **Include Tax to Amount** is set to *Yes*, the minimum order amount is calculated as Subtotal + Tax - Discount.
-    - When **Include Tax to Amount** is set to *No*, the minimum order amount is calculated as Subtotal - Discount.
+    * When **Include Tax to Amount** is set to *Yes*, the minimum order amount is calculated as Subtotal + Tax - Discount.
+    * When **Include Tax to Amount** is set to *No*, the minimum order amount is calculated as Subtotal - Discount.
 
 <ins>Steps to reproduce</ins>:
 
 1. Go to **Stores** > Settings > **Configuration** > **Sales** > **Tax** and set the following:
+
     * Tax Calculation Based on *Shipping Address*
     * Enable Cross Border Trade: *No*
     * Display Produce Prices in Catalog: *Excluding Tax*
@@ -41,11 +42,14 @@ The patch MDVA-30837 adds the configuration setting to configure the **Minimum O
     * Display Printed Card Prices: *Excluding Tax*
     * Include Tax in Order Total: *Yes*
     * Display Full Tax Summary: *Yes*
+
 1. Go to **Sales** > **Shipping Settings** > **Free Shipping** and set **Minimum Order Amount** = *30*.
 1. Go to **Marketing** > Promotions > **Cart Price Rules** and create a new price rule (for detailed steps, refer to [Create a Cart Price Rule](https://docs.magento.com/user-guide/marketing/price-rules-cart-create.html) in our user guide).
+
     * Coupon Code = *Specific Coupon*.
     * Conditions: Subtotal equals or greater than $25.
     * Actions: Free Shipping = *For shipments with matching items*.
+
 1. Create a product with a price of $23.10.
 1. Add the CA tax to the default tax rule.
 1. Add this product to the cart.
