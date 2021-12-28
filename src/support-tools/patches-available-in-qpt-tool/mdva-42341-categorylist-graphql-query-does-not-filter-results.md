@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-42341: "categoryList" GraphQL query does not filter results'
-labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,categoryList,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
+labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,categoryList,filter,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,QPT 1.1.8
 ---
 
 The MDVA-42341 patch solves the issue where the "categoryList" GraphQL query does not filter results if a request has the Store header. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.8 is installed. The patch ID is MDVA-42341. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
