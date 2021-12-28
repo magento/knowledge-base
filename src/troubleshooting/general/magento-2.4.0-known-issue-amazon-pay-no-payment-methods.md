@@ -15,7 +15,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure v2.3.5.p1 
 1. Add any item to the cart and proceed to the checkout.
 1. Log in to your Amazon Pay account.
 1. Select an address and proceed to the checkout.
-1. Click **Return to standard checkout** .
+1. Click **Return to standard checkout**.
 1. Proceed to the checkout.
 
  <span class="wysiwyg-underline">Expected result:</span>
