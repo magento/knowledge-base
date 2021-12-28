@@ -26,7 +26,7 @@ The "categoryList" GraphQL query does not filter results if a request has the St
 <ins>Steps to reproduce</ins>:
 
 1. Create a new Root Category and name it **root2**.
-1. Create a second Website/Store/Storeview and assign root2 to the new Store.
+1. Create a second Website/Store/Storeview and assign **root2** to the new Store.
 1. Create a new category under Default root category = 'category1'.
 1. Using a GraphQL request gets a categories list for the second website (use Header 'store' = 'new').
 
