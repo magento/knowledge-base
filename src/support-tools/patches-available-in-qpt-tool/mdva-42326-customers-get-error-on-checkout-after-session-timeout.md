@@ -21,7 +21,7 @@ The MDVA-42326 patch solves the issue where the customers get an error on checko
 
 ## Issue
 
-Customers get an error on checkout after the session timeout, even if the persistent shopping cart is enabled.
+Customers get an error on checkout after the session timeout, even if the Persistent Shopping Cart is enabled.
 
 <ins>Prerequisites</ins>:
 
