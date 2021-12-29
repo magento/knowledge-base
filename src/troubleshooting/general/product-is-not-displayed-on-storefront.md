@@ -39,7 +39,7 @@ Each of the following points might solve the issue.
 
 * Check product settings in Admin. Go to **Catalog** > **Products**, open the product page and make sure the following fields are correctly configured:
     * **Enable Product** = *Yes.*
-    * **Stock Status**: *In Stock*. Or if *Out of Stock* is the correct value, make sure that **Display Out of Stock Products** is set to *Yes* (configured on global level).
+    * **Stock Status**: *In Stock*. Or if *Out of Stock* is the correct value, make sure that **Display Out of Stock Products** (**STORES** > **Settings** > **Configuration** > **CATALOG** > **Inventory** > **Stock Options** > **Display Out Of Stock Products**) is set to *Yes* (configured on global level).
     * **Categories**: If you try to find the product on a category page, verify that the product is assigned to the category. To simplify troubleshooting, create a new category from the current page and assign a product to it.
     * **Visibility** = *Catalog, Search.*
     * In the **Product in Websites** section, make sure the product is assigned to the correct website.
