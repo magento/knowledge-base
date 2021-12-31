@@ -7,7 +7,7 @@ The MDVA-30107 patch solves the issue where the store switcher doesn't work as e
 
 ## Affected products and versions
 
-* Adobe Commerce on-premises 2.3.0-2.3.5.x
+* Adobe Commerce on-premises 2.3.0 - 2.3.5.x
 * Adobe Commerce on cloud infrastructure 2.3.0-2.3.5.x
 
 >![info]
