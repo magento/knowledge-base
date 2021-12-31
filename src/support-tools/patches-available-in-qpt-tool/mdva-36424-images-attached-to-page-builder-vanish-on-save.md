@@ -13,7 +13,7 @@ Adobe Commerce on cloud infrastructure 2.3.6
 
 **Compatible with Magento versions:**
 
-Adobe Commerce (all deployment methods) 2.3.5-2.4.1-p1
+Adobe Commerce (all deployment methods) 2.3.5 - 2.4.1-p1
 
 >![info]
 >
