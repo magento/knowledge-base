@@ -1,14 +1,14 @@
 ---
-title: "MDVA-30107 Magento patch: store switcher does not work as expected"
-labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.5,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,store switcher,support tools
+title: "MDVA-30107: Store switcher does not work as expected"
+labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.5,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,store switcher,support tools,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
-The MDVA-30107 patch solves the issue where store switcher doesn't work as expected if different base URLs are used for store views. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed.
+The MDVA-30107 patch solves the issue where the store switcher doesn't work as expected if different base URLs are used for store views. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed.
 
 ## Affected products and versions
 
-* Magento Commerce 2.3.0-2.3.5.x
-* Magento Commerce Cloud 2.3.0-2.3.5.x
+* Adobe Commerce on-premises 2.3.0 - 2.3.5.x
+* Adobe Commerce on cloud infrastructure 2.3.0 - 2.3.5.x
 
 >![info]
 >
@@ -18,32 +18,32 @@ The MDVA-30107 patch solves the issue where store switcher doesn't work as expec
 
 When a user switches between stores using the store switcher, the request fails if the target store has a different base URL.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+<ins>Steps to reproduce</ins>:
 
 1. Create two or more stores with different base URLs.
 1. Go to a category page on a storefront of any of those stores.
 1. Try switching to the other store using the store switcher.
 
- <span class="wysiwyg-underline">Expected result:</span>
+<ins>Expected results</ins>:
 
-You are redirected to the similar page of the other store.
+You are redirected to a similar page of the other store.
 
- <span class="wysiwyg-underline">Actual result:</span>
+<ins>Actual results</ins>:
 
-You are redirected to the home page of the same store.
+You are redirected to the homepage of the same store.
 
 ## Apply the patch
 
-To apply individual patches, use the following links depending on your version of Magento:
+To apply individual patches, use the following links depending on your deployment method:
 
-* Magento Commerce: DevDocs [Software Update Guide > Apply patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
-* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
 
-* KB [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* KB [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
+For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
