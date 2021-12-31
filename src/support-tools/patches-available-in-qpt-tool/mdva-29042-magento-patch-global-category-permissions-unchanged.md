@@ -23,7 +23,7 @@ Deselecting a customer group from the global category permissions in the Commerc
     * **Allow Browsing Category**
     * **Display Product Prices**
     * **Allow Adding to Cart**
-* Under each **Category**, the customer group is defined as "*Allow*" for
+* Under each **Category**, the customer group is defined as "*Allow*" for:
     * **Browsing Category**
     * **Display Product Prices**
     * **Add to Cart**
