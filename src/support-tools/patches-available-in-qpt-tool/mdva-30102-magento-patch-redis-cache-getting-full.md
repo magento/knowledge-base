@@ -13,7 +13,7 @@ The MDVA-30102 patch solves the issue of the Redis cache getting full and genera
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.2-2.4.1-p1
+* Adobe Commerce (all deployment methods) 2.3.2 - 2.4.1-p1
 
 >![info]
 >
