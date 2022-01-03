@@ -40,7 +40,7 @@ Create two websites with stores and store views.
     * **Apply Tax to FPT** = *Yes*
     * **Include FPT in Subtotal** = *No*
 
-1. Create an **FPT** **attribute**, and assign it to the default attribute set ([Configuring FPT: Create an FPT attribute](https://docs.magento.com/user-guide/tax/fixed-product-tax-configuration.html#step-2-create-an-fpt-attribute) in our user guide).
+1. Create an **FPT attribute**, and assign it to the default attribute set. (See [Configuring FPT: Create an FPT attribute](https://docs.magento.com/user-guide/tax/fixed-product-tax-configuration.html#step-2-create-an-fpt-attribute) in our user guide).
 
 1. Create four simple products, and set the **FPT** **attribute value** (Example: set the **FPT**   **attribute value** = *Australia*).
 
