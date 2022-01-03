@@ -52,7 +52,7 @@ Create two websites with stores and store views.
     * Bundle options shipped together, all marked as default with **Price Type** = *Fixed*.
     * Add two of the simple products created in Step four.
 
-1. Create a user account in the front end. Update the address with Australian address (set country to Australia or whichever country was used in the **FPT** setup).
+1. Create a user account in the frontend. Update the address with Australian address (set country to Australia or whichever country was used in the **FPT** setup).
 
 1. Add the two bundled products to the cart.
 
