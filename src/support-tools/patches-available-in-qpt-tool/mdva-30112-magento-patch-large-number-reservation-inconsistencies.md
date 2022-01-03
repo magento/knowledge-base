@@ -9,7 +9,7 @@ The MDVA-30112 patch solves the issue where you have an unexpectedly large numbe
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce on cloud infrastructure 2.3.5.
+* Adobe Commerce on cloud infrastructure 2.3.5
 
 **Compatible with Adobe Commerce versions:**
 
