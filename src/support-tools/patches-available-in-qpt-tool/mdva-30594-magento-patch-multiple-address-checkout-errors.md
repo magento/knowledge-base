@@ -13,7 +13,7 @@ The MDVA-30594 patch solves the issue where the customer does not see the order 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1.
+* Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
 >![info]
 >
