@@ -13,7 +13,7 @@ The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.3 to 2.4.1.
+* Adobe Commerce (all deployment methods) 2.3.3 to 2.4.1
 
 >![info]
 >
