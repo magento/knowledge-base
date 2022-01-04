@@ -68,7 +68,7 @@ Review the following articles and information for [resolving your product disapp
 
 ### Q: How can I resolve account disapprovals?
 
-Your account may be disapproved or suspended due to breaking the Google [Terms of Service](https://support.google.com/merchants/answer/160173?hl=en) and policies on [Prohibited Content](https://support.google.com/merchants/answer/6149970?hl=en). Review Google's [Understanding account suspension](https://support.google.com/merchants/answer/2948694) and [resolving your account disapprovals](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/account-resolve-errors.html) to regain approval of your account.
+Your account may be disapproved or suspended due to breaking the Google [Terms of Service](https://support.google.com/merchants/answer/160173?hl=en) and policies on [Prohibited Content](https://support.google.com/merchants/answer/6149970?hl=en). Review Google's [Understanding account suspension](https://support.google.com/merchants/answer/2948694) and [resolving your account disapprovals](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/account-resolve-errors.html) to regain the approval of your account.
 
 ## Google Ads
 
