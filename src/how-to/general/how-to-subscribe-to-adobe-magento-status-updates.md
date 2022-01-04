@@ -17,7 +17,7 @@ This article explains how you can subscribe to Adobe Commerce status on [Adobe s
     ![subscribe_to_all_adobe_magento_services_notifications.png](assets/adobe_magento_all_services_notification.png)
     Alternatively, to select one Adobe Magento service, uncheck the other Adobe Magento services' check boxes. So, for example if you only want to receive notifications for Order Management (MOM) uncheck the other services, so that only the Adobe Magento checkbox and the Order Management (MOM) checkbox are checked (see screenshot).
     ![subscribe_to_one adobe_magento_service_notification.png](assets/adobe_magento_one_service_subscription.png)      
-1. You see a window where you can select notifications for products for select regions and events. If you want to receive notifications for the same regions and event types for all products check the **Select Regions and Event types for all Products** checkbox (see screenshot).   
+1. You see a window where you can select notifications for products for select regions and events. If you want to receive notifications for the same regions and event types for all products, check the **Select Regions and Event types for all Products** checkbox (see screenshot).   
   ![select_adobe_notifications_by_regions_and_events.png](assets/adobe_notifications_regions_events.png)
   Alternately, if you have subscribed to several products (not just Adobe Magento) and want each product to have notifications for different regions and event types, check the **Customize Regions and event types by Products** checkbox (see screenshot).
   ![select_adobe_notifications_for_different_regions_and_events_by_product.png](assets/adobe_region_events_notifications_custom.png)
