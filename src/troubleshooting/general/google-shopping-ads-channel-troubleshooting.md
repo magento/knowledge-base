@@ -74,7 +74,7 @@ Your account may be disapproved or suspended due to breaking the Google [Terms o
 
 ### Q: I need to add a payment method?
 
-If you keep seeing a banner message requiring you to accept an invitation email, verify Google Ads account, and add a payment method, make sure you have done the following:
+If you keep seeing a banner message requiring you to accept an invitation email, verify the Google Ads account, and add a payment method, make sure you have done the following:
 
 * Check the email you registered with Google Ads for an invitation email. Open and accept the invite. If you can't find it, visit Google Ads to log in or request another invitation. See [Google's Signing in to Google Ads](https://support.google.com/google-ads/answer/1722062) for further troubleshooting.
 * Add a payment method to your Google Ads account in the Billing and Payments section. See [Account Settings](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/acct-settings.html) or Google's [Choose a payment method](https://support.google.com/google-ads/answer/2375433).
