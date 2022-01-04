@@ -32,7 +32,7 @@ There are three solutions:
 
 <span class="wysiwyg-underline">Ensure lighter requests (cache requests or move to customers' private content)</span>
 
-If there are third-party AJAX requests that are triggered on each page, attempt to cache these requests or move them to customer private content. The merchant can do this by making sure that custom AJAX requests are called using the GET HTTP methods. It will make these requests cacheable by Fastly. If there are custom AJAX requests that should not be cached, they should be refactored according to private-content functionality. For steps, refer [Private Content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) in our developer documentation.
+If there are third-party AJAX requests that are triggered on each page, attempt to cache these requests or move them to customers' private content. The merchant can do this by making sure that custom AJAX requests are called using the GET HTTP methods. It will make these requests cacheable by Fastly. If there are custom AJAX requests that should not be cached, they should be refactored according to private-content functionality. For steps, refer [Private Content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) in our developer documentation.
 
  <span class="wysiwyg-underline">Reduce the number of requests</span>
 
