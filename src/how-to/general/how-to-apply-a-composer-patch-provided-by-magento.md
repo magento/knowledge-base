@@ -7,7 +7,7 @@ This article instructs how to apply a composer patch for Adobe Commerce on-premi
 
 >![warning]
 >
->We strongly recommend applying and testing the patch on the Staging/Integration environment, before applying it Production. We also recommend you have a recent backup before any manipulations.
+>We strongly recommend applying and testing the patch on the Staging/Integration environment before applying it to Production. We also recommend you have a recent backup before any manipulations.
 
 <h3 id="cloud">How to apply a composer patch for Adobe Commerce on cloud infrastructure</h3>
 
