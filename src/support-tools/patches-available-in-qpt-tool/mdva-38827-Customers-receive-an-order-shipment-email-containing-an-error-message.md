@@ -1,9 +1,9 @@
 ---
 title: "MDVA-38827: Customers receive order shipment error via email"
-labels: QPT patches,Quality Patches Tool,QPT,QPT 1.1.0,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premise,cloud infrastructure,order shipment,error,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
+labels: QPT patches,Quality Patches Tool,QPT,QPT 1.1.0,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premises,cloud infrastructure,order shipment,error,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
 ---
 
-The MDVA-38827 Adobe Commerce patch fixes the issue where customers receive an order shipment email containing the following error message: *We're sorry, an error has occurred while generating this content*. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.0 is installed. The patch ID is MDVA-38827. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-38827 patch fixes the issue where customers receive an order shipment email containing the following error message: *We're sorry, an error has occurred while generating this content*. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.0 is installed. The patch ID is MDVA-38827. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -13,7 +13,7 @@ Adobe Commerce on our cloud infrastructure 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce on-premises and Adobe Commerce on our cloud infrastructure 2.3.3-p1 – 2.4.2-p1
+Adobe Commerce (all deployment methods) 2.3.3-p1 – 2.4.2-p1
 
 >![info]
 >
@@ -21,7 +21,7 @@ Adobe Commerce on-premises and Adobe Commerce on our cloud infrastructure 2.3.3-
 
 ## Issue
 
-When the Notify Customers by Email option for shipment is selected, customers receive an email containing the following error message:  *We're sorry, an error has occurred while generating this content*.
+When the Notify Customers by Email option for shipment is selected, customers receive an email containing the following error message: *We're sorry, an error has occurred while generating this content*.
 
 <ins>Steps to reproduce</ins>:
 
@@ -48,16 +48,16 @@ The following error message is received in the email: *We're sorry, an error has
 
 ## Apply the patch
 
-To apply individual patches, use the following links depending on your deployment type:
+To apply individual patches, use the following links depending on your deployment method:
 
-* Adobe Commerce or Magento Open Source on-premise: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce for cloud: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
-To learn more about quality patches for Adobe Commerce, refer to:
+To learn more about Quality Patches Tool, refer to:
 
-* [Quality patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
+For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
