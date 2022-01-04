@@ -30,7 +30,7 @@ To create a new key and update the Commerce Admin:
 1. Click **Sign in** to your Adobe Commerce account. You may need to log in. A web page opens to Adobe Commerce Accounts with the API Key tab.
 1. Click **Api Portal**. For Add Key, enter a description like "Google Shopping ads" and Click **Add**.
 1. Copy the key.
-1. Return to the Adobe Commerce Admin and tap **Add the key** on the Google welcome screen. A store configuration page opens to **Stores** > **Configuration** > **Services** > **Channel**.
+1. Return to the Commerce Admin and tap **Add the key** on the Google welcome screen. A store configuration page opens to **Stores** > **Configuration** > **Services** > **Channel**.
 1. In the Google Shopping ads section, paste the key you copied for **API key**.
 1. Tap **Save Config**.
 
