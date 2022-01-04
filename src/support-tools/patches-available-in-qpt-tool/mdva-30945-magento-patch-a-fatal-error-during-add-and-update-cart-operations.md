@@ -32,7 +32,7 @@ On the cart page, the following validation message is displayed: *Some of the pr
 
 <ins>Actual results</ins>:
 
-Cart page is blank. In the PHP error.log the following error is logged: *Uncaught exception 'Error' with message 'Call to a member function getValue() on null' in vendor/magento/module-configurable-product/Model/Quote/Item/CartItemProcessor.php:76*
+Cart page is blank. In the PHP `error.log`, the following error is logged: *Uncaught exception 'Error' with message 'Call to a member function getValue() on null' in vendor/magento/module-configurable-product/Model/Quote/Item/CartItemProcessor.php:76*
 
 ## Apply the patch
 
