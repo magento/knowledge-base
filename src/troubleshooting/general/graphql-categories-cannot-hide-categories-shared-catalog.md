@@ -45,4 +45,4 @@ The issue is going to be fixed in the scope of version 2.4.4, and merchants shou
 
 ## Related reading
 
-* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360048176832) in our knowledge base.
+* [Best practice Adobe Commerce number of categories limits](https://support.magento.com/hc/en-us/articles/360048176832) in our support knowledge base.
