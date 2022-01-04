@@ -46,7 +46,7 @@ When you selected attribute mappings for your Adult-Only products, you may have 
 
 During onboarding, you need to [claim and verify](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/url-verify.html) your site URL with your new or reused Google Merchant Center (GMC) account. If the URL was claimed in another GMC account, you need to unclaim it to reclaim the URL in Google Shopping ads. When verifying and claiming your URL, Adobe Commerce attempts the claim process up to five times within an hour after submission. If the URL is not claimed within five attempts, Adobe Commerce provides a notification with more information.
 
-We recommend reviewing Google's [Verify and claim your website URL](https://support.google.com/merchants/answer/176793?hl=en). The URL could be claimed by another GMC account, or parent account. Or another GMC account received verification before this account. We recommend using administrative Google and GMC accounts for Google Shopping ads.
+We recommend reviewing Google's [Verify and claim your website URL](https://support.google.com/merchants/answer/176793?hl=en). The URL could be claimed by another GMC account or parent account. Or another GMC account received verification before this account. We recommend using administrative Google and GMC accounts for Google Shopping ads.
 
 If you are reusing a GMC account, see [Unlinking Existing GMC Account](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/gmc-unlink-gmc.html) in our user guide. This process walks through removing claimed URLs from an account.
 
