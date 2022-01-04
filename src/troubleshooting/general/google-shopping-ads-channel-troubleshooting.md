@@ -64,7 +64,7 @@ Review the following articles and information for [resolving your product disapp
 * Ensure your products' prices and availability (in or out of stock) match in your online storefront and GMC account. The quantity can differ and does not affect approval. Google uses the Adobe Commerce Regular Price and Special Price. See Google's [Troubleshooter: Preemptive product disapproval (price and availability)](https://support.google.com/merchants/answer/7334523).
 * Consider not selling products that require personalization or customization during checkout. See Google's [Troubleshooter: Personalized goods](https://support.google.com/merchants/answer/7553527).
 * Determine if your products require a GTIN or Unique Product Identifier using Google's [decision form](https://support.google.com/merchants/troubleshooter/7540281).
-* Images may not display correctly due to a number of possible issues including lag in updating files, caching of old images after you provide new images, images use unsupported formats (JPG, PNG, GIF are supported), image URLs have changed or are incorrect, redirection issues, file size issues, and a few other possibilities. See Google's [Fix images that aren't displaying](https://support.google.com/merchants/answer/160640).
+* Images may not display correctly due to a number of possible issues, including a lag in updating files, caching of old images after you provide new images, images using unsupported formats (JPG, PNG, GIF are supported), image URLs have changed or are incorrect, redirection issues, file size issues, and a few other possibilities. See Google's [Fix images that aren't displaying](https://support.google.com/merchants/answer/160640).
 
 ### Q: How can I resolve account disapprovals?
 
