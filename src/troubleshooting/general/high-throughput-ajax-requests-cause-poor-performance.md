@@ -20,7 +20,7 @@ The site experiences a slow performance due to high throughput requests, like cr
 
 ### Cause
 
-High throughput AJAX requests include those related to customer private content.
+High throughput AJAX requests include those related to customers' private content.
 
 ### Solution
 
