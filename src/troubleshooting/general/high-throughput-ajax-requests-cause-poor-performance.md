@@ -27,7 +27,7 @@ High throughput AJAX requests include those related to customer private content.
 There are three solutions:
 
 * [Upgrade to version 2.3.4](https://devdocs.magento.com/cloud/project/project-upgrade.html). If this is not currently possible, [install the patch fixing the issue](https://support.magento.com/hc/en-us/articles/360041095391-Performance-issues-caused-by-excessive-Ajax-requests-).
-* Ensure lighter requests (cache requests or move to customer private content).
+* Ensure lighter requests (cache requests or move to customers' private content).
 * Reduce the number of requests.
 
 <span class="wysiwyg-underline">Ensure lighter requests (cache requests or move to customer private content)</span>
