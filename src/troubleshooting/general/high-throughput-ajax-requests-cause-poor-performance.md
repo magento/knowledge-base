@@ -3,7 +3,7 @@ title: High throughput AJAX requests cause poor performance
 labels: 2.2.x,2.3.x,troubleshooting,AJAX requests,Adobe Commerce,cloud infrastructure,on-premises,high throughput,how to,slow performance
 ---
 
-This article provides a solution for performance issues with Adobe Commerce on-premises or Adobe Commerce on cloud infrastructure site due to some high throughput requests causing significant server load and traffic.
+This article provides a solution for performance issues with Adobe Commerce on-premises or Adobe Commerce on cloud infrastructure sites due to some high throughput requests causing significant server load and traffic.
 
 ## Affected products and versions
 
