@@ -26,7 +26,7 @@ This article provides a workaround for a known issue in Admin for a missing **Re
 1. Go to **Admin > Sales > Orders**.
 1. Open the order.
 1. Create Invoice for product.
-1. Go to **Invoices > Select invoice >** Click **Credit Memo** > Click **Refund** (Not **Refund Offline** ).
+1. Go to **Invoices** > **Select invoice** > Click **Credit Memo** > Click **Refund** (Not **Refund Offline**).
 1. Go to Klarna portal.
 1. Open the order.
 1. The **Refund** label is present.
