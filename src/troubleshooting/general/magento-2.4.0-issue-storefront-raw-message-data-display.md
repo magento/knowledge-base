@@ -27,13 +27,13 @@ The issue is caused by a PHP 7.4.2 issue related to set\\read cookies. See [PHP 
 
 To solve this issue, use another version of PHP 7.4.x. PHP 7.4.2 is not supported by Adobe Commerce 2.4.0.
 
-## Related reading
+## Related readings in our support knowledge base:
 
-<ul><li><a href="https://support.magento.com/hc/en-us/articles/360046354992-Magento-2-4-0-known-issue-Braintree-payment-methods-do-not-show-up-in-Multiple-Addresses-checkout">Adobe Commerce 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout</a> in our support knowledge base.
+<ul><li><a href="https://support.magento.com/hc/en-us/articles/360046354992-Magento-2-4-0-known-issue-Braintree-payment-methods-do-not-show-up-in-Multiple-Addresses-checkout">Adobe Commerce 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout</a>
 </li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360046750171-Shipping-labels-creation-known-issue-in-Magento-2-4-0">Shipping labels creation known issue in Adobe Commerce 2.4.0</a> in our support knowledge base.</li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360046091332-Magento-2-4-0-known-issue-refresh-on-Customer-s-Activities-does-not-work">Adobe Commerce 2.4.0 known issue - refresh on Customer's Activities does not work</a> in our support knowlegde base.</li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360045850032">Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work</a> in our support knowledge base.</li>
-<li><a href="https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-known-issue-Add-selections-to-my-cart-button-does-not-work">Adobe Commerce 2.4.0 known issue: “Add selections to my cart” button does not work</a> in our support knowledge base.</li>
+<li><a href="https://support.magento.com/hc/en-us/articles/360046750171-Shipping-labels-creation-known-issue-in-Magento-2-4-0">Shipping labels creation known issue in Adobe Commerce 2.4.0</a> </li>
+<li><a href="https://support.magento.com/hc/en-us/articles/360046091332-Magento-2-4-0-known-issue-refresh-on-Customer-s-Activities-does-not-work">Adobe Commerce 2.4.0 known issue - refresh on Customer's Activities does not work</a> </li>
+<li><a href="https://support.magento.com/hc/en-us/articles/360045850032">Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work</a></li>
+<li><a href="https://support.magento.com/hc/en-us/articles/360045838312-Magento-2-4-0-known-issue-Add-selections-to-my-cart-button-does-not-work">Adobe Commerce 2.4.0 known issue: “Add selections to my cart” button does not work</a></li>
 <div> </div>
 </li></ul>
