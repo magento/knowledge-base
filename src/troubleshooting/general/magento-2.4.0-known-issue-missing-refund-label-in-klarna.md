@@ -23,7 +23,7 @@ This article provides a workaround for a known issue in Admin for a missing **Re
 1. Navigate to checkout.
 1. Input consumer information into checkout and click **Next**.
 1. Select **KP option** and click **Place Order**.
-1. Go to **Admin > Sales > Orders**.
+1. Go to **Admin** > **Sales** > **Orders**.
 1. Open the order.
 1. Create Invoice for product.
 1. Go to **Invoices** > **Select invoice** > Click **Credit Memo** > Click **Refund** (Not **Refund Offline**).
