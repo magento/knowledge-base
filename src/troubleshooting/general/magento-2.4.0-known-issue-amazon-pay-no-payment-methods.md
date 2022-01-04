@@ -18,7 +18,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure v2.3.5.p1 
 1. Click **Return to standard checkout**.
 1. Proceed to the checkout.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <span class="wysiwyg-underline">Expected results:</span>
 
 Payment methods should be displayed after restarting checkout.
 
