@@ -12,7 +12,7 @@ This article provides a workaround for a known issue in Admin for a missing **Re
 
 ## Issue
 
-<span class="wysiwyg-underline">Preconditions</span>
+<span class="wysiwyg-underline">Prerequisites:</span>
 
 * Klarna is enabled.
 * A Bundled product is created.
