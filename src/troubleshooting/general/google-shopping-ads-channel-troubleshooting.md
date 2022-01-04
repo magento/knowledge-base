@@ -84,7 +84,7 @@ If you keep seeing a banner message requiring you to accept an invitation email,
 
 ### Q: Google ads are not running?
 
-If you search for your products and check for ads running on Google, and do not find any results, you may have some issues blocking the ads. For more information on ads, see [Managing Ads Campaigns](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/campaigns-manage.html) in our user guide.
+If you search for your products and check for ads running on Google and do not find any results, you may have some issues blocking the ads. For more information on ads, see [Managing Ads Campaigns](https://docs.magento.com/m2/ee/user_guide/sales-channels/google-ads/campaigns-manage.html) in our user guide.
 
 Check the following:
 
