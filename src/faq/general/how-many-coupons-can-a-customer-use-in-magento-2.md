@@ -9,4 +9,4 @@ To use more that one coupon code in the cart simultaneously, you may consider us
 
 ## More information
 
- [Coupon Codes](http://docs.magento.com/m2/ce/user_guide/marketing/price-rules-cart-coupon.html) in our user guide
+ [Coupon Codes](http://docs.magento.com/m2/ce/user_guide/marketing/price-rules-cart-coupon.html) in our user guide.
