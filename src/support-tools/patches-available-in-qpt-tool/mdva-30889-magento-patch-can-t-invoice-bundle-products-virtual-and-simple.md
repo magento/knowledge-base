@@ -13,7 +13,7 @@ The MDVA-30889 patch solves the issue where an error occurs after invoicing a bu
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1.
+* Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
 >![info]
 >
