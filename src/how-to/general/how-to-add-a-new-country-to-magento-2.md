@@ -268,7 +268,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 ### ExtraCountries/composer.json
 
-This is an example of example of the composer.json file.
+This is an example of the composer.json file.
 
 To find out more about composer.json, see [PHP Developer Guide > The composer.json file](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) in our developer documentation.
 
