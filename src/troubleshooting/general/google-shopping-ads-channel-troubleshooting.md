@@ -21,7 +21,7 @@ Click update to check the extension in your account. You can download and instal
 
 ### Q: My API Key is invalid?
 
-Google Shopping ads requires an API key accessible from your Adobe Commerce web account. If the API key is ever invalid, you can receive an updated key through your Adobe Commerce web account. If the key is invalid, the following screen displays when opening Google Shopping ads.
+Google Shopping ads require an API key accessible from your Adobe Commerce web account. If the API key is ever invalid, you can receive an updated key through your Adobe Commerce web account. If the key is invalid, the following screen displays when opening Google Shopping ads.
 
 ![onboard-apikey-error.png](assets/onboard-apikey-error.png)
 
