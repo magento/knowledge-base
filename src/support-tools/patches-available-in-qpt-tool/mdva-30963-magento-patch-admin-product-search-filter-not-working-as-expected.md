@@ -3,7 +3,7 @@ title: "MDVA-30963: admin product search filter not working as expected"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.8,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,disabled,enabled,product search filter,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-The MDVA-30963 patch solves the issue wherein the Commerce admin and the product search filter do not work as expected. Values that are overridden in a store view scope are also considered when filtering on **All store view** store view scope. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+The MDVA-30963 patch solves the issue wherein the Commerce Admin and the product search filter do not work as expected. Values that are overridden in a store view scope are also considered when filtering on **All store view** store view scope. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
