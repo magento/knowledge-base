@@ -1,28 +1,30 @@
 ---
 title: Site not accessible due to origin cloaking
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,DNS,Fastly,Magento Commerce Cloud,origin,origin cloaking,production,security,troubleshooting
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,DNS,Fastly,Magento Commerce Cloud,origin,origin cloaking,production,security,troubleshooting,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides a solution for when your Magento Commerce Cloud staging or production site store front and/or Admin is not accessible.
+This article provides a solution for when your Adobe Commerce on cloud infrastructure staging or production site storefront and/or Admin is not accessible.
 
 ## Affected products and versions
 
-* Magento Commerce Cloud 2.3.x, 2.4.x
+* Adobe Commerce on cloud infrastructure 2.3.x, 2.4.x
 
 ## Issue
 
 https:&#8203;//mydomain.com.c.&lt;projectid&gt;.magento.cloud/ is no longer accessible.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+<ins>Steps to reproduce:</ins>
 
 1. Log in to your project.
 1. Click **Access Project** for a list of URLs and SSH.
 
- <span class="wysiwyg-underline">Actual results:</span> Page fails to load with the following error:
+<ins>Actual results:</ins>
 
- *NET::ERR\_CERT\_INVALID*  *TLS alert, bad certificate (554):*
+Page fails to load with the following error:
 
- <span class="wysiwyg-underline">Expected results:</span>
+*NET::ERR\_CERT\_INVALID*  *TLS alert, bad certificate (554):*
+
+<ins>Expected results:</ins>
 
 Page loads successfully.
 
@@ -30,13 +32,13 @@ Page loads successfully.
 
 Origin Cloaking has been enabled so the Origin is no longer accessible directly.
 
-Origin cloaking is a security feature that allows Magento Commerce to block any non-Fastly traffic going to the Cloud infrastructure (origin) to prevent DDoS attacks.
+Origin cloaking is a security feature that allows Adobe Commerce to block any non-Fastly traffic going to the cloud infrastructure (origin) to prevent DDoS attacks.
 
 ## Solution
 
-* If your Cloud site is live, switch to https://mydomain.com/.
-* If you have an active site (non-Cloud) using the https://mydomain.com/ domain, set up a subdomain mcprod.mydomain.com  and update your **Base URL** to *https://mcprod.mydomain.com* instead, then [point the DNS to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings) .
+* If your cloud site is live, switch to https://mydomain.com/.
+* If you have an active site (non-cloud), using the https://mydomain.com/ domain, set up a sub-domain `mcprod.mydomain.com`  and update your **Base URL** to *https://mcprod.mydomain.com* instead, then [point the DNS to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
 
 ## Related reading
 
- [Fastly origin cloaking enablement FAQ](https://support.magento.com/hc/en-us/articles/360055181631)
+[Fastly origin cloaking enablement FAQ](https://support.magento.com/hc/en-us/articles/360055181631) in our support knowledge base.
