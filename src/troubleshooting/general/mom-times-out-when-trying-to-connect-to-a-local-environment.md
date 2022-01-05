@@ -1,27 +1,27 @@
 ---
-title: MOM times out when trying to connect to a local environment
-labels: Magento Order Management,timeout,troubleshooting
+title: Magento Order Management System (OMS) for Adobe Commerce times out
+labels: Magento Order Management,timeout,troubleshooting,Adobe Commerce
 ---
 
-This article provides a solution for the Magento Order Management (MOM) issue where you cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback.
+This article provides a solution for the issue where the Magento Order Management System (OMS) for Adobe Commerce cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback.
 
 ## Affected products and versions
 
 * Magento Commerce 2.3.1
-* Magento Order Management
+* OMS
 * ngrok
 
 >![warning]
 >
->Disclaimer: Magento does not recommend or endorse any particular tool for establishing tunnels. The preceding are suggestions only. For more information, consult the [ngrok documentation](https://ngrok.com/docs) .
+>Disclaimer: Adobe Commerce does not recommend or endorse any particular tool for establishing tunnels. The preceding are suggestions only. For more information, consult the [ngrok documentation](https://ngrok.com/docs).
 
 ## Issue
 
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
-1. Install Magento Commerce on your local environment.
+1. Install Adobe Commerce on your local environment.
 1. Setup ngrok to create a tunnel to expose your local server.
-1. Try [connecting to MOM](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/) .
+1. Try [connecting to OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
 
  <span class="wysiwyg-underline">Expected result</span>
 
@@ -43,4 +43,4 @@ Add a parameter specifying your region when starting ngrok. Like the following:
 ./ngrok http 80 -region eu
 ```
 
-The default region is US. See [all possible values](https://ngrok.com/docs#config_region) .
+The default region is US. See [all possible values](https://ngrok.com/docs#config_region).
