@@ -9,7 +9,7 @@ The MDVA-38827 patch fixes the issue where customers receive an order shipment e
 
 **The patch is created for Adobe Commerce version:**
 
-Adobe Commerce on our cloud infrastructure 2.4.2-p1
+Adobe Commerce on cloud infrastructure 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
