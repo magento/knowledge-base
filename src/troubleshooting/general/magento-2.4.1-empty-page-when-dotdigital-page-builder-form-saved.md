@@ -14,7 +14,7 @@ This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for
 
 <span class="wysiwyg-underline">Steps to reproduce</span>
 
-1. Go to **Admin Panel > Content > Pages**, and select **Edit** of any page.
+1. Go to **Admin Panel** > **Content** > **Pages**, and select **Edit** of any page.
 1. Go to **Content** and click on the **Edit with Page Builder** button.
 1. Drag the **dotdigital form** block and select **Edit**.
 1. Select one of the test forms, then pick **Embedded** mode and save the form.
