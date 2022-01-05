@@ -12,7 +12,7 @@ This article describes a known Adobe Commerce 2.4.0 and 2.4.1 issue, where parti
 
 ## Issue
 
-<span class="wysiwyg-underline">Preconditions:</span>
+<span class="wysiwyg-underline">Prerequisites:</span>
 
 In the Braintree payment method configuration, set **Enable Venmo through Braintree** = *Yes* with **Payment Action** = *Authorization*; **Enable Vault for Card Payments** = *No*.
 
