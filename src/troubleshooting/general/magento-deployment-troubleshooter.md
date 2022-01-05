@@ -50,7 +50,7 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-8">Step 8</
 <div id="zd-accordion-7" class="zd-accordion-panel">
 <h5>Step 7</h5>
 <div class="zd-accordion-section">Are cron jobs currently running?</div>
-<p class="zd-accordion-text">a. YES – Log in by ssh on integration branch (e.g. primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run <code>php vendor/bin/ece-tools cron:kill</code> and then <code>php vendor/bin/ece-tools cron:unlock</code>. If you were in process of merging one environment into another, check both environments for running crons.
+<p class="zd-accordion-text">a. YES – Log in by ssh on the integration branch (e.g., primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run <code>php vendor/bin/ece-tools cron:kill</code> and then <code>php vendor/bin/ece-tools cron:unlock</code>. If you were in the process of merging one environment into another, check both environments for running crons.
 
 b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-16">Step 16.</a> </p>
 </div>
