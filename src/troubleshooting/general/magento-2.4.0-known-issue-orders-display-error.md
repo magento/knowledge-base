@@ -12,7 +12,7 @@ This article provides a workaround for a known issue in Adobe Commerce for an or
 
 ## Issue
 
-<span class="wysiwyg-underline">Preconditions</span>
+<span class="wysiwyg-underline">Prerequisites</span>
 
 * Adobe Commerce 2.4.0 is installed.
 * Create at least one category and one simple product.
