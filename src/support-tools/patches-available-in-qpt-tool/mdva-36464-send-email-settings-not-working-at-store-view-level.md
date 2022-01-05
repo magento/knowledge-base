@@ -35,7 +35,7 @@ Install clean Adobe Commerce.
 
 <span class="wysiwyg-underline">Expected results</span>:
 
-Both the **welcome email** and the **reset password email** are sent, as expected, because **Disable Email Communications** = *No* for the 2nd website (Example: *website2* ).
+Both the **welcome email** and the **reset password email** are sent, as expected, because **Disable Email Communications** = *No* for the second website (Example: *website2*).
 
 <span class="wysiwyg-underline">Actual results</span>:
 
