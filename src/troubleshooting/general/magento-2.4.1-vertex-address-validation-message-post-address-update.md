@@ -19,7 +19,7 @@ Enable **Vertex Address Cleansing**. For steps, refer to [Configuring Storefront
 <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Create an account and log in.
-1. Add an item to cart by clicking **Add to Cart.** Click on the Cart icon and then click **Proceed to Checkout.**
+1. Add an item to the cart by clicking **Add to Cart**. Click on the Cart icon and then click **Proceed to Checkout**.
 1. Enter a valid address in the **Shipping Address** field.
 1. Check one of the options under **Shipping Methods**. Then click **Next**.
 1. If the Address Validation suggests different address information, click **Update address** and click **Next**.
