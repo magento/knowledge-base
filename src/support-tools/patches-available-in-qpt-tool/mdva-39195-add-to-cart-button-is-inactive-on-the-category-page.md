@@ -9,11 +9,11 @@ The MDVA-39195 patch solves the issue where the **Add to Cart** button is inacti
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment types) 2.4.2-p1
+* Adobe Commerce (all deployment methods) 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment types) 2.4.2 - 2.4.2-p2
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.2-p2
 
 >![info]
 >
