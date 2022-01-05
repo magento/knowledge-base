@@ -9,7 +9,7 @@ The MDVA-38799 patch solves the issue where downloadable products are not saved 
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce on our cloud infrastructure 2.4.1
+* Adobe Commerce on cloud infrastructure 2.4.1
 
 **Compatible with Adobe Commerce versions:**
 
