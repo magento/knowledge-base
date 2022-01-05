@@ -24,7 +24,7 @@ An error message pops-up and disappears on the Billing step of Checkout if PayPa
 1. Click **Go to Shipping Information** and specify the addresses.
 1. Click **Continue to Billing Information**.
 1. Select **PayPal Braintree** and click the **PayPal** button.
-1. In the pop-up window click **Agree & Pay**.
+1. In the pop-up window, click **Agree & Pay**.
 
 <span class="wysiwyg-underline">Expected result:</span>
 
