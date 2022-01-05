@@ -39,7 +39,7 @@ Amazon.com sign in pop-up appears and you can log in or create a new account for
 The issue might happen in one of the following situations:
 
 * When the `SameSite` cookie value is `LAX`, the cookie will not be sent as part of any third-party calls.
-* Mozilla Firefox content blocking feature prevents third-parties from tracking browser user’s activities by blocking usage of scripts and client-side storage mechanisms. Firefox uses an external vendor Disconnect.me to provide a list of tracking sites to be blocked. Amazon Pay uses an iframe on a third-party website to return an access token after sign-in and render Address and wallet widget. With the content blocking feature, Amazon Pay iframe load requests are considered as third-party tracking requests and get blocked resulting in buyer not able to proceed with checkout.
+* Mozilla Firefox content blocking feature prevents third-parties from tracking browser users’ activities by blocking usage of scripts and client-side storage mechanisms. Firefox uses an external vendor, Disconnect.me to provide a list of tracking sites to be blocked. Amazon Pay uses an iframe on a third-party website to return an access token after sign-in and render Address and wallet widget. With the content blocking feature, Amazon Pay iframe load requests are considered as third-party tracking requests and get blocked, resulting in the buyer not being able to proceed with checkout.
 * Any situation where third-party cookies or JS are being explicitly blocked by the browser.
 
 ## Solution
