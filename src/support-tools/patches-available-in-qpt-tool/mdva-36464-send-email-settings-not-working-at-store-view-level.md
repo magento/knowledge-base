@@ -27,7 +27,7 @@ Install clean Adobe Commerce.
 
 <span class="wysiwyg-underline">Steps to reproduce</span>:
 
-1. Create an additional website, store, and store view (In this Example, the 2nd website is *website2*).
+1. Create an additional website, store, and store view (In this Example, the second website is *website2*).
 1. Disable **Email notification** on the global level in **Store** > **Config** > **Advanced** > **System** > **Mail Sending Settings**.
 1. Enable **Email notification** on the *website2* level (**Disable Email Communications** = *No*).
 1. In Admin, create a new user, and assign it to the *website2*.
