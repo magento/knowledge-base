@@ -10,7 +10,7 @@ Starting Q1 2022, Adobe Commerce is adding support for Elastic Search 7.16 and O
 
  **What is OpenSearch?**  
 
-OpenSearch is a fork based on an old version of ElasticSearch and Kibana. Maintained by AWS instead of Elastic.co. To learn more review GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
+OpenSearch is a fork of ElasticSearch and Kibana. Maintained by AWS instead of Elastic.co. To learn more review GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
 
 **What is the purpose and *benefit* of this change? Does it reduce security risks? Are there cost benefits?**
 
