@@ -12,10 +12,6 @@ Adobe Commerce is adding support for Elastic Search 7.16 and OpenSearch 1.2 in a
 
 OpenSearch is a fork of ElasticSearch and Kibana. Maintained by AWS instead of Elastic.co. To learn more review GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
 
-**What is the purpose and *benefit* of this change? Does it reduce security risks? Are there cost benefits?**
-
-We cannot use ES anymore due to license changes. However, despite these changes the technology being used remains the same.
-
 **Compatibility across versions**
 
 **Will Adobe Commerce on cloud infrastructure support 7.10?**
@@ -23,6 +19,7 @@ We cannot use ES anymore due to license changes. However, despite these changes 
 Yes - starting mid-Jan.
 
 **For Adobe Commerce on-premises, will we skip 7.10 and go straight to 7.16.1?**
+
 
 7.10 should already work there but 7.16.1 is the only non-vulnerable release after Log4j, so we recommend 7.16.1.
 
