@@ -18,10 +18,7 @@ OpenSearch is a fork of ElasticSearch and Kibana. Maintained by AWS instead of E
 
 Yes - starting mid-Jan.
 
-**For Adobe Commerce on-premises, will we skip 7.10 and go straight to 7.16.1?**
-
-
-7.10 should already work there but 7.16.1 is the only non-vulnerable release after Log4j, so we recommend 7.16.1.
+**For Adobe Commerce on-premises the latest 7.16.x version is recommended to mitigate Log4j**.
 
 **Migration**
 
