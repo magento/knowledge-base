@@ -3,7 +3,7 @@ title: "MBI Training Video: Filter Sets"
 labels: MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
 ---
 
-<iframe></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/32f0a2ufdq" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Do you want to analyze only certain pieces of your business data? Tired of manually cleaning things up? In Magento BI, you can use the filter sets feature to simplify this process.
 
