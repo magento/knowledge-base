@@ -92,6 +92,6 @@ Adobe Commerce on-cloud infrastructure</td>
 
 ## Blogs and communications
 
-* Magento security center (security updates and patches):<https://magento.com/security/news>>>
-* Magento Community Developer Blog (how to's, best practices and Magento technical news from Magento community):<<<FLOATING LINK: https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog>>>
-* Magento Blog (high level e-commerce):<<<FLOATING LINK: https://magento.com/blog>
+* Magento security center (security updates and patches): [https://magento.com/security/news](https://magento.com/security/news)
+* Magento Community Developer Blog (how to's, best practices and technical news from the community): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
+* Magento Blog (high level e-commerce):[https://magento.com/blog](https://magento.com/blog)
