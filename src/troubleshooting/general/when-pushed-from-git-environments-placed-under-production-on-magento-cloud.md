@@ -33,13 +33,13 @@ The new branch was created under the production branch.
 
 ## Cause
 
-This is not a bug. For setting a parent branch for another branch, the merchant should use the Adobe Commerce-Cloud CLI.
+This is not a bug. For setting a parent branch for another branch, the merchant should use the magento-cloud CLI.
 
 ## Solution
 
 A parent branch can only be set after the merchant has pushed a newly created branch and activated it. Refer to [Adobe Commerce on cloud infrastructure > Bitbucket integration](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) in our developer documentation.
 
-To update a parent for the existing branch on the server, please use the `magento-cloud environment:info` command in the Adobe Commerce-Cloud CLI.
+To update a parent for the existing branch on the server, please use the `magento-cloud environment:info` command in the magento-cloud CLI.
 
 Example of usage:
 
@@ -49,4 +49,4 @@ This will set the parent branch to "Staging" for the currently checked out branc
 
 ## Related reading
 
-* [Adobe Commerce on cloud infrastructure > Adobe Commerce-Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in our developer documentation.
+* [Adobe Commerce on cloud infrastructure > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in our developer documentation.
