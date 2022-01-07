@@ -7,7 +7,7 @@ MDVA-29959 patch available in the [Quality Patches Tool (QPT)](https://support.m
 
 ## Affected products and versions
 
-B2B for Adobe Commerce 2.3.0-2.3.3-p1.
+B2B for Adobe Commerce on cloud infrastructure 2.3.0-2.3.3-p1.
 
 >![info]
 >
