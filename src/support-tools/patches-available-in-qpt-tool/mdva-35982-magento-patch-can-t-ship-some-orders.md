@@ -37,7 +37,7 @@ The shipment is created.
 
 <ins>Actual results</ins>:
 
-Following error is displayed:
+The following error is displayed:
 
  `"0":"Notice: Undefined offset: XX in \/vendor\/magento\/module-catalog\/Model\/Product\/Attribute\/Backend\/GroupPrice\/AbstractGroupPrice.php on line 290"`
 
