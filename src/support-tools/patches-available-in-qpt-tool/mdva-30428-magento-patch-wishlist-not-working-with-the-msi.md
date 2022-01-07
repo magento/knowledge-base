@@ -1,5 +1,5 @@
 ---
-title: "MDVA-30428: wishlist not working with the MSI"
+title: "MDVA-30428: wishlist not working with Inventory Management"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.4,2.4.0,2.4.1,Inventory,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,wishlist,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
