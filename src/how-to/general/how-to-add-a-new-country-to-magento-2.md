@@ -11,7 +11,7 @@ In this example, we create a new Adobe Commerce module with a data patch which i
 
 You must be familiar with Adobe Commerce module development in order to create a new one.
 
-Please refer to the following topics in our developer documentation before attempting to create a new Adobe Commerce module:
+Please refer to the following topics in our developer documentation before attempting to create a new module:
 
 * [PHP Developer Guide](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)  
 * [Module overview](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
