@@ -1,6 +1,6 @@
 ---
 title: Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
-labels: 2.4.4,Adobe Commerce,cloud infrastructure,announcements,Elasticsearch 7.10,End of Life,Opensearch 1.2.x
+labels: 2.4.4,Adobe Commerce,cloud infrastructure,announcements,Elasticsearch 7.10,End of Life,Opensearch 1.2.x,om-premises
 promoted: True
 ---
 
