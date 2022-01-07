@@ -18,7 +18,7 @@ OpenSearch is a fork of ElasticSearch and Kibana. Maintained by AWS instead of E
 
 Yes - starting mid-Jan.
 
-**For Adobe Commerce on-premises the latest 7.16.x version is recommended to mitigate Log4j**.
+For Adobe Commerce on-premises the latest 7.16.x version is recommended to mitigate Log4j.
 
 **Migration**
 
