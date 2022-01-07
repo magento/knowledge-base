@@ -12,7 +12,7 @@ There are also separate troubleshooting resources for:
 * Adobe Commerce learning: [https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
 * Solution Partners: [https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
 * Tech Partners: [https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
-* Commerce Marketplace:[https://marketplacesupport.magento.com/hc/en-us](https://marketplacesupport.magento.com/hc/en-us)
+* Commerce Marketplace: [https://marketplacesupport.magento.com/hc/en-us](https://marketplacesupport.magento.com/hc/en-us)
 
 If you are looking for technical or end-user documentation, please use one of the following links:
 
