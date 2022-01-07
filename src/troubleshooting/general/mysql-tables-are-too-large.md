@@ -5,7 +5,7 @@ labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,MySQL,how to,large tables,
 
 This article discusses why it is an issue when any MySQL table gets larger than 1 GB and how to prevent this.
 
-Affected products and versions:
+## Affected products and versions:
 
 * Adobe Commerce on cloud infrastructure  2.x.x
 * Adobe Commerce on-premises 2.x.x
