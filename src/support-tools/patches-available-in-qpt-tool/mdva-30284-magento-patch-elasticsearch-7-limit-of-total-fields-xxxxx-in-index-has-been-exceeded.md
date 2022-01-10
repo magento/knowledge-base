@@ -1,14 +1,14 @@
 ---
-title: "MDVA-30284 Magento Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded"
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Elasticsearch problem,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,index,products,support tools
+title: "MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded"
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Elasticsearch problem,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,index,products,support tools,Adobe Commerce,cloud infrastructure
 ---
 
-The MDVA-30284 patch solves the issue where you receive an error message that "Limit of total fields \[XXXXX\] in index has been exceeded" when using Elasticsearch 7. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed.
+The MDVA-30284 patch solves the issue where you receive an error message that "Limit of total fields \[XXXXX\] in index has been exceeded" when using Elasticsearch 7. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.5 is installed. The patch ID is MDVA-30284.
 
 ## Affected products and versions
 
-* The patch was designed for Magento Commerce Cloud 2.3.5-p2.
-* Elasticsearch 7 is only compatible with Magento 2.3.5 and 2.4.x.
+* The patch was designed for Adobe Commerce on cloud infrastructure 2.3.5-p2
+* Elasticsearch 7 is compatible with Adobe Commerce 2.3.5 and 2.4.x
 
 >![info]
 >
@@ -16,9 +16,9 @@ The MDVA-30284 patch solves the issue where you receive an error message that "L
 
 ## Issue
 
-The Elasticsearch fields limit is wrong resulting in the following error when executing \[catalogsearch\_fulltext \] indexer:
+The Elasticsearch fields limit is wrong resulting in the following error when executing \[catalogsearch\_fulltext\] indexer:
 
-<pre>Limit of total fields [xxx] in index [xxxxxx] has been exceeded</pre>
+*Limit of total fields [xxx] in index [xxxxxx] has been exceeded*
 
 This issue occurs when you have a large number of product attributes. The issue is triggered by the way Elasticsearch calculates the field count. Sometimes when there are attributes that have fields assigned to them these fields will index as separate indexers. This results in the limit having been exceeded warning.
 
@@ -42,24 +42,24 @@ All products are available in the Elasticsearch index.
 
 1. Elasticsearch error:
 
- `{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
+    *{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
   of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
-  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}`
+  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}*
 
 1. New product was not indexed.
 
 ## Apply the patch
 
-To apply individual patches use the following links depending on your Magento product:
+To apply individual patches, use the following links depending on your deployment method:
 
-* Magento Commerce: DevDocs [Apply patches using Quality Patches Tool](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
-* Magento Commerce Cloud: DevDocs [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
+* Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
+For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
