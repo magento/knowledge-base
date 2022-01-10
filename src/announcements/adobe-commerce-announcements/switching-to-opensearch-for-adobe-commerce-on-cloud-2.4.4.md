@@ -10,7 +10,7 @@ Adobe Commerce on-premises is adding support for ElasticSearch 7.16 and OpenSear
 
  **What is OpenSearch?**  
 
-OpenSearch is a fork of ElasticSearch and Kibana. Maintained by AWS instead of Elastic.co. To learn more review GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
+OpenSearch is a fork of ElasticSearch and Kibana. Maintained by AWS instead of Elastic.co. To learn more, review GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
 
 **Compatibility across versions:**
 
