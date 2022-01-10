@@ -8,7 +8,7 @@ The MDVA-30284 patch solves the issue where you receive an error message that "L
 ## Affected products and versions
 
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.3.5-p2
-* Elasticsearch 7 is only compatible with Adobe Commerce 2.3.5 and 2.4.x.
+* Elasticsearch 7 is compatible with Adobe Commerce 2.3.5 and 2.4.x
 
 >![info]
 >
