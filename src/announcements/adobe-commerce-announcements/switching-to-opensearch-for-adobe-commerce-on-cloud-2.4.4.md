@@ -28,5 +28,4 @@ After Adobe Commerce 2.4.4.
 
 **What can merchants (Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises) who are not on 2.4.4 do? Can they upgrade to a supported version of Elasticsearch (7.10, 7.16.1) or to OpenSearch? Do they have to be on the latest supported version to do so (like 2.3.7-p2, 2.4.3-p1)?**
 
- If the Adobe Commerce core version they are on supports Elasticsearch 7.10 – they can use it. Review [System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) in our developer documentation for version compatibility. Adobe partners can sign up for our beta program [here](https://github.com/magento-commerce/knowledge-base/pull/1036#:~:text=linking%20directly%20to-,devdocs,-instead.%20The%20repo) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.
-
+ If the Adobe Commerce core version they are on supports Elasticsearch 7.10 – they can use it. Review [System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) in our developer documentation for version compatibility. Adobe partners can sign up for our beta program [here](https://devdocs.magento.com/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.
