@@ -7,7 +7,7 @@ This article provides a solution for the issue where the Magento Order Managemen
 
 ## Affected products and versions
 
-* Magento Commerce 2.3.1
+* Adobe Commerce 2.3.1
 * OMS
 * ngrok
 
