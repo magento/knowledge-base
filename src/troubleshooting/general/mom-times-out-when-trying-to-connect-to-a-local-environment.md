@@ -20,7 +20,7 @@ This article provides a solution for the issue where the Magento Order Managemen
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
 1. Install Adobe Commerce on your local environment.
-1. Setup ngrok to create a tunnel to expose your local server.
+1. Set up ngrok to create a tunnel to expose your local server.
 1. Try [connecting to OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
 
  <span class="wysiwyg-underline">Expected result</span>
