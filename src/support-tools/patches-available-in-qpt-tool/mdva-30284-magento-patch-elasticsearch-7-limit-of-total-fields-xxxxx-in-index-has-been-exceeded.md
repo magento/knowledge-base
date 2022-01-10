@@ -16,7 +16,7 @@ The MDVA-30284 patch solves the issue where you receive an error message that "L
 
 ## Issue
 
-The Elasticsearch fields limit is wrong resulting in the following error when executing \[catalogsearch\_fulltext \] indexer:
+The Elasticsearch fields limit is wrong resulting in the following error when executing \[catalogsearch\_fulltext\] indexer:
 
 *Limit of total fields [xxx] in index [xxxxxx] has been exceeded*
 
