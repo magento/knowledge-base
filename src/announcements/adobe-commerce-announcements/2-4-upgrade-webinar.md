@@ -8,7 +8,7 @@ On January 26, 2022 join the live online Adobe Commerce upgrade technical worksh
 
 The workshop is organized by the Adobe Commerce Strategy Team and the global customer experience and commerce agency LiveArea (a Merkle Company).
 
-We will walk through the recommended steps to upgrade from Adobe Commerce 2.3 to 2.4 (any deployment methods), upgrade best practices, and the tools to optimize your Commerce sites – keeping your total cost of ownership down and helping you deliver best-in-class experiences to your customers. 
+We will walk through the recommended steps to upgrade from Adobe Commerce 2.3 to 2.4, upgrade best practices, and the tools to optimize your Commerce sites – keeping your total cost of ownership down and helping you deliver best-in-class experiences to your customers. Relevant for both, cloud and on-premises customers.
 
 Upgrading the Adobe Commerce platform regularly is critical to keeping your Commerce stores secure, reliable, and high performing. Running an outdated version of Adobe Commerce can leave the store vulnerable to security breaches and performance latency, which can result in reduced conversions and sales for your e-commerce business. This workshop will support your technical resources by providing you with knowledge essentials and how-to guides related to a 2.3 to 2.4 upgrade - including a live upgrade walkthrough!
 
