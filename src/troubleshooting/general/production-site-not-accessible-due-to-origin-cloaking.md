@@ -30,7 +30,7 @@ Page loads successfully.
 
 ## Cause
 
-Origin Cloaking has been enabled so the Origin is no longer accessible directly.
+Origin Cloaking has been enabled, so the origin is no longer accessible directly.
 
 Origin cloaking is a security feature that allows Adobe Commerce to block any non-Fastly traffic going to the cloud infrastructure (origin) to prevent DDoS attacks.
 
