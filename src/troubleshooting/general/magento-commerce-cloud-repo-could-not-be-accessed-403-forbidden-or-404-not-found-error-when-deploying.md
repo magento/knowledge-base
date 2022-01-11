@@ -1,6 +1,6 @@
 ---
 title: "Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying"
-labels: "2.2.x,2.3.x,Magento Commerce Cloud,URL could not be accessed:HTTP/1.1 403 Forbidden,access,Adobe Commerce,cloud infrastructure,on-premises,key,authentication,deployment error,how to,update"
+labels: "2.2.x,2.3.x,Magento Commerce Cloud,URL could not be accessed:HTTP/1.1 403 Forbidden,access,Adobe Commerce,cloud infrastructure,key,authentication,deployment error,how to,update"
 ---
 
 This article discusses how to resolve the Adobe Commerce on cloud infrastructure failed deployment error similar to the following:
