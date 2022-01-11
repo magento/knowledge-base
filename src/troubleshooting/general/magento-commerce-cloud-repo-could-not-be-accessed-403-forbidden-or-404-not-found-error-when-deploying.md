@@ -50,7 +50,7 @@ Take the following steps to solve the issue with the authorization keys (see the
 
 1. Obtain the valid authorization keys (skip this if you are absolutely sure your key is valid).
 1. Add the keys value in the `env:COMPOSER_AUTH` variable (or make sure that the correct value is there) and check if the keys are specified consistently in the variable and the `auth.json` file in the project root.
-1. Update or delete `auth.json` , to have a single place where the key is configured, if the authorization keys values are not specified or have an other value.
+1. Update or delete `auth.json`, to have a single place where the key is configured, if the authorization keys values are not specified or have an other value.
 
 ### 1. Obtain valid authorization keys
 
