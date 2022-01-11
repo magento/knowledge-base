@@ -37,7 +37,7 @@ Origin cloaking is a security feature that allows Adobe Commerce to block any no
 ## Solution
 
 * If your cloud site is live, switch to https://mydomain.com/.
-* If you have an active site (non-cloud), using the https://mydomain.com/ domain, set up a sub-domain `mcprod.mydomain.com`  and update your **Base URL** to *https://mcprod.mydomain.com* instead, then [point the DNS to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* If you have an active site (non-cloud), using the https://mydomain.com/ domain, set up a sub-domain `mcprod.mydomain.com` and update your **Base URL** to *https://mcprod.mydomain.com* instead, then [point the DNS to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
 
 ## Related reading
 
