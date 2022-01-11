@@ -26,7 +26,7 @@ Storefront pages are displayed as usual.
 
 ## Cause
 
-Pages are still cached so the maintenance page does not show.
+Pages are still cached, so the maintenance page does not show.
 
 ## Solution to site visible despite being in maintenance mode
 
