@@ -7,7 +7,7 @@ This article provides a potential solution for missing data from your Segment in
 
 All data collected by Segment is sent to Magento Business Intelligence (formerly RJMetrics) by default, but if individual snippets on your site specify which integrations data should be sent to, then these settings will be overridden. This will result in only some of your data being sent to your data warehouse.
 
- If you use [selective integration snippets](https://segment.com/docs/libraries/analytics.js/#selecting-integrations), you'll need to add 'RJMetrics' to the list of integrations before data will flow to your data warehouse.
+ If you use [selective integration snippets](https://segment.com/docs/libraries/analytics.js/#selecting-integrations), you'll need to add `RJMetrics` to the list of integrations before data will flow to your data warehouse.
 
 Here's an example of a snippet that sends data to RJMetrics, Mixpanel, and KISSMetrics only:
 
@@ -22,4 +22,4 @@ Here's an example of a snippet that sends data to RJMetrics, Mixpanel, and KISSM
 });
 ```
 
-Make sure you enter 'RJMetrics' exactly as it appears in the example above.
+Make sure you enter `RJMetrics` exactly as it appears in the example above.
