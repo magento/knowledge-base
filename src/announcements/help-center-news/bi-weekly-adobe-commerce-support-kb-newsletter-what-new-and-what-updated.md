@@ -26,4 +26,4 @@ Please click to get familiar with the article, give links to clients whenever ap
 
 ## UPDATED
 
-1. [Slow performance due to non-cacheable pages](https://support.magento.com/hc/en-us/articles/360039145192): added a note about the new SWAT allowing to automatically check if Full Page Cache is not configured correctly.
+1. [Slow performance due to non-cacheable pages](https://support.magento.com/hc/en-us/articles/360039145192): added a note about the new SWAT check allowing to automatically check if Full Page Cache is not configured correctly.
