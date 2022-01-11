@@ -73,7 +73,7 @@ Follow these best practices for effective troubleshooting of Adobe Commerce on c
 <tr>
 <td style="width: 179px;">Resource Issues</td>
 <td style="width: 523px;">
-<strong>Monitor available memory and space, and optimize storage.</strong> You may have available space prior to an action that consumes significant resources (deployment for example). Poor optimization of file storage, (too many large rich images, for example) can also contribute to insufficient space. Low resources cause performance issues, site down, stuck deployments, and deployment failures.</td>
+<strong>Monitor available memory and space and optimize storage.</strong> You may have available space prior to an action that consumes significant resources (deployment, for example). Poor optimization of file storage (too many large, rich images, for example) can also contribute to insufficient space. Low resources cause performance issues, site down, stuck deployments, and deployment failures.</td>
 <td>
 <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html">Manage disk space</a> in our developer documentation; <a href="https://support.magento.com/hc/en-us/articles/360034626052">File storage low/exhausted, specific page loads are slow</a> in our support knowledge base.
 </td>
