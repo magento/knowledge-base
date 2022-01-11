@@ -50,7 +50,7 @@ Follow these best practices for effective troubleshooting of Adobe Commerce on c
 <td style="width: 523px;">
 <strong>Database issues cause deployment</strong> (post hook issues),<strong> performance and site down situations</strong>. Many involve errors or insufficient database space allocation.</td>
 <td style="width: 327px;">
-<a href="https://mariadb.com/kb/en/library/mariadb-error-codes/#mariadb-specific-error-codes">MariaDB Error Codes;</a> <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=database%20space">Manage Storage Space, including database</a> in developer documentation.
+<a href="https://mariadb.com/kb/en/library/mariadb-error-codes/#mariadb-specific-error-codes">MariaDB Error Codes;</a> <a href="https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=database%20space">Manage Storage Space, including database</a> in our developer documentation.
 </td>
 </tr>
 <tr>
