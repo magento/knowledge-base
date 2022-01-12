@@ -1,9 +1,9 @@
 ---
-title: Troubleshoot performance using New Relic on Magento Commerce
-labels: Apdex,CPU,Magento Commerce Cloud,New Relic,New Relic APM,New Relic Infrastructure,New Relic Magento,New Relic performance,how to,performance
+title: Troubleshoot performance using New Relic on Adobe Commerce
+labels: Apdex,CPU,Magento Commerce Cloud,New Relic,New Relic APM,New Relic Infrastructure,New Relic Magento,New Relic performance,how to,performance,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides troubleshooting steps to solve Magento Commerce Cloud performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps:
+This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps:
 
 * [Low Apdex score](https://support.magento.com/hc/en-us/articles/360042149832#low_user_satisfaction)
 * [High CPU usage](https://support.magento.com/hc/en-us/articles/360042149832#high_cpu_usage)
@@ -50,7 +50,7 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 </ol>
 </td>
 <td>
-<p>To learn more about New Relic Apdex score, refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. You may also refer to <a href="https://support.magento.com/hc/en-us/articles/360046422091-Managed-alerts-for-Magento-Commerce-Apdex-warning-alert">Managed alerts for Magento Commerce: Apdex warning alert</a>.</p>
+<p>To learn more about New Relic Apdex score, refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. You may also refer to <a href="https://support.magento.com/hc/en-us/articles/360046422091-Managed-alerts-for-Magento-Commerce-Apdex-warning-alert">Managed alerts for Adobe Commerce: Apdex warning alert</a> in our support knowledge base.</p>
 </td>
 </tr>
 <tr>
@@ -112,8 +112,10 @@ This article provides troubleshooting steps to solve Magento Commerce Cloud perf
 <ol>
 <li>On the APM page, go to Monitoring > Databases.</li>
 <li>Sort by Most time-consuming.</li>
-<li>Review TOP queries. Note: <code>UPDATE</code> or <code>INSERT</code>queries are the most CPU-consuming queries.</li>
-<li>Switch to Throughput from Sort By selector and look for processes that have caused the database throughput to drop-down.</li>
+<li>Review TOP queries.
+
+Note: <code>UPDATE</code> or <code>INSERT</code>queries are the most CPU-consuming queries.</li>
+<li>Switch to Throughput from Sort by selector and look for processes that have caused the database throughput to drop-down.</li>
 <li>If you need to investigate further, consider examining third-party services.</li>
 </ol>
 <p>Third-party services:</p>
