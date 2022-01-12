@@ -1,13 +1,13 @@
 ---
 title: Extension Manager shows no extensions in Adobe Commerce 2.3.x
-labels: 2.3.x,Magento Commerce,command line,extension manager,extensions,known issues,marketplace
+labels: 2.3.x,Magento Commerce,command line,extension manager,extensions,known issues,marketplace,cloud infrastructure,on-premises,Adobe Commerce
 ---
 
 This article provides a workaround for missing extensions in the Admin Extension Manager in Adobe Commerce 2.3.x after you purchase extensions via the Commerce Marketplace.
 
 ## Affected products and versions
 
-* Adobe Commerce version 2.3.x
+* Adobe Commerce version (all deloyment methods) 2.3.x
 
 ## Issue
 
