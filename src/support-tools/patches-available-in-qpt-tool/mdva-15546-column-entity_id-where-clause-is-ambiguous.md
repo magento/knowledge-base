@@ -23,23 +23,23 @@ Adobe Commerce on cloud infrastructure 2.3.0 - 2.4.2
 
 Performance issues that may be related to some Amazon extensions.
 
-<ins>Prerequisites:</ins>
+<ins>Prerequisites</ins>:
 
 Clean Adobe Commerce with B2B and Amazon\_Payment.
 
-<ins>Steps to reproduce:</ins>
+<ins>Steps to reproduce</ins>:
 
 1. Go to the storefront page.
 1. Add product to the cart.
 1. Wait or trigger the cron job `flush_preview_quotas`.
 
-<ins>Actual result:</ins>
+<ins>Actual result</ins>:
 
 When you check `var/log/exception/log`, you see following error:
 
  *`report.ERROR: Cron Jobflush_preview_quotashas an error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'entity_id' in where clause is ambiguous, query was: SELECT `main_table`.*, `extension_attribute_amazon_order_reference_id`.`amazon_order_reference_id` AS `extension_attribute_amazon_order_reference_id_amazon_order_reference_id`, `extension_attribute_amazon_order_reference_id`.`quote_id` AS `extension_attribute_amazon_order_reference_id_quote_id`, `extension_attribute_amazon_order_reference_id`.` sandbox_simulation_reference` AS `extension_attribute_amazon_order_reference_id_sandbox_simulation_reference`, `extension_attribute_amazon_order_reference_id`.`confirmed` AS `extension_attribute_amazon_order_reference_id_confirmed` FROM `quote` AS `main_table` LEFT JOIN `amazon_quote` AS `extension_attribute_amazon_order_reference_id` ON main_table.entity_id = extension_attribute_amazon_order_reference_id.quote_id WHERE ...`*
 
-<ins>Expected result:</ins>
+<ins>Expected result</ins>:
 
 Cron Job completes without errors.
 
