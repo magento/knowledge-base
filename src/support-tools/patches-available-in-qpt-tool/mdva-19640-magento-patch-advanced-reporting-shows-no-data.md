@@ -21,16 +21,16 @@ Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2
 
 ## Issue
 
-<ins>Steps to reproduce:</sins>
+<ins>Steps to reproduce</sins>:
 
 1. In the Admin, go to **Reports > Business Intelligence** and select **Advanced Reporting**.
 1. View the **Advanced Reporting** page.
 
-<ins>Expected results:</ins>
+<ins>Expected results</ins>:
 
 The Advanced Reporting report contains information, as expected.
 
-<ins>Actual results:</ins>
+<ins>Actual results</ins>:
 
 The Advanced Reporting report shows no data.
 
