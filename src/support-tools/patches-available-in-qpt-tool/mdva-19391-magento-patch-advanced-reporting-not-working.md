@@ -1,6 +1,6 @@
 ---
 title: "MDVA-19391: Advanced Reporting not working"
-labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,404 error,Advanced Reporting,QPT 1.0.13,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PageBuilderAnalytics module
+labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,404 error,Advanced Reporting,QPT 1.0.13,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PageBuilderAnalytics module,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 The MDVA-19391 patch solves the issue when an error in the PageBuilderAnalytics module prevents use of Advanced Reporting. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note there is currently no solution in Adobe Commerce planned besides this patch.
