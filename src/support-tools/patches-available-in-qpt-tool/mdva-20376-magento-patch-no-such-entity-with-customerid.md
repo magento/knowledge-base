@@ -23,17 +23,17 @@ Adobe Commerce (all deployment methods) 2.3.2 - 2.3.3-p1
 
 logged-in customers receive *No such entity with customerId = 1* error after order placement.
 
-<ins>Steps to reproduce:</ins>
+<ins>Steps to reproduce</ins>:
 
 1. Navigate to the storefront, and log in as a registered user.
 1. Place an order.
 1. In the CLI, go to `var/log` and you will see the `exception.log` file.
 
-<ins>Expected results:</ins>
+<ins>Expected results</ins>:
 
 No errors should appear in the logs, as expected.
 
-<ins>Actual results:</ins>
+<ins>Actual results</ins>:
 
 The exception log fills up with errors similar to:
 
