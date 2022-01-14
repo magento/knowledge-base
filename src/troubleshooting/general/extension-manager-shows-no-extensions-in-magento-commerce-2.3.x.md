@@ -21,9 +21,13 @@ The **Workaround** for the issue is to use the command line Adobe Commerce insta
 1. Add your extension's access keys and sync to the Marketplace.
 1. Go to the Extension Manager section of the Commerce Admin.
 
- <span class="wysiwyg-underline">Expected result</span>: The extension appears on the Extension Manager section of the Commerce Admin.
+ <span class="wysiwyg-underline">Expected result</span>: 
 
- <span class="wysiwyg-underline">Actual result</span>: **No extension appears on the Extension Manager section of the Commerce Admin, similar to the image below:**
+The extension appears on the Extension Manager section of the Commerce Admin.
+
+ <span class="wysiwyg-underline">Actual result</span>: 
+
+**No extension appears on the Extension Manager section of the Commerce Admin, similar to the image below:**
 
  **
 ![KB-607_Image_1.png](assets/KB-607_Image_1.png)**
