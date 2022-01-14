@@ -1,13 +1,13 @@
 ---
 title: Order email sent from the server email address
-labels: 2.2.4,Magento Commerce Cloud,known issues,order email,patch,troubleshooting
+labels: 2.2.4,Magento Commerce Cloud,known issues,order email,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This articles provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to order emails being sent from the server email address.
 
 ## Issue
 
-Order confirmation emails are sent from the Apache server email address. Other emails (Forgot password and so on) sent from the configured email addresses.
+Order confirmation emails are sent from the Apache server email address. Other emails (Forgot password and so on) are sent from the configured email addresses.
 
 <ins>Steps to reproduce</ins>:
 
