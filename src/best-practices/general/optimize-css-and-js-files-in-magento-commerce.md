@@ -7,7 +7,7 @@ This article provides best practices for CSS and Javascript (JS) file optimizati
 
 ## Issue by affected products and versions
 
-The time it takes to load CSS and Javascript (JS) files can be reduced by merging, minifying, and bundling separate files into a single file:\_\_
+The time it takes to load CSS and Javascript (JS) files can be reduced by merging, minifying, and bundling separate files into a single file:
 
 * JS merging is available for all versions of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure including the currently supported version 2.3 (as of July 2020).
 * JS bundling is available for all versions of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure including the currently supported version 2.3 (as of July 2020).
@@ -36,5 +36,5 @@ On the *Admin* sidebar, go to **Stores** > Settings > **Configuration** > **Adva
 
 Review the following links:
 
-* To learn more about optimizing resource files, refer to [Magento User Guide > Optimizing Resource Files](https://docs.magento.com/user-guide/system/file-optimization.html) in our user guide.    
-* To learn to enable CSS file optimization, refer to [Magento > Frontend Developer Guide > Cascading style sheets (CSS) > CSS merging, minification and performance](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/css-topics/css-overview.html#css-merging-minification-and-performance) in our developer documentation.
+* To learn more about optimizing resource files, refer to [Optimizing Resource Files](https://docs.magento.com/user-guide/system/file-optimization.html) in our user guide.  
+* To learn to enable CSS file optimization, refer to [Frontend Developer Guide > Cascading style sheets (CSS) > CSS merging, minification and performance](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/css-topics/css-overview.html#css-merging-minification-and-performance) in our developer documentation.
