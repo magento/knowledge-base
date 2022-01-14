@@ -1,9 +1,9 @@
 ---
-title: Troubleshooting New Relic on Magento Commerce Cloud
-labels: GraphQL,Magento Commerce Cloud,New Relic,New Relic problem,New Relic troubleshooting,PHP,accessing New Relic,display,how to,troubleshoot
+title: Troubleshooting New Relic on Adobe Commerce on cloud infrastructure
+labels: GraphQL,Magento Commerce Cloud,New Relic,New Relic problem,New Relic troubleshooting,PHP,accessing New Relic,display,how to,troubleshoot,Adobe Commerce,cloud infrastructure
 ---
 
-This article provides resources for troubleshooting New Relic on Magento Commerce Cloud.
+This article provides resources for troubleshooting New Relic on Adobe Commerce on cloud infrastructure.
 
 <table>
 <tbody>
@@ -18,13 +18,13 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 <tr>
 <td>
 <p><span class="wysiwyg-underline">Can't see projects in New Relic.</span></p>
-<p>You log in to<em>New Relic</em>but can't see projects you should be entitled to view/access.</p>
+<p>You log in to <em>New Relic</em> but can't see projects you should be entitled to view/access.</p>
 </td>
 <td>
 <p>In those cases, an admin user needs to add you to the project.</p>
 </td>
 <td>
-<p>Support Help Center<a href="https://support.magento.com/hc/en-us/articles/360039127712">Accessing New Relic services</a>article.</p>
+<p><a href="https://support.magento.com/hc/en-us/articles/360039127712">Accessing New Relic services</a> in our support knowledge base.</p>
 </td>
 </tr>
 <tr>
@@ -33,7 +33,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 <tr>
 <td>
 <p><span class="wysiwyg-underline">Missing data after installation.</span></p>
-<p>Use the<a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic Diagnostics utility</a>to try to identify the cause. If this does not help, look at agent specific solutions. Links to articles containing these solutions are in the right-hand column.</p>
+<p>Use the <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic Diagnostics utility</a> to try to identify the cause. If this does not help, look at agent specific solutions. Links to articles containing these solutions are in the right-hand column.</p>
 </td>
 <td>
 <p>Missing data can have different causes. You may need to:</p>
@@ -56,7 +56,7 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">Transactions timestamp discrepancy.</span>You may struggle to find long transactions (more than 5 mins) using the New Relic UI. You may also find transactions displayed outside of the expected time frame.</p>
+<p><span class="wysiwyg-underline">Transactions timestamp discrepancy.</span> You may struggle to find long transactions (more than 5 mins) using the New Relic UI. You may also find transactions displayed outside of the expected time frame.</p>
 </td>
 <td>
 <p>The New Relic UI displays the time of the transaction's end, not the time when the transaction began.</p>
@@ -67,13 +67,13 @@ This article provides resources for troubleshooting New Relic on Magento Commerc
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">NerdGraph GraphQL<code>curl</code>queries using special characters such as<code>|</code>and<code>%</code>do not work</span>.</p>
+<p><span class="wysiwyg-underline">NerdGraph GraphQL <code>curl</code> queries using special characters such as <code>|</code> and <code>%</code> do not work</span>.</p>
 </td>
 <td>
-<p>New Relic "copy to curl" feature within NerdGraph does not currently provide a way to handle special characters such as<code>|</code>and<code>%</code>.</p>
+<p>New Relic "copy to curl" feature within NerdGraph does not currently provide a way to handle special characters such as <code>|</code> and <code>%</code>.</p>
 </td>
 <td>
-<p>Use a different API library to solve the issue with special characters. For example, GraphQLClient Library for Graphql API on Python, or Apache.commons by Java Language calls. Review client libraries on<a href="https://graphql.org/code/">GraphQL</a>.</p>
+<p>Use a different API library to solve the issue with special characters. For example, GraphQLClient Library for Graphql API on Python, or Apache.commons by Java Language calls. Review client libraries on <a href="https://graphql.org/code/">GraphQL</a>.</p>
 </td>
 </tr>
 <tr>
