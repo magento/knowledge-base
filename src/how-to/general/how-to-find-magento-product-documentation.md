@@ -1,6 +1,6 @@
 ---
 title: How to find Adobe Commerce product documentation
-labels: B2B,MBI,Magento,Magento Business Intelligence,Magento Commerce,Magento Commerce Cloud,Magento Order Management,PWA,devdocs,documentation,how to,marketplace,product,Adobe Commerce
+labels: B2B,MBI,Magento,Magento Business Intelligence,Magento Commerce,Magento Commerce Cloud,Magento Order Management,PWA,devdocs,documentation,how to,marketplace,product,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
 ## Magento Support Documentation
