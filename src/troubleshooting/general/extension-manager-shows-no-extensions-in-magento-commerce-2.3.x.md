@@ -13,7 +13,7 @@ This article provides a workaround for missing extensions in the Admin Extension
 
 When you purchase extensions via the Commerce Marketplace, you are unable to install them using the core Adobe Commerce Extension Manager. When you add your access keys and sync to the Marketplace, the Extension Manager shows no extensions.
 
-The **Workaround** for the issue is to use the command line Adobe Commerce installation as shown in[General CLI installation](https://devdocs.magento.com/extensions/install/) in our developer documentation.
+The **Workaround** for the issue is to use the command line Adobe Commerce installation as shown in [General CLI installation](https://devdocs.magento.com/extensions/install/) in our developer documentation.
 
  <span class="wysiwyg-underline">Steps to reproduce</span>:
 
