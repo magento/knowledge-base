@@ -26,7 +26,7 @@ If you are looking for technical or end-user documentation, please use one of th
 </tr>
 <tr>
 <td rowspan="2">Adobe Commerce on-premises and  
-Adobe Commerce on-cloud infrastructure</td>
+Adobe Commerce on cloud infrastructure</td>
 <td>
 <p>Developer (technical) documentation:</p>
 <p><a href="https://devdocs.magento.com">https://devdocs.magento.com/</a></p>
