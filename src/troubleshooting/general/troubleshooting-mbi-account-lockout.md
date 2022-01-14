@@ -32,7 +32,7 @@ If you’re still unable to access your account, we recommend checking for error
 ![Opening Chrome's developer tools.](assets/Opening_Chrome_dev_tools.gif)
 ](assets/Opening_Chrome_dev_tools.gif)   *Click for a closer look!*
 
-In the above example, we used the most common method (**right click > Inspect**) to open the console. If your browser doesn’t have this method or you need help, use the documentation links below for the web browser you’re using:
+In the above example, we used the most common method (**right click** > **Inspect**) to open the console. If your browser doesn’t have this method or you need help, use the documentation links below for the web browser you’re using:
 
 <table>
 <tbody>
