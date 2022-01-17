@@ -11,7 +11,7 @@ This topic suggests a solution to a typical redirects performance issue you migh
 
 ## Issue
 
-In Adobe Commerce on cloud infrastructure, large numbers of non-regex redirects/rewrites cannot be done at the Nginx layer, and as a result can cause performance issues.
+In Adobe Commerce on cloud infrastructure, large numbers of non-regex redirects/rewrites cannot be done at the Nginx layer, and as a result, can cause performance issues.
 
 ## Cause
 
