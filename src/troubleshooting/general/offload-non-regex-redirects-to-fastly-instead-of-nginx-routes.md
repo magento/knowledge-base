@@ -35,7 +35,7 @@ The following steps will detail how to place redirects on Fastly instead of Ngin
 <li>Fastly cannot do regex on dictionary entries. It's only an exact match. For more on these limitations, please see <a href="https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations">Fastly's docs on edge dictionary limitations</a>.</li>
 <li>Fastly has a limit of 1000 entries into a single dictionary. Fastly can expand this limit, but that leads to the third caveat.</li>
 <li>Any time you update the entries and deploy that updated VCL to all the nodes, there is a geometric load time increase with expanding dictionaries - meaning, a 2000-entry dictionary will actually load 3x-4x slower than a 1000-entry dictionary. But that is only an issue when you're deploying the VCL (updating the dictionary or changing the VCL function code).
-<p>It does not impact the time it takes Fastly to process a request, it just impacts how long it takes Fastly to push out a new configuration.</p>
+<p>It does not impact the time it takes Fastly to process a request; it just impacts how long it takes Fastly to push out a new configuration.</p>
 <p>Generally speaking, configuration changes take a few seconds on average, usually no more than 5-10 seconds. So a 2x increase in dictionary items takes upwards of 30 seconds to get your config rolled out. A 4x increase would take closer to 2 minutes. This leads to the fourth caveat.</p>
 </li>
 <li>There is a pretty hard limit of 10,000 entries into an edge dictionary.</li>
