@@ -32,7 +32,7 @@ The following steps will detail how to place redirects on Fastly instead of Ngin
 <p>First, you can use <a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html">VCL snippets in Adobe Commerce</a> to define an edge dictionary. This will contain the redirects.</p>
 <p>Some caveats to this:</p>
 <ul>
-<li>Fastly cannot do regex on dictionary entries. It's only exact match. For more on these limitations, please see <a href="https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations">Fastly's docs on edge dictionary limitations</a>.</li>
+<li>Fastly cannot do regex on dictionary entries. It's only an exact match. For more on these limitations, please see <a href="https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations">Fastly's docs on edge dictionary limitations</a>.</li>
 <li>Fastly has a limit of 1000 entries into a single dictionary. Fastly can expand this limit, but that leads to the third caveat.</li>
 <li>Any time you update the entries and deploy that updated VCL to all the nodes, there is a geometric load time increase with expanding dictionaries - meaning, a 2000-entry dictionary will actually load 3x-4x slower than a 1000-entry dictionary. But that is only an issue when you're deploying the VCL (updating the dictionary or changing the VCL function code).
 <p>It does not impact the time it takes Fastly to process a request, it just impacts how long it takes Fastly to push out a new configuration.</p>
