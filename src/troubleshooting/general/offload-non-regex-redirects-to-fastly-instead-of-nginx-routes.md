@@ -29,7 +29,7 @@ The following steps will detail how to place redirects on Fastly instead of Ngin
 
 <ol><li>
 <h3>Create an Edge Dictionary</h3>
-<p>First, you can use <a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html">VCL snippets in Magento</a> to define an edge dictionary. This will contain the redirects.</p>
+<p>First, you can use <a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html">VCL snippets in Adobe Commerce</a> to define an edge dictionary. This will contain the redirects.</p>
 <p>Some caveats to this:</p>
 <ul>
 <li>Fastly cannot do regex on dictionary entries. It's only exact match. For more on these limitations, please see <a href="https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations">Fastly's docs on edge dictionary limitations</a>.</li>
