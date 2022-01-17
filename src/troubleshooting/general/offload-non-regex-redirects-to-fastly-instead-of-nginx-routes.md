@@ -7,7 +7,7 @@ This topic suggests a solution to a typical redirects performance issue you migh
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud (all versions) `Master/Production/Staging` environments leveraging Fastly
+* Adobe Commerce on cloud infrastructure (all versions) `Master/Production/Staging` environments leveraging Fastly
 
 ## Issue
 
