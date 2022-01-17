@@ -25,7 +25,7 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
 1. Log in to MariaDB, then run this command to identify which tables still need to be converted:
 
     ```mysql
-       SELECT ‘table_name’, ‘row_format’ FROM ‘information_schema’.’tables’ WHERE ‘table_schema’=DATABASE() and row_format = ‘Compact’;
+       SELECT table_name, row_format FROM information_schema.tables WHERE table_schema=DATABASE() and row_format = ‘Compact’;
     ```
 1. Run this command to see the table sizes - bigger sized tables will take longer to convert. You should plan accordingly when taking your site in and out of maintenance mode which batches of tables to convert in which order, so as to plan the timings of the maintenance windows needed:
 
@@ -47,7 +47,7 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
     ```
 1. The day before the upgrade of MariaDB to 10.2 is due to happen, you should check again the following commands, as some tables may be converted back due to code deployments since you made the original changes:
      ```mysql
-        SELECT ‘table_name’, ‘row_format’ FROM ‘information_schema’.’tables’ WHERE ‘table_schema’=DATABASE() and row_format = ‘Compact’;
+        SELECT table_name, row_format FROM information_schema.tables WHERE table_schema=DATABASE() and row_format = ‘Compact’;
      ```
       ```mysql
           SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE engine = ‘MyISAM’;
