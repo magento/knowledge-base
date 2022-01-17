@@ -69,7 +69,7 @@ if (var.redir-path != "") {
 
 >![warning]
 >
->If you would like to try all of these steps out, it is strongly recommended to set up an Adobe Commerce staging environment. That way you can run tests against the Fastly service to make sure everything behaves as you would expect.
+>If you would like to try all of these steps out, it is strongly recommended to set up an Adobe Commerce staging environment. That way, you can run tests against the Fastly service to make sure everything behaves as you would expect.
 
 If you don't want to run an Adobe Commerce staging environment, but you would like to see how these redirects would look, you can set up a stage account directly on Fastly.
 
