@@ -3,7 +3,7 @@ title: "MDVA-20376: no such entity with customerId"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.13,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,customerId,error,no such entity,order placement,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-The MDVA-20376 patch solves the issue for a *No such entity with customerId = 1* error for logged-in customers after order placement. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.4.
+The MDVA-20376 patch solves the issue of a *No such entity with customerId = 1* error for logged-in customers after order placement. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.4.
 
 ## Affected products and versions
 
