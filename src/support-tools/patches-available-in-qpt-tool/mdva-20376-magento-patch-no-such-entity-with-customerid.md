@@ -21,7 +21,7 @@ Adobe Commerce (all deployment methods) 2.3.2 - 2.3.3-p1
 
 ## Issue
 
-logged-in customers receive *No such entity with customerId = 1* error after order placement.
+Logged-in customers receive *No such entity with customerId = 1* error after order placement.
 
 <ins>Steps to reproduce</ins>:
 
