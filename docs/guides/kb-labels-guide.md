@@ -47,7 +47,7 @@ See the sections below for detailed recommendations on how to define labels for 
     </td>
   </tr>
    <tr>
-    <td>Magento Open Source (MBI)</td>
+    <td>Magento Open Source</td>
     <td>
         "Magento Open Source"
     </td>
