@@ -10,7 +10,7 @@ This article provides best practices for CSS and Javascript (JS) file optimizati
 The time it takes to load CSS and Javascript (JS) files can be reduced by merging, minifying, and bundling separate files into a single file:
 
 * JS merging is available for all versions of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure, including the currently supported version 2.3 (as of July 2020).
-* JS bundling is available for all versions of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure including the currently supported version 2.3 (as of July 2020).
+* JS bundling is available for all versions of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure, including the currently supported version 2.3 (as of July 2020).
 * CSS merging and minification is available for all versions of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure including the currently supported version 2.3 (as of July 2020).
 
 ## Best practices
