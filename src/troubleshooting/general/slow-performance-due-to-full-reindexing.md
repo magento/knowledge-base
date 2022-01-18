@@ -36,7 +36,7 @@ Actions that can produce full reindexing were performed from admin including:
 
 1. If you found frequent full reindexation, investigate the following:
     * Who might be doing this manually from the CLI
-    * What 3-rd party module is doing the reindexation
+    * What third-party module is doing the reindexation
     * What third-party module is marking indexers as *Invalid*
 
 ### Solution
