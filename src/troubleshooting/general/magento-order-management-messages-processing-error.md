@@ -1,9 +1,9 @@
 ---
-title: Magento Order Management messages processing error
-labels: 3.1.1,3.2.0,3.3.0,MCOM,Magento Order Management,connector,getMode,getMode(),how to,oms error
+title: Magento Order Management System (OMS) for Adobe Commerce processing error
+labels: 3.1.1,3.2.0,3.3.0,MCOM,Magento Order Management,connector,getMode,getMode(),how to,oms error,Adobe Commerce
 ---
 
-This article provides a solution for the issue when you get a `getMode()` error in the CLI running `bin/magento oms:messages:process` in the Magento Order Management System (OMS).
+This article provides a solution for the issue when you get a `getMode()` error in the CLI running `bin/magento oms:messages:process` in the Magento Order Management System (OMS) on Adobe Commerce.
 
 ## Affected products and versions
 
@@ -45,7 +45,7 @@ Stack trace:
 ```
 
 ## Cause
-
+Â
 This occurs when the Connector attempts to process `magento.inventory.source_management` messages. The Connector attempts to process these messages as if they were a `magento.inventory.source_stock_management.update` message which does require a mode value. Because there is no mode in the `magento.inventory.source_mangement` messages, the error occurs.
 
 ## Solution
@@ -56,4 +56,4 @@ To resolve the problem run the following SQL statement in the CLI which deletes 
 
 ## Related Reading
 
-See the OMS Docs [OMS Connector Setup Tutorial](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/) .
+See the OMS Docs [OMS Connector Setup Tutorial](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).

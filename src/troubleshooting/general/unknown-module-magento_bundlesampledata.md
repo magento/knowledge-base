@@ -17,6 +17,6 @@ During the installation, a message similar to the following displays:
 
 Try each of the following one at a time, then try your installation again.
 
-1. Run the [Web Setup Wizard](https://devdocs.magento.com/guides/v2.3/install-gde/install/web/install-web.html).    On Step 4: Customize Your Store, expand **Advanced Modules Configurations** and clear the **Magento\_BundleSampleData** checkbox as the following figure shows.    ![tshoot_bundlesampledata.png](assets/tshoot_bundlesampledata.png)    
+1. Run the Web Setup Wizard. Modules are listed in  **Advanced Modules Configurations**. To disable the **Magento\_BundleSampleData** module clear the **Magento\_BundleSampleData** checkbox as the following figure shows.    ![tshoot_bundlesampledata.png](assets/tshoot_bundlesampledata.png)    
 1. Clear all browser history and data from your web browser.
 1. If you have Chrome, clear all browser data related to your site.  Go to **Settings** > **Advanced options** > **Privacy** > **Content Settings** > **All cookies and site data**. In the Site column, click the address of your Adobe Commerce server and click **Remove All**.    
