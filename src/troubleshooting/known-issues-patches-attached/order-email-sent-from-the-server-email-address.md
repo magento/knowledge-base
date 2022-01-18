@@ -20,7 +20,7 @@ The email was sent from the Adobe Commerce configured sending address.
 
 <ins>Actual result</ins>:
 
-The email was sent from email address configured in the Apache server being used.
+The email was sent from the email address configured in the Apache server being used.
 
 ## Patch
 
