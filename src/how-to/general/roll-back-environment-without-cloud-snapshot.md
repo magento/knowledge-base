@@ -127,6 +127,7 @@ After resetting the DB, [make a git push to the environment to trigger redeploy]
 ## Related reading
 
 In our developer documentation:
+
 * [Restore a snapshot on Cloud](https://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#restore-snapshot)
 * [Create a snapshot](https://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#create-snapshot)
 * [Snapshots and backup management](https://devdocs.magento.com/guides/v2.3/cloud/project/project-webint-snap.html)
