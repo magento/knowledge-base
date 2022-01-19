@@ -125,11 +125,17 @@ If executing the `setup:uninstall` command fails with an error and cannot be com
 
 1. [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
 1. Connect to the MySQL DB:    
-    ```sql    mysql -h database.internal    ```    
+    ```sql
+    mysql -h database.internal    
+    ```    
 1. Drop the \`main\` DB :    
-    ```sql    drop database main;    ```    
+    ```sql
+    drop database main;    
+    ```    
 1. Create an empty \`main\` DB:    
-    ```sql    create database main;    ```    
+    ```sql    
+    create database main;    
+    ```    
 1. Delete the following configuration files: `config.php`, `config.php` .bak, `env.php`, `env.php.bak`.
 
 After resetting the DB, [make a git push to the environment to trigger redeploy](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#git-commands) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#environment-commands).
