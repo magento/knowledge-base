@@ -128,7 +128,7 @@ If executing the `setup:uninstall` command fails with an error and cannot be com
     ```sql
     mysql -h database.internal    
     ```    
-1. Drop the `main` DB :    
+1. Drop the `main` DB:    
     ```sql
     drop database main;    
     ```    
