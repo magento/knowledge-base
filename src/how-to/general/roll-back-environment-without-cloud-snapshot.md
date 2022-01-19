@@ -29,7 +29,7 @@ After performing these steps:
 * your Adobe Commerce installation returns to its Vanilla state (database restored; deployment configuration removed; directories under `var` cleared)
 * your git branch is reset to the desired state in the past
 
-Read the detailed steps below.
+Read the detailed steps below:
 
 <h3 id="disable_config_management">Step 0 (Prerequisite): Remove config.php to disable Configuration Management</h3>
 
