@@ -3,7 +3,7 @@ title: Magento Order Management System (OMS) for Adobe Commerce processing error
 labels: 3.1.1,3.2.0,3.3.0,MCOM,Magento Order Management,connector,getMode,getMode(),how to,oms error,Adobe Commerce
 ---
 
-This article provides a solution for the issue when you get a `getMode()` error in the CLI running `bin/magento oms:messages:process` in the Magento Order Management System (OMS) on Adobe Commerce.
+This article provides a solution for the issue when you get a `getMode()` error in the CLI running `bin/magento oms:messages:process` in the Magento Order Management System (OMS) for Adobe Commerce.
 
 ## Affected products and versions
 
