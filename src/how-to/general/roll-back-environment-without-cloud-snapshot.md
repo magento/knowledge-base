@@ -41,8 +41,15 @@ To remove the configuration file, follow these steps:
 
 1. [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
 1. Remove the configuration file:
-    * For Adobe Commerce 2.2:    ```php    rm app/etc/config.php    ```    
-    * For Adobe Commerce 2.1:    ```php    rm app/etc/config.local.php    ```    
+    * For Adobe Commerce 2.2:    
+    ```php
+     rm app/etc/config.php
+    ``` 
+   
+    * For Adobe Commerce 2.1:    
+    ```php
+      rm app/etc/config.local.php
+    ```    
 
 Learn more about Configuration Management by reviewing:
 
