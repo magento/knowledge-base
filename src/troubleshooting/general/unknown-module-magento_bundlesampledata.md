@@ -21,5 +21,5 @@ Try each of the following one at a time, then try your installation again.
 
     ![tshoot_bundlesampledata.png](assets/tshoot_bundlesampledata.png)    
 
- 1. Clear all browser history and data from your web browser.
- 1. If you have Chrome, clear all browser data related to your site.  Go to **Settings** > **Advanced options** > **Privacy** > **Content Settings** > **All cookies and site data**. In the Site column, click the address of your Adobe Commerce server and click **Remove All**.    
+1. Clear all browser history and data from your web browser.
+1. If you have Chrome, clear all browser data related to your site.  Go to **Settings** > **Advanced options** > **Privacy** > **Content Settings** > **All cookies and site data**. In the Site column, click the address of your Adobe Commerce server and click **Remove All**.    
