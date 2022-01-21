@@ -23,7 +23,6 @@ The MDVA-42657 patch solves the issue where the admin user is unable to select c
 
 Admin user is unable to select categories in the customer segment conditions.
 
-
 <ins>Steps to reproduce</ins>:
 
 1. Go to Customers > **Segments**.
