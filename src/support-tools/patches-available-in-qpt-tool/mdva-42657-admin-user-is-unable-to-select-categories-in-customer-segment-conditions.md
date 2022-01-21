@@ -1,6 +1,6 @@
 ---
 title: MDVA-42657: Admin user is unable to select categories in the customer segment conditions
-labels: QPT patches,Quality Patches Tool,
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,admin user,categories,customer segment,conditions,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
 The MDVA-42657 patch solves the issue where the admin user is unable to select categories in the customer segment conditions. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-42657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
@@ -33,25 +33,31 @@ Admin user is unable to select categories in the customer segment conditions.
 1. Select **Product History** under **Products**.
 1. Change "viewed" to "ordered".
 1. Change "ALL" to "ANY".
-1.
-
+1. Click the nested green plus sign and select Category.
+1. Click the **...** and then click the **chooser** icon (to the left of the checkmark).
+1. Open the browser dev console.
+1. Check the checkboxes for any/multiple categories and note the javascript error thrown in the console.
+1. Click the Save button.
+1. Navigate back to the condition and check if the selected categories saved.
 
 <ins>Expected results</ins>:
-...
+
+The selected categories are saved and selected when viewing/editing the segment conditions.
 
 <ins>Actual results</ins>:
-...
 
+The selected categories are missing and did not save properly. Following error in console.
+category-checkbox-tree.js:249 Uncaught TypeError: Cannot set properties of undefined (setting 'value')
+```
+    at Ext.tree.TreePanel.Enhanced.<anonymous> (category-checkbox-tree.js:249)
+    at Ext.util.Event.fire (ext-tree.js:29)
+```
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
