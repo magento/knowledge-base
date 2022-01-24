@@ -21,7 +21,7 @@ After changing the **Company Admin** email address, an error is returned, and th
 
 <ins>Steps to reproduce</ins>:
 
-1. Enable Company functionality (Learn more about that in [Install B2B: Enable B2B features in the Commerce Admin](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin) in our developer documentation and create a new Company with two users (an admin and two users), all with email addresses.
+1. Enable Company functionality (Learn more about that in [Install B2B: Enable B2B features in the Commerce Admin](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin) in our developer documentation and create a new Company with two users - an admin and two users - all with email addresses).
 1. Go to the **Commerce Admin** > **Customers** > **Companies** and open your Company account.
 1. Open **Company Admin** tab and change admin to the first user, which includes changing the **Company Admin** email to the first user's email.
 1. Go to the Adobe Commerce frontend and log in as the first user.
