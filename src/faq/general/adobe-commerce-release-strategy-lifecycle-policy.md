@@ -74,7 +74,7 @@ Managed Services customers can work with our Customer Engineering team for assis
 * Upgrading Cloud Services for Development and Staging Environments
 * Assist with Load Testing and Review of Best Practices for Performance
 
-###  Production Launch
+### Production Launch
 
 * Coordinating Go Live Readiness and Checklist
 * Coordinating Cloud Service Upgrades
