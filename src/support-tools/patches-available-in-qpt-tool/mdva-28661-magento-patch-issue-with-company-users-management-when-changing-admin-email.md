@@ -1,11 +1,13 @@
 ---
 title: "MDVA-28661: issue with company users management when changing admin email"
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,B2B,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,email,management,support tools,user,cloud infrastructure,on-premises
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,B2B,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,email,management,support tools,user,cloud infrastructure,on-premises,Adobe Commerce
 ---
 
-MDVA-28661 patch available in the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where an error is thrown in the **Company Users** company account section after **Company Admin** email address is changed.
+The MDVA-28861 patch fixes the issue where the users get an error when changing the admin email. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. The Patch ID is MDVA-28861.
 
 ## Affected products and versions
+
+**The patch is created for Adobe Commerce version:**
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0 to 2.4.1 (including 2.3.5-p1) with B2B extension
 
@@ -17,19 +19,19 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0 to 2
 
 After changing the **Company Admin** email address, an error is returned, and the **Company Users** list is not displayed.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+<ins>Steps to reproduce</ins>:
 
-1. Enable Company functionality (Learn more about that in [Install B2B: Enable B2B features in Magento Admin](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin)) in our developer documentation and create a new Company with 2 users (an admin and 2 users), all with email addresses.
-1. Go to the **Commerce Admin > Customers > Companies** and open your Company account.
+1. Enable Company functionality (Learn more about that in [Install B2B: Enable B2B features in the Commerce Admin](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin) in our developer documentation and create a new Company with two users - an admin and two users - all with email addresses).
+1. Go to the **Commerce Admin** > **Customers** > **Companies** and open your Company account.
 1. Open **Company Admin** tab and change admin to the first user, which includes changing the **Company Admin** email to the first user's email.
-1. Go to the Adobe Commerce frontend, and login as the first user.
-1. Go to **Company Users** section.
+1. Go to the Adobe Commerce frontend and log in as the first user.
+1. Go to the **Company Users** section.
 
- <span class="wysiwyg-underline">Expected result:</span>
+<ins>Expected results</ins>:
 
 The **Company Users** list should be displayed as expected.
 
- <span class="wysiwyg-underline">Actual result:</span>
+<ins>Actual results</ins>:
 
 The **Company Users** list is not displayed, and an error similar to the following displays:
 
@@ -51,10 +53,10 @@ To learn more about Quality Patches Tool, refer to:
 * [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.
+For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
 
 To learn more about B2B Company functionality, refer to these articles in our developer documentation:
 
 * [B2B Developer Guide](https://devdocs.magento.com/guides/v2.4/b2b/bk-b2b.html)
 * [Manage company roles](https://devdocs.magento.com/guides/v2.4/b2b/roles.html)
-* [Magento Enterprise B2B Extension configuration paths reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-b2b.html)
+* [Adobe Commerce Enterprise B2B Extension configuration paths reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-b2b.html)
