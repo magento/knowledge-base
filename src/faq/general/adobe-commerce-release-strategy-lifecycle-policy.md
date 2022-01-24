@@ -121,4 +121,4 @@ Please refer to [Adobe Commerce System Requirements](https://devdocs.magento.com
 
 ### [NEW] What actions can I take to address PCI failure caused by outdated software?
 
-Running an unsupported version of a third party technology, such as PHP, may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends customers using outdated PHP purchase extended support from vendors such as Zend, who can provide security patches and updates for vulnerabilities discovered on unsupported PHP versions.  
+Running an unsupported version of a third party technology, such as PHP, may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends customers using outdated PHP purchase extended support from vendors such as [Zend](https://www.zend.com/services/php-long-term-support), who can provide security patches and updates for vulnerabilities discovered on unsupported PHP versions.  
