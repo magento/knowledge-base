@@ -17,7 +17,7 @@ We will be moving our end of support (EOS) dates to align closely with those of 
 
 ### How will these changes benefit customers?
 
-Reducing the frequency and complexity of patch releases means customers can reduce the time, resources, and development dollars they spend on upgrades. In addition, as we continue to release features as independent services, customers will be able to adopt these features faster, accelerating their time to innovation. To learn more about the benefits of our simplified upgrade process, visit our recent [release strategy blog post](https://support.magento.com/hc/en-us/articles/360047139492-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches).
+Reducing the frequency and complexity of patch releases means customers can reduce the time, resources, and development dollars they spend on upgrades. In addition, as we continue to release features as independent services, customers will be able to adopt these features faster, accelerating their time to innovation. To learn more about the benefits of our simplified upgrade process, visit our recent [release strategy blog post](https://magento.com/blog/accelerating-innovation-through-simplified-release-strategy).
 
 ### What are the different types of upgrades that will be released in 2022?
 
@@ -29,11 +29,11 @@ To streamline upgrades, we will be delivering three types of releases throughout
 
 ### What are Quality patches?
 
-Quality patches are a way to distribute fixes for individual quality issues outside of patch releases (like 2.4.4). Customers can easily search for and apply a specific fix appropriate for their version without contacting Support or waiting for a release. Both Adobe and the Commerce community can contribute Quality patches. Fixes provided by the community are reviewed by Maintainers before they are made available to customers. This [dev blog post](https://support.magento.com/hc/en-us/articles/360047139492-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches) details this community contribution program.
+Quality patches are a way to distribute fixes for individual quality issues outside of patch releases (like 2.4.4). Customers can easily search for and apply a specific fix appropriate for their version without contacting Support or waiting for a release. Both Adobe and the Commerce community can contribute Quality patches. Fixes provided by the community are reviewed by Maintainers before they are made available to customers. This [dev blog post](https://community.magento.com/t5/Magento-DevBlog/New-Delivery-Process-for-Community-Contributions/ba-p/479563) details this community contribution program.
 
 ### What is the release schedule for 2022?
 
-Release dates can be found in our [2022 release calendar](https://support.magento.com/hc/en-us/articles/360047139492-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches). There will be two patch releases, several security patch releases for versions still under support, and six feature releases throughout the year.
+Release dates can be found in our [2022 release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule). There will be two patch releases, several security patch releases for versions still under support, and six feature releases throughout the year.
 
 ### Will this new release strategy be applicable to both Adobe Commerce and Magento Open Source Merchants?  
 
@@ -45,7 +45,7 @@ Adobe Commerce will continue to provide security patch releases for versions sti
 
 ### With the new lifecycle policy, how long will Merchants be able to get quality fixes from Adobe Support?  
 
-Merchants will be able to receive quality fixes until their version reaches End of Support. Merchants can access quality fixes through the Adobe Commerce [Quality Patch Tool](https://support.magento.com/hc/en-us/articles/4409421516301-FAQ-for-New-Adobe-Commerce-Release-Strategy-and-Updated-Lifecycle-Policy) or by contacting the Support team.
+Merchants will be able to receive quality fixes until their version reaches End of Support. Merchants can access quality fixes through the Adobe Commerce [Quality Patch Tool](https://support.magento.com/hc/en-us/articles/360047139492-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches) or by contacting the Support team.
 
 ### Would upgrading to 2.4.4 or higher require all extensions be updated as well?
 
@@ -55,7 +55,7 @@ Most extensions will need to be updated to work with 2.4.4 or higher given that 
 
 ### Which resources are available to help with planning, budgeting, and upgrades in general?  
 
-Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://support.magento.com/hc/en-us/articles/4409421516301-FAQ-for-New-Adobe-Commerce-Release-Strategy-and-Updated-Lifecycle-Policy) and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel ([#upgrade-compatibility-tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html)).  
+Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=pt-BR) and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel ([#upgrade-compatibility-tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html)).  
 
 A [2.4 Technical Upgrade Workshop](https://register.gotowebinar.com/register/6951278956217776911) will be held on January 26, 8am PST for customers and a recording will be available on demand under the [Tutorials section of Experience League](https://experienceleague.adobe.com/docs/commerce.html?lang=en) shortly after the event.
 
@@ -87,7 +87,7 @@ Managed Services customers can work with our Customer Engineering team for assis
 
 We understand that it takes time to upgrade and we are here to support you on your path to 2.4.4. We are shifting the 2.3 line End of Support date from April 28, 2022 to September 8, 2022 to provide you with additional time to prepare for and execute your upgrade to 2.4.4.
 
-We still encourage you to upgrade to 2.4.4 at your earliest convenience to help ensure PCI compliance and to gain access to new features that enable business growth. Being on a version with third party technologies that are no longer supported (i.e., versions 2.3.6 and lower are based on PHP versions that have reached end of life) puts you at risk of security vulnerabilities. Review our [lifecycle policy](A 2.4 Technical Upgrade Workshop will be held on January 26, 8am PST for customers and a recording will be available on demand under the Tutorials section of Experience League shortly after the event. ) for more information on our EOS schedule and terms.
+We still encourage you to upgrade to 2.4.4 at your earliest convenience to help ensure PCI compliance and to gain access to new features that enable business growth. Being on a version with third party technologies that are no longer supported (i.e., versions 2.3.6 and lower are based on PHP versions that have reached end of life) puts you at risk of security vulnerabilities. Review our [lifecycle policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) for more information on our EOS schedule and terms.
 
 If making the move to 2.4.4 is not feasible within this timeframe, we recommend that you upgrade first to 2.3.7 by September 8, which will be a lower-level effort. We will be offering a paid extended support option for 2.3.7 for an additional year (Sept 2022 – Sept 2023) so that you can prepare for your next upgrade to 2.4.4 or higher. More details will be announced in March.
 
