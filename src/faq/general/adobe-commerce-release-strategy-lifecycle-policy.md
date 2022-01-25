@@ -55,7 +55,7 @@ Most extensions will need to be updated to work with 2.4.4 or higher given that 
 
 ### Which resources are available to help with planning, budgeting, and upgrades in general?  
 
-Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive 2.4 Upgrade Guide and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel (#upgrade-compatibility-tool).  
+Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=pt-BR) and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel (#upgrade-compatibility-tool).  
 
 A [2.4 Technical Upgrade Workshop](https://register.gotowebinar.com/register/6951278956217776911) will be held on January 26, 8am PST for customers and a recording will be available on demand under the [Tutorials section of Experience League](https://experienceleague.adobe.com/docs/commerce.html?lang=en#tutorials) shortly after the event.
 
