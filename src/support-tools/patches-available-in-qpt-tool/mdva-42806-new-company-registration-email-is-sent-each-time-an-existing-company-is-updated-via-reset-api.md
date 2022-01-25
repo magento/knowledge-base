@@ -1,6 +1,6 @@
 ---
-title: "MDVA-42806: New company registration email is sent each time an existing company is updated"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,Magento,Adobe Commerce,cloud infrastructure,on-premises,new company,registration,email,updated,REST API
+title: "MDVA-42806: new company registration email is sent each time an existing company is updated"
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,Magento,Adobe Commerce,cloud infrastructure,on-premises,new company,registration,email,updated,REST API,2.4.3
 ---
 
 The MDVA-42806 patch solves the issue where a new company registration email is sent each time an existing company is updated via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-42806. Please note that the issue is scheduled to be fixed in Adobe Commerce  2.4.5.
@@ -25,7 +25,7 @@ A new company registration email is sent each time an existing company is update
 
 <ins>Prerequisites</ins>:
 
-B2B modules installed
+B2B modules installed.
 
 <ins>Steps to reproduce</ins>:
 
@@ -57,7 +57,7 @@ B2B modules installed
 
 <ins>Expected results</ins>:
 
-No email should be sent saying "New company registration request" as the API is updating an existing company.
+No email is sent saying "New company registration request" as the API is updating an existing company.
 
 <ins>Actual results</ins>:
 
