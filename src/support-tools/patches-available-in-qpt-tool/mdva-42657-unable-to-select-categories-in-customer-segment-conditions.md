@@ -33,11 +33,11 @@ Admin user is unable to select categories in the customer segment conditions.
 1. Change "viewed" to "ordered".
 1. Change "ALL" to "ANY".
 1. Click the nested green plus sign and select Category.
-1. Click the **...** sign and then click the **chooser** icon (to the left of the checkmark).
+1. Click the **...** sign and then click the chooser icon (to the left of the checkmark).
 1. Open the browser dev console.
 1. Check the checkboxes for any/multiple categories and note the javascript error thrown in the console.
 1. Click the **Save** button.
-1. Navigate back to the condition and check if the selected categories saved.
+1. Navigate back to the condition and check if the selected categories are saved.
 
 <ins>Expected results</ins>:
 
