@@ -1,9 +1,9 @@
 ---
 title: "MDVA-42806: new company registration email is sent each time an existing company is updated"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,Magento,Adobe Commerce,cloud infrastructure,on-premises,new company,registration,email,updated,REST API,2.4.3
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,Magento,Adobe Commerce,cloud infrastructure,on-premises,new company,registration,email,updated,REST API,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-42806 patch solves the issue where a new company registration email is sent each time an existing company is updated via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-42806. Please note that the issue is scheduled to be fixed in Adobe Commerce  2.4.5.
+The MDVA-42806 patch solves the issue where a new company registration email is sent each time an existing company is updated via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-42806. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -13,7 +13,7 @@ The MDVA-42806 patch solves the issue where a new company registration email is 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods)
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
 >![info]
 >
@@ -30,7 +30,7 @@ B2B modules installed.
 <ins>Steps to reproduce</ins>:
 
 1. Create a company account.
-1. Use `​/V1​/company​/<company_id>` PUT endpoint. To update the created company, see [update the company](https://devdocs.magento.com/guides/v2.4/b2b/company-object.html#update-the-company) in our developer documentation.  Here is a sample payload below:
+1. Use `/V1​/company​/<company_id>` endpoint. To update the created company, see [update the company](https://devdocs.magento.com/guides/v2.4/b2b/company-object.html#update-the-company) in our developer documentation.  Here is a sample payload below:
 
 ```php
 {
@@ -53,7 +53,6 @@ B2B modules installed.
     }
 }
 ```
-
 
 <ins>Expected results</ins>:
 
