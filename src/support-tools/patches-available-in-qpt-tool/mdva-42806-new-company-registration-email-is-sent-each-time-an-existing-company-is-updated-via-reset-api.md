@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42806: new company registration email is sent each time an existing company is updated"
+title: "MDVA-42806: New company registration email is sent each time existing company is updated"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,Magento,Adobe Commerce,cloud infrastructure,on-premises,new company,registration,email,updated,REST API,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
