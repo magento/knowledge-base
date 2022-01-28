@@ -41,7 +41,7 @@ Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inve
 
 <ins>Expected results</ins>:
 
-If all child products are *Out of Stock* and configurable product itself is also *Out of Stock*, the price is calculated by using all the child products.
+If all child products are *Out of Stock* and the configurable product itself is also *Out of Stock*, the price is calculated by using all the child products.
 
 <ins>Actual results</ins>:
 
