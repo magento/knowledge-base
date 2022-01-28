@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42657: unable to select categories in the customer segment conditions"
+title: "MDVA-42657: Unable to select categories in the customer segment conditions"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,admin user,categories,customer segment,conditions,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
