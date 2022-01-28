@@ -29,7 +29,7 @@ Full-page cache is cleaned after applying staging update for cart rule.
 1. Enable developer mode.
 1. Open several products and category pages and check (via headers) that they are loaded from cache.
 1. Apply any staging update for the cart rule.
-1. Check if category and product pages are still loaded from cache.
+1. Check if the category and product pages are still loaded from the cache.
 
 <ins>Expected results</ins>:
 
