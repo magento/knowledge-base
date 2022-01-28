@@ -25,11 +25,11 @@ The admin user is not able to access the SWAT tool.
 
 <ins>Steps to reproduce</ins>:
 
-Try to reach ../swat/key/index
+Try to reach `../swat/key/index`
 
 <ins>Expected results</ins>:
 
-1. ../swat/key/index returns 200.
+1. `../swat/key/index returns 200`.
 1. The admin user is able to access SWAT.
 
 <ins>Actual results</ins>:
