@@ -23,7 +23,6 @@ The MDVA-42507 patch solves the issue where the full-page cache is cleaned after
 
 Full-page cache is cleaned after applying staging update for cart rule.
 
-
 <ins>Steps to reproduce</ins>:
 
 1. Enable developer mode.
