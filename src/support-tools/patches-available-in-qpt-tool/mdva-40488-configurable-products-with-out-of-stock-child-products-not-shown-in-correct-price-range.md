@@ -25,7 +25,7 @@ Configurable products with out-of-stock child products are not shown in their co
 
 <ins>Prerequisites</ins>:
 
-Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inventory** > **stock options** and set **Display Out of Stock Products** configuration to ***Yes***.
+Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inventory** > **stock options** and set **Display Out of Stock Products** configuration to **Yes**.
 
 <ins>Steps to reproduce</ins>:
 
