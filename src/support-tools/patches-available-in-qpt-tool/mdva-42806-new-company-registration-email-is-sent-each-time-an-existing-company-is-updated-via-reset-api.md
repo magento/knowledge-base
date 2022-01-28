@@ -30,7 +30,7 @@ B2B modules installed.
 <ins>Steps to reproduce</ins>:
 
 1. Create a company account.
-1. Use `/V1​/company​/<company_id>` endpoint. To update the created company, see [update the company](https://devdocs.magento.com/guides/v2.4/b2b/company-object.html#update-the-company) in our developer documentation.  Here is a sample payload below:
+1. Use `/V1​/company​/<company_id>` endpoint. To update the created company, see [update the company](https://devdocs.magento.com/guides/v2.4/b2b/company-object.html#update-the-company) in our developer documentation. Below is a sample payload:
 
 ```php
 {
