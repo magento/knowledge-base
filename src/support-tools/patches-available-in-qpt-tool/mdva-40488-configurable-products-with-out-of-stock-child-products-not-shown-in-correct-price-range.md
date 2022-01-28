@@ -34,7 +34,7 @@ Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inve
 1. Set inventory of the simple product Brown, then set the Enable Product status to *Yes*.
 1. Make sure the configurable product Stock Status is *In Stock*.
 1. Change the inventory of the simple product Brown to 0 and set the Stock Status to *Out of Stock*.
-1. At this point configurable product Stock Status is still *In Stock*.
+1. At this point, the configurable product Stock Status is still *In Stock*.
 1. Perform reindex.
 1. Check the `min_price` and `max_price` for the configurable product in the `catalog_product_index_price` DB table - the two values are set to 0.
 1. But if we set the configurable product Stock Status to *Out of stock* and do reindex, then we can see non-zero `min_price` and `max_price` values of the configurable product.
