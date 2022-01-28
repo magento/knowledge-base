@@ -1,9 +1,9 @@
 ---
-title: "MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied to products"
+title: "MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.9,Visual Merchandiser,product rule,functionality,filter, products,staging,updates,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-37984 patch solves the issue where the Visual Merchandiser's “Match product by rule” functionality does not filter products correctly when staging updates are applied to the products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-37984. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-37984 patch solves the issue where the Visual Merchandiser's “Match product by rule” functionality does not filter products correctly when staging updates are applied. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-37984. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -21,13 +21,13 @@ The MDVA-37984 patch solves the issue where the Visual Merchandiser's “Match p
 
 ## Issue
 
-The Visual Merchandiser's “Match product by rule” functionality does not filter products correctly when staging updates are applied to the products.
+The Visual Merchandiser's “Match product by rule” functionality does not filter products correctly when staging updates are applied.
 
 <ins>Steps to reproduce</ins>:
 
 1. Create a schedule update for any existing product.
     * Set different values for `entity_id` and `row_id`.
-1. Create a new configurable product and then simple products (so the new products `entity_id` and `row_ids` are different as well).
+1. Create a new configurable product and then a simple product (so the new product `entity_id` and `row_ids` are different as well).
     * To make it easier to replicate the issue, set a distinguishable qty value for the simple product - for example 5000.
 1. Go to a category > **Products in category** and enable **Match products by rule**.
 1. Now select "Quantity" as the attribute, "Greater" as the operator, and "4500" as the value .
