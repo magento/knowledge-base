@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40488: configurable products with out-of-stock child products not shown in correct price range"
+title: "MDVA-40488: Configurable products with out-of-stock child products not shown in correct price range"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,configurable products,out-of-stock,child products,price range,QPT 1.1.9,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
