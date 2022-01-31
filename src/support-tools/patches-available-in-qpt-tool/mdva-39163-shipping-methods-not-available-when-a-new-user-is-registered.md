@@ -27,7 +27,7 @@ Shipping methods are not available when the new user is registered, and products
 
 1. Go to **Admin** > **Stores** > **Configuration** > **Sales** > **Delivery Methods**. Enable only the **Flat Rate** shipping method and disable everything else.
 1. In the **Flat Rate** shipping method, select the **Specific** country option available in the **Ship to Applicable Countries** setting and select one country from the list (e.g., United States).
-1. Go to **Admin** > **Stores** > **Configuration** > **Customer** > **Customer Configuration** and set **Require Email Confirmation** to yes.
+1. Go to **Admin** > **Stores** > **Configuration** > **Customer** > **Customer Configuration** and set **Require Email Confirmation** to _Yes_.
 1. Create a new Email Template in **Admin** > **Marketing** > **Email Templates** and load `Footer (magento/luma)` template and replace the template content with a CMS block.
 
     ```CMS
