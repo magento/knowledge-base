@@ -42,7 +42,7 @@ Shipping methods are not available when the new user is registered, and products
 
 <ins>Expected results</ins>:
 
-Shipping method is available as the customer has an address that is compatible with the shipping country.
+Shipping method is available, as the customer has an address that is compatible with the shipping country.
 
 <ins>Actual results</ins>:
 
