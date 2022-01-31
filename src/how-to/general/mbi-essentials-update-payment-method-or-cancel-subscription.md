@@ -13,7 +13,7 @@ This article explains how month-to-month Magento MBI Essentials clients can canc
 
 For MBI Essentials clients to cancel their subscriptions or update their payment methods they must be the primary account holder for the Magento account. The steps are:
 
-1. Navigate to account.magento.com and log in.
+1. Navigate to [account.magento.com](https://account.magento.com) and log in.
 1. Click Magento > My Products and Services > Magento Business Intelligence, and click Show Details next to the license you want to update.
 1. Select Update Payment Method or Cancel License.
 

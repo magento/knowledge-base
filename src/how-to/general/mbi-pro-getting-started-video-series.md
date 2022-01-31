@@ -7,7 +7,7 @@ This 5-part training series will teach you the basics you need to start analyzin
 
 ## 1. Connecting data sources
 
-<iframe></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/mjek8vzw0x" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Before you can start analyzing your data, you need to connect all of your disparate data sources to one central location. Learn how to connect your data sources to Magento BI and efficiently manage those connections.
 
