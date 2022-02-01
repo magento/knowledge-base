@@ -30,7 +30,7 @@ The Visual Merchandiser's “Match product by rule” functionality does not fil
 1. Create a new configurable product and then a simple product (so the new product `entity_id` and `row_ids` are different as well).
     * To make it easier to replicate the issue, set a distinguishable qty value for the simple product - for example 5000.
 1. Go to a category > **Products in category** and enable **Match products by rule**.
-1. Now select "Quantity" as the attribute, "Greater" as the operator, and "4500" as the value .
+1. Now select "Quantity" as the attribute, "Greater" as the operator, and "4500" as the value.
 1. Click **save**.
 
 <ins>Expected results</ins>:
