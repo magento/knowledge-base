@@ -45,6 +45,8 @@ Learn how to submit a support ticket to the Adobe Commerce Help Center, provide 
 * [Access shared account (switch accounts)](#switch-accounts)
 * [Shared access troubleshooting](#troubleshooting-shared-access)
 
+**[MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES](#magento-u)**
+
 <h2 id="what-is">WHAT IS ADOBE COMMERCE HELP CENTER?</h2>
 
 Welcome to Adobe Commerce Help Center! We are here to help solve your Adobe Commerce issues quickly and efficiently.
@@ -128,6 +130,9 @@ Use your Magento Account credentials to log in. For more information, see [Your 
 <h3 id="submit-ticket"><strong>Submit a support ticket</strong></h3>
 
 Once successfully logged in, you may submit a support ticket using the Help Center start page, your Magento Account page, and your Magento Cloud Account page.
+
+* If you are the **Account Owner** follow the steps below.
+* If you are a **Shared Access user, you must switch accounts first** [Access shared account (switch accounts)](#switch-accounts), and then you may proceed to the steps below.
 
 <h4 id="submit-ticket-help-center-start-page">Help Center start page</h4>
 
@@ -523,7 +528,7 @@ You may also revoke shared access using the **Edit** menu:
 
 To use the shared access provided for you, follow these steps:
 
-1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/) .
+1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/).
 1. Click the **Switch Accounts** menu and select an account.
 
 ![magento-account-shared-switch.png](assets/magento-account-shared-switch.png)
@@ -533,3 +538,9 @@ To know which account you are currently using (your own native account or shared
 <h3 id="troubleshooting-shared-access">Shared access troubleshooting</h3>
 
 Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012) in our support knowledge base.
+
+<h2 id="magento-u">MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES</h2>
+
+Magento U has merged with [Adobe Digital Learning Services (ADLS)](https://learning.adobe.com/).<br>
+Magento U Zendesk will be phased out.<br>
+If you encounter any future Magento U support questions via Zendesk, please tell the merchant to email [adls@adobe.com](mailto:adls@adobe.com) for support.
