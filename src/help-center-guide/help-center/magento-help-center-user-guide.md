@@ -75,14 +75,14 @@ To search for articles, follow these steps:
 
 1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
 1. In the **Search** field, start entering the keywords that an article should have. For example, *Redis*, *error*, *configuration management*, etc.
-    ![Search_Field_New_Inset_Image_1.jpg](assets/Search_Field_New_Inset_Image_1.jpg)    
+    ![Search-Field](assets/image-1-search-field-new.png)    
 1. The top article suggestions are displayed below the **Search** field.
 1. Select an article from the list and click it.
-    ![Select_An_Article_Image_1.jpg](assets/Select_An_Article_Image_1.jpg)    
+    ![search-article](assets/image-2-search-article-new.png)    
 1. If you want the results of your search to be displayed on a new page:
     * Do not select an article from the suggestion list
     * After typing your search query, press Enter on your keyboard
-      ![Search_Results_Image.png](assets/Search_Results_Image.png)
+      ![Search-enter](assets/image-3-search-enter-new.png)
 
 The search is not limited to the article title but also includes the article text; the most relevant matches are displayed first.
 
@@ -274,7 +274,7 @@ Your tickets are those that you:
 
 To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
-![View_Your_Tickets_JPG_Final.jpg](assets/View_Your_Tickets_JPG_Final.jpg)
+![my-ticket](assets/image-8-my-tickets-new.png)
 
 To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
 
