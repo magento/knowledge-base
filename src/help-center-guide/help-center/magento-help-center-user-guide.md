@@ -274,7 +274,7 @@ Your tickets are those that you:
 
 To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
-![View_Your_Tickets_JPG_Final.jpg](assets/View_Your_Tickets_JPG_Final.jpg)
+![my-ticket](assets/image-8-my-tickets-new.png)
 
 To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
 
