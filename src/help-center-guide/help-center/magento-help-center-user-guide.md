@@ -139,7 +139,7 @@ Once successfully logged in, you may submit a support ticket using the Help Cent
 To submit a new support ticket using the starting page of Adobe Commerce Help Center, follow these steps:
 
 1. Go to [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
-1. Click **Submit a ticket** at the upper-right corner.    ![View_Submit_Ticket_Button_JPG_Final.jpg](assets/View_Submit_Ticket_Button_JPG_Final.jpg)    
+1. Click **Submit a ticket** at the upper-right corner.    ![submit-a-ticket](assets/image-4-submit-a-ticket.png)    
 1. Fill in the fields.
 1. Click **Submit**.
 
