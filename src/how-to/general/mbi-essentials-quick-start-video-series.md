@@ -7,13 +7,13 @@ This training series will teach you the basics you need to start analyzing data 
 
 ## Introducing Magento BI Essentials
 
-<iframe></iframe>
+<iframe> src="//fast.wistia.com/embed/iframe/3y05sp076t" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Welcome to the world of Magento Business Intelligence!
 
 ## Building metrics
 
-<iframe></iframe>
+<iframe> src="//fast.wistia.com/embed/iframe/d6ph1z0109" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Think of metrics as the bridge between your raw data and actionable insight. Learn what a metric is, how to define it, and how to build it.
 
@@ -25,7 +25,7 @@ Additional information:
 
 ## Creating visualizations
 
-<iframe></iframe>
+<iframe> src="//fast.wistia.com/embed/iframe/24zz7wmjrt" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Now that you have your data integrated and your metrics built, you’re ready for analysis! In this video, you’ll learn how to use the Visual Report Builder to create customized auto-updating reports.
 
@@ -37,7 +37,7 @@ Additional information:
 
 ## Filter Sets
 
-<iframe></iframe>
+<iframe> src="//fast.wistia.com/embed/iframe/32f0a2ufdq" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Do you want to analyze only certain pieces of your business data? Tired of manually cleaning things up? In Magento BI, you can use the filter sets feature to simplify this process.
 
@@ -47,11 +47,11 @@ In this video, you'll learn:
 * How to use filter operators
 * How to apply a filter set to a metric
 * How to apply a filter set to a calculated data dimension
-* Written Instructions: [Creating filter sets for metrics](https://support.magento.com/hc/en-us/articles/360016505492) 
+* Written Instructions: [Creating filter sets for metrics](https://support.magento.com/hc/en-us/articles/360016505492)
 
 ## Saving and sharing
 
-<iframe></iframe>
+<iframe> src="//fast.wistia.com/embed/iframe/u0ook9yt3s" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 You’re almost finished! The final step to building a data-driven organization is sharing and taking action on insights. Learn how to organize your dashboards, share reports with other team members, and collaborate on data across your company.
 
@@ -74,5 +74,4 @@ You can also head over to the following sections:
 * [Analyses Library: Analyses, Explained](https://support.magento.com/hc/en-us/sections/360003113511-Analyses-Library-Analyses-Explained)
 * [Analyses Library: Marketing Analyses](https://support.magento.com/hc/en-us/sections/360003113531-Analyses-Library-Marketing-Analyses-)
 * [Analyses Library: Reference](https://support.magento.com/hc/en-us/sections/360003107792-Analyses-Library-Reference)
-* [Webinars](https://support.magento.com/hc/en-us/sections/360003077951-Webinars) .
-
+* [Webinars](https://support.magento.com/hc/en-us/sections/360003077951-Webinars)
