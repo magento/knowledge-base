@@ -13,7 +13,7 @@ Welcome to the world of Magento Business Intelligence!
 
 ## Building metrics
 
-<iframe> src="//fast.wistia.com/embed/iframe/d6ph1z0109" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/d6ph1z0109" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Think of metrics as the bridge between your raw data and actionable insight. Learn what a metric is, how to define it, and how to build it.
 
