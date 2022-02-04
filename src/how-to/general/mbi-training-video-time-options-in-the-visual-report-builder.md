@@ -3,7 +3,7 @@ title: "MBI Training Video: Time Options in the Visual Report Builder"
 labels: MBI,Magento Business Intelligence,data,database,how to,mbi-api-migration,reports
 ---
 
-<iframe> src="//fast.wistia.com/embed/iframe/c25h3toub4" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/c25h3toub4" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 In the Visual Report Builder, there are global Time Range and Interval settings that allow you to analyze the data in your report for a **specific time period** . In some cases, however, you may want to analyze **different** Time Ranges or Time Intervals in the same report. That’s where Time Options come in.
 
