@@ -3,7 +3,7 @@ title: "MBI Training Video: SQL Report Builder"
 labels: MBI,Magento Business Intelligence,SQL,analysis,data,database,how to,mbi-api-migration,reports
 ---
 
-<iframe> src="//fast.wistia.com/embed/iframe/oavgmg3j5d" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/oavgmg3j5d" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 The SQL Report Builder allows you to directly query your data warehouse, view the results, and quickly transform them into a chart. The best part about using SQL to build reports is that you don’t need to wait on update cycles to iterate on columns you create. If the results don’t look quite right, you can quickly edit and re-run the query until things match your expectations.
 
