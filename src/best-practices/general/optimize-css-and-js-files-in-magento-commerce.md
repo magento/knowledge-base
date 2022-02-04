@@ -28,10 +28,12 @@ To enable CSS merging or minification, go into the Admin > **Stores** > Setting 
 **Using command line:**
 
 To enable CSS merging in Adobe Commerce on cloud infrastructure:
+
 1. Run this command locally: `bin/magento config:set --lock-config dev/css/merge_files 1`
 1. Commit the app/etc/config.php file and redeploy.
 
 To enable CSS minification in Adobe Commerce on cloud infrastructure:
+
 1. Run this command locally: `bin/magento config:set --lock-config dev/css/minify_files 1`
 1. Commit the app/etc/config.php file and redeploy.
 
@@ -44,6 +46,7 @@ On the *Admin* sidebar, go to **Stores** > Settings > **Configuration** > **Adva
 **Using command line:**
 
 To enable JS minification in Adobe Commerce on cloud infrastructure:
+
 1. Run this command locally: `bin/magento config:set --lock-config dev/js/minify_files 1`
 1. Commit the app/etc/config.php file and redeploy.
 
