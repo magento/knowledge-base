@@ -7,7 +7,7 @@ This training series will teach you the basics you need to start analyzing data 
 
 ## Introducing Magento BI Essentials
 
-<iframe> src="//fast.wistia.com/embed/iframe/3y05sp076t" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/3y05sp076t" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Welcome to the world of Magento Business Intelligence!
 
