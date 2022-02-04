@@ -7,7 +7,7 @@ Looking for more? [Ask the community!](https://community.magento.com/t5/Magento-
 
 ## Essentials 101
 
-<iframe> src="//fast.wistia.com/embed/iframe/nn3duehg0o" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/nn3duehg0o" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Our Data Analyst team walks you through everything you need to know about getting started with Magento BI Essentials in this introductory webinar. We cover:
 
@@ -19,7 +19,7 @@ Our Data Analyst team walks you through everything you need to know about gettin
 
 ## Expanding your Analysis with Cohorts
 
-<iframe> src="//fast.wistia.com/embed/iframe/b332uk1wqd" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/b332uk1wqd" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 In this webinar, we review cohort analysis and how to build cohort reports in MBI. We’ll help you understand:
 
@@ -31,7 +31,7 @@ In this webinar, we review cohort analysis and how to build cohort reports in MB
 
 ## MBI New Architecture Breakdown
 
-<iframe> src="//fast.wistia.com/embed/iframe/2gow8v38om" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/2gow8v38om" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 In this webinar, our team will review the differences between the MBI 2.0 architecture and 3.0 architecture. We’ll help you understand:
 
@@ -43,7 +43,7 @@ In this webinar, our team will review the differences between the MBI 2.0 archit
 
 ## The Nuts and Bolts of Marketing ROI
 
-<iframe> src="//fast.wistia.com/embed/iframe/0xnzwdtequ" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/0xnzwdtequ" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 In this tactical webinar, our team will show you how raw data from your shopping cart, Google eCommerce, and advertising sources are combined into our Marketing ROI dashboard. We’ll help you understand:
 
@@ -53,7 +53,7 @@ In this tactical webinar, our team will show you how raw data from your shopping
 
 ## Customer Concentration Reporting in Magento BI
 
-<iframe> src="//fast.wistia.com/embed/iframe/28tg2j2wmt" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/28tg2j2wmt" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 In this tactical webinar, our team will through show you how much of your total GMV is concentrated in the LTV of your most important and loyal customers. We’ll use statistical techniques, cohort analysis, and other data insights to help you understand:
 
@@ -63,7 +63,7 @@ In this tactical webinar, our team will through show you how much of your total 
 
 ## Replicating and Automating Excel Analyses in Magento BI
 
-<iframe> src="//fast.wistia.com/embed/iframe/c0zw3vha7w" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/c0zw3vha7w" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 How much do you rely on manual analyses in Excel? In this webinar, you will learn how to save time by replicating and automating Excel analyses in Magento BI.
 
@@ -75,7 +75,7 @@ We will cover:
 
 ## Recency, Frequency, Monetary (RFM) Analysis in Magento BI
 
-<iframe> src="//fast.wistia.com/embed/iframe/2actp9bgan" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/2actp9bgan" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Thought leaders in the commerce industry, across all channels, are emphasizing the importance of RFM analysis for identifying your business's best customers. What can RFM do for you? Magento BI analysts Sal Calvo and Kerri Nunnamaker will spend time walking through each valuable component of recency, frequency, and monetary analysis.
 
@@ -89,7 +89,7 @@ What you'll learn:
 
 ## Introducing: The Analysis Library
 
-<iframe> src="//fast.wistia.com/embed/iframe/l0i7yg1o76" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/l0i7yg1o76" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Here at Magento BI, we're excited to announce a new way your online business can take advantage of your data warehouse, and supercharge the analyses in your Magento BI account.
 
@@ -99,7 +99,7 @@ Analysts Jim Roddy and Sal Calvo will introduce the Analysis Library, a set of o
 
 ## Getting Started with Magento BI
 
-<iframe> src="//fast.wistia.com/embed/iframe/t0v1l4b1pm" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/t0v1l4b1pm" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 We understand that getting started with something new can be intimidating. We’re here to help make sure getting started with Magento BI is as easy as possible. Whether today is your first day using Magento BI or you simply want to review the basics, our Getting Started series is designed to introduce you to the key aspects of Magento BI.
 
@@ -111,7 +111,7 @@ You'll learn:
 
 ## Analyzing your Holiday Season
 
-<iframe> src="//fast.wistia.com/embed/iframe/4ojlk8isqa" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/4ojlk8isqa" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 The holiday season has come and gone. So, how did you do? What is the best way to start digging into all the holiday data you have gathered? In this Analyzing your Holiday Season webinar, we review a few ways to help you analyze you holiday season performance.
 
@@ -126,7 +126,7 @@ You'll learn:
 
 ## Analyzing ROI Using Your Facebook and Adwords Data
 
-<iframe> src="//fast.wistia.com/embed/iframe/jrj3tj1kry" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/jrj3tj1kry" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Customer lifetime value (CLV), cost-per-click (CPC), customer acquisition cost (CAC); these are the metrics that data-driven companies use to measure their marketing KPIs. But how do you calculate them?
 
@@ -142,7 +142,7 @@ You'll learn:
 
 ## Optimize Your Holidays
 
-<iframe> src="//fast.wistia.com/embed/iframe/qyuhr8wwmj" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/qyuhr8wwmj" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Whoever said the holidays were the most wonderful time of the year was clearly not an ecommerce marketer. While the rest of the world is off roasting chestnuts over open fires, you're faced with things like monumental competition, erratic shopping behaviors, and marketing to a whole new customer.
 
@@ -156,7 +156,7 @@ You'll learn:
 
 ## Untap the Full Potential of Your Data
 
-<iframe> src="//fast.wistia.com/embed/iframe/qeihu4ve9w" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/qeihu4ve9w" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Identifying trends in your customer behavior is an important part of analytics. Having greater knowledge of your customer base allows you to create more targeted marketing campaigns and insightful business decisions.
 
@@ -170,7 +170,7 @@ You'll learn:
 
 ## From Question to Answer: Data Analysis Services
 
-<iframe> src="//fast.wistia.com/embed/iframe/ygr74lvb64" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/ygr74lvb64" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 Magento BI enables you to answer all of your business questions with data. There is rarely a shortage of opportunity to improve each area of your business, but forming the right hypothesis and building the analysis to provide the needed insight can be challenging.
 
@@ -186,7 +186,7 @@ You'll learn:
 
 ## Optimizing Customer Support
 
-<iframe> src="//fast.wistia.com/embed/iframe/c0bdnbfwyb" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="//fast.wistia.com/embed/iframe/c0bdnbfwyb" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
 You know that outstanding customer support increases customer loyalty, but how do you know exactly what's working? That's the subject of our latest webinar around support center metrics and how they're used to uncover actionable insights.
 
