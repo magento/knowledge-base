@@ -19,7 +19,7 @@ The time it takes to load CSS and Javascript (JS) files can be reduced by mergin
 
 >![info]
 >
->Note: Adobe Commerce on cloud infrastructure always run on Production mode and it is not possible to set it otherwise, therefore you must use the command line method to enable merging, minifying, and bundling.
+>Note: Adobe Commerce on cloud infrastructure always runs on Production mode and it is not possible to set it otherwise, therefore you must use the command line method to enable merging, minifying, and bundling.
 
 **Using Commerce Admin UI:**
 
