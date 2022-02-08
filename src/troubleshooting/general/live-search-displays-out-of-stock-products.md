@@ -26,7 +26,7 @@ You see the *We can’t find products matching the selection* message and no pro
 
 <ins>Actual result</ins>:
 
-All four products are shown.
+You see the *We can’t find products matching the selection* message and both products are displayed.
 
 ## Solution
 
