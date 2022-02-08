@@ -22,7 +22,7 @@ Live Search displays search results regardless of the stock status settings in t
 
 <ins>Expected result</ins>:
 
-You see only one product (Product4 in this case).
+You see the *We can’t find products matching the selection* message and no products are displayed.
 
 <ins>Actual result</ins>:
 
