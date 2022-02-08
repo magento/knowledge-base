@@ -18,7 +18,7 @@ Live Search displays search results regardless of the stock status settings in t
 1. Create a category, add products. (Example: Category = Jeans, Product1 = Blue Jeans, Product2 = Black Jeans)
 1. Make all products in the category out of stock. 
 1. Set “Display Out-of-Stock Products” to **No**.
-1. Create a customer, and in the website’s header navigation, go to All categories > Jeans.
+1. On the storefront, enter "Jeans" in the search field.
 
 <ins>Expected result</ins>:
 
