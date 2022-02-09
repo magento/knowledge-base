@@ -34,4 +34,4 @@ There is no solution for this issue at the moment. Our Live Search team will soo
 
 ## Related reading
 
-[Install Live Search in](https://docs.magento.com/user-guide/live-search/install.html) in our user guide.
+[Install Live Search](https://docs.magento.com/user-guide/live-search/install.html) in our user guide.
