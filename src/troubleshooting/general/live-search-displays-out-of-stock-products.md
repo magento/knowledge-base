@@ -16,7 +16,7 @@ Live Search displays search results regardless of the stock status settings in t
 <ins>Steps to reproduce</ins>:
 
 1. Create a category, add products. (Example: Category = Jeans, Product1 = Blue Jeans, Product2 = Black Jeans)
-1. Make all products in the category out of stock. 
+1. Make all products in the category out of stock.
 1. Set “Display Out-of-Stock Products” to **No**.
 1. On the storefront, enter "Jeans" in the search field.
 
@@ -31,3 +31,7 @@ You see the *We can’t find products matching the selection* message and both p
 ## Solution
 
 There is no solution for this issue at the moment. Our Live Search team will soon provide a setting to configure Live Search to display products correctly.
+
+## Related reading
+
+[Install Live Search in](https://docs.magento.com/user-guide/live-search/install.html) in our user guide.
