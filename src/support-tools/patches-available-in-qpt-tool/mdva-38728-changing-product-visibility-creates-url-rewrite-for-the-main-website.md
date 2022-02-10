@@ -27,7 +27,7 @@ Changing the product visibility of the second website creates URL rewrite for th
 
 1. Create an additional Website, Store, and Storeview.
 1. Create a simple product.
-1. Set Visibility to **Not Visible Individually**.
+1. Set the visibility to **Not Visible Individually**.
 1. Assign product to the second website only.
 1. Fill in all other required fields.
 1. Save the product.
