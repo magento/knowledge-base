@@ -544,4 +544,3 @@ Please refer to the [Shared access troubleshooting article](https://support.mage
 
 Magento U has merged with [Adobe Digital Learning Services (ADLS)](https://learning.adobe.com/).<br>
 Magento U Zendesk will be phased out.<br>
-If you encounter any future Magento U support questions via Zendesk, please tell the merchant to email [adls@adobe.com](mailto:adls@adobe.com) for support.
