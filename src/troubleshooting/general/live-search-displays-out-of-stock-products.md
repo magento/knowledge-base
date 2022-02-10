@@ -19,14 +19,15 @@ Live Search displays search results regardless of the stock status settings in t
 1. Make all products in the category out of stock.
 1. Set “Display Out-of-Stock Products” to **No**.
 1. On the storefront, enter "Jeans" in the search field.
+1. Click **View All** in the pop-up.
 
 <ins>Expected result</ins>:
 
-You see the *We can’t find products matching the selection* message and no products are displayed.
+You see the *We can’t find products matching the selection* message on PLP, and no products are displayed on the search pop-up.
 
 <ins>Actual result</ins>:
 
-You see the *We can’t find products matching the selection* message and both products are displayed.
+You see the *We can’t find products matching the selection* message on PLP, and both products are displayed on the search pop-up.
 
 ## Solution
 
