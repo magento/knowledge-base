@@ -3,7 +3,7 @@ title: "MDVA-42584: Stock status of configurable product not updated automatical
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.10,stock status,configurable product,simple product,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
-The MDVA-42584 patch solves the issue where the stock status of the configurable product is not updated automatically when its simple product is updated. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-42584. Please note that the issue was is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-42584 patch solves the issue where the stock status of the configurable product is not updated automatically when its simple product is updated. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-42584. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -21,7 +21,7 @@ The MDVA-42584 patch solves the issue where the stock status of the configurable
 
 ## Issue
 
-Stock Status for configurable product in the backend does not update automatically when its simple product is set to **In Stock** through API or import.
+Stock status of configurable product in the backend is not updated automatically when its simple product is set to **In Stock** through API or import.
 
 <ins>Prerequisites</ins>:
 
@@ -34,7 +34,7 @@ MSI installed.
 1. Now, update both simple products and set Quantity to **0** and Stock Status to **Out of Stock**.
 1. Refresh the configurable product and verify the stock status is updated to **Out of Stock**.
 1. Use the following API endpoint and set the simple product **InvCheck001-M** to **In Stock** with Quantity > 0.
-```
+```hQL
 /rest/V1/inventory/source-items
 
 {
@@ -54,7 +54,7 @@ MSI installed.
 
 <ins>Expected results</ins>:
 
-The stock status of the configurable product **InvCheck001** in the backend is updated automatically to **In Stock** when its simple product is set to **In Stock**.
+The stock status of the configurable product **InvCheck001** in the backend is updated automatically to **In Stock**.
 
 <ins>Actual results</ins>:
 
