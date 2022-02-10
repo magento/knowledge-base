@@ -3,7 +3,7 @@ title: "MDVA-40175: Radio buttons not displayed when reorder"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.10,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,Radio buttons,reorder,delivery methods
 ---
 
-The MDVA-40175 patch solves the issue where the Radio buttons is not displayed when users try to reorder. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-40175. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+The MDVA-40175 patch solves the issue where the Radio buttons are not displayed when users try to reorder. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-40175. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
@@ -25,7 +25,7 @@ Radio buttons are not displayed in the Payment & Shipping Information section wh
 
 <ins>Prerequisites</ins>:
 
-1. A Customer account with shipping address and a billing address is created.
+1. A Customer account with a shipping address and a billing address is created.
 1. A Simple Product is created.
 1. Several delivery methods are configured.
 1. At least one order is created.
@@ -41,11 +41,11 @@ Radio buttons are not displayed in the Payment & Shipping Information section wh
 
 <ins>Expected results</ins>:
 
-The list of delivery methods with radio buttons appears.
+The list of delivery methods with radio buttons appear.
 
 <ins>Actual results</ins>:
 
-The list of delivery methods without radio buttons appears.
+The list of delivery methods without radio buttons appear.
 
 ## Apply the patch
 
