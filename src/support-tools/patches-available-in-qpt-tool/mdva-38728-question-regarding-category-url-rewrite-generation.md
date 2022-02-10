@@ -1,9 +1,9 @@
 ---
-title: "MDVA-38728: Question regarding category URL rewrite generation"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT xxx,
+title: "MDVA-38728: Changing product visibility creates URL rewrite for default store"
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.10,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1, 2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-38728 patch solves the issue where .... This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-38728. Please note that the issue was is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-38728 patch solves the issue where .... This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-38728. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -21,18 +21,18 @@ The MDVA-38728 patch solves the issue where .... This patch is available when th
 
 ## Issue
 
-Mass attribute update when changing "Product Visibility" creates URL rewrite for default store only.
+Changing product visibility creates URL rewrite for the default store.
 
 <ins>Steps to reproduce</ins>:
 
 1. Create an additional Website, Store, and Storeview.
 1. Create a simple product.
-1. Set Visibility to *Not Visible Individually*.
+1. Set Visibility to **Not Visible Individually**.
 1. Assign product to the second website only.
 1. Fill all other required fields.
 1. Save product.
 1. Start mysql queues:
-    ```sql
+    ```mysql
     bin/magento queue:consumers:start product_action_attribute.update &
     bin/magento queue:consumers:start product_action_attribute.website.update &
     ```
