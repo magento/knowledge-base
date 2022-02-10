@@ -1,9 +1,9 @@
 ---
 title: "MDVA-43091: Unable to order bundled product from admin"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT xxx,
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.10,order,bundled product,Admin,4.3,2.4.3-p1
 ---
 
-The MDVA-43091 patch solves the issue where users are unable to order bundled product from the Commerce admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-43091. Please note that the issue was is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-43091 patch solves the issue where users are unable to order bundled product from the Commerce Admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-43091. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -21,21 +21,21 @@ The MDVA-43091 patch solves the issue where users are unable to order bundled pr
 
 ## Issue
 
-When trying to order bundle product from the admin, it throws the following error: *You cannot use decimal quantity for this product.*
+When trying to order bundled product from the Admin, it throws the following error: *You cannot use decimal quantity for this product.*
 
 <ins>Steps to reproduce</ins>:
 
 1. Install a clean Adobe Commerce.
 1. Create two simple products.
-1. Create bundle product with two options.
-1. Create customer account on the frontend.
+1. Create a bundled product with two options.
+1. Create a customer account on the frontend.
 1. Go to **Admin** > **Sales** > **Orders** > **Create New Order**.
     * Select the customer account created just now.
-    * Try to add bundle product to cart.
+    * Try to add the bundled product to the cart.
 
 <ins>Expected results</ins>:
 
-Admin user is able to add product with one quantity to cart.
+Admin user is able to add the product with one quantity to cart.
 
 <ins>Actual results</ins>:
 
