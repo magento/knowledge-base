@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43091: Unable to order bundled product from admin"
+title: "MDVA-43091: Unable to order bundled product from Admin"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.10,order,bundled product,Admin,4.3,2.4.3-p1
 ---
 
