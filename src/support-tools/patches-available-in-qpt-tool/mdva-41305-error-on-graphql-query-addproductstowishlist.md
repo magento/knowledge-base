@@ -42,88 +42,88 @@ When users add configurable products (with/without configuration) to the Wishlis
 1. Set this token for Bearer Authorization.
 1. Try to add a configurable product *Blue* to the wishlist using the following instructions:
 
-<pre>
-<code class="language-graphql">
-mutation {
-  addProductsToWishlist(
-    wishlistId: 1
-    wishlistItems: [
-      {
-        sku: "conf2"
-        selected_options: [
-         	"Y29uZmlndXJhYmxlLzkzLzUw"
+    <pre>
+    <code class="language-graphql">
+    mutation {
+     addProductsToWishlist(
+       wishlistId: 1
+       wishlistItems: [
+         {
+           sku: "conf2"
+           selected_options: [
+               	"Y29uZmlndXJhYmxlLzkzLzUw"
+           ]
+           quantity: 1
+           entered_options: [
+             {
+               uid: "Y3VzdG9tLW9wdGlvbi8x"
+               value: "test"
+             }
+           ]
+         }
         ]
-        quantity: 1
-        entered_options: [
-          {
-            uid: "Y3VzdG9tLW9wdGlvbi8x"
-            value: "test"
-          }
-        ]
-      }
-    ]
-  ) {
-    wishlist {
-      id
-      items_count
-      items_v2 (currentPage: 1, pageSize: 8 ) {
-        items {
+      ) {
+        wishlist {
           id
-          quantity
-          ... on ConfigurableWishlistItem  {
-            child_sku
-            customizable_options {
-              customizable_option_uid
-            }
-          }
-          product {
-            uid
-            name
-            sku
-            options_container
-            ... on CustomizableProductInterface {
-              options {
-                title
-                required
-                sort_order
-                option_id
-                ... on CustomizableFieldOption {
-                  value {
-                    uid
-                    sku
-                    price
-                    price_type
-                    max_characters
+          items_count
+          items_v2 (currentPage: 1, pageSize: 8 ) {
+            items {
+             id
+             quantity
+             ... on ConfigurableWishlistItem  {
+               child_sku
+               customizable_options {
+                 customizable_option_uid
+               }
+             }
+             product {
+               uid
+               name
+               sku
+               options_container
+               ... on CustomizableProductInterface {
+                 options {
+                  title
+                  required
+                  sort_order
+                  option_id
+                  ... on CustomizableFieldOption {
+                    value {
+                      uid
+                      sku
+                      price
+                      price_type
+                      max_characters
+                    }
                   }
                 }
               }
-            }
-            price_range {
-              minimum_price {
-                regular_price {
-                  currency
-                  value
+              price_range {
+                minimum_price {
+                  regular_price {
+                    currency
+                    value
+                  }
                 }
-              }
-              maximum_price {
-                regular_price {
-                  currency
-                  value
-                }
-              }
-            }
-          }
-        }
-      }
+                maximum_price {
+                   regular_price {
+                     currency
+                     value
+                   }
+                 }
+               }
+             }
+           }
+         }
+       }
+      user_errors {
+        code
+        message
+       }
+     }
     }
-    user_errors {
-      code
-      message
-    }
-  }
-}
-</code>
-</pre>
+    </code>
+    </pre>
 
 <ins>Expected results</ins>:
 
