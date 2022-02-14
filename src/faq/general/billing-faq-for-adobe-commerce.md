@@ -90,10 +90,10 @@ Entitlements are what enable you to submit tickets, download modules, and access
 
 Here are the steps to check that your payments are up-to-date:
 
-1.	Have the Primary Account Owner log into account [https://account.magento.com](https://account.magento.com) and navigate to the invoices section.
-1.	Check to ensure there are no outstanding invoices. Once an invoice is past due by one day, entitlements are temporarily turned off until all invoices have been paid.
-1.	If you have an unpaid invoice, please pay this as soon as possible. This is quickly done via a CC, and making sure a CC is setup on file. Once Adobe receives payment, your entitlements will come back the same day as payment is received.
-1.	If you are unsure if your invoices have been paid, or you have sent payment, and are unsure if it has been received, please email Magento Credit Collections [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
+1. Have the Primary Account Owner log into account [https://account.magento.com](https://account.magento.com) and navigate to the invoices section.
+1. Check to ensure there are no outstanding invoices. Once an invoice is past due by one day, entitlements are temporarily turned off until all invoices have been paid.
+1. If you have an unpaid invoice, please pay this as soon as possible. This is quickly done via a CC, and making sure a CC is setup on file. Once Adobe receives payment, your entitlements will come back the same day as payment is received.
+1. If you are unsure if your invoices have been paid, or you have sent payment, and are unsure if it has been received, please email Magento Credit Collections [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
 
 **If you do not have any unpaid invoices, please create a support ticket by emailing [helpcenterloginissues@magento.com](mailto:helpcenterloginissues@magento.com) and be sure to also put [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) in the CC: line.**
 
@@ -106,9 +106,9 @@ The first step is to review your contract. Most of those details are included in
 
 **Payment Remittance**, it’s always on the bottom of your invoice.
 
-*	We can only accept credit card payments below $75,000.
-*	**Merchants on monthly billing must pay via credit card on autopay.** [See the CC autopay section](#cc-autopay).  
-*	Merchants on quarterly, semi-annual, and annual can pay via credit card, but it must be done manually by the merchant.
+* We can only accept credit card payments below $75,000.
+* **Merchants on monthly billing must pay via credit card on autopay.** [See the CC autopay section](#cc-autopay).
+* Merchants on quarterly, semi-annual, and annual can pay via credit card, but it must be done manually by the merchant.
 
 ### Additional Billing Contacts
 
