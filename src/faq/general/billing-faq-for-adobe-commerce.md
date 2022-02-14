@@ -52,9 +52,9 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 1. Click **Save**.
 
-1.  >![info]
-    >
-    >Important Note: Once you click **Save** all open/unpaid invoices will be charged in full.
+1. >![info]
+   >
+   >Important Note: Once you click **Save** all open/unpaid invoices will be charged in full.
 
 1. If you encounter an error or have any questions regarding the **Autopay** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
