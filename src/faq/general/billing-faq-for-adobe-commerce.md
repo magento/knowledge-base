@@ -84,7 +84,7 @@ This payment method is for merchants with monthly billing (except for On-Premise
 If you have gone through these instructions, but have not seen a charge on your card/account within 30 minutes, please contact: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
 
 
-### Entitlements
+## Entitlements
 
 Entitlements are what enable you to submit tickets, download modules, and access our support teams. If you try to Submit Ticket and the option has gone missing, are unable to download the B2B module, or other modules your entitlements may have disappeared temporarily. This is usually caused by an issue with your invoicing.
 
@@ -97,7 +97,7 @@ Here are the steps to check that your payments are up-to-date:
 
 **If you do not have any unpaid invoices, please create a support ticket by emailing [helpcenterloginissues@magento.com](mailto:helpcenterloginissues@magento.com) and be sure to also put [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) in the CC: line.**
 
-### Access / Payment of Invoices
+## Access / Payment of Invoices
 
 Only the primary account holder can access the payment/invoice section of their account.
 Log in to [https://account.magento.com](https://account.magento.com), then choose the **Products and Services** > Select *Your Specific Product Purchased* > Choose **Pay Now** next to the proper invoice, or choose the invoice.
@@ -110,6 +110,6 @@ The first step is to review your contract. Most of those details are included in
 * **Merchants on monthly billing must pay via credit card on autopay.** [See the CC autopay section](#cc-autopay).
 * Merchants on quarterly, semi-annual, and annual can pay via credit card, but it must be done manually by the merchant.
 
-### Additional Billing Contacts
+## Additional Billing Contacts
 
 If you need another billing contact setup, please reach out to Magento Credit Collections [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com), and let them know the name and email of the contacts that need to be added.
