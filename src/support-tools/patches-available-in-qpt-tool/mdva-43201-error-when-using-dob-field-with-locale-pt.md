@@ -33,7 +33,7 @@ B2B modules are installed.
 1. Reindex and clear cache.
 1. Go to **Stores** > **Attribute** > **Customer**.
 1. Open DOB customer attribute and set **Show on Storefront** to **Yes**.
-1. Select all from **From to Use In**.
+1. Select all from **Form to Use In**.
 1. Save the attribute.
 1. Go to the Create New Account page in the frontend.
 
