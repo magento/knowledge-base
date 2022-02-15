@@ -45,6 +45,8 @@ Learn how to submit a support ticket to the Adobe Commerce Help Center, provide 
 * [Access shared account (switch accounts)](#switch-accounts)
 * [Shared access troubleshooting](#troubleshooting-shared-access)
 
+**[BILLING FAQ FOR ADOBE COMMERCE](#billing-faq)**
+
 **[MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES](#magento-u)**
 
 <h2 id="what-is">WHAT IS ADOBE COMMERCE HELP CENTER?</h2>
@@ -539,6 +541,10 @@ To know which account you are currently using (your own native account or shared
 <h3 id="troubleshooting-shared-access">Shared access troubleshooting</h3>
 
 Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012) in our support knowledge base.
+
+<h2 id="billing-faq">BILLING FAQ FOR ADOBE COMMERCE</h2>
+
+Merchants typically pay for our services by a credit card (CC) transaction, and this [Billing FAQ for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4427413247245) is a resource to assist you when you pay your bill.
 
 <h2 id="magento-u">MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES</h2>
 
