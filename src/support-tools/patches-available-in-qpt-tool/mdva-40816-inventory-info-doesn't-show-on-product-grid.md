@@ -30,7 +30,7 @@ MSI is installed.
 <ins>Steps to reproduce</ins>:
 
 1. Create a simple product.
-1. Modify a product SKU to include special symbols such as & or '.
+1. Modify a product's SKU to include special symbols such as & or '.
 1. Open the product grid.
 
 <ins>Expected results</ins>:
