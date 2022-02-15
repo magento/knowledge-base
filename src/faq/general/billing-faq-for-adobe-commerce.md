@@ -3,11 +3,8 @@ title: Billing FAQ for Adobe Commerce
 labels: Magento,help center,how to,shared access,shared account,license,autopay,CC,credit card,FAQ,PayPal,75000, Entitlements,submit tickets,Primary Account Owner,Invoices,payment,billing,on-premises,one-time,Adobe Commerce,primary account holder,product,access shared account,switch accounts,recurring payment,credentials,ACH,wire transfer,check,USD,delete card,Magento Credit Collections
 ---
 
-One of the most important things is the need for our clients to complete payment for the services we render. Usually this takes the form of a credit card (CC) transaction for a physical or digital item.
+Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill.
 
-As a merchant, you do a lot of hard work to ensure that you deliver the best service, product, and experiences to your customer, and that deserves to be recognized. You deserve to be compensated for the hard work you deliver to your customers.
-
-At Adobe, this is no different.<br>
 We know sometimes billing issues arise, and when they do, Adobe is here to help!
 
 ## Credit Card Setup
