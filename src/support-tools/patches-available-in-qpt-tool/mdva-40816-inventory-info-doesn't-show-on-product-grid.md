@@ -21,7 +21,7 @@ The MDVA-40816 patch solves the issue where inventory information is not display
 
 ## Issue
 
-Inventory data doesn't show on the product grid if a product SKU contains special symbols.
+Inventory data is not displayed on the product grid if a product SKU contains special symbols.
 
 <ins>Prerequisites</ins>:
 
