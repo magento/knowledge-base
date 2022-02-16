@@ -7,21 +7,11 @@ This article lists the support ticket contact reasons and more detailed descript
 
 ## Contact reasons
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-7zrl{text-align:left;vertical-align:bottom}
-</style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky"><span style="font-weight:bold;font-style:normal">Contact Reason</span></th>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal">Help Text</span></th>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal">Description</span></th>
   </tr>
 </thead>
 <tbody>
@@ -55,22 +45,11 @@ This article lists the support ticket contact reasons and more detailed descript
 ## Application reasons
 These are the options that appear if **Application** is selected as the Contact Reason:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
-.tg .tg-7zrl{text-align:left;vertical-align:bottom}
-</style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky"><span style="font-weight:bold;font-style:normal">Application</span></th>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal">Help Text</span></th>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal">Description</span></th>
   </tr>
 </thead>
 <tbody>
@@ -104,22 +83,11 @@ These are the options that appear if **Application** is selected as the Contact 
 ## Adobe Commerce Cloud Infrastructure reasons
 These are the options that appear if **Adobe Commerce Cloud Infrastructure** is selected as the Contact Reason:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
-.tg .tg-7zrl{text-align:left;vertical-align:bottom}
-</style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky"><span style="font-weight:bold;font-style:normal">Adobe Commerce Cloud Infrastructure</span></th>
-    <th class="tg-0lax"><span style="font-weight:700;font-style:normal">Help Text</span></th>
+    <th class="tg-0lax"><span style="font-weight:700;font-style:normal">Description</span></th>
   </tr>
 </thead>
 <tbody>
