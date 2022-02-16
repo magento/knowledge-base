@@ -1,5 +1,5 @@
 ---
-title: Support Ticket Contact Reason Descriptions
+title: Support ticket contact reason descriptions
 labels: Magento,help center,FAQ,ticket,on-premises,Adobe Commerce,contact reason description,questions,issues,cloud infrastructure
 ---
 
