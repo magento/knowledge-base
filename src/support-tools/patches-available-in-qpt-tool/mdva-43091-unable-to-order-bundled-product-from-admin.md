@@ -35,7 +35,7 @@ When trying to order bundled product from the Admin, it throws the following err
 
 <ins>Expected results</ins>:
 
-Admin user is able to add the product with one quantity to cart.
+Admin user is able to add the product with one quantity to the cart.
 
 <ins>Actual results</ins>:
 
