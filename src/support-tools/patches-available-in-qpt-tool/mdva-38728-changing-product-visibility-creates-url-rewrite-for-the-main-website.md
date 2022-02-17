@@ -21,7 +21,7 @@ The MDVA-38728 patch solves the issue where changing the product visibility of t
 
 ## Issue
 
-Changing the product visibility of the second website creates URL rewrite for the main website.
+Changing the product visibility of the second website creates a URL rewrite for the main website.
 
 <ins>Steps to reproduce</ins>:
 
