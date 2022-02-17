@@ -1,9 +1,9 @@
 ---
 title: Unable to add sites to Security Scan
-labels: security scan,
+labels: troubleshooting,site,security scan,error,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-This article provides a solution for the issue when the Admin user is unable to add sites into the Commerce Security Scan.
+This article provides possible solutions for the issue when the Admin user is unable to add sites into the Commerce Security Scan.
 
 ## Affected products and versions
 
@@ -34,7 +34,6 @@ Admin user is unable to add sites into the Commerce Security Scan. The following
         * Store URL
         * Comma separated notification email list
 
-
-## Related Readings
+## Related Reading
 
 * [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) in our developer documentation.
