@@ -29,7 +29,7 @@ Sample data is installed.
 
 <ins>Steps to reproduce</ins>:
 
-1. Enable the Display Out of Stock product setting in the Commerce Admin by going to > **Stores** > **Configuration** > **Catalog** > **Inventory**.
+1. Enable the Display Out of Stock product setting in the Commerce Admin by going to **Stores** > **Configuration** > **Catalog** > **Inventory**.
 1. Create a configurable product and assign a simple child product to it.
 1. Set the inventory of the variant (simple) product to **Out of Stock**.
 1. Reindex.
