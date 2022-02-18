@@ -7,7 +7,7 @@ This article provides possible solutions for the issue when the Admin user is no
 
 ## Affected products and versions
 
-* Adobe Commerce (all versions)
+* Adobe Commerce (all deployment methods and versions)
 
 ## Issue
 
