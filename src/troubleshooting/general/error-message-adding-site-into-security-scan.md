@@ -30,7 +30,7 @@ Admin user is not able to add sites into the Commerce Security Scan. The followi
     ```
     * Submit a support ticket and provide the following information:
         * Magento store URL
-        *  MAGEID + Magento.com account email
+        * MAGEID + Magento.com account email
         * First name + Last name
         * Company name
         * Store URL
