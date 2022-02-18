@@ -21,7 +21,7 @@ The MDVA-42584 patch solves the issue where the stock status of the configurable
 
 ## Issue
 
-Stock status of configurable product in the backend is not updated automatically when its simple product is set to **In Stock** through API or import.
+Stock status of the configurable product in the backend is not updated automatically when its simple product is set to **In Stock** through API or import.
 
 <ins>Prerequisites</ins>:
 
@@ -29,12 +29,12 @@ MSI installed.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a configurable product, **InvCheck001**, with two options: **InvCheck001-M**, and **InvCheck001-L**.
+1. Create a configurable product, **InvCheck001**, with two options: **InvCheck001-M** and **InvCheck001-L**.
 1. Both the simple products should have Quantity and they should be **In Stock** so that the configurable product is also **In Stock** in the backend.
 1. Now, update both simple products and set Quantity to **0** and Stock Status to **Out of Stock**.
 1. Refresh the configurable product and verify the stock status is updated to **Out of Stock**.
 1. Use the following API endpoint and set the simple product **InvCheck001-M** to **In Stock** with Quantity > 0.
-    ```hQL
+    ```JSON
     /rest/V1/inventory/source-items
 
     {
