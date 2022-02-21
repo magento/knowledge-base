@@ -1,6 +1,6 @@
 ---
-title: Unable to add sites into Security Scan
-labels: troubleshooting,site,security scan,error,Adobe Commerce,cloud infrastructure,on-premises
+title: Error message when add sites into Security Scan
+labels: troubleshooting,site,security scan,error message,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 This article provides possible solutions for the issue when the Admin user is not able to add sites into the Commerce Security Scan.
@@ -12,9 +12,6 @@ This article provides possible solutions for the issue when the Admin user is no
 ## Issue
 
 Admin user is not able to add sites into the Commerce Security Scan. The following error message appears when trying to add a site: *Unable to submit site for scanning.*
-
-## Cause
-
 
 ## Solution
 
