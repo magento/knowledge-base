@@ -33,6 +33,6 @@ Admin user is not able to add sites into the Commerce Security Scan. The followi
         * Store URL
         * Comma separated notification email list
 
-## Related Reading
+## Related reading
 
 * [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) in our developer documentation.
