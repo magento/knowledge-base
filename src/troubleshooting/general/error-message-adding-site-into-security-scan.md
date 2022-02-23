@@ -35,4 +35,4 @@ Admin user is not able to add sites into the Commerce Security Scan. The followi
 
 ## Related reading
 
-* [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) in our developer documentation.
+* [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) in our user guide.
