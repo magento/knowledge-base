@@ -22,6 +22,7 @@ User is not able to add sites into the Commerce Security Scan. The following err
 1. If the response code is HTTP 200 and the response body is a JSON object and the `verified` property value is `false`, it means the code is not found on the page. The `details` property value should contain the explanation. For example, if the store uses self-signed SSL certificate, there will probably be a connection error.
 
 If none of the above helps:
+
 1. Place another HTML comment on the page:
     ```HTML
     <!-- MAGEID:Your magento.com ID, EMAIL:your email address -->
