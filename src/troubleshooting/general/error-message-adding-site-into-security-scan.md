@@ -20,12 +20,13 @@ User is not able to add sites into the Commerce Security Scan. The following err
 1. Don't forget to clean cache and make sure the validation code appears in the home page source body. The confirmation code should be injected according to the HTML markup specs: HTML comment can be injected in the page body (we suggest putting it in the footer section); META tag should be in the head section only.
 1. Before clicking **Verify Confirmation code**, open the browser's developer console, click the **Network** tab and check the response from magento.com. It should be HTTP 200 (OK) and the response body should contain a JSON object.
 1. If the response code is HTTP 200 and the response body is a JSON object and the `verified` property value is `false`, it means the code is not found on the page. The `details` property value should contain the explanation. For example, if the store uses self-signed SSL certificate, there will probably be a connection error.
-1. If none of the above helps:
-    * Place another HTML comment on the page:
+
+If none of the above helps:
+1. Place another HTML comment on the page:
     ```HTML
     <!-- MAGEID:Your magento.com ID, EMAIL:your email address -->
     ```
-    * Submit a support ticket and provide the following information:
+1. Submit a support ticket and provide the following information:
         * Magento store URL
         * MAGEID + Magento.com account email
         * First name + Last name
