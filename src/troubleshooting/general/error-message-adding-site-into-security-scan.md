@@ -28,7 +28,7 @@ If none of the above helps:
     <!-- MAGEID:Your magento.com ID, EMAIL:your email address -->
     ```
 1. Submit a support ticket and provide the following information:
-    * Magento store URL
+    * Adobe Commerce store URL
     * MAGEID + Magento.com account email
     * First name + Last name
     * Company name
