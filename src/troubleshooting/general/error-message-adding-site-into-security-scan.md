@@ -32,7 +32,6 @@ If none of the above helps:
     * MAGEID + Magento.com account email
     * First name + Last name
     * Company name
-    * Store URL
     * Comma separated notification email list
 
 ## Related reading
