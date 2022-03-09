@@ -9,11 +9,11 @@ The MDVA-39305 patch fixes the issue where registered customers are not able to 
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce on cloud infrastructure 2.4.2-p1
+* Adobe Commerce on cloud infrastructure 2.4.2-p1, 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0-2.4.2-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.2-p1, 2.4.3 - 2.4.3-p1
 
 >![info]
 >
