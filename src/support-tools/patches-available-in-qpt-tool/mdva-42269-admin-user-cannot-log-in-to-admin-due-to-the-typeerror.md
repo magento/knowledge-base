@@ -3,8 +3,7 @@ title: 'MDVA-42269: Admin user cannot log in to Admin due to the "TypeError: str
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,Admin,login,TypeError,2.4.3-p1
 ---
 
-The MDVA-42269 patch fixes the issue where Admin users cannot log in to Admin due to
-.... This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42269. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-42269 patch fixes the issue where Admin users cannot log in to Admin due to TypeError. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42269. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.5.
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
@@ -21,7 +20,7 @@ The MDVA-42269 patch fixes the issue where Admin users cannot log in to Admin du
 
 ## Issue
 
-Admin user cannot log in to Admin due to the following error: "TypeError: strtotime() expects parameter 1 to be string, null given".
+Admin user cannot log in to Admin due to the following error: *TypeError: strtotime() expects parameter 1 to be string, null given.*
 
 <ins>Steps to reproduce</ins>:
 
@@ -33,7 +32,7 @@ The admin user can log in with the correct user name and password.
 
 <ins>Actual results</ins>:
 
-The admin user cannot log in. Error "TypeError: strtotime() expects parameter 1 to be string, null given" is logged.
+The admin user cannot log in. The following error is logged: *TypeError: strtotime() expects parameter 1 to be string, null given.*
 
 ## Apply the patch
 
