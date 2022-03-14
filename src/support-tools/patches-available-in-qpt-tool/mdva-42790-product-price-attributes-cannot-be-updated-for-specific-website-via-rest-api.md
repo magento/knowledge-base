@@ -25,9 +25,9 @@ Users are not able to updated product price attributes for specific website via 
 
 <ins>Steps to reproduce</ins>:
 
-1. In Admin set Stores > Configuration > Catalog > Catalog > Price > Catalog Price Scope = Website
-1. Update special price for a bundle product using V1/products endpoint
-    ```
+1. In the Admin go to **Stores** > **Configuration** > **Catalog** > **Price** > and set **Catalog Price Scope** to ***Website***
+1. Update special price for a bundled product using V1/products endpoint.
+    ```JSON
     {
       "product": {
         "id": 46,
@@ -50,11 +50,11 @@ Users are not able to updated product price attributes for specific website via 
     ```
 <ins>Expected results</ins>:
 
-Special price should get updated for a bundle product when Catalog Price has scope set to Website.
+Special price is updated for the bundled product when the **Catalog Price Scope** is set to **Website**.
 
 <ins>Actual results</ins>:
 
-Special price is not getting updated for a bundle product when Catalog Price has scope set to Website.
+Special price is not updated for the bundled product when the **Catalog Price Scope** is set to Website.
 
 ## Apply the patch
 
