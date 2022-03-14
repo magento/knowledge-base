@@ -1,6 +1,6 @@
 ---
 title: "MDVA-42237: Configurable product special price not updated"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,configurable product,GraphQL,2.4.5,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,configurable product,GraphQL,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
 The MDVA-42237 patch fixes the issue where the configurable product's special price is not updated after changes in its subproduct price. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42237. Please note that the issue was fixed in Adobe Commerce 2.4.2-p1.
