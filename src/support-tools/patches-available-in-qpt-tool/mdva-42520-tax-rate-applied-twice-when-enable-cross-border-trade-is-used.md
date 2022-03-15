@@ -21,7 +21,7 @@ The MDVA-42520 patch fixes the issue where the tax rate is applied twice when th
 
 ## Issue
 
-Tax rate is applied twice when the **Enable Cross Border Trade** is used.
+The tax rate is applied twice when the **Enable Cross Border Trade** is used.
 
 <ins>Steps to reproduce</ins>:
 
