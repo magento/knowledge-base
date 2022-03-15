@@ -3,7 +3,7 @@ title: 'MDVA-42269: Admin user cannot log into Admin due to the "TypeError:" err
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,Admin,login,TypeError,2.4.3-p1
 ---
 
-The MDVA-42269 patch fixes the issue where Admin users cannot log into the Admin due to TypeError. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42269. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-42269 patch fixes the issue where Admin users cannot log into the Admin due to TypeError. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42269. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
