@@ -26,7 +26,7 @@ Users are not able to update product price attributes for specific websites via 
 <ins>Steps to reproduce</ins>:
 
 1. In the Admin go to **Stores** > **Configuration** > **Catalog** > **Price** > and set **Catalog Price Scope** to Website.
-1. Update special price for a bundled product using REST API endpoint, `POST rest/V1/products/`.
+1. Update special price for a bundled product using REST API, `POST rest/V1/products/`.
     ```JSON
     {
       "product": {
