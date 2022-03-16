@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42269: Admin user cannot log into Admin due to the "TypeError:" error'
+title: 'MDVA-42269: Admin user cannot log into Admin due to the "TypeError" error'
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,Admin,login,TypeError,2.4.3-p1
 ---
 
@@ -25,7 +25,7 @@ Admin users cannot log into the Admin due to the following error: *TypeError: st
 
 <ins>Steps to reproduce</ins>:
 
-Log in to the Commerce Admin.
+Log into the Commerce Admin.
 
 <ins>Expected results</ins>:
 
