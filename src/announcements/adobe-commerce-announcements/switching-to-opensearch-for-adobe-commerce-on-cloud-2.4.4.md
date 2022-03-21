@@ -26,7 +26,7 @@ For Adobe Commerce on-premises, the latest 7.16.x version is recommended to miti
 
 After Adobe Commerce 2.4.4.
 
-Before beginning the upgrade process to Adobe Commerce 2.4.4, however, merchants need to be on a current version of Adobe Commerce that supports ElasticSearch 7.10, and be on at least ElasticSearch before beginning the upgrade process to Adobe Commerce 2.4.4 or to OpenSearch.
+Before beginning the upgrade process to Adobe Commerce 2.4.4, however, merchants need to be on a current version of Adobe Commerce that supports ElasticSearch 7.10 and be on at least ElasticSearch before beginning the upgrade process to Adobe Commerce 2.4.4 or to OpenSearch.
 
 ## What can merchants (Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises) who are not on 2.4.4 do? Can they upgrade to a supported version of Elasticsearch (7.10, 7.16.1) or to OpenSearch? Do they have to be on the latest supported version to do so (like 2.4.3-p1, 2.3.7-p2, 2.4.3-p1)?
 
