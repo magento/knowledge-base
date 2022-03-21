@@ -8,7 +8,7 @@ The following FAQ is intended to help merchants, developers, and partners unders
 ## General provisions
 
 ### Where can I find the software support dates for all versions of Adobe Commerce?
-You can find the Adobe Commerce software lifecycle policy and dates of software support in the [Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). We also publish end of support (EOS) dates on our [DevDocs page](https://devdocs.magento.com/release/released-versions.html).
+You can find the Adobe Commerce software lifecycle policy and dates of software support in the [Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). We also publish end of support (EOS) dates on our [developer documentation page](https://devdocs.magento.com/release/released-versions.html).
 
 ### What does it mean when Adobe ends support for a version of Adobe Commerce software?
 When Adobe ends the support for a version of its Adobe Commerce software, you can expect the following:
