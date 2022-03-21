@@ -38,7 +38,7 @@ If you decide to continue using software that has ended support you will no long
 
 **Growing aggressively**
 
-* Adobe continues to invest in new technologies and capabilities. By keeping software up to date, you are able to take advantage of newer technologies and capabilities that can help your business operate more strategically and grow even quicker.
+* Adobe continues to invest in new technologies and capabilities. By keeping software up-to-date, you are able to take advantage of newer technologies and capabilities that can help your business operate more strategically and grow even quicker.
 
 ### What are some examples of how merchants can benefit from new technology by staying current with their Adobe Commerce software?
 There are several ways you significantly benefit from staying current on your Adobe Commerce software:
