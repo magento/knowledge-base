@@ -85,7 +85,7 @@ Yes, support tickets opened prior to a software version’s end of support date 
 No, Adobe does not re-prioritize support tickets based on the end of support date of those software versions. Support tickets are addressed based on internal algorithms derived by the ticket's contact reason, environment, and business impact.
 
 ### For support tickets opened BEFORE the end of support date, is there an alert to remind merchants of the upcoming end of support?
-No, there are no reminder alerts notifying support ticket users of upcoming end of support dates. It is the responsibility of the ticket opener to know the end of support dates for the Adobe Commerce version they are on, which can be found on our [Adobe Commerce Software Lifecycle policy](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+No, there are no reminder alerts notifying support ticket users of upcoming end of support dates. It is the responsibility of the ticket opener to know the end of support dates for the Adobe Commerce version that they are on, which can be found on our [Adobe Commerce Software Lifecycle policy](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ### If a support ticket for a software version is opened AFTER the end of support date for that version, will it still be worked on to resolution?
 No, Adobe Commerce will not work to resolve support tickets that were opened after the end of support date for that software version.
