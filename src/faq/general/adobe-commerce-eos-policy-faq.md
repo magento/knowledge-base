@@ -26,7 +26,7 @@ If you decide to continue using software that has ended support you will no long
 **Providing secure shopping experiences:**
 
 * You will need to spend resources to evaluate and employ third-party vendors to provide security support, fixes, and updates.
-* Once a version of Adobe Commerce software is no longer supported, that version is no longer [PCI compliant](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard). When this happens you may be subject to fines, removal of credit card processing ability, or other penalties as a result.
+* Once a version of Adobe Commerce software is no longer supported, that version is no longer [PCI compliant](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security). When this happens you may be subject to fines, removal of credit card processing ability, or other penalties as a result.
 * As most exploits tend to target installations that are not up to date with the latest security updates, we always recommend that merchants keep their software up to date and install security updates as soon as they become available. It is up to the merchant to keep their online store secure with adequate safeguards and security controls to protect their website and their customers’ personal data. One of the best ways to do this is to have the latest patches, fixes and software updates installed and continually monitoring your site and admin console for unusual activity.
 
 **Operating efficiently and effectively**
