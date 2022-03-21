@@ -34,7 +34,7 @@ If you decide to continue using software that has ended support you will no long
 * As unsupported versions of Adobe Commerce software age, there is a diminishing pool of developers and partners available and able to provide support for outdated versions as they orient their operations to newer technologies. Generally, the result is that the quantity and quality of talent for software maintenance decreases, while the cost to maintain the software increases.
 * For unsupported Adobe Commerce software, peripheral technologies and dependencies may also reach their own end of life cycle (e.g., PHP, MYSQL, REDIS, SOLR). This makes it increasingly difficult to manage and maintain a secure and compliant site.
 * Extension developers are also increasing focus on the latest technologies and compatible platforms. As a result, they might not continue to maintain extensions for unsupported versions of Adobe Commerce.
-* Using unsupported versions of Adobe Commerce software often leads to spending more money and resources maintaining an old platform instead of applying those resources towards continued business innovation and growth.
+* Using unsupported versions of Adobe Commerce software often leads to spending more money and resources maintaining an old platform, instead of applying those resources towards continued business innovation and growth.
 
 **Growing aggressively**
 
