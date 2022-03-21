@@ -15,7 +15,7 @@ When Adobe ends the support for a version of its Adobe Commerce software, you ca
 
 * Adobe Commerce will no longer create further product changes for that version (including functional, quality, security, and PCI compliance changes.
 * Community pull requests will no longer be accepted or merged for the EOS version. Extensions in the Commerce Marketplace that are only compatible with unsupported versions of Adobe Commerce will be removed.
-* Online documentation for the unsupported versions will be removed (e.g., Dev Docs materials).
+* Online documentation for the unsupported versions will be removed (e.g., developer documentation materials).
 * Support tickets submitted after an Adobe Commerce version’s end of support will not be resolved (more technical support details are below).
 
 ### What are the implications for merchants using unsupported Adobe Commerce software?
