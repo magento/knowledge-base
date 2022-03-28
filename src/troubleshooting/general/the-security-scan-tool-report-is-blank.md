@@ -32,7 +32,7 @@ This issue might appear because the Security Scan Tool was not able to reach you
 
 Try to open your website.
 
-* If the page loads successfully, you might need to add the IPs used by the Security Scan Tools to the firewall AllowList. The following IPs are used: 52.72.230.169, 52.87.98.44, 52.86.204.1, at ports 80 and 443.
+* If the page loads successfully, you might need to add the IPs used by the Security Scan Tools to the firewall AllowList. The following IPs are used: 52.87.98.44, 34.196.167.176, 3.218.25.102 at ports 80 and 443.
 * If the site doesn't load and returns the *"There has been an error processing your request"* message, check your website for possible errors.
 
 ## Related reading
