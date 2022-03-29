@@ -23,8 +23,9 @@ When PayPal flags a specific test credit card number for fraud triggers that err
 
 ## Solution
 
-Use another test credit card, you can get them from online generators like:
+Use another test credit card, you can get it from the PayPal Developer Portal [Credit Card Generator](https://developer.paypal.com/developer/creditCardGenerator/) to generate mock credit cards you can use for testing:
 
-* [Prepostseo](https://www.prepostseo.com/tool/credit-card-generator) 
-
-You can use any expiration date and CVV code with the credit card number that you generate.
+1. Access this PayPal Developer Portal [Credit Card Generator](https://developer.paypal.com/developer/creditCardGenerator/) page.
+1. Log in to the PayPal Developer Portal Dashboard.
+1. Generate a test credit card.
+1. Retry placing an order and payment.
