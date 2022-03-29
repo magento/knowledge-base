@@ -21,11 +21,11 @@ Users are not able to add products to the cart if the Allow Countries is deselec
 1. Save Configuration.
 1. Go to the Storefront and try adding a product to the cart.
 
-<ins>Expected Result</ins>
+<ins>Expected Result:</ins>
 
 You are able to add the product to the cart.
 
-<ins>Actual Result</ins>
+<ins>Actual Result:</ins>
 
 You are not able to add the product to the cart. You get the following console error:
 ```clike
