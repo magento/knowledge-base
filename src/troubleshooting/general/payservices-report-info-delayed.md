@@ -7,7 +7,7 @@ This article explains why reporting data in Payment Services may be delayed.
 
 ## Affected products and versions
 
-* [Payment Services](https://marketplace.magento.com/magento-payment-services.html) is now compatible with Adobe Commerce versions 2.4.0 to 2.4.3-p1.
+* [Payment Services](https://marketplace.magento.com/magento-payment-services.html) is now compatible with Adobe Commerce versions 2.4.0 to 2.4.4.
 
 ## Issue
 
@@ -39,7 +39,7 @@ There may be a delay in visible report data for just-completed order actions. Pa
 
 There are two factors that affect this delay in visible data in the Admin:
 
-* How often you choose to sync (export and persist) data from Commerce, via [configuration in the Admin](https://devdocs.magento.com/payment-services/configure-payments.html).
+* How often you choose to sync (export and persist) data from Commerce, via [configuration in the Admin](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
 * Timeframe in which PayPal publishes reporting data.
 
 ## Solution
