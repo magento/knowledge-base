@@ -21,7 +21,7 @@ The MDVA-41136 patch solves the issue where the expiration date of the "mage-cac
 
 ## Issue
 
-Expiration date of the "mage-cache-sessid" is not extended, resulting in customer data cleanup.
+The expiration date of the "mage-cache-sessid" is not extended, resulting in customer data cleanup.
 
 <ins>Steps to reproduce</ins>:
 
