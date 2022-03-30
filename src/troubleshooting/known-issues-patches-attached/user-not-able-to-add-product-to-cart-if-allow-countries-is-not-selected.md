@@ -18,7 +18,7 @@ Users are not able to add products to the cart if the Allow Countries is deselec
 1. Go to the Admin site.
 1. Go to **Store** > **Configuration** > **General** > **Country Options** > **Allow Countries**.
 1. Deselect all the options in **Allow Countries** field.
-1. Save Configuration.
+1. Save the Configuration.
 1. Go to the Storefront and try adding a product to the cart.
 
 <ins>Expected Result:</ins>
@@ -39,7 +39,7 @@ customer-data.js:87 Uncaught Error: [object Object]
 ```
 ## Cause
 
-The Adobe Commerce configuration retrieves `null` in case when a multiselect configuration does not have any selected items. The continuing of processing this configuration works well in PHP < 8.1, however in PHP 8.1 it works bad due to errors that have been provoked by the "[Deprecate passing null to non-nullable arguments of internal functions in PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)".
+The Adobe Commerce configuration retrieves `null` in case when a multiselect configuration does not have any selected items. The continuing of processing this configuration works well in PHP versions < 8.1, however in PHP 8.1 it does not work properly due to the errors that have been provoked by the "[Deprecate passing null to non-nullable arguments of internal functions in PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)".
 
 ## Solutions
 
