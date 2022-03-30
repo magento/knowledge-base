@@ -25,18 +25,18 @@ Expiration date of the "mage-cache-sessid" is not extended, resulting in custome
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to Stores> Configuration> Web > Default Cookie Settings > and set Cookie Lifetime = 60.
-1. Login as a customer on frontend.
-1. Go to "My account".
+1. Go to **Stores** > **Configuration** > **Web** > **Default Cookie Settings** > and set **Cookie Lifetime** = 60.
+1. Log in as a customer on the frontend.
+1. Go to **My account**.
 1. Reload the page in the interval of 30 seconds.
 
 <ins>Expected results</ins>:
 
-The customer's name in the header displays.
+The customer's name in the header is displayed.
 
 <ins>Actual results</ins>:
 
-The customer's name in the header is gone and the message "Default welcome msg! " displays.
+The customer's name in the header is gone and the message *Default welcome msg!* is displayed.
 
 ## Apply the patch
 
