@@ -27,7 +27,7 @@ You are able to add a product to the cart.
 
 <ins>Actual Result:</ins>
 
-You are not able to add the product to the cart. You get the following console error:
+You are not able to add a product to the cart. You get the following console error:
 ```clike
 Failed to load resource: the server responded with a status of 400 (Bad Request)
 customer-data.js:87 Uncaught Error: [object Object]
