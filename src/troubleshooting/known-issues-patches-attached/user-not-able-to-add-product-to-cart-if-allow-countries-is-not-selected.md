@@ -23,7 +23,7 @@ Users are not able to add products to the cart if the Allow Countries is deselec
 
 <ins>Expected Result:</ins>
 
-You are able to add the product to the cart.
+You are able to add a product to the cart.
 
 <ins>Actual Result:</ins>
 
