@@ -45,7 +45,7 @@ The Adobe Commerce configuration retrieves `null` in case when a multiselect con
 
 To resolve the issue, apply the following patch:
 
-[AC-2655_2.4.4.patch](AC-2655_2.4.4.patch.zip)
+[AC-2655_2.4.4.patch.zip](assets/AC-2655_2.4.4.patch.zip)
 
 ## How to apply the patch
 
