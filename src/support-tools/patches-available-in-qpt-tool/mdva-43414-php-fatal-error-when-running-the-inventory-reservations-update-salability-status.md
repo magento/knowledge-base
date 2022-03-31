@@ -29,7 +29,7 @@ Inventory modules installed.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a custom inventory source and assign it to a new inventory stock.
+1. Create a custom inventory source and assign it to new inventory stock.
 1. Create a product with the custom inventory source.
 1. Make sure that the product SKU is an integer value.
 1. Place an order.
@@ -41,7 +41,7 @@ The queue starts without any error.
 
 <ins>Actual results</ins>:
 
-PHP fetal error occurs:
+PHP fatal error occurs:
 
 `PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\InventoryIndexer\Model\Queue\UpdateIndexSalabilityStatus\IndexProcessor::getIndexSalabilityStatus() must be of the type string, int given, called in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php on line 119 and defined in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php:136
 `
