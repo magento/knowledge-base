@@ -1,9 +1,9 @@
 ---
-title: Users not able to add product to cart if Allow Countries is deselected
+title: Users not able to add product to cart if Allow Countries is unselected
 labels: Adobe Commerce,Magento,known issues,patch,troubleshooting,on-premises,cloud infrastructure,2.4.4,PHP 8.1,Allow Countries,Configuration,add product to cart
 ---
 
-This article provides a patch for the known Adobe Commerce 2.4.4 with PHP 8.1 issue where users are not able to add products to the cart if the Allow Countries is deselected.
+This article provides a patch for the known Adobe Commerce 2.4.4 with PHP 8.1 issue where users are not able to add products to the cart if the Allow Countries is unselected.
 
 ## Affected products and versions
 
@@ -11,15 +11,15 @@ Adobe Commerce 2.4.4 with PHP 8.1
 
 ## Issue
 
-Users are not able to add products to the cart if the Allow Countries is deselected.
+Users are not able to add products to the cart if the Allow Countries is unselected.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to the Admin site.
+1. Go to the Commerce Admin site.
 1. Go to **Store** > **Configuration** > **General** > **Country Options**
-1. Deselect all the options in **Allow Countries** field.
+1. Unselect all the options in **Allow Countries** field.
 1. Click **Save Config** to save the configuration.
-1. Go to the store front and try adding a product to the cart.
+1. Go to the storefront and try adding a product to the cart.
 
 <ins>Expected Result:</ins>
 
