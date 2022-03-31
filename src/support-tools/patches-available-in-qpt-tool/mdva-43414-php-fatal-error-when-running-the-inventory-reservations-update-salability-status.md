@@ -1,9 +1,9 @@
 ---
 title: '"MDVA-43414: PHP fatal error when running "inventory.reservations.updateSalabilityStatus"'
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,PHP fatal error,inventory.reservations.updateSalabilityStatus,numerical SKUs,queue consumer
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,PHP fatal error,inventory.reservations.updateSalabilityStatus,numerical SKUs,queue consumer,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2
 ---
 
-The MDVA-43414 patch solves the issue the PHP fatal error that occurs when running the "inventory.reservations.updateSalabilityStatus" queue consumer on numerical SKUs. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-43414. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.2.
+The MDVA-43414 patch solves the PHP fatal error that occurs when running the `inventory.reservations.updateSalabilityStatus` queue consumer on numerical SKUs. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-43414. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -21,7 +21,7 @@ The MDVA-43414 patch solves the issue the PHP fatal error that occurs when runni
 
 ## Issue
 
-PHP fatal error that occurs when running the "inventory.reservations.updateSalabilityStatus" queue consumer on numerical SKUs.
+PHP fatal error occurs when running the "inventory.reservations.updateSalabilityStatus" queue consumer on numerical SKUs.
 
 <ins>Prerequisites</ins>:
 
@@ -29,11 +29,11 @@ Inventory modules installed.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a custom inventory source and assign it to new inventory stock.
+1. Create a custom inventory source and assign it to a new inventory stock.
 1. Create a product with the custom inventory source.
-1. Product SKU should be an integer value.
+1. Make sure that the product SKU is an integer value.
 1. Place an order.
-1. Run "bin/magento queue:consumer:start inventory.reservations.updateSalabilityStatus" command.
+1. Run the `bin/magento queue:consumer:start inventory.reservations.updateSalabilityStatus` command.
 
 <ins>Expected results</ins>:
 
@@ -43,9 +43,8 @@ The queue starts without any error.
 
 PHP fetal error occurs:
 
-```
-PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\InventoryIndexer\Model\Queue\UpdateIndexSalabilityStatus\IndexProcessor::getIndexSalabilityStatus() must be of the type string, int given, called in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php on line 119 and defined in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php:136
-```
+`PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\InventoryIndexer\Model\Queue\UpdateIndexSalabilityStatus\IndexProcessor::getIndexSalabilityStatus() must be of the type string, int given, called in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php on line 119 and defined in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php:136
+`
 
 ## Apply the patch
 
