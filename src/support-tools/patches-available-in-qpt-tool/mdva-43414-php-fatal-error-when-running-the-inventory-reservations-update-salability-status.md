@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-43414: PHP fatal error when running "inventory.reservations.updateSalabilityStatus"'
+title: 'MDVA-43414: PHP fatal error when running "inventory.reservations.updateSalabilityStatus"'
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,PHP fatal error,inventory.reservations.updateSalabilityStatus,numerical SKUs,queue consumer,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2
 ---
 
