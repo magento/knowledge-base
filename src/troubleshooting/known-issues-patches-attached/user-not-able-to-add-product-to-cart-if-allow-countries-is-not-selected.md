@@ -19,7 +19,7 @@ Users are not able to add products to the cart if the Allow Countries is deselec
 1. Go to **Store** > **Configuration** > **General** > **Country Options** > **Allow Countries**.
 1. Deselect all the options in **Allow Countries** field.
 1. Save the Configuration.
-1. Go to the Storefront and try adding a product to the cart.
+1. Go to the store front and try adding a product to the cart.
 
 <ins>Expected Result:</ins>
 
