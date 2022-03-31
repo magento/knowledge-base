@@ -24,12 +24,14 @@ The MDVA-42950 patch solves the issue where videos are not being played on the p
 
 <ins>Steps to reproduce</ins>:
 
-1. Configure YouTube API key in Stores -> Configuration -> Catalog -> Product Video.
-1. Add some video from YouTube into any simple product wich has parent configurable.
-1. Add HEADER HTML in Content -> Design -> Configuration -> HTML Head -> Scripts and Stylesheets:
-    `<script async="" src="https://www.youtube.com/iframe_api"></script>`
+1. Configure YouTube API key in Stores > **Configuration** > **Catalog** > **Product Video**.
+1. Add some video from YouTube into any simple product which has parent configurable.
+1. Add HEADER HTML in Content > **Design** > **Configuration** > **HTML Head** > **Scripts and Stylesheets**:
+    ```HTML
+    <script async="" src="https://www.youtube.com/iframe_api"></script>`
+    ```
 1. Go to the PDP, select product configuration to see the video in the list of photos and videos.
-1. Try to play video.
+1. Try to play the video.
 
 
 <ins>Expected results</ins>:
@@ -38,7 +40,7 @@ Video is playing.
 
 <ins>Actual results</ins>:
 
-Video doesn't play.
+Video does not play.
 
 ## Apply the patch
 
