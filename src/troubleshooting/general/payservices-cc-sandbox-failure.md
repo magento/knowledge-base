@@ -1,6 +1,6 @@
 ---
 title: Credit card failed payments in a Sandbox environment
-labels: troubleshooting,payment services,Adobe Commerce,Magento,2.4.0,2.4.1,2.4.3,2.4.4
+labels: troubleshooting,payment services,Adobe Commerce,Magento,2.4.0,2.4.1,2.4.3,2.4.4,on-premises,cloud infrastructure
 ---
 
 This article explains why a test credit card fails in a Sandbox environment with PayPal APIs.
