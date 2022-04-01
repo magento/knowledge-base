@@ -20,7 +20,8 @@ The MDVA-42950 patch solves the issue where videos are not being played on the p
 >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
- Videos are not being played on the product page.
+
+Videos are not being played on the product page.
 
 <ins>Steps to reproduce</ins>:
 
@@ -30,9 +31,8 @@ The MDVA-42950 patch solves the issue where videos are not being played on the p
     ```HTML
     <script async="" src="https://www.youtube.com/iframe_api"></script>`
     ```
-1. Go to the PDP, select product configuration to see the video in the list of photos and videos.
+1. Go to the PDP, and select product configuration to see the video in the list of photos and videos.
 1. Try to play the video.
-
 
 <ins>Expected results</ins>:
 
