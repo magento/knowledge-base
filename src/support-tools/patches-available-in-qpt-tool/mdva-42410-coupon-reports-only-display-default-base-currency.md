@@ -40,7 +40,7 @@ Coupon reports display the new website's currency as Euro.
 
 <ins>Actual results</ins>:
 
-Coupon reports display the new website's currency set to default base currency (USD in this case).
+Default base currency (USD in this case) is used in coupon reports for the new website.
 
 ## Apply the patch
 
