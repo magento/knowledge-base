@@ -15,7 +15,7 @@ Users are not able to add products to the cart if the Allow Countries is unselec
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to the Commerce Admin site.
+1. Log in to the Commerce Admin.
 1. Go to **Store** > **Configuration** > **General** > **Country Options**
 1. Unselect all the options in **Allow Countries** field.
 1. Click **Save Config** to save the configuration.
