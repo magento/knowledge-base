@@ -1,5 +1,5 @@
 ---
-title: Users not able to add product to cart if Allow Countries is unselected
+title: Users not able to add product to cart if nothing selected in Allow Countries
 labels: Adobe Commerce,Magento,known issues,patch,troubleshooting,on-premises,cloud infrastructure,2.4.4,PHP 8.1,Allow Countries,Configuration,add product to cart
 ---
 
