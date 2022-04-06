@@ -39,7 +39,7 @@ customer-data.js:87 Uncaught Error: [object Object]
 ```
 ## Cause
 
-The Adobe Commerce configuration retrieves `null` in case when a multiselect configuration does not have any selected items. The continuing of processing this configuration works well in PHP versions < 8.1, however in PHP 8.1 it does not work properly due to the errors that have been provoked by the "[Deprecate passing null to non-nullable arguments of internal functions in PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)".
+The Adobe Commerce configuration retrieves `null` in case when a multiselect configuration does not have any selected items. This configuration if further successfully processed in PHP versions earlier than 8.1. However in PHP 8.1 it does not work properly due to the errors that are caused by the "[Deprecate passing null to non-nullable arguments of internal functions in PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)".
 
 ## Solutions
 
