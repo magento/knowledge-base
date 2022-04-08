@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39713: User is able to edit start time for active scheduled update"
+title: "MDVA-39713: User is able to edit start time of active scheduled update"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.12,scheduled update,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6
 ---
 
