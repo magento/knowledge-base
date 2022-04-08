@@ -57,7 +57,7 @@ COC001-Red-M option is not crossed out because we have updated it to **In Stock*
 
 <ins>Actual results</ins>:
 
-COC001-Red-M option is still crossed out, even though it is  In Stock.
+COC001-Red-M option is still crossed out, even though it is In Stock.
 
 ## Apply the patch
 
