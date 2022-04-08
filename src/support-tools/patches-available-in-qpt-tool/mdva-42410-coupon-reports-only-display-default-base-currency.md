@@ -25,7 +25,7 @@ Coupon reports only display default base currency.
 
 <ins>Steps to reproduce</ins>:
 
-1. Create an additional website/store/storeview.
+1. Create an additional Website, Store, and Store View.
 1. Set a different currency for this new website. For example, Euro.
 1. Go to **Stores** > **Currency Rates** and configure currency rates to **Euro**.
 1. Create a **Cart Price Rule** with a specific coupon - **Test**.
