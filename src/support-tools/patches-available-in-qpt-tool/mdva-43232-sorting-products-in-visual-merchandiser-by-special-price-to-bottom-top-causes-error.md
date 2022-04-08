@@ -44,7 +44,7 @@ The category is saved without errors.
 
 <ins>Actual results</ins>:
 
-Exception is thrown:
+An exception is thrown:
 
 ```php
 [2022-02-07T05:58:46.297621+00:00] report.CRITICAL: Exception: Item (Magento\Catalog\Model\Product\Interceptor) with the same ID "1" already exists. in /lib/internal/Magento/Framework/Data/Collection.php:407
