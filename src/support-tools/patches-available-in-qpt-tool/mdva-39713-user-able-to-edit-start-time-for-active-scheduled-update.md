@@ -30,7 +30,7 @@ The user is able to edit the start time for an active scheduled update.
 1. Activate the Scheduled Update by running the command `bin/magento cron:run --group=staging` in local environment. Wait for a few minutes and check if the schedule is active.
 1. After the schedule is active, refresh the page.
 1. Click on **View/Edit** in **Scheduled Changes**.
-1. Edit the time, add +2 minutes and save.
+1. Edit the time by adding +2 minutes and save the change.
 1. Save the CMS page.
 1. Again run `bin/magento cron:run --group=staging`.
 1. Click on **View/Edit** for a schedule update.
