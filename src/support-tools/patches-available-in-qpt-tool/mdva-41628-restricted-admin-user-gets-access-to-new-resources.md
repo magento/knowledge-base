@@ -32,7 +32,7 @@ Restricted admin users can get access to the new resources when new modules are 
 
 <ins>Expected results</ins>:
 
-The admin user with restricted access is unable to access newly created menu items.
+The admin user with restricted access is unable to access the newly created menu items.
 
 <ins>Actual results</ins>:
 
