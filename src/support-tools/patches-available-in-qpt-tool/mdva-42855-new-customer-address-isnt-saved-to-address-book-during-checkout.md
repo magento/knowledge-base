@@ -27,7 +27,7 @@ The new customer address is not saved to the address book during checkout.
 
 1. Create a customer account and update the default shipping and billing address.
 1. Add a product to the cart and navigate to the checkout page.
-1. On Shipping, click on the **+ New Address** button.
+1. On Shipping, click **+ New Address**.
 1. Enter the address and keep the **Save in Address Book** checkbox ticked.
 1. On Payment, tick the **My billing and shipping address are the same** checkbox.
 1. Place the order.
