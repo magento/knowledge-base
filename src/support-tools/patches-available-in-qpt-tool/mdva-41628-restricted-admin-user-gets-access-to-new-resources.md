@@ -21,7 +21,7 @@ The MDVA-41628 patch fixes the issue where the restricted admin users are able t
 
 ## Issue
 
-Restricted admin users get access to the new resources when new modules are added.
+Restricted admin users can get access to the new resources when new modules are added.
 
 <ins>Steps to reproduce</ins>:
 
