@@ -29,7 +29,7 @@ The admin cannot refund reward points if the store credit functionality is disab
 1. Create a new customer account and add some reward points.
 1. Disable the Store Credit Functionality by going to **Store** > Settings > **Configuration** > **Customer** > **Customer Configuration** > **Store Credit Options**.
 1. Log in as the customer to whom the reward points are assigned.
-1. Add product to cart and navigate to checkout.
+1. Add a product to the cart and navigate to checkout.
 1. Use the reward points in the payment section and place the order.
 1. Open the order in the admin and invoice the order.
 1. Click on the **Credit Memo** link to create a new credit memo.
