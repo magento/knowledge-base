@@ -3,7 +3,7 @@ title: "MDVA-39993: Inventory changes done through API are not reflected on fron
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,inventory changes,frontend,API,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-39993 patch solves the issue where inventory changes done through API are not reflected on the frontend. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-39993. Please note that the issue is scheduled to be fixed in Adobe Commerce xxx.
+The MDVA-39993 patch solves the issue where inventory changes done through API are not reflected on the frontend. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-39993. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -48,12 +48,12 @@ Inventory modules installed.
       ]
     }
     ```
-1. Check this simple product from the backend and verify that it is updated to **In Stock**.
+1. Check this simple product from the backend and verify that it is updated to In Stock.
 1. Load the configurable product from the frontend and click on each color. Notice the size **M** when you click on **Red** color.
 
 <ins>Expected results</ins>:
 
-COC001-Red-M option is not crossed out because we have updated it to **In Stock** through API.
+COC001-Red-M option is not crossed out because we have updated it to In Stock through API.
 
 <ins>Actual results</ins>:
 
