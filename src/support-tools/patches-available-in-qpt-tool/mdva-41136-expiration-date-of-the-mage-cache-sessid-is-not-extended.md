@@ -1,9 +1,9 @@
 ---
-title: 'MDVA-41136: Expiration date of the "mage-cache-sessid" is not extended'
+title: "MDVA-41136: Expiration date of the mage-cache-sessid is not extended"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,expiration date,mage-cache-sessid,data cleanup,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-41136 patch solves the issue where the expiration date of the "mage-cache-sessid" is not extended resulting in customer data cleanup. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-41136. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-41136 patch solves the issue where the expiration date of the `mage-cache-sessid` is not extended, resulting in customer data cleanup. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-41136. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -21,14 +21,14 @@ The MDVA-41136 patch solves the issue where the expiration date of the "mage-cac
 
 ## Issue
 
-The expiration date of the "mage-cache-sessid" is not extended, resulting in customer data cleanup.
+The expiration date of the `mage-cache-sessid` is not extended, resulting in customer data cleanup.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Stores** > **Configuration** > **Web** > **Default Cookie Settings** > and set **Cookie Lifetime** = 60.
+1. Go to **Stores** > **Configuration** > **Web** > **Default Cookie Settings** > and set **Cookie Lifetime** to 60.
 1. Log in as a customer on the frontend.
 1. Go to **My account**.
-1. Reload the page in the interval of 30 seconds.
+1. Reload the page at the interval of 30 seconds.
 
 <ins>Expected results</ins>:
 
@@ -36,7 +36,7 @@ The customer's name in the header is displayed.
 
 <ins>Actual results</ins>:
 
-The customer's name in the header is gone and the message *Default welcome msg!* is displayed.
+The customer's name in the header is missing and the message *Default welcome msg!* is displayed.
 
 ## Apply the patch
 
