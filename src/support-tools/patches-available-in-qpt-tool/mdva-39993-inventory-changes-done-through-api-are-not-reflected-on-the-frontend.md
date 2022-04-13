@@ -49,7 +49,7 @@ Inventory modules installed.
     }
     ```
 1. Check this simple product from the backend and verify that it is updated to In Stock.
-1. Load the configurable product from the frontend and click on each color. Notice the size **M** when you click on **Red** color.
+1. Load the configurable product from the frontend and click on each color. Notice the size **M** when you click on **Red**.
 
 <ins>Expected results</ins>:
 
