@@ -21,7 +21,7 @@ The MDVA-39546 patch fixes the issue where the start date for the Staging Update
 
 ## Issue
 
-The start date for the Staging update can be set to a date earlier than the current date.
+The start date for the Staging Update can be set to a date earlier than the current date.
 
 <ins>Steps to reproduce</ins>:
 
