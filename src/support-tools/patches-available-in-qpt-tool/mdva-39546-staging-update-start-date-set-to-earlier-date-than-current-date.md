@@ -26,7 +26,7 @@ The start date for the Staging Update can be set to a date earlier than the curr
 <ins>Steps to reproduce</ins>:
 
 1. Schedule a New Update on a product with a future start date.
-1. Edit the update from **Content** > **Content Staging** > **Dashboard** and update the start date with an older date and save.
+1. Edit the update from **Content** > **Content Staging** > **Dashboard** and update the start date with an older date and save the change.
 1. Reopen the above update.
 
 <ins>Expected results</ins>:
