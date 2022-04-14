@@ -3,7 +3,7 @@ title: "MDVA-39546: Staging Update start date can be set to a date earlier than 
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.12,Staging,update,date,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
-The MDVA-39546 patch fixes the issue where the start date for the Staging update can be set to an earlier date than the current date. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-39546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-39546 patch fixes the issue where the start date for the Staging Update can be set to an earlier date than the current date. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-39546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
