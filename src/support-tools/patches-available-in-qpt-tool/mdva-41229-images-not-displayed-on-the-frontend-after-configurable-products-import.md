@@ -65,7 +65,7 @@ Images available on the backend are not displayed on the frontend after configur
         * Used for Sorting in Product Listing: No
 1. Add this attribute to the Default Attribute Set inside Product Details Group (**Stores** > **Attributes** > **Attribute Set**).
 1. Download images set into var folder inside Adobe Commerce root directory.
-1. Go to **System** > **Data Transfer** > **Import** and import file using the below options:
+1. Go to **System** > **Data Transfer** > and import file using the below options:
     * Import Settings:
         * Entity Type: Products
     * Import Behavior:
@@ -73,8 +73,8 @@ Images available on the backend are not displayed on the frontend after configur
         * Validation Strategy: Stop on Error
         * Allowed Errors Count: 1
         * Field separator: `;`
-        * Multiple value separator: ,
-        * Attribute value constant: *EMPTYVALUE*
+        * Multiple value separator: `,`
+        * Attribute value constant: EMPTYVALUE
         * Fields enclosure: unchecked
     * File to Import:
         * Select File to Import
