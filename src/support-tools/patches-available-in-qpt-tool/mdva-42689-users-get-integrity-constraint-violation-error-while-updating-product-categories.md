@@ -3,7 +3,7 @@ title: "MDVA-42689: Users get Integrity Constraint Violation error while updatin
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,Integrity Constraint Violation,updates,product categories,import,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,
 ---
 
-The MDVA-42689 patch solves the issue where users get an Integrity Constraint Violation error while updating product categories during import. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-42689. Please note that the issue is scheduled to be fixed in Adobe Commerce ***2.4.5.***
+The MDVA-42689 patch solves the issue where users get an Integrity Constraint Violation error while updating product categories during import. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-42689. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -26,16 +26,16 @@ Adobe Commerce throws an Integrity Constraint Violation error while updating pro
 <ins>Steps to reproduce</ins>:
 
 1. Set up two websites.
-1. Create subcategories under the root category up to two levels on the category page. For example, Root category > **Gear** > **Watches**.
-1. Create two simple products and assign both the products to the same Gear > Watches category.
+1. Create subcategories under the root category up to two levels on the category page. For example, Root Category > **Gear** > **Watches**.
+1. Create two simple products and assign both the products to the same **Gear** > **Watches** category.
 1. Assign one simple product to both websites.
 1. Save the product.
 1. Prepare a CSV file for import. There should be two product records with different store views. One of the products should belong to both these store views.
-1. Now import the CSV using System > **Import** > **Entity Type** (Products).
+1. Now import the CSV file by navigating to **System** > **Import** > **Entity Type** (Products).
 
 <ins>Expected results</ins>:
 
-CSV is imported without any error.
+CSV file is imported without any error.
 
 <ins>Actual results</ins>:
 
