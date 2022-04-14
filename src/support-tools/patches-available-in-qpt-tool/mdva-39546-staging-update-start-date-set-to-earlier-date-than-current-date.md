@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39546: Staging update start date can be set to a date earlier than current date"
+title: "MDVA-39546: Staging Update start date can be set to a date earlier than current date"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.12,Staging,update,date,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 ---
 
