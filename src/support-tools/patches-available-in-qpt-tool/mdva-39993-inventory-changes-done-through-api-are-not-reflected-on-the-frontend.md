@@ -21,7 +21,7 @@ The MDVA-39993 patch solves the issue where the inventory changes done through A
 
 ## Issue
 
-The inventory changes done through API are not reflected on the frontend product page.
+The inventory changes done through API are not reflected on the store front product page.
 
 <ins>Prerequisites</ins>:
 
