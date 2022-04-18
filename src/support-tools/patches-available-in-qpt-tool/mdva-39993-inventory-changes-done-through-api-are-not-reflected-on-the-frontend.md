@@ -32,7 +32,7 @@ Inventory modules installed.
 1. Make sure the queue is set to execute with cron and cron is installed and running.
 1. Create a configurable product (COC001), with two colors (Black and Red), and two sizes (M and L).
 1. Make one option out of stock (COC001-Red-M).
-1. Load the configurable product from frontend and click on each color. When you click on **Red**, the size **M** should be crossed out because it is OOS.
+1. Load the configurable product page on the store front and try clicking on each color. When you click **Red**, the size **M** should be crossed out because it is out of stock.
 1. Make COC001-Red-M in stock using the following API endpoint and the payload:
     ```json
     POST http://{domain}/rest/V1/inventory/source-items
