@@ -26,7 +26,7 @@ The expiration date of the `mage-cache-sessid` is not extended, resulting in cus
 <ins>Steps to reproduce</ins>:
 
 1. In the Adobe Commerce Admin, go to **Stores** > **Configuration** > **Web** > **Default Cookie Settings** > and set **Cookie Lifetime** to 60.
-1. Log in as a customer on the frontend.
+1. Log in as a customer on the store front.
 1. Go to **My account**.
 1. Reload the page after 30 seconds.
 
