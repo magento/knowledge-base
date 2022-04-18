@@ -36,7 +36,7 @@ The customer's name in the header is displayed.
 
 <ins>Actual results</ins>:
 
-The customer's name in the header is missing and the message *Default welcome msg!* is displayed.
+The customer's name in the header is missing and the *Default welcome msg!* message  is displayed.
 
 ## Apply the patch
 
