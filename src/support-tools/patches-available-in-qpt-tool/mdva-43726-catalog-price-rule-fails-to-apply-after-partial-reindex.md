@@ -34,7 +34,7 @@ The catalog price rule based on store-level attribute match fails to apply after
 1. Open one of the simple products related to the configurable product.
 1. Change the scope to store view and update the attribute value to **Yes**.
 1. Run the `CRON` and check the price on the frontend.
-1. Run full reindex. Again, check the price on the frontend.
+1. Run a full reindex. Again, check the price on the frontend.
 1. Update the configurable product category.
 1. Run the `CRON` and check the price on frontend.
 
