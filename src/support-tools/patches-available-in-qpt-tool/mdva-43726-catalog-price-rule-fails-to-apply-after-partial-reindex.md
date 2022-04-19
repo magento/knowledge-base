@@ -26,7 +26,7 @@ The catalog price rule based on store-level attribute match fails to apply after
 <ins>Steps to reproduce</ins>:
 
 1. Set indexer mode to run on schedule.
-1. Create two configurable product attributes. E.g., Color (Visual Swatch) and Size (Text Swatch).
+1. Create two configurable product attributes. For example: Color (Visual Swatch) and Size (Text Swatch).
 1. Create a configurable product using both attributes created in point two.
 1. After creating the products, create a **Yes/No** type attribute and make it visible in the rule conditions.
 1. Add this attribute to the default attribute set.
