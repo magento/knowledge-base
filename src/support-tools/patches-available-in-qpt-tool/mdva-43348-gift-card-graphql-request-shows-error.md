@@ -9,7 +9,7 @@ The MDVA-43348 patch fixes the issue where Gift Card GraphQL request shows an er
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.2
 
 **Compatible with Adobe Commerce versions:**
 
