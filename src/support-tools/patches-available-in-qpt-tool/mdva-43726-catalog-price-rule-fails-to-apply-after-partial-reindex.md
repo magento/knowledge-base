@@ -36,7 +36,7 @@ The catalog price rule based on store-level attribute match fails to apply after
 1. Run the `CRON` and check the price on the frontend.
 1. Run a full reindex. Again, check the price on the frontend.
 1. Update the configurable product category.
-1. Run the `CRON` and check the price on frontend.
+1. Run the `CRON` and check the price again on the frontend.
 
 <ins>Expected results</ins>:
 
