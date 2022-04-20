@@ -42,7 +42,7 @@ You get the same product list as before in the search results.
 
 <ins>Actual results</ins>:
 
-No products show in the search results.
+No product is shown in the search results.
 
 ## Apply the patch
 
