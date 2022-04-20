@@ -21,7 +21,7 @@ The MDVA-42645 patch solves the issue where the admin cannot refund reward point
 
 ## Issue
 
-The admin cannot refund reward points if the store credit functionality is disabled.
+The Admin cannot refund reward points if the store credit functionality is disabled.
 
 <ins>Steps to reproduce</ins>:
 
