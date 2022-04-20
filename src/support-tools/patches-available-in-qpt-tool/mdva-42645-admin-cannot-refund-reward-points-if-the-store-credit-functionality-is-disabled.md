@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42645: Admin cannot refund reward points if the store credit functionality is disabled"
+title: "MDVA-42645: Admin can't refund reward points for disabled store credit"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,2.4.3,2.4.3-p1,refund,reward points,store credit
 ---
 
