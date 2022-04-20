@@ -33,7 +33,7 @@ The Admin cannot refund reward points if the store credit functionality is disab
 1. Use the reward points in the payment section and place the order.
 1. Open the order in the admin and invoice the order.
 1. Click on the **Credit Memo** link to create a new credit memo.
-1. Tick the Refund Reward Points at the bottom and click the **Refund Offline**.
+1. Tick the Refund Reward Points option at the bottom and click the **Refund Offline**.
 
 <ins>Expected results</ins>:
 
