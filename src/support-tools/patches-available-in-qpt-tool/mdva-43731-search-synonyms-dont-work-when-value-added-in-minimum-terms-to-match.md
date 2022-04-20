@@ -21,7 +21,7 @@ The MDVA-43731 patch fixes the issue where Search Synonyms stop working when a v
 
 ## Issue
 
-Search Synonyms don't work when value is added in "Minimum Terms to Match".
+Search Synonyms stop working when a value is added in "Minimum Terms to Match".
 
 <ins>Steps to reproduce</ins>:
 
