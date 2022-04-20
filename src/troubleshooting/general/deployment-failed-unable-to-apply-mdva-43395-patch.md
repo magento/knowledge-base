@@ -1,6 +1,6 @@
 ---
 title: "Deployment failed: Unable to apply MDVA-43395 patch"
-labels:
+labels: failed deployment,MDVA-43395,patch,Adobe Commerce,cloud infrastructure,m2-hotfixes,magento/magento-cloud-patches 1.0.16
 ---
 
 This article provides a solution for the failed deployment where a user is unable to apply MDVA-43395 patch.
@@ -24,4 +24,3 @@ Remove the MDVA-43395 and MDVA-43443 patches from `m2-hotfixes` and redeploy.
 ## Related reading
 
 * [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731)
-*
