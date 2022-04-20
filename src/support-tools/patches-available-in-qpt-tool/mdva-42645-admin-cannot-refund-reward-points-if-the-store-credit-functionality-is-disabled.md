@@ -37,7 +37,7 @@ The Admin cannot refund reward points if the store credit functionality is disab
 
 <ins>Expected results</ins>:
 
-* Credit Memo is created successfully.
+* The Credit Memo is created successfully.
 * The reward points are refunded successfully.
 
 <ins>Actual results</ins>:
