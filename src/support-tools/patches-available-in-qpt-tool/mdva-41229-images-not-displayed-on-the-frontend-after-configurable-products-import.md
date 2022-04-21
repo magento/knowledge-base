@@ -63,7 +63,7 @@ Images available on the backend are not displayed on the frontend after configur
         * Visible on Catalog Pages on Storefront: Yes
         * Used in Product Listing: Yes
         * Used for Sorting in Product Listing: No
-1. Add this attribute to the Default Attribute Set inside Product Details Group (**Stores** > **Attributes** > **Attribute Set**).
+1. Add this attribute to the Default Attribute Set inside the Product Details Group (**Stores** > **Attributes** > **Attribute Set**).
 1. Download images set into var folder inside Adobe Commerce root directory.
 1. Go to **System** > **Data Transfer** > and import the file using the below options:
     * Import Settings:
