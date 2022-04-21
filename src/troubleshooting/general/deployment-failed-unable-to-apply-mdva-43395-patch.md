@@ -1,5 +1,5 @@
 ---
-title: "Deployment failed: Unable to apply MDVA-43395 patch"
+title: "Deployment failed: unable to apply MDVA-43395 patch"
 labels: failed deployment,MDVA-43395,patch,Adobe Commerce,cloud infrastructure,m2-hotfixes,magento/magento-cloud-patches 1.0.16
 ---
 
