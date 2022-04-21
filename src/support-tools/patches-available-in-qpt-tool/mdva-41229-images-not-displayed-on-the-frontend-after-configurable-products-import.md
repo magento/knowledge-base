@@ -79,15 +79,15 @@ Images available on the backend are not displayed on the frontend after configur
     * File to Import:
         * Select File to Import
         * Images File Directory: leave it empty
-1. Go to storefront to `/product-set.html` page and switch between different Set Sizes > for the 24 there will be no gallery.
+1. Go to storefront to `/product-set.html` page and switch between different Set Sizes. For the 24 there will be no gallery.
 
 <ins>Expected results</ins>:
 
-Gallery for all simple products inside configurable one is visible with all related images.
+The gallery for all simple products inside a configurable product is visible with all related images.
 
 <ins>Actual results</ins>:
 
-There is no gallery for product.
+There is no gallery for the products.
 
 ## Apply the patch
 
