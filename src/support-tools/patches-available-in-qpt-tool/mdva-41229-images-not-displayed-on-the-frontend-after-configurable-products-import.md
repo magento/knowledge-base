@@ -79,7 +79,7 @@ Images available on the backend are not displayed on the frontend after configur
     * File to Import:
         * Select File to Import
         * Images File Directory: leave it empty
-1. Go to storefront to `/product-set.html` page and switch between different Set Sizes. For the 24 there will be no gallery.
+1. Go to storefront to `/product-set.html` page and switch between different Set Sizes. For Set Size 24, there will be no gallery.
 
 <ins>Expected results</ins>:
 
