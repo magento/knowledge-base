@@ -369,9 +369,9 @@ Please provide precise details, steps to reproduce (except for Adobe Commerce on
 
 #### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, MBI and Shipping only)
 
-Select the environment type on which you face the problem:
+Select the **environment type** on which you face the problem:
 
-* Development
+* Development (**Integration branches**)
 * Staging
 * Production
 
