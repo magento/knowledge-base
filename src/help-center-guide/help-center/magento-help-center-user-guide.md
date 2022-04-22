@@ -438,8 +438,8 @@ To find the version of your Adobe Commerce (cloud infrastructure), scroll down y
 
 Please specify your deployment method:
 
-- *Cloud* - choose this only if you are on Adobe Commerce on Cloud Infrastructure
-- *On-Premise* - **all self-hosted instances as well as [AWS] cloud-based hosting** (excludes Adobe Commerce on Cloud)
+* *Cloud* - choose this only if you are on Adobe Commerce on Cloud Infrastructure
+* *On-Premise* - **all self-hosted instances as well as [AWS] cloud-based hosting** (excludes Adobe Commerce on Cloud)
 
 #### Cloud Project URL
 
@@ -450,9 +450,9 @@ If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/proj
 
 Select the **environment type** on which you face the problem:
 
-- *Development* (**Integration branches**)
-- *Staging*
-- *Production*
+* *Development* (**Integration branches**)
+* *Staging*
+* *Production*
 
 #### Magento Environment ID
 
