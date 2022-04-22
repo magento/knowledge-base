@@ -6,7 +6,6 @@ labels: MBI,Magento Business Intelligence,analysis,database,date,how to,mbi-api-
 >![warning]
 >
 >The video in this article are temporarily unavailable. We are sorry for the inconvenience. 
->
 
 <iframe  src="//fast.wistia.com/embed/iframe/jpzcf6ey3o" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
 
