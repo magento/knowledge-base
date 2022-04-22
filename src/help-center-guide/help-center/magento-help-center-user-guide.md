@@ -434,6 +434,36 @@ Please select the Adobe Commerce version you are requesting help with. All suppo
 
 To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
 
+#### Implementation Type
+
+Please specify your deployment method:
+
+- *Cloud* - choose this only if you are on Adobe Commerce on Cloud Infrastructure
+- *On-Premise* - **all self-hosted instances as well as [AWS] cloud-based hosting** (excludes Adobe Commerce on Cloud)
+
+#### Cloud Project URL
+
+Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`.
+If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface), for example, `https://cloud.magento.com/project/<project_id>/develop/infrastructure`.
+
+#### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, MBI and Shipping only)
+
+Select the **environment type** on which you face the problem:
+
+- *Development* (**Integration branches**)
+- *Staging*
+- *Production*
+
+#### Magento Environment ID
+
+This field will only appear after you've selected **Contact Reason** = *Adobe Commerce Cloud Application*, followed by **Adobe Commerce Application Contact Reason** = *Live Search*.
+
+<img src = "assets/magento-env-id.png" alt = "Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search">
+
+If you are using [Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html) or [OpenSearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/es-aws.html), do not select this option.
+
+To obtain this information, in the Adobe Commerce Admin, go to **Marketing** > **Live Search** > **GraphQL Playground**, scroll down to the bottom of the page, then click on **HTTP HEADERS**.
+
 <h3 id="ticket-status">Ticket status: How your tickets are processed</h3>
 
 Your ticket may have either of these three statuses.
