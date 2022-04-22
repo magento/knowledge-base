@@ -3,6 +3,10 @@ title: MBI Webinar Archives
 labels: Essentials,MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
 ---
 
+>![warning]
+>
+>The videos in this article are temporarily unavailable. We are sorry for the inconvenience. 
+
 Looking for more? [Ask the community!](https://community.magento.com/t5/Magento-Business-Intelligence/ct-p/analytics)
 
 ## Essentials 101
