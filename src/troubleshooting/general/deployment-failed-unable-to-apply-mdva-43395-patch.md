@@ -15,7 +15,7 @@ The user is not able to apply the MDVA-43395 patch.
 
 ## Cause
 
-Cloud merchants do not need to apply the MDVA-43395 patch separately; it is already included in `magento/magento-cloud-patches 1.0.16` and the patch is already applied.
+Cloud merchants do not need to apply the MDVA-43395 patch separately if they have [magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) installed, which already includes the patch.
 
 ## Solution
 
