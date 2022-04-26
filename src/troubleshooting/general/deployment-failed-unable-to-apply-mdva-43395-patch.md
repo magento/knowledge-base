@@ -11,7 +11,7 @@ This article provides a solution for the issue, where trying to apply the MDVA-4
 
 ## Issue
 
-The user is not able to apply the MDVA-43395 patch.
+You are not able to apply the MDVA-43395 patch.
 
 ## Cause
 
