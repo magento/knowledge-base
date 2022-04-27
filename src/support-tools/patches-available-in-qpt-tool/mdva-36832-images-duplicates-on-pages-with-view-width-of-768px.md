@@ -1,6 +1,6 @@
 ---
 title: "MDVA-36832: Images duplicate on pages with 768px view width"
-labels: 2.4.2,QPT 1.0.24,Magento Commerce Cloud,Quality Patches Tool,support tools,Magento Commerce,QPT patches,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0, 2.3.6,2.4.0-p1,2.4.1,2.3.6-p1,2.4.1-p1,2.4.2,2.3.7,2.4.2-p1,2.3.7-p1,2.4.3,2.4.3-p1,2.3.7-p2,product image, duplicate,Adobe Commerce,cloud infrastructure,on-premises
+labels: 2.4.2,QPT 1.0.24,Magento Commerce Cloud,Quality Patches Tool,support tools,Magento Commerce,QPT patches,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0, 2.3.6,2.4.0-p1,2.4.1,2.3.6-p1,2.4.1-p1,2.4.2,2.3.7,2.4.2-p1,2.3.7-p1,2.4.3,2.4.3-p1,2.3.7-p2,2.3.7-p3,product image, duplicate,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
 The MDVA-36832 patch fixes the issue where images duplicate on pages with view width of 768px. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.24 is installed. The patch ID is MDVA-36832. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
