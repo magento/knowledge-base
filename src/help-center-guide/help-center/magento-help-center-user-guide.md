@@ -87,7 +87,7 @@ To search for articles, follow these steps:
     * Do not select an article from the suggestion list
     * After typing your search query, press Enter on your keyboard
 
-    <img src = "assets/search-enter-3.png" alt = "search-enter" width="800px">
+        <img src = "assets/search-enter-3.png" alt = "search-enter" width="800px">
 
 The search is not limited to the article title but also includes the article text; the most relevant matches are displayed first.
 
