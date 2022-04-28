@@ -158,6 +158,7 @@ To submit a new support ticket using your Magento Account page, follow these ste
 
 1. Log in to your Magento Account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
 1. Click the **Support** tab.    
+
     <img src= "assets/magento_account_support_tab.png" alt = "magento_account_support_tab" width = "800px">
 1. The Help Center start page loads for you.
 1. Click **Submit a ticket** in the upper-right corner.
