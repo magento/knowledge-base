@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43601: Triggers are removed from "catalogrule_product_price" table after a "catalogrule_rule" or "catalogrule_product" full reindex"
+title: 'MDVA-43601: Triggers are removed from "catalogrule_product_price" table after full reindex'
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.13,triggers,table,reindex,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
 ---
 
@@ -25,10 +25,10 @@ Triggers are removed from `catalogrule_product_price` table after a full reindex
 
 <ins>Steps to reproduce</ins>:
 
-1. Set all the indexers to "Update by Schedule".
+1. Set all the indexers to *Update by Schedule*.
 1. Check the triggers created for `catalogrule_product_price` table.
     `show triggers like '%catalogrule_%'\G`
-1. Manually reindex `catalogrule_rule` or `catalogrule_product`.
+1. Manually reindex `catalogrule_rule` or `catalogrule_product` by running the following command:
     `bin/magento indexer:reindex catalogrule_rule`
 1. Check the triggers of `catalogrule_product_price` table again.
 
@@ -38,7 +38,7 @@ Triggers in "catalogrule_product_price" table are preserved after a full reindex
 
 <ins>Actual results</ins>:
 
-No triggers for `catalogrule_product_price` table.
+No triggers found for `catalogrule_product_price` table.
 
 ## Apply the patch
 
