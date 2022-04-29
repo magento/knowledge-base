@@ -43,7 +43,7 @@ The customer can’t update cart items because of a GraphQL UpdateCartItems muta
     }
     ```
 1. Make a note of the cart ID code.
-6. Run the below query to add configurable product to the cart:
+1. Run the below query to add configurable product to the cart:
     ```GraphQL
     mutation {
     addConfigurableProductsToCart(
