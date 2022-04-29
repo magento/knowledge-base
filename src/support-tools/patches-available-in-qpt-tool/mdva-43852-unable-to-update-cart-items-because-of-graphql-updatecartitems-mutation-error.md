@@ -1,6 +1,6 @@
 ---
 title: "MDVA-43852: customer can’t update cart items because of a GraphQL UpdateCartItems mutation error"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 2.4.5,
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.13,update,GraphQL,UpdateCartItems,mutation error,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
 ---
 
 The MDVA-43852 patch solves the issue where the customer can’t update cart items because of a GraphQL UpdateCartItems mutation error.
@@ -14,7 +14,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.0-2.4.2-p2, 2.4.3-2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.3.0 - 2.4.2-p2, 2.4.3 - 2.4.3-p1
 
 >![info]
 >
@@ -22,28 +22,28 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
-customer can’t update cart items because of a GraphQL UpdateCartItems mutation error.
+The customer can’t update cart items because of a GraphQL UpdateCartItems mutation error.
 
 <ins>Steps to reproduce</ins>:
 
 1. Create a configurable product (MH01) by assigning one simple (MH01-XL-Gray).
-1. Go to admin > Catalog > Products > SKU > MH01 > Customizable Options.
+1. Go to the Commerce Admin > **Catalog** > **Products** > **SKU** > **MH01** > **Customizable Options**.
 1. Add a custom option to the product.
-    * Option Title: option1
+    * Option Title: Option1
     * Option Type: Field
     * Required: Yes
     * Price: 10.00
     * Price Type: Fixed
     * SKU: MHC1
     * Max Characters: 25
-1. Run below graphql query to generate cart ID.
+1. Run the below GraphQL query to generate cart ID.
     ```GraphQL
     mutation {
       createEmptyCart
     }
     ```
-1. Note the cart ID code
-6. Run below query to add configurable product to the cart:
+1. Make a note of the cart ID code.
+6. Run the below query to add configurable product to the cart:
     ```GraphQL
     mutation {
     addConfigurableProductsToCart(
@@ -82,9 +82,9 @@ customer can’t update cart items because of a GraphQL UpdateCartItems mutation
     }
     }
     ```
-1. Notice the cart is populated with the configurable item.
-1. Note the uid returned.
-1. Run the below query to update the cart item.
+1. You will notice that the cart is populated with the configurable item.
+1. Make a note of the uid returned.
+1. Again, run the below query to update the cart item.
     ```GraphQL
     mutation {
       updateCartItems(
