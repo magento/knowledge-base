@@ -26,15 +26,13 @@ Triggers are removed from `catalogrule_product_price` table after a full reindex
 <ins>Steps to reproduce</ins>:
 
 1. Set all the indexers to *Update by Schedule*.
-1. Check the triggers created for `catalogrule_product_price` table.
-    `show triggers like '%catalogrule_%'\G`
-1. Manually reindex `catalogrule_rule` or `catalogrule_product` by running the following command:
-    `bin/magento indexer:reindex catalogrule_rule`
+1. Check the triggers created for `catalogrule_product_price` table. `show triggers like '%catalogrule_%'\G`
+1. Manually reindex `catalogrule_rule` or `catalogrule_product` by running the following command: `bin/magento indexer:reindex catalogrule_rule`
 1. Check the triggers of `catalogrule_product_price` table again.
 
 <ins>Expected results</ins>:
 
-Triggers in "catalogrule_product_price" table are preserved after a full reindex.
+Triggers in `catalogrule_product_price` table are preserved after a full reindex.
 
 <ins>Actual results</ins>:
 
