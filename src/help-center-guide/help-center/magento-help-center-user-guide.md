@@ -77,14 +77,17 @@ To search for articles, follow these steps:
 
 1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
 1. In the **Search** field, start entering the keywords that an article should have. For example, *Redis*, *error*, *configuration management*, etc.
-    ![Search-Field](assets/image-1-search-field-new.png)    
+
+    <img src = "assets/search-field-1.png" alt = "search-field" width="800px">
 1. The top article suggestions are displayed below the **Search** field.
 1. Select an article from the list and click it.
-    ![search-article](assets/image-2-search-article-new.png)    
+
+    <img src = "assets/search-article-2.png" alt = "search-field" width="800px">
 1. If you want the results of your search to be displayed on a new page:
     * Do not select an article from the suggestion list
     * After typing your search query, press Enter on your keyboard
-      ![Search-enter](assets/image-3-search-enter-new.png)
+
+        <img src = "assets/search-enter-3.png" alt = "search-enter" width="800px">
 
 The search is not limited to the article title but also includes the article text; the most relevant matches are displayed first.
 
@@ -142,7 +145,8 @@ To submit a new support ticket using the starting page of Adobe Commerce Help Ce
 
 1. Go to [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
 1. Click **Submit a ticket** at the upper-right corner.
-    ![submit-a-ticket](assets/image-4-submit-a-ticket.png)
+
+    <img src = "assets/submit-a-ticket-4.png" alt = "submit-a-ticket" width="800px">
 1. Fill in the fields.
 1. Click **Submit**.
 
@@ -153,7 +157,9 @@ You **must log in** to the Help Center using your Magento Account in order to su
 To submit a new support ticket using your Magento Account page, follow these steps:
 
 1. Log in to your Magento Account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
-1. Click the **Support** tab.    ![magento_account_support_tab.png](assets/magento_account_support_tab.png)    
+1. Click the **Support** tab.    
+
+    <img src= "assets/magento_account_support_tab.png" alt = "magento_account_support_tab" width = "800px">
 1. The Help Center start page loads for you.
 1. Click **Submit a ticket** in the upper-right corner.
 1. Fill in the fields.
@@ -229,11 +235,15 @@ If you are having issues logging in to your account or believe Shared Access was
 <em>"Please verify your email address"</em> error on the Magento Account page</h3>
 
 You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento Account page](https://account.magento.com/).
-![Verify_Email_Address_Error.png](assets/Verify_Email_Address_Error.png)
+
+<img src = "assets/Verify_Email_Address_Error.png" alt = "Verify_Email_Address_Error" width="800px">
 
 The solution is to validate your email address:
 
-1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.    ![Validate_Email_Solution.png](assets/Validate_Email_Solution.png)    
+1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.   
+
+    <img src = "assets/Validate_Email_Solution.png" alt = "Validate_Email_Solution" width="800px">
+
 1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento Account with a link to validate the email address.
 1. Click on the email validation link to validate your email and resolve this issue.
 1. If you do not receive an email with an email validation link, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
@@ -277,7 +287,7 @@ Your tickets are those that you:
 
 To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
-![my-ticket](assets/image-8-my-tickets-new.png)
+<img src = "assets/my-tickets-8.png" alt = "disc critical alert" width="800px">
 
 To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
 
@@ -340,7 +350,8 @@ You may add emails of the persons who do not have a Magento Account or a Zendesk
 To add several emails to CC:
 
 1. Enter the email.
-1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    ![hc_cc_emails.png](assets/hc_cc_emails.png)    
+1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    
+    ![hc_cc_emails.png](assets/hc_cc_emails.png)    
 1. Start typing the next email.
 1. Save all other emails by pressing *Space*.
 
@@ -461,8 +472,12 @@ Conversation in your ticket unites all comments written by you or the Adobe Comm
 To add a comment to the conversation, follow these steps:
 
 1. Scroll to the bottom of your ticket.
-1. Click the **Add to conversation** field to start writing.    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)    
-1. To add a person to your comment, specify the email in the **CC** field of the comment field.    ![hc_conversation-write.png](assets/hc_conversation-write.png)    
+1. Click the **Add to conversation** field to start writing.
+
+    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)    
+1. To add a person to your comment, specify the email in the **CC** field of the comment field.
+
+    ![hc_conversation-write.png](assets/hc_conversation-write.png)    
 1. Once you are finished with your comment, click **Submit**.
 
 <h3 id="resolve-ticket">Resolve your ticket</h3>
@@ -498,7 +513,7 @@ To find out who is the Owner of your Adobe Commerce on cloud infrastructure Acco
 1. Go to the **Users** tab.
 1. Find the user who is mentioned as the **Account owner**.
 
-![magento_cloud_account_owner.png](assets/magento_cloud_account_owner.png)
+    <img src="assets/magento_cloud_account_owner.png" alt= "magento_cloud_account_owner" width="800px">
 
 If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Adobe Commerce Customer Success Manager (CSM).
 
@@ -508,7 +523,7 @@ See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/
 
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
 
-![magento-account-shared-manage-permissions.png](assets/magento-account-shared-manage-permissions.png)
+<img src="assets/magento-account-shared-manage-permissions.png" alt="magento-account-shared-manage-permissions" width="800px">
 
 <h3 id="revoke-shared-access">Revoke (delete) shared access</h3>
 
@@ -517,9 +532,9 @@ After providing shared access for a new user, the related information is availab
 1. Find the user to revoke shared access from and click <img src="assets/remove_icon.png" alt="remove icon" width="25px" height="25px"> in the user's row (**Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
-![revoke_shared_access.png](assets/revoke_shared_access.png)
+    <img src="assets/revoke_shared_access.png" alt="revoke_shared_access" width="800px">
 
-You may also revoke shared access using the **Edit** menu:
+    You may also revoke shared access using the **Edit** menu:
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
@@ -534,7 +549,7 @@ To use the shared access provided for you, follow these steps:
 1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/).
 1. Click the **Switch Accounts** menu and select an account.
 
-![magento-account-shared-switch.png](assets/magento-account-shared-switch.png)
+    <img src="assets/magento-account-shared-switch.png" alt="magento-account-shared-switch" width=800px>
 
 To know which account you are currently using (your own native account or shared access), see the **Switch Accounts** menu: it displays the active account.
 
