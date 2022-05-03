@@ -3,7 +3,7 @@ title: "MBI Training Video: Cohort Report Builder"
 labels: MBI,Magento Business Intelligence,analysis,database,date,how to,mbi-api-migration,reports
 ---
 
-Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is ‘Yes!’, then the Cohort Report Builder is the perfect tool for you. Magento BI is specifically optimized to perform this analysis and make it relevant to your business.
+Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is "Yes!", then the Cohort Report Builder is the perfect tool for you. Magento BI is specifically optimized to perform this analysis and make it relevant to your business.
 
 In this video, you'll learn:
 
