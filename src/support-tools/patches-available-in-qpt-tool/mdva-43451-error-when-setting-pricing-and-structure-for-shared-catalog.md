@@ -1,6 +1,6 @@
 ---
 title: "MDVA-43451: Error when setting Pricing and Structure for shared catalog"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.3,Pricing and Structure,shared catalog,2.4.3,2.4.3-p1
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.3,Pricing and Structure,shared catalog,2.4.3,2.4.3-p1,2.4.4
 ---
 
 The MDVA-43451 patch solves the issue where the user is unable to set the Pricing and Structure for a shared catalog. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-43451. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
@@ -13,7 +13,7 @@ The MDVA-43451 patch solves the issue where the user is unable to set the Pricin
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4
 
 >![info]
 >
@@ -25,12 +25,23 @@ The user is unable to set Pricing and Structure for a shared catalog. The follow
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a custom website. **The ids of the websites will be 0,1,2.**
+1. Create a custom website. The ids of the websites will be 0,1,2.
 1. Create one store under the above website. The ids of the stores will be 0,1,2.
-1. Create three store views for the above store. **The ids of the stores views will be 0,1,2,3,4.**
-1. Delete the store view with id 2, now the store table should looks similar to below.
+1. Create three store views for the above store. The ids of the stores views will be 0,1,2,3,4.
+1. Delete the store view with id 2. Now the store table should looks similar to the below table.
+    ```bash
+    MariaDB [m24devinvb2b]> SELECT store_id,code,website_id,group_id,name FROM store;
+    +----------+----------------+------------+----------+--------------------+
+    | store_id | code           | website_id | group_id | name               |
+    +----------+----------------+------------+----------+--------------------+
+    |        0 | admin          |          0 |        0 | Admin              |
+    |        1 | default        |          1 |        1 | Default Store View |
+    |        3 | web1storeview2 |          2 |        2 | web1storeview2     |
+    |        4 | web1storeview3 |          2 |        2 | web1storeview3     |
+    +----------+----------------+------------+----------+--------------------+
+    ```
 1. Create a new shared catalog.
-1. When configuring price and structure, select the store created in Step 2.
+1. When configuring Price and Structure, select the store created in Step 2.
 1. Save the shared catalog.
 
 <ins>Expected results</ins>:
@@ -39,7 +50,7 @@ The shared catalog is saved without any issue.
 
 <ins>Actual results</ins>:
 
- The following error displays:
+You are unable to save the shared catalog. The following error is displayed:
 *The store that was requested wasn't found. Verify the store and try again.*
 
 ## Apply the patch
