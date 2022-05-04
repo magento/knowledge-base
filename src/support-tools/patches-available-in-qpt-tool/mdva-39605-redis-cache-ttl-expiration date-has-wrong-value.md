@@ -1,6 +1,6 @@
 ---
 title: "MDVA-39605: Redis cache TTL (expiration date) has wrong value"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.13,redis cache,TTL,expiration date,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.13,redis cache,TTL,expiration date,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
 ---
 
 The MDVA-39605 patch solves the issue where the redis cache TTL (expiration date) has a wrong value. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-39605. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
@@ -13,7 +13,7 @@ The MDVA-39605 patch solves the issue where the redis cache TTL (expiration date
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.4 - 2.4.3
+* Adobe Commerce (all deployment methods) 2.3.4 - 2.4.4
 
 >![info]
 >
@@ -21,18 +21,18 @@ The MDVA-39605 patch solves the issue where the redis cache TTL (expiration date
 
 ## Issue
 
-Redis cache TTL (expiration date) has a wrong value.
+The redis cache TTL (expiration date) has a wrong value.
 
 <ins>Steps to reproduce</ins>:
 
-In order to test the fix, flush cache and open a configurable product on storefront. Then open a terminal (console) and:
+In order to test the fix, flush cache and open a configurable product on the storefront. Then open a terminal (console) and follow the steps below:
 
-1. Run `redis-cli`.
-1. Run KEYS "*PRICE" (there should be only one key in the result. e.g zc:ti:e54_PRICE). Copy the key.
-1. Run SMEMBERS followed with the key from the previous step (e.g SMEMBERS zc:ti:e54_PRICE). Copy any key from the result (e.g e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421)
-1. Run KEYS "*<key>" with the key name from the previous step to get the full key name (e.g. KEYS "*e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421"). There should be only one key in the result (e.g zc:k:e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421). As you may notice, the full key name is simply the key name with prefix "zc:k:". Now copy the full key name.
-1. Run HGETALL followed with the full key name from Step 4 to check the value. The value should contain a serialized data of associated products of related configurable product.
-1. Run TTL followed with the full key name from Step 4 to check whether the key has an expiration. The result should be different from `-1` and `-2` and should be approximatively 2592000 (30 days. Although the expiration set in the code is 1 year, the Redis library used in Adobe Commerce has a hard max expiration limit of 2592000s).
+1. Run the command: `redis-cli`.
+1. Run KEYS "*PRICE" (there should be only one key in the result, for example, zc:ti:e54_PRICE). Copy the key.
+1. Run SMEMBERS followed by the key from the previous step (for example, SMEMBERS zc:ti:e54_PRICE). Copy any key from the result (for example, e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421).
+1. Run KEYS "*<key>" with the key name from the previous step to get the full key name (for example, KEYS "*e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421"). There should be only one key in the result (for example,  zc:k:e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421). As you may notice, the full key name is simply the key name with prefix "zc:k:". Now copy the full key name.
+1. Run HGETALL followed by the full key name from Step 4 to check the value. The value should contain a serialized data of associated products of related configurable product.
+1. Run TTL followed by the full key name from Step 4 to check whether the key has an expiration. The result should be different from **-1** and **-2** and should be approximately 2592000 (30 days). Although the expiration set in the code is one year, the redis library used in Adobe Commerce has a hard max expiration limit of 2592000s.
 
 <ins>Expected results</ins>:
 
@@ -40,7 +40,7 @@ Expiration limit is 2592000s
 
 <ins>Actual results</ins>:
 
-Expiration limit is set to -1 or -2.
+Expiration limit is set to **-1** or **-2**.
 
 ## Apply the patch
 
