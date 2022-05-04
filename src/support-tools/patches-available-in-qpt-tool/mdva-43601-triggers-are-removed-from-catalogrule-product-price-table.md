@@ -26,7 +26,7 @@ Triggers are removed from `catalogrule_product_price` table after a full reindex
 <ins>Steps to reproduce</ins>:
 
 1. Set all the indexers to *Update by Schedule*.
-1. Check the triggers created for `catalogrule_product_price` table by executing the following sql request:
+1. Check the triggers created for `catalogrule_product_price` table by running the following sql request:
     ```sql
     show triggers like '%catalogrule_%'\G
     ```
