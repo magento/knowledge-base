@@ -25,12 +25,12 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
 1. Log in to MariaDB, then run this command to identify which tables still need to be converted:
 
     ```mysql
-       SELECT table_name, row_format FROM information_schema.tables WHERE table_schema=DATABASE() and row_format = ‘Compact’;
+       SELECT table_name, row_format FROM information_schema.tables WHERE table_schema=DATABASE() and row_format = 'Compact';
     ```
 1. Run this command to see the table sizes - bigger sized tables will take longer to convert. You should plan accordingly when taking your site in and out of maintenance mode which batches of tables to convert in which order, so as to plan the timings of the maintenance windows needed:
 
     ```mysql
-       SELECT table_schema as ‘Database’, table_name AS ‘Table’, round(((data_length + index_length) / 1024 / 1024), 2) ‘Size in MB’ FROM information_schema.TABLES ORDER BY (data_length + index_length) DESC;
+       SELECT table_schema as 'Database', table_name AS 'Table', round(((data_length + index_length) / 1024 / 1024), 2) 'Size in MB' FROM information_schema.TABLES ORDER BY (data_length + index_length) DESC;
      ```
 1. Run this command to covert the tables that need to be converted into ``Dynamic``. You need to do this one by one for every table on the database that needs to be converted:
     ```mysql
@@ -38,7 +38,7 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
     ```
 1. After all the <code>Compact</code> to <code>Dynamic</code> table version changes have been completed, then the following command should be run in the CLI/Terminal to check which tables need to be converted from MyISAM storage engine to InnoDB:
     ```mysql
-        SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE engine = ‘MyISAM’;
+        SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE engine = 'MyISAM';
     ```
 
 1. You should then run the following command to convert any tables identified as MyISAM to InnoDB;
@@ -47,10 +47,10 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
     ```
 1. The day before the upgrade of MariaDB to 10.2 is due to happen, you should check again the following commands, as some tables may be converted back due to code deployments since you made the original changes:
      ```mysql
-        SELECT table_name, row_format FROM information_schema.tables WHERE table_schema=DATABASE() and row_format = ‘Compact’;
+        SELECT table_name, row_format FROM information_schema.tables WHERE table_schema=DATABASE() and row_format = 'Compact';
      ```
       ```mysql
-          SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE engine = ‘MyISAM’;
+          SELECT table_name FROM INFORMATION_SCHEMA.TABLES WHERE engine = 'MyISAM';
       ```
 
 1. If any tables have converted back, you will need to repeat the steps above on the reverted tables, or the support team will not be able to proceed with the upgrade ticket.
