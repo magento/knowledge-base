@@ -361,7 +361,7 @@ To delete emails from CC: click **x** in a framed email.
 
 #### Contact reason
 
-Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing. Refer the [Support ticket Contact Reason descriptions](https://support.magento.com/hc/en-us/articles/4435851936269) article to learn more about what contact reason you should chose.
+Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing. Refer to the [Support ticket Contact Reason descriptions](https://support.magento.com/hc/en-us/articles/4435851936269) article to learn more about what contact reason you should chose.
 
 #### (Data) Integration type (MBI only)
 
