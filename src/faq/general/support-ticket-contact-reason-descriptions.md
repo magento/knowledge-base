@@ -121,3 +121,7 @@ These are the options that appear if **Adobe Commerce Cloud Infrastructure** is 
   </tr>
 </tbody>
 </table>
+
+## Related Reading
+
+Refer to [SUPPORT TICKETS](https://support.magento.com/hc/en-us/articles/360000913794#support-tickets) to learn more about raising support tickets.
