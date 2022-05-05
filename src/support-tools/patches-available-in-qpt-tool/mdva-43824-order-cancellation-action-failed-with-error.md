@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-43824: Order cancellation action failed with error "You have not cancelled the item"'
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.3,Order cancellation,failed action,error,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.13,Order cancellation,failed action,error,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
 ---
 
 The MDVA-43824 patch solves the issue where the order cancellation action failed with the error: *You have not cancelled the item*. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43824. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
@@ -13,7 +13,7 @@ The MDVA-43824 patch solves the issue where the order cancellation action failed
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.6 - 2.3.7-p2, 2.4.1 - 2.4.4
+* Adobe Commerce (all deployment methods) 2.3.6 - 2.3.7-p3, 2.4.1 - 2.4.4
 
 >![info]
 >
@@ -21,13 +21,13 @@ The MDVA-43824 patch solves the issue where the order cancellation action failed
 
 ## Issue
 
-Order placed as a logged in user cannot cancel the order. The order cancellation action failed with the following error:
+Order placed by a logged in customer cannot be cancelled. The order cancellation action failed with the following error:
 
 *Zend_Db_Statement_Exception: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mer33515_ee24developpbdevelop`.`salesrule_customer`, CONSTRAINT `SALESRULE_CUSTOMER_RULE_ID_SEQUENCE_SALESRULE_SEQUENCE_VALUE` FOREIGN KEY (`rule_id`) REFERENCES `sequence_salesrule` (`sequen), query was: INSERT INTO `salesrule_customer` () VALUES (){code}*
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a sales rule (coupon type is any of either "Specific Coupon" or "No Coupon").
+1. Create a sales rule (coupon type is either "Specific Coupon" or "No Coupon").
 1. Go to the storefront and log in as a customer and add a product into the cart.
 1. Go to the cart and apply the cart price rule if the cart price rule has a coupon as "Specific Coupon". Cart price rule should be applied successfully.
 1. Go to checkout and place the order with any payment method.
@@ -37,11 +37,11 @@ Order placed as a logged in user cannot cancel the order. The order cancellation
 
 <ins>Expected results</ins>:
 
-Order is cancelled successfully without any error.
+The order is cancelled successfully without any error.
 
 <ins>Actual results</ins>:
 
-Order cancellation action failed with the following error: *You have not cancelled the item.*
+The order cancellation action failed with the following error: *You have not cancelled the item.*
 
 ## Apply the patch
 
