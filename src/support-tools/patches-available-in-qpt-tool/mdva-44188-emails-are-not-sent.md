@@ -34,7 +34,7 @@ User with the email ID containing `.-` receives emails as usual.
 
 <ins>Actual results</ins>:
 
-Email is not sent to the email ID containing ".-". The following error is shown in error logs: *Could not add an invalid email address to the mailing queue*.
+Email is not sent to the email ID containing `.-`. The following error is shown in error logs: *Could not add an invalid email address to the mailing queue*.
 
 ## Apply the patch
 
