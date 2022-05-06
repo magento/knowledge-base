@@ -21,7 +21,7 @@ The MDVA-44188 patch fixes the issue where emails are not sent to the email IDs 
 
 ## Issue
 
-Emails are not sent to the Email IDs that contain ".-" in their name.
+Unable to send emails to email IDs that contain `.-` in their user name.
 
 <ins>Steps to reproduce</ins>:
 
