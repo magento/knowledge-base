@@ -1,6 +1,6 @@
 ---
 title: "MDVA-43491: Base image label not updating when imported via CSV"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.13,base image label,multistore website,CSV,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.13,base image label,multistore website,CSV,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
 ---
 
 The MDVA-43491 patch fixes the issue where the `base_image_label` doesn't update when imported via a CSV file for a multi-store website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43491. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
