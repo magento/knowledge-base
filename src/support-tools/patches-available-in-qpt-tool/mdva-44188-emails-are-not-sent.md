@@ -30,7 +30,7 @@ Unable to send emails to email IDs that contain `.-` in their user name.
 
 <ins>Expected results</ins>:
 
-User with the email ID containing ".-" receives emails as usual.
+User with the email ID containing `.-` receives emails as usual.
 
 <ins>Actual results</ins>:
 
