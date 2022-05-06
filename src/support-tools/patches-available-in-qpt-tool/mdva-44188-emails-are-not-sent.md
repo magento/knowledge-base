@@ -25,7 +25,7 @@ Unable to send emails to email IDs that contain `.-` in their user name.
 
 <ins>Steps to reproduce</ins>:
 
-1. Register a customer with an email address containing ".-". For example, .-foo@example.com.
+1. Register a customer with an email address containing `.-`. For example, `.-foo@example.com`.
 1. Place an order.
 
 <ins>Expected results</ins>:
