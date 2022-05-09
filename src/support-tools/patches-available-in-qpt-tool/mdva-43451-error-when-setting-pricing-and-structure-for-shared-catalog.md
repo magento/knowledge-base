@@ -25,7 +25,7 @@ The user is unable to set Pricing and Structure for a shared catalog. The follow
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a custom website. The ids of the websites should be 0,1,2.
+1. Create a custom website. The ids of the websites should be 0, 1, 2.
 1. Create one store under the above website. The ids of the stores should be 0,1,2.
 1. Create three store views for the above store. The ids of the stores views should be 0,1,2,3,4.
 1. Delete the store view with id 2. Now the store table should looks similar to the below table.
