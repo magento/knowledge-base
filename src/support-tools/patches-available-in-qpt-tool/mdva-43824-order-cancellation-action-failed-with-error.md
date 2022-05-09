@@ -21,7 +21,7 @@ The MDVA-43824 patch solves the issue where the order cancellation action failed
 
 ## Issue
 
-Order placed by a logged in customer cannot be cancelled. The order cancellation action failed with the following error:
+Order placed by a logged-in customer cannot be cancelled. The order cancellation action failed with the following error:
 
 *Zend_Db_Statement_Exception: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mer33515_ee24developpbdevelop`.`salesrule_customer`, CONSTRAINT `SALESRULE_CUSTOMER_RULE_ID_SEQUENCE_SALESRULE_SEQUENCE_VALUE` FOREIGN KEY (`rule_id`) REFERENCES `sequence_salesrule` (`sequen), query was: INSERT INTO `salesrule_customer` () VALUES (){code}*
 
