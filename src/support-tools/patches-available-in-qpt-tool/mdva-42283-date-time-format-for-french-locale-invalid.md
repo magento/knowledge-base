@@ -27,7 +27,7 @@ The date-time format in the admin order grid for the French locale is invalid.
 
 1. Create an Order, Customer, CMS page, or CMS Block.
 1. Go to **Admin** > **Account Settings** and set the interface locale for admin to **Français (Canada)**/**français (Canada)(fr_CA)** or **Brazilian Portuguese (pt_BR)**.
-1. Observe the value in the date column for any Order, Shipment, Credit Memo, Customer, CMS page, or CMS block grid.
+1. Observe the value in the date column for any Order, Shipment, Credit Memo, Customer, CMS page or CMS block grid.
 
 <ins>Expected results</ins>:
 
