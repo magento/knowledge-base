@@ -42,7 +42,7 @@ Related product rule only works when the customer segment is set to all.
 
 <ins>Expected results</ins>:
 
-Rule-Based Related Products show in the storefront for visitors on the product because the customer segment is created with the following configuration:
+Rule-Based Related Products are displayed on the storefront for visitors on the product because the customer segment is created with the following configuration:
 
 **Apply To** = **Visitors and Registered Customers**
 
