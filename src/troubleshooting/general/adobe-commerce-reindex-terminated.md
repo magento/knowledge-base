@@ -4,6 +4,7 @@ labels: troubleshooting,Adobe Commerce,Magento,cloud infrastructure,reindex,inte
 ---
 
 ## Affects products and versions
+
 * Adobe Commerce on cloud infrastructure (all versions)
 
 ## Issue
