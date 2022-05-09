@@ -25,5 +25,6 @@ For best performance in the Integration environment follow these best practices:
 * Disable crons and manually run as needed
 
 Solution
+
 1. You should reduce the number of products (as well as customer groups and stores - if applicable)
 2. If this has not been done, request an upgrade to the Enhanced Integration environments - take note of the restriction on the number of environments you would be limited to once the upgrade has been performed.
