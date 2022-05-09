@@ -36,7 +36,7 @@ Related product rule only works when the customer segment is set to all.
     Products to Display = SKU +is one of+ Constant Value (specify 1-3 products)
     ```
 
-1. Open the matching product on the storefront and verify that the display products are shown.
+1. Open the matching product on the storefront and verify that the Products to Display are shown.
 1. Modify the rule created in step three and set **Customer Segments** = **Specific** > **Segment** from step two.
 1. Open the matching product on the storefront.
 
