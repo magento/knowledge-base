@@ -30,7 +30,7 @@ In order to test the fix, flush cache and open a configurable product on the sto
 1. Run the command: `redis-cli`.
 1. Run `KEYS "*PRICE"` (there should be only one key in the result, for example, zc:ti:e54_PRICE). Copy the key.
 1. Run `SMEMBERS` followed by the key from the previous step (for example, `SMEMBERS zc:ti:e54_PRICE`). Copy any key from the result (for example, e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421).
-1. Run `KEYS "*<key>"` with the key name from the previous step to get the full key name (for example, `KEYS "*e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421"`). There should be only one key in the result (for example,  zc:k:e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421). As you may notice, the full key name is simply the key name with prefix "zc:k:". Now copy the full key name.
+1. Run `KEYS "*<key>"` with the key name from the previous step to get the full key name (for example, `KEYS "*e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421"`). There should be only one key in the result (for example, zc:k:e54_4E67B390D5C28FC7C3D9BB0D37AB3F7B5E576421). As you may notice, the full key name is simply the key name with prefix "zc:k:". Now copy the full key name.
 1. Run `HGETALL` followed by the full key name from Step 4 to check the value. The value should contain a serialized data of associated products of related configurable product.
 1. Run `TTL` followed by the full key name from Step 4 to check whether the key has an expiration. The result should be different from **-1** and **-2** and should be approximately 2592000 (30 days). Although the expiration set in the code is one year, the redis library used in Adobe Commerce has a hard max expiration limit of 2592000s.
 
