@@ -21,7 +21,7 @@ The MDVA-39605 patch solves the issue where the Redis cache TTL (expiration date
 
 ## Issue
 
-The redis cache TTL (expiration date) has a wrong value.
+The Redis cache TTL (expiration date) has a wrong value.
 
 <ins>Steps to reproduce</ins>:
 
