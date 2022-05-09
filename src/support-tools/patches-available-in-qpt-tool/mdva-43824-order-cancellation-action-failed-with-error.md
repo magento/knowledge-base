@@ -28,8 +28,8 @@ Order placed by a logged-in customer cannot be cancelled. The order cancellation
 <ins>Steps to reproduce</ins>:
 
 1. Create a sales rule (coupon type is either "Specific Coupon" or "No Coupon").
-1. Go to the storefront and log in as a customer and add a product into the cart.
-1. Go to the cart and apply the cart price rule if the cart price rule has a coupon as "Specific Coupon". Cart price rule should be applied successfully.
+1. Go to the storefront and log in as a customer and add a product to the cart.
+1. Go to the cart and apply the cart price rule if the cart price rule has a coupon as "Specific Coupon". The cart price rule should be applied successfully.
 1. Go to checkout and place the order with any payment method.
 1. Go to the Commerce Admin > **Sales** > **Orders**.
 1. Open the order placed in Step 4.
