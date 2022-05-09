@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce cloud: reindex is terminated with "Killed" message"
+title: "Adobe Commerce cloud: reindex is terminated with `Killed` message"
 labels: troubleshooting,Adobe Commerce,Magento,cloud infrastructure,reindex,integration,staging,starter,
 ---
 
