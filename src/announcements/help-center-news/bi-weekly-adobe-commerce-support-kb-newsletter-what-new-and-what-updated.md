@@ -26,10 +26,11 @@ Please click to get familiar with the article and give us feedback on any issues
 
 MBI video tutorials clean up.
 We had to remove the following articles, since the video tutorial files stopped being available:
-•	MBI Pro Getting Started Video Series
-•	MBI Training Video Show Top-Bottom and Independent Group By Features
-•	MBI Training Video Time Options in the Visual Report Builder
-•	MBI Webinar Archives
-•	MBI Pro Demo
+
+* MBI Pro Getting Started Video Series
+* MBI Training Video Show Top-Bottom and Independent Group By Features
+* MBI Training Video Time Options in the Visual Report Builder
+* MBI Webinar Archives
+* MBI Pro Demo
 
 Those MBI video tutorials, that are still available, are now published in the [Commerce Videos and Tutorials section](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) on the Adobe Commerce Experience League site.
