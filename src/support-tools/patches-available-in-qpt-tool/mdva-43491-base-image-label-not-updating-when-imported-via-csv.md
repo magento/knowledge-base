@@ -25,7 +25,7 @@ The `base_image_label` doesn't update when imported using a CSV file for a multi
 
 <ins>Prerequisites</ins>:
 
-One or more non-default websites/stores/store views exists.
+One or more existing non-default websites, stores, and store views.
 
 <ins>Steps to reproduce</ins>:
 
