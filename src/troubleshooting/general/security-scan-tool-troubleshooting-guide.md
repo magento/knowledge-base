@@ -7,9 +7,9 @@ Learn how to troubleshoot the various Adobe Commerce Security Scan Tool issues.
 
 ## Issue: Unable to Submit the site
 
-The Security Scan Tool (MST) requires that the merchant prove ownership of their site before the domain can be added to the Security Scan Tool. This is performed by the merchant by adding a confirmation code to their site using an HTML comment or a Meta tag.
+The Security Scan Tool (MST) requires that you prove ownership of your site before the domain can be added to the Security Scan Tool. This can be performed by adding a confirmation code to your site using an HTML comment or a Meta tag.
 
-A common issue that merchants might face occurs when the Security Scan Tool is unable to confirm the merchant's site ownership.
+A common issue faced by merchants occurs when the Security Scan Tool is unable to confirm the merchant’s site ownership.
 
 See the [Error message when adding sites into Security Scan](https://support.magento.com/hc/en-us/articles/4531353024013) article in our support knowledge base for troubleshooting steps.
 
@@ -90,7 +90,7 @@ No. The Security Scan makes all requests one-by-one like a single user. Because 
 
 ### How long does Adobe Commerce keep Security Scan reports?
 
-The merchant can generate the previous 10 reports from their end. If older reports are required, contact Adobe Commerce support. Up to a year of prior Security Scan reports can be obtained.
+You can generate the previous 10 reports from your end. If older reports are required, contact Adobe Commerce support. Up to a year of prior Security Scan reports can be obtained.
 
 ### What information is needed when submitting a support ticket?
 
