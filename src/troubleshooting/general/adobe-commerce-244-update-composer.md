@@ -28,7 +28,7 @@ Upgrade is successful.
 <ins>Actual results</ins>:
 Installation fails with an error similar to the following:
 
-```
+```bash
 Writing lock file
 Installing dependencies from lock file (including require-dev)
 Package operations: 591 installs, 0 updates, 0 removals
