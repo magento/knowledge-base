@@ -37,7 +37,7 @@ The merchant resolved a security issue and is expecting their Security Scan to s
 
 ### Cause
 
-Cloud Instance metadata is gathered only for `active` and `live` Cloud Projects and is NOT a real-time process.
+Cloud instance metadata is gathered only for `active` and `live` Cloud Projects and is NOT a real-time process.
 
 The statistics collection script is run once a day, then Security Tool has to pick up the new data later.
 
