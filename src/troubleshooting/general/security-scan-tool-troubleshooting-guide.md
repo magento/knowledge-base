@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce Security Scan Tool troubleshooting guide
+title: Adobe Commerce Security Scan tool troubleshooting guide
 labels: Adobe Commerce,cloud infrastructure,Security Scan Tool,error,report,admin,troubleshooting,Magento,on-premises
 ---
 
