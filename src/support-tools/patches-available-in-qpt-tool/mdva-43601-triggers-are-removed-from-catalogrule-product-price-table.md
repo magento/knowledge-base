@@ -39,7 +39,7 @@ Triggers in `catalogrule_product_price` table are preserved after a full reindex
 
 <ins>Actual results</ins>:
 
-No triggers found for `catalogrule_product_price` table.
+No triggers are found for `catalogrule_product_price` table.
 
 ## Apply the patch
 
