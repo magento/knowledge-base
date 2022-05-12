@@ -21,11 +21,11 @@ The MDVA-44100 patch solves the issue where all FPTs are assigned to the last pr
 
 ## Issue
 
-All FPTs are assigned to the last product in the shopping cart and FTPs for other products are reset.
+All FPTs are assigned to the last product in the shopping cart and FTPs for the rest of the products are reset.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Stores** > **Configuration** > **Sales** > **Tax**, enable **Fixed Product Taxes**, and set:
+1. Go to **Stores** > **Configuration** > **Sales** > **Tax** and set:
     * Enable FPT = Yes
     * Apply Tax To FPT = Yes
     * Include FPT In Subtotal = Yes
@@ -39,7 +39,7 @@ All FPTs are assigned to the last product in the shopping cart and FTPs for othe
 
 <ins>Expected results</ins>:
 
-FPT display under each product.
+The FPTs are displayed under each product.
 
 <ins>Actual results</ins>:
 
