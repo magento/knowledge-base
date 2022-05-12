@@ -45,7 +45,7 @@ The maximum expected sync-up cycle latency is up to a week and takes a minimum o
 
 The following statuses could appear from checks:
 
-1. **Unknown**: The Security Tool has no data about your domain yet; wait for the next sync-up cycle.
+1. **Unknown**: The Security Scan tool has no data about your domain yet; wait for the next sync-up cycle.
 1. **Fail**: If the status shows fail, you'll need to fix the issue (enable 2FA, change admin URL, etc.) and wait for the next sync-up cycle.
 1. **Staging vs. Production**: Since both staging and production instances share the same projectID, the `major` instance data overwrites the `minor` one. E.g., suppose the production instance is enabled and active. In that case, the `Cloud Metadata` check will show the "Applicable to Adobe Cloud `Production` instance only." message for the staging instance since Security Tool has the information only for the production instance.
 
