@@ -7,7 +7,7 @@ Learn how to troubleshoot the various issues with the  Security Scan tool for Ad
 
 ## Issue: Unable to Submit the site
 
-The Security Scan Tool (MST) requires that you prove ownership of your site before the domain can be added to the Security Scan Tool. This can be performed by adding a confirmation code to your site using an HTML comment or a Meta tag.
+The Security Scan tool requires that you prove ownership of your site before the domain can be added to the Security Scan Tool. This can be performed by adding a confirmation code to your site using an HTML comment or the `<meta>` tag.
 
 A common issue faced by merchants occurs when the Security Scan Tool is unable to confirm the merchant’s site ownership.
 
