@@ -57,7 +57,7 @@ You receive a notification regarding the "BotNet Suspect" failure.
 
 ### Cause
 
-1. The store domain name got into a "list" back in 2019, and it had the admin panel, downloader, or RSS functionality publicly exposed, and/or its URL has been mentioned in the CC skimming forums.
+1. The store domain name got into a "list" back in 2019, and it had the Admin panel, downloader, or RSS functionality publicly exposed, and/or its URL has been mentioned in the CC skimming forums.
 1. The alert could be caused by the signs of store compromise and/or malware, like JavaScript found on the page.
 1. It is not necessarily an ongoing issue. If the store has been compromised previously, its hostname can still float around the dark web as a 'victim' name.
 1. It might also be caused not by Adobe Commerce, but by a system compromise (at the OS level).
