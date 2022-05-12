@@ -80,7 +80,7 @@ The merchant receives an error regarding a "Compromise Injection" failure.
 1. Perform system configuration changes review, especially custom `HTML head` and `Miscellaneous HTML` in `footer` section values.
 1. Perform code and database review for unfamiliar changes and signs of injected malware.
 
-If none of the above helps, submit a support ticket and provide the store URL and error message from the report.
+If none of the above helps, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and provide the store URL and error message from the report.
 
 ## Frequently Asked Questions
 
