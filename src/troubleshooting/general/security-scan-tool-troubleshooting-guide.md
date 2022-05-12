@@ -53,7 +53,7 @@ If 24 hours have passed since the changes were made to the instance and they are
 
 ## BotNet Suspect failure
 
-The merchant receives a notification regarding a "BotNet Suspect" failure.
+You receive a notification regarding the "BotNet Suspect" failure.
 
 ### Cause
 
