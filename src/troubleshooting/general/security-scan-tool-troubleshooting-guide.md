@@ -71,7 +71,7 @@ You receive a notification regarding the "BotNet Suspect" failure.
 
 ## Issue: Compromise Injection failure
 
-The merchant receives an error regarding a "Compromise Injection" failure.
+You receive an error regarding a "Compromise Injection" failure.
 
 ### Solution
 
