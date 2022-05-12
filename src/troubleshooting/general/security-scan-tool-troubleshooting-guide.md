@@ -75,7 +75,7 @@ The merchant receives an error regarding a "Compromise Injection" failure.
 
 ### Solution
 
-1. Review the scripts indicated in the Security Scan Tool report.
+1. Review the scripts indicated in the Security Scan tool report.
 1. Review home page source body for inline script injections.
 1. Perform system configuration changes review, especially custom `HTML head` and `Miscellaneous HTML` in `footer` section values.
 1. Perform code and database review for unfamiliar changes and signs of injected malware.
