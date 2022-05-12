@@ -64,7 +64,7 @@ You receive a notification regarding the "BotNet Suspect" failure.
 
 ### Solution
 
-1. Check for newly created SSH accounts, filesystem changes, etc.
+1. Check for the newly created SSH accounts, filesystem changes, etc.
 1. Perform a security review.
 1. Check the Adobe Commerce version and upgrade, especially if it’s still running Magento 1, which is not supported anymore.
 1. If the issue still persists, submit a support ticket and provide the store URL.
