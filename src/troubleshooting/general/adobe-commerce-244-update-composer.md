@@ -3,13 +3,13 @@ title: Composer plugins issues when upgrading to Adobe Commerce 2.4.4
 labels: 2.4.4,Adobe Commerce,cloud infrastructure,Magento Open Source,on-premises,composer,plugin,update
 ---
 
-This articles provides a solution to avoid the issue with composer plugins when upgrading to Adobe Commerce 2.4.4 or higher.
+This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and erlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
 
 ## Affected products and versions
 
-* Adobe Commerce on premises, any version when updating to 2.4.4 or higher
-* Adobe Commerce on cloud infrastructure, any version when updating to 2.4.4 or higher
-* Magento Open Source, any version when updating to 2.4.4 or higher
+* Adobe Commerce on premises, any version when updating to 2.4.4 or higher (when released)
+* Adobe Commerce on cloud infrastructure, any version when updating to 2.4.4 or higher (when released)
+* Magento Open Source, any version when updating to 2.4.4 or higher (when released)
 
 ## Issue
 
@@ -46,7 +46,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 ## Cause
 
-After July 2022 Composer [changes the default value of the [`allow-plugins` option](https://getcomposer.org/doc/06-config.md#allow-plugins) to `{}` and plugins will not load anymore unless allowed.  
+After July 2022 Composer changes the default value of the [`allow-plugins` option](https://getcomposer.org/doc/06-config.md#allow-plugins) to `{}` and plugins will not load anymore unless allowed.
 
 ## Solution
 
