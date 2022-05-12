@@ -23,9 +23,11 @@ Prerequisites: Adobe Commerce 2.4.3 or earlier is installed.
 1. Run the `composer update` command to upgrade the Adobe Commerce application.
 
 <ins>Expected results</ins>:
+
 Upgrade is successful.
 
 <ins>Actual results</ins>:
+
 Installation fails with an error similar to the following:
 
 ```bash
@@ -71,4 +73,4 @@ Add the following to your `composer.json` file, depending on how you installed A
         }
     }
     ```    
-After updating the `composer.json` file, run the `composer update` command and re-start the upgrade process.
+After updating the `composer.json` file, run the `composer update` command and restart the upgrade process.
