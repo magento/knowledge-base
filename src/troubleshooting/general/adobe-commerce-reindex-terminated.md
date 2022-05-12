@@ -9,23 +9,23 @@ labels: troubleshooting,Adobe Commerce,Magento,cloud infrastructure,reindex,inte
 
 ## Issue
 
-If you are trying to run a reindex on the Integration branch (as well as in Staging for Starter projects) and the process is being termined with the *Killed* message.
+You are trying to run a reindex on the Integration branch (or on Staging of the Starter architecture project) and the process is being termined with the `Killed` message.
 
 ## Cause
 
 This usually happens because the PHP processes are running out of memory.
-The most common reason for that is there is a large number of products, stores, and customer groups on the instance. If this applies to you, we strongly recommend that you reduce the data size.
+The most common reason for that is a large number of products, stores, and customer groups on the instance.
 
 ## Solution
 
-Per https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int
-For best performance in the Integration environment follow these best practices:
+1. Reduce the number of products (as well as customer groups and stores - if applicable).
+1. Limit use to one or two concurrent users.
+1. Disable crons, and run manually as needed.
+1. If this has not been done previously, request an upgrade to the Enhanced Integration environments - take note of the restriction on the number of environments you would be limited to once the upgrade has been performed. Refer to the [Integration Environment enhancement request - Pro and Starter](https://support.magento.com/hc/en-us/articles/360043032152) article in our knowledge base for details.
 
-* Restrict catalog size
-* Limit use to one or two concurrent users
-* Disable crons and manually run as needed
+## Related reading:
 
-Solution
+In our developer documentation:
 
-1. You should reduce the number of products (as well as customer groups and stores - if applicable)
-1. If this has not been done, request an upgrade to the Enhanced Integration environments - take note of the restriction on the number of environments you would be limited to once the upgrade has been performed.
+* [Pro architecture > Integration environment](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
+* [Starter architecture > Staging environment](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)
