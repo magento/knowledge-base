@@ -1,9 +1,9 @@
 ---
-title: "MDVA-44100: All FPTs are assigned to the last product in the shopping cart"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT xxx,
+title: "MDVA-44100: All FPTs are assigned to the last product in shopping cart"
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.14,FPT,products,shopping cart,taxes,configuration,2.4.3,2.4.3-p1,2.4.4
 ---
 
-The MDVA-44100 patch solves the issue where all FPTs are assigned to the last product in the shopping cart and reset for other products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-44100. Please note that the issue was is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-44100 patch solves the issue where all FPTs are assigned to the last product in the shopping cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-44100. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -13,7 +13,7 @@ The MDVA-44100 patch solves the issue where all FPTs are assigned to the last pr
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods)  2.4.3 - 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4
 
 >![info]
 >
@@ -21,17 +21,17 @@ The MDVA-44100 patch solves the issue where all FPTs are assigned to the last pr
 
 ## Issue
 
-All FPTs are assigned to the last product in the shopping cart and reset for other products.
+All FPTs are assigned to the last product in the shopping cart and FTPs for other products are reset.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Stores** > **Configuration** > **Sales** > **Tax**, and enable **Fixed Product Taxes** - set:
+1. Go to **Stores** > **Configuration** > **Sales** > **Tax**, enable **Fixed Product Taxes**, and set:
     * Enable FPT = Yes
     * Apply Tax To FPT = Yes
     * Include FPT In Subtotal = Yes
-1. Go to Stores > Attribute > Product and create a new attribute with type = Fixed Product Tax.
+1. Go to **Stores** > **Attribute** > **Product**, and create a new attribute with type = Fixed Product Tax.
 1. Add the attribute to an attribute set.
-1. Create two products from that attribute set and configure the FPT attribute for your Country and State.
+1. Create two products from the attribute set and configure the FPT attribute for your Country and State.
 1. Add both items to the order.
 1. Enter an address that requires FPT to be paid.
 1. Place the order.
@@ -43,7 +43,7 @@ FPT display under each product.
 
 <ins>Actual results</ins>:
 
-The FPT value from both items is shown under the second item.
+The FPT values from both items are shown under the second item.
 
 ## Apply the patch
 
