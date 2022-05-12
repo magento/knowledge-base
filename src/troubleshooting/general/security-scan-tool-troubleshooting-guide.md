@@ -3,7 +3,7 @@ title: Adobe Commerce Security Scan tool troubleshooting guide
 labels: Adobe Commerce,cloud infrastructure,Security Scan Tool,error,report,admin,troubleshooting,Magento,on-premises
 ---
 
-Learn how to troubleshoot the various Adobe Commerce Security Scan Tool issues.
+Learn how to troubleshoot the various issues with the  Security Scan tool for Adobe Commerce and Magento Open Source.
 
 ## Issue: Unable to Submit the site
 
