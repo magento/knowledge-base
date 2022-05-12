@@ -20,7 +20,7 @@ You get an empty scan reports from the Security Scan tool.
 ### Solution
 
 1. Check that 52.87.98.44, 34.196.167.176, and 3.218.25.102 IPs are not blocked at 80 and 443 ports.
-1. Check the submitted URL for redirects (e.g., https://mystore.com redirects to https://www.mystore.com or vice versa or redirects to other domain names)
+1. Check the submitted URL for redirects (e.g., `https://mystore.com` redirects to `https://www.mystore.com` or vice versa or redirects to other domain names)
 1. Investigate WAF/web server access logs for rejected/unfulfilled requests. HTTP 403 `Forbidden` and HTTP 500 `Internal server error` are the common server responses to generate the empty reports. Here's an example of the confirmation code that blocks requests by user agents:
 
 ```code block
