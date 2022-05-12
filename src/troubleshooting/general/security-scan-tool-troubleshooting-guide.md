@@ -47,7 +47,7 @@ The following statuses could appear from checks:
 
 1. **Unknown**: The Security Scan tool has no data about your domain yet; wait for the next sync-up cycle.
 1. **Fail**: If the status shows fail, you'll need to fix the issue (enable 2FA, change admin URL, etc.) and wait for the next sync-up cycle.
-1. **Staging vs. Production**: Since both staging and production instances share the same projectID, the `major` instance data overwrites the `minor` one. E.g., suppose the production instance is enabled and active. In that case, the `Cloud Metadata` check will show the "Applicable to Adobe Cloud `Production` instance only." message for the staging instance since Security Tool has the information only for the production instance.
+1. **Staging vs. Production**: Since both staging and production instances share the same projectID, the "major" instance data overwrites the "minor" one. E.g., suppose the production instance is enabled and active. In that case, the `Cloud Metadata` check will show the "Applicable to Adobe Cloud `Production` instance only." message for the staging instance since Security Tool has the information only for the production instance.
 
 If 24 hours have passed since the changes were made to the instance and are not reflected in the Security Scan report, you can submit a support ticket. Provide the store URL when submitting the ticket.
 
