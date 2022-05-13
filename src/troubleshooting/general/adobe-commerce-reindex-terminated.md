@@ -14,7 +14,7 @@ You are trying to run a reindex on the Integration branch (or on Staging of the 
 ## Cause
 
 This usually happens because the PHP processes are running out of memory.
-The most common reason for that is a large number of products, stores, and customer groups on the instance.
+The most common reason for that is a large number of products, stores, and/or customer groups on the instance.
 
 ## Solution
 
