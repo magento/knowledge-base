@@ -64,7 +64,7 @@ Add the following to your `composer.json` file, depending on how you installed A
         }
     }
     ```
-* If the project has been created by other way and doesn't have `"dealerdirect/phpcodesniffer-installer"` in `"require-dev"` section:
+* If the project has been created by another way and doesn't have `"dealerdirect/phpcodesniffer-installer"` in `"require-dev"` section:
     ```json
     "config": {
         "allow-plugins": {
