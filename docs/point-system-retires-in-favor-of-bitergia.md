@@ -3,7 +3,7 @@ title: Contribution Point System retires in favor of Bitergia for public repos
 labels: announcement,point system,retirement,KB public repo,knowledge base,contributors,community,Bitergia,point system,reward,award points
 ---
 
-Adobe Commerce has decided to retire the [Contribution Point System](https://github.com/magento-commerce/knowledge-base/blob/main/docs/contribution-points.md), where contributors are awarded points based on their contributions, for all repositories including [Knowledge Base](https://github.com/magento/knowledge-base).
+Adobe Commerce retired the [Contribution Point System](https://github.com/magento-commerce/knowledge-base/blob/main/docs/contribution-points.md), where contributors are awarded points based on their contributions, for all repositories including [Knowledge Base](https://github.com/magento/knowledge-base).
 
 The Contribution Point System has now been replaced by [Bitergia Analytics](https://blog.bitergia.com/2018/09/18/customizing-bitergia-analytics-dashboard-for-your-goals-and-metrics/) where contributors are recognized and highlighted in the leaderboards with better details of their contributions.
 
