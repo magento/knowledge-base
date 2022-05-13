@@ -8,8 +8,7 @@ The support knowledge base staff members review issues and pull requests on a re
 
 ## Rewards for contributions
 
-The support knowledge base works with Magento Community Engineering teams and projects.
-As you contribute PRs, you gain [Contribution Points](../docs/contribution-points.md).
+All your contributions are recognized and highlighted in Adobe Commerce Bitergia leaderboards. For more details, see [Contribution Points](../docs/contribution-points.md).
 
 ## Get started
 
