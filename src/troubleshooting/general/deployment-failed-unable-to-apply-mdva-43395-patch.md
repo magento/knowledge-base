@@ -19,7 +19,7 @@ Cloud merchants do not need to apply the MDVA-43395 patch separately if they hav
 
 ## Solution
 
-To resolve the issue, remove the MDVA-43395 and MDVA-43443 patches from `m2-hotfixes` and redeploy.
+To resolve the issue, remove the MDVA-43395 and MDVA-43443 patches from the `m2-hotfixes` directory and redeploy.
 
 ## Related reading
 
