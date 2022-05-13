@@ -7,7 +7,7 @@ Our goal is to provide the Adobe Commerce Community with comprehensive and quali
 
 ## Contributing
 
-We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Your contributions are highlighted in Adobe Commerce Bitergia dashboards. See [contribution points](docs/contribution-points.md) for details.
+We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Your contributions are highlighted in Adobe Commerce Bitergia leaderboards. See [contribution points](docs/contribution-points.md) for details.
 
 ### General Contribution Flow
 
