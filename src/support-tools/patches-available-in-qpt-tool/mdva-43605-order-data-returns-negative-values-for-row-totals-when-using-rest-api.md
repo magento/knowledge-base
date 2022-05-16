@@ -26,7 +26,7 @@ The order data returns negative values for row totals when using Rest API.
 <ins>Steps to reproduce</ins>:
 
 1. Enable free shipping.
-1. Navigate to **Configuration** > **Catalog** > **Catalog** > **Price** > and set Catalog Price Scope = Website.
+1. Navigate to **Configuration** > **Catalog** > **Price** > and set Catalog Price Scope = Website.
 1. Navigate to **Configuration** > **Sales** > **Tax** and update:
     * Tax Class For Shipping = Taxable Goods
     * Calculation Settings:
@@ -38,23 +38,23 @@ The order data returns negative values for row totals when using Rest API.
     * Orders, Invoices, Credit Memos:
         * Display shipping Amount = Including Tax
 1. Create a tax rate for US (State = '*'), Rate Percent = 24.00
-1. Create Tax Rule with Tax Rate above.
-1. Create cart price rule with Specific coupon, and Discount = $50 of Fixed amount for whole cart.
-1. Create four products with following prices: $8.90, $5.90, $6.90, $5.95.
-1. Create an admin order including 4 of these products using the coupon code we created in the previous step. Use the free shipping.
+1. Create Tax Rule with the Tax Rate above.
+1. Create a cart price rule with a specific coupon, and Discount = $50 of Fixed amount for the whole cart.
+1. Create four products with the following prices: $8.90, $5.90, $6.90, and $5.95.
+1. Create an admin order including four of these products using the coupon code created in the previous step. Use the free shipping.
 1. Payment should not be required as the coupon code covers the cart total.
-1. Retrieve the order we just created via the Rest API endpoint:
+1. Retrieve the order that was just created via Rest API endpoint:
     ```json
     GET rest/V1/orders/1
     ```
 
 <ins>Expected results</ins>:
 
-The values of `base_row_total` and `base_row_total_incl_tax` in response is zero.
+The values of `base_row_total` and `base_row_total_incl_tax` in the response is zero.
 
 <ins>Actual results</ins>:
 
-The `base_row_total` and `base_row_total_incl_tax` fields in response show negative values.
+The `base_row_total` and `base_row_total_incl_tax` fields in the response have negative values.
 
 ## Apply the patch
 
