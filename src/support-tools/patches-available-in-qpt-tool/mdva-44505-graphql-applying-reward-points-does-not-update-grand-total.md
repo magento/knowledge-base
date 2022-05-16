@@ -1,6 +1,6 @@
 ---
 title: "MDVA-44505: GraphQL Applying Reward Points does not update Grand Total"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.14,
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.14,GraphQL,Reward Points,update,Grand Total,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
 The MDVA-44505 patch solves the issue where GraphQL Applying Reward Points does not update Grand Total. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-44505. Please note that the issue was fixed in Adobe Commerce 2.4.3.
@@ -25,19 +25,19 @@ GraphQL applying Reward Points does not update Grand Total.
 
 <ins>Steps to reproduce</ins>:
 
-1. Configure rewards points.
+1. Configure reward points.
 1. Create a cart and apply some points.
-1. Call the GetCart query from GraphQL endpoint and retrieve your cart.
-1. Look at the "grand total" entry.
+1. Call the `GetCart` query from `GraphQL` endpoint and retrieve your cart.
+1. Look at the grand total entry.
 1. Now check the same customer's cart totals using the rest API /rest/V1/carts/mine/totals.
 
 <ins>Expected results</ins>:
 
-Graphql query for carts must show totals correctly considering rewards points same as done in rest api calls.
+GraphQL query for carts show correct grand total, considering rewards points same as done in rest API calls.
 
 <ins>Actual results</ins>:
 
-Graphql results don't consider reward points when showing totals.
+GraphQL results don't consider reward points when showing totals.
 
 ## Apply the patch
 
