@@ -1,9 +1,9 @@
 ---
-title: "MDVA-44505: GraphQL Applying Reward Points does not update Grand Total"
+title: "MDVA-44505: GraphQL query for cart applying reward points does not update grand total"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.14,GraphQL,Reward Points,update,Grand Total,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
-The MDVA-44505 patch solves the issue where GraphQL Applying Reward Points does not update Grand Total. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-44505. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+The MDVA-44505 patch solves the issue where the GraphQL query for a cart applying reward points does not update the grand total. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-44505. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
@@ -21,23 +21,23 @@ The MDVA-44505 patch solves the issue where GraphQL Applying Reward Points does 
 
 ## Issue
 
-GraphQL applying Reward Points does not update Grand Total.
+The GraphQL query for a cart applying reward points does not update the grand total.
 
 <ins>Steps to reproduce</ins>:
 
 1. Configure reward points.
 1. Create a cart and apply some points.
-1. Call the `GetCart` query from `GraphQL` endpoint and retrieve your cart.
-1. Look at the grand total entry.
-1. Now check the same customer's cart totals using the rest API /rest/V1/carts/mine/totals.
+1. Call the `GetCart` query from the `GraphQL` endpoint and retrieve your cart.
+1. Check the grand total entry.
+1. Now check the customer's cart total using rest API (`/rest/V1/carts/mine/totals`).
 
 <ins>Expected results</ins>:
 
-GraphQL query for carts show correct grand total, considering rewards points same as done in rest API calls.
+The GraphQL query for the cart shows the correct grand total which considers the reward points.
 
 <ins>Actual results</ins>:
 
-GraphQL results don't consider reward points when showing totals.
+GraphQL result does not consider the reward points when showing the total.
 
 ## Apply the patch
 
