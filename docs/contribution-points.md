@@ -1,3 +1,4 @@
+## Contribution recognition
 Adobe Commerce retired the Contribution Point System, where contributors are awarded points based on their contributions, for all repositories including [Knowledge Base](https://github.com/magento/knowledge-base).
 
 The Contribution Point System has now been replaced by [Bitergia Analytics](https://blog.bitergia.com/2018/09/18/customizing-bitergia-analytics-dashboard-for-your-goals-and-metrics/) where contributors are recognized and highlighted in the leaderboards with better details of their contributions.
