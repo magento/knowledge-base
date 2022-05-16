@@ -9,7 +9,7 @@ labels: troubleshooting,Adobe Commerce,Magento,cloud infrastructure,reindex,inte
 
 ## Issue
 
-You are trying to run a reindex on the Integration branch (or on Staging of the Starter architecture project) and the process is being termined with the `Killed` message.
+You are trying to run a reindex on the Integration branch (or on Staging of the Starter architecture project), and the process is being terminated with the `Killed` message.
 
 ## Cause
 
