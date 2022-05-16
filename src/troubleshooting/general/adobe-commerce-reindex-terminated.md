@@ -20,7 +20,7 @@ The most common reason for that is a large number of products, stores, and/or cu
 
 1. Reduce the number of products (as well as customer groups and stores - if applicable).
 1. Limit use to one or two concurrent users.
-1. Disable crons, and run manually as needed.
+1. Disable cron jobs, and run manually as needed.
 1. If this has not been done previously, request an upgrade to the Enhanced Integration environments - take note of the restriction on the number of environments you would be limited to once the upgrade has been performed. Refer to the [Integration Environment enhancement request - Pro and Starter](https://support.magento.com/hc/en-us/articles/360043032152) article in our knowledge base for details.
 
 ## Related reading:
