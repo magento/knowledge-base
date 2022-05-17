@@ -1,31 +1,11 @@
+## Contribution recognition
+Adobe Commerce retired the Contribution Point System, where contributors are awarded points based on their contributions, for all repositories including [Knowledge Base](https://github.com/magento/knowledge-base).
 
-The Adobe Commerce Support Knowledge Base works with the Community Engineering teams and projects. As you contribute Pull Requests (PRs), you gain Contribution Points.
+The Contribution Point System has now been replaced by [Bitergia Analytics](https://blog.bitergia.com/2018/09/18/customizing-bitergia-analytics-dashboard-for-your-goals-and-metrics/) where contributors are recognized and highlighted in the leaderboards with better details of their contributions.
 
-These earned points add to contributor totals for Magento contributions. The support knowledge base team assesses the PRs and applies labels (which may vary between repositories) to determine the level of work and achievements to be awarded. Each PR receives one base achievement and potentially additional achievements.
+The new Adobe Commerce Bitergia dashboards are designed to recognize community members and partner teams in the following categories:
 
-These examples show how reward points are calculated:
+1. [Top Contributors Leaderboard](https://statistic.magento.engineering/app/kibana#/dashboard/41dc0c60-fa06-11eb-bbaa-dd6ca6f8fda8?_g=(refreshInterval:(pause:!t,value:0),time:(from:now%2Fy,mode:quick,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(darkTheme:!f,hidePanelTitles:!f,useMargins:!t),panels:!((embeddableConfig:(),gridData:(h:15,i:'1',w:24,x:0,y:0),id:f73aca60-fb9b-11eb-bbaa-dd6ca6f8fda8,panelIndex:'1',title:'Most%20active%20contributors',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'3',w:24,x:0,y:15),id:'4c9b55f0-fee0-11eb-bbaa-dd6ca6f8fda8',panelIndex:'3',title:'Communication%20masters',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'6',w:24,x:24,y:0),id:'616af3f0-05ed-11ec-bbaa-dd6ca6f8fda8',panelIndex:'6',title:'Most%20active%20maintainers',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'7',w:24,x:0,y:30),id:'251bac30-05db-11ec-bbaa-dd6ca6f8fda8',panelIndex:'7',title:'Most%20active%20reporters',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'8',w:24,x:24,y:15),id:fc779e40-14fa-11ec-bbaa-dd6ca6f8fda8,panelIndex:'8',title:'Most%20active%20quality%20contributors',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'10',w:24,x:24,y:30),id:'12119430-311c-11ec-bbaa-dd6ca6f8fda8',panelIndex:'10',title:'First-time%20contributors',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'11',w:24,x:0,y:45),id:'4fea96d0-32bb-11ec-bbaa-dd6ca6f8fda8',panelIndex:'11',type:visualization,version:'6.8.6')),query:(language:lucene,query:''),timeRestore:!f,title:'Top%20Contributors%20Leaderboard',viewMode:view))
+1. [Partners Leaderboard](https://magento.biterg.io/app/kibana#/dashboard/111a9de0-36aa-11ec-bbaa-dd6ca6f8fda8?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-10y,mode:relative,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(darkTheme:!f,hidePanelTitles:!f,useMargins:!t),panels:!((embeddableConfig:(),gridData:(h:15,i:'1',w:24,x:0,y:15),id:github_pull_requests_organizations_backlog,panelIndex:'1',title:'Open%20Pull%20Requests',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'3',w:24,x:24,y:15),id:github_issues_organizations_backlog,panelIndex:'3',title:'Open%20Issues',type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'6',w:24,x:24,y:0),id:e5d5d770-d17f-11ea-afd3-73617347224c,panelIndex:'6',title:Rank,type:visualization,version:'6.8.6'),(embeddableConfig:(),gridData:(h:15,i:'7',w:24,x:0,y:0),id:'73a7e3f0-dda0-11ea-afd3-73617347224c',panelIndex:'7',title:'Contribution%20activity',type:visualization,version:'6.8.6')),query:(language:lucene,query:''),timeRestore:!f,title:'Partners%20Leaderboard',viewMode:view))
 
-* A contributor who submits a PR that fixes a broken link or a typo will receive an Editorial (base achievement) label = 1 point.
-
-* A contributor who submits a PR containing missing details for troubleshooting steps or important symptoms, updates an image and similar will receive an Improvement (base achievement) label = 10 points and either a Major update (additional achievement) label = 20 points OR a Technical label (additional achievement) = 10 points
-
-## Base achievements
-
-Every merged PR to the support knowledge base repository receives one base achievement. By default, it is "Improvement", but if changes are minor and qualify for "Editorial" instead, a team member would add the "Editorial" label, and it will replace the default Improvement achievement.
-
-| ACHIEVEMENT  | POINTS | DESCRIPTION                                                                                                                              |
-|--------------|:--------:|------------------------------------------------------------------------------------------------------------------------------------------|
-| Improvement  | 10     | Contribution contains document improvements, adding missing details for troubleshooting steps or important symptoms, updating an image and similar. Any PR is considered an "Improvement" by default.|
-| Editorial    | 1      | Contribution contains fixes for typos, broken links, grammatical inconsistencies, or minor rewrites to correct inaccuracies.              |
-
-## Additional achievements
-
-Each PR can earn one of the following additional achievements. If you entered an editorial PR, you may not receive an additional achievement.
-
-| ACHIEVEMENT  | POINTS | DESCRIPTION                                                                                                                                                                                                                                  |
-|--------------|:--------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| New topic    | 30     | Adding a new topic that never existed in the support knowledge base, such as troubleshooting an issue that was not previously covered or a best practices article with significant amount of content.                                                      |
-| Major update | 20     | Significant updates to existing content, including identifying that an issue can be solved through a version upgrade or alternative solution.                                                                                               |
-| Technical    | 10     | Updates to code or processes that alter the technical content of the document, such as code snippets, reference documentation, parameter names and values, adding a specific symptom the helps identify an issue and other relevant content. |
-
-If the PR earns recognition for significant updates and additions to the documentation, it may also receive a Special Achievement label, which garners an additional 20 points. This is determined at the time of internal assessment. Certain issues may already be labeled as Special Achievement in an effort to prompt contribution. The PRs that fix these issues will receive the extra 20 points.
+For more details on Adobe Commerce Bitergia Analytics, refer to [Reimagining top contributors and partners dashboards](https://community.magento.com/t5/Magento-DevBlog/Reimagining-top-contributors-and-partners-dashboards/ba-p/485863).

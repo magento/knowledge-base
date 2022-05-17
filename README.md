@@ -7,7 +7,7 @@ Our goal is to provide the Adobe Commerce Community with comprehensive and quali
 
 ## Contributing
 
-We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Contributing to this repo gets you reward points, similar to contributing to Magento code and Magento Developer Documentation. See [Contribution reward points](docs/contribution-points.md) for details.
+We welcome all kinds of contributions, from minor typo corrections to complete troubleshooting articles. Your contributions are highlighted in the Adobe Commerce Bitergia leaderboards. See [Contribution recognition](docs/contribution-points.md) for details.
 
 ### General Contribution Flow
 
