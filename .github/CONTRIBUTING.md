@@ -8,7 +8,7 @@ The support knowledge base staff members review issues and pull requests on a re
 
 ## Rewards for contributions
 
-All your contributions are recognized and highlighted in the Adobe Commerce Bitergia leaderboards. For more details, see [Contribution Points](../docs/contribution-points.md).
+All your contributions are recognized and highlighted in the Adobe Commerce Bitergia leaderboards. For more details, see [Contribution recognition](../docs/contribution-points.md).
 
 ## Get started
 
