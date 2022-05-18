@@ -53,7 +53,7 @@ The GraphQL query for the cart returns the correct grand total which considers t
 
 <ins>Actual results</ins>:
 
-The GraphQL result does not consider the reward points and shows an incorrect grand total.
+The GraphQL query does not consider the reward points and returns an incorrect grand total.
 
 ## Apply the patch
 
