@@ -21,12 +21,12 @@ The MDVA-44505 patch solves the issue where the GraphQL query for a cart applyin
 
 ## Issue
 
-The GraphQL query for a cart applying reward points does not update the grand total.
+The GraphQL query for a cart applying reward points does not return the correct grand total.
 
 <ins>Steps to reproduce</ins>:
 
 1. Configure reward points.
-1. Create a cart and apply some points.
+1. Create a cart and apply some reward points.
 1. Call the `GetCart` query from the `GraphQL` endpoint and retrieve your cart:
     ```GraphQL
     query {
@@ -49,11 +49,11 @@ The GraphQL query for a cart applying reward points does not update the grand to
 
 <ins>Expected results</ins>:
 
-The GraphQL query for the cart shows the correct grand total which considers the reward points.
+The GraphQL query for the cart returns the correct grand total which considers the reward points.
 
 <ins>Actual results</ins>:
 
-GraphQL result does not consider the reward points when showing the total.
+The GraphQL result does not consider the reward points and shows an incorrect grand total.
 
 ## Apply the patch
 
