@@ -27,7 +27,23 @@ The GraphQL query for a cart applying reward points does not update the grand to
 
 1. Configure reward points.
 1. Create a cart and apply some points.
-1. Call the `GetCart` query from the `GraphQL` endpoint and retrieve your cart.
+1. Call the `GetCart` query from the `GraphQL` endpoint and retrieve your cart:
+    ```GraphQL
+    query {
+      cart(cart_id: "{CART_ID}") {
+        prices {
+          discounts {
+            amount {
+              value
+            }
+          }
+          grand_total {
+            value
+          }
+        }
+      }
+    }
+    ```
 1. Check the grand total entry.
 1. Now check the customer's cart total using rest API (`/rest/V1/carts/mine/totals`).
 
