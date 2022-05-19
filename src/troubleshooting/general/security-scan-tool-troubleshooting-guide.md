@@ -7,7 +7,7 @@ Learn how to troubleshoot the various issues with the  Security Scan tool for Ad
 
 ## Issue: Unable to Submit the site
 
-The Security Scan tool requires that you prove ownership of your site before the domain can be added to the Security Scan Tool. This can be performed by adding a confirmation code to your site using an HTML comment or the `<meta>` tag. The HTML comment should be placed inside the `<body>` tag, e.g., in the footer section. The `<meta>` tag should be placed in the page section.  
+The Security Scan tool requires that you prove ownership of your site before the domain can be added to the Security Scan Tool. This can be performed by adding a confirmation code to your site using an HTML comment or the `<meta>` tag. The HTML comment should be placed inside the `<body>` tag, e.g., in the footer section. The `<meta>` tag should be placed inside the page's `<head>` section.
 
 A common issue faced by merchants occurs when the Security Scan Tool is unable to confirm the merchant’s site ownership.
 
