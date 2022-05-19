@@ -15,7 +15,7 @@ Once the migration is complete, you will need to update your repository address 
 
 We have rolled out a migration plan as follows:  
 
-* June 6th: Batch 1 (3pm ET - 5pm ET)
-* June 7th: Batch 2 (3pm ET - 5pm ET)
-* June 8th: Batch 3 (3pm ET - 5pm ET)
-* June 9th: Batch 4 (3pm ET - 5pm ET)
+1. June 6th: Batch 1 (3pm ET - 5pm ET)
+1. June 7th: Batch 2 (3pm ET - 5pm ET)
+1. June 8th: Batch 3 (3pm ET - 5pm ET)
+1. June 9th: Batch 4 (3pm ET - 5pm ET)
