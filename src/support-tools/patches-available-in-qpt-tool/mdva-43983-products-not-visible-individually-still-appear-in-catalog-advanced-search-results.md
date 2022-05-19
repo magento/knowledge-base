@@ -31,7 +31,7 @@ The products that are set as "Not Visible Individually" still appear in catalog 
 1. Create products with **Visibility** as **Not Visible Individually**.
 1. Assign Color attribute options.
 1. Go to the **Catalog Advanced Search** page on the storefront.
-1. Select only Color attribute option from the Color attribute field, and leave the rest of the fields blank or as it is.
+1. Select only the Color attribute option from the Color attribute field, and leave the rest of the fields blank or as it is.
 1. Submit an advanced search form.
 1. Observe the search results.
 
