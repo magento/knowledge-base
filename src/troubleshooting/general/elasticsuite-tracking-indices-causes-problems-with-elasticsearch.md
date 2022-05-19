@@ -30,7 +30,7 @@ ElasticSuite has a new feature that creates tracking indices. These tracking ind
 
 ## Solution
 
-### Upgrade your Elasticsuite version to be able to cleanup tracking indices periodically
+### Upgrade your ElasticSuite version to be able to cleanup tracking indices periodically
 
 Once you have upgraded the ElasticSuite plugin to version > 2.8.0, you can configure a periodical cleaning of indices. 
 
