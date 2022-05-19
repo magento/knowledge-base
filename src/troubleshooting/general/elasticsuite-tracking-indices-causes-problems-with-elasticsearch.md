@@ -38,7 +38,7 @@ Go to **Stores > Configuration > Tracking > Global Configuration > Retention Del
 
 The default retention period is 365 days. You can reduce it to 30 or 15 days.
 
-### Upgrade your Elasticsuite version to use monthly based indices instead of daily based indices
+### Upgrade your ElasticSuite version to use monthly based indices instead of daily based indices
 
 Once you have upgraded the ElasticSuite plugin to version > 2.9.8 / 2.10.7, tracking indices will be monthly based.
 
