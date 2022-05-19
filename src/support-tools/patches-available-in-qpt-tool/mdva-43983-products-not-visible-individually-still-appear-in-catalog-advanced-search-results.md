@@ -41,7 +41,7 @@ Products that are set as "Not Visible Individually" do not appear in the catalog
 
 <ins>Actual results</ins>:
 
-Products that are set as "Not Visible Individually" are appearing in the catalog advanced search results.
+Products that are set as "Not Visible Individually" appear in the catalog advanced search results.
 
 ## Apply the patch
 
