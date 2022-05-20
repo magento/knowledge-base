@@ -21,7 +21,7 @@ The MDVA-44100 patch solves the issue where all FPTs are assigned to the last pr
 
 ## Issue
 
-All FPTs are assigned to the last product in the shopping cart, and FTPs for the rest of the products are reset.
+All FPTs are assigned to the last product in the shopping cart, and the FPT values for the rest of the products are reset.
 
 <ins>Steps to reproduce</ins>:
 
