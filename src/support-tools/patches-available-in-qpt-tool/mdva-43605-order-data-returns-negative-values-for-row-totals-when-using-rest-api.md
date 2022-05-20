@@ -38,7 +38,7 @@ The order data returns negative values for row totals when using Rest API.
     * Orders, Invoices, Credit Memos:
         * Display shipping Amount = Including Tax
 1. Create a tax rate for US (State = '*'), Rate Percent = 24.00
-1. Create Tax Rule with the Tax Rate above.
+1. Create a Tax Rule with the Tax Rate above.
 1. Create a cart price rule with a specific coupon, and Discount = $50 of the Fixed amount for the whole cart.
 1. Create four products with the following prices: $8.90, $5.90, $6.90, and $5.95.
 1. Create an admin order including four of these products using the coupon code created in the previous step. Use the free shipping.
