@@ -50,7 +50,7 @@ The order data returns negative values for row totals when using Rest API.
 
 <ins>Expected results</ins>:
 
-The values of `base_row_total` and `base_row_total_incl_tax` in the response is zero.
+The values of `base_row_total` and `base_row_total_incl_tax` in the response are zero.
 
 <ins>Actual results</ins>:
 
