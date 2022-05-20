@@ -33,7 +33,7 @@ The order data returns negative values for row totals when using Rest API.
         * Catalog Price = Including Tax
         * Shipping Price = Including Price
         * Applying Discount On Prices = Including Tax
-    * Price Display Settings:  Including Tax (all fields)
+    * Price Display Settings: Including Tax (all fields)
     * Shopping Cart Display Settings: Including Tax (all fields)
     * Orders, Invoices, Credit Memos:
         * Display shipping Amount = Including Tax
