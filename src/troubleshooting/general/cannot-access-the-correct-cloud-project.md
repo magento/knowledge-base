@@ -28,13 +28,13 @@ You need to disconnect the Single Sign-On integration with Magento.com.
 
     ![single-sign-on](assets/single-sign-on.png)
 
-1. Disconnect from `Magento.com`:
+1. Disconnect from `Magento.com`.
 
     ![Disconnect from Magento.com](assets/disconnect-from-magento-com.png)
 
-1. Log out
-1. Click on **`Magento.com`**:
+1. Log out.
+1. Now click on the **`Magento.com`** button.
 
     ![Magento.com](assets/magento-com.png)
 
-1. You should now be seeing the correct account.
+1. You should now be able to see the correct account.
