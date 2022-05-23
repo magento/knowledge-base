@@ -25,8 +25,10 @@ This issue typically occurs because you are being signed on using the previous a
 Disconnect the Single Sign-On integration with Magento.com.
 
 1. From https://accounts.magento.cloud/user, expand the Single Sign-On section.
-
+![single-sign-on](assets/single-sign-on.png)
 1. Disconnect from Magento.com:
+![Disconnect from Magento.com](assets/disconnect-from-magento-com.png)
 1. Log out
 1. Click on Magento.com:
+![Magento.com](assets/magento-com.png)
 1. You should now be seeing the correct account.
