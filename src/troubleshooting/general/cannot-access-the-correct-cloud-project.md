@@ -7,7 +7,7 @@ This article provides a fix for the issue when you are unable to access the corr
 
 ## Issue
 
-When you log in to you cloud account at https://accounts.magento.cloud/user, the account is automatically switched to another user's account which prevents you from accessing the correct project.
+When you log in to your cloud account at https://accounts.magento.cloud/user, the account is automatically switched to another user's account which prevents you from accessing the correct project.
 
 ## Affected products and versions
 
