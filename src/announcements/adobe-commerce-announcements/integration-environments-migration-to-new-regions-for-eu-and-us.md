@@ -1,11 +1,7 @@
 ---
-title: EU Integration Environments migration to a new region
-labels: Adobe Commerce,Magento,announcement,news,Integration Environments,migration,EU,upgrade,2.4.4
+title: Integration environments migration for legacy EU region
+labels: Adobe Commerce,Magento,announcement,news,Integration Environments,migration,legacy EU,upgrade,2.4.4
 ---
-
-Integration environments migration for legacy EU region
-
-
 
 In order to provide you with the most up-to-date infrastructure foundation, we are migrating the Integration environments for all customers belonging to the legacy ‘EU’ region to a new EU region. The rest of the regions – EU-3, EU-5, EU-6 – will remain the same.  
 
