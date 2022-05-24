@@ -11,7 +11,9 @@ This article talks about the issue of Elasticsearch memory problems caused by tr
 
 ## Affected products and versions
 
-It is not confirmed what versions of ElasticSuite have this issue.
+ElasticSuite versions prior to 2.8.0 are not able to periodically cleanup tracking indices.
+
+ElasticSuite versions prior to 2.9.8 / 2.10.7 are storing tracking indices in daily indices, which causes the number of open indices to grow.
 
 ## Issue
 
@@ -28,6 +30,26 @@ If the ElasticSuite third-party plugin is installed, you might experience Elasti
 ElasticSuite has a new feature that creates tracking indices. These tracking indices record which search terms are the most used, which terms generate the most turnover, and which terms are leading to a no results page so merchants can create synonyms to fix them. It does not appear to delete the tracking indices, so Elasticsearch runs out of resources and crashes.
 
 ## Solution
+
+### Upgrade your ElasticSuite version to be able to cleanup tracking indices periodically
+
+Once you have upgraded the ElasticSuite plugin to version > 2.8.0, you can configure a periodical cleaning of indices. 
+
+Go to **Stores > Configuration > Tracking > Global Configuration > Retention Delay**
+
+The default retention period is 365 days. You can reduce it to 30 or 15 days.
+
+### Upgrade your ElasticSuite version to use monthly based indices instead of daily based indices
+
+Once you have upgraded the ElasticSuite plugin to version > 2.9.8 / 2.10.7, tracking indices will be monthly based.
+
+You can still reduce the retention period : 
+
+Go to **Stores > Configuration > Tracking > Global Configuration > Retention Delay**
+
+The default retention period is 12 months (will generate 12 indices). You can reduce it to 3 or 6 months.
+
+### Use a cronjob to cleanup tracking indices data
 
 Create a cron job to delete the tracking indices. This command deletes indices created in the last month:
 
