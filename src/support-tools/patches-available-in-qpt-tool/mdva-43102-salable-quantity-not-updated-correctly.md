@@ -29,7 +29,7 @@ Salable quantity is not updated correctly when a refund is done using REST API.
 1. Check the Stock Qty and Salable Qty.
 1. Create an order.
 1. Create an invoice if needed.
-1. Submit a REST request to refund the invoice using this payload:
+1. Submit a REST request to refund the invoice using the following payload:
 
     * offline method/order/<order_id>/refund
     * online method/invoice/<invoice_id>/refund
