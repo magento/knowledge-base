@@ -58,7 +58,7 @@ Salable quantity is not updated correctly when a refund is done using REST API.
 
 <ins>Expected results</ins>:
 
-Salable quantity is updated correctly when a refund is issued before shipping the order and product is returned to the stock.
+Salable quantity is updated correctly when a refund is issued before shipping the order, and the product is returned to the stock.
 
 <ins>Actual results</ins>:
 
