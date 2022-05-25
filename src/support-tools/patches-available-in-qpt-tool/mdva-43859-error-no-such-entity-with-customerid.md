@@ -29,7 +29,7 @@ The error *No such entity with customerId =* is logged when a deleted customer t
 1. Log out and log in to the customer account created in step one.
 1. Load the backend in another browser and go to the customer grid.
 1. Delete the customer created in step one.
-1. Go to the other browser and try to log out.
+1. Switch back to the first browser and try to log out.
 
 <ins>Expected results</ins>:
 
