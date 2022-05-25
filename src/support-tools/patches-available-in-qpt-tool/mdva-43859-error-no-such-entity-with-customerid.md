@@ -21,7 +21,7 @@ The MDVA-43859 patch fixes the issue where the error *No such entity with custom
 
 ## Issue
 
-Error *No such entity with customerId =* is logged when a deleted customer tries to log in.
+The error *No such entity with customerId =* is logged when a deleted customer tries to log in.
 
 <ins>Steps to reproduce</ins>:
 
