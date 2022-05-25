@@ -28,13 +28,13 @@ You need to disconnect the Single Sign-On integration with Magento.com. Follow t
 
     ![single-sign-on](assets/single-sign-on.png)
 
-1. Disconnect from `Magento.com`.
+1. Click **Disconnect from Magento.com** to disconnect.
 
     ![Disconnect from Magento.com](assets/disconnect-from-magento-com.png)
 
 1. Log out.
-1. Now click on the **`Magento.com`** button.
+1. Now click on the **Magento.com** button.
 
     ![Magento.com](assets/magento-com.png)
 
-1. You should now be able to see the correct account.
+1. You should now be able to see the correct account and access the correct cloud project.
