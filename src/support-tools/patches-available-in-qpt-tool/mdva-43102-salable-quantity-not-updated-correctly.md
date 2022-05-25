@@ -62,7 +62,7 @@ Salable quantity is updated correctly when a refund is issued before shipping th
 
 <ins>Actual results</ins>:
 
-Salable quantity is not updated when a refund is issued before shipping the order and product is returned to the stock.
+Salable quantity is not updated when a refund is issued before shipping the order, and the product is returned to the stock.
 
 ## Apply the patch
 
