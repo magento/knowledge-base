@@ -21,7 +21,7 @@ The MDVA-43102 patch fixes the issue where the salable quantity is not updated c
 
 ## Issue
 
-Salable quantity is not updated correctly when a refund is done using the REST API.
+Salable quantity is not updated correctly when a refund is done using REST API.
 
 <ins>Steps to reproduce</ins>:
 
