@@ -22,18 +22,18 @@ This issue typically occurs when you are being signed on using the previous acco
 
 ## Solution
 
-You need to disconnect the Single Sign-On integration with Magento.com. Follow the steps below to disconnect:
+To reslove the issue, you need to disconnect the Single Sign-On integration with Magento.com. Follow the steps below to disconnect:
 
 1. From https://accounts.magento.cloud/user, expand the Single Sign-On section.
 
     ![single-sign-on](assets/single-sign-on.png)
 
-1. Click **Disconnect from Magento.com** to disconnect.
+1. Click **Disconnect from Magento<span>.</span>com** to disconnect.
 
     ![Disconnect from Magento.com](assets/disconnect-from-magento-com.png)
 
 1. Log out.
-1. Now click on the **Magento.com** button.
+1. Now click on the **Magento<span>.</span>com** button.
 
     ![Magento.com](assets/magento-com.png)
 
