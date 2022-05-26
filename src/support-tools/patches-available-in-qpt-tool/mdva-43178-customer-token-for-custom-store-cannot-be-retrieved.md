@@ -30,6 +30,8 @@ Customer token for a custom store cannot be retrieved in GraphQL.
 1. Create a customer for the new website, and check that in the table `customer_entity` for a newly created customer, `website_id = 2`.
 1. Generate API admin token:
 
+    `http://domain/pub/rest/all/V1/integration/admin/token`
+
     <pre>
     <code class="language-graphql">
     {
