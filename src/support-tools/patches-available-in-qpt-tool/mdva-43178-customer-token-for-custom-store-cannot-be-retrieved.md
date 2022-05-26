@@ -39,7 +39,7 @@ Customer token for a custom store cannot be retrieved in GraphQL.
     </code>
     </pre>
 
-1. Send GraphQL to retrieve customer token as an admin, use admin token for authorization, with "store" = "test3" in the header:
+1. Send GraphQL to retrieve customer token as an admin, use the admin token for authorization, with "store" = "test3" in the header:
 
     <pre>
     <code class="language-graphql">
