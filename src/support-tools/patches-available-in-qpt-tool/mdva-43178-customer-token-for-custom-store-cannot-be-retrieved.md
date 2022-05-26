@@ -26,7 +26,7 @@ Customer token for a custom store cannot be retrieved in GraphQL.
 <ins>Steps to reproduce</ins>:
 
 1. Create two Store Views (test1, and test2) for the default store.
-1. Create a new website or store or storeview (test3).
+1. Create a new Website, one Store, and one Store View. Name this Store View 'test3'.
 1. Create a customer for the new website, and check that in the table `customer_entity` for a newly created customer, `website_id = 2`.
 1. Generate API admin token.
 
