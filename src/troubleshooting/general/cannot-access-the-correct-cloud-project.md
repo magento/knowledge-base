@@ -15,10 +15,11 @@ When you log in to your cloud account at https://accounts.magento.cloud/user, th
 
 ## Cause
 
-This issue typically occurs when you are being signed on using the previous account's Single Sign-On integration with Magento.com after either of the following circumstances:
+This issue typically occurs when you are being signed on to the cloud account using the previous account owner's Single Sign-On integration with Magento.com after:
 
-1. The Cloud Project ownership had been transferred to you (the user), and because of this you would still be seeing the original project owner's account.
-1. You (the user) had moved to another company, accompanied by a change in their email address and the projects that they have access to, and because of this you would still be seeing the projects that you had been granted to in your previous role/company.
+1. The Cloud Project ownership had been transferred to you (the user). Because of this you would still be seeing the original project owner's account.
+
+1. You (the user) had moved to a different company, accompanied by a change in the email address and the projects that they have access to. Because of this you would still be seeing the projects that you had been granted to in your previous role/company.
 
 ## Solution
 
