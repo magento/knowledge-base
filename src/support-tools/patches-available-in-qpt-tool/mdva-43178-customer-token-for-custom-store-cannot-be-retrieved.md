@@ -1,6 +1,6 @@
 ---
 title: "MDVA-43178: Customer token for custom store cannot be retrieved in GraphQL"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.14,admin,GraphQL,custom store,customer token,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.3,2.4.3-p1,2.4.4
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.14,admin,GraphQL,custom store,customer token,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.3-p1,2.4.4
 ---
 
 The MDVA-43178 patch fixes the issue where the customer token for a custom store cannot be retrieved in GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-43178. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
