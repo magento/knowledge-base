@@ -359,6 +359,11 @@ To delete emails from CC: click **x** in a framed email.
 
 ![hc_cc_emails_remove.png](assets/hc_cc_emails_remove.png)
 
+#### Cloud Project URL
+
+Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`.
+If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface), please make sure that you provide the Cloud Project Web UI specified there, not the URL to the Onboarding UI itself.
+
 #### Contact reason
 
 Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing. Refer to the [Support ticket Contact Reason descriptions](https://support.magento.com/hc/en-us/articles/4435851936269) article to learn more about what contact reason you should choose.
@@ -375,13 +380,24 @@ Please provide precise details, steps to reproduce (except for Adobe Commerce on
 
 #### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, MBI and Shipping only)
 
-Select the environment type on which you face the problem:
+Select the **environment type** on which you face the problem:
 
-* Development
+* Development (**Integration branches**)
 * Staging
 * Production
 
 Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article in our developer documentation.
+
+#### Implementation Type
+
+Please specify your deployment method:
+
+* *Cloud* - choose this only if you are on Adobe Commerce on Cloud Infrastructure
+* *On-Premise* - **all self-hosted instances as well as [AWS] cloud-based hosting** (excludes Adobe Commerce on Cloud)
+
+#### Magento Environment ID
+
+This field will only appear after you've selected **Contact Reason** = *Adobe Commerce Cloud Application*, followed by **Adobe Commerce Application Contact Reason** = *Live Search*.
 
 #### Number of orders affected (MOM only)
 
@@ -444,6 +460,12 @@ Include a short overview of your problem (for example, *Error 404 on all pages* 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
 To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
+
+<img src = "assets/magento-env-id.png" alt = "Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search">
+
+If you are using [Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html) or [OpenSearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/es-aws.html), do not select this option.
+
+To obtain this information, in the Adobe Commerce Admin, go to **Marketing** > **Live Search** > **GraphQL Playground**, scroll down to the bottom of the page, then click on **HTTP HEADERS**.
 
 <h3 id="ticket-status">Ticket status: How your tickets are processed</h3>
 
