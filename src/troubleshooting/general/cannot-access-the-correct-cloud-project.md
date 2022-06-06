@@ -15,7 +15,7 @@ When you log in to your cloud account at https://accounts.magento.cloud/user, th
 
 ## Cause
 
-This issue typically occurs when you are being signed on using the previous account owner's Single Sign-On integration with Magento.com after:
+This issue typically occurs when you are being signed on using the previous account owner's Single Sign-On integration with magento.com after:
 
 * The Cloud Project ownership had been transferred to you (the user). Because of this you would still be seeing the original project owner's account.
 
