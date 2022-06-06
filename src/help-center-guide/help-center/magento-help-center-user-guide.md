@@ -250,7 +250,7 @@ The solution is to validate your email address:
 
 >![info]
 >
->This only applies to the email validation link from https://account.magento.com (Magento Account page). If you are not receiving an email validation link from https://accounts.magento.cloud/user (Cloud Account page), please [submit a support ticket using the standard proces](#submit-ticket).
+>This only applies to the email validation link from https://account.magento.com (Magento Account page). If you are not receiving an email validation link from https://accounts.magento.cloud/user (Cloud Account page), please [submit a support ticket using the standard process](#submit-ticket).
 
 <h3 id="merchant-not-displayed">Ticket submission form: merchant is not displayed in Organization drop-down</h3>
 
