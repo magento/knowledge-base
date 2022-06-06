@@ -1,6 +1,6 @@
 ---
 title: Cannot access the correct cloud project
-labels: Magento,Adobe Commerce,troubleshooting,cloud infrastructure,cloud project,account switched,access,single sign-on,magento.com
+labels: Magento,Adobe Commerce,troubleshooting,cloud infrastructure,cloud project,account switched,access,single sign-on,magento.com,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
 ---
 
 This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
@@ -15,7 +15,7 @@ When you log in to your cloud account at https://accounts.magento.cloud/user, th
 
 ## Cause
 
-This issue typically occurs when you are being signed on using the previous account owner's Single Sign-On integration with magento.com after:
+This issue typically occurs when you are being signed on using the previous account owner's single sign-on integration with magento.com after:
 
 * The Cloud Project ownership had been transferred to you (the user). Because of this you would still be seeing the original project owner's account.
 
