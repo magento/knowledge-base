@@ -25,7 +25,7 @@ OR
 
 ## Solution
 
-To reslove the issue, you need to disconnect the Single Sign-On integration with Magento.com. Follow the steps below to disconnect:
+To reslove the issue, you need to disconnect the single sign-on integration with magento.com. Follow the steps below to disconnect:
 
 1. From https://accounts.magento.cloud/user, expand the Single Sign-On section.
 
