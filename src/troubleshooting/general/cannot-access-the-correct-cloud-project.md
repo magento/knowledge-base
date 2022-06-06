@@ -1,6 +1,6 @@
 ---
 title: Cannot access the correct cloud project
-labels: Magento,Adobe Commerce,troubleshooting,cloud infrastructure,cloud project,account switched,access,Single Sign-On,Magento.com
+labels: Magento,Adobe Commerce,troubleshooting,cloud infrastructure,cloud project,account switched,access,single sign-on,magento.com
 ---
 
 This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
