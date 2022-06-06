@@ -248,6 +248,10 @@ The solution is to validate your email address:
 1. Click on the email validation link to validate your email and resolve this issue.
 1. If you do not receive an email with an email validation link, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
 
+>![info]
+>
+>This only applies to the email validation link from https://account.magento.com (Magento Account page). If you are not receiving an email validation link from https://accounts.magento.cloud/user (Cloud Account page), please [submit a support ticket using the standard proces](#submit-ticket).
+
 <h3 id="merchant-not-displayed">Ticket submission form: merchant is not displayed in Organization drop-down</h3>
 
 #### Issue
