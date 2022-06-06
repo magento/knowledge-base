@@ -11,7 +11,7 @@ When you log in to your cloud account at https://accounts.magento.cloud/user, th
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure
+* Adobe Commerce on cloud infrastructure, all supported versions
 
 ## Cause
 
