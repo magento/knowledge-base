@@ -45,7 +45,7 @@ Once you have upgraded the ElasticSuite plugin to version > 2.9.8 / 2.10.7, trac
 
 You can still reduce the retention period : 
 
-Go to **Stores > Configuration > Tracking > Global Configuration > Retention Delay**
+Go to **Stores** > **Configuration** > **Tracking** > **Global Configuration** > **Retention Delay**
 
 The default retention period is 12 months (will generate 12 indices). You can reduce it to 3 or 6 months.
 
