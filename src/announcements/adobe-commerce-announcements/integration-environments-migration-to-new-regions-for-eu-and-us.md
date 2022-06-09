@@ -5,7 +5,7 @@ labels: Adobe Commerce,Magento,announcement,news,Integration Environments,migrat
 
 In order to provide you with the most up-to-date infrastructure foundation, we are migrating the Integration environments for all customers belonging to the legacy ‘EU’ region to a new EU region. The rest of the regions – EU-3, EU-5, EU-6 – will remain the same.  
 
-The migrations will be happening from June 6th to June 9th, 2022.  
+The migrations will be happening from June 6th to June 15th, 2022.
 
 If this change affects you, you will receive a notification from Adobe containing the exact time when your migration will happen and all other necessary details.  
 
