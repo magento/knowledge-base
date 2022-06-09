@@ -9,7 +9,7 @@ Here’s a short update on what was published and updated in our support knowled
 
 ## PUBLISHED
 
-Please click to get familiar with the article and give us feedback on any issues!
+Please click to get familiar with the article and give us feedback on any issues.
 
 1. [Cannot access the correct cloud project](https://support.magento.com/hc/en-us/articles/6706549261709-Cannot-access-the-correct-cloud-project): This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
 
