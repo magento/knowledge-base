@@ -33,7 +33,7 @@ ElasticSuite has a new feature that creates tracking indices. These tracking ind
 
 ### Upgrade your ElasticSuite version to be able to cleanup tracking indices periodically
 
-Once you have upgraded the ElasticSuite plugin to version > 2.8.0, you can configure a periodical cleaning of indices. 
+Once you have upgraded the ElasticSuite plugin to version higher than 2.8.0, you can configure a periodical cleaning of indices. 
 
 Go to **Stores > Configuration > Tracking > Global Configuration > Retention Delay**
 
