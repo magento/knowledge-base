@@ -11,7 +11,7 @@ This article talks about the issue of Elasticsearch memory problems caused by tr
 
 ## Affected products and versions
 
-ElasticSuite versions prior to 2.8.0 are not able to periodically cleanup tracking indices.
+ElasticSuite versions prior to 2.8.0 are not able to periodically clean up tracking indices.
 
 ElasticSuite versions prior to 2.9.8 / 2.10.7 are storing tracking indices in daily indices, which causes the number of open indices to grow.
 
