@@ -35,7 +35,7 @@ ElasticSuite has a new feature that creates tracking indices. These tracking ind
 
 Once you have upgraded the ElasticSuite plugin to version higher than 2.8.0, you can configure a periodical cleaning of indices. 
 
-Go to **Stores > Configuration > Tracking > Global Configuration > Retention Delay**
+Go to **Stores** > **Configuration** > **Tracking** > **Global Configuration** > **Retention Delay**
 
 The default retention period is 365 days. You can reduce it to 30 or 15 days.
 
