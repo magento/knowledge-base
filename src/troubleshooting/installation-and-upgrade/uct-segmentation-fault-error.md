@@ -23,21 +23,11 @@ To avoid this error it is recommended to run the `bin` command with the added op
 bin/uct upgrade:check /<dir>/<instance-name> --coming-version=2.4.1 -m /vendor/<vendor-name>/<module-name>
 ```
 
+See the [Coming version](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html#adding-the---coming-version-option) topic for more information.
+
 >![info]
 >
 > The `<dir>` value is the directory where your Adobe Commerce instance is located.
-
-### Adding the `-m` option
-
-The `-m` option allows the Upgrade Compatibility Tool to analyze each specific module independently to avoid encountering two modules with the same name in your Adobe Commerce instance.
-
-This command option also allows the Upgrade Compatibility Tool to analyze a folder containing several modules:
-
-```bash
-bin/uct upgrade:check /<dir>/<instance-name> --coming-version=2.4.1 -m /vendor/<vendor-name>/
-```
-
-This option also helps with memory issues that can occur when executing the Upgrade Compatibility Tool.
 
 ## Empty output
 
@@ -68,7 +58,18 @@ Override the memory limitation by setting `memory_limit` to `-1`:
 php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 ```
 
+**Adding the `-m` option**
+
+The `-m` option allows the Upgrade Compatibility Tool to analyze each specific module independently to avoid encountering two modules with the same name in your Adobe Commerce instance.
+
+This command option also allows the Upgrade Compatibility Tool to analyze a folder containing several modules:
+
+```bash
+bin/uct upgrade:check /<dir>/<instance-name> --coming-version=2.4.1 -m /vendor/<vendor-name>/
+```
+
 >![info]
 >
 > The `M2_VERSION` is the target Adobe Commerce version you want to compare to your Adobe Commerce instance.
 
+See the [Run the tool in a command-line interface](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) page for more information on command-line interface options.
