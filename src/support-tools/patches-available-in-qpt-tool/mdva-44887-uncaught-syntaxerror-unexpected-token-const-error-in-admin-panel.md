@@ -1,6 +1,6 @@
 ---
 title: `MDVA-44887: "Uncaught SyntaxError: Unexpected token const" error in the Admin panel`
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.15,
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.15,2.4.4,Uncaught SyntaxError,token,const,admin panel
 ---
 
 The MDVA-44887 patch fixes the issue where users receive the "Uncaught SyntaxError: Unexpected token const" error in the Admin panel. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.15 is installed. The patch ID is MDVA-44887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
@@ -8,16 +8,12 @@ The MDVA-44887 patch fixes the issue where users receive the "Uncaught SyntaxErr
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+* Adobe Commerce (all deployment methods) 2.4.4
 
 >![info]
 >
@@ -25,21 +21,21 @@ The MDVA-44887 patch fixes the issue where users receive the "Uncaught SyntaxErr
 
 ## Issue
 
-(Short issue description goes here.)
-
-<ins>Prerequisites</ins>:
-(if any)...
+Uncaught SyntaxError: Unexpected token 'const'" error in the Admin panel.
 
 <ins>Steps to reproduce</ins>:
 
-1. ...
-1. ...
+1. Enable JS bundling.
+1. Minify the JS files.
+1. Log in to the Admin panel.
 
 <ins>Expected results</ins>:
-...
+
+The Admin can't click on any menu option. There is an error in the browser console: "Uncaught SyntaxError: Unexpected token 'const'"
 
 <ins>Actual results</ins>:
-...
+
+Admin panel is accessible to an admin user.
 
 ## Apply the patch
 
@@ -47,10 +43,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
