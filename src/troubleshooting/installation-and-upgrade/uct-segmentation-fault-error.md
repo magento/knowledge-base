@@ -1,13 +1,13 @@
 ---
 title: Troubleshoot upgrade compatibility tool errors
-labels: troubleshooting,upgrade compatibility tool,uct,upgrade,adobe commerce,2.4.4
+labels: troubleshooting,upgrade compatibility tool,uct,upgrade,adobe commerce
 ---
 
 This article explains errors you may experience while using the Upgrade Compatibility Tool, and provides solutions to fix those errors so that you can succesfully execute the tool.
 
 ## Affected products and versions
 
-* [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) is compatible with Adobe Commerce versions 2.3.0 to 2.4.4.
+* [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) is compatible with Adobe Commerce versions  from 2.3.0 onwards.
 
 ## Segmentation fault error
 
