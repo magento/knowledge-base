@@ -9,11 +9,11 @@ The MDVA-43718 patch solves the issue where the error *consumer isn't authorized
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) xxx
+* Adobe Commerce (all deployment methods) 2.4.1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) xxx
+* Adobe Commerce (all deployment methods) 2.3.0 - 2.4.4
 
 >![info]
 >
@@ -21,22 +21,31 @@ The MDVA-43718 patch solves the issue where the error *consumer isn't authorized
 
 ## Issue
 
-(Short issue description goes here.)
-
-<ins>Prerequisites</ins>:
-(if any)...
+The following error appears when accessing a shared catalog from a custom integration: *The consumer isn't authorized to access %resources*.
 
 <ins>Steps to reproduce</ins>:
 
-1. ...
-1. ...
+1. Create a new integration from the Admin > **System** > **Integration** > **Add Integration**.
+1. Add access for the following resources and activate the integration.
+    ```
+    Magento_SharedCatalog::list
+    Magento_SharedCatalog::manage
+    Magento_Catalog::catalog
+    ```
+1. Using the integration access: `rest/default/V1/sharedCatalog/1`
+
 
 <ins>Expected results</ins>:
-...
+
+Details of the shared catalog are returned.
 
 <ins>Actual results</ins>:
-...
 
+The follwing error is returned:
+```
+"message": "The consumer isn't authorized to access %resources.",
+"resources": "Magento_SharedCatalog::sharedCatalog"
+```
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
