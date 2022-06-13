@@ -41,6 +41,10 @@ To see which composer keys are configured:
 
 1. Set minimum-stability to `RC` in the `composer.json` file.
 
+   ```json
+   "minimum-stability": "RC"
+   ```
+
 ## Not enough memory for PHP
 
 <ins>Cause</ins>:
