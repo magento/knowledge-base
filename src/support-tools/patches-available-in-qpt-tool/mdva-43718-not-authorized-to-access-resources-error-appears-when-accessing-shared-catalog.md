@@ -27,13 +27,12 @@ The following error appears when accessing a shared catalog from a custom integr
 
 1. Create a new integration from the Admin > **System** > **Integration** > **Add Integration**.
 1. Add access for the following resources and activate the integration.
-    ```
+    ```hql
     Magento_SharedCatalog::list
     Magento_SharedCatalog::manage
     Magento_Catalog::catalog
     ```
 1. Using the integration access: `rest/default/V1/sharedCatalog/1`
-
 
 <ins>Expected results</ins>:
 
@@ -42,7 +41,7 @@ Details of the shared catalog are returned.
 <ins>Actual results</ins>:
 
 The following error is returned:
-```
+```php
 "message": "The consumer isn't authorized to access %resources.",
 "resources": "Magento_SharedCatalog::sharedCatalog"
 ```
