@@ -41,7 +41,7 @@ Details of the shared catalog are returned.
 
 <ins>Actual results</ins>:
 
-The follwing error is returned:
+The following error is returned:
 ```
 "message": "The consumer isn't authorized to access %resources.",
 "resources": "Magento_SharedCatalog::sharedCatalog"
