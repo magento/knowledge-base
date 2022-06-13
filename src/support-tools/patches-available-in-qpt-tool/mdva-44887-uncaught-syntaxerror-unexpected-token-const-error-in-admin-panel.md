@@ -3,7 +3,7 @@ title: `MDVA-44887: "Uncaught SyntaxError: Unexpected token const" error in the 
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.15,2.4.4,Uncaught SyntaxError,token,const,admin panel
 ---
 
-The MDVA-44887 patch fixes the issue where users receive the "Uncaught SyntaxError: Unexpected token const" error in the Admin panel. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.15 is installed. The patch ID is MDVA-44887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-44887 patch fixes the issue where the admin user can't click on any menu option. The *Uncaught SyntaxError: Unexpected token const* error is displayed in the Admin panel. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.15 is installed. The patch ID is MDVA-44887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -21,21 +21,21 @@ The MDVA-44887 patch fixes the issue where users receive the "Uncaught SyntaxErr
 
 ## Issue
 
-Uncaught SyntaxError: Unexpected token 'const'" error in the Admin panel.
+The admin user can't click on any menu option. The *Uncaught SyntaxError: Unexpected token const* error is displayed in the Admin panel.
 
 <ins>Steps to reproduce</ins>:
 
 1. Enable JS bundling.
 1. Minify the JS files.
-1. Log in to the Admin panel.
+1. Log in to the Commerce Admin panel.
 
 <ins>Expected results</ins>:
 
-The Admin can't click on any menu option. There is an error in the browser console: "Uncaught SyntaxError: Unexpected token 'const'"
+The admin user can't click on any menu option. There is an error in the browser console: *Uncaught SyntaxError: Unexpected token const*.
 
 <ins>Actual results</ins>:
 
-Admin panel is accessible to an admin user.
+The Admin panel is accessible to an admin user.
 
 ## Apply the patch
 
