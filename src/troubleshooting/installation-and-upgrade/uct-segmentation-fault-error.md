@@ -7,7 +7,7 @@ This article explains errors you may experience while using the Upgrade Compatib
 
 ## Affected products and versions
 
-* [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) is compatible with Adobe Commerce versions  from 2.3.0 onwards.
+* [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) is compatible with Adobe Commerce versions from 2.3.0 onwards.
 
 ## Segmentation fault error
 
