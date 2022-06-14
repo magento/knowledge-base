@@ -7,7 +7,7 @@ This article explains issues you may experience while using the Quick Checkout f
 
 ## Affected products and versions
 
-* [Quick Checkout](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) is now compatible with Adobe Commerce versions 2.3.0 to 2.4.4.
+* [Quick Checkout](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) is compatible with Adobe Commerce versions from 2.4.1 onwards.
 
 ## Incorrect Composer keys and minimum-stability to `RC`
 
@@ -73,12 +73,14 @@ There is a known issue for the Quick Checkout extension.
 
 When you [log in with a Bolt account](https://help.bolt.com/shoppers/guides/checkout/log-in/), you can add a new shipping address with a limitation of 4 lines per street address.
 
+If the new shipping address contains more than 4 lines, they will not be stored.
+
 Adobe Commerce usually can be configured to support up to 20 street address lines.
 
 ## Unexpected behavior when `Display Billing Address On` is set to `payment page`
 
 There is a known issue for the Quick Checkout extension.
 
-If you set the `Display Billing Address On` parameter to the `payment page` and [log in with a Bolt account](https://help.bolt.com/shoppers/guides/checkout/log-in/) when you check the `My billing and shipping address are the same` checkbox, the radio button displays `use existing card`.
+If you set the `Display Billing Address On` parameter to the `payment page` and [log in with a Bolt account](https://help.bolt.com/shoppers/guides/checkout/log-in/) when you check the `My billing and shipping address are the same` checkbox, the radio button displays `use existing card`. As the billing address is only applicable for new credit cards, the address will not be visible until the Bolt user decides to add a new credit card option.
 
 See the [Checkout](https://docs.magento.com/user-guide/configuration/sales/checkout.html) topic for more information about the `Display Billing Address On` parameter.
