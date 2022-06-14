@@ -79,6 +79,6 @@ Adobe Commerce usually can be configured to support up to 20 street address line
 
 There is a known issue for the Quick Checkout extension.
 
-If you set the `Display Billing Address On` parameter to `payment page` and [login with a [!DNL Bolt] account](https://help.bolt.com/shoppers/guides/checkout/log-in/) when you check the `My billing and shipping address are the same` checkbox the radio button displays `use existing card`.
+If you set the `Display Billing Address On` parameter to the `payment page` and [log in with a Bolt account](https://help.bolt.com/shoppers/guides/checkout/log-in/) when you check the `My billing and shipping address are the same` checkbox, the radio button displays `use existing card`.
 
 See the [Checkout](https://docs.magento.com/user-guide/configuration/sales/checkout.html) topic for more information about the `Display Billing Address On` parameter.
