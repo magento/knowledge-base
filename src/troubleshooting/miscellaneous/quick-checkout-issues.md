@@ -71,7 +71,7 @@ php -d memory_limit=-1 vendor/bin/composer require magento/quick-checkout
 
 There is a known issue for the Quick Checkout extension.
 
-When you [log in with a [!DNL Bolt] account](https://help.bolt.com/shoppers/guides/checkout/log-in/) you can add a new shipping address with a limitation of 4 lines per street address.
+When you [log in with a Bolt account](https://help.bolt.com/shoppers/guides/checkout/log-in/), you can add a new shipping address with a limitation of 4 lines per street address.
 
 Adobe Commerce usually can be configured to support up to 20 street address lines.
 
