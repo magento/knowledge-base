@@ -48,7 +48,7 @@ bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/<module-na
 
 The likely cause is a PHP memory limitation.
 
-There are 2 possible solutions to avoid this PHP memory limitation.
+There are two possible solutions to avoid this PHP memory limitation.
 
 <ins>Solution 1</ins>:
 
