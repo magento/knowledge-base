@@ -13,7 +13,7 @@ This article explains errors you may experience while using the Upgrade Compatib
 
 <ins>Cause</ins>:
 
-When two modules have the same name the Upgrade Compatibility Tool shows a segmentation fault error.
+When two modules have the same name, the Upgrade Compatibility Tool shows a segmentation fault error.
 
 <ins>Solution</ins>:
 
