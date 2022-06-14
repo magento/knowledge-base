@@ -75,7 +75,7 @@ When you [log in with a Bolt account](https://help.bolt.com/shoppers/guides/chec
 
 Adobe Commerce usually can be configured to support up to 20 street address lines.
 
-## Unexpected behaviour when `Display Billing Address On` is set to `payment page`
+## Unexpected behavior when `Display Billing Address On` is set to `payment page`
 
 There is a known issue for the Quick Checkout extension.
 
