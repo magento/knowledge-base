@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40961: An additional item can't be added to the cart when the minimum qty of the item is already in the cart"
+title: "MDVA-40961: Additional item can't be added to cart when minimum qty of item is already in cart"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.15,additional item,cart,minimum quantity,2.4.3,2.4.3-p1,2.4.3-p2
 ---
 
@@ -25,7 +25,7 @@ An additional item can't be added to the cart when the minimum quantity of the i
 
 <ins>Steps to reproduce</ins>:
 
-1. Set a simple product to have the **Minimum Qty Allowed in Shopping Cart** more than one (for example, two).
+1. Set a simple product to have more than one **Minimum Qty Allowed in Shopping Cart** (for example, two).
 1. Open the product on the Storefront and add two of them to the cart.
 1. Stay on the product page and add one more of this product to the cart.
 
