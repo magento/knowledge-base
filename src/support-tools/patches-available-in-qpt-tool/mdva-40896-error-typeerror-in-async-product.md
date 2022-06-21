@@ -21,7 +21,7 @@ The MDVA-40896 patch fixes the issue where the `Error: TypeError: Argument 3 pas
 
 ## Issue
 
-`Error: TypeError: Argument 3 passed to Magento` error is shown in async product bulk API.
+`Error: TypeError: Argument 3 passed to Magento\Framework\Webapi\ServiceInputProcessor::process() must be of the type array, string given` error is shown in async product bulk API.
 
 <ins>Steps to reproduce</ins>:
 
