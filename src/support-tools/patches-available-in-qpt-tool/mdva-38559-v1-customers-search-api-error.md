@@ -34,7 +34,7 @@ The Adobe Commerce store uses more than one website.
 1. Subscribe to a newsletter for more than one website and save the customer.
 1. Send the following request:
 
-```codeblock
+```REST API
 V1/customers/search?searchCriteria[filterGroups][0][filters][0][field]=email&searchCriteria[filterGroups][0][filters][0][value]=test@example.com&searchCriteria[filterGroups][0][filters][0][conditionType]=eq
 ```
 
