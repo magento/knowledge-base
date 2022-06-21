@@ -30,7 +30,7 @@ The Adobe Commerce store uses more than one website.
 <ins>Steps to reproduce</ins>:
 
 1. Go to **Store** > **Configuration** > **Customer** > **Customer Configuration** > **Account Sharing Options** and select **Global**.
-1. Go to **Customers** > **All Customers** > **Edit Any Customer** > **Newsletter**.
+1. Go to **Customers** > **All Customers**, select **Edit** on any customer and choose **Newsletter**.
 1. Subscribe to a newsletter for more than one website and save the customer.
 1. Send the following request:
 
