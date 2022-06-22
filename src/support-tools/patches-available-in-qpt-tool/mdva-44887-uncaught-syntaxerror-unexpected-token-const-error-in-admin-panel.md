@@ -1,5 +1,5 @@
 ---
-title: `MDVA-44887: "Uncaught SyntaxError: Unexpected token const" error in Admin panel`
+title: "MDVA-44887: 'Uncaught SyntaxError: Unexpected token const' error in Admin panel"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.15,2.4.4,Uncaught SyntaxError,token,const,admin panel
 ---
 
