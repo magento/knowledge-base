@@ -1,5 +1,5 @@
 ---
-title: "Error during deployment when upgrading to version supporting PHP 8.1"
+title: Error during deployment when upgrading to version supporting PHP 8.1
 labels: Magento Commerce,cloud infrastructure,PHP 8.1,error,upgrade,JSON,2.4.4,Fastly,New Relic,Adobe Commerce
 ---
 
