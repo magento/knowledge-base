@@ -1,5 +1,5 @@
 ---
-title: 2021 Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
+title: Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
 labels: 2.3,2.4,Magento Commerce,Magento Commerce Cloud,announcements,capacity,infrastructure,performance,request,Adobe Commerce,cloud infrastructure,Black Friday,Cyber Monday
 ---
 
@@ -7,7 +7,7 @@ During the peak holiday sales season (approximately Mid-November through Mid-Jan
 
  **Planning and Estimating Traffic**  
 
-We recommend that all Adobe Commerce merchants on our cloud infrastructure [utilize this set of recommendations on how to estimate peak season traffic](https://magento.com/blog/best-practices/five-ps-peak-season-performance-guide-preparing-your-infrastructure-high) in 2021.
+We recommend that all Adobe Commerce merchants on our cloud infrastructure [utilize this set of recommendations on how to estimate peak season traffic](https://magento.com/blog/best-practices/five-ps-peak-season-performance-guide-preparing-your-infrastructure-high) for the peak holiday sales season each year.
 
 Once you have completed the recommended estimation, if your team has identified any dates where you feel you will need additional capacity, continue on to the next step for information on how to request surge capacity.
 
