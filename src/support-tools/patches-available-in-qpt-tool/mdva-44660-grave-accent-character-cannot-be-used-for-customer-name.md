@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-44660: Grave accent character [`] cannot be used for customer's name'
+title: "MDVA-44660: Grave accent character [`] cannot be used for customer's name"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.15,admin user,customer name,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
 ---
 
