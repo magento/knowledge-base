@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40896: "Error: TypeError: Argument 3" error in async product'
+title: "MDVA-40896: 'Error: TypeError: Argument 3' error in async product"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.15,REST API,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.3,2.4.3-p1,2.4.3-p2
 ---
 
