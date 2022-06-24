@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38559: /V1/customers/search API returns error'
+title: "MDVA-38559: /V1/customers/search API returns error"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.15,API,subscription,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
 ---
 
