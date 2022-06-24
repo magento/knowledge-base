@@ -26,7 +26,8 @@ You can delete files from the application's mount points, from your `/app` path 
 >![warning]
 >
 >**Never modify or delete the contents of `/data/exports`**.
->`/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS. The filesystem >there contains not only the file contents, but metadata about the state of the filesystem to allow for synchronization >between the nodes of your cluster. **Changing or deleting files directly within this filesystem will corrupt the shared >filesystem, requiring extensive repairs or data recovery.**
+`/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS. 
+The filesystem there contains not only the file contents, but metadata about the state of the filesystem to allow for synchronization >between the nodes of your cluster. **Changing or deleting files directly within this filesystem will corrupt the shared >filesystem, requiring extensive repairs or data recovery.**
 
 To locate the largest files that might be good candidates for clearing, run the following command:
 
