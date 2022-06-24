@@ -45,6 +45,8 @@ The output of the command will be a list of files with their sizes specified.
 In our support knowledge base:
 
 * [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554)
-* [Check disk space on Cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713)
 * [Low disk space](https://support.magento.com/hc/en-us/articles/360037072592)
-* [Check disk space limit for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360038374052)
+
+In our developer documentation:
+
+* (Manage disk space)[https://devdocs.magento.com/cloud/project/manage-disk-space.html]
