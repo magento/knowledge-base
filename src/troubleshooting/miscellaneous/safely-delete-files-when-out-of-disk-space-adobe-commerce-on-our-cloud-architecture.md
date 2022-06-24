@@ -49,4 +49,4 @@ In our support knowledge base:
 
 In our developer documentation:
 
-* (Manage disk space)[https://devdocs.magento.com/cloud/project/manage-disk-space.html]
+* [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
