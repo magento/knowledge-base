@@ -3,7 +3,7 @@ title: "MDVA-44660: Grave accent character [`] cannot be used for customer's nam
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.15,admin user,customer name,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
 ---
 
-The MDVA-44660 patch fixes the issue where the grave accent character [`] cannot be used for a customer's name. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.15 is installed. The patch ID is MDVA-44660. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-44660 patch fixes the issue where the grave accent character [\`] cannot be used for a customer's name. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.15 is installed. The patch ID is MDVA-44660. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -21,11 +21,11 @@ The MDVA-44660 patch fixes the issue where the grave accent character [`] cannot
 
 ## Issue
 
-The grave accent character [`] cannot be used for a customer's first and last name.
+The grave accent character [\`] cannot be used for a customer's first and last name.
 
 <ins>Steps to reproduce</ins>:
 
-Create a new customer from the Admin account or register on the Storefront using the grave accent character in the first or last name, e.g., “L’Epicerie”.
+Create a new customer from the Admin account or register on the Storefront using the grave accent character in the first or last name, for example, “L’Epicerie”.
 
 <ins>Expected results</ins>:
 
