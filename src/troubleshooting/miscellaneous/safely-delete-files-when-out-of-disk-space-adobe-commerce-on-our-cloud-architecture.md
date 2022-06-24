@@ -28,7 +28,7 @@ You can delete files from the application's mount points, from your `/app` path 
 >**Never modify or delete the contents of `/data/exports`**.
 >`/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS. The filesystem >there contains not only the file contents, but metadata about the state of the filesystem to allow for synchronization >between the nodes of your cluster. **Changing or deleting files directly within this filesystem will corrupt the shared >filesystem, requiring extensive repairs or data recovery.**
 
-To find the largest files that might be good candidates for clearing, run the following command:
+To locate the largest files that might be good candidates for clearing, run the following command:
 
 ```bash
 FS='/data/exports';NUMRESULTS=20;resize;clear; echo "Please find below the Largest Directories and Files:";date;df -h $FS; echo "Largest Directories:";du -x /app/*/ 2>/dev/null| sort -rnk1| head -n $NUMRESULTS| awk '
@@ -38,7 +38,7 @@ FS='/data/exports';NUMRESULTS=20;resize;clear; echo "Please find below the Large
 '; echo "Please use the above information to clear any unwanted data from the server, it is important this is done as soon as possible to ensure your server stays functional.";
 ```
 
-The output of the command will be a list of files with their sizes specified.
+The output of the command will contain a list of the largest files and directories with their sizes specified.
 
 ## Related reading
 
