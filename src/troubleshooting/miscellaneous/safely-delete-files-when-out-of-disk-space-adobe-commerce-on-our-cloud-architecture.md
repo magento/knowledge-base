@@ -21,11 +21,24 @@ To see the amount of disk space used by the file system run the following comman
 
 ## How to safely delete files to increase disk space
 
-Merchants can delete files from the application's mount points and through `/mnt/shared`. They are two different ways to access the same files.
+You can delete files from the application's mount points, from your `/app` path or through `/mnt/shared`. They are two different ways to access the same files.
 
-**Never modify or delete the contents of `/data/exports`**. The files there should be accessed only through your application’s mount points, so from your `/app` path or through `/mnt/shared`.
+>![warning]
+>
+>**Never modify or delete the contents of `/data/exports`**.
+>`/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS. The filesystem >there contains not only the file contents, but metadata about the state of the filesystem to allow for synchronization >between the nodes of your cluster. **Changing or deleting files directly within this filesystem will corrupt the shared >filesystem, requiring extensive repairs or data recovery.**
 
-`/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS. The filesystem there contains not only the file contents, but metadata about the state of the filesystem to allow for synchronization between the nodes of your cluster. **Changing or deleting files directly within this filesystem will corrupt the shared filesystem, requiring extensive repairs or data recovery.**
+To find the largest files that might be good candidates for clearing, run the following command:
+
+```bash
+FS='/data/exports';NUMRESULTS=20;resize;clear; echo "Please find below the Largest Directories and Files:";date;df -h $FS; echo "Largest Directories:";du -x /app/*/ 2>/dev/null| sort -rnk1| head -n $NUMRESULTS| awk '
+{printf "%d MB %s\n",\ $1/1024,$2}
+';echo "Largest Files:"; nice -n 19 find /app/*/ -mount -type f -ls 2>/dev/null| sort -rnk7| head -n $NUMRESULTS|awk '
+{printf "%d MB\t%s\n",\ ($7/1024)/1024,$NF}
+'; echo "Please use the above information to clear any unwanted data from the server, it is important this is done as soon as possible to ensure your server stays functional.";
+```
+
+The output of the command will be a list of files with their sizes specified.
 
 ## Related reading
 
