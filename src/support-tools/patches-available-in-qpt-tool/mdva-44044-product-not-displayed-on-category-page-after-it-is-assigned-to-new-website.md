@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-44044: Product not displayed on category page after it is assigned to new website'
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.16,,
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.16,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,category page,new website,product,displayed
 ---
 
 The MDVA-44044 patch solves the issue where a product is not displayed on the category page after it is assigned to a new website.
@@ -26,7 +26,7 @@ Product is not displayed on the category page after it is assigned to a new webs
 
 <ins>Steps to reproduce</ins>:
 
-1. Set the indexer mode to scheduled.
+1. Set the indexer mode to schedule.
 1. Create a secondary website, store, and store view.
 1. Add a secondary store code in `index.php`:
     ```php
@@ -38,15 +38,15 @@ Product is not displayed on the category page after it is assigned to a new webs
 1. Run the corn.
 1. Open the category from the storefront.
 1. Assign the product to the secondary website.
-1. Run the cron.  
+1. Run the cron again.
 
 <ins>Expected results</ins>:
 
-The product appears in the category after a scheduled indexer.
+The product appears on the category page after a scheduled indexer.
 
 <ins>Actual results</ins>:
 
-The product does not appear in the category until a full reindex.
+The product does not appear on the category page until a full reindex.
 
 ## Apply the patch
 
