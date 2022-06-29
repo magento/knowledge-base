@@ -34,7 +34,7 @@ Discount is incorrectly applied to a bundled child product.
 
 1. Go to the storefront and add the bundle product to the cart with qty = 1.
 1. Go to the cart and check that the total cost of the bundle product is 50$ and the discount doesn't apply.
-1. Change quantity to 2 and update the cart. The total cost of the bundle product is now 100$.
+1. Change quantity to 2 and update the cart. The total cost of the bundled product should now be 100$.
 
 <ins>Expected results</ins>:
 
