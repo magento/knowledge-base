@@ -21,7 +21,7 @@ The MDVA-44533 patch fixes the issue where a discount is incorrectly applied to 
 
 ## Issue
 
-Discount is incorrectly applied to a bundle child product.
+Discount is incorrectly applied to a bundled child product.
 
 <ins>Steps to reproduce</ins>:
 
