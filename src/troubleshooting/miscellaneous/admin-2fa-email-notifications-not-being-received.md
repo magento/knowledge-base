@@ -26,8 +26,8 @@ If you have not configured the Sender email properly, or your domain has not bee
     select * from core_config_data where path like '%trans_email%';
     ```
 
-    - If it doesn't return any results, it means that the Sender address has not been configured.
-    - If it returns a result, proceed to **Step 2**.
+    * If it doesn't return any results, it means that the Sender address has not been configured.
+    * If it returns a result, proceed to **Step 2**.
 
 1. If the email appeared in your Spam folder, click on the link in the email. If the link has since expired, try logging in again to repeat the process.
 1. Once you have gained access, go to **Stores** > **Configuration** > **General** > **Store Email Addresses** and configure the email addresses.
