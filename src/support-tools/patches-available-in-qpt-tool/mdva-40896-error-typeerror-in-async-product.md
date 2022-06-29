@@ -25,7 +25,7 @@ The MDVA-40896 patch fixes the issue where the `Error: TypeError: Argument 3 pas
 
 <ins>Steps to reproduce</ins>:
 
-1. Send a request to `rest/all/async/bulk/V1/products/bySKU` endpoint using the following payload.
+1. Send a request to `rest/all/async/bulk/V1/products/bySKU` endpoint using the following payload:
 
 ```RESTAPI
 [
