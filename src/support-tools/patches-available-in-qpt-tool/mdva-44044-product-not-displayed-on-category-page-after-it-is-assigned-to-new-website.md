@@ -35,7 +35,7 @@ Product is not displayed on the category page after it is assigned to a new webs
     ```
 1. Create a new category.
 1. Create a new product assigned to the newly created category. Make sure to only assign it to the primary website.
-1. Run the corn.
+1. Run the cron.
 1. Open the category from the storefront.
 1. Assign the product to the secondary website.
 1. Run the cron again.
