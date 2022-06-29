@@ -26,7 +26,7 @@ Discount is incorrectly applied to a bundled child product.
 <ins>Steps to reproduce</ins>:
 
 1. Create a simple product with price of 50$.
-1. Create a bundle product, and assign the simple product as the only option for the bundle product.
+1. Create a bundled product, and assign the simple product as the only option for the bundled product.
 1. Create a Cart Price Rule with:
 
     * Condition: "If the total amount is greater than 130$"
