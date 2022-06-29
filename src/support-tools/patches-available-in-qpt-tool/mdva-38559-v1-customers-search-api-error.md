@@ -21,7 +21,7 @@ The MDVA-38559 patch fixes the issue where the `/V1/customers/search` API return
 
 ## Issue
 
-/V1/customers/search API returns an error for customers with more than one subscription.
+`/V1/customers/search` API returns an error for customers with more than one subscription.
 
 <ins>Prerequisites</ins>:
 
