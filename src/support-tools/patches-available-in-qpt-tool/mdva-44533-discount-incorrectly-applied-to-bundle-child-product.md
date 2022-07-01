@@ -29,7 +29,7 @@ Discount is incorrectly applied to a bundled child product.
 1. Create a bundled product, and assign the simple product as the only option for the bundled product.
 1. Create a Cart Price Rule with:
 
-    * Condition: "If the total amount is greater than 130$"
+    * Condition: If the total amount is greater than 130$
     * Action: "Fixed amount discount of 10$ is applied"
 
 1. Go to the storefront and add the bundle product to the cart with qty = 1.
