@@ -38,7 +38,7 @@ Discount is incorrectly applied to a bundled child product.
 
 <ins>Expected results</ins>:
 
-The discount is not applied because the subtotal is 100$, which is less than 130$ in the rule condition.
+The discount is not applied because the subtotal is 100\$\, which is less than 130\$\ in the rule condition.
 
 <ins>Actual results</ins>:
 
