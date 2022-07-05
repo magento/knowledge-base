@@ -3,7 +3,7 @@ title: Disable Adobe Commerce Banner output to improve site performance
 labels: 2.2.x,2.3.x,2.x.x,AJAX requests,Magento Commerce,Magento Commerce Cloud,banner,disable,troubleshooting,how to,performance,Adobe Commerce,on-premises,cloud infrastructure
 ---
 
-This article provides a fix for low site performance. Low site performance can be caused by the Adobe Commerce Banner module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps.
+This article provides a fix for low site performance. Low site performance can be caused by the `Magento_Banner` module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps.
 
 >![info]
 >
@@ -16,7 +16,7 @@ This article provides a fix for low site performance. Low site performance can b
 
 ## Issue
 
-The Adobe Banner module is enabled, but not used.
+The `Magento_Banner` module is enabled, but not used.
 
 To check if this is the case:
 
@@ -38,7 +38,7 @@ If you do not see the **Dynamic Blocks** option under **Content** > *Elements*, 
 
 ## Cause
 
-When the Adobe Commerce Banner module is enabled, Adobe Commerce sends Ajax requests from the storefront to the server to get the banner information. These Ajax requests have a performance impact, especially in high-load (high-volume and high-traffic) conditions. If the functionality is not used, it is recommended that you disable the module output. It is not recommended to disable the module, because of the dependency issues.
+When the `Magento_Banner` module is enabled, Adobe Commerce sends Ajax requests from the storefront to the server to get the banner information. These Ajax requests have a performance impact, especially in high-load (high-volume and high-traffic) conditions. If the functionality is not used, it is recommended that you disable the module output. It is not recommended to disable the module, because of the dependency issues.
 
 ## Solution
 
@@ -46,5 +46,5 @@ When the Adobe Commerce Banner module is enabled, Adobe Commerce sends Ajax requ
 >
 >We strongly recommend testing changes on [Staging/Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) first, before applying it to Production. We also recommend having a recent backup before any manipulations.
 
-1. Disable the Adobe Commerce Banner module output, as described in [Disable module output](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in our developer documentation. The module name you need to use is `Magento_Banner`.
+1. Disable the `Magento_Banner` module output, as described in [Disable module output](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in our developer documentation. The module name you need to use is `Magento_Banner`.
 1. Deploy your code. For Adobe Commerce on cloud infrastructure, deploy as described in the [Deploy your store](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) article in our developer documentation.
