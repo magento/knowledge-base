@@ -31,7 +31,7 @@ Creating a quick order with a large number of products using a CSV displays a co
 
 <ins>Expected results</ins>:
 
-You are able to create quick order with large number of SKUs.
+You are able to create a quick order with a large number of SKUs.
 
 <ins>Actual results</ins>:
 
