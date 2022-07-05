@@ -26,7 +26,7 @@ Creating a quick order with a large number of products using a CSV displays a co
 <ins>Steps to reproduce</ins>:
 
 1. Enable Quick Order by navigating to **Stores** > **Settings** > **Configurations** > **General** > **B2B Features**.
-1. Create a customer account and go to Quick Order at the top link.
+1. Create a customer account and go to **Quick Order** at the top link.
 1. Try to create a quick order using a CSV that has over 100 SKUs.
 
 <ins>Expected results</ins>:
