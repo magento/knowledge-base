@@ -21,7 +21,7 @@ The MDVA-44940 patch fixes the issue where an SQL error occurs while saving a ca
 
 ## Issue
 
-An SQL error occurs when saving a category from admin.
+An SQL error occurs when saving a category from the admin.
 
 <ins>Steps to reproduce</ins>:
 
