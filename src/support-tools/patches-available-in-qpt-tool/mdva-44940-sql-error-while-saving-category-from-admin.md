@@ -26,10 +26,13 @@ An SQL error occurs when saving a category from the admin.
 <ins>Steps to reproduce</ins>:
 
 1. Install sample data.
-1. Create a second website with a store group assigned to the default category and a store view assigned to a new store group.
+1. Create a second website with a store group assigned to the default category.
+
+    * Create a store view assigned to the new store group.
+
 1. Create stock and an additional source assigned to this stock and a sales channel assigned to the second website.
 1. Create a test product assigned to the second website.
-1. Go to **Admin** > **Catalog** > **Categories**, select **Scope** = **Second Website** and go to **Products in Category** > **Automatic Sorting** > Move out of stock to bottom and **Save**.
+1. Go to **Admin** > **Catalog** > **Categories**, select **Scope** = **Second Website** and go to **Products in Category** > **Automatic Sorting** > Move out of stock to bottom and click **Save**.
 
 <ins>Expected results</ins>:
 
