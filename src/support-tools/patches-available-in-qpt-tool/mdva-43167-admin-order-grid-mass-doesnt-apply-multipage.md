@@ -21,7 +21,7 @@ The MDVA-43167 patch fixes the issue where the admin order grid mass action does
 
 ## Issue
 
-Admin order grid mass action doesn't apply for multi-page when admin user selects all orders.
+Admin order grid mass action doesn't apply for multi-page when the admin user selects all orders.
 
 <ins>Steps to reproduce</ins>:
 
