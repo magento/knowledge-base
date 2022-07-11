@@ -71,7 +71,7 @@ The store id for quote items is overridden by the default store id for GraphQL r
     </code>
     </pre>
 
-1. Get the cart content for the other store view.
+1. Get the cart content for the new store view.
 
     <pre>
     <code class="language-graphql">
