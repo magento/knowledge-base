@@ -26,7 +26,7 @@ Admin order grid mass action doesn't apply for multi-page when the admin user se
 <ins>Steps to reproduce</ins>:
 
 1. Purchase any product three times to create three orders.
-1. Go to **Sales Order Grid**.
+1. Navigate to **Sales Order Grid**.
 1. Change pagination to a custom value of 2.
 1. Select all.
 1. Select **Hold Mass Action**.
