@@ -1,5 +1,5 @@
 ---
-title:
+title: Apply a patch to continue offering DHL as shipping carrier
 labels: patch,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises,DHL
 ---
 This article provides a patch, allowing merchants using Adobe Commerce 2.4.4 and earlier to continue offering DHL shipping, after the DHL schema 6.0 gets deprecated in the end of July - September 2022.
