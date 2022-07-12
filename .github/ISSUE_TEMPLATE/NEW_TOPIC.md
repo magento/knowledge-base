@@ -18,7 +18,7 @@ about: Create a request to add missing information to Support KB
 * The topic provides troubleshooting/best practice for ____.
 * Information in this topic is relevant for:
     * Adobe Commerce on-premises version  ____.
-    * Adobe Commerce on our cloud infrastructure version  ____.
+    * Adobe Commerce on cloud infrastructure version  ____.
     * Magento Open Source version  ____.
     * Extension or technology (Fastly, New Relic etc) version   ____.
 
