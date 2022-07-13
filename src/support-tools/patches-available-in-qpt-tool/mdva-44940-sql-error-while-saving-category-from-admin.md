@@ -32,7 +32,7 @@ An SQL error occurs when saving a category from the admin.
 
 1. Create stock and an additional source assigned to this stock and a sales channel assigned to the second website.
 1. Create a test product assigned to the second website.
-1. Go to **Admin** > **Catalog** > **Categories**, select **Scope** = **Second Website** and go to **Products in Category** > **Automatic Sorting** > Move out of stock to bottom and click **Save**.
+1. Go to **Admin** > **Catalog** > **Categories**, select **Scope** = **Second Website** and go to **Products in Category** > **Automatic Sorting** > Move out-of-stock products to the bottom and click **Save**.
 
 <ins>Expected results</ins>:
 
