@@ -30,7 +30,7 @@ Order totals in the Orders report are miscalculated for the restricted admin use
 1. Log in as the restricted admin user.
 1. Create two orders with different totals, one for each new store.
 1. Create invoices for the orders.
-1. Open **Reports** > **Sales** > **Orders report**.
+1. Go to **Reports** > **Sales** and open **Orders report**.
 1. Refresh statistics.
 1. See the report for each store.
 
