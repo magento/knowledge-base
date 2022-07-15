@@ -24,7 +24,7 @@ Refer to the [Quality Patches Tool (QPT) > Usage](https://devdocs.magento.com/qu
 The patch is applicable for the following Adobe Commerce versions:
 
 * 2.4.0-2.4.4-p1
-* 2.3.7, 2.3.7-p1
+* 2.3.7
 
 ## Related reading
 
