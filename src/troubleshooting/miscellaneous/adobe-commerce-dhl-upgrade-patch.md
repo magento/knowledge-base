@@ -19,7 +19,7 @@ Adobe Commerce 2.4.5, scheduled for release in August 2022, will contain the upg
 
 ## Patch
 
-The patch ID is AC-3022, it is available in the Quality Patches Tool version 1.1.16.
+The patch ID is AC-3022 available in the Quality Patches Tool version 1.1.16.
 Refer to the [Quality Patches Tool (QPT) > Usage](https://devdocs.magento.com/quality-patches/usage.html) article in our developer documentation for information on how to use QPT and install patches.
 
 The patch is applicable for the following Adobe Commerce versions:
