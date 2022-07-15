@@ -7,7 +7,7 @@ This article provides a patch, allowing merchants using Adobe Commerce 2.4.4 and
 
 ## Affected products and versions
 
-* Adobe Commerce 2.4.4 and earlier, all deployment options.
+* Adobe Commerce 2.4.4 and earlier, all deployment methods.
 
 ## Issue
 
