@@ -13,7 +13,7 @@ This article provides a solution for the issues where you only see 1 SaaS data s
 
 ## Issue
 
-I have configured the API keys for Sensei but I am only seeing 1 SaaS data space.
+I have configured the API keys for Sensei, but I am only seeing 1 SaaS data space.
 
 ## Cause
 
