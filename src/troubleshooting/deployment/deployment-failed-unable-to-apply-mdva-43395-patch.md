@@ -21,6 +21,17 @@ Cloud merchants do not need to apply the MDVA-43395 patch separately if they hav
 
 To resolve the issue, remove the MDVA-43395 and MDVA-43443 patches from the `m2-hotfixes` directory and redeploy.
 
+If you were able to apply the to apply the MDVA-43443 patch via the `m2-hotfixes` directory, you would still need to remove it as mentioned above. Future versions of Adobe Commerce will have already contained these patches, so it could cause the deployment to fail if you were to upgrade later.
+
+To verify if  the patch has been applied, run the `vendor/bin/magento-patches -n status |grep 43443` command.
+If it shows multiple results like this, then you should remove the MDVA-43443 patch from the `m2-hotfixes` folder:
+
+```bash
+$ vendor/bin/magento-patches -n status |grep 43443
+║ MDVA-43443              │ Parser token new fix                                         │ Other           │ Adobe Commerce Support │ Applied     │ Patch type: Required                                     ║
+║ N/A                     │ ../m2-hotfixes/MDVA-43443_EE_2.4.2-p2_COMPOSER_v1.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                       ║
+```
+
 ## Related reading
 
 * [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
