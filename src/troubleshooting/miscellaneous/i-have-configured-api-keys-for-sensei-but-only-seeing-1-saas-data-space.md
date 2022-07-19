@@ -9,7 +9,7 @@ This article provides a solution for the issues where you only see 1 SaaS data s
 
 * Adobe Commerce (all deployment methods): all versions
 * Magento Open Source: all versions
-* Extension or technology (Fastly, New Relic etc.), Adobe Sensei (Product Recommendations/Live Search)
+* Extension or technology (Fastly, New Relic, etc.), Adobe Sensei (Product Recommendations/Live Search)
 
 ## Issue
 
