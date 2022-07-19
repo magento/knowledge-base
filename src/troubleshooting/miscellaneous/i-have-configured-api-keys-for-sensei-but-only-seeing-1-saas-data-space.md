@@ -24,5 +24,5 @@ The number of SaaS data spaces that appears depends on your Commerce license:
 
 ## Solution
 
-* Make sure that the API keys were created on the Account Owner's account. Even if you have been given shared access to their account and created the keys on your own account, this will not grant you more than 1 data space.
+* Make sure that the API keys were created on the Account Owner's account. Even if you have been given shared access to their account and created the keys on your own account, this will not grant you more than one data space.
 * If the keys were generated on the Account Owner's account, make sure that the license is active, i.e., there are no pending invoices.
