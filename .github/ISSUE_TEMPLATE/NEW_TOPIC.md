@@ -15,16 +15,27 @@ about: Create a request to add missing information to Support KB
 
 <!-- Use the following checklist template as a starting point -->
 
-* The topic provides troubleshooting/best practice for ____.
-* Information in this topic is relevant for:
+If the article provides a troubleshooting solution for an issue:
+
+* Issue description (if relevant, steps to reproduce)
+* Solution
+* Information in this article is relevant for:
     * Adobe Commerce on-premises version  ____.
     * Adobe Commerce on cloud infrastructure version  ____.
     * Magento Open Source version  ____.
     * Extension or technology (Fastly, New Relic etc) version   ____.
+* Additional information/resources ((OPTIONAL) Links to relevant documentation)
 
-## Additional information/resources
+If the article provides best practice recommendations:
 
-<!-- (OPTIONAL) Any information you already know or other online resources that cover this topic -->
+* What are the recommendations
+* Information in this article is relevant for:
+    * Adobe Commerce on-premises version  ____.
+    * Adobe Commerce on cloud infrastructure version  ____.
+    * Magento Open Source version  ____.
+    * Extension or technology (Fastly, New Relic etc) version   ____.
+* Additional information/resources (optional, links to relevant documentation)
+
 
 <!--
 Thank you for taking the time to report this issue!
