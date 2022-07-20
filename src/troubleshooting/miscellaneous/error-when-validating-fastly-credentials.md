@@ -12,7 +12,6 @@ User gets an error when validating the Fastly credentials.
 ## Affected products and versions
 
 * Adobe Commerce (all deployment methods): All versions
-* Magento Open Source version N/A
 * Extension or technology (Fastly, New Relic, etc.) version Fastly
 
 ## Solution
