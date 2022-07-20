@@ -17,16 +17,13 @@ User gets an error when validating the Fastly credentials.
 
 ## Solution
 
-1. Make sure you are using the correct Service ID and API token:
+1. Make sure you are using the correct Service ID and API token and try to validate again.
 
-    * Verify that the credentials are valid using the following API:
+1.  Verify that the Fastly credentials are valid using the API. For instruction, refer to [Test the Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in our developer documentation.
 
     ```curl
     curl -H "Fastly-Key: <API key>" https://api.fastly.com/service/<service ID>/version/active
     ```   
-    * Try to validate again.
-
-    For more information on how to get the Fastly credentials, refer to [Cloud for Adobe Commerce > Set up Fastly > Get Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in our developer documentation.
 
 1. If you are still getting the same error, submit a support ticket to request a new API token.
 
