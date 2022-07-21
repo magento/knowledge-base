@@ -17,14 +17,14 @@ User gets an error when validating the Fastly credentials.
 ## Solution
 
 1. Make sure you have the correct Service ID and API token and try to validate again:
-
-    * Verify that the Fastly credentials are valid using the API. For instruction, refer to [Test the Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in our developer documentation.
+    * Verify that the Fastly credentials are valid using the API. For detailed instruction, refer to [Test the Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in our developer documentation.
+1. If the verification of the credentials fails, run the following curl command to confirm the status of the service:
 
     ```curl
     curl -H "Fastly-Key: <API key>" https://api.fastly.com/service/<service ID>/version/active
     ```   
 
-1. If you are still getting the same error, submit a support ticket to request a new API token.
+1. If the above command returns an error similar to: *{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}*, submit a support ticket to request a new API token.
 
     To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](https://support.magento.com/hc/en-us/articles/360000913794#support-tickets) in our support knowledge base.
 
