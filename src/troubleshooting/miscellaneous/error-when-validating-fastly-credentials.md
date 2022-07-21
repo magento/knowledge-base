@@ -16,7 +16,7 @@ User gets an error when validating the Fastly credentials.
 
 ## Solution
 
-1. Make sure you have the correct Service ID and API token and try to validate again:
+1. Make sure you have the correct Fastly service ID and API token and try to validate again. For detailed instruction, refer to [Test the Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in our developer documentation.
 1. If the verification of the credentials fails, run the following curl command to confirm the status of the service:
 
     ```curl
