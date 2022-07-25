@@ -9,11 +9,11 @@ The tool provides faster self-service issue resolution, allowing you to easily a
 
 >![info]
 >
->You should use the tool to pull in necessary quality fixes as needed on a case-by-case basis only and not as a long-term approach to maintaining Adobe Commerce and Magento Open Source code. Upgrading to the latest version of Adobe Commerce or Magento Open Source is still the best method for resolution of quality issues and should be prioritized.
+>Note: You should use the tool to pull in necessary quality fixes as needed on a case-by-case basis only and not as a long-term approach to maintaining Adobe Commerce and Magento Open Source code. Upgrading to the latest version of Adobe Commerce or Magento Open Source is still the best method for resolution of quality issues and should be prioritized.
 
 ## Get and use Quality Patches Tool
 
-The tool is available as a Composer package. For Adobe Commerce on cloud infrastructure, the package is included in the ECE-Tools package.
+The tool is available as a composer package. For Adobe Commerce on cloud infrastructure, the package is included in the ECE-Tools package.
 
 Having installed the tool, you can check for available patches, apply or revert them any time.
 
