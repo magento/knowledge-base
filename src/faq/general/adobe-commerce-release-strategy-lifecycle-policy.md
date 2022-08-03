@@ -17,7 +17,7 @@ We will be moving our end of support (EOS) dates to align closely with those of 
 
 ### How will these changes benefit customers?
 
-Reducing the frequency and complexity of patch releases means customers can reduce the time, resources, and development dollars they spend on upgrades. In addition, as we continue to release features as independent services, customers will be able to adopt these features faster, accelerating their time to innovation. To learn more about the benefits of our simplified upgrade process, visit our recent [release strategy blog post](https://magento.com/blog/accelerating-innovation-through-simplified-release-strategy).
+Reducing the frequency and complexity of patch releases means customers can reduce the time, resources, and development dollars they spend on upgrades. In addition, as we continue to release features as independent services, customers will be able to adopt these features faster, accelerating their time to innovation. To learn more about the benefits of our simplified upgrade process, visit our recent [release strategy blog post](https://business.adobe.com/blog/how-to/accelerating-innovation-through-simplified-release-strategy).
 
 ### What are the different types of upgrades that will be released in 2022?
 
