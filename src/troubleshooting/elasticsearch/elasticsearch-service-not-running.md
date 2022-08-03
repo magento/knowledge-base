@@ -13,53 +13,43 @@ This article provides solutions for errors you can experience when the Elasticse
     * ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Adobe Commerce v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
 * Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
 
-<table style="height:354px;width:3055px">
+<table>
 <tbody>
 <tr>
-<td style="width:800px">Symptoms when ES service is not running</td>
-<td style="width:4000px">Details</td>
-<td style="width:2637px">Resources</td>
+<td>Symptoms when ES service is not running</td>
+<td>Details</td>
+<td>Resources</td>
 </tr>
 <tr>
-<td rowspan="3">Exception Errors</td>
-<td style="width:2637px"><code>"Limit of total fields [1000] in index [index_name] has been
-          exceeded"
-          Under product attributes just "<number>"</code></td>
+<td rowspan="3">Exception errors</td>
+<td><i>Limit of total fields [1000] in index [index_name] has been
+          exceeded" Under product attributes just <code>number</code></i> </td>
 <td>
-<ul>
-<li><a href="https://support.magento.com/hc/en-us/articles/360003290654">Exception on category page with Elasticsearch 5.0: Limit of total fields [1000] in index has been exceeded</a> in our support knowledge base.</li>
-</ul>
+<a href="https://support.magento.com/hc/en-us/articles/360003290654">Exception on category page with Elasticsearch 5.0: Limit of total fields [1000] in index has been exceeded</a> in our support knowledge base.
 </td>
 </tr>
 <tr>
-<td style="width:2637px">
-<pre><code class="language-clike">{"0":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}]</code></pre>
+<td>
+<i>{"0":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}]</i>
 </td>
-<td style="width:2637px">
-<ul>
-<li><a href="https://support.magento.com/hc/en-us/articles/360027356612">Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error</a> in our support knowledge base.</li>
-</ul>
+<td>
+<a href="https://support.magento.com/hc/en-us/articles/360027356612">Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error</a> in our support knowledge base.
 </td>
 </tr>
 <tr>
-<td style="width:110px">
-<pre><code class="language-clike">Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/<projectid>/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code></pre>
+<td>
+<i>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/<projectid>/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</i>
 </td>
-<td style="width:2637px">
-<ul>
-<li>Elasticsuite indices not being deleted.  See <a href="https://support.magento.com/hc/en-us/articles/360035266131">Elasticsearch crashes or has out of memory issues when using ElasticSuite plugin</a> and <a href="https://support.magento.com/hc/en-us/articles/360034921492">ElasticSuite tracking indices causes problems with Elasticsearch</a> in our support knowledge base.</li>
-</ul>
+<td>
+Elasticsuite indices not being deleted.  See <a href="https://support.magento.com/hc/en-us/articles/360035266131">Elasticsearch crashes or has out of memory issues when using ElasticSuite plugin</a> and <a href="https://support.magento.com/hc/en-us/articles/360034921492">ElasticSuite tracking indices causes problems with Elasticsearch</a> in our support knowledge base.
  </td>
 </tr>
 <tr>
-<td style="width:110px">PHP Error</td>
-<td style="width:2637px">
-<pre><code class="language-clike">No alive nodes found in your cluster","1":"#0 \/app\/<projectid>\/vendor\/elasticsearch\/elasticsearch\/src\/Elasticsearch\/Transport.php</code></pre>
+<td>PHP error</td>
+<td>
+<i>No alive nodes found in your cluster","1":"#0 /app/<code>projectid</code>/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
 </td>
 <td rowspan="4">
-<p> </p>
-<ul>
-<ul>
 <ul>
 <li>Resources for insufficient disk space:<ul>
 <li><a href="http://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk">8 Tips to Solve Linux & Unix Systems Hard Disk Problems Like Disk Full Or Can’t Write to the Disk</a></li>
@@ -72,8 +62,6 @@ This article provides solutions for errors you can experience when the Elasticse
 </li>
 <li>If your disk has not run out of storage but you are still getting the error messages in the left column, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.</li>
 </ul>
-</ul>
-</ul>
 <ul>
 <li>Elasticsuite indices not being deleted. See <a href="https://support.magento.com/hc/en-us/articles/360035266131">Elasticsearch crashes or has out of memory issues when using ElasticSuite plugin</a> and <a href="https://support.magento.com/hc/en-us/articles/360034921492">ElasticSuite tracking indices causes problems with Elasticsearch</a> in our support knowledge base.
 </li>
@@ -81,21 +69,20 @@ This article provides solutions for errors you can experience when the Elasticse
 </td>
 </tr>
 <tr>
-<td style="width:110px">Curl Error</td>
-<td style="width:2637px">Running the curl command to check Elasticsearch health:<code>curl -m1 localhost:9200/_cluster/health?pretty</code>(or<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>for Starter accounts) produces this error:<code>Error: curl: (7) Failed to connect to localhost port 9200: Connection refused</code> </td>
+<td><code>Curl</code> error</td>
+<td>Running the <code>curl</code> command to check Elasticsearch health:<code>curl -m1 localhost:9200/_cluster/health?pretty</code>(or<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>for Starter accounts) produces this error:<i>Error: curl: (7) Failed to connect to localhost port 9200: Connection refused</i> </td>
 </tr>
 <tr>
-<td style="width:110px">Command-line error</td>
-<td style="width:2637px">Running<code>$ bin/magento indexer:reindex catalogsearch_fulltext</code>produces this error<code>"Catalog Search indexer process unknown error:
-        No alive nodes found in your cluster"</code>
+<td>Command-line error</td>
+<td>Running<code>$ bin/magento indexer:reindex catalogsearch_fulltext</code>produces this error<i>Catalog Search indexer process unknown error:
+        No alive nodes found in your cluster"</i>
 </td>
 </tr>
 <tr>
-<td style="width:110px">
-<p>Error on product pages</p>
+<td>Error on product pages
 </td>
-<td style="width:2637px"><code>There has been an error processing your request.
-      Exception printing is disabled by default for security reasons</code></td>
+<td><i>There has been an error processing your request.
+      Exception printing is disabled by default for security reasons</code></i>
 </tr>
 </tbody>
 </table>
