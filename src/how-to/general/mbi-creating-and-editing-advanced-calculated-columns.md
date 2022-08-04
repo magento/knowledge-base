@@ -12,7 +12,6 @@ For the list of calculated columns that you can create in the Data Warehouse Man
 * [Understanding and evaluating table relationships](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
 * [Creating paths for calculated columns](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
 
-
 #### I still need help!
 
 If you need help with creating a regular calculated column or want to create or edit an Advanced Calculated Column, [reach out to our team](https://support.magento.com/hc/en-us/articles/360019088251) and include the following:
@@ -27,8 +26,8 @@ If you're unsure how to answer any of these questions, don't worry! Try your bes
 
 ## Related reading
 
-* [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
-* [Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
-* [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
-* [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
+* [MBI User Guide](https://docs.magento.com/mbi)
+* [MBI: Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
+* [Data Analyst](https://docs.magento.com/mbi/data-analyst.html)
+* [Getting Help with Magento BI](https://docs.magento.com/mbi/getting-started/support.html)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
