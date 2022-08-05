@@ -14,16 +14,10 @@ This article provides solutions for errors you can experience when the Elasticse
 * Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
 
 <table>
-<colgroup>
-       <col span="1" style="width: 25%;">
-       <col span="1" style="width: 25%;">
-       <col span="1" style="width: 25%;">
-    </colgroup>
-<tbody>
 <tr>
-<td>Symptoms when ES service is not running</td>
-<td>Details</td>
-<td>Resources</td>
+<th style="width:70%">Symptoms when ES service is not running</th>
+<th>Details</th>
+<th>Resources</th>
 </tr>
 <tr>
 <td rowspan="3">Exception errors</td>
@@ -89,5 +83,4 @@ Elasticsuite indices not being deleted.  See <a href="https://support.magento.co
 <td><i>There has been an error processing your request.
       Exception printing is disabled by default for security reasons</code></i>
 </tr>
-</tbody>
 </table>
