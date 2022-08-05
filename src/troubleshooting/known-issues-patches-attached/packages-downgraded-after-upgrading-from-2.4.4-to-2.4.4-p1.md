@@ -1,9 +1,9 @@
 ---
 title: "Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1"
-labels: 2.4.4,Magento Commerce,Magento Commerce Cloud,Magento Open Source,packages downgraded,upgrading,known issues,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+labels: 2.4.4,Magento Commerce,Magento Commerce Cloud,Magento Open Source,packages downgraded,upgrading,known issues,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,composer:update command,modules
 ---
 
-This article provides a hotfix for the issue when packages were downgraded after upgrading from Adobe Commerce 2.4.4 (cloud infrastructure and on-premises deployments) and Magento Open Source 2.4.4 to Adobe Commerce version 2.4.4-p1 and Magento Open Source version 2.4.4-p1.
+This article provides a hotfix for the issue when merchants on version 2.4.4 run the **composer:update** command, and then the modules listed below are getting upgraded to their later versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above.
 
 ## Affected products and versions
 
@@ -104,8 +104,16 @@ Use the attached bash script as the workaround for this issue.
 
 **Exact instructions how to use the script:**
 
-1. Place the script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) in the **root** folder of your Adobe Commerce/Magento Open Source 2.4.4 installation (the same folder as the **composer.json**).
-1. Run the script with an **apply** argument to lock affected packages to their 2.4.4 versions:
+### On Adobe Commerce on cloud infrastructure:
+
+1. Download the bash script file [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) to your local checkout of your cloud codebase.
+1. Run the bash script file [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) to modify the composer files locally.
+1. Add and commit the modified composer files to your git repository.
+
+### On Adobe Commerce or Magento Open Source on-premises:
+
+1. Place the bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) in the **root** folder of your Adobe Commerce/Magento Open Source 2.4.4 installation (the same folder as the **composer.json**).
+1. Run the bash script with an **apply** argument to lock affected packages to their 2.4.4 versions:
 
     ```bash
     sh ACPLTSRV-2017-fix.sh apply
