@@ -3,7 +3,7 @@ title: "Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1"
 labels: 2.4.4,Magento Commerce,Magento Commerce Cloud,Magento Open Source,packages downgraded,upgrading,known issues,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,composer:update command,modules
 ---
 
-This article provides a hotfix for the issue when merchants on version 2.4.4 run the **composer:update** command, and then the modules listed below are getting upgraded to their later versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above.
+This article provides a hotfix for the issue when merchants on version 2.4.4 run the **composer:update** command, and then the packages (modules) listed below are getting downgraded to their earlier versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above.
 
 ## Affected products and versions
 
@@ -19,7 +19,7 @@ There are two scenarios how this issue can occur and how it can be reproduced:
 
 <ins>Steps to reproduce</ins>:
 
-When upgrading from 2.4.4 to 2.4.4-p1, there is a number of modules which are downgraded with similar output:
+When upgrading from 2.4.4 to 2.4.4-p1, there is a number of packages (modules) which are downgraded with similar output:
 
 ```text
 Downgrading magento/module-adobe-ims (2.1.4 => 2.1.3)
@@ -62,31 +62,31 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 <ins>Expected results</ins>:
 
-The upgrade from version 2.4.4 to 2.4.4-p1 results with the correct packages for version 2.4.4-p1.
+The upgrade from version 2.4.4 to 2.4.4-p1 results with the correct packages (modules) for version 2.4.4-p1.
 
 <ins>Actual results</ins>:
 
-Packages are downgraded after upgrading from version 2.4.4 to 2.4.4-p1.
+During the upgrade from version 2.4.4 to 2.4.4-p1, these packages' (modules') versions downgrade, but these messages can be ignored and functionality is not affected.
 
 ### Scenario 2
 
 <ins>Steps to reproduce</ins>:
 
-When 2.4.4 merchants run the **composer:update** command, then the same modules listed above in **Scenario 1** get upgraded to their newer  versions which are compatible only with version 2.4.5 and are not supposed to be used with version 2.4.4.
+When 2.4.4 merchants run the **composer:update** command, then the same packages (modules) listed above in **Scenario 1** get upgraded to their newer versions which are compatible only with version 2.4.5 and are not supposed to be used with version 2.4.4.
 
 <ins>Expected results</ins>:
 
-The upgrade from version 2.4.4 to 2.4.4-p1 results with the correct packages for version 2.4.4-p1.
+The upgrade from version 2.4.4 to 2.4.4-p1 results with the correct packages (modules) for version 2.4.4-p1.
 
 <ins>Actual results</ins>:
 
-Packages are downgraded after upgrading from version 2.4.4 to 2.4.4-p1.
+Packages (modules) are downgraded after upgrading from version 2.4.4 to 2.4.4-p1.
 
 ## Workaround 1: Patch
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name or click the following link: [Download ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh)
 
-## Compatible Adobe Commerce versions:
+## Compatible Adobe Commerce and Magento Open Source versions:
 
 The patch was created for:
 
@@ -100,7 +100,7 @@ The patch was created for:
 
 ## How to Apply the Patch
 
-Use the attached bash script as the workaround for this issue.
+Use the attached bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) as the workaround for this issue.
 
 **Exact instructions how to use the script:**
 
@@ -113,20 +113,20 @@ Use the attached bash script as the workaround for this issue.
 ### On Adobe Commerce or Magento Open Source on-premises:
 
 1. Place the bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) in the **root** folder of your Adobe Commerce/Magento Open Source 2.4.4 installation (the same folder as the **composer.json**).
-1. Run the bash script with an **apply** argument to lock affected packages to their 2.4.4 versions:
+1. Run the bash script with an **apply** argument to lock affected packages (modules) to their 2.4.4 versions:
 
     ```bash
     sh ACPLTSRV-2017-fix.sh apply
     ```
 
-1. Run composer updated to install the locked packages.
+1. Run composer updated to install the locked packages (modules).
 1. Once you are ready to upgrade to 2.4.5 or 2.4.4-p1, run the script with a **rollback** argument:
 
     ```bash
     sh ACPLTSRV-2017-fix.sh rollback
     ```
 
-   Skipping this step will result in upgrade errors due to conflicting package requirements.
+   Skipping this step will result in upgrade errors due to conflicting packages (modules) requirements.
 1. After completion of the above steps, you can begin upgrading.
 
 ## Workaround 2
