@@ -132,5 +132,3 @@ Use the attached bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh)
 ## Workaround 2
 
 A 2nd workaround for this issue is not to run the **composer:update** command without any arguments.
-
-## Attached file
