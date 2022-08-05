@@ -62,11 +62,11 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 <ins>Expected results</ins>:
 
-The upgrade from version 2.4.4 to 2.4.4-p1 results with the correct packages (modules) for version 2.4.4-p1.
+The upgrade from version 2.4.4 to 2.4.4-p1 results in the correct packages (modules) for version 2.4.4-p1.
 
 <ins>Actual results</ins>:
 
-During the upgrade from version 2.4.4 to 2.4.4-p1, these packages' (modules') versions downgrade, but these messages can be ignored and functionality is not affected.
+During the upgrade from version 2.4.4 to 2.4.4-p1, these packages' (modules') versions downgrade, but these messages can be ignored, and functionality is not affected.
 
 ### Scenario 2
 
@@ -76,7 +76,7 @@ When 2.4.4 merchants run the **composer:update** command, then the same packages
 
 <ins>Expected results</ins>:
 
-The upgrade from version 2.4.4 to 2.4.4-p1 results with the correct packages (modules) for version 2.4.4-p1.
+The upgrade from version 2.4.4 to 2.4.4-p1 results in the correct packages (modules) for version 2.4.4-p1.
 
 <ins>Actual results</ins>:
 
@@ -90,7 +90,7 @@ The patch is attached to this article. To download it, scroll down to the end of
 
 The patch was created for:
 
-* Adobe Commerce on cloud infrastructre 2.4.4
+* Adobe Commerce on cloud infrastructure 2.4.4
 * Adobe Commerce on-premises 2.4.4
 * Magento Open Source 2.4.4
 
@@ -131,4 +131,4 @@ Use the attached bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh)
 
 ## Workaround 2
 
-A 2nd workaround for this issue is not to run the **composer:update** command without any arguments.
+The 2nd workaround for this issue is not to run the **composer:update** command without any arguments.
