@@ -13,7 +13,7 @@ This article provides solutions for errors you can experience when the Elasticse
     * ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Adobe Commerce v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
 * Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
 
-<table>
+<table style="width:100%">
 <tr>
 <th style="width:50%">Symptoms when ES service is not running</th>
 <th>Details</th>
