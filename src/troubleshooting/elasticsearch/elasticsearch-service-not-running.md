@@ -15,8 +15,8 @@ This article provides solutions for errors you can experience when the Elasticse
 
 <table style="width:100%">
 <tr>
-<th style="width:50%">Symptoms when ES service is not running</th>
-<th>Details</th>
+<th>Symptoms when ES service is not running</th>
+<th style="width:50%">Details</th>
 <th>Resources</th>
 </tr>
 <tr>
