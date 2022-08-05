@@ -75,7 +75,7 @@ Elasticsuite indices not being deleted.  See <a href="https://support.magento.co
 <tr>
 <td>Command-line error</td>
 <td>Running<code>$ bin/magento indexer:reindex catalogsearch_fulltext</code>produces this error <i>Catalog Search indexer process unknown error:
-        No alive nodes found in your cluster"</i>
+        No alive nodes found in your cluster</i>
 </td>
 </tr>
 <tr>
