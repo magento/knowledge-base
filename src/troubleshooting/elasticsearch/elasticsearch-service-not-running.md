@@ -14,12 +14,12 @@ This article provides solutions for errors you can experience when the Elasticse
 * Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
 
 <table>
-<tbody>
 <colgroup>
        <col span="1" style="width: 25%;">
        <col span="1" style="width: 25%;">
        <col span="1" style="width: 25%;">
     </colgroup>
+<tbody>
 <tr>
 <td>Symptoms when ES service is not running</td>
 <td>Details</td>
