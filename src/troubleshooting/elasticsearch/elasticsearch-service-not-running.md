@@ -70,11 +70,11 @@ Elasticsuite indices not being deleted.  See <a href="https://support.magento.co
 </tr>
 <tr>
 <td><code>Curl</code> error</td>
-<td>Running the <code>curl</code> command to check Elasticsearch health:<code>curl -m1 localhost:9200/_cluster/health?pretty</code>(or<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>for Starter accounts) produces this error:<i>Error: curl: (7) Failed to connect to localhost port 9200: Connection refused</i> </td>
+<td>Running the <code>curl</code> command to check Elasticsearch health:<code>curl -m1 localhost:9200/_cluster/health?pretty</code>(or<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>for Starter accounts) produces this error: <i>Error: curl: (7) Failed to connect to localhost port 9200: Connection refused</i> </td>
 </tr>
 <tr>
 <td>Command-line error</td>
-<td>Running<code>$ bin/magento indexer:reindex catalogsearch_fulltext</code>produces this error<i>Catalog Search indexer process unknown error:
+<td>Running<code>$ bin/magento indexer:reindex catalogsearch_fulltext</code>produces this error <i>Catalog Search indexer process unknown error:
         No alive nodes found in your cluster"</i>
 </td>
 </tr>
