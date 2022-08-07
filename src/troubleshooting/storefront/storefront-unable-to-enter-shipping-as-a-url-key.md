@@ -15,10 +15,7 @@ You cannot save a CMS page with the term "shipping" in the URL key.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to CMS pages.
-1. Search for the page you want to edit the URL key for.
-1. Edit the URL key to "shipping".
-1. Click **Save**.
+Create a CMS page with URL key as "shipping".
 
 <ins>Expected result</ins>:
 
