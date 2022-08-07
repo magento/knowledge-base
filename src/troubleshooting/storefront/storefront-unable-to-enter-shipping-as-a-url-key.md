@@ -3,7 +3,7 @@ title: Cannot save "shipping" as URL key
 labels: troubleshooting,2.4.x,Adobe Commerce,cloud infrastructure,on-premises,shipping,URL key
 ---
 
-You are not able to save "shipping" as a URL key (e.g., "/shipping") for products or CMS pages and get an error that indicates that the URL key is a duplicate URL.
+This article provides a workaround for the issue when you are not able to save "shipping" as a URL key (e.g., "/shipping") for products or CMS pages. When you try to save the URL key you recieve an error that indicates that the URL key is a duplicate URL.
 
 ## Affected products and versions
 
@@ -43,7 +43,7 @@ Shipping is a reserved word defined in `vendor/magento/module-shipping/etc/front
 
 ## Solution
 
-Set up the URL as a redirect:
+You cannot use the term "shipping" in your URL key - however you can use the term "shipping" combined with another letter or number. For example, "shipping1" and "shipping2". To do so:
 
 1. Log in to the Admin.
 1. In the page you want to edit the URL key for enter a URL key in **Page Title** and click **Save**.
@@ -51,7 +51,7 @@ Set up the URL as a redirect:
 1. Click **Add URL Rewrite**.
 1. Select *Custom* on the Create URL Rewrite drop down.
     1. Type in the Request Path "shipping".
-    1. Type in the Target Path the new URL key.
+    1. Type in the Target Path the new URL key. For example, "shipping1".
     1. Select **No** in the Redirect drop down.
 
 ## Related reading
