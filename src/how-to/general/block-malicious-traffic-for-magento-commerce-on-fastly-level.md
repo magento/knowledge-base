@@ -69,7 +69,7 @@ The basic information and default Adobe Commerce `robots.txt` configuration can 
 
 For general information and recommendations about `robots.txt`, see:
 
-* [Create a robots.txt](https://support.google.com/webmasters/answer/6062596?hl=en) file by Google Support
+* [Create a robots.txt](https://developers.google.com/search/docs/advanced/robots/create-robots-txt) file by Google Support
 * [About /robots.txt](https://www.robotstxt.org/robotstxt.html) by robotstxt.org
 
 Work with your developer and/or SEO expert to determine what User Agents you want to allow, or those you want to disallow.
