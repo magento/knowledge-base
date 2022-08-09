@@ -30,4 +30,3 @@ If you're unsure how to answer any of these questions, don't worry! Try your bes
 * [MBI: Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
 * [MBI: Data Analyst](https://docs.magento.com/mbi/data-analyst.html)
 * [MBI: Getting Help with Magento BI](https://docs.magento.com/mbi/getting-started/support.html)
-* [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
