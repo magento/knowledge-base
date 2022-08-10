@@ -15,10 +15,10 @@ This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin 
 
  <ins>Steps to reproduce</ins>:
 
- 1. The core Braintree integration is used (**Stores** > **Configurations** > **Sales** > **Payment Method** > **Braintree**).
- 1. Using Luma Storefront, place an order.
- 1. Go to Admin UI > **Sales**.
- 1. Either try to create a new order for a customer, or go to a previously placed order and click on **Reorder**.
+1. The core Braintree integration is used (**Stores** > **Configurations** > **Sales** > **Payment Method** > **Braintree**).
+1. Using Luma Storefront, place an order.
+1. Go to Admin UI > **Sales**.
+1. Either try to create a new order for a customer, or go to a previously placed order and click on **Reorder**.
 
  <ins>Expected result</ins>:
 
