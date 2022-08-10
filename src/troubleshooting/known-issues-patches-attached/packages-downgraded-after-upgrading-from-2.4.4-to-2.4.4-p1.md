@@ -1,9 +1,9 @@
 ---
 title: "Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1"
-labels: 2.4.4,Magento Commerce,Magento Commerce Cloud,Magento Open Source,packages downgraded,upgrading,known issues,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,composer:update command,modules
+labels: 2.4.4,Magento Commerce,Magento Commerce Cloud,Magento Open Source,packages downgraded,upgrading,known issues,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,composer update command,modules
 ---
 
-This article provides a hotfix for the issue when merchants on version 2.4.4 run the **composer:update** command, and then the packages (modules) listed below are getting downgraded to their earlier versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above.
+This article provides a hotfix for the issue when merchants on version 2.4.4 run the `composer update` command, and then the packages (modules) listed below are getting downgraded to their earlier versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above.
 
 ## Affected products and versions
 
@@ -72,7 +72,7 @@ During the upgrade from version 2.4.4 to 2.4.4-p1, these packages' (modules') ve
 
 <ins>Steps to reproduce</ins>:
 
-When 2.4.4 merchants run the **composer:update** command, then the same packages (modules) listed above in **Scenario 1** get upgraded to their newer versions which are compatible only with version 2.4.5 and are not supposed to be used with version 2.4.4.
+When 2.4.4 merchants run the `composer update` command, then the same packages (modules) listed above in **Scenario 1** get upgraded to their newer versions which are compatible only with version 2.4.5 and are not supposed to be used with version 2.4.4.
 
 <ins>Expected results</ins>:
 
@@ -131,4 +131,4 @@ Use the attached bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh)
 
 ## Workaround 2
 
-The 2nd workaround for this issue is not to run the **composer:update** command without any arguments.
+The 2nd workaround for this issue is not to run the `composer update` command without any arguments.
