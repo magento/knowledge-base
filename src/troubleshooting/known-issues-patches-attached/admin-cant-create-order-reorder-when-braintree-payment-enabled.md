@@ -44,7 +44,7 @@ Apply the patch provided in this article.
 
 The patch is attached to this article. To download it, click the following link:
 
- [BUNDLE-3137-composer.patch](assets/BUNDLE-3137-composer.patch)
+ [BUNDLE-3137-composer.patch.zip](assets/BUNDLE-3137-composer.patch.zip)
 
  >![info]
  >
