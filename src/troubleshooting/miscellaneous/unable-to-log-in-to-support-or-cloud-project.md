@@ -16,6 +16,8 @@ When you go to https://account.magento.com/customer/account/login/ or https://ac
 
 I tried to log in to my Commerce account.
 
+![adobe-login-one](assets/adobe-login-one.png)
+
 <ins>Expected result</ins>:
 
 I logged in to my Adobe Commerce Cloud account.
@@ -23,6 +25,8 @@ I logged in to my Adobe Commerce Cloud account.
 <ins>Actual result</ins>:
 
 I was redirected to a page to sign in with an Adobe account and my credentials do not work.
+
+![adobe-login-two](assets/adobe-login-two.png)
 
 
 ## Cause
