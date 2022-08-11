@@ -84,7 +84,7 @@ Packages (modules) are downgraded after upgrading from version 2.4.4 to 2.4.4-p1
 
 ## Workaround 1: Patch
 
-The patch is attached to this article. To download it, scroll down to the end of the article and click the file name or click the following link: [Download ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh)
+The patch is attached to this article. To download it, scroll down to the end of the article and click the file name or click the following link: [Download ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)
 
 ## Compatible Adobe Commerce and Magento Open Source versions:
 
@@ -100,27 +100,27 @@ The patch was created for:
 
 ## How to Apply the Patch
 
-Use the attached bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) as the workaround for this issue.
+Use the attached bash script [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip) as the workaround for this issue.
 
 **Exact instructions how to use the script:**
 
 ### On Adobe Commerce on cloud infrastructure:
 
-1. Download the bash script file [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) to your local checkout of your cloud codebase.
-1. Run the bash script file [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) to modify the composer files locally.
+1. Download the bash script file `ACPLTSRV-2017-fix.sh` to your local checkout of your cloud codebase.
+1. Run the bash script file `ACPLTSRV-2017-fix.sh` to modify the composer files locally.
 1. Add and commit the modified composer files to your git repository.
 
 ### On Adobe Commerce or Magento Open Source on-premises:
 
-1. Place the bash script [ACPLTSRV-2017-fix.sh](assets/ACPLTSRV-2017-fix.sh) in the **root** folder of your Adobe Commerce/Magento Open Source 2.4.4 installation (the same folder as the **composer.json**).
-1. Run the bash script with an **apply** argument to lock affected packages (modules) to their 2.4.4 versions:
+1. Place the bash script `ACPLTSRV-2017-fix.sh` in the `root` folder of your Adobe Commerce/Magento Open Source 2.4.4 installation (the same folder as the `composer.json`).
+1. Run the bash script with an `apply` argument to lock affected packages (modules) to their 2.4.4 versions:
 
     ```bash
     sh ACPLTSRV-2017-fix.sh apply
     ```
 
 1. Run composer updated to install the locked packages (modules).
-1. Once you are ready to upgrade to 2.4.5 or 2.4.4-p1, run the script with a **rollback** argument:
+1. Once you are ready to upgrade to 2.4.5 or 2.4.4-p1, run the script with a `rollback` argument:
 
     ```bash
     sh ACPLTSRV-2017-fix.sh rollback
