@@ -14,7 +14,7 @@ When you go to 'https://account.magento.com/customer/account/login/' or 'https:/
 
 <ins>Steps to reproduce</ins>:
 
-I tried to log in to my Commerce account.
+Try to log in to your Commerce account.
 
 ![adobe-login-one](assets/adobe-login-one.png)
 
