@@ -6,7 +6,7 @@ labels: troubleshooting,login,Magento,admin,troubleshooting,Adobe Commerce,cloud
 This article provides a solution for when you struggle to log in to Adobe Commerce support or your cloud project.
 
 ## Affected products and versions
-Adobe Commerce (all deployment methods) all [supported versions](https://support.magento.com/hc/en-us/articles/360048550332#:~:text=all%20supported%20versions)
+Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Issue
 
