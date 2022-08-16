@@ -45,10 +45,6 @@ If experiencing these two indications, enabling `SLAVE` connections for the MySQ
 
 Adobe Commerce can read multiple databases or Redis asynchronously. Updating the `.magento.env.yaml` file by setting to `true` the values `MYSQL_USE_SLAVE_CONNECTION` and `REDIS_USE_SLAVE_CONNECTION` to use a **read-only** connection to the database to receive read-only traffic on a non-master node. This improves performance through load balancing because only one node needs to handle read-write traffic. Set to `false` to remove any existing read-only connection array from the `env.php` file.
 
->![info]
->
->It is a best practice recommendation to always have MySQL slave connection enabled.
-
 ### Steps
 
 1. Edit your `.magento.env.yaml` file, and add the following content:    
