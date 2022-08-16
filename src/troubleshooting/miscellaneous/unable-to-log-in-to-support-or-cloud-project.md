@@ -35,5 +35,9 @@ As part of our process of integrating Adobe Commerce with other Adobe solutions,
 
 ## Solution
 
-You may log in to the account with a) an existing Adobe corporate/personal account or b) if you do not have an Adobe account, create one with the same email address.
+You may log in to the account with:
+
+- An existing Adobe corporate/personal account.
+- If you do not have an Adobe account, create one with the same email address.
+
 For steps refer to [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=en) in Adobe Experience League.
