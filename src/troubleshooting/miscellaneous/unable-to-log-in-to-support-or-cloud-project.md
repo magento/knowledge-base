@@ -20,7 +20,7 @@ Try to log in to your Commerce account.
 
 <ins>Expected result</ins>:
 
-I logged in to my Adobe Commerce Cloud account.
+Logging in successfully.
 
 <ins>Actual result</ins>:
 
