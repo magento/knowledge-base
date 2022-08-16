@@ -24,7 +24,7 @@ I logged in to my Adobe Commerce Cloud account.
 
 <ins>Actual result</ins>:
 
-I was redirected to a page to sign in with an Adobe account and my credentials do not work.
+Get redirected to a page to sign in with an Adobe account and credentials do not work.
 
 ![adobe-login-two](assets/adobe-login-two.png)
 
