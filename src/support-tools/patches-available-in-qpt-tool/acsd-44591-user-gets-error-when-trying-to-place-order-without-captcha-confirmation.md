@@ -33,7 +33,7 @@ The user gets an error when trying to place an order without CAPTCHA confirmatio
 
 <ins>Expected results</ins>:
 
-Order is not placed with incorrect ReCaptcha.
+Order will not be placed with incorrect ReCaptcha.
 
 <ins>Actual results</ins>:
 
@@ -41,7 +41,6 @@ You get the following errors:
 
 * *ReCaptcha validation failed, please try again*
 * *No such cart with id = 1*
-
 
 ## Apply the patch
 
