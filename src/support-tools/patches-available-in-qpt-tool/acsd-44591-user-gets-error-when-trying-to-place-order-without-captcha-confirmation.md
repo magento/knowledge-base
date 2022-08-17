@@ -26,7 +26,7 @@ The user gets an error when trying to place an order without CAPTCHA confirmatio
 
 <ins>Steps to reproduce</ins>:
 
-1. Configure the Google ReCaptcha v2 ("I'm not a robot").
+1. Configure the Google ReCaptcha v2 (I'm not a robot).
 1. Enable ReCaptcha for checkout.
 1. Try to place an order without clicking on the ReCaptcha.
 1. Once you receive the error message for missing ReCaptcha (*ReCaptcha validation failed, please try again*), click on **ReCaptcha** and then try placing an order.
