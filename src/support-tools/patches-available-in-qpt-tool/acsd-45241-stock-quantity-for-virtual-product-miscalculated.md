@@ -25,7 +25,7 @@ Stock quantity for a virtual product is miscalculated after creating a credit me
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a configurable product with a virtual product as a child product in the backend.
+1. Create a configurable product with a virtual product as a child product in the Commerce Admin.
 1. Make sure both products created in step one are in stock.
 1. Mark the quantity for the virtual product created in step one as 100, and keep the salable quantity 100 as well.
 1. Add the product to the shopping cart.
