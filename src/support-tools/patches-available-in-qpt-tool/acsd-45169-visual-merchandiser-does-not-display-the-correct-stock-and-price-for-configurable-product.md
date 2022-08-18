@@ -26,18 +26,18 @@ Visual Merchandiser does not display the correct stock and price for a configura
 <ins>Steps to reproduce</ins>:
 
 1. Create a simple product.
-1. Create any scheduled update for the simple product. We just need to have different row and entity ids.
+1. Create any scheduled update for the simple product (You just need to have different row and entity ids).
 1. Create a configurable product.
 1. Assign the configurable product to a category.
-1. Open the category and observe the configurable product under the visual merchandiser section.
+1. Open the category and observe the configurable product under the Visual Merchandiser section.
 
 <ins>Expected results</ins>:
 
-The price and stock displays as zero.
+Visual Merchandiser displays the correct stock and price. The stock and price should not be zero.
 
 <ins>Actual results</ins>:
 
-The price and stock should not be zero.
+The stock and price displayed in the Visual Merchandiser is zero.
 
 ## Apply the patch
 
