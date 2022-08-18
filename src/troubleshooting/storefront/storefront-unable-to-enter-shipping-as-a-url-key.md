@@ -44,7 +44,7 @@ You cannot use the term "shipping" in your URL key - however you can use the ter
 
 Perform the following steps:
 
-1. Log in to the Admin.
+1. Log in to the Commerce Admin.
 1. Go to **Marketing** > SEO & Search > **URL Rewrites**.
 1. Click **Add URL Rewrite**.
 1. Select *Custom* on the Create URL Rewrite drop down.
