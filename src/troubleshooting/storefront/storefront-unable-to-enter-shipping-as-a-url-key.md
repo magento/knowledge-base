@@ -40,7 +40,9 @@ Shipping is a reserved word defined in `vendor/magento/module-shipping/etc/front
 
 ## Solution
 
-You cannot use the term "shipping" in your URL key - however you can use the term "shipping" combined with another letter or number. For example, "shipping1" and "shipping2". To do so:
+You cannot use the term "shipping" in your URL key - however you can use the term "shipping" combined with another letter or number. For example, "shipping1" and "shipping2". Although the term does not have to be "shipping"+<another number or letter> - the term could be any string up as long as the length does not exceed 255 characters.
+
+Perform the following steps:
 
 1. Log in to the Admin.
 1. Go to **Marketing** > SEO & Search > **URL Rewrites**.
