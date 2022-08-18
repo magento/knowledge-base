@@ -32,7 +32,7 @@ Stock quantity for a virtual product is miscalculated after creating a credit me
 1. Place an order with the virtual product created in step one.
 1. Keep the order status as "Pending". No need to process the payment.
 1. `order_created` record created in `inventory_reservation`. The virtual product quantity shows 100 with salable quantity as 99.
-1. Open the order, and go to **Invoice** > **Submit Invoice**.
+1. Open the order and go to **Invoice** > **Submit Invoice**.
 1. `invoice_created` record created in `inventory_reservation`. The virtual product quantity is now 99, and the salable quantity is also 99.
 1. Create a credit memo without selecting **Return to Stock**.
 
