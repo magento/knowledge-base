@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45143: setShippingAddressesOnCart mutation doesn't allow setting numeric region code as 'region'"
+title: "ACSD-45143: setShippingAddressesOnCart mutation not setting numeric region code as 'region'"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.17,GraphQL,setShippingAddressesOnCart mutation,numeric region code,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
 ---
 
