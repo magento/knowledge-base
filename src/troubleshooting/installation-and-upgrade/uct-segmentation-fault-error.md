@@ -23,9 +23,11 @@ To avoid this error it is recommended to run the `bin` command with the added op
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/<module-name>
 ```
 
->![info]
+The `<dir>` value is the directory where your Adobe Commerce instance is located.
+
+>![warning]
 >
-> The `<dir>` value is the directory where your Adobe Commerce instance is located.
+> The Upgrade Compatibility Tool may not be able to analyse the codebase if it contains method dependency between methods.
 
 ## Empty output
 
