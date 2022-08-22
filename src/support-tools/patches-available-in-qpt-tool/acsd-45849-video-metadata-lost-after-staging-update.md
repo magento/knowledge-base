@@ -9,7 +9,7 @@ The ACSD-45849 patch fixes the issue where the video metadata is lost after a st
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.3.5 and 2.4.3-p2
+* Adobe Commerce (all deployment methods) 2.4.3-p2
 
 **Compatible with Adobe Commerce versions:**
 
