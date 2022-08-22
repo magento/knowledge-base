@@ -9,7 +9,7 @@ The ACSD-45257 patch fixes the issue where GraphQL doesn't display the cart disc
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.3.5-p1
+* Adobe Commerce (all deployment methods) 2.4.2-p2
 
 **Compatible with Adobe Commerce versions:**
 
