@@ -17,15 +17,15 @@ When two modules have the same name, the Upgrade Compatibility Tool shows a segm
 
 <ins>Solution</ins>:
 
-To avoid this error it is recommended to run the `bin` command with the added option `-m`:
+To avoid this error it is recommended to specify the path to the module as an argument:
 
 ```bash
-bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/<module-name>
+bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 ```
 
->![info]
+>![warning]
 >
-> The `<dir>` value is the directory where your Adobe Commerce instance is located.
+> The Upgrade Compatibility Tool may not be able to analyse the codebase if it contains circular dependency between methods.
 
 ## Empty output
 
