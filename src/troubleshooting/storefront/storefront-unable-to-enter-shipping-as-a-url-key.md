@@ -49,7 +49,7 @@ Perform the following steps:
 1. Click **Add URL Rewrite**.
 1. Select *Custom* on the Create URL Rewrite drop down.
     1. Type in the Request Path "shipping". Note: The Request Path is what a user enters in the browser and the Target Path is where it should redirect to. 
-    1. Type in the Target Path the new URL key. For example, "shipping1".
+    1. Type in the Target Path the new URL key (For example, "shipping1").
     1. Select **No** in the Redirect drop down. 
 
 ## Related reading
