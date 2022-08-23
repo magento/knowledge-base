@@ -365,8 +365,7 @@ To delete emails from CC: click **x** in a framed email.
 
 #### Cloud Project URL
 
-Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`.
-If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface), please make sure that you provide the Cloud Project Web UI specified there, not the URL to the Onboarding UI itself. The Cloud Project Web UI specified there refers to `https://cloud.magento.com/project/<xyz>/develop/infrastructure`, where \<xyz\> is the unique onboarding project ID.
+Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
 
 Another method to obtain the Project URL is as follows:
 
