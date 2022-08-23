@@ -1,6 +1,6 @@
 ---
 title: Cannot save "shipping" as URL key
-labels: troubleshooting,2.4.x,Adobe Commerce,cloud infrastructure,on-premises,shipping,URL key,Magento
+labels: troubleshooting,2.4.x,Adobe Commerce,cloud infrastructure,on-premises,shipping,URL key,Magento,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.5
 ---
 
 This article provides a workaround for the issue when you are not able to save "shipping" as a URL key (e.g., "/shipping") for products or CMS pages. When you try to save the URL key, you receive an error that indicates that the URL key is a duplicate URL.
