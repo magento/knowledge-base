@@ -29,8 +29,12 @@ Incorrect reservation compensation is created after a partial refund.
 1. Create three inventory sources and make sure the pickup location is active in each (source1, source2, source3).
 1. Create a new stock and assign the three sources to the new stock.
 1. This stock should be assigned to the main website.
-1. Create a simple product, P3, assigning all the sources to it.
-1. Add the following quantities for each source of this product and enable backorders for this product. Note: source2 has quantity 10.
+1. Create a simple product, P3, and assign all the sources to it.
+1. Add the following quantities for the sources of this product and enable backorders for the product:
+    * Default source - 100
+    * source1 - 0
+    * source2 - 10
+    * source3 - 0
 1. Add this product to the cart from the frontend and proceed to shipping form.
 1. Select "source1" as the shipping location.
 1. Complete the order and executes the following query in the database:  
@@ -46,7 +50,7 @@ If you didn't select the *Return to Stock* during the credit memo creation, the 
 
 <ins>Actual results</ins>:
 
-Even though you didn't select the *Return to Stock* during the credit memo creation, it adds a record to `inventory_reservation` table with `creditmemo_created` event type. Also, we created the credit memo for only one quantity, but the credit memo record added in the `inventory_reservation` table has quantity 10.
+Even though you didn't select the *Return to Stock* during the credit memo creation, it adds a record to `inventory_reservation` table with `creditmemo_created` event type. Also, the credit memo record added in the `inventory_reservation` table has quantity 10 even though you created the credit memo for only one quantity.
 
 ## Apply the patch
 
