@@ -83,7 +83,7 @@ The setShippingAddressesOnCart mutation doesn't allow setting numeric region cod
       </code>
       </pre>
 
-      Note: country code set to "FR" and the region code to "58". According to the `directory_country_region` Db table, region code 58 is "Nièvre".
+      Note: country code is set to "FR" and the region code to "58" in this example. According to the `directory_country_region` Db table, region code 58 is "Nièvre".
 
 1. Check the response that is returned.
 
