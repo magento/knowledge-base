@@ -25,7 +25,7 @@ The custom currency sign is not displayed on the storefront.
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to **Store** > **Settings** > **Configurations** > **General** > **Currency Setup** and select **Mexican Peso**.
+1. Go to **Store** > **Settings** > **Configurations** > **General** > **Currency Setup** and select a custom currency, **Mexican Peso**, in this case.
 1. Go to **Store** > **Settings** > **Configurations** > **General** > **Locale Options** and select **Spanish (Mexico)**.
 1. Check the currency symbol on the frontend.
 
