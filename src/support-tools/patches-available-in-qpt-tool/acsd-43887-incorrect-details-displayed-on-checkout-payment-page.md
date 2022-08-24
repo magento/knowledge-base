@@ -34,7 +34,7 @@ Incorrect details are displayed on the checkout payment page when Purchase Order
 
 1. Create a virtual product.
 1. Register a company account from the frontend with a company Admin.
-1. Approve the company account from the backend and set **Enable Purchase Orders** as **Yes** while approving the company.
+1. Approve the company account from the backend and set **Enable Purchase Orders** as _Yes_ while approving the company.
 1. Go to the frontend and log in using the company Admin account created in step two.
 1. Create a "Default User" for the company. Go to **Company User** > **Add New User**.
 1. Create an "Approval Rule" for the company. Go to **Approval Rules** > **Add New Rule**.
