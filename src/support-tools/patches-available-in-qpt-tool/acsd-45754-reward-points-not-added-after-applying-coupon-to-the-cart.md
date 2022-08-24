@@ -31,7 +31,7 @@ PayPal payment method is configured.
 
 1. Create reward point exchange rates by going to **Store** > **Other Settings** > **Reward Exchange Rates**.
 1. Create a cart price rule with a coupon code to apply 100 reward points for logged-in customers.
-1. Check out a product as a logged-in customers with PayPal and the coupon code.
+1. Check out a product as a logged-in customer with PayPal and the coupon code.
 1. Check the reward point history under the customer account in the admin.
 
 <ins>Expected results</ins>:
