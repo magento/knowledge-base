@@ -26,7 +26,7 @@ Incorrect details are displayed on the checkout payment page when Purchase Order
 <ins>Prerequisites</ins>:
 
 1. B2B modules are installed.
-1. Enable Company is set to Yes. Go to **Stores** > **Configurations** > **General** > **B2B Features** > **Enable Company** > **Yes**.
+1. Enable Company is set to _Yes_. Go to **Stores** > **Configurations** > **General** > **B2B Features** > **Enable Company** > **Yes**.
 1. Enable Purchase Orders is set to Yes. Go to **Order Approval Configuration** > **Enable Purchase Orders** > **Yes**.
 1. PayPal Express is configured as the payment method.
 
