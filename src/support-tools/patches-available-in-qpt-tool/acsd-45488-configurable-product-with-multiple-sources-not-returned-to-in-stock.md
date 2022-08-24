@@ -1,6 +1,6 @@
 ---
-title: "ACSD-45488: A configurable product with multiple sources is not returned to in stock automatically"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.18,2.4.4,2.4.4-p1,2.4.5,configurable product,multiple sources,In Stock
+title: "ACSD-45488: Configurable product with multiple sources not returned to in stock automatically"
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.18,2.4.4,2.4.4-p1,2.4.5,configurable product,multiple sources,in stock
 ---
 
 The ACSD-45488 patch solves the issue where a configurable product with multiple sources is not returned to in stock automatically. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.18 is installed. The patch ID is ACSD-45488. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
@@ -21,13 +21,13 @@ The ACSD-45488 patch solves the issue where a configurable product with multiple
 
 ## Issue
 
-A configurable product with multiple sources is not returned to In Stock automatically.
+A configurable product with multiple sources is not returned to in stock automatically.
 
 <ins>Steps to reproduce</ins>:
 
 1. Create a secondary stock source.
 1. Create a configurable product with two associated virtual products.
-1. Assign the associated products to the default stock source and set the qty to one.
+1. Assign the associated products to the default stock source and set the quantity to one.
 1. Check the `stock_status` from `cataloginventory_stock_status`.
 1. Set both the associated products to be *out of stock*.
 1. Check the `stock_status` from `cataloginventory_stock_status`.
@@ -36,11 +36,11 @@ A configurable product with multiple sources is not returned to In Stock automat
 
 <ins>Expected results</ins>:
 
-The configurable product stock status should get updated to In stock when we set associated products to be in stock.
+The stock status of the configurable product is updated to *in stock* when the associated products are set to be in stock.
 
 <ins>Actual results</ins>:
 
-The configurable product stock status does not get updated to In stock when we set associated products to be in stock.
+The stock status of the configurable product does not get updated to *in stock* when the associated products are set to be in stock.
 
 ## Apply the patch
 
