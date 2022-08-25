@@ -21,7 +21,7 @@ The ACSD-45520 patch fixes the issue where swatch options are not pre-selected o
 
 ## Issue
 
-Swatch options are not pre-selected on the product detail page when a user edits configurable products from the shopping cart.
+Swatch options are not selected on the product detail page when a user edits configurable products from the cart.
 
 <ins>Steps to reproduce</ins>:
 
