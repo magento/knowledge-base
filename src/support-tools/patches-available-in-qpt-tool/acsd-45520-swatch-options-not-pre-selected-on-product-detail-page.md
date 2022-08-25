@@ -25,11 +25,11 @@ Swatch options are not selected on the product detail page when a user edits con
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a configurable product with product option (e.g. color).
+1. Create a configurable product with a product option (e.g. color).
 1. Add the configurable product to the cart.
 1. Go to the My Cart page.
 1. Click the edit button on the configurable product added in Step 1.
-1. Observe the product options on edit page.
+1. Observe the product options on the edit page.
 
 <ins>Expected results</ins>:
 
