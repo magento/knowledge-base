@@ -50,7 +50,7 @@ If you did not select the *Return to Stock* during the credit memo creation, the
 
 <ins>Actual results</ins>:
 
-Even though you didn't select the *Return to Stock* during the credit memo creation, it adds a record to `inventory_reservation` table with `creditmemo_created` event type. Also, the credit memo record added in the `inventory_reservation` table has quantity 10 even though you created the credit memo for only one quantity.
+Even though you didn't select the *Return to Stock* during the credit memo creation, it adds a record to `inventory_reservation` table with `creditmemo_created` event type. Also, the credit memo record added in the `inventory_reservation` table has a quantity of 10 even though you created the credit memo for only one quantity.
 
 ## Apply the patch
 
