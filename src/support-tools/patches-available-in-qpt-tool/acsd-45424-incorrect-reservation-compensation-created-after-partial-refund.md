@@ -39,7 +39,7 @@ Incorrect reservation compensation is created after a partial refund.
 1. Select "source1" as the shipping location.
 1. Complete the order and executes the following query in the database:  
     `SELECT * FROM inventory_reservation WHERE sku = 'P3';`  
-    You will get the order placed record in the `inventory_reservation` table. Qty is 10, which is correct.
+    You will get the order placed record in the `inventory_reservation` table. Quantity is 10, which is correct.
 1. Invoice this order from the backend.
 1. Now create a credit memo for only one product. DO NOT select the *Return to Stock* checkbox.
 1. Executes the same query from Step 8.
