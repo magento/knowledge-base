@@ -1,6 +1,6 @@
 ---
-title: "ACSD-45169: Visual Merchandiser doesn't display the correct stock and price for a configurable product"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT,Visual Merchandiser,stock,price,configurable product,staging update,1.1.17,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
+title: "ACSD-45169: Visual Merchandiser displays incorrect stock and price for configurable product"
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT,Visual Merchandiser,stock,price,configurable product,staging update,1.1.17,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4
 ---
 
 The ACSD-45169 patch fixes the issue where the Visual Merchandiser does not display the correct stock and price for a configurable product after a staging update is applied. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.17 is installed. The patch ID is ACSD-45169. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
@@ -37,7 +37,7 @@ Visual Merchandiser displays the correct stock and price. The stock and price sh
 
 <ins>Actual results</ins>:
 
-The stock and price displayed in the Visual Merchandiser is zero.
+Visual Merchandiser displays an incorrect stock and price.
 
 ## Apply the patch
 
