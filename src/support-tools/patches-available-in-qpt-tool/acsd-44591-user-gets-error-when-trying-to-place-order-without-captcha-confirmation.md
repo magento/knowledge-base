@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
-The user gets an error when trying to place an order without CAPTCHA confirmation.
+The user gets errors when trying to place an order without CAPTCHA confirmation.
 
 <ins>Steps to reproduce</ins>:
 
