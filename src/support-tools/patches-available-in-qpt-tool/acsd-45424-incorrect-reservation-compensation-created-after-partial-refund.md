@@ -46,7 +46,7 @@ Incorrect reservation compensation is created after a partial refund.
 
 <ins>Expected results</ins>:
 
-If you didn't select the *Return to Stock* during the credit memo creation, the `inventory_reservation` table will not have a record corresponding to the credit memo.
+If you did not select the *Return to Stock* during the credit memo creation, the `inventory_reservation` table will not have a record corresponding to the credit memo.
 
 <ins>Actual results</ins>:
 
