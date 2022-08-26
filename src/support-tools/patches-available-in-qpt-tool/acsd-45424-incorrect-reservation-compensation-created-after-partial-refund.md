@@ -42,7 +42,7 @@ Incorrect reservation compensation is created after a partial refund.
     You will get the order placed record in the `inventory_reservation` table. The quantity is 10, which is correct.
 1. Invoice this order from the backend.
 1. Now create a credit memo for only one product. DO NOT select the *Return to Stock* checkbox.
-1. Executes the same query from Step 8.
+1. Execute the same query from Step 8.
 
 <ins>Expected results</ins>:
 
