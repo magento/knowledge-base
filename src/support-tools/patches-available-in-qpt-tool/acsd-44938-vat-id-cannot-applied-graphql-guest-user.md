@@ -26,7 +26,7 @@ VAT_ID cannot be applied in a GraphQL request for a guest user.
 <ins>Steps to reproduce</ins>:
 
 1. Follow the steps mentioned in the [GraphQL tutorial](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-shopping-cart.html) in our developer documentation to create a guest cart.
-1. Try to apply VAT_ID.
+1. Try to apply VAT_ID for the guest user using GraphQL.
 
 <ins>Expected results</ins>:
 
@@ -34,7 +34,7 @@ VAT_ID can be applied the same way as for a registered customer. See [createCust
 
 <ins>Actual results</ins>:
 
-VAT_ID cannot be applied to a guest user using GraphQL.
+VAT_ID cannot be applied for a guest user using GraphQL.
 
 ## Apply the patch
 
