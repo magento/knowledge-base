@@ -33,7 +33,7 @@ Visual Merchandiser does not display the correct stock and price for a configura
 
 <ins>Expected results</ins>:
 
-Visual Merchandiser displays the correct stock and price. The stock and price should not be zero.
+Visual Merchandiser displays the correct stock and price.
 
 <ins>Actual results</ins>:
 
