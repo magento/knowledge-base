@@ -1,6 +1,6 @@
 ---
-title: "ACSD-45424: Incorrect reservation compensation is created after a partial refund"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.17,incorrect reservation,compensation,partial refund,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
+title: "ACSD-45424: Incorrect reservation compensation created after partial refund"
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.17,incorrect reservation,compensation,partial refund,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.3.7-p4,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4
 ---
 
 The ACSD-45424 patch fixes the issue where an incorrect reservation compensation is created after a partial refund. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.17 is installed. The patch ID is ACSD-45424. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
@@ -25,24 +25,24 @@ Incorrect reservation compensation is created after a partial refund.
 
 <ins>Steps to reproduce</ins>:
 
-1. Enable In-Store Delivery shipping method.
+1. Enable in-store delivery shipping method.
 1. Create three inventory sources and make sure the pickup location is active in each (source1, source2, source3).
 1. Create a new stock and assign the three sources to the new stock.
-1. This stock should be assigned to the main website.
+    * This stock should be assigned to the main website.
 1. Create a simple product, P3, and assign all the sources to it.
-1. Add the following quantities for the sources of this product and enable backorders for the product:
+1. Add the following quantities for the sources of the simple product and enable backorders:
     * Default source - 100
     * source1 - 0
     * source2 - 10
     * source3 - 0
-1. Add this product to the cart from the frontend and proceed to shipping form.
+1. Add the simple product to the cart from the frontend and proceed to shipping form.
 1. Select "source1" as the shipping location.
 1. Complete the order and executes the following query in the database:  
     `SELECT * FROM inventory_reservation WHERE sku = 'P3';`  
     You will get the order placed record in the `inventory_reservation` table. Qty is 10, which is correct.
 1. Invoice this order from the backend.
-1. Create a credit memo for only one product. DO NOT select the *Return to Stock* checkbox.
-1. Executes the same query from Step 9.
+1. Now create a credit memo for only one product. DO NOT select the *Return to Stock* checkbox.
+1. Executes the same query from Step 8.
 
 <ins>Expected results</ins>:
 
