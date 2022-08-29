@@ -52,4 +52,4 @@ If you are the primary MageID owner and need to give access to a developer on yo
 
 ### Not a part of the early access program
 
-Our Beta Access program is only available to our Solution and Technical Partners so that they can evaluate our pre-production code. To be included in the Beta Access program, your organization must have an active Adobe Partner account that is in good standing and have signed the Beta NDA [here](https://github.com/magento/magento2/wiki/Magento-Beta-Program). If you believe you meet these criteria and cannot access the beta code, please contact [magebeta@adobe.com](mailto:magebeta@adobe.com).
+Our Beta Access program is only available to our Solution and Technical Partners so that they can evaluate our pre-production code. To be included in the Beta Access program, your organization must have an active Adobe Partner account that is in good standing and have signed the Beta NDA [here](https://github.com/magento/magento2/wiki/Magento-Beta-Program). If you believe you meet these criteria and cannot access the beta code, please contact [commercebeta@adobe.com](mailto:commercebeta@adobe.com).
