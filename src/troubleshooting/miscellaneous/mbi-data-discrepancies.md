@@ -21,9 +21,5 @@ If the report is still in inaccurate, don't worry - our support team is happy to
 
 ## Related reading
 
-* [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
 * [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
-* [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
-
-https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket
