@@ -1,9 +1,9 @@
 ---
 title: "ACSD-45817: GraphQL `products` mutation gives all configurable variants"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.18,configurable product,GraphQL query,Internal Server error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.18,configurable product,GraphQL query,Internal Server error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3
 ---
 
-The ACSD-45817 patch fixes the issue where a GraphQL `products` mutation for a specific store returns all configurable variants, including those not assigned to the requested store. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.18 is installed. The patch ID is ACSD-45817. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The ACSD-45817 patch fixes the issue where a GraphQL `products` mutation for a specific store returns all configurable variants, including those not assigned to the requested store. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.18 is installed. The patch ID is ACSD-45817. Please note that the issue was fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
