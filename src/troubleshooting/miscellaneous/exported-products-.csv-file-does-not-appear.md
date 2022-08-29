@@ -16,7 +16,7 @@ This article provides a fix for the issue where you try to export products to a 
 Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option is configured in the Commerce Admin under **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 
 1. In the Admin, navigate to **System** > **Data Transfer** > **Export**.
-    
+
     ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)    
 
 1. Select
@@ -83,4 +83,4 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 
 >![info]
 >
->On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket), to have the job added for you.
+>On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket), to have the job added for you.

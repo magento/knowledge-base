@@ -31,7 +31,7 @@ Adobe Commerce updates any certificate when it is 30 days from expiration.
 
 When a merchant elects to use their own custom SSL certificate, it must be updated more than 30 days prior to the certificate expiration to ensure it will not be replaced by an internal Adobe Commerce SSL certificate.
 
-If you are in a situation where your custom SSL was replaced by our internal SSL and you want to replace it with your updated custom SSL certificate, please [submit a support request](https://support.magento.com/hc/en-us/articles/360019088251) with the location you uploaded your new certificate files. Please include the start date of the new SSL. Once we have this information, we can move forward with installing the new SSL certificate.
+If you are in a situation where your custom SSL was replaced by our internal SSL and you want to replace it with your updated custom SSL certificate, please [submit a support request](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) with the location you uploaded your new certificate files. Please include the start date of the new SSL. Once we have this information, we can move forward with installing the new SSL certificate.
 
 ## Related reading
 

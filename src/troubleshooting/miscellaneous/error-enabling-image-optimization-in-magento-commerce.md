@@ -19,4 +19,4 @@ The site may not be live yet. There are processes in place to pre-load the site 
 
 ## Solution
 
-Create a [Support ticket](https://support.magento.com/hc/en-us/articles/360019088251) and request image optimization.
+Create a [Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and request image optimization.
