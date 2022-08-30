@@ -40,7 +40,7 @@ Rewards points are added to the customer according to the price rule.
 
 <ins>Actual results</ins>:
 
-No reward points are added to the customer according to the price rule.
+No reward points are added to the customer.
 
 ## Apply the patch
 
