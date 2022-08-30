@@ -12,7 +12,7 @@ We also recommend that you ensure the correct [replication methods](https://docs
 
 #### I still need help!
 
-If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://support.magento.com/hc/en-us/articles/360019088251) with the following information:
+If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) with the following information:
 
 * What’s the name of the report where you see the discrepancy?
 * Which values on the report are incorrect?
@@ -21,8 +21,5 @@ If the report is still in inaccurate, don't worry - our support team is happy to
 
 ## Related reading
 
-* [Feature guidance](https://support.magento.com/hc/en-us/articles/360016504792)
 * [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
-* [Reproducing analyses](https://support.magento.com/hc/en-us/articles/360016505592)
-* [Reporting defects](https://support.magento.com/hc/en-us/articles/360016732711)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)
