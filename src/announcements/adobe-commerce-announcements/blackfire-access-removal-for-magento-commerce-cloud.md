@@ -9,7 +9,7 @@ On April 11, 2020, free access to Blackfire performance monitoring will no longe
 
 1. You must purchase a license with Blackfire directly.
 1. Then setup Blackfire using these [steps](https://blackfire.io/docs/integrations/paas/magentocloud).
-1. If you experience any difficulties with the installation you can [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) to request assistance. For Blackfire specific questions, reach out to Blackfire support directly at [support@blackfire.io](mailto:support@blackfire.io).
+1. If you experience any difficulties with the installation you can [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request assistance. For Blackfire specific questions, reach out to Blackfire support directly at [support@blackfire.io](mailto:support@blackfire.io).
 
 ## If you have errors when running a deployment:
 
@@ -30,7 +30,7 @@ If when running a deployment you get Blackfire related errors do the following:
     ```
 1. Complete this on the Local development environment and push up to the cloud.
 
-Only [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) if you see the following error after you run a deployment:
+Only [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) if you see the following error after you run a deployment:
 
  *PHP Warning: PHP Startup: Unable to load dynamic library 'blackfire.so' (tried: /usr/lib/php/20180731-zts/blackfire.so (/usr/lib/php/20180731-zts/blackfire.so: cannot open shared object file: No such file or directory), /usr/lib/php/20180731-zts/blackfire.so.so (/usr/lib/php/20180731-zts/blackfire.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0*
 

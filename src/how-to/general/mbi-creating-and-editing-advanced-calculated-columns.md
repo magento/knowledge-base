@@ -14,7 +14,7 @@ For the list of calculated columns that you can create in the Data Warehouse Man
 
 #### I still need help!
 
-If you need help with creating a regular calculated column or want to create or edit an Advanced Calculated Column, [reach out to our team](https://support.magento.com/hc/en-us/articles/360019088251) and include the following:
+If you need help with creating a regular calculated column or want to create or edit an Advanced Calculated Column, [reach out to our team](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and include the following:
 
 * What are you trying to do?
 * What table do you need the new column(s) built on?
