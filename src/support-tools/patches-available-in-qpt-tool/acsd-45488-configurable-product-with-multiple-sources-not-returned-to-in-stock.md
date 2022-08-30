@@ -13,7 +13,7 @@ The ACSD-45488 patch solves the issue where a configurable product with multiple
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5
 
 >![info]
 >
