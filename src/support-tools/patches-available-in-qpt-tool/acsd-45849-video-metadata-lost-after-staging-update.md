@@ -28,7 +28,7 @@ The video metadata is lost after a staging update is applied.
 1. Set up the YouTube API key in **Admin** > **Stores** > **Configuration** > **Catalog** > **Product Video**.
 1. Create a product with a YouTube video. Note that the URL, title, and description are filled.
 1. Create a new scheduled update for the product with any parameters without changing the *Images and Video* section.
-1. Click on **View/Edit** in scheduled changes.
+1. Click on **View/Edit** in Scheduled Changes.
 1. Go to **Images and Videos** and click on the video.
 
 <ins>Expected results</ins>:
