@@ -25,8 +25,8 @@ An exception is thrown on the Low Stock Report page for a restricted admin user.
 
 <ins>Prerequisites</ins>:
 
-* The Inventory modules are enabled.
-* There is an additional Website, Store, and Store View.
+* The inventory modules are enabled.
+* There is an additional website, store, and store view.
 * There is a restricted admin user with access only to the additional website.
 
 <ins>Steps to reproduce</ins>:
