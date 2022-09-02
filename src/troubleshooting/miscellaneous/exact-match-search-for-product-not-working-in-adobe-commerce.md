@@ -3,7 +3,7 @@ title: Exact match search not working in Adobe Commerce 2.4.x
 labels: issue,troubleshooting,Adobe Commerce,on-premises,cloud-infrastructure,clarification,exact match,product search,Live Search,native search,100% match,attribute,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.5
 ---
 
-This article provides a clarification for the issue where exact match search (100% match) for a product works in Adobe Commerce 2.3.x but does not work in Adobe Commerce 2.4.x.
+This article provides a clarification for the issue where exact match search (100% match) for a product does not work in Adobe Commerce 2.4.x, but works in Adobe Commerce 2.3.x.
 
 ## Affected products and versions
 
@@ -11,7 +11,7 @@ Adobe Commerce (all deployment methods) 2.4.x
 
 ## Issue
 
-Exact match search (100% match) for a product works in Commerce 2.3.x but does not work in Adobe Commerce 2.4.x. For example, the search results by attribute in Adobe Commerce 2.3.x are strict for the search Saga="Saga 1", but in Adobe Commerce 2.4.x, it includes broader results with values such as "Saga 10" and "Saga 16".
+Exact match search (100% match) for a product does not work in Adobe Commerce 2.4.x, but works in Adobe Commerce 2.3.x. For example, the search results by attribute in Adobe Commerce 2.3.x are strict for the search Saga="Saga 1", but in Adobe Commerce 2.4.x, it includes broader results with values such as "Saga 10" and "Saga 16".
 
 ## Clarification
 
