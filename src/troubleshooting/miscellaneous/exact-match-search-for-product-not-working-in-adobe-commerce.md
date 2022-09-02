@@ -26,7 +26,7 @@ Search results in 2.4 include products with attribute values `Saga 1` and `Saga 
 <ins>Expected result:</ins>
 Search results in 2.4 are similar to 2.3, and only include products with attribute value `Saga 1`.
 
-## Clarification
+## Cause
 
 This is the expected behavior (not a bug) of Live Search, an optional module available for installation, which was released with Adobe Commerce 2.4.x support. It replaces the Adobe Commerce built in search functionality with search as a service. However, Live Search is not compatible with Adobe Commerce 2.3.x. The Adobe Commerce native search functionality is used in 2.3.x which provides exact match search results.
 
