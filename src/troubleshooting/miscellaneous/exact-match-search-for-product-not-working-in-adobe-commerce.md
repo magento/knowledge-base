@@ -16,7 +16,7 @@ Exact match search (100% match) for a product does not work in Adobe Commerce 2.
 
 ## Clarification
 
-This is the expected behavior of Live Search, an optional module available for installation, which was released with Adobe Commerce 2.4.x support. It replaces the Adobe Commerce built in search functionality with search as a service. However, Live Search is not compatible with Adobe Commerce 2.3.x. The Adobe Commerce native search functionality is used in 2.3.x which provides exact match search results.
+This is the expected behavior (not a bug) of Live Search, an optional module available for installation, which was released with Adobe Commerce 2.4.x support. It replaces the Adobe Commerce built in search functionality with search as a service. However, Live Search is not compatible with Adobe Commerce 2.3.x. The Adobe Commerce native search functionality is used in 2.3.x which provides exact match search results.
 
 ## Related Reading
 
