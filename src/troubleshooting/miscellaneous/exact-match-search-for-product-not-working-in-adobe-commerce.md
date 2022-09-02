@@ -28,7 +28,7 @@ Search results in 2.4 include products with attribute values `Saga 1` and `Saga 
 
 <ins>Expected result:</ins>
 
-Search results in 2.4 are similar to 2.3, and only include products with attribute value `Saga 1`.
+Search results in 2.4 are similar to 2.3 and only include products with attribute value `Saga 1`.
 
 ## Cause
 
