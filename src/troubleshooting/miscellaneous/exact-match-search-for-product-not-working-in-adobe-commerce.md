@@ -32,7 +32,7 @@ Search results in 2.4 are similar to 2.3, and only include products with attribu
 
 ## Cause
 
-This is the expected behavior (not a bug) of Live Search, an optional module available for installation, which was released with Adobe Commerce 2.4.x support. It replaces the Adobe Commerce built in search functionality with search as a service. However, Live Search is not compatible with Adobe Commerce 2.3.x. The Adobe Commerce native search functionality is used in 2.3.x which provides exact match search results.
+The Adobe Commerce native search functionality used in 2.3.x provides exact match search results. While Live Search, an optional module available for installation, which was released with Adobe Commerce 2.4.x, is implemented differently, and the actual result is the expected behavior when the module is used.
 
 ## Related Reading
 
