@@ -1,5 +1,5 @@
 ---
-title: Exact match search for product not working in Adobe Commerce 2.4.4
+title: Exact match search for product not working in Adobe Commerce 2.4.x
 labels: issue,troubleshooting,Adobe Commerce,clarification,exact match,product search,Live Search,native search,100% match,2.4.x
 ---
 
