@@ -1,6 +1,6 @@
 ---
 title: Exact match search not working in Adobe Commerce 2.4.x
-labels: issue,troubleshooting,Adobe Commerce,on-premises,cloud-infrastructure,clarification,exact match,product search,Live Search,native search,100% match,attribute,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2,3,4-p1,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.3.7-p4,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.5
+labels: issue,troubleshooting,Adobe Commerce,on-premises,cloud-infrastructure,clarification,exact match,product search,Live Search,native search,100% match,attribute,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2,3,4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.3.7-p4,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.5
 ---
 
 This article provides a clarification for the issue, where store front search results using the same search string, differ in Adobe Commerce 2.4.x comparing to Adobe Commerce 2.3.x.
