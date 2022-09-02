@@ -19,6 +19,6 @@ This is the expected behavior of Live Search, an optional module available for i
 
 ## Related Reading
 
-[Install Live Search](https://devdocs.magento.com/live-search/install.html) in our developer documentation.
+[Install Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) in our user guide.
 
 [Live Search](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=Live%20Search) in our developer documentation.
