@@ -25,7 +25,6 @@ Search results in 2.4 include products with attribute values `Saga 1` and `Saga 
 
 <ins>Expected result:</ins>
 Search results in 2.4 are similar to 2.3, and only include products with attribute value `Saga 1`.
-Exact match search (100% match) for a product does not work in Adobe Commerce 2.4.x, but works in Adobe Commerce 2.3.x. For example, the search results by attribute in Adobe Commerce 2.3.x are strict for the search Saga="Saga 1", but in Adobe Commerce 2.4.x, it includes broader results with values such as "Saga 10" and "Saga 16".
 
 ## Clarification
 
