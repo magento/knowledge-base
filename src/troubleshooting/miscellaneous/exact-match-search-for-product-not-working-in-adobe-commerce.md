@@ -19,7 +19,7 @@ You have products with attribute values `Saga 1` and `Saga 16` in both Adobe Com
 <ins>Steps to reproduce:</ins>
 
 1. On the store front of an Adobe Commerce 2.3 powered store, enter *Saga 1* in the search field and click **Search**.
-1. Notice, that in search results you only get the products with attribute value `Saga 1`.
+1. Notice that in search results, you only get the products with the attribute value `Saga 1`.
 1. On the store front of an Adobe Commerce 2.4 powered store, enter *Saga 1* in the search field and click **Search**.
 
 <ins>Actual result:</ins>
