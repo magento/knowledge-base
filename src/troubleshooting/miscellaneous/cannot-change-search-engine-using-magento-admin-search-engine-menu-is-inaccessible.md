@@ -103,7 +103,7 @@ It is not recommended to edit the `app/etc/env.php` or the `app/etc/config.php` 
 
 ### Change search engine on Staging and Production environments
 
-Before switching search engine from MySQL to Elasticsearch on your Staging and Production environments, make sure you have previously [submitted a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting to enable Elasticsearch on the environment and the ticket has been resolved successfully.
+Before switching search engine from MySQL to Elasticsearch on your Staging and Production environments, make sure you have previously [submitted a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to enable Elasticsearch on the environment and the ticket has been resolved successfully.
 
 To change the search engine used on your Staging and Production environments, change the `SEARCH_CONFIGURATION` environment variable in your `.magento.env.yaml` file on your local environment, then push changes to the Integration and Staging/Production environments for the changes to take effect.
 

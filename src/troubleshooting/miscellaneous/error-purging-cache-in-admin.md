@@ -46,7 +46,7 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 there was an attempt to clear the files when the operation had already been completed. This is not a bug; it is a messaging concurrency issue that is expected to happen sometimes. There is no issue to troubleshoot.
-However, if the output shows that the files are still in the cache, you need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+However, if the output shows that the files are still in the cache, you need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ## Related Reading
 

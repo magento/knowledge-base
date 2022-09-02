@@ -26,8 +26,8 @@ There are limits on the number of allowed emails that can be sent.
 
 ## Solution
 
-* If you see this message, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) and provide the above message and request the credits to be increased.
-* If you do not see this message or you are on Adobe Commerce on cloud infrastructure Starter plan architecture, also [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) and mention that the `mail.log` file does not indicate that the credits have been exceeded.
+* If you see this message, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and provide the above message and request the credits to be increased.
+* If you do not see this message or you are on Adobe Commerce on cloud infrastructure Starter plan architecture, also [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and mention that the `mail.log` file does not indicate that the credits have been exceeded.
 
 ## Related reading
 
