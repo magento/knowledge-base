@@ -7,7 +7,8 @@ This article provides a clarification for the issue where exact match search (10
 
 ## Affected products and versions
 
-Adobe Commerce (all deployment methods) 2.4.x
+- Adobe Commerce (all deployment methods) 2.4.x, 2.3.x
+- Live Search
 
 ## Issue
 
