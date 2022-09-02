@@ -11,7 +11,7 @@ If you realize there is an issue with the features from your custom module, and 
 
 ## Solution
 
-Check the logs to see if there are entries with custom module's name in the error.  Depending on the errors involved, the solution may present itself, or you may need to include your helpful Adobe Commerce log information if you want to open a [Support Ticket](Y/redirect: https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). See the following paragraphs for the info about logs' location and possible solutions.
+Check the logs to see if there are entries with custom module's name in the error.  Depending on the errors involved, the solution may present itself, or you may need to include your helpful Adobe Commerce log information if you want to open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). See the following paragraphs for the info about logs' location and possible solutions.
 
 ### Adobe Commerce (all deployment methods), Magento Open Source, all 2.X versions
 
