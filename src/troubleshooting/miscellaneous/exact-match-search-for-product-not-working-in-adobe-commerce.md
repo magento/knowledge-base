@@ -3,7 +3,7 @@ title: Exact match search for product not working in Adobe Commerce 2.4.4
 labels: issue,troubleshooting,Adobe Commerce,clarification,exact match,product search,Live Search,native search,100% match,2.4.x
 ---
 
-This article provides a solution for the issue where exact match search (100% match) for a product is not working in Adobe Commerce 2.4.x. For example, the search results for "Saga 1" include products with values of "saga" equals "Saga 16" (not 100% match). However, in Adobe Commerce 2.3.x, the search results for "Saga 1" only return results of products with values of "saga" equals "Saga 1" (100% match).
+This article provides a solution for the issue where exact match search (100% match) for a product is not working in Adobe Commerce 2.4.x.
 
 ## Affected products and versions
 
@@ -11,7 +11,7 @@ Adobe Commerce 2.4.x
 
 ## Issue
 
-Exact match search (100% match) for a product is not working in Adobe Commerce 2.4.x
+Exact match search (100% match) for a product is not working in Adobe Commerce 2.4.x. The search results by attribute in Adobe Commerce 2.3.x are strict for the search saga="Saga 1" but for Adobe Commerce 2.4.x it includes broader results with values such as "Saga 10" and "Saga 16".
 
 ## Cause
 
