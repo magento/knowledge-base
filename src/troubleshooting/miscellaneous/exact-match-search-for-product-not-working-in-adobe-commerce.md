@@ -14,7 +14,7 @@ This article provides a clarification for the issue where store front search res
 
 <ins>Prerequisites:</ins>
 
-You have products with attribute values `Saga 1`, `Saga 16` in both, Adobe Commerce 2.3 and Adobe Commerce 2.4 stores.
+You have products with attribute values `Saga 1` and `Saga 16` in both Adobe Commerce 2.3 and Adobe Commerce 2.4 stores.
 
 <ins>Steps to reproduce:</ins>
 
