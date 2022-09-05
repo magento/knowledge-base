@@ -38,7 +38,7 @@ See the following articles:
 
 To troubleshoot complicated payment issues, the Adobe Commerce Support Team may ask you to apply a dedicated patch to enable advanced payment logging. In this case, your steps should be the following:
 
- [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) with the following details:
+ [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) with the following details:
 
 * Specify your issue with as many details as possible.
 * List the steps you attempted from this article, knowledge base, and other resources. Include all results.
