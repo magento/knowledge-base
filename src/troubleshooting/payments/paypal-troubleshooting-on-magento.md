@@ -47,5 +47,5 @@ To troubleshoot complicated payment issues, the Adobe Commerce Support Team may 
 If you receive the Advanced Payment Logging patch:
 
 * Apply the patch.
-* Collect logs and attach them to your [support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+* Collect logs and attach them to your [support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 * Wait for further recommendations from the Adobe Commerce Support Team.
