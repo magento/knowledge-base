@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45781: Store front search field is not displayed on mobile"
+title: "ACSD-45781: Store front search field not displayed on mobile"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.19,store front,search field,mobile,Catalog Search,configuration,2.4.1,2.4.1-p1
 ---
 
