@@ -27,11 +27,11 @@ Admin user cannot log in after upgrading to 2.4.4.
 
 1. Log in to the Admin Panel
 1. Navigate to Store > **Settings** > **Configuration** > **Advanced** > **System** > **Security**.
-1. Set Max Session Size in the Admin to **0** and save.
+1. Set the Max Session Size in the Admin to **0** and save it.
 
 <ins>Expected results</ins>:
 
-The admin user is able to login successfully.
+The admin user is able to log in successfully.
 
 <ins>Actual results</ins>:
 
