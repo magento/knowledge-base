@@ -19,7 +19,7 @@ These recommendations are detailed below, and will also help to prevent unauthor
 ## Prevention recommendations
 
 * [Enable 2FA for admin access](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html).
-    Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This ensures that only you are able tocan log in to your user account. If you lose your password or a bot guesses it, two-factor authentication adds a layer of protection.
+    Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This ensures that only you can log in to your user account. If you lose your password or a bot guesses it, two-factor authentication adds a layer of protection.
 * [Enable MFA for SSH access](https://devdocs.magento.com/cloud/project/project-enable-mfa-enforcement.html).
     When MFA is enabled on a project, all Adobe Commerce on cloud infrastructure accounts with SSH access must follow an authentication workflow that requires either a two-factor authentication (TFA) code, or API token and an SSH certificate to access the environment.
 * Upgrade to the latest release of Adobe Commerce.
