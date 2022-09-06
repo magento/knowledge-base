@@ -1,9 +1,9 @@
 ---
 title: "ACSD-45781: Store front search field is not displayed on mobile"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.19,
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.19,store front,search field,mobile,Catalog Search,configuration,2.4.1,2.4.1-p1
 ---
 
-The MDVA-45781 patch solves the issue where the store front search field is not displayed on mobile. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) xxx is installed. The patch ID is MDVA-45781. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+The MDVA-45781 patch solves the issue where the store front search field is not displayed on mobile. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.19 is installed. The patch ID is MDVA-45781. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
@@ -25,12 +25,12 @@ Store front search field is not displayed on mobile
 
 <ins>Steps to reproduce</ins>:
 
-1. Go to Admin > **Stores** > **Configuration** > **Catalog** > **Catalog** > **Catalog Search** and set:
+1. Go to the Commerce Admin > **Stores** > **Configuration** > **Catalog** > **Catalog Search** and set:
     * Enable Search Recommendations to *No*
     * Enable Search Suggestions to *No*
 1. Click on the **Save Config** button.
 1. Clean cache.
-1. Using the standard Luma theme, browse with mobile.
+1. Using the standard Luma theme, and browse with mobile.
 1. Click on the **Search** button.
 
 <ins>Expected results</ins>:
