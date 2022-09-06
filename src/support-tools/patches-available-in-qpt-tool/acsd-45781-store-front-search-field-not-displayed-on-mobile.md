@@ -30,7 +30,7 @@ Store front search field is not displayed on mobile
     * Enable Search Suggestions to *No*
 1. Click on the **Save Config** button.
 1. Clean cache.
-1. Using the standard Luma theme, and browse with mobile.
+1. Using the standard Luma theme, browse with mobile.
 1. Click on the **Search** button.
 
 <ins>Expected results</ins>:
