@@ -119,7 +119,7 @@ The new checkout form option is:
 
 ## PayPal support and contacts
 
-Please contact PayPal Payflow Merchant Support to learn more about Fraud Protection Services. You can request the PayPal Support team to enable [Basic Fraud Protection Services](https://developer.paypal.com/docs/classic/payflow/fraud-protection/#how-fraud-protection-services-protect-you) filters to provide the tightest control possible over payments so that you can automatically deny payments that are likely to result in fraudulent transactions and accept payments that are not typically a problem. Please note that once you turn on PayPal Fraud Protection Services filters, transactions can take up to 2 hours to settle.
+Please contact PayPal Payflow Merchant Support to learn more about Fraud Protection Services. You can request the PayPal Support team to enable [Basic Fraud Protection Services](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) filters to provide the tightest control possible over payments so that you can automatically deny payments that are likely to result in fraudulent transactions and accept payments that are not typically a problem. Please note that once you turn on PayPal Fraud Protection Services filters, transactions can take up to 2 hours to settle.
 
 >![info]
 >
