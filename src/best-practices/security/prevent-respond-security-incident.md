@@ -28,7 +28,7 @@ These recommendations are detailed below, and will also help to prevent unauthor
     Adobe recommends that you use a unique, custom Admin URL instead of the default `admin` or a common term such as *backend*. Although it will not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 * [Implement the `lock env` environment variable](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values.html#set-configuration-values-that-cannot-be-edited-in-the-admin).
     The `lock env` variable either locks the configuration values so it cannot be edited in the Admin or prevents changes to a setting that is already locked in the Admin. The command writes the value to the `<Commerce base dir>/app/etc/env.php` file.
-* Setup and run the Adobe Commerce Security Scan Tool.
+* Setup and run the [Adobe Commerce Security Scan Tool](https://docs.magento.com/user-guide/magento/security-scan.html).
     The enhanced security scan allows you to monitor each of your Adobe Commerce sites, including PWA, for known security risks and malware, and to receive patch updates and security notifications.
 * [Review and update Admin user access](https://docs.magento.com/user-guide/system/permissions-users-all.html) and [security settings](https://docs.magento.com/user-guide/system/permissions-users-all.html).
     * We recommend removing any old, unused, or suspicious accounts and rotate passwords for all Admin users.
