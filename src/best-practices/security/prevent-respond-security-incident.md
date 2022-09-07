@@ -31,7 +31,7 @@ These recommendations are detailed below, and will also help to prevent unauthor
 * Setup and run the Adobe Commerce Security Scan Tool.
     The enhanced security scan allows you to monitor each of your Adobe Commerce sites, including PWA, for known security risks and malware, and to receive patch updates and security notifications.
 * [Review and update Admin user access](https://docs.magento.com/user-guide/system/permissions-users-all.html) and [security settings](https://docs.magento.com/user-guide/system/permissions-users-all.html).
-    * We recommend removing any old, unused or suspicious accounts and rotate passwords for all Admin users.
+    * We recommend removing any old, unused, or suspicious accounts and rotate passwords for all Admin users.
     * Review and update the <ins>Advance Security Settings<ins> for your project. The Admin security configuration gives you the ability to add a secret key to URLs, require passwords to be case sensitive, and to limit the length of Admin sessions, including the lifetime of passwords, and the number of login attempts that can be made before the Admin user account is <ins>locked</ins>. For increased security, you can configure the length of keyboard inactivity before the current session expires, and require the username and password to be case-sensitive.
 * Audit Adobe Commerce on cloud project users.
     We recommend removing any old, unused or suspicious accounts and requesting users to change their passwords.
