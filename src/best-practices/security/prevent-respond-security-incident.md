@@ -37,7 +37,7 @@ These recommendations are detailed below, and will also help to prevent unauthor
     We recommend removing any old, unused, or suspicious accounts and requesting users to change their passwords.
 * Audit SSH keys for Adobe Commerce on cloud infrastructure.
     We recommend reviewing, deleting, and rotating SSH keys.
-* Implement Access Control List for Admin
+* Implement Access Control List (ACL) for Admin.
     You can use a Fastly Edge ACL list in combination with a custom VCL code snippet to filter incoming requests and allow access by IP address to Admin.
 
 ## Analyze an incident
