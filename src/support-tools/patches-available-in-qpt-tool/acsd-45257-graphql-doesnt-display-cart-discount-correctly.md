@@ -27,7 +27,7 @@ GraphQL doesn't display the cart discount correctly.
 
 1. Go to **Admin** > **Marketing** > **Promotions** > **Cart Price Rule**.
 1. Add a new rule and apply it to the shipping amount.
-1. Add a product into the cart by GraphQL.
+1. Add a product into the cart using GraphQL.
 1. Check cart information with a GraphQL query.
 
 <ins>Expected results</ins>:
