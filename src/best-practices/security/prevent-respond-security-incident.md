@@ -35,10 +35,10 @@ These recommendations are detailed below, and will also help to prevent unauthor
     * Review and update the <ins>Advance Security Settings<ins> for your project. The Admin security configuration gives you the ability to add a secret key to URLs, require passwords to be case-sensitive, and to limit the length of Admin sessions, including the lifetime of passwords, and the number of login attempts that can be made before the Admin user account is <ins>locked</ins>. For increased security, you can configure the length of keyboard inactivity before the current session expires, and require the username and password to be case-sensitive.
 * Audit Adobe Commerce on [cloud project users](https://devdocs.magento.com/cloud/project/user-admin.html).
     We recommend removing any old, unused, or suspicious accounts and requesting users to change their passwords.
-* Audit SSH keys for Adobe Commerce on cloud infrastructure.
+* Audit [SSH keys](https://devdocs.magento.com/cloud/before/before-workspace-ssh.html) for Adobe Commerce on cloud infrastructure.
     We recommend reviewing, deleting, and rotating SSH keys.
 * Implement Access Control List (ACL) for Admin.
-    You can use a Fastly Edge ACL list in combination with a custom VCL code snippet to filter incoming requests and allow access by IP address to Admin.
+    You can use a Fastly Edge ACL list in combination with a custom [VCL code snippet](https://devdocs.magento.com/cloud/cdn/fastly-vcl-allowlist.html#vcl) to filter incoming requests and allow access by IP address to Admin.
 
 ## Analyze an incident
 
