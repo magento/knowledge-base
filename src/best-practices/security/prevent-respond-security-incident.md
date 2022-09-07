@@ -8,7 +8,7 @@ labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,best practices,security,Adobe
 * Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 
-Adobe Commerce security operates under a [Shared Responsibility](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-shared-responsibility-guide.pdf) model and it is key to understand what Adobe and your technical teams are responsible for. Below we summarize [Security Best Practices](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf) for ensuring your project has the best security controls in place and how best to respond to a security incident.
+Adobe Commerce security operates under a [Shared Responsibility](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-shared-responsibility-guide.pdf) model, and it is key to understand what Adobe and your technical teams are responsible for. Below we summarize [Security Best Practices](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf) for ensuring your project has the best security controls in place and how best to respond to a security incident.
 
 ## Respond to an incident
 
