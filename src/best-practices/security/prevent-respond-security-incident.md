@@ -12,7 +12,7 @@ Adobe Commerce security operates under a [Shared Responsibility](https://www.ado
 
 ## Respond to an incident
 
-There are many considerations as you respond to a security incident. If you suspect that you have encountered a recent security incident for your Adobe Commerce Cloud project, it is important to audit all admin user account access, enable advanced multi-factor authentication controls, preserve critical logs, and review security upgrades for your release of Commerce.
+There are many considerations as you respond to a security incident. If you suspect that you have encountered a recent security incident for your Adobe Commerce Cloud project, it is important to audit all admin user account access, enable advanced multi-factor authentication (MFA) controls, preserve critical logs, and review security upgrades for your release of Commerce.
 
 These recommendations are detailed below, and will also help to prevent unauthorized access and begin the process for further incident analysis.
 
