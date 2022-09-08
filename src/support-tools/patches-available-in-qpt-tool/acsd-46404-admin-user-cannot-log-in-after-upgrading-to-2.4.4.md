@@ -21,7 +21,7 @@ The ACSD-46404 patch solves the issue where an admin user cannot log in after up
 
 ## Issue
 
-Admin user cannot log in after upgrading to 2.4.4.
+The admin user cannot log in after upgrading to 2.4.4.
 
 <ins>Steps to reproduce</ins>:
 
