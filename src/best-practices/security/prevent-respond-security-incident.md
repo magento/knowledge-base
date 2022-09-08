@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce on cloud Best Practices to Prevent and Respond to a Security Incident
+title: Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,best practices,security,Adobe Commerce,cloud infrastructure
 promoted: True
 ---
