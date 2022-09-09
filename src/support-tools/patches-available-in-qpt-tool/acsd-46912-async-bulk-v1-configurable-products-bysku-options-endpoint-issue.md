@@ -48,7 +48,7 @@ An error occurs when a POST request is sent to async/bulk/V1/configurable-produc
 
 There is no error. Get the following response:
 
-```codeblock
+```JSON
 {
   "bulk_uuid": "e5a94361-e16e-432b-a000-c1351a0d01b3",
   "request_items": [
