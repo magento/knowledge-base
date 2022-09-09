@@ -27,7 +27,7 @@ An error occurs when a POST request is sent to async/bulk/V1/configurable-produc
 
 1. Send a POST request to async/bulk/V1/configurable-products/bySku/.
 
-```codeblock
+```JSON
 [{
   "sku": "MS-Champ",
   "option": {
