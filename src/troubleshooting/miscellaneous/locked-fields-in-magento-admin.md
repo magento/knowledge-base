@@ -18,7 +18,7 @@ Once you have saved a change to your configuration to `app/etc/env.php` or `app/
 
  Note: This is an example - the issue can affect all configurations that have been saved.
 
-1. The merchant saves their delivery methods credentials using the following command in the terminal: `php vendor/bin/m2-ece-scd-dump`. This saves the credentials in the `app/etc/env.php` file.
+1. The merchant saves their delivery methods credentials using the following command in the terminal: `./vendor/bin/ece-tools config:dump`. This saves the credentials in the `app/etc/env.php` file.
 1. The merchant then attempts to change the credentials later.
 
 <ins>Expected results</ins>:
