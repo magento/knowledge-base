@@ -64,6 +64,6 @@ When a customer directs Adobe Commerce Support to close the ticket, it is closed
 
 ## Related reading
 
-* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket)
-* ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Magento-Help-Center-start-page)
-* [Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360043335371-Ticket-submission-form-merchant-is-not-displayed-in-Organization-drop-down)
+* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket)
+* ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](https://support.magento.com/hc/en-us/articles/360000913794#no-submit-link)
+* [Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed)

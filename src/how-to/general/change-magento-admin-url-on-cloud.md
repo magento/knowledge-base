@@ -22,7 +22,7 @@ From your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/p
 
 ### When Staging and Production are not available in Project Web Interface
 
- [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting to add the ADMIN\_URL variable for your Staging or Production environment.
+ [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to add the ADMIN\_URL variable for your Staging or Production environment.
 
 If Staging and Production are accessible from your Project Web Interface, add the Environment Variable as described in the *Integration environment* section above.
 

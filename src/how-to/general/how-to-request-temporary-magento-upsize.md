@@ -3,7 +3,7 @@ title: How to request temporary Adobe Commerce on cloud infrastructure upsize
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,Magento Upsize,New Relic,alert,baseline,capacity,cloud,how to,request,temporary,Adobe Commerce,cloud infrastructure
 ---
 
-If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
+If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
 
 >![info]
 >
@@ -26,7 +26,7 @@ In addition, baseline alerting works well with new applications when you do not 
 
 Follow this link to learn more about New Relic [Creating baseline alert conditions](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/create-baseline-alert-conditions).
 
-If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) requesting additional capacity. Follow the below steps.
+If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting additional capacity. Follow the below steps.
 
 ## How to monitor performance of your site
 
@@ -42,9 +42,9 @@ Follow this link to learn how to [configure performance-based alerts](https://de
 
 ## Steps to request temporary upsize
 
-Follow the steps below to submit a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to request temporary additional cloud capacity:
+Follow the steps below to submit a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request temporary additional cloud capacity:
 
-Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket), after inputting the following information:
+Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket), after inputting the following information:
 
 >![info]
 >
@@ -56,7 +56,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 1. Complete the next four fields.
 1. Select from the **Surge Capacity Request Type** dropdown options. Note: please select *Holiday Surge Request* for all Holiday upsizing to ensure these tickets are routed properly.
 1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date.** The preferred **Resize**   **Start Time** is also a mandatory field.
-1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 >![info]
 >

@@ -25,13 +25,13 @@ When planning your Adobe Commerce on cloud infrastructure project, you may speci
 
 Follow these steps to process the subdomain within your Adobe Commerce on cloud infrastructure project:
 
-* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting to add the subdomain to the Fastly service/Nginx configuration (for Adobe Commerce on cloud infrastructure Pro plan architecture).
+* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to add the subdomain to the Fastly service/Nginx configuration (for Adobe Commerce on cloud infrastructure Pro plan architecture).
 * Configure the corresponding DNS settings on your side.
 
 After performing the steps for subdomain configuration, you must also take these steps to validate your production domain for the SSL certificate:
 
 * Upload the DNS TXT record for SSL validation of your production domain.
-* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) requesting to validate the production domain for the SSL certificate.
+* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to validate the production domain for the SSL certificate.
 
 Using the subdomain allows you to perform a "soft launch" of your store in the future — since such launch only requires updating the corresponding DNS settings.
 
