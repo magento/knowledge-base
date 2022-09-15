@@ -1,6 +1,6 @@
 ---
 title: Live search catalog not synchronized
-labels: Adobe Commerce,live search,catalog,data
+labels: Adobe Commerce,Magento,on-premises,cloud infrastructure,live search,catalog,data,sync
 ---
 
 This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension.
@@ -15,9 +15,9 @@ Your catalog data is not synchronized correctly, or a new product was added but 
 
 <ins>Steps to reproduce</ins>
 
-1. Configure and connect Live Search for your Adobe Commerce instance as described in [Configure and Connect](https://devdocs-beta.magento.com/live-search/config-connect.html) in our developer documentation.
-1. After 8 hours, verify the exported catalog data as described in [Configure and Connect > Verify catalog sync](https://devdocs-beta.magento.com/live-search/config-connect.html#verify-catalog-sync) in our developer documentation.
-1. After 8 hours, test the connection as described in [Configure and Connect > Test the connection](https://devdocs-beta.magento.com/live-search/config-connect.html#test-the-connection) in our developer documentation.
+1. Configure and connect Live Search for your Adobe Commerce instance as described in [Install Live Search > Configure API keys](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) in our user documentation.
+1. After 8 hours, verify the exported catalog data as described in [Install Live Search > Verify export](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) in our user documentation.
+1. After 8 hours, test the connection as described in [Install Live Search > Test the connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) in our user documentation.
 
 Or
 
@@ -107,4 +107,4 @@ bin/magento saas:resync --feed productattributes
 
 ## Related reading
 
-See [Configure and Connect](https://devdocs.magento.com/live-search/config-connect.html) in our developer documentation.
+See [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=en) in our user documentation.
