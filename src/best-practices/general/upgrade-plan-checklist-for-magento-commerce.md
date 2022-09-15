@@ -35,7 +35,7 @@ Use this checklist during your annual and quarterly conversations with your ecom
 
  **▢** Set aside budget and team capacity for the upgrade.
 
- **3rd Party Integrations**
+ **Third-party Integrations**
 
  **▢** Review current Adobe Commerce third-party integrations and their maintenance windows for the year, and consider aligning upgrade work with your maintenance schedule.
 
