@@ -48,7 +48,7 @@ Use this checklist during your annual and quarterly conversations with your ecom
 
 ▢    Agree on budget, timeline, scope.
 
-▢    Run the [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/prerequisites.html) to identify potential issues before upgrading.
+▢    Run the [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) to identify potential issues before upgrading.
 
 ▢    Consider using the upgrade to address issues identified by the [Site Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html).
 
