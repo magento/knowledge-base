@@ -70,7 +70,7 @@ Use this checklist during your annual and quarterly conversations with your ecom
 
 ▢    Monitor site for issues – performance, order processing, analytics, and others.
 
-▢    Perform an Adobe Commerce [security scan](https://account.magento.com/scanner/dashboard/) or other 3rd party scan and review potential security vulnerabilities.
+▢    Perform an Adobe Commerce [security scan](https://account.magento.com/scanner/dashboard/) or other third-party scan and review potential security vulnerabilities.
 
 ▢    Perform a retrospective with all stakeholders and document what went well and what didn’t and how to improve.
 
