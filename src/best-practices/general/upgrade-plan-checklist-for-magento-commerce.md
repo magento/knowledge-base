@@ -11,7 +11,7 @@ Use this checklist during your annual and quarterly conversations with your ecom
 
 >![info]
 >
->Note: For a detailed description of the technical steps to upgrade successfully refer to [Complete upgrade prerequisites](https://devdocs.magento.com/guides/v2.4/comp-mgr/prereq/prereq_compman-checklist.html) in Adobe Experience League.
+>Note: For a detailed description of the technical steps to upgrade successfully refer to [Complete upgrade prerequisites](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/prerequisites.html) in our user documentation.
 
  **Goals**
 
