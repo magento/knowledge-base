@@ -60,7 +60,7 @@ Use this checklist during your annual and quarterly conversations with your ecom
 
 ▢    Plan maintenance window if downtime is anticipated.
 
-▢    Review and approve the testing strategy; consider using the Adobe Commerce [test framework](https://devdocs.magento.com/mftf/v2/docs/introduction.html) or a 3rd party automation suite.
+▢    Review and approve the testing strategy; consider using the Adobe Commerce [test framework](https://devdocs.magento.com/mftf/v2/docs/introduction.html) or a third-party automation suite.
 
 ▢    Confirm that all extensions and customizations are compatible.
 
