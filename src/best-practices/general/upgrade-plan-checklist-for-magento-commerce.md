@@ -41,10 +41,10 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
  **Scope & Deployment Planning**
 
-▢    Early access activities
+▢    Early access activities:
 
 * Partner participates in [Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program)  
-* Review Beta release notes.
+* Review Beta release notes
 
 ▢    Agree on budget, timeline, scope.
 
