@@ -25,7 +25,7 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
  **Team**
 
-▢    Ensure, you have the right team in place, with the proper Adobe Commerce certifications and skillset.
+▢    Ensure you have the right team in place with the proper Adobe Commerce certifications and skillset.
 
  **Budget & Timing**
 
