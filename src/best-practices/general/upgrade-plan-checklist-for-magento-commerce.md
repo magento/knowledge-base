@@ -64,7 +64,7 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
 ▢    Confirm that all extensions and customizations are compatible.
 
-▢    Review and update the post launch playbook, to use if issues are discovered during or after upgrade.
+▢    Review and update the post-launch playbook; to be used if issues are discovered during or after the upgrade.
 
  **Post Deployment**
 
