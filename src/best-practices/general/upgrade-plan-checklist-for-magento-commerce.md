@@ -52,7 +52,7 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
 ▢    Consider using the upgrade to address issues identified by the [Site Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html).
 
-▢    Document dependencies and any technical stack changes required such as PHP or Elastic Search versions.
+▢    Document dependencies and any technical stack changes required, such as PHP or Elastic Search versions.
 
 ▢    Gather project team with Adobe Commerce certifications.
 
