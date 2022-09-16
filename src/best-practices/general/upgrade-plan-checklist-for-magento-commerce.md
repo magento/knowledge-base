@@ -33,7 +33,7 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
  **▢** Discuss which version you think you’ll adopt (full or security-only) based on anticipated needs.
 
- **▢** Set aside budget and team capacity for the upgrade.
+ **▢** Set aside a budget and team capacity for the upgrade.
 
  **Third-party Integrations**
 
