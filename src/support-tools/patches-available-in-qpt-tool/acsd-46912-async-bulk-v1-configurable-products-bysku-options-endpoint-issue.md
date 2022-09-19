@@ -64,7 +64,7 @@ There is no error. You get the following response:
 
 <ins>Actual results</ins>:
 
-The following error occurs.
+The following error occurs:
 
 ```PHP
 TypeError: Argument 3 passed to Magento\Framework\Webapi\ServiceInputProcessor::process() must be of the type array, string given, called in /var/www/html/vendor/magento/module-webapi-async/Controller/Rest/Asynchronous/InputParamsResolver.php on line 154 and defined in /var/www/html/vendor/magento/framework/Webapi/ServiceInputProcessor.php:172
