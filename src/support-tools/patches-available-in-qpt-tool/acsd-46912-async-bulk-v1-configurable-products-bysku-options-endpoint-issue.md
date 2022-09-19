@@ -21,7 +21,7 @@ The ACSD-46912 patch fixes the issue with the `async/bulk/V1/configurable-produc
 
 ## Issue
 
-An error occurs when a POST request is sent to async/bulk/V1/configurable-products/bySku/.
+An error occurs when a POST request is sent to `async/bulk/V1/configurable-products/bySku/`.
 
 <ins>Steps to reproduce</ins>:
 
