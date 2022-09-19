@@ -1,6 +1,6 @@
 ---
 title: "ACSD-46912: Issue with async/bulk/V1/configurable-products/bySku/options endpoint"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.19,admin user,order,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1
+labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.19,admin user,order,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.3.7-p4,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1
 ---
 
 The ACSD-46912 patch fixes the issue with the async/bulk/V1/configurable-products/bySku/options endpoint. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.19 is installed. The patch ID is ACSD-46912. Please note that the issue was fixed in Adobe Commerce 2.4.5.
