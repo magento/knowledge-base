@@ -25,7 +25,7 @@ An error occurs when a POST request is sent to `async/bulk/V1/configurable-produ
 
 <ins>Steps to reproduce</ins>:
 
-1. Send a POST request to async/bulk/V1/configurable-products/bySku/.
+1. Send a POST request to `async/bulk/V1/configurable-products/bySku/`.
 
 ```JSON
 [{
