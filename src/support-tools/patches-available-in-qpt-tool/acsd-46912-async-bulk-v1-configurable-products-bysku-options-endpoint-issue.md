@@ -46,7 +46,7 @@ An error occurs when a POST request is sent to `async/bulk/V1/configurable-produ
 
 <ins>Expected results</ins>:
 
-There is no error. Get the following response:
+There is no error. You get the following response:
 
 ```JSON
 {
