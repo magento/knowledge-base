@@ -28,7 +28,7 @@ The category tree request is limited to 20 categories.
 
 1. Create a category under the root category.
 1. Create 24 subcategories under the root category created in step one.
-1. Execute the following GraphQL request.
+1. Execute the following GraphQL request:
 
     <pre>
     <code class="language-graphql">
