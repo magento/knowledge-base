@@ -35,6 +35,6 @@ The workaround is to use an alternative browser to Safari. The issue is schedule
 ## Related reading
 
 * [What is Page Builder?](https://devdocs.magento.com/page-builder/docs/) in our developer documentation.
-* [Page Builder configurations](https://devdocs.magento.com/guides/v2.4/mrg/page-builder/PageBuilder.html) in our developer documentation.
+* [Page Builder Setup](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=en) in our developer documentation.
 * [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) in our user guide.
 * [Page Builder - Elements](https://docs.magento.com/user-guide/cms/page-builder-elements.html) in our user guide.
