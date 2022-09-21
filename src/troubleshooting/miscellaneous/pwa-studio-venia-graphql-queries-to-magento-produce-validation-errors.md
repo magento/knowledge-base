@@ -27,7 +27,7 @@ To test whether your queries are up to date, run the following command in the pr
 yarn run validate-queries
 ```
 
-This will show a compatibility report. If you have incompatibilities, you need to upgrade your PWA Studio or Adobe Commerce instance. Check the [Adobe Commerce compatibility matrix](https://pwastudio.io/technologies/magento-compatibility/) to see what exactly versions you need.
+This will show a compatibility report. If you have incompatibilities, you need to upgrade your PWA Studio or Adobe Commerce instance. Check the [Adobe Commerce compatibility matrix](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/version-compatibility/) to see what exactly versions you need.
 
 Reference the following documentation for instructions on how to upgrade:
 
