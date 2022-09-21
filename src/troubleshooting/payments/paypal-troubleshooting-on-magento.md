@@ -25,7 +25,7 @@ For more info, see the documentation: [PayPal](https://www.paypalobjects.com/en_
 
 ## Allow reference transactions
 
-If your PayPal payment method involves API with [Billing Agreements and Reference Transactions](https://developer.paypal.com/docs/classic/express-checkout/integration-guide/ECReferenceTxns/), make sure these are enabled and configured correctly in your settings.
+If your PayPal payment method involves API with Billing Agreements and Reference Transactions, make sure these are enabled and configured correctly in your settings.
 
 ### Additional troubleshooting
 
