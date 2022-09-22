@@ -18,7 +18,7 @@ This topic discusses a solution when high load from MySQL causes a performance b
 * ECE Tools version 2002.0.16 and higher
 * New Relic APM service (**Your Adobe Commerce on cloud infrastructure account includes the software for the New Relic APM service** along with a license key.)
 
-For more information about the New Relic APM service and its setup with your Adobe Commerce on cloud infrastructure account, go to [New Relic Services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) and [Introduction to New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-new-relic-apm).
+For more information about the New Relic APM service and its setup with your Adobe Commerce on cloud infrastructure account, go to [New Relic Services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) and [Introduction to New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
 
 ## Issue
 
