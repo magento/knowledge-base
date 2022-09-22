@@ -51,7 +51,7 @@ To find out if your MageID is primary, try the following:
     * If you see the Adobe Commerce license information, then your MageID is primary.
     * If you do not see the Adobe Commerce license information, then your MageID only has shared access. To find out who is the primary ID holder, go to the **Shared with me** Notice the SHARENAME specified there. Click **Switch Accounts** and select the value you've noted in SHARENAME. On the welcome page you will see the email of the primary ID holder.
 1. If for any reason you cannot find this information on [magento.com](https://account.magento.com/customer/account/login), please contact your Customer Success Manager (CSM).
-1. If none of the above works, please [contact Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+1. If none of the above works, please [contact Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
  **For partners**
 
@@ -61,8 +61,8 @@ To find out if your MageID is primary, try the following:
     * If you see the active Partner license information, then your MageID is primary. The Partner license is active if the END DATE value is a date in the future.
     * If you do not see the active Partner license information, then your MageID only has shared access. To find out who is the primary ID holder, go to the **Shared with me** Notice the SHARENAME specified there. Click **Switch Accounts** and select the value you've noted in SHARENAME. On the welcome page you will see the email of the primary ID holder.
 1. If for any reason you cannot find this information on [magento.com](https://account.magento.com/customer/account/login), please contact your Partner Manager.
-1. If none of the above works, please [сontact Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+1. If none of the above works, please [сontact Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ### Not a part of pre-release program
 
-To be included in the Pre-release Access program, your organization must have an active Adobe Commerce or Partner account that is in good standing. If you believe you meet this criteria and cannot access the pre-release code, please [contact Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) with your MageID.
+To be included in the Pre-release Access program, your organization must have an active Adobe Commerce or Partner account that is in good standing. If you believe you meet this criteria and cannot access the pre-release code, please [contact Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) with your MageID.

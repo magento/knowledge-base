@@ -46,7 +46,7 @@ If the response code is 403, you may have Cloudflare bot protection which is blo
 
 #### Correct 200 response code and JSON output
 
-If the response is the correct 200 code and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
+If the response is the correct 200 code and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to escalate the issue with Site-Wide Analysis Tool access.
 
 
 #### 500 (Fatal error) response code
@@ -64,7 +64,7 @@ If the response output is not JSON, it could be because of PWA/Headless implemen
 
 ![Upward_configuration](assets/upward_pwa.png)
 
-If you are still not able to access the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+If you are still not able to access the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ## Related reading
 
