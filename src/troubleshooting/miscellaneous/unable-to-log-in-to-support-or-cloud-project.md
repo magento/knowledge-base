@@ -10,7 +10,7 @@ Adobe Commerce (all deployment methods) all [supported versions](https://www.ado
 
 ## Issue
 
-When you go to https://account.magento.com/customer/account/login/ or https://accounts.magento.cloud/user you might notice that there is now a unified login form and you are no longer able to enter your credentials like you have previously.
+When you go to [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) or [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) you might notice that there is now a unified login form and you are no longer able to enter your credentials like you have previously.
 
 <ins>Steps to reproduce</ins>:
 
