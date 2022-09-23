@@ -42,6 +42,6 @@ You may log in to the account with:
 
 For steps refer to [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=en) in Adobe Experience League.
 
-Related reading
+## Related reading
 
-* [Link Magento.com and accounts.magento.cloud account logins](https://support.magento.com/hc/en-us/articles/8472095067021)
+- [Link Magento.com and accounts.magento.cloud account logins](https://support.magento.com/hc/en-us/articles/8472095067021)
