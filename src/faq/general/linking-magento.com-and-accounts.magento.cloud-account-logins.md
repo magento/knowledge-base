@@ -21,6 +21,6 @@ Users at [accounts.magento.cloud](https://accounts.magento.cloud/) can connect t
 1. Navigate to a separate tab to [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user).
 1. Click “Connect with [Magento.com](https://account.magento.com/customer/account/login/)”.
 
-Related reading
+## Related reading
 
 * [Unable to log in to Adobe Commerce support or cloud account](https://support.magento.com/hc/en-us/articles/8472095067021)
