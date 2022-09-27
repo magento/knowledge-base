@@ -29,7 +29,7 @@ As an example, it is a best practice to avoid a stuck MySQL database import by f
     * [Adobe Commerce on cloud infrastructure logs locations](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
 1. Check your MySQL process list for running processes with the command `mysql -e 'show full processlist';`     
 1. If on Adobe Commerce on cloud infrastructure, check that MySQL slave is enabled. Consult this article: [Deploy variables (MYSQL\_USE\_SLAVE\_CONNECTION)](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#mysql_use_slave_connection).
-1. Depending on the errors involved, the solution may present itself, or you may need to include your helpful log information if you need to open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+1. Depending on the errors involved, the solution may present itself, or you may need to include your helpful log information if you need to open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ## Related reading
 

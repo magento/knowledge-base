@@ -40,7 +40,7 @@ If a deployment failed after a change was made to the Primary Contact on the acc
 
 ### How to disable the access key
 
-If you do not have access to the [Commerce Marketplace](https://marketplace.magento.com/) account associated with the old key, [contact Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to have the key disabled.
+If you do not have access to the [Commerce Marketplace](https://marketplace.magento.com/) account associated with the old key, [contact Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to have the key disabled.
 
 If you have access to the Marketplace account associated with the old key, take the following steps to disable the key:
 
