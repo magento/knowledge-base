@@ -32,7 +32,7 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-9">Step 9</
 <h5>Step 4</h5>
 <div class="zd-accordion-section">Response green?</div>
 <p class="zd-accordion-text">a. YES – Elasticsearch is available for processing data and reindexing should work. Proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.<br>
-b. NO – Yellow or red means there are problems with connections between nodes, and some data may not be available. If yellow run the command: <code>php bin/magento config:show catalog/search/engine</code> to check your search engine. Proceed to <a class="accordion-anchor" href="#zd-accordion-6">Step 6</a>. If red response <a href="https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket">submit a support ticket</a>.</p>
+b. NO – Yellow or red means there are problems with connections between nodes, and some data may not be available. If yellow, run the command: <code>php bin/magento config:show catalog/search/engine</code> to check your search engine. Proceed to <a class="accordion-anchor" href="#zd-accordion-6">Step 6</a>. If red, <a href="https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket">submit a support ticket</a>.</p>
 </div>
 <div id="zd-accordion-5" class="zd-accordion-panel">
 <h5>Step 5</h5>
