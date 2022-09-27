@@ -22,7 +22,7 @@ The patch is valid for the following products and versions:
 * Adobe Commerce on cloud infrastructure 2.2.9
 * Adobe Commerce on-premises 2.2.9
 
-If you have a different version of Adobe Commerce, consider updating to the latest 2.3.x release. If this is not an option currently, please [contact Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and request a patch for your version.
+If you have a different version of Adobe Commerce, consider updating to the latest 2.3.x release. If this is not an option currently, please [contact Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and request a patch for your version.
 
 ## How to apply the patch
 

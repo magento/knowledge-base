@@ -32,7 +32,7 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-9">Step 9</
 <h5>Step 4</h5>
 <div class="zd-accordion-section">Response green?</div>
 <p class="zd-accordion-text">a. YES – Elasticsearch is available for processing data and reindexing should work. Proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.<br>
-b. NO – Yellow or red means there are problems with connections between nodes, and some data may not be available. If yellow run the command: <code>php bin/magento config:show catalog/search/engine</code> to check your search engine. Proceed to <a class="accordion-anchor" href="#zd-accordion-6">Step 6</a>. If red response <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.</p>
+b. NO – Yellow or red means there are problems with connections between nodes, and some data may not be available. If yellow, run the command: <code>php bin/magento config:show catalog/search/engine</code> to check your search engine. Proceed to <a class="accordion-anchor" href="#zd-accordion-6">Step 6</a>. If red, <a href="https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket">submit a support ticket</a>.</p>
 </div>
 <div id="zd-accordion-5" class="zd-accordion-panel">
 <h5>Step 5</h5>
@@ -55,14 +55,14 @@ b. NO – Upgrade ECE-tools to the most current version. Run the command <code>p
 <div id="zd-accordion-8" class="zd-accordion-panel">
 <h5>Step 8</h5>
 <div class="zd-accordion-section">Is catalog search status in <em>Processing</em>?</div>
-<p class="zd-accordion-text">a. YES – You need to wait until processing is done and then check if product categories updated. If they have not, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.<br>b. NO – If the status of catalog search is <em>Reindex required</em> run in CLI/Terminal: <code>php bin/magento cron:run</code>. If this does not work, run: <code>php bin/magento indexer:reindex</code>. If this does not solve the issue, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.</p>
+<p class="zd-accordion-text">a. YES – You need to wait until processing is done and then check if product categories updated. If they have not, <a href="https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket">submit a support ticket</a>.<br>b. NO – If the status of catalog search is <em>Reindex required</em> run in CLI/Terminal: <code>php bin/magento cron:run</code>. If this does not work, run: <code>php bin/magento indexer:reindex</code>. If this does not solve the issue, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.</p>
 </div>
 <div id="zd-accordion-9" class="zd-accordion-panel">
 <h5>Step 9</h5>
 <div class="zd-accordion-section">
 <code>.yaml</code> file recently updated?</div>
 <p class="zd-accordion-text">a. YES – Check <code>.yaml</code> Elasticsearch configuration by referring to DevDocs <a href="https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=elastic%20search%20yaml">Set up Elasticsearch: To enable Elasticsearch</a>.<br>
-b. NO – <a href="https://support.magento.com/hc/en-us/articles/360019088251">Submit a support ticket</a>.</p>
+b. NO – <a href="https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket">Submit a support ticket</a>.</p>
 </div>
 <div id="zd-accordion-10" class="zd-accordion-panel">
 <h5>Step 10</h5>
@@ -82,7 +82,7 @@ b. NO – Proceed to <a class="accordion-anchor" href="#zd-accordion-12">Step 12
 <h5>Step 12</h5>
 <div class="zd-accordion-section">Storage usage > 85%?</div>
 <p class="zd-accordion-text">a.  YES – You need to increase available storage. Refer to DevDocs<a href="https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=elastic%20search%20yaml">Set up Elasticsearch: To enable Elasticsearch</a>. Then run: <code>localhost:9200/_cat/allocation?v</code> (if you are on Pro staging or production environments). If you are on one of the integration environments (that includes all the Starter branches) run: <code>elasticsearch.internal:9200/_cat/allocation?v</code>. Proceed to <a class="accordion-anchor" href="#zd-accordion-11">Step 11</a>.<br>
-b. NO – <a href="https://support.magento.com/hc/en-us/articles/360019088251">Submit a support ticket</a>.</p>
+b. NO – <a href="https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket">Submit a support ticket</a>.</p>
 </div>
 <!---------This closes the main level that holds everything.--------------->
   <p>

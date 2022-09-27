@@ -37,14 +37,14 @@ For these versions only, run the below script to clear old logs (logging was end
 
 Please refer to the [ **How to run the script** ](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section in our support knowledge base, for instructions.
 
- **How to run the script** 
+ **How to run the script**
 
 Please follow the below instructions to run the script:
 
 1. Put `DB_CLEANUP_SCRIPT_v2.php` in the root directory of the Adobe Commerce or Magento Open Source installation (in the same directory as app which contains `app/bootstrap.php`).
 1. Run this command in the terminal: `php DB_CLEANUP_SCRIPT_v2.php` and it will begin the database clean up process.
 
-If you encounter any issues while running the script, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) or email us at [security@magento.com](mailto:security@magento.com).
+If you encounter any issues while running the script, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
 
  **Attached files**
 
