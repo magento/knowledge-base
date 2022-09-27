@@ -10,7 +10,7 @@ Adobe Commerce (all deployment methods) all [supported versions](https://www.ado
 
 ## Issue
 
-When you go to 'https://account.magento.com/customer/account/login/' or 'https://accounts.magento.cloud/user' you might notice that there is now a unified login form and you are no longer able to enter your credentials like you have previously.
+When you go to [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) or [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) you might notice that there is now a unified login form and you are no longer able to enter your credentials like you have previously.
 
 <ins>Steps to reproduce</ins>:
 
@@ -41,3 +41,7 @@ You may log in to the account with:
 - If you do not have an Adobe account, create one with the same email address.
 
 For steps refer to [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=en) in Adobe Experience League.
+
+## Related reading
+
+- [Link Magento.com and accounts.magento.cloud account logins](https://support.magento.com/hc/en-us/articles/360040954871)
