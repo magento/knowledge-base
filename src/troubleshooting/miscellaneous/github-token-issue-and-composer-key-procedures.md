@@ -28,7 +28,7 @@ Outdated Composer keys cause the Github token failures which result in failed de
 
 To resolve the issue, please update your Composer version to 1.10.22:
 
-1. On your local environment, `run composer require “composer/composer”:”>1.10.21`.
+1. On your local environment, run `composer require “composer/composer”:”>1.10.21`.
 1. This adds the requirement for that Composer package version. Check the lock file - `composer/composer` version must be 1.0.22 or higher.
 1. Commit `composer.json` and `composer.lock` and push a deployment.
 
