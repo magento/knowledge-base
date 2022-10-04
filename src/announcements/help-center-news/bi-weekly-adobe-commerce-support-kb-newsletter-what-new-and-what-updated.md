@@ -3,7 +3,7 @@ title: "Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates
 labels: announcements,help center,newsletter,published,update,what's new,Magento,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
- **NEXT UPDATE**: October 9th, 2022.
+ **NEXT UPDATE**: October 11th, 2022.
 
 Here’s a short update on what was published and updated in our support knowledge base during the last two weeks (September 14th - September 27th, 2022).
 
