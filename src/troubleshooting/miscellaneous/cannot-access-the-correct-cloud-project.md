@@ -7,11 +7,13 @@ This article provides a fix for the issue when you are unable to access the corr
 
 ## Issue
 
-When you log in to your cloud account at https://accounts.magento.cloud/user, the account is automatically switched to another user's account which prevents you from accessing the correct project.
+When you log in to your cloud account at https://accounts.magento.cloud/user, you are automatically switched to the wrong account associated with another user/email address.
+
+As a result, you are unable to access the correct project associated with your account.
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure, all supported versions
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Cause
 
