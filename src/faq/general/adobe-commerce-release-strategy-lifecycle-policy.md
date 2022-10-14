@@ -83,7 +83,7 @@ Managed Services customers can work with our Customer Engineering team for assis
 
 ## Extended Support Options
 
-### [NEW] I am currently using Adobe Commerce 2.3.x and would like to upgrade to the latest 2.4.x version in 2022. However, with the 2.3 line reaching end of support in April 2022, that does not give me enough time to upgrade while staying supported. What are my options?
+### I am currently using Adobe Commerce 2.3.x and would like to upgrade to the latest 2.4.x version in 2022. However, with the 2.3 line reaching end of support in April 2022, that does not give me enough time to upgrade while staying supported. What are my options?
 
 We understand that it takes time to upgrade, and we are here to support you on your path to 2.4.4. We are shifting the 2.3 line End of Support date from April 28, 2022, to September 8, 2022, to provide you with additional time to prepare for and execute your upgrade to 2.4.4.
 
@@ -91,25 +91,25 @@ We still encourage you to upgrade to 2.4.4 at your earliest convenience to help 
 
 If making the move to 2.4.4 is not feasible within this timeframe, we recommend that you upgrade first to 2.3.7 by September 8, which will be a lower-level effort. We will be offering a paid extended support option for 2.3.7 for an additional year (Sept 2022 – Sept 2023) so that you can prepare for your next upgrade to 2.4.4 or higher. More details will be announced in March.
 
-### [NEW] I am currently using Adobe Commerce 2.4.0-2.4.2 and would like to upgrade to the latest 2.4.x version. However, I am unable to plan for another upgrade before my version reaches end of support in November 2022. What are my options?
+### I am currently using Adobe Commerce 2.4.0-2.4.2 and would like to upgrade to the latest 2.4.x version. However, I am unable to plan for another upgrade before my version reaches end of support in November 2022. What are my options?
 
 We have updated our lifecycle policy so that our version end of support dates are now aligned with PHP end of life dates. While this change is ultimately beneficial and extends the amount of time between versions that cause breaking changes, we recognize that it means a shorter support window for some customers.  
 
 We will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 – Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
 
-### [NEW] I recently upgraded to Adobe Commerce 2.4.3 and am not able to plan for another upgrade in 2022. With 2.4.3 reaching end of support in November 2022, what are my options to stay supported?
+### I recently upgraded to Adobe Commerce 2.4.3 and am not able to plan for another upgrade in 2022. With 2.4.3 reaching end of support in November 2022, what are my options to stay supported?
 
 We recognize that you recently upgraded to or are in the process of upgrading to 2.4.3, and planning your next upgrade immediately may not be feasible. As your partner in your digital commerce journey, we will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 – Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
 
-### [NEW] What is paid extended support and how do I learn more about it?
+### What is paid extended support and how do I learn more about it?
 
-Adobe Commerce will offer a paid extended support option for versions based on PHP 7.4 (customers on 2.3.7 and/or 2.4.0-2.4.3) that includes both quality and security fixes for up to one year. These new offerings will give merchants more time to be supported as they plan and execute their upgrade to 2.4.4 or higher.  
+Adobe offers a paid extended support option for Adobe Commerce versions based on PHP 7.4 (customers on Adobe Commerce 2.3.7 and or 2.4.0-2.4.3) that includes both quality and security fixes for the core application and PHP 7.4 for up to one year. This  gives merchants more time to be supported as they plan and execute their upgrade to 2.4.4 or higher. 
+ 
+Extended support for 2.3.7 starts after 2.3 reaches End Of Support (EOS) on September 8, 2022 and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 start after EOS on November 28, 2022 and can be received until November 28, 2023. 
+ 
+While extended support does include support for PHP 7.4, it is important to note that merchants may need to take additional measures to stay PCI-compliant. Adobe cannot provide support for all third-party technologies our software uses that may reach end of life while you are on extended support. Adobe recommends that merchants work with a [PCI assessor] (https://listings.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) to ensure compliance.
 
-Extended support for 2.3.7 will start after 2.3 reaches EOS on September 8, 2022 and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 will start after EOS on November 28, 2022, and can be received until November 28, 2023.  
-
-It is important to note that even under extended support, you may need to take additional measures to stay PCI compliant. Adobe Commerce cannot provide support for third-party technologies, such as PHP, that have reached end of life.
-
-### [NEW] What is PCI compliance and why won’t extended support keep me compliant?
+### What is PCI compliance and why won’t extended support keep me compliant?
 
 Payment Card Industry (PCI) compliance is a set of industry standards that all businesses that process credit card information need to follow to maintain a secure environment for their customers. Companies must keep their commerce platform and all technological dependencies up to date in order to remain PCI compliant.   
 
@@ -119,6 +119,13 @@ For instance, 2.4.3 is based on a version of PHP that will reach EOL in November
 
 Please refer to [Adobe Commerce System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) for a full list of tested and supported third-party technologies.
 
-### [NEW] What actions can I take to address PCI failure caused by outdated software?
+### What actions can I take to address PCI failure caused by outdated software?
 
-Running an unsupported version of a third-party technology, such as PHP, may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends customers using outdated PHP purchase extended support from vendors such as [Zend](https://www.zend.com/services/php-long-term-support), who can provide security patches and updates for vulnerabilities discovered on unsupported PHP versions.  
+Running an unsupported version of a third-party technology may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends that merchants either upgrade to the latest Adobe Commerce version as soon as possible to become PCI-compliant or work with a [PCI assessor] (https://listings.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) to ensure compliance.
+
+### I have purchased extended support. How will I receive support for security and quality fixes? 
+•	Quality fixes: You may contact the Adobe Support team for quality issues.  
+
+•	Security fixes: During the extended support period, Adobe Commerce will release security hotfixes on a quarterly basis for versions covered by the extended support plan. We will alert extended support customers via email when these hotfixes are available, but you may also check for and download hotfixes in your Adobe Commerce My Account section in the Marketplace portal. Outside of these releases, you may also contact the Adobe Support team for security issues. 
+
+•	PHP 7.4 fixes: For On-Premise customers, PHP 7.4 fixes will be delivered as downloads available in your Adobe Commerce My Account section at https://account.magento.com/customer/account/. This section will also include relevant installation and release notes. For Cloud customers, these updates will be made available automatically in your cloud instance and you will be alerted of the update via email.
