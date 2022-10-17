@@ -27,8 +27,9 @@ Static content deployment fails when deploying with a compact strategy.
 
 1. Deploy the static content with a compact strategy by running the following command:
 
-`bin/magento setup:static-content:deploy -f -s compact`
-
+```bash
+bin/magento setup:static-content:deploy -f -s compact
+```
 <ins>Expected results</ins>:
 
 Static content deployment is completed without any error.
